@@ -1,0 +1,840 @@
+November 2000
+
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+
+HOUSING 
+
+Sticker shocked 
+
+By David Heath and Justin Mayo 
+
+The Seattle Times 
+
+Talk around the office espresso machine in Seattle often includes gee-whiz accounts of a neighbor's house that sold at some as- tounding price. 
+
+Tales of properties going for $100,000 over list price are common. One 3,000- square-foot house in trendy Washington Park overlooking Lake Washington recently sold for $1 million over the $1.6 million asking price. 
+
+The sentiment is that prices are getting out of reach. 
+
+CRIMINAL JUSTICE 
+
+Inmate imports 
+
+By Greg Paraham 
+
+The Commercial Appeal 
+
+Good training. 
+
+That phrase from military jargon, which means learning something valuable from a dif- ficult task, best describes what happened when an investigative reporter asked if I could help translate some prison data he was expecting. 
+
+I said yes without hesitation. As a re- searcher, I had worked with the reporter on other successful projects involving electronic public records. 
+
+Then I discovered the condition of the data. Some of it was zipped across several disks. Some of it was on printouts and had to be scanned and then edited. All of it would need translation to a database manager because of the expected large number of records. 
+
+The next few weeks promised to be in- teresting. 
+
+Project description 
+
+The reporter's task was to identify prison inmates from the Wisconsin prison Continued on page twelve 
+
+However, a detailed analysis by The Se- attle Times showed that houses are more af- fordable today than at almost any time in the past 15 years. Rising incomes and fall- ing interest rates during that period have ac- tually overcome soaring home prices. 
+
+What's more, home prices in the more desirable Seattle neighborhoods have risen at double-digit rates over the past fifteen years - especially since 1995 - while the market has been much tamer in other areas. 
+
+The thrust of the eight-part series, called "Sticker Shocked," was to break down hous- ing trends by neighborhood. 
+
+The newspaper obtained 15 years' worth of sales data from assessor's offices in three counties, and some GIS maps, that served as the backbone to the analysis. 
+
+We used SQL Server for the primary da- tabase work, ArcView for the mapping, and SPSS, a statistical software, to calculate me- dians. Excel proved extremely useful for computing financial information, such as in- terest rates, payment over time and annu- ities. 
+
+The Seattle Times had for some time been looking for a way to delve deeply into the local housing market. We routinely report changes in average home prices by neigh- borhood. But as we all know, averages can be very misleading. 
+
+In Bill Gates' neighborhood of Medina, the average house sold for $811,000 last year, while the median price was $469,000. De- pending on which number you use, prices rose either 55 percent or 15 percent in a year. The latter is far more accurate. 
+
+We knew we wanted to calculate me- dian prices by neighborhood. But even medians can be misleading. For example, if smaller, less-expensive homes suddenly become hot sellers in a neighborhood, 
+
+Inside Uplink 
+
+This month's Uplink focuses on housing issues, including housing and apartment prices and housing inspections. David Heath and Justin Mayo of The Seattle Times recount their ef- forts to put Seattle's housing prices into perspective (see this page). Janet Roberts of the St. Paul Pioneer Press discusses the paper's investigation into hous- ing inspections (see page two), as does Ron Shawgo of The Jour- nal Gazette in Fort Wayne, Ind. (see page four). And the New York Daily News Kevin McCoy (see page three) examines New York City's rental market. 
+
+Crime 
+
+In a survey of Georgia's "sec- ond chance" law, David Milliron of the Atlanta Journal- Constitution and Chris Cantergiani of WSB-TV Chan- nel 2 find many of the state's convicted felons have taken ad- vantage of a legal loophole. SEE PAGE SIX 
+
+Drugs 
+
+Hanqe Curtis of the Orlando Sentinel used records requests and Access to dispute a Florida agency's findings on deaths from designer drugs. 
+
+Continued on page ten
+
+
+SEE PAGE EIGHT 
+
+HOUSING 
+
+Uplink 
+
+November 2000 
+
+Volume 12, Number 9 A newsletter of the National Institute for Computer-Assisted Reporting 
+
+EDITOR 
+
+Brant Houston 
+
+MANAGING EDITOR Mary Jo Sylwester 
+
+ASSOCIATE EDITOR Paul Monies 
+
+ART DIRECTOR Kerrie Kirtland 
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. 
+
+NICAR services include hands- on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis. 
+
+DIRECTOR OF PUBLICATIONS Len Bruzzese 
+
+SUBSCRIPTION ADMINISTRATOR John Green 
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers. 
+
+Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org 
+
+Neighborhood blight 
+
+By Janet Roberts St. Paul Pioneer Press 
+
+Anyone who's spent time answering the newsroom phone has heard from them - the people who live next door to the house with the falling-down garage or the giant trash pile or the rodent den. 
+
+One at a time, the sad tales don't amount to much - maybe a news feature on a slow day. But start digging around in your city's housing inspections data, then plot what you find on a map, and the story gets better. 
+
+We all know which neighborhoods in our city suffer from blight. All you have to do is drive down those streets and look for the boarded up windows, overgrown yards and peeling paint. But what is the scope of that blight? That's where mapping software, such as ArcView, can help tell the story in an eye- opening way. 
+
+We all know which neighborhoods in our city suffer from blight. But what is the scope of that blight? That's where mapping software, such as ArcView, can help tell the story in an eye- opening way. 
+
+At the St. Paul Pioneer Press, one of our city hall reporters, Charles Laszewski, wanted to investigate complaints that the housing inspec- tions chief wasn't tough enough on owners of run-down properties. So we asked for the city's housing inspections database. 
+
+We wanted to find out if the critics were right: Were inspectors too lax? We found the story was more complicated. Among our findings: Inspec- tors were responding promptly to complaints and following up on them. But the system does: lousy job policing repeat offenders. And the Twin Cit- ies has lots of chronic problem properties. 
+
+We defined a problem property as one with repeated violations spanning two years or more. Then we turned to our mapping software. We wanted to plot the properties on a map so we could see how bad the prob- lem was in specific neighborhoods. 
+
+Our inspections data listed the street address for every property inspectors visited. We win- nowed the list to just the chronic offenders. Then we asked ArcView to geocode the addresses in other words, plot them on a map of St. Paul. 
+
+That didn't produce a very useful map. There were so many problem properties in some neighborhoods that we ended up with a giant blob of red points. 
+
+So we set out to produce a better map: one that would show the rate of problem properties in each neighborhood, shaded from best to worst. We had an ArcView map that showed all the census tracts for St. Paul. For each census tract, we had the number of housing units. We wanted a map showing the rate of problem properties per 1,000 housing units. 
+
+But we had a problem: our inspections data didn't list the census tract for each prop- erty. How would we count the number of problem properties in each tract? 
+
+We did it by asking ArcView to do a "spa- tial join." It's like joining data tables in Ac- cess or FoxPro, except the join is on geo- graphic attributes instead of on matching data fields. The result was a data table that listed the census tract for each problem prop- erty. From there, we ran some counts in FoxPro, and then we were able to ask ArcView to shade the census tracts to show the extent of blight in each. 
+
+The result: In one St. Paul neighborhood, one of every three houses has chronic housing code violations. Others weren't much better. 
+
+The series brought about some results: The City Council added money to the budget to hire more housing inspectors. The mayor an- nounced a police sweep to arrest property own- ers with outstanding housing court warrants. And the county is spending more money to maintain tax-forfeited properties. 
+
+See page four for link to the Pioneer Press Story. Janet Roberts can be reached by e-mail at jroberts@pioneerpress.com. 
+
+2
+
+
+HOUSING 
+
+Big Apple rents 
+
+By Kevin McCoy New York Daily News 
+
+Never mind about the Knicks and the Yanks, the Mets and the Giants. New York City's true sport is real estate. All over the city, everyone talks about the ups and downs of the perpetually tight and expensive apartment market. But it's almost impossible to get an accurate score - or a clear and comprehensive picture of what's really happening in the sprawling real estate market. 
+
+Until now. 
+
+In August, the New York Daily News cut through the hype of real estate brokers who portray in-house market surveys as the real state of the market and published the most accurate look possible at the overall state of the city rental market. 
+
+All it took was some computer mining of specialized federal government data and a working alliance with urban. affairs experts at a local university. 
+
+During the 10-year span between federal censuses, the U.S. Census Bureau conducts several special studies known as the New York City Housing Vacancy Surveys. The reports gauge whether the citywide apartment va- cancy rate ever hits 5 percent, the legal tip- ping point that would trigger the elimina- tion of rent protection laws that date back half a century. 
+
+Survey says 
+
+The surveys show the magic threshold has never been reached. But the reports also col- lect valuable information about rent costs, household income and size, national origin and many other measures that are usually available only from the decennial census. 
+
+The Census Bureau posted the 1999 va- cancy survey online in mid-summer. The News obtained the data online from the Cen- sus Bureau Web site at www.census.gou/hhesl wwwlnychvs.html. The data is posted in ASCII format, and ideally should be down- loaded into an SAS or SPSS database for analysis. The Census Bureau experts who prepare the data use SAS. 
+
+Like most census information, the data itself was in very good condition and required little cleaning. The survey included median 
+
+and mean household rents broken down by more than 50 neighborhood areas around the city. Although obtaining the information was easy, putting it in perspective took several weeks of reporting. The News turned to the Center for Urban Research, a graduate department at the City University of New York. There, John Mollenkopf and Joseph Pereira have directed graduate students in many studies of hous- ing vacancy survey data and other computer studies related to New York City. 
+
+Historical data 
+
+Pereira not only helped analyze the 1999 data, he provided information from similar Census Bureau surveys conducted in 1991, 1993 and 1996. The surveys provided a first- ever look at exactly how much New York City rents rose during the 1990s and identified the neighborhoods hit with the biggest in- creases. 
+
+Put another way, the numbers finally gave New Yorkers the real score on real estate. The data showed that median household rents rose 36 percent citywide during the last de- cade. In at least one Manhattan neighbor- hood, the increase was 67 percent. The pa- per brought the numbers to life by interview- ing residents of neighborhoods where rents rose sharply and finding out what the in- creases meant to their lives. To bring additional context to the story, Pereira and The News adjusted the rent data for inflation, then conducted similar calcu- lations using household incomes reported in the housing vacancy surveys. This work showed that although rents rose sharply during the 1990s, income roughly kept pace amid the booming economy. Although the Census Bureau doesn't con- duct vacancy surveys for other cities and towns, the 2000 Census data will enable any re- porter to conduct a similar analysis of local hous- ing costs. Three years from now, check with a broad spectrum of local real estate agents and bro- kers - and analyze how the market has changed. 
+
+Kevin McCoy can be reached by e-mail at kmccoy@edit.nydailynews.com. 
+
+Web links 
+
+The Daily News story can be found at the following site: 
+
+www.nydailynews.com/2000- 08-06/News_and_Views/ City_Beatla-75651.asp. 
+
+The maps and tables that ran with the story can be found here: 
+
+www.nydailynews.com/2000- 08-06 News_and_Views/ City_Beat/a-75663.asp. 
+
+The story is also available in the IRE Resource Center, story #16917. 
+
+3
+
+
+HOUSING 
+
+Discarded and decayed 
+
+The Journal Gazette's series on "Discarded and decayed" can be found at: www.journalgazette.net/ projects/landlords/ seriesl_l.htm Also in the IRE Resource Center, story #15931. 
+
+The St. Paul Pioneer Press Story, 'A Blight on the Cities" is available in the IRE Resource Center story # 15948. 
+
+Also available online at www.pioneerplanet.wml archive/problemproperties/ 
+
+By Ron Shawgo The Journal Gazette 
+
+Landlords affect thousands of lives and have a major impact on the urban landscape. With that in mind, The Journal Gazette set out in April 1999 to identify the top play- ers in Fort Wayne's rental housing industry. Although The Journal Gazette has several computer-assisted stories under its belt, this was our most ambitious CAR project. Eight months after drudging through lengthy data negotiations, importing hassles and mind-numbing data cleaning, reporter Lisa Shidler and I had a three-day package, "Discarded and decayed." 
+
+Our stories revealed that by failing to take over tax-delinquent properties, the county was one of the biggest violators of housing ordinances. We also talked to some typical slumlords and the city's largest landlords, who view housing violations as a cost of doing business. 
+
+The data hurdle 
+
+Of course, getting data was our first hurdle. We figured that if we had a database of Fort Wayne housing violations we could link those addresses with property tax records to find the owners. 
+
+We knew our main task would be identi- fying property managers, the landlords who rent houses owned by other people. Because their names would not be listed as titlehold- ers, we worked on the assumption that an address that receives numerous tax bills could be a property manager's business address. The assumption largely held true. 
+
+We contacted the county treasurer, the county building department, the city-county health department and the city office that inspects buildings for code violations. The six databases we ultimately acquired from those agencies contained county property tax records, health code violations, rodent inspec- tions, building code violations, building demolitions and a list of properties the county could claim for back taxes. 
+
+While some agencies gave us free data, the county wanted nearly $3,000 for the prop- erty records. After we informed officials that their 2-cents-per-record fee violated state law, the price was greatly reduced. 
+
+Officials I dealt with ran the gamut. One health official was the office's main computer authority and e-mailed files to me for free. Another county official knew little about copying data, so I helped guide him through his archaic software to save the data on disk in ASCII format. 
+
+Data slicing 
+
+We primarily used Microsoft Access and Excel to sort the data. (Although the project would have benefited from mapping soft- ware, it was done in our pre-mapping days.) 
+
+There was a lot of data slicing to do. For example, the rodent inspection office, a di- vision of the health department, had its data on 10 files, one for each year since 1990. Taking into account that new fields were added to the files from one year to the next, I spliced them together. 
+
+We then added the rodent database to a much larger one listing health code viola- tions, such as improperly disposed trash, dis- carded tires and appliances, and child neglect. That database also came in several files with slight differences and had to be spliced. 
+
+Our two largest databases came from the county treasurer. One contained information on the property being taxed, and the other contained tax payment details, including addresses where tax bills are sent. Although the files contained a massive amount of in- formation, we needed them only for current and former owners and the billing addresses. 
+
+The tax files caused our only data import- ing headaches. As our information systems people worked out the kinks, we began clean- ing the data we had in hand. 
+
+Because we wanted to link all of our tables by their address fields, making addresses uni- form was important. Input errors, omissions, misspellings and a general lack of uniformity in those addresses made the task time con- suming and nearly overwhelming. 
+
+Address problems 
+
+Some addresses had no directional prefix (N, S, E or W); others had no street type (road, drive, circle). Data cleaning took sev- eral months and required combining address fields and eliminating leading spaces, a couple of new Access tricks I learned with the help 
+
+Continued on page five 
+
+4
+
+
+Discarded 
+
+Continued from page four: 
+
+of NICAR-L subscribers. We also got a list of county and city streets with their numerical address ranges. Know- ing the ranges - addresses where a street starts and where it ends - was essential in handling streets with common names and placing a violation in the proper locale. Although our focus was Fort Wayne, health code violations covered the entire county, and the city or town was not always listed. A violation on Main Street could be in Fort Wayne or any of eight other towns with a Main Street in the county. Having address ranges, which often vary from town to town, helped us narrow our options. 
+
+Because our violations databases seldom listed homeowners, we linked addresses in them to the treasurer's database, which contained current and past owners and dates the property transferred to their names. 
+
+The ranges also helped us correctly place violations on Fort Wayne streets with simi- lar names. For example, if a violation was written as 1234 Reed, we had to verify if it was Reed Road or Reed Street, both of which are in the city. If an address could not be veri- fied, the violation was discarded. 
+
+We also used the Census Tract Street Lo- cator (http://tier2.census.gov/ctsWctsl.htm) to verify some addresses. The locator allows you to select a county and search for street ad- dress ranges by entering a partial street name. It is good for all but the newest streets. 
+
+Because our violations databases seldom listed homeowners, we linked addresses in 
+
+them to the treasurer's database, which con- tained current and past owners and dates the property transferred to their names. Those transfer dates were important, because they identified who owned a house when a viola- tion was committed. Using violation and transfer dates as sorting criteria, we ran Ac- cess queries to link owners with offenses. But that was only partially helpful with our database of building code inspections, which covered things such as peeling paint, rotting eaves and crumbling foundations. The date on that database referred only to when the house was first inspected for viola- tions. Subsequent inspection dates were not listed. 
+
+The database also gave no details on the number of violations a house received over the years under various owners, making it impossible to rank problem landlords. Al- though it gave us a starting point in our search, we had to delve into paper records for details. 
+
+County titleholders 
+
+It was clear from the time we started com- piling the data that the county would be part of the story. Although not landlords, the county commissioners, who have the author- ity to take title to properties for back taxes, were listed as the titleholder of many prop- erties with violations. 
+
+Concerned about maintenance and liabil- ity issues, the county in the mid-1980s de- cided to leave tax-delinquent property in the owner's name with the option of claiming it at any time. After discovering the county connection, we asked for and received a da- tabase of about 1,000 properties "certified" to the county. 
+
+Many of the houses are vacant. Some properties eventually are turned over to non- profit agencies. But many are left to decay. 
+
+As a result of our series, the county has ini- tiated ways to eliminate some of the complica- tions for giving unwanted properties to non- profit agencies. The county also formed a com- mittee to address the housing problem and de- cided to have an additional tax sale in an at- tempt to get the properties back on the tax rolls. 
+
+Ron Shawgo can be reached by e-mail at rshawgo@jg.net. 
+
+For similar stories on housing, check out the following files at the IRE Resource Center, (573) 882- 3364: 
+
+Story #16811. The Lexington Herald-Leader examines substandard housing conditions. Reporters used database and shoe-leather reporting to find wealthy landlords and the tenants who live in squalor. The paper also finds that city inspectors are not doing their jobs. 
+
+Story 13662. The San Francisco Bay Guardian looks into the Housing and Urban Development program that allows housing authorities to demolish and rebuild their worst housing stock. 
+
+Story #16435. Florida Trend magazine examines allegations that the Florida Housing Finance Corporation, which distributes millions in government subsidies, is handing out money to benefit a favored few. 
+
+5
+
+
+CRIME 
+
+Second chances 
+
+The following stories also address jails and prison problems: 
+
+The Atlanta Journal- Constitution and WSB-TV joint project will soon be available in the IRE Resource Center. Search the story database at www.ire.org/resourcecenter 
+
+Story #16665. The Arkansas Democrat-Gazette finds that many criminals convicted of felonies are receiving second, third and fourth chances because of crowded prisons and overworked courts. 
+
+Story #16545. Mother Jones takes a look at a private prison in Youngstown, Ohio, run by Corrections Corporation of America. 
+
+Story #15666. This National Journal story takes a look at the private prison industry, including questions on inmate complaints and accountability. 
+
+Check out IRE's Web site at www.ire.org/resourcecenterl for more information. 
+
+By David A. Milliron Atlanta Journal-Constitution and Chris Cantergiani WSB-TV Channel 2 
+
+Georgia courts have given Barry Williams, a low-level drug offender, a second chance - five times. Williams is one of more than 4,900 indi- viduals found to be given a second bite at the apple multiple times since 1985 under a law intended to give criminals with no pre- vious record a second chance. But an analysis by The Atlanta Journal- Constitution and WSB-TV Channel 2 of computer records kept by the Georgia Bu- reau of Investigation and the state Depart- ment of Corrections found those who already had a felony conviction - or had used the second chance offered by the legal system managed to take advantage of loopholes and bad record-keeping to get another crack at first offender status. 
+
+That's when we stumbled upon the current investigation. While running queries on the teacher-felon project, we found a teacher who had a prior arrest - yet a subsequent arrest had been sealed. Oops! 
+
+And why not? Those sentenced under Georgia's First Offender Act are immedi- ately eligible for parole, and their convic- tions are removed from their record if they stay out of trouble during probation. 
+
+A potential employer, for example, would not see the conviction of a job ap- plicant who had successfully completed the terms of the agreement. The perma- 
+
+nent record of the conviction would be seen only by law enforcement agencies. 
+
+Sealed records 
+
+The idea for the investigation came out of our analysis of felony conviction records while working to expose thousands of Geor- gia public school teachers who failed to dis- close arrests on teaching applications and with the state Department of Professional Standards, which licenses educators. For the prior investigation, we acquired databases from the Department of Cor- rections listing all convictions on record since the late 1970s. But the first batch of data didn't include Social Security Num- bers, which are public record in Georgia, so we had to go back and request they be included. 
+
+When we got the second batch of data, however, we quickly noticed thousands upon thousands of records that were popu- lated with S's in the name, Social Security Number and date of birth fields. A quick call to the state Department of Corrections introduced us to the First Offender Act, which they said required them to seal the records. 
+
+At a judge's discretion, someone who pleads guilty or nolo contendere to a felony in Georgia may be sentenced un- der the First Offender Act unless the crime is murder, armed robbery, kidnapping, rape, aggravated child molestation, aggra- vated sodomy or aggravated sexual battery. The court is required to review a person's criminal record for past first-offender sentencings or felony convictions. Once a first-offender sentence is complete, a person is not considered to have had a criminal con- viction for that offense. 
+
+That's when we stumbled upon the cur- rent investigation. While running queries on the teacher-felon project, we found a teacher who had a prior arrest - yet a subsequent arrest had been sealed. Oops! 
+
+Yes, the first batch of data had not been redacted; it just excluded Social Security Numbers. And since both sets contained a unique identifier much like a Social Security Number for each offender, we simply per- formed an inner join in Microsoft Access to 
+
+Continued on page seven 
+
+6
+
+
+Continued from page six Chances 
+
+pluck an individual's name and date of birth from the unredacted database. 
+
+Heavy lifting 
+
+Now it was time for the heavy data lift- ing. All we had to do was apply the law to the data. Barry Williams, our low-level drug of- fender, was one of the more than 4,900 indi- viduals who matched one of our criteria. On Williams' fifth second chance, he still got a break even though his felony record went back 14 years. To identify people like Williams who were improperly afforded first offender status, we carved the master database into separate tables that we later exported to Microsoft Excel. Anyone who had never been afforded first offender status was immediately elimi- nated from the pool. Those with a single first offender status were placed in one database along with all their arrest history, and those with multiple first offender status in another. 
+
+Coding offenders 
+
+Since neither of us are big fans of writing code unless we absolutely have to, we de- cided to code all the first offenders with an "X" in the state-provided "FOS" field. We then sorted each spreadsheet by name and conviction date in ascending order. 
+
+Now, this may be too simplistic a solu- tion, but it worked fine for us. Since our spreadsheet was properly sorted, all we had to do is create the "evaluate" field and auto- number the individual convictions. 
+
+We wrote a simple formula to populate the "evaluate" field that would tell us which conviction was number 1, which was num- ber 2, etc. Our formula assumes the column to be checked is the "unique identifier" field in Column A, and that we wanted the result to appear in the "evaluate" field, or Column E. Here's the one-line formula: 
+
+=IF(A2~A1,1,E1+1) 
+
+We then just copied the formula down as many rows as we had data, and this did all of the counts for us. When the contents of the "unique identifier" field changed, then con- tents of the "evaluate" column were reset to 
+
+1, otherwise "evaluate" was incremented by 1.For those of you who prefer coding, we could have done it as such: 
+
+set mg = Range(Range("A2"),Range("A2").End(xldown)) Range("E1").value=1 mg.offset(0,1).formula = "=if(A2=A1,E1+1,1)" 
+
+OK, now here's where it got real simple. We copied the contents of the "evaluate" field and did an Edit Paste Special I Values com- mand so that we could preserve the auto in- crements as we further analyzed the data. We then did a quick filter of the "FOS" field for the X's and the "evaluate" field for records with a "1" in them. Those records were deleted. We then again filtered the "FOS" field, but this time for blank cells, which were deleted. 
+
+Several second chances 
+
+Altogether, 2,410 individuals since 1986 have been sentenced as first offenders even though they had prior felony convictions. Another 2,504 have received first offender status more than once, according to GBI records. 
+
+Among the reasons: 
+
+Not all court systems register their con- victions with the state in a timely manner. 
+The transition from paper to computer can be slow in many counties, creating gaps in record keeping. 
+The criminal histories in the Georgia Bureau of Investigation's "Georgia Crime Information Center" are not accurate or up to date. 
+
+Since our investigation, the state has un- veiled a new automated system it is piloting in metro Atlanta that officials claim will al- low law enforcement and justice officials to access an individual's criminal history in sec- onds, rather than what court officials said often took months. The state's attorney gen- eral has also said the state legislature needs to work to eliminate the loopholes in the system. 
+
+David Milliron can be reached by e-mail at dmilliron@ajc.com. Chris Cantergiani can be reached by e-mail at chris.cantergiani@wsbtv.com. 
+
+Tipsheets 
+
+Tipsheet #1335. This tipsheet provides general information for reporters working on their first criminal justice CAR story (Lexington, 2000). 
+
+Tipsheet #978. Explains the cost of prisons and discusses whether elderly convicts should be kept in prison (Kansas City, 1999). 
+
+Tipsheet #1061.A list of prison sources with phone numbers and contact information (Los Angeles, 1999). 
+
+Call IRE's Resource Center at (573) 882-3364 to order. 
+
+7
+
+
+DRUGS 
+
+Raving the wrong way 
+
+IRE's Resource Center has the following stories on drugs: 
+
+The Orlando Sentinel's story on designer drug deaths will soon be available in the IRE Resource Center. Search the story database at www.ire.org/ resourcecenter 
+
+Story #16742. New York magazine takes an in-depth look at the growing ecstasy culture popularized by widespread use of the drug in major cities. The story also looks at how the medical and law enforcement communities are reacting to it. 
+
+Story #16621. The Detroit News investigates the "date-rape" drug, GHB, and finds it is growing in popularity with casual users in Michigan and across the country. 
+
+Call (573) 882-3364 for more information on how to order. 
+
+By Hanque Curtis Orlando Sentinel Anything can happen in Florida, includ- ing counting great-grandmothers as rave vic- tims in a state drug abuse study. That's what a few clicks of the computer showed. Now, months later, facts forced Gov. Jeb Bush's drug czar to remove 80 names from a list cited as evidence of an epidemic of de- signer drug-related deaths. Those cases included terminal cancer pa- tients who shot themselves. Nursing home patients who fell. And a four-year-old boy treated for spinal meningitis. None had any ties to illegal drug abuse. 
+
+When the statewide information on designer- drug deaths arrived three weeks later, it quickly became obvious that the study was riddled with mistakes. 
+
+This came to light thanks to a two-day IRE workshop on computer-assisted report- ing. When it ended, I started looking for a story to put to use what I had learned. 
+
+First ideas 
+
+The first couple of ideas seemed too com- plex. 
+
+Then, I heard that state officials had asked medical examiners to cull their files from 1997 through 1999 for any cases that tested positive for any of 20 "designer" drugs asso- ciated with raves and all-night dancing. Hav- ing reported on heroin abuse in Central Florida since 1996, I was looking for ways to expand my coverage. So I submitted a pub- lic records request for the confirmed cases, hoping to identify and track trends in de- signer drug abuse. 
+
+The request seemed routine, but a spokes- man for the year-old Office of Drug Control 
+
+claimed it would be necessary to contacter law enforcement agency that might have investigated the deaths to make sure the cases were public. 
+
+To prevent being delayed for months, I suggested blacking out the victims' names but leaving such vital statistics as age, sex, race, date of death, the medical examiner's district and the drugs detected. I asked for this know- ing it could be used to identify the victims and obtain their autopsy reports, if needed. 
+
+Record requests 
+
+While waiting for the statewide informa- tion, I submitted public records requests to the medical examiners in the six counties of Central Florida for copies of the records they provided for the designer-drug study. This made certain I would have complete infor- mation on the cases in The Sentinel's cover- age area. 
+
+The local cases arrived within days. While waiting for the statewide information, I cre- ated an Access table for 60 local deaths sub- mitted to the Office of Drug Control for re- view. The table had 13 fields of information for each case. Besides recording vital statis- tics, the fields included day of the week of each death, the presence of alcohol, if the victim met the typical age range of designer drug users, cause of death and circumstances of death. 
+
+Tracking this information was wonder- fully easy. 
+
+It was nothing compared to what I used to do. Back in 1997, another reporter and I copied all information from more than 3,800 traffic tickets issued by a drug squad patrol- ling Florida's Turnpike to write a story about racial profiling. The information filled a small pile of legal pads. Then, we had to add col- umn after column of numbers. Finally, we had to double-check each other's math. 
+
+Now, all I have to do is remember to use the correct commands. 
+
+Data arrives 
+
+When the statewide information on de- signer-drug deaths arrived three weeks later, it quickly became obvious that the study was riddled with mistakes. 
+
+In case after case, the victims appeared too young or too old to be designer-drugusers. Eighty- 
+
+Continued on page eleven 
+
+8
+
+
+TECH TIP FileMaker Intranet 
+
+By Paul D'Ambrosio 
+
+Asbury Park Press If you need to set up a full-service Intranet with a powerful database server, but you don't have a lot of time or resources, you may want to look at FileMaker Pro Unlimited 5. With its built in Web server and data manager, you can essentially turn any PC on your newsroom or company network into a file server. This may sound like a product pitch (trust me, I get nothing from the FileMaker Pro people), but you can have a searchable database up and running in a matter of minutes without any programming. You just import a DBF or XLS file, turn on the Web-sharing feature and away you go. 
+
+FMU's server software allows any machine on the Intranet to access the databases you want your users to see and search. We even have a source page that reporters can add or change records to on the fly. 
+
+Larger databases will take longer to set up since you will need to index all the key search fields, a slow process. 
+
+FMU's server software allows any machine on the Intranet to access the databases you want your users to see and search. We even have a source page that reporters can add or change records to on the fly. 
+
+You can use FMU's default search page, which allows you to search any field in the database, or design your own with FileMaker Home Page 3.0, a separate product. If you shop around, you will likely find you can buy both products for less than $1,000. 
+
+We have more than a dozen databases run- ning on a Pentium Pro 200 dual chip server 
+
+with 256 megs of RAM. The databases range from 500 records to more than 600,000. Once indexed, searches are lightning fast for both the large and small data sets. 
+
+How it works 
+
+Our system runs this way: the newsroom's Intranet page was designed using FrontPage 2000 with links to our databases. Each data- base search page was designed with FileMaker Home Page since FrontPage can't read the proprietary HTML that FMU uses. 
+
+Since we are part of a larger Intranet net- work, the home page resides on a different server, but FMU and the search pages have their own machine. I estimate the FMU server gets up to two-dozen hits at a time with more than 100 PCs attached to it. I have not noticed any degradation during searches, even at peak hours. 
+
+One downside to FMU is a lack of clear documentation. We found integrating the Home Page files into the overall Intranet frus- trating until Robert Weston from AP's The Wire Web site, who has used FMP for a num- ber of months, cleared up the confusion. If you run into this problem, the best sugges- tion is to use the "Consolidate" option in Home Page and copy the search folder to one level above where your databases reside in FMU. 
+
+It is also best to use flat files for speed. Joining files may save space, but the learning curve on that is steeper. 
+
+More information 
+
+More information about FMU and Home Page can be found at www.filemaker.com. You can also download demos of both products at www.filemaker.com/downloadslindex.html. Be careful not to confuse the Unlimited ver- sion with the standard FileMaker Pro. Only the Unlimited can publish databases to the Internet or Intranet. 
+
+If you set the software up properly but other machines cannot see it, you may want to consult with your IS folks. They may have to tinker with the firewall or change your TCP/IP settings. 
+
+Web links 
+
+Paul D'Ambrosio can be reached by e-mail at pmd@app.com. 
+
+For general information and tips on FileMaker, check out these sites: 
+
+www.filemaker.com 
+
+www.fmfiles.com/ newtips.html 
+
+www.filemakertoday.com 
+
+www.fmpro.com 
+
+www.fileville.com 
+
+9
+
+
+The following stories on housing issues are available in IRE's Resource Center: 
+
+The Seattle Times' series, "Sticker Shocked," can be seen online at http:// seattletimes.nwsource.com/ homes/ or it is available in the IRE Resource Center, story #16511. 
+
+Story #15321.WWOR-TV investigates the New York City Housing Authority, the country's largest landlord, and finds that tax-funded maintenance money lined the pockets of a few housing inspectors. 
+
+Story #14992. Northwestern uncovers a housing inspection system where landlords with the right resources could bypass city housing codes. The series also examines renters' problems, the value of rental property and inspections training. 
+
+Continued from page one: Shocked 
+
+Call (573) 882-3364 to 
+
+place an order. 
+
+median values might seem to fall even though home values are actually appreci- ating. 
+
+We started with methodology, called "matched pairs," that Neill Borowski suc- cessfully used in an excellent series done by The Philadelphia Inquirer. The methodology examined individual homes that had sold more than once and calculated the apprecia- tion. So if a house sold for $200,000 in 1997 and $240,000 in 1998, we knew that it had appreciated 20 percent. We'd then find the median appreciation for each neighborhood. 
+
+But the "matched pairs" method has some major drawbacks. In King County alone we were dealing with 84 neighborhoods. The number of homes that had sold more than once in a given time period was often small. 
+
+Our solution was to use a simple formula borrowed from county assessors and real-estate appraisers: 
+
+Another problem was that homes that resold in one year or less were often unusual sales, not reflecting true market changes. Per- haps there was a foreclosure or a divorce or death. With the matched-pairs method, it was difficult to show how prices have changed from one year to the next. Matched pairs is better suited to showing how much homes have appreciated on average over sev- eral years. In a market as dynamic as Seattle's, we needed another method. 
+
+Square footage price 
+
+We were lucky because we had more data than the Inquirer. Our data from three county assessors had sales going back 15 years that included a wealth of information about each property's characteristics. The most important characteristic was square footage. 
+
+Our solution was to use a simple formula borrowed from county assessors and real-es- tate appraisers: comparing homes based on 
+
+price per square foot. We'd calculate the me- dian price per square foot by neighborhood and do the math from there. This gave us a large number of sales for each neighborhood in each year, making it easy to show annual changes in appreciation. 
+
+One challenge was to exclude sales that might be atypical, such as foreclosures or sales among family members. We also ex- cluded sales of multifamily homes and con- dominiums. We took a cautious approach, eventually excluding any sale flagged by the assessor's office as not being truly reflective of market prices. 
+
+A drawback to our method is that some neighborhoods include houses that are very different in style and quality. We could have used other characteristics, such as quality of home or age of home, to correct for this. But that would have been an overwhelming amount of data for readers and, in our judg- ment, overkill. 
+
+Mapping 
+
+Another major challenge for us was to map our results. There were two components to mapping: detailed neighborhood maps for readers to identify their area, and thematic maps illustrating appreciation and affordability patterns and trends. 
+
+The King County assessor's office uses residential areas to divide up their workload. These rather informal boundaries were stored as a GIS layer in their system. How- ever, the source map for this file was hand- drawn and only intended for large-scale use. Zooming in to the neighborhood level re- vealed boundaries that corresponded to nothing in the real world. 
+
+The first task was to recreate this map by digitizing 84 neighborhood areas. In the core cities this was relatively easy because most neighborhoods were bounded by streets. In newer cities or suburban areas the bound- aries were sometimes obscure township or range lines which had to be cross-referenced with assessor paper records. 
+
+Having a detailed layer of residential par- cels and a good street layer that nested per- fectly within the parcels saved us a lot of time with this tedious process. Both of these were provided by the county GIS department. 
+
+Continued on page eleven 
+
+10
+
+
+Shocked Continued from page ten: 
+
+With an accurate locator map, we could then thematically map both affordability measures and appreciation rates. 
+
+Mapping appreciation over a 15-year pe- riod instantly revealed how prices in the city's core have risen much faster than in the sub- urbs. More surprisingly, the maps showed that the boom was not spread evenly and that prices in the southern part of the county had been stagnant by comparison. 
+
+Mapping the affordability index by neighborhood showed similar patterns. We created maps for "median-income buyers" and "first-time buyers." The maps showed which areas were affordable in 1999 and how that had changed since 1984. 
+
+A twist on the affordability index was to display the income necessary to buy the me- dian house in each neighborhood. 
+
+We calculated affordability using a method borrowed from the National Association of 
+
+Realtors. We assumed that buyers have a 20 percent down payment and can afford to spend 25 percent of their incomes on principal and interest on a 30-year mortgage. We then cal- culated how much income was needed to afford a median-priced home in each neighborhood Using those assumptions, buying the me- dian-priced house sold on Seattle's Capitol Hill last year would have required a monthly payment of $2,600. However, King County's median-income household had only $1,350 a month to spend on a mortgage. This means that the median-income King County house- hold had half the income needed to buy a median-priced house on Capitol Hill, which gives that neighborhood an affordability in- dex of 50 percent. David Heath can be reached by e-mail at dheath@seatttletimes.com Justin Mayo can be reached by e-mail at jmayo@seattletimes.com 
+
+Continued from page eight: The wrong way 
+
+four of the 254 victims ranged in age from 38 to 84 years old. The youngest was six months old. And records showed that it was unlikely that many of the cases had been scrutinized before being included in the study. Out of 33 cases submitted by one medical examiner for review, the state listed all 33 as confirmed cases of de- signer drug abuse. These included an 80-year- old Alzheimer's patient and a 75-year-old woman who died from asthma. Many others had tested positive for com- mon painkillers or methamphetamines. The latter has been a commonly abused drug for more than 50 years, and its abuse in Florida is associated with farm workers, truck drivers and bikers. It did not seem likely that 40- and 50- year-old men who died in truck crashes had much to do with the state's rave culture. Reporting this involved cherry picking the most questionable cases in Central Florida, my area of coverage, as well as some from Miami and St. Petersburg to give the story statewide context. This involved contacting the three medical examiners' offices responsible for those areas and, in some cases, local law enforcement agencies to obtain reports on the deaths. 
+
+At the same time, I requested all written communications between the state Medical Examiners Commission and the Office of Drug Control about the creation of the study. 
+
+These 150 pages of records provided me with a timeline showing the study had been conducted in less than three months. It was done within that relatively tight window for a first-of-its-kind-study in Florida so the state's new drug czar, Jim McDonough, could present it at a drug summit of state legislators in February. 
+
+McDonough told the summit that his findings on designer drug abuse came from personally reading death reports and "a very thorough, autopsy-by-autopsy review." 
+
+The Access tables and queries I created showed that the state's top drug abuse ex- pert was mistaken. The state list of 254 deaths, now reduced to 174, remains under review. Meanwhile, I am able to track de- signer drug-related deaths in Florida's 67 counties simply by logging into my own database. 
+
+Tipsheets 
+
+Hanque Curtis can be reached by e-mail at hcurtis@orlandosentinel.com. 
+
+Tipsheet 183. This tipsheet contains tips and includes a chart to help reporters interested in housing issues (New York, 2000). 
+
+Tipsheet #1 182. Discusses 
+
+how the St. Paul Pioneer Press investigated housing inspectors (New York, 2000). 
+
+Tipsheet 204. Explores various housing-related scams including land flipping and slumlords (New York, 2000). 
+
+Tipsheet #1029. This tipsheet includes a timeline of an investigation into housing problems in Baltimore (Kansas City, 1999). 
+
+Tipsheet #1311. Includes tips on how to collect information from the rental housing industry (Lexington, 2000). 
+
+Tipsheets are available from IRE's Web site, www.ire.org/resourcecenter 
+
+11
+
+
+Imports 
+
+Continued from page one: 
+
+The Commercial Appeal's story, "Inmate Imports," is available in the IRE Resource Center, story #16903, or online at www.gomemphis.com/newcal special/import/import1.htm 
+
+system that had been exported to privatized prisons in our state. He suspected that two for-profit Tennessee prisons were receiving more murderers and sex offenders than other states that accepted out-of-state inmates. 
+
+He sought to verify this by using a master list of prisoners provided by the Wisconsin Department of Corrections along with the inmate population lists from prisons in Okla~ homa, Minnesota, Tennessee and Texas, Matching the lists would pinpoint the iden- tities and locations of out-of-state inmates as well as their offenses. 
+
+Data preparation 
+
+My task was to get the data in shape for the analysis, which turned out to be the easy part. After unzipping the disks, I used Microsoft Word and discovered that I had a 69-megabyte, field-length delimited blob of text that represented the entire inmate popu- lation in the Wisconsin prison system. 
+
+Querying the data and then sorting by prison identification code and inmate counts verified the reporter's suspicions. Private prisons were indeed making Tennessee a repository for violent criminals exported from crowded public prisons in Wisconsin. 
+
+I used Microsoft Access and the field- length explanation sheet sent by the Wiscon- sin prison official with the data to create a tab-delimited text file. 
+
+I decided to use FileMaker Pro for Win- 
+
+dows to analyze the data, because I am more familiar with its field calculation, database linking, layout and scripting (programming) capabilities. 
+
+Importing the data created a 72,610 record database with 53 fields of informa- tion for each inmate. This number reflected current and past prisoners. We identified in- mates who had been released to exclude them from the data set, reducing the data to 20,673 records. 
+
+I created field calculations for text strings and dates and indexed necessary fields to aid in querying and sorting the records later. 
+
+Meanwhile, the reporter scanned the in- mate lists he received from the five prisons being examined. This data was later proof- read, formatted and uploaded to another FileMaker database. 
+
+The databases were linked by the inmate's Wisconsin Department of Corrections iden- tification number, which identified the in- mates housed in the five out-of-state prisons. 
+
+After we checked for the correct inmate name and date of birth for records that matched, we had 4,268 records that were needed for the analysis. 
+
+An immediate concern arose when we found conflicting locations for some inmates. The master list did not always reflect recent relocations. The reporter ran these down and the correct locations were added to our data- bases. 
+
+We were faced also with several numeric codes for prison names, sentences, offenses, race, etc. Two code types, prison name and offense identification, were used in creating lookup files that were linked to the main database. When codes matched, text was pro- grammed to appear along with the code mak- ing it easier to identify locations of inmates and their offenses. 
+
+The offense identification codes were con- tained in as many as 16 fields within a record. This was confusing because some codes were duplicated within the record. We couldn't determine if any code was primary. Search- ing the database would be cumbersome if each field had to be included in a query. 
+
+Further examination of the data provided a solution, however. Another set of coded fields with numeric indicators for assaults, 
+
+Continued on page thirteen 
+
+12
+
+
+Continued from page twelve: Imports 
+
+sex offenses, drug offenses, escape attempts and life sentences (indicating murderers) could be searched instead of the offense codes. 
+
+Testing the data 
+
+The reporter and I spent a few hours over a couple of days testing the databases to en- sure that the results of queries made sense. We checked that the number of inmates in the out-of-state prisons matched the hard- copy printouts received from prison officials. We double-checked that the prison names and codes matched because the name data was keyed and copied into data fields. We searched the names of inmates from the various prisons to verify their locations, offenses and sentences. 
+
+Data analysis 
+
+I decided at this point to use FileMaker's scripting and layout capabilities to create the queries and reports based on the reporter's data requests. Querying the data was reduced to using the pull-down menu and selecting the appropriate search. 
+
+We used eight pieces of information from the records to create a profile of the type of prisoner being sent to our state: 
+
+Life sentences for murder convictions 
+Sex offense indicators 
+
+Assault indicators 
+Drug offense indicators 
+Maximum security rating of inmates 
+Large sentences 
+Prior felony convictions 
+Escape indicators 
+
+Querying the data and then sorting by prison identification code and inmate counts verified the reporter's suspicions. Private pris- ons were indeed making Tennessee a reposi- tory for violent criminals exported from crowded public prisons in Wisconsin. 
+
+Of the five facilities under examination, one Tennessee prison was receiving the ma- jority of Wisconsin's most offensive exiled offenders. 
+
+Once the reporter had the results of the data analysis, he was able to interview prison officials and present our findings for confir- mation and comment. 
+
+The data gave us the names of some kill- ers who were in prison for multiple charges in addition to murder. I searched the archives of newspapers in Wisconsin and the Associ- ated Press to get background. We also used the names to find (in public records data- bases) relatives of inmates who might want to talk about an exported loved one. 
+
+Good training indeed. Greg Paraham can be reached by e-mail at paraham@gomemphis.com. 
+
+WEB LINKS People and records 
+
+Beat Books 
+
+The following beat books 
+
+The following is adapted from a tipsheet by The Miami Herald's Liz Donovan at NICAR's 2000 conference in Lexington, Ky, tipsheet # 1327. 
+
+are now available from IRE: 
+
+Public records 
+
+Books are $15 each ($20 for nonmembers). Order online at www.ire.org/store/books or call (573) 882-2042. 
+
+Public records databases, www.pac-info.com 
+State and local government databases, http:/ /gwis2.cir.gur.edul-gpricelstate.htm 
+Property appraiser databases, www.people. virginia.edul-dev-pros/Realestate.html 
+Locating U.S. corporations, www.internet- prospector.org/sesstate.html 
+Inmate locator, www.corrections.comllinks/ inmate.html 
+Guidestar charity search, www.guidestar.org 
+Pilots and planes, www drive.net 
+National Center for State Courts, 
+
+"Home Mortgage Lending: How to Detect Disparities", by Jo Craven McGinty. 
+
+"Covering Aviation Safety: An Investigator's Guide", by Marie Tessier. 
+
+wwww.ncsc.dni.us/COURT/SITES/courts.htm 
+
+PACER U.S. Courts national index, http:// pacer.uspci.uscourts.gov/ 
+
+People finders 
+
+Find person, http://person.langen berg.com 
+InfoBel world phone directory, www.infobel.b 
+Web site owners, www.networksolutions.com 
+Sources for prospect research, www. people.virginia.edul-dev-pros/Webresources.html 
+Investigative links, www.inil.com/usersIdgus/ wgator.htm 
+Navy http://members.aol.com/navyspiesl qstart.htm 
+Social Security Number lookup, www. informus.com/ssnukup.html 
+
+13
+
+
+TECH TIP 
+
+Using subqueries 
+
+Follow along: 
+
+There are fake data tables that accompany this article available to download off the NICAR Web site. Go to www.nicar.org and click on "Uplink Tech Tip Downloads." Inside there you'll find a self-extracting file called "mjtricks" that can be downloaded. Inside are a Microsoft Access database (1997 version) and Dbase IV files of the same data in case you are using FoxPro. 
+
+By MaryJo Sylwester 
+
+IRE and NICAR Staff 
+
+When working in a database manager, subqueries can prove immensely useful once you master the slightly complex syntax. Es- sentially subqueries allow you to come up with an answer based on another query that is imbedded within your main query. 
+
+That probably sounds confusing, but keep reading. It makes more sense when you see them in action. So I've got a couple examples of how you could use a subquery for you to follow along. 
+
+The first is fairly straightforward: I've got a list of inspections, where there could be multiple records for the same facility. But I want to find the last (or most recent) inspec- tion for each facility. So my result would have one record for each facility with the date of the most recent inspection. 
+
+The second example has a couple levels to get to the final answer: I've got a list of discipline actions (in this case against police officers) and I also have a list of promotion dates that includes the person's rank. I want to find out what rank each officer was at the time they were disciplined. My result would have one record for each discipline action and include the date of the action and their rank at the time. 
+
+I've created some fake data tables for this demonstration that can be downloaded off the NICAR Web site. Go to www.nicar.org and click on "Uplink Tech Tip Downloads." Inside there you'll find a self-extracting file called "mjtricks" that can be downloaded. Inside are a Microsoft Access database (1997 version) and Dbase IV files of the same data in case you are using FoxPro. 
+
+As you will quickly see, these are very ba- sic tables with bare-bones information just to show how this works. If you were work- ing with real data, it would likely have many more fields and other details you might want to include. 
+
+Inspections 
+
+Let's start with the inspections data. The table is called "inspect." There you will find the site number (unique ID for each facil- ity), the date of inspection and type of in- spection. Notice there are multiple records 
+
+for some facilities, but not all. 
+
+In this case we want to find the most re- cent inspection date for each facility. To do this, we'll use the MAXO function imbed- ded within a subquery in our select line. Here's what the SQL looks like, then I'll ex- plain: 
+
+SELECT sitenum, (select max(b.inspdate) from inspect b where a.sitenum=b.sitenum) as lastinspect FROM inspect a GROUP BY sitenum 
+
+The select line within the parentheses will look for the largest (or in this case most re- cent) inspection date and the "where" clause specifies that it will compare only those records that have the same site number. If you were to leave that off, the query will run but it will give you the exact same date for all records (the most recent date that exists within the whole table). You need to GROUP BY in order for your results to yield just one record for each facility. 
+
+In this case I've named the field where my subquery results will show up as "lastinspect," and I used aliases for each of the table names simply to have less typing. ("a" and "b" are the aliases). I'll use this type of naming in the next example as well. 
+
+Discipline 
+
+This one involves a couple steps. There are two tables, "discipline" and "promotions." The promotions table lists the badge num- ber, the rank and date of promotion; there might be multiple records for the same per- son if they were promoted more than once. The discipline table, which also might have multiple records, lists the badge number, the discipline action and date it occurred. 
+
+The first thing we need to do is to create a new table that lists start and end dates for each rank the person held. So for each badge number that shows up in the database, this query will look at the rank and list the pro- motion date as the "start date" and then look for the next rank (chronologically by date) and subtract one day to come up with the "end date." Then it goes on to that second rank and does the same. In cases where there 
+
+Continued on page fifteen 
+
+14
+
+
+Continued from page fourteen: Subqueries 
+
+isn't another rank, it will leave the "end date" blank. 
+
+Here's the SQL: 
+
+SELECT a.badge, rank, a.promodate as start, (select in(b.promodate)-1 FROM promotions b where b.badge=a.badge and b.promodate>a.promodate) as end FROM promotions a 
+
+Create this into a new table. Here I'm going to call it "dates." The next step then is to match this new "dates" table with the discipline table to put the correct rank with the date the officer was disciplined. This uses an inner join, which is easily accomplished in Access by drawing the line between the two tables in the grid view. Join it between the badge field on each table. Then when you open the SQL view, you can add in a few pieces of information to come up with the following: 
+
+SELECT discipline.badge, start, end, rank, actdate, action FROM DISCIPLINE INNER JOIN dates ON DISCIPLINE.BADGE = dates.badge WHERE (actdate>start) and (actdate<end or end is null) 
+
+In addition to joining on the badge num- ber, the WHERE criteria also specifies that 
+
+we want to match up the discipline action date where it falls after the "start" date and before the "end" date in the dates table. 
+
+The resulting query yields the answer to our original question. 
+
+Other uses 
+
+Another use for subqueries is to find any records from one table that do not show up in another table. Conversely you could also use it to find those records that match. 
+
+For example, if you slice records out of one table and create a new table. Then you want to go back and find those records from the original that did not end up in the new table. It works best if you have a unique ID that shows up in both tables. Here's the syn- tax: 
+
+SELECT * FROM table1 WHERE uniqueid not in (SELECT uniqueid from newtable) 
+
+To find the records that match you would simply remove the "not" from the where clause. 
+
+There is more information about subqueries in the Microsoft Access help file and in the Microsoft Knowledge Base at http:/ /support.microsoft.com/directory/. There you can also find details on how to run these queries in the grid view. 
+
+MaryJo Sylwester can be reached by e-mail at maryjo@nicar.org 
+
+Mark your calendars 
+
+The National Computer-Assisted Report- ing National Conference 2001 will be held Oct. 11-14, 2001 in Philadelphia, Penn., at Loews Philadelphia Hotel. 
+
+Help files 
+
+For hotel reservations call: (215) 627-1200 (reservation cut-off is Sept. 4,2001). Rooms cost $155 single/double plus tax. 
+
+There is more information about subqueries in the Microsoft Access help file and in the Microsoft Knowledge Base at http:// support.microsoft.com/ directoryl. 
+
+The Investigative Reporters and Editors National Conference 2001 will be held June 14-17, 2001 in Chicago, Ill., at the Hyatt Regency Chicago - the Riverwalk. For 
+
+Hotel Reservations call 1(800)233-1234 or direct at (312)616-6864. Rooms cost $179 for single, $215 for double, $235 for triple, $260 for quadruple, plus tax. Reservations must be made by May 15, 2001. For more information about either of these conferences, contact IRE at (573) 882- 2042. Stay tuned to the IRE web site, www.ire.org/training, for conference registra- tion forms and other details about both of these conferences. 
+
+15
+
+
+Bits, Bytes and Barks 
+
+New datasets 
+
+The NICAR Database Library has expanded its collec- tion, adding two new datasets and bringing back three that have been unavailable for a couple years. 
+
+Storm Events: This is the official U.S. government da- tabase of storm events around the country, including tor- nadoes, hurricanes, tropical storms, droughts, snowstorms, flash floods, hail, wild/forest fires, fog and avalanches. Fields include: date and time; states and counties involved; lati- tude and longitude; property and crop damage; and inju- ries and fatalities. 
+
+National Practitioner Databank: This database contains information about doctors and other health care practitio- ners who have had medical malpractice suits filed or ad- verse action taken against them. Although names are not included, some news organizations have been able to use this with other public records to identity individual practi- tioners. 
+
+DOT Truck Census and Accidents: These two data- bases, which have not been available through NICAR for the last two years, are a good starting point for looking at motor carriers and truck accidents on U.S. roadways. The accidents data includes details on accidents involving ve- hicles owned by motor carriers. The census data allows you to find more details about those carriers, including the type of cargo they transport. 
+
+Airmen Directory: Because of a fight over privacy, this database has not been available from the FAA for a couple years. A law passed in April 2000 once again made the data public, but airmen had the opportunity to withhold their 
+
+names. The data currently holds names for about 65 per- cent of the airmen - both pilots and non-pilots - who have active certificates. Nothing is available on those air- men who opted for privacy. More information, including sample slices, record lay- out and costs, are available at www.ire.org/dadalibrary/data: bases. To order, call (573) 884-7332. 
+
+Bootcamp for educators 
+
+IRE and NICAR will hold a Bootcamp geared for jour- nalism educators, Jan. 14-17, 2001, in Columbia, Mo. The four-day seminar will teach computer-assisted reporting techniques and how to teach them. Instructors include IRE and NICAR Executive Director Brant Houston and Jo Craven McGinty, who teaches CAR at the Missouri School of Journalism. 
+
+More information, including registration details, is avail- able at www.ire.org/training/jan14.html 
+
+IRE Student Conference 
+
+Sponsored by IRE and NICAR and hosted by the Mis- souri School of Journalism, this one-day conference for jour- nalism students will be held Saturday, March 31 in Colum- bia, Mo. 
+
+It will feature panels on topics that include investigating politicians and local government, investigating nonprofits, using the FOIA and local sunshine laws and producing the story for TV. Hands-on sessions on Internet searching, spread- sheets and database managers will also be held. 
+
+More information is available at www.ire.org/training/ 2001studentconfistucontraining.htm 
+
+"OW 987ON LINDED AND 'S'N LHOUD-NON 
+
+11599 OW JO unoss!W JO HON 8EI pur pue 

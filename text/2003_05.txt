@@ -1,0 +1,1438 @@
+May
+June 2003
+ Volume 15, Number 3
+
+Published bimonthly by the National Institute for Computer-Assisted Reporting
+ www.nicar.org
+
+
+RELIGION Homemade files track priests 
+
+By Jaimi Dowdell IRE and NICAR 
+
+Many journalists who recently investigated sexual misconduct within the Roman Catholic Church faced a major hurdle: a lack of data about allegations of abuse by priests. Some news organizations found the answer to this problem by creating their own databases. The stories that resulted show how useful these homegrown databases can be. 
+
+In January 2002, The Boston Globe began publishing "Cri- sis in the Catholic Church," a series that offered a picture of a Catholic archdiocese riddled with scandal. More than 800 stories later, The Globe's se- ries has garnered many awards including a Pulitzer Prize for public service and the IRE Medal. Conducting an in- tense investigation into the church's private realm, the newspaper's Spotlight Team found success through the use of shoe-leather reporting, documents and a database that greatly supported the re- 
+
+CAR FOR WARTIME 
+
+continued on page 20 
+
+Finding backyard military contractors 
+
+By Adam Bell, The Charlotte Observer 
+
+With war looming in Iraq and the de- mand for related local news stories ris- ing a few months ago, we decided to look at which companies in the Caroli- nas benefited from military contracts. 
+
+We obtained the Federal Procurement Data System from the IRE and NICAR Database Library and imported it to Access 2000 for our initial queries. Because this database compiled by the U.S. General Services Administration contains all federal contracts with a 
+
+value of more than $25,000, we needed to filter our queries to limit our results to Department of Defense con- tracts. Then we decided to omit con- tracts granted by the civilian Army Corps of Engineers since the story fo- cused on military activities. 
+
+Now we were ready to explore the data two ways: for work performed in the Carolinas and work performed by con- tractors based in the Carolinas. We decided that it was more interesting to 
+
+continued on page 22 
+
+SPOTLIGHT: RACE Segregation in black white, shades of gray By Holly Hacker, IRE and NICAR 
+
+What is the most segregated metro- politan area in the United States: Detroit, Milwaukee, Minneapolis or New York? 
+
+They all are. It just depends on how you measure segregation. 
+
+And there are lots of yardsticks to choose from. Researchers have de- vised at least 20 ways to measure residential segregation. That's great for sociologists who have months to 
+
+write detailed articles for scholarly journals, but not for journalists who must pound out stories on deadline for a general audience. 
+
+continued on page 12 
+
+SPOTLIGHT: FOR MORE ON RACE SEE 
+
+Analysis finds search rate disparities in San Antonio, p. 8 
+Toronto arrest stories ignite firestorm, p. 10 
+
+
+
+THE Outshase Library
+573.884.7711
+
+
+Bits & Bytes 
+
+Data 
+
+The public is becoming increas- ingly aware of the risks associ- ated with obesity. A study pub- lished in April in The New En- gland Journal of Medicine re- ports that being overweight in- creases the risk for death as- sociated with cancer. In 2000, more than 1,000 people died in the United States because of causes directly related to obesity, according to the Mor- tality, Multiple Cause-of-Death database recently added to the IRE and NICAR Database Library collection of federal government databases. 
+
+
+
+Journalists can use this data- base to track many diseases and other health issues, such as infectious disease and can- cer, within their state or com- munity. The data consist of de- tailed information about each death compiled from death certificates. Geographic infor- mation is complete for metro- politan areas with populations of 100,000 or more. 
+
+The 1988 through 2000 data include death certificate records for the entire United States and U.S. territories. Detailed demographic infor- mation about the deceased, including age, race and mari- tal status can be determined. Causes of death can also be analyzed by using the Interna- tional Classification of Disease (ICD) field. Specific details about each death are also in- cluded, such as whether it was 
+
+continued on page 4 
+
+CAR practitioners share tricks 
+
+By David Herzog, University of Missouri and NICAR 
+
+More than 250 journalists from across the globe gathered in Charlotte in March for IRE and NICAR's Annual Computer-Assisted Reporting confer- ence. Attendance was smaller than many of the other recent CAR confer- ences, but those who attended were part of a committed bunch. 
+
+How committed? Let me put it this way: Some of the conference-goers helped load CDs full of software onto the PCs in training rooms. Others performed manual labor, hauling PCs and moni- tors out of packing crates and lugging them into the training rooms. It was a great reminder that IRE and NICAR work because the journalists at the grass roots work by sharing their time, experience and knowledge. 
+
+time and spatial analysis for investi- gations. And then there were special advanced workshops geared to CAR power users and hands-on classes for everyone. With the prospect of war looming, many of the panels had a special focus on defense and home- land security. Likewise, the spotlight panel focused on a timely subject: the battle over access to information. 
+
+If you want to catch up on the happen- ings at the conference, you can order tipsheets provided by panelists. For more information about ordering con- tact the IRE Resource Center at (www.ire.org/resourcecenter or 573- 882-3364). The tipsheets are a great way to learn lessons from other jour- nalists. 
+
+For those of you who missed it, the conference was packed with panels and demo sessions on all kinds of topics: weaving CAR into the beat, data for covering CAR during war- 
+
+Thanks to everyone for making this a great conference. 
+
+Contact David Herzog by e-mail at dherzog@nicar.org. 
+
+CAR training upcoming 
+
+IRE and NICAR has numerous training opportunities in the com- ing months for journalists who want to learn computer-assisted reporting. For a complete list of training events visit www.ire.org/ training/otr.html. 
+
+Here are some of the highlights: 
+
+Trainers will be Jeff Porter and David Herzog of the NICAR staff, both longtime users of GIS in news reporting. Herzog is the author of "Mapping the News," a case study book published by ESRI Press that shows how journalists use GIS. 
+
+Mapping Data for News Stories, July 25-27 in Columbia, Mo., is for journalists who want to extend their CAR skills by using geo- graphic information systems (GIS) to enhance their reporting. 
+
+Journalists can get an overview of computer-assisted reporting at Better Watchdog Workshops of- fered by IRE and the Society for Professional Journalists. Upcoming workshops include Sept. 11 in Tampa, Fla., Oct. 4 in Eugene, Ore., and Oct. 25 in State College Pa. 
+
+2
+
+
+May June 2003
+
+
+Uplink
+
+
+IRE AWARDS 
+
+CAR fuels TV, other division winners 
+
+By Rachel Schaff, University of Missouri 
+
+IRE received a flood of entries for its 2002 investigative reporting contest. Many of the entries used computer- assisted reporting, along with tradi- tional reporting techniques. The fol- lowing is an overview of some of the winners and finalists that used CAR in the television, other media and spe- cial categories. 
+
+Television Top 20 Market - Finalist 
+
+WFAA-Dallas: "Fake Drugs, Real Lives" by Brett Shipp, Mark Smith, Kraig Kirchem and David Duitch. This inves- tigation examined the legitimacy of drug busts made by Dallas police. The journalists found that nearly half of the police department's cocaine seizures contained little or no illegal drugs. (Story No. 19889 in the IRE Resource Center). 
+
+Instead, the substance seized was gypsum, a main component of billiard chalk. Further, the arrests often in- volved recent Mexican immigrants. The reporters developed a Microsoft Excel spreadsheet of Dallas County felony drug cases for 2000 and 2001. Reporters used the spreadsheet to separate defendants with Hispanic surnames and determine whether the seizures involved illegal drugs. 
+
+The story has won many other awards, including a George Foster Peabody Award; an Alfred I. duPont- Columbia University Silver Baton; a Harvard University Goldsmith Award Finalist for Investigative Reporting; Texas Gavel Award; the Katie Legacy Award; and Katie Award for Television Investigative Reporting. 
+
+Below Top 20 Market - Certificate WTVF-Nashville: "Friends in High Places" by Phil Williams and Brian Staples. This seven-month investiga- tion exposed the questionable rela- 
+
+tionship between Tennessee Gov. Don Sundquist and some state con- tractors. Journalists used Microsoft Excel to analyze spreadsheets of all noncompetitive contracts awarded by the state of Tennessee. (Story No. 19649) 
+
+This story has also won a George Polk award, a National Headliner Award and a Sigma Delta Chi award. 
+
+Below Top 20 Market - Finalists 
+
+WITI-Milwaukee: "The Pain Doctor" by Bob Segall and Diane Carbonara. This investigation focused on a local doctor who used questionable medi- cal and billing practices and acted abusively toward his patients. Jour- nalists used CAR to analyze informa- tion acquired through interviews with dissatisfied patients and to analyze pharmacy prescription data to deter- mine the amounts and types of medi- cations prescribed by the doctor. "The Pain Doctor" also has won a regional Edward E. Murrow award, Best Se- ries Reporting from the Wisconsin As- sociated Press, and Best Investiga- tive Report from the Milwaukee Press Club. (Story No. 19674) 
+
+WOAI-San Antonio: "Councilman & Judge - A Cozy Connection" by Brian Collister, Joe Ellis and Stephanie Kline. This piece investigated a San Antonio criminal defense attorney (who is also a city councilman) and his relationship with a female judge. The journalists used Microsoft Access and Excel to analyze databases of criminal court records and county payment records. They determined which attorneys re- ceived the most court appointments and made the most money, both in each court and across all courts. Even- tually the results helped show that the councilman and the judge had a ro- mantic relationship, shared a bank ac- count, shared an address at one time, 
+
+and possibly committed fraud together. This story received an Honorable Men- tion in the Investigative category from Texas Associated Press Broadcasters and also won first place for Best Con- tinuing Coverage by the Texas Associated Press Broadcasters. (Story No. 19671) 
+
+Other Media Magazine/ Specialty Publication - Finalists 
+
+Time Magazine: "Look Who's Cashing in at Indian Casinos" by Donald L. Barlett and James B. Steele. This in- vestigation revealed that Indian reser- vation casinos do not benefit the ma- jority of Native Americans; most of the proceeds go to non-Indian investors and a handful of small tribes with fabu- lously profitable casinos. CAR played a large role in the investigation; Barlett and Steele made extensive use of da- tabases, the Internet and spread- sheets. One of the most important da- tabases, the Indian Labor Force Re- port, contains information about indi- vidual tribal enrollment as well as the employment rate and poverty levels of each tribe. (Story No. 19517) 
+
+U.S. News and World Report "The New Math of Old Age: Why the Nurs- ing Home Industry's Cries of Poverty Don't Add Up" by Christopher Schmitt. The nursing home industry has long contended that the federal aid it receives is inadequate; in 2002 nursing home operators lobbied the federal government for additional bil- lions of dollars of aid. However, this investigation showed that the nursing home industry is, in fact, profitable and growing, with many nursing homes earning 20 percent to 30 per- cent profit margins. The investigation required many different databases of nursing home cost reports. Schmitt used Paradox for database manage- ment, FoxPro for data import and Excel for spreadsheet analysis. (Story No. 19495) 
+
+Online - Finalist 
+
+Center for Public Integrity: "Enron Top Brass Accused of Dumping Stock Were Big Political Donors" by John Dunbar, Robert Moore and MaryJo Sylwester. This investigation looked at the col- 
+
+continued on page 23
+
+
+May June 2003
+
+
+3
+
+
+Bits & Bytes
+
+continued from page 2
+
+
+an accident, occurred in the workplace or was a suicide. 
+
+For more information about this database go to www.ire.org/ datalibrary/databases/health. 
+
+Training 
+
+Learn how ArcView 8 GIS can help you explore data for great stories. The Mapping Data for News Stories mini-boot camp July 25-27 in Columbia, Mo., will provide journalists with in- struction on how to combine data with geocoding, thematic mapping, overlay and spatial analysis to enhance their re- porting. For more information about this mini-boot camp, in- cluding how to register, go to www.ire.org/training/ mapJuly2003.html; for informa- tion on other IRE and NICAR training and events go to www.ire.org/training/otr.html. 
+
+Tipsheets 
+
+If you missed the 2003 Annual Computer-Assisted Reporting Conference in Charlotte, N.C., there are still opportunities to learn what other CAR profes- sionals presented at the event. More than 65 tipsheets are available from the conference, providing CAR techniques and story ideas for just about every beat. They include information on Access forms, Census data, spatial analysis, social network analysis and much more. To download the tipsheets, go to www.ire.org/training/charlotte and click on "Tipsheets from this Conference". 
+
+CRIME 
+
+Database sleuthing uncovers the missing 
+
+By Lise Olsen, Seattle Post-Intelligencer 
+
+Deep in the heart of Green River Killer country our initial goal was to try to identify probable serial killer victims. 
+
+We did that and found a lot more, but not without a struggle. We learned that when someone went missing his or her records often disappeared too. 
+
+That was one of the challenges report- ers at the Post-Intelligencerfaced when we attempted to analyze 20 years of missing-persons reports from more than 300 police agencies in the state of Washington. The police had mis- placed or purged dozens of reports for people still listed as missing in the offi- cial state and national databases. 
+
+The official databases also were inac- curate. Many people-wh should have been included weren't, and other cases that should have been purged re- mained in the system. The conse- quences were dramatic: Murder cases went unsolved, bodies remained uni- dentified and killers stayed free. 
+
+The databases we built and those we obtained from police, coupled with tra- ditional investigative reporting, allowed us to make such sweeping conclusions with confidence. 
+
+We also found that agencies had lost or destroyed more than 100 reports for active missing-persons cases. Coro- ners and medical examiners had lost files, physical evidence and even re- mains. Most police agencies routinely violated a law that requires them to seek dental records in long-term miss- ing person cases, even though the records can provide key clues in iden- tifying corpses. 
+
+The database steered us to dramatic human stories: a foster child whose dis- appearance and mysterious death in 
+
+Mexico was never adequately investi- gated. A toddler, the unidentified vic- tim of murder in 1987, whose image had never been publicized until our series ran. A missing woman whose frantic family could not convince police to take a report after she slit her wrists and drove away. 
+
+The anecdotes alone were appalling but our database allowed us to com- bine the tales with hard numbers. Our investigation took nearly a year, mainly because it was so difficult to obtain records, most of them police reports from open investigations. But it also took time to track down fami- lies of the victims. 
+
+Building the database 
+
+Reporter Lewis Kamb-filed the first public disclosure requests in January 2002, asking all the departments across the state for unsolved missing persons reports. From the beginning, the newspaper specified that it wanted reports that were at least a year old. We didn't want to track the thousands of teen-agers and adults each year who return home after a few days. 
+
+Federal and state auditors regularly are supposed to review whether police accurately track long-term missing per- sons cases in the National Crime In- formation Center (NCIC) database. But it immediately became clear that most departments didn't have their records in order. While some departments re- sponded to the public records requests within a week or two, most dragged their feet. Some flatly refused to pro- vide records. Others provided informa- tion only in summary form or redacted names. It took the Seattle Police De- partment, the state's largest agency, nine months to respond. 
+
+Kamb was relentless in his pursuit of 
+
+4
+
+
+May June 2003
+
+
+Uplink
+
+
+the records. He pointed out to the re- luctant police departments that some major police agencies had immediately provided copies. 
+
+After several months, I got involved in building the database. Kamb had boxes full of reports. But, using a list of offi- cial missing persons provided by the state, I quickly realized that many de- partments had not given us everything. We wrote back again and called some departments dozens of times. 
+
+By late fall, we had assembled more than 600 reports in all sorts of formats, some handwritten, some barely read- able, but most usable. We had hoped to map the locations of suspicious missing-persons cases and compare those sites with the body dump sites of known serial killers. I soon realized that would be impossible: In hundreds of reports, exact locations of where vic- tims had disappeared were unspecified or had been scratched out. 
+
+Instead, I built an index to our reports that included fundamental information, such as the department name, date, victim name, age, sex, race, where dis- appeared (if indicated), usual resi- dence (if indicated), a description of the victim and a summary of circum- stances behind the disappearance. 
+
+In addition to those fields, I added a couple of more subjective categories that helped us build the stories. 
+
+I flagged reports that indicated an un- necessary delay in police investiga- tions. (One of the theories we had as we investigated was that police often "dodged" missing-persons reports). I marked others that seemed to bear more investigation as "interesting" in the database. Later on, we investigated the "interesting" stories and picked out anecdotes that helped illustrate trends. 
+
+I also attempted to categorize the re- ports by the reasons police had given in the reports to possibly explain the disappearance. This was tricky, but it was important to try to cull out reports in which foul play was suspected, 
+
+since another theory we were trying to check was whether police made enough of an effort to help people whose lives had been in danger, or who may have later been murdered. The categories provide insight into the weird world of these reports: be- lieved drowned, possible suicides, elderly who wanders, possible do- mestic violence/foul play, signs of a struggle or blood/foul play, informant reported murdered/foul play. A key category for us was serial killer vic- tim. This involved a lot of investiga- tion into alleged serial killers who had operated in Washington since the 1980s. In the end, we convinced key detectives across the state to iden- tify missing persons whom they sus- pected to be the victims of serial kill- ers, based on evidence generated in investigations. 
+
+In addition to the missing-persons da- tabase, I built a database of unidenti- fied dead persons-mu victims and others - by contacting coroners and medical examiners statewide. At that point we thought we knew who was missing and how many unidentified dead persons there were. 
+
+Next we compared the information more closely to official records of miss- ing persons and unidentified dead per- sons. Surprisingly, the Washington State Patrol's missing-persons unit, which struggled to keep up with just one staff member and a volunteer den- tist, quickly provided the data, though it withheld some key fields. 
+
+Official list 
+
+In each state a designated agency such as the Washington State Patrol collects information and feeds it into national databases of missing persons and unidentified corpses. The national databases are part of the huge and antiquated NCIC. 
+
+We received parts of the missing per- sons data and much of the unidenti- fied persons data from the state. Jour- nalists can obtain similar data from the authorities in their own states. In the missing-persons table, the State Patrol 
+
+provided the name, agency taking the report, sex, age, report date, date of last contact, height, weight and eye color. The state also disclosed informa- tion about whether the investigating agency had provided information about dental records. Some departments ig- nored the law - an important point in our series. We found that more than 60 percent of all missing persons had no dental reports on file. 
+
+The information we received in the unidentified corpses table was more limited and less reliable. The State Patrol provided the agency name, report date, height and weight esti- mates that were often inaccurate, age estimates, the condition of the body, cause and manner of death and avail- ability of dental records. 
+
+Despite the limits of the data, I was able to analyze it and discover that some probable murder victims had never been entered as official missing-per- sons. That meant, when unidentified remains were found, the police lacked information for linking missing persons to the remains. I also was able to gen- erate a statistical profile of the missing and play detective. 
+
+The NCIC tries to match the tables of the missing and the dead but, our re- porting found, the automated search engine in the database was flawed. So I matched the tables we obtained to see whether I could find matches over- looked by the police. The match results generated new leads in several cases that the police are still investigating. After the series ran, readers provided tips that turned up other valuable leads. 
+
+So far, the identities of two long-uni- dentified bodies have been confirmed based on information generated by the series. I hope that more will be added to that list over time. 
+
+To see the series and a portion of the databases we used, see http:// seattlepi.nwsource.com/missing. 
+
+Contact Lise Olsen by e-mail at LiseOlsen@seattlepi.com. 
+
+May June 2003
+
+
+5
+
+
+MAPPING IT OUT The latest uses of mapping in news reporting. 
+
+Adding the 3rd dimension 
+
+By Stephen K. Doig Arizona State University 
+
+A few months ago, I was wowed by a demonstration of a mapping tool that was new to me. It was 3D Analyst, an extension to ESRI's popular ArcView geographical in- formation system (GIS) software. 
+
+3D Analyst can take a two-dimen- sional map, such as a thematic map of census tracts, and trans- 
+
+form it into a three-dimensional image in which the height of each area on the map can represent an- other variable. The resulting depic- tion of data, which looks like a cityscape of skyscrapers, can then be "explored" by turning it every which way, zooming in and out and even flying through it up close. 
+
+I decided I had to learn how to use this cool toy. Like most journalists interested in computer-assisted re- porting, I learn new tools best when I have some real journalistic task to accomplish. The trick was to find something interesting to do. 
+
+I knew that an extension like 3D Analyst adds substantial new ca- pabilities to the base GIS software, but also substantial new costs. 3D Analyst lists for $2,500, out of reach for all but the most well- heeled newsrooms - or for the lucky people like me who can af- ford to pay lower academic licens- ing costs. So I posted a note on NICAR-L listserv offering a free 3D map to the first newsroom that of- fered me a project with which I 
+
+could learn the basics of this tool. Full trial versions of the extension for ArcView versions 3.x and 8.x are available on CD from ESRI. 
+
+Janet Roberts of the St. Paul Pio- neer-Press quickly took up my of- fer. Having seen a nice 3D map of median income change data cre- ated by the Chicago Tribune (see http://images.chicagotribune.com/ media/graphic/2002-08/ 4286800.gif), she wanted to do something similar for the city of St. Paul, looking at percentage change in median household in- come since 1989. However, she needed it in less than a week, and I fretted it would take me longer than that to figure out the software. (I do have a full-time job, you know.) But I gulped and said, "Sure, I can do it." 
+
+Turns out I needn't have worried. If you already know how to use ArcView, doing the basic work with 3D Analyst is a snap. So here's a handy step-by-step for ArcView 8.x in case you get your hands on the extension: 
+
+Untitled ArcMap ArcView
+
+Edit View Insert Selection Tools Window Help
+
+Layers
+
+SD Chirscome
+ PCTCHG
+ 63.00001 110.0000
+ 33.00001 63.00000
+ 16.00001 33.00000
+ 4.00001 16.00000
+ -12.00000 4,00000
+
+Display
+Source
+
+492094.03 4977517.54 Unknow
+
+
+The first step is to activate the 3D Analyst extension. Assuming you have installed and registered 3D Analyst, just launch the ArcMap ap- plication, then choose Tools\Extensions in the menu and click on the box next to 3D Analyst. 
+Next, prepare the shapefile (a map file with associated data) that you want to turn into a 3D image. You can do this in ArcView, just as you already know how to do. Janet sent me a shapefile of St. Paul Census tracts al- ready loaded with an at- tribute table that included for each tract the median household income for 1989 
+
+6
+
+
+May June 2003
+
+
+Uplink
+
+
+Untitled ArcScene ArcView
+
+File Edit You Selection Tools Window Help
+
+30 Analyst
+
+Scene layers
+ sp_tr_hhincome
+ PCTCHG
+ 63.00001 110.0
+ 33.00001 63.00
+ 16.00001 33.00
+ 4.00001 16.000
+ -12.00000 4.00
+
+x
+
+Display
+Source
+
+
+and 1999, the dollar change and the percentage change. 
+
+To make a 3D image, launch ArcScene, which is 3D Analyst's workspace. You'll see that it looks a lot like ArcView, except with a few different buttons. Make sure you have the 3D Analyst toolbar turned on. 
+Hit the Add Data button and find your shapefile. You'll see the ex- pected map in one color, but at an odd angle. That's because the map already is in 3D. Click on the Navigate tool (the one that looks like a compass with four points) and then use the mouse to move the map around a bit, just to see how it works. 
+Now right-click on the layer name and open the Properties window. You'll see the usual tabs, includ- ing Symbology where you can choose "Quantities Graduated Color" to make the usual thematic map. Go ahead, make that map. So far, nothing much new. 
+
+But notice that the Properties window has a few unfamiliar tabs, including Extrusion. That's the one that's going to give you the 3D ef- fect. Click on the "Extrude features in a layer" box, and then the little calculator-like icon to the right of the expression box. 
+In the Expression Builder window that pops up, click on a field you want to have provide the height (or z-value) variable. It can be any- thing numeric - altitude, popula- tion, density, income, percent, whatever. Tell it OK, then Apply. 
+Here's the tricky part. Chances are, the variable's value by itself won't do what you want. If the val- ues are small, it may not show much height at all; if they're large, the height may shoot off the screen. In either case, go back to the expression builder window and multiply the variable (if it was too small) or divide (if too high) by some arbitrary number, let's say 100. Your expression then might look something like [PCTCHG]*100. Hit Apply. 
+
+If the new expression works, great. If still not, then pick another value in the right direction and try again until it starts to look like you want it to. 
+Now explore the image using the Navigate and other pointers on the ArcScene toolbar. Note that you can twist and turn the image and even look under- neath, so that it seems to be like Laputa, the flying island of "Gulliver's Travels." When you look underneath, you'll see that any areas with negative values are ex- truded downward. Move it around until you have an angle that illustrates what you are trying to show. 
+Finally, go to File\Export Scene\2D on the menu to save the image in whatever graphics format you want. 
+
+3D Analyst will do much more than simply making a 3D version of a flat thematic map. But I'll learn more of those capabilities when someone comes to me with another project to try. Maybe it'll be you? 
+
+Contact Steve Doig by e-mail at steve.doig@asu.edu. 
+
+Would you be willing to share a mapping example with fellow journalists? Send an electronic copy of the map along with details to David Herzog at dherzog@nicar.org 
+
+May June 2003
+
+
+7
+
+
+SPOTLIGHT: RACE Ticket data shows search rate gaps 
+
+By Karisa King, San Antonio Express-News 
+
+The story began with a Texas law that went into effect in January 2002 and required every law enforcement agency in the state to track the race of drivers stopped and searched. 
+
+The law was a response to the na- tional debate over racial profiling the practice of police targeting mi- norities because of their race or ethnicity. Members of minority groups say the practice is widespread and that the police target people for "driv- ing while black" or "driving while brown." But police officers and admin- istrators insist that no such practice exists. For every claim of racial profiling they offer a plausible reason for the stop. 
+
+Seeking to go beyond this debate, the San Antonio Express-News filed a state open records request and ob- tained the first full year's worth of data for the city. The San Antonio Police Department provided the complete database free of charge. Using Microsoft Access I analyzed nearly 290,000 records detailing all the police traffic and pedestrian stops for 2002. 
+
+First venture 
+
+This was my first computer-assisted reporting story, done shortly after I at- tended a NICAR Boot Camp in March. The Boot Camp provided me with the basic tools I needed to make sense of the numbers. I relied mostly on simple structured query language (SQL) que- ries and used a few Microsoft Excel spreadsheets to determine the rate of police stops and searches for minori- ties and whites. The data was detailed enough that I could examine the type of searches police conducted, the rea- son for the initial stop and the outcome of every stop, including whether po- lice found contraband or issued a traf- fic citation or a warning. 
+
+Before we could put the findings into perspective we had to leap one of our biggest hurdles: finding a point of com- parison. Profiling experts agree that no convenient standard exists for compar- ing data. Census figures reflect a community's population, not the de- mographics of drivers. The data does not, for example, reflect the number of tourists or commuters on the roads. 
+
+Finding a measure 
+
+Express-News researcher Kelly Guckian helped me explore other benchmarks. Our options included Census data for resident populations, Census vehicle availability data, licensed driver population data or road surveys. 
+
+Profiling experts agree that no convenient standard exists for comparing data. 
+
+Hiring an outside consultant to perform a road survey would have been too ex- pensive. We discovered that the Texas Department of Public Safety, which is- sues state licenses, records the race of drivers. But because the state lumps whites and Hispanics together in the same category, the DPS data was meaningless for us. And while the American Civil Liberties Union recom- mends using Census vehicle availabil- ity data we decided not to because those numbers reflect the number of vehicles available to a household, not the number of drivers. 
+
+In the end, we settled on using Census data for San Antonio residents but told 
+
+readers up front about the debate over comparing the numbers and empha- sized that our benchmark was imperfect. 
+
+We determined the stop rates by sum- ming the total number of drivers stopped for traffic reasons for each race and calculated that as a percent of the total number of drivers stopped. Then we compared those percentages to the Census population percentages. To be thorough we also compared the numbers to the vehicle availability data and found that did not greatly alter the results. We did not publish this second set of results because we thought it would confuse readers. 
+
+To determine the search rates we compared the total number of drivers of each race who were searched to the total number of drivers of each race stopped for traffic reasons. 
+
+It took about three weeks to complete all the queries and compare the re- sults. Among the findings: 
+
+Police stop minorities and whites for traffic reasons at rates that are roughly proportional to their share of the popu- lation. But during probable cause and consensual searches - instances in which officers use discretion - blacks are more than three times as likely as whites to face a search during traffic and pedestrian stops. 
+
+Although blacks are more likely to face consensual searches, police found contraband - some type of evidence of a crime, stolen property or drugs at about the same rates for all three groups. During traffic stops that led to probable cause searches, whites were slightly more likely than blacks or Hispanics to have contraband. And dur- ing all traffic stops police found contra- band on whites more often than blacks. 
+
+Reporting time 
+
+With those findings in hand it was time for the traditional reporting. I in- terviewed police officers and adminis- trators, civil rights advocates, profiling experts and drivers. It was crucial to 
+
+8
+
+
+May June 2003
+
+
+Uplink 
+
+follow up with drivers who had been stopped and, in some instances searched, to learn their perspectives. To find the drivers, I pulled the ticket numbers from the data and submitted an open records request to the San Antonio Municipal Court for copies of about 40 traffic tickets. The tickets, which listed the names and telephone numbers of the drivers, led me to sev- eral people who felt they had been vic- tims of racial profiling. These interviews also provided vital contact with minori- ties who felt strongly that racial profil- ing is pervasive, yet failed to lodge their complaints with local civil rights groups or police because they feared retalia- tion or lacked faith in the system. 
+
+Some advice for other journalists plan- ning a similar project: Request the data in advance. We wanted a full year of data but requested it about six months into the year in case we'd have to fight for access. In this case, however, the department did not put up a fight over releasing the data. 
+
+If the data includes information on searches, make sure you understand the kinds of searches recorded. Cer- tain types of searches, such as prob- able cause and consensual, reflect of- ficers' discretion. But other searches, such as those done during arrest or before police impound a vehicle, do not necessarily involve police discretion. If we had lacked the ability to filter out inventory searches and arrest searches, the data would have been useless. 
+
+In response to the article, San Antonio police acknowledged that the differ- ence between the search rates of whites and blacks caught their atten- tion. Before the story ran, the depart- ment had already planned to hire an outside consultant to produce a de- tailed analysis of the data by compar- ing it to an independently generated traffic survey. We plan to follow the re- sults of that study when it is released in a few months. 
+
+Contact Karisa King by e-mail at kking@express-news.net, 
+
+Unstacking the Deck: A Reporter's Guide To Campaign Finance 
+
+The latest Beat Book from Investigative Reporters and Editors, Inc., is a guide to navigating the language and practices of campaign finance. 
+
+Journalists will find it invaluable for pursuing stories about the impact of money on elections, political parties and candidates at the federal, state and local levels. 
+
+UNSTACKING
+ THE DECK
+ A Reporter's Guide
+ to Campaign Finance
+
+BY MICHAEL A WEBER ARONPILHOFÉ
+
+AND DEREK WILL
+
+ELIGATIVE
+
+
+Understand the loopholes in soft money restrictions. 
+Learn about the increased use of nonprofits to funnel money. 
+Find out how to track where candidates spend their money. 
+Learn how to find and read useful documents and data. 
+Packed with resources, Web sites and story tips! 
+
+ORDER NOW 
+
+By phone: Call 573-882-3364 with your VISA or MasterCard. By mail: Send your check to IRE, 138 Neff Annex, Missouri School of Journalism, Columbia, MO 65211 By Web: Visit www.ire.org/store to order online or download an order form. 
+
+IRE Members: $15 each Nonmembers: $25 each 
+
+Plus postage: First class - $4 for the first book, $2 for each additional book 
+
+May June 2003
+
+
+9
+
+
+IRE Detable 
+
+SPOTLIGHT: RACE Toronto profiling stories spark a firestorm 
+
+By Stephanie Kang, IRE and NICAR 
+
+When Toronto Star reporter-photogra- pher Jim Rankin submitted a Freedom of Information request for a database detailing arrests in Toronto, he knew the police wouldn't just hand over the data. There was no precedent for such an expansive request to a Canadian law enforcement agency and no database editor at the Star to help him. 
+
+Although the Star had already lost plenty of FOI battles to the Toronto police, Rankin felt that the paper's commitment to his request was strong enough to prevail this time. He had hope. 
+
+That hope was rewarded April 10 when Rankin and four other Star re- porters received the Michener Award for meritorious public service journal- ism for their series, "Race and Crime." This year marked the first time that the award, one of the most presti- gious awarded to Canadian media, recognized a computer-assisted re- porting project done on such a large scale. (Read the series online at www.torontostar.ca/NASApp/cs/ ContentServer?pagename=thestar/ Render&c=Page&cid=1034935301156.) 
+
+On the surface, the Star series told a familiar story: "Blacks arrested by Toronto police are treated more harshly than whites" in simple drug possession cases and non-traffic vio- lations. What was different was how Rankin and the Star team reported the story, by analyzing one of the larg- est police databases ever to be pub- licly released in Canada. 
+
+The Criminal Information Processing System (CIPS) database lists arrests from 1996 to early 2002. The data in- cludes more than 480,000 incidents in which an individual was arrested or ticketed, and nearly 800,000 crimi- nal and other charges, such as traf- 
+
+fic offenses and city ordinance viola- tions. Rankin used Access to count and group the data by race, employ- ment, immigration status, simple drug possession charges and tickets for non-traffic violations. Rankin found that the police took blacks charged with simple drug possession to a po- lice station more often than whites facing the same charge and that the police held black suspects overnight for a bail hearing at twice the rate of whites. In cases of non-traffic viola- tions, the analysis showed that black motorists were ticketed disproportion- ately compared to whites. 
+
+Reaction 
+
+The series, which ran in October and November, stirred many Toronto resi- dents who have long believed that the police practiced racial profiling. Gov- ernment authorities reacted quickly, opening an inquiry into racial profiling and meeting with community and po- lice leaders. Toronto Police Chief Julian Fantino announced a race relations outreach program. 
+
+Critics of the series have complained loudly. The Toronto Police Associa- tion, after alleging that the Star se- ries had damaged the reputation of the force and its relationship with ci- vilians, lodged a $2.7 billion lawsuit set for trial in June. Analysts hired by Chief Fantino performed an indepen- dent analysis of the Star's findings, calling it "junk science." 
+
+Debate on the "Race and Crime" se- ries has spread elsewhere in the coun- try, spotlighting not only the possibili- ties of CAR, but also laying bare some of the obstacles Canadian journalists face for access to information. 
+
+The Star reporters had heard alle- gations of racial discrimination by the 
+
+Toronto police, but without numerical data to support the claims, all they had were anecdotes. Although a 1999 Canadian policy prohibited police from analyzing their database from the standpoint of race, the Star was under no such restriction. 
+
+Requesting electronic data from a gov- ernment database in Canada, however, presents a combination of problems familiar to U.S. journalists. Alasdair Roberts, an associate professor at Syracuse University who studies Canada's FOI laws, said Canadian journalists face two main obstacles in obtaining government information. 
+
+One is the government's desire to sell access to information. "The argument is that releasing the information in bulk form would cause damage to them- selves," Roberts said. In the Star's case, the police initially argued that commercial factors barred them from selling the data to the paper because the agency had already sold the data- base software to an Australian police force. It took Rankin months to con- vince the police that he wanted the data, not the database program. 
+
+"In their defense, they didn't under- stand what language we were speak- ing," Rankin said. "But there were a couple of times when I felt they weren't acting in the spirit of the law." In one instance the police refused to release a list of fields, in another the police sought to charge $7,000 (more than $4,900 in U.S. dollars) to pro- duce a three-page list of fields that a FOI commissioner determined should cost 60 cents (42 cents in the United States). In total, the Star spent $800 (more than $560 in U.S. dollars), more than two years in negotiations with the Toronto police and six weeks re- porting the story. 
+
+The other obstacle is Canada's strong personal privacy protections. The Ac- cess to Information Act has not been overhauled since its adoption 20 years ago despite promises made by a justice minister in 1994 to review the law and other reform attempts. 
+
+10
+
+
+May June 2003
+
+
+Uplink
+
+
+To obtain CIPS, the Star made con- cessions to data that the police be- lieved would protect privacy: Instead of getting exact dates of arrest, the paper accepted approximations. In- stead of getting the names of the people arrested, it accepted a ran- domly generated identifier. 
+
+The biggest alteration, however, in- volved the criminal charge field. The police said that the rarity of some charges, along with other personal identifiers, could allow the Start visit one of Toronto's six courts and iden- tify a suspect. So Rankin recoded the Criminal Code of Canada and the Ontario Highway Traffic Act, crime-by- crime, into nondescript categories. For instance, where the original da- tabase listed individual charges such as manslaughter, murder or sexual assault, the Star's database recoded these charges into one field called "Violent major." 
+
+Finding focus 
+
+Rankin narrowed his analysis to cases where police could use discre- tion, like drug possession charges and non-traffic violations. When charged with drug possession, an officer may take one of three actions: ticket the offender, arrest the offender or arrest the offender and hold that person overnight for a bail hearing. After Rankin found that the police re- leased blacks less often than whites, he dug deeper into the data to check whether immigration status, employ- ment or the presence of a home ad- dress made a difference. The num- bers changed, but the difference per- sisted, Rankin said. Analysis on non- traffic violations showed dispropor- tionate numbers of blacks ticketed for offenses that could not initially be known by an officer, like an expired license, or a warrant for arrest. 
+
+The Star hired York University profes- sor Michael Friendly to examine Rankin's findings. Friendly used S-Plus and R, two freely available statistical packages, to examine the data and test the potential effects of factors such as criminal history, the existence of a home address and employment. 
+
+Soon after the newspaper published its stories, Chief Fantino hired Ed- ward Harvey, a professor at the Uni- versity of Toronto, to examine the Star's work. In his report (available on the Toronto police department's Web site at www.torontopolice.on.ca) Harvey concluded the Star failed to adequately clean the data, used in- consistent methods and failed to pro- vide evidence of systemic racial pro- filing. The Star published a rebuttal of Harvey's criticisms, and as Rankin said, the two parties continue to "butt heads, while talking about the under- lying issues is left behind." 
+
+CAR boost? 
+
+Friendly sees the stories as not only as a "fundamental breakthrough in Canada" but also as part of a new movement in the country in which jour- nalists present complex social situa- tions to the public by means of analyz- ing real data, not just anecdotal evidence. 
+
+"CAR here is still in its infancy," Rankin said. As a result, government agencies lack respect for CAR, and Canadian media organizations have lagged their counterparts in the United States. 
+
+One of the biggest obstacles to CAR in Canada is a lack of support from management, said Robin Rowland, of CBC News. "Most CAR people [in Canada] are still crying in the wilder- ness. Most of the managers in Cana- dian news media don't see value and don't see money in it." 
+
+The stories' potential effect on freedom of information in Canada seems dim, according to some. 
+
+"I would hope stories like the Star did would change access to information, but I wouldn't bet my last shirt on that," said Pierre Bergeron, president of the Michener Award Foundation. 
+
+So what will it take to move CAR in Canada from infancy to adulthood? 
+
+"We need an updated act, which prob- ably won't happen until we have a new prime minister," Rowland said. "We 
+
+need a change in attitude in the de- partment of civil service. And we need a realization from news management that CAR is a valuable, effective tool for journalism." 
+
+Rankin sees another way, one that worked for his newspaper and doesn't involve spending money, lobbying for a change in freedom of information laws or seeking changed attitudes among news managers: persistence. 
+
+"I hope that every little paper across Canada is asking for the same data [we did], because it should be there for the asking," Rankin said. "Being persistent works and it's free." 
+
+Contact Stephanie Kang by e-mail at stephanie@nicar.org. 
+
+readme.txt 
+
+The Seattle Times examined more than one million traffic stops and found black motorists in some areas of the state were more likely to be searched than whites. The story is available on the Web at http://seattletimes.nwsource. com/htm/localnews/ 134609738_racial05m.html. 
+
+The Boston Globe analyzed more than 750,000 traffic tickets from police departments in Massachusetts and discovered racial disparities in many areas of traffic enforcement. The two- part series is available at www.boston.com/globe/metro/ packages/traffic/010603.shtm 
+
+The Providence Journal also examined ticket data and found that some Rhode Island police departments searched vehicles driven by blacks and Hispanics as much as five times as often as those driven by whites. Read the story on the newspaper's Web site, www.projo.com. Registration is required. 
+
+May June 2003
+
+
+11
+
+
+Segregate continued from page 1 
+
+No matter what their beat, most jour- nalists will end up writing about some kind of segregation: racial, economic or other. Do minority neighborhoods have more crime? Do children of dif- ferent races learn in the same class- room? Where are the poorest and richest neighborhoods in a city? How did the racial makeup of cities, coun- ties and Census tracts change from 1990 to 2000? 
+
+Controversy 
+
+Just as race is a sensitive topic, the measures of segregation used or re- ported by journalists can generate controversy. A study by researchers at the University of Wisconsin-Mil- waukee challenged Milwaukee's reputation as one of the country's most segregated areas. The re- searchers looked at the percentage of residents living in blocks that were at least 20 percent black and 20 per- cent white in 2000. Milwaukee ranked as the 10th most integrated of the 50 largest metro areas. The metropolitan area ranked as the 43rd most integrated out of 100 - not great, but much better than its standing under traditional seg- regation measurements. 
+
+The Milwaukee Journal Sentinel re- ported the study's results in a three- day series called "Closer Together: A More Integrated Milwaukee." (Read the stories at www.jsonline.com/ news/metro/jan03/109872.asp) The university study and newspaper se- ries prompted a flurry of letters, phone calls and discussion, in Mil- waukee and beyond (including the CENSUS-L listserv run by IRE and NICAR). Some researchers criticized the study for its methods (for instance, some said the 20 percent figure in the Milwaukee report was arbitrarily cho- sen) and the newspaper for publiciz- ing the findings without questioning them. The newspaper and the re- searchers, at UWM's Employment and Training Institute, have publicly stood by their work. 
+
+The lesson of the controversy is that even the most math-phobic journal- ists should have a basic understand- ing of segregation and how it can be measured. According to one promi- nent sociologist, most journalists are doing a good job. 
+
+"Actually, I think it's outstanding that so many reporters have been able to use numbers, whether they use one number or several, and interpret them correctly," said John Logan, a profes- son at the State University of New York at Albany. Logan talks frequently to reporters as director of the Lewis Mumford Center for Comparative Ur- ban and Regional Research. 
+
+Logan said he's seen more sophisti- cated analysis of segregation with Census data in 2000 than in 1990. guess editors have been willing to al- low more real information in the sto- ries and to rely less on anecdotes." 
+
+Some stories 
+
+Some of those segregation stories appear on the "In the News" section of the center's Web site. (www.albany.edu/mumford) Last year, for instance, The Detroit News pub- lished a series called "The Cost of Seg- regation" that examined attitudes about race and the social, economic and po- litical consequences of segregation. Working with 2000 Census data, The Detroit News used several statistical tools to measure segregation. 
+
+in Cleveland, The Plain Dealer ana- lyzed economic isolation using 2000 Census data. Reporters looked at the number of people who live in Census tracts that are either totally wealthy (median household incomes greater than $75,000) or totally poor (at least half of households below the federal poverty level) They found that about one in five residents in the metro Cleveland area lives in an economi- cally segregated neighborhood. 
+
+One of the challenges, said Dave Davis, the reporter who leads the paper's Census coverage, is sifting 
+
+through all of the reports and statistics on segregation and explaining them in a way that makes sense to readers. 
+
+Options 
+
+Sociologists and statisticians have found at least 20 ways to measure seg- regation. In an influential 1988 study, two researchers grouped those mea- sures into five main categories or "di- mensions" of residential segregation: 
+
+Evenness - whether minorities are over-represented in some areas and under-represented in others, or spread out evenly. 
+Exposure - the potential for mem- bers of different racial groups to in- teract with each other by virtue of liv- ing in the same neighborhood. 
+Concentration - how much physi- cal space members of a minority group occupy compared to members of a majority group. 
+Centralization - whether members of a minority group live close to the urban center or out in the suburbs. 
+Clustering - whether minorities live in adjoining neighborhoods or in neighborhoods scattered throughout a metropolitan area. 
+
+Journalists and researchers tend to measure evenness the most. A popu- lar measure of evenness is the index of dissimilarity, which compares the racial makeup of individual neighbor- hoods to that of the entire metro area. The index ranges from 0 (total inte- gration) to 1 (total segregation). A dis- similarity score of 0.85 for blacks means that 85 percent of blacks would have to move to another neigh- borhood to attain perfect integration. On the plus side, the dissimilarity in- dex can be used in other ways, such as comparing the racial composition of individual schools within a school district. On the minus side, only two groups can be compared at a time. 
+
+Another measure of evenness, the 
+
+12
+
+
+May June 2003
+
+
+Uplink 
+
+Gini coefficient, is often used to mea- sure how equally income is dispersed in a society. A coefficient of 0 repre- sents perfect income equality, and a 1 means perfect income inequality. 
+
+A common measure of exposure is the isolation index. It gives the prob- ability that a person shares an area (such as a neighborhood or Census tract) with another person of the same race or ethnicity. Like the dissimilar- ity index, it ranges from 0 to 1, with higher values meaning more segre- gation. An isolation index of 0.85 for whites would mean that the typical white person lives in an area that is 85 percent white. 
+
+In a report released in August, the Cen- sus Bureau ranked 43 metropolitan areas by each of these measures. (The report, "Racial and Ethnic Residential Segregation in the United States: 1980- 2000," is online at www.census.gov/ hhes/www/resseg.html) 
+
+The results show how complex mea- suring segregation can be. Detroit ranked as the most segregated city based on evenness and clustering. New York topped the list based on ex- posure, while Milwaukee was first based on concentration, and Minne- apolis was first based on centralization. 
+
+The report also shows how a single metro area can appear more or less segregated, depending upon the defi- nition. Atlanta ranked as the 11th most segregated area in exposure, 15th in clustering, 23rd in evenness, 35th in centralization and 42nd in concentra- tion. The Riverside-San Bernardino area ranked anywhere from 3rd to 40th most segregated, depending on the measure. 
+
+So which measures should reporters use? Much of the answer depends on what the story is about or the demo- graphics of a particular area. 
+
+For its recent series on economic and racial segregation, The Detroit News looked at several measures but fo- 
+
+cused on the dissimilarity index and isolation index. Brad Heath, one of the reporters who worked on the series, said the dissimilarity index "provided the most simple and direct measure- ment of the extent to which affluent blacks and whites were living in the same neighborhoods." 
+
+The paper also used the isolation in- dex because it's easier for readers to understand, according to Heath: "In- stead of explaining dissimilarity and how it works, we were able to show them how 'typical' rich whites and blacks live in very different neighborhoods." 
+
+The Plain Dealer also has used dif- ferent gauges. For instance, the pa- per measured racial isolation by counting Census tracts where nine of 10 residents are of the same race. They've also used the dissimilarity index and the USA Today Diversity Index, which measures the probabil- ity that two people picked at random will be of a different race. 
+
+In Wilmington, Del., The News Journal used both the dissimilarity index and the diversity index to measure racial integration. First, the paper eliminated areas that were too racially homoge- neous to have segregation. To do that, reporters calculated the diversity index for areas with an index of 0.25 or higher (meaning there is a 25 percent or greater chance that two people picked at random will be of a different race). The paper did so because the dissimi- larity index is sensitive to small num- bers, according to Aron Pilhofer, who co-wrote the story. (In other words, if a city has 1,000 residents but only 30 of them are minority, they would have to be individually scattered for neighbor- hoods to reflect the overall racial makeup of the city.) For the remaining blocks, the paper calculated the dis- similarity index then hunted down the most integrated, and segregated, ar- eas of the state. 
+
+Some advice 
+
+Think visually. Segregation deals with the physical space people inhabit 
+
+so it makes sense to use maps to supplement your analysis and charts. The Detroit News used a dot-density map to show where the wealthiest whites and blacks lived in 2000 (See map at www.detnews.com/pix/2002/ 11/03/segregationmap.gif). Ninety- nine percent of wealthy whites lived in the suburbs, while 61 percent of blacks lived in the city of Detroit. "Put- ting a precise definition on segregation's never easy, but the maps make undeniable the claim that whites and blacks are stratified in ways that have little to do with money," reporter Heath said. 
+
+Ask experts for help. Many report- ers check with university researchers when deciding how to measure seg- regation. They can help you choose a measure and review your results. 
+Read up on the issue. Paul Overberg, a Census expert with USA Today, recommends two books: "American Apartheid: Segregation & the Making of the Underclass," one of the definitive books on segregation, by Douglas Massey and Nancy Denton; and "The Next American Nation: The New Nationalism and the Fourth American Republic," by Michael Lind. 
+Don't ignore common sense. Does the real world reflect what the statis- tics show? 
+Remember that some things can't be measured. Even if a neighborhood is perfectly integrated, people of dif- ferent races may still eat at different restaurants, have different friends or attend different churches. 
+
+Overall, journalists should resist the urge in their profession to boil com- plex issues of race down to the point of losing important details and nu- ances. As Logan said, "There's no single number that would tell you what the story is." 
+
+Contact Holly Hacker by e-mail at holly@nicar.org. 
+
+May June 2003
+
+
+13
+
+
+Custabaze 
+
+CAR TOOL 
+
+OS X lays foundation for CAR on the Mac 
+
+By Derek Willis, Center for Public Integrity 
+
+Last summer I did something I never thought I would do: I bought a Mac. I wasn't a "Mac guy." In fact, I had al- ways considered Apple computers novelties that were nice to look at and easy to use, but not for me. All of my favorite software ran on the PC and little of it ran on the Mac. 
+
+Then came Apple's new operating system, os X (called os Ten) and those gorgeous PowerBooks that ran it. I wanted one, not just be- cause it was a lot prettier than my dull laptop. After reading reviews and trading e-mail with PowerBook users, I decided that I was ready to make the switch. 
+
+So I unloaded my PC laptop and got a used PowerBook that handles seri- ous computer-assisted reporting work. From spreadsheets to data- bases, scripting to Internet utilities, os X has plenty of options available for journalists doing CAR. 
+
+Even if you work in a Mac-based newsroom you may not have seen os X. It's still new and many older Mac applications haven't been up- dated to run on os X (Most will func- tion, but often sluggishly). Unlike many new versions of Windows, os X isn't merely an upgrade. It's an entirely new operating system based on Unix. That means os X is not only sturdy and reliable, but it can run scores of applications that are de- signed for Unix and its open-source cousin, Linux. 
+
+os X is extremely stable. I can count on two fingers the number of times I've had to reboot my machine since last summer, and both of those occur- rences can be blamed squarely on user error. In fact, if a program stops respond- ing you can shut it down without affect- ing the rest of the system at all. 
+
+The desktop looks a little like the older Mac versions, but with some great new 
+
+features. The first is the dock, which serves as a placeholder for favorite applications. It's also where os X puts minimized programs. Using the famil- iar bar atop the desktop you can con- nect to remote servers, search for files and log onto the Internet. 
+
+X11 Applications Edit Window
+Appl
+19410 Mon 11:32 PM
+
+United OpenOMizz.org 1.0.1
+
+Debit
+
+&
+
+10
+
+=AVERAGE(B2:85)
+
+Name
+Salary
+ Smith
+$45,000.00
+ Williams
+$56,000.00
+ Butler
+$41,000.00
+ Line Young
+$49,000.00
+
+Total
+$191,000.00
+CAROM
+ Average
+$47,750.00
+
+*
+
+Sheets
+
+Enfair
+1999
+STD
+
+
+os X's search function alone is worth mention. Besides being easy to use, it also has advanced features that permit you to index the contents of folders holding text files, Web pages and other common documents so that you can search them. The indexing feature can be turned on or off for any folder, meaning you won't fill up the hard drive with unused indexes. The rest of the desktop can be as cluttered or uncluttered with pro- gram icons and folders as you like, but there is one very un-Mac object: the terminal window. 
+
+CAR gateway 
+
+This is the gateway to os X's Unix- based system and a primary reason why this os is ready for CAR. The terminal window can be used to launch Unix applications, such as the MySQL database, to run Perl scripts or telnet into remote computers. It's much like the DOS command line. The terminal program provides ac- cess to the Unix file system and the Mac files and folders. 
+
+When it comes to the critical CAR pro- grams - spreadsheets and database managers - os X has some good choices available but other shortcom- ings. First the spreadsheet: Microsoft makes a version of Office for os X that includes Excel. If you do not want to pay several hundred dollars for it you can opt for the spreadsheet that comes with the free OpenOffice suite for os X. (Read "Office package needs more work" in the January- February 2003 Uplink for details.) The spreadsheet, called Calc, reads and writes Excel files and generally is a decent substitute. 
+
+Many of the leading PC database managers, such as Microsoft Access 
+
+14
+
+
+May June 2003
+
+
+Uplink
+
+
+Jefferson File Edit Window Help
+Apps
+4
+Mon PM
+
+Search for
+bills
+
+Marches
+
+sponsored by
+
+Marches
+Marintock
+
+Representative
+Wilson
+Time
+
+Hook RES21 William NM-1 Equivitis the our " the that middle.
+ ILCON.RES. KIT start Express the Line of the the ell people
+
+Bill
+Subject
+Sponsor
+Kij
+for
+Net
+Equeons the with d sis Course the on Sryw
+
+Righ " when NUM September the grade-uni of a Natural SH SIL
+
+Congress
+Fetch
+Ks Healthy NMM T4 PRINTI information lauding wal lungnet *113
+
+Krp Without 13 when NMW To in usi st XIX its and No using An ⑉
+ Rigo 113rm Matter NH rings STANDARD der
+ Krj Hashu NH Th and da Pati and item Cruth of 150m the
+ Rep 11 the INMI smoke studention " alaba . In
+ his WHOLL NML TOTAL with Side of dear
+ Kra With Hawar NM.1 'I's extend auto nauti stimu problems MWAY -
+ Rip Wither Health NM To inkal the Daff Warn be (is sudded
+
+
+and FoxPro, won't run on os X with- out emulation software, which can be fussy, but that doesn't mean users are out of luck. OpenOffice users can use an Access-like query by example grid to query databases via ODBC (Open Data Base Connectivity) but will first need to set up the ODBC connection. An open source developer is working on a Unix-based set of tools that can read Access mdb files. For the next version, the developer plans to add file-writing capabilities. 
+
+Data work 
+
+One of the more popular database managers for os X is MySQL, a pow- erful program that will be familiar to most FoxPro and SQL users, and pretty easy to pick up for others. (See "MySQL primed for heavy-duty ac- tion" in the March-April 2003 Uplink for a review of the program). Many of MySQL's powerful features can be accessed using the terminal's com- mand line, but os X developers have created some nice front-ends to make the database work even easier. 
+
+My favorite is CocoaMySQL, a freeware program that allows users to write and save SQL queries and has an Access-like filter function. Its tabbed interface makes it easy to switch back and forth between tasks, 
+
+such as adding a field to a table and running queries. The program is still being refined and more features are in the works, according to Lorenz Textor, its developer. (Why CocoaMySQL? One of the two main programming languages for os X applications is Cocoa. The other is called Carbon.) 
+
+Another option is to administer MySQL through a Web browser us- ing PHPMyAdmin, another open source program that requires the Apache Web server and some fine- tuning to set up. See www.devshed.com/Server_Side/Ad- ministration/BuildingOnOsX/ page1.html for details. 
+
+Importing data into MySQL is even easier on the Mac than a PC because while the best import utility runs via the command line, os X allows you to drag and drop file names and lo- cations between folders and the ter- minal, saving plenty of keystrokes. And MySQL's biggest advantage over other database managers is its speed. 
+
+Mapping fans don't have much rea- son to switch to os X yet, but an open-source GIS program called GRASS runs on the Mac. Still, it's hardly a substitute for more refined 
+
+programs, such as ArcView, MapInfo and Maptitude. 
+
+Utilities 
+
+What about the other little compo- nents in the CAR toolbox? os X runs many great basic utilities, including the FTP program Transmit ($39) or the free RBrowserLite, both of them similar to popular Windows FTP cli- ents. The all-purpose text editor BBEditLite, which is free, or its more powerful full version ($149) have ex- tensive search and replace functions and can do some things Word doesn't, such as save a file directly to an FTP site. 
+
+Initially, Web browsers for os X dis- appointed me. Microsoft Internet Ex- plorer for Mac (5.2) isn't nearly as good as the PC version, but Apple recently introduced a new browser, Safari, that works quite well. You can also install other popular browsers such as Netscape, Mozilla or Opera. 
+
+There are some things I do miss about Windows: the right-click, for in- stance. But the functionality isn't missing in os X, it merely requires a switch to a keyboard combination. And if you can't completely give up your Windows PC, os X easily reads Windows disks and e-mail attach- ments, making file transfers a snap. I even connected my PowerBook to my former company's internal network and was able to access network fold- ers with no trouble. 
+
+Maybe the biggest upside of os X is that it has a vibrant developer com- munity that already has produced a number of useful applications. They range from Jefferson, a front-end to the Library of Congress' popular Tho- mas Web site, to NetNewsWire, which reads "feeds" produced by news sites and weblogs. Each week brings a new application or tool to try, and another reason why os X has given Apple much more than a pretty face. 
+
+Contact Derek Willis by e-mail at derek@thescoop.org. 
+
+May June 2003
+
+
+15
+
+
+www.nicar.org 
+
+OPEN SOURCE 
+
+Putting a useful face on MySQL 
+
+By Aron Pilhofer, Center for Public Integrity 
+
+MySQL is a free, high-end database server with speed, features and raw power that compare favorably to ap- plications that cost thousands of dol- lars. (See the March-April 2003 Up- link). But users may be surprised to find that the program does not in- clude a client application for query- ing and managing data. 
+
+The good news is there are plenty of clients developed by others. With MySQL's popularity growing during the past decade, dozens of third- 
+
+MySQL-Front Freeware, Windows Only http://efux.de/mysqlfront/MySQL- Front_2.5_Setup.exe 
+
+Pros: MySQL-Front may not have the most features, but it has the most use- ful ones and is well suited for serious data analysis. Its layout is nearly iden- tical to Microsoft SQL Server's Query Analyzer. MySQL-Front's tabbed lay- out puts the query design window up front where it belongs and keeps the number of open windows to a mini- 
+
+MySQL f ront (home /fec/bushgov_lku
+ File Edit Tools Im-/Export Window Help
+
+Eit
+x
+
+e
+Limit:
+0
+17,000
+OK
+
+pihofer@localhost
+Host
+Database
+Table
+Data
+Query
+
+-
+baseball
+
+data527
+fec / bushgov_lk 4434 Records (23 retrieved)
+ fec
+prikey
+BOP2000
+orgid
+SumDiAmoun
+Contab
+Contribrest
+ bushgov_lkup
+I
+Eastman Chemical
+402
+25175
+Deavenport
+E.
+ mysqi
+2
+Hendrix Family of Midland
+16500
+Hendrix
+John
+ npr
+
+3
+Gaylord, Edward L (OK)
+62000
+Gaylord
+Edward
+
+pop
+ quid
+4
+Coca-Cola
+315
+66350
+Coca-Cola Enterprise
+ test
+5
+Andersen Worldwide, Chicago
+3351
+199625
+Goddard
+D.
+
+6
+Bob Bullock Campaign Accour
+25000
+Bob Bullock Campaid
+ 7
+Matthews, J. J. (Abilene)
+18500
+Mathews
+J.J.
+ 8
+Salome, Tom and Martha (Wad
+14500
+Salome
+Tom
+ 9
+Metro Networks / David Saper
+61500
+Saperstein
+David
+ 10
+American International Group
+329
+38900
+Greenberg
+Evan
+ 11
+Columbia / HCA
+363
+71700
+Columbia/HCA Texa
+ 12
+AT&T Corporation and affiliated
+3338
+124750
+!AT&T PAC
+ 13
+Associated Republicans of Tex
+27500
+Associated Republic
+ 14
+Sanchez family and related bus 483
+322400
+International Bank of
+ 15
+Worsham, Forsythe & Wooldrid
+1000 Filmore
+Robert
+
+
+party clients - freeware, shareware, open source and commercial - have been developed. 
+
+The bad news is that I have not found one that combines rich features, sta- bility and ease of use in a single package, though some come close. All of the popular clients discussed below, except MySQL Front, are in heavy development, so a year from now it is likely a do-it-all tool will emerge. 
+
+mum. The query results pane and the database management and design functions are a mouse click away un- der tabbed windows of their own. 
+
+Servers, databases, tables and field names are accessible from a menu tree along the left side of the cli- ent. Along the bottom is a scrolling log of commands passed to the da- tabase server - a useful feature, Many of my database tasks are re- petitive updates of files collected 
+
+over several years. It's sometimes difficult to keep track of which tables have been updated. The log solves that problem. Every time I perform a major update, 1 save a copy of the log. The log provides a record of the up- dates and allows me to reconstruct a table from scratch. To do that, I just run the log files (a string of SQL com- mands) on the raw data. 
+
+Cons: The biggest problem with MySQL-Front is that development halted with version 2.5, released in September 2002. MySQL-Front also lacks some of the more advanced im- port capabilities of other clients, such as the ability to import MS Access files to MySQL. 
+
+Bottom line: MySQL-Front is one of the two clients I have on my desktop all the time. It is one of the most ma- ture MySQL front-ends available at any price. 
+
+Mascon 
+
+Shareware ($49), Windows and Linux www.scibit.com 
+
+Pros: Mascon is another rugged cli- ent application that includes most of the critical features users need. Mas- con makes managing tables and in- dexes a snap. Creating a table is as easy as typing in a name for each field and defining the type of data to be stored there. Indexes can be found under a tab in the same dialog box. 
+
+Mascon excels at importing data. No other client imports data as seamlessly, especially from Microsoft Access, FoxPro or Excel. MySQL, like most database servers, is fairly strict about how field names and how cer- tain data types - especially dates - are formatted. Access is a good deal more liberal about such things, and that's where problems arise when try- ing to transfer data back and forth. Mascon handles these potential stum- bling blocks. 
+
+Cons: Mascon lacks some of the fea- tures that should be standard in any client, most notably the ability to man- 
+
+16
+
+
+May June 2003
+
+
+Uplink
+
+
+age user accounts and permissions. It also lacks the clean, convenient query interfaces of MySQL-Front and MySQL Control Center (see below). The query designer is a separate win- dow from the list of tables, and there's no way to view the field names with- out opening the table in a new win- dow. Unless you have memorized ev- ery field you want to query, your desktop is likely to end up awash in open table views and query windows. 
+
+The cost is a potential drawback, al- though the $49 license covers future upgrades. 
+
+Bottom line: Mascon is worth the price for the import and database design features alone. 
+
+SQLyog 
+
+Freeware, Windows www.webyog.com 
+
+Pros: This is the one client that may push MySQL-Front off my desktop. SQLyog borrows heavily from MySQL-Front in terms of design, but also offers some nice improve- ments. SQLyog puts the query de- sign window right up front. Under- neath are tabbed windows showing query results, server messages, details about the active table and a log of commands. 
+
+A useful feature is the ability to ap- ply a quick filter to results set based upon a value of that set, similar to an autofilter in Excel or Access. The program supports importing from text files or an ODBC data source. The ODBC import wizard worked well in limited testing and allows a great deal of control over import- ing. If a particular column name is troublesome, for example, the wiz- ard allows users to assign a differ- ent one to the target table. 
+
+Cons: A few minor quibbles. The menus could be simplified, and there is far too much overlap be- tween menus and icons. The lay- out is not intuitive, and is somewhat confusing. There is no way to 
+
+browse your data. To scroll through a table, you have to execute a se- lect all query. Perhaps the largest drawback with SQLyog is that it is freeware and not open source. Just as development on MySQL-Front stopped when the developer called it quits, the same could happen with SQLyog. 
+
+MySQL Control Center 
+
+Open Source (free), Windows, Linux (OS X soon) www.mysql.com/downloads/ mysqlcc.html 
+
+Pros: Control Center is the closest thing to an official client. It is an open source project of the company that develops MySQL, though it remains a separate product. As of this writ- ing, Control Center was still in beta (version 0.9.2 is the most current), but it is already one of the better cli- ents available. 
+
+I like the server/database/table tree along the left. But rather than list field names as a fourth branch of the tree, they are displayed in the center pane, which is a bit less convenient than MySQL-Front. The query design window, unfortu- nately, has to be opened separately from the main application. 
+
+Control Center has a command log and the program includes outstand- ing tools for server and user man- agement. The menus are easy to find and very intuitive. Table design and indexing is also very simple and straightforward. 
+
+Cons: Control Center lacks quite a bit right now, including documentation of any kind. Most of the functions and features are easy to figure out if you're familiar with similar environ- ments. But to those new to MySQL, this could be an issue. Control Cen- ter also does not have any data im- port or export features. There also are a few annoying quirks. For ex- ample, the results pane is limited to 1,000 records with no apparent way to alter it. 
+
+Bottom line: This could be an out- standing client down the road, but it's not there yet. 
+
+Other clients to consider: 
+
+DBManager Professional 
+
+(formerly DBTools) www.dbtools.com.br/EN/index.php 
+
+This tool has every feature imagin- able and more. It can import from just about any format, has an Access-like query designer and all the adminis- tration tools anyone could want. So what's not to like? Plenty. For start- ers, the import tool chokes when dealing with odd Access tables or field names, or large amounts of data. It also does not import Access 2000 tables. The table design win- dow is clunky and complex. Worst of all, the program sucks up memory and eventually freezes if a query re- turns a large result, more than a few hundred-thousand records. 
+
+Navicat www.mysqlstudio.com 
+
+Navicat is an outstanding commer- cial product, with some features I wish other clients supported. It is one of a few clients that sport a true Access-like query design grid. Users can create relationships between tables by dragging and dropping, which is a godsend when you need to join large tables and multiple fields. But the menus and general layout are cluttered and confusing. The biggest downside to Navicat is price: It costs $88 for a license, good for one year of support and upgrades. 
+
+These are just a sampling of the cli- ents available for MySQL; there are many others, including the Access- like database query client built into the OpenOffice suite. Access itself can serve as an outstanding front- end for MySQL. 
+
+Contact Aron Pilhofer by e-mail at apilhofer@publicintegrity.org. 
+
+May June 2003
+
+
+17
+
+
+Malt our 
+
+Tech tip Access forms ease data input drudgery By Matt Scallan, Times-Picayune 
+
+Sometimes the biggest hurdle in com- puter-assisted reporting is getting the information into the computer. 
+
+We've all read great stories gleaned from forms, traffic tickets or other pa- per records that had to be punched into a database one field at a time. 
+
+It's a lousy job, but if you have to do it, Microsoft Access database man- ager has a lot of tools that can signifi- cantly speed up your work. The least glamorous job on my beat is typing police reports every other week. It's not fun, but using a customized Access 97 form with AutoCorrect functions, input masks and lookup tables accelerates the process. 
+
+I use separate Access forms to en- ter information about arrests and in- cidents that are then combined into 
+
+a single report for use in our Harris NewsMaker pagination system. Ac- cess sorts the incidents and the people arrested, adds our newspaper's boilerplate language and formatting, then exports the data into a text report. 
+
+Using these tools, it takes about 10 keystrokes to type a report of a ve- hicle burglary in the 2200 block of Veterans Memorial Boulevard on Aug. 22. An added benefit is we store our police reports in a data- base, something that makes it easier to track and map crime trends. Our bureau has used the data to report stories about a rash of auto thefts outside movie theaters and holiday-season car burglaries. 
+
+These techniques can be applied to any data entry project. 
+
+Combo boxes 
+
+Our incidents form uses a combo box (drop-down list box) that allows us to pick from a table of street names and enter that data into a field in another table. 
+
+We got our streets table from the ESRI Web site at www.esri.com/ data/download/cen 2000_tigerline/index.html. After downloading the streets file for our area from the Web site, we imported the dBASE table that came in the package of files into Access. You may have to do some data cleanup in the streets table in Access be- cause some of the entries typically have errors. 
+
+Working in the form design view, I placed a combo box onto my form. That launched a combo box Wiz- 
+
+B IncidentFrm Form
+
+Community
+
+04/02/2003
+Incidents
+
+Keyboard Shortcuts
+
+Address
+Street
+Add Street
+
+veterans Memorial Boulevard
+
+Add Record
+
+Crime
+
+Vernon Street
+Delete Record
+ Versailles Street
+ Veterans Memorial Boulevard
+Add Arrest
+ Veterans Memorial Service Road
+
+Date
+Vic Street
+Switchboard
+ Vic A Pitrie Drive
+
+Details
+
+Victoria Avenue
+Help
+ Victoria Street
+
+View Past Incidents
+
+Quit
+
+Record: 14
+1
+XI
+of 3
+
+
+18
+
+
+May June 2003
+
+
+Uplink
+
+
+ard that guided me step-by-step through the process of linking the combo box to the streets table and instructing Access to place the se- lected street name into a field in the incidents table. 
+
+Typing in street names is time con- suming, especially if you don't re- member whether something is a street, drive, avenue or boulevard. The combo box speeds up the work by displaying matching street names when you type the beginning of the street name inside the box. 
+
+With the combo box in place I can type "Veter" and "Veterans Memo- rial Boulevard" pops into place. In addition to entering data with combo boxes like this, you can use a combo box to query a field. 
+
+Corrections 
+
+I used the Microsoft Office Name AutoCorrect feature (available through the Tools menu) to change abbreviations typed in the incident box of the form to the full phrase. For example, when I type "vburg," Access automatically converts it to "Vehicle Burglary." Just make sure you don't you pick an abbreviation that you would use in a news story. 
+
+I added buttons in design view, launched a Wizard and created com- mand buttons to add records. delete records, and execute a query. When creating an "add record" button, I al- ways label it Add & Record. The am- persand underlines the R and acti- 
+
+vates the Alt-R as the hot key. 
+
+I used input masks to save key- strokes when entering dates in both the incidents and arrests forms. (For more information see article Q311167 in the Microsoft Knowl- edge Base at http:// support.microsoft.com). If all of your data comes from this year, the in- put mask 99/99/"2003";0; lets you complete the data by typing the four digits for the month and day. When Access sees a "9" in an input mask it requires you to enter a digit. A zero is an optional number. Use this in- put mask, "99/99/0099", for dates of birth. Why? Because Access treats 1/01/29 as Jan. 1, 2029, not 1929. If you must type in dates earlier than 1930, using double zeros gives you the option of typ- ing in the four-digit year. 
+
+The output 
+
+I created an Access report to cre- ate a text file of the arrests that's ready to import into our pagination system. The report sorts arrests by community, street and the last name of those arrested. This is the code, inserted into the detail section of the report in design view, that does this: 
+
+=Trim([First] & H # & [Last] & "¥, n & Age ( [DOB]) & ", " & [address] & # & [cityl & was ar- rested is & Format ( [Date] "mmmm d") & in the " & [block] & 
+
+& [location] & " & [Com- munity] & " , and booked with " & [charge] & " to & [Details] & " H & [Notes] & "É") 
+
+The code merges the fields together into a text file and separates them with spaces. The Age function in the code converts the information in the DOB field into a numerical age based on the date the report is run. 
+
+The specialized characters are unique to our computer system. I punched in the ASCII code for these characters to produce them since the generic version of MS Word handles them differently. 
+
+Contact Matt Scallan by e-mail at mscallan@cox.net. 
+
+readme.txt
+
+
+Download a copy of the police reports and incidents Access 97 database from the NICAR Web site at www.nicar.org/techtips.htm 
+
+For more information about using Microsoft Access forms to build database applications see "User Friendly Forms" in the April 2000 Uplink and "Fronts for Forms" in the June 2000 Uplink. 
+
+May June 2003
+
+
+19
+
+
+IRE Dambasa 
+
+Priests continued from page 1 
+
+porters' work. (For more details about The Globe's investigation see the May- June issue of The IRE Journal) 
+
+"The database was very helpful in the beginning. It basically showed us there was a big problem and gave us a lot of confidence," said Matt Carroll, a reporter on the team. Initial report- ing gave the team an idea that there was a larger problem within the Bos- ton Archdiocese; what they needed was further evidence of this to move on with the project. 
+
+The process that followed was long and tedious. The resulting database, though, produced the substance the team needed. 
+
+The Globe reporters learned that the archdiocese had placed some priests accused of inappropriate sexual con- duct on leave for a number of years. Following this lead, Spotlight editor Walter V, Robinson scanned through each year of the archdiocese's annual directories and placed a checkmark next to each priest listed as being on leave. After identifying these priests, Carroll and three other reporters settled around a computer, took turns reading the information and typed data into Microsoft Excel. 
+
+They then created a spreadsheet for each priest using the information found in the annual indexes. Each spread- sheet included the priest's name, the year of assignment and where or how they were assigned. When the report ers were finished each priest in the database had 16 records, one for each year of assignment. Later, records of civil litigation were added. While The Globe has used databases fairly often for projects this was the first time they created a year-by-year database for analysis, Carroll said. 
+
+Probe for patterns 
+
+Combining the data with the knowl- edge that certain on-leave patterns 
+
+possibly indicated priests with recur- ring sexual misconduct, Carroll was able to search for trends within the data. While taking into consideration that some of the priests were ill and legitimately on leave, the patterns that developed showed Carroll that some priests had repeatedly been placed on sick leave or went unas- signed for a number of years. These findings corresponded with what the re- porters had been discovering and was later supported through their reporting. 
+
+Court documents and data on the intranet helped reporters verify infor- mation and conduct background checks of the priests. The database allowed reporters to provide concrete evidence of the phenomenon that had before only been hearsay. It also pro- vided them with the numbers neces- sary to support their reporting. 
+
+"It showed us that the number of priests on sick leave tripled in the 1990s," Carroll said. "The initial data- base stuff showed us there was a problem that gave us the confidence to push on hard with it." 
+
+Despite this, Carroll said what carried the story was not the database, but the documents they acquired and the dili- gent reporting that put it all together. 
+
+With the Boston scandal getting na- tional attention and an approaching meeting of the U.S. Catholic Bishops in Dallas, editors and reporters at The Dallas Morning News wanted to present readers with a different per- spective on the issue. 
+
+"We were missing the sense that this wasn't unusual," said Brooks Egerton, a reporter for The Morning News "As much as everyone was reporting on the trees, no one was covering the forest." 
+
+Building on work he had done for The Morning News in 1997 covering one of the largest clergy abuse cases to go to trial, Egerton said he had come to understand that what was going on with the sex-abuser priests was part of a larger pattern. He dug up some old 
+
+notes he had from the mid-1990s when the Diocese of Dallas had its own priest sex abuse crisis and followed up on trends he had observed at the time. 
+
+The Morning News created a database in Microsoft Access to track how church management-mainly bishops - had allowed priests accused of sexual abuse to keep working. Egerton said this was the central issue of the recent scandal in the Catholic Church. 
+
+The original purpose of the database was an attempt to analyze the trends Egerton had observed. "We started off simply trying to quantify how many U.S. diocesan leaders had done what Car- dinal Law had done - keep accused priests on the job," Egerton said. As the database grew in size and depth, The Morning News began questioning how to best present the findings of the da- tabase to readers. 
+
+The Morning News published informa- tion from the database in print and posted it online. The printed version covered five full newspaper pages, Egerton said. A searchable version of the database is available online at www.dallasnews.com/cgi-bin/2002/ priests.cgi and allows users to track bishops in their state or diocese, and learn details about their actions. 
+
+National scope 
+
+The New York Times wanted to con- duct a study that would measure the scope of sexual abuse by priests at a national level. The dilemma The Times" reporters encountered was how to es- tablish facts and detect broad trends about a subject shrouded in secrecy without existing data. 
+
+"The limitations of this kind of project are getting to the difficulties of system- atically counting details of sexual abuse," said Josh Barbanel, a reporter at The Times specializing in computer- assisted reporting. The Times had to devise a way to gather and analyze information documenting priests ac- cused of sexual abuse. 
+
+Database editor Tom Torok created a 
+
+20
+
+
+May June 2003
+
+
+Uplink
+
+
+Web data-entry form using Active Server Pages (ASP) that connected to a SQL Server database. Research staff and clerks typed information compiled from a variety of sources, including newspaper articles, court records and church records. Some of the information recorded in the data- base included the state or location of the report, parish information infor- mation about the priests. 
+
+After completion of the data-entry process, Barbanel cleaned the data- base in Microsoft Access. He then analyzed the data searching for trends. Through this data work, The Times was able to identify 1,205 priests accused of sexually abusing minors. The data analysis showed a spike in the number of priests ac- cused of abuse who were ordained in the 1970s. The report also identi- fied victims based on age and gen- der and listed the number of victims per abuser-priest. 
+
+According to "How the study of Sexual Abuse by Priests Was Conducted," writ- ten by Barbanel and published in The Times Jan. 12, the analysis found "1.8 percent of priests ordained since 1950 have been accused of sexually abus- 
+
+ing minors, including nearly 3.3 percent of priests ordained in two particular years, 1970 and 1975." 
+
+The article detailed the methods and shortcomings of the analysis: "The study, although the most complete of its kind, faces some methodological limitations that make it difficult for ei- ther supporters or opponents of the church to draw sweeping conclusions." Barbanel said that for this kind of study is it important to explain the methods, definitions and how the data worked into the rest of the story. 
+
+Some of the limits of this type of an analysis are simply due to the limits of the information. Torok said this is com- mon and that journalists should ap- proach numbers cautiously regardless of the project. 
+
+"Sometimes purportedly accurate numbers are horrendous," Torok said. "You have to let people know the limi- tations, the downside of things and use words like 'about'." To handle some of the limits with this particular project, Barbanel said, The Times tried to carefully define the universe of data used. In doing this, the study included only ordained priests and ex- 
+
+readme.txt 
+
+The IRE Resource Center has copies of the stories mentioned in this article. 
+
+Story No. 19857: "Crisis in the Catholic Church." The Boston Globe series tracks decades of abuse within the Roman Catholic Church and the efforts of church leaders to cover up the problem. 
+
+Story No. 19855: "Catholic Bish- ops and Sex Abuse." The Dallas Morning News exposes the neg- ligence of U.S. bishops in failing to stop sexual misconduct within the Catholic Church, even after church leaders agreed on a 
+
+policy to suspend errant priests. 
+
+Story No. 20219: "Decades of Damage." A New York Times sur- vey finds more than 1,200 priests were involved in the abuse of more than 4,000 minors in the last 60 years. 
+
+The Arizona Republic story, "Priests with troubled pasts," will soon be available from the IRE Resource Center. Search the story database at www.ire.org/ resourcecenter. 
+
+To order a story, call the Resource Center at 573-882-3364 or rescntr@nicar.org. 
+
+cluded Catholic lay ministers. 
+
+While the Roman Catholic Church and the public continue to grapple with sexual abuse by priests, journalists are continuing to uncover even more evi- dence of wrongdoing. The Globe posts continuing and archived coverage on its Web site at www.boston.com/globe/ spotlight/abuse. Other news organiza- tions are also attempting to track evi- dence of abuse within the church. On May 4, for example, The Arizona Re- public published "Priests with troubled pasts," which documents problems within the Roman Catholic Diocese of Phoenix. 
+
+According to the story, The Republic analyzed 33 years of church directo- ries and checked the names of priests in public records. According to the newspaper, the data analysis found "Priests accused of sexual miscon- duct at some point during their ca- reers were assigned to at least 42 of the 88 parishes in the Phoenix Dio- cese from 1970 to 2002." 
+
+Contact Jaimi Dowdell by e-mail at jaimi@nicar.org. 
+
+REQUIRED READING For Your Newsroom 
+
+Numbers In The Newsroom Using Math and Statistics in News, by Sarah Cohen 
+
+Pulitzer Prize- winning journalist Sarah Cohen guides reporters through fractions, rates, percents and per capitas. Making inflation adjustments. Understanding averages. Doing the budget story. Questioning surveys and polls. 
+
+NUMBERS
+ NEWSROOM
+
+
+ORDER TODAY! Call 573-882-3364 with your VISA or MasterCard -OR- Visit our Web site at www.ire.org/store for online ordering or order form downloads 
+
+IRE MEMBERS: $15 each NONMEMBERS: $25 each 
+
+May June 2003
+
+
+21
+
+
+Contracts continued from page 1 
+
+tell readers what work their neighbors performed for the government rather than focus on a local company handling a contract thousands of miles away. We still wanted to know the totals for the North and South Carolina-based con- tractors; that just wasn't the main part of the story. 
+
+We filtered for North Carolina and South Carolina using the "stateperf" or state performed - field. Once we did that we ran a variety of sorts, sums and group bys, including by city, county, business and industry. But with nearly 11,000 contracts we still had to find diverse examples of ser- vices or risk overlooking something good. That's where it helped to sum and group by the North American In- dustry Classification System (NAICS) description. That turned up a funeral home and the federal prison system. We also grouped by the product de- scription and found contracts for edu- cational toys at military schools. 
+
+The product descriptions, however, weren't terribly helpful. And sometimes they were unintentionally deceptive. One listed a company with the promis- ing product "hardware, weapon sys- tem." But, when I called the company, a representative told me they repair aircraft, and that the military considers every such plane a "weapon." 
+
+So we learned a lesson: When citing a company in the story be sure to talk to them and ask precisely what they make. Also double check where the contract is handled. Another local com- pany had an equally interesting de- scription of "guided missile remote con- trol system". But when we called them, they said the division's headquarters was in North Carolina, but the work was actually performed in Texas. 
+
+Like any other database, the Federal Procurement Data System contains dirty data. 
+
+In one case the database listed more than 50 contracts for a furniture com- pany. When I summed by company name and sorted, this company topped the list. Its contracts ranged from $27,000 to $688,000. But one contract was listed at $99.9 million, about $99.8 million more than the contract was re- ally worth. 
+
+Keep it fresh 
+
+Because the NICAR data was from the 2001 fiscal year, we made a point of asking each company if they still had contracts with the military to give the story a timelier feel. 
+
+The database lists the total dollars ob- ligated by the contract for that particu- lar fiscal year. So depending on the structure of the contract or when the money was due, the recipient may not have gotten every cent that particular year. Most recipients were willing to detail the money from their contracts. 
+
+Sometimes the amount field for a con- tract contains a negative number. That's not error; it reflects normal con- tract adjustments during that fiscal year. (For more details about working with amounts in the data, see "Getting a handle on shuttle contractors" in the March/April Uplink). 
+
+After interviewing the data, we inter- viewed people. It's good to ask to speak to reservists or vets at the companies in addition to the company officials. We found one man who helped run a local lithium battery plant and then had gone to Afghanistan where the night-vision goggles he used were powered by bat- teries made at the plant. 
+
+Once we got the data, the story took less than three weeks to do. 
+
+Despite the heavy database work at the front end, the story wound up as more of a feature about how Carolina com- panies were gearing up for the war and an overview of the scope of military work performed here. We also ran a map of the Carolinas showing the value of total work performed in each county based on data that we analyzed in 
+
+ArcView 8 geographic information sys- tem (GIS) software. 
+
+There are other fields in the database that could produce good stories about minority-, veteran- or women-owned companies. Journalists could also use the data to find nonprofit groups reap- ing money from military contracts and in- mates performing contracts for the military. 
+
+Other data 
+
+Shortly before deadline we came across a U.S. Department of Defense Web site with links to procurement and other data (www.dior.whs.mil/ DIORHOME.htm). The procurement files are provided as exclamation point delimited text. 
+
+From that Web page we were able to get 2002 fiscal year totals by clicking on procurement, then statistics, then ST25. You can also download entire data for individual fiscal years back to 1966 at www.dior.whs.mil/peidhome/ guide/procoper.htm. 
+
+The San Francisco Chronicle analyzed this data for its March 23 report about the billions of dollars flowing yearly from the U.S. military to companies in the Bay area. 
+
+Downloading and unzipping the data takes a long time. Pay attention to the record layout because it sometimes changes from year to year. 
+
+There are a number of differences be- tween the DOD and Federal Procure- ment data, primarily that the DOD in- cludes all contracts, not just those worth more than $25,000. 
+
+The Federal Procurement data pro- vided by NICAR has field headers and additional fields, such as descriptions of the NAICS codes. 
+
+If you're just getting into databases and work with Access, you might be more comfortable with the easier-to-use NICAR database. 
+
+Contact Adam Bell by e-mail at abbell@charlotteobserver.com. 
+
+22
+
+
+May
+June 2003
+
+
+Uplink
+
+
+Awards 
+
+continued from page 3 
+
+lapse of Enron and its extensive record of campaign donations. The same 24 executives who made large donations to the Bush campaign also unloaded $1.1 billion in stock before the company went under. Journalists analyzed Fed- eral Elections Commission data with Microsoft Excel to make these connections. (Story No. 19452) 
+
+Special Categories 
+
+Student Work - Finalists 
+
+Capital News Service (University of Maryland): "Killer Coasters" by Kathleen Johnston Jarboe. Jarboe in- vestigated rates of injuries on roller coasters that had been deemed safe by ride inspectors. She used Access and Excel to examine a state data- base of safety inspections of amuse- ment park rides. (Story No. 19442) 
+
+Capital News Service (University of Maryland): "State Salaries" by Hanah Cho. Cho found that top university offi- cials earned many times the salary of the state's governor and other state officials. She used Access and Excel to analyze spreadsheets of salary in- formation for the highest salaries earned in Maryland. (Story No. 19441) 
+
+Capital News Service (University of Maryland): "Foster Shuffle" by Michelle Krupa. This story investigated cases in which children put into foster care be- cause their parents were accused of sexual abuse wound up back in their homes. Krupa used Access and Excel to examine the federal Adoption and Foster Care Analysis and Reporting System database kept by the National Data Archive on Child Abuse and Ne- glect. (Story No. 19440) 
+
+readme.tx
+
+
+IRE and NICAR Services 
+
+Contact the IRE Resource Center at 573-882-3364 or rescntr@ire.org to order any of these stories. 
+
+Investigative Reporters and Editors, Inc. is a grassroots nonprofit organi- zation dedicated to improving the qual- ity of investigative reporting within the field of journalism. IRE was formed in 1975 with the intent of creating a net- working tool and a forum in which jour- nalists from across the country could raise questions and exchange ideas. IRE provides educational services to reporters, editors and others interested in investigative reporting and works to maintain high professional standards. 
+
+Programs and Services 
+
+IRE Resource Center: A rich reserve of print and broadcast stories, tipsheets and guides to help you start and complete the best work of your career. This unique library is the start- ing point of any piece you're working on. You can search through abstracts of more than 19,000 investigative re- porting stories through our Web site, Contact: Carolyn Edds, carolyn@ire.org, 573-882-3364 
+
+Database Library: Administered by IRE and the National Institute for Com- puter-Assisted Reporting. The library has copies of many government data- bases, and makes them available to news organizations at or below actual cost. Analysis services are available on these databases, as is help in deci- phering records you obtain yourself. Contact: Jeff Porter, jeff@ire.org, 573-882-1982 
+
+Campaign Finance Information Center. Administered by IRE and the National Institute for Computer-Assisted Re- porting. It's dedicated to helping jour- nalists uncover the campaign money trail. State campaign finance data is collected from across the nation. cleaned and made available to jour- nalists. A search engine allows report- ers to track political cash flow across sev- eral states in federal and state races. Contact: Brant Houston, brant@ire.org, 573-882-2042 
+
+On-the-Road Training: As a top pro- moter of journalism education, IRE of- fers loads of training opportunities throughout the year. Possibilities range from national conferences and regional 
+
+workshops to weeklong boot camps and on-site newsroom training. Costs are on a sliding scale and fellowships are available to many of the events. Contact: Ron Nixon, ron@nicar.org, 573-882-2042 
+
+Publications 
+
+The IRE Journal: Published six times a year. Contains journalist profiles, how- to stories, reviews, investigative ideas and backgrounding tips. The Journal also provides members with the latest news on upcoming events and training opportunities from IRE and NICAR. Contact: Len Bruzzese, len@ire.org, 573-882-2042 
+
+Uplink: Bimonthly newsletter by IRE and NICAR on computer-assisted re- porting. Often, Uplink stories are writ- ten after reporters have had particular success using data to investigate sto- ries. The columns include valuable in- formation on advanced database tech- niques as well as success stories writ- ten by newly trained CAR reporters. Contact: David Herzog, dherzog@nicar.org, 573-882-2127 
+
+Reporter.org: A collection of Web- based resources for journalists, jour- nalism educators and others. Dis- counted Web hosting and services such as mailing list management and site development are provided to other nonprofit journalism organizations. Contact: Ted Peterson, ted@nicar.org, 573-884-7321 
+
+For information on: Advertising: Pia Christensen, pia@ire.org, 573-884-2175 
+
+Membership and subscriptions: John Green, jgreen@ire.org, 573-882-2772 
+
+Conferences and Boot Camps: Ev Ruch-Graham. ev@ire.org, 573-882-8969 
+
+Listservs: Ted Peterson, ted@nicar.org, 573-884-7321 
+
+Mailing Address: 
+
+IRE, 138 Neff Annex, Missouri School of Journalism, Columbia, MO 65211 
+
+May June 2003
+
+
+23
+
+
+Uplink
+
+
+Uplink Info 
+
+A newsletter of the National Institute for Computer-Assisted Reporting 
+
+brant@ire.org Brant Houston Editor 
+
+dherzog@nicar.org David Herzog Managing Editor 
+
+jeff@nicar.org Jeff Porter Asst. Managing Editor 
+
+Lisa Triefenbach Art Director 
+
+Pia Christensen Copy Editor 
+
+Stephanie Kang Holly Hacker Jaimi Dowdell Contributing Editors 
+
+School of Journalism. Editors Inc. and the Missouri of Investigative Reporters and NICAR is a joint program 
+
+data analysis. training programs, tipsheets and government databases, supplying journalists with NICAR services include 
+
+573-884-7711 Editorial 
+
+573-882-2772 Subscriptions 
+
+len@ire.org Len Bruzzese Director of Publications 
+
+pia@ire.org Pia Christensen Advertising Coordinator 
+
+jgreen@ire.org John Green Subscription Administrator 
+
+IRE members $40, nonmembers $60 Subscriptions 
+
+Columbia, MO 65211 Missouri School of Journalism IRE-NICAR, 138 Neff Annex Uplink Address: 
+
+address changes to IRE-NICAR. Postmaster: Please send 
+
+Koutyp EXI JO diffyd DATE WSITANNOO LITT LLISHEAINO CIW MOSTING 
+
+S'N alvd OW 'A!O 68 ON 
+
+"oul pue HON 8EL JO UNOSSIW 11299 OW 

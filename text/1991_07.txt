@@ -1,0 +1,191 @@
+UPLINK 
+
+THE FORUM FOR COMPUTER-ASSISTED REPORTING 
+
+Vol 2 
+
+July, 1991 
+
+Mapping a New Future for Reporting 
+
+by George Landau St. Louis Post Dispatch 
+
+About six months have passed since Ifirst started using a geographic information system (GIS), and now Ican't remember how I sur- vived without it. 
+
+If you haven't discovered this rela- tively new and amaz- ingly powerful species of PC software, allow me to convert you. 
+
+I've also used a product called MapInfo, which is cheaper but less powerful than Atlas* GIS. PC Maga- zine just gave a thorough treatment to GIS packages in the July issue; you should turn there for a detailed comparison of prices and features. 
+
+I'm a big fan of a ackage called Atlas*GIS, which I got 
+
+last winter in prepara- tion for this spring's tidal wave of census data. Census counts are by definition geographic, and unless you're very quick with crayons you'll need a program to map the data. 
+
+
+
+For this article, I'll limit myself to describing some of the uses of a GIS in the newsroom. 
+
+Our first census story, for example, looked at population changes in Missouri from 1980 to 1990. 
+
+We got the raw data in the form of an alphabetical listing of the state's 115 counties. It was hard to discern any trends from looking at the list; some counties showed 
+
+Mapping Continued on Page 3 
+
+THE REEL INSIDE STORY: Some Tips on Tape 
+
+By Jimmy Montague MICAR 
+
+Think about the last time you felt like shooting your cabinet full of 2400-foot computer tapes. Did you catch yourself wanting to blow up, say, Brand X Corporation? Tapes can be too short or poor in qual- ity. So, how can you pick a good tape from a bad one? What is the explanation for short tape and write skips? 
+
+TOO SHORT? TOO BAD. 
+
+You were trying to back-up data again, and your blank tape, even though it was the same brand as the 
+
+original, was too short. It seems strange, you think, that the information that fit on one tape, somehow doesn't fit on another. 
+
+Meanwhile, the only way to know if a tape is long enough is to load one on the drive and attempt a copy again. You can waste a lot of time that way. 
+
+"Aren't there some sort of standards for these things?" you wonder. Well, there are, but unfortu- nately, they are too flexible. 
+
+Chuck Doty, technical service specialist at 3M Company said there is an agreed-upon, standard length for computer tapes. The American National Stan- 
+
+Tape Continued on Page 4
+
+
+Tax Problems in New York City, Again 
+
+By Penny Loeb New York Newsday 
+
+David Blake ought to get a medal just for manag- ing to own a building and run his pharmacy in crime- infested East Harlem for 21 years. 
+
+Instead, his only reward from the city was a 28 percent increase in property taxes this year, after they tripled in the past five years. And the assessors never even noticed two of his building's four stories were torn down in 1982. 
+
+Blake's is just one of the many tales of woe and waste New York Newsday found in its computer-assisted investiga- tion of commercial and apart- ment assessments over the past six months. 
+
+The tapes were no piece of cake. Each property had as many as 394 fields of data. We had to break them into smaller tables. The nice part was that the tapes contained much more than assessed values. For the Tax Commission "The Tax Commission, the tiny po- story, I used a field liticized agency, that reduces taxes up to identifying the attor- ney for the case. It $260 million a year, robbed the city of at was easy to group least $50 million in the past decade through and sum by these to unwarranted cuts." find the attorneys who did the most business. 
+
+owns the building where 87 people died in the tra, social club fire last year. 
+
+The project was done on a NEC 386, 25 mhz computer with XDB software. Providing invaluable assistance was Tom Braden, a University of Missouri Journalism School graduate student who worked with us as an intern. 
+
+As the city struggled with perhaps its worst budget cri- sis, we decided to examine assessments and taxes on commercial and apartment properties since they pro- vide 83 percent of the city's $7.6 billion in property taxes. 
+
+From the start, I wanted to use computer tapes to look at assessments in ways that hadn't been tried much before. Several excellent computer-assisted sto- ries have looked at how close assessments on houses are to their sales prices. 
+
+Instead, we looked at where the tax hikes would fall, how assessments and thus taxes were reduced and were all exemption warranted. 
+
+We found: 
+
+In a year of record tax increases, the poor will bear the brunt. Assessments and thus taxes will in- crease more in many of the city's poorer areas than in the wealthy ones. 
+The Tax Commission, the tiny politicized agency, that reduces taxes up to $260 million a year, robbed the city of at least $50 million in the past decade through unwarranted cuts. 
+The city lost at least $8 million in tax revenues on buildings owned by one of the city's largest property owners because of a law giving them a specially tai- lored exemption. The landlord, Alex DiLorenzo, also 
+
+The tapes also contain exempt codes for proper- ties, designating them non-profit or one of a multit of other ways of escaping taxes. By just paging down the properties with one non-profit code, Braden saw DiLorenzo had lots of exemptions and wondered how he could qualify. 
+
+Since New York City has what may be the most complicated assessment formulas anywhere, I had to do many calculations. I was pleased with XDB's han- dling of complicated formulas. But it won't easily calculate the median, the statistical standard for com- paring assessments in various areas. 
+
+For the Tax Commission story I faced the addi- tional challenge of finding computerized information on property incomes. Commercial assessments are generally based on how much a building makes. I planned to use the assessors' formula to find when the Tax Commission cut too much. 
+
+The information wasn't on the tapes and not, at first, readily available. But I found a consulting firm had gotten it from the city. With some insistence, I too had it in a few days. 
+
+These kinds of stories can be tried in other cit depending on what data is computerized. Any sugges- tions? Call me at (718) 575-2571. 
+
+Page 2
+
+
+Mapping Cont. 
+
+dramatic population gains while others showed equally ramatic losses. 
+
+But as soon as I brought the data into Atlas* GIS, stories started jumping off the computer screen. By having Atlas color each county to reflect the degree and direction of population change, we could see that northern Missouri - farm country- was dying while southwestern Missouri- lakeside resort country - was thriving. 
+
+This is called a thematic map, in which a re- gion's color indicates a specific range of data. 
+
+The story was equally easy to ascertain when we turned our attention to St. Louis, making thematic maps of racial population changes in the area's 300 census tracts. Black families who had the resources were abandoning the city's decaying North Side in droves, moving to surrounding counties and to the city's South Side. At the same time, white families from the South Side were moving farther south, into solidly white areas of the city and nearby counties. 
+
+Because I was using the Census Bureau's com- plete digital map of the St. Louis area (called a TIGER `le), I was able to zoom in on specific tracts and print out a street map showing the tract boundaries. This made it easy for my colleague Bill Smith to hop in his car and get interviews that would illustrate the trends we'd identified. 
+
+In the midst of all these census stories, we also found Atlas* GIS to be indispensable for an analysis of real estate in St. Louis. We obtained a copy of the assessor's records for all 140,000 parcels in the city and used Atlas to "geocode" the data, assigning lati- tude and longitude coordinates to each record based on its street address. This allowed us to generate "pin maps" showing thousands of abandoned buildings, vacant lots and tax-abated properties. By overlaying 
+
+UPLINK Correction 
+
+The June UPLINK incorrectly identified Special Projects Editor John Bartosek as the person in charge of the Palm Beach Post com- puter-assisted reporting program. It is Marie Dillon, the paper's deputy metro editor, who heads the paper's computer-assisted reporting efforts. We regret the mistake 
+
+a digital map of the city's 28 political wards, we were able to tally all these items by ward. With a great deal of precision, we identified vast areas of the city where the tax base had all but disappeared- the same areas that had been neglected by the mayor's redevelopment initiatives of the 1980s. 
+
+Atlas* GIS has also proved its worth for Smaller projects. For example, the Post-Dispatch has been publishing an intermittent series profiling city neigh- borhoods. To get a demographic profile of a neigh- borhood, I first need to spend about 20 minutes build- ing the neighborhood outline from street segments on the TIGER digital map. From there, it's a simple matter to have Atlas*GIS select the census blocks inside the neighborhood and aggregate the data. 
+
+These are only a few of the uses we've found for our GIS. We have several other projects in the pipeline, some of them quite ambitious, that also will depend on geographic analysis. 
+
+I promise that if you can just get your hands on a good GIS, you'll never want to let go. 
+
+- George Landau has been doing computer-as- sisted reporting for the St. Louis Post-Dispatch since August, 1989. 
+
+This newsletter is a publication of the 
+
+#
+
+
+Missouri Institute for Computer-Assisted Reporting 120 Neff Hall University of Missouri Columbia, MO 65211 (314) 882-0684 
+
+MICAR is interested in attaining any in- formation, ideas or stories related to com- puter-assisted reporting for future issues of UPLINK If you wish to contribute, please mail your story or idea to the above address. Or, call us for a fax number. - Adam Berliant, Editor 
+
+Page 3
+
+
+Tape Cont. 
+
+dards Institute (ANSI) provides one. But the main cause of inconsistent length is the inexactness of this ANSI standard. ANSI specifies that the distance from the end-of- tape marker to the physical end of the tape must be between 25 and 30 feet. 
+
+When you add this to other variable factors, such as the block size of your data and the number of write- skips that occur, the range of your tape's working length can vary from 2,352 to 2,411 feet - a 59-foot difference. 
+
+"Tape made in accordance with ANSI standards will be about 2,372 feet between markers, but that will vary from manufacturer to manufacturer and from day to day," Doty said. 
+
+"Most of the specs that I've seen from different manufacturers are based on ANSI specs," said Dave Lubert, a technical services engineer at Verbatim. "We look at the distance between markers as being 2,370 feet, plus or minus 5 feet," he said. 
+
+"2,406 feet (plus or minus 2) between markers," saidBASF's product manager for computer tape, Ken Brown. 
+
+"3M has tape available on special order that is 2,400 feet (minimum) between markers," said Doty. 
+
+Until standards are more stringent, tape length will continue to be unpredictable. 
+
+GET BRANDED 
+
+What's more maddening than to get most of a tape copied, then run across a series of write-skips and have the drive reject the tape? 
+
+Finding quality tape is a task of trial and error among brands and the products they produce. 
+
+BASF, for example, makes three grades of tape each more reliable than the next. But even they won't be perfect. 
+
+"Our upper two grades generally don't have errors. But tape is a wearing medium, so even a high quality tape that is initially free of write errors won't stay that way forever," BASF's Brown said. 
+
+The best bet is to find a brand of tape you like and use it exclusively. That won't do away with problems completely. But, over time, it should keep your tape hassles to a minimum. 
+
+(The Missouri Institute for Computer-Assisted Reporting uses 3M Black Watch No. 700 computer- tapes. This is after several misadventures with ot brands of tape. Let us know if you have had any luck, good or bad, with other brands.) 
+
+RETURN TO SENDER 
+
+Write-skip errors can result from inconsistencies in the manufacturing process. 
+
+All tape is made of polyester film coated with a magnetic material on one side. The process starts with a polyester web a few feet wide. The webbing is coated, and then slit into half-inch widths. 
+
+Inconsistencies in the formulation of the coating and its application to the webbing is one source of error. But the slicing can also be a problem. 
+
+Doty said maintaining consistent width and a straight line when slicing tape while making sure no debris is generated can be difficult. It's is a matter for plant maintenance, he said. 
+
+If a tape is bad, call the manufacturer. The problem could have originated there. 
+
+LIVE AND LET DIE 
+
+Archive keepers, take note. 
+
+In days of old, tape was tested to see if it would record 800 bits of data per inch, Verbatim's Lubert said. Today's drives are spewing out 6250 bits per inch and older tapes often can't accept data at that speed. 
+
+If you have older tapes in your collection, per- haps it is time for a transfer. In the meantime, store your tapes in a safe, cool, dustless place. 
+
+How tapes are handled and stored before and after you get them, can have an impact on the way the they perform for you. Make sure your supplier is aware of this. 
+
+Does your supplier store tape in an atmosphere hot enough to damage it? Is the dust in the vendor's storage area so thick that the fork-lift drivers have to navigate by radar? 
+
+If your vendor seems unable to supply you with inconsistent quality in the same brand of tape, might look for another place to spend your mone 
+
+Page 4

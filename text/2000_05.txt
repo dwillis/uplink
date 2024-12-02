@@ -1,0 +1,840 @@
+May 2000 
+
+
+
+CAR ON DEADLINE 
+
+The daily grind 
+
+Neil Reisner 
+
+The Miami Herald 
+
+Driving CAR on deadline is not hard. It's kind of like the old saw about the tour- ist in New York who asks an old man on the street: "How do you get to Carnegie Hall?" 
+
+The answer: "Practice, practice, practice." Except, in the case of computer-assisted reporting, it's more like: "Prepare, prepare, prepare." 
+
+Now, this may seem like a contradiction in terms - How can we prepare for the unex- pected? But it's really no different than any other deadline reporting we do. 
+
+EDUCATION 
+
+Who's teaching our kids? 
+
+By Chris Cantergiani 
+
+WSB-TV Channel 2/Atlanta 
+
+We hear from viewers and consultants that crime and education are two big topics of in- terest. Usually those are two separate story ideas, but last fall we decided to work on an investigation that touched on both. 
+
+Our premise was simple: Find out how many of the state's educators have crimi- nal records. 
+
+The strength of our state's Open Records Act meant we could do the back- ground checks ourselves. All we needed to obtain was the employment records of all current public school employees and the state's prison and parole databases. 
+
+We teamed up with The Atlanta Jour- nal-Constitution in August to do the in- vestigation and collaborated our efforts to break the story on air and in print Nov. 45. 
+
+Our investigation found no one had ever checked the criminal backgrounds of 
+
+Continue on page thirteen 
+
+We all carry around a mental list of sources to use on breaking stories, whom to call when there's a major crime, an unexpected political battle or a big education story that demands coverage for tomorrow's paper or tonight's broadcast. 
+
+It's no different with CAR. 
+
+In CAR's case, though, it's a matter of know- ing what data are available, knowing how to analyze it, whom to call to verify or interpret it. It's a matter of what can be called "thinking in rows and columns" - thinking always about how data can supplement a story. 
+
+Now, we're not talking about big projects here. We're talking about daily or two-day sto- ries; sometimes we're not talking about stories at all but "computer-assisted paragraphs," those little bits of context that make a good story even better. 
+
+Here are some examples from recent his- tory at the Broward County edition of The Miami Herald: 
+
+Tobacco and kids 
+
+A couple of months ago, we sent a FOIA to the FDA requesting the database they used to build their "Children & Tobacco Compli- ance Checker" on their Web site. It contained information on how states and various retailers were doing in the effort to enforce laws barring sale of tobacco products to young people. 
+
+The response to our letter was typical: "We don't have any way of doing that, but we've asked our outside contractor for a program and they're working on it." A few weeks after that, they called: "We've got the data and we've put it up on the Web site. You can download it." Great. 
+
+The FDA in its wisdom had decided to make the data "easy" to get by releasing it to the world instead of to the handful of report- ers who'd asked for it. Now what had been a 
+
+Inside Uplink 
+
+CAR on deadline 
+
+Trebor Banstetter of The Palm Beach Post used databases from the Web to provide back- ground to a fatal car-train wreck in Florida. SEE PAGE TWO 
+
+The newsroom intranet at The Bergen Record in New Jer- sey fields about 80 queries per day from staffers. Robert Gebeloff offers some tips on starting an intranet in your newsroom. 
+
+SEE PAGE THREE 
+
+Campaign Finance 
+
+Following the money in politics is more than who ends up with what. Darrel Rowland of The Columbus Dispatch uses a well-placed source to analyze fundraising invitations sent out by Ohio state politicians. SEE PAGE TEN 
+
+Mapping 
+
+Jennifer LaFleur of the St. Louis Post-Dispatch describes how to get started with geocoding, mapping data to spot geographic trends. 
+
+SEE PAGE ELEVEN 
+
+Continued on page eight
+
+
+CAR ON DEADLINE 
+
+Railroad safety 
+
+Uplink 
+
+May 2000 
+
+Volume 12, Number 4 A newsletter of the National Institute for Computer-Assisted Reporting 
+
+EDITOR Brant Houston 
+
+DIRECTOR OF PUBLICATIONS Len Bruzzese 
+
+MANAGING EDITOR Mary Jo Sylwester 
+
+ASSOCIATE EDITOR Paul Monies 
+
+ART DIRECTOR Kerrie Kirtland 
+
+SUBSCRIPTION ADMINISTRATOR John Green 
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers. 
+
+Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org 
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. 
+
+NICAR services include hands- on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis. 
+
+By Trebor Banstetter 
+
+The Palm Beach Post 
+
+A horrific crash at a West Palm Beach rail- road crossing shocked residents in March 1999: A car sitting at the crossing gates was pushed into the path of a speeding Amtrak liner after being rear-ended by another car, killing a 19-year-old. 
+
+The crash was the latest in a series of car-train smashups in South Florida. As a reporter covering transportation for The Palm Beach Post, the crashes made me wonder just how safe railroad crossings really are. 
+
+I was fortunate to have some CAR training from NICAR and Cox computer journalism guru Elliot Jaspin. I had already spent some time poking around railroad safety databases, and saw the West Palm Beach crash as an opportunity to put rail- road-crossing safety in a broader perspec- tive. 
+
+Fortunately for CAR reporters, the Fed- eral Railroad Administration has an exten- sive national database of railroad crossing collisions online going back to 1975, at http://safetydata.fra.dot.gov/officeofsafety. 
+
+It took a flurry of traditional reporting to discover the reasons behind the county's poor safety rate. 
+
+The Web site has a searchable front-end, but it allows you to download the entire da- tabase, which is more useful for CAR work. 
+
+This file has all reported cases of an im- pact between on-track equipment (usually a train) and anything on a public or private highway-railroad intersection, including a wealth of other information. 
+
+Getting the data 
+
+First, I got the record layout in PDF for- mat, which is very detailed and includes all codes used in the data, 
+
+Then I went to the "Download Database Files" page. Several databases are available, but I wanted the "Grade Crossing Accidents" file. 
+
+One downside is that you cannot down- load every year at once. I wanted to look at five year's worth of data, so I downloaded each year and merged them into a single Ac- cess table. 
+
+The data downloads in a self-extracting file that becomes a fixed-length text file. The record layout shows where the fields start and stop so you can import it into a spreadsheet or database software. 
+
+After importing the data into Microsoft Access, I ran several queries to gauge the situ- ation in Palm Beach County. 
+
+The findings 
+
+The findings were significant. In the past five years, the county had more crashes than any other in Florida in fact, it was among the worst in the nation. The crashes here also had higher injury and fatality rates than else- where in the state. 
+
+I used two more FRA databases available on the same site (Public and Private Cross- ings) to compare the number of crashes with the total number of railroad crossings in the county. Again, Palm Beach was at the top of the state's list of crashes per crossing. 
+
+It took a flurry of traditional reporting to discover the reasons behind the county's poor safety rate. Problems included a com- bination of the area's high growth rate, in- creasing traffic congestion and heavy freight and passenger railroad traffic. I also sat along side a train engineer for a ride from West Palm Beach to Miami to see the problems up close. I was astounded at the number of near misses the train encountered on a single trip. 
+
+The weekend after that fatal West Palm Beach crash, The Post published the story. It took only a few days to turn around, but it put the incident into a broader context and gave our readers something to think about the next time they approach railroad cross- ings. 
+
+Trebor Banstetter can be reached at trebor_banstetter@pbpost.com. 
+
+2
+
+
+CAR ON DEADLINE 
+
+Intranet start-up 
+
+By Robert Gebeloff The Record 
+
+When word spread in Norwood, N.J., that authorities had granted a variance for a Ko- rean congregation to build a large church, some residents began pressuring town leaders to re- verse the decision. The primary argument against the new building: It would draw hundreds of "outsid- ers" into town and disrupt the peaceful subur- ban atmosphere. But before he even set foot in Norwood, reporter Adam Geller knew more about the community than some of its residents. At his desk in The Record's Hackensack newsroom, Geller made a few clicks on our CAR Lab intranet and was able to compile various demographic facts about the town. 
+
+Two years after we laid down the first line of intranet code, we can attest that there's no better way to have an impact on the daily news report than to 'democratize' your data. 
+
+By throwing a few simple stats up against the perception of some Norwood residents, Geller was able to illustrate a major compo- nent of the conflict better than he could have with a thousand words of explanation. 
+
+And he didn't have to touch a spreadsheet or database manager. 
+
+Examples like this are exactly what we hoped to see when we began planning our newsroom intranet in 1998. While we use CAR in projects and short-term enterprise, we also subscribe to the philosophy that CAR should be for everyday use. 
+
+news report than to "democratize" your data making it widely available to all journalists in the shop, regardless of computer skill level. 
+
+And two years after we laid down the first line of intranet code, we can attest that there's no better way to have an impact on the daily 
+
+Our staff of about 100 reporters and edi- tors is now averaging 80 queries a day through our intranet. Not every single query gets in the paper, of course, but it shows that our staff is using this tool as a regular part of the report- ing process. 
+
+I won't mislead you - building and main- taining an intranet does not produce the same high-profile results as hardcore CAR enterprise work. But if you plan it right, and pick the proper tools, you can minimize the workload and lay the groundwork for newsroom-wide CAR 
+
+Before delving into an overview of intranet planning and development, a few comments are in order about the advantages of an intranet over other systems for building database front- ends for general staff use. 
+
+Many of you use Microsoft Access, which has fantastic tools for building search forms that allow users with no Access experience to query databases. 
+
+The problem with Access front ends, how- ever, is that they're not as efficient over a net- work as a "client-server" system. If you build front ends into Access databases and put them in a common folder on the network, vast quan- tities of data have to move back and forth be- tween the user's computer and the computer where the database resides. This can become a major drain on network bandwidth. 
+
+A client-server intranet, on the other hand, keeps network traffic to a minimum. The user types input into the client machine - a Web page on their desktop- the input is passed on to the server. The query is run on the server, and just the results are sent back to the client. The database itself stays put and bandwidth use is minimal. 
+
+So if you're hoping to make data available to a lot of users, an intranet is the way to go. But before you begin, you'll need to plan thor- oughly in three areas: 
+
+The Back End 
+
+This is the guts of your intranet, the stuff be- hind the scenes that makes it all work. Your back end has to include some kind of Web server and a scheme for handling database queries. 
+
+Using newsroom intranets: 
+Reporters at The Record use the intranet in a variety of ways. 
+Political reporter Maia Davis uses voter registration records all the time, not just for finding the names of party members in certain towns, but also to learn the home address of a person in the news. 
+On deadline, Scott Fallon pulled the salary and title of a teacher accused of sexual assault. 
+Reporter John Chadwick regularly finds unlisted phone numbers in the voter registration records. 
+Alex Nussbaum discovered that the mayor in one of his towns was giving out incorrect information about property assessments. 
+
+Continued on page six 
+
+3
+
+
+CAR ON DEADLINE 
+
+Intranet essentials 
+
+For a more detailed account of how the Miami project was done, check out the IRE Resource Center story #15632, or Tom Boyer's report in the July-August 1999 issue of American Journalism Review at: http://ajr.newslink.org/ ajrboyersideja99.html 
+
+By Noemi Ramirez IRE and NICAR 
+
+Interested in checking what others are doing? The News division of the Special Libraries Association has compiled a few links to sample demo newsroom intranets at: http:// metalab.unc.edulslanews/ intranets/ 
+
+And you thought of your company's intranet as a mere sophisticated version of the traditional office bulletin board? Not quite. An informal survey among Newslibbers-subscrib- ers of the NewsLib discussion list who have had experience with developing an intranet at a newspaper or TV station - shows that intranets play an important and sometimes essential role in promoting CAR in the news- room. 
+
+Elisabeth Donovan, Research Editor at The Miami Herald, reports that the Herald's intranet, one of the first ones in the country together with the NeRD page of the News & Observer, "started in 1995 as a collection of Web links on a file server." 
+
+This static compilation of online resources, however, evolved into a more complex struc- ture in January 1998. According to Donovan: "That year we added several searchable data- bases, including voter registrations, city/county employee databases, etc." Having these data sets easily available and, even more importantly, sharing the input forms so that "reporters on the project could track the people they were investigating" was crucial in developing the Miami vote fraud project, which in 1999 won The Miami Herald its sixteenth Pulitzer Prize. 
+
+A well set up intranet designed to meet the culture and information needs of its organization can make all the difference on deadline. 
+
+Intranets, however, prove to be most useful for daily reporting, says Russell Clemings, a CAR reporter who has maintained the intranet at the Fresno Bee since 1997. Clemings, who highlights the importance of having a budget for keeping the intranet updated, says his newspaper's intranet helps reporters "track down and background news subjects. The lo- 
+
+cal contribution data, which goes back to 1992, is especially useful in covering devel- opment." 
+
+Breaking news is a challenging situation for reporters, editors and researchers. Once again, a well set up intranet designed to meet the culture and information needs of its or- ganization can make all the difference on deadline. 
+
+Tom Boyer, research editor at The Seattle Times, recalls that when white supremacist Buford O'Neal Furrow Jr. opened fire at a Los Angeles day-care center on Aug. 10, 1999, his paper was a full day ahead of the rest of the country because of their people- tracking resources. "We were able to identify the guy, found his family, friends and associ- ates and found obscure court records on him in the first 12 hours," Boyer says. The Seattle Times' intranet, which started as a "virtual Rolodex" of staff phone numbers in 1996, has since then added dozens of public record databases including real estate, business li- censes, drivers, voters, state licensing and campaign contributions. 
+
+Boyer, whose plans to improve the intranet are focused on refining the interfaces to allow for simultaneous searches in multiple databases, concludes that because of their intranet "we basically are going to have a significant home- court advantage on any story that involves public records in Washington. 
+
+Newspapers are not the only medium that has taken advantage of the intranet technol- ogy. C.B. Hayden, director of research ser- vices at ABC News, says, "The intranet has been the focus of our efforts to provide the highest level of research service to a large in- ternational news organization." Like many others, ABC's intranet grew out of a network of CD-ROM databases in 1998. 
+
+Two years later, offering more than 50 dif- ferent fee-based services and receiving 100,000 hits per month, the research staff uses the intranet in a sophisticated way to customize content from database providers. Dedication, purpose and enthusiasm are keys for the suc- cess of the intranet project at ABC. "Every day we are making decisions on how to develop it," Hayden says. "We find that there seems to be no end to the creative ways we could use it." 
+
+What does an intranet need to become the Continued on page seven 
+
+4
+
+
+CAR ON DEADLINE Realistic goals 
+
+By Heather Newman 
+
+Detroit Free Press 
+
+You're sitting at your desk one afternoon, when the story hits the fan. You've only got a few hours, but you want to make the most of your computer skills. What do you do? Be realistic. Computer-assisted reporting can put you leagues ahead of your PC-chal- lenged colleagues when it comes to respond- ing to breaking stories, but only if you use it wisely. The last thing you want is to get caught up in technical problems and do a mediocre job on the story. So what can you realistically accomplish with CAR on deadline? 
+
+Numbers and background 
+
+Use the Net to flesh out that list of who to call for the story. There is no better way to quickly find a public relations person for a particular company than to visit the firm's Web site and read through past press releases. 
+
+As a bonus, those releases may have in- formation that's pertinent to your story now. Is the president resigning? Chances are, you can find the last shareholder proxy that told how much he makes, or records of his in- sider stock trades, as part of the company's investor relations section. 
+
+Get experts 
+
+A Lexis/Nexis search on your topic may turn up some great experts. So might a search of the Web, though be careful to double-check sites and attributions to make sure you're speaking with someone legitimate. ProfNet's Expert Database, posted at www.profnet.com, may have someone who can speak knowledgeably for you. 
+
+If you're a beat reporter, it might be worth compiling the names and e-mail addresses of experts you speak with often, then use them in a (rare) mass mailing if you're desperately searching for someone who can be quoted in your story. 
+
+Two tips: First, tell those experts you occasionally do this, and ask them if it's okay to contact them. 
+
+Second, use this resource as little as pos- sible, and you won't burn out a good dead- line source. 
+
+Crunch some quick numbers 
+
+Don't be afraid to fire up Excel or some other spreadsheet to help you if you need to crunch numbers, whether it is the num- ber of beds in your local hospitals, changes in the stock prices for local public compa- nies or budgets for different city depart- ments. 
+
+If you've got more than a dozen num- bers to calculate, Excel will be faster even if you have to type in all the raw data your- self. 
+
+Analyze familiar databases 
+
+If you're reporting on a recall of list- eria-tainted meat (as the Free Press did for much of last year) and you have a data- base of USDA recalls that you've already compiled and used before, it's a snap to pull it open to calculate grand total pound- age of meat recalled for listeria or other problems. 
+
+Because you've used the database before, you know where to find it, what it contains, how accurate it is and how it works. Those are the tools you need to do a snap analysis on deadline - one that will make you look extremely smart when compared to your competition. 
+
+Similar problems 
+
+Using a good Web search engine such as Google (www.google.com) or a good newsgroup search engine such as Deja (www.deja.com), you may be able to find someone who has suffered from whatever problem you're reporting on. The catch: It's darned hard to find local sources on dead- line. If you can get away with someone in another state, however, it's worth the at- tempt. 
+
+What's NOT reasonable to expect from CAR on deadline? 
+
+New databases 
+
+First, you may have troubles getting the data you need at all, if it's not posted already on the Web. Second, even if you have the data on the Web or on disk, if you've never used it before, you're bound to run into glitches. Even if the data doesn't cause you 
+
+Get directions: 
+
+Don't overlook the Net's ability to help you with the most basic of tasks - figuring out where you have to drive to report the 
+
+Continued on page twelve 
+
+story. 
+
+MapQuest (at www.map quest.com) is just one of dozens of mapping sites that can give you directions to that explosion. 
+
+"Great Scouts! CyberGuides for Subject Searching on the Web" by Nora Paul, Margot Williams, Paula Hane (editor). Cyber-Age Information Today (www.infotoday.com). A review of this book will appear in the May issue of the IRE Journal. 
+
+5
+
+
+Tipsheets: 
+
+Continued from page three: Intranet 
+
+"Using the Net for Beat and Deadline Reporting," a compilation from a 1998 panel featuring Kitty Bennett of The St. Petersburg Times and Christopher Callahan of the University of Maryland, (tipsheet #818) with tips on using the Internet for beat and deadline reporting. Audio tape is available through Sound Images, Inc.; (303) 649-1811; for $11. Order by email to soundimages@ soundimages.net 
+
+"Strategic Searching on Deadline - A Game Plan," by Christopher Callahan of the University of Maryland, (tipsheet #900). 
+
+To order, call the IRE Resource Center at (573) 882-3364. 
+
+There are different types of servers, and I'm not going to advocate any specific model. For specs, just get as powerful a machine as you can. I can happily report that our Web server is low-end Pentium and still does an adequate job. 
+
+The question of server type is thornier. There are a LOT of ways to build an intranet, and a lot of different opinions about the best way. 
+
+If your Web server is fueled by the Microsoft Back Office suite, there is one set of tools for building the front-end user interface. If you have a Unix box, then the set of tools is com- pletely different. 
+
+It's ultimately a compromise. The downside is it takes some work to build and maintain. But the upside is that you're helping reporters help themselves. 
+
+My advice, which admittedly will irk the purists of specific technologies, is to use the tools that are most accessible. If your company already has a corporate intranet on a Windows server, then see if you can get space on it. If your IT department is filled with Unix geeks, then tap into their knowledge. 
+
+As for data, we now have our tables stored on an SQL Server. But when we started, we used Access and achieved acceptable results. 
+
+Our Web server knows where to find our data because we use "open database connec- tivity," or ODBC. This is a simple setting in the Control Panel of our Web server. You give each of your databases a name, and then give the Web server actual location of the data on the network. Then, when you're building a Web page and want to tap into a database, you just insert the ODBC name and your Web 
+
+server knows where to get the data. Whatever scheme you use, the key to effi- ciency is to make sure all your tables are in- dexed on the fields that your users will query. 
+
+The Front End 
+
+Once you know what's running your server, you'll need to decide what to use for building Web pages. We use Microsoft Front Page for our static Web pages-our guide, CAR newsletter, etc. - and Active Server Pages for our databases. 
+
+There are many other options, however. ColdFusion is used in some newsrooms. I've seen people on the NICAR list talking about MySQL too. 
+
+I don't want to talk about the pros and cons of each, but rather about some general design concepts. 
+
+First of all, the whole point of doing this is not to give users the power to do every con- ceivable trick with a database that you can do with Access. 
+
+Rather, the goal should be to pick out the queries that will be most useful to the staff as a whole. In many databases, all your staff really will want are simple name and town look-ups. 
+
+We try to add value to the results. If a re- porter is looking at campaign contributions by the late local oil baron Leon Hess, they can click on the results and see what other employ- ees of Amerada Hess contributed. If the re- porter is running a name through our crime database, they can click on the results and see what happened to the co-defendants. 
+
+We also have learned not to cram every field into the results. With our criminal background search, the user types in a name, and if there's a hit, the page displays the county and case number. One more click yields about 80 fields of information. 
+
+Front-end software such as ColdFusion and FrontPage offer wizards that will quickly build simple look-ups, which is a good way to get started. But we found ourselves wanting to do more than the wizards provided, so we learned how to build Active Server Pages with Visual Basic Script. 
+
+Knowing how to code gives you absolute freedom to build whatever front-ends your re- porters will need, and it's not the most diffi- cult skill to pick up. I learned by studying a 
+
+Continued on page seven 
+
+6
+
+
+Continued from page six: 
+
+Intranet 
+
+few sample scripts donated by Tom Torok when he was at The Philadelphia Inquirer, and then by picking up the wonderfully simple Active Server Pages for Dummies. 
+
+Operation/Maintenance 
+
+Like a lot of things, you'll get out of your intranet what you put into it. I'm fortunate enough to have CAR specialists, plus a part- time data entry person to help me out. That has allowed us to expand the site to keep more than two dozen databases up to date. Still, we have a dozen more that I haven't found time for yet. Keeping a good intranet is a job, but the question is who does the job. At our place, the library is heavily involved in maintaining the corporate intranet, and the CAR intranet is our baby. But at your paper, the library might be interested in helping out, and the more help you can get the better. 
+
+I should caution, however, that you should resist the temptation to turn your intranet over to non-journalists. Sure, the technical skills and 
+
+labor can be handled by anyone, but the real gold in doing this is in the design. It takes a database editor to decide what databases to post and to design an interface that will best serve reporters. Most of us dread the notion of becoming a "service bureau." And rightly so. As journal- ists, our ambition should not be to become the source of fascinating facts for stories by other reporters. At the same time, however, I feel that it's a disservice to our news organizations if we sim- ply acquire and horde databases. I can cite countless stories in The Record that were made better because of information or ideas a reporter developed from using our intranet. It's ultimately a compromise. The down- side is it takes some work to build and main- tain. But the upside is that you're helping re- porters help themselves, and that, in turn, gives you the freedom to pursue your own work. 
+
+Robert Gebeloff can be reached by e-mail at gebeloff@bergen.com 
+
+Essentials Continued from page four: 
+
+foremost research tool in your newsroom? Here you have a few suggestions offered by members of the NewsLib listserv: 
+
+In-house archives: Text archives, live and archived photo systems, internal databases like celebrity or experts contact information, link collections of online resources organized by beat and category. 
+
+Training materials: Instructional cheat sheets on how to use public records, online databases, or file a FOIA request. 
+
+Databases of public records: General da- tabases like death records, vital statistics, voter registration, campaign contributions, cars, driv- ing licenses, business licenses, property records, real estate. Beat-specific databases like work- ers' compensation, city/county/state employ- ees and salaries, inmates, aircraft, government aerospace data. 
+
+Commercial resources: Lexis-Nexis Uni- verse, Dialogselect, Wilson Biographies, Gale Biography Resource Center, Facts on File, Keesing Records of World Events, InfoUSA, Bell & Howell Proquest, Encyclopedia 
+
+Britannica, Hoover's, Merlin, CD-Law Legal Research, Autotrack, Public Records Online Other research resources: Percentage cal- culators, weights and measures converter, zip- code directory, phone and reverse phone di- rectories, online searchable AP stylebook. Company information: Daily announce- ments, research request forms, expense forms, job requisition and evaluation forms, letter- heads, phone and e-mail staff directory, staff schedules, conference room scheduler, job postings, bulletin board for staffers to post things for sale and, just for fun, softball league team rosters! Feedback: Design critique, best headlines of the week, tips, help documentation. That's not bad for a start, is it? So next time you need to turn to the Internet to get some data, think twice. Maybe the answer is right under your nose or, better said, un- der the firewall of your Intranet. 
+
+Noemi Ramirez can be reached by e-mail at noemi@ire.org 
+
+"Getting data to the newsroom masses," by George Landau of NewsEngin, Inc., provides tips and advice on setting up and running a newsroom Intranet. (#895) 
+
+"Optimal Ralphing," by David Heath formerly of the St. Louis Post-Disptach, Justin Mayo of The Seattle Times, and Tom Torok, formerly of The Philadelphia Inquirer. (#898) 
+
+These tipsheets and others are available from the IRE Resource Center by calling (573) 882-3364. 
+
+7
+
+
+Daily CAR 
+
+Tipsheets: 
+
+"Backgrounding the individual on deadline," (tipsheet #1083) by Don Ray, of Exclusive News Group, offers ten steps to backgrounding on deadline and a comprehensive list of resources that are essential to a functioning newsroom. 
+
+Continued from page one: 
+
+"CAR on Deadline," by Neil Reisner, of The Miami Herald, (tipsheet #908) provides a list of databases that could be turned into interesting stories. 
+
+"Quick CAR," by Janet Roberts of The St. Paul Pioneer Press, (tipsheet #909) provides some keys to success for using CAR to enhance deadline stories. 
+
+To order, call the IRE Resource Center at (573) 882-3364. 
+
+leisurely, spare-time kind of story became competitive. (The Herald's Broward edition competes fiercely with the Sun-Sentinel, the Chicago Tribune daily located across town.) 
+
+We downloaded the data, saw it was in a beautifully simple, comma-delimited format and imported it into Access. Browsing through it, there were a few undefined codes, so we put a call in to the FDA for interpreta- tion. We also saw that while cities were in the data, counties weren't. 
+
+That meant quickly creating a look-up table to group South Florida cities into the counties in which The Herald was interested. Finally, the analysis: How was Florida doing compared to the rest of the country? How was South Florida doing? How were our lo- cal retailers doing? 
+
+The result: We were doing better on all counts. Florida's push - and it's a big one to get kids off tobacco was bearing fruit. 
+
+We anticipate stories we know we're going to need to do and prepare data appropriately. 
+
+Though this was not scientifically gath- ered data - it was not random but showed only what happened at the retailers FDA checked, a fact made clear in the story. So what we had was a nice, incremental story, a pat on the back for Florida, maybe not des- tined for 1A but for sure good on 1B. 
+
+Total time: Two days. And it would have been one had the FDA not taken its sweet time calling back. 
+
+Elections 
+
+Local elections are an example of how CAR can add depth and context to stories we already do. There are basically two ques- tions we ask after an election: Who won? How did they do it? 
+
+That often means staring at a table: Vot- ing districts or precincts down the side, can- didates across the top. Reporters often eye- ball the results in certain "key" precincts, call 
+
+a couple of pundits and throw a story in the paper or on the air. We do it a little differently. We've arranged with our county election supervisor to download precinct-by-precinct results at the end of election evening or, at worst, early the next morning. We import that into an Access database in which we've already prepared several lookup tables showing voter registration, precinct or district demographics, etc. With that, it's easy to pull out areas or de- mographics in which we're interested to show, for example, how predominantly black districts voted or to look at the "condo canyons" full of retired, New Deal Democrats. Add a mapping program such as ArcView, and you can draw a precinct-by-precinct pic- ture of exactly how the vote went. And that let's us ask the candidates and the pundits exactly why they think various demo- graphics voted the way they did instead of ask- ing who made the difference. 
+
+Another example: 
+
+Every week, we survey 34 gas stations around the county and print the price of regular gasoline at each. Since the beginning of the year, we've also keyed the results into an Access database. Because we'd taken the time to prepare, we were in an ideal position to add local con- text - county and neighborhood averages, week-by-week price fluctuations and the like to our stories when gas prices jumped dra- matically a few months ago. 
+
+Conclusion 
+
+What these examples have in common is this: 
+
+We think in rows and columns, that is, we look for stories in which data might be used. 
+We take our opportunities when we see them. 
+We anticipate stories we know we're going to need to do and prepare data appropriately. 
+And we do a couple of other things: 
+We prowl constantly for useful data and maintain a data warehouse, available to all reporters at their desks. 
+We use these databases to background people, find neighbors, check salaries, etc. 
+
+Neil Reisner can be reached by e-mail at nreisner@herald.com 
+
+8
+
+
+CAMPAIGN FINANCE 
+
+Following the money 
+
+By Darrel Rowland The Columbus Dispatch 
+
+Want to read another Uplink war story involving multi-variable regression analyses and how with weeks of intense study and several graduate degrees even you might be able to climb this learning curve? Then look elsewhere. Want to hear how you can use that most basic of CAR animals, Microsoft Excel, in an almost embarrassingly simple way to come up with a fun story that readers will like? Then read on. But first a warning label: You're going to have to cozy up to a lobbyist. For the past quarter century, journalists have developed more and more sophisticated methods of adhering to the adage of Deep Throat to Bob Woodward: Follow the money. 
+
+How did we get these seldom-seen fund-raiser invitations? That's where it pays to have good friends in low places. We found a lobbyist who keeps a meticulous file of every fund-raising invitation sent out by legislators. 
+
+However, we hardly ever swim upstream to find out how the money started flowing in the first place. 
+
+For instance, to obtain that mother's milk known as campaign contributions, politicians use a highly specialized technique. 
+
+Since requests for money and invitations to fund-raisers aren't public record, journal- ists often ignore them, but we shouldn't. 
+
+Campaign fund-raisers provide the nexus 
+
+for two very fundamental needs: Lobbyists who need access to politicians, and politi- cians who need the money lobbyists can pro- vide. 
+
+Making the Connection 
+
+We've all read cries of indignation from politicians when a journalist dares to suggest a connection between their actions and cam- paign contributions. Well, the next time you publish those statements, run them alongside quotes from candidates going on bended knee to lobby- ists begging for money. 
+
+Here are a few of the fun nuggets on Ohio candidates we mined from this seldom-ex- plored lode: 
+
+"Thanks for looking out for me and all your valuable advice," said a handwritten note from a Democratic lawmaker to the lob- byist. 
+A Republican representative asked the lobbyist to give "above and beyond the norm," adding: "I have always greatly appre- ciated the generous support you and other lobbyists have given me." 
+Powerful House Speaker Jo Ann Davidson, a Republican from suburban Co- lumbus, assured lobbyists in a thank you let- ter after the GOP retained its majority that "our victory is your victory." The sentence was underlined with a blue felt-tip pen. 
+Ohio Senate President Richard H. Finan, a Republican from Cincinnati, turned to lobbyists to raise $300,000 less than two months before the crucial 1998 Senate cam- paigns. Each lobbyist's letter was customized to note how much he or she had already con- tributed - and how much more they could give before hitting the $5,000 maximum al- lowed to legislative caucuses in Ohio. 
+
+Turning to the computer 
+
+They ask. 
+
+How did we get these seldom-seen fund- raiser invitations? That's where it pays to have good friends in low places. We found a lob- byist who keeps a meticulous file of every fund-raising invitation sent out by legislators. This is where we turned to the computer. We already knew that Ohio's 132 legisla- tors, along with each party's legislative cau- cuses, were asking for more money. Using 
+
+Here are some sites that help put the cash flow in context: 
+
+Vote Smart: www.votesmart.org/ 
+Alliance for Better Campaigns: http:// www.bettercampaigns.org/ 
+Campaign Web Review: www.campaignwebreview.net/ 
+pWeb:www.capweb.net/ 
+Center for Responsive 
+
+Politics: 
+
+www.opensecrets.org/homel index.asp 
+
+Common Cause's Money Laundromat: www.commoncause.orgl laundromat/ 
+Democracy Network: www.dnet.org/ 
+
+Links to other sites are available on the Campaign Finance Information Center's home page: www.campaignfinance.org/ 
+
+Continued on page ten
+
+
+9
+
+
+Continued from page nine: Campaign finance 
+
+Recent tipsheets on campaign finance: "Campaign Finance 101," By Jonathan Salant of the Associated Press, lists questions that journalists should ask when covering campaign finance. (#1144) 
+
+These tipsheets and others on campaign finance are available from the IRE Resource Center by calling (573) 882-3364. Search the tipsheet database at: www.ire.org/resourcecenter 
+
+IRE National Conference, in New York will include the following panel: 
+
+Campaign Finance: Working with state and local data. Cindy Eberting of IRE, Cliff Levy of The New York Times. 3 p.m. Thursday, June I (optional CAR day). 
+
+the lobbyist's files, we compiled information from nearly 400 invitations to lawmakers' fund-raisers from the previous two years the length of Ohio's legislative session. 
+
+More information about the conference is available at www.ire.org/training/ny001 
+
+"Finding the favors and the favoritism," by Alan Miller of The Los Angeles Times, gives ideas about how to track congressional votes and how to find legislation online. (#1128) 
+
+We created a basic spreadsheet with Excel (we have the Microsoft Office 95 package). The first two columns were legislators' names (last name in column A, first name in col- umn B). Then we entered each lawmaker's political party, the location of the fund-raiser, the date, and the minimum contribution re- quested. 
+
+Once the spreadsheet was set up, it was easy to sum the dollar amounts. 
+
+The result: it would cost the lobbyist al- most $80,000 to attend every legislative fund-raiser. And that's not counting "oppor- tunities" such as sponsoring a hole at a legislator's golf tournament. 
+
+Since this was a small spreadsheet - a list of about 400 fund-raisers with six rows of data apiece - it was easy to conduct a variety of sorts to see if there was anything else hid- ing in the data. 
+
+By sorting the dates of the fund-raisers, and comparing those dates with the state leg- islative calendar, we were able to confirm a longtime suspicion that legislators schedule their money events during the weeks the leg- islature is in session. In addition, the bulk of the fund-raisers are in Columbus (most at some watering hole within a block of two of the statehouse), not back in the legislator's district. 
+
+The reason is the same Willie Sutton re- portedly gave when asked why he robbed banks: That's where the money is. 
+
+the right to sue their health insurer for faulty coverage decisions. During ensuing weeks, committee Chair- man Dale N. Van Vyven, a Republican from suburban Cincinnati, held a series of private meetings with lobbyists on the proposal. In the end, the right-to-sue provision of the bill which initially had 57 co-sponsors in a 99- member House - was stripped. To the dis- may of many consumer groups and patients who had fought their managed care provid- ers, the legislature substituted an untested independent appeals process. The behind-the-scenes maneuvering came to mind when I noticed the date of a Van Vyven fund-raiser: Feb. 17. Checking our files revealed the second hearing on the pa- tient protection plan was the same date. Van Vyven was trolling for dollars by night with lobbyists who a few hours before had been seeking favors from his committee. Even though Van Vyven was barred from seeking re-election by Ohio's version of term limits, he still took in more than $16,000 that he gave to fellow Republicans. Anyone question the timing of the fund- raiser was connected to the bill? Well, Van Vyven had another fund-raiser at the same downtown restaurant about seven months later, after the patient-protection plan had been signed into law without the offending right-to-sue clause. Van Vyven's haul this time? Less than $800. We found other examples where key leg- islative developments coincided with legisla- tors' fund-raisers. For example, the day a con- troversial bill to limit lawsuits came to the house floor for a vote, chief sponsor Rep. Pat Tiberi of Columbus raked in more than $25,000 from a fund-raiser - virtually all from proponents of the tort reform. Give you any story ideas for your state capital? The story about legislative fund-raisers was part of three-day series on the growing influence of lobbyists in Ohio government. The entire series can be accessed through The Columbus Dispatch's web site: www.dispatch. com. Click on "Special Reports." 
+
+But there was yet another aspect to the timing of legislators' fund-raisers. 
+
+Private meetings 
+
+Several months before conducting our little CAR analysis, I had covered a commit- tee hearing on Ohio's version of a patients bill of rights. Even though I arrived on time, there were no seats left because of what one legislator dubbed a "feeding frenzy" of lob- byists. 
+
+Monitoring the hearing from an adjoin- ing room that had an audio feed, it quickly became apparent most of the lobbyists were taking shots at a provision giving consumers 
+
+Darrel Rowland may be reached by e-mail at drowland@dispatch.com 
+
+10
+
+
+MAPPING Geocoding 
+
+By Jennifer LaFleur St Louis Post-Dispatch 
+
+Before the big El Niño storms of 1998, The San Jose Mercury News wanted to explore where potential damage might occur in the local Santa Cruz Mountains. To do this, the newspaper ob- tained a database of landslides and debris flows from the U.S. Geological Survey. The newspaper also obtained a database of building permits since 1985 from the Santa Cruz County planning de- partment. 
+
+The tool used to look at the connections be- tween these two data sets was "geocoding" (as opposed to "Gee, coding," which programmers say when they get really excited about something they've done), mapping software that converts addresses to latitudes and longitudes - the basis for putting points on a map. 
+
+Being able to join the two sets of data - the landslides and the permits-allowed us to see where clusters of development occurred on or near areas where landslides were. 
+
+The technique of joining data geographically map points along with some sort of trend-can be a powerful tool. News organizations have used these techniques to look at crime incidents against demographics, bank locations versus census data and EPA data against school locations. 
+
+Your mapping software does geocoding much like you might use a look-up table in database work. 
+
+Your mapping software does geocoding much like you might use a look-up table in database work. Each mapping program has a database of address ranges and their corresponding coordi- nates. It matches the addresses in your database against the lookup table and assigns a latitude and longitude. 
+
+First, make sure you have the capability to do mapping. Many mapping programs require you to purchase an add-on to do address matching. In rcView, for example, you need to purchase "Streetmap," which contains the address index 
+
+database. In some cases, you can use a "reference database" (or look-up database) from another source, but your mapping software probably will have to index it before you can use it for geocoding. 
+
+Some mapping software also allows you to map intersections in addition to addresses. ArcView, for example, would be able to give you a point for Van Buren St. & Wilson Blvd. ArcView uses the "&" for intersections; your software may need a different symbol. Intersection mapping can be useful for looking at accident rates at various cor- ners. 
+
+Most mapping software allows you to run the geocoding process two ways: batch and interac- tive. Batch mode will attempt to match all the addresses in the database and then return a score telling you what percentage of your addresses matched. 
+
+Interactive matching allows you to preview each match. Using the interactive match, you can change spelling errors for a better match. You can use interactive matching once you've run a batch match to check those that did not match. You can adjust tolerances in your software and run the interactive match again. 
+
+Keep in mind that geocoding is never perfect. You'll never match every address. You'll have to decide how much of your data needs to be matched for your story. You also might consider ways to map points that were left out. For ex- ample, if you know that 100 Songbird Lane is within a few yards of 300 Crookerhouse Rd. you could match it to the closest available latitude and longitude. 
+
+Your reference data's address ranges may not reflect your data - your reference database may have addresses from 100 to 200 but not address 201; you may decide that matching it to 200 is close enough. 
+
+Here are some guidelines for making the most of geocoding: 
+
+1. Make sure you need to geocode - if you obtained the assessors database and only asked for addresses, you may not know that they already have a geocoded database they use for mapping. 
+2. Know the requirements your mapping ware uses for address formats. Some software re- quires you to have the state or the ZIP in the file. The ZIP is important because many cities have the same street names and therefore have the same 
+
+Mapping Resources 
+
+Crime Map: sponsored by the National Institute 
+of Justice's Crime 
+Mapping Research 
+www.ojp.usdoj.gov/cmrc/ faq/welcome.html. They also have a listserv 
+
+Center. 
+
+U.S. Geological Survey: mapping.usgs.gov 
+Association of American Geographers: www.aag.org/ 
+The Consortium for International Earth Science Information Network (CIESIN) : wwgateway.ciesin.org 
+The Geographer's Craft at the University of Texas: www.utexas.edu/depts/grg/ gcraft/contents.html 
+
+Continued on page twelve 
+
+11
+
+
+Recent CAR stories: 
+
+"Pedal to the Metal" The Atlanta Journal- Constitution, March 5-9, 2000. 
+
+www.accessatianta.com/ partners/ajc/reports/ pedaltometall This 5-part series examined Atlantans' driving patterns and found that drivers consistently break the traffic rules, slowing to speeds within the legal limit only when forced to do so by congestion. Resource Center story 16475. 
+
+"Doing the Crime but not the Time" The Charlotte Observer, March 5-9, 2000. www.charlotte.com/ observer/special/ doingcrime/ 
+
+This 5-part series investigates the low rate of criminal prosecution in Charlotte and its effects on police, criminals and neighborhoods. 
+
+Continued from page eleven: Mapping 
+
+addresses; the ZIP makes the address unique. Make sure your software accepts a variety of ab- breviations. 
+
+3. Check case sensitivity. 
+4. Make sure your addresses are as clean as possible before going into your mapping soft- ware. For example, in ArcView, you would need your street address in one field such as "1903 Leila Dr.," not separated into number, street, and type field. Use the concatination function in your database software to clean this. 
+5. Know your tolerance for alignment: no geocoding process will place a point in the ex- act spot on the earth where that address occurs - it may be within a few yards, or a few feet. Know how close you need to be. 
+6. you're overlaying your geocoded points with other data, make sure that data is not pro- jected and that your data will actually be placed the same way on the Earth. (See the last two issues of Uplink for more information on pro- jections.) 
+7. Have a detailed map book of your area by your side, so you can double-check street names, spellings and other inconsistencies. 
+8. Check up on your software - run some addresses you can go out and physically check by 
+
+relationship. If an address is supposed to be on a particular side of a street, or north of an intersec- tion, see if it is placed that way with your map- ping software. 
+
+9. Watch for PPPs: Program Pickiness Prob- lems. In some mapping software, for example, your ZIP code field must be called ZIP, not postal code. Check the FAQ on your mapping software manufacturer's Web site for more in- formation on these. 
+
+10. Understand how your mapping software allows you to adjust tolerances, For example, in Arcview, you can adjust the following: 
+
+Spelling sensitivity: This controls how much variation in spelling ArcView will allow when it searches for likely matches. A low value will allow "Mane," "Maine" and "Man" to be treated as match candidates for "Main." 
+
+Minimum Match Score: setting lets you control how well addresses have to match their most likely candidate in the lookup theme in or- der to match. hundred means it must match perfectly. Lowering this setting will slow the geocoding process, however, becauseArcView will be looking for more candidates for matches. Jennifer LaReur can be reached by e-mail at Jlafleur@postnet.com 
+
+Continued from page five: Realistic goals 
+
+technical problems, it may be inaccurate or incomplete. 
+
+If you're one member of a large reporting team, and this is the only job you've been assigned for the day, you've got a chance. Otherwise, analyzing a new database is rarely a short-deadline task when combined with standard reporting and writing times. 
+
+Local sources 
+
+Unless you've lined up local experts al- ready, or have been given the e-mail addresses of people involved in your story, you're go- ing to have a hard time finding local folks fast online. That doesn't mean you couldn't find them eventually; but it's not something you want to bet a few hours of work on. 
+
+When we did our annual coverage of a college basketball game between local rivals, we hopped on-line at Deja to scroll through newsgroups populated by fans. We didn't 
+
+care where the fans lived - just that they cared about one team or another. 
+
+Maps 
+
+When a suburban county released an "alert map" showing where well tests had turned up arsenic contamination in drink- ing water, we knew we could respond quickly. We already had the well test data- base in hand, and had even taken a stab at mapping it. 
+
+It was a snap to run an additional map, showing that if the county had taken more- stringent World Health Organization stan- dards into account, there would be a LOT more bad wells - and showing where they were. But it was only easy because we had run all those maps before, solving the tech- nical problems. 
+
+Heather Newman can be reached by e-mail at newman@freepress.com. 
+
+12
+
+
+Teachers 
+
+Continued from page one: 
+
+public school teachers in Georgia, despite a 1994 state law requiring fingerprinting and criminal background checks on applicants. Teachers hired before July 1994 are not required to undergo fingerprint checks. In- stead, the form they sign for recertification requires they disclose any misdemeanor or felony convictions. But no one routinely checks whether they're lying. We acquired databases from the Depart- ment of Corrections listing all convictions on record since the late 1970s, from the De- partment of Education listing all 187,000 public school employees as of May 1999, and from the Professional Standards Commission listing all licensed educators. 
+
+After a marathon 26-hour programming and data analysis weekend session, we were able to find nearly 3,000 school employees with misdemeanor and felony convictions. 
+
+After a marathon 26-hour programming and data analysis weekend session, we were able to find nearly 3,000 school employees with misdemeanor and felony convictions. Of those, 168 have spent time in prison. 
+
+The nearly 3,000 convictions ranged from shoplifting and bad checks to aggravated as- sault, drug charges, rape and manslaughter. The overall count included everyone from school janitors and maintenance workers to teachers and principals. 
+
+We decided to focus our efforts on teachers with felony convictions - and more narrowly on teachers in metro Atlanta - since Georgia relies on applicants for certification or recerti- fication to disclose whether they have been convicted of a crime, or whether their teach- ing license was denied or revoked in any state. 
+
+The state's Professional Standards Commis- sion database told us which school district each teacher was employed by and provided us with a home address and telephone number. And a quick visit to the local courts provided us the documentation we needed to corroborate the conviction data. 
+
+Most of the teachers we found with crimi- nal convictions had failed to disclose the felony conviction on teaching applications and with the state Department of Professional Standards, which licenses educators. 
+
+A criminal record does not necessarily keep a teacher out of the classroom. The state's Pro- fessional Standards Commission, after a hear- ing, may choose to certify a teaching candi- date who acknowledges a conviction. When teachers who had concealed felony convictions are discovered, they usually lose their certifica- tion, but the Professional Standards Commis- sion does consider extenuating circumstances, such as years of good behavior since the crime. Even if the state does not act against such a teacher, however, the school district might de- cide to discipline or fire the teacher for failing to disclose the information. 
+
+Not all teachers with criminal records lie on the form. A school social worker who served time for four counts of theft by taking in the 1970s checked "yes" to felony conviction on his initial certification form in October 1998. The answer triggered a hearing by the Profes- sional Standards Commission, which cleared the employee to keep his job. 
+
+Most of the school districts had no idea anyone with a criminal record could slip through the system and become a teacher. We found the state also has no system in place to check teachers once they are employed and everyone - from parents to the state's director of education - was shocked at what we exposed. 
+
+The school districts all said they were go- ing to strengthen their internal monitoring systems. Some of the teachers we profiled have been fired or quit, and the state's Professional Standards Commission said it planned to lobby for legislation that would tighten loopholes in the system. 
+
+Atlanta Journal-Constitution reporter Doug Cumming contributed to this article. Chris Cantergiani can be reached by e- mail at chris.cantergiani@wsbtv.com 
+
+WSB-TV's entire package is available online at: www.wsbtv.com/whistle blower/felonsinschools.html 
+
+The story is also available in the IRE Resource center; story # 16285 Call (575) 882-3364 to order 
+
+More information about the data work can be found in David Milliron's story on page fourteen. 
+
+13
+
+
+EDUCATION 
+
+Teachers and felons 
+
+For a great list of sources and hot topics in education, order the following tipsheets from IRE/NICAR: 
+
+"CAR on the education beat: New angles, new data," from the 1999 Kansas City conference. (Tipsheet #956.) 
+
+"Analyzing capital spending to find discrimination," looks at the unequal allocation of funds in schools' capital budgets and its impact on education. (Tipsheet #896.) 
+
+Call IRE at (573) 882- 3364 to place an order. 
+
+Anyone interested in a copy of the Fox Pro Scripts Milliron mentions, can download them from www.nicar.org for a limited time. 
+
+By David A. Milliron 
+
+The Atlanta Journal-Constitution Georgia relies on candidates for teacher certification or recertification to disclose whether they have been convicted of a crime. But WSB-TV Channel 2 and The Atlanta Journal-Constitution in a joint investigation found the state doesn't bother to indepen- dently verify their answers. 
+
+Using computer-assisted reporting as a tool, WSB-TV and the Journal-Constitution acquired databases from the Georgia Depart- ment of Corrections listing all convictions on record since 1978, from the Department of Education listing all 187,000 currently employed public school employees, and from the Professional Standards Commission list- ing all licensed educators. 
+
+Our analysis matching names, sex, race and dates of births, and Social Security num- bers where available, and discarding matches with slight inconsistencies, revealed 2,931 school employees with criminal records. Of those, 168 had spent time in prison. 
+
+Of course, many of these folks may have committed youthful indiscretions, and can attest to years of lawful living. Others may have had a one-time brush with the law. 
+
+But when a Georgia law was passed in 1994, its intent was to keep criminals away from our kids. WSB-TV and the Journal- Constitution found it isn't working and that no one is performing criminal background checks on teachers or noncertified workers such as bus drivers, janitors and paraprofes- sionals. 
+
+The toughest part of the investigation was standardization of the data in each of the three databases acquired for the investigation. 
+
+Prison records 
+
+The Georgia Department of Corrections standardizes the names in its Inmate and Pro- bation Research File databases (last name, first name, middle initial and suffix), but sets its field width at a mere 25 characters. This meant names longer than 25 characters were truncated. This most often affected the middle initial and suffix of a name, and only occasionally the first name. 
+
+So we resorted to the "like" command in Corel Paradox which told the data where the 
+
+first name looked like the first name in the other databases, to declare it a match. Keep in mind we were simultaneously performing a one-to-one match on last name, sex, race and date of birth. Microsoft Access has a "like" command, too, but would have been too slow for such a data intensive query. 
+
+The dates of births are reported as MMDDYY with a separate coded field to indicate century. A simple script in Corel Paradox evaluated the "century" field for a "1" or "0", then properly formatted the birth date field for the correct century (i.e. 1897, 1923, etc.). 
+
+Social Security Numbers were included in this database, which came in handy to verify court records and for matching data to the teaching certificate data from the state Professional Standards Commission. There's a ton of landmines in the DOC's databases, and everything is coded- making the record layout about 150 pages. 
+
+School employees 
+
+The Georgia Department of Education would like to standardize the names in its Certified Personnel Index database, but has no real control since its data is filed remotely by the state's 180 school districts. We found 23 variations for how the employee name data was reported to the state, and had to standardize the entire database using a FoxPro script that reads each field to determine the character structure, then parses the field into prefix, first name, middle name, last name and suffix. The DOE's database has four tables to it, and each is linked together by one or more fields, depending on which table you're linking lots of one-to-one and one- to-many relationships here! 
+
+As for the name parsing, my colleagues know I try never to recreate the wheel if there's code that can be had and altered. Alas my reference to Corel Paradox above, For years, I developed using Borland Paradox, now owned by Corel, and thus have tons of scripts I still use today. 
+
+Same with the name parsing script I use. It was written by Walter J. Kennamer, and I've been tinkering with it for many years now. Regardless how many different ways the text is formatted in your name field. This gem 
+
+Continued on page fifteen 
+
+14
+
+
+Continued from page fourteen: Data work 
+
+of a script will scan the strings and attempt to identify its format, then output the string into its respective prefix, first name, middle name, last name and suffix fields. The script isn't perfect, especially in Georgia where mommas have named their boys junior! Instead of formatting "Smith, Junior" as "Junior Smith," well, the script leaves the first name blank and now the fella is known as "Smith, Jr." But that's mighty little clean-up when you think of the alternatives. 
+
+Standards commission 
+
+It appears the Georgia Professional Standards Commission has no convention for its data entry, and we found 37 varia- tions for how the name of the certificate holder was entered. Also, some times you got a date of birth, other times you weren't so lucky. Luckily they provided the Social Security Numbers that allowed us to do a one-to-one match to the Department of Corrections database. But the agency couldn't tell us which certificate holders 
+
+were currently employed, or alive for that matter! 
+
+What the Professional Standards Commission's data did do was to allow us to cull a smaller data set from the huge Department of Corrections database by doing a one-to-one match on Social Secu- rity Numbers. The basis here was that we knew if they matched, those records ap- peared to be licensed educators. We then matched the smaller data of about 6,000 hits to the Certified Personnel In- dex to identify currently employed edu- cators. 
+
+Of course, we did a myriad of other crisscross matches to verify the integrity of our analysis, which couldn't have been possible without the ability to standard- ize nearly 2 million names and subsequent fields such as race and sex. Although we obtained the data on magnetic cartridge, each of the agencies now provides the data via FTP or on CD-ROM. 
+
+David A. Milliron can be reached by e-mail at dmilliron@ajc.com. 
+
+
+
+DATABASES ACQUIRED FOR THE INVESTIGATION
+Agency	Department of Corrections	Department of Education	Professional Standards Commision
+Database	Inmate/Probation Research	Certified Personnel Index	Teacher Certification database
+File database	databases
+Size	1.3 million records; 635 MB	187,032 records; 118 MB	332,372 records; 140 MB
+Description	Contains information on	Contains demographic	Contains information on indi-
+anyone who has been in	information on every K-	viduals holding valid teaching cer-
+the state correctional or	12 employee in the state	tificates but does not reflect
+prison system since 1972,	including salary, posi-	whether the people holding them
+or who has been paroled or	tion, school, certifica-	are employed by schools or even
+sentenced to probation	tion, years of service, etc.	alive.
+since 1978.
+Linked	Name	Name	Name
+Fields
+Birth date	Birth date	Birth date
+44	Sex	Sex	Sex
+"	"	Race	Race	Race
+Social Security Number	Social Security Number	Social Security Number
+
+
+
+Recent CAR stories: 
+
+"Lessons for all." The Charlotte Observer, March 17, 2000. www.charlotte.com/schools/ 99report/ This analysis takes a closer look at area schools and how well their students are learning. The report includes an online searchable database of statewide scores. 
+
+"Analysis shows how well schools actually perform." The St. Louis Post-Dispatch, March 13, 2000. www.postnet.com/ gatewayguide The Post-Dispatch Education Team used a statistical method to predict a school's average test score given the number of low-income students enrolled. Resource Center story # 16492. 
+
+15
+
+
+Bits, Bytes and Barks 
+
+Aviation safety book 
+
+A reporter's handbook on covering air safety is now avail- able from IRE. Covering Aviation Safety: An Investigator's Guide is the first in a planned series of IRE "beatbooks." 
+
+The book written, by Maine freelancer and college in- structor Marie Tessier, incorporates the best stories, resources and tipsheets IRE has compiled over the years alongwith input from the top aviation reporters in the country. 
+
+The 104-page guide offers advice on creating a news- room crash plan, getting federal records on planes and pi- lots, starting out on the aviation beat, story ideas, resources and more. The book can be ordered for $15 (non-mem- bers, $20) through the IRE Web site bookstore (www.ire.org) or by calling the IRE offices at (573) 882- 2042. 
+
+SDR's updated 
+
+The FAA Service Difficulty Reports dataset, available from the NICAR data library, is now updated through March 2000. 
+
+This dataset is extremely useful whenever an airplane crashes because you can use it to track repair problems with private, commercial and military aircraft and aircraft com- ponents. These are largely self-reported by the aircraft own- ers and include aircraft tail number (N-number) and serial number. 
+
+The 1990-March 2000 data is available for $75, $100, $125 depending on the size of your news organization. Older data, from 1974-1989 is available for $50 for any 
+
+size news organization. 
+
+The NICAR data library also provides SDRs on a monthly subscription service. Contact MaryJo or Jason at the NICAR data library, (573) 884-7711, for further in- formation. 
+
+More details about the SDR database is available on the NICAR Web site, www.nicar.org/datalibrary/databases 
+
+Learn Mapping 
+
+IRE and NICAR will hold an Advanced Bootcamp on Mapping on Oct. 20-22, 2000, in Columbia, Mo. 
+
+Learn to use mapping, one of the most powerful weap- ons in the computer-assisted reporting arsenal. Instructors Andy Lehren of Dateline NBC and Jennifer LaFleur of the St. Louis Post-Dispatch will teach how to use ArcView GIS software to plot incidents, show trends and overlay data to find geographic patterns. 
+
+They will discuss story examples in which reporters have used mapping to illustrate disaster damage, demographics, crime tallies, accidents, redlining and many other geographi- cally based stories. 
+
+Mapping bootcamp attendees should have at least a basic knowledge of relational database managers such as Access or FoxPro. 
+
+For more information about this or other training op- portunities, visit the training section of IRE's Web site (www.ire.org/training) or call the IRE main number (573) 882-0684. 
+
+OW 987 ON LINYER AND S'n 
+
+11559 OW JO unossiw JO HON 8EI pue 

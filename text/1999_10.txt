@@ -1,0 +1,883 @@
+
+
+October 1999 
+
+CAR HELPS UNCOVER THE DETAILS 
+
+Kennedy crash 
+
+By Andy Lehren Dateline NBC 
+
+When John F. Kennedy Jr.'s plane went down July 16, aviation experts had a good idea what went wrong. 
+
+At the same time, aviation databases were invaluable for providing context, breaking news and getting facts right. 
+
+The tragedy also offered another lesson for journalists that Web sources are still not as good as having the data in-house, and that we must use the data as a starting point for more reporting, an end in itself. 
+
+A quick recap: A pilot, not yet rated to fly 
+
+ANALYZING MEDICAL DATA 
+
+Transplant disparity 
+
+By Kevin McCoy New York Daily News 
+
+The New York Daily News' headline on Aug. 8 was dramatic: "Deadly Disparity in Transplants, Blacks and Hispanics De- prived." Behind it lay months of research and reporting, some of it aided by com- puter. 
+
+The two-part series showed that Afri- can-American and Latino patients in the New York City area got fewer heart, liver and lung transplants during the last three years even though they suffer higher rates of diseases that might make them need a transplant to survive. 
+
+The stories also showed that African- Americans have far greater need for kid- ney transplants than other patients because they suffer higher rates of kidney failure. Yet African-Americans in the New York City area face the longest wait in the na- tion for a donated kidney. 
+
+just using instruments, crashed amid fog at night on his way to Martha's Vineyard. The plane, a single-engine Piper Saratoga, was found off the New England island. Dead were the celebrated son of the president, along with his wife and her sister. 
+
+By noon the next day, aviation experts offered a good estimate about what went wrong. Experienced pilots, former officials from the National Transportation Safety Board, and others familiar with general avia- tion outlined how Kennedy seemed to have lost his bearings. In the night and fog, he could have become disoriented and unwit- tingly steered his plane into his grave. If he were rated to fly using instruments, he would have been better able to navigate without any reference points below. Those reference points - lights, the horizon, buildings, and other landmarks - are keys for non-instrument rated pilots. While the NTSB has yet to determine the probable cause, key evidence has not detracted from this outline. Radar showed a sharp descent, the landing gear was retracted, and the propeller was still turning - all signs that he lost his way rather than suffered from a mechanical problem. 
+
+Kennedy was not the first to suffer from spatial disorientation. Since 1995, at least two other pilots flying the same kind of plane crashed with the NTSB later listing spatial disorientation as the main probable cause. Two died June 7, 1996, in Goleta, Calif. (the data allowed us to track down footage of the aftermath), and one died Aug. 26, 1996, in Medford, Minn. In fact, most of the time, pilots are the ones responsible for crashes in that type of airplane, and the numbers mirror the pattern in general aviation. 
+
+NTSB data provided a wealth of informa- tion about those who have died in this kind of plane, and the number of crashes (more than 
+
+Inside Uplink 
+
+MORE ON KENNEDY 
+
+Robert Gebeloff, of The Record in Hackensack, N.J., and Susan Milton, of the Cape Cod Times in Hyannis, Mass., share how they used com- puter-assisted reporting to enhance their Kennedy crash coverage. See page five 
+
+PREPARING FOR A CRASH 
+
+Elizabeth Marchak, of The Plain Dealer, offers tips on how to prepare for the inevi- table small plane crash in your neighborhood. See page three 
+
+BACK TO SCHOOL 
+
+MaryJo Sylwester of the IRE and NICAR staff, offers insights into using CAR to cover education - from the budget to ethnic diversity. See page seven 
+
+STATS AND SUCH Neill Borowski of The Philadelphia Inquirer looks at the debate about economet- ric software packages. See page twelve 
+
+OVERCOMING DELIMITERS 
+
+Jason Grotto of the IRE and NICAR staff shares this Tech Tip on pipe delimiters. See page fifteen 
+
+Continued on page eleven
+
+
+Continued on page ten
+
+
+Uplink 
+
+October 1999 
+
+Volume 11, Number 8 A newsletter of the National Institute for Computer-Assisted Reporting 
+
+EDITOR Brant Houston 
+
+DIRECTOR OF 
+
+PUBLICATIONS Len Bruzzese 
+
+MANAGING EDITOR Mary Jo Sylwester 
+
+ASSOCIATE EDITOR Jessica Larson 
+
+What's next? 
+
+ART DIRECTOR Kerrie Kirtland 
+
+SUBSCRIPTION ADMINISTRATOR John Green 
+
+Uplink is published every month by the National Institute for Computer- Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. 
+
+Subscriptions are $40 for IRE members. $60 for nonmem- bers. Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org 
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism 
+
+NICAR services include hands- on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis. 
+
+By MaryJo Sylwester IRE and NICAR Staff 
+
+In the coming months, each issue of Up- link is going to centerpiece a prominent is- sue in computer-assisted reporting. Our goal is to provide answers to difficult questions and hands-on suggestions for both reporters and editors, in markets of all sizes. 
+
+The issues will show how everyone - no matter what level of training or available re- sources - can find and carry out quality sto- ries using computer-assisted reporting. 
+
+Centerpiece topics in upcoming issues include: 
+
+Using CAR to cover school violence. 
+Negotiating for data. 
+Getting ready for Census 2000. 
+Using mapping software. 
+CAR on deadline. 
+Editing of CAR stories. 
+How small markets incorporate CAR. 
+
+In addition to these topics, we'll continue to have several standing features such as Stats and Such, a column devoted to the use of statistics; First Ventures, tales from beginners about their first foray with CAR; Tech Tip, featuring technical advice for working with data in various software programs; and On the Internet, offering useful tips for navigat- ing the Web. 
+
+A new standing feature will be a page de- voted to using campaign finance data. We hope you enjoy the upcoming issues. Anyone interested in writing an article about your experience in any of these topics or of- fering story suggestions please contact me at IRE and NICAR either by e-mail at maryjo@nicar.org or by telephone at (573) 882-0684. 
+
+In addition, we are always looking for re- porters or editors to write about their expe- rience on a recent CAR project. 
+
+Uplink survey 
+
+We're interested in knowing more about what you'd like to see included in Uplink to make sure our content is meeting your needs. Please take a few minutes to fill out this survey, either in the online version at the NICAR Web site, www.nicar.org, or by mailing this form to IRE and NICAR, Attention: MaryJo Sylwester, 138 Neff Annex, Missouri School of Journalism, Columbia, MO 65211. 
+
+If you have any questions, feel free to contact MaryJo Sylwester at maryjo@nicar.org or at (573) 882-0684. 
+
+How would you describe your experience level with CAR? 
+
+Beginner 
+Intermediate 
+Advanced 
+
+Do you use a PC or Macintosh computer? 
+
+PC 
+
+Macintosh 
+
+What software do you use? (check all that apply) 
+
+Excel 
+Locusl-2-3 
+Access 
+Visual FoxPro 
+FoxPro 2.6 
+Paradox 
+Filemaker Pro 
+mapping software 
+statistical software 
+other (include name) 
+
+How frequently do you use CAR skills for your job? 
+
+Every day 
+Once or twice a week 
+A few times a month 
+A few times a year 
+
+How would you rate Uplink in terms of quality of content? 
+
+Excellent 
+Good 
+Fair 
+Poor 
+
+Excellent 
+Good 
+Fair 
+Poor 
+
+How helpful are Uplink articles to you in general? 
+
+What types of articles would you like to see in Uplink? (check all that apply) Hands-on tips How-I-did-it type stories Internet tips Advanced CAR tips Campaign finance Using statistics, statistical software Other 
+
+Software information 
+
+Basic CAR tips 
+
+What would you like to see changed in Uplink? 
+
+Any suggestions for future stories? 
+
+WHEN PLANES CRASH 
+
+Being prepared pays 
+
+By Elizabeth A. Marchak The Plain Dealer 
+
+On any given weekend, thousands of pri- vate planes take off. Every once in a while one crashes. 
+
+The cause is usually pilot error. But the story is always far more interest- ing, if you know what questions to ask. 
+
+Plane crashes are really about humans' use or abuse of technology. In our booming economy, more people are becoming private pilots, buying or leasing planes. Some pilots - and their planes - will never show up on your radar. Others are accidents waiting to happen. To add credibility to your news organization's coverage of the next accident, start learning now how the aviation world operates. 
+
+Lurking online at chat groups like CompuServ's AvSig site, it's easy to get the impression that pilots are a chatty bunch. They are - until they discover you are a re- porter. Few reporters have developed enough expertise to pass their technical muster. We don't even know how to ask good questions, they say. 
+
+They have a point. Pilots spend thousands of dollars to put their planes in the air. They have had to learn to use some pretty sophis- ticated devices like radar, automatic pilots, fuel and navigation systems. Many are profi- cient in maintenance. They are exacting people. They make life and death decisions. They know they can't make a mistake. And, they reason, neither should reporters. 
+
+Where to start 
+
+Start by taking plane rides at local airports. They are not expensive. They are a great way to win sources, especially if you decide to go to ground school, the precursor to flight school. 
+
+Next, find out what businesses are at the airport. Build a spreadsheet of companies, addresses, phone numbers, names of employ- ees, description of what they do. Make sure you know who handles security, janitorial services, baggage, fuel, maintenance, snow- plows, bird control and the control tower. 
+
+Since your newsroom probably has lim- ited its aviation coverage to earnings and plane orders and a few service problems at 
+
+local airlines, you may have a lot to learn. To get a handle on how many pilots and planes there are in your area, get the pilot and air- craft registration databases from NICAR or another suitable source. 
+
+Jane's "All The World's Aircraft," provides detailed information about 1,400 civilian and military airplanes around the globe. Through the online site, the yearbook costs $445, the CD-ROM $1,145. (The book is also avail- able at most public libraries.) With the in- formation, you can build files and start an- other spreadsheet listing popular planes. 
+
+Accident data 
+
+How often are these small private planes in accidents? 
+
+You'll find the answer at the National Transportation Safety Board's Web page. For starters, study the accidents and incidents by using the query form so you can look for specific airplanes. You can even look for things like "probable cause." Then do like many veteran aviation reporters do - track the accidents on a daily basis. 
+
+For example, between Friday, Aug. 28 and Sunday, Aug. 30, there were 20 accidents listed. In four of those accidents, a total of seven people died. More than half those ac- cidents involved Cessnas, Pipers and Beeches - three of the most widely used private air- planes in the United States. 
+
+After a crash, safety board officials exam- ine the scene and debris. Sometimes they can make immediate pronouncements. Most of- ten they can't. This creates an uproar with reporters who want juicy new details for deadline. 
+
+Sometimes it takes months or years to fig- ure out which part failed first and why. That's why the safety board won't specu- late on deadline and why anyone who covers aviation should have a broad general knowl- edge to fill in those deadline gaps. 
+
+Private pilots are one part of aviation's biggest safety problems, according to both the safety board and the Transportation Department's Office of the Inspector Gen- eral. The pilots, through inexperience or in- attention, end up where they don't belong including in the flight paths of incoming jets. These are often called runway incursions. 
+
+"Covering Aviation Safety: An Investigator's Guide," the first in a new series of beat books from IRE will be published next month. The handbook, by Marie Tessier, will be available by calling IRE at (573) 882-2042 or ordering over the Web, at www.ire.org 
+
+Here are the Web sites referred to in Marchak's story: 
+
+General Accounting office: www.gao.gov 
+
+Flight Safety Foundation: 
+
+www.flightsafety.org 
+
+Federal Aviation Administration: www.faa.gov 
+
+or at: www.safetydata.com/ 
+
+Transportation Department's Office of the Inspector General: www.dot.gov/oig/ 
+
+National Transportation Safety Board: www.ntsb.gov 
+
+Continued on page four 
+
+Jane's "All the World's Aircraft": www.janes.com/ company/catalog99/ jawa.html 
+
+3
+
+
+Continued from page three: Being prepared 
+
+These are the aviation- related databases available for purchase at the NICAR database library. The NICAR Web site, www.nicar.org, offers further details, including a sample from the data. To order, call the database library at (573) 882-0684. 
+
+FAA Enforcements, 1967 1998: A database of FAA enforcement actions against airlines, pilots, mechanics, and designees. 
+
+FAA Service Difficulty Reports, 1974 - 1998: A database of maintenance incidents collected by the FAA for the purpose of tracking repair problems with commercial, private, and military aircraft and aircraft componentry. 
+
+FAA Accidents and Incidents, 1971 - 1998: A database of mainly U.S. flights where there was an accident or an incident, including crashes, collisions, deaths, injuries, major mechanical problems or costly damages. 
+
+If an accident is big enough the safety board opens up a docket that includes a stunning array of documents like tests on broken equipment and statements from people involved in the accident. The dock- ets for some accidents are available on CD- ROM or in report form. 
+
+The FAA assists, but is rarely in charge of an accident investigation. But the agency is useful for other reasons. Its job is to en- force the FARs federal aviation regulations - that govern general aviation. Most of the regulations affecting private pilots are con- tained in Part 91 of the FARs, often the least restrictive of all the FAA regulations. 
+
+If a crash involves some kind of mainte- nance problem, the FAA may have already issued information to pilots in the form of an advisory circular or a mandatory order to fix the problem called an airworthiness directive. They may be searched on the FAA's Web site. 
+
+(Pilots) are exacting people. They make life and death decisions. They know they can't make a mistake. And, they reason, neither should reporters. 
+
+The FAA's Accident and Incident data- base is also useful, because it tracks events involving individuals, as well as major air- craft. But don't look for any service diffi- culty reports - private pilots don't have the reporting requirements that commercial air- lines do. That data may be obtained through NICAR or another processing service. 
+
+Freedom of Information requests should be filed with the FAA to get enforcement action against the pilot or mechanic or the airline. While there are some privacy issues that limit disclosure, few news organizations 
+
+file a FOIA for enforcement documents so there is almost always a story. 
+
+If your airport is one of the 100 biggest in the U.S., information about it is available on the CD-ROM "The 1998 ACE Plan - Aviation Capacity Enhancement CD-ROM and Airport Database." 
+
+The airport layout is a nice graphic to keep in a computer file for emergencies like crashes or collisions. 
+
+General aviation issues affecting private pilots and their planes get lots of ink, if you know where to look. The Flight Safety Foun- dation, which issues monthly reports on avia- tion safety, frequently focuses on private pi- lots. The reports are worth reading and sav- ing because they frequently reprise safety board reports in a less technical, more easily understandable format. 
+
+From time to time, the General Account- ing Office, the investigative arm of Congress, examines a private pilot issue, or an issue re- lating to small single and twin-engine aircraft. 
+
+Questions to ask 
+
+With this basic information, here are some questions to ask when a private plane crashes: What is the tailnumber? Serial number? What is the make and model of the plane? What is the make and model of the pro- peller or engine? Was there a flight plan? What were the pilot's ratings? How many hours in this model plane? How many other ratings did the pilot have? How did the pilot load the airplane? Is there a possibility that the plane was over- loaded or that its weight and balance was not properly calculated? How much fuel was in the plane when it took off? Was there enough? Was there any past disciplinary action against the pilot? Were any service bulletins issued by the engine or plane manufacturer? How many hours/cycles since the last en- gine overhaul or repair? Has the FAA issued any advisory circulars or airworthiness directives? How often has this plane/model been in an accident before and what were the causes? What did the pilot do in the preceding 
+
+Continued on page six 
+
+MORE ON THE KENNEDY CRASH 
+
+Tales from the field 
+
+When John F. Kennedy Jr.'s plane crashed the night of July 16, several re- porters were able to take their coverage be- yond the rest of the pack using some simple computer-assisted reporting tech- niques. 
+
+It didn't take number-crunching exper- tise. It didn't take a lot of powerful soft- ware. Access to the Internet and a little digging helped produce some powerful and compelling stories. 
+
+Here are a couple tales of how they did it: 
+
+Robert Gebeloff, The Record 
+
+In North Jersey, the Kennedy story was a huge affair. Not only is The Record in the New York media market, but Kennedy's plane took off from a local air- port. 
+
+Needless to say, Gebeloff was called in to work early on Saturday (July 17) morn- ing, along with two transportation report- ers, police reporters, a news aide vacation- ing on Martha's Vineyard, and anyone else lucky enough to be home when phone rang. 
+
+While most people think of CAR as a number-crunching endeavor, Gebeloff said they crunched zero numbers for the Kennedy story, yet managed to make key contributions throughout the paper's ex- haustive coverage. 
+
+Gebeloff used various aviation data- bases like a well-placed source - a source who provided leads to key information that was used to make stories more inter- esting and authoritative. 
+
+That Saturday, The Record staff decided to produce a piece about aviation safety, putting this crash in context. How often do single engine planes go down? What are the causes? How does this compare to other modes of transportation? 
+
+Some may have tried to compile all of this from the Federal Aviation Adminis- tration or National Transportation Safety Board aviation databases, but many of these numbers are already summarized in various government reports - which The Record already had on hand. 
+
+What made The Record story more dis- tinctive was its ability to cite other recent plane crashes - in detail, Gebeloff said. They downloaded data from the FAA's Office of Accident Investigation (www.faa.govlavrlaailaaihome.htm), which provides preliminary accident reports from the prior 10 days. 
+
+While the data are preliminary, there's a narrative in there so you get an idea of what happened. Using Lexis/Nexis, they found news accounts of the accidents. 
+
+As the story unfolded, some began wondering aloud whether the search-and- rescue effort was more extensive for Kennedy than in other crashes. The Record staff decided to find the families and as- sociates of previous fatal accidents and let them answer the question. 
+
+To find those people, Record reporters used three aviation databases to pull in- formation on fatal plane crashes over wa- ter: FAA, NTSB and the Aviation Safety Reporting System. 
+
+Gebeloff said the key to the coverage was in the details. 
+
+"Using the narratives in the reports, news accounts of the accidents, and, most importantly, interviews with victim fam- ily members and associates, we were able to produce a compelling read that was fact- based and answered a question on everyone's mind," he said. 
+
+Robert Gebeloff can be reached by e-mail at gebeloff@bergen.com 
+
+Susan Milton, Cape Cod Times 
+
+While other reporters gathered infor- mation from the scene, Cape Cod Times reporter Susan Milton turned to the Internet for a few answers. 
+
+And she found plenty. The plane registration papers that washed up on shore didn't have John F. Kennedy Jr.'s name, but by plugging into a commercial Web site, www.landings.com. she found the name of the company and address the plane was registered to. (Land- ings has a great deal of information about planes and pilots not found elsewhere, but 
+
+Handouts on general aviation, available at the IRE Resource Center, include: 
+"If it flies, it crashes," by Richard O'Reilly of the Los Angeles Times (#881). An audiotape of this panel from the 1999 National Computer Assisted Reporting Conference is also available. 
+"Plane Crash: everything you need to know on deadline and for follow- ups," from a panel at the 1997 IRE National Conference (#729) 
+There are also several handouts available about covering commercial airline crashes. 
+The Resource Center can be reached at (573) 882- 3364 or by e-mail at rescntr@ire.org 
+
+To search the collection of conference handouts available from the IRE Resource Center, direct your Web browser to www.ire.org.resourcecenter/ tipsheets.html 
+
+Continued on page six
+
+
+5
+
+
+Continued from page five: Kennedy crash 
+
+Useful Web sites for covering aviation: 
+
+Office of System Safety (http://nasdac.faa.gov/) Follow the links to safety data where you'll find a list of all databases available online, including NTSB and FAA incident reports, near mid-air collisions, the Aviation Safety Reporting System, and NTSB recommendations. 
+
+The Aviation Safety Handbook (http:// nasdac.faa.gov/ 
+
+Safety_Handbook/) contains information on national airspace incidents and accidents. 
+
+The FAA Office of Regulation and Certification (www.faa.gov/avrl) includes links to FEDWORLD's collection of airworthiness directives. 
+
+reporters who have used it suggest using caution with the information found there). 
+
+At the same site, Milton pulled up Kennedy's pilot's license information. The addresses matched. 
+
+At the NTSB Web site, she collected reports for all the fatal crash reports for all airports on Cape Cod and the area is- lands over the past 10 years. That, com- bined with clips from the paper's archives, led to a story on the high number of acci- dents due to errors by inexperienced pi- lots in bad weather. 
+
+After the plane was recovered, some me- dia outlets were reporting that the Kennedy family was considering a burial at sea. 
+
+Milton turned to a search engine and typed in "burial at sea. That led to a copy of the Navy Burial Service (a portion of which became the story's lead) and a phone number to the U.S. Navy's Office of Mor- tuary Affairs. 
+
+The representative there yielded a wealth of information: what it takes to get a burial at sea through the Navy; history of burials at sea and a rough estimate of how many have been conducted; and a tip that the 
+
+Coast Guard also performed similar rites. Much of the information was useful in de- termining whether the Kennedy family was getting special treatment, Milton said. Milton also used the Internet to find the Environmental Protection Association's re- quirements for a burial at sea and statistics on cremations and burials from a national funeral association. "(The Internet) enabled us to put a lot of what happened to John F. Kennedy Jr. and the two sisters into perspective and context for readers," Milton said. "It was a great source for background information on the registration that washed to shore and allowed us to write a lot of informed stories about burials at sea and other accidents in the area." For reporters covering similar crashes in the future, Milton suggested looking at the aviation accident reports available online to see if there are any similarities or differences and put the latest crash into context. "Don't hesitate to ask a question on the Internet," Milton said. "It might lead you to a direction you might not have consid- ered." Susan Milton can be reached by e-mail at smilton@capecodonline.com 
+
+Continued from page four: Being prepared 
+
+24-48 hours before the crash? If there is a manned tower, was there any conversation between the pilot and the con- trollers? 
+
+Was this plane tracked on radar? What do the readings show? 
+
+What were the plane's last known coordi- nates? 
+
+How did it descend? Quickly? Did the pilot level off? Seem disoriented? 
+
+Was there any kind of runway or air- space incursion? Based on what you see here, what is the piece of equipment you want to examine first? Was the rescue response appropriate? Did it contribute to the deaths? 
+
+If the plane broke up what came off first? Where was it found? 
+
+Had the pilot or a previous owner modi- fied the airplane in any way? 
+
+How many previous owners of the plane and engines? Why did they sell? 
+
+What was the weather at the time of the accident? 
+
+Was the pilot assigned a specific altitude? 
+
+When the plane goes down, your com- petition will report that a plane crashed. You will be able to tell readers or viewers about the most common problems with the planes, what the safety board has rec- ommended to solve the problem and whether or not the FAA did anything about it safety issues people care about. 
+
+Elizabeth Marchak can be reached by e-mail at emarchak@mail.digizen.net 
+
+MINING EDUCATION DATA 
+
+Back to school 
+
+By MaryJo Sylwester IRE and NICAR Staff 
+
+With students back in school, there should be a host of data available to help analyze how school districts in your area are faring. 
+
+Most states require schools to conduct a head count at the beginning of the school year, and often these reports include infor- mation on gender, ethnicity and other vari- ables. Data on the number of teachers at each grade level, the number of students signed up for free or reduced lunches, dis- trict employee lists and payroll data should also be available. 
+
+These basic data sets can prove to be gold mines throughout the year. 
+
+"It's no different than doing a library search on old stories. It's the same kind of tool," said Linda Johnson, the com- puter-assisted reporting coordinator and former education reporter at the Lexing- ton Herald-Leader in Lexington, Ky. 
+
+Data gold mines 
+
+Basic enrollment data can provide clues to whether the school or district as a whole is gaining or losing students. Combining that with teacher information can show student-teacher ratios. A simple district employee list can be valuable if police arrest somebody who is rumored to be a school employee - especially over the weekend when administrative offices are closed. 
+
+Jeff Porter, a reporter with the Arkan- sas Democrat-Gazette who previously COV- ered education, recommends reporters get "everything they can get their hands on" in terms of data. 
+
+For beginners, the school budget is a great place to start. And having financial information is always useful, Porter said. 
+
+Use financial data to compare year-to- year changes in funding, particularly at the department level. How does special education funding compare to athletic funding? How much is being spent per student? What are teachers being paid and is it effective? 
+
+Porter said an increasing number of states are producing detailed education 
+
+data, dealing with things such as charac- teristics of every student, school and teacher. This year, Arkansas will also include data that will make it possible to analyze how many library books and computer stations each school has per student. 
+
+One of the challenges that remains, how- ever, is overcoming the confidentiality prob- lem associated with student and teacher data. 
+
+Negotiating roadblocks 
+
+Johnson fought Kentucky education of- ficials for two months before settling for less data than she wanted. She asked for 10 years worth of teacher information, including a unique identifier (no names), the college he or she graduated from, the certification test taken, score received, race, gender, date of birth and school district (not specific school). 
+
+But state officials still feared someone would be identifiable, especially in smaller districts. 
+
+"They argued that even if we trusted you and made it available, we'd have to make it available to anybody who wanted it," Johnson said. "And I couldn't really argue with that one." 
+
+She ended up with two tables, with data going back just four years. The first table had testing information, the year the per- son was born and the college attended. The second had the same testing data, year born and school district. Data from prior years simply weren't available electroni- cally. 
+
+The data led to a series last year, "The Learning Gap" that showed the passing score on teacher certification tests was sig- nificantly lower than other southern re- gional states. 
+
+"Confidentiality can be a big block," Johnson said. "You've just got to keep plugging away." 
+
+Porter recommends starting with the person who works with the data or the lowest level of bureaucracy, and then keep going up when negotiating for data. 
+
+"If the district feels like it has to aggre- gate numbers, instead of giving specifics, then you should negotiate," Porter said. "Some schools will argue that because they don't want you to have that information." 
+
+Handouts on using CAR to cover education, available at the IRE Resource Center, include: 
+
+"Some education tips from Alabama," by Jay Reeves of the Associated Press (#890). 
+
+Continued on page nine 
+
+"CAR on the education 
+beat" by David Heath of the St. Louis Post-Dispatch and Jeff Porter of the Arkansas Democrat-Gazette (#956 and #957). 
+"School report cards: How to go beyond test scores," by Heather Newman of the Detroit Free Press (#891). 
+"Resource list from The Learning Gap,"" the Lexington Herald-Leader's series on teacher certification (#892). 
+"Analyzing capital spending to find discrimination," by Neil Reisner of The Miami Herald (#896). 
+
+7
+
+
+HANDOUT OF THE MONTH 
+
+College crime 
+
+Here are some Web sites that might be useful for education reporters: 
+
+Chronicle of Higher Education 
+
+U.S. Department of Education, National Center for Education Statistics: http://nces.ed.gov/ 
+National Education Association: www.nea.org/ 
+Rethinking Schools: www.rethinkingschools.org/ 
+
+To steer your CAR projects in the right direction, order "Computer-Assisted Reporting: A Practical Guide" by Brant Houston. It can be ordered from IRE and NICAR for $26 for IRE members or $30 for non- members plus shipping. Call (573) 882-2042. 
+
+The following excerpt from a handout con- cerning CAR on the education beat is avail- able in its entirety from the Resource Center. Request tipsheet #932. Call (573) 882-3364 for more information. 
+
+By Kit Lively 
+
+Federal law requires all colleges that receive federal funds, including student aid money, to report crime statistics annually. This is a pub- lic record, and each report should include sta- tistics for the most recent three years. The crimes include murder, manslaughter, serious sex offenses, aggravated assault, robbery, arson and vehicle theft. Colleges also must report the number of arrests for alcohol, drug and weap- ons violations. 
+
+The law was amended in 1998 to require colleges to make public alcohol, drug and weapons violations that are handled in confi- dential campus judiciary hearings. It also re- quired colleges to provide more detail about hate crimes and added a $25,000 fine for fail- ure to comply. 
+
+Even with the tougher law, these annual reports should be approached with some skep- ticism, since the data are self-reported and no federal agency monitors the reporting regularly. One way to check the numbers is to go back to the original police logs and compare the totals. 
+
+When comparing crime statistics for sev- eral institutions, it's best to factor in enroll- ments. A school with 10,000 students and 10 rapes isn't necessarily more dangerous than one with 1,000 students and two rapes. 
+
+Another source for campus crime statistics is the FBI's annual Uniform Crime Report. Colleges arent required to participate but a few hundred do voluntarily. 
+
+Sex offenses 
+
+Sex offenses are greatly under-reported on campuses, as elsewhere. Colleges are supposed to include all crimes that are reported to non- police authorities, like counselors and rape crisis centers, but very few do. These people are good to interview to get a fuller picture of what's actually happening on campus. I've found some tension between these officials and campus police, because their standards for deciding 
+
+when to report a crime differ. If that tension creates inaccurate reporting, it's a good story. Some colleges avoid reporting crimes by referring incidents to the campus judicial sys- tem. This happens most often with infractions like alcohol and drug offenses - which the 198 changes in the federal law were intended to address. But there also have been examples of colleges failing to include rapes on the an- nual published reports because they were handled internally. Getting information on campus judiciaries usually is frustrating because most colleges claim that the proceedings and records are protected by the federal Buckley Amendment (also called FERPA, for Family Educational Rights and Privacy Act). But things may be changing. Several state supreme courts have ruled that campus judiciary records are subject to state sunshine laws and should be open. 
+
+Colleges are supposed to report crimes that occur in any building owned by the school, including fraternity houses and off-campus housing, although compliance is uneven. Many schools, however, do not report incidents that occur on public sidewalks or streets around campus buildings. 
+
+Checking statistics 
+
+One way to get an idea of whether the re- ported statistics are accurate is to interview stu- dents about whether they've been crime vic- tims and whether they reported those crimes to officials. Researchers have found that stu- dents are very unlikely to file reports when they've been victims, especially if drugs or al- cohol were involved. 
+
+Look at campuses to see what physical char- acteristics affect crime. Although crime rates on campuses generally are lower than in sur- rounding neighborhoods, urban campuses tend to have more crime. So do colleges with dormitories and features that bring the public to campus, like hospitals and major public streets. 
+
+The U.S. Department of Education has investigated a few campuses for which it has received complaints about inaccurate crime reporting. The DOE has been very slow and reluctant to exercise this regulatory power. 
+
+Kit Lively can be reached by e-mail at kit.lively@chronicle.com 
+
+Continued from page seven: Back to school 
+
+Having the details, however, is much more useful in the long run, Porter said. With raw data, reporters can also analyze things such as: 
+
+Demographics across a district, area or state. 
+How teacher ethnicity in a school com- pares to student ethnicity. 
+Teacher experience levels. 
+College entrance exam results, includ- ing percentage of students who took the test. 
+Facility information, such as school over- crowding. 
+Details in the data 
+
+Josh Freed, education reporter for the Post-Bulletin in Rochester, Minn., used persistence with education officials in his area to obtain payroll data for the St. Charles, Minn., School District. An audi- tor had reported that school officials were 
+
+receiving "bonuses" from the district's "leftover" money each year, but the audit didn't divulge any further details. 
+
+After receiving 1995-1998 data in an Ex- cel spreadsheet, Freed manually added the payroll records for 1994 - ending up with about 800 records. A few simple queries in Access summed up the total bonuses each employee received over the seven years and Freed quickly had the basis of a solid story showing two principals had received bonuses totaling more than $22,000 and $21,000, respectively during that time period. 
+
+A simple story by CAR standards, Freed says, but it made a difference. The small Minnesota school district isn't giving out bonuses anymore. 
+
+Maryjo Sylwester can be reached by e-mail at maryjo@nicar.org 
+
+BEST OF NICAR-L 
+
+Using SAT scores 
+
+These are a few takes from a recent dis- cussion on the NICAR-L listserv regard- ing using SAT scores. See page fifteen for information on subscribing to NICAR-L. 
+I'd like to run a map showing SAT scores by state, but I seem to remember that state scores are affected by how many students actually take the test. More stu- dents, lower scores. So, is there a way to adjust scores using the information pro- vided - score and percent taking the test? Anna Byrd Davis, The Commercial Ap- peal, Memphis, Tenn. 
+Probably the best way to adjust these scores is by running a regression with num- ber of students testing as the independent variable. But I've heard doing this takes so much variation out of the scores that your map would be all one color, or close to it.- Geoff Dougherty, St. Petersburg Times, Fla. 
+Geoff (Dougherty) is right about the result of using regression, and that's because the larger the population, the lower the vari- ability. The key question may be why, im- plicitly, larger states have lower scores. The ACT reports a similar phenomenon. In our one high school here and statewide, there 
+is a higher score for those whose coursework points toward college prep. Bring in those who may not have thought about college until later in high school, not completed work, or are simply not up to snuff, and those can also explain the population-score relationship. -George E. Schwarz, Rio Grande Sun, Española, N.M. 
+There are a bunch of other factors that may affect SAT/ACT scores. For instance, if your state has a high school graduate scholarship program that uses one of the tests as an eligibility requirement, you end up getting more kids taking the test who may not have been college-bound in pre- vious years, or compared to other states. -Mark Schleifstein, The Times-Picayune, New Orleans, La. 
+Yes. It's not the number who take the test that matters, it's the proportion of high school seniors. The effect comes from the fact that states whose public colleges do not require the test get high scores because those who do take it are trying for competitive colleges. - Philip Meyer, University of North Carolina. 
+
+Updates of the following data sets will soon be available through NICAR's data library: 
+
+The Fatal Accident Reporting System (FARS) database, from the U.S. Department of Transportation, covers automobile accidents on public U.S. roads that have resulted in the death of one or more persons within 30 days of the accident. The relational tables contain detailed information about the accident, the vehicles, the drivers and the victims. 
+The U.S. Small Business Administration (SBA) database contains information on disaster loans. The database is divided into tables for businesses and individuals. Declared disasters may be physical and/or economic. Lookup tables are included to determine what type of disaster is associated with each loan and definitions of the Standard Industry Classification codes. 
+
+9
+
+
+Uncover details Continued from page one: 
+
+More aviation databases available from NICAR's data library: 
+
+Airmen Directory and Aircraft Registry: A listing of all registered pilots in the United States (and some foreign pilots), and a listing of all aircraft and aircraft owners in the United States. 
+NASA Air Safety Reporting System, 1988 1997: A database of anonymous reports of airplane safety submitted by pilots, flight attendants, air traffic controllers and passengers. 
+NTSB Investigations of Aircraft Accidents, 1985 1997: The database contains information on civil aviation accidents and incidents, including pilot, crew and airplane descriptions, and environment conditions. 
+
+two dozen fatal crashes during the last three and a half years). The data allowed compari- sons of crashes involving instrument-rated versus visual flight-rated pilots. 
+
+One key is to know that any analysis should begin by looking at an airplane's group. Boeing 737's, for instance, are a group. In this case, the group is known as PA-32. Aviation experts, including New Piper's own safety head, who is a former NTSB official, confirm this is the right way to begin. The number of fatal crashes, and the causes, allowed Dateline NBC to pose more pointed questions about general aviation safety, and gave viewers a more detailed context for Kennedy's crash. Dateline NBC, from what I've been told by other reporters and from what I've gleaned from the competition, appears to have been the first news organization to give this infor- mation. And several newspapers greatly undercounted previous accidents. 
+
+Reporters who relied just on Web sites, like the one run by the NTSB, would have missed details on previous crashes such as pilot names - vital for pulling clips and archived footage. They also would have missed knowing whether pilots were rated to fly solely with instruments. 
+
+port, a recurring problem that I and other reporters have noted in NICAR circles). 
+
+In addition, we were able to show the aircraft was not flawless. Service difficulty reports documented one repair to JFKJr.'s plane that included a maintenance worker complaining about the plane's design; how a propeller control bolt rubbed against the engine baffle, and could jam the plane at less than full speed. (Several Web sites that carry SDRs were either down or missing this re- 
+
+Of all the airworthiness directives, the most interesting called for replacing air filters in a number of New Piper planes-including JFK Jr.'s - because they had been known to crumble, with the debris getting sucked into the engine. That could cause an engine to quit. 
+
+Indeed, aviation records show people have perished in this kind of plane because of mechanical problems. While mechanical problems were not the likely cause of JFK Jr.'s crash, these facts were still important to underscore this was not a perfect aircraft. 
+
+By working closely with Dateline pro- ducer Colleen Halpin, and correspondent Victoria Corderi, we were able to weave details from these public records in inter- views on the Saturday after the crash, and much of this remained unreported by the time Dateline aired a day later. 
+
+There are other ways that computerized aviation records helped us report the story. Ownership records allowed us to track down previous owners. Registration records, along with incorporation records, allowed us to quickly verify airplane photographs being pitched by freelancers to NBC News. Avia- tion Safety Reporting System records, plus computerized maps of aviation facilities, al- lowed us to quickly check the kinds of prob- lems along the route flown by JFK Jr. 
+
+There was a lot of dirty data to weed out, but that's for another Uplink issue. 
+
+Andy Lehren can be reached by e-mail at alehren@nbc.com 
+
+Newsroom training 
+
+IRE and NICAR can parachute into your news organization, bringing our laptop com- puters, stories from our morgue and time- tested training techniques. These private workshops range from basic computer-as- sisted reporting sessions for 20 reporters to tutoring experienced CAR reporters in statis- tical analysis, mapping and advanced data techniques. 
+
+Training costs can vary depending on the number of people trained and the difficulty in developing training materials. Give us a call and we'll be happy to talk to you about the possibilities. 
+
+Contact Trainer Tom McGinty at tmcginty@nicar.org or (573) 882-3320 or Executive Director Brant Houston at brant@ire.org or (573) 882-2042. 
+
+Transplants 
+
+Continued from page one: 
+
+The long road that led to the series began with a suggestion from a health care official who pointed me to the Web site of the United Network for Organ Sharing (www.unos.org), the agency that coordinates all organ trans- plants in the United States. 
+
+What caught my attention was UNOS' "critical data" on the race of donors and re- cipients for specific types of transplants at hospitals in New York City. The statistics for heart, liver and lung transplants seemed to show a large disparity that favored whites. Unfortunately, the data was outdated. 
+
+I contacted UNOS and asked if the agency had more updated transplant data, by race and by organ, for New York City- area hospitals. I also posed the question to the New York Organ Donor Network, the agency that works with UNOS to coordinate transplants in the city and eight surround- ing counties. 
+
+The agencies declined to release the most recent hospital-by-hospital data. But through negotiations the officials agreed to provide a breakdown of transplant donors and recipi- ents, by race and by organ, for the entire New York Organ Donor Network coverage area from 1996-1998. 
+
+This data, analyzed with U.S. Census population estimates and disease and mor- tality rates from the National Center for Health Statistics, provided partial confirma- tion that minority patients got certain kinds of transplants less often than their white counterparts. 
+
+Verifying the evidence 
+
+Several transplant doctors who agreed to analyze the data confirmed the conclusion. However, I wanted additional evidence. I suspected there was other data, not available on the UNOS Web site, that might help test the conclusion. 
+
+I asked UNOS if they could further break down the data for me by, providing the zip codes of each organ donor and recipient. They sent it a few weeks later in an Excel spreadsheet. 
+
+Zip code data would tell me whether the organ recipients came from white or minor- ity neighborhoods. 
+
+I imported it into Visual FoxPro, then 
+
+started to analyze transplant recipients by neighborhood. 
+
+Next, I contacted the New York City Department of Health and asked for neigh- borhood breakdowns of deaths caused by major heart, liver, lung and kidney diseases. The agency readily agreed to provide the data. 
+
+Focusing the search 
+
+Once it arrived, I focused in part on deaths from liver cirrhosis and hepatitis. African- Americans and Hispanics suffer far higher rates of these diseases than whites. 
+
+Moreover, there had been enough liver transplants performed in the metropolitan area during the last three years to allow me to conduct a statistically valid analysis. 
+
+The Health Department data showed that residents of an 18-zip code section of the South Bronx and East Harlem, areas that fea- ture a largely African-American and Latino population, suffered the city's highest rates of deaths from liver disease. 
+
+Did residents of these communities get the highest share of liver transplants? No. In fact, the FoxPro analysis showed that residents of these areas got less than 4 per- cent of all liver transplants performed in the metropolitan area during the last three years. 
+
+That percentage was virtually identical to the share of liver transplants received by resi- dents of a far smaller, four-zip code area of the city. Unlike the South Bronx and East Harlem, these four areas had relatively high percentages of white residents. 
+
+Neither doctors who analyzed the data, nor the transplant centers challenged the data or the series' conclusions. 
+
+Kevin McCoy can be reached by e-mail at kmccoy@edit.nydailynews.com 
+
+While my research was under way, UNOS officials announced several changes that should make it easier for journalists and oth- ers to analyze transplant data. Starting this fall, more recent hospital-by-hospital data is scheduled to be made public by the agency. 
+
+Once UNOS makes the data available, journalists should be able to pursue a wide range of local and national stories on trans- plant issues like death rates and survival times, as well as race. 
+
+Kevin McCoy's story is available online at www.nydailynews.com/1999- 08-08/News_and_Views/ City_Beat/a-37151.asp or at the IRE Resource Center (#15688). 
+
+Tipsheets on covering medical issues available in the Resource Center: 
+
+"Medical Reporting Ideas/ Contacts," (#989) by Gary Hill, KSTP-TV (St. Paul, Minn.), 1999. 
+"Danger! Danger! Reporting on Risk in Medicine and Environment" (#961) by Sarah Cohen, Washington Post, 1999. 
+Other stories in the IRE Resource Center about organ transplants include: 
+"Do or Die: Transplant patients ply an illicit market for vital medicines" (#15534) by Lucette Lagnado, of the Wall Street Journal, 1999. 
+"Hope on Hold" (#15211) by Jim Crane, Robin Guess, Darran Cavole of WKMG- TV in Orlando, Fla., 1998. 
+
+11
+
+
+STATS AND SUCH 
+
+Numerical accuracy 
+
+Here are a few Web sites with information about econometrics: 
+
+http://dylee.keel.econ. ship.edul intntl/stat.htm A site on statistics and econometrics compiled by the John L. Grove College of Business, Shippensburg University of Pennsylvania. 
+
+Econometric Resources on the Net: www.oswego.edu/ Compiled by the economics department at Oswego State, New York. 
+
+The Econometric Society http://gemini.econ.yale edul An International Society for the Advancement of Economic Theory in its Relation to Statistics and Mathematics. 
+
+Econometric-research discussion list: www.mailbase.ac.uk/ A forum for the discussion of research issues in econometric and associated statistical theory. 
+
+By Neill A. Borowski The Philadelphia Inquirer 
+
+'Computers are exceedingly precise and can make mistakes with exquisite precision." B.D. McCullough and H.D. Vinod 
+
+Few things are as alarming as analyzing numbers for the second or third or fourth time to check on them before publication only to find you're getting different answers. This probably has happened to all of us, regardless of the story or computer program. For years, it has happened with regularity when I compute percentiles. 
+
+The scenario usually goes something like this: I set out to find percentile "breaks" for school test scores. My first run is in SPSS. In Frequencies, you can select the number of "cut points" (for example, five cut points yield the 20th, 40th, 60th, 80th percentiles). Or, you can specify each percentile in SPSS. My second run is in Excel. I use the percentile function and more often than not come up with answers different from those found with SPSS. 
+
+Avoid believing that the software must be correct. The evidence shows there is no cause for blind faith. 
+
+After overcoming the churning feeling in my stomach, I check the breaks and find they cut the data into the same groups. In one simulation, SPSS set the 20th percentile break at 95.5 while Excel set it at 98.6. A visual inspection of the data shows the break comes after 94.5 and before 99.7. 
+
+Different algorithms? Probably. I'm still waiting to hear from the software companies. The point is: The answers were different. Could there be other conflicts between pro- grams that aren't as readily apparent? 
+
+Should we, as journalists and analysts, worry? 
+
+If we worry, we won't be alone. 
+
+Economists B.D. McCullough of the Federal Communications Commission and H.D. Vinod of Fordham University sounded the alarm in the June issue of the Journal of Economic Literature, the widely respected and refereed scholarly journal of the American Economic Association. 
+
+Their 30-page article details the authors' benchmarking of econometric software pack- ages and similar work in the past by other econometricians. "Apart from cost consider- ations," the authors note, "economists gener- ally choose their software by its user-friendli- ness or for specialized features. They rarely worry whether the answer provided by the software is correct." 
+
+The authors surveyed five journals that published more than 120 reviews of econo- metric software between 1990 and 1997. "All but three paid no attention to numerical accuracy, and only two applied more than a single test of numerical accuracy," McCullough and Vinod found. 
+
+They tested four econometric software packages and found varying answers. (They didn't identify which packages, saying that was the job of software reviewers.) Their tests and descriptions of others were complex and economics-heavy. In one test, only one of four programs correctly calculated the corre- lation coefficients in a problem. Only two of the four correctly calculated the standard deviation in the same problem. 
+
+Recall that a correlation coefficient of 1 is "perfect" correlation variable moves in lockstep with the X variable. One software package tested by the authors found correla- tion coefficients greater than 1 (1.127 and 1.137). 
+
+"Many textbooks convey the impression that all one has to do is use a computer to solve the problem, the implicit and unwar- ranted assumptions being that the computer's solution is accurate and that one software package is as good as any other," the authors wrote. 
+
+The authors call for more rigorous testing of software. They call on scholarly journal editors to require authors to identify their software, including the version number. And they call on other economists to demand accurate software rather than shopping only 
+
+Continued on page thirteen 
+
+ON THE INTERNET 
+
+Desktop site improved 
+
+By DuffWilson The Seattle Times 
+
+The best place to start work on the web just got better. The Reporter's Desktop, a noncommercial and collaborative Web site aimed at making U.S. and Canadian journal- ists' work faster and easier, moved from a personal server to www.reporter.org/desktop a site hosted by IRE. 
+
+For those who have 18 million book- marks, this is for you. For novices, this is for you, too. The Reporter's Desktop, or RD, is a slim, flat site, lean and mean, built for speed. There is only one layer beneath the desktop, an optional page of details about the great tools on top. 
+
+Reporter's Desktop
+
+
+All of the tools themselves are free. I will be frank. These tools are borrowed. I do not say stolen, because I am quite sure companies don't mind. No one has objected so far. 
+
+I hate to sound like your boss, but: This is for serious work. The RD has no headlines, stocks, weather or sports scores. This is some of what the Reporter's Desktop offers: 
+
+Easy door-to-door directions with the two best forms from MapQuest and MapBlast. 
+The single best White Pages, Yellow Pages, and e-mail lookup I could find. 
+Medline, 9 million scientific and medi- cal studies, abstracted. A gold mine for facts and sources. 
+Hoover's, a great resource to sketch a company on deadline and find news, fi- nances and competitors. 
+Northern Light, still my favorite search engine with its folders system and special documents. Others: Ask Jeeves! seemed silly but it's great. Yahoo is the old standby. The new Google is huge. I'm evaluating www.alltheweb.com 
+What's not there is just as important. I weed the RD ruthlessly. It needs to load fast. If you want comprehensive or specialized lists, check out the mega-bookmark sites instead. 
+Atareporters' conference, somebody asked me suspiciously, "What's in this for you?" So cynical! I get nothing but the best Web page I can design to launch my own work, and the pleasure of trying to keep up with the best reporting tools on the Web. 
+DuffWilson can be reached by e-mail at dwilson@seattletimes.com 
+
+Testing 
+
+Continued from page twelve: 
+
+for "speed, user-friendliness and the latest econometric features." 
+
+A fundamental tenet of research is replicability - the ability of researchers to come up with the same results of other researchers given the same methodology and data. Software accuracy problems under- mine this basic truth, the authors contend. "An unfortunate consequence of two differ- ent packages providing two different an- swers to the same problem is a lack of replicability in economic research," they wrote. 
+
+Now, back to journalism and our brand of data analysis. 
+
+If we don't worry, we should at least be aware. Test your findings with at least two different computer programs. When pos- sible, calculate one of the statistics by hand and compare your results with the software's. 
+
+And avoid believing that the software must be correct. The evidence shows there is no cause for blind faith. 
+
+Neill Borowski's can be reached by e-mail at inborowski@phillynews.com. 
+
+More websites on econometrics: Econometrics Laboratory Software Archive, http:// elsa. berkeley.edu/ A site maintained by the economics department at the University of California Berkeley and other economics organizations. Includes econometric and statistical algorithms, test datasets and documentation available to download. 
+
+Econometrics Resources: www.econometrics.coml, compiled by the economics department of the University ofVictoria, British Columbia, Canada. 
+
+Once again: Should we worry? 
+
+13
+
+
+CAMPAIGN FINANCE 
+
+Political coverage 
+
+Check out IRE's 
+
+www.campaignfinance.org to read the latest campaign finance stories and learn tips from reporters covering the issue. 
+
+For stories, see our money and politics story database that culls news archives daily at www.campaign finance.orgistories 
+
+We also choose a story of the week. Read that at campaignfinance.org/ week.html 
+
+Read tip sheets from reporters who've appeared on campaign finance panels at past IRE and NICAR conferences. Go to http://notes.ire.org/ ireresources.nsflwebCFIC tipsheets?OpenView 
+
+Reporters have also written longer pieces about the CAR stories they've done on campaign cash in our newsletter, Tracker. See past issues at www.campaign finance.org/tracker. 
+
+By Cindy Eberting IRE and NICAR Staff 
+
+Knowing how to truly analyze contri- bution data and track the cash flow to campaigns is becoming as essential to ba- sic election coverage as having candidates' home phone numbers. 
+
+Almost any serious candidate - for state races as well - are keeping their contribu- tions in a database. Journalists without the data analysis skills to pore over these records are left to report the view of a can- didate or political watchdog groups. 
+
+Hence the mission of the campaign fi- nance project at IRE and NICAR: to quickly spread the data-crunching skills specific to covering federal, state and lo- cal elections. 
+
+In August, the Chicago-based Joyce Foun- dation awarded IRE and NICAR a 16-month grant to accomplish this plan. Here's how we're doing it and how you can help. 
+
+We're planning a series of two-day hands- on computer-assisted reporting workshops starting in January located at the state capitols in Illinois, Indiana, Ohio, Michigan, Minne- sota and Wisconsin. 
+
+Each campaign finance seminar will be specific to its location. For example, the training exercises at an Illinois seminar will use the most recent Illinois campaign finance data, Reporters will also learn the caveats of working with federal data, including which resources are the most useful, as well as how each organization (Center for Responsive Politics, Public Disclosure, Inc., Federal Elec- tions Commission) massages the data. 
+
+We're looking to train with data from the Center for Responsive Politics and the Na- tional Institute of Money in State Politics, which each offer databases with contributor names coded by occupation, employer or industry. 
+
+Each tailored seminar will feature that area's experts in campaign finance laws and data. The experts will come from state elec- tions boards as well as local political watch- dog groups. These panelists will give re- porters a chance to interact with those who built the databases and work with the data. 
+
+spreadsheets, databases, and mapping 
+
+The hands-on classes will include exer- cises in: 
+
+importing campaign finance data from the Web and other file types into both spread- sheet and database formats 
+
+joining relational databases 
+
+performing enterprise joins, including how to match campaign finance databases to state contract databases 
+
+In addition to the data-crunching lessons, reporters will also learn how to spot the lat- est loopholes in campaign finance laws that politicians are using to raise more money. These loopholes include the ever-increasing practice of transferring soft money donations from national parties to state parties. 
+
+For each of these workshops we are look- ing for reporters who want to help with or- ganizing, promotion and training or coach- ing the hands-on computer-assisted classes. 
+
+If you're interested in helping out or can offer suggestions on programming please contact us at the Campaign Finance Infor- mation Center (573) 882-1982 or cfic- comments@ire.org. 
+
+We are planning the first set of money in politics workshop being offered by IRE and NICAR. Here are the locations and months that are tentatively scheduled: 
+
+Lansing, Mich. January 
+Columbus, Ohio February 
+Springfield, Ill. February 
+Indianopolis, Ind. March 
+Madison, Wis. March 
+Minneapolis, Minn. April 
+
+Please watch for more details on our Web Site at campaign finance.org/seminars.html Cindy Eberting can be reached by e-mail at cindy@nicar.org 
+
+TECH TIP 
+
+Delimiter dilemmas 
+
+By Jason Grotto IRE and NICAR Staff 
+
+A few months ago, a discussion about how to handle pipe-delimited text files in FoxPro 2.6 appeared on the NICAR-L listserv. Unlike most database managers, FoxPro versions below 6.0 can't handle pipe delimiters when appending (import- ing) text files into an existing structure. The good news is the tips outlined here can be used to deal with other delimiter problems. Technically, any character can be a delimiter. Paul Walmsley of IRE and NICAR has even seen carriage returns used as delimiters and page returns used to mark the end of records. The goal is to find a search-and-replace tool that meets your needs. 
+
+The important thing to realize is there are many ways to work around strange or incompatible delimiters. 
+
+you'll need to be aware of ways around the problem if you have a pipe-delimited file and plan to use FoxPro 2.6 as your database manager. 
+
+The first tip comes courtesy of Tom Boyer, research editor for The Seattle Times. Tom suggests using the text editor in FoxPro 2.6 when dealing with pipe-delimited files. Just open the text file in Fox, go to "Edit" on the "Menu Bar," and choose "Find." In the window that appears, use a pipe to fill in the "Look For" box. Then type It in the "Replace With" box. The It is FoxPro's way of representing a tab with characters. When you're done, hit the "Replace All" button on the right side of the box. Then go grab a cup of coffee because it could take a while if you have a large file. 
+
+This technique can also be used in word processing applications, but you have to know how your application represents tabs 
+
+with characters. For instance, Microsoft Word uses ^t to represent tabs. 
+
+Another option when trying to import a pipe-delimited file into FoxPro 2.6 is to use one of the many search-and-replace applica- tions available on Web sites like www.download.com. Web developers use many of these applications to ggtrings of HTML code, but these applications work just as well on simple search-and-replace actions. 
+
+NICAR uses a DOS search-and-replace program called Xlate to create tab-delim- ited files from pipe-delimited Service Dif- ficulty Reports downloaded from the FAA's FTP site. The nice thing about these DOS applications is you can make batch files in Notepad that allow you to search and replace on many files at once. For in- stance, NICAR uses the following batch command on the FAA data: 
+
+c:\util\xlate "|" \x09 SDRC9932.TXT SDRC9932.tab c:\util\xlate "I" \x09 SDRC9933.TXT SDRC9933.tab c:\util\xlate "I" \x09 SDRC9934.TXT SDRC9934.tab c:\util\xlate "]" \x09 SDRC9935.TXT SDRC9935.tab c:\util\xlate "I" \x09 SDRC9936.TXT SDRC9936.tab c:\util\xlate "I" \x09 SDRC9937.TXT SDRC9937.tab 
+
+The first command ("c:\util\xlate") tells DOS we want to use XLATE in the util directory on the C drive. The "I" is the character we want to replace, and the "Ix09" is the hexadecimal value for a tab. SDRC993X.TXT are the original files, and SDRC993X. are the files we cre- ate after searching and replacing. 
+
+Of course, you also could import the data into Access and then export it into a .DBF if you really want to use Fox. The problem with that tactic is the field lengths will default to 255 characters. 
+
+The important thing to realize is there are many ways to work around strange or incompatible delimiters. The problemism restricted to pipe-delimiters and FoxPro. But luckily the solutions listed here can handle just about any delimiter riff that throws you off. 
+
+Jason Grotto can be reached by e-mail at jason@nicar.org 
+
+Do you have a technical question you'd like answered on the Tech page? 
+
+Contact MaryJo Sylwester at maryjo@nicar.org or (573) 882-0684 with your topic. 
+
+More discussion about 
+
+technical and other CAR- related issues is available on the NICAR-L listserv. Here you can ask questions, offer advice to others or simply see what's being talked about on the list. 
+
+Recent topics have included: 
+
+Transferring data in 
+COBOL to Access or FoxPro 
+Reformatting dates in Access 
+Difficult negotiations for traffic accident data 
+Working with Bush campaign finance contributions To join, send a message to: listproc@lists.missouri.edu In the message area type: 
+
+SUBSCRIBE NICARL[your name] 
+
+More information about the listserv is available on the NICAR Web site, www.nicar.org 
+
+15
+
+
+Bits, Bytes and Barks 
+
+Story update 
+
+The July-August issue of Uplink featured the results of The Atlanta Journal-Constitution's coverage of a Georgia town's targeting of African-Americans in distributing traf- fic tickets. Bill Torpy and David Milliron found that only 1,500 feet of road generated $860,000 in traffic fines, and that 87 percent of those ticketed were black. 
+
+Citizen protests and the AJC's exposure of the apparent discriminatory and excessive ticketing practices preceded the resignation of the police chief and his subsequent replacement with an African-American man, who may officially become the new chief of police upon completion of training. A female African-American municipal judge has also been appointed, and the town's police force was cut in half. 
+
+NICAR data update 
+
+Updates of the following data sets are now available through NICAR's data library. Prices and years available can be found at www.nicar.org or by calling (573) 882- 0684. 
+
+The Manufacturer and User Facility Device Experience Database (MAUDE), or Medical Device Reporting Program (MDR) database contains information on defective or poten- tially defective medical devices that are already on the market. The three tables are made up of voluntary reports, user facility reports, distributor reports and manufacturer reports, and the data are from the Center for Devices and Radiological Health. The MDR database began when Congress enacted regula- tions on Dec. 13. 1984, requiring manufacturers and im- 
+
+porters of medical devices to report to the FDA whenever a marketed device causes or contributes to the death or serious injury of a person, or has the potential to harm someone due to a malfunction. 
+The IRS 990 database contains information on orga- nizations that are exempt from federal income taxes. An included pdf file explains the rules and procedures for organizations seeking tax exemption. 
+
+Upcoming advanced CAR training 
+
+Mapping CAR Camp Oct. 21-24, 1999 - Columbia, Mo. This three-day seminar will offer intensive hands-on training using mapping software for stories. We will also look at past stories that have used mapping programs. The sessions will include address geocoding, thematic map- ping, overlaying and spatial analysis. All lessons are based on government data. Participants should have a basic knowledge in using relational database programs such as Access or FoxPro. Participants are also encouraged to bring local data to work on during open lab time. 
+
+IRE Regional Conference Jan. 14-16, 2000 Washington, D.C. IRE's next regional conference will have more than 50 panels featuring experts from print and broadcast sharing tips and techniques for better stories. The NICAR staff will hold daily sessions on CAR topics in the Computer Demo Room. Watch www.ire.org/training/conferences for more details. 
+
+11799 OW 987 ON LINDAI ANA COVISOD 's'n 
+
+11559 OW JO looy's JO HON 8EI 'Oul pue 

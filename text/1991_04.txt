@@ -1,0 +1,182 @@
+UPLINK 
+
+THE FORUM FOR COMPUTER-ASSISTED REPORTING 
+
+ol 2 
+
+April, 1991 
+
+New York Times Audits U.S. Banks 
+
+By John Freed, Database Editor The New York Times 
+
+It all started routinely enough, with a boi- lerplate article on regional banking that appeared in our Business Day section. ``Bank losses in Northeast up 4 per- cent in quarter, or some such, we reported. 
+
+Blah, blah, blah," I thought to myself as I read the article. `What I want to know, if I have a checking account in Boston, is whether my bank is about to fail!" 
+
+It turns out I wasn'talone in that question. But one problem in an organization as large as The Times to figure out just who should be asking the question. 
+
+A few days after the ``bank losses" story ap- peared, I went to our Washington Bureau to discuss 
+
+UPLINK Subscription News 
+
+Each month, hundreds of journalists across the country are receiving and reading UPLINK. The newsletter's mailing list has almost doubled since its debut. Unfortunately, this means UPLINK's produc- tion costs have also doubled The Missouri Institute for Computer-Assisted Reporting can no longer af- ford to provide UPLINK for free. 
+
+In June, MICAR will require UPLINK's readers to pay a $15 subscription fee. This will entitle the subscriber to 1 year of UPLINK. All of UPLINK's readers will receive next month's issue, but MICAR will cease delivery of the June UPLINK to those who fail to subscribe by the last week of that month. 
+
+A subscription form can be found on Page 4 of this issue. If there are any questions, call MICAR at (314) 882-0684. Thank You. 
+
+computer-assisted journalism and how we could apply it. One of the people I spoke with was our Washington banking reporter. Wouldn't it be more interesting and informative, Iasked, `to list specific banks that might be in trouble? Or, for that matter, on second footing?" Everyone around the tabel nodded in agreement. But nobody seemed motivated to fol- low up. 
+
+
+
+Back in New York, my boss, Dave Jones, an assistant managing editor, framed a series of questions: 
+
+- Are there standards, agreed on in the indus- try, to rate banks? 
+- Are the data on which the standards based publicly available? 
+
+U.S. Banks Continued on Page 2 
+
+Mainframes, C.P.U. Time and Your Wallet 
+
+By Valerie Brunell MICAR 
+
+This is part one of a two-part series on costs related to computer-assisted reporting. Next month's article will discuss state Sunshine laws in relation to charges for duplication of records onto computer tapes. 
+
+Just because you don't have all the equip- ment to do data analyses from your office doesn't mean that you have to forego all computer- assisted reporting projects. Many data process- ing centers can do the work for you or provide you with access to the equipment you need. 
+
+Even if you do have your own system, it's good idea to know what costs are involved when 
+
+CPU Time Continued on Page 4 
+
+U.S. Banks Cont 
+
+- If we get it, should we print it? The last question was the easiest to answer: Yes. While we feared we might start a run" on a bank the overaching feeling was that insiders already knew which banks were weak; the oniy people in the dark were the depositers. 
+
+At about the same time Business Day ap- pointed a special projects editor. One of his first efforts was to coordinate a series on banking. And we found the right reporter to ask our questions: Mike Quint, our New York-based banking reporter 
+
+He quickly provided the other answers. Yes, there are standards that are generally applied. And yes, the data are available. 
+
+Each bank in the United States falls under the purview of one or more Federal agencies; the Comp- troller of the Currency, the Federal Reserve, or the Federal deposit Insurance Corporation. 
+
+As a result, four times a year each bank is required to file a detailed balance sheet and income statement with the government called a Call Report. 
+
+About three months after the end of each quarter, the Call Reports are available on tape from the National Technical Information Service (NTIS) for $600. 
+
+So in mid-January, we ordered the tape, with a target of starting our banking series in the last week of January. I advised the business section that such a tmetable was tight, but I thought I could make it, de- pending on how `clean'' the data were. 
+
+The tape arrived Jan. 21, just six days before we were going to press. The documentation was in two seperate books! And the government divides banks up by size, so the location, say, of the assests field would vary depending the size of the bank. 
+
+I'd need a few extra days. The series was rescheduled for Feb. 3. 
+
+By the end of the week though, I had key financial information available on each of the 13,000 banks in the country. It was a snap, then to rate each on one of four scales that experts said were meaningful capital-to-asset ration; concentration of commercial real estate; percentage of loans in troble; or insol- vency. 
+
+Since the figures were from Sept. 30, we 
+
+thought we'd also check to see how many banks on our ``weak" lists had actually failed in the intervening four months. About a dozen had. besides the dozer. so that were already in receivership on Sept. 30. 
+
+We decided to make the lists of problem banks the centerpiece of the series. We produced lists of the 100 or so weakest banks by each of the standards, and sorted them by state and region. 
+
+Then we started looking at banks that made more than one list. It turned out that two banks made all four! We sent our reporter to White River Junction, Vt., where one of the two, Valley Bank, was located. 
+
+It was both a fascinating study and a warning of what can go wrong with a bank. Valley Bank was established in 1987, in the midst of the real estate boom. But because it was a new bank, the established developers wouldn't deal with them. So they lent to the more speculative ventures. 
+
+When the market collapsed, a huge proportion of the Valley's loans defaulted. The bank's leadership was forced out. And today the Valley Bank is `look- ing everywhere for capital. 
+
+With the help of NineTrack Express to down load the data and FoxBase (a clone of dBase) to do rankings, the listing were ready to run on Feb. 3, as planned. But the editing process being what it is you can find in the paper of Feb. 17. 
+
+This newsletter is a publication of the 
+
+
+
+Missouri Institute for Computer-Assisted Reporting 120 Neff Hall University of Missouri Columbia, MO 65211 (314) 882-0684 
+
+MICAR is interested in attaining any infor- mation, ideas or stories related to computer- assisted reporting for future issues of UPLINK If you wish to contribute, please mail your story or idea to the above address. Or, call us for a fax number. - Adam Berliant, Editor 
+
+Page 2
+
+
+Tape Drive Trouble? You're Not Alone. 
+
+By Adam Berliant. Editor 
+
+During the past several months, the Missouri In- stitute for Computer-Assisted Reporting has received an increasing number of phone calls from reporters having problems with their tape drives. The com- plaints have been similar, 
+
+"Sometimes the tape drive would do what I asked, but often it would just rock back and forth interminably," said Bob Paynter of the Akron Beacon Journal He had a Qualstar tape drive that "never seemed to work." 
+
+didn't know what was wrong with it, Paynter said. "It was like asking a kid if his first car was operating properly. Ijust didn't know." 
+
+Few pieces of electronic equipment could be more foreign to reporters than 9-track tape drives. Fortunately, finding the source of the problem Paynter described is not difficult. Chances are it's either caused by dirty heads or a bad head connector, say the drive's manufacturer, Qualstar, and one of its brokers, Chi Corp. 
+
+Qualstar is the maker of the model 1260 tape drive, the inexpensive, 6250 bpi-capable drive used by Paynter and other reporters, many of whom pur- chased their drives through Chi Corp. Chi manufac- tures the controller card and software that go inside the PC to make the tape drives and computers commu- nicate. Chi's emphasis on the U.S. PC market makes it the company many reporters turn to. Representa- tives from both of these companies say that rocking problems can be handled. 
+
+This should be late but great news for Judy Miller, special projects editor at the San Francisco Chronicle., who is now in possession of her fourth Qualstar tape drive. Two of her first three were sent back to the manufacturer because they wouldn't func- tion properly. 
+
+"Our first drive didn't work, so we sent it back," Miller said. "Chi Corp. was really good to us, and they sent us another one that worked at first. Then census data arrived and it started to rock back and forth. 'C3' ame up - head error. I called Qualstar and talked to the technician who walked me through cleaning and reseating, and it worked agian. But then the next day it just consistently started rocking." 
+
+"They sent a third one," Miller said. "That one didn't work all, ever." 
+
+The problems described here are typical of "read" and "write" problems. Chi's software will call these CO, C1, C2, C3 errors or 40, 41, 42, 43 errors. Chi, too, has been receiving complaints about write and read errors for the past year. 
+
+"I think Qualstar switched (cable) brands about a year ago," Chi's John Thome said. "It's not a problem with the head. The green card-edge connector has a ribbon that fastens onto it. That seems to be the prob- lem. We've been sending people new cables, and that has solved 50 percent of the problems." 
+
+The "green card-edge connector" lies beneath the head protector on top of the head. One can pull the head cover off and see the connection in question. Look for the vertical green card, and you will see a ribbon of O wires connected to it. If the connector is blue, it is an 
+
+
+
+Head Cover 
+
+Ansley connector, one of the most reliable connectors made. If it is not blue, it may be one of the other connectors Qualstar was experimenting with. This doesn't always mean the connector is the problem. 
+
+It's more likely to be dirty tape heads. 
+
+"The most common problem for tape drive mal- functions is dirt accumulating on the heads," said Dan Thorlakson, vice president of operations at Qualstar. 
+
+Heads do need to be cleaned periodically; Thorla- kson suggests after every two hours of use. If cleaning fails, both Thome and Thorlakson suggest removing and "reseating" the connection. In other words, un- plug it and then re-plug it in. If this still does not work, you may have to do what Judy Miller had to do: return the drive so the connectors can be replaced. 
+
+The Qualstar customer service line is always an excellent first step for solving tape drive difficulties. The number is (818) 882-5822. 
+
+Page 3
+
+
+C.P.U. Time Cont. purchasing a data tape, whether it be through a private company or an agency governed by the state. 
+
+What you have to consider is what resources you have available, what type of work is being done and how much you are willing to pay for those services, says Bill Plummer, director of campus computing at the University of Missouri. 
+
+Many private companies base prices on the type of processing being done, says Mike Dalleska of the Word Processing and Information Services, Inc. in Cincinnati. ``No two projects are alike," he says. 
+
+Making matters worse for price shoppers is that no standardized formula for rates has been established in the data processing field. Some agencies base rates on the amount of use they get from the system and your share of that total use. Others base prices on the amount of information being manipulated, whether it be on a per-record basis or by computer bytes used. 
+
+Costs based on your share of the system are usu- ally listed as CPU time. The CPU is the computer's central processing unit that directs its logical and mathematical functions. Other charges, such as input and output time or access charges, may be included, but the main cost will be calculated in minutes used. 
+
+CPUs can be calculated either as computer time or wall clock time, says Jerry Fox, a marketing repre- sentative for IBM. With computer time, prices are high but only include the amount of time that a com- puter is actively running a command. Depending on the type of computer system and the complexity of the command, most computers can complete a task within a matter of seconds. With wall clock time, rates are low; users are charged from the time they sign on to the system until they sign off, regardless of whether or 
+
+not the computer is active or sitting idle. 
+
+When contracting out for services, consider the type of system being used and its ability to process formation. A project that takes only an hour on a main- frame computer may take days or even months on a personal computer. 
+
+Most importantly, know specifically what is included in the prices quoted. You may be paying for for something you shouldn't. 
+
+LETTER TO THE EDITOR 
+
+Dear UPLINK, 
+
+Tsk, tsk, tsk. Slighting the Mercury News the way the (March) issue of UPLINK did. Well, the best we can do now is try to set the record straight. It's so dissappointing when the press screws up, no? Just kidding. Anyhow, (enclosed) are the copies of the San Francisco Chronicle and the San Jose Mercury News for the two days following the release of the California census tape. You make the call, as they say, but here are several things we modestly point out: 
+
+- We think our statistical material was more detailed and better presented. 
+- It took the Chron until the second day to find out San Francisco had lost an ethnic white majority. We reported the first day that four of five California's largest cities had lost majority. 
+The Chron's first-day statistics were 1990 based. Wehad a 1980-1990 comparison the first day. 
+
+As my editor suggested, we're willing to let this slight pass. 
+
+Best Regards, Christopher H. Schmitt, San Jose Mercury News 
+
+Imagine that. A Californian computer-assisted report- ing war fought here in the meek pages of UPLINK. As for making "the call" on the Census packages pro- duced by The Chronicle and the Mercury News, UPLINK has decided to take a flimsy but conveniently diplomatic position. They were both great. The editor 
+
+UPLINK SUBSCRIPTION FORM 
+
+Name: Title: Organization: Address: 
+
+Please send this form and $15 to The Missouri Institute for Computer-Assisted Reporting, University of Missouri School of Journalism, 120 Neff Hall, Columbia, MO, 65211. Make checks payable to The University of Missouri. Thank You. 
+
+Page 4

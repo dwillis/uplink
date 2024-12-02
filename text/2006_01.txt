@@ -1,0 +1,1286 @@
+January
+February 2006
+ Volume 18, Number 1
+
+Published bimonthly by the National Institute for Computer-Assisted Reporting
+
+icar
+
+
+CAR ISSUES Giving proper credit By Danielle Cervantes The San Diego Union-Tribune 
+
+A disaster strikes a community. A jury announces a big verdict. A team of reporters scrambles to gather information and reac- tions. Credit is spread gener- ously among all contributors to the story. 
+
+A computer-assisted reporting expert uses a database man- ager to match a list of deadbeat parents with a list of prisoners and finds the most-wanted deadbeat sitting in a cell just down the hall from the sheriff's office that is trying to locate him. A reporter airs the revelation in a big story with no credit to the CAR expert. 
+
+For many journalists doing CAR, unfortunately, the second sce- nario has become common. 
+
+Uplink first raised the question of proper crediting in 1992, with an article by Dan Woods, former database editor with The (Ra- leigh, N.C.) News & Observer. Woods found that CAR contri- 
+
+SPOTLIGHT: EXAMINING HOMELAND SECURITY 
+
+Sept. 11 loans steered to the unscathed By Frank Bass, The Associated Press 
+
+When Dirk Lammers, an AP reporter in Sioux Falls, S.D., called me in New York one afternoon, I didn't know he had a really great story idea. I knew just enough, however, to know I wouldn't mind a small piece of it. 
+
+"What's a South Dakota radio station doing with a Sept. 11 Small Business Administration loan?" he wanted to know. 
+
+Lammers had found out about the radio station, "Hit Kickin' Country KBFS-AM" from a database of U.S. Small Business 
+
+
+
+continued on page 12 
+
+SPOTLIGHT: For more about examining homeland security see: 
+
+Restrictions on data access, p. 8 
+Resources for reporting, p. 10 
+Recent homeland security stories, p. 10 
+The January-February 2006 IRE Journal 
+
+STATISTICS Analysis finds bias in jury picks By Jennifer LaFleur, The Dallas Morning News 
+
+Nearly 20 years ago, The Dallas Morn- ing News reported that Dallas County prosecutors were excluding nine out of 10 blacks from jury service. So when the U.S. Supreme Court agreed to re- view a Texas death-penalty case that alleged jury discrimination, we thought it was time to see whether anything had changed. 
+
+After two years of research, multiple court orders and regression models, we had our answer: race still played a key role in who serves on a jury. 
+
+But because the trend was not as bla- tant as it was in 1986 - when reporters Steve McGonigle and Ed Timms found that four out of five juries were all white - the story required a more sophisti- cated statistical tool. 
+
+continued on page 20 
+
+We used logistic regression, which computes the relationship between variables, when the dependent (or outcome) variable is dichotomous - meaning it has two possibilities for the value. For our analysis, the dependent 
+
+continued on page 18
+
+
+1RE Database Library 573.884.7711 
+
+Bits & Bytes 
+
+
+
+Data Analysis 
+
+The IRE and NICAR Data Li- brary recently analyzed data for several high-impact broadcast news reports. 
+
+For ABC News' Primetime, data analysts used SPSS to calculate violent crime rates on college campuses across the nation. The analysis found smaller institutions often had higher crime rates than larger institutions. 
+
+For KUTV-Salt Lake City, analysts compared felon databases against hunter licenses databases and found 7,000 felons had hunting li- censes. After the report, the state confiscated 76 tags and changed the hunting license applications. 
+
+For WSB-Atlanta, analysts used U.S. Census data and ArcView geographic information system (GIS) software to map poverty rates and found that, in one area, three of every four residents lived below the poverty line. 
+
+Analysts mapped sex offenders' residences and public school bus stops, finding that at least 140 sex offenders lived within 500 feet of a school bus stop for WLEX-Lexing- ton. At one bus stop, there were six offenders within 500 feet. Af- ter the program aired, the school moved the bus stop. 
+
+Analysts mapped sex offenders for WOOD-Grand Rapids by location and helped the station identify clusters in places, such as homeless shelters. 
+
+For information about how the Database Library can assist your reporting project, contact Jeff Porter at 573-882-1982 or jeff@ire.org. 
+
+INSIDE NICAR 
+
+Meth stories win first Meyer Award 
+
+Investigations into the methamphet- amine epidemic, entrenched failures at the U.S. Department of Veterans Af- fairs and the loss of Florida's wetlands were recently named winners of the first Philip Meyer Awards. 
+
+The awards recognize the best uses of social science methods in journalism and are administered by the National Institute for Computer-Assisted Re- porting (a joint program of Investiga- 
+
+continued on page s 
+
+tive Reporters and Editors and the Missouri School of Journalism), and the Knight Chair in Journalism at the Walter Cronkite School of Journalism and Mass Communication at Arizona State University. 
+
+The winners are: 
+
+First Place: The Oregonian for "Unnec- essary Epidemic," a series of articles 
+
+continued on page 23 
+
+About our contributors 
+
+Frank Bass is an investigative re- porter for The Associated Press in Washington, D.C. He has worked for the AP since 1997 as director of com- puter investigations. Bass has worked for the Wall Street Journal's Texas Journal, the Houston Post and the Alabama Journal, where he shared the 1988 Pulitzer Prize for General News Reporting. He is the author of the AP Guide to Internet Research and Reporting. He is an alumnus of the 2004 Advanced CAR Statistics Boot Camp and the 1998 SQL Server Boot Camp. 
+
+Danielle Cervantes is a research analyst for The San Diego Union- Tribune and specializes in CAR and demographics. Before that she was a research librarian for five years. She is a 2003 alumna of the CAR Boot Camp. 
+
+Doug Haddix is projects editor for The Columbus Dispatch. He is a 2001 alumnus of the CAR Boot Camp. 
+
+Jennifer LaFleur is the CAR editor for The Dallas Morning News. She was IRE and NICAR's first training direc- tor, serving 1994-95, and is co-author 
+
+of "Mapping for Stories," an IRE Beat Book. She is a 1997 alumna of the SQL Server Advanced Boot Camp and the 1990 CAR Boot Camp. 
+
+Aron Pilhofer is a database editor for The New York Times and has written extensively for Uplink about open- source software. He is the former di- rector of IRE and NICAR's Campaign Finance Information Center and co- author of "Unstacking the Deck: A Re- porter's Guide to Campaign Finance," a beat book from IRE. Pilhofer is an alumnus of the 2004 Mapping Boot Camp and 1999 CAR Boot Camp. 
+
+Dave Smith is weekend editor for the Sentinel, in Fairmont, Minn., where he has worked for six years. He COV- ers city government, business, health and medicine, and politics. Smith also writes a weekly humor column. He is a 2005 alumnus of the CAR Boot Camp 
+
+Maurice Tamman is a writer on the Sarasota Herald-Tribune special projects team. Before that, he was database reporter on the The Atlanta Journal-Constitution's special projects team. 
+
+2
+
+
+January February 2006
+
+
+Uplink
+
+
+FIRST VENTURE 
+
+Farm story gets CAR started 
+
+By Dave Smith, Sentinel (Fairmont, Minn.) 
+
+After attending the IRE and NICAR Computer-Assisted Reporting Boot Camp last year my head was swimming with all the stories I planned to work on with my newfound expertise. I returned to the newsroom of the small southern Minnesota daily where I work walking a little taller, buoyed by my sudden trans- formation into a CAR expert. 
+
+I carried a list of no fewer than 20 CAR stories I planned to work on, but with a special section looming, I decided to use my new powers for that assignment. The section-Spring - Ag Update- one we do every year. I usually struggle to come up with good agricultural stories because it is not my beat. 
+
+I consulted my list from the boot camp to see if I thought of anything while the iron was hot down in Columbia, Mo. And there it was: farm accidents. That would be just the topic to call on my new CAR skills as well as provide our readers in this farming region with an important and interesting topic. 
+
+I decided to keep it simple in my first attempt at a full-fledged CAR story. I started with a Google search of farm accidents in Minnesota. 
+
+I am no stranger to using the Internet for searching for data, but I quickly dis- covered I would need to employ some of the Boolean search techniques picked up at the boot camp. The infor- mation I found initially was not in a form I could download and analyze. While I was able to use some of the informa- tion from the initial searches later for background and expert opinion, it was not what I needed to get the start I wanted: accident statistics. 
+
+Those Boolean search tactics I learned at the boot camp are what eventually got me the statistics, because even the most logical places I searched, such as the Farm Bureau and Minne- sota Extension Web sites, had articles using the data I wanted but only as it pertained to their narrower, specific purposes. 
+
+2003 Fatalities SS
+
+Date
+County
+Age
+Type of incident
+ 1/25/03 Benton
+41
+Take-off entanglement
+ 8/21/03 Cartton
+41
+accident, unspectfied
+ 9/9/03 Carton
+77
+Unknown
+ 3/11/03 Cass
+50
+Power Take-off entanglement
+ 4/30/03 Chippewa
+40
+male
+Fall (except when runover by tractor)
+ 7
+8/23/03 Clay
+26
+Fall (except when relover by tractor)
+ 6/3/03 Clay
+77
+make
+Unknown
+ 9/26/03 Crow Ying
+70
+male
+Tractor reflover
+ TD
+5/4/03 Dodge
+54
+make
+Pinned for underneath an eb jest or equipment or runovers)
+ 10
+1/7/03 Jaokson
+32
+male
+Pinned /between/ or underneath an object or equipment (non-rollovers or renovers)
+ 12
+6/20/03 Kandiyehi
+10
+make
+FaN (except when repover by tractor)
+ TA
+3/23/03 Lincoln
+2
+female
+Animal-related injury (specify in narr)
+ 14
+4/10/03 Mc Lead
+87
+make
+fire
+ 12/26/03 Meeter
+67
+male
+Pinged against /between or underneath ao object or equipment (non-rollovers or runovers)
+ 16
+3/22/03 Mover
+40
+make
+Pinned against /between for underneath an object or equipment (non-rollovers or runovers)
+ 17
+7/21/03 Olmsted
+78
+male
+Equipment (non-tractor) renover victim
+ 08
+10/9/03 Otter Tall
+65
+make
+Tractor rollover
+ 19
+6/7/03 Redwood
+12
+male
+Tractor rollover
+ 20
+3/15/03 Rice
+52
+make
+Falt (except when runover by tractor)
+ 21
+9/22/03 Sherburne
+72
+male
+Entrapped and covered by grain feed or other loose mater ist
+ 22
+5/12/08 Swift
+45
+make
+Entrapped and covered by grain/ feed or other leose mater fal
+ 23
+10/10/03 Todd
+69
+make
+Drowning in pond lagoon or water tank
+ 24
+4/29/03 Watomwan
+72
+Struck by & tree or tree limb
+ 25
+11/26/03 Wright
+72
+female
+Equipment (non-tractor) renever viotim
+ 26
+4/10/03 Wright
+17
+male
+Readway collision invoiring farm tractor or equipment
+ 27
+ 28
+Total accidents 25
+Avg Age
+49.52
+Median
+Age
+SO
+ 29
+ 30
+(C) University of Minnesota, Age foulterat Safety and Health
+ 31
+Monday, February 02, 2004
+ 32
+ 33
+
+14
+2003Fatatities.txt
+
+
+The deeper searching took me to the University of Minnesota Agricultural and Health Safety Program where I was able to find a link to the accident and fatality data I needed. I was excited to have finally unearthed the gold I was mining for so I could get it into a Micro- soft Excel spreadsheet and work it over. There was a catch, however: the data was all in Adobe Portable Document Format. Normally this would require a lot of manual entry and a great deal of time, but now I had new tools. 
+
+I remembered pdftotext, a program we used in the lab that converts tables in a PDF into a fixed-width text file that can be imported to Excel. I downloaded the PDF accident files, fired up my boot camp CD with pdftotext on it and con- verted them all to text. I opened the text in Excel and, using my boot camp skills once again, cleaned it up into a nice piece of data that I could easily sort, filter and compare. (For a step-by-step tutorial on installing and using pdftotext, visit www.ire.org/training/nettour/pdf/ PDFTOTEXT.pdf) 
+
+Once I had the data in Excel I used techniques picked up at the boot camp to compute average ages, median ages and to count the total number of ac- cidents. I was able to separate the ac- cident victims by sex, age, county and type of accident. 
+
+I could have sorted by month the ac- cident happened, but it is well known in this farming community that harvest season is when most accidents hap- pen, so I left that out. 
+
+I also was able to access expert analy- sis on the Internet to verify what I found in my research as well as extension educators and farm bureau sources to help provide more information. One thing my CAR work on this story pointed out is that farm safety education efforts are paying off. The number of accidents and deaths went down in the past couple of years. This is especially true for children. 
+
+continued on page 22 
+
+January February 2006
+
+
+3
+
+
+RE Datebase Library 573.884.7711 
+
+Bits & Bytes from page 2 
+
+
+
+Disaster loans 
+
+The IRE and NICAR Database Library has just updated its Small Business Administration Disaster Loan database. Cur- rent as of September 2005, the data includes more than 300 loan records for the month fol- lowing Hurricane Katrina. 
+
+The database details loans made to businesses and indi- viduals as disaster assistance. The data identifies the borrower, the disaster, the amount and, for business borrowers, whether the loan was paid in full or deemed uncollectible. The data includes a total of 867,631 records dating back to 1980. 
+
+Journalists can use this data to analyze the government's re- sponse to natural disasters by finding who received the loans. Also, journalists can calculate loan repayment rates. 
+
+For a sample of the SBA data and more information about SBA, visit www.nicar.org/data/ sba/sbadis.htr or call the Data- base Library at 573-884-7711. 
+
+Brazilian gathering 
+
+IRE participated in Brazil's first International Congress on In- vestigative Journalism in Rio de Janeiro, Oct. 27-29. The Brazil- ian Association for Investigative Journalism (ABRAJI) conducted the conference with more than 300 journalists, students, and teachers. IRE provided train- ing and support for the event, which was supported by the Knight Center for Journalism in the Americas. 
+
+CAR CONFERENCE 
+
+Come to Newark for tips, inspiration By the IRE Staff 
+
+The 2006 Computer-Assisted Report- ing Conference in Newark, N.J., is just around the corner - March 9-12 - and will offer more than 50 sessions and two-and-a-half days of intense hands- on training. 
+
+While neither Bruce Springsteen nor the Sopranos will be in attendance (our host The Star-Ledger is, however, the paper of record for the Sopranos) this confer- ence will spin out plenty of hot tracks on CAR methods and stories, a variety of hands-on classes from beginners to advanced, and special presentations of the latest techniques. (See www.ire.org/ training/newark06) 
+
+As in recent years, this year's pro- gram.gets the CAR engines ignited on Thursday, focusing on the needs of the advanced CAR practitioner. Sessions will range from better intranets to Web scraping to the latest in mapping data and social network analysis. The day's speakers are top-of-the-chart profes- sionals who are generous in sharing their knowledge. 
+
+The main conference will be packed with panels on criminal justice, money and politics, bulletproofing stories, social re- search methods and many other topics. The panelists will show how computer- assisted reporting helps in every beat and on a daily and weekly basis. We will have sessions that deal with every medium. 
+
+A highlight will be the presentation of the first Philip Meyer Awards for excellent work in using social science methods in journalism. Meyer, a pioneer in the field, will join us at the ceremony and reception. 
+
+Our hands-on classes will include us- ing the Internet effectively, working with 
+
+spreadsheets and database managers, mapping, programming, statistics and social network analysis. 
+
+In addition, there will be a special mini- boot camp: a series of panel sessions each morning, then classes throughout the afternoon. Designed for CAR begin- ners, the classes are similar to sessions conducted during lengthier boot camps at the IRE and NICAR headquarters. The classes begin with basic spread- sheet calculations and work through using CAR techniques for investigative projects or deadline stories. 
+
+It's strongly recommended that confer- ence registrants sign up for classes before the conference begins, available through IRE's online registration pro- cess. You can start here at www.ire.org/ training/newark06 and follow the link for registration. Attendees also can register for classes on site by visiting staff mem- bers in the Demo Room area. 
+
+The Demo Room, too, will be a hub of activity and will feature special sessions on uses of new software and techniques for news stories. The sessions have an informal approach and often turn into freewheeling discussions among par- ticipants. You also can road test IRE and NICAR services and data from our ever growing government database collection. Staffers will be on hand to an- swer questions and make suggestions about how to better use CAR. 
+
+This conference also will help all at- tendees at every level to become bet- ter journalists and leaders in the use of new technology and reporting methods in their newsrooms. Be sure to take advantage of this great network of col- leagues, whether in the panel rooms, the demo room or in the informal meetings in the hallways, coffee shop or bars. 
+
+4
+
+
+January February 2006
+
+
+Uplink
+
+
+
+
+Annual Conferences 
+
+Be sure to put these dates on your calendar today! 
+
+Using computer-assisted reporting techniques, doing investiga- tions in the Latino community and the Americas, digging into bor- der and immigration issues, cultivating sources, producing better broadcast investigations, and holding government and business accountable. All this and much more will be offered at the next conferences. Be sure to put these three on your calendar and make your hotel reservations today! 
+
+2006
+
+CONFERENCE
+
+DALLAS - FORT WORTH
+
+
+the
+
+M.J. Turnpike,
+
+March
+ 9-12,
+ 2006
+
+Newark,
+
+n.J.
+
+
+2006 CAR Conference March 9-12 in Newark, N.J. Hilton Newark Gateway Hotel 
+
+2006 IRE Conference June 15-18 in Dallas/Fort Worth Renaissance Worthington Hotel 
+
+2007 IRE Conference June 7-10 in Phoenix Arizona Biltmore Resort & Spa 
+
+IRE
+
+
+Visit www.ire.org/training/conferences.html for more information! 
+
+January February 2006
+
+
+5
+
+
+visit aill www.nicar.org 
+
+MAPPING 
+
+The latest uses of mapping in news reporting. 
+
+Tracking home foreclosures 
+
+By Doug Haddix The Columbus Dispatch 
+
+It's one thing to point out in a news story that 12,000 houses in the Columbus area were listed for sheriff's auction during the past five years. It's quite another to publish an eye-popping map that instantly shows the toll of foreclosures in communities across Franklin County - far beyond the inner city and poor neighborhoods. 
+
+Distress on the Far West Side 
+
+Through still under construction the
+ Galloway Ridge subdivision in
+Atton Darby
+ western Franklin County has been
+Creek
+ plagued with home foreclosures
+ARÉA
+ and bankruptcies The developer,
+ Dominion HOMES leads Ohio in
+Broad
+ The number of homeowners who
+ are delinquent in paying on their
+ government backed mangages In
+ Franklin County more Domattion
+COLUMBUS
+ houses have been sent to sheattle
+ auctions for unpaid mortgages
+ than any other builder's Despite
+ the large number of foreclosures in
+ Galloway Ridge, Dominion has
+ about 100 lots for sale on the
+
+Houses listed for sheriff's sales
+
+subdivision's northern edge
+Bankraptcies
+
+Summerville
+
+Westband
+
+Weston
+Woods
+Dr
+
+GALLOWAY RIDGE
+
+Source
+County
+Wimill
+The
+Daily
+Minoreta
+
+THE COLUMBUS DISPUTCH
+
+
+Projects reporters Jill Riepenhoff, Geoff Dutton and I called it our "holy crap map." 
+
+No one - lenders, Frankle County filings jumped government offi- 7t percent from 3.468 casés 1999 to 5.940 to 2004. counties: cials or homeown- 187% 131% ers - could dimin- Licking 163% ish the scope of the Union 218% problem. The map Across Ohio, cases increased by provided the foun- during the same period dation for "Brokered Season Obin Suprens cont Dreams," a four-day series about foreclo- sures and mortgage fraud published Sept. 18-21, 2005. (The series is posted online at www.dispatch. com/reports/reports.php) A little less than two months later, the Chicago Tribune reported how widespread mortgage fraud was hurting poor communities in the city. 
+
+We used ESRI ArcView? geographic information system (GIS) software repeatedly during the reporting, writ- ing and editing of the series. Map- ping software would strengthen just about any story involving property parcels. 
+
+By far, the countywide map of properties sent to sheriff's sales from 2000-04 posed the biggest challenge. The time gathering and cleaning data paid off because the map guided much of the reporting that followed. 
+
+The sheriff's department provided a text file with properties sent to auction. That data set included the parcel identification number, which proved invaluable in linking the information to the more-de- tailed auditor data. Joining the data on the street address field would have been a data nightmare of epic proportions, given the inconsisten- cies, typos and other data-entry problems. 
+
+Surge in foreclosure filings
+ Percentage increase in Other
+ foreclosure cases 1999 to 2004
+
+Less these 25%
+ 25% 74.9%
+ 75% 150%
+ More than 159%
+
+
+Once we produced a master table of properties sent to sheriff's sale, we spent hours cleaning it up and 
+
+standardizing information gathered by two separate county offices. The auditor's data included fields that helped us produce a master table that included only single-family properties. We excluded commer- cial buildings, apartments and other properties that went on the sheriff's auction block to keep our focus on single-family homes. 
+
+When we were confident that our data showed what we wanted, we joined the table using the parcel ID field to the auditor's layer file. Presto: our "holy crap map." 
+
+The map breathed life and mean- ing into our table of nearly 12,000 single-family homes sent to sheriff's sale. We expected to see dense concentrations of sheriff's sales in poor, central-city neighborhoods but never dreamed there would be so many foreclosures outside Interstate 270, the outer belt ring- ing Columbus. 
+
+A printout of the map left Franklin County Treasurer Richard Cordray nearly speechless. "Wow," he said. "Wow." 
+
+For a time, we considered using the map as the lead art on Page 1 with the kick-off story. Ultimately, we chose a photo showing workers removing furniture from a foreclosed house, a visceral image that best represented loss of a home. The map also would have eaten up too much 
+
+6
+
+
+January February 2006
+
+
+Uplink
+
+
+space on the cover. The fact that we even considered a large map as lead art shows how far our newsroom has come in its use of digital mapping. 
+
+With our countywide ArcView map, we were able to take a closer look at subdi- visions all around the outer belt. Many of those neighborhoods have fairly new houses - homes built within the past five or 10 years. We created a theme map showing foreclosed properties based on the home builder. In some subdivisions, several builders had put up houses. In others, a single devel- oper had built the homes. ArcView enabled us to see quickly whether clusters of foreclosures involved a single builder. 
+
+Mapping played a pivotal role in driving home the key findings in the series. Other key maps produced for "Bro- kered Dreams" included: 
+
+A detailed look at one Columbus subdivision, Galloway Ridge, which had been riddled with sheriff's sales and personal bankruptcies. The map vividly showed the devastating toll on a neighborhood where nearly one in six households had faced foreclosure, bankruptcy or both. We produced the map by combining sheriff's sale and bankruptcy data and then linking it to a parcel layer. Riepenhoff took a printout of the map with her as she knocked on doors and talked with Galloway Ridge residents about their deteriorating neighborhood. Many knew that foreclo- sures and bankruptcies were harming their eight-year-old subdivision, but few realized the scope of the problem until they saw the map. 
+An overview showing how 390 hous- es financed by a New York City hedge fund were clustered in poor Columbus neighborhoods. Those ramshackle houses had been flipped (sold quickly at huge markups) and left vacant, add- ing more eyesores to struggling areas. A tipster alerted Dutton to irregulari- ties involving houses financed by the Stillwater Asset Backed Fund. Dutton 
+
+Franklin County sheriff's sales 2000-04 
+
+Nearly 12.000 single-family houses have been listed for sheriff's sale in Franklin County during the past five years. Most houses were sold, usually for two-thirds of their appreised values, causing property values to fall in some neighborhoods. A small percentage of homeowners managed to find a way to save their 
+
+houses. Others filed for bankruptcy protection, which often delays foreclosure Not every foreclosed property winds up in a sheriff's sale. Banks and other lenders can sell the properties with the permission of the homeowner, avoiding the court proceedings. Those "short sales' are not tracked by any government agency 
+
+ODLUMBUS
+
+
+Source: Dispatch and auditor. Jan 1,2000, to Dec 31, 2004 THE COLUMBUS DISPATCH 
+
+Distributing the gifts 
+
+Since 1998, a California-based nonprofit group has provided down-payment assistance to nearly 9,000 homebuyers in central Ohio, one of its largest markets. More than 90 percent of the $42 million routed by the Nehemiah Corp. of America to the Columbus metro area has gone toward newly built houses, mainly in suburban neighborhoods. Homebuilders actually provide the money for the down-payment grants, a move that's legal only if the money is channeled through a nonprofit such as Nehemiah. 
+
+Nehemiah grants by ZIP code 
+
+Fewer than 50
+50 to 100
+More than 100
+
+43065
+
+43016
+
+43081
+
+43064
+43017
+43085
+43229
+43054
+ 43016
+43235
+315
+43231
+
+43002
+
+43214
+
+71
+
+43224
+
+43220
+43230
+43062
+
+43064
+
+270
+
+43202
+43004
+
+43026
+43221
+43211
+
+43210
+678
+43219
+ 43212
+43201
+
+43203
+43213
+
+70
+43068
+ 43228
+48222
+43215
+43205
+
+43227
+
+43206
+70
+
+43119
+
+43223
+
+43232
+
+43108
+
+43207
+
+43147
+
+43110
+
+FRANKLIN
+43123
+
+43125
+
+COUNTY
+
+71
+
+43140
+43137
+
+43217
+
+43146
+43146
+
+43126
+
+
+continued on page 11 
+
+Source: Nehemiah Corp. of America 
+
+THE COLUMBUS DISPATCH 
+
+January February 2006
+
+
+7
+
+
+IRE Databana 573.884.7711 
+
+SPOTLIGHT: EXAMINING HOMELAND SECURITY 
+
+Privacy, security block access to data 
+
+By Ben Welsh, IRE and NICAR 
+
+Although they usually lack the intrigue and visibility of some of the latest clashes between the press and gov- ernment, journalists' ongoing battles for federal data are felt in newsrooms across the United States. 
+
+The increased concern about terror- ism sparked by the 9/11 attacks, and the more recent devastation of the Gulf Coast by a series of hurricanes have prompted legislators to pour billions of dollars into programs designed to speed recovery and better protect the country. 
+
+At the same time, officials at all levels of government are attempting to rein in the efforts of journalists to scrutinize these programs. Trends suggest that Freedom of Information Act officers have been given greater latitude to deny requests, particularly when they position them behind the spacious pro- tections of the right to privacy. 
+
+Two battles over the use of the privacy exemption are happening in Florida, where Gannett Newspapers and the South Florida Sun-Sentinel are seeking data to help shed light on the Federal Emergency Management Agency's response to four hurricanes that struck the state in 2004. 
+
+The Gannett newspapers and the Sun-Sentinel independently have sued FEMA and asked judges to force the agency to release records that detail the names and addresses of aid recipients. FEMA is withholding them by citing privacy laws. Consid- ering the agency's documented poor performance, and the spending of even more aid money after hurricanes Katrina and Rita, how FEMA responds after a disaster is a newsworthy ques- tion. 
+
+Privacy outbreak 
+
+At the federal level, use of the privacy exemption to deny FOIA requests for documents and data has skyrocketed. A study of the annual reports filed by government agencies by Jennifer LaFleur, CAR editor for The Dallas Morning News and a former fellow at The Reporters Committee for Freedom of the Press, found the use of privacy exemptions to deny FOIA requests increased more than 600 percent between 1998 and 2002, rising from 55,000 to 380,000. 
+
+After the passage of the USA Patriot Act and formation of the massive Homeland Security Department, a number of com- mentators predicted a crackdown on public disclosure through the national security exemption. But a report is- sued by The Coalition of Journalists for Open Government in November found otherwise. The group's analysis of re- quests handled by 22 federal agencies between 2000 and 2004 discovered the number of privacy denials has shot upwards as the number of national se- curity denials decreased. (Investigative Reporters and Editors is a member of the coalition.) 
+
+"The national security exemption is just one way that they can withhold in- formation," says LaFleur, former train- ing director for IRE and NICAR. "The rulemaking is very complex. There are hundreds of ways in which things can be withheld." 
+
+Overall, the coalition report concluded the use of exemptions to deny FOIA requests increased 22 percent, despite a 13 percent drop in the total number of requests answered. However, the study omitted requests made to the Depart- ment of Veteran Affairs, the Social Se- curity Administration and the Depart- 
+
+ment of Health and Human Services on the grounds that they process millions of routine requests which the coalition said would cloud the results. 
+
+Now closed 
+
+What sparked the spike in privacy ex- emptions? A study into homeland secu- rity policy conducted by The Reporters Committee for Freedom of the Press points to a policy statement issued from the highest ranks of the Justice Depart- ment on Oct. 12, 2001, now known as "The Ashcroft Memorandum." 
+
+Then-Attorney General John Ashcroft sent a notice to government agencies altering legal policy on FOIA requests to support withholding information on security or privacy grounds if "sound legal basis" could be found. FOIA of- ficials were "assured" that government lawyers were ready to go to court. The order revoked the standard established by former Attorney General Janet Reno that encouraged "maximum responsi- ble disclosure." The Justice Department instructed FOIA officers to withhold access to any information that might expose the government's vulnerabilities or that could be construed as possibly aiding terrorists in attacking American interests. 
+
+"What is happening is that the govern- ment has moved from a presumption of openness - unless they can claim a privacy interest worth protecting to one of presumptive closure," says Charles Davis, executive director of the Freedom of Information Coalition at the University of Missouri. 
+
+From the start, pundits, columnists and press advocates have criticized the memo. The American Society of Newspaper Editors has even provided two ready-made "stump speeches" on their Web sites for editors to use. 
+
+The Ashcroft language was repudiated in a subsequent editing of the FOIA manual by Rep. Henry Waxman, D-Ca- lif., and Rep. Dan Burton, R-Ind., but its influence can still be felt. Evidence can be found in a September 2003 audit by the Government Accountability Of- 
+
+8
+
+
+January February 2006
+
+
+Uplink
+
+
+fice. While its survey of federal FOIA officers found that 48 percent said they had not noticed any changes in how their agency deals with requests, about one-third said they were less likely to disclose information. And 75 percent of that one-third cited the memo as encouraging their change in behavior. 
+
+The inconsistency captured by those results is often a source of frustration for journalists working with different departments. 
+
+In response to a FOIA request made by the IRE and NICAR Database Library, the Department of Defense declined to release a master list of the unique identifiers attached to businesses in the federal contracting database. This is despite the fact that those numbers are readily released piecemeal by other government agencies, including another arm of the defense department. The DOD uses business numbers pro- vided by the private company Dun and Bradstreet, which are now considered a private trade secret despite their use as a primary identifier in public records. 
+
+"It makes no sense to me," says Jeff Porter, Database Library director. 
+
+Porter has run into similar problems with other agencies. The Department of Transportation will release the HAZMAT database containing a list of accidents involving hazardous materials, including plane crashes. But the Federal Aviation Administration, an organization under the umbrella of the DOT, omits all en- forcement actions involving hazardous materials from its database. The result is that an accident like the 1996 crash of Valujet Flight 592, which is believed to have been caused by oxygen canisters that burst into flame, will be included in the DOT's HAZMAT database but not the FAA's database. 
+
+The U.S. Citizenship and Immigration Services, formerly known as Immigra- tion and Naturalization Services, is balking at releasing "public use files" of legal residency. The database, col- lected by the Database Library, has no names and, in its current version, 
+
+goes to the metropolitan statistical area at the smallest. It includes country of origin, age, marital status, sex, OC- cupation and other somewhat benign information. The agency cites its new "confidentiality" policy. 
+
+President George W. Bush took action on FOIA on Dec. 14 when he signed an executive order instructing each federal agency to hire a FOIA chief and increase efficiency by streamlin- ing requests. It did not address the Ashcroft memo. 
+
+"The executive order is a nice political move in that it gets the administration in front of the Cornyn-Leahy bill," Davis says. The legislation, working its way through Congress, would enact penalties on in- compliant FOIA officers. "And it essen- tially adds little or nothing to FOIA." 
+
+Fighting back 
+
+So what is a journalist to do when con- fronted by a FOIA exemption he or she feels is unjustified? How can the press strike back? 
+
+Some journalists, like The Des Moines Register's Bert Dalmer, have found ways to cover homeland security spending from the bottom-up by fer- reting out the local numbers. 
+
+"It's last resort to go through the feds for anything," Dalmer says. "The feds almost always channel their money through the states and the locals. It's the capture there that should give re- porters a way of entry. In lowa they often don't mind sharing that stuff if they're a pass-through. It's the path of least resistance and most opportunity." 
+
+But the big solution, LaFleur, Davis and others experts say, will only come through congressional action or orga- nized legal opposition. 
+
+"I don't think the media is aggressive enough," LaFleur said. "Some of the big pushes for things [like the names of Guantanamo Bay captives] have come from other groups." 
+
+It took more than a year of legal wran- 
+
+gling, but the group of Gannett papers in Florida fighting with FEMA recently won many of the documents they sought, including agency memos and other internal communications. But their effort to procure a database with the names and addresses of aid recipients was denied by U.S. District Court Judge John Steele for exposing citizens to "predictable and obtrusive invasions of privacy." 
+
+The case brought by the Sun-Sentinel was pending, but FEMA has agreed to release the names and wages of disaster assistance inspectors. Still in question is the database containing the names and addresses of aid recipients as well as the comments about each claim recorded by FEMA inspectors. 
+
+The Gannett papers plan to challenge Steele's ruling with an appeal. And the line drawn between privacy rights and the public's right to know, particularly when it comes to detailed information like names and addresses, is sure to be the central issue. 
+
+Contact Ben Welsh by e-mail at ben.welsh@gmail.com 
+
+REQUIRED READING For Your Newsroom 
+
+Numbers In The Newsroom Using Math and Statistics in News, by Sarah Cohen 
+
+Pulitzer Prize- winning journalist Sarah Cohen guides reporters NUMBERS through fractions, NEWSROOM rates, percents Union reath and STATE and per capitas. Making inflation adjustments. Understanding averages. Doing the budget story. Questioning surveys and polls. 
+
+
+
+ORDER TODAY! Call 573-882-3364 with your VISA, MasterCard or American Express -OR- Visit our Web site at www.ire.org/store for online ordering or order form downloads 
+
+January
+February 2006
+
+
+9
+
+
+www.nicar.org 
+
+Sept.11 continued from page 1 
+
+Administration disaster loans obtained from the IRE and NICAR Database Li- brary. He had been researching drought issues. I downloaded the dBASE file myself from the Database Library's subscription service Web site, unzipped it and imported it into Microsoft Access. Sure enough, the radio station's owner, Ultimate Caps Inc. of Belle Fourche, S.D., was on the list, along with 10,000 other borrowers. 
+
+Lammers had done some preliminary research; it turned out that all borrow- ers had to file the standard financial paperwork, plus an explanation of how the Sept. 11 attacks had affected their business. The SBA told me I would have to file federal Freedom of Information Act requests with four different regional of- fices, and it could take a while before getting the results back. 
+
+Lammers and I reconsidered. Instead of filing for all 10,000 explanations, we decided to pick out two- or three-dozen loans to businesses that sounded inter- esting in different parts of the country. We found a pet boutique in Utah; a perfume bar in the Virgin Islands; a gun dealer in Guam; a car wash in Phoenix; and quite a few bars and restaurants. 
+
+We filed the FOIAs in mid-March; docu- ments began trickling back in mid-April, in various stages of redaction. Some just had the company financials covered, per the FOIA exemption that protects busi- ness trade secrets and financial infor- mation; others were completely blacked out. We appealed the redaction of one batch that was completely unusable. The data, slightly better this time, arrived in mid-May. 
+
+The documents offered a glimpse into the rationales granting the loans. An Oregon winery suffered because, as its owner later joked, "people started hit- ting the hard stuff." A Maryland skydiv- ing school almost started laying off staff 
+
+because small planes were grounded for more than a month after Sept. 11, and besides, who felt like jumping out of an airplane? The Utah dog boutique was hit hard because no one was going on vacation, and dog boarding was a big part of their business. 
+
+The story, I thought, might focus on the integration of the economy, the idea that the attacks in New York had enormous ramifications for a restaurant owner in San Diego. But we decided we needed to do more reporting. Since the story in- volved a federal agency, we contacted our newly created multimedia investi- gations team in Washington, D.C., to help us coordinate all the elements that would be needed-audio, video, online and photos. 
+
+We decided to send a copy of the spreadsheet to AP bureaus in all 50 states. 
+
+We also began running more queries on the data to answer some questions: Which cities had gotten the most? Which states? What industries needed the most help? How many happened inside and outside the immediate disaster area? One of the first things we discovered was that barely half of all loans had gone to small businesses in New York City or Fairfax County, Va., where the Pentagon is located. We decided to focus upon the companies outside the immediate areas of the attacks and split the list of companies whose documents we obtained under the FOIA request to see what else was there. Lammers was also talking to experts. He called me one day with alarming news. 
+
+"Have you heard of STAR loans?" 
+
+"Huh?" 
+
+"Apparently, there's a whole lot more money out there." 
+
+"More than $1.2 billion?" 
+
+I was scheduled to interview Hector Bar- reto, the SBA administrator, in another week. I called the public affairs office. 
+
+
+
+"So there's $1.2 billion in the economic injury disaster loan (EIDL) program?" I asked. 
+
+"Right," public affairs officer confirmed. 
+
+"And is the STAR program part of that 
+
+"No!" she said. "That's another $3 billion or $4 billion." 
+
+It took about two weeks but I obtained from the SBA a Microsoft Excel spread- sheet with about 8,000 rows of data. Sure enough, there were about $3.7 billion in STAR loans. 
+
+We imported the new data into Ac- cess, and put together an abbreviated spreadsheet so it would be easier for journalists in AP bureaus to interpret. We included the business name, type, ad- dress, city, state, ZIP code, date of loan and amount for each borrower. We now had records of close to 19,000 loans, totaling $4.9 billion. We began looking for patterns again in Access and found some beauties, such as $6 million in loans to more than 50 Dunkin' Donuts franchises. Were Dunkin' Donuts really hurt by terror attacks? 
+
+We did some more analysis, and found that the amount of SBA loans going to New York and Washington had dropped, to barely 11 cents on the dollar. I thought that was a very strong element of the story that could be combined with the overall "ripple effect" theme. 
+
+We decided to send a copy of the spreadsheet to AP bureaus in all 50 states. In addition, we would create an online database for our members to lo- calize their own stories. John Solomon, the head of our multimedia team, wanted me to go to Ground Zero and find out how New Yorkers felt about the distribu- tion of funds. 
+
+I spent an afternoon around Ground 
+
+12
+
+
+January February 2006
+
+
+Uplink
+
+
+Zero with a cameraman, listening to New Yorkers fume about trying to re- build their business in what now is - for Manhattan, anyway - a ghost town. We headed across the Brooklyn Bridge and interviewed Rep. Nydia Velasquez, the ranking Democrat on the House Small Business Committee. 
+
+"It's outrageous," she said. And, she offered, it would get worse: There had been a two-year deferral period on the loans. So while our earlier analysis might have shown a miniscule default rate, she predicted it would start to be- come huge. 
+
+But there was something else disturbing that was beginning to happen: Soloman, Lammers and I were getting calls from AP bureaus who said borrowers denied receiving SBA loans. We groaned. Dirty data is an everyday occurrence in com- puter-assisted investigations. 
+
+A pattern emerged: People within the original loan recipient group did not have a problem discussing how Sept. 11 had harmed their business. But STAR loan recipients generally were outraged and denied that they had received any Sept. 11 loans. Fortunately, some were curi- ous and mad enough to call their lenders and confirm that they received Sept. 11 assistance. 
+
+Lammers and I regrouped; he was on vacation in Florida, but was lugging around a cardboard box with all his story notes and papers, just in case. We were about a week away from the projected run date, and kept getting calls from bureaus. Finally, an SBA official gave us a bit of guidance: The agency had left it up to the banks to determine whether the Sept. 11 attacks had economically harmed borrowers, making them eligible for the STAR loans. Some banks may have applied a loose standard and decided every business applying for an SBA loan had been hurt by the attacks. 
+
+Dirk called the National Association of Guaranteed Lenders to confirm our information. The president of the as- 
+
+sociation shrugged it off. Everyone had been affected. But there was one thing we ought to know, he added: The SBA had been worried that it would run out of money in its traditional loan program, so it had encouraged banks to put as many people in the Sept. 11 program as possible. 
+
+The anecdotes started flowing into our e-mail from around the country. 
+
+"That's scary," said one businessman who provided clowns for special events. No one had told him he had gotten a STAR loan. 
+
+We decided to focus upon the companies outside the immediate areas of the attacks. 
+
+The story landed on front pages across the country, accompanied by more than three dozen state AP sidebars. Three U.S. senators called for an investiga- tion. 
+
+Nearly a month after the story ran, Lam- mers and I looked at other angles. We have reported that the SBA has been slow to approve loans for the victims of Hurricanes Katrina and Rita. And we reported on how recipients of Sept. 11 loans have been defaulting in large numbers. 
+
+We learned (or, I should say, relearned) quite a few things from the story: 
+
+1. The computer analysis is the first step. It gives you the questions, not the answers. 
+2. Don't assume there is ever just one government program that handles all needs. We are quite sure there are more Sept. 11-related programs around, and all of them bear examina- tion. 
+
+3. "Follow the money" has become such a cliché that I hate to mention it. So it is probably more relevant to remember there are two times when big money is made: When empires are being built, and when they are being destroyed. In this case, we had both elements. 
+4. Question your assumptions. Bounce your ideas off other people. Also re- member Dumbledore's maxim: We may be rather cleverer than most wizards, but as clever wizards, our mistakes are correspondingly larger. Don't be carried away by your own cleverness. 
+Not all computer investigations need to involve a scripted VB module that invokes a batch file to download 50 gigabytes of text files and runs them through a series of nested SAS macros. Sometimes, simple is better. 
+Contact Frank Bass by e-mail at fbass@ap.org. 
+
+
+
+REQUIRED READING For Your Newsroom 
+
+Unstacking the Deck: A Reporter's Guide to Campaign Finance by Michael A. Weber, Aron Pilhofer and Derek Willis 
+
+This invaluable guide for pursuing stories about the impact of money on elections, political parties and candidates at the federal, state and local levels is packed with story tips, resources and Web sites. 
+
+UNSTACKING
+ THE DECK
+ A Reporter's Guide
+ to Campaign Finance
+
+
+ORDER TODAY! Call 573-882-3364 with your VISA or MasterCard -OR- Visit our Web site at www.ire.org/store for online ordering or order form downloads IRE MEMBERS: $15 each NONMEMBERS: $25 each 
+
+January February 2006
+
+
+13
+
+
+IRE 573.884.7711 
+
+Tech tip Creating data points with Google Maps 
+
+By Maurice Tamman, Sarasota (Fla.) Herald-Tribune 
+
+In recent years, newspapers have been using maps online to add inter- active Web components to projects and stories. 
+
+Typically, they have ported geographic data to a Web-based map server or used plug-ins for ArcGIS or similar prod- ucts to create HTML-based maps. 
+
+Over the summer, we looked for a way to add an interactive component to a property tax project we planned to publish in the fall. We explored the traditional options, but we wanted it to be truly dynamic and to display almost every parcel (about 400,000) in five Florida counties. 
+
+We considered renting space on a mapping server but it was expensive: $5,000 for four to six months. It was also slow, clunky and particularly difficult to use for the uninitiated Web user. 
+
+At the time, Google had just re- leased the beta version of the Google Maps APIs (application programming interfaces). Google Maps is clearly the best online mapping service (Yahoo! has just started a similar mapping service) and its underlying maps can be built into anyone's Web-based ap- plications. 
+
+It quickly became clear to us that we could use Google Maps to deliver a far more satisfying online experi- ence. Here is how we did it: 
+
+Using ArcGIS 9.1 we calculated the center point of every parcel in the five counties: Google Maps uses latitude and longitude coordinates to plot points and lines. 
+
+From there we extracted market, assessed and taxable values from the counties' 2004 and 2005 tax roll data and created a table in databases with the parcel coordinates, property values and calculated property taxes for each of the years. 
+
+(Example 1) 
+
+GEvent.addListener( map, "click", function(a,p) { //here if == null && map.getZoomLevel > { map.centerAndZoom p, map.getZoomLevel } else if ( o == null && map.getZoomLevel()>0) map.centerAndZoom p, map.getZoomLevel( -1);1 
+
+(Example 2) 
+
+function parcel() { 
+
+// Generate a new XMLHTTP Object xmlhttp = false; try { xmlhttp = new ActiveXObject ("Msxml2.XMLHTTP"); } catch (e) { try { xmlhttp = new ActiveXObject ("Microsoft.XMLhTtp"); } catch (E) { xmlhttp = false; } if (!xmlhttp && typeof XMLHttpRequest!='undefined') { xmlhttp = new XMLHttpRequest 
+// Get the current map bounds var b = map.getBoundsLatLng 
+// Send an XMLHTTP Request, asking for the bubble data xmlhttp.open(*GET","SH/cgibin/geo2.cgi?x="+b.minX+"&y="+b.m inY+"&x2="+b.maxX+"&y2="+b.maxY,f true) xmlhttp.onreadystatechange = process; xmlhttp. send (null) 
+
+(Example 3) 
+
+# The table columns we want to output 
+
+my @col = (id lon lat name address soh just assd txbl home tax cat sohtax rate cnty brk name_05 soh_05 just_05 assd 05 txbl_05 home 05 brk_05 rate_05 sohtax 05 tax_05 cat_05 justg sohg assg txblg taxg sohtaxg sohbrk sohbrk_05); 
+
+my $ret = "Content-type: text/xml\n\n<items>"; # Only do 2/3 of the available area my $x=(p(x2')- p(x')) (1/6); my by=(p(y2')- p(y'))*(1/6); = my (p('x')+p('x2')) / 2 my (p('y') + p('y2')) # Request a slice of parcels my $q = $db->prepare ( "SELECT *, SQRT (POW (parcel_lon- $cx,2) + POW (parcel_lat - $cy,2)) as C FROM parcels WHERE parcel_lon >= ? AND parcel_lat >= ? AND parcel_lon <= AND parcel_lat <= and par- cel_just_05 > 0 ORDER BY C LIMIT 40:f is $q->execute p('x') $x, p('y') $y, p('x2') $y 
+
+14
+
+
+January February 2006
+
+
+Uplink
+
+
+The project examined Florida's de- cade-old Save Our Homes amend- ment, which caps annual increases in assessed values (and so taxable values) for resident homeowners. We wanted the Web application to show how the amendment had created wild discrepancies in property taxes for neighbors, even those living in virtually identical houses. 
+
+Google's map does its magic through client-side scripting and Asynchro- nous JavaScript and XML (AJAX). AJAX allows a programmen to grab data from a server without reposting a page. It is the essence of how Google Maps works. 
+
+In our case, we hired John Resig, a Rochester Institute of Technology senior, to build the skeleton of the application and we adapted his code. We found him by doing a Google search and came across his Web blog (http://ejohn.org) describing techniques using the Google Maps API. (For more about the APIs see www.google.com/apis/map.) 
+
+Anyone planning to work with Google Maps (or the similar Yahoo! Maps) must be a proficient or know a profi- cient programmer in avaScript and a server-side language. In our case we used PERL on the server, but could have picked from other languages, including the various NET flavors. 
+
+The Google APIs are pretty com- plete, but because of differences in browsers, the programming can be tricky. Microsoft's Internet Explorer 6, for example, renders icons on a map very slowly. Mozilla Firefox, however, renders icons almost instantly. 
+
+We also wanted to change some of the behavior of the map from the standard Google Maps. The most important being that a click on the map drills down two levels and cen- ters on the click. (We wanted to get users down to the neighborhood as quickly as possible.) 
+
+(Example 4) 
+
+Print out the resulting XML $ret .= "<item join map{ $row->{"parcel_$_" = s/&/&amp;/g; $row->{"par cel_$_"} = s/'/&apos;/g; $row->{"parcel_$_*) nso } @col ) "/>"; 
+
+(Example 5) 
+
+// from the XML, gets the cat of property var n = it [i] .getAttribute ("cat_05") 0; var 35 ( * 5 ) ; 
+
+// and figure out if is a homesteaded property var ic = new GIcon icon ic.image = "img/bubble" + [i] getAttribute ("home 05") == "1" ? "check" na ) n + " . png" ; 
+
+// and creates an icon 
+
+ic.iconSize = new GSize j, j 
+
+ic.iconAnchor = new GPoint j - 20, j - 10 ) ; 
+
+c.infoWindowAnchor = new GPoint 10, 10 
+
+// and places the icon on the map using the latitude and longitude of the parcel contained in the XML 
+
+var III = new GMarker ( new GPoint ( it [i] getAttribute ("lon"), .getAttribute lat") ),ic); 
+
+Example 1 shows the vaScript code to add click and zoom func- tionality. 
+
+This snippet is part of the windows.onload function(). Effec- tively, it grabs the point of a click and zooms in two levels, centered on the point of the click. 
+
+At the lowest extent of the map, a client-side function fires that initiates a PERL script on the server that in turn queries a database and returns XML-formatted data. The client-side script then picks back up and places the icons on the map. 
+
+Example 2 shows the vaScript that fires the PERL script on the server. 
+
+The first half of the code allows the browser to accept XML-formatted data. The second half grabs the coordinates of two opposite corners of the map and sends them to the PERL script. 
+
+See Example 3 for PERL code to grab the data from a MYSQL server using the map boundaries to gather the appropriate parcel data for the map. 
+
+After doing some server-side calcu- lations to assign a value that would determine the size and type of icon to be displayed on the map, we then returned the data to the client using the code in Example 4. 
+
+For a look at the sample code that goes to the client browser, visit www.nicar.org/tamman_maps.html 
+
+Once the data returns, the client- side scripting picks the icon to use and then renders them on the map. Example 5 shows the code inside a loop that examines each record. 
+
+continued on page 19 
+
+January February 2006
+
+
+15
+
+
+www.nicar.org 
+
+Credit 
+
+continued from page 1 
+
+butions often went uncredited by news organizations, and newsrooms had inconsistent policies. Credits for CAR ranged from the rare shared byline to the more common tagline to no credit at all. 
+
+Based on the responses I gathered last summer to update Woods' story from print and broadcast journalists in the United States, CAR contributions seem to be getting more attention. Still, news- room crediting policies remain diverse and sometimes imbalanced. 
+
+"I think the understanding and respect for the database analysis work has im- proved," says Brant Houston, execu- tive director of IRE and NICAR. "Many editors (and reporters) now understand that the work is journalism and often the foundation, context or 'tip' for a story." 
+
+"I think the reasons [for unfair crediting] vary and do range from inconsistency industry-wide, to just a plain lack of understanding that CAR work is jour- nalism. In the end, the editors are the ones to educate the newsroom about the importance of CAR." 
+
+Editors, Houston said, can do a couple of relatively easy things to educate staff: provide bylines and credit lines, and use newsroom memos to recognize the sig- nificant role CAR plays in stories. 
+
+Kelly Guckian, database editor for the San Antonio Express-News, says her credits have remained relatively the same since she was promoted this year from news researcher. When she makes a "significant contribution" to a story, she receives a credit mentioning that she "contributed to this report." She anticipates bylines may be forth- coming as her involvement on projects increases. 
+
+Katy Miller, a computer project special- ist at the Orlando Sentinel, says she 
+
+is credited as a staff writer when she makes CAR contributions. She has done CAR work for three years as a librarian and says crediting is still subjective at her newspaper and often depends on whether the reporter or editor remembers to give credit. 
+
+Shades of gray 
+
+In a number of newsrooms the type of credit granted depends on the level of contribution. 
+
+Derek Willis of The Washington Post has been a research database editor since January 2005. Before that, he was a database specialist at The Center for Public Integrity. 
+
+He explains his work is "more ad-hoc than specific. A good rule of thumb is that if the story can't be done without my contributions I get a byline, but in most other cases a tagline." 
+
+CAR contributions seems to be getting more attention. 
+
+Ron Campbell, a reporter at The Or- ange County Register, describes a more detailed crediting system at his newspaper. For days- or weeks-long projects, a byline is commonplace. For "drive-by consultations," in which Campbell can equip colleagues to an- swer their own questions, he does not expect any credit. 
+
+However, he notes, "The middle ground (two to four hours) is somewhat more awkward. If I spend a few hours on something, then I generally ask for a credit line. I rarely ask for a byline in this situation, though my colleagues sometimes give me one anyway." 
+
+His organization credits research, "though not nearly as often as we should," and even credits editors, though only for major projects, Camp- bell adds. 
+
+For some, the expectation for credit-sharing was learned outside the newsroom. Lex Alexander, the citizen-journalism coordinator at The (Greensboro, N.C.) News & Record who has done CAR work since 1991 and worked in news for more than two decades, cited his experience in a music group. 
+
+"I was a lead singer/rhythm guitarist in a rock band, which is relevant inas- much as our songwriting and arrang- ing was a very collaborative effort that shaped my general outlook on credit for work thereafter." 
+
+His newspaper delineates between the degrees of contributions. For a "minor illumination, the contributor gets an italicized tagline at the bot- tom of the story. If the data analysis is central to the story, the contributor gets a double byline." 
+
+Even inside newspapers, crediting policies can vary. 
+
+USA Today lacks a standard policy, says Paul Overberg, database editor since 1993. "Credit practices vary by section and even within section by team. In general, anyone who makes a material contribution is supposed to get credit, but reporters have the low- est hurdle to clear, database editors a higher hurdle, and librarians and researchers an even higher hurdle." 
+
+"It's rare that 1 get a shared byline - usually it's a 'contributing' tagline," he says. 
+
+In broadcast 
+
+Teresa Nazario, a special projects producer at KYW- Philadelphia, notes television stations differ in their credit policies. 
+
+"Sometimes there's a place to credit," but most times there is not, she says. 
+
+In place of an on-air graphic with credit, which is more common for newsmagazines such as 60 Min- 
+
+20
+
+
+January February 2006
+
+
+Uplink
+
+
+utes or Dateline NBC, Nazario says stations will more likely give credit through specific verbal mentions, or more general ones (such as, "the WXYZ team found"). 
+
+Nazario says she is sometimes filmed working with data or thumbing through records at her computer to show her contributions. 
+
+Honoring contributions 
+
+When I was promoted to a new analyst position focusing on CAR and demo- graphics, the issue of credit-earning was paramount to me. I knew the stakes would be higher in my new position and my performance evaluated differently. 
+
+One of the first questions I posed to our metro editor, Lorie Hearn, was whether I would earn bylines on stories. I was relieved when she compared CAR to documents, public records and in- terview reporting. Because reporting from data and statistics was a valued type of journalism, I would be credited accordingly. 
+
+In explaining this to me, Hearn under- lined one of the most central questions 
+
+to the discussion at hand: What types of journalism constitute reporting? 
+
+Just as Woods found in 1992, CAR specialists often suffer from some- what of an identity crisis. There are "journalistic" skills and "technological" skills. Being the "nerd in the corner" creates a mystique that can diminish the authority of the expert's watchdog and writing skills. 
+
+CAR supporters realize data analysis skills are similar to those of a traditional reporter. Instead of interviewing people, however, CAR experts interview data, spreadsheets and statistics. 
+
+Most of the CAR experts I interviewed think the disconnect between contribu- tions and credit was less about malice or selfishness and more about igno- rance of the skills that go into CAR. 
+
+Larry Gillick, an assistant professor of communication at American Uni- versity in Washington, D.C, recalled running the list of deadbeat parents for WITN-Washington, N.C., when he was a night assignment editor and the station's CAR guru. 
+
+"I feed this tip to my hungry nightside reporter who jumps to the interview and gets glorious face-time uncovering the No. 1 deadbeat dad - hidden in plain sight." Gillick did not get credit for the CAR work, and was quick to add that he did not feel cheated out of it. 
+
+Of course, there are also other questions about why journalists doing CAR care about attribution. Is it about performance evaluations? Awards? Having good meth- ods? Transparency? Territorialism? Ego? 
+
+In truth, it is a combination of these influences. 
+
+Houston says journalists care because a "byline or credit indicates that the con- tribution to the story is substantial and important. By giving credit to the work done, we also send a message that this skill and methodology is a critical part of the advancement of journalism and journalists' credibility." 
+
+And that sentiment is certainly credit- worthy. 
+
+Contact Danielle Cervantes by e-mail at danielle.cervantes@uniontrib.com 
+
+Open 
+
+continued from page 17 
+
+To create a working copy of this reposi- tory, right click again and select "SVN Checkout." You will be asked which repository you would like to check out, and where you would like to create a local working directory. Enter the re- quested information, and click OK. 
+
+You should see it copy the repository to your local disk, and inside you'll see the branch, tags and trunk folders with a green "checked" icon on them, which indicates whether they are versioned and are up to date. 
+
+To add a document to your repository, create a test file in Notepad and save it in the trunk folder. Right click on the document and look for the Add option in the TortoiseSVN menu. Click OK when prompted, and if you navigate up one level you will see that the Trunk directory now has a red exclamation point on it. This means there are items that have not been synched with the repository. 
+
+Right click on the trunk folder, select SVN Commit and click OK when asked. Once the files are copied to the repository, your local copy will again be in sync and the red exclamation point will again become a green check mark. Using Repo-Browser again, you should see your document in the trunk 
+
+directory. 
+
+To create a working copy of this re- pository on another computer, you simply need to install a copy of Tor- toiseSVN (which can be found here: http://svn1clicksetup.tigris.org) and click SVN Checkout. It's just that simple. 
+
+Of course, this only scratches the sur- face of what Subversion is capable of. The documentation covers all of this in great detail. But in a very short period of time, you can be sharing data and documents throughout the newsroom in a way that is safe and secure. 
+
+Contact Aron Pilhofer by e-mail at aron@ nytimes.com. 
+
+January February 2006
+
+
+21
+
+
+Farm 
+
+continued from page 3 
+
+I also discovered that our county, Martin, has one of the highest accident rates in the state. However, more than anything else, this is because we have many more farms than other counties. 
+
+This was a small and simple story but it accomplished several things. First of all, it built up my confidence in using what learned at the boot camp. I found I could come up with a more complete, useful story in a relatively short amount of time simply using the tools and techniques gathered there. It really increased the credibility of IRE and NICAR and its staff when the things that seem to work so easily in their controlled lab also worked for me when I got back to the little news- room in rural Minnesota. 
+
+Second, this story got my managing editor on board. He liked what I did and how I was able to use the boot camp experience to make the paper better. 
+
+Following this story he allowed me to share some things with the rest of the newsroom during a staff meeting. 
+
+Just as Brant Houston, the executive director of IRE and NICAR, said would happen, I am now the CAR expert at the Sentinel. I have helped other reporters use CAR methods in their stories and have taught them to use them them- selves. One reporter covering a school administrator contract issue was able to access documents online and find resources that broke the real story for her. 
+
+Since this story, I have done a three- part series on bridge safety in our town, county and a neighboring county (I told you my editor loved this stuff). I have gathered five years' of county and city budgets and city salaries and am in the process of converting them into useful formats. This is another instance where the things learned at the boot camp, as well as the IRE and NICAR staff's willingness to help has continued to pay off. 
+
+My editor asked me to put together a binder of sources that could be used by the newsroom to do basic CAR work. That project has turned into a CAR library with books we have started ordering from IRE, as well as our own sources. These will be available for any- one, allowing other writers' experience sto be accessed by everyone. 
+
+I have talked with our publisher and he is strongly considering getting another computer to use strictly for setting up permanent databases for reference and also getting more CAR training for the newsroom staff. 
+
+We are a smaller daily, like so many others with little or no training budget. Because I attended the boot camp on a small-news organization fellowship, at least one newspaper and several report- ers are better for it. 
+
+Please send us your new address so you don't miss one issue of The IRE Journal or any important member announcements. 
+
+And at least a couple of CAR evangelists have been born. 
+
+Drop us note at memberdesk@ire.org 
+
+Contact Dave Smith by e-mail at dave@fairmontsentinel.com 
+
+Investigative Reporters and Editors, Inc. 
+
+
+
+MOVING?
+
+
+
+
+3Fatalities.txt
+2003 Fatalities (Minnesota)
+Date	County	Age	Se x	Type of Incident
+1/7/2003	Jackson	32	male	Pinned against/between/or underneath an
+object or equipment (non-rollovers or runovers)
+1/25/2003	Benton	41	male	Power Take-off entanglement
+3/11/2003	Cass	50	male	Power Take-off entanglement
+3/15/2003	Rice	52	male	Fall (except when runover by tractor)
+Mower	40	male	Pinned against/between/or underneath an
+3/22/2003
+object or equipment (non-rollovers or runovers)
+3/23/2003	Lincoln	2	female	Animal-related injury (specify in narr.)
+4/10/2003	Mc Leod	87	male	Fire
+Wright	17	male	Roadway collision involving farm tractor or
+4/10/2003
+equipment
+4/29/2003	Watonwan	72	male	Struck by a tree or tree limb
+Chippewa	40	male	Fall (except when runever by tractor)
+4/30/2003
+5/4/2003	Dodge	54	male	Pinned against/between/or underneath an
+ject or equipment (non-rollovers or runovers)
+Swift	45	mate	Entrapped and covered by grain/feed or other
+5/12/2003
+toose material
+6/3/2003	Clay	77	male	Unknown
+6/7/2003	Redwood	12	male	Tractor rollover
+6/20/2003	Kandiyohi	10	male	Fall (except when runover by tractor)
+7/21/2003	Olmsted	78	male	Equipment (non-tractor) runover victim
+8/21/2003	Carlton	41	male	Tractor accident, unspecified
+Clay	26	male	Fall (except when runover by tractor)
+8/23/2003
+9/9/2003	Carlton	77	male	Unknown
+9/22/2003	Sherburne	72	male	Entrapped and covered by grain/feed or
+other
+loose material
+
+
+
+22
+
+
+January February 2006
+
+
+Uplink
+
+
+Awards 
+
+continued from page 2 
+
+showing how Congress and the Drug Enforcement Administration missed opportunities to stop the growth of meth abuse by aggressively regulat- ing the import of chemical ingredients. Lead reporter Steve Suo used statisti- cal analysis of treatment-admission, drug purity, price and arrest data. 
+
+Second Place: The Knight-Ridder Washington Bureau for "Discharged and Dishonored," a yearlong series that revealed how bureaucratic delays by the U.S. Department of Veterans Affairs harmed disabled veterans. Reporters Chris Adams and Alison Young analyzed survey data and the VA's database of 3.4 million claims to discover that more than 13,700 vets died while waiting for their claims to be resolved. 
+
+Third Place: The St. Petersburg Times for "Vanishing Wetlands," which found that 84,000 acres of Florida wetlands have been destroyed since 1990, when President George H.W. Bush declared a national policy of no net loss of wetlands. Reporters Matthew Waite and Craig Pittman calculated the loss using before-and-after satel- lite imagery and geographic informa- tion system software. 
+
+The awards were presented March 10 at the IRE and NICAR Computer- Assisted Reporting conference in Newark, N.J. 
+
+A panel of five contest judges picked the winners from more than two dozen entries. The awards are given in honor of Philip Meyer, the Knight Chair in Journalism at the University of North Carolina at Chapel Hill and a pioneer in using social science methods in news reporting. For more informa- tion see www.ire.org/meyeraward/ 05winners.html 
+
+IRE and NICAR Services 
+
+Investigative Reporters and Editors, Inc. is a grassroots nonprofit organiza- tion dedicated to improving the quality of investigative reporting within the field of journalism. IRE was formed in 1975 with the intent of creating a networking tool and a forum in which journalists from across the country could raise questions and exchange ideas. IRE provides educational services to re- porters, editors and others interested in investigative reporting and works to maintain high professional standards. 
+
+Programs and Services 
+
+IRE Resource Center: A rich reserve of print and broadcast stories, tipsheets and guides to help you start and com- plete the best work of your career. This unique library is the starting point of any piece you're working on. You can search through abstracts of more than 20,000 investigative reporting stories through our Web site. 
+
+Contact: Beth Kopine, beth@ire.org 573-882-3364 
+
+Database Library: Administered by IRE and the National Institute for Com- puter-Assisted Reporting. The library has copies of many government da- tabases, and makes them available to news organizations at or below actual cost. Analysis services are available on these databases, as is help in decipher- ing records you obtain yourself. Contact: Jeff Porter, jeff@ire.org, 573-882-1982 
+
+Campaign Finance Information Center: Administered by IRE and the National Institute for Computer-As- sisted Reporting. It's dedicated to help- ing journalists uncover the campaign money trail. State campaign finance data is collected from across the nation, cleaned and made available to journal- ists. A search engine allows reporters to track political cash flow across several states in federal and state races. Contact: Brant Houston, brant@ire.org, 573-882-2042 
+
+On-the-Road Training: As a top pro- moter of journalism education, IRE offers loads of training opportunities throughout the year. Possibilities range from national conferences and regional 
+
+workshops to weeklong boot camps and on-site newsroom training. Costs are on a sliding scale and fellowships are available to many of the events. Contact: David Donald, ddonald@ire.org, 573-882-2042 
+
+Publications 
+
+The IRE Journal Published six times a year. Contains journalist profiles, how- to stories, reviews, investigative ideas and backgrounding tips. The Journal also provides members with the latest news on upcoming events and training opportunities from IRE and NICAR. Contact: Brant Houston, brant@ire.org, 573-882-2042 
+
+Uplink: Bimonthly newsletter by IRE and NICAR on computer-assisted re- porting. Often, Uplink stories are written after reporters have had particular suc- cess using data to investigate stories. The columns include valuable informa- tion on advanced database techniques as well as success stories written by newly trained CAR reporters. Contact: David Herzog, dherzog@ire.org, 573-882-2127 
+
+Reporter.org: A collection of Web- based resources for journalists, journal- ism educators and others. Discounted Web hosting and services such as mailing list management and site devel- opment are provided to other nonprofit journalism organizations. Contact: Matthew Dickinson, matt@ire.org, 573-884-7321 
+
+For information on: Advertising: Pia Christensen, pia@ire.org, 573-884-2175 
+
+Membership and subscriptions: John Green, jgreen@ire.org, 573-882-2772 
+
+Conferences and Boot Camps: Ev Ruch-Graham, ev@ire.org, 573-882-8969 
+
+Listservs: Matthew Dickinson, matt@ire.org, 573-884-7321 
+
+Mailing Address: IRE, 138 Neff Annex, Missouri School of Journalism, Columbia, MO 65211 
+
+January February 2006
+
+
+23
+
+
+Uplink 
+
+Uplink Info 
+
+A newsletter of the National Institute for Computer-Assisted Reporting 
+
+brant@ire.org Brant Houston Editor 
+
+dherzog@nicar.org David Herzog Managing Editor 
+
+jeff@nicar.org Jeff Porter Asst. Managing Editor 
+
+Stephen K. Doig Sarah Cohen Senior Editors 
+
+Wendy Gray Art Director 
+
+Pia Christensen Copy Editor 
+
+Theresa Wieberg Ben Welsh Catherine Rentz Pernot Brian M. Hamman Contributing Editors 
+
+School of Journalism. Editors Inc. and the Missouri of Investigative Reporters and NICAR is a joint program 
+
+training programs, tipsheets and government databases, supplying journalists with NICAR services include 
+
+data analysis. 
+
+573-884-7711 Editorial 
+
+573-882-2772 Subscriptions 
+
+pia@ire.org Pia Christensen Advertising Coordinator 
+
+jgreen@ire.org John Green Subscription Administrator 
+
+$60 IRE members $40, nonmembers Subscriptions 
+
+Columbia, MO 65211 Missouri School of Journalism IRE-NICAR, 138 Neff Annex Uplink Address: 
+
+address changes to IRE-NICAR. Postmaster: Please send 
+
+
+
+Koutyp exi JO di DaTe LIII JO TW 
+
+S'N Glvd OW 68 ON 
+
+"OUI pue HaN 8E1 10 unoss!W 1 1299 OW 
+
