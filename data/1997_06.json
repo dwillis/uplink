@@ -1,0 +1,69 @@
+{
+    "articles": [
+        {
+            "year": 1997,
+            "month": "June",
+            "headline": "Dreams deferred",
+            "author_name": "Michael J. Himowitz",
+            "author_title": "The Baltimore Sun",
+            "summary": "An investigation into Baltimore's decaying housing revealed that a well-intentioned government effort resulted in the abandonment of neighborhoods and the accumulation of debts for low-income homeowners.",
+            "keywords": [
+                "housing",
+                "debt",
+                "government"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "June",
+            "headline": "Experimenting with Drugs",
+            "author_name": "Tom Gaumer",
+            "author_title": "Cleveland Plain Dealer",
+            "summary": "An investigation into FDA drug experiments revealed that over half the human subjects were insufficiently informed about risks and benefits, raising ethical concerns.",
+            "keywords": [
+                "FDA",
+                "experiments",
+                "ethics"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "June",
+            "headline": "Beyond the nightmares",
+            "author_name": "Ames Alexander",
+            "author_title": "The Charlotte Observer",
+            "summary": "A data-driven investigation into North Carolina day-cares revealed high rates of child injury and neglect due to lenient state regulations and minimal oversight.",
+            "keywords": [
+                "day-care",
+                "neglect",
+                "regulations"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "June",
+            "headline": "Head of the Class",
+            "author_name": "Sarah Cohen",
+            "author_title": "NICAR",
+            "summary": "The Arkansas Democrat-Gazette used a simple statistical method to rank schools, considering factors beyond test scores to judge school quality.",
+            "keywords": [
+                "schools",
+                "ranking",
+                "statistics"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "June",
+            "headline": "Rigging the Results",
+            "author_name": "Bob Sullivan",
+            "author_title": "MSNBC",
+            "summary": "An investigation into FCC auctions uncovered potential bid-rigging using signaling tactics during spectrum auctions, leading to a Justice Department inquiry.",
+            "keywords": [
+                "FCC",
+                "auctions",
+                "bid-rigging"
+            ]
+        }
+    ]
+}
