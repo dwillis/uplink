@@ -1,16 +1,16 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 2002,
             "month": "November/December",
             "headline": "GIS data carries high cost",
             "author_name": "Jaimi Dowdell",
             "author_title": "IRE and NICAR",
-            "summary": "Journalists face high costs and restrictive laws when attempting to obtain GIS data from government agencies. Many argue these practices hinder public access to taxpayer-funded data.",
+            "summary": "Despite the public availability of GIS data from SanGIS, the high cost of $15,000 for one year of data has deterred journalists like David Washburn of The San Diego Union-Tribune from acquiring it. This highlights issues with the cost and accessibility of GIS data despite its importance in news reporting.",
             "keywords": [
                 "GIS",
-                "data",
-                "cost"
+                "data cost",
+                "journalism"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "headline": "Mapping finds bars, DUI wrecks linked",
             "author_name": "Rose Ciotta and Karl Stark",
             "author_title": "The Philadelphia Inquirer",
-            "summary": "An investigation into drunken driving reveals a link between liquor licenses and alcohol-related accidents, showcasing the use of mapping tools in journalism.",
+            "summary": "An investigation using mapping and density analysis showed a link between concentrations of liquor licenses and locations of alcohol-related accidents in the Philadelphia region, revealing insights into drunken driving data.",
             "keywords": [
-                "drunken driving",
-                "accidents",
-                "mapping"
+                "DUI",
+                "mapping",
+                "liquor licenses"
             ]
         },
         {
@@ -32,37 +32,50 @@
             "headline": "Data boosts crime stories",
             "author_name": "Megan Christensen",
             "author_title": "IRE and NICAR",
-            "summary": "With the aid of computer-assisted reporting, journalists can access vast amounts of crime data to develop impactful stories and investigate criminal justice issues.",
+            "summary": "Reporters have leveraged computer-assisted reporting and data analysis, using resources such as the FBI's Uniform Crime Reports, to enhance their coverage of national and local crime trends.",
             "keywords": [
                 "crime",
-                "data",
+                "data analysis",
                 "reporting"
             ]
         },
         {
             "year": 2002,
             "month": "November/December",
-            "headline": "Another member of the family moves on",
-            "author_name": "David Herzog",
-            "author_title": "NICAR and Missouri School of Journalism",
-            "summary": "Aron Pilhofer, known for his work on campaign finance and open-source software, leaves IRE to join the Center for Public Integrity, contributing to open source software journalism.",
-            "keywords": [
-                "campaign finance",
-                "open-source",
-                "journalism"
-            ]
-        },
-        {
-            "year": 2002,
-            "month": "November/December",
-            "headline": "CENSUS 2000 Covering income, commuting with SF3",
+            "headline": "Census 2000: Covering income, commuting with SF3",
             "author_name": "Jeff Porter",
             "author_title": "IRE and NICAR",
-            "summary": "The release of Census 2000 data opens new reporting opportunities, with journalists exploring demographic shifts using the detailed tables provided.",
+            "summary": "Using Census 2000 data, journalists uncovered stories about income disparities and commuting patterns. The data highlighted persistent gender income gaps and the rise of black middle-class populations.",
             "keywords": [
                 "Census 2000",
-                "data",
-                "reporting"
+                "income",
+                "commuting"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "November/December",
+            "headline": "Data shows judges set suspects free",
+            "author_name": "Joe Ellis and Brian Collister",
+            "author_title": "KMOL San Antonio",
+            "summary": "A data-driven investigation revealed that a significant number of cases in Bexar County, Texas, were dismissed due to delays in the court system, often resulting in 'dismissed for lack of speedy trial' outcomes.",
+            "keywords": [
+                "court data",
+                "judges",
+                "Texas"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "November/December",
+            "headline": "Analysis finds juries lack color",
+            "author_name": "Mark Houser",
+            "author_title": "(Pittsburgh) Tribune-Review",
+            "summary": "Examining jury selection processes in Allegheny County, an analysis showed that residents from predominantly black neighborhoods were less likely to be called for jury duty, raising questions about racial representation.",
+            "keywords": [
+                "jury",
+                "racial disparity",
+                "Allegheny County"
             ]
         }
     ]

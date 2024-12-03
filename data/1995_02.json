@@ -1,13 +1,43 @@
 {
-    "year": 1995,
-    "month": "February",
-    "headline": "Property tax records disclose wealth of stories",
-    "author_name": "Merritt Wallick",
-    "author_title": "Wilmington (Del.) News Journal",
-    "summary": "A computer-assisted report uncovered how Delaware's farmland preservation program was exploited by wealthy individuals and developers to evade property taxes. The findings led to public outcry and governmental reforms.",
-    "keywords": [
-        "property tax",
-        "Delaware",
-        "farmland"
+    "articles": [
+        {
+            "year": 1995,
+            "month": "February",
+            "headline": "Property tax records disclose wealth of stories",
+            "author_name": "Merritt Wallick",
+            "author_title": "Wilmington News Journal",
+            "summary": "Investigation into Delaware's farmland preservation program reveals misuse by wealthy landowners and companies to avoid property taxes.",
+            "keywords": [
+                "property tax",
+                "Delaware",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "February",
+            "headline": "More problems uncovered with FAA data",
+            "author_name": "Andrew Lehren",
+            "author_title": "NICAR Staff",
+            "summary": "The Cleveland Plain Dealer exposes issues with FAA's Service Difficulty Reports, including missing and inconsistent data regarding airplane maintenance.",
+            "keywords": [
+                "FAA",
+                "data analysis",
+                "aviation safety"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "February",
+            "headline": "CAR routine in St. Louis",
+            "author_name": "Jim Mosley",
+            "author_title": "St. Louis Post-Dispatch",
+            "summary": "The St. Louis Post-Dispatch integrates computer-assisted reporting into everyday journalism practice, involving all reporters and editors in data usage.",
+            "keywords": [
+                "CAR",
+                "journalism",
+                "St. Louis"
+            ]
+        }
     ]
 }

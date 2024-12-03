@@ -2,80 +2,80 @@
     "stories": [
         {
             "year": 2003,
-            "month": "March-April",
-            "headline": "Data Access: Obtaining Restricted Files",
+            "month": "March/April",
+            "headline": "DATA ACCESS Obtaining restricted files",
             "author_name": "Megan Christensen",
             "author_title": "IRE & NICAR",
-            "summary": "Explores how journalists can sign research agreements to access databases for computer-assisted reporting, and considerations for accepting data with legal strings attached.",
+            "summary": "The article discusses how journalists can gain access to restricted data for computer-assisted reporting by signing research agreements.",
             "keywords": [
                 "data access",
-                "research agreements",
+                "journalism",
+                "restricted files"
+            ]
+        },
+        {
+            "year": 2003,
+            "month": "March/April",
+            "headline": "SPOTLIGHT: CAR FOR WARTIME",
+            "author_name": "Brant Houston",
+            "author_title": "IRE & NICAR",
+            "summary": "Highlights key databases and resources for journalists covering war-related stories.",
+            "keywords": [
+                "war reporting",
+                "databases",
                 "journalism"
             ]
         },
         {
             "year": 2003,
-            "month": "March-April",
-            "headline": "Spotlight: CAR for Wartime",
-            "author_name": "Brant Houston",
-            "author_title": "IRE & NICAR",
-            "summary": "Discusses key data and resources for covering war-related stories, focusing on databases concerning the military, veterans, security, and deployment data available from various government sources.",
-            "keywords": [
-                "war",
-                "databases",
-                "reporting"
-            ]
-        },
-        {
-            "year": 2003,
-            "month": "March-April",
-            "headline": "Tracking Deportations by Country of Origin",
+            "month": "March/April",
+            "headline": "Tracking deportations by country of origin",
             "author_name": "Mark Bixler",
             "author_title": "Atlanta Journal-Constitution",
-            "summary": "Details the process of using INS data and spreadsheets to analyze changes in deportation patterns post-9/11, specifically focusing on increased deportations of nationals from Muslim countries.",
+            "summary": "The article outlines how to use computer-assisted reporting to track and analyze deportations by nationality post 9/11.",
             "keywords": [
                 "deportation",
-                "data analysis",
-                "immigration"
+                "immigration",
+                "data analysis"
             ]
         },
         {
             "year": 2003,
-            "month": "March-April",
-            "headline": "Federal Spending: Getting a Handle on Shuttle Contractors",
+            "month": "March/April",
+            "headline": "Getting a handle on shuttle contractors",
             "author_name": "Jeff Porter",
-            "author_title": "IRE and NICAR",
-            "summary": "Outlines the use of the Federal Procurement Data System to investigate NASA spending on shuttle contractors, highlighting the specifics of federal contract modifications and financial tracking.",
+            "author_title": "IRE & NICAR",
+            "summary": "Discusses the use of federal contract data to analyze NASA's spending on space shuttle contractors.",
             "keywords": [
                 "NASA",
-                "contract data",
+                "contracts",
                 "spending"
             ]
         },
         {
             "year": 2003,
-            "month": "March-April",
-            "headline": "Mapping It Out: The Business of War",
+            "month": "March/April",
+            "headline": "The Business of War",
             "author_name": "Ron Nixon",
-            "author_title": "IRE and NICAR",
-            "summary": "Covers how mapping software was used to highlight global connections in the weapons trade for investigative reporting on war-related commerce.",
+            "author_title": "IRE & NICAR",
+            "summary": "Explores the use of mapping in showing global connections in the business of war, including arms trade and resource locations.",
             "keywords": [
                 "mapping",
-                "weapons trade",
-                "GIS"
+                "war",
+                "arms trade"
             ]
         },
         {
             "year": 2003,
-            "month": "March-April",
-            "headline": "Education: Analysis Helps Uncover College Funding Scheme",
+            "month": "March/April",
+            "headline": "Analysis helps uncover college funding scheme",
             "author_name": "Natalya Shulyakovskaya",
             "author_title": "The Orange County Register",
-            "summary": "Explains the use of data analysis to expose a fraudulent scheme where colleges improperly claimed government funds for fake physical education courses allegedly provided to high school athletes.",
+            "summary": "Details a data analysis project exposing how phantom classes at colleges generated millions in unjustified state funding.",
             "keywords": [
-                "education",
-                "fraud",
-                "funding"
+                "college funding",
+                "data analysis",
+                "education"
             ]
         }
     ]

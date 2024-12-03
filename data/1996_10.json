@@ -1,13 +1,82 @@
 {
-    "year": 1996,
-    "month": "October",
-    "headline": "Data exposes avian deaths in California wind farms",
-    "author_name": "James Bruggers",
-    "author_title": "Reporter",
-    "summary": "James Bruggers of the Contra Costa Times investigates the growing avian mortality caused by wind turbines in Northern California. The report reveals specific death tolls of birds of prey such as red-tailed hawks and golden eagles, pointing to increasing numbers over several years.",
-    "keywords": [
-        "avian deaths",
-        "wind turbines",
-        "California"
+    "articles": [
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "Data exposes avian deaths",
+            "author_name": "James Bruggers",
+            "author_title": "Contra Costa Times",
+            "summary": "James Bruggers investigates avian deaths caused by wind turbines in Northern California, revealing the extent and species impacted, and discusses industry efforts to reduce these incidents.",
+            "keywords": [
+                "avian deaths",
+                "wind turbines",
+                "environment"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "SEJ homepage now located at www.reporter.org",
+            "author_name": "Russell Clemings",
+            "author_title": "The Fresno Bee",
+            "summary": "Russell Clemings announces the relocation of the Society of Environmental Journalists' website to the IRE/NICAR server, outlining plans for new online services and resources for environmental journalism.",
+            "keywords": [
+                "SEJ",
+                "website",
+                "environmental journalism"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "What toxins are wafting your way?",
+            "author_name": "Greg Reeves",
+            "author_title": "The Kansas City Star",
+            "summary": "Greg Reeves discusses the usefulness of the EPA's Toxic Release Inventory database in uncovering pollution by analyzing company-reported emissions of chemicals into various environments.",
+            "keywords": [
+                "toxins",
+                "EPA",
+                "pollution"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "CAR helps catch big fish story",
+            "author_name": "Dan Kim",
+            "author_title": "NICAR staff",
+            "summary": "Dan Kim covers how Mark Schleifstein and his team used computer-assisted reporting to investigate the overfishing and environmental impacts on the Gulf of Mexico and worldwide fisheries.",
+            "keywords": [
+                "fisheries",
+                "overfishing",
+                "environment"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "Data makes INS sweat",
+            "author_name": "April Lynch",
+            "author_title": "The San Francisco Chronicle",
+            "summary": "April Lynch writes about using Paradox database to analyze INS records, uncovering how the INS lets employers who hire undocumented workers evade penalties.",
+            "keywords": [
+                "immigration",
+                "INS",
+                "undocumented"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "October",
+            "headline": "Students beat odds",
+            "author_name": "Susan Lessmeister",
+            "author_title": "Missouri School of Journalism",
+            "summary": "Anastasia Hendrix and Russell Clemings analyze CLAS scores, discovering students from poorer backgrounds outperforming expectations in Fresno, California.",
+            "keywords": [
+                "education",
+                "CLAS scores",
+                "Fresno"
+            ]
+        }
     ]
 }

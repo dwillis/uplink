@@ -1,13 +1,43 @@
 {
-    "year": 2005,
-    "month": "September-October",
-    "headline": "Immigrants' deadly rides",
-    "author_name": "Mike Schneider",
-    "author_title": "The Associated Press",
-    "summary": "Farmworkers in Immokalee, Florida face hazardous transportation conditions while traveling to work in decrepit vehicles owned by labor contractors. These conditions have led to multiple deaths, highlighting a major issue ignored by state legislation focusing on labor violations.",
-    "keywords": [
-        "farmworkers",
-        "transportation",
-        "safety"
+    "stories": [
+        {
+            "year": 2005,
+            "month": "September-October",
+            "headline": "Immigrants' deadly rides",
+            "author_name": "Mike Schneider",
+            "author_title": "The Associated Press",
+            "summary": "Farmworkers in Immokalee, Florida, face hazardous transportation conditions while traveling to work, raising concerns over state regulation and safety in agricultural labor.",
+            "keywords": [
+                "farmworkers",
+                "transportation",
+                "safety"
+            ]
+        },
+        {
+            "year": 2005,
+            "month": "September-October",
+            "headline": "Borrowers buried under debt, fees",
+            "author_name": "Carrie Teegardin",
+            "author_title": "The Atlanta Journal-Constitution",
+            "summary": "Georgia's transformation into a creditor-friendly state has left many borrowers struggling under high debts and fees, with a focus on fast foreclosure processes and small loan companies.",
+            "keywords": [
+                "debt",
+                "foreclosure",
+                "loans"
+            ]
+        },
+        {
+            "year": 2005,
+            "month": "September-October",
+            "headline": "Detecting bloat in job claims",
+            "author_name": "Mike McAndrew and Michelle Breidenbach",
+            "author_title": "The (Syracuse, N.Y.) Post-Standard",
+            "summary": "An investigation into New York state's economic development grants reveals that nearly half of the companies fail to meet job creation promises, often escaping penalties.",
+            "keywords": [
+                "jobs",
+                "grants",
+                "compliance"
+            ]
+        }
     ]
 }

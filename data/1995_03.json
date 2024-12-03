@@ -1,55 +1,55 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 1995,
             "month": "March",
-            "headline": "Beware examining FBI data",
+            "headline": "Beware Examining FBI Data",
             "author_name": "Gwen Carleton",
-            "author_title": "NICAR staff",
-            "summary": "This article discusses the potential pitfalls of relying on FBI's Uniform Crime Reports due to data entry errors, voluntary reporting, and discrepancies between federal and local data collection.",
+            "author_title": "NICAR Staff",
+            "summary": "The article discusses the challenges and discrepancies reporters face when using FBI's Uniform Crime Reports for crime statistics.",
             "keywords": [
                 "FBI",
                 "crime",
-                "data"
+                "reporting"
             ]
         },
         {
             "year": 1995,
             "month": "March",
-            "headline": "Computer records reveal environmental havoc",
+            "headline": "Computer Records Reveal Environmental Havoc",
             "author_name": "Michael Fabey",
-            "author_title": "Journalist",
-            "summary": "The article details how a journalist uncovered regulatory failures in state pesticide enforcement by examining computer records, leading to a significant investigative series.",
+            "author_title": "Reporter",
+            "summary": "Fabey explores flaws in state pesticide enforcement systems, using data to uncover regulatory failures in protecting the public.",
             "keywords": [
-                "pesticides",
+                "environment",
                 "regulation",
-                "journalism"
+                "pesticides"
             ]
         },
         {
             "year": 1995,
             "month": "March",
-            "headline": "Elevator inspections show bad rides",
+            "headline": "Elevator Inspections Show Bad Rides",
             "author_name": "David Armstrong",
             "author_title": "Boston Globe",
-            "summary": "The Boston Globe's series examines lax safety enforcement in the elevator and escalator industry, highlighting discrepancies in inspections and enforcement actions.",
+            "summary": "Armstrong reveals safety failures in elevators and escalators through data analysis, leading to significant state-level repercussions.",
             "keywords": [
-                "elevators",
+                "inspection",
                 "safety",
-                "inspection"
+                "elevators"
             ]
         },
         {
             "year": 1995,
             "month": "March",
-            "headline": "On the Internet: Disaster sites to tap",
+            "headline": "On the Internet: Disaster Sites to Tap",
             "author_name": "Nora Paul",
             "author_title": "Poynter Institute",
-            "summary": "Nora Paul explores various online resources for reporters to access information during natural disasters, offering valuable tools for emergency preparedness and reporting.",
+            "summary": "The article provides a guide to Internet resources available for journalists covering natural disasters.",
             "keywords": [
                 "Internet",
-                "disasters",
-                "resources"
+                "resources",
+                "disasters"
             ]
         }
     ]

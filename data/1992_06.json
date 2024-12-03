@@ -1,13 +1,56 @@
 {
-    "year": 1992,
-    "month": "June",
-    "headline": "Who's holding the cards?",
-    "author_name": "Bob Jackson",
-    "author_title": "MICAR",
-    "summary": "This article discusses the performance and reliability of the major database software packages - FoxPro, XDB, and Paradox - used in computer-assisted reporting.",
-    "keywords": [
-        "databases",
-        "software",
-        "reporting"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "June",
+            "headline": "FoxPro, Paradox or XDB",
+            "author_name": "Bob Jackson",
+            "author_title": "MICAR",
+            "summary": "An analysis of the most popular database software for computer-assisted reporting: FoxPro, Paradox, and XDB, and reporters' experiences with each.",
+            "keywords": [
+                "database",
+                "software",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "June",
+            "headline": "Building a Successful CAR Program",
+            "author_name": "Trebor Banstetter and Lou Grieco",
+            "author_title": "MICAR",
+            "summary": "An exploration of the challenges and successes involved in creating effective computer-assisted reporting programs in newsrooms.",
+            "keywords": [
+                "CAR",
+                "newsrooms",
+                "success"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "June",
+            "headline": "Tech Tips: SQL Ranges",
+            "author_name": "N/A",
+            "author_title": "N/A",
+            "summary": "Step-by-step guide on how to build better ranges in SQL for effective data reporting and analysis.",
+            "keywords": [
+                "SQL",
+                "ranges",
+                "data"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "June",
+            "headline": "Putting a Price Tag on Information",
+            "author_name": "Diana Borsi",
+            "author_title": "MICAR",
+            "summary": "The media's battle with the Missouri Department of Revenue over charging for access to public information and its implications.",
+            "keywords": [
+                "information",
+                "media",
+                "Missouri"
+            ]
+        }
     ]
 }

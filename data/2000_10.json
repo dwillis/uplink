@@ -1,16 +1,16 @@
 {
-    "stories": [
+    "data": [
         {
             "year": 2000,
             "month": "October",
             "headline": "Private foundations",
             "author_name": "Jeff Porter",
             "author_title": "Arkansas Democrat-Gazette",
-            "summary": "An investigation into private foundations in Arkansas reveals significant financial contributions essential for state advancement, highlighting the impact of the Walton Family Foundation.",
+            "summary": "An exploration of the significant economic impact of private foundations in Arkansas, revealing the vast assets they control and their contributions to societal needs.",
             "keywords": [
-                "charity",
-                "funding",
-                "Walton Foundation"
+                "philanthropy",
+                "foundations",
+                "economy"
             ]
         },
         {
@@ -19,11 +19,76 @@
             "headline": "Money talks in Russia",
             "author_name": "Natalya Shulyakovskaya",
             "author_title": "The Orange County Register",
-            "summary": "Exploration of Russian databases illustrates the ease of access to sensitive data for a price, showcasing the uses of data in uncovering business ties and corruption.",
+            "summary": "An insight into the availability and potential misuse of easily accessible Russian databases, illustrating concerns around privacy and data security.",
             "keywords": [
                 "Russia",
-                "databases",
-                "corruption"
+                "data",
+                "security"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "October",
+            "headline": "Fund-raising expenses",
+            "author_name": "Harvy Lipman",
+            "author_title": "The Chronicle of Philanthropy",
+            "summary": "Investigation into discrepancies in fund-raising expenses reported by large nonprofits, uncovering a pattern of missing or misreported financial data.",
+            "keywords": [
+                "nonprofits",
+                "expenses",
+                "fund-raising"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "October",
+            "headline": "Boot camp lessons",
+            "author_name": "Edward L. Carter",
+            "author_title": "Deseret News",
+            "summary": "Lessons in using computer-assisted reporting for analyzing city employee salaries, learning the importance of thorough preparation and negotiation skills.",
+            "keywords": [
+                "reporting",
+                "salaries",
+                "analysis"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "October",
+            "headline": "Doctors and damages",
+            "author_name": "Jack Dolan",
+            "author_title": "The Hartford Courant",
+            "summary": "A dive into the challenges of using the National Practitioner Data Bank to investigate adverse actions against doctors, highlighting the complexities of medical accountability.",
+            "keywords": [
+                "medicine",
+                "data",
+                "accountability"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "October",
+            "headline": "Racial health gap",
+            "author_name": "Dave Davis and Elizabeth Marchak",
+            "author_title": "The Plain Dealer",
+            "summary": "A detailed analysis of racial disparities in health outcomes in the U.S., showcasing geographical disparities and systemic health inequities.",
+            "keywords": [
+                "health",
+                "disparity",
+                "race"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "October",
+            "headline": "Disciplinary records",
+            "author_name": "Meggen Lindsay",
+            "author_title": "Miami University, Ohio",
+            "summary": "Research on the accessibility and analysis of university disciplinary records under public records law, revealing university transparency issues.",
+            "keywords": [
+                "education",
+                "records",
+                "privacy"
             ]
         }
     ]

@@ -6,11 +6,11 @@
             "headline": "Monitoring airport activity",
             "author_name": "Trebor Banstetter",
             "author_title": "Fort Worth Star-Telegram",
-            "summary": "Explores the impact of AirTran Airways' entry on fares and competition at Dallas-Fort Worth Airport using U.S. Department of Transportation databases.",
+            "summary": "Explores the impact of AirTran Airways' bid to operate a mini-hub at Dallas-Fort Worth Airport and its effect on fares, traffic demand, and competition with American Airlines using U.S. Department of Transportation databases.",
             "keywords": [
-                "airport",
-                "competition",
-                "fares"
+                "AirTran",
+                "American",
+                "Dallas-Fort Worth"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "headline": "Databases show vets get uneven treatment",
             "author_name": "Chris Adams",
             "author_title": "McClatchy Washington Bureau",
-            "summary": "Investigates discrepancies in treatments and benefits for veterans across different states, despite uniform regulations by the U.S. Department of Veterans Affairs.",
+            "summary": "Reports on the disparities in the treatment and disability benefits received by veterans from different states despite uniform regulations by the U.S. Department of Veterans Affairs.",
             "keywords": [
                 "veterans",
-                "benefits",
-                "inequality"
+                "disparities",
+                "treatment"
             ]
         },
         {
@@ -32,11 +32,11 @@
             "headline": "Tired truckers endanger Tenn. drivers",
             "author_name": "Nancy Amons",
             "author_title": "WSMV-Nashville",
-            "summary": "Examines the danger posed by fatigued truck drivers in Tennessee, revealing a lack of prosecutions despite numerous accidents.",
+            "summary": "Investigates the prevalence of accidents caused by sleep-deprived truckers in Tennessee and the lack of legal repercussions for these drivers.",
             "keywords": [
                 "truckers",
-                "fatigue",
-                "safety"
+                "Tennessee",
+                "accidents"
             ]
         },
         {
@@ -45,11 +45,37 @@
             "headline": "Staying afloat with boating data",
             "author_name": "John Ferro",
             "author_title": "Poughkeepsie (N.Y.) Journal",
-            "summary": "Utilizes a database on boating accidents to explore the effectiveness of safety laws and the perception of personal watercraft safety.",
+            "summary": "Analyzes boating accident trends in New York using a Coast Guard database to assess the impact of safety education laws and the perception of personal watercraft safety.",
             "keywords": [
                 "boating",
                 "safety",
-                "accidents"
+                "New York"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "September-October",
+            "headline": "Tracking problems with U.S. sky spies",
+            "author_name": "Mike Fabey",
+            "author_title": "Aviation Week/Aerospace Daily",
+            "summary": "Analyzes issues within the U.S. spy satellite programs, highlighting budget overruns and developmental challenges faced by the National Reconnaissance Office.",
+            "keywords": [
+                "satellites",
+                "military",
+                "budget"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "September-October",
+            "headline": "Diagnosing troop mental-health ills",
+            "author_name": "Matthew Kauffman",
+            "author_title": "The Hartford Courant",
+            "summary": "Investigates systemic failures in mental health screenings for troops using Defense Department health questionnaires, revealing a lack of referrals for those identified with issues.",
+            "keywords": [
+                "mental health",
+                "military",
+                "screening"
             ]
         }
     ]

@@ -5,12 +5,12 @@
             "month": "November",
             "headline": "Sticker shocked",
             "author_name": "David Heath and Justin Mayo",
-            "author_title": "Reporters for The Seattle Times",
-            "summary": "An in-depth analysis by The Seattle Times showed that despite soaring house prices, properties are more affordable due to rising incomes and falling interest rates. The eight-part series 'Sticker Shocked' broke down housing trends by neighborhood and revealed significant price increases in certain Seattle areas.",
+            "author_title": "The Seattle Times",
+            "summary": "An analysis of Seattle's housing market reveals that despite rapid price increases in desirable neighborhoods, homes are more affordable now compared to the last 15 years due to rising incomes and lower interest rates.",
             "keywords": [
+                "Seattle",
                 "housing",
-                "affordability",
-                "Seattle"
+                "affordability"
             ]
         },
         {
@@ -18,11 +18,11 @@
             "month": "November",
             "headline": "Inmate imports",
             "author_name": "Greg Paraham",
-            "author_title": "Reporter for The Commercial Appeal",
-            "summary": "An investigative report exposing that Tennessee's private prisons were accepting a disproportionately high number of violent criminals from Wisconsin, including murderers and sex offenders, based on data analysis of inmate records.",
+            "author_title": "The Commercial Appeal",
+            "summary": "An investigative report detailing how private prisons in Tennessee are harboring a disproportionate number of violent criminals transferred from overcrowded Wisconsin facilities.",
             "keywords": [
-                "prison",
-                "inmates",
+                "prisons",
+                "Wisconsin",
                 "Tennessee"
             ]
         },
@@ -31,12 +31,12 @@
             "month": "November",
             "headline": "Neighborhood blight",
             "author_name": "Janet Roberts",
-            "author_title": "Reporter for St. Paul Pioneer Press",
-            "summary": "The St. Paul Pioneer Press used mapping and inspection data to reveal the extent of neighborhood blight in St. Paul, sparking changes in housing inspections and enforcement policies.",
+            "author_title": "St. Paul Pioneer Press",
+            "summary": "An investigation into the effectiveness of housing inspections in St. Paul, revealing systemic issues in addressing repeat offenders of housing code violations.",
             "keywords": [
                 "blight",
-                "housing",
-                "inspection"
+                "inspections",
+                "St. Paul"
             ]
         },
         {
@@ -44,12 +44,51 @@
             "month": "November",
             "headline": "Big Apple rents",
             "author_name": "Kevin McCoy",
-            "author_title": "Reporter for New York Daily News",
-            "summary": "A comprehensive analysis of the New York City rental market shows rent increases over the 1990s, using Census Bureau data and highlighting significant rent hikes in certain Manhattan neighborhoods.",
+            "author_title": "New York Daily News",
+            "summary": "A comprehensive analysis of New York City's rental market reveals a significant increase in median rents during the 1990s, although growth in income has kept pace.",
             "keywords": [
-                "rents",
                 "New York",
-                "real estate"
+                "rental",
+                "market"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Discarded and decayed",
+            "author_name": "Ron Shawgo",
+            "author_title": "The Journal Gazette",
+            "summary": "A report highlighting how lax property management by both private landlords and the government contributes to urban decay in Fort Wayne.",
+            "keywords": [
+                "Fort Wayne",
+                "landlords",
+                "housing"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Second chances",
+            "author_name": "David A. Milliron and Chris Cantergiani",
+            "author_title": "Atlanta Journal-Constitution and WSB-TV Channel 2",
+            "summary": "An analysis reveals that Georgia's 'first offender' law is frequently exploited, resulting in repeat offenders continuing to avoid criminal records.",
+            "keywords": [
+                "Georgia",
+                "offender",
+                "loophole"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Raving the wrong way",
+            "author_name": "Hanque Curtis",
+            "author_title": "Orlando Sentinel",
+            "summary": "A critique of a Florida state report on designer drug deaths, uncovering inaccuracies that included irrelevant cases as evidence of an epidemic.",
+            "keywords": [
+                "Florida",
+                "drugs",
+                "report"
             ]
         }
     ]

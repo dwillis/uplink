@@ -1,13 +1,56 @@
 {
-    "year": 2003,
-    "month": "September/October",
-    "headline": "Tracking quality of life for children",
-    "author_name": "Dave Davis",
-    "author_title": "Reporter, The (Cleveland) Plain Dealer",
-    "summary": "Dave Davis reports on an in-depth examination of the state of children in Northeast Ohio using data-driven indicators to assess their quality of life.",
-    "keywords": [
-        "children",
-        "Northeast Ohio",
-        "quality of life"
+    "articles": [
+        {
+            "year": 2003,
+            "month": "September/October",
+            "headline": "Tracking quality of life",
+            "author_name": "Dave Davis",
+            "author_title": "The (Cleveland) Plain Dealer",
+            "summary": "An in-depth examination of the state of children in Northeast Ohio using data-driven storytelling to create a report-card approach.",
+            "keywords": [
+                "children",
+                "Ohio",
+                "quality of life"
+            ]
+        },
+        {
+            "year": 2003,
+            "month": "September/October",
+            "headline": "Taking the pulse of a body of water",
+            "author_name": "Lisa Stiffler",
+            "author_title": "Seattle Post-Intelligencer",
+            "summary": "A look at the health of Puget Sound using various indicators of pollution, exploring sources and impacts on marine life.",
+            "keywords": [
+                "pollution",
+                "Puget Sound",
+                "marine life"
+            ]
+        },
+        {
+            "year": 2003,
+            "month": "September/October",
+            "headline": "Database reporting shows no-bid deals",
+            "author_name": "Phil Williams",
+            "author_title": "WTVF-Nashville",
+            "summary": "An investigation into no-bid government contracts in Tennessee, revealing potential corruption and cronyism.",
+            "keywords": [
+                "government contracts",
+                "Tennessee",
+                "investigation"
+            ]
+        },
+        {
+            "year": 2003,
+            "month": "September/October",
+            "headline": "State cars sit, waste tax money",
+            "author_name": "Morgan Loew",
+            "author_title": "KPHO-Phoenix",
+            "summary": "An examination of underused state vehicles in Arizona, highlighting wasteful spending amidst a budget shortfall.",
+            "keywords": [
+                "Arizona",
+                "state vehicles",
+                "budget"
+            ]
+        }
     ]
 }

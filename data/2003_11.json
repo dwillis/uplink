@@ -6,11 +6,11 @@
             "headline": "REMOTE SENSING: Images boost GIS work",
             "author_name": "Holly Hacker",
             "author_title": "IRE and NICAR",
-            "summary": "The article discusses how GIS-savvy journalists can enhance their work with remote sensing techniques, using the example of The St. Louis Post-Dispatch, which revealed Missouri's significant flood-plain development after the 1993 flood using satellite imagery.",
+            "summary": "Journalists are using remote sensing combined with GIS to uncover insightful stories. The St. Louis Post-Dispatch utilized satellite images to analyze development on the Upper Mississippi River Basin post-1993 flood, revealing significant flood plain development.",
             "keywords": [
                 "remote sensing",
                 "GIS",
-                "satellite images"
+                "satellite"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "headline": "SPOTLIGHT: CITY GOVERNMENT: Data-based approach reaps great stories",
             "author_name": "Michael Mansur",
             "author_title": "The Kansas City Star",
-            "summary": "Michael Mansur shares his journey from spreadsheet illiteracy to effectively using them for reporting on local government, highlighting how data analysis can uncover hidden stories.",
+            "summary": "Reporters are learning to use spreadsheets like Excel to track and analyze local government data. This innovative approach is helping uncover noteworthy stories, such as discrepancies in campaign contributions and local government spending.",
             "keywords": [
-                "spreadsheet",
-                "city government",
-                "reporting"
+                "spreadsheets",
+                "data analysis",
+                "local government"
             ]
         },
         {
@@ -32,24 +32,37 @@
             "headline": "INTRANETS: Newsroom data depots no longer a luxury",
             "author_name": "Matt Carroll",
             "author_title": "The Boston Globe",
-            "summary": "The article explores how searchable databases on newsroom intranets have transitioned from being novel to being essential, elaborating on the types of data commonly stored and their utility in reporting.",
+            "summary": "The importance of newsroom intranets has grown, providing journalists access to crucial data ranging from state payrolls to campaign contributions, facilitating more efficient and informed reporting.",
             "keywords": [
+                "intranets",
                 "newsroom",
-                "intranet",
                 "databases"
             ]
         },
         {
             "year": 2003,
             "month": "November/December",
-            "headline": "Bits & Bytes: Updated files",
-            "author_name": "IRE and NICAR Staff",
-            "author_title": "Data Specialists",
-            "summary": "Details updates to the IRE and NICAR Database Library, including new data on FDA Adverse Events and NASA Air Safety Reporting, highlighting their potential use in investigative journalism.",
+            "headline": "THE DATAFILE: Updated files offer rich new insights",
+            "author_name": "David Herzog",
+            "author_title": "NICAR and Missouri School of Journalism",
+            "summary": "IRE and NICAR's Database Library offers access to extensive datasets like the FDA Adverse Events Reporting System and NASA Air Safety Reporting data, aiding journalists in mining stories related to pharmaceutical safety and aviation incidents.",
             "keywords": [
-                "data library",
+                "databases",
                 "FDA",
                 "NASA"
+            ]
+        },
+        {
+            "year": 2003,
+            "month": "November/December",
+            "headline": "FIRST VENTURE: Party town arrest patterns uncovered",
+            "author_name": "Shelley Nelson",
+            "author_title": "Duluth (Minn.) News-Tribune",
+            "summary": "Using computer-assisted reporting techniques, this analysis examines arrest patterns in Superior, Wisconsin, uncovering insights on the impact of later bar closing times on local law enforcement.",
+            "keywords": [
+                "arrest patterns",
+                "mapping",
+                "law enforcement"
             ]
         }
     ]

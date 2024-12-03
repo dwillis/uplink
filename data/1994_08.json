@@ -1,42 +1,29 @@
 {
-    "stories": [
-        {
-            "year": 1994,
-            "month": "August",
-            "headline": "Data services at NICAR",
-            "author_name": "Bill Doskoch",
-            "author_title": "Reporter",
-            "summary": "NICAR is expanding its data transfer services, offering conversions and access to a variety of government databases for journalists.",
-            "keywords": [
-                "NICAR",
-                "data",
-                "journalists"
-            ]
-        },
+    "content": [
         {
             "year": 1994,
             "month": "August",
             "headline": "Canadian FOI structure threatens CAR",
             "author_name": "Bill Doskoch",
-            "author_title": "Reporter",
-            "summary": "Challenges in accessing government records electronically in Canada pose a risk to the progress of computer-assisted reporting.",
+            "author_title": "Reporter at The (Regina, SK) Leader-Post",
+            "summary": "A discussion on the challenges faced by Canadian reporters in accessing government records compared to their American counterparts, focusing on the limitations imposed by the current Freedom of Information laws in Canada.",
             "keywords": [
                 "Canada",
                 "FOI",
-                "reporting"
+                "CAR"
             ]
         },
         {
             "year": 1994,
-            "month": "August",
-            "headline": "CAR Trek: Oct. 6-9, 1994",
+            "month": "October",
+            "headline": "CAR Trek: Panels set for fall conference",
             "author_name": "Jennifer LaFleur",
             "author_title": "NICAR Training Director",
-            "summary": "The CAR Trek conference aims to gather computer-assisted reporting experts to share their experiences and offer training.",
+            "summary": "An overview of the upcoming CAR Trek conference in Silicon Valley, which will host over 110 experts in computer-assisted reporting to share experiences and guide hands-on training for over 500 attendees.",
             "keywords": [
+                "CAR Trek",
                 "conference",
-                "training",
-                "NICAR"
+                "training"
             ]
         },
         {
@@ -44,38 +31,25 @@
             "month": "August",
             "headline": "The state of CAR at a small newspaper",
             "author_name": "Carol Napolitano",
-            "author_title": "Reporter",
-            "summary": "A report on the challenges faced by small newspapers in implementing computer-assisted reporting due to lack of resources.",
+            "author_title": "Reporter at The (Munster, Ind.) Times",
+            "summary": "An account of the challenges and small victories experienced by a mid-sized newspaper staff in implementing computer-assisted reporting, detailing struggles with local government and access to electronic records.",
             "keywords": [
-                "small",
-                "challenges",
-                "reporting"
+                "local government",
+                "electronic records",
+                "newspaper"
             ]
         },
         {
             "year": 1994,
             "month": "August",
-            "headline": "Choosing the right computer",
-            "author_name": "Drew Sullivan",
-            "author_title": "NICAR Staff",
-            "summary": "Guidance for news organizations looking to invest in computer hardware for effective CAR work, focusing on speed and storage.",
-            "keywords": [
-                "computers",
-                "hardware",
-                "news"
-            ]
-        },
-        {
-            "year": 1994,
-            "month": "August",
-            "headline": "Begging for records in Pennsylvania",
+            "headline": "Negotiating campaign data",
             "author_name": "Bob Warner",
-            "author_title": "Reporter",
-            "summary": "A creative approach of requesting campaign finance reports on diskette to simplify data processing for political contributions.",
+            "author_title": "Reporter at Philadelphia Daily News",
+            "summary": "Strategies employed by the Philadelphia Daily News to obtain campaign contribution records electronically from gubernatorial candidates, highlighting the hurdles and eventual successes.",
             "keywords": [
-                "Pennsylvania",
-                "campaign",
-                "data"
+                "campaign data",
+                "negotiation",
+                "electronic records"
             ]
         }
     ]

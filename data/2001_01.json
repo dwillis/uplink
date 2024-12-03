@@ -1,13 +1,30 @@
 {
-    "year": 2001,
-    "month": "January/February",
-    "headline": "Measuring foster care",
-    "author_name": "Jason Method",
-    "author_title": "Asbury Park Press",
-    "summary": "Despite New Jersey's child protection agency's two-year, $128 million reform effort, children spend more time in foster care than before. AFCARS data helps track state agency performance.",
-    "keywords": [
-        "foster care",
-        "child welfare",
-        "reform"
+    "articles": [
+        {
+            "year": 2001,
+            "month": "January",
+            "headline": "Measuring foster care",
+            "author_name": "Jason Method",
+            "author_title": "Asbury Park Press",
+            "summary": "Despite a significant reform effort by New Jersey's child protection agency, children are spending more time in foster care. The article explores the state's lack of progress against its reform goals.",
+            "keywords": [
+                "foster care",
+                "reform",
+                "child welfare"
+            ]
+        },
+        {
+            "year": 2001,
+            "month": "January",
+            "headline": "Race problem solutions",
+            "author_name": "Steve Doig",
+            "author_title": "Arizona State University",
+            "summary": "The article discusses the complexities in comparing racial data from the 1990 and 2000 Census due to changes allowing multiracial categories, and solutions to overcome these issues.",
+            "keywords": [
+                "Census 2000",
+                "racial data",
+                "multiracial"
+            ]
+        }
     ]
 }

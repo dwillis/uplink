@@ -1,16 +1,16 @@
 {
-    "articles": [
+    "stories": [
         {
             "year": 2005,
             "month": "March-April",
             "headline": "To share or not to share",
             "author_name": "Brian Hamman",
             "author_title": "IRE and NICAR",
-            "summary": "This article discusses the dilemma journalists face regarding whether to share data used in computer-assisted reporting, highlighting the balance between transparency and safeguarding an organization's interests.",
+            "summary": "Journalists face dilemmas on whether to share data with others, balancing transparency against organizational interests.",
             "keywords": [
-                "data",
-                "transparency",
-                "journalism"
+                "data sharing",
+                "journalism",
+                "transparency"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "headline": "Analysis shows feds' claims about charity",
             "author_name": "Jaimi Dowdell",
             "author_title": "IRE and NICAR",
-            "summary": "Exploration of the use of social network analysis as a tool for computer-assisted reporting in the context of investigating the Islamic American Relief Agency amid federal actions.",
+            "summary": "Social network analysis tools reveal links of the Islamic American Relief Agency to terror activities, highlighting investigative techniques using data.",
             "keywords": [
+                "social network",
                 "charity",
-                "federal",
-                "analysis"
+                "terror"
             ]
         },
         {
@@ -31,12 +31,12 @@
             "month": "March-April",
             "headline": "Peace Accidents",
             "author_name": "Michael Fabey",
-            "author_title": "Savannah (Ga.) Morning News",
-            "summary": "The article investigates the U.S. Army's database of aviation accidents to reveal the details and trends in helicopter accidents, especially involving the Apache helicopter.",
+            "author_title": "Savannah Morning News",
+            "summary": "Military aviation accident data reveals insights into safety issues, stressing the importance of data analysis in investigative reporting.",
             "keywords": [
-                "accidents",
-                "aviation",
-                "military"
+                "aviation accidents",
+                "military",
+                "safety"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "headline": "Uncovering an age-old scam",
             "author_name": "Ron Hurtibise",
             "author_title": "Daytona Beach News-Journal",
-            "summary": "Investigation into eBay auctions selling undevelopable Florida swampland at huge markups, using geographic information systems to analyze property data.",
+            "summary": "An investigation into eBay sales of Florida swampland exposes repeated real estate scams facilitated by online auctions.",
             "keywords": [
                 "real estate",
                 "scam",
-                "GIS"
+                "eBay"
             ]
         },
         {
@@ -58,24 +58,11 @@
             "headline": "Big bucks flow to rural areas",
             "author_name": "Bert Dalmer",
             "author_title": "The Des Moines Register",
-            "summary": "Examins the distribution of homeland security funds in Iowa, revealing discrepancies in the allocation based on population and urban vulnerability.",
+            "summary": "Analysis of Homeland Security grants in Iowa reveals questionable allocation patterns, spotlighting discrepancies in rural versus urban funding.",
             "keywords": [
-                "funds",
-                "homeland",
-                "security"
-            ]
-        },
-        {
-            "year": 2005,
-            "month": "March-April",
-            "headline": "Simple calculations show S.C.'s war burden",
-            "author_name": "Chuck Crumbo",
-            "author_title": "The (Columbia, S.C.) State",
-            "summary": "Analyzes military casualties from South Carolina, highlighting the state's disproportionate share of war deaths relative to its population.",
-            "keywords": [
-                "casualties",
-                "military",
-                "statistics"
+                "homeland security",
+                "funding",
+                "Iowa"
             ]
         }
     ]

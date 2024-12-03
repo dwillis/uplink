@@ -1,13 +1,98 @@
 {
-    "year": 1997,
-    "month": "December/January",
-    "headline": "Road map for the future",
-    "author_name": "Brant Houston",
-    "author_title": "IRE/NICAR Executive Director",
-    "summary": "Houston discusses past challenges and future strategies for training journalists in computer-assisted reporting, highlighting the demand for higher-level instruction and integration into newsrooms.",
-    "keywords": [
-        "journalism",
-        "training",
-        "future"
+    "articles": [
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "Road map for the future",
+            "author_name": "Brant Houston",
+            "author_title": "IRE/NICAR Executive Director",
+            "summary": "Brant Houston discusses the future of training journalists in computer-assisted reporting, addressing past challenges and proposing a roadmap for the integration of advanced CAR into newsrooms.",
+            "keywords": [
+                "training",
+                "journalism",
+                "technology"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "Error Free Goof-proofing CAR",
+            "author_name": "Ronald Campbell",
+            "author_title": "The Orange County Register",
+            "summary": "Ronald Campbell shares insights and tips on avoiding errors in computer-assisted reporting, emphasizing the importance of training and careful analysis to prevent common mistakes.",
+            "keywords": [
+                "accuracy",
+                "reporting",
+                "training"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "A Beginner's Lesson in Teaching CAR",
+            "author_name": "Charles N. Davis",
+            "author_title": "Southern Methodist University",
+            "summary": "Charles Davis reflects on his first semester teaching computer-assisted reporting to undergraduate students, sharing lessons learned and strategies for sparking interest and understanding in a classroom setting.",
+            "keywords": [
+                "teaching",
+                "CAR",
+                "education"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "What Teaching is Really Like",
+            "author_name": "Jeff South and Steve Doig",
+            "author_title": [
+                "Virginia Commonwealth University",
+                "Arizona State University"
+            ],
+            "summary": "Jeff South and Steve Doig discuss their experiences transitioning from newsroom veterans to journalism professors, highlighting the challenges and rewards of teaching computer-assisted reporting.",
+            "keywords": [
+                "teaching",
+                "journalism",
+                "education"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "Taming Crime Statistics",
+            "author_name": "Jere Downs",
+            "author_title": "Philadelphia Inquirer",
+            "summary": "Jere Downs describes a project analyzing crime statistics across Philadelphia suburbs, emphasizing the importance of context and accuracy in reporting crime trends.",
+            "keywords": [
+                "crime",
+                "statistics",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "Military Hospitals Report",
+            "author_name": "Brent Johnson",
+            "author_title": "NICAR",
+            "summary": "An investigation by the Dayton Daily News into military hospitals reveals issues with unlicensed doctors and a lack of accountability for medical errors, using various databases to highlight systemic problems.",
+            "keywords": [
+                "military",
+                "hospitals",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "December",
+            "headline": "CAR Down Under",
+            "author_name": "Stephen Quinn",
+            "author_title": "Deakin University (Australia)",
+            "summary": "Stephen Quinn explores the status of computer-assisted reporting in Australian journalism, noting the slow adoption of CAR techniques and advocating for greater training and integration.",
+            "keywords": [
+                "Australia",
+                "CAR",
+                "journalism"
+            ]
+        }
     ]
 }

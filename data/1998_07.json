@@ -1,14 +1,14 @@
 {
-    "stories": [
+    "data": [
         {
             "year": 1998,
             "month": "July",
-            "headline": "Nursing Home Neglect: Unraveled care",
+            "headline": "Nursing Home Neglect: Unraveled Care",
             "author_name": "Mark J. Rochester",
             "author_title": "The Indianapolis Star and The Indianapolis News",
-            "summary": "An investigative series revealed widespread neglect in nursing homes, prompting immediate reforms in the elder care regulatory system by Indiana state officials.",
+            "summary": "An investigative series uncovered disturbing levels of neglect and regulatory shortcomings in Indianapolis nursing homes, prompting immediate reforms from state officials.",
             "keywords": [
-                "nursing homes",
+                "nursing",
                 "neglect",
                 "reform"
             ]
@@ -16,14 +16,27 @@
         {
             "year": 1998,
             "month": "July",
-            "headline": "Spreading Hazards: Toxic two-time",
+            "headline": "Spreading Hazards: Toxic Two-Time",
             "author_name": "Duff Wilson",
             "author_title": "The Seattle Times",
-            "summary": "An investigation into how hazardous wastes are repurposed as fertilizers led to significant media attention and policy reforms, highlighting the inadequate regulation of toxic byproducts.",
+            "summary": "A series on how industries disposed of hazardous wastes as fertilizer was disseminated widely through e-mail and the web, which eventually led to significant reforms.",
             "keywords": [
-                "toxic waste",
-                "fertilizer",
-                "regulation"
+                "toxic",
+                "waste",
+                "fertilizer"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "July",
+            "headline": "Booming or Busting? Rising Bankruptcies",
+            "author_name": "Valerie Lilley",
+            "author_title": "Peoria Journal Star",
+            "summary": "A series analyzing local bankruptcy filings revealed the economic stress among lower-income residents, debunking myths about the wealth of those filing.",
+            "keywords": [
+                "bankruptcy",
+                "economy",
+                "debt"
             ]
         }
     ]

@@ -1,43 +1,13 @@
 {
-    "stories": [
-        {
-            "year": 1998,
-            "month": "June",
-            "headline": "Moneyed interests",
-            "author_name": "Jack Dolan and Aaron Rothenburger",
-            "author_title": "CFIC",
-            "summary": "An investigation reveals a direct correlation between campaign contributions and preferential treatment by Wisconsin Governor Tommy Thompson, including a specific case involving Ron Van Den Heuvel.",
-            "keywords": [
-                "campaign finance",
-                "preferential treatment",
-                "investigation"
-            ]
-        },
-        {
-            "year": 1998,
-            "month": "June",
-            "headline": "Homes for sale",
-            "author_name": "Neill A. Borowski",
-            "author_title": "The Philadelphia Inquirer",
-            "summary": "Analysis of trends in home values reveals how local real estate impacts readers, emphasizing the importance of data-driven reporting.",
-            "keywords": [
-                "real estate",
-                "home values",
-                "analysis"
-            ]
-        },
-        {
-            "year": 1998,
-            "month": "June",
-            "headline": "Trial of the century",
-            "author_name": "Wendell Cochran",
-            "author_title": "American University",
-            "summary": "Discussion on the impending Y2K problem and its potential impacts on various sectors, emphasizing the importance of readiness.",
-            "keywords": [
-                "Y2K",
-                "computer systems",
-                "millennium"
-            ]
-        }
+    "year": 1998,
+    "month": "June",
+    "headline": "Moneyed Interests",
+    "author_name": "Jack Dolan and Aaron Rothenburger",
+    "author_title": "CFIC",
+    "summary": "An investigation by Milwaukee Journal Sentinel reporters uncovers a link between campaign contributions and preferential treatment by Wisconsin Governor Tommy Thompson.",
+    "keywords": [
+        "campaign",
+        "finance",
+        "favoritism"
     ]
 }

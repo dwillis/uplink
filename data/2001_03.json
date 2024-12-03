@@ -1,107 +1,29 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 2001,
-            "month": "March-April",
-            "headline": "CAR in the aftermath",
+            "month": "March/April",
+            "headline": "CAR in the Aftermath",
             "author_name": "Geoff Dougherty",
             "author_title": "Reporter at The Miami Herald",
-            "summary": "An in-depth investigation by The Miami Herald using computer-assisted reporting techniques to analyze the contentious and narrow presidential election results in Florida. The team investigated issues like voter fraud and ballot counting accuracy, revealing organized efforts and discrepancies.",
+            "summary": "An in-depth investigation into the Florida presidential election, focusing on voter fraud and undetermined ballots.",
             "keywords": [
-                "elections",
                 "Florida",
+                "election",
                 "fraud"
             ]
         },
         {
             "year": 2001,
-            "month": "March-April",
-            "headline": "Everyday methods",
+            "month": "March/April",
+            "headline": "First Venture Everyday Methods",
             "author_name": "Joe Ellis",
             "author_title": "KMOL-TV, San Antonio",
-            "summary": "Joe Ellis reflects on adapting computer-assisted reporting methods into his everyday reporting practices after attending a NICAR bootcamp. His work highlights how these methods enhance the depth of investigative journalism in local news stories.",
+            "summary": "A reporter's journey into computer-assisted reporting and how it became a daily method, highlighting small investigative stories.",
             "keywords": [
                 "reporting",
                 "investigation",
-                "tools"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "Four-day success",
-            "author_name": "Nancy Cook Lauer",
-            "author_title": "The Tallahassee Democrat",
-            "summary": "A quick, four-day investigation revealing disparities in discarded presidential votes across Florida counties, showing higher discard rates in poorer areas. The report sparked discussions on voting machine reliability and voter education.",
-            "keywords": [
-                "voting",
-                "disparities",
-                "investigation"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "Florida's dead heat",
-            "author_name": "Stephen K. Doig",
-            "author_title": "Arizona State University",
-            "summary": "Reflecting on his involvement with The Miami Herald's investigation into the Florida presidential election, Doig explains the statistical methods used to project voting intentions based on uncounted ballots, revealing potential impacts on election outcomes.",
-            "keywords": [
-                "elections",
-                "statistics",
-                "analysis"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "Hospital Infections",
-            "author_name": "Michele Rubenstein",
-            "author_title": "WMAQ-TV, Chicago",
-            "summary": "An investigation into hospital-acquired infections using publicly available billing data, uncovering potential underreported cases of flesh-eating bacteria, resulting in state health officials launching an investigation.",
-            "keywords": [
-                "health",
-                "infection",
-                "hospitals"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "Ammonia leaks",
-            "author_name": "Dawn Fallik",
-            "author_title": "St. Louis Post-Dispatch",
-            "summary": "An investigation into the rise of ammonia leaks related to methamphetamine production, highlighting the hazards posed to communities and the challenges faced by emergency responders and law enforcement officials.",
-            "keywords": [
-                "methamphetamine",
-                "hazards",
-                "law enforcement"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "10 Census stories",
-            "author_name": "Paul Overberg",
-            "author_title": "USA Today",
-            "summary": "A guide for journalists covering the 2000 Census, presenting ten story ideas that leverage census data to uncover trends and stories in local communities, focusing on diversity, density, and more.",
-            "keywords": [
-                "census",
-                "journalism",
                 "data"
-            ]
-        },
-        {
-            "year": 2001,
-            "month": "March-April",
-            "headline": "Census and immigrants",
-            "author_name": "Paul Overberg",
-            "author_title": "USA Today",
-            "summary": "An overview of how journalists can use Census data and other federal datasets to report on immigration trends and the demographics of foreign-born populations within their communities.",
-            "keywords": [
-                "immigrants",
-                "data",
-                "analysis"
             ]
         }
     ]

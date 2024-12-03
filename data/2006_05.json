@@ -1,16 +1,16 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 2006,
             "month": "May-June",
             "headline": "Making the switch to ACS",
             "author_name": "Paul Overberg",
             "author_title": "USA Today",
-            "summary": "The American Community Survey of the Census Bureau faces regular budget challenges, but it is set to replace the long-form census by 2010, providing annual data across various geographic scales.",
+            "summary": "The Census Bureau's American Community Survey faced funding challenges but is likely to replace the long form of the 2010 Census.",
             "keywords": [
                 "Census",
-                "Survey",
-                "Budget"
+                "ACS",
+                "data"
             ]
         },
         {
@@ -18,12 +18,12 @@
             "month": "May-June",
             "headline": "Rolling hazards in rail cargo",
             "author_name": "David Danelski",
-            "author_title": "The (Riverside, Calif.) Press-Enterprise",
-            "summary": "A train derailment near San Bernardino raised concerns about rail transport of hazardous chemicals, revealing flaws in track inspections and communication issues that endangered local residents.",
+            "author_title": "The Riverside Press-Enterprise",
+            "summary": "Investigation into freight train derailments revealed ineffective track inspections and other issues that endangered residents.",
             "keywords": [
-                "Rail",
-                "Hazards",
-                "Chemicals"
+                "rail cargo",
+                "hazards",
+                "derailments"
             ]
         },
         {
@@ -32,11 +32,24 @@
             "headline": "ER gridlock exposed",
             "author_name": "Augusta Brennan Jones",
             "author_title": "WBAL-Baltimore",
-            "summary": "An investigation into emergency room delays in Baltimore reveals a concerning pattern of hospital alerts and extended wait times, suggesting systemic healthcare bottlenecks.",
+            "summary": "Investigation into Maryland ERs revealed significant delays and highlighted a crisis in emergency healthcare.",
             "keywords": [
-                "Healthcare",
-                "Emergency",
-                "Delays"
+                "healthcare",
+                "ER",
+                "Maryland"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "May-June",
+            "headline": "Storm season",
+            "author_name": "NICAR Database Library",
+            "author_title": "IRE",
+            "summary": "An updated database on U.S. storm events provides detailed information from hurricanes to tornadoes.",
+            "keywords": [
+                "storms",
+                "database",
+                "weather"
             ]
         },
         {
@@ -44,25 +57,12 @@
             "month": "May-June",
             "headline": "Endangered data helps find deadly mercury",
             "author_name": "Ken Ward Jr.",
-            "author_title": "The Charleston (W.Va.) Gazette",
-            "summary": "The potential reduction in EPA's Toxic Release Inventory data collection threatens environmental reporting. Examining mercury pollution in chlor-alkali plants uncovered significant emissions.",
+            "author_title": "The Charleston Gazette",
+            "summary": "TRI data was used to investigate mercury pollution from chlor-alkali plants, revealing significant environmental concerns.",
             "keywords": [
-                "EPA",
-                "Mercury",
-                "Pollution"
-            ]
-        },
-        {
-            "year": 2006,
-            "month": "May-June",
-            "headline": "Stats help deflate big crowd count",
-            "author_name": "Eric Sagara",
-            "author_title": "Tucson Citizen",
-            "summary": "Crowd counting techniques learned at a CAR boot camp help provide a more accurate estimate of attendees at a local parade, debunking inflated claims by organizers.",
-            "keywords": [
-                "Crowd",
-                "Statistics",
-                "Event"
+                "TRI",
+                "mercury",
+                "pollution"
             ]
         }
     ]

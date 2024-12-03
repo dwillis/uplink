@@ -1,15 +1,15 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 2001,
             "month": "May/June",
             "headline": "Firestone and Explorers",
             "author_name": "Josh Barbanel",
             "author_title": "The New York Times",
-            "summary": "Investigates the recall of Firestone tires due to a rise in fatal accidents involving Ford Explorers, highlighting how government and auto industries monitor accident data.",
+            "summary": "Investigates issues with Firestone tires on Ford Explorers, identifying a surge in tire-related fatal accidents and highlighting potential oversight by government and manufacturers.",
             "keywords": [
                 "Firestone",
-                "Ford",
+                "Explorer",
                 "accidents"
             ]
         },
@@ -19,24 +19,24 @@
             "headline": "Heavy lifting ahead",
             "author_name": "Richard O'Reilly",
             "author_title": "Los Angeles Times",
-            "summary": "Discusses the challenges journalists face in analyzing and reporting on the detailed data from Census 2000, emphasizing the need for preparation and targeted analysis to find significant stories within vast datasets.",
+            "summary": "Discusses the challenges of analyzing upcoming Census 2000 data, emphasizing the complexity and magnitude of the datasets.",
             "keywords": [
                 "Census",
                 "data",
-                "analysis"
+                "PL94-171"
             ]
         },
         {
             "year": 2001,
             "month": "May/June",
-            "headline": "Fatal-crash stories along Interstate 95",
+            "headline": "Fatal highway",
             "author_name": "Tony Manolatos",
             "author_title": "FLORIDA TODAY",
-            "summary": "Examines the high number of fatal accidents on Interstate 95 in Brevard County, highlighting systemic issues such as speed limit increases and inadequate crash data analysis.",
+            "summary": "Explores the dangers of Florida's Interstate 95, uncovering doubling fatalities and inefficiencies in state data systems affecting road safety improvements.",
             "keywords": [
-                "Interstate 95",
+                "I-95",
                 "fatalities",
-                "safety"
+                "Florida"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "headline": "Truck safety",
             "author_name": "Andy Lehren",
             "author_title": "Dateline NBC",
-            "summary": "Investigates trucking safety issues, revealing problems with regulatory oversight and the prevalence of unsafe trucks on the road avoiding inspections.",
+            "summary": "Examines trucking safety violations and regulatory oversight, revealing how companies avoid inspections and continue unsafe practices.",
             "keywords": [
-                "trucks",
+                "trucking",
                 "safety",
-                "regulations"
+                "Dateline"
             ]
         },
         {
@@ -58,9 +58,9 @@
             "headline": "Bus driver",
             "author_name": "Dan Feldstein",
             "author_title": "Houston Chronicle",
-            "summary": "Explores excessive overtime hours among bus drivers at the Houston Metropolitan Transit Authority and the potential safety risks posed by these practices.",
+            "summary": "Investigates Houston's Metro bus drivers' extensive overtime hours and safety implications, uncovering systemic issues with driver scheduling and data tracking.",
             "keywords": [
-                "bus drivers",
+                "bus",
                 "overtime",
                 "safety"
             ]

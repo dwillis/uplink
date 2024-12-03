@@ -1,16 +1,16 @@
 {
-    "articles": [
+    "stories": [
         {
             "year": 1998,
             "month": "April",
             "headline": "Voter Fraud: Errant electioneering",
             "author_name": "Dan Keating",
             "author_title": "The Miami Herald",
-            "summary": "An investigation into Miami's mayoral election reveals significant voter fraud in absentee ballots, leading to a judicial call for a new vote and subsequent law enforcement actions.",
+            "summary": "Investigation into the Miami mayoral election reveals over 300 problematic votes, including fraudulent absentee ballots and votes from ineligible individuals. The inquiry led to a judge overturning the election results due to extensive voter fraud.",
             "keywords": [
                 "voter fraud",
-                "election",
-                "investigation"
+                "Miami election",
+                "absentee ballots"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "headline": "Tech Tip: Enter Intranets",
             "author_name": "George Landau",
             "author_title": "NewsEngin Inc.",
-            "summary": "Advice on setting up a newsroom intranet to facilitate quick access to public records, highlighting the necessary technology and potential benefits.",
+            "summary": "Guidance on setting up an Intranet in newsrooms using TCP/IP networks for easier access to public records, improving efficiency in computer-assisted reporting.",
             "keywords": [
-                "intranet",
-                "newsroom",
-                "technology"
+                "Intranet",
+                "newsroom technology",
+                "TCP/IP"
             ]
         }
     ]

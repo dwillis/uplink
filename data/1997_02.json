@@ -3,66 +3,40 @@
         {
             "year": 1997,
             "month": "February",
-            "headline": "To Have or to Have Not",
+            "headline": "To have or to have not",
             "author_name": "J.J. Thompson",
             "author_title": "U.S. News & World Report",
-            "summary": "Thompson explores how the Gini index can be used to measure income inequality across the United States, analyzing income data and exploring socioeconomic trends contributing to inequality.",
+            "summary": "J.J. Thompson explores income inequality using the Gini coefficient to analyze income data, showing the growing gap between different economic classes.",
             "keywords": [
-                "Gini index",
-                "income inequality",
-                "data analysis"
+                "income",
+                "inequality",
+                "Gini"
             ]
         },
         {
             "year": 1997,
             "month": "February",
-            "headline": "Collision Course",
+            "headline": "Collision course",
             "author_name": "Rick Linsk",
             "author_title": "Asbury Park Press",
-            "summary": "Linsk investigates the increase in fatal road accidents involving older drivers using the Fatal Accident Reporting System, focusing on demographic changes and safety implications in New Jersey.",
+            "summary": "Rick Linsk reports on the analysis of data from the Fatal Accident Reporting System to understand trends and demographics in fatal traffic accidents, particularly incidents involving older drivers.",
             "keywords": [
-                "fatal crashes",
-                "senior drivers",
-                "data analysis"
+                "fatal",
+                "accidents",
+                "drivers"
             ]
         },
         {
             "year": 1997,
             "month": "February",
-            "headline": "Wire Service Serves CAR",
+            "headline": "Wire service serves CAR",
             "author_name": "Jody Sowell",
             "author_title": "NICAR staff",
-            "summary": "Sowell reports on efforts by the Associated Press to improve computer-assisted reporting across its bureaus, highlighting technological upgrades and the potential for detailed investigative journalism.",
+            "summary": "Jody Sowell discusses the Associated Press' efforts to enhance computer-assisted reporting capabilities across its bureaus through a new Web server initiative.",
             "keywords": [
-                "computer-assisted reporting",
                 "AP",
-                "databases"
-            ]
-        },
-        {
-            "year": 1997,
-            "month": "February",
-            "headline": "Internet Travel Assistance",
-            "author_name": "Nora Paul",
-            "author_title": "The Poynter Institute",
-            "summary": "Paul provides tips on using internet resources for travel research, including finding maps, city guides, flight information, and accommodations, for journalists on the go.",
-            "keywords": [
-                "internet resources",
-                "travel research",
-                "maps"
-            ]
-        },
-        {
-            "year": 1997,
-            "month": "February",
-            "headline": "CAR Goes on Field Trip",
-            "author_name": "Christine Bush",
-            "author_title": "KCTV - Kansas City",
-            "summary": "Bush describes her investigation into disparities in school field trip funding between affluent and poorer districts, highlighting the challenges of data collection and analysis.",
-            "keywords": [
-                "school funding",
-                "field trips",
-                "educational equity"
+                "reporting",
+                "service"
             ]
         }
     ]

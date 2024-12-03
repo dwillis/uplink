@@ -1,13 +1,56 @@
 {
-    "year": "1999",
-    "month": "September",
-    "headline": "Catch and release",
-    "author_name": "James Walsh",
-    "author_title": "Star Tribune",
-    "summary": "An investigation into the leniency of the Minnesota justice system, revealing that repeat and probationary offenders often avoid prison despite reoffending.",
-    "keywords": [
-        "crime",
-        "probation",
-        "Minnesota"
+    "stories": [
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "Catch and release",
+            "author_name": "James Walsh",
+            "author_title": "Star Tribune",
+            "summary": "Explores the issue of repeat offenders in Minnesota, focusing on the lack of prison sentences for felonies and crimes committed on probation. Uses data analysis to link multiple criminal justice databases.",
+            "keywords": [
+                "crime",
+                "probation",
+                "Minnesota"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "School sports as big business",
+            "author_name": "Mike Fish",
+            "author_title": "The Atlanta Journal-Constitution",
+            "summary": "Examines the significant role of high school football in Georgia communities, highlighted by financial investments and social status, with data collection revealing the economic impact of football programs.",
+            "keywords": [
+                "football",
+                "schools",
+                "Georgia"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "Out to the ball game",
+            "author_name": "Kit Wagar",
+            "author_title": "The Kansas City Star",
+            "summary": "Investigates lobbyist gifts to Missouri legislators, highlighting the state's lack of restrictions on such gifts and the resulting influence on lawmakers.",
+            "keywords": [
+                "lobbyists",
+                "gifts",
+                "Missouri"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "Pay Dirt! The Big Business of High School Football",
+            "author_name": "Mike Fish",
+            "author_title": "The Atlanta Journal-Constitution",
+            "summary": "Looks into how high school football programs are financially maintained in Georgia, involving taxpayer money, booster clubs, and coaching salaries.",
+            "keywords": [
+                "finances",
+                "taxpayer",
+                "football"
+            ]
+        }
     ]
 }

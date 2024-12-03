@@ -1,42 +1,42 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 1997,
             "month": "October",
             "headline": "CAR in Latin America",
             "author_name": "Kara Morrison",
             "author_title": "NICAR",
-            "summary": "Latin American journalists, led by figures like Carlos Subero, are increasingly adopting computer-assisted reporting techniques to enhance their investigative prowess in areas like political analysis and crime reporting.",
+            "summary": "Carlos Subero, a Venezuelan journalist, introduced computer-assisted reporting (CAR) in his country with unique political analyses using SPSS software, inspiring other Latin American journalists.",
             "keywords": [
+                "Venezuela",
                 "journalism",
-                "Latin America",
                 "CAR"
             ]
         },
         {
             "year": 1997,
             "month": "October",
-            "headline": "Busted Tracking Bankruptcy",
+            "headline": "Busted: Tracking bankruptcy",
             "author_name": "Stefan Lisinski",
             "author_title": "Dagens Nyheter",
-            "summary": "Stefan Lisinski investigates the correlation between bankruptcy and economic criminality in Sweden, using data analysis to reveal how bankruptcy is used by criminals as a business tool.",
+            "summary": "An investigation into bankruptcy abuse in Sweden reveals it as a tool for economic criminality, highlighting challenges in proving cases and detailing involved business networks.",
             "keywords": [
                 "bankruptcy",
                 "Sweden",
-                "crime"
+                "economic criminality"
             ]
         },
         {
             "year": 1997,
             "month": "October",
-            "headline": "Tax Investigation",
+            "headline": "Tax Investigation: Analyzing property tax",
             "author_name": "Neill A. Borowski",
             "author_title": "The Philadelphia Inquirer",
-            "summary": "An in-depth analysis of property tax trends in New Jersey reveals significant increases during the 1990s, conducted with computer-assisted reporting methods.",
+            "summary": "An economic analysis using CAR tools examined New Jersey's property tax burden in light of gubernatorial policies, revealing significant insights into tax and income dynamics.",
             "keywords": [
-                "tax",
+                "property tax",
                 "New Jersey",
-                "property"
+                "economic analysis"
             ]
         }
     ]

@@ -1,43 +1,13 @@
 {
-    "stories": [
-        {
-            "year": 1996,
-            "month": "March",
-            "headline": "Computer-assisted reporting turns on more TV journalists",
-            "author_name": "Mike Wendland",
-            "author_title": "TV Journalist, WDIV-TV Detroit",
-            "summary": "Broadcast journalists are increasingly adopting computer-assisted reporting, using online resources and data tools to enhance their storytelling capabilities on-air.",
-            "keywords": [
-                "broadcasting",
-                "reporting",
-                "journalism"
-            ]
-        },
-        {
-            "year": 1996,
-            "month": "March",
-            "headline": "A look at old, decaying dams",
-            "author_name": "Stan Dorsey",
-            "author_title": "NICAR Staff",
-            "summary": "Dateline NBC uncovers the risks posed by aging, under-inspected dams across the United States, following a detailed investigation into dam safety.",
-            "keywords": [
-                "safety",
-                "dams",
-                "investigation"
-            ]
-        },
-        {
-            "year": 1996,
-            "month": "March",
-            "headline": "Radio tunes into CAR",
-            "author_name": "Glaston Ford",
-            "author_title": "NICAR Staff",
-            "summary": "Radio journalists are leveraging computer-assisted reporting for efficient data analysis, facilitating quicker and more insightful reporting on air.",
-            "keywords": [
-                "radio",
-                "data",
-                "reporting"
-            ]
-        }
+    "year": 1996,
+    "month": "March",
+    "headline": "Computer-assisted reporting turns on more TV journalists",
+    "author_name": "Mike Wendland",
+    "author_title": "WDIV-TV Detroit",
+    "summary": "The article discusses the growing adoption of computer-assisted reporting (CAR) among broadcasters, illustrating through anecdotes how TV journalists are applying these techniques to enhance storytelling and investigative reports.",
+    "keywords": [
+        "broadcast",
+        "journalists",
+        "CAR"
     ]
 }

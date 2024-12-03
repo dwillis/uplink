@@ -1,43 +1,13 @@
 {
-    "stories": [
-        {
-            "year": 1995,
-            "month": "January",
-            "headline": "Restaurants on CAR Menu",
-            "author_name": "Mike Wendland",
-            "author_title": "WDIV-TV, Detroit",
-            "summary": "Mike Wendland discusses the investigative process and public response to a CAR project on Detroit's unsanitary restaurants.",
-            "keywords": [
-                "Detroit",
-                "restaurants",
-                "hygiene"
-            ]
-        },
-        {
-            "year": 1995,
-            "month": "January",
-            "headline": "Lessons from Parking Database",
-            "author_name": "David Armstrong",
-            "author_title": "The Boston Globe",
-            "summary": "David Armstrong explores the revelations from analyzing Boston's parking ticket database, including overpayment issues and enforcement patterns.",
-            "keywords": [
-                "Boston",
-                "parking",
-                "database"
-            ]
-        },
-        {
-            "year": 1995,
-            "month": "January",
-            "headline": "Successes with EPA Databases",
-            "author_name": "Seth Hamblin",
-            "author_title": "NICAR Staff",
-            "summary": "Seth Hamblin highlights effective uses of EPA databases for environmental reporting, emphasizing their value for enterprise stories.",
-            "keywords": [
-                "EPA",
-                "database",
-                "environment"
-            ]
-        }
+    "year": 1995,
+    "month": "January",
+    "headline": "Restaurants on CAR Menu",
+    "author_name": "Mike Wendland",
+    "author_title": "Reporter, WDIV-TV, Detroit",
+    "summary": "This piece discusses a computer-assisted reporting project that investigated restaurant sanitation in metropolitan Detroit. The project identified hundreds of unsanitary establishments, including some high-profile eateries, through systematic data collection and analysis of inspection scores.",
+    "keywords": [
+        "restaurant",
+        "sanitation",
+        "Detroit"
     ]
 }

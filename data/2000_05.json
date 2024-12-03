@@ -1,43 +1,13 @@
 {
-    "stories": [
-        {
-            "year": 2000,
-            "month": "May",
-            "headline": "CAR ON DEADLINE - The daily grind",
-            "author_name": "Neil Reisner",
-            "author_title": "The Miami Herald",
-            "summary": "The article discusses the importance of preparation in computer-assisted reporting, emphasizing the necessity of knowing what data is available and how to employ it efficiently under deadlines.",
-            "keywords": [
-                "computer-assisted",
-                "reporting",
-                "preparation"
-            ]
-        },
-        {
-            "year": 2000,
-            "month": "May",
-            "headline": "Who's teaching our kids?",
-            "author_name": "Chris Cantergiani",
-            "author_title": "WSB-TV Channel 2/Atlanta",
-            "summary": "The investigation reveals that many educators in Georgia have criminal records and that the verification systems in place are inadequate. It highlights the importance of background checks for school employees.",
-            "keywords": [
-                "teachers",
-                "criminal",
-                "background"
-            ]
-        },
-        {
-            "year": 2000,
-            "month": "May",
-            "headline": "Railroad safety",
-            "author_name": "Trebor Banstetter",
-            "author_title": "The Palm Beach Post",
-            "summary": "An exploration into the safety of railroad crossings, using federal databases to highlight poor safety records in Palm Beach County and uncover reasons for frequent crashes.",
-            "keywords": [
-                "railroad",
-                "safety",
-                "databases"
-            ]
-        }
+    "year": 2000,
+    "month": "May",
+    "headline": "The daily grind",
+    "author_name": "Neil Reisner",
+    "author_title": "The Miami Herald",
+    "summary": "Driving computer-assisted reporting requires preparation, akin to practicing for a concert. It involves anticipating and analyzing available data to enhance reporting on deadline.",
+    "keywords": [
+        "CAR",
+        "reporting",
+        "data"
     ]
 }

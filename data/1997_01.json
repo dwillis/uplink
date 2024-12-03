@@ -1,68 +1,81 @@
 {
-    "articles": [
+    "stories": [
         {
             "year": 1997,
             "month": "January",
-            "headline": "Spy vs. Spy: Dig for on-line gold",
+            "headline": "Spy vs. Spy - How to Background a Subject Using Online Resources",
             "author_name": "Neil Reisner",
-            "author_title": "The Miami Herald",
-            "summary": "This article discusses the use of online resources for background checks, exploring Web resources, commercial services, and data brokers. It highlights the importance of online databases and resources like Lexis/Nexis, Dialog, and Dow Jones News Service as vital tools for journalists.",
+            "author_title": "Miami Herald Journalist",
+            "summary": "Explores various online resources and techniques for journalists to efficiently background a subject, highlighting the importance of expanding beyond traditional resources.",
             "keywords": [
-                "backgrounding",
-                "online resources",
-                "journalism"
+                "online research",
+                "journalism",
+                "backgrounding"
             ]
         },
         {
             "year": 1997,
             "month": "January",
-            "headline": "Backgrounding sites",
+            "headline": "Digging Online: A Guide to Utilizing Web and Commercial Services",
             "author_name": "Neil Reisner",
-            "author_title": "The Miami Herald",
-            "summary": "The piece lists several useful websites for reporters to begin backgrounding people and businesses online, featuring sites maintained by experts in news research.",
+            "author_title": "Miami Herald Journalist",
+            "summary": "Provides a comprehensive look at the tools available for online research, including commercial databases and emerging internet sites, to aid journalists in their investigative endeavors.",
             "keywords": [
-                "backgrounding",
-                "websites",
-                "reporters"
+                "web tools",
+                "commercial databases",
+                "investigative"
             ]
         },
         {
             "year": 1997,
             "month": "January",
-            "headline": "Find it on CD-ROM",
+            "headline": "Finding Gold Online: Suggestions for Effective Digital Backgrounding",
+            "author_name": "Neil Reisner",
+            "author_title": "Miami Herald Journalist",
+            "summary": "Offers insights and practical tips on how journalists can harness online resources, including search engines and data brokers, for effective background checks.",
+            "keywords": [
+                "effective search",
+                "data brokers",
+                "online tools"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "January",
+            "headline": "Handout of the Month: Discovering Research Resources on CD-ROM",
             "author_name": "Jennifer LaFleur",
-            "author_title": "San Jose Mercury News",
-            "summary": "This handout provides a comprehensive list of CD-ROM resources for journalists, suggesting alternatives to spending time at courthouses or ordering faxes for background information.",
+            "author_title": "San Jose Mercury News Journalist",
+            "summary": "Highlights the value of CD-ROMs as a key resource for journalists conducting background research, providing a list of useful directory discs and databases.",
             "keywords": [
                 "CD-ROM",
-                "resources",
-                "journalism"
+                "research",
+                "resources"
             ]
         },
         {
             "year": 1997,
             "month": "January",
-            "headline": "Pushing the bridge limits",
-            "author_name": "Dave Sheingold",
-            "author_title": "Westchester Rockland News",
-            "summary": "The article details an investigation into the violation of weight limits on bridges in New York\u2019s suburbs, discovering potential for disasters due to overlooked signage and enforcement.",
-            "keywords": [
-                "bridges",
-                "weight limits",
-                "investigation"
-            ]
-        },
-        {
-            "year": 1997,
-            "month": "January",
-            "headline": "Pawnshops draw criminals",
+            "headline": "Pawnshops and Crime Analysis in Fort Lauderdale",
             "author_name": "Scott Glover",
-            "author_title": "Fort Lauderdale Sun-Sentinel",
-            "summary": "This report explores the correlation between high crime rates and the prevalence of pawnshops in Fort Lauderdale, highlighting cases where frequent pawners have extensive criminal records.",
+            "author_title": "Fort Lauderdale Sun-Sentinel Journalist",
+            "summary": "Investigates the relationship between the proliferation of pawnshops in Fort Lauderdale and the high property crime rate, uncovering a link to criminal activity.",
             "keywords": [
                 "pawnshops",
                 "crime",
                 "investigation"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "January",
+            "headline": "Bridge Weight Limits: Threats Under Heavy Load",
+            "author_name": "Dave Sheingold",
+            "author_title": "Westchester Rockland News Journalist",
+            "summary": "Examines the dangers posed by overweight vehicles on bridges with low weight limits in New York suburbs, revealing potential infrastructural vulnerabilities.",
+            "keywords": [
+                "bridge safety",
+                "heavy load",
+                "infrastructure"
             ]
         }
     ]

@@ -1,55 +1,55 @@
 {
-    "stories": [
+    "articles": [
         {
             "year": 2003,
-            "month": "January/February",
-            "headline": "Get set for 2003 CAR Conference",
+            "month": "February",
+            "headline": "Get set for 2003 CAR conference",
             "author_name": "Brant Houston",
             "author_title": "IRE and NICAR",
-            "summary": "Overview of the upcoming Annual Computer-Assisted Reporting Conference, highlighting panels, workshops, and training sessions planned for Charlotte, N.C.",
+            "summary": "Highlights of the upcoming Annual Computer-Assisted Reporting Conference in Charlotte, NC, including hands-on classes and workshops.",
             "keywords": [
-                "conference",
                 "CAR",
+                "conference",
                 "Charlotte"
             ]
         },
         {
             "year": 2003,
-            "month": "January/February",
+            "month": "February",
             "headline": "Databases show implant troubles",
             "author_name": "Robert Gebeloff",
-            "author_title": "The Newark, N.J. Star-Ledger",
-            "summary": "Investigation into medical implants using FDA data, highlighting issues with regulatory systems and the scope of implant failures.",
+            "author_title": "The (Newark, N.J.) Star-Ledger",
+            "summary": "Analysis of FDA data reveals issues with medical implants and regulatory system flaws.",
             "keywords": [
                 "medical",
                 "implants",
-                "FDA"
+                "regulation"
             ]
         },
         {
             "year": 2003,
-            "month": "January/February",
+            "month": "February",
             "headline": "Digging into health, medicine",
             "author_name": "Megan Christensen",
             "author_title": "IRE and NICAR",
-            "summary": "Exploration of databases related to medicine and health for investigative reporting, with a focus on medical errors and patient safety.",
+            "summary": "Overview of investigative techniques for reporting on medical errors and patient care using various databases.",
             "keywords": [
                 "health",
                 "medicine",
-                "errors"
+                "investigation"
             ]
         },
         {
             "year": 2003,
-            "month": "January/February",
+            "month": "February",
             "headline": "Open Source: Free, but worth the cost?",
             "author_name": "David Herzog",
             "author_title": "NICAR and Missouri School of Journalism",
-            "summary": "Evaluation of free open-source software packages for journalism, with insights on utility and performance for computer-assisted reporting.",
+            "summary": "Exploration of open-source software in the newsroom, assessing its capabilities for journalism.",
             "keywords": [
                 "open-source",
                 "software",
-                "journalism"
+                "newsroom"
             ]
         }
     ]

@@ -1,55 +1,42 @@
 {
     "stories": [
         {
-            "year": 2004,
+            "year": "2004",
             "month": "March-April",
             "headline": "Finding 'missing' kids",
             "author_name": "Marc Chase",
             "author_title": "The Times (Munster, Ind.)",
-            "summary": "The investigation revealed that many children listed as missing in Indiana's Clearinghouse were not missing, exposing flaws in police follow-ups.",
+            "summary": "A data investigation revealed that at least 10% of children listed as missing in a circulation area were not missing at all due to police oversight. This led to uncovering flaws in the state's system.",
             "keywords": [
-                "missing children",
-                "Indiana",
+                "missing",
+                "children",
                 "investigation"
             ]
         },
         {
-            "year": 2004,
+            "year": "2004",
             "month": "March-April",
             "headline": "Survey helps explain heart attack survival",
             "author_name": "Robert Davis",
             "author_title": "USA Today",
-            "summary": "A discrepancy in city survival rates for cardiac arrest is examined, attributing differences to dismissive explanations by officials.",
+            "summary": "An investigation into varying cardiac arrest survival rates across cities highlighted how some save substantially more victims due to differing emergency response capabilities.",
             "keywords": [
                 "heart attack",
-                "survival rates",
-                "emergency response"
+                "survival",
+                "emergency"
             ]
         },
         {
-            "year": 2004,
+            "year": "2004",
             "month": "March-April",
             "headline": "Making the connection between doctors, ODs",
             "author_name": "Fred Schulte",
             "author_title": "South Florida Sun-Sentinel",
-            "summary": "The series 'Drugging the Poor' revealed that certain Florida doctors prescribed excessive narcotics to Medicaid patients, leading to overdose deaths.",
+            "summary": "A series exposed Florida doctors prescribing large quantities of narcotics to low-income Medicaid users, leading to high financial costs and overdose deaths.",
             "keywords": [
-                "drug abuse",
-                "Medicaid",
-                "overdose"
-            ]
-        },
-        {
-            "year": 2004,
-            "month": "March-April",
-            "headline": "Mapping a new look at presidential results",
-            "author_name": "Robert David Sullivan",
-            "author_title": "CommonWealth",
-            "summary": "A new analysis of U.S. presidential elections identified 10 political regions across state lines, using voting and demographic data.",
-            "keywords": [
-                "political regions",
-                "elections",
-                "mapping"
+                "prescription",
+                "overdose",
+                "doctors"
             ]
         }
     ]
