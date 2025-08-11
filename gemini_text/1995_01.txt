@@ -1,0 +1,1004 @@
+==Start of OCR for page 1==
+January 1995
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+Uplink update
+We start the new year with
+articles that show the ways in
+which computer-assisted report-
+ing can be used on different beats
+and subjects.
+Mike Wendland, a TV re-
+porter, recounts the intense and
+widespread interest that stories
+on poorly-maintained restaurants
+can create. (After all, everyone
+eats.) Seth Hamblin interviews
+some of the better environmental
+reporters on how to use elec-
+tronic information. David
+Armstrong, a long-time Boston
+reporter, talks about the treasure
+trove of stories that a parking
+ticket databases offers.
+In addition, George Landau,
+a guru of cleaning dirty data,
+volunteers yet another clever way
+of standardizing the bothersome
+ways in which names appear in
+databases.
+In next month's issue, we plan
+to offer more variety by doing an
+overview of some of the best CAR
+stories that we saw in 1994.
+
+Inside
+Repaying tickets in Boston
+Pages 2-3
+Successes with EPA data-
+bases
+Pages 4-5
+Tech tips
+Pages 6-7
+Database Library keeps
+growing
+Page 7
+Bits, Bytes and Barks
+Page 8
+
+Detroit inspection data provides bite
+Restaurants on CAR menu
+By Mike Wendland
+WDIV-TV, Detroit
+Viewer response and e-mail are still
+coming in, weeks after our CAR (com-
+puter-assisted reporting) project on
+metropolitan Detroit's dirtiest restau-
+rants hit the air last fall.
+From start to finish, the project took
+about two months, with all but a week
+or so taken up by data acquisition and
+analysis. Fleshing out the people part of
+the stories finding the food poison-
+ing victims and confronting the restau-
+rant owners - was the easy part.
+Restaurant inspections are handled
+by county health departments. In our
+case, we had three separate counties
+regulating restaurant sanitation and two
+municipalities operating their own
+health departments. That meant we had
+five agencies to deal with, none of which
+kept the data we needed in electronic
+form.
+What made the project feasible for
+us, however, was the standard inspec-
+tion form each health department sani-
+tarian filled out during the inspection.
+The form called for a rating to be
+given to each establishment. The rating
+was determined by subtracting stan-
+dardized points for each violation from
+a perfect score of 100. Anything less
+than 70 was considered unsanitary.
+So we knew we had a measuring
+stick something that could compare
+a restaurant in one jurisdiction to a
+restaurant in another. The problem was
+that there were too many "others." More
+than 10,000 restaurants are in business
+in metropolitan Detroit. We wanted to
+find the worst
+Our approach was to review the
+most recent inspection reports for each
+restaurant. We designed our own
+FoxPro table and took laptops into the
+offices to enter the data on each eating
+place that scored 70 or below. While
+gathering the raw data we went online
+and sent a query out on Profnet look-
+ing for experts in the field of restau-
+rant sanitation. From that research,
+we learned that a single low score can
+sometimes be attributed to the inspec-
+tor simply arriving at the wrong time
+on the wrong day.
+The only way to be fair, the experts
+said, was to look for patterns-con-
+sistently low scores over a period of
+time. We decided to revise the table
+and include the last three inspections,
+which covered an 18-month period.
+Back at the office, we later aver-
+aged and sorted our list of "dirty" res-
+taurants. From just over 10,000 res-
+taurants, our list of problem, or un-
+sanitary establishments totaled 224.
+There were plenty of surprises. Top
+gourmet restaurants, trendy yuppie
+eateries in the suburbs and a popular
+downtown Cajun restaurant all made
+the list of dirty restaurants. So did
+
+Continued on page two
+
+Coming Events
+March 12-17, 1995
+NICAR Seminar
+Columbia, Missouri
+May 14-19, 1995
+NICAR Seminar
+Columbia, Missouri
+==End of OCR for page 1==
+==Start of OCR for page 2==
+Uplink
+January 1995
+Volume 7, Number 1
+A newsletter for the
+National Institute for
+Computer-Assisted
+Reporting
+
+Editor
+Brant Houston
+jourjbh@
+mucemail missouri.edu
+Managing Editor
+Matt Reavy
+598895@mizzoul.missouri.edu
+Design Editor
+Jan Colbert
+Senior Contributing
+Editors
+Richard Mullins
+jourram@mucemail.missouri.edu
+Jennifer LaFleur
+jourjal@mucemail missouri.edu
+Contributing Editors
+Rosemary Armao
+Tracy Barnett
+Staff
+Drew Sullivan,
+Wallace Winfrey, Padraic
+Cassidy, John Anglim
+and Gwen Carleton
+Uplink is published every
+month by the National
+Institute for Computer-
+Assisted Reporting,
+P.O. Box 838
+Columbia, MO 65205.
+(314) 882-0684.
+Subscription price is $30
+(U.S.) annually, $40
+outside the United States.
+Postmaster: Please send
+address changes to
+NICAR.
+
+NICAR is a joint effort
+of Investigative
+Reporters and Editors
+and the University of
+Missouri School of
+Journalism with the
+mission of bringing the
+journalism industry into
+the 21st Century.
+NICAR services include
+hands-on newsroom
+training seminars in
+computer-assisted
+reporting, special
+academic and advanced
+training at Missouri,
+data analysis and
+advice.
+NICAR is supported by
+a grant from The
+Freedom Forum
+intended to help the
+institute deliver its
+services nationwide to
+news organizations and
+associations.
+
+Lessons from parking database never expire
+Repaying tickets in Boston
+By David Armstrong
+The Boston Globe.
+Parking in Boston is often compared to a trip
+to the dentist: It can be painful and expensive.
+The city of Boston, not unlike scores of other
+cities across the country, dispatches meter maids
+to aggressively prowl the clogged city streets
+and hand out thousands of parking tickets each
+day.
+Since everybody hates parking tickets, the
+Boston Herald (where I used to work) decided a
+year ago to request a copy of the city's parking
+ticket database. We had a number of stories in
+mind when requesting the database. We wanted
+to know what areas of the city were ticketed
+most frequently, which areas were avoided by
+ticket writers and why, who were the scofflaws
+and who was having their tickets dismissed or
+taken care of.
+The database of 3.5 million records on 26 9-
+track tapes proved helpful for those ideas and
+more.
+In fact, the most surprising information on
+the database was something we had never con-
+sidered. The city had collected more than $2
+million in overpayments from unwitting parking
+violators. This information proved to be wildly
+popular with the motoring public.
+The newspaper published a list of those
+companies and individuals owed the most money
+by the city because of overpayments. The over-
+payments were the result of errors by the city in
+recording license plate numbers, overlapping
+overdue notices and poor bookkeeping by park-
+ing violators who paid for the same ticket twice.
+Embarrassed parking officials were forced
+to admit they knew about the overpayments for
+years, but did nothing to return the money. The
+same officials set up a hotline to refund the
+money after the story appeared.
+The mayor ordered that printouts of the
+60,000 companies and individuals owed money
+for overpayments be placed in every city library
+for public inspection. Two months after the first
+story was published, the city had returned $1
+million to parking violators.
+The database provided by the city of Boston
+actually came from a city vendor - Lockheed
+Information Services. Lockheed maintains the
+same records for many large and midsize cities
+
+Restaurants: Continued from page one
+plenty of Coney islands, Chinese restau-
+rants and some of the well-known chains.
+As we entered the data at the health
+department, we created a memo field in the
+FoxPro table, using it to record food-borne
+illness reports, customer complaints and no-
+table problems like cockroaches floating in
+water glasses, bugs in food, sewerage backed
+up on the kitchen floor and other disgusting
+things you'll be glad we didn't mention if
+you're reading this at lunch time. That led us
+to the people stories that fleshed out the
+statistics.
+Our I-team series aired on the 11 p.m.
+news. We won the time period all four nights.
+The series was the talk of the town for weeks
+on the morning drive-time radio shows and
+the newspaper on-the-town columns.
+We invited viewers to write in for a list.
+We received some 8,000 letters. We also
+made the lists available by e-mail and elec-
+tronically sent out another 1,000.
+And then there was this postscript: The
+Detroit area restaurant with the absolutely
+lowest score — a 40 — was owned by the
+suburban chef who we did a weekly "gour-
+met-on-the go" report on our noon news. I
+ended up interviewing him about his prob-
+lems after he stepped off the set. "Go" he
+did. He is no longer working for the station.
+Note: For additional information on cov-
+ering restaurants and health department
+data see "Dining on eatery data" by Dan
+Browning in the March 1994 issue of Up-
+link.
+
+Mike Wendland is the head of the I-Team
+for WDIV-TV in Detroit. He attended the
+August 1994 NICAR "boot camp" for com-
+puter-assisted reporting. He can be reached
+by e-mail at mikew@wdiv.com.
+
+2
+==End of OCR for page 2==
+==Start of OCR for page 3==
+across the country.
+The database has fields indicating the loca-
+tion of the ticket, who wrote it, the amount, the
+amount of overdue charges, whether or not the
+ticket was dismissed, the registration number
+of the ticketed vehicle and more.
+The size of the file - 1.7 gigabytes - pre-
+sented some problems. The data was analyzed
+on a Gateway 486 PC with an 800 megabyte
+hard drive. Using Nine-track Express, I heavily
+filtered the data to bring in only the informa-
+tion I absolutely needed.
+Using FoxPro, I would look at 300 to 400
+megabyte chunks. For instance, when looking
+at who had tickets dismissed, I brought in only
+the fields for dismissal, name, amount, location
+and date. This cut the record length more than
+70 percent. The hardest part of this endeavor,
+it turned out, was getting the tapes in the first
+place (see sidebar).
+Spending three weeks analyzing and play-
+ing with the data also drove home another
+point: Reporters should always do their own
+computer work, even if it is with the assistance
+of a more experienced or skilled programmer.
+Several story ideas were born from the long
+and often painful task of learning the database
+and attempting to analyze it.
+In addition to the discovery that tens of
+thousands of motorists were overpaying the
+city for tickets, here are some of the other
+stories that resulted from analyzing the data-
+base:
+- The police officer assigned to drive former
+Mayor Raymond Flynn had every parking
+ticket issued to his personal car, a 1987 Jag-
+uar, dismissed. The tickets totalled $355.
+- Widely hated meter maids, who endure
+the curses and shouts of angry ticket recipi-
+ents, are major money makers for the city. We
+found one meter maid had written 15,210
+tickets totalling $516,000 in just one year of
+work. The same meter maid was paid $433 a
+week for her work.
+- We were able to produce a chart show-
+ing readers the 40 locations in Boston that
+would most likely result in your car getting a
+ticket.
+- Rental car companies were the biggest
+scofflaws in the city. Two companies owed the
+city a combined $1 million for parking tickets
+amassed by rental drivers who never paid up.
+(David Armstrong moved from The Herald to
+The Globe in 1994. He can be reached at 617-
+929-2539 or through e-mail at armstr@news.
+globe. com.)
+
+A Lesson on obtaining data
+It took three years for the Boston Herald to obtain a copy of
+the city's parking ticket database on 9-track tapes.
+The city only complied with the request when it was threatened
+with legal action by the state attorney general, who is charged with
+enforcing the state's public records law.
+In repeatedly rejecting the Herald's request, the city maintained
+it had the right to decide the form of any response to a public
+records request. In that vein, the city offered to provide the parking
+records in paper form at great cost to the newspaper. The state's
+public records law, which is modeled after the federal FOIA, does
+not provide government agencies the option of responding this
+way.
+Until recently, the city of Boston uniformly refused to comply
+with any requests for records in electronic form. In most of these
+cases, the city would offer a mile-long printout of paper as an
+alternative. In fact, city workers once delivered boxes of documents
+to the Herald newsroom after a reporter specifically requested the
+information on 9-track tape.
+It should be noted that the city's top computer manager also
+served as the mayor's pollster. That combination of computer
+knowledge and political savvy may explain the city's reluctance to
+help the media and others gain access to computerized records.
+- David Armstrong
+
+Parking tickets offer wealth of stories
+Whether you're a CAR novice or an old pro, city parking ticket
+records offer a wealth of story opportunities.
+Ron Brown of the Roanoke Times & World-News investigated his
+city's "Car Wars" in a series published earlier this year. (Call the IRE/
+NICAR resource center, 314-882-2042 for a copy.) With the help of
+computerized municipal records, Brown found how much Roanoke
+is earning from parking tickets, how many it dismisses, and the top 10
+blocks for parking violations. Other statistics included the top
+grossing police officers and a list of the most common types of
+violations.
+Meanwhile, police officers and local business owners contributed
+anecdotes and color with their tales of furious motorists and creative
+scofflaws.
+But even better, Brown also found a few surprises on his list of
+frequent offenders.
+At the top of the list was Roanoke's Chief Assistant Common-
+wealth Attorney Betty Jo Anthony — someone, Brown wrote, who
+makes a living enforcing the rules.
+And before she could be identified, Times & World-News columnist
+Kathleen Wilson stepped forward with her own admission of
+excessive fines.
+- Gwen Carleton
+Nicar staff
+
+3
+==End of OCR for page 3==
+==Start of OCR for page 4==
+Environment & CAR
+Successes with EPA databases
+By Seth Hamblin
+NICAR Staff
+With government data available on every-
+thing from endangered birds to the quality of
+the air through which they fly, there's no limit
+to the enterprise stories an environmental re-
+porter can craft. Some reporters say that be-
+cause of the amount, variety and accessibility of
+these databases, the environment is better suited
+for computer-as-
+sisted reporting than
+any other beat. Their
+consistent success in
+using environmental
+databases shows
+they're probably
+right.
+
+EPA sources
+Federal EPA databases can provide environmental re-
+porters with countless enterprise stories. However, report-
+ers who have used these databases say state and local
+databases often are easier to get and have more recent data
+than their federal counterparts.
+Here are some of the EPA databases environmental
+reporters have found useful. They can be acquired with a
+Freedom of Information Act request. If the cost is too high,
+call NICAR, 314-882-0684, and we might be able to offer it
+at a lesser price.
+
+Emergency Response Notification System
+ERNS contains notifications of oil and hazardous chemical
+spills. Fields in the database include name of discharger, date
+of release; material released; cause of release; amount
+released; source of release; damages, injuries or deaths; and
+incident location.
+Sponsoring department: Emergency Response Division
+Contact: Dana Stalcup
+Telephone: (703) 603-8735
+Information line: (202) 260-2342
+
+Permit Compliance System
+PCS contains information on more than 65,000 industrial
+facilities that hold National Pollution Discharge Elimination
+System permits, which allow the facilities to discharge
+wastewater. Fields include facility name, permit limit, viola-
+tion and enforcement actions.
+Sponsoring department: Office of Water
+Contact: Mike Mundell
+Telephone: (202) 564-5031
+Information line: (703) 908-2680
+
+Aerometric Information Retrieval System
+AIRS contains records on emissions and compliance data for
+industrial plants as well as ambient air quality data for
+geographical areas.
+Sponsoring department: Office of Air and Radiation
+Contact: Andrea Kelsey
+Telephone: (919) 541-5549
+
+"Access EPA," the source of this list, can be found at
+the gopher site: gopher.epa.gov. "EPA Information
+Locators," "Access EPA."
+
+Toxic waste spills
+Dave Davis asked
+to cover the environ-
+ment when he joined
+the Plain Dealer in
+1990 because he
+knew the beat would
+give him plenty of
+chances to do CAR
+stories. One of his
+first CAR stories for
+the Plain Dealer,
+"Spills Chill Regula-
+tors," took about two
+weeks. Using XDB
+database manager
+software, Davis ana-
+lyzed the 1991 Ohio
+emergency response
+database, which
+comprises 5,589
+records on chemical
+spills. (NICAR has
+the U.S. emergency
+response database,
+ERNS, in its library.)
+"This was a per-
+fect database for us
+because Ohio has a
+lot of chemical emer-
+gencies. A lot of
+plants blow up,"
+Davis said.
+The database
+combines numerical fields with variable-length
+text fields. This mix helped Davis to flesh out
+statistics with colorful narratives.
+For instance, one record explained how a
+railroad switchman lost communication with
+an engineer when batteries failed in their two-
+way radios just as the train was switching tracks.
+The engineer backed the car into a storage tank,
+which spilled 800 gallons of a toxic chemical.
+The chemical ended up being flushed into the
+city's sewers.
+Davis discovered that 121 of the chemical
+spills in Ohio had been severe enough to threaten
+lives and property. Rarely did the companies
+report the spills to the Ohio Environmental
+Protection Agency, as is required by law. In-
+stead, mostly police or fire officials called in the
+accidents. Sometimes residents blew the whistle.
+
+Endangered species
+Fresno (Calif.) Bee reporter Russell Clemings
+recommended that when reporters "cast their
+net" for environmental stories, they should cast
+it wide enough to include computer data. When
+Clemings was researching "Struggle to Sur-
+vive," a series on endangered species in Califor-
+nia, he heard the 1987 amendment to the En-
+dangered Species Act required the federal Fish
+and Wildlife Service to compile a list of how
+much money was being spent to preserve each
+endangered species. He asked for a copy of the
+report.
+"I realized that what I was looking at was a
+computer printout," Clemings said. "So I asked,
+'Can you send me the disk, too?""
+Using a 286 computer and a DOS version of
+Paradox, Clemings grouped federal and state
+spending on each class of endangered species.
+He found that most funding went to birds or
+mammals that are attractive and well-known,
+such as bald eagles and gray wolves. Preserva-
+tion efforts discriminated against bugs, crusta-
+ceans and snails. Officials were particularly
+short-shrifting plants. They spent an average of
+66 times more per species on birds than plants
+- an average of $604,260 and $9,050, respec-
+tively. Spiders had it the worst of all. Officials
+spent an average of $500 per endangered spider
+species.
+Clemings said this data base could be adapted
+for any state or region. Reporters could find out
+from their states' wildlife departments which
+
+4
+==End of OCR for page 4==
+==Start of OCR for page 5==
+species on the list inhabit their areas. The re-
+porters then could focus on the species within
+the reporters' states or regions.
+
+Water pollution
+Before joining the Plain Dealer, Davis was a
+reporter at the Dayton (Ohio) Daily News,
+whose readers live near the banks of the Great
+Miami River and its tributaries. Davis ac-
+quired a U.S. EPA database on water pollution
+discharge permits to find out how much sludge
+was being pumped into the waterways.
+Not only was it a whole lot of sludge, it was
+a whole lot more sludge than the factories could
+legally dump under their National Pollution
+Discharge Elimination System permits.
+The records, compiled in the Permit Compli-
+ance System database, showed that state envi-
+ronmental regulators knew of the facilities'
+chronic violations but did little to to punish the
+businesses. Some of the violators were dump-
+ing up to several thousand times the amounts
+that their permits allowed. Many companies
+racked up hundreds of violations without pen-
+alty.
+To see if the computer data were reflected in
+the quality of the river's water, Davis canoed
+110 miles of the Great Ohio. What he saw and
+smelled confirmed what the numbers were tell-
+ing him.
+"We were going by one factory, and this
+shocking pink water was coming out of the
+pipes, turning the river pink," he said. The
+wastewater from the factory near Hamilton,
+Ohio, altered the color of the river for a mile.
+Further downriver near Franklin, Ohio, a mix
+of black incinerator ash and detergent ran down
+a trough into the water to turn it into a sickly
+green.
+
+Databases in dailies
+Scott Thurm, a reporter for the San Jose
+(Calif.) Mercury News, says environmental data-
+bases can be as handy for dailies as they are for
+enterprise stories. During the early morning on
+July 25, 1993, General Chemical Corp. in nearby
+Richmond, Calif., developed a leak in a tank
+containing sulfur dioxide. More than 2,000
+people sought treatment at hospitals for sting-
+ing eyes and sore throats.
+Thurm called the California EPA to get data
+on the types of toxics General Chemical pro-
+duced. By 11 a.m., Thurm had the entire Toxic
+Release Inventory profile of the company to
+provide background for the story.
+To prepare for chemical accidents such as
+this one, Adam Berliant, a database editor for
+the Tacoma (Wash.) News Tribune, set up the
+Toxic Release Inventory on a computer in the
+newsroom. Any reporter can type in the name
+of a company and come up with the kinds of
+chemicals it releases and the manufacturing.
+process in which it is involved. Unfortunately
+most reporters at the News Tribune fail to see its
+potential, and the database setup, while easy to
+operate, is rarely used, Berliant said.
+Thurm suggested looking for state data-
+bases rather than federal ones whenever pos-
+sible. TRI and ERNS, for instance, are first
+compiled by states and then sent to the U.S.
+EPA. Therefore, state databases are usually
+more up-to-date than their federal counter-
+parts.
+Another good reason to look on the state
+level, Clemings said, is that there are lots of
+obscure but useful state environmental data-
+bases waiting for reporters to discover them.
+His rule of thumb: If you get a document that
+looks like a computer table, ask for it on disk.
+
+How to deal with EPA data
+With just an old XT, shareware and a free database, you can create great
+environmental stories for your readership area.
+The EPA now gives out state Toxic Release Inventory databases as if they were
+candy. To get a state's TRI database mailed to you, call TRI user support at (202)
+260-1531. You will receive it within a couple of weeks.
+The data comes on 5 1/2-inch disks, so if you don't have this type of drive, swap
+the data onto 3 1/2-inch disks on another computer.
+Data jockeys at the EPA set up state TRI for easy import into almost any
+database program. If you don't already have a database program, you can to get
+a shareware database, such as PC-File, from a computer-users group, BBS or
+university computing service.
+Once the data is imported, separate the records by zip code and add the
+amount of chemicals released by all the companies within each zip code. This will
+show you which areas in your county or region have reported the most industrial
+pollution. You can then look at the companies which fall within the zip code areas
+with the highest amount of pollution to see which companies are emitting the
+most and worst pollutants.
+Present this information in a data map or create a list ranking the most polluted
+areas and the biggest polluters works.
+By calculating totals for the releases to air, water, on-site landfill, underground
+well injection and off-site hauling fields, you can show, in percentages, how
+industries in your area are disposing their waste.
+Each facility will have a field for its standard industrial code, which tells what
+sort of manufacturing they do, from making clothes to smelting metals. By totaling
+the amount of releases for each standard industrial code, you can rank the types
+of industries that pollute the most.
+Your reporting doesn't end with the data analysis. With the address of each
+facility included in the database, it easy to find the residents nearest the factories.
+The companies also file the name and telephone number of a contact person with
+whom you can confirm the data and ask whether attempts at pollution reduction
+are being made.
+(Some of the concepts for this sidebar were derived from Dave Davis' story
+"Industries Report Decreases," The Plain Dealer, December 11, 1991.)
+
+5
+==End of OCR for page 5==
+==Start of OCR for page 6==
+Tech Tips
+Editing data for consistency
+By George Landau
+St. Louis Post-Dispatch
+A lot of data analysis involves grouping and
+sorting-summing the expense reimbursements
+to a bunch of employees when you have the
+employees' names and addresses but not Social
+Security numbers, for example. Unless you're
+sure that Joseph Schmo's name is entered the
+same way for each reimbursement, and that his
+address is consistently spelled, you won't be
+able to get reliable totals.
+One dependable but very painful way to
+edit this stuff is to list the various values in a
+field — names, for example — and manually do
+search-and-replace on the database until
+everything's consistent. In FoxPro or another
+SQL database, you could start like this:
+select fullname, count(*);
+from expenses;
+group by 1;
+order by 1
+The query would return an alphabetized list
+of every way that a name is spelled in the entire
+database, along with the number of times each
+variation occurs. For example:
+FULLNAME
+CNT
+Landau, George 7
+Landau, George T 3
+Landau, George T. 2
+Landau, George Thomas 2
+Let's say you're certain these are all the
+same George Landau (remember, we can check
+addresses, also). You want to standardize, on
+the variation with the most info: "George Tho-
+mas Landau." To edit these the hard way, you
+could start typing commands like this:
+replace all fullname with "Landau, George
+Thomas" for fullname = "Landau, George"
+replace all fullname with "Landau, George
+Thomas" for fullname = "Landau, George T"
+replace all fullname with "Landau, George
+Thomas" for fullname = "Landau, George T."
+Fine, but there are 10,000 records in this
+database. You might not be done for another
+month. The absolute fastest way out of this
+mess involves some moderately complex
+FoxPro programming, if you really want to
+know, give me a call and I'll tell you how to do
+it. But without any fancy programming
+with only two keyboard macros, really - you
+can get the job done with a minimum of pain.
+
+Without any
+fancy
+programming
+- with only
+two keyboard
+macros,
+really -
+you can get the
+job done
+with a
+minimum of
+pain.
+
+Here's how:
+1. For reasons that will become clear as you
+read on, we need to get a list of every unique
+name into a FoxPro program file (*.prg), which
+is just a text file that contains a list of commands
+that will be executed in bulk, as if you had typed
+them all at once in FoxPro's command box. A
+query like this will do the job:
+select fullname;
+from expenses;
+group by 1;
+order by 1; [this line isn't actually neces-
+sary, since the 'group by' sorts alpha-ascending
+by default]
+to file CLEAN1.PRG nowait
+The last line of this query puts the results
+into the specified text file, as ordinary ASCII
+text. The 'nowait' clause prevents the process
+from halting at every screenful and forcing you
+to press a key to continue.
+2. Now let's edit the "program" you just
+created by typing in the Command box: modify
+command cleanl
+3. Delete the first few lines, down to and
+including the line that contains the field name
+heading. You'll also notice that each line starts
+with two spaces of padding, and ends with a lot
+of padding. We want to get rid of those extra
+spaces, which we can do by using the Find
+function off the Edit menu.
+First, get rid of all the leading spaces by
+searching for \r\n__ (these blanks represent
+two spaces) and replacing with \r\n \r\n is how
+you specify Carriage Return-LineFeed in
+FoxPro's Find dialog box). Then get rid of the
+trailing spaces by replacing \r\n with
+\r\n a few times; each time you get no matches,
+specify fewer trailing spaces until all are gone.
+This search-and-replace step can be tricky,
+so don't panic if you don't get it right the first
+time. Call me if you get stuck.
+4. Now we've got a list of every name varia-
+tion in the database, free of unwanted spaces.
+Our goal is to record two keyboard macros that
+will generate a REPLACE command for the
+names we want to change. Let's say you're
+looking at these entries again:
+Landau, George
+Landau, George T
+Landau, George T.
+Landau, George Thomas
+If you wanted to make the last one (Landau,
+
+6
+==End of OCR for page 6==
+==Start of OCR for page 7==
+George Thomas) the standard entry, click the
+cursor anywhere on that line. Here's where
+we'll record our first macro. First press shift-
+F10 to start the macro recorder. Specify a
+keystroke to assign the macro (I like Ctrl-Z,
+'cause I don't use it for anything else). Then
+click OK. Every key you press from now until
+you press shift-F10 again will be recorded
+mouse movements and clicks will be ignored.
+Press these keys (things in curly braces repre-
+sent special keys; don't actually type the braces
+or the word, just press the key or key-combo):
+(Home){Shift+End} {Ctrl+C}
+Now click shift-F10 again and click OK to
+stop recording the macro. Now whenever you
+press Ctrl-Z (or whatever keystroke you speci-
+fied for the macro), FoxPro will define what-
+ever line the cursor's on and copy all of it to the
+clipboard.
+Now click the cursor on the first line you
+want to change, "Landau, George.” Here's
+where we'll record our second macro. First
+press shift-F10 to start the macro recorder.
+Specify a keystroke to assign the macro (try
+something physically close to Ctrl-Z or what-
+ever you chose, like Ctrl-A). Then click OK.
+Once again, every key you press from now until
+you press shift-F10 again will be recorded —
+mouse movements and clicks will be ignored.
+Type these keys and characters (again, things
+in curly braces are special keys; don't actually
+type the braces or the word, just press the key
+or key-combo):
+(Home)replace all fullname with "{Ctrl+V}"
+for fullname = "{End}"
+Then press Shift-F10 again and click OK to
+stop recording the macro. Now whenever you
+press Ctrl-A (or whatever keystroke you speci-
+fied for the second macro), FoxPro will create
+a command to replace that line's contents with
+whatever's in the clipboard.
+5. Before you get down to business, you
+should save the macros so that you won't have
+to re-record them next time you run FoxPro.
+Pull down the Program menu and choose Mac-
+ros. You can either save these as part of the
+default macros, which are loaded whenever
+FoxPro is run, or under a new name that you
+can restore manually when you need to.
+6. Now for the truly thrilling part. To begin
+standardizing all those spellings, just position
+the cursor on an entry that you want to become
+the standard and click Ctrl-Z (the first macro
+you recorded). This copies the line to the clip-
+board. Then click on one of the lines you want
+changed to the standard, and click Ctrl-A (or
+the key for the second macro) to create a "re-
+place" command. Do this until you've made it
+all the way through the file. Then go through
+and delete any entries that weren't made into a
+"replace..." command. (Hint: if you're comfort-
+able going back and forth between text files and
+tables, as I described in the earlier part of this
+handout dealing with print images, you can
+append this program into a table and delete all
+the records that don't start with "replace", then
+copy it back to a text file).
+7. Before you go any further, make a backup
+copy of the table you're intending to edit.
+8. Then open up either the backup or the
+original and do the program you just created. If
+you called the file "cleanl.prg," you just need to
+type "do cleanl" in the Command box. This
+program may take a while to run if the database
+is large, because each "replace" command forces
+FoxPro to scan through all of the data. At least
+you're free to do something else, though.
+9. When it's done, your data will be stan-
+dardized. You can now do accurate grouping,
+summing and sorting.
+
+Database library keeps growing
+NICAR keeps adding to its database library. A partial list
+includes:
+■ Federal Aviation Administration service difficulty reports
+that show the history of problems that a plane had before it
+crashed.
+■ FBI crime data that allows you to do detailed analysis of
+crime in your community and state.
+■ Social security death records that you can use for stories that
+go beyond simple listing. The database also permits reporters to
+circumvent states that have closed their death records.
+■ Federal procurement contracts. This database can help you
+discover the impact of cuts in defense spending, or the amount of
+housing and office space federal agencies rent in your city, or the
+amount of toilet paper the feds purchased in your community, or
+the biggest federal contractors in your state.
+■ Home Mortgage Disclosure Act records that you use to look
+at disparities in minority lending.
+■ OSHA inspection safety records that show the most fre-
+quently cited employer in your state and what the work safety
+violations have been.
+■ Federal gun dealer records that show who is dealing in
+weapons or that a local police officer moonlights as a provider of
+guns to criminals.
+
+To request data, call NICAR at 314-882-0684 or E-Mail us at
+nicar@muccmail.missouri.edu
+
+7
+==End of OCR for page 7==
+==Start of OCR for page 8==
+Bits, Bytes and Barks
+Online environmental info in Canada
+Environment Canada's Green Lane (http://
+www.ns.doe.ca/how.html) provides a wide variety of
+regional and national environmental information, in-
+cluding:
+- the latest regional weather forecasts, satellite pho-
+tos, maps & radar images
+- the complete texts of many of its most popular
+national publications;
+- details about many regional and national initiatives
+and programs;
+- answers to some of the questions that Atlantic
+Canadians most frequently ask when they phone or write
+to the Department;
+- direct phone numbers of the Department's regional
+experts on numerous issues and initiatives;
+- details and documents regarding regional public con-
+sultation meetings;
+- news about regional public environmental events;
+- descriptions of the department's funding programs,
+including a guide on how to prepare funding proposals;
+- a list of the department's key publications available to
+order;
+- copies of its recent regional press releases and an-
+nouncements;
+- the complete text of its environmental legislation,
+regulations, guidelines, codes of good practice, and related
+policies;
+- details about its key regional federal/provincial agree-
+ments; and
+- descriptions of its mission, roles, responsibilities and
+organizational structure.
+
+Overview of 1994 CAR stories
+Uplink will do an overview of 1994's CAR stories in the
+February issue, but here's a sample of articles we've re-
+cently received:
+
+- Athree-part series on suicide by (Tacoma, WA) News
+Tribune, using Washington state death records.
+
+- A three-part series on elevator safety in Massachu-
+setts by The Boston Globe, using elevator inspection records.
+
+- An investigation by New York Newsday into parking
+tickets that found the city owed $18 million to more than
+600,000 motorists, using a parking ticket database. (See
+parking ticket story on page two.)
+
+- An eight-part series on crime and punishment by The
+Miami Herald, using FBI Uniform Crime Report data, crimi-
+nal justice databases, and 87 reports from the U.S. Bureau
+of Justice Statistics.
+
+- A four-part series, "Starving the Wife," by The Char-
+lotte Observer on how divorcing spouses take advantage of
+flawed state laws and poorly monitored courts. The Ob-
+server used court records to document long delays in cases.
+
+- An investigation by the The Plain Dealer in Cleveland,
+OH, into thousands of unnecessary C-sections, using Ohio
+birth records.
+
+Copies of these articles can be obtained through NICAR by
+calling 314-882-2042.
+
+Investigative Reporters and Editors, Inc.
+100 Neff Hall
+University of Missouri
+School of Journalism
+Columbia, MO 65211
+
+NON-PROFIT ORG.
+U. S. POSTAGE
+PAID
+PERMIT NO. 309
+COLUMBIA, MO 65211
+==End of OCR for page 8==

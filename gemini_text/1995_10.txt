@@ -1,0 +1,541 @@
+==Start of OCR for page 1==
+October 1995
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+Uplink update
+
+For those who rocked in Cleve-land, we salute you.
+
+CAR Rock '95, held last month, further showed what computer-as-sisted reporting means for journal-ism.
+
+Nearly 500 reporters from the United States and elsewhere at-tended the four-day event. The con-ference included more than 60 pan-els that ranged from crunching num-bers to cleaning data. There were also more than 80 hands-on training sessions, showing the ins and outs of the Internet, spreadsheets and database programs.
+
+The quality was higher and the subject more advanced than ever before. The pros learned, and so did beginners. The Cleveland Plain Dealer was a terrific host. And there was even a peek into the Rock and Roll Hall of Fame.
+
+For those who missed the event, NICAR and Investigative Report-ers and Editors offer handouts, story reprints, and audio tapes from the panels. Stay tuned for the next one.
+
+Inside
+Accessing Access
+Page 2
+Patented ideas
+Page 4
+Tracking who a city hires
+Page 6
+Bits, Bytes and Barks
+Page 8
+
+Tracking military justice
+Prisoners hit pay dirt
+
+By Jo Craven
+NICAR staff
+
+Crime may not pay, but military im-prisonment often does.
+
+That's what Dayton Daily News re-porters Russell Carollo and Cheryl Reed discovered when they found that hun-dreds of soldiers and sailors convicted of serious crimes collect paychecks while in prison.
+
+Using at least five computer data-bases, Carollo and Reed revealed that in June 1994 alone, 680 military convicts collected salaries totaling more than $1 million of taxpayers' money.
+
+Meanwhile, victims, who had been raped, beaten or murdered, and their families received nothing, not even the restitution generally awarded in civilian courts.
+
+'With pay in it'
+
+Carollo sniffed out the story after becoming intrigued with the military justice system. Then, serendipity and a reporter's instinct—intervened. While ordering a database of military prison-ers, Carollo was asked if he wanted the field "with the pay in it."
+
+As a result, Carollo and Reed spent five months investigating.
+
+The military provided requested records slowly but with little resistance. The reporters obtained four databases from the Defense Finance and Account-ing Service, which pays military mem-bers. These were cross-referenced with databases from the Army and Air Force, which revealed omissions in the DFAS data.
+
+They also used prisoner databases, court-martial files and other pay reports.
+
+With the help of researcher Veronica Szente, the reporting team combined the information into a database they built themselves, correcting faulty military data as they went along.
+
+"It was dirty data right from the start," Szente said. "I had to do a lot of manipulation." Extraneous characters,
+Continued on page six
+
+Mapping branches
+Look where banks aren't
+
+By Paul D'Ambrosio
+Asbury Park (N.J.) Press
+
+To understand bankers, you have to first think like one. That is what the Asbury Park Press tried to do when it set out to study bank-ing behavior in New Jersey.
+
+Bankers are fond of telling us that they build branches where there is the most business. Race and other basic demographics don't matter at all, they say, as long as there is money to be made.
+
+That isn't what we found.
+
+In order to compare apples with apples, I overlaid bank location data with commercial business data borrowed from our marketing de-
+
+Continued on page seven
+==End of OCR for page 1==
+
+==Start of OCR for page 2==
+Uplink
+October 1995
+Volume 7, Number 10
+A newsletter for the
+National Institute for
+Computer-Assisted
+Reporting
+
+Editor
+Brant Houston
+jourjbh@muccmail.missouri.edu
+Managing Editor
+Andrew Lehren
+andy@nicar.org
+Assistant Managing
+Editor
+Gwen Carleton
+c618652@mizzoul.missouri.edu
+Senior Contributing
+Editors
+Richard Mullins
+jourram@muccmail.missouri.edu
+Jennifer LaFleur
+jenster@aol.com
+Contributing Editor
+Rosemary Armao
+Staff
+Wendy Charron
+Jo Craven
+Drew Sullivan
+Wallace Winfrey
+Copy Editor
+Marilyn Joyce
+
+Uplink is published every
+month by the National
+Institute for Computer-
+Assisted Reporting,
+P.O. Box 838
+Columbia, MO 65205.
+(314) 882-0684.
+Subscription price is $35
+(U.S.) annually, $50 outside
+the United States.
+Postmaster. Please send
+address changes to NICAR.
+Send e-mail to
+nicar@muccmail.missouri.edu.
+
+NICAR is a joint effort
+of Investigative
+Reporters and Editors
+and the University of
+Missouri School of
+Journalism. NICAR
+services include hands-
+on newsroom training
+on computer-assisted
+reporting, special
+academic and advanced
+training in data analysis.
+NICAR is supported by
+a grant from The
+Freedom Forum
+intended to help the
+institute deliver its
+services nationwide to
+news organizations and
+associations.
+
+More than pretty pictures
+Getting Access for stories
+
+By David Herzog
+Allentown (Pa.) Morning Call
+
+For years, the debate over which database manager is best for computer-assisted report-ing was a tug-of-war between FoxPro and Paradox. Now, Microsoft Access has joined the battle in newsrooms.
+
+Lured by its simple query interface, Access is winning converts. I'm using Access for stories about gun dealers, unsafe trucks and crime. At the Los Angeles Times, Ralph Frammolino used it to show how jurors were picked for the O.J. Simpson trial (Dec. 1994 Uplink).
+
+Access does not use layers of dialog boxes to perform advanced functions, unlike FoxPro. Using a graphical query-by-example window, you design sophisticated queries on a single screen. In the upper half, you add the tables.
+
+To join tables, you drag the name of the key field in one to the matching field in the second. Then, drag the field names you want into a grid on the bottom half of the screen. With a few clicks and keystrokes, Access can order records, calculate or pick records meeting certain crite-ria.
+
+The pro/con of point/click
+
+The interface makes it simple to fine tune, according to Dick O'Reilly, director of com-puter analysis for the Los Angeles Times. "It's easier to do an ad hoc kind of hacking project than with FoxPro," he said.
+
+On the flip side, it's easy to goof during queries that use aggregate functions, such as counting, summing and averaging.
+
+Jeff Kummer of St. Paul Pioneer Press said that the seemingly endless pointing and click-ing can be a pain. He sometimes finds himself going back to FoxPro and writing a query in structured query language, which Access sup-ports.
+
+Under the hood, Access will push your computer's limits. "Run it on a fast machine," said George Landau of the St. Louis Post Dispatch.
+
+FoxPro vs. Access vs. dBase
+
+Despite Access' shortcomings, O'Reilly and others like its new speed. For a column last year, O'Reilly stacked it up against FoxPro for Win-dows, and Borland's dBase for Windows. The test was areal-world situation: rummaging through 107,000 building inspection records. FoxPro ran his query the quickest. Access placed second, trailing by just a few seconds. That left dBase last.
+
+However, as the database table sizes grow, Access slows. Queries I did recently on a 350.mb table were noticeably slower in Access than FoxPro for Windows 2.6.
+
+Microsoft has deployed aspects of FoxPro to improve Access' speed. Microsoft acquired FoxPro's parent company, Fox Software Inc., in June 1992. Access developers then took a key part of FoxPro — the Rushmore indexing technology — to rev up Access, according to product man-ager Jeff Graff.
+
+When Microsoft introduced Access three years ago, users complained about its heel-dragging. Also, many found it weak for database develop-ers. The current version includes a grab bag of tools for everyone from end users to developers. Question and answer boxes walk the user through normally complex operations, such as creating a crosstab query or designing and printing a report. Also, Microsoft included quick import and export links to FoxPro, Excel spreadsheets and other programs.
+
+With millions of Access sales, it's fair to ask what will happen to FoxPro. "We have no inten-tion of phasing one or the other out," said Microsoft's Graff. "The strategy is to move them together into a tool that is better than any single one." Expect Access and FoxPro to share more features, he said. Though Graff declined to be specific, he said that within 3 to 5 years Microsoft wants the programs to have common elements, such as a form package and database engine.
+
+Access 2.0 and the Access Developer's Toolkit, handy for building applications, is each sold for less than $300. Shop around for the lowest prices.
+
+David Herzog can be reached at (610) 820-6584, or send e-mail to dherzog@mcall.com
+
+2
+==End of OCR for page 2==
+
+==Start of OCR for page 3==
+See you at www.reporter.org
+NICAR web site expands
+
+The NICAR site on the World Wide Web is at a new address. Visit NICAR at http:// www.reporter.org. The change reflects the grow-ing list of non-profit journalism organizations with home pages at the web site.
+
+Now under construction is a Russian journal-ism site, which will help reporters cover the former Soviet Union. Plans are underway to include information in Cyrillic.
+
+Administered by NICAR's web master, Wallace Winfrey, the web site offers detailed
+information about NICAR's activities. This in-cludes upcoming events, training seminars, the newsletter Uplink, and NICAR's database li-brary.
+
+In addition, you can search the journalism resource center run by Investigative Reporters and Editors, at www.ire.org_
+
+The web site also includes a menu for IRE and for the Hillman Project, which is develop-ing a site for tips and resources for journalists around the world.
+
+Growing collection of federal databases
+From the NICAR library
+
+NICAR offers a number of federal gov-ernment databases. Here is a list of our growing collection:
+• Federal Election Commission contribu-tions data, including donations by individu-als and political action committees.
+• Federal Aviation Administration data, including airplane maintenance work docu-mented in the service difficulty report, pilot licenses and grades, and aircraft registration.
+• Home Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns.
+• Federal procurement data, 1992-1994, includes breakdowns by agency.
+• Alcohol, Tobacco and Firearms gun dealer records.
+• National Bridge Inventory System data, includes inspection grades.
+• FBI Uniform Crime Reports, a detailed compilation of crime data that includes sta-tistical breakdowns of individual murders.
+• Social Security death records, by name and social security number, going back to 1937.
+• Occupational Safety and Health Ad-ministration violation data includes worker accidents and exposures to hazardous chemi-cals by companies.
+• U.S. Department of Transportation truck accident and census data. It includes acci-dents by company and road.
+• U.S. Small Business Administration loan guarantees, 1989-1994. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.
+• U.S. Small Business Administration disaster loan guarantees, 1989-1994. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.
+• U.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its ad-dress, the owner, type of business and phone number.
+• U.S. Department of Education's Com-mon Core of Data runs from the 1987-1988 to the 1992-1993 school year. It includes data on school enrollments, finances, staff-ing and dropouts.
+• U.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.
+NICAR also offers inexpensive data transfer for journalists, and houses an ex-panding library of state databases. NICAR is also constantly updating data.
+For up-to-date prices and more informa-tion, call (314) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.
+
+Get computer training:
+• Society for
+Environmental
+Journalists, Oct. 26-29,
+Massachusetts
+Institute for
+Technology, Boston.
+• The Medill School of
+Journalism, four-day
+computer-assisted
+reporting bootcamp,
+Dec. 7-10. Medill's
+Washington, D.C.,
+campus.
+• NICAR Bootcamps,
+week-long intensive
+training seminars, Jan.
+7-12, and March 10-15,
+Columbia, Mo.
+
+These dates are open
+to all journalists. For
+more information, call
+NICAR,
+(314) 882-0684, or
+send e-mail to nicar@
+muccmail.missouri.edu.
+
+Missed Cleveland?
+To order tape
+recordings of CAR
+Rock '95 sessions, call
+Sound Images at (303)
+649-1811. For
+handouts, call
+Investigative
+Reporters and Editors
+at (314) 882-2042.
+
+3
+==End of OCR for page 3==
+
+==Start of OCR for page 4==
+Here are books available from IRE:
+• "Have I Got a Tip for You ... And Other Tales of Dirty Secrets, Political Payoffs and Corporate Scam." Written by Stanley Penn, retired Wall Street Journal reporter, this guide to investigative reporting is published by Dow Jones & Co. The price is $5.
+
+• "The Reporter's Handbook." Now in its third edition, this invaluable guide to documents and investigative techniques is written by Steve Weinberg, and published by St. Martin's Press. Order it in bookstores, or from IRE. The price is $21 for members, and $26 for non-members, plus postage.
+
+• "100 Computer-Assisted Stories" is published by IRE and NICAR. Newspaper and television reporters recount how they got the story. The price is $20. To order, call IRE, (314) 882-2042.
+
+Being inventive:
+Go on-line to find designs
+
+By Heather Newman
+The (Nashville) Tennessean
+
+The world's biggest collection of new ideas, products and designs — including those in your city and state — is literally at your finger-tips.
+
+The U.S. Patent Office has run a full-text database of the abstract and summary of every patent issued since Jan. 1, 1994. It is free and on the Internet, waiting for you to discover your area's inventors.
+
+We rummaged through this database to see how Tennessee compared to the rest of the country. We also wanted to see what inven-tions were coming from our area and look at who's doing the inventing.
+
+A few searches and a little legwork made this an easy weekend project that could be done in any city in the United States.
+
+We stumbled on the site maintained by Internet Multicasting Service when surfing the 'net. We tried calling IMS to get the whole database directly, but it was not willing to pass it along. We probably could have received the database straight from the patent office, but because we were on deadline, we opted to use IMS's searcher and bolster our findings with summary numbers from patent office officials. Internet Multicasting stopped the service Oct. 1. The U.S. Patent Office announced it will open its own searchable site on Nov. 9.
+
+Getting local patents
+
+The IMS database used WAIS search crite-ria, which means you have a few more options than the standard Boolean set. We found the most useful are the wildcard and ADJacent operators. Here's how we used them to get all our local patents:
+
+We searched all the patents in each year (you have to search 1994 and 1995 separately) using Inventor ADJ State: ADJ TN (There is a "field search" option, but we did not find it to be helpful). That's when we hit our first snag. IMS only allows you to retrieve 150 hits at a time.
+
+Because there were more than 150 patents in the state for each year, we were not getting a complete list. At this point, we faced a choice: select by city (by adding AND Inventor ADJ City ADJ Nashville, for example) or divide the database by date. We decided to do the latter, gathering each month's new issues one at a time.
+
+The issue date was in YYYYMMDD form; so we used wildcards. For example, we added Issue ADJ Date: ADJ 199409* to our query to get all the patents issued in Tennessee in September 1994. Because the answer "page" gave us the total hits, we also had an easy count of patents in a month in the state.
+
+Unfortunately, there is no easy way to save those patents to disk. We ended up opening every one of them and using Netscape's SAVE file command to save them to a directory. We used the original file names (which were the patent num-bers).
+
+Click tip
+
+A tip: We also saved the answer "pages" in their original HTML code and pasted them together in one long document using Word for Windows 6.0c (with the free Internet Assistant add-on). We could look at the answer pages, and if we needed to look at the patent itself, we could still click on the link and go directly to the patent.
+
+Leaving the file names as the patent numbers also let us check the number of each type of patent. Invention patents are just numbers. Design patents start with "D," plant patents start with "PP," patent reissues are labeled "RE" and statutory patents start with "H." A quick count in our directory gave totals.
+
+The patent texts themselves were clean, chock full of information and up-to-date. We found some in our collection were issued less than a week prior to our search. They included the date when the original application was made, giving us a quick count on how long the patenting process took. They also included an abstract and summary that explain the invention in reasonably clear English, and the name and address of every inventor.
+
+This meant that, with a little phone book work, we interviewed a pile of folks with interesting inventions. Their descriptions of how they got
+Continued on page five
+
+4
+==End of OCR for page 4==
+
+==Start of OCR for page 5==
+Search for ideas
+Patented on the net
+
+By Nora Paul
+The Poynter Institute
+
+The Internet offers good sites to learn more about patents. Here are the best.
+
+The U.S. Patent Office offers the ex-pected press releases, speeches and up-dates about patent law changes. There are also some useful files explaining patents and trademarks.
+
+Check out the link to the searchable database of AIDS-related Patents (devel-oped in cooperation with the Clearing-house for Networked Information Dis-covery and Retrieval). It is a model of web searching, providing the ability to search by fields and retrieve not only the text of the patents but also the images submitted along with the patent application. http:// www.uspto.gov/
+
+Yes, there is a place for patent fre-quently asked questions (FAQ). The first rule of Internet searching is find the rel-evant FAQ. This one for patents offers history, background and definitions of patenting terms. http://www.sccsi.com/ DaVinci/patentfaq.html
+
+For patent law information, the Villanova University Law School offers a list of sources. There is even a section on patent law for non-lawyer detailing, in laymen's terms, the rights and responsibili-ties of patent filing. It's a great site for background information on terms and le-galities. http://www.law.vill.edu/~rgruner/ patent2.htm
+
+Patents and patent searching is offered as a companion to the previous site. This page links to all the options for patent searching and retrieval on the Internet. http:// www.law.vill.edu/~rgruner/patent3.htm
+
+Patent issues
+
+For documents dealing with patenting issues, the University of North Carolina offers yet another of its many great sites. This one links to articles about patent topics — check out the article titled, "A really trivial educational patent." http:// sunsite.unc.edu/patents/document.html
+
+The Shadow Patent Office offers free searching of recently issued patents. Regis-ter for full patent search and retrieval. http:// www.spo.eds.com/patent.html
+
+Nora Paul can be reached at (813) 821-9494, or send e-mail to npaul@poynter.org.
+
+Continued from page four:
+Local designs
+
+their ideas and their patents added color and life to our story.
+
+About the only thing we wanted that was not in the database were the illustrations that went with each application. The descriptions of what the illustrations depicted were entered, but the pictures themselves were not included.
+
+Overall numbers
+
+For overall numbers, we decided that hunt-ing through the IMS database would take too long, so we called the patent office directly. They sent us a list of how many patents of each type each state received in 1990 through 1994 (The most recent numbers at sub-state level, unfortunately, are from 1992).
+
+We plugged the 1990 and 1994 numbers into a spreadsheet with the state population esti-mates from those years to see which states won out in patents per capita. Then we asked a few patent experts to help us interpret those num-bers.
+
+We included a sidebar on how to get your own patent, a where-to-call box on a local inventors' group and a list of some recent Nash-ville inventions. The result was a nice, well-rounded package with local inventors in a na-tional context.
+
+Heather Newman can be reached at (615) 259-8075, or send e-mail to hnewman@tennessean.com.
+
+The U.S. Patent and Trademark Office announced in late September that it plans to open its version of the searchable patent site on Nov. 9. It will replace what had been run by Internet Multicasting Service. The patent office is at http://www.uspto.gov/
+
+Meanwhile, the EDGAR database of corporate financial reports is also no longer run by Internet Multicasting. On Oct. I, the U.S. Securities and Exchange Commission took over the effort that is putting company filings to the government on the Internet. The address is http://www.sec.gov/ edgarhp.htm
+
+5
+==End of OCR for page 5==
+
+==Start of OCR for page 6==
+The Office of
+Economic Conversion
+and Information, run
+jointly by the
+Pentagon and the
+Commerce
+Department, offers
+background on
+military base
+conversion projects,
+including speeches,
+testimony and press
+releases. It also offers
+a state-by-state
+rundown of the bases
+that have been shut
+down, projected
+numbers of lost jobs,
+and guides that may
+help you evaluate
+whether your local
+officials are doing
+everything they can
+when faced with a
+closing base. http://
+www.doc.gov/ecix/
+ecixhomepage.html
+
+Dialing direct
+Look who gets City Hall jobs
+
+By David Crowder
+El Paso Times
+
+The first example of a database most computer-assisted reporters in training hear about is the telephone book. We nod OK, but can't imagine using it for any reason other than that for which it was produced.
+
+But a more focused roster of a community of sorts with some additional information can turn up facts and trends and, thus, stories that no one in your city may have thought about before.
+
+That's what the El Paso Times learned from a database of city government's 6,500 em-ployees recently. We got names, pay, ethnicity, gender, marital status, department and job titles. We also got Social Security numbers just by asking for a unique identifier.
+
+In a city of more than 600,000 people, about 72 percent of whom are Hispanic, we expected to find that city government was out of whack ethnically. Instead we found that city govern-ment to be almost a mirror image of the city in terms of ethnicity and, not surprisingly, income.
+
+Gender was another matter. We found that women make up only 23 percent of the city's full-time work force and that only 17 women are among the 100 best-paid employees. That led to a lead story about the apparent "glass ceiling" and about what women who made it to the top went through.
+
+For instance, comparing the 100 best-paid men and to the 100 top women, we found that 71 percent of the men are married compared with 39 percent of the women.
+
+The city employees roster was an easy little hit, and the stories it produced got people talking. Even before the stories came out, we used that database to analyze four city departments for other stories. I expect we'll be digging into that data again and again in coming months.
+
+David Crowder can be reached at (800) 351-6007, ext. 6194, or send e-mail to 75352.2352@compuserve.com.
+
+Continued from page one:
+Military justice pays
+
+flashing symbols and incorrectly placed fields were among the problems.
+"If (data) doesn't work in one program, try something else,” Szente recommended. "If you can't upload it into your main database, try something that's a lower end — Excel or Lotus; sometimes it's easier for them to pull it in." The Dayton team analyzed its data using Paradox and FoxPro.
+
+But, Carollo and Reed did not stop there. They interviewed more than 100 inmates, their victims and families, prison officials, military legal experts, police officers and members of Congress.
+
+The practice of paying convicted criminals in the military dated back more that 100 years, Carollo and Reed found, but many members of the military and Congress were unaware of it. After publishing six stories in a two-day series in December 1994, Congress and the military tackled the issue and pledged to re-form the system.
+
+Carollo offered several pieces of advice to reporters who may tackle similar projects:
+• Avoid flacks in favor of "Joe in the basement" — the data manager. "The flack doesn't know anything about computer data-bases," Carollo said. "Do your own homework and insist on talking to the computer person."
+
+• Meet the data manager in person. This was particularly valuable in Carollo's dealings with the military. "There are lots of acronyms, and they love jargon," Carollo said. "You are going to have to keep calling this person a lot. You've got to have a face-to-face contact.".
+
+• Don't limit yourself. "Don't ever get on phone and say these are the only fields I need," Carollo said. "This is an absolutely perfect ex-ample. There was this field that nobody in their right mind ever would have thought existed."
+
+• Always look for the unexpected. "The Army, we discovered, wasn't being on the up and up with us," Carollo said. "Their numbers did not include prisoners at Leavenworth." The reporters discovered the error by looking at the Leavenworth database and confronted the Army. "They said, `Hey you're right; we left them out, ha, ha, ha.'"
+
+Finally, Carollo said, once the desired data is identified, fire off the FOIAs fast. "The No. 1 advice is always file early," Carollo said. "File FOIAs kind of like an artillery barrage, long before you ever land on the beach."
+
+Jo Craven can be reached at (314) 882-0684, or send e-mail to c655034@mizzoul.edu
+
+6
+==End of OCR for page 6==
+
+==Start of OCR for page 7==
+Continued from page one:
+Where banks aren't
+
+partment. The financial data is sold by Con-quest, now part of Strategic Mapping Inc., the makers of Atlas GIS. It provides a good profile of the economic strength of an area, such as the number of businesses and total sales in each census tract. Conquest even provided data that allows you to compare 1980 census tracts with 1990 tracts.
+
+The newsroom purchased bank branch loca-tions in February from Sheshunoff Manage-ment Services (see the August issue of Uplink) for each year from 1985 through 1994. This gave us the latitude and longitude for all finan-cial institutions in the state. By comparing years, we could use mapping software and easily see where the most branches were opened or closed.
+
+10-year study
+
+We studied the 10-year period in order to give us a tight focus on the story. We felt 10 years is something most readers can relate to and the last decade has been traumatic for the industry as a whole.
+
+In order to determine what economic factor bankers rely on most when opening branches, I used the SPSS multiple regression feature. The number of businesses and total sales in each tract scored the highest of all the variables, far above median household incomes and even personal net worth.
+
+This was confirmed through interviews with bankers and consultants, who said business ac-counts provide a good portion of a bank's prof-its. Using this economic yardstick, we measured how well banks served minority and white cen-sus tracts in the state. What we found was economically strong minority tracts were 25 percent less likely to have a branch than similar white tracts.
+
+Bankers hate to be reminded of this, but even they agreed they have a social and legal respon-sibility to serve all parts of their community, not just the wealthy areas.
+
+Other findings
+
+Regardless of this, we also found that:
+• Banks closed branches in the state's largest urban centers — home to a third of the state's minority population — four times more often than in the rest of the state.
+• Three out of four minority tracts had no banks. But two out of three white tracts had at least one branch.
+• Counties and cities with large minority populations had a higher than average branch-to-people ratio, and this has grown worse since 1985. Camden went from 1 per 6,110 to 1 per 8,750.
+• Whole neighborhoods, once home to sev-eral branches, now have none.
+
+In order to get a more detailed profile of the areas banks were in, I used Conquest's ClusterPlus 2000 and Affluency databases. Cluster Plus provides 60 characteristics, such as "established wealthy, highly educated, profes-sions" and Affluency tells you the net worth of an area.
+
+This all led us into the larger social question: what's the impact on a community? We found that there is deep rift between minorities and low-income people and banks. One woman summed it up for a lot of the people we inter-viewed:
+"If you are a lower-class people, banks don't care about you." True or not, many inner city residents opted to use costly check-cashing out-lets—both legal and illegal — even when there was a bank nearby.
+
+Illegal check cashers were so rampant in one city, we even found a former police commis-sioner cashing checks at his liquor store.
+
+Mapping banks
+
+For graphics, we used maps showing how banks build around, but not in, minority areas. We published about 50 detailed maps of the entire state at the sub-county level on our web server, http://www.injersey.com/Media/ Pressnet. The whole package, titled, "No checks or balances," ran Sept. 10-13. It can also be found on Nexis.
+
+Paul D'Ambrosio is the database editor at the Press. He can be reached at (908) 922-6000, ext 4261, or send e-mail to pmd@app.com
+
+For information on
+getting computerized
+records, get "Access
+to Electronic Records:
+A Guide to Reporting
+on State and Local
+Government in the
+Computer Age."
+It's published by the
+Reporters
+Committee for
+Freedom of the Press.
+To order, call (202)
+466-6313. The price is
+$5 plus postage.
+
+7
+==End of OCR for page 7==
+
+==Start of OCR for page 8==
+Bits, Bytes and Barks
+
+Profnet changes address
+Profnet, the outfit that will route your search for experts to universities and think tanks, recently changed its e-mail address. Now, send your inquiry to: profnet@vyne.com Include a short heading that describes what you need, the nature of the assignment and what kind of questions you need answered, your deadline, name, newspaper, phone number and e-mail address. Let Profnet know if you prefer e-mail or to be called — and when you'll be in the office to take a phone call.
+
+NICAR wants you
+The National Institute for Computer-Assisted Report-ing is hiring for two positions.
+NICAR seeks a training director who will oversee on-the-road classes in newsrooms across the country; and a systems director for data analysis and coordinating NICAR's database library. Both positions include sharing duties for training and data analysis.
+For more information, call Brant Houston, NICAR's managing director, at (314) 882-1984, or send e-mail to brant@nicar.org.
+
+Beware on the 'net
+The Kansas City Star reported on Oct. 2 how unofficial presidential candidate sites are popping up on the World Wide Web with addresses that may seem like the real thing. But beware: www.dole96.org is not controlled by Bob Dole, while www.dole96.com is the Republican's official site. For Pat Buchanan, www.buchanan.org is official, but www.buchanan96.org is not. The story cau-tioned how unaffiliated sites may be used for everything from satire to campaign dirty tricks.
+
+Catching Washington in the net
+More proof that you can cover breaking stories with the Internet: Amy Bayer, who covers the White House and national affairs for Copley News Service, said she uses Internet sources "on just about every story."
+Here are some recent examples.
+When she covered the United Nations conference on women, and wanted to probe a platform controversy, she found draft versions of the platform on the Internet, and compared those documents with remarks by delegates.
+For finding sources on Ross Perot's recent appearance on Larry King Live, she got phone numbers for the United We Stand state officials at http://www.uwsa.org.
+After covering President Clinton's visit to Moscow, she checked the searchable Congressional Record at http://thomas.loc.gov to document the lack of support from fellow Democrats for the trip.
+
+Join NICAR on the Internet
+Don't forget to keep up with NICAR on the Internet.
+Subscribe to our listserve and join in as reporters talk about how to do the job better. E-mail to listserv@mizzoul.missouri.edu. In the message, on the first line, write: subscribe nicar-l your name. To join IRE on the Internet, the instructions are the same except, on first line, write: subscribe ire-l your name.
+
+Investigative Reporters and Editors, Inc.
+100 Neff Hall
+University of Missouri
+School of Journalism
+Columbia, MO 65211
+
+NON-PROFIT ORG.
+U.S. POSTAGE
+PAID
+PERMIT NO. 309
+COLUMBIA, MO. 6521
+
+8
+==End of OCR for page 8==

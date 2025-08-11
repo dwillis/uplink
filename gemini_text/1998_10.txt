@@ -1,0 +1,925 @@
+October 1998
+
+Uplink
+
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+ENVIRONMENTAL CAR
+
+CAR-covered planet
+
+By Ken Ward Jr.
+Charleston (W.Va.) Gazette
+
+Environmental journalism has always been a hotbed of computer-assisted reporting. A reporter who wants to analyze thousands of toxic chemical emissions better learn CAR – or face spending a couple of years with a notepad and calculator. A newspaper that wants to give its readers the locations of hundreds of hazardous waste dumps might never get the story in print without a database manager and mapping software.
+
+Russell Clemings of The Fresno Bee recently conducted a quick survey on the Society of Environmental Journalists’ mailing list and found that environmental CAR is alive and well.
+
+CAR growth
+
+My own experience with environmental CAR dates to 1991, when I first came to the Gazette. At the time, we had only one (old) computer with a decent-sized hard-drive. I learned to do a few crude searches on the National Library of Medicine’s ToxNet service and put together the standard “Top 10” polluters stories. Later, I used ToxNet to compare the potential emissions from a pulp and paper mill proposed here to similar mills across the country.
+
+Back then, I used a copy of dBase that I borrowed from Gazette CAR expert Paul J. Nyden. With a little help from Paul, and a lot of time spent trying to understand the manual, I taught myself how to use it.
+
+My CAR work got a major boost in the last year. The Gazette bought decent computers for four reporters, including me. Then, I attended the NICAR national conference in Indianapolis in March 1998. There, I got training in spreadsheets, database managers, and the Internet. I also learned a lot more about how other reporters are using computers to improve their environmental journalism.
+
+Since then, I’ve produced a variety of CAR stories - from daily stories with "computer-assisted paragraphs” backing them up to a lengthy investigation of the coal industry’s strip mining in West Virginia.
+
+For example, this summer there was a toxic tort case in federal court in Charleston filed against a Rhone-Poulenc chemical plant for a chemical leak a few years ago. The jury found for the company. But when the verdict came out, the plaintiffs’ lawyer – who repre-
+Continued on page two
+
+CLEAN WATER ACT
+
+Waste deep
+
+By Mike Lee
+Tri-City Herald
+
+When a citizen activist group threatened 10 Yakima Valley dairies with Clean Water Act suits last fall, Washington state’s largest dairy region erupted. Farmers and activists lived in fear of each other. Politicians looked for solutions, and regulators tried to soothe tensions.
+
+Underneath the bedlam was the real story: After a decade of phenomenal growth, the dairy industry dominated the communities on the lower half of the river. Any threat to the industry was a threat to a way of life and the relative prosperity of arid eastern Washington. Few even realized the Yakima Valley had quietly become the state’s dairy capital. A quick check of the U.S. agricultural census showed that fact: The number of dairy cows in the area increased from 27,000 to 68,000 in eight years.
+
+People in the industry knew why: Over the last 10 years, population pres-
+Continued on page four
+
+Inside Uplink
+
+It can be a dirty world out there, and CAR is just the means to clean it. This issue of Uplink focuses on the uses of Web sites and databases in shaping environmental coverage.
+
+Ken Ward of Charleston Gazette surveys the types of environmental investigations being conducted and explains his own strip mining mountaintop removal story.
+
+Using databases mandated by the Clean Water Act, Mike Lee of the Tri-City Herald documents dairy farmers whose stock were contributing to a manure runoff problem that was contaminating Washington state rivers.
+
+Going online, Katie Schallert of the Commercial-News describes possible uses of the EPA's Toxic Release Inventory, and Tom Henry of The (Toledo) Blade does the same for the Web site of the Nuclear Regulatory Commission.
+
+Mary Manning and Steve Kanigher of the Las Vegas Sun explain the politics and the science behind a Nevada nuclear waste project.
+
+PAGE 8
+On the Internet
+
+PAGE 9
+First Ventures
+
+PAGE 12
+Tech Tip
+
+***
+
+Uplink
+
+October 1998
+Volume 10, Number 9
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+EDITOR
+Brant Houston
+brant@nicar.org
+
+MANAGING EDITOR
+Brent Johnson
+bjohnson@nicar.org
+
+SENIOR CONTRIBUTING EDITORS
+Len Bruzzese
+len@ire.org
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+COPY EDITOR
+Jeanine M. Davis
+
+ART DIRECTOR
+Wendy Charron
+
+STAFF
+Britton Clapp
+Dawn Fallik
+Jason Grotto
+Ben Lesser
+Justin Mayo
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Neil Warner
+Alistair White
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training in computer- assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+From page one: Short-term sustenance
+
+sented folks who live near the plant and believed they were hurt by the leak – claimed his suit had forced the company to clean up its act and operate more safely.
+
+I was skeptical. So, with a few hours of research on the EPA Emergency Response Notification System Web site (http://www.epa.gov/docs/ERNS/), I downloaded local chemical accident reports and showed that the company had continued to have leaks – some even bigger than the one that prompted the lawsuit. The lawyer was just plain wrong. This story wasn't a huge investigation, but it did add punch to our coverage of the trial, and our afternoon newspaper competition didn't have it.
+
+Strip mining bared
+
+I have also found that CAR is the only way to really do long-term environmental reporting projects in any manageable or timely way.
+
+Since March, the Gazette has been publishing a series of articles called “Mining the Mountains” that examines mountaintop removal strip mining.
+
+Unlike old-time strip mining, mountaintop removal doesn't chip away at hillsides to uncover coal. Instead, it blasts away entire mountaintops to reach coal. Normally, strip mines must be reclaimed to their “approximate original contour,” or AOC. If they submit concrete plans for how the flattened land will be used for future economic development, mountaintop removal mines are allowed to ignore that standard and flatten out the land.
+
+Having talked to environmentalists who follow mining, I suspected that most mountaintop removal mines did not have plans for future development.
+
+I asked the state Division of Environmental Protection what the stated post-mining land plans were for all mountaintop removal mines. They said they didn't know but would have field inspectors go through permits to try to find out. However, they would have to go through dozens of paper files, an exercise that could take months.
+
+Missing data, missing plans
+
+In the meantime, I huddled with a couple of guys in the DEP computer record-keeping section. They told me they had a computer system that maintained information about surface mines with permits in the state.
+
+I got a copy of parts of their database and started doing my own research. I found a number of disturbing trends.
+
+First of all, the state didn't even know how many mountaintop removal mines it had authorized. Permit writers and inspectors never bothered to fill in the computer database field that indicated what type of mine they were granting a permit. Even when the state came back to me with the list of mines from paper files, a lot of mines that I found in the computer system were missing.
+
+Downloading gives me quicker access to the primary sources than relying on regional EPA flaks to send me press releases or industry lobbyists to provide their take on the controversy
+
+Second, I analyzed permitted area and production numbers to determine whether, as environmentalists had told me, mountaintop removal was increasing. Industry officials had argued this wasn't true. But, by simply running a few queries in FoxPro on a state database, I could write a story explaining which side was right.
+
+Most important, of the 134 mountaintop removal mines I identified, most did not submit post-mining development plans when they were given permits by the state.
+
+The results of my work were two lengthy Sunday features published in May and in August. The articles prompted investigations by the U.S. Office of Surface Mining and by at least one congressman, Rep. Nick J. Rahall, D-W.Va. Already, the state DEP is modifying its database and completing a project to fix its record-keeping problems.
+
+In September, Gardiner Harris of the Louisville Courier-Journal conducted a similar investigation of mountaintop removal
+Continued on page three
+
+***
+
+From page two: Long-term planning
+
+mining in Kentucky.
+
+Harris, who used CAR to produce a landmark series earlier this year on black lung disease among coal miners, examined computerized state mining permit databases. He found similar problems, prompting an investigation by OSM officials in Kentucky.
+
+Supplementing stories
+
+Even if you’re not up to - or given time for - a big project, you can use CAR to help with environmental reporting. For example, in writing about the ongoing debate over EPA’s ozone transport regulations, I have used the agency Web site to download lengthy documentation about the issue.
+
+Downloading gives me quicker access to the primary sources than relying on regional EPA flaks to send me press releases or industry lobbyists to provide their take on the controversy. And keeping the hefty reports on my hard drive instead of in piles on and around my desk has cut down substantially on the cubicle clutter - something every environmental reporter would welcome.
+
+The mountaintop removal strip mining stories are available on the Gazette’s Web site at http://wvgazette.com/mining.
+
+Ken Ward can be reached by email at kward@wvgazette.com
+
+Mire on the mountain
+
+By Penny Loeb
+U.S. News & World Report
+
+I’ve never met an agency official as willing to disseminate data as J. R. Hodel at the West Virginia Division of Environmental Protection. During the last week of February 1997, I began a project on mountaintop removal coal mining in West Virginia, which eventually became "Shear Madness."
+
+I had never seen a coal mine, let alone a mountain chopped off. But I blithely faxed a request for all complaints and violations concerning mines to a top DEP official.
+
+In less than 24 hours, Hodel called to ask how I would like my data. When I met Hodel, he gladly handed over all the data I wanted, explaining that he believes in absolute public access. (His wife Martha is the daughter of a coal miner and an Associated Press reporter, who has written stories about the mountaintop issue this year.)
+
+Two databases were vital to my story. I used the complaints to find the most problematic mines. Then I scoured the permit files on the mines to find who complained. I called them cold; only one person refused to talk to me. Most were glad someone finally cared about their problems with blasting damage, flooding and dust from the mines.
+
+In the story, I counted violations and complaints by category, which helped make the case about problems created by such mining.
+
+One of my first questions to the DEP chief of mining and reclamation was: How many acres are being mountaintopped?
+
+As Ken Ward points out, they didn’t know. I flew over the mines with our photographer and a top DEP official. The photographer and I estimated 10 percent of the peaks in the southern coalfields had been decapitated. The DEP official made a higher estimate: 15 percent.
+
+One day, I was trying to download the maps of mine locations from the DEP site. Lo and behold, there was a database file underlying the map that had every permit, including acreage.
+
+The database was also supposed to designate mountaintop mines. That field was usually blank. But I added up all acreage for surface permits, so we said about 512 square miles had been surface-mined. I also told a DEP official that the database was missing crucial information.
+
+Ken Ward has done a wonderful job of keeping this issue alive, with stories nearly every day. This has been a unique journalistic effort with reporters keeping the focus on this practice.
+
+A searchable database of the complaints and violations used in the story is available at www.wvcoalfield.com, designed by Loeb. She is currently writing a book about how coalfield citizens are fighting oppression by the mountaintop removal coal mines.
+
+Penny Loeb can be reached by email at ploeb@usnews.com
+
+SEE PENNY LOEB'S REPORT ON WEST VIRGINIA MOUNTAINTOP-REMOVAL STRIP MINING - "SHEAR MADNESS" — THAT WAS PUBLISHED IN U.S. NEWS & WORLD REPORT AUG. 11, 1997, WITH AN UPDATE ON OCT. 3, 1997.
+
+"SHEAR MADNESS WAS A FINALIST IN THE PUBLIC SERVICE CATEGORY OF THE 1998 NATIONAL MAGAZINE AWARDS. IT WAS ALSO RUNNER UP FOR THE JOHN OAKES ENVIRONMENTAL JOURNALISM AWARD AND THE NATIONAL PRESS CLUB ENVIRONMENTAL REPORTING AWARD.
+
+A REPRINT OF HER STORY ACCOMPANIES HANDOUT #850 IN THE IRE RESOURCE CENTER. ALSO INCLUDED ARE LOEB'S "HOW CLEAN IS YOUR RIVER?" HANDOUT (SEE PAGE TEN) AND "UNLOCKING THE MYSTERY OF MILITARY HAZARDOUS WASTE CLEANUP" BY ANNE BRENNAN, WILLIAM MILLS AND ALICIA BLAISDELL-BANNON OF THE CAPE COD TIMES.
+
+***
+
+Continued from page one: Tested waterways
+
+sures in western Washington and California forced dairy farmers to the dry, less populated stretches of eastern Washington. But they weren’t taking care of the cow manure. The runny muck was routinely running into irrigation canals that drained to the river. It had been going on for two decades. The story was as emotional as they come. With the threat of lawsuits, few farmers would talk.
+
+List service
+
+The state Department of Ecology, however, had all the numbers to validate the Tri-City Herald's four-day series that ran in early March 1998. The agency had been gathering water quality data for several years. The Herald acquired two databases kept by the state to track water quality problems. The lists are mandated by the Clean Water Act and are known as 303(d) and 305(b) for their sections in the act. They show state waters that aren’t up to federal standards and also tell what's wrong with the water.
+
+As my first attempt at using Access, with lots of help from our CAR coordinator David Cuillier, I looked at the state data, zeroing in on water monitoring stations on the lower Yakima River. I found that several spots had more fecal coliform than 90 percent of the state’s waters. That proved the poop problem.
+
+We also isolated key water stations and determined the level and general cause of the pollution, which is largely agricultural. For a broad look at a state's waterways, the 305(b) list is a good start. It's an overall indicator of water quality and - at least in Washington – comes in a much easier format for database searches. Every monitored waterway is tested for a handful of pollutants, including temperature, dissolved oxygen, pH, and fecal coliform. That makes it easy to search for pollutants from a specific industry, such as dairy farms.
+
+Standard usage
+
+Obviously, however, even something as specific as coliform has a variety of sources, and those sources probably will be listed generally. The 305(b) list is handy because it shows whether a water segment is clean enough for specific uses, such as fish spawning, swimming or boating. That way, it's possible to search for all the places in an area where fish can’t survive. Or where people shouldn't swim.
+
+Pollutants in the 305(b) list are also given a rating that indicates the percent of tests in which they exceeded quality standards. That can be used to rank state waters by pollutant. Unfortunately, the sample size is sometimes rather small, so a stream that failed 100 percent of the time may only have been tested two or three times in the last 10 years.
+
+For a broad look at a state’s waterways, the 305(b) list is a good start. It’s an overall indicator of water quality and – at least in Washington – comes in a much easier format for database searches.
+
+That's where the 303(d) list comes in. It is more specific and details tests.
+
+States use the test data to create Total Maximum Daily Load studies that target specific pollution problems and cleanup measures. The only such study completed in Washington is on the Yakima River. It focuses on the long-lived pesticide DDT and sediment, which were both included in the Herald's package.
+
+Washington has had trouble producing enough of those studies to please Northwest environmentalists. The state is now on a 15-year schedule under threat of lawsuit. The 303(d) list is great for looking at specific water sections and finding out who did the tests.
+
+For all the hours spent searching the databases, the amount of data-crunching results that made it into the final stories was minimal. It was too abstract and technical for the average reader. But knowing how an agency keeps records helped us ask better questions. And having the data allowed us to say the Yakima River was – at least by some parameters – the dirtiest waterway in the state of Washington.
+
+Mike Lee can be reached by email at mlee@tri-cityherald.com
+
+SEE PENNY LOEB'S HANDOUT - "HOW CLEAN IS YOUR RIVER" - ON PAGE TEN.
+
+THE TRI-CITY HERALD'S YAKIMA RIVER WATER-QUALITY STORY IS POSTED ONLINE AT WWW.TRI-CITY HERALD.COM UNDER THE HEADING "FROM OUR FILES: A RIVER WASTED."
+
+TO SEARCH ONLINE FOR INVESTIGATIVE STORIES ON THE ENVIRONMENT, GO TO HTTP:// WWW.IRE.ORG/ RESOURCES/CENTER/ SEARCH.HTML. THE RESOURCE CENTER'S COLLECTION NOW INCLUDES MORE THAN 12,000 INVESTIGATIVE STORIES.
+
+***
+
+TOXIC RELEASES
+
+Polluters online
+
+By Katie Schallert
+Commercial-News (Danville, Illinois)
+
+For those who think covering the environment means donning hiking boots and bug spray, think again. Environmental stories abound on the Internet, due largely to the Environmental Protection Agency’s compulsion to make companies fill out scores of reports.
+
+Almost a decade ago, the government decided to use these finished forms to reduce pollution. Officials started releasing how much stuff a company emitted into the environment and let public pressure do the rest. Thus came about the Toxic Release Inventory.
+
+Company profiles
+
+TRI lists how much of every regulated chemical a particular plant releases in a given year and whether the chemicals were emitted to water, air or land. The database is wonderful for reporting who the top polluters are in an area and what exactly is being released into the local environment. The most recent list is from 1996.
+
+To reach the original database, visit the EPA Web site at www.epa.gov/enviro1. Then “Generate Reports” from the TRI. A geography search gives you a list of every local company that has shown up even once in the TRI and provides links to their files. If you want all the specifics on a company’s record, this is a gold mine, which also includes contact names and numbers for each plant. You can import the company files one by one into a Web-savvy spreadsheet like Excel 97 and manipulate them from there.
+
+Avoid information glut
+
+Before long, you'll probably note the database is like many things involving the government and the Internet - there is so darn much information.
+
+If you face common newsroom time constraints and just want the highlights, visit the Right-To-Know Network at www.rtk.net. This site lets you pick from summary to extremely detailed searches and lists all the companies in one file, saving you from importing company by company. You also can have the companies listed in order of emissions.
+
+And, best yet, the results can be compiled in comma or tab delimited format, ready to import into any semi-sophisticated spreadsheet or database for further analysis. (An EPA official told me she uses the RTK site after I called her for help with my frustrations at the EPA database page.)
+
+RTK also lets you search by industry in your state or nationally. You can search for the whole state in descending pollution order, giving you a quick feel for where local companies rank. Also useful is more detailed background information about what the TRI does and doesn't include.
+
+For example, you should note in any story that the report only includes regulated companies and chemicals. Public works and smaller polluters like dry cleaners and diesel trucks are not included.
+
+Ranking releases
+
+Unfortunately, both these databases are designed to put a spotlight on individual firms. If you want to know how much stuff was put in your local environment in general, check out the Environmental Defense Fund's Scorecard at www.scorecard.org. This site will tell you the top releases in your county and which pose the greatest threat to human health. It also ranks your county nationally. The drawback is that this database is from 1995, though the designers say they will soon have 1996 numbers.
+
+Response time
+
+After you've crunched the numbers, you are ready to make phone calls. Call the plants or their parent companies and give them a chance to respond. The information is public, so while they might not like a story, most companies will talk to try to get their spin on it. Generally, companies stress the releases in the report are legal.
+
+To be fair, you may want to note the information is old. So if Company X spent a few million upgrading their system recently, its numbers may already be lower. And always explain larger companies are generally going to have more pollution but also provide more jobs. You can use your spreadsheet to rank companies by pollution per worker.
+
+Katie Schallert can be reached by email at katiejo@soltec.net
+
+SIGN UP TO BE AN IRE MEMBER. YOU CAN JOIN ONLINE AT OUR WEB SITE OR BY DOWNLOADING A MEMBERSHIP FORM AND FAXING IT TO (573) 882-5431.
+
+FOR MORE INFORMATION, VISIT WWW.IRE.ORG/ MEMBERSHIP.HTML.
+
+IRE MEMBERSHIPS ARE $40 FOR PROFESSIONAL JOURNALISTS AND JOURNALISM EDUCATORS, $25 FOR STUDENTS AND $55 FOR INTERNATIONAL JOURNALISTS. FOR A DETAILED ACCOUNT OF WHAT IRE HAS TO OFFER, CONTACT THE IRE MAIN OFFICE AT (573) 882-2042.
+
+***
+
+MOUNTAIN JAM
+
+Political science
+
+By Mary Manning and Steve Kanigher
+Las Vegas Sun
+
+As Las Vegas Sun reporters, we collaborated on a five-day series appearing from May 31 until June 4, 1998 on the federal government's Yucca Mountain Project. We cut our research time considerably thanks to computer research.
+
+Instead of more than six months of research, it took us about three months to investigate the politics and the science of the nuclear waste project at Yucca Mountain, 90 miles northwest of Las Vegas.
+
+The series, “Science vs. Politics,” examined both scientific issues and political maneuvers that put Yucca Mountain on the federal government’s map as the only site in the nation under study as a high-level nuclear waste repository.
+
+Deep PACground
+
+Background information on politicians, pro-nuclear lobbyists and anti-nuclear groups were all available at various Web sites through one of five dedicated computers available in the Sun's newsroom. We started with the names of major political players such as Senators Frank Murkowski and Larry Craig, who are leading the congressional pack to put nuclear waste in Nevada.
+
+Kanigher did his initial research on where and to whom political funds went by exploring the Internet. He tracked campaign contributions, nuclear PAC monies and how much money had been spent on the nuclear waste management project.
+
+By starting with individual senators and congressmen, we found nuclear PACs that contributed to their campaigns, then tracked the nuclear funds through Federal Election Commission records, all available on the Web.
+
+Nuclear waste deposits
+
+Manning tracked scientific leads. She researched articles and corresponded with scientists working in New Mexico, Texas and Siberia on deep, hot water possibly rising inside Yucca Mountain and disrupting the engineered repository.
+
+Former DOE scientist Jerry Szymanski had proposed the theory that Yucca Mountain’s seismic and volcanic activity could force water deep within the earth to invade the repository. Although Szymanski is no longer a DOE geologist, he is still presenting his case to oversight committees. Other scientists around the world had weighed in on the Yucca Mountain debate, so Manning contacted them through email.
+
+There are also Web pages for the Nuclear Regulatory Commission, the agency in charge of licensing a nuclear repository, as well as the independent scientific panel called the Nuclear Waste Technical Review Board.
+
+With email interviews, the questions can be precise, and follow-up questions and clarifications can be completed in one day, even in Siberia, rather than playing telephone tag or using snailmail over days.
+
+Research tools
+
+While the Las Vegas Sun encourages all its reporters to use the Internet as much as possible, computer research is a tool, not the end-all for getting the story. Besides computer-assisted searches, you have to do a lot of interviews and use other sources to verify information.
+
+For example, after following the trail of nuclear industry funds into congressional pockets from initial searches conducted on the Web, Kanigher sent the computer-generated information and his questions to the Center for Responsive Politics, a congressional watchdog group. For a $75 fee, the center offered a detailed road map of how the nuclear PACs spent their money.
+
+We think that computer research is great for checking out Web sites, gathering background information and focusing the scope of research for large projects such as the nuclear waste series.
+
+The other side of Internet research – after the excitement of finding mountains of information – brought us back to earth. Legwork, plenty of perspiration and old-fashioned, follow-up digging were necessary to do a thorough job.
+
+Mary Manning can be reached by email at manning@lasvegassun.com
+Steve Kanigher can be reached at steve@lasvegassun.com
+
+MANNING AND KANIGHER OFFER THESE TIPS FOR STARTING INTERNET SEARCHES:
+
+• START WITH SOMETHING YOU KNOW: A PERSON'S OR COMPANY'S NAME, PLACE OR A KEY WORD FROM YOUR PROJECT. THIS WILL LEAD TO MAJOR WEB SITES LINKED TO YOUR ORIGINAL REQUEST AND A WEALTH OF INFORMATION, MUCH MORE THAN YOU NEED. BUT A PATTERN OF INFORMATION WILL EMERGE.
+
+• LOOK CAREFULLY AT HOW OFTEN THE WEB SITE IS UPDATED. SOME SITES ARE SO OUT-OF-DATE THAT THEY FUNCTION AS HISTORICAL SOURCES, NOT NEWS SOURCES.
+
+• ONCE YOU HAVE COMPUTER-GENERATED INFORMATION, DOUBLE-CHECK IT WITH OTHER SOURCES. TIE UP LOOSE ENDS THROUGH OTHER SOURCES.
+
+***
+
+PLANT STATUS REPORTS
+
+Daily nuclear feed
+
+By Tom Henry
+The (Toledo) Blade
+
+One of the more useful Web sites I've come across when looking for a quick daily story or an idea for a long-range project is the one maintained by the U.S. Nuclear Regulatory Commission's office of public affairs (http://www.nrc.gov/OPA/).
+
+In addition to glancing through the latest press releases, each day you can spot-check the level at which each of America’s 110 nuclear reactors are operating.
+
+Information about the most recent 24-hour period is usually posted by 7 a.m. EST, which means you can do a routine check as you're getting settled with your morning coffee. Simply click on "Plant Status" and scroll to the nuclear power stations in your region.
+
+Routine checks
+
+This may seem like a trivial pursuit. You're likely to find most of the plants operating at or near capacity. But, if the plant is operating at, say, 26 percent of its power, or if it is shut down when you know it isn't off-line for an ordinary refueling, a red flag should go up.
+
+You'll likely find a brief narrative on the log, probably only a few words in NRC jargon. Either way, go back to the home page and click on “Event Reports” to see if there is more.
+
+At the minimum, finding your plant operating at reduced power or not at all is enough to tip you off that something isn't right and should be checked out. At least call the NRC regional office and the utility.
+
+This scenario occurred when I went online the morning of July 20 and found one of the nuclear power stations I cover - Detroit Edison Co.'s Fermi II plant in Michigan's Monroe County - was shut down after operating temporarily at reduced power the night before. I wrote a 10-inch story by finding out the plant had been taken off-line manually by control room operators who noticed an unexplained fluctuation in power. The facility stayed shut down for a couple of days until the apparent problem was fixed.
+
+A blockbuster? No, but it was one of those nifty little stories your competition might not pick up on. Or, it was the kind of thing you might take note of if you're keeping track of how often your plant is being shut down unexpectedly.
+
+NRC Updates
+
+Jan Strasma, senior public affairs officer at the NRC’s Midwest regional office in Lisle, Ill., said the daily plant status reports get the most hits of anything on the agency's Web site. Journalists are only a fraction of the users; many are tracking patterns for the financial community.
+
+Strasma, who has been involved with the NRC's Web site since its inception, said the agency gathers information about each plant in the wee hours of the morning while most of the country is asleep.
+
+Plant status reports were initially circulated only within the agency. They eventually were posted on an electronic bulletin board, then an electronic mailing list and, finally on the NRC's Web site.
+
+Price of free information
+
+Utilities aren't always as thrilled about having the status of their plants made instantly available to the general public.
+
+Richard Wilkins, spokesman for FirstEnergy Corp., explained that it can put a utility at a disadvantage when it is forced to buy bulk electricity on the open market, especially in the summer when there is a shortage because of the amount being used to run air conditioners.
+
+If they see that a utility's nuclear plant is idle or operating at reduced power, potential suppliers get bargaining leverage in a flash. “It affects your negotiating position,” Wilkins said.
+
+FirstEnergy is based in Akron, Ohio, and has two subsidiaries - Toledo Edison Co. and Cleveland Electric Illuminating - licensed to operate northern Ohio's Davis-Besse and Perry 1 nuclear plants, respectively.
+
+The parent company experienced a temporary shortage last summer after a June 24 tornado ripped apart Davis-Besse’s electrical switchyard, knocking down 11 distribution towers and causing the plant to lose its off-site power.
+
+By clicking on the NRC’s “Selected Reports” category, I read a 34-page report that the agency’s inspection team had filed on the matter before the hard copy had made it to the utility’s headquarters. I know that because Wilkins told me at the time that they were still waiting for it to come in via over-
+Continued on page thirteen
+
+JOBS:
+FOR RECENT POSTINGS OF JOBS — INCLUDING A REPORTER TO JOIN THE OREGONIAN'S ENVIRONMENT & NATURAL RESOURCES TEAM AND AN INVESTIGATIVE PRODUCER TO JOIN WNBC-TV IN NEW YORK CITY — POINT YOUR BROWSER TO WWW.IRE.ORG/JOBS
+
+ONLINE CAR PROJECTS:
+TO VIEW A LISTING OF LINKS OF RECENT COMPUTER-ASSISTED REPORTING STORIES POSTED ON THE WEB, POINT YOUR INTERNET BROWSER TO WWW.IRE.ORG/ RESOURCES/CONFERENCES/ TRAINING/ CARPROJECTS.HTML
+THE SITE INCLUDES A DESCRIPTION OF THE STORIES AS WELL AS LINKS TO IRE AWARD WINNERS. IF YOU WOULD LIKE TO SEE A STORY ADDED TO THE LIST OF LINKS, SEND AN EMAIL TO BRENT JOHNSON AT BJOHNSON@NICAR.ORG
+
+***
+
+ON THE INTERNET
+
+Environmental data
+
+By Russell Clemings
+The Fresno Bee
+
+This column is an excerpt of a handout (#605 in the IRE Resources Center) provided at the 1997 IRE and NICAR National Computer-Assisted Reporting Conference.
+
+EnviroFacts - http://www.epa.gov/enviro1/
+Provides access to five major EPA databases on air pollution, water-discharge permits, hazardous waste site assessment and remediation, toxic chemical releases and transfers, and hazardous waste handlers.
+
+For other EPA databases available on the Internet, see: http://www.epa.gov/Software.html
+
+RTK-NET - http://www.rtk.net/
+This may be an even better source of EPA data than the EPA. RTK-NET has online access to dozens of federal databases on the environment, housing, and sustainable developement. Some are searchable from this Web site; others require a Telnet connection, but this site tells you how to do that.
+
+Jointly operated by two nonprofit organizations: OMB Watch and The Unison Institute, RTK-NET was started in 1989 in support of the Emergency Planning and Community Right to Know Act (EPCRA), which mandated public access to the Toxic Release Inventory.
+
+Here are some RTK-NET databases:
+• ARIP (EPA Accidental Release Information Program)
+• CUS (EPA TSCA Inventory of Chemical Production Database)
+• ERNS (EPA Emergency Response Notification System)
+• RODS (EPA Superfund Records of Decision)
+• PCS (EPA Water Permit Compliance System)
+• TRI (EPA Toxic Release Inventory)
+• USGS Water Use Database
+
+NTIS Environmental Software and Datafiles Catalog- http://www.ntis.gov/prs/pr758.htm or http://www.sej.org/env_data.htm
+No data here, but the next best thing: an online catalog of some 180 U.S. government environmental software and datafiles, from the National Technical Information Service. Getting into the FedWorld site to download this catalog can be difficult, so I've put a current copy on the Environmental Journalism Home Page.
+
+Nuclear Regulatory Commission - http:// www.nrc.gov
+Reactor assessment reports and documents relating to nuclear materials and wastes.
+
+Environmental Working Group - http:// www.ewg.org
+An environmental group that specializes in data analysis on environmental issues. This group has massive databases and has done reports on a variety of environmental issues.
+
+Agency for Toxic Substances and Disease Registry - http://atsdr1.atsdr.cdc.gov
+Includes a database of contaminants found at Superfund sites, with toxicity data.
+
+Extoxnet: The Extension Toxicology Network - http://ace.orst.edu/info/extoxnet/
+Pesticide information profiles, toxicology information briefs, fact sheets.
+
+National Library of Medicine - http:// www.nlm.nih.gov/
+Online (but fee-based) access to Medline and other sources of toxicology information.
+
+Material Safety Data Sheets - http:// www.ps.uga.edu/rtk/msds.htm
+An archive of manufacturers' facts sheets on hazards of chemicals they sell.
+
+National Wetlands Inventory - http:// www.nwi.fws.gov/
+Maps of extant wetlands and other stuff.
+
+FAOSTAT Database Collections - http:// apps.fao.org/lim500/agri_db.pl
+A world agricultural database that includes population, land use, irrigation, pesticides and fertilizers.
+
+USDA Economics and Statistics System - www.mannlib.cornell.edu/data-sets/
+Numerous databases on agriculture-related topics.
+
+Center for Electronic Records - http:// www.nara.gov/nara/electronic/
+Includes a list of data files in the National Archives.
+
+National Oceanographic Data Center (NODC) - http://www.nodc.noaa.gov/
+
+National Climatic Data Center (NCDC) -- http://www.ncdc.noaa.gov
+
+National Geophysical Data Center (NGDC) - http://www.ngdc.noaa.gov
+
+Continued on page eleven
+
+CLEMINGS ALSO SUGGESTS GOVERNMENT SITES WITH RELEVANT ENVIRONMENTAL DOCUMENTS:
+
+• GPO ACCESS AT HTTP:// WWW.ACCESS.GPO.GOV/ SU_DOCS-SEARCHABLE FULL TEXT OF THE FEDERAL REGISTER, GENERAL ACCOUNTING OFFICE REPORTS AND OTHER DOCUMENTS.
+
+• INTERNET LAW LIBRARY AT HTTP:// LAW.HOUSE.GOV - INCLUDES UNITED STATES CODE AND CODE OF FEDERAL REGULATIONS SEARCHABLE FROM JAN. 1, 1994.
+
+• SECURITIES AND EXCHANGE COMMISSION AT HTTP://WWW.SEC.GOV/ EDGARHP.HTM - FULL TEXT OF DOCUMENTS FILED WITH THE SEC BY PUBLICLY TRADED CORPORATIONS.
+
+• IG NET AT GOPHER:// WWW.SBAONLINE.SBA.GOV:70/ 11/-AUDITS, INVESTIGATIONS AND OTHER REPORTS FROM THE INSPECTOR GENERAL OFFICES IN MANY FEDERAL AGENCIES.
+
+***
+
+FIRST VENTURES
+
+Recalled emissions
+
+By Peter Kendall
+Chicago Tribune
+
+After spending a couple of good weeks poking into Illinois' auto-emissions testing program, a colleague and I had a little problem.
+We didn’t have a story.
+Our desks were stacked with tables the agency used to show the program's effectiveness amd piles of spreadsheets that had been spit out of the state's database. Our notebooks were overflowing with dozens of interviews. But there was nothing to grab onto, no handhold to pull ourselves up to answer our fundamental questions.
+
+And the questions had seemed so simple. Illinois had a decade of experience with automobile emissions testing and was about to embark on a new program, the most expensive in the nation. Was the program working and would the changes make it better?
+
+The state had cut its failure rate to one-third of what it had been, and now it was starting up a new program to catch three times as many polluting cars. Cut something to a third, multiply it by three, and you get back to where you started.
+
+Sudden siege
+
+The state's take was that the old program was great and the new one would be even better, allowing them to find three times as many dirty cars.
+
+I can’t recall exactly when the Illinois Environmental Protection Agency decided to take a siege mentality to our reporting, but it got to that sorry stage where all questions - no matter how incidental - had to be submitted in writing, to be followed days later by a written response.
+
+Progress was tedious to say the least. Making matters worse, my partner on the story, Laurie Cohen, took off for a few days, and she was far better than I at extracting information from the state, anyway.
+
+Jump-charting CAR
+
+Having recently finished a CAR course with Sarah Cohen, I decided to create spreadsheets of my own. I can't say I had any great plan. By the end of the day, however, I had a very neat statistical chart of the state's progress, showing how many people had been going through the testing process, how many had been failing at various stages, and how many had been given waivers.
+
+Taped together, the printouts stretched across Laurie's desk, making it look like I did something while she was gone. Scanning my crisp columns, something jumped out at me, like an image you stare at and all of a sudden something pops out in three dimensions.
+
+Over six years, the state had cut its failure rate to one-third of what it had been, and now it was starting up a new program to catch three times as many polluting cars. Cut something to a third, multiply it by three, and you get back to where you started.
+
+Falling in
+
+Everything started to fall into place – that random comment from a service repair manager that he doesn't have as much business fixing cars, that anecdotal evidence that people weren't complaining about failing the test anymore. It started to make sense in light of the fact that the state had been dumbing down its testing program.
+
+Over the next week or two, this little nugget that seemed to glow so bright on the spreadsheet drove our reporting, leading us to uncover how the state had been quietly dismantling its emissions program while the U.S. Environmental Protection Agency looked the other way.
+
+Fact is, the failure rate number could have been derived from tables the state provided. "Any moron looking at these numbers would have seen this, and we had two morons looking at them," my colleague later reflected.
+
+My point exactly. Which is why that afternoon putting together the spreadsheet was such a good idea.
+
+Pete Kendall can be reached by email at pkendall@tribune.com
+
+UPCOMING BOOT CAMPS:
+
+JANUARY 3-8, 1999 –
+BASIC BOOT CAMP IN
+COLUMBIA, MO.
+
+MAY 10-13, 1999 –
+ADVANCED BOOT CAMP
+IN COLUMBIA, MO.
+
+MAY 16-21, 1999 –
+BASIC BOOT CAMP IN
+COLUMBIA, MO.
+
+FOR A COMPLETE LISTING OF UPCOMING IRE AND NICAR EVENTS, INCLUDING BOOT CAMPS, ON-THE-ROAD TRAINING, SEMINARS AND REGIONAL CONFERENCES, VISIT OUR WEB SITE AT WWW.IRE.ORG/ CALENDAR.HTML
+
+***
+
+HANDOUT OF THE MONTH
+
+Gleaning cleanliness
+
+By Penny Loeb
+U.S. News and World Report
+
+Chances are the streams, rivers, lakes and estuaries in your area are more polluted than you thought. In fact, the quality of the nation's water bodies has declined in the past decade. The trouble with water is that it mostly looks okay to the naked eye. The only visible signs of trouble are dead fish, raw sewage, and a horrible smelling toxic spill.
+
+Those were the kinds of problems that won passage of the Clean Water Act 26 years ago. Today's troubles are less obvious, but equally important. According to the Environmental Protection Agency, the leading pollutants are sediment, nutrients (phosphorous and nitrogen), bacteria, pesticides, habitat alterations and metals. The leading source, by far, is agriculture. Sewage plants, urban runoff, industry and physically altering the stream are other, relatively equal, causes.
+
+305(b) Report: The best place to start is with your state's 305(b) report. These are issued every other year and are required under the Clean Water Act. Whatever agency that oversees water pollution will have it. These are chock-full of statistics. Most helpful are each state's assessment of its water problems and the list of impaired rivers and streams.
+
+Every two years, the EPA compiles the state reports into the national Water Quality Inventory as a report to Congress. These show how your state stacks up against others. They are always two years behind. In May 1998 the EPA released the 1996 report. To obtain copies, call Barry Bergen at (202) 260-7060.
+
+One caveat: 305(b) reports are self-reported by the states, and each state measures water quality a bit differently.
+
+EPA Information: Two places for basic water information are the EPA Water site: http://www.epa.gov/OWOW/ and the EPA Watershed Indicators http://www.epa.gov/surf/iwil. You can search for the watershed covering your area. Each one has a laundry list of water quality measures, including toxic discharges, fish consumption advisories, and agricultural runoff.
+
+NPDES Discharge Violations: The National Pollutant Discharge Elimination System requires permits and reporting of discharges from “point sources,” which can be factories and municipal waste treatment systems. Each discharger is given a limit for pollutants released to rivers and other water bodies. They are supposed to report when the discharge exceeds the limit. Studies have shown that one-fifth of the dischargers routinely violate their limits. See “Dirty Water Scoundrels” from the U.S. Public Interest Research Group at http://www/pirg.org.
+
+States usually put violations into a database and send that to the EPA. For the past decade, the EPA has maintained its data in a cumbersome, hierarchical format – though the database is finally being updated. States have had to use the same format and often go to the EPA to retrieve their own data. You can try to get your state's data in spreadsheet format, which lets you easily find violations. You can also request the data directly from the EPA. The agency has a lot of data available through its Web site, but NPDES data was not in an obvious place. The best Web site is the Right-to-Know Network’s at www.rtk.net/www/data/pcs_comp.html, though the data seem to be out of date.
+
+Water Tests: The state environmental agencies, the U.S. Geological Survey and other environmental agencies continually monitor certain streams, rivers, lakes and estuaries. The test results for nutrients, bacteria and sedimentation will help you see how much non-point sources affect your rivers. Non-point sources include fertilizer and manure washed off farm fields and dirt and chemicals washed out of construction areas.
+
+State data is available either from the states or from the EPA. The STORET system is EPA's test repository (http://www.epa.gov/OWOW/STORET/.) Again, it's a bit arcane. You can submit a request for specific data. Or you can call STORET at (800) 424-9067 and request a FTP transfer of data.
+
+The USGS has collected data for many years from 679 sites around the country. You can buy a CD-Rom of the testing results from the USGS in Reston, Va., for $42. (703) 648-5921. Code is DDS-37.
+
+The USGS has recently finished studies of
+Continued on page eleven
+
+THIS HANDOUT - "How CLEAN IS YOUR RIVER?" - WAS PROVIDED AT THE IRE NATIONAL CONFERENCE IN JUNE 1998. IT'S #850 IN THE IRE RESOURCE CENTER.
+
+TO SEARCH FOR HANDOUTS ONLINE, DIRECT YOUR WEB BROWSER TO WWW.IRE. ORG/RESOURCES/CENTER/ HANDSEARCH.HTML
+
+OTHER HANDOUTS ON THE ENVIRONMENT INCLUDE:
+• COVERING THE ENVIRONMENT USING THE INTERNET (#605 - SEE PAGE EIGHT - AND #581)
+• A DESCRIPTION OF THE WEB SITES FOR THE SOCIETY OF ENVIRONMENTAL JOURNALISTS AND THE RIGHT-TO-KNOW NETWORK (#669)
+• STORY IDEAS FOR ENVIRONMENTAL AND MEDICAL REPORTERS (#788)
+• STORY IDEAS AND SOURCES FOR INVESTIGATING ENVIRONMENTAL RACISM (#96 AND #97)
+
+***
+
+Cont. from page ten: Water pollution
+
+the first 20 of 59 areas of the country. These encompass about two-thirds of the population. Known as the National Water-Quality Assessment, this programs provides the first uniform measures for all areas. See the NAWQA Web site: http://www.rvares. er.usgs.gov/nawqa/studyu.html. The USGS wants to share these studies and will make the scientists available for explanations. They are very knowledgable.
+
+Drinking Water: About half of public drinking water comes from rivers. Municipal systems treat the water with varying chemicals. However, a number of pesticides make it through because there are no limits for them in drinking water. The Environmental Working Group (http://www.ewg.org), has done several excellent studies of pesticides and nitrates in drinking water. (Nitrate can cause blue-baby syndrome). The Working Group can also provide custom analyses of EPA data and violations by public water systems.
+
+Toxic Release Inventory: Though all substances don't have to be reported, this data can still give a picture of what's being released into your rivers. Some of the chemicals discharged are perfectly legal, though potential health threats. The Environmental Working Group analyzed TRI data and found the water bodies receiving the most cancer-causing chemicals. See "Dishonorable Discharge."
+
+Fish Consumption Advisories: In 1996, 2, 193 advisories against eating fish caught in certain rivers were in effect. For more information see http://www.epa.gov/OST/fishadvice.
+
+Reports you can't do without
+• President Clinton's "Clean Water Action Plan:" The $2.3 billion, five-year cleanup plan now being considered by Congress and hammered out by the EPA. Call (202) 260-7060.
+• "A Prescription for Clean Water: How to Meet the Goals of the Clean Water Act." Clean Water Network. (202) 289-2395 http://www.cwn.org.
+Penny Loeb can be readed at (202) 955-2640 or by email at ploeb@usnews.com
+
+From page eight: Online databases
+
+National Snow and Ice Data Center (NSIDC) - http://www-nsidc.colorando.edu
+
+Environmental RouteNet - http://moe.csa.com/routenet
+
+Natural Disaster Reference Database – http://ltpwww.gsfc.nasa.gov/ndrd
+
+U.N. FAOSTAT Database Collections - http://apps.fao.org/lim500/agri_db.pl
+
+U.S. Department of Agriculture: Economics and Statistics System: DATA SETS - http://www.mannlib.cornell.edu/data-sets
+
+EPA Emergency Response Notification System - http://www.epa.gov/docs/ERNS
+
+Other EPA databases and software - http://www.epa.gov/Software.html
+
+Department of Energy's Energy Information Agency - http://www.eia.doe.gov
+Has all the stats you could ever ask for on energy use, including oil imports, for example. They even have an environmental category, the third button under “other energy groups.”
+
+The United Nations Environmental Programme - http://unep.unep.no
+
+Chemical Fact Sheets – http://www.epa.gov/docs.chemfact/
+For background information on chemicals
+
+EcoNet - www.igc.orgligc
+Lots of information on a variety of environmental topics and a look at what's going on at the grassroots level of the environmental movement. The home page does post daily alerts, potential newsy items about environmental “crises.” Check out the list of members for links to hundreds of environmental groups, small and large, across the country.
+
+For information on the chemical industry, look for the Chemical Industry Home Page (http://www.neis.com). You can get information on the nuclear industry at http://nuke.handheld.com. Biotech info is at http://www.webpress.net/interweb/cato/biotech
+
+Russell Clemings can be reached at (209) 441-6371 or by e-mail at clemings@cris.com
+
+OTHER USEFUL SOURCES:
+• NATURAL RESOURCES DEFENSE COUNCIL, (202) 289-6868, HTTP://WWW. NRDC.ORG - EXCELLENT BACKGROUND. HAS LIST OF LOCAL GROUPS WORKING WITH FARM RUNOFF ISSUES.
+• NATIONAL WILDLIFE FEDERATION, (703) 790-4085, HTTP://WWW. NWF.ORG - PUBLISHED "POLLUTION PARALYSIS" ON HOW STATES FAILED TO SET STANDARDS THAT CAN CONTROL NON-POINT SOURCE POLLUTION.
+• STREAM ECOLOGISTS AND OTHER PROFESSORS AT LOCAL UNIVERSITIES.
+• WATER INSPECTORS AT STATE ENVIRONMENTAL AGENCIES. USUALLY OVERWORKED AND FRUSTRATED, THEY CAN TELL YOU WHERE THE WORST PROBLEMS ARE AND WHY THEY AREN'T BEING FIXED.
+
+***
+
+TECH TIP
+
+Means to appends
+
+By Justin Mayo
+NICAR
+
+Have you ever had to append hundreds of tables together? At NICAR we were faced with such a repetitive task often enough that we came up with a programming solution. Rather than permanently disfiguring ourselves with carpal tunnel syndrome, we turned to one of our favorite data-processing FoxPro functions - ADIR().
+
+The ADIR() function makes use of arrays. An array can be thought of as a temporary table. In the case of ADIR(), a temporary array is made up of the contents of a specified directory on your computer. Five pieces of file information are included in an ADIR() array: names, sizes, dates, times and attributes. This information makes up the columns in the array, but the most important for our purposes is the file name. Here's an example of how ADIR() can save your sanity.
+
+When we processed the USDA meat-packing inspections database, ADIR() was indispensable. The meat-packing data arrived on a CD-ROM in dBase format but were separated into nearly 800 identically structured tables, broken down by the region. What we wanted, however, was one table for the entire country. Here's what the basic code that appended the USDA tables looked like:
+
+gcOutputDir = 'c:\usda\outgoing\'
+gcSourceDir = 'c:\usda\incoming\'
+USE (gcOutputDir) + 'all_usda.dbf' in 1
+=ADIR (temparray, (gcSourceDir) + '*.dbf')
+SELECT 1
+FOR i = 1 to ALEN (temparray, 1)
+APPEND FROM (gcSourceDir) + (temparray(i,1))
+ENDFOR
+
+Explaining the code
+
+The first two lines of the above code simply set our working directories. The source tables are in the incoming directory. The outgoing directory contains an empty table structure - all_usda.dbf - that will become the USDA database for the entire country. (NOTE: This code assumes that the structures of your individual source tables are the same. If not, you could lose data when you append them.)
+
+The third line opens the table structure (all_usda.dbf) into which we will be appending.
+
+The fourth line is where ADIR() comes into play. The function can handle up to three arguments, though in this case we only use two: temparray and gcSourceDir + `*.dbf'.
+
+The first argument (temparray) is simply the name of the array that will contain the file names, sizes, dates, times and attributes. In this example, the array did not exist, so FoxPro created one that we named temparray. If the array did exist, FoxPro would have modified the size of the array so that the information would fit.
+
+The second argument (gcSourceDir + `*.dbf') tells FoxPro to look in the source directory and put all the files with a .dbf extension into our array. With all of the file names and attributes stored in this temporary array, we are ready to append the source tables into the outgoing table.
+
+In the fifth line, we select the outgoing table (all_usda.dbf). Next, we need to tell the program to go through the array one row (or one file name) at a time. This is why the FOR ... ENDFOR loop is used. In the loop, the 'i' is the counter variable that keeps the loop going. So that it begins with the first file name in the array, we set it to 1. (ALEN(temparray,1)) tells FoxPro to continue the loop until it hits the end of the array. The '1' in the ALEN function makes sure that we are counting the number of rows in the array (which will be the same as the number of file names).
+
+Finally, in the seventh line, we append the source tables into the outgoing table (all_usda.dbf). The last part of that line - (temparray(i,1)) - is important. The (i,1) singles out the first column in temparray, which, in the case of an ADIR() array, will always be the name of the file. As we loop through the array, we are telling FoxPro to keep appending the source tables until it reaches the end of the array.
+
+Justin Mayo can be reached by email at justin@nicar.org.
+
+IF YOU HAVE A PARTICULAR PROBLEM YOU WOULD LIKE TO SEE ADDRESSED IN THIS COLUMN, SEND AN EMAIL TO BRENT JOHNSON AT BJOHNSON@NICAR.ORG
+
+NICAR'S DATABASE LIBRARY CAN CONVERT DATA FROM ALL TYPES OF GOVERNMENT SYSTEMS. THE STAFF CAN TAKE NINE-TRACK TAPES, 4MM DAT TAPES, 3480/3490E CARTRIDGES, PRINT IMAGE FILES OR TRI/ TR2 TAPES, AND PUT THEM ONTO CD-ROM IN THE DATABASE FORMAT OF YOUR CHOICE. NICAR STAFF CLEANS AND CONVERTS THE DATA, AND PERFORMS INTEGRITY CHECKS. PRICES ARE BASED ON THE SIZE OF YOUR NEWS ORGANIZATION. PLEASE CALL THE DATABASE LIBRARY AT 573-882-0684 FOR MORE INFORMATION.
+
+***
+
+From page seven: Reactor digging
+
+night mail. By finding it on the NRC's Web site, albeit with Strasma telling me where to look, I showed the utility spokesman where he could find it so that he could make a company statement that day.
+
+Made to order
+
+Strasma defends the agency's decision to post some of the information it collects almost as soon as it gets it. Obviously, some ultra-sensitive information may still be guarded closely.
+
+But if you had scanned across the NRC Web site recently, you could have found out about a draft report the agency is circulating concerning the pros and cons of stockpiling potassium iodide pills for the general public in the event of a nuclear accident. You could have found out if a nuclear plant in your area is one of 21 plants the agency has cited for failing to move quickly enough to replace faulty fire barriers called Thermo-Lag 330-1. (Years ago, the nuclear industry spent $58 million on that product, years before the government charged the manufacturer with falsifying lab tests.) Or you could have found out the agency's progress on auditing computers at nuclear plants as part of the government's Year 2000 program.
+
+"Why go to a Web site?" Strasma asked. "Because information is fresh and different. If it's not, you're not going to go there."
+
+Tom Henry can be reached at (419) 724-6079 or by email at parkerpapa@aol.com
+
+Database Library additions
+
+NICAR's Database Library has recently added the following data sets:
+• the Home Mortgage Disclosure Act database for 1997, collected by the Federal Reserve Board to track home loans, home-improvement loans and bank-purchased loans
+• two databases from the Small Business Administration: the loans approved under the SBA's main lending program, known as the 7A program; and disaster loans, granted to businesses and homeonwers in the wake of hurricanes, earthquakes, floods, and other disasters.
+• the National Endowment for the Arts Grants Program database of grants to individuals and organizations from 1987 through 1997
+• the IRS' Tax Exempt Organization Business File, which contains basic information from all 990 filings
+• the Department of Transportation's database of fatal road accidents from 1975-1997
+• the Social Security Administration Master Death Records, kept to track beneficiaries and compiled from sources including families of the recipients, funeral homes, churches, and state health organizations.
+
+To order or have your questions answered about any of these databases, call the library at (573) 882-0684. Also view the library's collection online at www.nicar.org/data/
+
+IRE REPORTING TIPS SERIES
+INVESTIGATIVE ENVIRONMENTAL REPORTING
+BY MARY LANDERS
+
+A handbook for journalists wanting to dig deeper into environmental stories, this practical guide reprints exemplary stories and shows how they were done. It's packed with resources and includes a case study. The book covers everything reporters need to know to do environmental stories that matter, from understanding risk assessments and using statistics to working with EPA, Superfund, and Toxic Release Inventory information. $10 for members, $15 for nonmembers. For more information, call (573) 882-2042 or visit the IRE Bookstore at www.ire.org/publications/bookstore/
+
+CONNECT TO THE SOCIETY OF ENVIRONMENTAL JOURNALISTS VIA IRE'S WWW.REPORTER.ORG WEB SITE, WHICH HOSTS A VARIETY OF JOURNALISM SITES.
+
+SERVICES OF THE SEJ WEB PAGES INCLUDE:
+• EXTENSIVE LINKS TO OTHER ENVIRONMENTAL WEB SITES, ORGANIZED BY TOPICS (SUCH AS BIOTECHNOLOGY, ENERGY, OR STRATOSPHERIC OZONE LAYER), PLUS A LISTING OF ENVIRONMENTAL DATABASES AND MAILING LISTS
+• BIWEEKLY TIP SHEETS TO GENERATE STORY IDEAS AND AN ARCHIVE OF PRIOR TIP SHEETS
+• BACK ISSUES OF THE SEJOURNAL
+• CALENDAR OF UPCOMING ENVIRONMENTAL EVENTS
+• SEJ MEMBERSHIP INFORMATION
+• LINK TO THE NEW WEB SITE OF THE INTERNATIONAL FEDERATION OF ENVIRONMENTAL JOURNALISTS
+
+***
+
+JOIN INVESTIGATIVE REPORTERS AND EDITORS!
+
+IRE membership
+
+INVESTIGATIVE REPORTERS AND EDITORS, INC. CODE OF BYLAWS ARTICLE 5: SECTION 5.01:
+THE CLASSES OF MEMBERSHIP SHALL BE ENTITLED "PROFESSIONAL", "ACADEMIC" AND "ASSOCIATE" RESPECTIVELY. THE PROFESSIONAL CLASS SHALL BE LIMITED TO PERSONS SUBSTANTIALLY ENGAGED IN REPORTING AND/OR EDITING. THE ACADEMIC CLASS SHALL BE LIMITED TO PERSONS ENGAGED FULL-TIME IN RESEARCH OR TEACHING IN THE FIELD OF JOURNALISM. "ASSOCIATE" MEMBERSHIP WILL BE AVAILABLE TO FORMER PROFESSIONAL OR ACADEMIC MEMBERS PLUS INDIVIDUALS RECOGNIZED BY THE BOARD OF DIRECTORS FOR THEIR CONTRIBUTIONS TO THIS CORPORATION TO THE FIELD OF INVESTIGATIVE REPORTING AND EDITING.
+
+THE CORPORATION SHALL RECOGNIZE AS "STUDENT ASSOCIATES" THOSE COLLEGE STUDENTS PURSUING A DEGREE, WHO SUBSCRIBE TO THE CORPORATION, TO BE ENTITLED TO RECEIVE THE BENEFITS OF ITS EDUCATIONAL ACTIVITIES BUT WHO SHALL NOT BE ELIGIBLE FOR THE VOTING RIGHTS RESERVED TO MEMBERS.
+
+Membership with IRE entitles you to:
+• A SUBSCRIPTION TO THE IRE JOURNAL.
+• LOW-COST ACCESS TO THE RESOURCE CENTER, OUR INCREDIBLE LIBRARY OF GREAT INVESTIGATIVE PIECES.
+• ACCESS TO NICAR'S DATABASE LIBRARY, A COLLECTION OF GOVERNMENT DATABASES & FIRST-RATE DATA PROCESSING.
+• THE IRE MEMBERSHIP DIRECTORY.
+• A WALLET-SIZED MEMBERSHIP CARD.
+• SPECIAL DISCOUNTS ON ALL PUBLICATIONS AVAILABLE FOR SALE THROUGH THE IRE BOOKSTORE.
+• MAILINGS ALERTING YOU TO OUR REGIONAL AND NATIONAL CONFERENCES, DEADLINES FOR ENTERING THE IRE AWARDS FOR INVESTIGATIVE
+• REPORTING, IRE FELLOWSHIP AWARDS.
+
+Application (or RENEWAL)
+Please print or type
+
+Last Name, First Name, MI
+Affiliation
+Please check either your work or home to indicate where to send your materials.
+Work, Home
+address
+city, state, (9-digit) zip code, country
+work telephone, home telephone
+fax, e-mail
+IF you have an 800 number, please include it below:
+
+List my name on IRE’s Web Directory? Yes, No
+My present position is (please check all that apply):
+Reporter, Editor
+News Director, Producer
+Educator, Adjunct Educator
+Freelancer, News Librarian
+OTHER (please specify):
+
+I work primarily in:
+Television, Newspapers
+Radio, Magazines
+Books, Education
+Trade Publications
+Other (please specify):
+
+Optional:
+One of IRE's top goals is to increase participation of women and minorities. Please check the category designating your gender & ethnicity:
+Male, Female
+American Indian or Alaska Native
+Asian
+Black or African American
+Hispanic or Latino
+White
+Native Hawaiian or other Pacific Islander
+Other:
+
+THE WEB SITE FOR THE CAMPAIGN FINANCE INFORMATION CENTER (WWW.CAMPAIGNFINANCE.ORG) IS A VALUABLE RESOURCE FOR ANYONE INVESTIGATING CAMPAIGN FINANCES. IT INCLUDES:
+• DOWNLOADABLE DATABASES OF CONTRIBUTION DATA AND LINKS TO SEARCH ENGINES MAINTAINED BY NON-PROFIT ORGANIZATIONS AND STATE BOARDS OF ELECTION
+• STORIES FROM PRIOR ISSUES OF TRACKER
+• STORIES EXPLORING CAMPAIGN FINANCE AT THE LOCAL, STATE AND FEDERAL LEVELS
+• INFORMATION ON THE CFIC-L MAILING LIST
+• TIPSHEETS ON COVERING CAMPAIGN FINANCE
+• LINKS TO POTENTIAL SOURCES FOR CAMPAIGN FINANCE STORIES AND OTHER RELEVANT SITES
+
+***
+
+JOIN INVESTIGATIVE REPORTERS AND EDITORS!
+
+IRE membership
+
+I would like to contribute:
+$5, $10, $25, $ Other
+to be earmarked for minority development programs. (You may add the amount to your membership check and indicate on the memo line the purpose for which your donation is to be used.)
+
+MEMBERSHIP RATES:
+One year professional, U.S. / $40; Four-year professional, U.S. / $140; One-year student / $25; One-year international / $55; Four-year international / $185
+
+PAYMENT METHOD:
+Check or Money Order enclosed
+Visa, MasterCard
+(Sorry, we do NOT accept American Express)
+Card#:
+Expiration Date:
+Signature:
+Date:
+
+We are in the process of compiling a database to share with our members for use in networking. If you would like to participate in this project -- and if you would welcome an occasional call from an IRE member -- please fill out this section as follows: check no more than three categories, ranked 1 to 3, which represent your areas of greatest expertise.
+Agriculture
+Art/Entertainment
+Business
+Courts and the Law
+Crime
+Demographics
+Disasters
+Education
+Environment
+Federal Government
+First Amendment/FOIA
+Health Care
+Housing
+International
+Local Government/City Hall
+Military
+Nonprofit Organizations
+Politics
+Religion
+Science
+Sports
+State Government
+Terrorism
+Transportation
+Other:
+continued on next column >
+
+Please mail this form with your payment (U.S. dollars only, please) or Visa - MasterCard information to:
+IRE
+Missouri School of Journalism
+138 Neff Annex
+Columbia, MO. 65211
+
+For additional information please call:
+Voice (573) 882-2042
+Fax (573) 882-5431
+E-mail: info@ire.org
+
+Thank you for joining IRE. We look forward to serving you!
+
+DID YOU KNOW:
+Investigative Reporters and Editors (IRE) is a grassroots non-profit organization dedicated to improving the quality of investigative reporting within the field of journalism. IRE was formed in 1975 with the intent of creating a networking tool and a forum in which journalists from across the country could raise questions and exchange ideas.
+
+IRE works with print and broadcast journalists, freelancers, professors and students, offering advice and techniques to enhance any reporter's skills.
+
+You will be privy to computer training through the National Institute for Computer-Assisted Reporting (NICAR); annual and regional conferences; access to a collection of more than 12,000 investigative stories in the Resource Center and an army of colleagues willing to help with your next project. Investigative Reporters and Editors helps journalists to focus their efforts, and produce high-quality, in-depth investigations.
+
+Would you like to know more about IRE before making the commitment to join? Then check out our web site at www.ire.org
+
+If you join IRE and want to become more involved, you might want to think about becoming a Volunteer or Coordinator. Being a volunteer or coordinator is a great way to get in touch with other journalists and stay up on the best work in the business. You also get the satisfaction of knowing you have contributed to our profession. We encourage journalism educators, print journalists, broadcast journalists, on-line journalists and free-lancers who join IRE to become volunteers or coordinators.
+
+If I can help facilitate your joining IRE or be of any assistance to you in making your decision to become a member of our organization, please feel free to contact me, John Green, Membership Coordinator at 573-882-2772 or email: jgreen@ire.org
+
+I look forward to hearing from you in the near future!
+
+John Green
+Membership Coordinator
+
+TO STEER YOUR CAR PROJECTS IN THE RIGHT DIRECTION, ORDER "COMPUTER-ASSISTED REPORTING: A PRACTICAL GUIDE" BY BRANT HOUSTON. IT PROVIDES A GATEWAY TO THE FIELD FOR BOTH BEGINNING AND EXPERIENCED JOURNALISTS WHO NEED TO LEARN ESSENTIAL SKILLS AND GET UP TO SPEED IN THE COMPUTER AGE. A PC DISK WITH DATA EXERCISES IS INCLUDED.
+
+ORDER THE BOOK FROM NICAR AND INVESTIGATIVE REPORTERS AND EDITORS FOR $19.98 (EARLIER PRICED AT $26 FOR IRE MEMBERS OR $30 FOR NON-MEMBERS).
+CALL (573) 882-2042.
+
+SUBSCRIBE ONLINE:
+YOU CAN NOW SUBSCRIBE TO UPLINK ONLINE. POINT YOUR BROWSER TO WWW.IRE.ORG/RESOURCES/ NICAR/UPLINK
+
+***
+
+Bits, Bytes and Barks
+
+Conference audio tapes
+Audio tapes from the March 1998 sessions at Indiana CAR are now available for ordering from Sound Images, which can be reached at (303) 649-1811. For more information or a downloadable order form, point your browser to www.ire.org/resources/nicar/conferences/indiana/audio.html
+Audio tapes from the June 1998 IRE National Conference in New Orleans are also available. For more information, point your browser to www.ire.org/resources/conferences/neworleans/audio.html.
+
+Campaign Finance Information Center
+Downloadable campaign finance data from 14 states is free from the CFIC at www.campaignfinance.org. We also have links to 16 online search engines hosted by other nonprofits and state boards of election. We will soon release an online search engine where you can track a contributors money trail across states.
+The more inclusive this database, the better for everyone. So, if you have state or local campaign data you want included, contact the CFIC coordinators, Jack Dolan (jack@nicar.org) or Cindy Eberting (cindy@nicar.org). They can also be reached at (573) 884-1802. The CFIC credits everyone who contributes data.
+Other services available on the CFIC Web site include a directory of campaign finance reporters, a collection of campaign finance stories to generate story ideas, and information on joining the CFIC-L mailing list.
+
+Moving on
+If you have recently switched affiliations, let us know of your whereabouts. Send an email to Brent Johnson at bjohnson@nicar.org
+
+Power boost
+The Database Library recently purchased a 3480/3490/3490E tape drive. In the library's experience processing local and federal data sets, it appears that many agencies are moving toward the 3490E format, which is written at 36-track. If you receive data in this format, NICAR can now process it. Call (573) 882-0684 for more information.
+
+Conferences abound
+Information on upcoming IRE and NICAR national and regional conferences is now available on the IRE Web site.
+The National Computer-Assisted Reporting Conference, presented by IRE and NICAR along with The Boston Globe, will be held March 11-14, 1999 in Boston. You may register online or download an early registration form at www.ire.org/resources/conferences/boston
+The Investigative Reporters and Editors National Conference, co-sponsored by The Kansas City Star and KCTV, will be held June 3-6, 1999 in Kansas City. You may also register online or download an early registration form at www.ire.org/resources/conferences/kansascity
+
+NON-PROFIT ORG.
+U.S. POSTAGE
+PAID
+COLUMBIA, MO. 65211
+PERMIT NO. 286
+
+Investigative Reporters and Editors, Inc.
+138 Neff Annex
+School of Journalism
+University of Missouri
+Columbia, MO 65211

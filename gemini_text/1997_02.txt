@@ -1,0 +1,873 @@
+==Start of OCR for page 1==
+February 1997
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+CAR Cornucopia
+Uplink Update
+This issue of Uplink has it all — or at least a little bit of a lot of things.
+The main courses are stories by U.S. News & World Report's J.J. Thompson and the Asbury Park Press' Rick Linsk. Thompson explains how to measure the ever-increasing income gap by using the Gini index.
+Linsk tells how he used the Fatal Accident Reporting System to look at driving safety in New Jersey and how he put faces behind the numbers.
+Also, on this month's plate is a story about the Associated Press' move to increase computer-assisted reporting. Nora Paul looks at how to get information about cities in her Internet column. And, Christine Bush from KCTV in Kansas City tells how she investigated school field trips.
+You can also learn more about next month's national conference — from who's going to speak to where to call if you still haven't registered.
+
+Inside
+Handout of the month
+Page 6
+
+NICAR/IRE Notes
+Page 8
+
+Tech Tip
+Page 10
+
+NashCAR Schedule
+Page 11
+
+Income investigation
+To have or to have not
+By J.J. Thompson
+U.S. News & World Report
+
+Income inequality—the gap between the haves and have-nots—is a topic that begs the use of computer-assisted journalism. Being one of those trends that creeps slowly and unevenly into our lives, no one has the same perception of it. If you live in Washington, D.C., the gap seems to be huge and growing every day. If you live in Hot Springs, Ark., it may not seem quite so perilous.
+So an analysis of income data is a must to answer questions such as:
+•How big is the gap?
+•Is it getting bigger?
+•How much worse is it in X than in Y?
+The trick, obviously, is to measure the phenomenon in a way that readers can easily grasp its meaning. When, during the vice presidential debate, Jack Kemp mentioned USA Today's article mapping income inequality in the United States, I knew the Gini coefficient of inequality had done the job.
+
+The Gini Lowdown
+The Gini formula produces a single number between 0 and 1, with 0 indicating complete equality (everyone makes the same amount of money) and 1 indicating complete inequality.
+Phil Meyer, journalism professor and precision journalism guru at the University of North Carolina at Chapel Hill, heard a presentation using the Gini coefficient of inequality at a research conference. Since I was searching for a thesis topic that would incorporate data-analysis with my interest in social issues, he suggested that I look into it.
+
+The first two hurdles were finding a formula and understanding it. After one laborious false start, I found a formula that would work with aggregated income data.
+You may recognize (if you remember 10th-grade geometry better than I did) that the formula for the Gini coefficient is based on the one for measuring a triangle.
+Continued on page two
+
+Collision course
+Counting the crashes
+By Rick Linsk
+Asbury Park Press
+
+Every day, about 115 people die on the roads in the United States. Naturally, a government agency keeps track. The result is the Fatal Accident Reporting System, a database you can sift for many kinds of trend stories.
+Traffic analysts in every state compile the database for the National Highway Traffic Safety Administration using police accident reports, driver license and vehicle registration files, coroner's reports, death certificates and other documents. FARS includes any motor vehicle accident on a public roadway that results in a death of a person within 30 days.
+Continued on page three
+
+1
+==End of OCR for page 1==
+
+==Start of OCR for page 2==
+Uplink
+February 1997
+Volume 9, Number 2
+A newsletter for the
+National Institute for
+Computer-Assisted
+Reporting
+
+Editor
+Brant Houston
+brant@nicar.org
+Managing Editor
+Jody Sowell
+jody@nicar.org
+Senior Contributing
+Editors
+Jo Craven
+jo@nicar.org
+Andrew Lehren
+andy@nicar.org
+Richard Mullins
+richard@nicar.org
+
+Staff
+Sarah Cohen
+Stan Dorsey
+Seth Hemmelgarn
+Daniel Kim
+Justin Mayo
+John Sullivan
+Alistair White
+Wallace Winfrey
+Copy Editors
+Wendy Charron
+Marilyn Lehren
+
+Uplink is published every
+month by the National
+Institute for Computer-
+Assisted Reporting,
+138 Neff Hall Annex
+Columbia, MO 65211.
+(573) 882-0684.
+Subscription price is $40 for
+IRE members, $60 for
+nonmembers.
+Postmaster: Please send
+address changes to NICAR.
+Send e-mail to
+nicar@muccmail
+.missouri.edu.
+
+NICAR is a joint effort of
+Investigative Reporters
+and Editors and the
+University of Missouri
+School of Journalism.
+NICAR services include
+hands-on newsroom
+training on computer-
+assisted reporting, special
+academic and advanced
+training in data analysis.
+NICAR is supported by a
+grant from The Freedom
+Forum and other
+foundations intended to
+help the institute deliver
+its services nationwide to
+news organizations and
+associations.
+
+Continued from page one:
+Income inequality
+
+It is:
+Gini coefficient=1 – SUM(Xi-Xj) (Yi-Yj)
+where:
+X is the cumulative proportion of households;
+Y is the cumulative proportion of income;
+i is a particular income category;
+j is i-1, or the preceding income category.
+The easiest way to conceptualize this is to picture a graph in which the final point on both X and Y axes is 100 percent, or 1.0. Points are graphed based on cumulative numbers; therefore, in a completely "income-equal" county, 10 percent of the households would take in 10 percent of that county's income, 20 percent of households would take in 20 percent of income and on up to 100 percent of the households, which would account for 100 percent of income. The points in this unusual county would form a straight line from 0,0 to 1,1— think of it as the "line of equality."
+In reality, however, 10 percent of the overall households may account for only 2 percent of income; 20 percent of households only 5 percent of income and so on, so that the points would form a curve below the line of equality. By measuring the space below the curve (you can divide it up into a series of triangles) and subtracting it from 1, you get a number that indicates how big the inequality gap is. That's the Gini coefficient.
+
+Stories by Gini
+Being able to use aggregated income instead of individual incomes, like you might do in a smaller sample, was important because the way the Census reports income data. For example, the Census will tell you only that 256 people in County X had incomes between 0 and $2,500, 345 between $2,501 and $5,000 and on up the scale.
+I used the midpoint of each interval as the income for all households in that category as well as to calculate total income for each income category. This worked until I got to the final category, which was open ended. Fortunately, the 1990 Census reports total income for the group earning $150,000 or more, so it was fairly simple to divide that amount by the total number of households in that top cat-egory for its average income. I also used 1980 income data, and for that year the Census only recorded total income for the whole population. Therefore, a few more computations were needed to get an average income for the top group.
+The formula is pretty easy to put into a spreadsheet like Excel, and once the income midpoints and the number of households in an income category are entered, the Gini coefficient can be calculated quickly.
+For my thesis, I looked at income inequality for all 100 counties in North Carolina using income data from the 1980 and 1990 U.S. Censuses. The income distribution gap increased by at least 5 percent in 50 counties during the decade; it decreased by 5 percent or more for only nine. For my thesis article, I concentrated on the county where the gap grew the most.
+In addition to providing the focus for the story, the analysis with the Gini coefficient proved a powerful reporting tool. When the county manager denied that income inequality was a phenomenon in Montgomery County, I was armed with the Gini coefficient plus the proportion of money being earned by the 400 households with income of $150,000-plus each year. He then started coughing up explanations.
+The why behind the phenomenon is what proves so interesting. In this particular county, two concurrent trends were adding to the widening gap. One is that the four or so major businesses there had been family-owned for years, with the family owners/managers keeping ever-larger proportions of the profits for themselves. Meanwhile, their workers' pay had remained relatively stagnant. The other factor was who was moving into the county—at one end, rich retirees who were building homes in a ritzy lake-front community and, at the other end, poorer immigrant workers.
+The result was a small but fairly divided community of the "haves (who took little interest in community life and showed minimal concern for the needs and frustrations of the poor in their county) and the "have-nots" (who tended to be a drain on public funds and services).
+Paul Overberg at USA Today, with the help of Meyer, used the Gini formula to examine income inequality in all counties in the nation. The analysis resulted in wonderful, detailed maps and an series in September's Money section. The staff
+Continued on page ten
+
+2
+==End of OCR for page 2==
+
+==Start of OCR for page 3==
+From page one: Crunching crash data
+At the Asbury Park Press, FARS enabled us to produce "Collision Course," a two-part series on older drivers. Teaming up with a reporter writing about a special prosecutor's task force on fatal crashes, I acquired 1988-95 data from NICAR. Our circulation area includes Ocean County, N.J., a popular suburban retirement area where 1 in 4 people are 65 years of age or older, and where driving is virtually a matter of survival.
+There was:
+• The 70-year-old man who gambled all night in an Atlantic City casino, fell asleep at the wheel on the way home and collided head-on with a young couple, killing them.
+• The 61-year-old man who took his eyes off the road and mowed down a school crossing guard.
+• The 82-year-old woman who left her car parked with the engine running and was run over by it.
+
+Detecting trends
+Were these just anecdotal shockers, isolated incidents, or part of a trend? That's what we wanted to know from FARS.
+On a national, state and local level, it turned out, the percentage of fatal crashes involving a senior driver had increased since 1988. Census figures helped confirm that the increase outpaced the overall aging of the driving population.
+Advocates for the elderly argued that young drivers were just as menacing, or worse. We needed to compare all drivers on an equal footing.
+To do that, I first grouped 1994 fatal crashes by driver age. Then I found travel estimates by driver age in the 1990 National Personal Transportation Survey, the latest year available. (New figures were collected last year but have not been released yet.) And from the Federal Highway Administration's Internet site, I snagged 1994 licensed driver totals by age group for each state.
+I plugged all the figures into a spreadsheet. The result: Fatal crash rates for New Jersey drivers, measured by miles driven, increased sharply after age 65.
+Last, we gathered projections by Census and transportation officials showing the implications for the future, when many more seniors will be behind the wheel. We also addressed ways that drivers and regulators are dealing with the changes.
+
+Not just numbers
+The records don't give you the names of people in the accidents. But because there are fields that identify people by age, gender, "person type" (driver, passenger, pedestrian etc.), and which car they were in, it's easy to match the records to crash stories from your paper's archives or to public records. Reporter Bill Heine and I identified several compelling cases and used interviews as well as police reports, municipal court documents and drivers' histories to round out our vignettes.
+You can get at what caused the crash by looking at the field that contains "driver-related factors." Codes from 00 through 99 reveal, among other things, whether drivers were drowsy, inattentive, reckless, intoxicated, disabled, using a car phone, or fleeing police.
+Other fields detail the accident's date and time, the extent of injuries, the time span between the accident and the victim's death, seatbelt and airbag use, whether a school bus was involved, and whether drivers had recent prior crashes or speeding tickets.
+FARS doesn't do a great job telling where the accident happened. There is a field with the road name (called "idyfer," in NICAR's version of the data), but no intersection field. There's a milepoint field that's useful if the crash was on a toll road or other major highway.
+Other limitations involve issues of timing. FARS analysts build the database from local police reports, and some issues are still unresolved when those reports are filled out, such as whether charges were brought against the driver, and how many people died.
+Also, the database's crash totals can conflict with local and state figures because of the 30-day policy noted above. If someone dies 32 days later, your state may count it as fatal.
+NHTSA analysts were responsive and helpful when I had questions. The agency has information summarizing the database and how to order it on the Internet at www.nhtsa.dot.gov/people/ncsa/fars.html
+Rick Linsk can be reached at (908) 922-6000, ext. 4360, or by email at linsk@app.com
+
+A one-year subscription to Uplink is available for $40 for IRE members and $60 for nonmembers.
+Upcoming issues will include stories about college students and recent college graduates practicing CAR in the "real world," reporters using statistics in reporting and journalists at small newspapers enhancing their coverage by using computer-assisted reporting.
+To subscribe, call (573) 882-0684, or send e-mail to wendy@nicar.org.
+
+3
+==End of OCR for page 3==
+
+==Start of OCR for page 4==
+The Office of Juvenile Justice and Delinquency Prevention (OJJDP) has put many of its reports on-line.
+These reports include information about teen courts and about the Juvenile Justice and Delinquency Prevention Act.
+To find out more, visit http://www.ncjrs.org/ojjhome.htm
+
+CAR gets wired
+Wire service serves CAR
+By Jody Sowell
+NICAR staff
+
+Bob Port, special assignments editor for the Associated Press, is ready to declare computer-assisted reporting dead—at least the term.
+"The thing about the phrase 'computer-assisted reporting' is it is quickly losing its meaning," Port said. "It's like saying 'telephone-assisted reporting.' If you're doing investigative reporting nowadays, you need computers."
+Port said the Associated Press soon will make computer-assisted reporting easier for all AP bureaus. The wire service currently distributes databases as best it can — mailing CD-ROMs to bureaus or doing the research in New York and sending printouts.
+By the end of the year, however, that cumbersome system should change. AP is building a computer lab in its New York office that will include a Web server capable of distributing large databases. This will allow an AP reporter in Dallas to call up the latest FBI statistics, or a reporter in Oregon to check a politician's claim of lowering unemployment in the state.
+"We want to make it possible for every single representative of the Associated Press to be able to look at public records electronically," Port said. "We would like them to be able to do it on deadline as much as on a project or a weekend feature."
+Port, who heads a team of four writers, one researcher and a data editor, said his staff can look up several databases from their New York office, but Port wants all bureaus to be able to share in their research.
+He said he hopes to have the first test databases working by March, have a few bureaus connected by the end of summer and have a national project started by the end of the year.
+
+Philosophy change
+Having these databases available at all bureaus, Port said, will allow for more "hard-edge reporting." He said reporters will be able to more accurately check claims and will be able to produce their own findings based on reports.
+"That might not sound like a lot, but that's a big change for a wire service," Port said. "They weren't accustomed to doing research here. It was pretty much grab a quote, get their name and age and put it on the wire."
+Computers allow for deeper reporting, but Port said there is a big "but."
+"I think we're well down the road, but computers don't write stories," he said. "Computers don't think like a skeptical reporter, and that's the other thing we need to work on — the people."
+Part of that work involves freeing up reporters to be trained to use the databases that are out there. AP has already begun to incorporate more reporters in computer-assisted projects. Bureau reporters are given chances to work on investigative pieces through a rotating national writer program.
+
+Projects and tips
+Despite the challenges that AP faces, its researchers, writers and editors have produced some noteworthy investigations. The most recent was a look at a federal horse adoption program that was leading to the slaughter of thousands of wild horses. Reporter Martha Mendoza found many of the adopters who are selling their horses for slaughter are employees of the Bureau of Land Management, the federal agency in charge of the program.
+Port said reporters and researchers matched employees in a federal government horse adoption title database with a database of all federal government employees to find employees who were adopting horses. They then used horse identification numbers to find which horses had been sold for slaughter. They found that 80 percent of the slaughtered horses were under 10 years old and 25 percent were under 5 years old.
+Rumors of this problem have been around for a long time, Port said. "This has been going on for many years, and a lot of people have tried to do it. I don't think anyone has done it as much as we did," he said. "I think most reporters are at the mercy of who is willing to talk and under what terms, and in this case, it was nice to be able to use computer records to get at certain facts."
+Port said the series took 12 weeks to produce: four weeks of backgrounding, six weeks of reporting and two weeks for editing. Other AP projects have included stories about OSHA, speed ticketing practices in New York, and Kentucky police officers ignoring overloaded coal trucks.
+Continued on page fourteen
+
+4
+==End of OCR for page 4==
+
+==Start of OCR for page 5==
+On the Internet
+Internet travel assistance
+By Nora Paul
+The Poynter Institute
+
+Whether you need some facts and figures to fill in your reporting about a place (a plane crashes in Mountain Home, Ark., and you've never heard of the town), or you are going somewhere and you need to scout it out before you get there (you are going to NashCAR and want to know more about the country music capital), there are some great gazetteers, groovy guides and helpful handbooks available about almost any location on earth.
+You can book a flight, book a room, check the weather, chart an itinerary and print out a map.
+Here's where to go before you go:
+
+Maps
+• The U.S. Gazetteer
+http://www.census.gov/main/www/access.html
+The Census department has put together a one-stop shopping site for maps and Census materials. You can select either the Map Stats for a variety of statistical profiles of states, counties, cities or go to the U.S. Gazetteer and zoom in on an area map with labels customized to your needs.
+
+• BigBook
+www.bigbook.com
+Got your hotel reservation, but need driving instructions or a map of where to go? Use Big Book to get details about your destination. The maps are zoomable, the directions easy to follow.
+
+• Yahoo Maps
+http://maps.yahoo.com/yahoo/
+Another great service from the good folks at Yahoo. Plug in an address and city and a map will be drawn for you. Zoom in or out, rotate further north or south. You can get point-to-point directions, with a map of your starting and ending points.
+
+City Info
+• Yahoo
+www.yahoo.com
+
+Yep, Yahoo, again. When you want to check out what is going on in a city, get some background on the government there, find the local weather or television station or newspaper site — just go to Yahoo and click on United States and then select the state and city you want. Their compilation of information is well organized and you can run through sites with all that kind of background information and things specific to that area. A virtual guidebook.
+And if you want to find other travel guides, go to Yahoo's Travel section (under Recreation and Sports) and then click on Destination Guides. You'll get a listing of great sites with travel information for various cities in the United States and around the world.
+
+Planes and Trains
+Almost every airline you can imagine has a website (usually just type in the name of the airline for the address), but if you want to see what flights are available, check out:
+
+• Yahoo's Flight Information Site
+http://yahoo.flifo.com/
+I love this site. Put in where you want to fly from, where you want to fly to, when and what time of day and you'll get back a variety of options. Specify an airline you want to use, or see all the possibilities. They'll give you the prices, and you can even buy the ticket.
+
+• Amtrak
+www.amtrak.com
+Don't let fear of flying stop you. Take the train. Trakrouter has four different ways to calculate the best route.
+
+Lodgings
+• Travelweb
+www.travelweb.com
+Tell them the city, even the hotel chain, if you have a preference, and you'll get a list of the available hotels. Click on one of the hotels, and a page with everything you could possibly want to know will be displayed. Click on "area info," and it will tell you how far that hotel is from some of the sights in that city.
+Nora Paul can be reached at (813) 821-9494, or by e-mail at npaul@poynter.org
+
+If you have suggestions for this column, e-mail Nora Paul at npaul@poynter.org.
+If you have any story ideas or want to contribute to Uplink, write to the newsletter's new managing editor, Jody Sowell, at jody@nicar.org.
+
+5
+==End of OCR for page 5==
+
+==Start of OCR for page 6==
+This is an excerpt of a handout provided by Jeff South at the 1996 IRE National Conference in Providence, R.I. To order the full handout, reference number 495, or to get a list of other conference handouts, call the IRE Resource Center at (573) 882-3364.
+
+Handout of the month
+Mining data from Census...
+By Jeff South
+Austin American- Statesman
+
+Many people view the Census Bureau as the government agency that comes around every 10 years and tries to do a headcount of Americans, producing statistics that, while interesting, quickly get stale. But the bureau generates more than flash-in-the-pan demographic data: It is a steady source of information on various subjects, including politics, business, and social issues.
+Computer-savvy reporters and editors are in a unique position to take advantage of this flow of data, because the Census Bureau is a leader in distributing information by computer. It has a comprehensive Internet site, several electronic mailing lists, a dial-up computer bulletin board and a data bank accessible through CompuServe and Dialog.
+The bureau also provides (usually at price) data on CD-ROM, nine-track magnetic tape and diskettes.
+From quick-hit data to long-term projects, Census data can be used in various ways:
+Every year, the bureau updates population estimates for states, counties, and metropolitan areas. (The agency revises estimates for cities every other year.) These updates are fodder for breaking news and trend pieces. The updates include breakdowns that lend themselves to spin-off stories: on race, ethnicity and age, for example.
+Beyond demographics, the Census Bureau tracks rental housing vacancies, government spending, business development and other trends. For example, the bureau does an annual housing survey that shows, for each metro area, the percentage of families who own homes.
+Sometimes the numbers are old but they might provide the best comparison available. Other data sets are more current, like the bureau's monthly compilation of building permits.
+The 1990 Census, even seven years later, is still a valuable source of numbers—and the only official source for many statistics. While you can't build a story on the numbers alone, you can use the 1990 Census to shape your report. It remains the best way to compare neighborhoods, cities or states on criteria ranging from the percentage of workers who carpool to the percentage of homes without plumbing.
+The 1990 Census and updated estimates are especially valuable when combined with other data, such as the number of crimes, gun permits, pawn shops, supermarkets, public swimming pools, billboards — you name it.
+Use Census data to compute rates, like zoning violations per 1,000 households in each ZIP code, or the number of liquor stores for every 10,000 people in different parts of your city. Then use the Census to see if the rates are different between low-income and high-income areas or between predominantly minority and predominantly white areas.
+The Census Bureau is still slicing and dicing the 1990 Census, generating data on special populations. Last fall, for example, the agency released, for each state and metro area, census details on mobile home residents and how they compare with other residents. The bureau previously dissected data for Hispanics, people with disabilities and other groups.
+
+Keeping up with Census data
+The best way is to subscribe to the bureau's listserv for reporters. Do this by sending the message "subscribe press-corps <your e-mail address>" to majordomo@census.gov Then you'll automatically receive the press releases, usually embargoed so that you have time to develop a story, and tipsheets about data and reports on the horizon.
+A recent tipsheet was typical in listing several upcoming data sets with strong story possibilities: the Consolidated Federal Funds Report, a database available on CD-ROM that shows how much each federal program spends in each city, county, and state; new demographics about African-Americans; County Business Pattern reports, which detail the number and type of businesses and their employees; a count of Hispanic-owned businesses; and population numbers for every county from the first time it was included in the Census (as early as 1790) through 1990.
+The bureau has several other listservs, including a monthly announcement of new products and periodic distribution of economic research. The agency's Web page, http://www.census.gov, tells
+Continued on page seven
+
+6
+==End of OCR for page 6==
+
+==Start of OCR for page 7==
+From page six: ... a reporter's goldmine
+you how to subscribe and how to reach the bureau's experts on specific subjects like population projections, education, and poverty.
+
+Finding and acquiring data
+Visit the Web site often—off hours if possible, because it is often busy.
+The bureau's home page invites you to browse for reports and data under two general categories: "Population and Housing," which includes such topics as race, migration and income; and "Economy," which covers housing starts, business issues and government finances.
+Large data sets, such as CD-ROMs and nine-track tapes are listed under "Market Place." This list runs from the 1992 Census of Agriculture and the School District Data Book to Public Use Microdata Samples, or PUMS, which let you create your own crosstabs from the 1990 Census.
+A few of these collections such as the Census Transportation Planning Package are free. But most large data sets carry a price, typically $150. However, the Census Bureau is having a sale on older CD-ROMs: For $50 you can get 1990 Census details for your area down to the smallest geographic level, or a CD that breaks down occupations by sex, race and ethnicity.
+Even if you're not buying, it's important to know the specific name of the data you want. Here's why: You might be able to borrow the CD from a local library or university.
+Also, knowing the name of the data will help you do a search using the engine on the Census Bureau's home page. You may be able to find and download selected tables from a CD you covet. For instance, the agency has posted many tables from the Statistical Abstract and the County and City Data Book.
+On the 'Net, you'll find data sets in various formats: occasionally dBASE, sometimes as spreadsheets, but usually as fixed-length records. The data and the record layout often are in separate files so be sure to get both.
+The joy (or for some people the frustration) of using data from the Census Bureau's 'Net sight is that you must employ several computer-assisted reporting tools: your Internet software, of course; a spreadsheet like Excel to parse the data into columns; a database manager like FoxPro or Access to analyze the data; and a desktop mapping system like MapInfo or AtlasGIS to display your data.
+In many cases the numbers you want won't require downloading a large data set or getting a CD-ROM. Instead, you simply may want to look up census data for one or more states, counties, cities or ZIP codes. You can do this under "Data Access Tools" from the Census Bureau's home page.
+One tool lets you zoom in on a map, pick a county and view various factsheets. With another tool, you can type or paste into a box list of ZIP codes, select the census-data categories that you want to see and receive a tab-delimited file that flows easily into a spreadsheet.
+
+Other resources
+The Census Bureau is by no means the only source of demographic data on the Internet. The bureau's page has links to other sites like, the University of Missouri (http://www.oseda, missouri.edu), census data at the Lawrence Berkeley National Laboratory (http://cedr.lblgov/mdocs/LBL_census.html) and the Consortium for International Earth Science Information Network (http://www.ciesin.org).
+Also check your state government's Web page, as well as sites operated by publications like American Demographics (http://www.demographics. com), which often posts the data used in its articles.
+Develop human resources too — not just at the Census Bureau but at its regional office nearest you and your state data center. The centers, usually affiliated with a state government agency or university, help to distribute and analyze Census information. You can find a list of the centers at http://www.census.gov/ftp/pub/sdc/www/
+Ask your state data center, contacts at a local university or the federal information section of your local library if they have census data you can borrow. Many libraries let you check out census data on CD-ROM.
+If you need inspiration for Census stories, read Who We Are: A portrait of America based on the latest U.S. Census. This 1993 book, by Sam Roberts of the New York Times, shows how to put a face on Census data..
+Jeff South can be reached by e-mail at jsouth@statesman.com.
+
+The Census Bureau produces several reports including the Statistical Abstract of the United States, the County and City Data Book and USA Counties. These documents include data ranging from the cost of living to health care. They're available as books, but the CD-ROM versions include more data. Many of the tables can be downloaded for free from the Internet.
+
+7
+==End of OCR for page 7==
+
+==Start of OCR for page 8==
+Want to be an IRE member? It just got easier. You can now join IRE via our Web server, or you can download a copy of our membership form in Adobe Acrobat format from the Web site and submit it by fax to (573) 884-5544.
+For more information, check out http://
+www.ire.org/membership.html.
+If you have any questions, e-mail Web Master Wally Winfrey at wally@nicar.org.
+
+NICAR and IRE Notes
+NashCAR: Ready to roll
+By Brant Houston
+Managing Director
+
+New subjects, new panels, new faces. NashCAR, our national computer-assisted reporting conference in Nashville, Tenn., March 6-9, has been programmed by NICAR and the local committee from the Tennessean to have all of these.
+In the past year and a half, CAR has grown dramatically and in different directions. The Internet, through the World Wide Web, has not only become a worthwhile and constant source of data and information, but also a way to distribute databases within a news organization.
+Reporters have become more savvy about software programs, math and how to slice national data for local stories. Steps have been taken toward better visualization of information — so that it can be better understood.
+During this time, different levels of teaching have been required. Introductory training continues for those just getting to CAR, but NICAR has also developed new curricula for the intermediate and advanced journalists.
+All these changes need to be reflected at NashCAR, and they will be.
+Among the topics will be:
+• Using the Internet for quick hits in broadcast.
+• Using Intranets and Lotus Notes to distribute data to the whole newsroom.
+• Finding free data on the Internet.
+• Making federal data useful for local stories.
+• Using math and statistics without making critical errors.
+• Using CAR for international stories.
+• Managing CAR projects.
+
+We will have panelists from throughout the country and from news organizations who have never spoken before. There will be more speakers from broadcast on our panels and panels for special concerns of broadcasters, who have less time and space to work with.
+We also will have few key experts from outside journalism who can tell you about hidden sources of data.
+
+At the same time, we will make sure to cover the basics and include the knowledgeable veterans of CAR, who have been learning and teaching for the past decade.
+You will be able to get the best ways to start in CAR and hundreds of good story ideas to which CAR can be applied.
+As you enter this new arena, there will be panels on the legalities and ethics in the world of CAR to help guide you. And there will be panels on how to present the story so that it doesn't get lost in numbers or overloads of data.
+Meanwhile, our hands-on training is the most ambitious ever. We are offering 20 different classes in four days ranging from beginning searches of the Internet to using statistical software to analyze datasets.
+We also will provide tutorials and specialized workshops in our demonstration rooms, have dozens of reprints and video clips of stories to share, and will offer seminar rooms for impromptu gatherings on particular subjects.
+Last, NashCAR will have the first ever job fair to connect those looking for the right place and those looking for the right journalist. So don't miss this great event and the chance to get on the fast track to better journalism.
+
+IRE News
+IRE launched on Feb. 4 and 5 a satellite feed featuring TV investigative stories that used computer-assisted reporting. The one-hour feed, “New Adventures in Computer-Assisted Reporting," told stories of pension thieves, license-less cabbies, fraudulent elections and filthy restaurants. The feed was available for free to anyone who could configure a satellite to catch it.
+Long-time IRE members Mark Lagerkvist of News 12 Long Island and Stuart Watson of WRAL-TV in Raleigh, N.C., were responsible for the event. They pulled together the stories, the permissions to rebroadcast the stories and the technical requirements for the feed. The purpose was to show how television journalists around the country had successfully used computer-assisted reporting skills in producing stories.
+For more information on this, contact the IRE Resource Center at (573) 882-3364.
+Brant Houston can be reached at (573) 882-0684, or send e-mail to brant@nicar.org
+
+8
+==End of OCR for page 8==
+
+==Start of OCR for page 9==
+CARTrips: First ventures
+CAR goes on field trip
+By Christine Bush
+KCTV - Kansas City
+Christine Bush attended the NICAR bootcamp in January.
+
+Our news director succumbed to years of price quotes and good old-fashioned begging last year when he approved the purchase of a computer for our investigative unit.
+Not long after the mouse touched the pad, he wanted to know what story we could turn with the help of the computer.
+So I glanced through IRE's 100 Computer-assisted stories. From that we found a story outlined on school field trips.
+Journalists at The Tennessean found that poor schools in poor neighborhoods were not going on as many field trips as students from wealthier schools, even though experts say poor children need field trips more because it is often their only opportunity to go to places like zoos and museums.
+The synopsis showed the story only took a week and a half. It sounded perfect for our first computer-assisted story.
+
+Getting started
+Our market covers school districts in two states. So we chose some of the largest and smallest districts on both sides of the state line. After the first two telephone calls, I realized this was going to take much longer than a week and a half.
+Only two school districts had the information loaded into a computer, and other districts didn't know if they could find specific costs for field trips.
+I told them if that was the case, we had another story.
+We eventually narrowed the scope of our story to six school districts. We limited our examination of costs to elementary students. We chose that age group because they get the majority of the field trip funding.
+Gathering the data took almost two months. The schools that didn't have the data compiled electronically really dragged their feet. When we finally got data, it often lacked the information we requested. Some districts didn't keep detailed information, such as how much each individual trip cost.
+
+We used Microsoft Excel exclusively for this project. No scientific methodology behind that — it was the only one I knew how to use. I requested a list of all tax dollars spent for field trips in the current school year and the past school year.
+We defined a field trip as any off-campus trip, excluding extracurricular activities. The database included about 300 records.
+We listed each school individually, the trip taken and cost of trip. Then we added total cost per school, per school district and per student. We also categorized the types of trips taken and counted those.
+
+Results
+From the comparisons, we concluded same size school districts took about the same number of field trips, but spent varying amounts of money. Most schools took the same types of trips, except for the Kansas City School District.
+A few schools in that district spent a large chunk of the budget for out of town, overnight trips. The district also spent six times more than a comparably sized district on the Kansas side. We were also able to conclude some schools relied more on parent-teacher organizations or private funding while others relied on tax dollars.
+The district's assistant superintendant said out-of-class experiences are important and will continue but said out-of-town trips may be reduced and spending may on those trips may be cut.
+Now that I know how to use a database manager, I see how the project could be easier. Counting the trips and categorizing them would be quicker and easier to evaluate. Linking tables would add more insight as well.
+Reporters at The Tennessean had this tip for others who want to do the project: "The information is there," they wrote in 100 Computer-assisted stories. "You just have to go out and look for it. As long as you ask for it at the school administration building, you can get it."
+Good advice. All it takes is patience and persistence.
+Christine Bush can be reached at (913) 677-7115, or send e-mail to CFA@KCTV.COM
+
+To find out more about The Tennessean's field trip stories, or any of the other 99 computer-assisted projects in 100 Computer-assisted stories, call (573) 882-2042. The book contains synopses of investigations and tips. Find out how to investigate everything from crime to cellular phones to cable television. The book can be ordered for $20 plus shipping and handling.
+
+9
+==End of OCR for page 9==
+
+==Start of OCR for page 10==
+Looking for some reporting tools? Go to the Texas Journalists' Tool Box at http://
+www.utexas.edu/
+courses/j352
+You'll find tipsheets, FOI information and links to useful sources.
+
+Tech Tip
+Tricks with the delete marker
+By Richard Mullins
+NICAR/Missouri School of Journalism
+
+When we process and scan paper records and lists, we often use a sort of check-mark system to digest the information. It turns out that FoxPro has a feature that can be used as a check mark for a row in a table, without adding any columns to the table.
+What FoxPro calls the DELETE TAG is used to mark records to be permanently removed from the table by the PACK command. Unless that command is issued, the tag has no effect, so you can use it as a marker for all sorts of things.
+The marker can be set row by row, by clicking the box at the very left of the table display, or it can be set by a command typed in the command window, with limits on the scope of the command specified by logical conditions. You can browse or select records based on this marker. You can remove the markers manually and individually, or by logical condition, you can remove them all.
+Here is an example. You have a table with a column called "name." The problem is that it contains both individual and business names, and you want to untangle this by marking the business names.
+You make a guess that business names will have certain words and characters in them that wouldn't typically be found in an individual name. You can test this theory by setting the delete tag on all the rows that have these. Then you browse only the marked records in the table and remove the marks from records that really are individuals. As you remove the marks, they disappear from the browse window, (not the table) leaving only the rows still to be examined. Several commands in FoxPro, such as replace, delete, and browse, can have a logical condition specified to limit the extent of the command. This logical condition works just like the WHERE clause in SQL, except in FoxPro the word FOR introduces the condition.
+If you haven't used the $ before, it creates a logical, or true/false test on an expression, just like the equal sign does in State = "WY"
+An expression using the $ roughly translates to: "Is String1 found anywhere within String2?"
+* set delete marker for names
+* that contain ampersands,
+* and business suffixes:
+delete for "Inc." $ Name
+delete for "Co." $ Name
+delete for "&" $ Name
+* now browse just the delete-flagged records:
+browse for deleted()
+The deleted() function gives the answer true or false for each record in the table, depending on whether the delete tag is set.
+When you browse through the records, you might find a row where the name column contains, "Smith, Mr. & Mrs. William." You would remove the delete tag for this record, and it would disappear from the browse window.
+If you have to start over, remove the delete tag on some or all of the records:
+• remove delete tag for all records:
+recall all
+• remove tag for some records:
+recall for "&" $ Name
+Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org
+
+Continued from page two:
+Income inequality
+added eloquent stories to transform the cold numbers into a warm, meaningful and very human look at the issue.
+Overberg noted that one problem USA Today addressed was the staleness of the 1990 Census numbers. To make the analysis more current, he supplemented with income data from the Current Population Survey.
+With another Census just around the corner, it will be possible for news organizations to take a fresh look at income inequality and its effects on civic life in their own communities. Other possibilities for insightful news stories are to see if income inequality—as measured by the Gini coefficient—correlates with other trends including decline in public school enrollment, voter turn-out or mortality rates. The possibilities, as they say, are endless... and exciting.
+J.J. Thompson can be reached at (202) 955-2399 or by e-mail at jthompson@usnews.com
+
+10
+==End of OCR for page 10==
+
+==Start of OCR for page 11==
+The National Computer-Assisted Reporting Conference
+NashCAR '97
+Hosted by IRE, NICAR and The Tennessean in Nashville, Tenn.
+Conference Site: The Renaissance Nashville Hotel
+
+Learn more than 50 ways to use computers in the newsroom at NashCAR '97, March 6-9 in Nashville, Tenn. This year's National Computer-Assisted Reporting Conference is sponsored by IRE, NICAR and The Tennessean.
+Break-out sessions on special topics will be held in siderooms and speakers will give presentations on problem-solving, software, hardware, and data analysis in a demonstration room. Training will include classes in spreadsheets, database managers, mapping, nine-track tapes, creating World Wide Web pages, and surfing the Internet. We will announce panelists in the coming weeks.
+In addition, there will be up to six hours of hands-on training offered to registrants on a first-come, first-served basis and one-on-one work critiques for the first 50. Hands-on training will include beginning, intermediate, and advanced classes. Here is the tentative program of panels.
+Panels marked (B) are for Beginners; (I) for Intermediate; (A) for Advanced; and (E) for everyone.
+
+NashCAR '97 starting line
+
+WEDNESDAY:
+6 p.m. to 9 p.m.
+Early Registration
+
+THURSDAY:
+7 a.m. to 9 a.m.
+Registration
+
+9 a.m. to 10 a.m.
+Welcome and introduction to conference.
+
+10 a.m. to 10:50 a.m.
+Panel 1: Finding people and sources with on-line techniques (B)
+NORA PAUL, Poynter Institute
+BROOKE CAIN, News and Observer
+Panel 2: 50 of the newest CAR stories, for beat and deadline reporters (E)
+SHAWN MCINTOSH, Dallas Morning News
+Panel 3: Beginning from the beginning - How to get started. Hardware, software, expectations (B)
+BILL LOVING, Minneapolis Star-Tribune
+ANNE SAUL, Gannett Co.
+
+11 a.m. to 11:50 a.m.
+Panel 1: Getting CAR started in broadcast (B)
+PAUL ADRIAN, WBNX
+PHIL WILLIAMS, WKRN
+CHRIS FORD, WTVT
+Panel 2: Using spreadsheets to cover local government, budgets and salaries (B,I)
+WES WILLIAMS, KPNX
+STEPHANIE REITZ, The Hartford Courant
+Panel 3: Covering the environment with CAR(I)
+JAMES BRUGGERS, Contra Costa Times
+RUSS CLEMINGS, Fresno Bee definite
+
+Noon to 1:30 p.m. Lunch
+
+1:30 to 2:20 p.m.
+Panel 1: Making data accessible to the whole newsroom (Intranet, etc.) (A)
+GEORGE LANDAU, News Engin
+TOM BOYER, The Seattle Times
+Panel 2: Using Census data to profile your local community (I)
+PAUL OVERBERG, USA Today
+JOHN PERRY, The Daily Oklahoman
+Panel 3: Covering education with CAR (I)
+LISA GREEN, The Tennessean
+JOHN BARE, Educational consultant
+CHRIS SCHMITT, San Jose Mercury News
+
+NASHCAR
+
+Check out what's happening at NashCAR, NICAR's annual conference, which will be held March 6-9 in Nashville, Tenn., and register on-line at http://
+www.nicar.org/nashcar
+For a registration form and fee information, call NICAR at (573) 882-0684.
+
+11
+==End of OCR for page 11==
+
+==Start of OCR for page 12==
+NashCAR '97
+
+2:30 p.m. to 3:20 p.m.
+Panel 1: Getting valuable, but free data from the Internet (B, I)
+NEIL REISNER, The Miami Herald
+RANDY REDDICK, Facsnet
+MIKE WEBER, Freelance
+Panel 2: Strategies for producing CAR stories at smaller news organizations (I)
+JANET ROBERTS, Wilmington Morning Star
+DAVID SHEINGOLD, Gannett Westchester
+GEOFF DOUGHERTY, Bergen Record
+Panel 3: Covering politics with CAR (it's not just the election) (I)
+JOE STEPHENS, Kansas City Star
+ANNA BYRD DAVIS, Commercial Appeal
+
+3:30 p.m. to 4:20 p.m.
+Panel 1: Aviation Safety (B,I)
+BYRON AKAHIDO, Seattle Times
+BETH MARCHAK, Cleveland Plain Dealer
+Panel 2: Data nightmares and how to avoid them (I,A)
+STEVE DOIG, Arizona State University
+RICHARD MULLINS, University of Missouri - NICAR
+Panel 3: Covering housing with CAR (I)
+PENNY LOEB, U.S. News & World Report
+MIKE HIMOWITZ, Baltimore Sun
+CAROL NAPOLITANO, Omaha World Herald
+
+FRIDAY:
+9 a.m. to 9:50 a.m.
+Panel 1: Using CAR to cover health issues (I)
+HAL STRAUS, Atlanta Journal Constitution
+CHRIS FORD, WTVT
+Panel 2: Finding and negotiating for data (B,I)
+JENNIFER LAFLEUR, San Mercury News
+DAVE ARMSTRONG, Boston Globe
+Panel 3: Examples of good stories based on use of math and statistical tools (I,A)
+NEIL BOROWSKI, The Philadelphia Inquirer
+
+10 a.m. to 10:50 a.m.
+Panel 1: Using CAR to cover transportation (trains, planes and cars) (I)
+HEATHER NEWMAN, Detroit Free Press
+PENNY LOEB, U.S. News & World Report
+Panel 2: Data nightmares and how to clean them up when you can't avoid them (A)
+GEORGE LANDAU, NewsEngin
+RICHARD MULLINS, University of Missouri - NICAR
+Panel 3: Basic math for journalists (B)
+NEIL BOROWSKI, The Philadelphia Inquirer
+
+11 a.m. to 11:50 a.m.
+Panel 1: Using CAR to cover state government (B,I)
+TOM LOFTUS, Louisville Courier Journal
+GRIFF PALMER, Daily Oklahoman
+KATHY HOFFMAN, Detroit News
+Panel 2: Managing your data (keep it up to date and accurate) (I,A)
+ANDY LEHREN, NICAR
+CHERYL PHILLIPS, Detroit News
+Panel 3: Using CAR to interpret government statistical reports (A)
+SARAH COHEN, NICAR
+
+Noon to 1:30 p.m. Lunch
+
+1:30 to 2:20 p.m.
+Panel 1: Using CAR to cover federal government (and applying it locally) (B,I)
+MARK BRAYKOVICH, Cincinnatti Enquirer
+MIKE BERENS, Columbus Dispatch
+Panel 2: Search strategies for the Web: quick hits for broadcast journalists (B)
+MIKE WENDLAND, WDIV-TV
+NORA PAUL, Poynter Institute
+MATT REAVY, Louisiana State University
+Panel 3: Using CAR to interpret business and annual reports (I)
+WENDELL COCHRAN, American University
+SARAH COHEN, NICAR
+
+2:30 p.m. to 3:20 p.m.
+Panel 1: Using CAR to cover the workplace (I)
+NATALYA SHULYAKOVSKAYA, St. Louis Post-Dispatch
+NANCI AMONS, Nashville TV
+DAVID HERZOG, Providence Journal
+Panel 2: Making data easy to understand through graphics and visuals (I,A)
+ROB COVEY, U.S. News & World Report
+Panel 3: Using CAR to do meaningful and understandable regression analysis (A)
+PHIL MEYER, University of North Carolina
+BARB HANSEN, USA Today
+
+3:30 p.m. to 4:20 p.m.
+Panel 1: Covering city government(I)
+CAROL NAPOLITANO, Omaha World Herald
+ROSE CIOTTA, Buffalo News
+MARGOT WILLIAMS, The Washington Post
+Panel 2:Great story ideas for broadcasters (B,I)
+MARK LAGERKVIST, Channel 12
+MIKE WENDLAND, WDIV-TV
+Panel 3: Using CAR for significance tests. Does the info really mean something?(A)
+PHIL MEYER, University of North Carolina
+BARB HANSEN, USA Today
+
+SATURDAY:
+9 a.m. to 9:50 a.m.
+Panel 1: Managing CAR-managing the reporter, managing the editor (I)
+
+12
+==End of OCR for page 12==
+
+==Start of OCR for page 13==
+BILL DEDMAN, Associated Press
+SONNY ALBORADO, Commercial Appeal
+Panel 2: The latest doings on the Web – Security, new technologies (E)
+WALLACE WINFREY, NICAR
+BOB SULLIVAN, Microsoft News
+DREW SULLIVAN, AP
+Panel 3: Using CAR to cover business (I)
+JO CRAVEN, NICAR
+NAOMI AOKI, Virginian Pilot
+BOB WARNER, Philadelphia Daily News
+BILL RUBERRY, Richmond Times Dispatch
+
+10 a.m. to 10:50 a.m.
+Panel 1: Managing CAR projects (not for managers - for reporters) (E)
+LAURA FRANK, The Tennessean
+TOM CURRAN, Newark Star Ledger
+Panel 2: Putting investigative stories on the Web (I,A)
+MARK HULL, San Jose Mercury News
+BRAD GOLDSTEIN, St. Petersburg Times
+Panel 3: Using CAR to cover sports (I)
+TOM WITOSKY, Des Moines Register
+FORD FESSENDEN, Newsday
+
+11 a.m. to 11:50 a.m.
+Panel 1: Covering social issues with CAR (I)
+APRIL LYNCH, S.F. Chronicle
+JIM SPECHT, Gannett News
+Panel 2: Dealing with FOIA issues, including privatization of public functions (B,I)
+JENNIFER LAFLEUR, San Jose Mercury News
+Panel 3: Using CAR to cover federal government (and applying it locally) (B,I)
+JEFF SOUTH, Austin American-Statesmen
+MIKE MCGRAW, Kansas City Star
+DAVID BURNHAM, TRAC
+
+Noon to 1:30 p.m. Lunch
+
+1:30 to 2:20 p.m.
+Panel 1: Teaching CAR - new techniques for trainers and academics (I,A)
+DIANE WEEKS, Washington Post
+DEBBIE WOLFE, St. Petersburg Times
+STEPHEN MILLER, New York Times
+Panel 2: Using CAR for international reporting (I)
+ROBIN ROWLAND, Ryerson School of Journalism
+LISE OLSEN, Periodistas des Investagacion
+JENNIFER LAFLEUR, San Jose Mercury News
+Panel 3: Covering hospitals (I)
+RICK LINSK, Asbury Park Press
+ROBERT BINENCASA, Burlington Free Press
+TOM GAUMER, Cleveland Plain Dealer
+
+2:30 to 3:20 p.m.
+Panel 1: Writing and thinking clearly about databases (E)
+BOB SHERBORNE, Tennessean
+Panel 2: The latest legalities involving on-line data (E)
+DAVID SMALLMAN, Simpson, Thacher
+BRANT HOUSTON, NICAR
+Panel 3: Using CAR to cover utilities, technology and cyberspace (I)
+DAN GILMOOR, San Mercury News
+MIKE WENDLAND, WDIV-TV
+
+3:30 to 4:20 p.m.
+Panel 1: Putting some dazzle in CAR stories – combining writing and graphics (E)
+CHARLES BLOW, New York Times
+DAN KEATING, Miami Herald
+Panel 2: FEC and state campaign finance secrets (E)
+KENT COOPER, Center for Responsive Politics
+ANDY LEHREN, NICAR
+Panel 3: Ideas for matching databases to create new stories (E)
+ALAN LEVIN, The Hartford Courant
+
+4:30 to 6 p.m.
+Panel 1: Creating and analyzing campaign databases
+DAVID POOLE, Virginia papers
+SAMANTHA SANCHEZ, Western Coalition
+Panel 2: Covering social issues with CAR
+NANCY STANCILL, Charlotte Observer
+JUDY NICHOLS, Arizona Republic
+
+6 p.m. Supersession:
+Electronic information: Guidelines for making and keeping it public (Co-sponsored by the First Amendment Center)
+Speakers to be named
+
+SUNDAY:
+This is a morning of workshops, both in panel rooms and training rooms in the hotel
+Main workshops
+
+10 a.m. to Noon
+Room 1: Ethics and computer-assisted reporting
+WENDELL COCHRAN, American University
+Room 2: Database editors and news librarians
+MARGOT WILLIAMS, The Washington Post
+TOM BOYER, The Seattle Times
+Room 3: Editors, managers and trainers
+STEPHEN MILLER, The New York Times
+Room 4: Special issues for broadcasters
+PAUL ADRIAN, WBNX
+Room 5: Tricks of the CAR trade (How to use what you've just learned)
+NEIL REISNER, The Miami Herald
+JENNIFER LAFLEUR, San Jose Mercury News
+SARAH COHEN, NICAR
+
+The Environmental Technology Leveraging Network Exchange, sponsored by the U.S. Environmental Protection Agency, provides tools that help produce technologies and strategies that work to eliminate or reduce waste in streams. A link to this group can be found in the "other" directory at http://www.dtic.mil/stinet/public-stinet. Information on air, soil and water pollution issues are all addressed.
+
+13
+Schedule is subject to change.
+==End of OCR for page 13==
+
+==Start of OCR for page 14==
+Get all 12 1995 Uplinks in a bound edition for $10 plus shipping. In the bound edition, Wilmington News Journal's Merritt Wallick will tell you how to strike gold with property tax records, the Poynter Institute's Nora Paul will school you on some of the best education websites and The Hartford Courant's Alan Levin will tell you how to tap into the EPA's water data. To order, call Wendy Charron at (573) 882-0684.
+And you won't have to wait much longer for the bound edition of 1996 Uplinks, look for them at NashCAR.
+
+Seminars, bootcamps, conferences
+Get your training
+On-the-road training
+NICAR and, where indicated, The Associated Press provide specialized training in your newsroom. Learn to transfer data from government files into newsroom PCs. Build spreadsheets for insightful stories on the beat. Comprehend documents with database managers. Navigate the Internet and on-line databases.
+Cost varies. For information, call Lisa Barnes at (573) 882-8969, or to register, call the numbers below.
+Note: In the following list, "Open to all" means any journalist may sign up. "Closed" means the session is open only to members of the host organization.
+• Palm Beach, Calif., Palm Beach Post — March 25-27. Closed.
+• Milwaukee, Wisc., Milwaukee Journal — April 14-16. Closed.
+
+Conferences
+NICAR will offer training and seminars at the following professional conferences, including the IRE and NICAR national conferences. Costs vary. For information or to register, call Lisa Barnes at (573) 882-8969.
+• NashCAR, NICAR National Conference, Nashville, Tenn. - March 6-9. Costs are: IRE member, $150 for entire conference. Non-IRE member, $190 for entire conference, including IRE membership. Renewal member, $190 for entire conference, including IRE renewal.
+Students, $125 for conference, including student membership. Late fee is $15 for registrations not postmarked by Feb. 14.
+• IRE National Conference, Phoenix, Ariz., — June 12-15.
+
+Bootcamps
+Bootcamps are week-long, intensive training sessions offered at NICAR's headquarters at the Missouri School of Journalism in Columbia, Mo.
+As with on-the-road training, you will learn to transfer data from government files into newsroom PCs, build spreadsheets for stories on the beat, comprehend documents with database managers, and navigate the 'Net and on-line databases — but you'll be drilled all day, every day for a full week. Tuition ranges from $500-$1,000 depending on circulation or market size.
+For information, call Wendy Charron at (573) 882-0684.
+• May 4-9. Advanced Bootcamp concentrating on stats and maps at the University of North Carolina-Chapel Hill with Philip Meyer, author of The New Precision Journalism. The seminar is held in Chapel Hill. For details, call (573) 882-0684.
+• May 18-23. Regular Bootcamp on general computer-assisted reporting. For details, call (573) 882-0684
+• Aug. 10-15. Regular Bootcamp on general computer-assisted reporting. For details, call (573) 882-0684
+
+Continued from page four: ... wire services
+Port believes the AP will be able to do even more when its Web server is up and running.Port has some advice for those who are just starting to learn how to incorporate computers into daily and investigative work.
+"I think I would recommend that there's a long learning curve to this, and you have to pace yourself," he said, "and since it's going to take anyone a year or two to try to figure out databases ... don't get too married to a given way of doing anything, because in two years the technology will change."
+But this shouldn't scare off newcomers. It's still a specialty, and the kind of skills and thinking that make good writers tend to be different from the ones that make good computer operators," Port said. "It seems to be creating a new division of labor in the newsroom. We are opening new jobs, but it's for people who can do HTML pages. Journalists, committed ones, for their own protection, need to get a little savvy about this stuff."
+Even AP staffers, however, have had mixed reactions to Port's push for expanding the wire service's computer capabilities.
+"It's hard to generalize," he said. "Some are enthusiastic and some think it's a silly idea. I guess the results are what we'll have to wait for."
+Jody Sowell, Uplink's new managing editor, can be reached at (573) 882-0684, or send e-mail to jody@nicar.org
+
+14
+==End of OCR for page 14==
+
+==Start of OCR for page 15==
+Growing collection of federal databases
+From the NICAR library
+NICAR offers a number of federal government databases. Here is a list of our growing collection:
+
+NEW • Federal Aviation Administration's accidents and incidents, including major plane crashes since 1971.
+
+NEW• NASA's air safety reporting system, including anonymous complaints by pilots and air traffic controllers. Useful for finding near misses and problems at local airports, 1988-1996.
+
+• A monthly CD subscription for all 1995-96 Federal Election Commission campaign contributions by individuals and political action committees, plus all presidential matching fund requests.
+
+• The Health Care Financing Administion's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.
+
+• Federal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.
+
+• Coast Guard boating accidents, 1969-1994.
+
+• Federal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.
+
+• Home Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns, 1992-1995.
+
+• Federal procurement data, 1992-1995, includes breakdowns by agency.
+
+• Alcohol, Tobacco and Firearms gun dealer records. 1993-1995.
+
+• National Bridge Inventory System data, includes inspection grades. 1994-1995
+
+NEW• FBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the new 1995 data.
+
+• Social Security death records, by name and social security number, going back to 1937.
+
+NEW • Occupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies, 1974-1996.
+• U.S. Department of Transportation truck accident and census data. It includes accidents by company and road.
+
+• U.S. Small Business Administration loan guarantees, 1989-1995. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.
+
+• U.S. Small Business Administration disaster loan guarantees, 1989-1995. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.
+
+• U.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.
+
+• The National Inventory of Dams. 1991-1995.
+
+• U.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.
+
+• U.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1988 to 1995.
+
+• U.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.
+
+For up-to-date prices and more information, call (573) 882-0684, or send e-mail to info@nicar.org
+
+NICAR's week-long bootcamps in Columbia, Mo., offer hands-on training in computer-assisted reporting skills, including the use of spreadsheets and database managers, accessing data in various media, such as nine-track tapes, and negotiating for data.
+For more information, call NICAR (573) 882-0684, or send e-mail to info@nicar.org
+
+15
+==End of OCR for page 15==
+
+==Start of OCR for page 16==
+Bits, Bytes and Barks
+
+Dedman leaves AP
+Bill Dedman, who has served as the director of computer-assisted reporting for three years at the Associated Press, has announced he will be leaving the wire service.
+Dedman and his wife, Pam Belluck, will be moving to Chicago where she will work as chief of the Chicago bureau of the New York Times.
+Dedman will write national stories for the Times and says he is looking forward to his return to reporting.
+
+Help Wanted
+• TIME Online is looking to fill several positions. The service is looking for a news editor to set daily budgets and assign stories to writers, a writer who can write fast and tight but doesn't lack style, and a news monitor who can prioritize stories and combine breaking news wires with associated text and photo resources. To apply for any of the jobs or for more information, e-mail a text-only resume and a letter describing your news background and electronic skills to Flora Garcia, TIME Online's production manager, at fgarcia@ pathfinder.com.
+• The Daytona Beach News-Journal is looking for an experienced, aggressive investigative reporter experienced in probing public records and doing computer-assisted research. Applicants should send a letter, resume and clips to Don Lindley, managing editor, The News-Journal, P.O. Box 2831, Daytona Beach, Fla. 32120-2831.
+
+• The Wilmington Morning Star needs a court reporter. Applicants should have at least two years' reporting experience and computer-assisted reporting skills. Send a resume, references and five to 10 clips to Dave Ennis, city editor, Wilmington Morning Star, P.O. Box 840 (1003 S. 17 th St.), Wilmington, N.C. 28402-0840.
+
+• The Orange County Register needs a technology reporter and an assistant city editor for medicine and science. Applicants for the editing position should have at least three years reporting experience on a daily metro and at least two years editing experience. Applicants for either position should submit a packet of current work, a resume and a one-page statement of philosophy to: John Doussard, 625 Ν. Grand Ave., Santa Ana, Calif. 92701. Telephone: (714) 953-2225. Fax: 714-565-3681.
+
+NICAR Net
+Don't forget to keep up with NICAR on the Internet.
+Subscribe to our listserve and join in as reporters talk about how to do the job better. E-mail to LISTSERV @MIZZOU1.MISSOURI.EDU. In the message, on the first line, write: subscribe NICAR-L your name. To join IRE on the Internet, the instructions are the same except, on the first line, write: subscribe IRE-L your name.
+
+COLUMBIA, MO 65211
+PERMIT NO. 309
+PAID
+U.S. POSTAGE
+NON-PROFIT ORG.
+
+Investigative Reporters and Editors, Inc.
+100 Neff Hall
+University of Missouri
+School of Journalism
+Columbia, MO 65211
+
+16
+==End of OCR for page 16==

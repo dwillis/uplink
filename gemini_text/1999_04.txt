@@ -1,0 +1,807 @@
+==Start of OCR for page 1==
+April 1999
+Uplink
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+D. C. 'S "DEADLY FORCE"
+Officer downings
+By Jo Craven
+The Washington Post
+In the 1990s, District of Columbia police shot and killed more people per resident than any metro police department in the country-including New York, Los Angeles, Chicago, Detroit and New Orleans.
+
+The Washington Post story, "Deadly Force," resulted from a close examination of the FBI's Supplementary Homicide Report, one of the computer databases included in the annual release of the Uniform Crime Reports.
+
+That examination revealed that the 1995
+
+THE PRICE OF CONCENTRATED COMPETITION
+Investor burden
+By Christopher H. Schmitt
+Investigative Group International
+Chris Schmitt conducted the following project while at the San Jose Mercury News.
+One area in which computer-assisted reporting has been less frequent is busi- ness coverage, in large part because there aren't gobs of data readily available, such as that prepared by government agencies.
+
+But, if you scout around, it turns out great information actually is available. With some imagination, you can use it to produce good stories. One example, hum- bly submitted: The San Jose Mercury News recently enjoyed success in mining trad- ing records of the Nasdaq Stock Market to show how investors are forced to pay sharply higher trading costs.
+
+Before you yawn, understand that Nasdaq affects virtually everyone. In Sili- con Valley, the Mercury News backyard, Nasdaq has been the coin of the realm in recent years. Hundreds of high-tech.com-
+Continued on page five
+
+SHR data for the country (released in 1996) did not have a single "81"- the code in the circumstance field for justifiable homicide by a police officer. Neither did any of the other years of data that I checked.
+
+This suggested that whole records were missing from the dataset. The FBI's own documentation revealed another corrobo- rating clue: The data is provided on nine- track tapes, and an "analysis of records writ- ten" printout accompanies each tape. This printout describes how many records were "read" in the government's computer versus how many were "written" on the tape pro- vided to the purchaser. These should match; in 1995, however, the number of records written was short by 287.
+
+They shall be released
+Several conversations with the FBI re- vealed that the bureau did collect justifiable homicides but that the numbers were not part of the "standard data release." We or- dered a nonstandard release, specifically ask- ing for justifiable homicides.
+
+Six weeks passed before the nine-track tapes arrived. When they did, we eagerly downloaded the data, opened the records, scrolled to the circumstance field and looked for 81s. There were none.
+
+Despite a very specific written request, which had been reinforced with several telephone conversations, the FBI had sent the "standard release," minus justifiable homicides. We reor- dered the data and reiterated the request.
+
+Several more weeks passed, new tapes arrived, we processed the data, and there they were: hundreds of 81s.
+
+A hot tip
+The raw numbers of justifiable homi- cides by police officers alone were remark-
+Continued on page two
+
+Inside
+Uplink
+The Dow just broke the 10,000 mark. What better time for computer-assisted re- porters to open their CAR tool boxes and investigate the corporate world? This issue provides several examples.
+
+Chris Schmitt of Investiga- tive Group International, for- merly of the San Jose Mercury News, discusses his analysis of NASDAQ trading records that determined costs to in- vestors are higher as competi- tion becomes concentrated among dealers.
+
+T. Christian Miller of the Los Angeles Times explains a multitiered CAR story that combined mapping, cam- paign contributions and other data to portray how develop- ers had flouted growth restric- tions and contributed to cost-lier natural-disaster relief.
+
+Chris Callahan of the Uni- versity of Maryland contrib- utes an Internet column item- izing the most useful sites for covering the business beat.
+
+And Jo Craven of The Wash- ington Post leads off with a recap of the "Deadly Force" series, which documented how D.C.'s police officers shot and killed more people than any other U.S. police department.
+
+PAGE 10
+On the Internet
+
+PAGE 13
+Tech Tip
+==End of OCR for page 1==
+==Start of OCR for page 2==
+Uplink
+April 1999
+Volume 11, Number 3
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+EDITOR
+Brant Houston
+brant@nicar.org
+
+MANAGING EDITOR
+Brent Johnson
+bjohnson@nicar.org
+
+SENIOR CONTRIBUTING EDITORS
+Len Bruzzese
+len@ire.org
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+COPY EDITOR
+Jeanine M. Davis
+
+ART DIRECTOR
+Wendy Charron
+
+STAFF
+Britton Clapp
+Dawn Fallik
+Jason Grotto
+Ben Lesser
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Neil Warner
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Halil Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+Postmaster. Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training in computer- assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+From page one:
+Justifiable homicides
+
+able. Only officers in a handful of cities-all much larger than Washington, D.C. - had shot and killed more people. Ultimately, these records served only as a starting point.
+
+As the project progressed, The Post de- cided against relying on the FBI's justifiable homicide reports for several reasons. Some
+
+By definition, FBI reports are jurisdictional, not departmental: If an officer kills someone in another jurisdiction, according to Uniform Crime Report guidelines, the death should be reported by the agency in the jurisdiction where it occurred rather than by the officer's own department.
+
+criminologists have questioned the data's accuracy. By definition, FBI reports are ju- risdictional, not departmental: If an officer kills someone in another jurisdiction, ac- cording to Uniform Crime Report guide- lines, the death should be reported by the agency in the jurisdiction where it occurred rather than by the officer's own department.
+Additionally, reports to the FBI may in- clude justifiable homicides by armed secu- rity guards, transit police, housing police or other armed police. There is no flag in the data to indicate whether an officer is a mem- ber of the reporting agency's force.
+
+Because of these and other concerns, The Post chose to survey directly police depart- ments to collect fatal shootings and woundings by each department's officers for 1990 to 1997. We focused on the 27 cities that had at least 500,000 residents at any point from 1990 to 1996, the latest year that U.S. Cerisus popula- tion estimates were available.
+
+For verification, we compared the num- bers we collected to those in the SHR. We searched news clippings for previously pub- lished reports. Often, there were small dif- ferences; sometimes, bigger ones. To address these variations, we contacted the depart- ments for further clarification or sought other sources, such as state UCR reporting programs or state attorneys charged with reviewing fatal shootings by police officers.
+
+Five-gauge analysis
+After consulting criminologists and read- ing literature on the subject, we determined that no single measure was adequate to gauge a department's number of officer-involved shootings. We decided instead to measure fatal shootings against five other categories: population, violent crime, arrests for violent crime, homicide and the number of uni- formed police officers.
+
+Our data sources, all electronic, included:
+• Return A for violent crime and homi- cide totals. (This is the base table in the FBI's UCR.) Because it is the FBI stan- dard, we used the Return A for homicides instead of the SHR. We also found its numbers to be more accurate than the SHR's. For example, in 1996, the SHR recorded four homicides for Austin, while the Return A recorded 40.
+
+• Age, sex and race of persons arrested for the number of violent crime arrests
+
+• Police employees for each department's number of uniformed officers
+
+• Instead of the FBI's population esti- mates for cities, which are extrapolated from state estimates, we used the more sophisti- cated Census Bureau city estimates for per capita calculations. (These figures are not ready early enough for inclusion in the FBI's annual reports.)
+
+Arriving at violent crime, homicide and arrest totals required adding up numerous fields of coded data. To verify our data work, we checked each number that we planned to use against the appropriate volume in "Crime in the United States," the FBI's annual publication. To further ver the FBI data, we checked the District's crime numbers with the police depart- ment and called a sample of other depart- ments as well.
+
+Continued on page three
+2
+==End of OCR for page 2==
+==Start of OCR for page 3==
+From page two:
+Spate of shootings
+
+More shootings by all measures
+To help offset possible discrepancies and to compensate for years with accurate but unusual spikes in fatal shootings, we aver- aged the number of fatal police shootings over the period for each department. Like-
+
+After consulting criminologists and reading literature on the subject, we determined that no single measure was adequate to gauge a department's number of officer-involved shootings. We decided instead to measure fatal shootings against five other categories: population, violent crime, arrests for violent crime, homicide and the number of uniformed police officers.
+
+wise, we averaged the numbers of violent crimes, arrests for violent crimes, homicides, uniformed officers and population.
+
+We used these averages to calculate how many fatal shootings there were per 100 homicides, per 1,000 arrests for violent crimes, per 10,000 violent crimes and per 100,000 residents in the District.
+
+We aggregated the other 26 cities' num- bers and compared the District to the group. We also aggregated the data for nine other particularly violent cities and compared the District to that subset as well. Because of variations in how departments define and report violent crime, we used homicides to identify violent cities, choosing those with the highest homicide rates for the period.
+
+By each of these measures, the number of fatal shootings by District officers was higher than average often significantly higher. Only when measured against homicide did D.C. approach the norm. Some criminolo- gists say a high rate of homicide helps explain officer-involved shootings.
+
+To confirm the statistical significance of our findings, The Post consulted with Sarah Cohen, then NICAR's training director (The Post has since hired her), and later submitted the findings to James Fyfe, a nationally rec- ognized criminologist, for review.
+
+Local digs
+While we mined these federal databases, we also dug in locally, obtaining at least one elec- tronic database, building others and scouring the courts for civil and criminal cases.
+
+With a FOIA request, we obtained an electronic database from the District of Co- lumbia Use of Service Weapon Review Board that purported to detail every firearm dis- charge by a District police officer. The records outlined the circumstances leading to each shooting, but the department redacted of- ficer names.
+
+We collected and built a database of nearly seven years of press releases from the D.C. police department on officer-involved shootings. We also found seven press releases on fatal shootings that had never made it to the department's Use of Service Weapon Review Board, the body charged with determining whether a shooting was justified or not.
+
+Another FOIA request yielded a list of lawsuits against the District, the Metropoli- tan Police Department or its officers that involved a shooting. We examined each of these lawsuits, gleaning more details about the shootings, the officers and sometimes the department's own investigations.
+
+Eventually, we expanded our search to include police brutality and built a database of more than 300 lawsuits against the Dis- trict, the police department or police officers that had been settled or adjudicated, record- ing the settlement amount and the nature of the complaint.
+
+Finally, we mapped the local data, which provided a stark and startling picture of the volume and location of fatal shootings and woundings in the District.
+Jo Craven can be reached by e-mail at
+cravenja@washpost.com
+
+THE FIVE-DAY "DEADLY FORCE" SERIES IS ONLINE AT HTTP:// WASHINGTONPOST.COM
+CLICK ON METRO, THEN SPECIAL PROJECTS, THEN DEADLY FORCE.
+
+THE REPORTING TEAM INCLUDED DATABASE SPECIALIST JO CRAVEN, WRITERS JEFF LEEN, DAVID JACKSON, AND SARI HORWITZ, CAR DIRECTOR IRA CHINOY, INVESTIGATIVE EDITORS RICK ATKINSON AND MARILYN THOMPSON, AND RESEARCHERS ALICE CRITES AND MARGOT WILLIAMS.
+
+IT RECENTLY WON THE SELDEN RING AWARD.
+
+3
+==End of OCR for page 3==
+==Start of OCR for page 4==
+SAFETY THROUGH GIS
+JENNIFER LAFLEUR AND JOHN WOOLFOLK OF THE SAN JOSE MERCURY NEWS OFFER THIS EXAMPLE OF A STORY THAT COULD NOT HAVE BEEN DONE WITHOUT GIS.
+
+BEFORE THE 1998 EL NINO STORMS, WE OBTAINED LANDSLIDE AND DEBRIS FLOW MAPS FROM THE U.S. GEOLOGICAL SURVEY FOR THE NEARBY SANTA CRUZ MOUNTAINS. USING GIS WE WERE ABLE TO OVERLAY THOSE MAPS WITH BUILDING PERMITS ISSUED DURING THE PAST TEN YEARS TO SHOW WHERE BUILDING PERMITS HAD BEEN ISSUED ON LANDSLIDE AREAS.
+
+THE STORY RAN JANUARY 11.
+JENNIFER LAFLEUR
+SAN JOSE MERCURY NEWS
+JLAFLEUR@SJMERCURY.COM
+FOR MORE INFORMATION.
+
+IGNORED RESTRICTIONS
+Flirting with disaster
+By T. Christian Miller
+Los Angeles Times
+
+The Santa Monica Mountains are one of Los Angeles' most spectacular natural fea- tures. The range stretches through the heart of the region, rising high above the city sprawl. It's where the famous - from Johnny Carson to Axl Rose - build their ego man- sions.
+
+It's also where county politicians have routinely allowed developers and campaign contributors to run roughshod on environ- mental and growth restrictions, according to a recent Los Angeles Times analysis.
+
+Flouting those restrictions not only hurt the mountains but also stole from the public's pocketbook. Homes built in excess of the area's growth limits stood better than twice the chance of being hit by one of the natural disasters that plague the region - earth- quake, flood and fire. Usually, state and federal taxpayers picked up the repair bill.
+
+Mapping reality over design
+The story began with a simple question: Who built all the homes in the mountains, and how did it happen?
+
+From the beginning, it was clear this would be a mapping project, albeit one with a depressingly large scope: 20 years of devel- opment approvals covering more than 35,000 parcels of property.
+
+To start, we paid a consultant to scan in the area's growth plan, an outdated, 20-year- old document created when the bulk of the undeveloped part of the mountains was de- clared a national recreation area. The com- plicated map had more than 5,000 poly- gons, each representing different use and density classifications.
+
+At the time of the original plan, the idea was to hold down building density. That map, we figured, showed how the moun- tains were supposed to look. The next step was creating a map that showed the reality: all subdivision approvals since 1978.
+
+That turned out to be a trickier task. The Los Angeles County Assessor's Office wanted $80,000 to sell the GIS information out- right. Instead, we rented time on the assessor's mainframe, then watched as one of his assis- tants created a special file showing the out- lines of the subdivisions in our area of study.
+
+Once we had the two maps, we imported them into Maptitude, a low-budget, though effective, GIS program. Then we overlaid the two. The growth-plan map showed pro- posed density. Our new map showed actual density. The overlay, the heart of the project, showed the subdivisions that violated the growth restrictions-40 percent of the nearly 100 subdivisions.
+
+Timely contributions
+From there, we began reviewing the indi- vidual subdivision approvals, combing through musty files in numerous city halls and planning departments for the names of the developers, engineers, consultants and attorneys involved in the high-density projects. Using laptops loaded with Excel, we created our own database to track them, eventually inputting about 2,500 names.
+
+We ran those names against the Times' in-house database of political contributions, which has been continually updated since 1984. The results were not surprising: Nearly all of the developers and businessmen in- volved contributed to the campaigns of vari- ous supervisors in charge of the area.
+
+Since the link between developers and county supervisors had long been known, we decided to take the story one step further. To do that, we obtained the case- tracking database from our planning agency, which included the dates of public hearings and planning commission votes going back 15 years.
+
+We then compared the dates in that database with the dates in our political contribution database to determine that, in many cases, contributions came within the day and weeks of key votes on the projects. After approval, when the devel- opers had gotten what they wanted, the money tap shut down.
+
+Harmed habitats
+Next, we decided to check the damage from the developments. From the county's Flood Control District, we obtained water- level data for various streams in the area, data they had kept continuously for 30 years.
+
+Using SPSS, we then charted the increase in high-density area homes against an in-
+Continued on page fifteen
+
+4
+==End of OCR for page 4==
+==Start of OCR for page 5==
+From page one:
+Costlier trading
+
+panies have gone public on Nasdaq, raising the capital that has funded the valley's world- changing innovations.
+
+More broadly, tens of millions of Ameri- cans invest in Nasdaq stocks on an indi- vidual stock basis, through 401(k) plans or through pension plan holdings.
+
+Unlike its better-known cousin, the New York Stock Exchange, Nasdaq has no trading floor. Instead, Nasdaq exists in the form of a super-fast computer network connecting se- curities dealers across the country.
+
+Investors' losses are stock dealers' gain
+Therein lies our story. The fundamental premise of this system is that spirited compe- tition among the dealers is supposed to keep investors' trading costs low. But, using a CAR analysis, the Mercury News found that isn't true.
+
+As we said in our "Shortchanged on Nasdaq?" report, more often than not, trad- ing of a company's stock is concentrated in the hands of only a few dealers. When that happens, the transaction costs for investors are sharply higher.
+
+How much higher? Add it all up and the extra cost to the investing public could reach hundreds of millions of dollars annually.
+
+Who profits? Mostly the stock dealers, which include such household names as Morgan Stanley, Merrill Lynch and Goldman Sachs, plus regional firms across the country.
+
+To study Nasdaq, we analyzed about 11.2 million Nasdaq trades and market price postings. This data came from the Trade and Quote database of the New York Stock Ex- change. Available on CD-ROM at nominal cost, TAQ contains trade-by-trade data on stocks listed on the NYSE, the American Stock Exchange and Nasdaq.
+
+Widely used by academics, TAQ is a good example of the kind of lesser-known business data that's available.
+
+Our analysis found that trading of a company's stock was concentrated in the hands of only a small number of dealers nearly two-thirds of the time. When there was the least amount of competition among dealers, the cost to investors to buy or sell those stocks was nearly twice what it was to trade when competition was vigorous.
+
+Most important, the level of dealer com- petition turned out to be a bigger factor in explaining investor costs than other factors customarily looked at by Nasdaq and federal regulators.
+
+Developing this last point was key, and it accounted for most of the heavy lifting in our CAR analysis. It turns out that assessing dealer competition by itself isn't terribly dif- ficult. Besides dealer competition, things like trading volume also affect investor costs. It was crucial to "filter out" those other things to arrive at an apples-to-apples comparison.
+
+Know statistical limits
+We did this using a multiple regression model we developed. If you're interested in the gory details, check out the Web sites listed in the sidebar. In the meantime, suffice it to say this model accounted for various factors affecting transaction cost and allowed us to explore among all of them how signifi- cant the influence was of dealer competition. Our primary software tools were QuattroPro, Paradox and SPSS.
+
+As we said in our story, we didn't find evidence of collusion or other deliberate anti- competitive behavior among dealers. But, some economists who reviewed our findings believe Nasdaq should make changes to im- prove market performance.
+
+With any analysis like this, it's important to keep in mind that you can never prove a relationship-- in statistical terms, you've got to be on guard against confusing correlation with causality. While we didn't prove that lagging dealer competition directly causes higher in- vestor costs, the analysis clearly suggested that the level of competition plays a significant role, even when accounting for other factors.
+
+Nasdaq executives hated what we did, calling it misguided and wildly inaccurate. In fact, they went to considerable lengths to try and prevent publication of the story.
+
+But, the bottom line, as business people are wont to say, was this: We put CAR to work in a coverage area where data isn't as readily available as others. In doing so, we think we told a compelling pocketbook tale that affects nearly everyone. You can, too.
+
+Chris Schmitt can be reached at (202) 778-1200 or by e-mail at CHSchmitt@aol.com
+
+TO SEE THE ENTIRE "SHORTCHANGED ON NASDAQ?" REPORT, GO TO WWW.SJMERCURY.COM/ BUSINESS/NASDAQ
+
+TO GO DIRECTLY TO A DISCUSSION OF METHODOLOGY ON HOW THIS RESEARCH WAS DONE, GO TO WWW.SJMERCURY.COM/ BUSINESS/NASDAQ/ NASDMETHOD.HTM
+
+FOR DETAILS ON THE NEW YORK STOCK EXCHANGE'S TRADE AND QUOTE DATABASE, GO TO WWW.NYSE.COM/PUBLIC/ MARKET/2C/2C3/2C3FM.HTM
+
+THE MAIN NYSE SITE IS AT WWW.NYSE.COM
+
+5
+==End of OCR for page 5==
+==Start of OCR for page 6==
+BROWNING SUGGESTS THE FOLLOWING SOURCES TO USE WHEN CONDUCTING SIMILAR STORIES:
+
+PAPER SOURCES:
+REAL ESTATE DOCUMENTS SUCH AS TITLE TRANSFERS, TAX RECORDS, CLOSING STATEMENTS, APPRAISAL REPORTS
+
+HUMAN SOURCES:
+BUYERS, SPECULATORS, INVESTIGATORS IN YOUR STATE GOVERNMENT WHO OVERSEE REAL ESTATE AGENTS, MORTGAGE BROKERS, MORTGAGE WHOLESALERS, BOARD OF REALTORS, APPRAISERS, HUD INSPECTOR GENERAL'S OFFICE, U.S. ATTORNEY'S OFFICE, STATE ATTORNEY GENERAL'S OFFICE, LOCAL ASSESSORS, NEIGHBORHOOD ACTIVISTS, HOUSING ADVOCATES
+
+HANDOUT OF THE MONTH
+Write the flipping story!
+By Dan Browning
+Star Tribune
+
+Browning provided this handout at the 1999 NICAR National Computer-Assisted Reporting Conference in Boston.
+
+You'll probably never hear an editor yell that across a newsroom. Too bad. Across the United States, speculators are engaging in real
+
+Sophisticated power- brokers refined the scam during the S & L crisis. They flipped commercial properties and entire planned communities. Now, schemers are at work in poor neighborhoods in the nation's cities.
+
+estate scams called "flipping" as fast as they can. It's an old gambit. You've probably seen moti- vational programs on the practice on late-night TV: "Buy property with no money down! Get rich using other people's money!"
+
+In short, flipping is the practice of buying property and turning it around quickly for a large increase in value. It's not inherently ille- gal. But it often is.
+
+In an illegal flip, a speculator must find an appraiser to inflate the value of a house so that a lender will advance a mortgage that is not supported by the property's true market value. The speculator then buys the property near or below its true market value and re-sells it, either to a dupe or to a straw buyer, who finances the transaction with the loan. The purchase and resale often take place the same day.
+
+Sophisticated power-brokers refined the scam during the S & L crisis. They flipped commercial properties and entire planned com- munities. Now, schemers are at work in poor, neighborhoods in the nation's cities. A handful of reporters have documented flipping schemes in New Jersey, Maryland, Florida, Wisconsin and Minnesota. It's undoubtedly more wide- spread.
+
+Equity skimming and surfing
+The latest flipping schemes are intriguing. Investigators have discovered fake financial records, forgeries, misrepresentation of owner- ship and many other ploys. Authorities suspect some flippers of laundering drug money through the purchase and resale of these homes.
+
+When straw buyers are involved - that is, when the buyer is working with the seller, usually for a fee - equity skimming is often found. That's where the buyer rents out the property but fails to pay the mortgage. The buyer keeps the rents as the property winds through the foreclosure process, which can take up to 18 months in a state like Minnesota. By the time the authorities uncover the scam, the flippers may be long gone.
+
+Who suffers? Entire neighborhoods may be overassessed because of the artificial inflation of property values. Unsophisticated buyers end up in foreclosure, their credit wrecked and their eligibility for first-time home-buying pro- grams forever lost. Buildings get boarded up and condemned. Municipal utility bills go unpaid. Lenders get stuck with properties they can't sell. And they must reimburse investors who bought securities backed by these fraudu- lently obtained mortgages. Shareholders in the mortgage companies therefore get less return on their investments. Lenders, feeling burned; then shy away from poorer neighborhoods.
+
+Dealers deduced
+How do you uncover property flips? It's easier than you might think.
+
+In 1996, when I worked at the Saint Paul Pioneer Press, I wrote about property flips involving one well-connected speculator. A source told me that the speculator had bragged that he was putting people into business around the country, and no one would ever catch him. Two years later, I discovered that several of his associates or acquaintances had indeed gone into business.
+
+I was following one of his associates closely. Based on a tip, I pulled his property transac- tions. But I found far fewer deals than I ex- pected. The reason? Dirty data. I'd type in the name of his company, but the data entry at the county was so poor that I missed many of the deals. Later, I discovered that he used several corporations to do the deals. I talked with local
+
+Continued on page seven
+
+6
+==End of OCR for page 6==
+==Start of OCR for page 7==
+From page six:
+Property scams
+
+assessors and found that I could buy data documenting property sales, called "certifi- cates of real estate value" (CRV).
+
+In Minnesota, as in most places nowadays, a buyer must file these documents attesting to the date of the sale, the buyer, the seller, the property identification number, the purchase price and the nature of the financing, among other things. I pulled a bunch of hard copies and found that most of the time, the buyer, seller, sales date, PIN and purchase price were accurate. Most everything else on the forms were unreliable.
+
+The assessor gave me (at no charge) the database of CRVs from 1995 through March 1998. I used FoxPro to assign a transaction number on each sequential sale for a property and to clean up the names of the buyers and sellers. I had 6,575 transactions on 3,079 Min- neapolis properties. Of those, 2,148 sold more than once, for a total of 4,170 transactions. Knowing that flips occur rapidly and for sig- nificant increases in value, I calculated the number of days between each repeat sale, and the percent change in value. Because many of the transactions took place on the same day, I couldn't say whether the percent change was positive or negative. So I decided to ignore the sign (plus/minus) of the percent change.
+
+I decided to examine deals that took place in less than 45 days for greater then a 50 percent change in value. I brought everything into Access to count the number of transactions each buyer and seller made. Then I took the list of major traders and ran the corporate names through the Secretary of State's Office to find out who was behind the corporations. I called this my AKA list. Then I pulled every single deal these heavy traders made, regardless of whether it appeared to be a flip or not.
+
+If a high percentage of the speculators' deals resembled flips, I copied their names to a short list. By contrast, if a small percentage fit the pattern of a flip, I decided to ignore them. Once my short list was built, I re- counted the number of transactions these speculators had completed, both in terms of purchases and sales. Then I went to the courthouse and pulled the paper records: mortgage information, title transfers, etc. That was the hard part. It took about two months and cost me about $500 to copy these property records.
+
+Widespread speculators, scarce licenses
+Minnesota requires anyone who makes five or more trades in property in a 12-month period to get a "limited broker's license." I took my data to the Minnesota Commerce Department and asked which of my specula- tors were unlicensed. Nearly all of them were. The department was investigating flip sales on its own. But my database revealed that the practice was far more widespread than they had believed. They expanded their investiga- tion. The department revealed that the FBI also was investigating.
+
+The commerce department, concerned that the media would ignore the problem, planned a press conference. The Pioneer Press ran my story on flips to head that off. The Star Tribune followed with several stories of its own. One showed that flips can take place even when the speculator holds the property and rehabilitates it.
+
+I later moved to the Star Tribune. In February, I wrote a story about the first criminal indictment here, which charged five people with conspiracy, mail fraud, bank fraud and various money laundering charges. I also noted three major civil suits filed by WMC Mortgage Corp. against 23 people and 30 business entities. My colleagues pub- lished follow-ups showing the human pain these practices can wreak. A sidebar showed how Norwest Mortgage, the nation's largest residential lender, lobbied the U.S. Attorney's Office to bring the criminal indictment. That case involved one of the lender's former mort- gage brokers. So far, the state has disciplined six license holders and has targeted a total of 50 for closer scrutiny. Two FBI investiga- tions are moving forward. The criminal divi- sion of the IRS is reportedly investigating, as is the state attorney general's office.
+
+I'd be remiss if I failed to mention the great work done on flipping stories by the Milwaukee Journal and the Asbury Park Press in the past two years.
+
+But I'd also be neglecting this opportunity if I failed to point out that this practice is going on around the country, yet few report- ers have chosen to investigate it. I urge you to reconsider.
+
+Dan Browning can be reached by e-mail at
+dbrowning@startribune.com
+
+DIGITAL SOURCES:
+PROPERTY SALES DATA (CALLED CERTIFICATIONS OF REAL ESTATE VALUE IN MINNESOTA), SECRETARY OF STATE CORPORATE RECORDS, MULTIPLE LISTING SERVICE (IF YOU'VE GOT A FRIENDLY REALTOR WHO CAN GET YOU ACCESS TO THE DATABASE), PHONEDISC (TO CHART THE DISTANCE BETWEEN SUBJECT PROPERTIES AND COMPARABLES LISTED IN THE APPRAISALS.
+
+7
+==End of OCR for page 7==
+==Start of OCR for page 8==
+CONTACT THE IRE RESOURCE CENTER FOR THE FOLLOWING BUSINESS-RELATED HANDOUTS:
+
+• SARAH COHEN OF THE WASHINGTON POST AND NEIL REISNER OF THE MIAMI HERALD LIST USEFUL BUSINESS DATABASES, WEB SITES FOR BUSINESS REPORTERS TO USE AND AN OUTLINE FOR BUSINESS REPORTING ONLINE (#674)
+
+• MARK TATGE OF THE CLEVELAND PLAIN DEALER COVERS HOW TO ANALYZE BUSINESS RECORDS AND PROXY STATEMENTS. HE INCLUDES A PORTION OF A FORM 10-K REPORT FROM THE SEC (#741)
+
+• MIKE MCGRAW OF THE KANSAS CITY STAR AND ERIC NALDER OF THE SEATTLE TIMES COVER HOW TO GET INSIDE A CORPORATION, GOVERNMENT AGENCY OR PRIVATE ASSOCIATION. THEY LIST USEFUL RECORDS, A 12-STEP PLAN FOR USING PUBLIC DISCLOSURE LAWS AND. HINTS ON INTERVIEWING PEOPLE (#723)
+
+8
+
+LOCAL ECONOMIC PORTRAIT
+"Booming" claim busted
+By Paige St. John
+Tallahassee Democrat
+
+The tip came from the side of the news building that most reporters suspect and shun: Advertising.
+
+Tallahassee car dealerships were in a foul funk, selling fewer cars and therefore buying fewer ads. But, when we called dealers to ask what was going on, each and every one claimed business was booming.
+
+Booming? We returned from visiting the computer clerk in the county recorder's of- fice with a stack of monthly new car registra- tion reports, which turned out to be the first key to dissecting the local economy. (HINT: This dataset also produced shorts on the hottest selling vehicles in town and statistics on out-of-town buyers. Later we learned the reports already were being collected each month by our own advertising department.)
+
+The car registration reports were broken down not only by dealership but also vehicle model. Month-to-month comparisons showed sales were way down. Plotting the numbers on six-month and 12-month roll- ing averages showed we were looking at an entrenched slump, not a glitch in the market.
+
+Armed with something solid, we called the dealers back. "Business is great!" they said again, but when we started citing their own slipping sales numbers, the interviews took a dramatic turn. Suddenly, the dealers were trying to explain a mysterious slump that was dragging down Tallahassee's economy.
+
+Business reporter Lisa Newkirk and I de- cided to try to take the pulse of the region, dividing the economy into sectors and, like the car dealership story, accumulating data on the performance of each one.
+
+Lagging employment and wages
+The Florida Division of Labor and Em- ployment Security (www.state.fl.us/dles/main/ statdata.htm) keeps an electronic warehouse of reports, downloadable in spreadsheet format. Most useful were the ES-202s, quarterly sur- veys of employment levels and wages broken down by county and by job sector. The stan- dardized reports allowed easy statewide and national comparisons. Importing 10 years of reports into Excel, we could tell where Talla- hassee was lagging in job and wage growth.
+
+Slim pickings, housing glut
+A detailed database of home listings and sales, kept by the local realtors association, reflected activity in the housing market. It showed what was selling and where. More importantly, it showed what was not selling. The "market time," the period a home was on the market before being sold, had stretched to three years in what once had been Tallahassee's hottest housing developments - hallmarks of a building glut.
+
+Because realtor records don't reflect homes sold by developers, builders or individual homeowners (the "For-Sale-By-Owner" crowd), we turned to a commercial service for more detailed activity reports. The Florida- based Metro Market Trends collects monthly data tapes from county clerk and building permit offices. Our advertising department already subscribed, so we had free access. In addition to home sales, the reports showed a sharp drop in building permit activity and a rise in mortgage foreclosure filings. (Some of the same data also is available directly from local building permit offices.)
+
+From spurt to sputter
+We mapped population growth - impor- tant to fuel the home construction industry - using the Census Bureau's current county esti- mates (www.census.gov/population/www/esti- mates/popest.html). This far removed from the previous census, these reports are somewhat unreliable. In Florida, the official source is the University of Florida's Bureau of Economic and Business Research (www.cba.ufl.edu/bebr). We tapped both. But, for a more personalized look at the area's slowing growth, we relied on decreases in meter hookups at the local utility department.
+
+Flat-lining sales
+Each of the above sectors provided a con- crete example of the economic problems felt throughout town, but the real gold came from sales tax collection reports. Assembled by the state legislature's Division of Economic and Demographic Research (www.state.fl.us/edr), the monthly reports, available online, break down retail tax collections by six sectors, from non-durable goods (e.g., clothing) to building and construction supplies.
+
+Continued on page nine
+==End of OCR for page 8==
+==Start of OCR for page 9==
+From page eight:
+Bullet-proof economy?
+
+Graphed by Excel, the actual collections looked like the EKG of a heart-attack candi- date - a mess of spikes and gullies. Taking a hint from an analyst at the local chamber of commerce, who was collecting some of the same data, we unraveled the chaotic lines in a two-step process.
+
+First, we smoothed out monthly jumps and dives by recalculating the tax receipts on a rolling average. The standard is a 12-month average, but we found that a six-month average provided the level of detail we needed in Talla- hassee without too much seasonal movement.
+
+Second, we calculated and mapped the monthly rate of growth of that six-month average. Then we plotted it against the Con- sumer Price Index (www.bls.gov), massaged by the same formulas. A dramatic picture emerged, showing Tallahassee's economic activity on a sharp downward slope while the rest of Florida continued to zoom upward. In some cases, local sales activity was slipping behind inflation - equating to real losses for local merchants. Sales activity typically accounts for only 40 percent of the economic activity in a given locale, but it was a solid enough indicator to back up the rest of our gloomy picture.
+
+The stories that emerged in our 36-page business tab in January 1998 caught some readers off-guard - local lore held that Tallahassee's economy, bolstered by two uni- versities and state government jobs, was bullet- proof. Tallahassee's economy continues to flounder, so our reporting progresses as we examine causes and potential solutions for the local doldrums.
+
+We are keeping the databases we created up-to-date, occasionally dusting off reports on a single sector for daily business stories. In January, we replicated the original project but took only a week to assemble and analyze what had required a month's labor the year before. Paige St. John can be reached by e-mail at
+pstjohn@taldem.com
+
+FROM THE MAILBOX
+Exports imparted
+By Neill Borowski
+The Philadelphia Inquirer
+
+Borowski posted the following message to the NICAR-L mailing list on Dec. 21, 1998.
+
+Looking for an interesting CAR business/ economics story? The International Trade Administration has a useful page at http:// www.ita.doc.gov/cgi-bin/otea_ctr?task =readfile&file=metrostats that will provide you with data on merchandise exports by metro area, downloadable for most larger metros. Separate files will tell you: (a) where your metro ranks in terms of total exports, growth, etc.; (b) the nations to which your metro exports, in dollar value of shipments between 1993-97; and (c) the products exported from your metro area in 1993-97.
+
+You can do a share analysis over time-for example, what percentage of your metro's total merchandise exports went to Japan in 1997 compared with 1993. You can also do a relative share analysis – for example, how much your metro depends on those exports to Japan compared with the U.S. as a whole. You can do the same for the product side.
+
+Nationally, 11 percent of all exports are chemi- cal products. However, in the Philadelphia area, 31 percent of all exports are chemical products, suggesting greater sensitivity to shifts in export demand for chemicals than the U.S. as a whole.
+
+A warning with the data: In some cases, if corporate headquarters lie within the metro, exports credited to the metro might exist on paper only. Here's the official version: "Typi- cally, the EL data reflect the point of sale - i.e., the marketing origin of exports. There are exceptions, however. In the case of some multi-establishment companies, the exporter of record may be a headquarters location or a central administrative office that does not engage in international marketing activity. Having said this, there are also many in- stances where international marketing is cen- tered at headquarters or another administra- tive location. As a result, the significance of the 'headquarters effect' is unclear."
+
+Neill Borowski can be reached by e-mail at nborowski@phillynews.com
+
+CONTACT THE IRE
+RESOURCE CENTER AT
+(573) 882-3364 OR VISIT
+WWW.IRE.ORG/
+RESOURCECENTER TO
+SEARCH FOR OTHER
+HANDOUTS AND
+TIPSHEETS COVERING
+BUSINESS AND ECONOMICS
+OR MANY OTHER TOPICS.
+
+ALSO SEARCH THE
+LIBRARY OF MORE THAN
+12,000 INVESTIGATIVE
+STORIES ONLINE AT
+WWW.IRE.ORG/
+RESOURCECENTER/
+STORYDB.HTML
+
+THE RESOURCE CENTER'S
+WEB PAGES INCLUDE
+LINKS TO RESOURCES FOR
+SPECIFIC BEATS AS WELL
+AS INFORMATION ON
+BUYING AUDIO TAPES
+FROM CONFERENCE
+PANELS.
+
+KEEP VISITING
+WWW.IRE.ORG FOR THE
+TIPSHEET OF THE WEEK
+AND THE STORY OF THE
+WEEK.
+
+9
+==End of OCR for page 9==
+==Start of OCR for page 10==
+CHRIS CALLAHAN IS THE
+AUTHOR OF
+A JOURNALIST'S GUIDE TO
+THE INTERNET, PUBLISHED
+BY ALLYN & BACON.
+
+ALSO VISIT CALLAHAN'S
+WEB SITE AT HTTP://
+REPORTER.UMD.EDU
+
+10
+
+ON THE INTERNET
+Tracking corporations
+By Christopher Callahan
+University of Maryland
+
+The Internet is an invaluable resource for business beat reporters, giving quick and cheap access to corporate and government documents, data and expert sources. Here are some of the most useful-and free - Web sites for business journalists and general assign- ment reporters covering local businesses:
+
+Securities and Exchange Commission
+www.sec.govledaux/searches.htm
+The Securities and Exchange Commis- sion Edgar database is a repository for documents filed at the SEC. Reporters can access 10Ks, 13Ds, proxies and other vital corporate documentation. It is probably the most important site for business re- porters, but it is also valuable for local reporters who want to go beyond press- release reporting on the utilities and big employers within their circulation. The Edgar database was one of the first sites on the Web to provide full-text documents and remains one of the most journalisti- cally powerful.
+
+Society of American Business Editors and Writers
+www.sabew.org
+The Web site for the Society of American Business Editors and Writers posts full-text stories from SABEW's bimonthly newslet- ter, "The Business Journalist," providing the business reporter with insights and story ideas. SABEW also offers information on the organization's Best in the Business contest, a job database organized by region, a resume bank, two mailing lists, a discussion bulletin board, links to other business-related sites and SAEBW conference and program infor- mation.
+
+Corporate Web sites
+www.bigyellow.com or www.bigbook.com
+The Web sites of companies can provide useful background information, including a company's history and mission. Most large companies can be found simply by typing: www.???.com, with the "???" representing ei- ther the company's name or initials. If that fails, try one of the online directories, such as Big Yellow or Big Book.
+
+State corporate records
+w3.uwyo.edul-prospect/secstate.html
+The Prospector provides links to offices of secretaries of state, who regulate corporations and charities. The online availability of cor- porate records varies from state to state.
+
+Nonprofits
+GuideStar provides financial data of 501(c)(3) charities from Internal Revenue Service 990 filings, searchable by name, town or type of organization. Go to www. guidestar.org
+The Internet Nonprofit Center allows users to search for all non-profit organiza- tions by name or by ZIP code. Go to www. nonprofits.org
+
+Workplace safety
+Occupational Safety and Health Administration
+The Occupational Safety and Health Ad- ministration provides a database of workplace inspection reports, violations and fines, search- able by institution. Go to www.osha.gov/oshstats
+
+Corporate polluters
+The Right-to-Know Network at http:// rtk.net makes available the government's Toxic Release Inventory, which enables re- porters to pinpoint toxic emissions from spe- cific plants. It is searchable by company or geographic location and details the type and quantity of toxic emissions. RTK NET in- cludes other environmental databases.
+The Environmental Defense Fund also makes the data available, along with a scoreboard ranking. Go to www.scorecard.org
+
+Hoover's
+www.hoovers.com
+Hoover's Inc. offers a searchable database that provides useful details on many compa- nies. Each company listing includes Web and mail addresses, a thumbnail profile, competi- tors, stock quotes, the company's press re- leases, news stories mentioning the com- pany, SEC filings and annual reports. More detailed information is available for a fee.
+
+Press releases
+Business-related press releases are avail- able through Business Wire at www.
+Continued on page eleven
+==End of OCR for page 10==
+==Start of OCR for page 11==
+From page ten:
+Covering business
+
+businesswire.com and PR NewsWire at www.prnewswire.com
+
+Lobbying
+Many corporations have a presence on Capitol Hill by hiring lobbyists to influence legislation. Registered lobbyists are required to file disclosure forms with Congress that outline who they represent, how much they spent on lobbying activities and what type of legislation they were trying to influence. The Center for Responsive Politics has put the disclosure data online at www.crp.org/lobby-ists/database.htm
+
+States have similar disclosure laws for statehouse lobbying. To check to see if lobby-ing records for your state are available online, go to the main state government page at www.state.??.us, with the "??" representing the two-initial abbreviation of the state.
+
+Politics
+Many corporations have political action committees that give heavily to federal and local politicians. Some top corporate execu- tives are among the biggest political donors in their areas. To check on both PAC and indi- vidual contributions, try FECInfo, one of the most reporter-friendly and journalistically pow- erful sites on the Internet. FECInfo, a Web product of the Washington-based nonprofit group Public Disclosure Inc., puts data from the Federal Election Commission online in an easily searchable form. With FECInfo, the business reporter can track the political contri- butions of a PAC or corporate executive to presidential, Senate and House candidates. Reach FECInfo at www.tray.com/fecinfo
+
+State campaign finance sites are slowly coming to the Internet, but since some states do not even require politicians to file their forms electronically, it will be a while before Web campaign finance sites become the norm. Investigative Reporters & Editors and the National Institute for Computer-Assisted Reporting are working on state campaign finance projects. Keep up to date on what is happening in your state at www.
+campaignfinance.org
+
+Companies in court
+The Internet can be helpful in examining legal cases involving a particular company. All cases on the federal appellate level - and many on the state level - are available on the Web.
+
+The Emory University School of Law has links to the rulings of all U.S. Circuit Courts of Appeals at www.law.emory.edu/FEDCTS
+
+The Cornell University Law School has full-text U.S. Supreme Court decisions avail- able the day of release at supct.law.cornell.edu/ supet The Cornell Law site has opinions dating back to 1990. For older Supreme Court cases (opinions from 1937 through 1975), go to www.fedworld.gov/supcourt/ index.htm
+
+To see if your state appellate courts are on the Web, check legal.online, which has links to these sites. Go to www.legalonline.com/ courts.htm Legal.online also provides links to both fee-based systems that provide state court opinions and the few U.S. District Courts and U.S. Bankruptcy Courts that provide opinions on the Internet.
+
+The Stanford University School of Law makes available full-text complaints, sum- maries and briefs on securities class action complaints at securities.stanford.edu
+
+Trade and specialty publications
+Daily, weekly and monthly newsletters and magazines that provide industry-specific coverage can be valuable tools for business reporters. The best of these special-interest publications cover stories in-depth and often break news before mass-circulation newspa- pers and magazines. Many of these publica- tions are available on the Web. Some will make available only parts of stories or full versions of only some of their stories, but even those sites are useful to reporters who can then get the full-text versions of the stories of particular interest. To find the right publications for your story, try Media Finder, which offers searchable directories of news- letters and magazines. MediaFinder is lo- cated at www.mediafinder.com
+
+Archived business stories
+www.transium.com
+Transium is a relatively new service that allows users to search hundreds of business publications for articles. A summary of each article is free, but fees are attached to retrieve the full text of an article.
+
+Continued on page fifteen
+
+NICAR'S DATABASE LIBRARY HAS THE FOLLOWING BUSINESS-RELATED DATASETS:
+
+• FEDERAL CONTRACTS DATA, 1992-1997: A DATABASE OF INDIVIDUAL CONTRACT ACTION REPORTS (ICARS) CREATED BY THE GOVERNMENT SERVICES AGENCY
+
+• HOME MORTGAGE DISCLOSURE ACT DATA, 1992 - 1997: A DATABASE OF HOME MORTGAGE LOAN REQUESTS WITH INFORMATION ABOUT REQUESTERS AS WELL AS FINANCIAL INSTITUTIONS
+
+• IRS EXEMPT ORGANIZATIONS: A DATABASE OF INFORMATION ON TAX-EXEMPT ORGANIZATIONS
+
+• SBA, 1980 - 1998: BOTH THE 7A BUSINESS LOANS DATABASE AND THE DISASTER LOAN DATABASE
+
+11
+==End of OCR for page 11==
+==Start of OCR for page 12==
+FOR INFORMATION ABOUT HAVING THE TERMITE PROJECT SENT TO YOU AS AN E-MAIL ATTACHMENT, CONTACT MARK SCHLEIFSTEIN AT MERSMIA@AOL.COM
+
+ALSO SEE THE OCTOBER 1998 ISSUE OF UPLINK, WHICH FOCUSED ON COMPUTER-ASSISTED REPORTING ON THE ENVIRONMENTAL BEAT.
+
+12
+
+CRITTERS AND CONQUERORS
+Termite invasion
+By Jessica Larson
+NICAR
+
+Termites and investigative reporters seem to share a common work ethic - both labor quietly and industriously. At first, neither creature may be visible to the public. But, wherever they're digging, the results of their
+
+The articles included everything a resident of New Orleans could possibly want or need to know about the termite problem: the ecology and history of the insect, how buildings are vulnerable to infestation, how to determine if a home is bug-ridden.
+
+extensive work may damage the infrastructure, though the journalistic efforts have a far more positive effect.
+
+Mark Schleifstein of The Times-Picayune displayed some of the tiny insect's diligent traits when he began researching an in-depth story about the Formosan termite. These non-native termites have invaded much of the South, leaving mere skeletons of historical wooden buildings, some dating to the 1700s. The in- sects are ravaging people's homes, churches, warehouses and even trees. By all measures, the Formosan is far more destructive than its smaller native cousin, the subterranean termite.
+
+Schleifstein and several other journalists constructed a comprehensive five-part series about the havoc the Formosan termite has wreaked on warm, humid regions since its arnival from Asia in the 1940s. The articles included everything a resident of New Orleans could possibly want or need to know about the termite problem: the ecology and history of the insect, how buildings are vulnerable to infesta- tion, how to determine if a home is bug-ridden, what to do in case of invasion and how to prevent infestation in the first place.
+
+Mapping infestation
+In order to map the area where outbreaks of the unwelcome insect had occurred, Schleifstein needed data. He discovered that Louisiana's pesticide division requires private pest control operators like Terminix to fill out forms each time a house is checked or treated for termites, so he requested to see the records.
+
+Schleifstein said he was somewhat surprised at how readily they agreed to let him see the records. All the data, however, were on paper, not in a computer. So, he brought his laptop with him "one day a week for about three months" and began the tedious job of entering data.
+
+Of course, many of the entries had errors. Schleifstein found that the "spray guys," as he called them, would sometimes record the wrong termite species on the forms they filled out. He would find "ST," the code for a native subter- ranean termite, entered for an address in the middle of a large area known to have Formosans, such as the French Quarter. That subterraneans would be present among a swarm of Formosans is unlikely, as Formosans tend to beat out the smaller species.
+
+Schleifstein wasn't too surprised at the dirti- ness of the data he found. "They never had a reason to look back at the forms," he said, other than for complaints that the wrong amount had been charged.
+
+He ended up with about 6,500 το 7,000 individual address records that he used to make the map, an "extremely conservative" number because of the errors found in the data. Several parishes had to be left off due to the map's scale.
+
+Along with the data, he said he got some- thing else valuable out of the experience. En- tering data while sitting in a room next to the office of the director for the pesticide division gave Schleifstein a sense of how such places operate.
+
+"It proved useful to us in being able to understand how the culture of the pesticide industry" functions, he said. Knowledge of the "good-ol' boy" atmosphere at many pesticide companies and the spray guys' good-natured - if somewhat unsophisticated - attitudes could prove helpful for follow-up stories, he said.
+
+Jessica Larson can be reached by e-mail at c733778@showme.missouri.edu
+==End of OCR for page 12==
+==Start of OCR for page 13==
+TECH TIP
+Quantifying nulls
+By Tom McGinty
+IRE and NICAR Training Director
+
+Richard Mullins, NICAR's dean of com- plex computing questions, summed up the lesson of this tech tip in two short sentences: "Two plus two equals four," he said. "Two plus two plus null equals null."
+
+While much of what Richard knows about computers is beyond the ken of most mor- tals, Access users will find a useful fact buried in his succinct treatise on the properties of null.
+
+The issue arose here at NICAR when Andy Hall of the Wisconsin State Journal called to seek help with an Access problem. Andy was trying to add up a number of fields in an existing Access table, which we'll call "andytable." He created a new field (call it "newfield") and then tried to update it with the sum of four other existing fields. He couldn't get it to work.
+
+We went over his query - shown below in SQL view-but couldn't find anything wrong.
+UPDATE andytable SET newfield = fieldl + field2+ field3+ field4
+
+All of the fields were formatted as num- bers, so we knew we weren't dealing with a type-conversion problem. I was perplexed, so Andy e-mailed the file to me. I then ran a query that selected each of the four fields Andy wanted to add and then created a fifth field that added the four fields together. The SQL looked like this:
+SELECT fieldl, field2, field3, field4, fieldl+field2+field3+field4 as SUM FROM andytable
+
+I got the same spotty results as Andy: A few records had results in the SUM field; most did not. Then I noticed something. Every record that had a result in the SUM field also had data (English-speaking humans would call them numbers) in each of the four fields I was adding. On the other hand, every record that was missing a result in the SUM field also was missing data in one or more of the four fields I was adding.
+
+The nature of the problem began to dawn on me. I had added columns in Access many times before, but I had never tried to do it with fields that didn't contain data. The word "null" sprang unbidden into the nether regions of my cerebellum, and I decided to run a test. I was about to enter zeros into one of the data-less fields when Mr. Mullins suddenly appeared.
+
+As I explained the problem, a Yoda-like grin spread across Richard's face. He uttered those now familiar words: "Two plus two equals four. Two plus two plus null equals null." That is, if Access encounters a single instance of missing data, it answers with a null value. Richard also tried to explain why Access intentionally treats nulls that way, but there was too much of that beyond-my- immediate-grasp stuff going on, so I won't even try to get into it here.
+
+I did have my answer, though. I now knew that whenever I threw a null into the middle of an Access equation, I was going to get null for an answer. To fix the problem, I briefly considered searching for nulls and replacing them with zeros. Richard suggested using an "IF" function, which in Access is actually an "IIF" function. Directions are a last resort for me, but I searched help and found that Access is equipped with a built-in function created to handle the null problem.
+
+It's the "NZ function," which works like an "IF" statement but requires less typing. (Note: The NZ function first appeared in Access 95 and can't be found in older ver- sions.) When the NZ function is applied to any field included in a math equation, it basically follows this logic: "If the field is null, treat it as a zero. If the field contains data, use that data."
+
+After adding the NZ function, Andy's transformed query actually worked:
+UPDATE andytable SET newfield = NZ (fieldl) + NZ (field2) + NZ (field3) + NZ (field4)
+
+For those still toiling on pre-1995 ver- sions of Access, the cumbersome "IIF" func- tion will accomplish the same task. Here's how it would look in SQL view:
+UPDATE andytable SET newfield = IIF (field) is null,0,fieldl) + IIF (field2 is null,0,field2)+ IIF (field3 is null,0,field3)+ IIF (field4 is null,0,field4)
+
+Tom McGinty can be reached by e-mail at tmcginty@nicar.org
+
+SEE RICHARD MULLINS' TECH TIP ON HOW NULLS AFFECT SUMMARY QUERIES IN THE AUGUST 1998 ISSUE OF UPLINK.
+
+IF YOU WOULD LIKE TO SEE A PARTICULAR PROBLEM ADDRESSED IN THIS COLUMN OR IF YOU WOULD LIKE TO CONTRIBUTE YOUR OWN SOLUTION TO ONE, SEND AN E-MAIL TO BRENT. JOHNSON AT BJOHNSON@NICAR.ORG
+
+13
+==End of OCR for page 13==
+==Start of OCR for page 14==
+IRE AND NICAR OFFER MANY TRAINING POSSIBILITIES, RANGING FROM NATIONAL CONFERENCES AND REGIONAL WORKSHOPS TO WEEKLONG BOOT CAMPS AND ON-SITE NEWSROOM TRAINING. VISIT IRE ONLINE AT WWW.IRE.ORG/ TRAINING FOR A FULL LISTING.
+
+UPCOMING BASIC BOOT CAMPS WILL BE HELD IN COLUMBIA, MO. ON THE FOLLOWING DATES:
+• MAY 16-21. 1999
+• JULY 18-23, 1999
+• AUG. 8-13, 1999
+
+CALL (573) 882-2042 FOR MORE INFORMATION.
+
+14
+
+FIRST VENTURES
+A look at loggers
+By Ron Nixon
+The Roanoke Times
+Ron Nixon attended the August 1998 NICAR basic boot camp.
+
+The forest industry story began with a tip to staff writer Mike Hudson about a disputed logging site in far southwestern Virginia, an area of the state known for environmentally damaging industries like coal mining. Hudson obtained records indicating environmental damage to a stream near the logging site that was so bad it would take 150 years for the waterway to heal itself. He decided to expand the story to look at how Virginia's Department of Forestry regulates the timber industry.
+
+He began interviewing loggers, environ- mental activists and state officials and filing FOIA requests for state inspection records. However, the investigation bogged down with opposing sides of the debate quoting compet- ing statistics. Even with strong anecdotal evi- dence that the state did little to stop problem loggers, the project lacked solid data to support its conclusions.
+
+That's when he decided a computer analy- sis might shed light on how the state regulates the forestry industry, an annual $15 billion industry that had received little press scrutiny. I called the forestry department for the inspec- tion database and filed a FOIA request. We obtained the data two weeks later.
+
+After some cleaning, we began plowing through the database and found several trends immediately: Some sites with continuingprob- lems were left open, even though no logging had gone on for years. Southwest Virginia ranked first in the state for water-quality prob- lems. These helped define the problem, but other questions remained.
+
+Audited inspections
+We got a break when I interviewed the department's hydrologist. He mentioned that the state performed a quarterly audit of its logging site inspections. The audits, unlike regular inspections, allowed little room to de- viate from a set of standards the department uses to protect the water quality of streams near logging sites. Hesupplied the data that plugged the holes in our series. Not only did southwest Virginia rank lowest in the state for water quality, but, no site in the region had ever passed all water quality standards set.
+
+One more thing remained. Just how fast were trees being cut in southwest Virginia? Data from the U.S. Forest Service's five-year survey provided the answer. Regional timber harvesting had grown 120 percent in the last ten years. A state report predicted that at the current pace the amount of sediment in state waters would approach one million tons per
+
+The audits, unlike regular inspections, allowed little room to deviate from a set of standards the department uses to protect the water quality of streams near logging sites.
+
+year, damaging water supplies and fish species. Another report showed that the harvesting of hardwood trees exceeded growth.
+
+The data and these reports, along with interviews with loggers, citizens affected by the harvesting and government officials, helped us produce the three-day series. Publication led to a legislative study of the forestry department's regulation of the timber industry and a bill, which passed both houses, to examine the environmental and economic impact of chip mills on the region. It also shed light on an industry that had largely gone unregulated.
+
+Other newspapers have done similar sto- ries. Our use of state and federal forestry data- bases helped us to refine and expand the story beyond anecdotal evidence. Other reporters who want look into this topic should realize that not all states keep records as comprehen- sively as Virginia. Most states are not required to inspect forestry sites as often, nor do all keep their data electronically. Despite its poor job of regulating, the Virginia forestry department did maintain good databases.
+
+Ron Nixon can be reached at (800) 346-1234, ext. 347 or by e-mail at ronn@roanoke.com
+
+Mike Hudson can be reached at (800) 346-1234, ext 332 or by e-mail at mikeh@roanoke.com
+==End of OCR for page 14==
+==Start of OCR for page 15==
+From page eleven:
+Widespread records
+
+Today's business news
+The Web provides free access to up-to-the-minute business news. Some of the best business news sites include Reuters (www.reuters.com), Bloomberg (www. bloomberg.com), CNN Financial (www. cnnfn.com) and The Associated Press busi- ness wire (via The Washington Post at www.washingtonpost.com/wp-srv/serfs/ bizserf.htm). The Wall Street Journal's site (www.wsj.com) is by subscription only.
+Christopher Callahan can be reached by e-mail at ccallahan@jmail.umd.edu
+
+Finding company information
+By Alletta Emeno
+Philadelphia Inquirer and Philadelphia Daily News
+Emeno provided the following handout at the 1999 NICAR National Computer-Assisted Reporting Conference in Boston.
+
+General company finders
+• BigBook - http://www.bigbook.com Search the yellow pages.
+• Forbes Top 500 - http://www.forbes.com/ tool/html/toolbox.htm
+Top revenue-producing private and public companies.
+
+• Thomas Register of American Manu- facturers - http://www.thomasregister.com
+Search U.S. and Canadian companies by name, product/service heading or brand name. It requires registration.
+• SEC EDGAR database - http://www. sec.gov Search filings of public U.S. com- panies or private companies. A fee is charged for some reports.
+• KnowX - http://www.knowx.com
+Search public records from most states. Fees are charged for detailed records.
+
+Other company information
+• U.S. Patent and Trademark Office - http://www.uspto.gov/patft
+Search patents since 1976.
+• OSHA - http://www.osha.gov/oshstats
+Search for records by company name or SIC.
+• Scorecard Pollution Locator - http:// www. scorecard.org/env-releases
+Release reports from the EPA's Toxic Release Inventory.
+• Northern Light -http://www.northernlight.com
+Search journals, magazines and news wires for stories. Fee for full-text of articles.
+
+Alletta Emeno can be reached at (215) 854-4705
+
+From page four:
+Disregard for density
+
+crease in water levels. We used various statis- tical tests to check the strength of that rela- tionship. Ecologists gave the finding con- text, saying that the habitat for several key species adapted to California's peculiar drought and deluge cycles had been wiped out.
+
+Finally, we decided to see if there were any link between the various disasters in the area and the suspect subdivisions. It was a fishing expedition but turned out to be a useful one.
+
+We found that those living in subdivi- sions in excess of the growth restrictions - designed, ironically, by a 1970s version of Atlas' ArcInfo to predict disaster probabili- ties were more than 2.4 times as likely to suffer disaster as homes in the mountains built within growth limits.
+
+The results seemed mysterious: Why would density relate to disaster? Earthquake and soil engineers suggested that part of the reason had to do with the increased grading and occasionally rushed construction of big subdivisions.
+
+Finally, we looked at FEMA pay outs in the region over time and found that the federal government had spent more than twice as much money in disaster relief as they had in acquiring new land to add to the national recreation area. In other words, if they had paid to preserve land for parks, it would have been cheaper than repairing the homes of private citizens who built their million-dollar homes in the moun- tains.
+T. Christian Miller can be reached by e-mail at t.christian.miller@latimes.com
+
+NICAR'S DATABASE LIBRARY CAN CONVERT DATA FROM ALL TYPES OF GOVERNMENT SYSTEMS.
+
+THE STAFF CAN TAKE NINE- TRACK TAPES, 4MM DAT TAPES, 3480/3490E CARTRIDGES, PRINT IMAGE FILES OR TRI/TR2 TAPES AND PUT THEM ONTO CD- ROM IN THE DATABASE FORMAT OF YOUR CHOICE.
+
+NICAR STAFF CLEANS AND CONVERTS THE DATA AND PERFORMS INTEGRITY CHECKS. PRICES ARE BASED ON THE SIZE OF YOUR NEWS ORGANIZATION.
+
+CALL THE DATABASE LIBRARY AT (573) 882-0684 FOR MORE INFORMATION.
+
+POWER BOOST:
+THE DATABASE LIBRARY HAS PURCHASED A 3480/ 3490/3490E TAPE DRIVE. IN THE LIBRARY'S EXPERIENCE PROCESSING LOCAL AND FEDERAL DATA SETS, IT APPEARS THAT MANY AGENCIES ARE MOVING TOWARD THE 3490E FORMAT, WHICH IS WRITTEN AT 36-TRACK. IF YOU RECEIVE DATA IN THIS FORMAT, NICAR CAN NOW PROCESS IT.
+
+15
+==End of OCR for page 15==
+==Start of OCR for page 16==
+Bits, Bytes and Barks
+
+IRE Web site overhaul
+Investigative Reporters and Editors has launched a re- vamped Web site aimed at better serving current members and drawing future members.
+The new site, while containing many of the features of the former site, is easier to navigate, offers more options for doing business with IRE staff and debuts some new features.
+There are more online registration forms and order forms. The IRE Store offers books, tapes and other IRE goods for easy purchase. Along with the popular job posting board, a fellowship/grant posting board is now available.
+The site will soon make use of members-only areas allowing members to access the latest issue of The IRE Journal, reporter tipsheets, archived listservs, a personal information update area and more. Members will receive passwords in the mail before any members-only gates go up.
+Work on the site will continue. Educators especially will be sought out to contribute to the IRE Journalism Educa- tors Center.
+Suggestions are welcome. Contributions are urged. E-mail should be sent directly to Deputy Director Len Bruzzese at len@ire.org.
+
+Moving on
+Trebor Banstetter, formerly with Daytona Beach News- Journal, has joined The Palm Beach Post. If you have recently switched locales, let us hear from you. Send an e-mail to Brent Johnson at bjohnson@nicar.org.
+
+The Editor Boot Camp, May 13-15
+This new computer-assisted reporting boot camp for editors is an intensive three-day workshop tailored to the needs of newsroom managers. This includes top editors or news directors, managing editors, AMEs, assignment edi- tors and other editors directing reporters. This boot camp will teach editors the things they need to know to make CAR successful in their newsrooms. They'll experience just enough hands-on work to understand what their reporters are tackling and what more is possible. They'll also hear from other editors who have been there before them, and not only survived, but flourished. They'll hear how to negotiate for electronic records without turning to a lawyer right away. Like all IRE training sessions, they'll leave with practical suggestions to put into use back home.
+For more information, call IRE and NICAR at (573) 882-2042 or visit the IRE Web site at www.ire.org
+
+IRE National Conference
+The Investigative Reporters and Editors National Con- ference, co-sponsored by The Kansas City Star and KCTV, will be held June 3-6, 1999 in Kansas City. You may also register online or download an early registration form at www.ire.org/resources/conferences/kansascity/index2.html
+Information on other IRE and NICAR national and regional conferences is available at www.ire.org/training/ conferences.html
+
+Investigative Reporters and Editors, Inc.
+138 Neff Hall Annex
+University of Missouri
+School of Journalism
+Columbia, MO 65211
+
+NON-PROFIT ORG.
+U.S. POSTAGE
+PAID
+PERMIT NO. 286
+COLUMBIA, MO. 65211
+
+16
+==End of OCR for page 16==

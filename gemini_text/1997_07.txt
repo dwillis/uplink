@@ -1,0 +1,2117 @@
+==Start of OCR for page 1==
+July 1997
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+Starting Small
+Uplink Update
+For those of you who have been using the excuse "we're too small to do CAR," this issue of Uplink will not be a welcome sight. It is full of examples of how reporters at small papers have scraped together the re- sources to do some hard-hitting in- vestigations.
+
+Sometimes that meant doing the work at home, as was the case for Loraine Anderson of the Traverse City Record-Eagle.
+
+Sometimes it meant joining with other papers to pool resources. NICAR's Joanna Kakissis looks at how some papers have started coali- tions to help fight for data.
+
+Geoff Dutton of The News-Her- ald tells how his paper used comput- ers to investigate tax abatements.
+
+Daniel J. Foley from the Univer- sity of Tennessee tells how his stu- dents graded area schools.
+
+And Jim Toler, a reporter at The Free Lance-Star, shares the lessons he learned doing his first CAR projects.
+
+Inside
+Monthly Statistics Column
+Page 8
+On The Internet
+Page 10
+Tech Tip
+Page 11
+IRE/NICAR Notes
+Page 13
+
+Compact CAR
+Getting by on a shoestring
+By Loraine Anderson
+Traverse City Record-Eagle
+We don't have a CAR post at the Traverse City Record-Eagle. It would be a luxury we couldn't afford. We have 11 reporters to cover our 13 mostly rural counties in northwestern Lower Michi- gan. We have a daily circulation of about 26,000 and a Sunday circulation of 40,000. I am the regional editor and oversee our project reporting as well as our theme beats: business, environment/ health, family/education.
+
+Our newspaper recomputerized a year ago, so we are set up beautifully for CAR. We are now completely PC-based in our newsroom with e-mail on all computers. We have Internet access on five of the PC-120 terminals in the news- room. None of these computers are loaded with spreadsheet or database management software, except for the elementary spreadsheet functions avail- able in Microsoft Word. We do have Excel and Access loaded on computers elsewhere in the building (business de- partment and in the office of our weekly newspaper), so we can take disks to those machines and work with them.
+
+The challenge now is to learn how to maximize the use of our computer sys- tem. I've picked it up because CAR has so many applications for a small news- paper with a small staff and large cover- age area.
+
+I'm trying to do three things: get myself up to speed so that I can work efficiently with databases; determine for management what our newsroom needs so that we can gather and analyze data more conveniently; build a front-end system for our databases so that our reporters can easily access the informa- tion without having to know the ins and outs of Access and Excel.
+
+Most of our CAR work so far has been quite elementary, designed to teach me how to efficiently use Access and Excel so that I can know it well enough to share it with the reporters. I have both
+
+Continued on page four
+
+Joining Hands
+Papers help start CAR
+by Joanna Kakissis
+NICAR
+When David Cuillier, an editor at a small daily in Washington state, decided to form a computer-assisted reporting network for journalists in his state two years ago, he was listening — in exasperation — to members of the governor's task force debate limiting access to records.
+
+"I was the only reporter there," says Cuillier, assistant city editor of the Tri-City Herald in Kennewick, Wash. "The state had already closed records for gun permits a while ago... I realized then that if more people were asking for data, the
+
+Continued on page three
+==End of OCR for page 1==
+
+==Start of OCR for page 2==
+Uplink
+July 1997
+Volume 9, Number 7
+
+A newsletter for the
+National Institute for
+Computer-Assisted
+Reporting
+
+Editor
+Brant Houston
+brant@nicar.org
+
+Managing Editor
+Jody Sowell
+jody@nicar.org
+
+Senior Contributing
+Editors
+Jo Craven
+jo@nicar.org
+Andrew Lehren
+andy@nicar.org
+Richard Mullins
+richard@nicar.org
+
+Staff
+Sarah Cohen
+Seth Hemmelgarn
+Joanna Kakissis
+Daniel Kim
+Justin Mayo
+Kara Morrison
+John Sullivan
+Alistair White
+Paul Walmsley
+Wallace Winfrey
+
+Copy Editors
+Wendy Charron
+Marilyn Lehren
+
+Uplink is published every
+month by the National
+Institute for Computer-
+Assisted Reporting,
+138 Neff Hall Annex
+Columbia, MO 65211.
+(573) 882-0684.
+Subscription price is $40 for
+IRE members, $60 for
+nonmembers.
+Postmaster: Please send
+address changes to NICAR.
+Send e-mail to
+jeanine@nicar.org
+
+NICAR is a joint effort of
+Investigative Reporters
+and Editors and the
+University of Missouri
+School of Journalism.
+NICAR services include
+hands-on newsroom
+training on computer-
+assisted reporting, special
+academic and advanced
+training in data analysis.
+NICAR is supported by
+grants from The Freedom
+Forum and other
+foundations intended to
+help the institute deliver
+its services nationwide to
+news organizations and
+associations.
+
+Tax abatements
+Abatement analysis
+Geoff Dutton
+The News-Herald (Willoughby, Ohio)
+Computer-assisted reporting magnifies ev-
+erything, for good and for ill.
+
+A previously indistinguishable mess of
+details will suddenly zoom into focus, often
+revealing surprising trends. At the very least,
+CAR can generate solid numbers to accurately
+gauge and explain already perceived trends.
+That's why I got into it.
+Veterans of CAR also had repeatedly
+warned me about a downside — the tedium
+involved in database reporting. Seeing the
+phenomenal results of their work, however, I
+was willing to endure.
+
+Still, my biggest CAR disappointment —
+one I was not prepared for — came recently,
+after months of compiling a database for my
+first larger scale CAR project.
+
+Industrial and commercial tax abatements
+were the subject. They had become common-
+place over the years within The News-Herald's
+territory of eastern suburban Cleveland. Even
+The News-Herald had received a big one.
+
+The property tax cuts are given by local
+municipalities to encourage development, re-
+tention of existing businesses and job growth.
+
+Never had the program been independently
+and comprehensively analyzed locally. But
+the individual tax cuts had been monitored on
+the local, county and state level since 1994.
+
+I wanted to compile the various individual
+reports, plug them into a spreadsheet and de-
+termine the impact of the tax cuts. How many
+tax dollars have been forgone? How much
+have businesses invested? How many jobs
+have been created? How much do those jobs
+pay? Which companies weren't living up to
+their promises?
+
+Unfortunately, my conclusion — after
+months of hard work — was that flimsy data
+precluded a solid evaluation.
+
+As it turned out, it wasn't a dead end. The
+predicament just forced a new approach to the
+story.
+
+I made a list of roughly a dozen interesting
+story angles and disparate conclusions. With
+the help of an insightful editor, I grouped the
+pieces into what would become a five-part
+series.
+
+Ironically, one of the strongest parts of the
+series focused on my biggest stumbling block—
+the lack of credible data. It became a topic for the
+final day of the series.
+The series broke down this way:
+
+Day I
+The headline perfectly captured the essence of
+the first part: "Movers and Takers." It focused on
+companies that were given tax abatements to
+relocate.
+
+There had been 70 tax abatements granted in
+Lake County since the program began in 1990,
+forgiving more than $56 million in taxes. Most of
+the 70 tax breaks were to help companies expand.
+But of the 23 given to bring in new companies, an
+obvious pattern existed.
+
+Most of the relocating companies — 18, to be
+exact—had moved from one local community to
+another. Nine of those 18 actually moved within
+the county. As it turned out, some communities
+felt they were being caught in a tax abatement
+"bidding war" with their neighbors.
+
+Day 2
+The second part focused on a little-known
+type of tax abatement called Community Rein-
+vestment Areas. In 1977, Ohio authorized com-
+munities to create CRAs, within which all real
+estate improvements are tax exempt for 15 years.
+The intent was to encourage the improvement of
+inner-city housing.
+
+But CRAs can be used on all types of develop-
+ment.
+
+They don't attract controversy, though, be-
+cause they are handled solely by administrators.
+They don't require legislative approval, so the
+public never hears about them.
+
+I gathered information from each community
+and created a separate countywide database for
+CRAs. There were 71 in Lake County exempting
+more than $4 million in taxes. A large pending
+deal with one company would double that amount.
+
+Day 3
+Part three focused on the perception of local
+school districts, which rely heavily on property
+taxes but have no authority over cities granting
+the property tax breaks.
+
+Some were predictably opposed to abatements.
+Others were not, noting that the abatements are
+
+Continued on page nine
+
+2
+==End of OCR for page 2==
+
+==Start of OCR for page 3==
+Continued from page one: Newspaper coalitions
+state wouldn't be so quick to close things down."
+
+The Washington connection
+Shortly after the meeting, Cuillier called ev-
+ery one of the 23 newspapers in the state, speak-
+ing with reporters who were interested in obtain-
+ing and using computerized data in their publi-
+cations.
+
+About 10 of the newspapers Cuillier con-
+tacted have become regular contributors to the
+CAR network, which Cuillier has named
+"CARwash."
+
+By mid-August, Cuillier plans to have a Web
+site with information about the network as well
+as a library of CAR stories done in Washington
+state.
+
+"It's helped a couple of papers get rolling on
+using CAR in smaller stories and building up to
+using it in bigger projects," he said.
+
+Joining forces in Wisconsin
+Smaller newspapers face high costs and lim-
+ited resources when trying to incorporate com-
+puter-assisted reporting and often don't have the
+money or time to fight extended public informa-
+tion battles.
+
+As a result, several journalists from small
+newspapers — and even journalists from news-
+paper corporations like Knight Ridder — have
+formed networks to coordinate CAR training
+and data acquisition.
+
+In Wisconsin, journalists from the Associ-
+ated Press and the Wisconsin State Journal have
+joined forces with other state reporters and edi-
+tors to acquire state data in electronic form, have
+a third party clean up the data and then distribute
+it to members of the informal CAR network in
+the state at significantly reduced prices.
+
+"So far, this (consortium) hasn't had a regu-
+lar meeting schedule," said Andy Hall, an inves-
+tigative reporter with the Wisconsin State Jour-
+nal and a founding member of the state's CAR
+network. "It's just been an erratic series of phone
+calls and faxes . . . But we've made progress.
+
+"We're in the process right now of acquiring
+a huge database from the state department of
+transportation listing traffic accidents in the past
+seven years. . . Information like this could be
+used for anything from in-depth projects to
+quick hits."
+
+Cross-country connection
+That CAR methods could help enhance both
+spot and investigative coverage in part moti-
+vated executives at Knight Ridder news service
+to sponsor a CAR network for all their newspa-
+pers.
+
+The newspaper chain currently sponsors
+KRICAR, the Knight Ridder, Inc. Computer
+Assisted Reporting Task Force.
+
+KRICAR's coordinator, the Philadelphia
+Inquirer's Neill Borowski, said the task force's
+goal is to nurture a "big brother, big sister"
+program where bigger newspapers whose jour-
+nalists are already trained in CAR techniques
+help journalists from smaller Knight-Ridder
+papers.
+
+"We want to create a network where small
+newspapers don't feel intimidated by calling
+the bigger newspapers and asking questions
+about computer-assisted reporting and analy-
+sis," said Borowski, who heads CAR work at
+the Inquirer. "And so far, it seems to be work-
+ing.
+
+"About once a month, we get calls from
+smaller papers and journalists who want to
+know if we have any suggestions on subjects
+ranging from data analysis or to how to do
+certain queries."
+
+KRICAR also operates a listserv that is
+accessible to all Knight-Ridder papers.
+
+Any questions about data acquisition or
+analysis can be posted to this list as well, said
+Borowski.
+
+An Inquirer news researcher recently used
+the list to distribute Uniform Crime Report data
+— which she had converted into spreadsheet
+form — to Knight Ridder newspapers. Two
+newspapers — one large and one small —
+scooped their competition because of access to
+that information, said Borowski.
+
+For more information on the KRICAR, see
+the Web site at http://CARA.phillynews.com/
+KRICAR/KRICAR.html
+
+For more information on CARwash, check
+out the Web site (after August 15) at http://
+www.wnpa.com
+
+Joanna Kakissis can be reached
+at (573) 882-0684, or send e-mail to
+joanna@nicar.org
+
+The Philadelphia
+Inquirer has a Web
+site devoted to CAR.
+The site includes
+tools for analysis
+(adjusting for
+inflation, calculating
+growth rates and
+percent change),
+downloadable data,
+tips on how to use
+Census data and
+statistics lessons.
+Go to:
+http://161.188.250.24
+
+3
+==End of OCR for page 3==
+
+==Start of OCR for page 4==
+To find the
+Center for Responsive
+Politics,
+point your Web
+browser to
+http:www.crp.org
+The site contains
+copies of the
+center's newsletter
+and includes rules
+and regulations
+concerning campaign
+finance records.
+NICAR also has
+campaign finance data
+available. The data
+library has Federal
+Election Commission
+campaign
+contributions by
+individuals and
+political action
+committee for 1990-
+1997. For more
+information, call (573)
+882-0684.
+
+Continued from page one: Cultivating CAR
+Access and Excel on my computer at home,
+where I've done a lot of the work. It's meant an
+incredible amount of my own time, but I don't
+mind too much because I'm teaching myself.
+
+Here are some of the things we have done:
+Congressional campaign finance
+Our biggest CAR project this year has been
+the campaign finance records for our three
+congressional districts and six state legislative
+districts for the 1994-96 election cycle.
+
+Last fall, I used the American University
+site to download congressional data and
+spent many a weekend cleaning the data and
+checking business directories and Web sites
+so that I could correctly categorize them
+using codes listed in Larry Makinson's book,
+"Follow the Money," published by the Cen-
+ter for Responsive Politics, which has an
+excellent Web site.
+
+This enabled me later to do sorts to find out
+how various special interest groups — health,
+oil and gas, etc. — gave to our congressional
+leaders. I did the number crunching and gave
+them, as well as the assignment, to the reporter
+who had two days to report and write his story.
+Our stories were quite basic because we didn't
+have enough time to analyze the data and
+question some of the donations.
+
+State campaign finance
+Getting the data for the state representatives
+was more involved because Michigan's elec-
+tion data are not online. It all had to be typed
+and categorized.
+
+We used information found at the FECInfo
+page (www.tray.com), looking up all of the
+over $200 contributors by ZIP code and sifting
+through the information for anyone who gave
+more than $5,000. This provided not only an
+interesting story, but the beginning of a better
+understanding of the politics and business of
+our coverage area.
+
+We also have downloaded state health sta-
+tistics, school proficiency scores and EPA Toxic
+Release Inventory figures for in-depth reports.
+I also have all of the 13-county demographic
+information on disk in Excel files, plus area tax
+base statistics obtained from county equaliza-
+tion offices and area construction permits ob-
+tained from county building departments.
+
+My long-term goal for all this information is to
+build a front-end system and get it networked into
+our newsroom computers so that our reporters
+can easily use it without having to understand all
+the ins and outs of Access and Excel. I am in the
+process of learning how to do that now, using
+Baltimore Sun's electronic news editor Mike
+Himowitz's front-end tutorial, which I down-
+loaded from his site (http://www.clark.net/pub/
+mikeh/mike/car.htm). In order to do this, I've
+needed to learn more of the intricacies of Access,
+so I am currently going through the Que Access
+95 Tutor book and CD.
+
+Tips
+If you are from a small newspaper and want to
+learn CAR, here are some things that will help:
+
+• A real desire to learn CAR and a willingness
+to spend lots of your own time and possibly even
+some of your own money. I attended the week-
+long NICAR boot camp at the University of
+Missouri in May 1996. Though our editor and
+publisher are supportive of CAR, I had to pay for
+it myself because there is little money for training.
+
+• Have patience, but be diligent. You can't
+learn everything overnight, but you have to keep
+at it. Learn what is in front of you and the next part
+will make itself clear to you. When I started out,
+I surfed a lot, finding and bookmarking sites that
+would be good research sources for data, report-
+ing projects and editorials.
+
+• If you don't have it, get good spreadsheet and
+database manager software on a computer with
+Internet access. I got Access and Excel because
+our office word processing is Microsoft Word
+and our systems people were most familiar with
+that.
+
+• Get on the NICAR listserv and monitor it
+daily.
+
+• Find other CAR sites that explain some of the
+basics. In addition to the handouts page at
+NICAR's site (http://www.nicar.org), I've learned
+a lot at these sites: Mike Himowitz's Home Page
+(http://www.clark.net/pub/mikeh/mike/
+mikehome.htm), the Detroit Free Press training
+tips page (http://www.freep.com/jobspage/acad-
+emy/intel.htm), CAR/CARR (http://www.
+ryerson.ca/~dtudor/carcarr.htm).
+
+Loraine Anderson can be reached at (616) 933-
+1468, or by e-mail at loraine@traverse.com
+
+4
+==End of OCR for page 4==
+
+==Start of OCR for page 5==
+Class Project
+Students rank schools
+By Daniel J. Foley
+University of Tennessee, Knoxville
+A public affairs reporting class got some
+"real world" publishing experience and a weekly
+newspaper got a special report it normally
+wouldn't be able to produce when the two
+combined on a database study of a Tennessee
+school system.
+
+The joint effort by the School of Journalism
+at the University of Tennessee, Knoxville, and
+the 9,000-circulation LaFollette Press resulted
+in the May 29 publication of an eight-page
+special tabloid section on schools in Campbell
+County.
+
+The headlines on stories written by the 10
+students in my senior-level journalism class
+convey the flavor of their "report card" on the
+school district:
+
+• "Campbell schools, students rank among
+lowest in state"
+
+• "Absenteeism is highest in state"
+
+• "Test scores: Student trail statewide aver-
+ages"
+
+• "Value added: Schools aren't making the
+grade"
+
+• "Schools get extra $$$ from state..."
+
+• "... But test scores, salaries low"
+
+• "Low scores may be linked to poverty"
+
+• "None of county's elementary schools ac-
+credited"
+
+• "Success in college? Scores say no"
+
+• "Success at work? It's same story"
+
+The students spent five weeks of a 15-week
+semester learning to use a spreadsheet, analyz-
+ing a database compiled by the Tennessee De-
+partment of Education, interviewing school of-
+ficials and then writing, critiquing and rewriting
+their stories.
+
+The state's 21st Century Report Card data-
+base includes more than 300 columns of infor-
+mation on each of the state's 139 school districts
+— on such topics as achievement test scores,
+local funding resources, state aid, per-pupil
+spending, average teacher salaries, demograph-
+ics, attendance and accreditation.
+
+Similar data are available in many states, so
+the project methodology undoubtedly could be
+used elsewhere. The journalism students used
+Excel 5.0 on Macs to examine the database, but
+any good spreadsheet will work. The primary
+database skill used on this particular project was
+sorting and ranking school districts in various
+categories.
+
+One of the challenges was to identify which
+category would give the best overall assessment
+of the district. It is well-known that student
+achievement on standardized tests in any school
+district usually reflects the socioeconomic
+makeup of that district. Students who come
+from wealthy families with well-educated par-
+ents generally score higher than students who
+come from poor families with lesser-educated
+parents, regardless of the quality of the schools.
+
+Tennessee, like many other states, has imple-
+mented a program to measure school impact on
+student learning, apart from such socioeconomic
+factors. The "value-added" assessment system,
+which was designed by a statistics professor at
+the University of Tennessee, measures each
+student's progress from year to year.
+
+Results of the value-added assessment have
+been interesting. In some school districts, stu-
+dents do well on achievement tests, but never-
+theless don't make the expected progress from
+year to year. In other districts, test scores are
+comparatively low, but students nevertheless
+make better-than-average progress.
+
+One of the things UTK students tried to
+determine was which school districts do the best
+on both student achievement and school perfor-
+mance. Here is how they used the data to do the
+rankings:
+
+• Student achievement: Tennessee Com-
+prehensive Assessment Program test scores are
+now available for seven grades (second through
+eighth) in five subjects – reading, language,
+mathematics, science and social science. Each
+districts' percentile scores for those 35 grade-
+subject areas were added and districts were then
+ranked from highest to lowest. Campbell County
+students ranked 107th of 134 districts. (Five
+districts were not included because they do not
+have all grades from second to eighth.)
+
+• School performance: Value-added scores,
+based on student progress as a percentage of
+national norms, are now available in five subject
+areas. Each districts' five scores were added and
+districts were then ranked from highest to low-
+est. The Campbell County system ranked 119th.
+
+• Overall ranking: Rankings for student
+achievement and school performance were then
+
+Continued on page six
+
+Educators are
+welcome to attend
+NICAR's week-long
+bootcamps. The
+bootcamps offer
+intensive training.
+Learn valuable
+lessons that you can
+pass on to your
+students.
+For more
+information, call
+Wendy Charron at
+(573) 882-0684.
+
+5
+==End of OCR for page 5==
+
+==Start of OCR for page 6==
+Many newspapers and
+television stations
+have graded their
+school systems. To get
+copies of many of
+these stories and tips
+from the reporters
+who did them, call the
+IRE Resource Center
+at (573) 882-3364.
+
+Continued from page five: Grading area schools
+combined and districts were ranked based on
+the combined score. Campbell County ranked
+124th.
+
+The district's poor showing on both student
+achievement and school performance and its
+even worse overall ranking provided a theme
+for the special section. Each student was as-
+signed to evaluate data from a specific portion
+of the database and to determine how Campbell
+County did in each category. One student, for
+example, examined data on dropouts, absen-
+teeism, suspensions, expulsions and promo-
+tions. Her key finding may help explain the
+district's low overall ranking: students in the
+upper grades in Campbell County had the
+highest rate of absenteeism in the state.
+
+The students used several benchmarks for
+purposes of comparison:
+
+• The district's ranking among the 134
+districts in the study.
+
+• The district's score, percentage or num-
+ber compared to the statewide average.
+
+• The district's score, percentage or num-
+ber compared to the national norm.
+
+• The year-to-year trends within the district
+(three years of data were available for most
+categories).
+
+In order to avoid stories that were a mass of
+mind-numbing statistics, each student was
+instructed to pick and write about only two or
+three or four of the most revealing numbers.
+The class interviewed the school superinten-
+dent, the county executive and the president of
+the teacher's union to get their perspectives.
+
+Journalists with even modest skills in using
+spreadsheets could duplicate this project in
+any community where the state compiles simi-
+lar information in database format. The project
+does, of course, involve a lengthy commit-
+ment of reporter time. Smaller papers with
+fewer resources may want to explore a coop-
+erative effort with a college journalism class.
+
+Teacher tips
+Here are some thoughts for teachers con-
+sidering a class database assignment.
+
+• The project takes a substantial amount of
+classroom time—one-third of the periods for
+a semester. But the time commitment is justi-
+fied by the educational value. In addition to
+learning about databases during three com-
+puter lab sessions, students had to use their
+interviewing skills, work with an instructor and
+editor who really demanded stories of publish-
+able quality and required students to meet a real
+deadline. And, of course, publication of the re-
+sults further justified the time investment. Each
+student got a good clip.
+
+• The project also requires a substantial com-
+mitment of time by the instructor. To make this
+work as a class project, the instructor has to divide
+the database into a sufficient number of related
+categories so that each student is able to develop
+a separate story of substance.
+
+To assure stories of publishable quality, the
+instructor also has to spend more time than usual
+making specific suggestions on how stories might
+be rewritten. And then the instructor probably
+will spend considerable time preparing stories for
+publication.
+
+I spent four or five days polishing stories,
+writing headlines, designing tables, preparing
+page layouts and working with the editor to put
+the section together.
+
+• A cooperative editor is essential. Larry Smith,
+the editor-publisher of the weekly LaFollette
+Press, was an integral part of this project. Smith,
+who is an adjunct instructor at the UTK journal-
+ism school, envisioned something even grander
+than I dared to suggest initially, and he offered
+many suggestions along the way to improve the
+final product. Once students had examined the
+data and compiled their initial findings, he met
+with the class in a news meeting setting to share
+his knowledge of the community and school
+district and offer suggestions for developing sto-
+ries.
+
+• Instructors may want to grade students as
+they complete each major step in the project. On
+this one, students were graded on the following:
+a spreadsheet exercise that resulted in overall
+rankings for all school districts; a memo listing
+the most significant findings from each students'
+assigned data categories; a test on numbers and
+statistics; a first-draft news story; a critique of
+other students' first drafts; and, finally, a rewrit-
+ten news story.
+
+Instructors who would like copies of project
+assignments and handouts may obtain them by
+sending me an e-mail request. Please include
+your postal mailing address.
+
+Dan Foley can be reached at
+(423) 974-5109, or send e-mail to
+dan-foley@utk.edu.
+
+6
+==End of OCR for page 6==
+
+==Start of OCR for page 7==
+CAR Trips: First ventures
+Keeping CAR local
+By Jim Toler
+The Free Lance-Star
+Jim Toler attended a NICAR On-The-Road
+seminar in Washington, D.C., in December.
+Tapping a world's worth of information via
+the Internet. Adding depth and perspective to
+stories by analyzing data. Probing how govern-
+ments spend tax dollars and how laws are en-
+forced.
+
+Those were the objectives my editor Virginia
+Demaree and I set for starting CAR at The Free
+Lance-Star in Fredericksburg, Va. The idea was
+to get someone in the newsroom comfortable
+enough with spreadsheets, databases and Internet
+searches so that other reporters would be able to
+apply technology to their beats. Considering we
+used calculators to figure election results last
+fall, this was a worthy goal.
+
+Here are some of the stories that have re-
+sulted:
+
+Chasing Data
+Police reporters seemed to be writing an
+increasing number of high-speed chase stories
+last year. The pursuits often ended in injury-
+causing crashes and several suspects died. Based
+on those observations, I set out looking for data
+on police pursuits. Working with cop reporters,
+we quickly found out that only some local police
+and sheriff's departments had electronic records
+and even then the information was insufficient
+for comparison.
+
+So I built a database of 65 chases from stories
+in our clip files. Using Lotus Approach (an easy
+database for first-timers), I constructed 25 infor-
+mation fields, and from that I was able to deter-
+mine trends. Our findings: Police initiate chases
+for minor infractions a majority of the time,
+most drivers who flee are under 25 and chases
+typically end in crashes.
+
+By examining state police and local figures,
+we also found that National Transportation
+Safety Board fatal accident statistics under-
+counted the number of deaths in Virginia in one
+of the years we examined.
+
+Police in the Fredericksburg area haven't
+rewritten pursuit policies, but the stories and a
+follow up have prompted debate.
+
+Cop and dollars
+Localities in our area between Washington,
+D.C., and Richmond face similar problems with
+crime. Yet there's wide disparity in the amounts
+of money spent on law enforcement among the
+city of Fredericksburg and neighboring Stafford
+and Spotsylvania counties. Using an Excel
+spreadsheet, we compared law enforcement
+budgets and the number of cops on the street in
+each locality. In a story published in April, we
+showed that Spotsylvania County spends the
+least on law enforcement, though it's one of the
+fastest growing counties in Virginia.
+Spotsylvania officials are now in the process of
+hiring additional deputies.
+
+Concern about crime has been on the rise.
+Spotsylvania was the scene of an abduction and
+murder of a teen-age girl last year. In May, two
+young sisters were abducted and murdered. Like
+the earlier case, their bodies were found in an
+adjacent county. The cases have drawn national
+attention and concern there's a serial killer at
+work.
+
+After the May slayings, we used spread-
+sheets to analyze violent crime statistics and
+homicide rates in the region. The stories pro-
+vided context for the unusual cases.
+
+Educational effort
+Where does all money for area schools go?
+How much gets to the classroom?
+
+Those were the basic issues examined in an
+analysis of instructional expenditures over a
+seven-year period.
+
+Education reporter Kiran Krishnamurthy and
+I put the data into spreadsheets. We found one
+county, which had a reputation for its school
+system, had fallen behind a neighboring county
+in per pupil expenditures. The reason: the sys-
+tem known for its schools had to put more into
+building schools to cope with growth while the
+other had increased classroom spending.
+
+The story challenged long-held perceptions
+about which systems were getting dollars into
+the classroom.
+
+Overall, our focus is local.
+We want to examine issues that make a
+difference in the lives of people who live in the
+community. We try never to forget that behind
+the Census numbers, government expenditures
+or the crime rates, there are real people with
+stories to tell.
+
+Jim Toler can be reached at (540) 374-5416,
+or by e-mail at jimtoler@flstarweb.com/
+
+Want to enhance
+your local coverage
+by using data to add
+weight to your
+stories?
+Consult
+Brant Houson's
+"Computer-Assisted
+Reporting: A
+Practical Guide."
+Cost for the book is
+$26 plus shipping.
+To order a copy, call
+(573) 882-2042.
+
+7
+==End of OCR for page 7==
+
+==Start of OCR for page 8==
+If you have any ideas,
+examples or
+questions about
+statistics, e-mail
+Sarah Cohen,
+NICAR's training
+director, at
+sarah@nicar.org
+Her column appears
+every month and
+looks at useful
+statistical tools or
+other number
+techniques that can
+help readers
+understand
+(and want to read)
+important stories.
+
+Stats from the road
+Using regression analysis
+By Sarah Cohen
+NICAR
+When Carol Napolitano and Paul Goodsell
+wanted to study the effectiveness of Omaha
+schools, they turned to a tool that reporters
+increasingly use: regression analysis.
+
+The method is growing in popularity among
+education reporters, as NICAR found in our
+first-ever seminar on advanced computer-as-
+sisted reporting techniques in Philadelphia last
+month, which focused on reporting on educa-
+tion statistics.
+
+But the Omaha World-Herald's experience
+shows why using multiple regression analysis
+— a technique that's become a buzzword in
+newsrooms—requires more than some sophis-
+ticated software and a desire to show it off.
+
+Napolitano and Goodsell spent weeks in-
+side the schools they identified long after their
+statistical procedures were completed. What
+they saw not only put faces on their results, it
+explained them. In underperforming schools,
+Napolitano saw chaos. In exceptional schools,
+she saw teachers who returned year after year,
+discipline that kept disruptions at bay and
+strong principals.
+
+Defining Reality
+First, a few definitions. What is regression
+analysis? It's just a tool that helps you level the
+playing field by predicting one number based on
+values of other numbers. In Omaha and other
+places, that meant predicting test scores based
+on demographics of the student population, such
+as poverty, English language skills and stability
+(called "mobility" in school reports).
+
+Typically, reporters subtract the predicted
+scores from the actual scores. What's left over is
+what U.S. News & World Report has started
+calling "value added" in its annual evaluation of
+American colleges and universities. It's the
+improvement that's attributed to the school's
+effort rather than the advantage or disadvantage
+that students bring to the schools from home.
+
+The results can be striking. In Omaha, al-
+most half of the schools that performed worse
+than the analysis would have predicted on
+California Achievement Tests scored better
+than the median county-wide. Almost half that
+outperformed the prediction scored below the
+district median. Hanging out at the schools
+confirmed their statistical results. At the most
+effective schools, teachers kept order, gained the
+respect of the kids and challenged them to work
+hard. At the least effective, kids slept at their
+desks, flashed gang signs and wandered around
+aimlessly with a helpless teacher standing by.
+
+Lessons Learned
+Omaha's statistical technique can become a
+lesson for many reporters hoping to make sense of
+the proliferating school reports. The first battle was
+getting good data. What Omaha learned was that
+more isn't necessarily better— just more flexible.
+
+After years of fighting, Omaha won access to
+a database containing 70,000 individual student
+records on the California Achievement Test, the
+home ZIP code, the school and a couple of other
+identifiers including participation in school lunch
+programs. What it meant was that Omaha, unlike
+others who have tackled this project, had actual
+scores rather than the percentage of kids who
+scored in certain ranges. It also meant they could
+match the ZIP codes with demographic informa-
+tion about the home neighborhood, not the school
+neighborhood, in a district with busing.
+
+What they ended up using in their analysis,
+though, was familiar: All but one was a traditional
+measure of poverty or advantage, ranging from
+the percentage of parents in the home ZIP code
+with college degrees to the percent of students on
+free or reduced lunch. The last was the percentage
+of minorities taking the tests. Together, these
+factors accounted for up to 84 percent of the
+difference in median test scores among Omaha
+schools. The other 16 percent was, well, news.
+
+If Omaha wanted to predict school perfor-
+mance, why did it exclude information on, say,
+dollars spent or PTA hours logged? Its goals,
+unlike those of the Arkansas Democrat-Gazette
+featured last month in this space, were to isolate
+the characteristics of a school that teachers, prin-
+cipals, or officials, couldn't control. That way, it
+could evaluate the extra value each school brought
+to education rather than predict more exactly the
+school's performance on a series of test measures.
+
+The method wasn't without controversy.
+School officials told Omaha reporters and editors
+that they'd ruin the lives of each 2nd grader in the
+district. They condemned the method. A school
+official's daughter, who was a graduate student
+nearby, e-mailed daily to question another detail
+of the method after the series ran. But the analysis
+
+Continued on page nine
+
+8
+==End of OCR for page 8==
+
+==Start of OCR for page 9==
+Continued from page eight: Statistics in education
+had one strength the school officials couldn't
+deny: It confirmed internal, unpublished studies
+conducted by the school system itself in its
+attempts to identify the best and worst of Omaha's
+schools.
+
+And it did so with compelling anecdotes
+from inside those schools. Here are some tips for
+reporters who want to tackle something like
+Omaha's project:
+
+• Fight for information on students rather
+than settling for the school reports offered up on
+the Web. This information was crucial to
+Omaha's ability to look at a range of student
+demographics using Census data.
+
+• Identify your goals early on. In Omaha,
+reporters wanted to evaluate the performance of
+the education system in each school.
+
+In Arkansas, reporters decided that it didn't
+matter why schools were good - they wanted to
+develop a model of quality that ignored socio-
+economic factors.
+
+Both are legitimate goals. Just decide which
+is yours.
+
+• Watch for bad data, but don't get paralyzed.
+
+In Omaha, for example, certain schools were
+designated "universal free lunch" schools. So
+many of the kids qualified that the schools just
+gave the program to everyone and stopped count-
+ing how many would have gotten the reduced
+price lunches elsewhere. They didn't show up
+as poor in the database.
+
+• Look at more than one year's worth of
+information. Omaha looked at schools that un-
+der- or over-performed five years in a row.
+
+• Use the scientific method, and understand
+all of your results.
+If you need help, hire it. Omaha, in fact, used
+two consultants, John Bare and Brenda Sugrue,
+to lead them through the maze of numbers and
+tests.
+
+• Don't let the school officials intimidate
+you. They'll always tell you that you've made
+big mistakes, and you're irresponsible.
+If you have been responsible, don't let it
+dissuade you.
+
+Sarah Cohen can be reached at
+(301) 942-2199 or e-mail her at
+sarah@nicar.org
+
+Continued from page two: Taxing analysis
+always temporary and the new development
+will eventually return to the tax rolls.
+
+Day 4
+Another emerging issue in Ohio is urban
+sprawl. Urban folks complain about the govern-
+ment investing in building new highways, sew-
+ers and other infrastructure to allow people to
+move out of the city.
+
+Instead, critics argue, the money should be
+spent to improve older urban communities.
+
+The local industrial relocations identified in
+the first day's story clearly followed the trend of
+moving outward into greener pastures — liter-
+ally and figuratively in terms of tax cuts.
+
+A small spreadsheet of basic Census data
+also demonstrated the corresponding shift in
+population and wealth during the past 30 years.
+
+Day 5
+For the final day, I tackled the issue of the
+slippery numbers. In monitoring the tax abate-
+ments — which are given in exchange for prom-
+ises of job creation — communities often rely
+on annual estimates provided by the companies.
+The numbers were suspect.
+
+The company receiving the county's largest
+tax cut of $10 million, for example, was getting
+credit for creating 143 jobs while openly
+downsizing.
+
+And some companies obviously never could
+live up to their promises. When the raw payroll
+and job numbers — those that were the basis of
+granting the abatements — were calculated,
+they didn't add up.
+
+Some deals, if fulfilled, would equate to
+creating jobs paying an average of more than
+$100,000 annually, while others promised full-
+time jobs paying $12,000 a year.
+
+Questions raised around the state about tax
+abatements recently led to $500,000 being set
+aside in the state budget to hire an outside expert
+to conduct a statewide review. The review is
+under way.
+
+Geoff Dutton is now working at the Daytona
+Beach Journal and can be reached at
+(904)252-1511
+
+The IRE Resource
+Center has reprints of
+the
+Omaha World-Herald's
+series, which ran
+April 20-24. To order
+a copy, call the center
+at
+(573)882-3364.
+The Resource Center
+also has examples of
+other newspapers'
+education series and
+copies of tip sheets
+from education
+reporters.
+
+9
+==End of OCR for page 9==
+
+==Start of OCR for page 10==
+This is an excerpt
+from Alan Schlein's
+handout presented at
+the IRE National
+Conference held in
+June. To get a copy of
+the full handout or
+any other handout
+provided at the
+conference, call the
+IRE Resource Center
+at (573) 882-3364.
+
+On the Internet
+Backgrounding individuals
+By Alan Schlein
+Schlein News Bureau
+Dozens of search engines exist to give you
+first clues on backgrounding individuals. This
+is not a comprehensive list. Just ones I've
+found useful in finding people online. The best
+test for most search engines is to put your own
+name in and see what turns up. Compuserve
+offers Phone File' America Online offers
+"White Pages" and CD-ROM's are available
+with the nation's phone numbers. Netscape
+also offers a "People" icon that provides vari-
+ous searches for addresses, phone numbers or
+e-mail addresses of people and companies.
+
+• Switchboard: www.switchboard.com
+Good tool for finding people and e-mail
+addresses.
+
+• Whowhere: www.whowhere.com
+Also good as phone book, business re-
+source and e-mail address finder.
+
+• Yahoo's People Page: www.yahoo.com/
+search.people
+
+• Lyco's People Find: www.lycos.com/
+pplfndr.html
+
+• Excite's People Finder: www.excite.com/
+reference/people.html
+Broad search coverage by concept. See
+later reference to Excite for best journalism
+usage.
+
+• Alta Vista: www.altavista.digital.com
+My favorite (so far) of all the search en-
+gines — especially powerful if you know
+exactly what you are looking for. If you do put
+it in quotes and check it out, use the advanced
+search capability to designate word proximity
+in a phrase. Also a full-text index of Usenet
+newsgroup archives.
+
+• Infospace: www.infospaceinc.com
+This one is good for finding people, e-mail
+addresses and directions to the location. It's
+one of several good mapping programs and
+gives directions in simple terms (like go right,
+instead of go west).
+
+• Four11: www.four11.com
+411 is great for searching e-mail addresses,
+white and yellow pages phone books and also
+has a reverse directory capability, when you
+have a number and want to know who lives
+there.
+
+• Internet Address Finder: www.iaf.net
+This seems to be the most comprehensive for
+finding e-mail addresses, including obsolete and
+old ones.
+
+• Saavysearch: www.cs.colostate.edu/~dreiling
+/smartform.html
+It looks through multiple search programs and
+gives you a single list of hits back. I find it saves
+time.
+
+Backgrounding Tools
+• Dejanews: www.dejanews.com
+You can search for a topic, returning all the
+archived newsgroup messages that mentioned
+that topic, or search for an e-mail address to get all
+the messages that someone has posted (great for
+finding out subject's interests). BUT BE AWARE:
+while you can read others postings on the usenet
+or news group, they can also read yours. A recent
+New York Times story noted that a well-known
+privacy advocate had posted 527 messages to
+usenet groups in the past 18 months, with postings
+to 32 different newsgroups, everything from a
+cyberpunk mailing list, a beer newsgroup and a
+Debbie Reynolds fan club.
+
+• Fraternity and Sorrority Connection: www.
+greek.com
+You can link to this site for some alumni links.
+
+• Finding Faculty: www.petersons.com
+They publish the textbook Register of Higher
+Education, a great resource for finding adminis-
+tration folks at universities. Not on-line yet. They
+do, however, have the best on-line service avail-
+able to search for a university employee.
+
+Finding Professionals
+• Profnet: www.prnewswire.com
+Originally run by Dan Forbush at the State
+University of New York — Stony Brook, it has
+now been merged with PR Newswire, a public
+relations wire service. They still take your request
+and broadcast it to thousands of university press
+flacks nationwide. Include your affiliation, a very
+specific description of the type of expert you are
+seeking and the type of questions you need an-
+swered and information on how to contact you (e-
+mail and phone). They usually get an answer.
+
+• American Medical Association Physician
+Select: www.ama-Assn.org
+
+Continued on page eleven
+
+10
+==End of OCR for page 10==
+
+==Start of OCR for page 11==
+Tech Tip
+The data, they are a changin'
+By Richard Mullins
+NICAR/Missouri School of Journalism
+Sometimes you need to make changes in
+your data — cleanup, standardization, etc. A
+question often heard in NICAR bootcamps is
+something like "I know how to do this in FoxPro,
+but I don't know how to do it in Access." Since
+the reverse of this question also comes up, I'll
+cover the basics of both.
+
+Updating data
+Here is the query in Access:
+
+UPDATE Contribs
+SET NewOccupation = "Homemaker"
+WHERE Occupation = "Housewife"
+
+This is how to do the same thing in FoxPro:
+there are two commands typed in the command
+window.
+
+USE Contribs
+REPLACE ALL ;
+NewOccupation WITH "Homemaker" ;
+FOR Occupation = "Housewife"
+
+In FoxPro, the table you are working on is
+defined first, in a separate command ("use,"
+which is the same as going through the File/
+Open dialog box.) In Access, the table to work
+on is specified after the word UPDATE. The
+words are different, but they have in common a
+way to define the column to work on, the text to
+put in it and which rows to perform the change.
+
+Deleting data
+• Access:
+Maybe you won't use this as often, and never
+on the only copy of original data. Uplink readers
+would never commit a blunder like that.
+
+Anyway, in creating a subset of a larger data
+set, sometimes you make the first cut by creat-
+ing a new table based on rows meeting a certain
+criteria.
+
+You could do subsequent delete commands
+to further whittle down that table. This SQL
+command in Access will delete all rows where
+the occupation field contains "ATTORNEY"
+
+DELETE FROM Contribs
+WHERE Occupation = "ATTORNEY"
+
+Access tells you how many records will be
+deleted before it actually deletes the records.
+
+If you click cancel on the message box,
+nothing happens and the records remain. If you
+click OK, Access deletes the records and you
+can't retrieve them.
+
+• FoxPro
+USE Contribs
+DELETE FOR Occupation = "ATTORNEY"
+
+Again, FoxPro takes two commands to do
+what is specified in one command in SQL and
+Access. After this FoxPro command, the records
+fitting the specified condition are only marked
+for deletion; they still remain in the table. You
+can still RECALL the records. This next com-
+mand does the deletion and is not reversible.
+
+PACK
+
+FoxPro will not give you a prompt before
+this command is carried out. If you say "oops,"
+the next thing you say as the smart Uplink
+TechTip reader that you are: "I'm glad I have a
+backup."
+
+Richard Mullins can be reached at (573) 882-
+2127, or send e-mail to richard@nicar.org
+
+Continued from page ten: Backgrounding
+To find physician addresses and credentials,
+click from the home page to "AMA Health
+Insight" and then "Physician Select," AMA's
+reference source of professional information on
+individual physicians in the U.S.
+
+• Martindale-Hubbel: www.martindale.com/
+maps/../locator/home.html
+Excellent resource for finding lawyers and
+backgrounding them.
+
+• Finding Officers: www.officer.com/
+officers.htm
+This site is an unofficial collection of links to
+personal home pages of law enforcement offic-
+ers. If a cop has a home page on the Web, it's
+here.
+
+• Biography Dictionary: www.tiac.net/us-
+ers/parallax
+Includes over 18,000 prominent persons.
+
+Alan Schlein can be reached at
+(202) 544-5893,
+or send e-mail to Schlein@access.digex.net
+
+Have a suggestion
+for a Tech Tip or
+have a technical
+problem that is
+stumping you?
+E-mail Richard
+Mullins at
+richard@nicar.org
+with your ideas or
+questions.
+
+11
+==End of OCR for page 11==
+
+==Start of OCR for page 12==
+This is an excerpt
+from a handout from
+the
+1997 IRE National
+Conference in
+Phoenix.
+For the panel's full
+handout on small to
+medium-size
+newspaper work, call
+the IRE Resource
+Center at
+(573) 882-3364
+and ask for handout
+
+Handout of the month
+Quick Hits
+By Andy Hall
+Wisconsin State Journal
+Any of these issues may be worth of an in-
+depth project. But if you've got only a day or
+a week, you can produce meaningful stories
+examining portions of these issues.
+
+Education
+The racial achievement gap: Is it widening
+in your community's schools? Even if you're
+handed a news release and told to write up the
+latest test scores, you can quickly dig up addi-
+tional data from the schools or your state's
+education agency. (Some state agencies are
+listing this data on the Internet.)
+
+Method: Compare current high school cu-
+mulative GPAs, listed by race, to figures five
+years ago and, if available, 10 years ago. Use
+the same procedure for standardized test scores
+administered at various grade levels. Don't let
+the school district simply release the "aver-
+age" score for the entire student populations.
+Also, examine the scores, listed by race, for
+each school. You'll see some interesting dif-
+ferences.
+
+Questions: Is the gap between whites and
+minorities expanding? Why or why not? Can
+the differences be explained by other "risk
+factors" such as poverty and high mobility?
+National education experts say they know of
+no major school district in the nation that has
+substantially reduced the racial achievement
+gap. If your schools have, you've got a huge
+national story. If they haven't, you've still got
+a huge story.
+
+Tip: Look for students or schools whose
+experiences defy the stereotypes. They'll pro-
+vide inspiring stories of success — and poi-
+gnant stories of failure.
+
+Population trends
+How has the population of your community
+changed since the 1990 Census? Don't wait
+for the 2000 Census to find out.
+
+Method: Contact your State Data Center
+(list of centers available through 301-457-
+1305). Also check the Census Bureau's
+homepage, www.census.gov, and particularly
+the annual county-level estimates for race/
+Hispanic origin, sex and age at www.
+census.gov/population/www/estimates/co9094.html (See handout from USA Today's
+Paul Overberg for details; call IRE at 573-882-
+0684.) Be sure you understand the limits of the
+data.
+
+Tip: New data became available in July.
+
+Crime
+Where is violence concentrated in your com-
+munity? Which police officers handle most of the
+violence?
+
+Method: Obtain the police department's data-
+base for calls for service, or for reported crimes.
+Or persuade the department to provide you with
+such information as the address having the great-
+est number of violence-related calls, the block
+with the greatest number of calls, and the officer
+responding to the greatest number of violence
+calls. Long after you've published your major
+package of stories, many quick-hit-stories re-
+main hidden in the data.
+
+Tips: There's great value in stories demon-
+strating that crime can be traced to specific build-
+ings and to a relatively small number of people.
+Your stories give the community a place to focus
+efforts such as rooting out bad landlords and bad
+tenants, or obtaining more police patrols.
+
+Quick-hit angles include: which cops handle
+the greatest number of violence-related calls, and
+what are their perspectives on trends in the com-
+munity? What types of calls do officers in your
+community handle? Which date, day of the week
+or time are most frequently associated with re-
+ported violence? How long does it take the police
+to arrive to incidents? What patterns do you find
+when you analyze the sex, age and race of vio-
+lence victims?
+
+Redlining
+Are insurance companies excluding minori-
+ties from homeowners coverage?
+
+Method: Examine state insurance department
+records. Start by focusing on a particular com-
+pany. Determine how much of the market that
+company holds across the metropolitan area.
+Determine what share of the market the company
+holds within each ZIP code. Obtain Census data
+listing minority population within each ZIP code.
+Is there an interesting pattern? In 1995, Madison-
+based American Family Insurance settled a law-
+suit over its Milwaukee policy-writing practices
+
+Continued on page fourteen
+
+12
+==End of OCR for page 12==
+
+==Start of OCR for page 13==
+IRE/NICAR Notes
+Campaign finance assistance
+By Brant Houston and Jo Craven
+NICAR
+One of the worst tasks in computer-assisted
+reporting is data entry. Yet doing data entry is
+usually the only way to do one of the best kind
+of stories: analysis of state and local campaign
+finance reports.
+
+But, in the coming years, there is a chance
+that campaign finance stories may not have to
+rely on massive and time-consuming data entry
+projects.
+
+Electronic filing of campaign finance reports
+has become a hot topic among state election
+officials and campaign finance reformers.
+
+A recent report (soon to be updated) by the
+Center for Governmental Studies in Los Ange-
+les reveals that all but four states are considering
+ways to encourage or require electronic filing.
+
+And in July, 40 state election officials from
+more than a dozen states met to share questions
+and ideas about electronic filing and disclosure.
+
+As outlined in the center's report, electronic
+filing and disclosure of campaign contributions
+and expenses can streamline administrative costs,
+permit faster reporting on the information and
+aid the public in making better decisions during
+elections.
+
+For journalists, electronic filing and disclo-
+sure through diskette or through World Wide
+Web sites would allow dozens of timely and
+meaningful stories during an election, rather
+than afterward.
+
+There already is progress in some states.
+While the systems are not perfect, here is a list
+of some of their efforts:
+
+• Hawaii has implemented electronic filing
+of campaign finance reports and is in the process
+of upgrading its system. The Hawaii system
+visually mimics the state's paper forms. It pro-
+vides diagnostics, including spell checking. And
+it supplies housekeeping functions, such as gen-
+erating letters notifying filers of missed dead-
+lines.
+
+• Iowa has developed an electronic filing
+system and expects voluntary filing to begin in
+August. The first reports expected to be avail-
+able are PAC filings in October and candidate
+committee filings in January.
+
+• Michigan permits electronic filing, but has
+not developed filing software.
+
+• Twenty-two states have pending statutory
+legislation for electronic filing. Among those
+already considering how to start their own sys-
+tems are Michigan, Missouri, Oklahoma, New
+Jersey, Illinois and Ohio.
+
+What's missing
+Although steps have been made, we are con-
+cerned about moves not to disclose street ad-
+dresses or to restrict information electronically
+that can be obtained on hard copy.
+
+For example, California has voted to omit
+contributors' street addresses from data that it
+puts on the Web and is debating whether to omit
+cities as well—decisions that will make it impos-
+sible to clearly identify multiple contributions by
+the same individual.
+
+IRE and NICAR are pushing for electronic
+filing and have the ear of election officials who
+are trying to come up with standardized reports
+and coding for electronic filing.
+
+With help of a two-year grant from the Joyce
+Foundation, located in Chicago, IRE and NICAR
+have begun the Campaign Finance Information
+Center.
+
+The center, which is just getting started, plans
+to be a repository for federal, state and local
+campaign finance data and to help journalists
+analyze that data.
+
+We already are reviewing the electronic filing
+issues with state officials and campaign finance
+groups, representing the interests and needs of
+journalists.
+
+In September, we plan to attend a larger
+conference of election officials where we will
+push hard for meaningful changes.
+
+Let us know by e-mailing jo@nicar.org and
+brant@ire.org what we need to do and any news
+of what your state or local government is doing.
+
+To get a copy of the Center for Governmental
+Studies report, write to Craig Holman, Project
+manager, National Resource Center, 10951 W.
+Pico Blvd., First Floor, Los Angeles, Calif. 90064.
+
+To get a copy of the COGEL study surveying
+39 states regarding the conversion from paper
+filing to electronic filing, write to Charles G.
+Lamb, executive director, Missouri Ethics Com-
+mission, 221 Metro, Jefferson City, Mo. 65109
+
+Brant Houston can be reached at
+(573) 882-0684, or send e-mail to
+brant@ire.org
+
+As part of the
+campaign finance
+project, IRE and
+NICAR will develop a
+Web page with tips
+from reporters,
+examples of stories
+and data for state and
+federal races. If you
+have additional
+suggestions of items
+that should be on the
+page, send e-mail to
+jo@nicar.org or
+jody@nicar.org
+
+13
+==End of OCR for page 13==
+
+==Start of OCR for page 14==
+Check out
+the NICAR Web site
+at nicar.org
+to find out
+times and dates
+for upcoming
+on-the-road training
+and
+bootcamps.
+
+Seminars, bootcamps, conferences
+Get your training
+On-the-road training
+NICAR provides specialized training in
+your newsroom.
+
+Learn to transfer data from government
+files into newsroom PCs. Build spreadsheets
+for insightful stories on the beat. Comprehend
+documents with database managers. Navigate
+the Internet and on-line databases.
+
+Cost varies. For information, call Lisa
+Barnes at (573) 882-8969, or to register, call
+the numbers below.
+
+August 13-17, 1997 — Boston, Mass.
+Join NICAR for hands-on training at the
+Asian American Journalists Association in
+Boston. Limited to conference participants.
+
+August 19-22, 1997 — Huntington, W.Va.
+On-the-road training for Marshall University
+
+September 11-13, 1997 - Washington, D.C.
+Computer-Assisted Reporting Workshop
+Sponsored by NICAR and the Medill
+School of Journalism
+
+September 20, 1997 - Coeur D'Alene, Idaho
+Join NICAR for hands-on training at the
+Idaho Press Club's annual conference in Coeur
+D'Alene. Limited to conference participants.
+
+September 24-26, 1997 — Arlington, Va.
+On-the-road training for USA Today
+
+October 20-24, 1997 — Ft. Lauderdale, Fla.
+On-the-road training for the Ft. Lauderdale
+Sun-Sentinel
+
+Conferences
+NICAR will offer training and seminars at
+the following professional conferences, includ-
+ing the IRE and NICAR national conferences.
+Costs vary. For information or to register, call
+Lisa Barnes at (573) 882-8969
+
+March 5-8, 1998 — Indianapolis, Ind.
+NICAR Conference
+
+June 4-7, 1998 - New Orleans, La.
+IRE National Conference
+
+Bootcamps
+Bootcamps are week-long, intensive train-
+ing sessions offered at NICAR's headquarters
+at the Missouri School of Journalism in Co-
+lumbia, Mo.
+
+As with on-the-road training, you will learn
+to transfer data from government files into
+newsroom PCs, build spreadsheets for stories
+on the beat, comprehend documents with da-
+tabase managers, and navigate the 'Net and
+on-line databases — but you'll be drilled all
+day, every day for a full week. Tuition ranges
+from $500-$1,000 depending on circulation or
+market size.
+
+For information, call Wendy Charron at (573)
+882-0684.
+
+August 10-15, 1997 — Columbia, Mo.
+NICAR Regular Bootcamp
+
+September 28-October 3, 1997—Columbia, Mo.
+NICAR Bootcamp with eight fellowships
+available for minority journalists
+Sponsored by NICAR and the Multicultural Man-
+agement Program
+
+January 4-9, 1998 — Columbia, Mo.
+NICAR Regular Bootcamp
+
+Continued from page twelve: Quick Hits
+for $14.5 million.
+Tip: You can do this within one week.
+
+Medical waste, voting, state aid, affordable
+housing, wardens...Got time for more?
+
+• Do any hospitals in your area burn medi-
+cal waste to generate electricity? The pollu-
+tion may be making patients and employees
+sick.
+
+• As politicians spend millions trying to
+win votes, check to see how many pols and
+other local leaders bother to vote.
+
+• When your state doles out economic de-
+velopment aid, where does it got? If any ends
+up in funny places, such as a shaky deal to prop up
+a factory in the governor's hometown, you've got
+a hot issue.
+
+• When a developer or politician brags that
+they're creating affordable housing, check it out:
+How many people can really afford these places?
+
+• Who are the wardens of the prisons in your
+area? These people wield extraordinary power
+over the lives of inmates and employees, but
+they're seldom subjected to scrutiny.
+
+Andy Hall can be reached
+at (608) 252-6100.
+
+14
+==End of OCR for page 14==
+
+==Start of OCR for page 15==
+Growing collection of federal databases
+From the NICAR library
+NICAR offers a number of federal govern-
+ment databases. Here is a list of our growing
+collection:
+
+NEW. • U.S.Food and Drug Administration's Medi-
+cal Devices Reports, detailing complaints about
+drugs, pacemakers and other medical products.
+1974-1996.
+
+NEW. • U.S. Centers For Disease Control's AIDS
+database, providing case-by-case demographic
+information about those with the HIV virus. 1995.
+
+NEW. • U.S. Census Bureau's Consolidated Fed-
+eral Funds Reports, showing which communi-
+ties get how much under various federal pro-
+grams. 1983-1995.
+
+• Federal Aviation Administration's acci-
+dents and incidents, including major plane
+crashes since 1974.
+
+• NASA's air safety reporting system, in-
+cluding anonymous complaints by pilots and air
+traffic controllers. Useful for finding near misses
+and problems at local airports, 1988-1996.
+
+• Federal Election Commission campaign
+contributions by individuals and political action
+committees, 1990-1997.
+
+• The Health Care Financing Administion's
+1995 database of all Medicare-funded inpatient
+work in U.S. hospitals.
+
+• Federal Railroad Administration data for
+accidents, casualties, and highway crossings,
+1991-1996.
+
+• Coast Guard boating accidents, 1969-1994.
+
+• Federal Aviation Administration data, in-
+cluding airplane maintenance work documented
+in the service difficulty report, pilot licenses and
+grades, and aircraft registration, 1974-1997.
+
+• Home Mortgage Disclosure Act records, for
+tracking who gets loans and who gets turned
+down, and finding redlining patterns, 1992-1995.
+
+• Federal procurement data, 1992-1996, in-
+cludes breakdowns by agency.
+
+• Alcohol, Tobacco and Firearms gun dealer
+records. 1993-1996.
+
+• National Bridge Inventory System data,
+includes inspection grades, 1994-1995.
+
+NEW. FBI Uniform Crime Reports, a detailed
+compilation of crime data that includes statisti-
+cal breakdowns of individual murders. This
+includes the 1995 final report.
+
+• Social Security death records, by name and
+social security number, going back to 1937.
+
+• Occupational Safety and Health Adminis-
+tration violation data includes worker accidents
+and exposures to hazardous chemicals by com-
+panies, 1974-1996.
+
+• U.S. Department of Transportation truck
+accident and census data. It includes accidents
+by company and road.
+
+• U.S. Small Business Administration loan
+guarantees, 1980-1997. This includes the name of
+the business, address, amount covered by the SBA,
+and status, including whether the loan went bad.
+
+• U.S. Small Business Administration disas-
+ter loan guarantees, 1989-1995. This includes
+individuals and businesses, the amount covered
+by the SBA, and the status, including whether
+the loan went bad.
+
+• U.S. Small Business Administration's list
+of minority companies certified for SBA assis-
+tance in seeking federal contracts. It includes
+the name of the company, its address, the owner,
+type of business and phone number.
+
+• The National Inventory of Dams, 1991-1995.
+
+• U.S. Department of Transportation hazard-
+ous materials accidents database, a collection of
+roadway, rail, air and waterway accidents from
+1971 to 1996.
+
+• U.S. Department of Transportation fatal
+accident reporting system. It includes all road-
+way accidents from 1975 to 1995.
+
+• U.S. Coast Guard directory of U.S. mer-
+chant vessels. It includes the name of the ship,
+the managing owner, home port and various
+descriptive information.
+
+For up-to-date prices and more information,
+call (573) 882-0684, or send e-mail to
+info@nicar.org
+
+Need technical
+advice?
+Can't find what you
+need on the Internet?
+The bound edition
+of 1996 Uplinks
+is now available
+for $20 plus shipping.
+To order,
+call Wendy Charron
+at (573) 882-0684.
+
+15
+==End of OCR for page 15==
+
+==Start of OCR for page 16==
+Bits, Bytes and Barks
+Reader Response
+It's time we heard from you. We are looking to improve
+Uplink and want to know your ideas.
+Are there certain columns that you would like to add?
+Are there certain topics you would like covered? Have you
+done a story that you think should be featured in an
+upcoming issue? This is your chance to play armchair
+editor.
+Send comments, critiques and suggestions to Uplink's
+editor, Jody Sowell, at jody@nicar.org We look forward
+to hearing from you.
+
+NICAR Net
+Recent topics on the IRE and NICAR listserv have
+included campaign finance data, troubles with traffic
+accident data, ethics, medical investigation, medical in-
+vestigations and Access tips.
+To subscribe to IRE-L or NICAR-1, send e-mail to
+listproc@lists.missouri.edu
+In the body of the message, type:
+subscribe NICAR-L<your name>
+subscribe IRE-L<your name>
+Also, check out the IRE-L and NICAR-L mailing list
+archives on our website at http://www.ire.org and http://
+www.nicar.org. You can see posts to both lists organized
+by thread, author and date. The list archives are available
+in html or in plain text format.
+
+IRE and NICAR Want You
+IRE and NICAR have several positions open:
+• Director/Trainer for Campaign Finance Information
+Center and Database Library Administrator for Campaign
+Finance Information Center
+We are looking for excellent journalism skills and/or
+excellent computer skills. The center will archive state and
+local campaign finance data, offer on-site and on-line
+training and will publish a newsletter. Salaries for the jobs
+range from $35,000 ot $40,000.
+• IRE Deputy Director
+IRE is also looking for a deputy director who will report
+to the executive director and help oversee IRE's six divi-
+sions: training, publications, the Mexico program, NICAR
+database library, operations and the new campaign finance
+information center. Salary range is $40,000 to $46,000.
+The job may include teaching at the school of journalism as
+an adjunct professor.
+• Database Library Administrator for NICAR
+This position involves supplying data and data analysis
+to more than 120 print and broadcast organizations and
+overseeing a team of graduate research assistants. Salary
+range is $35,000 to $45,000.
+Inquiries and resumes should be sent to Brant Hous-
+ton, Executive Director, IRE, 138 Neff Annex, Colum-
+bia, Mo. 65211 or brant@ire.org
+
+Investigative Reporters and Editors, Inc.
+138 Neff Annex
+University of Missouri School of Journalism
+Columbia, MO 65211
+
+NON-PROFIT ORG.
+U.S. POSTAGE
+PAID
+COLUMBIA, MO.
+PERMIT NO. 309
+
+16
+==End of OCR for page 16==

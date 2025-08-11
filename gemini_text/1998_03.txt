@@ -1,0 +1,800 @@
+==Start of OCR for page 1==
+March 1998
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+MAKING THE WAVES
+TV transformed
+
+By Stuart Watson
+WRAL-TV
+Stuart Watson attended the NICAR basic boot camp in August 1995.
+
+At the 1993 national conference on com­puter-assisted reporting, my baptism by fire, I counted about 500 participants. Ac­cording to the roster, exactly ten were from local TV stations. It didn't take a relational database to tell me this computer-assisted thing wasn't exactly sweeping the television world. Surveys tell us a large percentage of Americans get their news primarily - in many cases only - from local television. Yet CAR has been slow to catch on. Why?
+
+CAMPAIGN FINANCE
+Access granted
+
+By Ray Robinson
+The Virginian-Pilot
+Ray Robinson attended the NICAR ad­vanced boot camp in May 1997.
+
+The small, one-story office building nestled along a major thoroughfare in Vir­ginia Beach couldn't be more nondescript. But when The Virginian-Pilot decided to use a database of state campaign contribu­tions to see which addresses were generat­ing the most money for political candi­dates, we found something astonishing.
+
+The tiny building at 1120 Laskin Road had generated nearly $200,000 in contri­butions to candidates for statewide and legislative offices in Virginia over the past four years. That made it easily the richest stop in out area for politicians raising cash. What, we wondered, was going on? Reporter Toni Whitt and news researcher Diana Diehl teamed up to find out.
+
+After six weeks of hard reporting and research, they were able to tell our readers
+
+Continued on page eight
+
+The Disclaimer
+Let's tell the simple truth: computers can be a pain. The 20th century has endowed us with a legacy of wonderful technology – the car, the television, the remote control garage door opener. Yet no technology has ever demanded as much of the user as the com­puter. It's easier for this Luddite to assemble toys for all four of my children at 3 o'clock Christmas morning with instructions en­tirely in Japanese than it is to navigate rela­tional query by example or structured query language in FoxPro. Maybe that's why the rest of you have moved on to Access - and why I'll never leave Fox. I worked too many years huffing and puffing as I climbed that learning curve.
+
+The Conversion
+But I've since joined the clan. I worship at the altar of Phil Meyer, Richard Mullins and Elliot Jaspin. I like using the phrase "comma delimited" in FOIA requests. And, most important, I get a thrill out of find­ing - even producing - original informa­tion. Information that government agen­cies hadn't thought to look for in their own data. Information that will never be in a press release.
+
+This time last year a tipster told me it was taking far too long for ambulances to reach patients in Durham, N.C., “the City of Medi­cine." Duke University boasts some of the finest doctors in the world, but it doesn't do any good if the ambulance is too late. I immediately asked whether a database of ambulance responses existed. It did.
+
+After months of negotiation, request, re­-request, calculation, conversion of a Julian calendar field, conversion of time in one-thou­sandths of a second, recalculation for runs that began before midnight and ended after mid-
+
+Continued on page two
+
+AIR APPARENT
+Update
+
+Don't touch that dial. With increased frequency, CAR is airing it out at broad­cast stations across the coun­try. Tune in.
+
+In this issue, former boot camper and 1997 IRE award winner Stuart Watson details a CAR-prolific WRAL and offers tips on keeping the audience interested in the story, not the computer work.
+
+Two authors relate their search to find the compelling example to illustrate the im­portance of their computer analysis: former boot camper Chris Heinbaugh on para­medics lying about their criminal backgrounds and Nancy Amons on abusers of speeding and parking ticket loopholes. Plus there are re­views of stories by former boot camper Paul Adrian and Mark Lagerkvist.
+
+Longtime CAR-user Ray Robinson of The Virginian-Pilot also checks in with a CAR-intensive campaign fi­nance story prompted and assisted by the Virginia Pub­lic Access Project.
+
+PAGE 10
+On the Internet
+
+PAGE 11
+First Ventures
+
+PAGE 12
+Handouts of the Month
+
+PAGE 14
+Tech Tip
+==End of OCR for page 1==
+
+==Start of OCR for page 2==
+Uplink
+March 1998
+Volume 10, Number 2
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+EDITOR
+Brant Houston
+brant@nicar.org
+
+MANAGING EDITOR
+Brent Johnson
+bjohnson@nicar.org
+
+SENIOR CONTRIBUTING EDITORS
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+COPY EDITOR
+Jeanine M. Davis
+
+ART DIRECTOR
+Wendy Charron
+
+STAFF
+Jack Dolan
+Seth Hemmelgarn
+Justin Mayo
+Margaret Murphey
+Curt Poff
+Debbie Roberts
+John Sullivan
+Alistair White
+Paul Walmsley
+Ted Peterson
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting,
+138 Neff Hall Annex
+Columbia, MO 65211.
+(573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+Postmaster: Please send address changes to NICAR.
+Send e-mail to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training on computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+Continued from page ome:
+Carolina scoops
+
+night the next day, bugging reporters at WTVT-TV and the Charlotte Observer who had done similar stories, reviewing death records and knocking on doors, I wound up in a neighbor­hood within two miles of the ambulance head­quarters where at least four patients had suf­fered cardiac arrests, waited for longer than the recommended eight minutes for an ambu­lance, and died.
+
+The computer can point you to the anec­dote and put it in context. Micro and macro. Individual and system. In the ambulance datbase, it not only pointed me to the cases but also allowed me to draw conclusions about overall delays. It showed me which neigh­borhoods had the longest response times. Before the computer I would have had the tip and a collec­tion of anecdotes. Too often these descend into a "this is an isolated inci­dent" quagmire. Databases can set this to rest.
+
+Online enhancement
+Done correctly, CAR allows us to draw conclusions independent of spin doctors and point us to great stories. Thanks to the Web, we also can pass along that original informa­tion to viewers in a form they can use. Infor­mation like:
+• a list of charities that use professional solicitors and what percentage of the dona­tion really goes to the charity
+• a county-by-county database of school violence reports for every school in the state
+• an alphabetical, searchable database of restaurant inspection reports including in­spectors' comments
+What we used to send in a self-addressed, stamped envelope to viewers, we can now simply post on WRAL Online. What might take hundreds of pages to print out, we can post in an easily searchable format. Computer-as­sisted reporters can place public information directly in the hands of the public. I can tell you from my e-mail that viewers love it.
+
+I get a thrill out of finding original infor­mation. Information that government agen­cies hadn't thought to look for in their own data. Information that will never be in a press release.
+
+A CAR-powered litany
+WRAL has used databases and spread­sheets in many other reports, including:
+• a judge-by-judge comparison of drunk driving conviction rates to accompany a se­ries of reports on court delays produced by defense attorneys shopping for lenient judges
+• an analysis of state traffic accidents that confirmed anecdotes of motorists dying of fatigue on a certain stretch of I-95
+• a state database of cell phone calls show­ing that top state employ­ees were using state phones to place personal calls
+• a database of gas sta­tion inspections showing which stations were charging for a gallon while not pumping a gallon and which stations were charging for premium octane while pumping regular octane
+• a school-by-school "report card" with adjusted test scores for poor students that looked beyond raw scores to see how well schools taught the students they were assigned
+• an evaluation of school violence statis­tics that found dubious reporting methods and raised questions about supposedly de­clining school violence - a position trum­peted in front page headlines of the state's largest newspapers
+• an analysis of ambulance response times which revealed patients waiting too long for help to arrive
+• a review of speeding tickets to show the likelihood state troopers would write a ticket at less than ten miles an hour over the posted limit
+• a comparison of a military malpractice claims database to the National Practitioners Databank that revealed how the military withheld claims information (with the Day­ton Daily News)
+• a comparison of Public Citizen's list of 13,000+ disciplined doctors to databases of military doctors (also with the Dayton Daily News)
+
+Continued on page three
+
+2
+==End of OCR for page 2==
+
+==Start of OCR for page 3==
+Continued from page two:
+CAR-filled station
+
+• an analysis of restaurant sanitation in­spections that found 95 percent of restau­rants in our area get an "A" grade even though some had maggots, rats, or sewage backup
+• an analysis of funeral homes pointing to the increase in corporate ownership
+I could go on at length with other ex­amples of computer-assisted reporting for television - many of which you can find in IRE publications or on the first IRE Feed – available on VHS for a pittance.
+
+CAR bloopers
+It might be more use­ful - though embarrass­ing - to tell of the bigger mistakes I've made. Mis­takes peculiar to television. Mistakes perhaps you can avoid.
+Most can be summed up in the well-worn phrase: "The data is not the story." Take the am­bulance response tale. Yours truly placed the gripping 911 tape and the grieving relative at the end of the story after several minutes of big-picture overview, documents and babble.
+(I know. I know. I heard TV remotes clicking all over eastern North Carolina. I violated TV 101 and may be forced to turn in my hair dryer and secret decoder ring.)
+In our series on judge shopping and drunk drivers, we placed all the anecdotes in the overview-separate from the conviction rates - instead of sprinkling them throughout the other pieces. As a result, the material dried up in most parts.
+
+Keeping the customer satisfied
+We know better. But after weeks of doing your own data entry, you tend to become so attached to the data that you want to show them off to viewers. I don't think they care. Especially if "How I Got This Story" is interfering with telling the story properly.
+Then there's the eternal question: How much do we mention Mr. Computer? I re­member hearing a TV reporter six or seven years ago at an IRE seminar say we should praise the computer in our reporting at every turn. I've since come to view this as a mistake. We never referred to telephone-assisted re­porting or FOIA-assisted reporting. Good reporting has always just been good report­ing.
+I hope the computer will become so com­monplace soon that calling attention to its use will become gratuitous.
+
+Then there's the eternal question: How much do we mention Mr. Com­puter? Good reporting has always just been good reporting. I hope the computer will become so commonplace soon that calling attention to its use will become gratu­itous. It may be already.
+
+It may be already.
+I also say this because TV is a visual medium, and I've used pictures of the computer screen too often. Too many of us have to stare into computer screens all day long at work. We don't want to turn on the TV at home and see them again. There's al­most always a better pic­ture - namely, the pic­ture of the subject of the report.
+
+Sharpest tool in the shed
+After producing several computer-assisted reports, I got a message from our promotions department: "Can we get away from the computer and use more, say, hidden cam­eras?" (If you watch KCBS-TV's report on restaurant inspections, you'll find the two are not mutually exclusive.) Promotions saw all the computer references and scrolling the data as death on toast.
+I think they have a good point. We don't have to tell viewers every phone call we made to get a story. We don't have to refer to every database or every FOIA request, denial, and battle.
+Computers are an appropriate and ex­tremely powerful tool. And as the major source of information for a significant slice of America, we as local TV reporters should know how to use them.
+
+Stuart Watson can be reached at
+(919) 821-8705 or by email at
+stuart@interpath.com
+
+YOU MAY NOW SUBSCRIBE
+ONLINE TO UPLINK.
+DIRECT YOUR BROWSER
+TO WWW.IRE.ORG/
+RESOURCES/NICAR/UPLINK
+
+IRE WANTS TO FOSTER
+THE VOICES OF MINORITIES
+IN INVESTIGATIVE
+REPORTING. TO DO SO,
+IRE OFFERS FELLOWSHIPS
+THAT INCLUDE
+CONFERENCE AND BOOT
+CAMP WAIVERS AND
+TRAVEL ALLOWANCES.
+FOR MORE INFORMATION,
+CONTACT THE IRE OFFICE
+AT (573) 882-2042.
+
+3
+==End of OCR for page 3==
+
+==Start of OCR for page 4==
+NICAR HAS NOW
+ACQUIRED THE USDA'S
+MEAT PROCESSING PLANTS
+DATABASE AND IS
+COMPLETING FINAL
+PROCESSING OF THE
+COMPLETE DATA SET.
+FOR MORE INFORMATION
+CALL THE DATABASE
+LIBRARY AT (573) 884-7711.
+
+A RECENT COX NEWS
+SERVICE PROJECT,
+WRITTEN BY ELLIOT
+JASPIN AND SCOTT
+MONTGOMERY, USED THE
+SAME USDA DATABASE OF
+PROCESS DEFICIENCY
+REPORTS AND
+CONCENTRATED ON MEAT
+PROCESSING PLANTS THAT
+AMASS VIOLATIONS YET
+ESCAPE SERIOUS
+PUNISHMENT. THAT
+PROJECT WAS REVIEWED
+IN THE FEBRUARY 1998
+UPLINK.
+
+MAKING THE WAVES
+Columbus discoveries
+By Curt Poff
+NICAR
+A hostage standoff in the Bureau of Worker's Compensation offices in Colum­bus, Ohio, focused the media's sights on perceived bureaucratic apathy of the agency. An armed man, angry because the bureau ignored his injury claim, stormed into the government building and took several hos­tages. Though the situation ended without gunfire or injury, it set off a firestorm of similar complaints taking aim at the bureau.
+Paul Adrian, an investigative reporter for WBNS-TV who attended NICAR boot camp in May 1996, engineered a data-intensive seg­ment involving worker's compensation claims and the delay between claims and payment.
+Adrian pounced on a BWC fact sheet that claimed the average time between an injured worker's claim and initial payment was 42 days. Analysis of the state's records indicated the aver­age statewide lag time was, in fact, 106 days.
+
+A fact sheet claimed the average time between an injured worker's claim and initial payment was 42 days. Analysis indicated the average statewide lag time was, in fact, 106 days.
+
+The discrepancy came from the time frame the BWC used in their assertion. The bureau's figures were based upon an average time that spanned only four months. If they had used a larger sample period, their numbers would have changed dramatically. They also based their figures on claims actually paid and disre­garded the pending claims that languish away in the appeals process.
+This led Adrian to ask why there was such a long wait between injury claims and compen­sation. The answer seemed simple: employers dispute the claims for financial reasons.
+"While that's one of the reasons, it's not the only one," Adrian said. "If you pulled out all the contested claims, I think you would find that the lag was still much longer than claim­ants want."
+
+Contested claims
+A second trip into the data showed that when claims are contested, the average wait­ing period for the first worker's compensa­tion payment shot up to 272 days. "The 272-day figure is for the top 12 companies. If you look at all the companies that appeal claims, the average is 152 days."
+Across Ohio, Adrian located the companies that contest the highest percentage of claims. The list included well-known entities like the City of Cleveland, United Dairy Farmers, Raytheon Appliances and Ameritemp.
+Adrian interviewed the attorneys han­dling Ameritemp's worker's injury claims. They simply said that with the amount of claims filed, the company can't afford to let every case go unchallenged – a high number of claims translates into high insurance pre­miums for employers.
+
+USDA graded
+Adrian recently beefed up another story with data analysis.
+Using meatpacking and slaughterhouse data main­tained by the USDA, he discovered an area plant with multiple violations. The data, known as PDR (process deficiency report) summary data, contain a list of violations by individual plants. Although detail of the violations doesn't extend beyond classification as either a minor, major or critical violation, the total number of inspections per­formed is listed. The seriousness of the plant's violations can be discerned by examining the number of critical or major violations com­pared to the number of inspections performed.
+Adrian used the data to confirm that a processing plant in nearby Bowling Green was one of Ohio's major violators. After finding that the plant supplied meat products to several local food chains, he employed basic reporting skills to add background. He found the plant's USDA inspector, who was responsible for fil­ing most of the critical reports - from there the story took on a life of its own.
+
+Slaughterhouse jive
+The inspector was embroiled in a lawsuit filed by an employee of the processing plant who alleged sexual harassment by the inspec-
+
+Continued on page nine
+==End of OCR for page 4==
+
+==Start of OCR for page 5==
+MAKING THE WAVES
+Pension plunder
+
+By Joe Stange
+NICAR
+Mark Lagerkvist of News 12 Long Island was on a plane home from Los Angeles in 1995 when he got the idea for a computer-assisted story that would later consume six months of his life.
+The USA Today he was reading contained a one-paragraph blurb about a 401(K) plan that had been pilfered by an employer.
+"Is this just an isolated event or is there something systemic?" Lagerkvist asked him­self. "I became more curious. Once I started pulling clips, doing Nexis searches, and started looking at reference materials, it became ap­parent there were weak­nesses in the pension sys­tem."
+
+No plan's grand
+Lagerkvist, grappling with truly massive amounts of data, began squeezing out those dis­paraging weaknesses:
+• Most pension nest eggs are being watched by the employers. As Lagerkvist says, this allows "the fox to guard the henhouse."
+• Fewer than 10 percent of plans are legally required to have audits on any kind of regular basis. Most are not insured by the govern­ment.
+• There's no way the resources of federal agencies can effectively protect the nation's 750,000 private pension plans from piracy.
+Eventually his report - "Stolen Dreams" - was broadcast in a three-part series on News 12, followed by a half-hour documentary. Following the broadcasts, several indictments were handed down to Long Island-area 401(K) embezzlers. One such case turned out to be the largest known case of pension theft in the country.
+
+Data behemoth
+However, the road was long, rough and littered with dirty data. Lagerkvist had to put up with what he called a "computer-assisted reporting nightmare." He went mano a mano with 6 gigabytes of raw government data, produced after a much-delayed FOIA re­quest.
+Lagerkvist was not initially equipped to deal with the enormity.
+"The database basically included an ab­stract for all 750,000 pension plans in the U.S. on 27 nine-track tapes. At the time I was using a 486 with a 400-meg hard drive. I had to go out and buy a 2-gig hard drive just to handle this project. Even then I had to be very selective about what kind of data I imported."
+
+Field selection
+The next step: the harrowing narrowing process.
+"I think the key is to find out what data is im­portant and what fields of data and information are important for your re­search. You can always go back later and create a sec­ond database. It's impor­tant to start basic and add the things you think are critical."
+Lagerkvist advises any reporter with an urge to work with a massive database to do some homework first in order to get a solid idea of what oddities to look for.
+"When you get a massive amount of data like this, you don't go into a project like this without a clue. I didn't go out and get those tapes just because they were there."
+The sheer size of the project was unlike anything he had encountered in his years of investigative reporting. And while he asserts his insistence on being the only one to "get his hands dirty" with the data, he still recom­mends finding a mentor who knows more about computer-assisted reporting.
+Lagerkvist acknowledged his indebted­ness to Drew Sullivan, once with NICAR and now with the Associated Press.
+"It's helpful to have someone to bounce the technical questions off of. Of course NICAR would tell me that's why they exist, and that's fine, too."
+
+Joe Stange can be reached by email at c665980@showme.missouri.edu.
+
+Most pension nest eggs are being watched by the employers. As Lagerkvist says, this allows "the fox to guard the henhouse."
+
+COPIES OF "IRE FEED 3:
+HOT STORIES AND COOL
+TECHNIQUES" ARE NOW
+AVAILABLE TO IRE
+MEMBERS FOR $10 AND
+NON-MEMBERS FOR $15,
+PLUS SHIPPING.
+CALL (573) 882-2042.
+
+COPIES OF "IRE FEED 2"
+(WITH BROADCAST
+STORIES ON FLORIDA'S
+SEXUAL PREDATOR LAW,
+ATLANTA CONVENIENCE
+STORES SELLING CRACK
+SUPPLIES, AND A REVISITED
+GANG-RAPE CONVICTION)
+AND "IRE FEED 1: NEW
+ADVENTURES IN
+COMPUTER-ASSISTED
+REPORTING" (WITH
+STORIES ON PENSION
+FRAUD, VOTING FELONS
+AND NURSING HOME
+INSPECTIONS) ARE ALSO
+AVAILABLE FOR $10 FOR
+MEMBERS AND $15 FOR
+NON-MEMBERS.
+
+5
+==End of OCR for page 5==
+
+==Start of OCR for page 6==
+TO STEER YOUR CAR
+PROJECTS IN THE RIGHT
+DIRECTION, ORDER
+"COMPUTER-ASSISTED
+REPORTING: A PRACTICAL
+GUIDE" BY BRANT
+HOUSTON. IT CAN BE
+ORDERED FROM NICAR
+AND INVESTIGATIVE
+REPORTERS AND EDITORS
+FOR $26 FOR IRE MEMBERS
+OR $30 FOR NON-MEMBERS
+PLUS SHIPPING.
+CALL (573) 882-2042.
+
+MAKING THE WAVES
+Problem paramedics
+By Chris Heinbaugh
+KOMO-TV Seattle
+Chris Heinbaugh attended the NICAR ba­sic boot camp in March 1996.
+"Who's in the Ambulance," a four-month, computer-assisted investigation, involved trusted public servants: paramedics and emer­gency medical technicians. While at KNXV-TV in Phoenix, we discovered dozens of paramedics who had lied about their criminal history on their applications, despite laws requiring disclosure. News 15 discovered they were getting away with it because the state wasn't bothering to check.
+On the surface, our report appeared to be a simple relational database story. Instead, it ended up being an extended exercise in im­provising computer investigations with imagination and persistence.
+Our first challenge was finding a "crimi­nal" database to run against the EMT/para­medic database I had obtained from Arizona Emergency Medical Services. Unfortunately, after nine months of trying, efforts to get the state's corrections and jail database weren't going anywhere.
+We figured the next best place would be the courts. After we acquired the index for the Maricopa County Court on nine-track, NICAR processed it into a FoxPro database format on two CD-ROMs.
+
+A paperful society
+Having separated the criminal from the civil cases, we were still faced with other challenges. In the index, for example, the first, middle and last names were all in one field. Not understanding string functions, we used Excel to parse the million names, about 26,000 at a time. Once separated, we joined the databases by first and last name, which brought thousands of matches. Nor­mally, one major identifier would help nar­row the matches down, but the index did not include dates of birth.
+So photographer Jon Taylor, associate producer Matt Goldberg and I literally read a thousand cases, checking not only dates of birth but also charges and outcomes. We could access some cases online, but many others were only available the old-fashioned way: in files or on microfilm. After two months we finally had pinpointed about 60 cases to begin working with.
+Ready to go with the story? No way. All this work merely got us to the starting gate. We still needed to cull the great stories from the stack of cases, verify facts, make more records requests, and track down offenders and victims. Most daunting, we had to find the video and graph­ics to make it all great TV news.
+
+Mining for gold
+CAR is another tool in your bag of tricks to flesh out the best stories. And that's ulti­mately what this is about. You can compile all the facts you want with CAR, but if you can't or won't take the time to mine that informa­tion for compelling stories – especially TV stories – why should your audience care?
+While our print colleagues can rely on documents and phone interviews to bring these stories to life, we must also have video. We need people talking on camera, must conduct long, drawn-out stakeouts, and use graphics when the video just isn't there.
+The emotion is what makes our medium unique. Without these elements, you won't have a compelling story.
+Struggling to find a compelling criminal to convince our viewers that the problem was real, I learned a great lesson about CAR: Don't let all your hard work blind you. Be willing to walk away. Only by admitting this did I find our "story."
+The original database we had was of cer­tified paramedics and EMTs. The worst cases would probably no longer be certified and so wouldn't show up in the data. While this seems obvious now, I was so determined to find the story in "my” data that I ignored my instincts.
+
+Interstate hideaway
+A friendly source within the agency res­cued me by suggesting I request a list of revoked certifications. With that data, we uncovered a paramedic - not on my list - who had a criminal history, lied about his past, and got certified. And he then went on to steal from patients. He violated his proba­tion, left Arizona and got certified in Florida, where he stole from patients again. We later
+
+Continued on page nine
+
+6
+==End of OCR for page 6==
+
+==Start of OCR for page 7==
+MAKING THE WAVES
+CAR hits the road
+
+By Nancy Amons
+WSMV-TV Nashville
+The daughter of the late Robert Woodson said, "we've been calling and calling and you're the first person to call us.” She was talking about her family's efforts to prosecute the young, chronic speeder who killed her father, a retired widower. What we thought would be a simple database project to profile the worst speeder in Nashville ended up uncovering a vehicular homicide that had fallen through the cracks. The Woodson family was waiting for the district attorney's office to prosecute Corey Jenkins, but no one there had heard of the fatal accident until our investigation.
+Our four-part, week-long "Speed De­mons" series began when we requested a police department database of three years of speeding and parking tickets. For a $450 computer-time charge, the police downloaded a CD-ROM with 500,000 records of very clean data. The data also included several disposition fields added by the clerk's office. Cleaning and analyzing the data took just a few days for each project.
+
+Licensed to kill
+Using Access 7.0 and a 486 computer (both have since been upgraded, thank good­ness), a simple totals query named our most prolific speeder: 20-year-old Corey Jenkins. He'd had 13 tickets in three years and still had a valid license. When we took a closer look at his accident reports on file with the Department of Safety, we found out about Woodson, who had been fatally injured when Jenkins sped through a red light. Then we discovered the police department had failed to forward the case to the district attorney's office. Jenkins was indicted shortly after our story aired.
+We found some other unexpected sur­prises in the speeding data. One field indi­cated whether speeding tickets had been re­ported to the state drivers' license office. About one-fourth of them had not. We found a long-forgotten law was allowing people to keep speeding convictions off their driving record as long as they were going less than 20 miles an hour above the speed limit on the interstate.
+Access helped us find the people with the most unreported tickets. We profiled one of them, a man who would have lost his license if not for this law. Appropriately, his license plate read, "I SPEED." One legislator wanted the law just the way it was, admitting it helps him keep tickets off his driving record.
+To round out the "Speed Demons" series, we profiled the officer who had written the most tickets, named the locations where the most tickets are written, and looked at traf­fic-calming measures being tried in other cities.
+Start to finish, the project took three weeks with a team of three: myself, an intern, and a photojournalist. Here's some advice to others considering a similar project: Pull paper records to back up every important ticket and accident. Find the victims. When you hit a data-analysis snag and can't find your way out, post a message to the NICAR listserv. Time after time, journalists came to my rescue. Finally, use a faster computer. Some of my queries took hours.
+
+Tickets to hide
+The parking ticket database and three-part "Meter Hogs" series was fun. Again, we looked for chronic violators. We found the worst offenders parking overtime on a meter were state employees. Worse, they had free parking a few blocks away and a shuttle bus to get there. We profiled a woman in the Department of Finance and Administration who accumulated so many thousands of dol­lars' worth of unpaid tickets that she declared bankruptcy. Yet she continued to park ille­gally just outside her office. The database gave us her tag number, so we found her car and were waiting for her when she left work one afternoon. She resigned when our story aired.
+A related series also profiled people park­ing illegally on handicapped placards. One of our violators was the assistant to the director at the DEA. Our viewers said they especially appreciated our holding such violators ac­countable.
+
+Nancy Amons can be reached at
+(615) 353-2284 or by email at
+amons@wsmv.com
+
+BOUND COPIES OF THE
+1997 UPLINK ISSUES ARE
+NOW AVAILABLE.
+CONTACT IRE AT (573)
+882-2042. THE COST IS
+$25 FOR IRE MEMBERS OR
+$30 FOR NON-MEMBERS,
+PLUS SHIPPING.
+
+SIGN UP TO BE AN IRE
+MEMBER. YOU CAN JOIN
+ONLINE AT OUR WEB SITE
+OR BY DOWNLOADING A
+MEMBERSHIP FORM AND
+FAXING IT TO (573) 882-5431.
+FOR MORE INFORMATION,
+VISIT WWW.IRE.ORG/MEMBERSHIP.HTML
+IRE MEMBERSHIPS ARE $40
+FOR PROFESSIONAL
+JOURNALISTS AND
+JOURNALISM EDUCATORS,
+$25 FOR STUDENTS AND
+$55 FOR INTERNATIONAL
+JOURNALISTS. FOR A
+DETAILED ACCOUNT OF
+WHAT IRE HAS TO OFFER,
+CONTACT THE IRE MAIN
+OFFICE AT (573) 882-2042.
+
+7
+==End of OCR for page 7==
+
+==Start of OCR for page 8==
+ROBINSON WRITES: "WE
+USED A LOT OF DIFFERENT
+SOURCES ON THIS STORY:
+DATABASES, PUBLIC
+RECORDS AND
+INTERVIEWS. BUT IT
+WOULD HAVE NEVER
+GOTTEN OFF THE GROUND
+IF WE HADN'T HAD A
+CLEAN, ACCURATE
+DATABASE OF CAMPAIGN
+CONTRIBUTIONS."
+
+FOR RECENT STORIES,
+HANDOUTS AND TIP
+SHEETS ON RESEARCHING
+AND WRITING CAMPAIGN
+FINANCE STORIES, CHECK
+OUT THE WEB SITE OF
+THE CAMPAIGN FINANCE
+INFORMATION CENTER AT
+WWW.CAMPAIGNFINANCE.ORG
+
+Continued from page one:
+Purchased aid
+more than simply who the money was com­ing from. Through interviews, database searches of obscure business publications and public records, they were able to determine what the contributions were buying. Their story was a classic example of using good, old-fashioned investigative reporting to trans­form a good CAR story into a great story about what politicians mean when they say that big contributors are only buying "ac­cess" - and nothing more.
+
+Hidden agenda
+In the case of Edward S. Garcia Sr., the man behind the contributions, that access helped him bring in $6 million for one of his many business ventures.
+Virginia is an Eastern state, but it is the Wild West of campaign finance. Anything goes. There are no limits on campaign contributions from individuals or companies, but Garcia funneled the money through half a dozen corporations, his relatives or his employees. Four of those companies were located in the Laskin Road building, setting off the alarm bells when we ran our address analysis. We can't say why Garcia chose to contribute his money that way. But the effect was clear: the real source of the money was hidden from anyone looking over candidates' campaign fi­nance reports.
+Garcia has long had a reputation as some­thing of a swashbuckler, involved in contro­versial real estate developments and indicted on gambling charges. At one point, U.S. Sen. Charles Robb of Virginia refused to accept campaign contributions from Garcia. (Robb later changed his mind, accepted $8,000 and helped Garcia with his business venture.)
+
+Seeking the source
+Pinpointing Garcia as the source of the money was relatively easy. Using property tax and incorporation records, Whitt and I quickly found that all of the Laskin Road companies had connections to Garcia.
+We began assembling a list of other com­panies Garcia controlled and running them through the campaign contribution data­base, turning up even more contributions to state politicians. When we ran the same enti­ties through the Federal Election Commis­sion database, we found contributions to members of Congress, such as Robb, and to congressional leadership PACS. The total over four years came to $257,000. And of that, a whopping $110,000 went to one candidate: a state senator from Virginia Beach named Kenneth Stolle.
+
+Where's the catch?
+From the Virginia General Assembly Web site, we downloaded and plowed through copies of bills sponsored by Stolle. We re­trieved and read through 20 years' worth of clips on Garcia. We used Nexis and Dialog to search newspapers nationwide for references to Garcia and his companies. We used online financial databases such as Dun's Market Identifiers to pull up information on the finances of Garcia companies. Whitt called those we knew were plugged into the power network in Virginia Beach. We came up empty. Diehl returned to online databases and drilled down to the next level, searching the thousands of obscure magazines and news­letters that cover specific industries in detail.
+From one covering the insurance indus­try, Diehl found that United Benefit Admin­istrators Inc., a Garcia company, was em­broiled in a dispute with insurance regulators in several states who claimed it was operating an unlicensed health insurance plan. The article opened the door.
+Whitt found that Garcia, who employed a handful of police officers at his amusement park, had actually launched the health insur­ance venture in partnership with the officers' union. By claiming to be a union health plan, rather than a regular insurance company, Garcia and the union could sell policies to anyone they wanted without undergoing the scrutiny of state insurance regulators. At least 10,000 signed up in five states from 1992 to 1997. To our knowledge, none were actually police officers.
+
+Enter politicos, stage left
+How the plan stayed alive for so long is where the politicians came in. Garcia had received an entrée to the office of then-Gov. George Allen from Stolle, the single biggest beneficiary of the businessman's campaign contributions.
+
+Continued on page nine
+
+8
+==End of OCR for page 8==
+
+==Start of OCR for page 9==
+Continued from page four:
+"Mooing" violations
+tor. "Although many charges had been filed against the inspector by the employee, by the time we came on the scene, all had been dropped," Adrian said. "This included the ultimate insult - criminal charges - that resulted in the inspector being arrested and jailed. All charges were dropped because of investigations by the USDA and Office of Inspector General that cleared the inspector and determined that the sexual charges were unfounded." The inspector claimed that be­cause of excessive verbal abuse, he is no longer able to work for the USDA.
+Even though the story wasn't heavily de­pendent on CAR work, data analysis pointed toward a controversial scenario that added quite a bit of life to the report. Adrian claims there's more to come from the USDA data. And although it's unlikely he'll come across another bombshell like a sexual harassment suit against a USDA inspector, he's still sort­ing through "some juicy PDR's."
+Curt Poff can be reached by email at
+curt@nicar.org.
+
+Continued from page six:
+EMT backgrounds
+learned he lied on the Florida application as well. On top of that, we tracked him to California, where he was doing it all again.
+We already had the hard facts from the CAR work. And now we had the compelling story to make people care, to convince people that the system needed repair, that no one was checking the backgrounds, that people were slipping through, and that people were being hurt. Because we went beyond the CAR, beyond just the facts, it prompted action. Top legislators announced they would address the issue in the next session. Those voices included Arizona's House Speaker, who had opposed fingerprint background checks for these workers in the past.
+It's hard to spend this kind of time on a story, but you don't have to drop everything to do it. You have to work smarter and be orga­nized. For us, what made the tedium worth it was that we were pretty damned sure our competitors would never put this kind of work into a project and what we'd end up with would stand out from the pack. And it did.
+Chris Heinbaugh can be reached at cheinbaugh@aol.com
+
+Continued from page eight:
+Regulatory relief
+We can't be sure exactly what happened after that. But employees in Virginia's legis­lative liaison office in Washington - basically the Commonwealth of Virginia's official lob­byist-were soon squiring a Garcia employee around the capital, introducing her to politi­cians and officials at the Labor Department to get federal relief from troublesome state regulators.
+Amendments were tacked onto bills mak­ing their way through Congress. Virginia's U.S. senators wrote letters to federal regula­tors. A lawsuit was filed to force the Labor Department to rule that Garcia's venture was in fact a legitimate union health plan.
+When Garcia's health plan was sued by Virginia insurance regulators, he was repre­sented by Norfolk lawyer Tom Moss, who moonlights as Speaker of the Virginia House of Delegates and received $20,000 in cam­paign contributions from Garcia.
+
+A Pyrrhic victory?
+In the end, the regulators won. The insur­ance plan shut down late last year. But not before Garcia and the union made a pile of money. The best part of any story is the one tiny detail that by itself means nothing, but speaks volumes when placed in context. Whitt found it while plowing through the records of Virginia insurance regulators' case against Garcia's health plan: After bringing in $800,000 in dues and $6 million in management fees for Garcia's company, the plan faced a fine for operating in violation of Virginia's insurance laws. The amount of the fine: $30.
+Ray Robinson can be reached by email at
+rsquared@pilotonline.com
+
+IF YOU WOULD LIKE TO
+ORDER A COPY OF THE
+BROADCAST STORIES
+MENTIONED IN THIS
+MONTH'S UPLINK,
+CONTACT THE RESOURCE
+CENTER AT (573) 882-
+3364. FOR A LISTING OF
+PRINT AND BROADCAST
+STORIES AVAILABLE,
+CHECK OUT OUR WEB SITE
+AT WWW.IRE.ORG/
+RESOURCES/CENTER/
+SEARCH.HTML
+
+9
+==End of OCR for page 9==
+
+==Start of OCR for page 10==
+IF THERE IS AN INTERNET
+SUBJECT YOU WOULD LIKE
+TO SEE ADDRESSED OR
+REVIEWED IN UPCOMING
+ISSUES, SEND AN EMAIL TO
+BRENT JOHNSON AT
+BJOHNSON@NICAR.ORG
+
+IRE MEMBERSHIP OFFERS A
+FREE SUBSCRIPTION TO
+THE IRE JOURNAL, LOW-
+COST ACCESS TO THE
+EXTENSIVE COLLECTION
+OF THE IRE RESOURCE
+CENTER, AND DISCOUNTS
+ON A NUMBER OF
+INVESTIGATIVE AND
+COMPUTER-ASSISTED
+REPORTING BOOKS
+OFFERED THROUGH THE
+IRE BOOKSTORE. TO
+DOWNLOAD A LISTING OF
+TITLES AVAILABLE, VISIT
+OUR WEB SITE AT
+WWW.IRE.ORG/
+PUBLICATIONS/
+BOOKSTORE
+
+ON THE INTERNET
+Plug in to the 'Net
+
+By Jonathan Oatis
+Reuters America
+Netscape Communications Corp.'s Navi­gator browser and rival Microsoft Corp.'s Internet Explorer are the main tools for navi­gating the Internet, but there are various accessories, called plug-ins, that further en­hance the experience. These computer pro­grams, and a treasure trove of other software, are available on the Internet.
+Some of this software is "freeware," i.e., free. Some is shareware. You download it and try it out. If you decide you want to keep it, you register it, paying the author's price. Most shareware is based on the honor system. Some is set up in such a way that, if you don't pay for it, it is disabled after a set time.
+Adobe Acrobat Reader: Adobe Acrobat is a program that enables users of different types of computers to convert their files into a form readable by all computers, so long as those computers are using the free Adobe Acrobat Reader software. Adobe makes its money from the software used to convert the files into ".pdf" (for "portable document format") files. Many Web sites, including government and corporations, offer docu­ments in ".pdf" form.
+You can find Acrobat Reader at Adobe's Web site: http://www.adobe.com
+Winzip: One of the most useful shareware programs to have. Winzip compresses soft­ware and data, saving space on your hard drive and allowing you to put massive data files and programs onto a few floppy disks. The newest version also encodes binary files like sound, video and picture files into text, making them easier to send over the Internet.
+You can find Winzip at http://
+www.winzip.com
+RealAudio: Allows you to hear audio sent over the Internet, whether it be a radio story you may have missed when it was first played, a replayable recording of a statement at a news conference or music from an "Internet broadcast station" that uses the Net instead of the airwaves to transmit its programing.
+You can find the free RealAudio program at http://www.realaudio.com The site has a link to RealAudio's guide to audio program­ming on the Internet, http://www.timecast.com
+Progressive Networks, the folks who make RealAudio, also make RealVideo, which al­lows you to view video transmitted over the Internet. This program, however, requires a fairly powerful computer and a speedy Internet connection.
+VDOLive: Another free program that allows users to view real-time video. It can be found at http://vdolive.com Like RealAudio, VDOLive's site also features a guide to sites that produce programming that can be viewed with the software.
+Quicktime: Apple Computer's free pro­gram enables you to play maovies on your computer, either downloaded from a Web site or while online. You can find it http://www.apple.com
+Shockwave: Adds interactivity, includ­ing games, interactive maps and animation, to Web sites. The free "viewer" can be found at http://macromedia.com
+There are scores of other plug-ins and useful auxiliary programs. If you use Netscape Navigator, many are available at Netscapes's Web site: http://home.netscape.com
+Netscape and its Internet software archrival, Microsoft, are constantly upgrad­ing their own programs in their war over market share. Netscape's site also contains its products. For Microsoft's wares, go to http://www.microsoft.com
+Other software can be found at Shareware.com (http://www.shareware.com), a nice site maintained by the C-Net com­puter news service.
+Another great site is TUCOWS (The Ultimate Collection of Winsock Software), which features a rich, categorized selection of software and is notable for its opening picture of two cows. TUCOWS has mirror sites scattered around the world. Enter the main site (http://www.tucows.com), then look for the one closest to you.
+If those don't do the trick, try Jumbo (http://www.jumbo.com)
+Good luck, but remember. If you are downloading at work, have everything you download, no matter how good the source, checked by a technician for viruses.
+This column is excerpted from a handout provided at Indiana CAR, the 1998 National Computer-Assisted Reporting Conference.
+
+10
+==End of OCR for page 10==
+
+==Start of OCR for page 11==
+FIRST VENTURES
+Sex criminals exposed
+
+By Matt Goldberg
+KPRC-TV Houston
+Matt Goldberg attended the NICAR basic boot camp in January.
+It's been done in almost every market. They're your neighbors. They teach your children. And they're convicted sex offend­ers.
+So when we were working on the sex offender notification process for Texas a few months back, the question of how to do the story in a different way came up.
+I sent an open records request to the Department of Public Safety to find out exactly how many sex offenders were living in the greater Houston area. In Harris County alone, it turned out we had 1,058 registered offenders since 1995.
+Then the bells went off. Why not get the state's database containing the names and locations of all registered sex offenders? We sent our request but found out the state only had the information on paper because they had only recently started converting to com­puter records. So we decided to test our computer-assisted skills.
+
+Offender overload
+We called the state and told them to send us each sex offender's registration form. That would have been 20,000 documents, so we settled for Harris County records. A week later we had more than 1,000 forms.
+We entered the information into an Excel worksheet. With the help of some associate producers and interns, we spent about a week entering each person's name, date of birth, street of residence, city of residence, ZIP code, and nature of offense. It took us about a week to enter and double-check the data for typos.
+The next step was moving the data to Access. God, Microsoft made this easy! I imported the data into a new database using the column headings as the field names.
+
+Scanning for specifics
+Now that we had a solid database, we had to find out exactly where these criminals were living. We wanted to find specifics for the story, so we ran a count of the number of sex offenders in each ZIP code. We were even able to figure out the total numbers living on any given street in a ZIP code.
+We also wanted to learn which crime occurred most frequently. We ran a count of each type of crime and discovered that inde­cency with a child was the most prevalent. Using the techniques from before, we also had the most common sex crime in a given location.
+With the data needed for the broadcast version of the story already in hand, we wanted to take the story further and give viewers something to use on an “as-needed” basis. So we created a pamphlet based on the database. Figuring viewers would want to know exactly how many sex offenders were living in their neighborhood, we sorted the data by ZIP code.
+How to make the list reader-friendly? Access is great for creating reports. We de­signed a standard report with the Access wizard, used the reports design mode to change its look, and added an explanation for how to read the data, a legal disclaimer, and our investigator's logo.
+But what about viewers wanting to check whether a particular person was on the list but didn't know where he or she lived? No problem. We saved the database as an *.html file and posted it on our Web site. We repeated sorting the data by different fields. Now viewers could log on and run a search by name, city, ZIP code, offense or date of birth. Mission accomplished.
+
+The Aftermath
+The sex offender story was a great success. To date we have received numerous requests for a copy of the pamphlet and our Web site receives thousands of hits.
+The database continues to be updated. With each new registered sex offender, we simply add their information into a new record. In addition, I created a viewing screen for the rest of the newsroom. Our staff can run searches of the database in a read-only environment without damaging the data.
+The whole project took about three weeks. And the hardest part was the data entry!
+Matt Goldberg can be reached at
+(713)778-4843 or by email at
+news2matt@aol.com
+
+IF YOU HAVE RECENTLY
+STARTED APPLYING CAR
+SKILLS IN YOUR STORIES,
+TELL US ABOUT YOUR
+EXPERIENCES. EMAIL
+BRENT JOHNSON AT
+BJOHNSON@NICAR.ORG
+
+UPCOMING BOOT CAMPS:
+MAY 10-15, 1998-
+ADVANCED BOOT CAMP
+IN CHAPEL HILL, N.C.
+
+MAY 17-22, 1998-
+BASIC BOOT CAMP IN
+COLUMBIA, MO.
+
+JULY 12-17, 1998-
+BASIC BOOT CAMP IN
+COLUMBIA, MO.
+
+AUGUST 9-14, 1998-
+BASIC BOOT CAMP
+
+AUGUST 14-16, 1998-
+ADVANCED BOOT CAMP
+ON INTRANETS IN
+COLUMBIA, MO.
+
+FOR A COMPLETE LISTING
+OF BOOT CAMPS AND
+WORKSHOPS, ALSO VISIT
+OUR WEB SITE AT
+WWW.IRE.ORG/
+RESOURCES/
+CONFERENCES/TRAINING
+
+11
+==End of OCR for page 11==
+
+==Start of OCR for page 12==
+WRANGLING TOO LONG
+WITH A PARTICULAR
+DATABASE PROBLEM?
+WOULD YOU LIKE TO SEE
+YOUR FRUSTRATIONS
+ALLEVIATED IN THESE
+PAGES?
+SEND AN EMAIL TO
+RICHARD MULLINS AT
+RICHARD@NICAR.ORG
+
+TECH TIP
+Cleaning tables
+
+By Andrew Lehren
+Dateline NBC
+I don't remember data scrubbing as one of the allures of journalism, but it is a perennial topic on the NICAR listserv. All those 're­place all...' FoxPro commands can be tiresome, particularly on lengthy tables. But this needs to be done - especially if we want to make sure queries work right.
+Last year, at one of NICAR's program­ming seminars, someone asked whether it's possible to write a FoxPro program that would clean up data automatically with com­mands that make sure every character col­umn is uppercase and flush left. After a few minutes, I came up with this.
+It's pretty straightforward. For those just learning FoxPro programming, it shows one way to use a scan loop. It relies on just one memory variable. The logic is pretty simple: After some stage setting, the program creates a lookup table so it knows the character fields. Next, the program goes through each charac­ter field, one at a time, and runs the 're­place all' commands.
+If you want everything in proper case (with the first letter uppercase and the rest lowercase), you can easily alter this program. This is a stripped-down version to focus on the essence of the program, but you can spruce it up if you're so inclined.
+Without further adieu, let's step through the program:
+To make sure nothing else is open, and that FoxPro starts with a clean slate, we'll begin with these three lines. The first line clears the screen. The second closes any open tables, programs and just about anything else lying about. The third flushes out memory variables that could mess up what follows. Now FoxPro should be pretty clearheaded.
+clear
+close all
+clear all
+We'll tell FoxPro where to work. When you use this for real, you'll have to adjust by putting in the path for the folder that holds your tables. So change c:\YourFolder to the path you want.
+set directory to c:\YourFolder
+Next, we'll tell FoxPro what table to clean.
+You'll need to change TableName. The phrase 'in 1' is just a spot on FoxPro's imaginary desk-like saying I'll put this stack of papers on the left corner so that later, when I open another stack of papers, I'll have some free space on the right side. This makes it easier to go between the two stacks. The 'alias ToClean' means that, from here on out, I'll be calling the table ToClean. This is impor­tant because it saves us the trouble of having to edit the rest of the program. You shouldn't need to make any more changes to make this program work for you.
+use TableName in 1 alias ToClean
+Next, we create the lookup table. It's just a record layout in a Fox table. That's done with 'copy structure extended....' If this seems bewildering, just run this com­mand on your favorite table and look at the result. It may help you better understand what will follow.
+copy structure extended to Lookup
+FoxPro will now open the lookup table in another spot on its imaginary desk.
+use Lookup in 2
+Here's the promised memory variable. It will remember the name of every character field.
+Store ' ' to NameOfField
+Let's start going through the lookup table line by line. That's what happens with a scan loop.
+select lookup
+scan
+We'll check for character fields, and re­member their names. Let's say the Field_name is "Address,” and it's a char­acter field. FoxPro now knows that.
+if field type = 'C'
+Store Lookup.Field_name to
+NameOfField
+Time to flip to our table to be scrubbed.
+Select ToClean
+Now we'll make FoxPro run the 're­place all. The ampersand, by the way, is needed so FoxPro knows we're referring to a memory variable, not a column called liter-
+
+Continued on page fifteen
+
+14
+==End of OCR for page 12==
+
+==Start of OCR for page 13==
+HIGHLIGHTS FROM THE DATABASE LIBRARY
+A bridge to CAR
+
+By Justin Mayo
+NICAR Database Administrator
+Like water under a troubled bridge.
+When a bridge collapsed and killed 10 people in 1987, Jonathan Salant, then with the Syracuse Post-Standard, became inter­ested in the subject of bridge conditions. In 1993 he completed a series titled "The Real Bridges of Madison County," which found that New York's bridge maintenance and inspection systems were insufficient.
+Salant, now an AP reporter in Washing­ton, D.C., described the inspection system and generated a list of the 10 worst bridges in New York from the National Bridge Inven­tory database of the U.S. Department of Transportation, which comprehensively de­tails the condition of the nation's bridges. The Federal Highway Administration main­tains and releases the database each year. NICAR has the years 1994 through 1996 and can send you the data by state or for the whole country.
+The database structure is quite simple - one table with about 120 fields. Some of the information includes: location, type of struc­ture, maintenance responsibility, owner, year built, average daily traffic, dimensions, in­spection dates, and structural evaluations.
+Two fields that can be used for an overall indicator of a bridge's quality are "sufficiency rating" and "status." The sufficiency rating is derived from a complex formula explained in the Recording and Coding Guide you'll re­ceive when you order the data. Essentially, a score of 80 percent or less means the bridge probably needs some rehabilitation. A score of 50 percent or less means the bridge may need to be replaced. The status field contains a code to tell you whether the bridge is structurally deficient, functionally obsolete, or not deficient.
+The scoring procedure is complicated. Although the formula for arriving at the sufficiency rating is uniform, the people and the agencies applying the formula are not. The sufficiency and status fields help to begin evaluating bridges but do not tell the whole story.
+When analyzing the data, Salant found that many bridges in the state had low suffi­ciency ratings but were not being repaired.
+However, he stresses that the data are only a starting point. "You really need to talk to your department of transportation folks," he said. "The data can be old and you need to make sure of the status of the bridges. Don't rely on the data too much. It will only tell you where to look."
+Justin Mayo can be reached at
+(573) 882-0684 or by email at
+justin@nicar.org
+
+Continued from page fourteen:
+Data scrubbing
+ally NameOfField.
+replace all &NameOfField;
+with alltrim(upper(&NameOfField))
+We're done with that column. Let's see what character columns come next. Will it be a city column? A state column? Whatever it is, we'll be ready, looping through our lookup table one row at a time.
+Select Lookup
+The next two lines close our condition and our scan loop. They're the required periods at the end of our programming thoughts.
+EndIf
+EndScan
+By this point, FoxPro has cleaned all the fields. The next two lines just get our pro­cessed table ready to check.
+select ToClean
+use
+We're done. Open it up and revel in all the typing you've avoided.
+Andrew Lehren can be reached at 212-664-7739, or by email at
+alehren@nbc.com.
+
+THE PRICE LISTING FOR
+ALL DATABASES
+AVAILABLE FROM NICAR
+CAN BE ACCESSED
+ONLINE AT
+WWW.NICAR.ORG/DATA
+
+IF YOU WOULD LIKE TO
+SEE A PARTICULAR
+DATABASE IN NICAR's
+LIBRARY DISCUSSED IN
+DETAIL, SEND AN EMAIL TO
+JUSTIN MAYO AT
+JUSTIN@NICAR.ORG
+
+15
+==End of OCR for page 13==
+
+==Start of OCR for page 14==
+Bits, Bytes and Barks
+
+IRE National Conference 1998
+The heat may be rising off of Bourbon Street, but inside the Fairmont Hotel will be the cool musings of investigative journalists discussing their craft.
+It's not too soon to start making plans to get to The Big Easy for the 1998 Investigative Reporter & Editors Na­tional Conference, scheduled for June 4-7.
+Visit IRE's Web site at www.ire.org/resources/confer­ences/neworleans for information and a registration form.
+June 4 has been set aside as the day to focus on computer-assisted reporting.
+
+NICAR Net
+Talk may be cheap, but it's always valuable on the IRE and NICAR listservs. A wealth of topical discussion awaits you.
+To subscribe to IRE-L or NICAR-L, send an email to listproc@lists.missouri.edu
+In the body of the message, type:
+subscribe NICAR-L<your name>
+subscribe IRE-L<your name>
+Also, check out the IRE-L and NICAR-L mailing list archives on our website at http://www.ire.org and http://www.nicar.org. You can see posts to both lists organized by thread, author and date. The list archives are available in *.html or plain text format.
+
+Moving on
+David Milliron has moved from Gannett News Service to become database editor at The Atlanta Journal-Constitu­tion in Atlanta, Ga. If you have recently switched locales, let us know of your whereabouts.
+
+Campaign Finance
+Jack Dolan, director of the Campaign Finance Informa­tion Center, continues to update the CFIC Web site at http://www.campaignfinance.org.
+Campaign contribution data from three more states has now been added. Data is now available from nine states - Idaho, Illinois, Indiana, Kansas, Kentucky, Michigan, Min­nesota, Ohio and Wisconsin. The data can be easily down­loaded, and comparisons can be made by joining tables between the state files. CFIC hopes to enable such compari­sons to be made online once common fields are established and standardized. CFIC's overriding goal is to acquire campaign contribution data from as many states as possible to allow national contribution patterns to be discerned.
+The CFIC Web site also has added new stories to its story library, tip sheets, links to Web sites of state databases, and the inaugural issue of the newsletter Tracker.
+To subscribe to the newly formed CFIC listserv, send an e-mail to majordomo@campaignfinance.org. In the body of the message, type subscribe CFIC-L yourname <your e-mail address>.
+
+COLUMBIA, MO. 65211
+PERMIT NO. 286
+PAID
+U.S. POSTAGE
+NON-PROFIT ORG.
+
+Investigative Reporters and Editors, Inc.
+University of Missouri
+School of Journalism
+138 Neff Hall Annex
+Columbia, MO 65211
+
+16
+==End of OCR for page 14==

@@ -1,0 +1,216 @@
+UPLINK
+THE FORUM FOR COMPUTER-ASSISTED REPORTING
+
+Vol 2
+January 1991
+
+Newsday Report Pays Off
+
+By Tom Braden
+
+Tom Braden, a graduate student at the Missouri School of Journalism, worked last fall on New York Newsday's investigative reporting team. He and col-league Penny Loeb worked on a series of computer-assisted reporting projects, one of which follows.
+
+When New York Newsday reporter Penny Loeb called Aly Dadras to tell him that the city owed him at least $5,000, Dadras reacted with disbelief.
+
+And for good reason.
+
+Several months earlier, the New York City Department of Finance had told Dadras I was preparing to take over a house he owns in Queens for nonpayment of taxes.
+
+For Dadras, an architect and professor at the New York University Institute of Technology who takes pride in his fastidious attention to bills, the Finance Department proceedings had come as a great shock.
+
+Loeb's computer analysis of city finance records set the record straight - for Dadras as well as hundreds of thousands of other property owners to whom, she discovered, the city owes as much as $275 million in overpayments on their real estate, water and sewer taxes.
+
+So read the front page of Newsday on Jan. 7.
+
+Now Dadras awaits a check from the city, which has ceased pursuing his house. And city officials assure they will repay all other residents owed money. Loeb said that to date their progress has been slow. The city says it will take a month just to straighten out its records.
+
+[Image of a newspaper clipping]
+New York Newsday
+Tax Refunds
+City's Secret $275 Million IOU
+Hundreds of Thousands of Property Owners Owed Money - But Have Been Notified
+[End of image]
+
+But it only took an instant for Loeb to know that she had a dynamite story. "It just came so fast," she recalled recently. "I remember looking at the result and thinking, wow, there it is. I was dumbfounded."
+
+So were the property owners she called to notify of the city's malfeasance. They never knew they were owed money because the city isn't required to tell them. Thanks to Newsday, they are beginning to find out.
+
+New York City residents have reacted to the story with outrage; and city officials, already smarting because of the sorry state of city finances, are scratching their heads and wringing their hands.
+
+"I was disturbed by learning about it," said Carol
+
+Pay Off continued on Page 2
+
+Software Success
+
+By George Landau
+St. Louis Post-Dispatch
+
+What this newsletter needs is a little more technical shop talk. Because beyond the hassles of getting data and the thrills of analyzing it, there's the matter of making efficient use of the PC.
+
+In hope of getting a dialogue going, I'll go first. Here, with the emphasis on software, is how we do it at the Post-ispatch:
+Personnel: One guy so far (me).
+Software that I rely on:
+
+Success Continued on Page 2
+
+Plugging In...
+The New York Times
+
+By Valerie Brunell
+
+Computer-assisted reporting is still relatively new at The New York Times, but after less than six months in the works, the staff has generated two major stories that would have been otherwise impossible - one on the state's campaign contributions and the other on the proposed expansion of the New York City police force.
+
+Plugging In Continued on Page 4
+
+***
+
+Pay Off Cont....
+
+O'Cleireacain, the city's finance commissioner, when she discovered the secrets contained in her department's records.
+
+Asked why the city never notified the taxpayer to whom it owes money, one city official replied: "The simple answer to that is we are not required by law to let anybody know about credits."
+
+In his State of the City address, given shortly after the story appeared on the streets, Mayor David N. Dinkins took a conciliatory tone: "Our people have a right to expect that their government will be both honest enough to refund tax overpayments and caring enough to do it quickly."
+
+Loeb, meanwhile, expressed less surprise at this most recent example of the city's bureaucracy gone awry than at the ease with which the story unfolded using a personal computer. Once she had obtained the computer tape for $225 from the Finance Department under the New York State Freedom of Information Law, it took her just one month to analyze the information and report and write the story.
+
+The computer tape contains information on credits for all affected properties in New York City's five boroughs - a total of nearly 1.5 million records. The tape also has a code for the type of credit owed (whether real estate, sewer or water) and the type of building for which owners are deserving of money. If the credit was tied to vacant land, the computer tape identifies it as such.
+
+Loeb used NineTrack Express to filter in just a half hour only those records with credits for property owners, leaving more than 500,000 records to analyze in XDB. The file consumed 40 megabytes of memory.
+
+Success Cont....
+
+XDB: a database manager that uses Structured Query Language (SQL), a very powerful and relatively easy to learn language for analyzing and maintaining tables of data. On my PC, XDB gets annoyingly slow working with tables of more than about 50,000 records.
+
+FoxPro: a database manager compatible with the popular dBASE standard. FoxPro is four times faster than XDB at manipulating data, but dBASE language requires actual programming to do anything fancy.
+
+NineTrack Express: this Elliot Jaspin production, buggy in its earlier versions, has become an indispensible tool for getting data off a tape.
+
+PCanywhere: this very handy program gives me full remote control, by modem, of the office PC. With a laptop at home, I can cook dinner while working the bugs out of long complicated queries.
+
+DESQview: for efficient multitasking, this beats Windows 3.0. DESQview allows me to run several full-size DOS aspplications at once. I can edit an XDB batch file in XyWrite and then, in a single keystroke, jump to XDB to run what I've just written.
+
+Various Utilities: If you don't already use PC Tools, buy it. Its disk cache, to which I grant one megabyte of RAM, can double the effective speed of your hard disk drive without putting your data at the slightest risk.
+
+I use The Norton Utilities to recover files that I or my colleagues have mistakenly erased. I've used its Disk Doctor to diagnose and repair the occasional bad floppy.
+
+PKZIP: a shareware program available on many PC bulletin boards, saves disk space by compressing files you don't use regularly. PKZIP compresses most database tables by 80 to 90 percent; PKUNZIP, a companion to PKZIP, decompresses even large tables for use in less than a minute.
+
+Questions or comments? Call (314) 622-7205 or write to George Landau, St. Louis Post-Dispatch, 900 North Tucker Blvd., St. Louis, MO 63105.
+
+Aside from identifying the properties' locations, giving the borough, block and lot, the computer tape has two open balance fields, each of which represent credits and deliquencies for two different payment periods.
+
+These two fields contain figures that either represent credits the city owes residents or delinquencies owed to the city. Queries in XDB took anywhere from a few minutes to a half hour.
+
+Loeb expressed less surprise at ... the city buereaucracy gone awry than at the ease with which the story unfolded using a personal computer.
+
+The tape does not identify property owners by name, so Loeb tracked them down, matching the borough, block and lot to owners listed in real estate books.
+
+Many of the bilked taxpayers were skeptical when Loeb reached them by telephone. "They didn't believe me," she said. "Others thanked mc, but they didn't want their names in the paper."
+
+In producing the story Locb confronted more formidable challenges than publicity-weary city residents.
+
+She was asked near deadline by her editors to find out how many property owners were owed money. Since more than one credit can accrue to a single property, this was impossible to tell by looking at the tape. So Loeb took a 10 percent sample, and counted the records - about 1,000 of them - by hand.
+
+"I couldn't believe I was doing a computer-assisted story on deadline," she said.
+
+***
+
+Access to Info in California
+
+By Sandy Davidson Scott
+Professor of Communications Law at The Missouri School of Journalism
+
+Chain link fences and cement barricades surrounded the stadium at Tampa. Metal detectors stood ready at the gates. It was the Super Bowl! Missing were the familiar radios held by fans in the stands. Why? Because some terrorist might have stuffed his or her radio with a bomb.
+
+There is an analog to this rush for security caused by the Persian Gulf war - the clamor to restrict information caused by unfortunate uses of the information. All it takes is one lunatic, or even the threat of one, to result in barriers for us all.
+
+The murder of 21-year-old actress Rebecca Schaeffer, costar of the television series "My Sister Sam," is a case in point. She lost her life in Los Angeles on July 18, 1989, when she answered a knock at her apartment door. She opened her security door, and a deranged, jealous admirer, 19-year-old Robert Bardo, shot her in the chest. Bardo, who lived in Tucson, Arizona, had paid $250 to a Tucson private investigating firm, Anthony Agency, to get Schaeffer's address.
+
+Schaeffer was an old friend, Bardo had told the firm, and he wanted her current address. He carried a picture of Schaeffer which bore her signature and a personal, handwritten message.
+
+The firm got her address from driver's license records in Califormia public records available at the time to anyone virtually on demand. The requestor did have to fill out a form that asked the reason for the request, but only addresses of judges and peace officers were automatically restricted.
+
+A furor followed Schaeffer's death.
+
+The clampdown on records held by the California Department of Motor Vehicles became almost as inevitable as war in the Persian Gulf.
+
+The Los Angeles Times quoted California legislator Mike Roos as saying, "Tragically, government records have become the personal research archives of thieves, kooks and killers. The fact is we are all sitting ducks for any criminal or kook who wants to track us down."
+
+"Kooks and killers" - and most sane persons, for that matter - can no longer use California driver's license records to leam residential addresses. On October 1, 1989, California's governor approved legislation sponsored by Roos. The law says, in part:
+
+In order for individuals to be able to exercise their right to privacy, they must be able to choose when to release personal information, and to whom, and reasonable laws requiring the individual to surrender control should be enacted only when it is deemed absolutely necessary for society's welfare. (Emphasis added.)
+
+The personal privacy and security of one's home is fundamental to this right of privacy.
+
+Now California law says that residential addresses maintained by Department of Motor Vehicle records are "confidential and shall not be disclosed to any person," with basically four exceptions: (1) a court; (2) a law enforcement agency; (3) a financial institution licensed by California or the federal government to do business in California and which has a written waiver signed by the person whose address the institution requests; and (4) an insurance company with a California license which is seeking the address of a motorist involved in an accident with someone insured by the company.
+
+[Image with text] FREEDOM OF THE PRESS [End of image]
+
+Note that journalists have no right to gain residential addresses through California's Department of Motor Vehicles.
+
+Anyone who smuggles the information to a journalist (or any other unauthorized person) faces a fine of up to $5,000, imprisonment in a county jail for up to a year, or both.
+
+Unfortunately, the California law is placing a roadblock in the path of a journalist who would like to do a story, say, on school bus safety. If the journalist can get traffic violation records through the Department of Motor Vehicles but has no residential addresses, the journalist may well have difficulty trying to determine if the "Bob Smith" with 20 violations is the same Bob Smith in whose hands school children's lives are placed.
+
+Surely "socicty's welfare" is improved by aiding journalists in writing such stories, not in placing a roadblock with no exceptions in their way.
+
+And so the erosion continues, chipping away here and there at what we can do as society creates a padded cell for us all - because some are "kooks and killers."
+
+Page 3
+
+***
+
+Plugging In Cont....
+
+New York Times Database Editor John C. Freed describes computer-assisted reporting as having 10,000 monkeys sorting information for a reporter. "The human then has to look through (the information) and say this is good and this is not," he says. "It's almost an art rather than a science. You have to think about what might be a link."
+
+Freed's first major project involved an examination of more than $20 million in campaign contributions over the past eight years collected by New York Gov. Mario M. Cuomo. Freed updated information that had already been compiled on computer disks by a private company for the State Government Integrity Commission. To this, Freed said, he only needed to add the contributions that had been made since the commission did its report. Then his analysis began.
+
+"Wells, Rich, Greene, the advertising agency, has a $30 million state contract for the 'I Love New York' campaign and hopes to renew the contract next March. The agency has contributed at least $42,000 to (Gov. Cuomo's) campaigns over the last eight years, including $20,000 this year," read the lead in the Times' Nov. 1 story written by reporter Frank Lynn.
+
+The story also reported that "64 of 68 engineering firms on a Cuomo list of prospects to be solicited ended up contributing to the campaign and that all but 11 of the 64 had contracts with (the State)."
+
+Another Times story concerning the proposed expansion of the New York police force became the newspaper's second major investigative project using computer-assisted reporting.
+
+TRI/DART Seminar News
+
+MICAR will hold its next week-long seminar on computer-assisted reporting on May 5.
+
+These seminars, which are held every three months, train people with little or no experience with computers how to negotiate for computer tapes, download the data on those tapes to a personal computer using a nine-track tape drive, verify that the information has not been tampered with, and analyze it using database software. The seminar also discusses how to administer a computer-assisted reporting program and the legal implications of using government computer tapes.
+
+Last year, MICAR trained 41 people representing 25 newspapers, the Associated Press and 2 Universities.
+
+Tuition for the print media is based on circulation size and on market share for broadcasters.
+
+For more information, call the Missouri Institute for Computer-Assisted Reporting at (314) 882-0684
+
+Freed used two hard-copy reports released by the city. One report, which detailed the precincts to which the additional officers would be assigned, was scanned into the computer. The other reponed types and numbers of arrests in each area and was typed-in by staff within a week.
+
+The reports were then cross-referenced to see whether the arcas with higher crime rates and more violent crimes were getting increases in officers. This was not always the case, as the computer analysis showed.
+
+The report required six weeks' work - about three for Freed's analysis and three for interviews by Times reporter Ralph Blumenthal. The story ran Dec. 15, the day after the State Legislature postponed approving the expansion plan at its last session because members didn't know exactly where the 9,700 additional patrol officers were to be placed.
+
+"One Staten Island precinct, the 123d, which already enjoys the city's best police coverage for violent crime - about 85 officers for every 100 reported violent crimes - would move to an even higher ratio ...
+
+"At the same time, the Brooklyn North command, with some of the city's highest-crime precincts, would wind up with the lowest percentage increase of officers," the story read.
+
+Although the number of ideas for future computer-assisted investivative stories at the Times are increasing, Freed said the major projects don't go unless there's evidence that something is there. "Computer analyses are not good for fishing expeditions."
+
+But if reporters are handed a pile of documents, they need to know to ask for the tapes instead, Freed said.
+
+This newsletter is a publication of the
+
+Missouri Institute for Computer-Assisted Reporting
+
+120 Neff Hall
+University of Missouri
+Columbia, MO 65211
+(314) 882-0684
+
+MICAR is interested in attaining any information, ideas or stories related to computer-assisted reporting for future issues of UPLINK.
+
+If you wish to contribute, please mail your story or idea to the above address. Or, call us for a fax number.
+
+- Adam Berliant, Editor

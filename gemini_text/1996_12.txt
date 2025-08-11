@@ -1,0 +1,691 @@
+==Start of OCR for page 1==
+December 1996
+Uplink
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+Doctor, doctor...
+Uplink update
+Reporters in New Jersery, Ohio and Florida have taken the tempera-ture of hospitals, emergency medi-cal technicians and neonatal care care.
+Rick Linsk andPaul D'Ambrosio of the Asbury Park Press take on all of New Jersey in their series "Vital Signs," which gauges the health of the state's hospitals. Joan Mazzolini and Dave Davis of the Cleveland Plain Dealer examine how Level II Ohio hospitals have skirted the rules in order to make money off of pre-mature births. And Chris Ford of WTVT-TV in Tampa, Fla., times EMT responses to find out long it takes to get to a scene.
+This month's Tech Tipshows how to split name fields in FoxPro.
+NICAR's Andy Lehren and Bonnie Britt of the Felton, Calif., Tribune Review share the latest in covering plane crashes.
+And Griff Palmer shares how The Oklahoman looked at the astronomi-cal amount Oklahoma City spends on maintaining its police cruisers.
+
+Inside:
+Tech Tip
+Page 6
+CAR Trips
+Page 7
+On the Internet
+Page 9
+Calendar
+Page 14
+
+Diagnosing hospital health
+'Vital Signs'
+By Rick Linsk
+and Paul D'Ambrosio
+Asbury Park Press
+How healthy are New Jersey hospitals? A year ago, we asked ourselves that question at the Asbury Park Press. The answers turned into "Vital Signs," a series that ran from July to December and rocked the state's medical establish-ment.
+The project's roots go back two years, to the day someone slipped projects re-porter Rick Linsk several pages of sta-tistics on all New Jersey hospitals, in-cluding mortality rates, mortality rates after cardiac bypass surgery, and Cesar-ean section rates.
+Thinking these might be internal re-ports from the state Department of Health, Linsk called there. Not us, offi-cials said; the state publishes no such performance measures on hospitals. But, they said, if you have $1,600 handy, we can sell you the data and you can do it.
+We were struck by this irony. In the very area where the stakes were so high - literally life and death - it is virtu-ally impossible for consumers in New Jersey to get any meaningful informa-tion about their hospital or doctor. Across in the border in New York and Pennsyl-vania, by contrast, state agencies rou-tinely publish bypass-surgery mortality rates and other figures for the public.
+Jumping in
+We took the plunge. The first step was buying New Jersey's hospital uni-form billing or "UB" data. About 30 states sell these inpatient discharge records, which contain demographic in-
+formation such as age and gender plus myriad fields for conditions diagnosed and procedures performed. The price varies by state. To find out whether your state sells the data, contact the National Association of Health Data Organiza-tions (703-532-3282).
+Diagnoses and procedures are repre-sented by codes under the International Classification of Diseases (ICD for
+Continued on page five
+
+Rocking the rules
+Baby business
+Laurie Snyder
+Missouri School of Journalism
+On a tip, The Cleveland Plain Dealer's Joan Mazzolini, medical reporter, and Dave Davis, projects reporter, investigated why several hospitals were lobbying against tighter restrictions on neonatal care units.
+By examining two years of birth and death records, the reporters found that many hospitals were ac-cepting transfers of extremely pre-mature babies, even though a state system was supposed to route these sick babies to the most sophisti-cated medical centers. These cen-ters, which are certified as Level III hospitals, had cutting edge technol-ogy and a staff of specialists.
+But in a time of managed care and shrinking profits, many hospi-
+Continued on page three
+
+==End of OCR for page 1==
+
+==Start of OCR for page 2==
+Uplink
+December 1996
+Volume 8, Number 12
+A newsletter for the
+National Institute for
+Computer-Assisted
+Reporting
+
+Editor
+Brant Houston
+brant@nicar.org
+Managing Editor
+Jo Craven
+jo@nicar.org
+Assistant Managing Editor
+Andrew Lehren
+andy@nicar.org
+Senior Contributing Editors
+Richard Mullins
+richard@nicar.org
+Rosemary Armao
+jourica@muccmail.missouri.edu
+Staff
+Wendy Charron
+Stan Dorsey
+Angie Gaddy
+Seth Hemmelgarn
+Daniel Kim
+Justin Mayo
+Neil Reisner
+John Sullivan
+Wallace Winfrey
+Copy Editor
+Marilyn Lehren
+
+Uplink is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscription price is $35 (U.S.) annually, $50 outside the United States. Postmaster. Please send address changes to NICAR. Send e-mail to nicar@muccmail.missouri.edu.
+
+NICAR is a joint effort of
+Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training on computer-assisted reporting, special academic and advanced training in data analysis. NICAR is supported by a grant from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+What's the 911?
+Station times EMT responses
+By Jody Sowell
+Missouri School of Journalism
+When WTVT-TV in Tampa, Fla., got a tip that its county's emergency medical system was taking too long to reach people in need, reporters used CAR and vans to illustrate the problem.
+With CAR, the reporters used spreadsheets of response times, maps of response zones and ambulance run reports to show how long am-bulances were taking to reach people who had dialed 911.
+In unmarked vans, the station raced ambu-lances to the scenes of incidents they heard on a scanner. Reporters often arrived before para-medics and used a stopwatch to determine how long paramedics took to arrive.
+The reporters found that Hillsborough County's EMS failed to meet national response-time goals in one out of three cases. In one such case, Rafael Gonzalez died of a heart attack. It took paramedics 11 minutes to get to his home. The house was one mile from an EMS station.
+In one out of every four calls, it took para-medics nine or more minutes to reach people in the most densely populated parts of the county. In the rural areas, the response times were even longer. In more than one out of every three calls, it took paramedics 11 minutes or more.
+Chris Ford, senior investigative producer, said this series, which was broadcast in No-vember 1995, marked the first time the station used computer-assisted reporting in all as-pects of an investigation.
+It paid off. Ford said the statistics proved to the county's officials and residents that these poor response times were not isolated cases.
+"Unquestionably, the computer concept and ideas it exposed allowed us to do this story in a way that was comprehensive and hard to challenge," he said. "The computer really en-abled us to make it hard for them to get any wiggle room."
+After receiving a tip from a paramedic, reporters at the station began investigating. The county's EMS officials did not want to release time records for the whole year, so reporters accepted response-time printouts for a month and started building an Excel database of their own.
+After much prodding from the station's lawyer, Hillsborough's EMS eventually released response records for the year. Reporters added those figures to their database. Ford said the key was in the field section.
+"We were able to sort by different variables, and that really made a difference," Ford said. "We were able to show not just that it was a problem, but where it was a problem, specific neighbor-hoods."
+One of those neighborhoods proved to be an area where the service was needed the most a retirement community named Sun City. One para-medic, who did not want to be named, told re-porter Kevin Kalwary and photographer Phil Celli that any resident of the retirement community who had a heart attack would be in danger because of the slow response times.
+"You're basically gonna die," he said. "We probably should give the pre-arrival instructions to hop in your car and drive like hell to the hospital because your chances are gonna be much better."
+The station was quick to remind viewers that they were not questioning the paramedics' quality of care, only their response times.
+The station talked to residents who had to wait for the ambulance, and some blamed the response times for the death of a family member. But Ford said reporters did not want to show up at people's doorsteps without an idea of what had happened.
+They again turned to computers. The station used Autotrak, an online public records database, for background information on victims and their families. They also used the Datatimes clip ser-vice to read about the incidents with long re-sponse times.
+Ford has some suggestions for others who want to do similar projects:
+• Just do it: "Don't be deterred by the fact that when you decide you want to do this you say, 'I don't know the software or understand it," " he said. "You have to just start on a project you just work on it and make it work. The key is don't be afraid of it. Just figure out what you want to do and do it."
+• No excuses: Ford said persistence counts when it comes to getting governments' computer-ized records, even though officials often say re-porters won't be able to use their software. "Don't accept any excuse," he said. "Just get (the soft-ware) and then you can deal with it."
+Continued on page three
+
+2
+==End of OCR for page 2==
+
+==Start of OCR for page 3==
+Continued from page one:
+Baby business
+tals are searching for ways to generate funds - and obstetrics, especially neonatal intensive care, is a good way to do it. In Ohio, the average cost of treating a premature baby, in 1994, was about $40,000 and could hit upwards of $400,000.
+So many Level II hospitals, in an effort to "get a bigger piece of the baby market," Davis says, were squeezing by state restrictions and presenting themselves to parents as able to pro-vide the most advanced neonatal care.
+However, when it comes to the treatment of premature babies, all hospitals are not equal. The Plain Dealer series, which ran on Nov. 27 and 28, 1994, shows that the death rate of prema-ture babies was significantly higher at the Level II hospitals than at nearby Level IIIs. The articles highlights what Davis calls "another example of the business side of hospitals dictat-ing how health issues are handled."
+
+The data
+Mazzolini and Davis requested Ohio's birth and death records for 1992 and 1993, although, at the time, only eight months of the 1993 records were available.
+Each nine-track magnetic tape cost $100.
+Getting the records was relatively easy, Davis says. "In most cases, we had the data a few days after we filed our request" with the state health department. And, the data were clean.
+The reporters transferred the data from the tapes to an IBM 486, then used FoxPro for their analysis.
+Mazzolini and Davis discovered that birth records are a CAR gold mine, with more than 60 fields of information. The records included when and where the baby was born, as well as such details as the gestation age of the baby, the mother's ZIP code, the number of prenatal doc-tor visits; and, most important, whether the mother was transferred from one hospital to another, either during labor or afterwards.
+"Basically, we were able to track the flow of babies," Davis says.
+The birth records allowed Mazzolini and Davis to identify the hospitals that were treating extremely premature babies, Davis says. Then, linking this information to the death records using the hospital code number, they calculated the death rates at various Level II hospitals vs. those certified as Level III.
+Finding the names of babies who died wasn't as easy. Birth records do not contain the names or an unique identifier, such as a Social Security number, so they roughly matched the birth records by linking the birth date and hospital code to these same fields in the death records, which do contain names.
+"We had good luck; out of 20 names, 15 would be correct matches," Davis says.
+They also downloaded data from the Census Bureau site (www.census.gov), which provided the median income level for various ZIP codes. This data did need some cleaning, Davis says. The Census database listed nine numbers in the ZIP code column, so they wrote a program in FoxPro that removed the last four digits.
+Mazzolini and Davis discovered that many of the babies were from "families who were relatively well off" and the majority of these families had private insurance, Davis says. "Those are the cases that the hospitals wanted."
+After the series ran, the state legislature is-sued a moratorium on hospitals adding neonatal intensive care units-and, in the years since, have closed the loopholes that allowed Level II hos-pitals to skirt state restrictions.
+But, Davis says reporters should revisit the issue. "Hospitals routinely thumb their noses at the state health department."
+
+Check out the AMA Web site, which now has a searchable database of doctors listing addresses and basic credentials.
+http://www.ama-assn.org/
+Navigate to "AMA Health Insight"
+
+The Plain Dealer series is available through the IRE Resource Center. Call (573) 882-3364 and ask for item #11051.
+
+From page two:
+Station times emergency reponses
+• Warning signs: Ford said there are several places to look if a reporter believes their city's emergency medical services are lagging. "One real danger sign is look at the EMS to see if it has dual response or paramedic equipped fire trucks," he said. If paramedics are not riding on fire trucks, there could be a problem. In Hillsborough County, firefighters who had no paramedic train-ing would often arrive long before EMS. Ford also suggested talking to emergency room doc-tors. The American Heart Association often has a local board that monitors response times.
+
+3
+==End of OCR for page 3==
+
+==Start of OCR for page 4==
+Handout of the month
+Medicine and health resources
+
+Good reference books:
+•Dorland's Illustrated Medical Dictionary (Philadelphia: W.B. Saunders, 1994 [28th ed.])
+•Stedman's Medical Dictionary (Baltimore: Williams & Wilkins, 1995 [26th ed.])
+•The American Medical Association Family Medical Guide (New York: Random House, 1994)
+•The Merck Manual of Diagnosis and Therapy (Rahway, N.J.: Merck & Co., 1992 [16th ed.])
+•The Physicians' Desk Reference (Montvale, N.J.: Medical Economics, 1996 [50th ed.])
+•The Control of Communicable Diseases Manual (Washington, D.C.: American Public Health Association, 1995 [16th ed.])
+
+Barbara Gastel provided this handout at the IRE National Conference in Providence, R.I.
+
+Internet directories
+Medical "nodes " or "hubs" on the World Wide Web can be good starting points for gathering background information. Such sites include MedWeb (http://www.emory.edu/ WHSCL/medweb.html), Medical Matrix (http://www.kumc.edu:80/mmatrix/), and Ya-hoo-Health (http:/www.yahoo.com/Health). Of course, medical information on the Web varies greatly in quality; thus, let the browser beware. Among books that may aid in finding Internet resources are Dr. Tom Linden's Guide to Online Medicine (New York: McGraw-Hill, 1995) and The Internet Health, Fitness, and Medicine Yellow Pages (Berkeley, Calif.: Osborne McGraw-Hill, 1995). Given the rapid growth of the Internet, such books cannot be fully up-to-date. However, they may provide at least initial direction.
+
+Journal articles
+Articles in medical journals also can serve as useful background. Such articles can most readily be identified through the National Li-brary of Medicine (NLM) database MEDLINE. Sources of access to MEDLINE include medi-cal (and some other) libraries, some commer-cial online services, and NLM (see http://igm.nlm.nih.gov). To identify articles provid-ing overviews of given areas, you can search MEDLINE specifically for review articles.
+
+Agencies
+Among government agencies, the National Institutes of Health (NIH) is particularly geared to providing health information to reporters. The NIH homepage, through which the homepages of various NIH institutes can be reached, may be accessed at http://www.nih.gov/home.html
+Phone numbers of media contacts at se-lected NIH components are:
+• National Cancer Institute, (301) 496-6641
+• National Eye Institute, (301) 496-5248
+• National Heart, Lung, and Blood Institute, (301) 496-4236
+• National Institute on Aging, (301) 496-1752
+• National Institute on Alcohol Abuse and Alcoholism, (301) 443-3860
+• National Institute of Allergy and Infectious Diseases, (301) 402-1663
+• National Institute of Arthritis and Muscu-loskeletal and Skin Diseases, (301) 496-8188
+• National Institute of Child Health and Hu-man Development, (301) 496-5133
+• National Institute on Deafness and Other Communication Disorders, (301) 496-7243
+• National Institute of Dental Research, (301) 496-4261
+• National Institute of Diabetes and Digestive and Kidney Diseases, (301) 496-3583
+• National Institute on Drug Abuse, (301) 443-1124
+• National Institute of Environmental Health Sciences, (919) 541-3345
+• National Institute of Mental Health, (301) 443-4536
+• National Institute of Neurological Disorders and Stroke, (301) 496-5924
+• National Institute of Nursing Research, (301) 496-0207
+• Office of Alternative Medicine, (301) 496-1712
+If unsure which NIH component(s) to consult about a topic, you can search the NIH information index at gopher://gopher.nih.gov:70/11/clin/nih-infobook or call the main NIH telephone number, (301) 496-4000.
+Other government information sources include the Centers for Disease Control and Prevention (http://www.cdc.gov/cdc.html, media phone num-ber (404) 639-3286) and the Food and Drug Administration (http://fdahomepage.html, media phone number (301) 443-3285). CDC has an automated fax information service providing fact sheets and other documents on diseases and other health topics; for information, call (404) 332-4565.
+
+Medical Librarians
+Medical librarians can aid greatly in finding written and electronic sources of information. Such individuals are readily contacted at the li-braries of medical schools.
+
+4
+==End of OCR for page 4==
+
+==Start of OCR for page 5==
+Continued from page one:
+Vital signs
+short). You can decipher them with a $17 CD-ROM sold by the National Center for Health Statistics. Several medical publishers put out coding manuals that are good to have handy.
+Using UB data for medical research is not without controversy. Pitfalls include inconsis-tency in coding between hospitals, especially when it comes to areas with fuzzy definitions like various complications of labor. Experts also question whether hospitals reliably code their mistakes. And experts point out that the ICD codes do not yet distinguish between ail-ments that patients came in to the hospital with and those they acquire during their stay (pneu-monia and infections being prime examples). Despite all this, a growing number of health researchers are using UB data because it's the best and only database available.
+New Jersey's public UB records identify the hospitals, but not doctors' or patients' identities. Date fields are also scrubbed. Some states re-portedly withhold even the hospital names.
+
+Next hurdle
+If you get this far, the next hurdle is risk adjustment. Hospitals argue, and experts agree, that it's unfair to compare hospitals that have different kinds of patients. The place with a higher mortality rate may have older or sicker patients. To compare apples and apples, you have to adjust for the patient case mix.
+We briefly considered trying risk adjustment in-house using SPSS's logistic regression, but quickly became convinced it would not be a wise move. (Logistic regression takes string variables and predicts relationships. In medical data, it will tell if there is a strong relationship between, say, diabetes and kidney failure.)
+The major concern was credibility. We were about to launch the most ambitious review of hospitals in the state's history. We were going to tell 7.7 million residents which hospitals were great and which ones were killing too many patients. Our information had to be solid, and we had to present evidence that was acceptable to the medical and regulatory communities. No one would take us seriously unless we used a well-known vendor who did risk-adjustment for hospitals and insurance companies.
+Fortunately, we were able to forge a relation-ship with Inforum, Inc., a Nashville, Tenn., company whose parent firm, MedStat, essen-tially invented the medical risk-adjustment meth-odology 15 years ago. Inforum was looking to break into the New Jersey market and we were looking for attack-proof data.
+Inforum provided us risk-adjusted data in three areas: cardiac bypass surgery, stroke treat-ment and pneumonia/influenza care. We got the adjusted death rates, adjusted lengths of stays, and complication rates in each area and com-pared it to hospitals in eight other states. This was the basis for the report cards we published.
+We went a step further and extracted insur-ance, demographic and geographic data from the UB tapes. This helped us show how minori-ties of all ages were less likely than their white counterparts to undergo bypass surgery or pneu-monia treatment. We also found women with insurance were more likely to have C-sections than poor women insured by Medicaid. Rates varied too between cities and suburbs.
+
+Words of caution
+Don't trust anybody or anything. We found errors with the raw UB data (incorrect hospital ID numbers), and Inforum's information (they told us one facility did not note secondary diag-noses when it did). Send your results to your target hospitals before you run and ask them to provide any data that is inconsistent with yours.
+Be prepared for a heavy barrage of misinfor-mation, lies and damn lies from all fronts.
+Hospital executives and trade groups will talk out of both sides of their mouths. In the same breath that they disparage your consultant's work, they will tell you they use the same data for their own internal reviews. Ironically, the hospital association which laughed at an early inquiry from us about how to examine the discharge data came in midway through the series and asked to work with us. Our response: Pucker up and kiss our...
+The impact of the series was almost immedi-ate. The state's health commissioner promised to issue his own bypass report card in 1997, moved to standardize stroke and pneumonia care, promised to beef up his hospital inspection staff, and crack down on a Newark bypass center that was violating its license.
+Rick Linsk and Paul D'Ambrosio can be reached at is (908) 922-6000, or send e-mail to linsk@app.com or to pmd@app.com. The series can be found on-line at www.app.com
+
+The National Library of Medicine online database DIRLINE can help identify volunteer and medical associations and government agencies.
+On the Internet, DIRLINE may be accessed by typing
+"telnet locator.nlm.nih.gov"
+and then selecting
+"Directory of Information Resources" from the menu; it also may be reached from the NLM Locator page at
+(http:// www.nlm.nih.gov/ databases/ locator.html).
+Institutional sources may be identified through the American Association for the Advancement of Science directory
+"Science Sources" (http://sci.aaas.org/ sources/). And the standard reference work the Encyclopedia of Associations has a section listing more than 2,000 health and medical organizations.
+
+5
+==End of OCR for page 5==
+
+==Start of OCR for page 6==
+A one-year subscription to Uplink is available for $35 until the end of 1996. Beginning in January, the price increases to $40 for IRE members and to $60 for nonmembers. To subscribe, call (573) 882-0684, or send e-mail to wendy@nicar.org
+
+Tech Tip
+Let's split
+By Richard Mullins
+University of Missouri/NICAR
+One of the recurring questions on NICAR-L is some variation of: "I have a table with a name field and I need to ..." Those who are starting to bear the stains of exposure to com-puter-assisted reporting will use the term "string functions."
+The advice on several occasions recently has been a brief pointer at part of the FoxPro manual or the online help, accompanied by the encouragement to sweat it out on your own. This is good, sound advice. It's not motivated by laziness or a certain relish in picturing you slogging through the personal hell they were forced to go through, back in the old days, and not like you kids today, and ... you know the rest.
+Here is how to slug it out on your own. Take short steps and make sure you understand each part before you go on.
+Here is the sort of answer you might get if you asked, "How do I a put into a new field everything in a field that is found to the right of the comma?" (This might come in handy for fields with contents like this: Smith, Robert - or, as in our example, Clinton, William Jefferson)
+REPLACE ALL RestName ; WITH SUBSTR(name, AT(",", name)+1)
+If you're thinking, "This looks cryptic and hard to understand," then you should be de-clared legally sane. If you get the command to work, it may be the result of some luck and a few guesses in correcting the syntax errors after FoxPro tells you that you are missing argument, missing parenthesis, etc.
+To illustrate the approach, assume a table called PREZ with a field called NAME. If the table is open and the record pointer (or cursor) is on the first row, you can try out the various functions and see the results on a single row, before you make any changes to your data. In the syntax examples that follow, the line in bold type is what you see on the FoxPro screen when you type in the command window. This is the convention used in the FoxPro manual. The question mark acts as a command word and means, "print this on screen."
+? name
+Clinton, William Jefferson
+
+Try out the left function with assorted num-bers:
+? left(name, 3)
+Cli
+? left(name, 11)
+Clinton, Wi
+? left(name, 1)
+C
+Now, the original problem, posed for the sake of discussion and also one that comes up all the time in real life, is splitting name fields that are separated by a comma. If you understand how the FoxPro replace all command does the changes, then you only need three string functions to do the splitting:
+left()
+at()
+substr()
+The advice about sweating it out is related to the old "teach someone to fish" proverb: If you see these functions in action fixing one problem, you'll be able to figure out how to use them on new problems. After that, there is good news and more good news: There are more than three functions in FoxPro (and Access), and you know something useful about how to learn to use them.
+Now, back to the command window and tak-ing small steps to solve the task at hand. We could state our instructions in English like this: "For every row, find the location of the comma, then pick up the characters on the left side, up to, but not including the comma.
+We've already seen how to print a certain number of characters, starting from the left. But names are not all the same length, which means the comma is not in the same place in every row of a table. This is not an obstacle, because of two facts about FoxPro: 1) There is a function to locate the position of a character within a string of characters, and 2) The results from one function can be submitted to another function. A short term for this, used by geeks, is nesting, an obvious metaphor when you think about it.
+Applying this, we try out the at(), function, then try combining it with left(), and when we're finished with that, put it all into the replace command.. Using the at function on "Clinton, William Jefferson" gives the answer of 8 as the position of the comma. Note the syntax is:
+AT(CharacterToSearchFor, StringToSearchIn)
+Continued on page thirteen
+
+6
+==End of OCR for page 6==
+
+==Start of OCR for page 7==
+CAR Trips: First Ventures
+Take our money – please
+By Griff Palmer
+The Oklahoman
+Griff Palmer attended Advanced Bootcamp in May.
+Until he was contacted by a reporter from The Oklahoman, Oklahoma City police officer Mike Williams didn't know repair and fuel bills on his police cruiser topped $93,000 — that's on a car that originally cost $12,250.
+The car has been in the shop for maintenance or repairs nearly every two weeks since 1992, The Oklahoman reported. Yet Williams told the newspaper his cruiser is not the worst of the bunch.
+It's not unusual among the city's fleet of 600-plus cars to see repair and operating costs top-ping $50,000, The Oklahoman found. The aver-age mileage for Oklahoma City's police fleet is just under 100,000 miles; 303 police vehicles have logged more than 100,000 miles; 85 cars have more than 150,000 miles; and 12 cars have more than 200,000 miles.
+This compares with eight out of 10 cities surveyed by the American Fleet Managers As-sociation, which reported average mileage per police car as 69,000 miles or less.
+Reporters Steve Lackmeyer, Penny Owen, and Diane Plumberg and database editor Griffin Palmer got at the heart of the story with data. Palmer tells how:
+We worked from a cumulative database that reflected figures for the lifetime of each car. If I had more time, I'd have liked to have gotten the database broken out by year. The National As-sociation of Fleet Managers publishes a booklet titled "Benchmarking for Quality in Public Ser-vice Fleets." NAFA surveyed 90 public fleets, ranging in size from 250 units to 10,000-plus units. It analyzed a variety of service/perfor-mance measures, plotting distributions of fleet administrators' responses for each measure.
+On many of the measures, figures for police cars are plotted separately from those for other fleet sedans.
+Many of those distributions are based on annual figures, so having local fleet figures broken out by year allows a reporter to compare the local fleet against NAFA survey results. In addition to plotting the distribution curve, NAFA charts the median value for each measure, along with the low 20th percentile and the high 20th percentile.
+Among the many measures in the NAFA book are average number of miles vehicles are driven each year; average number of miles ve-hicles have been driven since they were put into service; yearly maintenance and repair costs per mile; fuel cost per mile; fuel mileage; total cost per mile; downtime rate; miles between break-downs; miles per mechanic hour.
+
+Tricky measures
+Capital cost is one of the trickier measures. NAFA defines capital cost as the vehicle's pur-chase price minus its projected disposal value, divided by the number of miles it is projected to be driven during its retention period.
+In order to compare against the NAFA bench-marks, a reporter must have those figures for the local fleet.
+We found the downtime rate to be problem-atic because of the way Oklahoma City's Equip-ment Services Division records its data. City officials said they record time out of service as the number of hours between the time a work order is written and the time it is closed off the books. However, they said a car is often actually put back onto the street long before the work order is cleared off the books, rendering the downtime figures meaningless.
+A great many municipal fleet maintenance services operate on enterprise accounting. They receive no general fund appropriations, and have to generate their operating revenue from chargebacks to the city agencies whose vehicles they service. They are constantly being scruti-nized for the fairness of their charges, and to make sure the work cannot be done for less by commercial vendors. Thus, most fleet mainte-nance operations tend to keep good, detailed service data.
+Oklahoma City's cumulative maintenance records for each police cruiser included VIN number, police unit number, original cost, fuel cost, fuel quantity, number of breakdowns, parts costs, accident repair costs, labor costs, labor hours, total work orders written, total mileage and total maintenance and operating costs.
+Griffin Palmer can be reached at palmer@qns.com
+
+The National Association of Fleet Managers, (908) 494-8100, publishes a booklet titled "Benchmarking for Quality in Public Service Fleets," which can help reporters judge the performance of local public service fleets, such as those operated by the police force.
+
+7
+==End of OCR for page 7==
+
+==Start of OCR for page 8==
+Learn to find facts on the Internet, do database reporting on deadline, map crime, analyze budgets, do statistical analysis and more. NashCAR, NICAR's national conference, will be March 6-9 in Nashville, Tenn.
+NashCAR features hands-on training, one-on-one critiques and a job fair.
+For more information, call (573) 882-0684 or see the IRE Web page at www.ire.org.
+
+NICAR notes
+Put the pedal to the metal
+By Brant Houston
+NICAR managing director
+It's time to accelerate again at NICAR. Over the coming months we will start a series of new efforts and expand on the many already underway. Here's a partial list of what Uplink and the NICAR database library plan for the New Year:
+• Add an Uplink column on the use of statistical methods in reporting.
+• Provide databases at low cost to journal-ists, and consistently add tipsheets, handouts and sample stories to the database package.
+• Add an intermediate level seminar (com-ing this January) on data cleaning, good data-base design, and advanced data analysis.
+• Add a seminar in the spring on creating searchable databases on the Web.
+• Become a broader repository for common and often used data, particularly state and local campaign data.
+• Continue our programs to make CAR available to minority journalists by offering fellowships and working with the Missouri School of Journalism's Multicultural Man-agement Program.
+• Offer management seminars for broadcast and print journalists on how to bring and keep a good CAR program at their news organizations.
+• Continue our basic bootcamps. Our January bootcamp is full, and our May bootcamp is filling fast. We'll have two more in the summer.
+• Give an expanded national conference in Nashville, Tenn., in March. This national confer-ence will not only cover the usual computer-assisted reporting panels and training, but also will have advanced classes in mapping, statis-tics, programming, Web development, and Lo-tus Notes.
+• Participate in and give academic sympo-siums and work with journalism faculties to integrate CAR in their curricula.
+• Develop more joint programs with other universities. We already work with Northwest-ern University, University of North Carolina, University of Maryland and Columbia Univer-sity.
+• Continue our on-the-road programs to better help small- to medium-size news organizations, but add on-line tutorials as follow-up training.
+
+IRE Notes
+Wanted: executive director
+By Bruce Moores
+IRE staff
+The leading association of investigative jour-nalists is seeking an executive director to lead Investigative Reporters and Editors into the 21st century.
+IRE, the top newsroom training organiza-tion and standard-setter in our business, offers a host of services to the profession, including training journalists in advanced reporting tech-niques for print and broadcast, editing, and computer-assisted reporting. It is based at the University of Missouri-Columbia. If you have proven yourself as a journalist and manager, we want to hear from you.
+We are seeking an energetic chief executive who will relish helping other journalists here and worldwide; oversee an $800,000 budget; manage a highly motivated staff of 20 indi-viduals; raise funds; guide the development of educational conferences and publications; over-see various IRE programs, including the National Institute for Computer-Assisted Reporting and the Periodistas de Investigacion; and spread the word about the good work of IRE.
+The executive director reports to an elected board of 13 journalists. A seasoned journalist is preferred but not required. The ideal candidate will have demonstrated managerial and adminis-trative effectiveness; a master's degree or equiva-lent combination of education and experience; and superior organization and communication skills. If you know computer-assisted reporting, you will have an edge. This faculty position at the Missouri School of Journalism includes teaching responsibilities and generous benefits. Salary ranges $50,000 to 60,000.
+Candidates should send a cover letter, resume and three reference letters to Bruce Moores, IRE Search Committee, 138 Neff Annex, Missouri School of Journalism, Columbia, Mo. 65211. A review of applications will begin in late January.
+
+8
+==End of OCR for page 8==
+
+==Start of OCR for page 9==
+On the Internet
+You get what you pay for
+By Andrew Lehren
+NICAR staff
+There's a lot of free aviation data on the Web - but it may be worth what you paid for it.
+Consider www.landings.com. It offers the Federal Aviation Administration's Service Dif-ficulty Reports. To the uninitiated, these main-tenance reports seem pretty complete. But be-ware. I compared the Landings site vs. the full database obtained by NICAR under the Free-dom of Information Act. To run this test, I picked TWA flight 800, which crashed this summer near Long Island, at the Landings site.
+The result: Landings showed 18 SDRs since November 1992, vs. 20 in the full database. In addition, in the history of SDRs, there are more than 100 for that aircraft. The Landings data is not in a rows-and-columns format that can be quickly downloaded for further analysis, though you can download the text of the reports. Also, key fields that give fuller versions of events are not available. I e-mailed Landings to reply on these problems, but did not get a reply. The outfit is not an official FAA site, and does warn that its data may not be complete. To be fair, Landings does offer a lot of aviation informa-tion, and does seem promising. It's just not complete.
+To download official data, the FAA offers week-by-week ASCII files at http://www.fedworld.gov/ftp/faa-asi/faa-asi.htm. But the agency does not include a record layout for the data, and it only posts reports for the most recent two months. It will fax you a copy of the record layout. Call the FAA's Jim Gillespie at (405)954-6484. But a word of caution: The data on this Web site is truncated. It, too, does not include fields available under the FOIA, includ-ing the airline's ranking of the severity of the problem.
+Shameless NICAR plug: We've been revis-ing and expanding the way we collect aviation data, and we will do searches by request or send copies of the data to journalists.
+Here are other aviation sites that may help you cover aviation and airplane disasters:
+
+The FAA
+After jumping off FAA's main page at www.faa.gov, check out the links and publica-tions listed at http://www.faa.gov/APA/publicat/GUIDETOC.htm
+FAA press releases are also at http://www.dot.gov/affairs/faaind.htm
+The agency's A Journalist's Guide to the FAA is at http://www.faa.gov/apa/publicat/jnalist.htm
+For the bulk of FAA data, plus advisories and other detailed information, visit ftp://ftp.fedworld.gov/pub/faa-oai/faa-oai.htm
+
+The NTSB
+Look up abbreviated National Transporta-tion Safety Board accidents reports at http://www.ntsb.gov/Aviation/months.htm
+The NTSB offers studies from its data at http://www.ntsb.gov/Publictn/Publictn.htm, and summary statistics at http://www.ntsb.gov/Avia-tion/aviation.htm
+
+Other searchable sites
+Search ownership records using Canadian tail numbers (they begin with a C) at http://www.cavok.com/registration.html
+Landings, by the way, lets you search U.S. and U.K. tail numbers. I ran some sample tests and did not encounter any problems.
+For a detailed listing of airports and naviga-tional systems for those facilities, check out http://www.cc.gatech.edu/db1/fly/
+This offers everything from usage figures to radio systems that pilots use to land.
+For U.S. flight schools, visit http://www.aviationWeb.com/
+
+The dirt on dirty aviation data
+Those who have covered airline crashes know aviation data is tricky.
+The FAA's Aircraft Catastrophic Failure Prevention Research Program at http://www.tc.faa.gov/aar400/aar431/ offers expan-sive information on crashes, including aviation industry complaints about journalists probing FAA data, and how U.S. aviation data is too dirty and incomplete to quickly spot safety problems.
+Aside from checking the U.S. General Ac-counting Office itself, you can quickly look at its report on dirty aviation data at http://
+Continued on page thirteen
+
+Trade Groups:
+The International and American Associations of Airport Executives run http:// www.airportnet.org/
+Information on certain lobbying efforts is off limits, but this does offer links to airports and information on airport security.
+National Business Aircraft Association is for those who fly corporate jets. At http://www.nbaa.org/ you can find tidbits such as positions on pending legislation.
+The Helicopter Association International offers some federal safety information at http:// www.rotor.com/ But some reporters may be more intrigued by lobbying information, including stances against restrictions for flights over national parks.
+
+9
+==End of OCR for page 9==
+
+==Start of OCR for page 10==
+NICAR now offers the NASA Air Safety Reporting System database. The price ranges from $40 to $60, depending on the size of your news organization. For more information, call NICAR at (573) 882-0684.
+
+I've got a secret
+NASA reports anonymous tip-offs
+By Andy Lehren
+NICAR staff
+These are the stories of airplane crashes that almost happened.
+A Federal Express 727 landed on the wrong runway at Newark Airport in March 1993 - nearly striking another Federal Express jet that was waiting for final clearance before takeoff.
+A Continental 727's pilot got confused and turned onto the wrong runway of the same airport. A USAir 737 was hurdling down that runway for takeoff. The air traffic controllers thought they would collide. The USAir pilot thought fast and got enough lift to leapfrog the Continental jet.
+
+Key source
+These are some of the tales found by the Newark Star-Ledger's Ted Sherman. On Sept. 8, he published a package of stories that high-lighted problems at the New Jersey airport. One of the key sources for his story was the Air Safety Reporting System, a database that can provide valuable leads about problems at your hometown airport.
+The database is compiled by the National Aeronautic and Space Administration from anonymous reports filed mainly by pilots, air traffic controllers and others involved in avia-tion. The database started in 1988 as a way for those in aviation to report safety problems. Sherman is among those who have mined it to highlight near disasters.
+
+Tricky data
+The database is a little tricky. To protect anonymity, NASA strips out actual flight num-bers and other identifying information. But it does include the month, year, location and other descriptive information. Sherman found that, in key cases, it gave enough clues so he could verify and figure out the details of those incidents. In some cases, the clues led him to stories in his newspaper's morgue. In other cases, he searched National Transportation Safety Board and Federal Aviation Administra-tion records. But the NASA database underscored a key point - the NTSB and FAA are not a complete source for airline safety data.
+Sherman also recommended, "search broadly, because of coding problems." He found, for in-stance, one type of problem coded several differ-ent ways. It was important to pay attention to how data could be entered into the database.
+
+The key
+One helpful way he approached the data was to slice out just those incidents involving Newark. However, even then he paid attention to the way data was entered into the system. He found that looking for his region, including metropolitan New York, revealed problems that involved New-ark Airport. He suggested other reporters begin searching the database for the geographic area that interests them, and know which regional facilities to track. The key is looking at the facili-ties that affect traffic at your local airport. Again, pay attention to coding. Sherman found one New York radar facility reported two different ways in the database.
+
+Biggest shortcoming
+"The biggest shortcoming," Sherman said, "is air traffic controllers. They don't use it so much." He hoped to find more reports filed by them. Instead, he found, "pilots use it much more."
+Many of the interesting nuggets lie in the database's text fields, where the reports include a narrative description of what almost went wrong. The database includes instances where pilots com-plain about the way things work at an airport, including bad runway designs or other problems that raise safety concerns.
+Sherman obtained the database through a pri-vate company for $135. But, he cautioned, the interface on the CD did not permit easy transfers into FoxPro. He used Monarch in a time-consum-ing effort to get those text fields into a .dbf.
+Andy Lehren can be reached at (573) 882-0684, or send e-mail to andy@nicar.org
+
+10
+==End of OCR for page 10==
+
+==Start of OCR for page 11==
+ADs, NPRMs and service bulletins
+More plane crash sources
+By Bonnie Britt
+The Tribune Review
+On July 24, in the Seattle Times, aerospace reporter Byron Acohido wrote, "The crash of TWA Flight 800 was not the first time witnesses on the ground watched as a Boeing 747-100 burst into flames and tumbled to earth."
+The story went on to describe a crash 20 years ago that drew little public attention: A former TWA 747-100 converted into a freighter for the Iranian air force — a sister ship to the one that crashed off Long Island — exploded in flight near Madrid, Spain.
+How did he know that?
+
+Hot tip
+On a tip, Acohido headed to the library where he spent half a day pressing through four years of indexes on microfiche from Aviation Week & Space Technology, the industry bible.
+When he didn't find the reference in the trade magazine's table of contents, he pushed through it again, 1975-1979, page by page. He found a brief reference in a column item and another reference to an FAA air worthiness directive (AD) triggered by the crash. The AD called for inspection for dangerous fuel leaks that could cause fire and explosion.
+The tip was legitimate. Where were the details?
+Acohido says, "It happened 20 years ago on Spanish soil. It was an Iranian jet. I assumed it'd be impossible to confirm." Hungry for elabora-tion of the crash mentioned briefly in the two Av Week stories, Acohido looked up Spanish au-thorities. When that went no where, he called in the calvary.
+"We have a great library. I asked for a univer-sal search. The librarian found three or four references to the crash, plus a couple of remotely related clips, including excerpts from a maga-zine article that talked about major disasters involving large aircraft.
+
+NTSB
+"The article made reference to the National Transportation Safety Board finding implicat-ing lightning in the Madrid crash. It turned out the NTSB and a bunch of agencies had retrieved and closely examined the wing that exploded in Madrid. A light bulb went off. There had to be an NTSB report."
+Acohido checked the NTSB's Web site (www.ntsb.gov) but saw no reference to the Madrid incident or the 1976 report. He says, "You can't trust their Web site since it is not complete."
+Then he went low tech. He called the records department at the agency and politely requested a copy of the report. Within 24 hours, Acohido had the 50-page report via Federal Express. The report — Special Investigation Report: Wing Failure of Boeing 747-131 near Madrid, Spain. May 9, 1976 — is available from the National Technical Information Service (U.S. Depart-ment of Commerce) in Springfield, Va.
+Acohido copied it to an aircraft wing expert. The report detailed clear and compelling evi-dence that a moderate lightning strike (which the aircraft is designed to withstand) most likely ignited a stray spark on a fuel sensor inside a partially-full fuel tank. A small explosion fol-lowed by an intense localized fire began a se-quence that led to the wing coming apart and releasing a huge ball of burning fuel less than a minute after lighting struck the wing.
+"The NTSB text gives step-by-step hard evi-dence in very technical prose. You have to read between the lines. My wing expert and other knowledgeable sources helped me get a layman's grasp of what the report said."
+
+Next stop, FAA
+The next step was to obtain the Federal Aviation Administration's airworthiness direc-tive from the AD database. An AD is an order from the FAA to the industry to fix a flaw in a particular model of aircraft. ADs come with deadlines. Acohido was certain an AD had been issued after the 1976 crash since the encyclope-dic Av Week referred to it. Guessing there might be other fuel tank glitches, he pressed the FAA for all ADs relating to 747 fuel tank problems.
+Continued on page twelve
+
+Aerospace reporter
+Byron Acohido's
+Seattle Times story on
+747s can be found
+using the newspaper's
+search engine at
+www.seatimes.com
+He used NTSB and
+FAA data and service
+difficulty reports to
+look at problems with
+fuel tanks.
+
+11
+==End of OCR for page 11==
+
+==Start of OCR for page 12==
+We've just made it easier to become an IRE member. Now, you can join IRE via our Web server, or you can download a copy of our membership form in Adobe Acrobat format from the Web site and submit it by fax to (573) 884-5544.
+For more information, check out http://www.ire.org/membership.html
+If you have any questions, e-mail Web Master Wally Winfrey at wally@nicar.org.
+
+Continued from page eleven:
+Plane crash sources
+He says his newspaper is discussing building and maintaining its own database of air worthi-ness directives.
+The FAA maintains indexes for their data-bases of notices of proposed rule-making and the air worthiness directives.
+When you are not sure what you want, ask for the AD index to the model aircraft (i.e. 747-100 or 737-100, 200 and 300) that interests you. It contains all regulations pertaining to everything on that model that may be flawed, except what didn't get past the rule-making process.
+When you know which AD you want, also ask for the electronic file on the Notice of Proposed Rule-Making (NPRM) associated with that AD. It contains the industry discus-sion of what went wrong, how serious the flaw is, economic factors in making a fix and logic about deadlines. An AD is a congressionally mandated FAA answer to each and every letter that makes up the NPRM file.
+Contents of many items in the two databases — NPRMs and ADs — provide long satisfying looks at the process leading to orders for indus-try-wide fixes of known defects.
+To be thorough, ask for copies of the origi-nal letters that make up the NPRM file. They reveal much more than the FAA's electronic summary of who said what in the rule-making discussion.
+"From experience," Acohido says, "I know you don't just want the ADs that say a flaw must be fixed in a certain way. You also want the NPRMs since they provide the discussion and criticism of — the proposed fix."
+The final rule or AD gives the industry the recipe to fix the aircraft part that's flawed in general terms, typically referring to Boeing service documents for specific steps.
+You guessed it: the Boeing documents, called service bulletins, are another gold mine.
+
+Service bulletins
+Says Acohido, "Deeper behind the NPRMs are the service bulletins — the manufacturer's explanation and drawings on how to make the fix. You can get them from the FAA."
+Doing so calls for imagination.
+After the TWA crash, Acohido recalls, "We physically had to go down to the FAA for the service bulletins and were stonewalled at that level."
+Often the service bulletin will contain a single profound line revealing the manufacturer's logic about why a fix must be made.
+AD's seeking to fix weak locks on 747 cargo doors were supported by Boeing service bulletins, which noted what could happen if a door ever came open at altitude: "It can cause rapid decom-pression."
+Given the choice of inspecting for weak locks or installing stronger locks, many airlines pro-crastinated, until a cargo door came open on United Flight 811 off Hawaii in 1989. Nine pas-sengers were sucked out a gaping hole in the fuselage during the resultant rapid decompres-sion. The FAA then mandated stronger locks on all 747s within 30 days.
+The Boeing service bulletins supporting ADs mandating inspections and fixes for leaking 747 fuel tanks note succinctly: "Leaks can cause fire."
+Where besides the reticent FAA (or the manu-facturer) can you find service bulletins in a hurry?
+Make friends with the faculty at a college where aircraft mechanics are trained. Ask to see the data on the service bulletin database for the fixes that interest you.
+When you return with it, Acohido says "Your artists will love you."
+On Aug. 21, the Seattle Times ran a generous, above the fold graphic based on detailed diagrams of the 747, its wings, its fuel bays and areas prone to leaks sourced to Boeing's service bulletin.
+Bold type asked: "Did fuel leak cause explo-sion?"
+Words and pictures examined the "747 fuel-leak danger" on aging 747 aircraft.
+"Federal aviation and Boeing service records contain extensive documentation about where the wing and belly tanks on 747s are susceptible to leaks that can cause fire."
+Bonnie Britt can be reached by e-mail at bonnieb@cris.com
+
+12
+==End of OCR for page 12==
+
+==Start of OCR for page 13==
+Continued from page nine:
+What you pay for
+www.airportnet.org/DEPTS/federal/gao/safety.htm
+For a federal court opinion on another tiff between the FAA and the NTSB, check out http://www.ll.georgetown.edu/Fed-Ct/Circuit/dc/opinions/94-1428a.html at Georgetown University.
+
+NASA
+The National Aeronautics and Space Ad-ministration offers several sites that will help you analyze its Air Safety Reporting System database. Begin at http://olias.arc.nasa.gov/for the aviation operation's homepage. Check out http://olias.arc.nasa.gov/ASRS/ASRS.html for the database's homepage. The site offers infor-mation such as the monthly newsletter Call-back, which excerpts some reports on studies that use the data. Also look at ASRS Directline, at http://www-afo.arc.nasa.gov/ASRS/drctlin.html, where analysts highlight key in-formation from the database. You can order the data here, though - another shameless NICAR plug - we sell the data to journalists for less.
+
+Human factors
+Many air crashes are blamed not on the planes but on the pilots. Two sites that offer information on human errors are the NASA Ames Research Center at http://olias.arc.nasa.gov/zteam/fcp/FCP-home.html and the FAA's http://www.tc.faa.gov/hfl/hfl.html
+A group of psychologists funded by NASA published their paper — including some spe-cific accident information at http://www.psy.utexas.edu/psy/helmreich/acdntist.htm
+
+International sources
+The aviation safety Web pages at http://Web.inter.nl.net/users/H.Ranter/index.html of-fer a variety of information on international and U.S. air crashes. It's an intriguing Web site - including things like a movie of the Ethiopian 767 crash, pages highlighting recent disasters and a listserv that promises to tell about acci-dents within a day or two. Much of the informa-tion is pulled from news accounts and others' data. This is a good attempt at gathering infor-mation on international air disasters.
+The United Kingdom Air Accidents Investi-gation Branch at http://www.open.gov.uk/aaib/aaibhome.htm reports on accidents and makes safety recommendations.
+The Commercial Aviation Resource Center at http://w3.one.net/~flypba/AIRLINES/carc.html offers a variety of links to airlines and airports around the world, identifying codes that may be useful for reporting certain stories, and symbols that indicate whether the sites are offi-cial or not.
+Boeing offers summary information on the world commercial jet airplane fleet at http://www.bts.gov/smart/cat/461.html
+Go to http://WWW.CAM.ORG/~icao/sites.htm and http://www.airparts.com/for a vast list of airports, airlines and more.
+Andrew Lehren can be reached at (573) 882-0684, or send e-mail to andy@nicar.org
+
+Products:
+No endorsements here. NICAR has not tried these intriguing products. But you can check out a sample of the Jane's Electronic Information System CD at http://www3.btg.com/janes/eisdemo.html The CD itself promises full descriptions of every civilian and military aircraft made.
+International Air-CD at http://www.infomart.net/ promises ownership records for aircraft around the world, plus links to several aviation sites.
+
+Continued from page six:
+Tech tip
+? at("," , name)
+8
+Before combining the two functions, we'll use the literal number 8 with the left function, and then using the At() we'll pass along the same number to the Left() function.
+? left(name, 8)
+Clinton,
+? left(name, at(",", name))
+Clinton
+To fix the problem of the trailing comma, you include one less character in the left com-mand. The math for this translates to subtracting one from the number that indicates the comma position.
+? left(name, 8 - 1)
+Clinton
+? left(name, at("," , name) - 1)
+Clinton
+Now, you're ready to use this command to split the last name into its own field. Save yourself typing mistakes and paste your per-fectly debugged statement into the replace all part of the command.
+
+13
+==End of OCR for page 13==
+
+==Start of OCR for page 14==
+Get all 12 1995 Uplinks in a bound edition for $10 plus shipping.
+With the bound edition, you can review macros devised by the St. Louis Post-Dispatch's George Landau for cleaning data (January 1995); revisit advice from U.S. News and World Report's Penny Loeb on covering schools (April 1995) and tracking nonprofits (December 1995); and remind yourself of how other reporters have used OSHA, HMDA and more.
+To order, call Wendy Charron at (573) 882-0684.
+
+Seminars, bootcamps, conferences
+Get your training
+On-the-road training
+NICAR and, where indicated, The Associ-ated Press provide specialized training in your newsroom. Learn to transfer data from gov-ernment files into newsroom PCs. Build spread-sheets for insightful stories on the beat. Com-prehend documents with database managers. Navigate the Internet and on-line databases.
+Cost varies. For information, call Lisa Barnes at (573) 882-8969, or to register, call the numbers below.
+Note: In the following list, "Open to all" means any journalist may sign up. "Closed" means the session is open only to members of the host organization.
+• San Francisco, CA., San Francisco Bay Guardian-Jan. 17, 1997
+• AAN West Convention - Jan. 17 - 18, 1997.
+• Milwaukee, Wisc., Milwaukee Journal - Jan. 21-23, 1997. Closed.
+• York, Pa., York Daily Record - Jan. 27-28, 1997. Closed.
+• San Diego, Calif., San Diego Tribune and SPJ-Feb. 19-22, 1997. Open to all. (619) 293-1261
+• Palm Beach, CA., Palm Beach Post - March 25 - 27, 1997.
+
+Conferences
+NICAR will offer training and seminars at the following professional conferences, in-cluding the IRE and NICAR national confer-ences. Costs vary. For information or to regis-ter, call Lisa Barnes at (573) 882-8969.
+• Minority Regional Conference, Richmond, Va-Nov. 15-17, 1996. Open to minorities.
+• Minority Regional Conference, Dallas, Texas - Dec. 7-8, 1996. Open to minorities.
+• NashCAR, NICAR National Conference, Nashville, Tenn. - March 3-9, 1997. Costs are: IRE member, $150 for entire conference. Non IRE member, $190 for entire conference, includ-ing IRE membership. Renewal member, $190 for entire conference, including IRE renewal. Stu-dents, $125 for conference, including student membership. Late fee is $15 for registrations not postmarked by Feb. 14, 1997
+• IRE National Conference, Phoenix, Ariz., - June 12-15, 1997.
+
+Bootcamps
+Bootcamps are week-long, intensive training sessions offered at NICAR's headquarters at the Missouri School of Journalism in Columbia, Mo.
+As with on-the-road training, you will learn to transfer data from government files into news-room PCs, build spreadsheets for stories on the beat, comprehend documents with database man-agers, and navigate the 'Net and on-line databases - but you'll be drilled all day, every day for a full week.Tuition ranges from $500-$1,000 depend-ing on circulation or market size.
+For information, call Wendy Charron at (573) 882-0684.
+• Jan. 5-11, 1997. Waiting list only.
+• Jan. 24-26, 1997. Intermediate Bootcamp concentrating on data clean-up and more. For details, call (573) 882-0684.
+• May 4-9, 1997. Advanced Bootcamp con-centrating on stats and maps at the University of North Carolina-Chapel Hill with Philip Meyer, author of +The New Precision Journalism.+ The seminar is held in Chapel Hill. For details, call (573) 882-0684.
+•May 18 - 23, 1997. Regular Bootcamp on general computer-assisted reporting. For details, call (573) 882-0684
+
+Continued from page thirteen:
+More tech tip
+REPLACE ALL LastName;.
+WITH left(name, at("," , name) - 1)
+To do the right part of the name, you need to know how to use the substr() function. Here are two examples:
+? substr(name, 6)
+n, William Jefferson
+? substr(name, 6, 5)
+n, Wi
+You could sweat this one out, or just go back to the top of this article for the answer.
+Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org
+
+14
+==End of OCR for page 14==
+
+==Start of OCR for page 15==
+Growing collection of federal databases
+From the NICAR library
+NICAR offers a number of federal govern-ment databases. Here is a list of our growing collection:
+
+NEW • Federal Aviation Administration's acci-dents and incidents, including major plane crashes since 1971.
+
+NEW • NASA's air safety reporting system, in-cluding anonymous complaints by pilots and air traffic controllers. Useful for finding near misses and problems at local airports, 1988-1996.
+
+• A monthly CD subscription for all 1995-96 Federal Election Commission campaign contri-butions by individuals and political action com-mittees, plus all presidential matching fund re-quests.
+
+• The Health Care Financing Administion's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.
+
+• Federal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.
+
+• Coast Guard boating accidents, 1969-1994.
+
+• Federal Aviation Administration data, in-cluding airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.
+
+• Home Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns, 1992-1995.
+
+• Federal procurement data, 1992-1995, in-cludes breakdowns by agency.
+
+• Alcohol, Tobacco.and Firearms gun dealer records. 1993-1995.
+
+• National Bridge Inventory System data, includes inspection grades. 1994-1995
+
+NEW FBI Uniform Crime Reports, a detailed compilation of crime data that includes statisti-cal breakdowns of individual murders. This includes the new 1995 data.
+
+• Social Security death records, by name and social security number, going back to 1937.
+
+NEW • Occupational Safety and Health Adminis-tration violation data includes worker accidents and exposures to hazardous chemicals by com-panies, 1974-1996.
+
+• U.S. Department of Transportation truck accident and census data. It includes accidents by company and road.
+
+• U.S. Small Business Administration loan guarantees, 1989-1995. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.
+
+• U.S. Small Business Administration disas-ter loan guarantees, 1989-1995. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.
+
+• U.S. Small Business Administration's list of minority companies certified for SBA assis-tance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.
+
+• The National Inventory of Dams. 1991-1995.
+
+• U.S. Department of Transportation hazard-ous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.
+
+• U.S. Department of Transportation fatal accident reporting system. It includes all road-way accidents from 1988 to 1995.
+
+• U.S. Coast Guard directory of U.S. mer-chant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.
+
+For up-to-date prices and more information, call (573) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.
+
+NICAR's week-long bootcamps in Columbia, Mo., offer hands-on training in computer-assisted reporting skills, including the use of spreadsheets and database managers, accessing data in various media, such as nine-track tapes, and negotiating for data.
+For more information, call NICAR (573) 882-0684, or send e-mail to nicar@muccmail.missouri.edu
+
+15
+==End of OCR for page 15==
+
+==Start of OCR for page 16==
+Bits, Bytes and Barks
+Gearing up for NashCAR
+NashCAR, NICAR's 1997 national conference, will be March 6-9 in Nashville, Tenn., and will offer the widest range of panels and hands-on training yet. Building on the previous conferences in Santa Clara, Calif. (CAR Trek) and Cleve-land, Ohio. (CAR Rock), NashCAR will have sessions for beginners, intermediates and advanced users. We'll have tracks for beat reporters, editors, newsrooms managers, broad-casters, researchers and librarians, and trainers both in news-rooms and universities.
+The conference will make use of computer labs at local universities and will have a demonstration room that will display equipment and software. We'll also have vendors and numerous opportunities for journalists to find jobs.
+In addition, we expect to explore the effect of the World Wide Web on journalism and how journalists are using the Web for their stories.
+For more information, call (573) 882-0684.
+
+Moving on
+George Landau has left the St. Louis Post-Dispatch to start NewsEngin, Inc., "an information engineering co-op."
+Landau aims to provide affordable database applications for organizations willing to build intranets, as well as Internet products using common Web database technology from Microsoft and Lotus.
+Check out what Landau has to offer at http://www.NewsEngin.com
+Among other things, you'll find a Cost-Of-Living calcu-lator and Percent Change calculator in the Free Tools sec-tion. Landau will also be working on research and develop-ment projects with NICAR.
+
+Science journalists
+The deadline to apply for the Knight Science Journalism Fellowships at MIT is March 1.
+The fellowship provides nine months of study in Cam-bridge, Mass., for mid-career science journalists.
+The 14-year-old program is open to staff and freelance journalists working for radio, television, newspapers, maga-zines, and news agencies, with at least three years' full time experience. Six journalists from the United States or Canada are chosen each year by a selection committee of leading science journalists and MIT faculty.
+The winners will be named late in April for the academic year beginning Sept. 1.
+For information, contact: Victor K. McElheny, Knight Science Journalism Fellowships, E32-300, Massachusetts Institute of Technology, Cambridge, Mass. 02319-4307
+
+IRE-L and NICAR-L addresses
+IRE-L and NICAR-L are located on lists.missouri.edu, a dedicated Unix system designed to service discussion groups run out of the University of Missouri. All posts to the lists should be sent to: ire- l@lists.missouri.edu or to nicar-1@lists.missouri.edu
+All commands for subscription changes should be sent to: listproc@lists.missouri.edu
+
+*********************************
+* 1*
+* 2*
+* 3* CHECK LABEL
+* 4* ALIGNMENT
+* 5*
+* 6*
+*********************************
+
+Investigative Reporters and Editors, Inc.
+100 Neff Hall
+University of Missouri
+School of Journalism
+Columbia, MO 65211
+
+COLUMBIA, MO. 65211
+PERMIT NO. 309
+PAID
+U.S. POSTAGE
+NON-PROFIT ORG.
+==End of OCR for page 16==

@@ -1,0 +1,224 @@
+Uplink
+
+Violence in Tacoma
+The News Tribune looks at city's crime
+
+by Adam Berliant
+The News Tribune
+
+Like one of Murphy Brown's new secretaries, I started at The News Tribune in Tacoma as just another punchline to a running gag.
+
+I was the third in a line of computer-assisted reporters who was supposed to perform mind-boggling amounts of database research for The News Tribune's most ambitious project in years — an eight-day, 32-page series on violent crime in one of the nation's most violent cities.
+
+The special projects team had already been working on the project for a year and, as with Murphy Brown's new secretaries, my arrival in the newsroom was met with more of an "oh great, another one" attitude than with optimism.
+
+But, within two months, not only was the series published, but it was easily one of the most detailed looks at violent crime ever produced by a newspaper. It would not have been possible without computers.
+
+At the foundation of the series was a database from Tacoma's Law Enforcement Support Agency (LESA), a police support facility that, in addition to answering 911 calls, compiles city and county police incident reports. The database we obtained from LESA contained every reported violent crime filed in Tacoma and Pierce county since 1986 — almost 200,000 records.
+
+I strongly urge you to pursue your city's equivalent to the LESA database. Once again, LESA's database was nothing more than a compilation of data from everyday police incident reports, such as the type of crime, the age, sex and race of each victim and perpetrator, the location and time of the incident and so on. These are the same reports journalists frequently use for breaking crime
+
+THE FORUM FOR COMPUTER-ASSISTED REPORTING
+
+August/September 1993
+Volume 4, Number 6
+
+stories, but on an individual basis these reports shed no light on a city's overall crime problems.
+
+In your city, find the agency responsible for reporting crime statistics to the FBI and you will be well on your way to finding an equivalent database. I suggest starting at the local level first, and call state agencies as a last resort. Don't give up — the LESA database yielded such a mammoth amount of intriguing and relevant information about crime in our city and county that even eight days and 32 pages seemed constricting.
+
+Using the LESA database The News Tribune:
+
+*   Identified the areas of Tacoma where the most and worst violence occurs, including several residential and retail areas where the extent of crime problems were unknown even to the police.
+*   Re-established that the area in the heart of the city that officials claimed was improving dramatically in terms of violent crime was still the worst part of town by far, despite specific efforts on the part of the police department to reduce crime there.
+*   Explicitly described trends in violence, such as bothersome increases in aggravated assaults committed by young people and reported rapes.
+*   Showed the enormous increase in the popularity of handguns for violent crimes, even in schools and domestic violence cases.
+*   Identified specific schools with crime problems, something the police department had never done.
+*   Closely examined certain types of violent crime, such as an astonishing amount of domestic violence, which occurs as often as all other types of violent crimes combined.
+
+Continued on page five.
+
+***
+
+Plugging in...
+The Morning Call, Allentown, Pa.
+
+by David Washburn
+The Morning Call
+
+"Bureaucrats like to describe this issue as one in which the press is seeking special privileges. All we're fighting for is basic access to public information.”
+
+Computer-assisted reporting is still relatively new at The Morning Call, but since January the staff has generated two major stories that would have been impossible to do without the help of computers.
+
+Last winter The Morning Call profiled a small local bank under state and federal investigation for dangerous and illegal lending practices. Since the 1980s, the bank had made one bad loan after another and was sitting on a mountain of foreclosed real estate.
+
+Morning Call reporters built a flat-file database from 1,300 hard copy court records which allowed them to quickly identify who was doing business with the troubled bank.
+
+The result was a four-part series on the bank that "couldn't have been done without the computer," said reporter Tim Darragh.
+
+Another Morning Call story looked at mortgage lending in the Allentown area. The newspaper purchased the Federal Reserve's 1991 Home Mortgage Disclosure Act data on nine-track tape. Reporters analyzed more than 20,000 mortgage applications from the Allentown area, and found that blacks seeking mortgage loans were rejected more than twice as often as whites, and significantly more than Hispanics, even when they reported similar income.
+
+Uplink
+
+MISSOURI INSTITUTE FOR
+COMPUTER-ASSISTED
+REPORTING
+
+We welcome your success stories, your problems, your ideas and insights into computer-assisted reporting. Please write or call.
+
+120 Neff Hall
+University of Missouri
+Columbia, Mo. 65211
+(314)882-0684
+
+Apart from putting together those two projects, we've been negotiating for several local databases. We've also subscribed to more than three dozen on-line services and bulletin boards. Morning Call reporters now have access to databases on everything from federal bankruptcy courts to the Toxic Release Inventory.
+
+One of our goals is to build a library of local databases and then set up front-end programs that will make it easy for all reporters to use the computer on daily stories. We still have a ways to go before our goal is realized, but Morning Call reporters and editors are confident that the newspaper is on the right track.
+
+"There have been no hoops to jump through to get funding for the program," said city editor David Erdman. "Our executive editor Larry Hymans is very committed to computer-assisted reporting and new technology in general."
+
+Since January, The Morning Call has purchased two 486 computers with tons of memory, a nine-track tape drive, a CD-ROM driver and several software packages, including NineTrack Express, XDB, Paradox and the MapInfo/PCensus package.
+
+Local bureaucrats, however, are doing everything they can to keep us from putting our new equipment to good use. We have run into several roadblocks in pursuit of local databases. Examples include one county wanting $5,000 for its tax assessment file, and another requiring that we tell them exactly how we plan to use their voter registration database.
+
+"Bureaucrats like to describe this issue as one in which the press is seeking special privileges," Erdman said. “All we're fighting for is basic access to public information."
+
+Unfortunately, the law has not always been on our side. Pennsylvania access law, which is notoriously weak, defers to other state statutes. For example, the open records law says the state Department of Motor Vehicles database is public. However, we can't get DMV files because the state's vehicle code forbids the mass interrogation of vehicle and drivers' records.
+
+2 UPLINK
+
+***
+
+Tech tips
+
+Programming? As easy as SQL
+
+by Richard Mullins
+National Library on Money & Politics
+
+OK, this one's about programming, a word that may clash with the usual job description of a reporter. Just like the ideas of data and computers and SQL once did.
+
+Assimilating SQL required something of an attitude adjustment from reporters about their life's calling and how they were to go about fulfilling their mission. This, in spite of the fact that SQL is all about Queries, the Prime Mover of Reporting.
+
+Well, scribblers, while you were cultivating the intellectual traits necessary for writing sharp, database-piercing queries, fertile ground was prepared for programming. Yes, programming. It's been growing up there, inside your skull, though you probably weren't aware of it.
+
+Since you already know so much about programming, this article would be as easy as ELECT FROM BidRiggers.
+
+I'm going to use the FoxPro environment to talk about programming since it integrates (with a few compromises) SQL and a Fox's version of a standard database programming language called XBase.
+
+You may have also used some FoxPro commands by typing them in the command window: LOCATE, GOTO BOTTOM, INDEX ON, etc. If so, then you know all you need to know to de-mystify Fox Programming. A Fox program is just an ordinary text file with several commands that execute in order when you run the program.
+
+One of the benefits of SQL is that it is a Query Language, not a programming language. That means you use SQL to specify what information you want extracted from the database; you don't have to tell the computer how to do the fetching. But there are things that you may need to do with your data that can't be done with a query language. That's when it's time for programming. Many repetitive data cleanup tasks can be programmed, for nple.
+
+The program can take user input, and
+
+then proceed based on the answers. A program can save the frustration of remembering the commands and the syntax and typing them correctly. Look them up and type them once, then run the program over and over.
+
+I'll end this part with a very shortened version of a program you can use to cut down, for example, a 500,000 record database to a copy with only 1,000 records. The program extracts or samples every 500th record (500,000 divided by 1,000).
+
+In this shortened form, the program is a slight improvement over typing a few lines in the command window. It would be more useful if you didn't have to go into the program to change the three variables. I'll add this next level — getting the variables from the user — in a second part. It would also be more useful if it figured out the skip interval for you, based on your input of how many records you wanted extracted.
+
+The last line needs some explaining. The program language lets you copy ALL records or records satisfying a certain condition. The condition is introduced by the keyword "FOR". Fox and Dbase files keep a record number for every record in a database.
+
+To satisfy the condition for getting copied to the target database, the number that we set as the skip interval (that's 'SkipInt' in the program) should divide evenly into the record number ('recno()' in the program). The 'MOD' function does the division and reports what the remainder is; if it's ZERO, that record is extracted to the target database. (This method is not the only way this could be done. It's the one I thought of when I wrote the program, ad hoc, two years ago.)
+
+Use the built-in text editor in Fox to type in this program. To create or edit a program file: In the command window, type 'modify command xtract'. If the file 'XTRACT.PRG' doesn't already exist, it is created.
+
+To run the program, type 'DO xtract' in the command window.
+
+Continued on page six.
+
+"Well, scribblers, while you were cultivating the intellectual traits necessary for writing sharp, database-piercing queries, fertile ground was prepared for programming. Yes, programming. It's been growing up there, inside your skull, though you probably weren't aware of it."
+
+AUGUST/SEPTEMBER 1993 3
+
+***
+
+Announcement
+
+Investigative Reporters and Editors (IRE) and the Missouri School of Journalism
+
+The leading educational association of journalists, based at the nation's first journalism school, is seeking a management team to lead IRE into the 21st Century. The fastest-growing organizatio journalism, IRE offers a host of services to the profession and is expanding efforts to train journalists who are using computers to gather and analyze information. If you have proven yourself as a journalist and a manager, we want to hear from you.
+
+EXECUTIVE DIRECTOR. We're seeking an energetic chief executive who will relish helping other journalists worldwide; oversee a half-million dollar budget; manage a crackerjack staff of eight; raise funds; guide development of educational programs and publications; plan conferences; and spread the word about the services of IRE. The executive director reports to an elected volunteer board of 11 journalists. A seasoned journalist is preferred but not required. The ideal candidate will have demonstrated administrative effectiveness; a master's degree or equivalent combination of education and experience; and well-developed skills of organization and communication. If you know about using computers to get stories, you will have an edge. This faculty position at the Missouri School of Journalism includes teaching, and enjoys generous benefits.
+
+MANAGING DIRECTOR, institute for computer-assisted reporting, based at the Missouri School of Journalism. This hands-on manager will have the unique opportunity to design and implement programs to train journalists, educators and students in computer-assisted reporting. These programs will include training in newsrooms; an electronic bulletin board for journalists and journalism organizations around the world to share information; a newsletter and other publications; a library of government databases; assistance on management and technical issues; and training materials. This is a faculty position at the Missouri School of Journalism. The ideal candidate will have a strong background in computer-assisted reporting; demonstrated administrative effectiveness in journalism or academia; an entrepreneurial spirit; a master's degree or an equivalent combination of education and experience; and excellent communication skills.
+
+TRAINING DIRECTOR, institute for computer-assisted reporting. This is primarily a traveli position, teaching computer-assisted reporting in newsrooms and classrooms. The training director will be involved in developing all facets of the institute's educational programs. The ideal candidate will have extensive experience in computer-assisted reporting; demonstrated effectiveness as a teacher or coach; master's degree or equivalent combination of education or experience; and excellent communication skills. This staff position could be suitable for a professional or scholar on a leave of absence or sabbatical.
+
+ASSOCIATE DIRECTOR/SYSTEMS, institute for computer-assisted reporting. This associate director will coordinate technical services for computer-assisted reporting and help develop IRE's educational programs. Direct responsibilities include launching an electronic bulletin board; administering the IRE databases and network; designing educational software; writing technical manuals; and advising journalists on technical issues. The ideal candidate will have a bachelor's degree or equivalent combination of education or experience; journalism experience; teaching experience; experience in problem-solving with various hardware and software environments, including networks; experience with computer-assisted reporting; and excellent communication skills.
+
+IRE is a nonprofit educational association, founded in 1975, with 4,500 members worldwide. The University of Missouri-Columbia is one of the Midwest's largest educational institutions. Columbia is a city of 70,000 halfway between St. Louis and Kansas City, chosen by Money Magazine as one of America's most-livable cities.
+
+As affirmative action/equal opportunity employers, IRE and the Missouri School of Journalism encourage minorities, women and persons with disabilities to apply.
+
+Candidates should send a cover letter, resume and three reference letters to Steve Weinberg IRE/Journalism Search Committee, 100 Neff Hall, University of Missouri, Columbia, Mo. 65211. review of applications will begin Oct. 1 and continue through the month.
+
+4 UPLINK
+
+***
+
+Tacoma: continued from page one.
+
+*   Compared crime statistics with U.S. Census data to connect social and economic factors with violence.
+*   Debunked the notion that the city's East Je, a large, low-income, minority populated region of the city where the police had focused most of their personnel and administrative changes, was the worst part of Tacoma in terms of violent crime.
+
+The only information LESA excluded from our electronic files were the event descriptions -- lengthy paragraphs of text, filled out by the reporting officer about the events leading up to the crime – which would have been nice for our project but were too verbose for LESA's data processors.
+
+Once again, chances are very good that your city has a similar database. Before you start your violence project, some words of computer-assisted wisdom based on The News Tribune's experiences:
+
+1.) Prepare For The Worst: It seems like crime databases of any kind, be they court records or prison records, tend to bring out the worst in government agencies. I wasn't around when The News Tribune negotiated for the SA database, but my colleagues tell me they heir first taste of what most Uplink readers have dealt with for years -- stingy government officials whose unwillingness to provide a computer database was surpassed only by their phobia of the media.
+
+LESA officials were confident that our newspaper would devote most of its time and energy to bashing the police department -- as if violent crime were somehow the fault of the police, which as my editor put it, would be like blaming garbage collectors for garbage.
+
+I predict this is an obstacle you will need to overcome. Prepare for legal disputes over access. In our case, we had to sign a contract that said we pledge scout's honor to abide by the federal and state laws that restrict researchers to "statistical analyses" with this kind of data (as if we intended to make a mailing list out of assault victims).
+
+2.) Work With The Cops: I wouldn't bank on uninhibited police cooperation for your violence project, and it certainly isn't a prquisite. But at The News Tribune, our a de was that if we can show the police that we were a) not out to get them, b) truly
+
+interested in helping out the community with violence statistics, and c) coming up with new information that they could use, the project would run more smoothly both before and after publication.
+
+For example, we invited police department analysts to stop by and do their best to debunk our findings before publication. Not only could they not find fault with our analyses, but by the time these meetings were over, they were busy telling us what a great job we were doing and asking if they could make copies of our reports.
+
+When our series was finally published, we knew that the police were not only aware of our results and our methods, but also were convinced of their validity. We didn't receive a single angry phone call.
+
+3.) Get Good Back-Up Data: I think any time you have government employees making judgment calls on official documents, you end up with screwy data.
+
+For example, the LESA database had a field for domestic violence, where the officer would enter an "X" if he or she determined the crime to be domestic. But in our analyses of domestic violence, we found hundreds upon hundreds of cases where the perpetrator was the victim's husband, brother, daughter, etc. and where the crime occurred in the home, but the domestic violence field was not X'd.
+
+It helped greatly to have FBI reports, official agency reports and good agency sources with which we could check our results.
+
+4.) Check Your Data Integrity EARLY!: The News Tribune wasted a lot of time generating and working with erroneous reports because some basic computer-assisted reporting rules were ignored early on.
+
+When I arrived, my first unpleasant task was explaining to the editors and reporters how code changes they didn't know about had sent them on wild goose chases. Later, I had the additional privilege of showing them the huge chunk of missing data that was altering all of our results.
+
+Spend days, not hours, checking data integrity...it's worth it.
+
+Please do not hesitate to call me if you want a reprint of our violence series or if you have any questions. I can be reached at (206) 597-8258, and please, ask for Adam, not "that new computer guy."
+
+"LESA officials were confident that our newspaper would devote most of its time and energy to bashing the police department - as if violent crime were somehow the fault of the police, which would be like blaming garbage collectors for garbage."
+
+AUGUST/SEPTEMBER 1993 5
+
+***
+
+Techtips: Continued from page three.
+
+PROGRAM LISTING:
+
+*   XTRACT.PRG
+*   In this simple version, you have to fill in these three variables each time you use the program:
+
+SkipInt = 500 && This number sets the extraction interval
+SourceDB = " " && Name of DB to extract from
+TargetDB = " " && Name of DB to copy extracted records
+
+use (SourceDB) in 1 alias source
+
+*   make an empty copy of the source DB
+copy structure to trim (TargetDB)
+*   now put the extracted records in it
+copy to (TargetDB) for mod( recno(), SkipInt ) = 0
+
+THE MISSOURI INSTITUTE FOR COMPUTER-ASSISTED REPORTING
+
+AUGUST/SEPTEMBER 1993
