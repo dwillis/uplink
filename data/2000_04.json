@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "year": 2000,
+            "month": "April",
+            "headline": "Tracing guns",
+            "author_name": "David Olinger",
+            "author_title": "The Denver Post",
+            "summary": "The Denver Post conducted an investigation following the Columbine massacre, focusing on how police guns became crime guns and detailing the 'Gun Pipeline' of firearms linked to various crimes.",
+            "keywords": [
+                "firearms",
+                "Columbine",
+                "crime"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "April",
+            "headline": "The escape problem",
+            "author_name": "Jack Dolan",
+            "author_title": "Hartford Courant",
+            "summary": "An investigation into Connecticut's correctional system revealed systemic issues with prisoners escaping from halfway houses, linking this to failures in monitoring and arrest follow-ups.",
+            "keywords": [
+                "prisons",
+                "escapes",
+                "system"
+            ]
+        }
+    ]
+}

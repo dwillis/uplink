@@ -1,0 +1,43 @@
+{
+    "articles": [
+        {
+            "year": 2002,
+            "month": "April",
+            "headline": "Building it from scratch: WTC victim database",
+            "author_name": "Paul Overberg and Anthony DeBarros",
+            "author_title": "USA Today",
+            "summary": "USA Today created a comprehensive database to document the lives lost in the 9/11 attacks, challenging official death tolls and chronicling the victims' final moments.",
+            "keywords": [
+                "9/11",
+                "victims",
+                "database"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "April",
+            "headline": "Mining workplace data",
+            "author_name": "David Herzog",
+            "author_title": "NICAR and Missouri School of Journalism",
+            "summary": "An exploration of workplace data, including stories of immigrant worker abuse and resources for examining employer practices.",
+            "keywords": [
+                "workplace",
+                "data",
+                "abuse"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "April",
+            "headline": "Following the riverboat pilots",
+            "author_name": "Jeffrey Meitrodt",
+            "author_title": "The New Orleans Times-Picayune",
+            "summary": "Investigation into Louisiana's archaic system for selecting and regulating Mississippi River pilots, revealing nepotism and other systemic issues.",
+            "keywords": [
+                "river pilots",
+                "Louisiana",
+                "nepotism"
+            ]
+        }
+    ]
+}

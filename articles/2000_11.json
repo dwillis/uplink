@@ -1,0 +1,28 @@
+{
+    "stories": [
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Sticker shocked",
+            "author_name": "David Heath and Justin Mayo",
+            "author_title": "The Seattle Times",
+            "full_text": "Talk around the office espresso machine in Seattle often includes gee-whiz accounts of a neighbor's house that sold at some astounding price. Tales of properties going for $100,000 over list price are common. One 3,000-square-foot house in trendy Washington Park overlooking Lake Washington recently sold for $1 million over the $1.6 million asking price. However, a detailed analysis by The Seattle Times showed that houses are more affordable today than at almost any time in the past 15 years. Rising incomes and falling interest rates during that period have actually overcome soaring home prices. The thrust of the eight-part series, called 'Sticker Shocked,' was to break down housing trends by neighborhood. The newspaper obtained 15 years' worth of sales data from assessor's offices in three counties, and some GIS maps, that served as the backbone to the analysis. We used SQL Server for the primary database work, ArcView for the mapping, and SPSS, a statistical software, to calculate medians. Excel proved extremely useful for computing financial information, such as interest rates, payment over time and annuities. In Bill Gates' neighborhood of Medina, the average house sold for $811,000 last year, while the median price was $469,000. Depending on which number you use, prices rose either 55 percent or 15 percent in a year. The latter is far more accurate. Using a simple formula borrowed from county assessors and real-estate appraisers: comparing homes based on price per square foot. We'd calculate the median price per square foot by neighborhood and do the math from there. This gave us a large number of sales for each neighborhood in each year, making it easy to show annual changes in appreciation."
+        },
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Neighborhood blight",
+            "author_name": "Janet Roberts",
+            "author_title": "St. Paul Pioneer Press",
+            "full_text": "Anyone who's spent time answering the newsroom phone has heard from them - the people who live next door to the house with the falling-down garage or the giant trash pile or the rodent den. One at a time, the sad tales don't amount to much - maybe a news feature on a slow day. But start digging around in your city's housing inspections data, then plot what you find on a map, and the story gets better. At the St. Paul Pioneer Press, one of our city hall reporters, Charles Laszewski, wanted to investigate complaints that the housing inspections chief wasn't tough enough on owners of run-down properties. So we asked for the city's housing inspections database. We defined a problem property as one with repeated violations spanning two years or more. Then we turned to our mapping software. Our inspections data listed the street address for every property inspectors visited. We wanted a map showing the rate of problem properties per 1,000 housing units. Our efforts resulted in uncovering neighborhoods where one of every three houses had chronic housing code violations. The series brought about some results: The City Council added money to the budget to hire more housing inspectors. The mayor announced a police sweep to arrest property owners with outstanding housing court warrants. And the county is spending more money to maintain tax-forfeited properties."
+        },
+        {
+            "year": 2000,
+            "month": "November",
+            "headline": "Big Apple rents",
+            "author_name": "Kevin McCoy",
+            "author_title": "New York Daily News",
+            "full_text": "Never mind about the Knicks and the Yanks, the Mets and the Giants. New York City's true sport is real estate. All over the city, everyone talks about the ups and downs of the perpetually tight and expensive apartment market. In August, the New York Daily News cut through the hype of real estate brokers who portray in-house market surveys as the real state of the market and published the most accurate look possible at the overall state of the city rental market. The Census Bureau posted the 1999 vacancy survey online in mid-summer. The data itself was in very good condition and required little cleaning. The surveys provided a first-ever look at exactly how much New York City rents rose during the 1990s and identified the neighborhoods hit with the biggest increases. The data showed that median household rents rose 36 percent citywide during the last decade. In at least one Manhattan neighborhood, the increase was 67 percent. The paper brought the numbers to life by interviewing residents of neighborhoods where rents rose sharply and finding out what the increases meant to their lives. Although the Census Bureau doesn't conduct vacancy surveys for other cities and towns, the 2000 Census data will enable any reporter to conduct a similar analysis of local housing costs."
+        }
+    ]
+}

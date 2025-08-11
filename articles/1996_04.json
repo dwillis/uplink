@@ -1,0 +1,36 @@
+{
+    "stories": [
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "Stats add muscle to computer-assisted reporting",
+            "author_name": "Stan Dorsey",
+            "author_title": "NICAR Staff",
+            "full_text": "In the fast-moving world of computer-assisted reporting, journalists each day defy the widely held notion that reporters and numbers don't mix. They break down databases and computer record layouts with virtual ease, using programs such as FoxPro, Paradox, Access and Excel. Just when it seems like they've done it all, something new comes along something like statistics. The use of statistics for research and analysis in the social sciences and in most medical fields has been going on for years. But it is a tool that is relatively unfamiliar to journalists, even those who are savvy in the general applications of CAR. That does not have to be the case, says Philip Meyer, author of \"The New Precision Journalism\" and William Rand Kenan, Jr., professor of journalism at the University of North Carolina at Chapel Hill. The power of statistical analysis can be tapped by any journalist who is willing to learn, Meyer says. ... In logistic regression, however, at least one of the variables involved is referred to as a categorical or binary variable. In stark contrast to continuous variables, categorical variables have dichotomous values such as male/female, yes/no or dead/alive. Logistic regression still involves finding a relationship between two or more factors, but it allows you to do it in a far more powerful, meaningful way. \"The beauty of logistic regression,\" Meyer says, \"is that you are able to take several independent variables and use them to estimate the odds that your dependent variable will be one or zero.\" Using the different independent variables, Meyer says, enables you to have control over certain variables that you ordinarily may not."
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "SAS vs. SPSS: Playing with the big guns",
+            "author_name": "Steve Doig",
+            "author_title": "The Miami Herald",
+            "full_text": "If you can touch-type your way around a spreadsheet, and you speak fluent SQL to your database program, it's time to add a new power tool to your CARpentry workbench: One of the major statistical analysis software packages, either SAS or SPSS. Here's where I'd like to tell you that, despite what you'd heard, SAS and/or SPSS are cheap and easy to master. I'd like to, but I'd be telling a lie. Actually, they're damned expensive, and they can do things you'll have trouble pronouncing (say \"partial canonical correlation analysis\" three times), much less readily understand how to use. ... In sum, using SAS or SPSS for routine CAR problems may seem a little like using a construction crane to plant flowerpots. But when the day comes that you need to do some really heavy data-lifting, you'll be glad you have either one."
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "Looking at police stats: It ought to be a crime",
+            "author_name": "Bill Bell",
+            "author_title": "Missouri School of Journalism",
+            "full_text": "Last Christmas, Jeff Green of The Oakland Press in Pontiac, Mich., learned an important lesson: Do it yourself. In the Christmas to New Year's lull, Green wrote a series of stories on growth and crime with fellow reporter Kathy Gray. Green got the jump on his competitors by circumventing the FBI and going straight to his local police departments. Over the course of several weeks, Green asked about 60 law enforcement agencies in Oakland County for their tallies in eight crime categories: murder, rape, robbery, assault, burglary, larceny, auto theft and arson. Green pooled his numbers with reporters from a local television station."
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "A look at widgetmaking: Economic analysis on the fly",
+            "author_name": "Neill A. Borowski",
+            "author_title": "The Philadelphia Inquirer",
+            "full_text": "When it comes to local economies, perceptions may not be realities. Community leaders may THINK their region is a leader in computer manufacturing, or financial services or other industries. But we don't really know this simply by looking at employment totals. Enter the \"location quotient\" \u2014 a well-worn tool in regional economic analysis. ... If agriculture is big in your area, use the Census Bureau's Census of Agriculture to compute location quotients (dairy revenues in your metro vs. other leading dairy metros). If the federal government is talking of more cuts, determine how concentrated federal employment is in your metro. Is it much more concentrated than the nation as a whole? Is upscale retail hot in your area? Use the Census of Retail Trade to compute the relevant location quotients."
+        }
+    ]
+}

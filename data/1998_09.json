@@ -1,0 +1,56 @@
+{
+    "stories": [
+        {
+            "year": 1998,
+            "month": "September",
+            "headline": "Discovering Intersections: Data Map Makers",
+            "author_name": "Jennifer LaFleur",
+            "author_title": "San Jose Mercury News",
+            "summary": "The article explores the use of Geographic Information Systems (GIS) to enhance storytelling by mapping intersections and clusters in raw data, providing case studies of its use in crime trend analysis and infrastructure assessments.",
+            "keywords": [
+                "GIS",
+                "mapping",
+                "data"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "September",
+            "headline": "The Daily Commute: Traffic Tally",
+            "author_name": "Neill A. Borowski",
+            "author_title": "The Philadelphia Inquirer",
+            "summary": "Neill A. Borowski discusses a project analyzing commuter traffic patterns using average daily traffic data and GIS mapping, illustrating the value and accuracy of using geographic coordinates in data reporting.",
+            "keywords": [
+                "traffic",
+                "GIS",
+                "commute"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "September",
+            "headline": "Infrastructure Outline: Projects Breakdown",
+            "author_name": "Jeff Porter",
+            "author_title": "Arkansas Democrat-Gazette",
+            "summary": "Jeff Porter reports on Little Rock's planned infrastructure projects using mapping software to detail city drainage, bridge, and traffic-signal projects, emphasizing the benefits of this visualization for public insight and government accountability.",
+            "keywords": [
+                "infrastructure",
+                "mapping",
+                "projects"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "September",
+            "headline": "Neighborhood Report: Crimes of the Week",
+            "author_name": "James Derk",
+            "author_title": "Evansville Courier",
+            "summary": "James Derk describes how the Evansville Courier reporters use mapping software to publish weekly crime maps online and in print, increasing community awareness and allowing residents to visualize crime data.",
+            "keywords": [
+                "crime",
+                "GIS",
+                "mapping"
+            ]
+        }
+    ]
+}

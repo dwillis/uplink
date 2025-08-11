@@ -1,0 +1,43 @@
+{
+    "stories": [
+        {
+            "year": 1997,
+            "month": "February",
+            "headline": "To have or to have not",
+            "author_name": "J.J. Thompson",
+            "author_title": "U.S. News & World Report",
+            "summary": "J.J. Thompson explores income inequality using the Gini coefficient to analyze income data, showing the growing gap between different economic classes.",
+            "keywords": [
+                "income",
+                "inequality",
+                "Gini"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "February",
+            "headline": "Collision course",
+            "author_name": "Rick Linsk",
+            "author_title": "Asbury Park Press",
+            "summary": "Rick Linsk reports on the analysis of data from the Fatal Accident Reporting System to understand trends and demographics in fatal traffic accidents, particularly incidents involving older drivers.",
+            "keywords": [
+                "fatal",
+                "accidents",
+                "drivers"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "February",
+            "headline": "Wire service serves CAR",
+            "author_name": "Jody Sowell",
+            "author_title": "NICAR staff",
+            "summary": "Jody Sowell discusses the Associated Press' efforts to enhance computer-assisted reporting capabilities across its bureaus through a new Web server initiative.",
+            "keywords": [
+                "AP",
+                "reporting",
+                "service"
+            ]
+        }
+    ]
+}

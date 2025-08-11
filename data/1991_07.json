@@ -1,0 +1,43 @@
+{
+    "stories": [
+        {
+            "year": 1991,
+            "month": "July",
+            "headline": "Mapping a New Future for Reporting",
+            "author_name": "George Landau",
+            "author_title": "St. Louis Post Dispatch",
+            "summary": "George Landau discusses the benefits and uses of geographic information systems (GIS) in journalism, highlighting how they can transform raw census data into insightful stories by using thematic maps.",
+            "keywords": [
+                "GIS",
+                "census data",
+                "mapping"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "July",
+            "headline": "The Reel Inside Story: Some Tips on Tape",
+            "author_name": "Jimmy Montague",
+            "author_title": "MICAR",
+            "summary": "Jimmy Montague offers advice on choosing and maintaining quality computer tapes, addressing common issues like short tape lengths and data write skips, and discussing the impact of ANSI standards on tape quality.",
+            "keywords": [
+                "computer tapes",
+                "ANSI standards",
+                "data backup"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "July",
+            "headline": "Tax Problems in New York City, Again",
+            "author_name": "Penny Loeb",
+            "author_title": "New York Newsday",
+            "summary": "Penny Loeb explores property tax issues in New York City, revealing inefficiencies and the disproportionate tax burden on poorer areas, supported by data analysis from computerized assessments.",
+            "keywords": [
+                "property tax",
+                "New York City",
+                "tax assessments"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "articles": [
+        {
+            "year": 2002,
+            "month": "February",
+            "headline": "Flunking Tests",
+            "author_name": "Becky Beaupre",
+            "author_title": "Reporter",
+            "summary": "An investigation revealed that over 180,000 Illinois students were taught by teachers who had flunked at least one competency test. The analysis exposed significant gaps in teacher quality, especially in low-income and high-minority schools.",
+            "keywords": [
+                "teacher",
+                "test",
+                "Illinois"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "February",
+            "headline": "Poor Airport Security",
+            "author_name": "Matt Carroll",
+            "author_title": "Reporter",
+            "summary": "Following the September 11 attacks, the investigation focused on how hijackers bypassed security at Logan International Airport, exposing the Massachusetts Port Authority as a patronage haven with lax security measures.",
+            "keywords": [
+                "airport",
+                "security",
+                "terrorism"
+            ]
+        },
+        {
+            "year": 2002,
+            "month": "February",
+            "headline": "CNN's 'Flight Risk'",
+            "author_name": "Denise Prodigo-Herrmann",
+            "author_title": "Database Consultant",
+            "summary": "An in-depth analysis for CNN revealed ongoing security issues at the top U.S. airports. The investigation highlighted failures in detecting weapons, with extensive data analysis covering a decade of security breaches.",
+            "keywords": [
+                "security",
+                "FAA",
+                "CNN"
+            ]
+        }
+    ]
+}

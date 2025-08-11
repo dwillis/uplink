@@ -1,0 +1,56 @@
+{
+    "stories": [
+        {
+            "year": 2000,
+            "month": "September",
+            "headline": "Census and GIS",
+            "author_name": "Steve Doig",
+            "author_title": "Arizona State University",
+            "summary": "The article discusses the importance of using GIS software to map U.S. Census data, highlighting the advantages GIS provides for creating detailed demographic maps effortlessly as compared to traditional graphic design methods.",
+            "keywords": [
+                "GIS",
+                "Census",
+                "Mapping"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "September",
+            "headline": "Rampage Killers",
+            "author_name": "Ford Fessenden",
+            "author_title": "The New York Times",
+            "summary": "The New York Times' series 'Rampage Killers' investigates 100 cases of public mass murders in the past 50 years, focusing on mental illness over video games as motivating factors, and utilizing precision journalism techniques.",
+            "keywords": [
+                "Killers",
+                "Data",
+                "Journalism"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "September",
+            "headline": "Flood dangers",
+            "author_name": "Ron Nixon",
+            "author_title": "The Roanoke Times",
+            "summary": "Analysis by The Roanoke Times using GIS reveals that city planning in Roanoke contributed to flooding problems, leading to scrutiny of floodplain development and calls for removal of structures from these areas.",
+            "keywords": [
+                "Flood",
+                "GIS",
+                "Planning"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "September",
+            "headline": "School test scores",
+            "author_name": "Seth Hemmelgarn",
+            "author_title": "San Jose Mercury News",
+            "summary": "Using GIS, the San Jose Mercury News mapped California school rankings, revealing a correlation between high scores and affluent neighborhoods, and low scores with less affluent areas.",
+            "keywords": [
+                "Schools",
+                "Test scores",
+                "Mapping"
+            ]
+        }
+    ]
+}
