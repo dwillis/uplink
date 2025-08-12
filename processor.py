@@ -61,7 +61,7 @@ def combine_stories(filename):
                 "content": [
                     {
                     "type": "text",
-                    "text": "Produce a JSON array containing one or more objects with the following keys: 'year', 'month', 'headline', 'author_name', 'author_title', 'full_text', where full_text is the complete text of each story, including any jumps to later parts of the file, and you should process all stories in each file. Do not include any introductory text, but include the full text of each story, no yapping."
+                    "text": "Produce a JSON array containing one or more objects representing distinct articles with the following keys: 'year', 'month', 'headline', 'author_name', 'author_title', 'full_text', where full_text is the complete text of each story, including any jumps to later parts of the file, and you should process all stories in each file. Do not include any introductory text, but include the full text of each story, no yapping."
                     }
                 ]
                 },
