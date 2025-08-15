@@ -69,6 +69,7 @@ def main():
     parser = argparse.ArgumentParser(description='Process text files using LLM to extract articles')
     parser.add_argument('model', help='Model to use (e.g., gpt-4o, claude-3-sonnet, gpt-3.5-turbo)')
     parser.add_argument('--list-models', action='store_true', help='List available models and exit')
+    parser.add_argument('--test', type=int, default=0, help='Quick test: process only the first N .txt files')
     
     args = parser.parse_args()
     
@@ -80,13 +81,29 @@ def main():
         return
     
     print(f"Using model: {args.model}")
-    
-    for filename in os.listdir("text"):
-        if filename.endswith(".txt"):
+    # Ensure output directory exists
+    os.makedirs("articles", exist_ok=True)
+
+    # Gather text files and optionally limit for testing
+    text_files = [fn for fn in sorted(os.listdir("text")) if fn.endswith('.txt')]
+    if args.test and args.test > 0:
+        text_files = text_files[:args.test]
+        print(f"Test mode: processing first {len(text_files)} text file(s)")
+
+    for filename in text_files:
+        try:
             print(f"Processing {filename}")
-            with open(f"articles/{filename.replace('.txt', '.json')}", 'w') as file:
-                articles = combine_stories(filename, args.model)
+            out_path = f"articles/{filename.replace('.txt', '.json')}"
+            articles = combine_stories(filename, args.model)
+            with open(out_path, 'w') as file:
                 json.dump(articles, file, indent=4)
+            # Print a short summary so testers can quickly inspect results
+            if isinstance(articles, dict) and 'articles' in articles:
+                print(f"  -> wrote {len(articles['articles'])} article(s) to {out_path}")
+            else:
+                print(f"  -> wrote output to {out_path}")
+        except Exception as e:
+            print(f"Error processing {filename}: {e}")
     
 
 if __name__ == "__main__":
