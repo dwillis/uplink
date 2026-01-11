@@ -709,22 +709,777 @@ api.upload_folder(
 
 ---
 
-## Alternative: RAG Instead of Fine-tuning
+---
 
-For some use cases, RAG (Retrieval-Augmented Generation) may be better than fine-tuning:
+# Hybrid Approach: RAG + Fine-tuning for History Writing & Exploration
 
-```python
-# Simple RAG setup with the articles
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+This section covers the recommended approach for:
+1. **Writing a history of data journalism** (1990-2007) - your primary use case
+2. **Public exploration** - letting others search and discover the archive
 
-# This may be more effective for question-answering about specific articles
-# while fine-tuning is better for adopting the style/knowledge generally
+## Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        Your Workflow                            │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
+│  │  RAG Search  │───▶│ Fine-tuned   │───▶│   History    │      │
+│  │  (Research)  │    │ Model (Write)│    │   Document   │      │
+│  └──────────────┘    └──────────────┘    └──────────────┘      │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     Public Interface                            │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
+│  │   Web App    │───▶│  RAG + LLM   │───▶│   Answers    │      │
+│  │  (Explore)   │    │  (Retrieve)  │    │ + Citations  │      │
+│  └──────────────┘    └──────────────┘    └──────────────┘      │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-Consider RAG when:
-- You need precise retrieval of specific articles
-- You want to cite sources
-- Your content changes frequently
-- You have limited compute resources
+## Step 1: Build the RAG System
+
+### 1.1 Install Dependencies
+
+```bash
+# Add to pyproject.toml or install directly
+uv add chromadb sentence-transformers langchain langchain-community
+
+# Or with pip
+pip install chromadb sentence-transformers langchain langchain-community
+```
+
+### 1.2 Create the Vector Store
+
+Create `build_vectorstore.py`:
+
+```python
+import json
+from pathlib import Path
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.schema import Document
+
+def load_all_articles(articles_dir: Path = Path("articles")) -> list[Document]:
+    """Load articles as LangChain Documents with metadata."""
+    documents = []
+
+    for json_file in sorted(articles_dir.glob("*.json")):
+        # Skip model-specific subdirectories
+        if json_file.parent != articles_dir:
+            continue
+
+        with open(json_file) as f:
+            data = json.load(f)
+
+        for article in data.get("articles", []):
+            # Skip empty articles
+            if not article.get("full_text"):
+                continue
+
+            # Create document with rich metadata
+            doc = Document(
+                page_content=article["full_text"],
+                metadata={
+                    "headline": article.get("headline", ""),
+                    "author": article.get("author_name", "Unknown"),
+                    "author_title": article.get("author_title", ""),
+                    "year": article.get("year", 0),
+                    "month": article.get("month", ""),
+                    "source_file": json_file.name,
+                    # Create a citation string
+                    "citation": f"{article.get('author_name', 'Unknown')}, "
+                               f"\"{article.get('headline', 'Untitled')},\" "
+                               f"Uplink, {article.get('month', '')} {article.get('year', '')}."
+                }
+            )
+            documents.append(doc)
+
+    return documents
+
+def build_vectorstore(
+    documents: list[Document],
+    chunk_size: int = 1000,
+    chunk_overlap: int = 200,
+    persist_directory: str = "vectorstore"
+) -> Chroma:
+    """Build and persist a Chroma vector store."""
+
+    # Split documents into chunks
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+        separators=["\n\n", "\n", ". ", " ", ""],
+    )
+    splits = text_splitter.split_documents(documents)
+    print(f"Split {len(documents)} documents into {len(splits)} chunks")
+
+    # Use a good embedding model
+    # Options: all-MiniLM-L6-v2 (fast), all-mpnet-base-v2 (better),
+    #          BAAI/bge-base-en-v1.5 (best for retrieval)
+    embeddings = HuggingFaceEmbeddings(
+        model_name="BAAI/bge-base-en-v1.5",
+        model_kwargs={"device": "cuda"},  # or "cpu"
+        encode_kwargs={"normalize_embeddings": True}
+    )
+
+    # Build vector store
+    vectorstore = Chroma.from_documents(
+        documents=splits,
+        embedding=embeddings,
+        persist_directory=persist_directory,
+    )
+
+    print(f"Created vector store with {vectorstore._collection.count()} vectors")
+    return vectorstore
+
+if __name__ == "__main__":
+    print("Loading articles...")
+    documents = load_all_articles()
+    print(f"Loaded {len(documents)} articles")
+
+    print("Building vector store...")
+    vectorstore = build_vectorstore(documents)
+    print("Done! Vector store saved to ./vectorstore")
+```
+
+### 1.3 Create the RAG Query System
+
+Create `rag_query.py`:
+
+```python
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema import Document
+import ollama  # Or use any LLM client
+
+class UplinkRAG:
+    def __init__(
+        self,
+        persist_directory: str = "vectorstore",
+        model_name: str = "qwen2.5:7b"  # Your Ollama model
+    ):
+        # Load embeddings
+        self.embeddings = HuggingFaceEmbeddings(
+            model_name="BAAI/bge-base-en-v1.5",
+            model_kwargs={"device": "cuda"},
+            encode_kwargs={"normalize_embeddings": True}
+        )
+
+        # Load vector store
+        self.vectorstore = Chroma(
+            persist_directory=persist_directory,
+            embedding_function=self.embeddings
+        )
+
+        self.model_name = model_name
+
+        # Prompt for RAG responses
+        self.rag_prompt = """You are an expert on the history of computer-assisted reporting
+and data journalism, with access to the Uplink newsletter archive (1990-2007).
+
+Use the following retrieved context to answer the question. Always cite your sources
+using the provided citation information. If you don't know the answer based on the
+context, say so.
+
+Context:
+{context}
+
+Question: {question}
+
+Answer (include citations):"""
+
+    def search(
+        self,
+        query: str,
+        k: int = 5,
+        filter_year: int | None = None,
+        filter_author: str | None = None
+    ) -> list[Document]:
+        """Search the archive with optional filters."""
+
+        # Build filter
+        where_filter = {}
+        if filter_year:
+            where_filter["year"] = filter_year
+        if filter_author:
+            where_filter["author"] = {"$contains": filter_author}
+
+        # Search
+        results = self.vectorstore.similarity_search(
+            query,
+            k=k,
+            filter=where_filter if where_filter else None
+        )
+
+        return results
+
+    def query(self, question: str, k: int = 5) -> dict:
+        """Answer a question using RAG."""
+
+        # Retrieve relevant documents
+        docs = self.search(question, k=k)
+
+        # Format context with citations
+        context_parts = []
+        citations = []
+        for i, doc in enumerate(docs, 1):
+            context_parts.append(
+                f"[{i}] {doc.page_content}\n"
+                f"Source: {doc.metadata.get('citation', 'Unknown')}"
+            )
+            citations.append({
+                "id": i,
+                "citation": doc.metadata.get("citation", ""),
+                "headline": doc.metadata.get("headline", ""),
+                "year": doc.metadata.get("year", ""),
+                "author": doc.metadata.get("author", "")
+            })
+
+        context = "\n\n".join(context_parts)
+
+        # Generate response
+        prompt = self.rag_prompt.format(context=context, question=question)
+
+        response = ollama.generate(
+            model=self.model_name,
+            prompt=prompt
+        )
+
+        return {
+            "answer": response["response"],
+            "sources": citations,
+            "retrieved_docs": len(docs)
+        }
+
+    def find_articles_by_topic(self, topic: str, k: int = 10) -> list[dict]:
+        """Find articles related to a topic (for research)."""
+        docs = self.search(topic, k=k)
+
+        # Deduplicate by headline
+        seen = set()
+        articles = []
+        for doc in docs:
+            headline = doc.metadata.get("headline", "")
+            if headline not in seen:
+                seen.add(headline)
+                articles.append({
+                    "headline": headline,
+                    "author": doc.metadata.get("author", ""),
+                    "year": doc.metadata.get("year", ""),
+                    "month": doc.metadata.get("month", ""),
+                    "citation": doc.metadata.get("citation", ""),
+                    "excerpt": doc.page_content[:500] + "..."
+                })
+
+        return articles
+
+    def timeline_search(self, topic: str) -> dict[int, list[dict]]:
+        """Search for a topic and organize results by year (for history writing)."""
+        docs = self.search(topic, k=20)
+
+        by_year = {}
+        for doc in docs:
+            year = doc.metadata.get("year", 0)
+            if year not in by_year:
+                by_year[year] = []
+            by_year[year].append({
+                "headline": doc.metadata.get("headline", ""),
+                "author": doc.metadata.get("author", ""),
+                "excerpt": doc.page_content[:300]
+            })
+
+        return dict(sorted(by_year.items()))
+
+
+# Example usage
+if __name__ == "__main__":
+    rag = UplinkRAG()
+
+    # Simple query
+    result = rag.query("How did journalists use spreadsheets in the early 1990s?")
+    print("Answer:", result["answer"])
+    print("\nSources:")
+    for src in result["sources"]:
+        print(f"  [{src['id']}] {src['citation']}")
+
+    # Research mode - find articles
+    print("\n--- Articles about election coverage ---")
+    articles = rag.find_articles_by_topic("election coverage data")
+    for a in articles[:5]:
+        print(f"  • {a['headline']} ({a['year']}) - {a['author']}")
+
+    # Timeline for history writing
+    print("\n--- Timeline: Database reporting ---")
+    timeline = rag.timeline_search("database reporting investigation")
+    for year, items in timeline.items():
+        print(f"\n{year}:")
+        for item in items:
+            print(f"  • {item['headline']}")
+```
+
+---
+
+## Step 2: Build the Public Web Interface
+
+### 2.1 Simple Gradio Interface
+
+Create `app_gradio.py`:
+
+```python
+import gradio as gr
+from rag_query import UplinkRAG
+
+rag = UplinkRAG()
+
+def search_archive(query: str, num_results: int = 5) -> str:
+    """Search the archive and return formatted results."""
+    result = rag.query(query, k=num_results)
+
+    output = f"## Answer\n\n{result['answer']}\n\n"
+    output += "## Sources\n\n"
+
+    for src in result["sources"]:
+        output += f"- **{src['headline']}** ({src['year']}) by {src['author']}\n"
+
+    return output
+
+def browse_by_topic(topic: str) -> str:
+    """Browse articles by topic."""
+    articles = rag.find_articles_by_topic(topic, k=10)
+
+    output = f"## Articles about: {topic}\n\n"
+    for a in articles:
+        output += f"### {a['headline']}\n"
+        output += f"*{a['author']}, {a['month']} {a['year']}*\n\n"
+        output += f"{a['excerpt']}\n\n---\n\n"
+
+    return output
+
+def timeline_view(topic: str) -> str:
+    """View topic evolution over time."""
+    timeline = rag.timeline_search(topic)
+
+    output = f"## Timeline: {topic}\n\n"
+    for year, items in timeline.items():
+        output += f"### {year}\n"
+        for item in items:
+            output += f"- **{item['headline']}** - {item['author']}\n"
+        output += "\n"
+
+    return output
+
+# Build interface
+with gr.Blocks(title="Uplink Archive Explorer") as demo:
+    gr.Markdown("""
+    # Uplink Newsletter Archive (1990-2007)
+
+    Explore 17 years of computer-assisted reporting history from the
+    IRE's Uplink newsletter.
+    """)
+
+    with gr.Tab("Ask a Question"):
+        query_input = gr.Textbox(
+            label="Your Question",
+            placeholder="How did journalists use databases in the 1990s?"
+        )
+        num_results = gr.Slider(1, 10, value=5, step=1, label="Number of sources")
+        query_btn = gr.Button("Search")
+        query_output = gr.Markdown()
+        query_btn.click(search_archive, [query_input, num_results], query_output)
+
+    with gr.Tab("Browse by Topic"):
+        topic_input = gr.Textbox(
+            label="Topic",
+            placeholder="election data, census, FOIA, spreadsheets..."
+        )
+        browse_btn = gr.Button("Find Articles")
+        browse_output = gr.Markdown()
+        browse_btn.click(browse_by_topic, topic_input, browse_output)
+
+    with gr.Tab("Timeline View"):
+        timeline_input = gr.Textbox(
+            label="Topic to trace through time",
+            placeholder="internet, web scraping, GIS mapping..."
+        )
+        timeline_btn = gr.Button("Show Timeline")
+        timeline_output = gr.Markdown()
+        timeline_btn.click(timeline_view, timeline_input, timeline_output)
+
+if __name__ == "__main__":
+    demo.launch(share=True)  # share=True creates public link
+```
+
+### 2.2 FastAPI Backend (for custom frontends)
+
+Create `app_api.py`:
+
+```python
+from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from rag_query import UplinkRAG
+
+app = FastAPI(title="Uplink Archive API")
+
+# Enable CORS for web frontends
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+rag = UplinkRAG()
+
+class QueryRequest(BaseModel):
+    question: str
+    num_sources: int = 5
+
+class SearchResult(BaseModel):
+    answer: str
+    sources: list[dict]
+
+@app.post("/query", response_model=SearchResult)
+def query_archive(request: QueryRequest):
+    """Answer a question about the archive."""
+    result = rag.query(request.question, k=request.num_sources)
+    return SearchResult(answer=result["answer"], sources=result["sources"])
+
+@app.get("/search")
+def search_articles(
+    q: str = Query(..., description="Search query"),
+    limit: int = Query(10, le=50),
+    year: int | None = Query(None, description="Filter by year")
+):
+    """Search for articles matching a query."""
+    return rag.find_articles_by_topic(q, k=limit)
+
+@app.get("/timeline/{topic}")
+def get_timeline(topic: str):
+    """Get topic evolution over time."""
+    return rag.timeline_search(topic)
+
+@app.get("/years")
+def get_available_years():
+    """Get list of years in the archive."""
+    return {"years": list(range(1990, 2008))}
+
+# Run with: uvicorn app_api:app --reload
+```
+
+---
+
+## Step 3: Fine-tune for History Writing (Optional Enhancement)
+
+Fine-tuning helps when you want the model to:
+- Write in a style consistent with journalism history
+- Synthesize information across multiple sources
+- Understand CAR-specific terminology deeply
+
+### 3.1 Create History-Writing Training Data
+
+Create `prepare_history_training.py`:
+
+```python
+import json
+from pathlib import Path
+
+def create_synthesis_examples(articles: list[dict]) -> list[dict]:
+    """Create examples that teach the model to synthesize information."""
+
+    # Group articles by topic/theme
+    by_year = {}
+    for article in articles:
+        year = article.get("year", 0)
+        if year not in by_year:
+            by_year[year] = []
+        by_year[year].append(article)
+
+    training_data = []
+
+    # Create year-summary examples
+    for year, year_articles in by_year.items():
+        if len(year_articles) < 2:
+            continue
+
+        # Combine article summaries
+        article_list = "\n".join([
+            f"- \"{a.get('headline', '')}\" by {a.get('author_name', '')}"
+            for a in year_articles[:5]
+        ])
+
+        training_data.append({
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a journalism historian writing about the evolution of computer-assisted reporting."
+                },
+                {
+                    "role": "user",
+                    "content": f"Summarize the key themes in computer-assisted reporting from {year} based on these Uplink articles:\n{article_list}"
+                },
+                {
+                    "role": "assistant",
+                    "content": f"In {year}, computer-assisted reporting practitioners focused on several key areas..."
+                    # You would fill this in with actual summaries
+                }
+            ]
+        })
+
+    return training_data
+
+def create_narrative_examples(articles: list[dict]) -> list[dict]:
+    """Create examples that teach historical narrative writing."""
+
+    training_data = []
+
+    # Teach the model to write historical narratives
+    training_data.append({
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a journalism historian. Write engaging historical narratives about the development of data journalism."
+            },
+            {
+                "role": "user",
+                "content": "Write an introduction to a chapter about how journalists first started using spreadsheets for investigations."
+            },
+            {
+                "role": "assistant",
+                "content": """Before the spreadsheet transformed newsrooms, investigative journalists faced a daunting task: making sense of thousands of records by hand. The arrival of Lotus 1-2-3, and later Microsoft Excel, didn't just speed up calculations—it fundamentally changed what stories were possible.
+
+In the pages of Uplink, we can trace this transformation through the experiences of reporters who were there..."""
+            }
+        ]
+    })
+
+    return training_data
+```
+
+### 3.2 Workflow for Writing Your History
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    History Writing Workflow                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  1. RESEARCH PHASE (RAG)                                        │
+│     └─▶ Use timeline_search() to find coverage of a topic      │
+│     └─▶ Use find_articles_by_topic() for deep dives            │
+│     └─▶ Export citations for your bibliography                  │
+│                                                                 │
+│  2. SYNTHESIS PHASE (Fine-tuned model OR Claude/GPT)            │
+│     └─▶ Feed retrieved articles to model                        │
+│     └─▶ Ask for summaries, themes, turning points               │
+│     └─▶ Generate draft narrative sections                       │
+│                                                                 │
+│  3. WRITING PHASE (Your work + AI assistance)                   │
+│     └─▶ Use model to suggest connections                        │
+│     └─▶ Fact-check against RAG system                           │
+│     └─▶ Maintain your voice and editorial judgment              │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 3.3 Research Assistant Script
+
+Create `research_assistant.py`:
+
+```python
+from rag_query import UplinkRAG
+import json
+
+class HistoryResearchAssistant:
+    def __init__(self):
+        self.rag = UplinkRAG()
+        self.research_notes = []
+
+    def research_topic(self, topic: str) -> dict:
+        """Comprehensive research on a topic for history writing."""
+
+        # Get timeline
+        timeline = self.rag.timeline_search(topic)
+
+        # Get detailed articles
+        articles = self.rag.find_articles_by_topic(topic, k=15)
+
+        # Get AI synthesis
+        synthesis = self.rag.query(
+            f"Trace the evolution of {topic} in computer-assisted reporting "
+            f"from 1990 to 2007. What were the key developments and turning points?",
+            k=10
+        )
+
+        research = {
+            "topic": topic,
+            "timeline": timeline,
+            "key_articles": articles,
+            "synthesis": synthesis["answer"],
+            "sources": synthesis["sources"]
+        }
+
+        self.research_notes.append(research)
+        return research
+
+    def find_key_figures(self, topic: str) -> list[str]:
+        """Find journalists who wrote about a topic."""
+        articles = self.rag.find_articles_by_topic(topic, k=20)
+        authors = {}
+        for a in articles:
+            author = a.get("author", "Unknown")
+            if author not in authors:
+                authors[author] = []
+            authors[author].append(a.get("headline", ""))
+
+        # Sort by number of articles
+        return sorted(authors.items(), key=lambda x: len(x[1]), reverse=True)
+
+    def export_bibliography(self, filename: str = "bibliography.json"):
+        """Export all sources used in research."""
+        all_sources = []
+        for note in self.research_notes:
+            all_sources.extend(note.get("sources", []))
+
+        # Deduplicate
+        seen = set()
+        unique = []
+        for src in all_sources:
+            citation = src.get("citation", "")
+            if citation not in seen:
+                seen.add(citation)
+                unique.append(src)
+
+        with open(filename, "w") as f:
+            json.dump(unique, f, indent=2)
+
+        print(f"Exported {len(unique)} sources to {filename}")
+
+    def chapter_outline(self, theme: str) -> str:
+        """Generate a chapter outline for a theme."""
+        timeline = self.rag.timeline_search(theme)
+
+        outline = f"# Chapter: {theme.title()} in Computer-Assisted Reporting\n\n"
+
+        # Group into eras
+        early_90s = {y: v for y, v in timeline.items() if 1990 <= y <= 1994}
+        mid_90s = {y: v for y, v in timeline.items() if 1995 <= y <= 1999}
+        early_00s = {y: v for y, v in timeline.items() if 2000 <= y <= 2007}
+
+        if early_90s:
+            outline += "## The Early Days (1990-1994)\n"
+            for year, items in early_90s.items():
+                for item in items[:2]:
+                    outline += f"- {item['headline']} ({year})\n"
+            outline += "\n"
+
+        if mid_90s:
+            outline += "## Growth and Adoption (1995-1999)\n"
+            for year, items in mid_90s.items():
+                for item in items[:2]:
+                    outline += f"- {item['headline']} ({year})\n"
+            outline += "\n"
+
+        if early_00s:
+            outline += "## Maturation (2000-2007)\n"
+            for year, items in early_00s.items():
+                for item in items[:2]:
+                    outline += f"- {item['headline']} ({year})\n"
+
+        return outline
+
+
+# Example usage
+if __name__ == "__main__":
+    assistant = HistoryResearchAssistant()
+
+    # Research topics for your history
+    topics = [
+        "spreadsheet analysis",
+        "database reporting",
+        "FOIA requests",
+        "mapping and GIS",
+        "internet and web",
+        "election coverage",
+        "census data"
+    ]
+
+    for topic in topics:
+        print(f"\n{'='*50}")
+        print(f"Researching: {topic}")
+        print('='*50)
+        research = assistant.research_topic(topic)
+        print(f"Found {len(research['key_articles'])} articles")
+        print(f"Spans years: {list(research['timeline'].keys())}")
+
+    # Export bibliography
+    assistant.export_bibliography()
+
+    # Generate chapter outline
+    print("\n" + assistant.chapter_outline("database reporting"))
+```
+
+---
+
+## Step 4: Deployment Options
+
+### For Personal Use (History Writing)
+```bash
+# Just run locally
+python research_assistant.py
+python rag_query.py
+```
+
+### For Public Exploration
+
+| Option | Effort | Cost | Best For |
+|--------|--------|------|----------|
+| **Gradio + HF Spaces** | Low | Free | Quick demo |
+| **Streamlit Cloud** | Low | Free | Simple apps |
+| **FastAPI + Vercel** | Medium | Free tier | API-first |
+| **Docker + Fly.io** | Medium | ~$5/mo | Full control |
+| **Static site + API** | Higher | Varies | Custom UX |
+
+### Deploy to Hugging Face Spaces (Easiest)
+
+```bash
+# Install
+pip install huggingface_hub
+
+# Login
+huggingface-cli login
+
+# Create and upload
+huggingface-cli repo create uplink-explorer --type space --space-sdk gradio
+git clone https://huggingface.co/spaces/YOUR_USERNAME/uplink-explorer
+cp app_gradio.py uplink-explorer/app.py
+cp -r vectorstore uplink-explorer/
+cd uplink-explorer
+git add . && git commit -m "Initial deploy" && git push
+```
+
+---
+
+## Recommended Implementation Order
+
+1. **Week 1: Build RAG foundation**
+   - Run `build_vectorstore.py` to index all articles
+   - Test with `rag_query.py`
+   - Start using for your research immediately
+
+2. **Week 2: Create exploration interface**
+   - Build Gradio app for others to explore
+   - Deploy to Hugging Face Spaces
+   - Get feedback from beta users
+
+3. **Week 3+: Optional fine-tuning**
+   - Only if RAG + base model isn't sufficient
+   - Focus on synthesis and narrative writing
+   - Train on examples that teach historical writing style
+
+4. **Ongoing: Write your history**
+   - Use research assistant for each chapter
+   - Let RAG system cite sources
+   - Build bibliography automatically
