@@ -1,5 +1,6 @@
 import os
 import json
+import time
 import argparse
 import llm
 
@@ -82,6 +83,7 @@ def main():
     print(f"Using model: {args.model}")
     
     for filename in os.listdir("text"):
+        time.sleep(10)
         if filename.endswith(".txt"):
             print(f"Processing {filename}")
             with open(f"articles/{filename.replace('.txt', '.json')}", 'w') as file:
