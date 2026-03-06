@@ -1,27 +1,24 @@
 """
 Identify articles in articles/original/ that have no matched summary in data/,
-then generate summaries + keywords for each using the llm library (Claude).
+generate summaries + keywords via the llm library (Claude), and merge results
+directly into the corresponding data/*.json files.
 
 Usage:
     uv run python summarize_unmatched.py [--dry-run] [--model MODEL]
 
-Writes results to data/supplements.json (slug-keyed).
-Existing entries in supplements.json are preserved (idempotent re-runs).
+Idempotent: skips articles whose matchKey already exists in data files.
 """
 
 import argparse
 import json
-import os
 import re
-import sys
 import time
+from collections import defaultdict
 from pathlib import Path
-from slugify import slugify
 
 REPO_ROOT = Path(__file__).resolve().parent
 ORIG_DIR = REPO_ROOT / "articles" / "original"
 DATA_DIR = REPO_ROOT / "data"
-SUPPLEMENTS_PATH = DATA_DIR / "supplements.json"
 
 MONTH_NAMES = [
     "january", "february", "march", "april", "may", "june",
@@ -53,10 +50,6 @@ def match_key(year, month, headline):
     return f"{year}|{normalize_month(month)}|{headline.lower().strip()}"
 
 
-def make_slug(year, month, headline):
-    return slugify(f"{year}-{month}-{headline}")
-
-
 def normalize_articles(data):
     if isinstance(data, list):
         return data
@@ -64,6 +57,16 @@ def normalize_articles(data):
         if key in data and isinstance(data[key], list):
             return data[key]
     return [data]
+
+
+def detect_wrapper_key(data):
+    """Return the array wrapper key if the data uses one, else None."""
+    if isinstance(data, list):
+        return "__list__"
+    for key in ARTICLE_ARRAY_KEYS:
+        if key in data and isinstance(data[key], list):
+            return key
+    return None
 
 
 def load_original_articles():
@@ -84,6 +87,8 @@ def load_original_articles():
                 "year": int(str(a["year"]).split("/")[0]),
                 "month": a["month"],
                 "headline": a["headline"],
+                "author_name": a.get("author_name") or "",
+                "author_title": a.get("author_title") or "",
                 "full_text": a["full_text"],
                 "source_file": f.name,
             }
@@ -137,8 +142,6 @@ def find_unmatched():
     # Pass 2: positional match within same file
     for filename, file_articles in by_file.items():
         file_sums = summary_by_file.get(filename, [])
-        unmatched_articles = [(i, a) for i, a in enumerate(all_articles) if a["source_file"] == filename and i not in matched]
-        # Need indices within file_articles that are unmatched
         unmatched_arts_in_file = [a for a in file_articles if all_articles.index(a) not in matched]
         unmatched_sums = [s for s in file_sums if not s["matched"]]
         limit = min(len(unmatched_arts_in_file), len(unmatched_sums))
@@ -153,7 +156,6 @@ def find_unmatched():
 
 def generate_summary(model, article):
     """Call LLM to generate summary + keywords for one article."""
-    # Truncate very long texts to keep costs down
     text = article["full_text"][:3000]
     response = model.prompt(text, system=SYSTEM_PROMPT)
     raw = response.text().strip()
@@ -164,8 +166,33 @@ def generate_summary(model, article):
     return json.loads(raw)
 
 
+def merge_into_data_file(filepath, new_entries):
+    """Add new_entries to an existing (or new) data JSON file."""
+    if filepath.exists():
+        raw_data = json.loads(filepath.read_text())
+        wrapper_key = detect_wrapper_key(raw_data)
+
+        if wrapper_key == "__list__":
+            # Top-level list
+            raw_data.extend(new_entries)
+        elif wrapper_key:
+            # Object with array key like "stories" or "articles"
+            raw_data[wrapper_key].extend(new_entries)
+        else:
+            # Single object — convert to "stories" array
+            raw_data = {"stories": [raw_data] + new_entries}
+    else:
+        # New file
+        if len(new_entries) == 1:
+            raw_data = new_entries[0]
+        else:
+            raw_data = {"stories": new_entries}
+
+    filepath.write_text(json.dumps(raw_data, indent=4) + "\n")
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Generate summaries for unmatched articles")
+    parser = argparse.ArgumentParser(description="Generate summaries for unmatched articles and merge into data files")
     parser.add_argument("--dry-run", action="store_true", help="Just show unmatched articles, don't call LLM")
     parser.add_argument("--model", default="anthropic/claude-3-5-haiku-latest", help="LLM model to use")
     args = parser.parse_args()
@@ -178,44 +205,57 @@ def main():
             print(f"  {a['year']} {a['month']:20s} {a['headline'][:60]}")
         return
 
-    # Load existing supplements
-    existing = {}
-    if SUPPLEMENTS_PATH.exists():
-        existing = json.loads(SUPPLEMENTS_PATH.read_text())
+    if not unmatched:
+        print("Nothing to do.")
+        return
 
     import llm
     model = llm.get_model(args.model)
 
-    to_process = []
+    # Group unmatched articles by source file
+    by_file = defaultdict(list)
     for a in unmatched:
-        slug = make_slug(a["year"], a["month"], a["headline"])
-        if slug in existing:
-            continue
-        to_process.append((slug, a))
+        by_file[a["source_file"]].append(a)
 
-    print(f"Already in supplements: {len(unmatched) - len(to_process)}, to process: {len(to_process)}")
+    processed = 0
+    errors = 0
+    total_to_process = len(unmatched)
 
-    for i, (slug, article) in enumerate(to_process):
-        print(f"[{i+1}/{len(to_process)}] {slug[:70]}...", end=" ", flush=True)
-        try:
-            result = generate_summary(model, article)
-            existing[slug] = {
-                "summary": result.get("summary", ""),
-                "keywords": result.get("keywords", [])[:3],
-            }
-            print("OK")
-        except Exception as e:
-            print(f"ERROR: {e}")
-            continue
+    for filename, articles in sorted(by_file.items()):
+        new_entries = []
+        for article in articles:
+            processed += 1
+            label = f"{article['year']} {article['month']} - {article['headline'][:50]}"
+            print(f"[{processed}/{total_to_process}] {label}...", end=" ", flush=True)
+            try:
+                result = generate_summary(model, article)
+                entry = {
+                    "year": article["year"],
+                    "month": article["month"],
+                    "headline": article["headline"],
+                    "author_name": article["author_name"] if article["author_name"] != "null" else "",
+                    "author_title": article["author_title"] if article["author_title"] != "null" else "",
+                    "summary": result.get("summary", ""),
+                    "keywords": result.get("keywords", [])[:3],
+                }
+                new_entries.append(entry)
+                print("OK")
+            except Exception as e:
+                print(f"ERROR: {e}")
+                errors += 1
+                continue
 
-        # Write after each successful call (crash-safe)
-        SUPPLEMENTS_PATH.write_text(json.dumps(existing, indent=2) + "\n")
+            # Small delay to avoid rate limits
+            if processed < total_to_process:
+                time.sleep(0.5)
 
-        # Small delay to avoid rate limits
-        if i < len(to_process) - 1:
-            time.sleep(0.5)
+        # Merge all new entries for this file at once
+        if new_entries:
+            data_path = DATA_DIR / filename
+            merge_into_data_file(data_path, new_entries)
+            print(f"  -> Wrote {len(new_entries)} entries to {data_path.name}")
 
-    print(f"\nDone. {len(existing)} total entries in {SUPPLEMENTS_PATH}")
+    print(f"\nDone. Processed {processed} articles ({errors} errors).")
 
 
 if __name__ == "__main__":
