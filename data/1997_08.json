@@ -1,13 +1,121 @@
 {
-    "year": 1997,
-    "month": "August",
-    "headline": "Separate & Unequal",
-    "author_name": "Mark Skertic",
-    "author_title": "Journalist at The Cincinnati Enquirer",
-    "summary": "An analysis revealed that Cincinnati's public schools are struggling to retain middle-income families, leading to a disproportionate number of low-income students in public schools compared to state and national averages.",
-    "keywords": [
-        "Cincinnati",
-        "public schools",
-        "demographics"
+    "stories": [
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Separate & Unequal",
+            "author_name": "Mark Skertic",
+            "author_title": "Journalist at The Cincinnati Enquirer",
+            "summary": "An analysis revealed that Cincinnati's public schools are struggling to retain middle-income families, leading to a disproportionate number of low-income students in public schools compared to state and national averages.",
+            "keywords": [
+                "Cincinnati",
+                "public schools",
+                "demographics"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Record Fight",
+            "author_name": "Heather Newman",
+            "author_title": "Detroit Free Press",
+            "summary": "Detroit Free Press reporters obtained salary data for over 22,000 Detroit Public School employees to investigate principals earning extra compensation for after-school activities ahead of upcoming union negotiations.",
+            "keywords": [
+                "salaries",
+                "investigation",
+                "principals"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Inexperience Reigns",
+            "author_name": "Kara Morrison",
+            "author_title": "NICAR",
+            "summary": "Baltimore Sun reporters discovered that disadvantaged schools with the lowest test scores and highest poverty rates are staffed disproportionately with inexperienced teachers, limiting equal access to quality education. The finding was substantiated through teacher turnover data showing a concentration of less experienced educators in schools serving the largest minority populations.",
+            "keywords": [
+                "teachers",
+                "inequality",
+                "schools"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Adding Numbers",
+            "author_name": "Griffin Palmer",
+            "author_title": "The Daily Oklahoman",
+            "summary": "A reporter used data analysis to uncover that Hispanic and Native American students had the largest representation gap compared to educators, rather than Black students as initially assumed, by carefully comparing student enrollment and certified educator databases while accounting for data inconsistencies.",
+            "keywords": [
+                "data",
+                "educators",
+                "minorities"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Handout of the Month",
+            "author_name": "Rose Ciotta",
+            "author_title": "Buffalo News",
+            "summary": "This IRE conference handout guide provides education reporters with computer-assisted reporting (CAR) techniques to investigate and compare school district data, including demographic information, teacher salaries, and long-term trends, enabling readers to see how their districts compare locally and statewide.",
+            "keywords": [
+                "education",
+                "analysis",
+                "districts"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "Stats from the road",
+            "author_name": "Sarah Cohen",
+            "author_title": "NICAR",
+            "summary": "A journalist questions the methodology of adjusting home prices for inflation, arguing that housing prices shouldn't be adjusted using traditional inflation measures since homes are treated as financial transactions rather than consumption in government economic data.",
+            "keywords": [
+                "inflation",
+                "housing",
+                "economics"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "CAR Tech Tip",
+            "author_name": "Richard Mullins",
+            "author_title": "NICAR",
+            "summary": "This column demonstrates how to use string functions in Access to split fields, building on similar techniques previously covered for FoxPro, a practical skill for anyone working with databases.",
+            "keywords": [
+                "Access",
+                "string",
+                "databases"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "On the Internet",
+            "author_name": "Pete Weitzel",
+            "author_title": "Poynter Institute",
+            "summary": "A guide to useful web resources for education reporting and research, compiled by Pete Weitzel, featuring sites like Education Week that provide statistics, articles, and background information on education issues.",
+            "keywords": [
+                "education",
+                "resources",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "August",
+            "headline": "IRE/NICAR Notes",
+            "author_name": "Brant Houston",
+            "author_title": "IRE Executive Director",
+            "summary": "News organizations must fundamentally reorganize their information management structures to effectively handle the abundance of digital sources and technologies in modern journalism. Traditional hierarchical models are inadequate for managing the volume of electronic tips, databases, and online services that define 21st-century reporting.",
+            "keywords": [
+                "information",
+                "management",
+                "journalism"
+            ]
+        }
     ]
 }

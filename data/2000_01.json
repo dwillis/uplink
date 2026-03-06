@@ -1,13 +1,30 @@
 {
-    "year": 2000,
-    "month": "January/February",
-    "headline": "Religion with CAR",
-    "author_name": "David Crumm",
-    "author_title": "Detroit Free Press",
-    "summary": "Explores the role of computers in understanding the growing diversity of religion at the millennium. Highlights how journalists can use online resources and databases for comprehensive religion reporting.",
-    "keywords": [
-        "religion",
-        "technology",
-        "journalism"
+    "stories": [
+        {
+            "year": 2000,
+            "month": "January/February",
+            "headline": "Religion with CAR",
+            "author_name": "David Crumm",
+            "author_title": "Detroit Free Press",
+            "summary": "Explores the role of computers in understanding the growing diversity of religion at the millennium. Highlights how journalists can use online resources and databases for comprehensive religion reporting.",
+            "keywords": [
+                "religion",
+                "technology",
+                "journalism"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "January/February",
+            "headline": "CENSUS 2000: Race tabulations",
+            "author_name": "Steve Doig",
+            "author_title": "Arizona State University",
+            "summary": "The 2000 Census introduced significant methodological changes by allowing respondents to select multiple racial categories and splitting Asian/Pacific Islander into separate groups, creating 126 possible race/ethnicity combinations that complicate comparisons with previous census data from 1990 and earlier.",
+            "keywords": [
+                "census",
+                "demographics",
+                "methodology"
+            ]
+        }
     ]
 }

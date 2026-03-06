@@ -1,13 +1,30 @@
 {
-    "year": 1994,
-    "month": "September",
-    "headline": "Computers help expose crime, poverty: CAR uncovers urban ills",
-    "author_name": "Andy Hall",
-    "author_title": "Investigative Reporter",
-    "summary": "An investigative series by the Wisconsin State Journal highlights how computer-assisted reporting revealed urban challenges such as juvenile crime, racism, and socio-economic factors in Madison. The project used data analysis and community discussions to propose potential solutions.",
-    "keywords": [
-        "urban",
-        "computers",
-        "crime"
+    "stories": [
+        {
+            "year": 1994,
+            "month": "September",
+            "headline": "Computers help expose crime, poverty: CAR uncovers urban ills",
+            "author_name": "Andy Hall",
+            "author_title": "Investigative Reporter",
+            "summary": "An investigative series by the Wisconsin State Journal highlights how computer-assisted reporting revealed urban challenges such as juvenile crime, racism, and socio-economic factors in Madison. The project used data analysis and community discussions to propose potential solutions.",
+            "keywords": [
+                "urban",
+                "computers",
+                "crime"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "September",
+            "headline": "Mean Streets: Drive-by shootings in Tacoma",
+            "author_name": "Adam Berliant",
+            "author_title": "Tacoma News Tribune",
+            "summary": "The News Tribune analyzed a newly available drive-by shooting database to determine that contrary to public perception, these incidents are not random but concentrated in areas with known gang and drug activity, with about one incident occurring every other night rather than multiple times daily.",
+            "keywords": [
+                "violence",
+                "database",
+                "shootings"
+            ]
+        }
     ]
 }

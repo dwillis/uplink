@@ -1,13 +1,56 @@
 {
-    "year": 1995,
-    "month": "December",
-    "headline": "Hitching a Free Ride",
-    "author_name": "Jo Craven",
-    "author_title": "NICAR staff",
-    "summary": "An examination of nonprofit organizations in the U.S. reveals significant tax advantages and financial power while they compete with for-profit enterprises. Reporters explore how nonprofits manage 1.475 trillion in assets while maintaining tax-exempt status.",
-    "keywords": [
-        "nonprofits",
-        "tax-exempt",
-        "financial"
+    "stories": [
+        {
+            "year": 1995,
+            "month": "December",
+            "headline": "Hitching a Free Ride",
+            "author_name": "Jo Craven",
+            "author_title": "NICAR staff",
+            "summary": "An examination of nonprofit organizations in the U.S. reveals significant tax advantages and financial power while they compete with for-profit enterprises. Reporters explore how nonprofits manage 1.475 trillion in assets while maintaining tax-exempt status.",
+            "keywords": [
+                "nonprofits",
+                "tax-exempt",
+                "financial"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "December",
+            "headline": "When agencies don't deliver records",
+            "author_name": "Sig Splichal",
+            "author_title": "University of Miami",
+            "summary": "Courts and government agencies are divided on interpretations of public records laws, with some using technical means like computer tape formats to obstruct media and public access to government information.",
+            "keywords": [
+                "records",
+                "access",
+                "government"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "December",
+            "headline": "IRE wins grant to start operation",
+            "author_name": "NICAR Staff",
+            "author_title": "",
+            "summary": "Investigative Reporters and Editors (IRE) received a $544,000 three-year grant to support investigative journalism efforts across the Americas.",
+            "keywords": [
+                "journalism",
+                "investigation",
+                "grant"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "December",
+            "headline": "Tracking nonprofits",
+            "author_name": "Nora Paul and Andy Lehren",
+            "author_title": "",
+            "summary": "The Internet provides resources for journalists to research and background non-profit organizations, with references to specific gopher servers and databases that can assist in this reporting process.",
+            "keywords": [
+                "journalists",
+                "non-profit",
+                "research"
+            ]
+        }
     ]
 }

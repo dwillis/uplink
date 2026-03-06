@@ -1,13 +1,30 @@
 {
-    "year": 1998,
-    "month": "February",
-    "headline": "Restaurants Revealed",
-    "author_name": "Joel Grover",
-    "author_title": "KCBS-TV",
-    "summary": "Joel Grover discusses the impact of an investigative series on restaurant conditions in L.A., revealing widespread sanitary issues and prompting legal changes.",
-    "keywords": [
-        "restaurant",
-        "inspection",
-        "L.A."
+    "stories": [
+        {
+            "year": 1998,
+            "month": "February",
+            "headline": "Restaurants Revealed",
+            "author_name": "Joel Grover",
+            "author_title": "KCBS-TV",
+            "summary": "Joel Grover discusses the impact of an investigative series on restaurant conditions in L.A., revealing widespread sanitary issues and prompting legal changes.",
+            "keywords": [
+                "restaurant",
+                "inspection",
+                "L.A."
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "February",
+            "headline": "FREE BOAT TO CHINA All Expenses Paid",
+            "author_name": "Kara G. Morrison",
+            "author_title": "NICAR",
+            "summary": "Gannett News Service conducted a database investigation revealing that private groups spent nearly $8 million on over 5,100 congressional trips between 1996-1997, with findings showing China as the top destination and the House Commerce Committee as the most frequent traveler.",
+            "keywords": [
+                "Congress",
+                "travel",
+                "lobbying"
+            ]
+        }
     ]
 }

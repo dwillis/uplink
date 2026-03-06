@@ -1,13 +1,30 @@
 {
-    "year": 1998,
-    "month": "October",
-    "headline": "Environmental CAR",
-    "author_name": "Ken Ward Jr.",
-    "author_title": "Charleston (W.Va.) Gazette",
-    "summary": "An overview of how computer-assisted reporting (CAR) is transforming environmental journalism, providing analyses of toxic emissions and hazardous waste locations that would otherwise be unmanageable.",
-    "keywords": [
-        "environmental",
-        "CAR",
-        "journalism"
+    "stories": [
+        {
+            "year": 1998,
+            "month": "October",
+            "headline": "Environmental CAR",
+            "author_name": "Ken Ward Jr.",
+            "author_title": "Charleston (W.Va.) Gazette",
+            "summary": "An overview of how computer-assisted reporting (CAR) is transforming environmental journalism, providing analyses of toxic emissions and hazardous waste locations that would otherwise be unmanageable.",
+            "keywords": [
+                "environmental",
+                "CAR",
+                "journalism"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "October",
+            "headline": "CLEAN WATER ACT",
+            "author_name": "Mike Lee",
+            "author_title": "Tri-City Herald",
+            "summary": "A journalist investigation using state water quality databases revealed that rapid dairy industry growth in Washington's Yakima Valley had caused widespread water pollution through improper manure management, leading to legal threats and community conflict.",
+            "keywords": [
+                "dairy",
+                "pollution",
+                "water"
+            ]
+        }
     ]
 }

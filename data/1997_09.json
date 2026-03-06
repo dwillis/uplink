@@ -1,13 +1,147 @@
 {
-    "year": 1997,
-    "month": "September",
-    "headline": "Number-assisted features",
-    "author_name": "Janet Roberts",
-    "author_title": "Wilmington Morning Star",
-    "summary": "Janet Roberts discusses how the Wilmington Morning Star utilizes computer-assisted reporting (CAR) to enhance feature stories with data analysis, such as the challenges African-American women face in finding love and comparisons of cities sharing Wilmington's name.",
-    "keywords": [
-        "CAR",
-        "features",
-        "Wilmington"
+    "stories": [
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Number-assisted features",
+            "author_name": "Janet Roberts",
+            "author_title": "Wilmington Morning Star",
+            "summary": "Janet Roberts discusses how the Wilmington Morning Star utilizes computer-assisted reporting (CAR) to enhance feature stories with data analysis, such as the challenges African-American women face in finding love and comparisons of cities sharing Wilmington's name.",
+            "keywords": [
+                "CAR",
+                "features",
+                "Wilmington"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Fun with CAR",
+            "author_name": "",
+            "author_title": "",
+            "summary": "This article showcases the diverse applications of Computer-Assisted Reporting (CAR) beyond traditional investigative journalism, featuring examples from multiple newsrooms including the Wilmington Star, Detroit Free Press, and Colorado Springs Gazette that used CAR for feature stories, entertainment analysis, and reader engagement projects.",
+            "keywords": [
+                "reporting",
+                "journalism",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Paper rates critics",
+            "author_name": "Heather Newman",
+            "author_title": "Detroit Free Press",
+            "summary": "The Detroit Free Press conducted a computer-assisted analysis of movie reviews from seven major newspapers, tracking ratings for over 200 films from January to March 1996 to compare critical opinions with box office performance and Academy Awards. The study found that critics rarely agreed with each other or with the public, with only eight movies receiving unanimous ratings across all reviewers.",
+            "keywords": [
+                "analysis",
+                "critics",
+                "movies"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "CAR goes to the dogs",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Pet license data analysis is a popular and accessible first computer-assisted reporting project for journalists, offering quick stories that generate significant reader interest and demonstrate that CAR doesn't require lengthy investigations.",
+            "keywords": [
+                "pets",
+                "data",
+                "journalism"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Funny CAR",
+            "author_name": "Victor Greto",
+            "author_title": "The Colorado Springs Gazette",
+            "summary": "The Gazette in Colorado Springs surveyed over 4,000 readers about their favorite and least favorite comic strips, using Microsoft Access to analyze results by age and gender demographics. The survey found \"For Better or Worse\" as the most popular comic and \"Where's Waldo\" and \"Judge Parker\" as the least popular.",
+            "keywords": [
+                "comics",
+                "survey",
+                "database"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Stats from the road",
+            "author_name": "John Sullivan and Sarah Cohen",
+            "author_title": "NICAR",
+            "summary": "Journalists can use statistical significance tests like chi-square to determine whether patterns in data (such as gender discrimination in disciplinary actions) reflect real differences or random chance. The choice of test depends on the type of data being analyzed, from categorical variables like gender to continuous numerical data.",
+            "keywords": [
+                "statistics",
+                "significance",
+                "discrimination"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Writing the story",
+            "author_name": "Richard Galant and Don Walker",
+            "author_title": "Newsday/Milwaukee Journal Sentinel",
+            "summary": "This journalism handout from the IRE National Conference provides guidance on writing compelling stories using computer-assisted reporting and data analysis, emphasizing the importance of identifying a central message, keeping the narrative simple, and telling engaging stories rather than getting bogged down in technical details.",
+            "keywords": [
+                "reporting",
+                "writing",
+                "data"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Sites on the borderline",
+            "author_name": "Lise Olsen",
+            "author_title": "Periodistas de Investigacion",
+            "summary": "Periodistas de Investigacion has compiled a curated list of over 250 border resource links organized by theme, including environmental archives, government agencies, and health initiatives for journalists covering Mexico and U.S./Mexico border issues.",
+            "keywords": [
+                "resources",
+                "border",
+                "environment"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Tracking tourism",
+            "author_name": "Hart Matthews",
+            "author_title": "The Outer Banks Sentinel (Kill Devil Hills, N.C.)",
+            "summary": "A journalist describes their first experience using spreadsheet software to analyze six years of Dare County tourism tax data on an extremely tight deadline, discovering that fall tourism revenues had grown 43 percent contrary to expectations.",
+            "keywords": [
+                "spreadsheet",
+                "tourism",
+                "deadline"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Setting the data free",
+            "author_name": "Andrew Lehren",
+            "author_title": "NICAR",
+            "summary": "This article explains how to use Windows NT 4.0's AT command scheduler to automate data processing tasks like running FoxPro during off-hours, allowing more time for analysis and reporting instead of routine processing work.",
+            "keywords": [
+                "automation",
+                "scheduling",
+                "FoxPro"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "September",
+            "headline": "Who's bringing up baby?",
+            "author_name": "Kara Morrison",
+            "author_title": "NICAR",
+            "summary": "A Minneapolis Star-Tribune reporter used birth records database and Microsoft Access to analyze trends in parental ages in Minnesota, discovering that parents are having children later in life, with particular cultural patterns among Hmong families.",
+            "keywords": [
+                "database",
+                "analysis",
+                "trends"
+            ]
+        }
     ]
 }

@@ -1,13 +1,43 @@
 {
-    "year": 1995,
-    "month": "July",
-    "headline": "Covering Money & Politics with Technology",
-    "author_name": "Various Authors",
-    "author_title": "Journalists and Experts on Computer-Assisted Reporting",
-    "summary": "Dedicated to improving coverage of campaign contributions, this issue includes experiences from journalists using technology to handle non-digitized state election records, tips on navigating federal databases, and leveraging internet resources for political reporting.",
-    "keywords": [
-        "Campaign Contributions",
-        "Database",
-        "Reporting"
+    "stories": [
+        {
+            "year": 1995,
+            "month": "July",
+            "headline": "Covering Money & Politics with Technology",
+            "author_name": "Various Authors",
+            "author_title": "Journalists and Experts on Computer-Assisted Reporting",
+            "summary": "Dedicated to improving coverage of campaign contributions, this issue includes experiences from journalists using technology to handle non-digitized state election records, tips on navigating federal databases, and leveraging internet resources for political reporting.",
+            "keywords": [
+                "Campaign Contributions",
+                "Database",
+                "Reporting"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "July",
+            "headline": "Paying the bills",
+            "author_name": "Christopher H. Schmitt",
+            "author_title": "San Jose Mercury News",
+            "summary": "A regression analysis of California's 1993-94 legislative session found that campaign contributions from interests backing specific bills were strong predictors of lawmakers' individual votes on those bills, suggesting money influences legislative behavior even without direct quid pro quo arrangements.",
+            "keywords": [
+                "contributions",
+                "votes",
+                "legislation"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "July",
+            "headline": "Milking campaign funds",
+            "author_name": "Rich Eggleston",
+            "author_title": "Associated Press",
+            "summary": "The Associated Press bureau in Wisconsin used scanning technology and optical character recognition to digitize paper campaign finance reports, enabling computer-assisted reporting that revealed patterns in political fundraising and contributions tied to legislative actions.",
+            "keywords": [
+                "scanning",
+                "campaigns",
+                "database"
+            ]
+        }
     ]
 }

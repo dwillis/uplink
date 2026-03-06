@@ -51,6 +51,110 @@
                 "reservation",
                 "children"
             ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Changes for the Database Library",
+            "author_name": "David Herzog",
+            "author_title": "NICAR and Missouri School of Journalism",
+            "summary": "The IRE and NICAR Database Library introduces its new staff members, including several master's students and visiting journalists specializing in investigative reporting, data analysis, and digital journalism. The organization also highlights recent departures of staff members who have moved on to positions at major news organizations.",
+            "keywords": [
+                "staff",
+                "journalism",
+                "database"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Scrape away",
+            "author_name": "",
+            "author_title": "",
+            "summary": "IRE and NICAR have launched the Scraping Project to help journalists efficiently extract data from online public databases by sharing and collaborating on web scraping scripts that can be modified and reused.",
+            "keywords": [
+                "scraping",
+                "data",
+                "journalists"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Extra! Extra!",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Extra! Extra! is an online resource from IRE that catalogs investigative and computer-assisted reporting stories, allowing journalists to search by category and discover relevant reporting techniques for their beats.",
+            "keywords": [
+                "investigative",
+                "journalism",
+                "database"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Debunking some myths about speeders",
+            "author_name": "Holly Whisenhunt Stephen",
+            "author_title": "WOAI-San Antonio",
+            "summary": "A journalist describes their first computer-assisted reporting project analyzing 1.6 million municipal court records from Bexar County, Texas, focusing on data import procedures, database management in Microsoft Access, and isolating speeding violations from 400,000+ records.",
+            "keywords": [
+                "data",
+                "database",
+                "analysis"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Unmasking murder myths",
+            "author_name": "Mark Houser",
+            "author_title": "Tribune-Review (Pittsburgh, Pa.)",
+            "summary": "A Pittsburgh journalist investigates the city's record homicide rate in 2003, discovering that murders are concentrated in specific neighborhoods and disproportionately involve young Black victims, and uses data mapping to present these findings clearly without reinforcing stereotypes.",
+            "keywords": [
+                "homicide",
+                "Pittsburgh",
+                "mapping"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "NICAR has transportation data for journalists",
+            "author_name": "Jeff Porter",
+            "author_title": "IRE and NICAR",
+            "summary": "The IRE and NICAR Database Library provides access to updated U.S. Department of Transportation databases that journalists can use to investigate safety issues in the trucking industry and identify dangerous roads.",
+            "keywords": [
+                "databases",
+                "trucking",
+                "safety"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Automate common tasks with FoxPro programs",
+            "author_name": "Jeff Porter",
+            "author_title": "IRE and NICAR",
+            "summary": "The IRE and NICAR Database Library automated routine tasks like updating Federal Election Commission and FAA data, and developed a system to automate state-sliced data extraction from large databases, learning important lessons about handling inconsistent data structures across different government agencies.",
+            "keywords": [
+                "automation",
+                "databases",
+                "data"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "November",
+            "headline": "Building a no-cost, open newsroom",
+            "author_name": "Aron Pilhofer",
+            "author_title": "The Center for Public Integrity",
+            "summary": "This article introduces a series on implementing free, open-source software tools in newsrooms to create a computer-assisted reporting platform, starting with MySQL as a database server and outlining basic hardware requirements and future topics.",
+            "keywords": [
+                "MySQL",
+                "newsroom",
+                "database"
+            ]
         }
     ]
 }

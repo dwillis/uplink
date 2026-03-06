@@ -1,13 +1,30 @@
 {
-    "year": 1991,
-    "month": "September",
-    "headline": "Hidden pasts uncovered in Times' series",
-    "author_name": "Robert Jackson",
-    "author_title": "MICAR",
-    "summary": "St. Petersburg Times reporters used computer-assisted techniques to investigate the abuse of a Florida state statute allowing criminal records to be sealed, uncovering widespread misuse benefiting offenders of serious crimes.",
-    "keywords": [
-        "investigation",
-        "crime",
-        "database"
+    "stories": [
+        {
+            "year": 1991,
+            "month": "September",
+            "headline": "Hidden pasts uncovered in Times' series",
+            "author_name": "Robert Jackson",
+            "author_title": "MICAR",
+            "summary": "St. Petersburg Times reporters used computer-assisted techniques to investigate the abuse of a Florida state statute allowing criminal records to be sealed, uncovering widespread misuse benefiting offenders of serious crimes.",
+            "keywords": [
+                "investigation",
+                "crime",
+                "database"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "September",
+            "headline": "Mainframe versus PCs: it's a matter of time, cost",
+            "author_name": "Lisa Touye'",
+            "author_title": "MICAR",
+            "summary": "The Sacramento Bee uses its mainframe computer system with a VAX network hookup and large hard drive for computer-assisted reporting, allowing multiple staff members to access census data simultaneously and quickly identify trends like racial representation discrepancies that would be difficult to spot manually.",
+            "keywords": [
+                "mainframe",
+                "database",
+                "reporting"
+            ]
+        }
     ]
 }

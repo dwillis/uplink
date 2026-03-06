@@ -1,13 +1,43 @@
 {
-    "year": 1991,
-    "month": "April",
-    "headline": "New York Times Audits U.S. Banks",
-    "author_name": "John Freed",
-    "author_title": "Database Editor",
-    "summary": "John Freed discusses the New York Times' investigative series on U.S. banking stability, utilizing federally available data to assess and report on potentially weak banks.",
-    "keywords": [
-        "banking",
-        "audit",
-        "data"
+    "stories": [
+        {
+            "year": 1991,
+            "month": "April",
+            "headline": "New York Times Audits U.S. Banks",
+            "author_name": "John Freed",
+            "author_title": "Database Editor",
+            "summary": "John Freed discusses the New York Times' investigative series on U.S. banking stability, utilizing federally available data to assess and report on potentially weak banks.",
+            "keywords": [
+                "banking",
+                "audit",
+                "data"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "April",
+            "headline": "Mainframes, C.P.U. Time and Your Wallet",
+            "author_name": "Valerie Brunell",
+            "author_title": "MICAR",
+            "summary": "This article examines the costs and pricing structures involved in computer-assisted reporting, explaining different fee calculation methods from data processing centers and advising journalists on how to evaluate service options based on their needs and budget.",
+            "keywords": [
+                "costs",
+                "computing",
+                "pricing"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "April",
+            "headline": "Tape Drive Trouble? You're Not Alone.",
+            "author_name": "Adam Berliant",
+            "author_title": "Editor",
+            "summary": "Reporters using Qualstar 1260 tape drives are experiencing frequent malfunctions characterized by drives rocking back and forth, with the Missouri Institute for Computer-Assisted Reporting receiving numerous complaints about the issue. The problems are typically caused by dirty heads or faulty head connectors, particularly involving defective cable connectors that Qualstar switched to approximately a year ago, with replacement cables reportedly solving about half of the reported cases.",
+            "keywords": [
+                "tape",
+                "drives",
+                "problems"
+            ]
+        }
     ]
 }

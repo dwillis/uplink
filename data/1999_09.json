@@ -51,6 +51,58 @@
                 "taxpayer",
                 "football"
             ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "SAS vs. SPSS",
+            "author_name": "Jessica Larson",
+            "author_title": "NICAR Staff",
+            "summary": "This article compares SPSS and SAS statistical software programs used in computer-assisted reporting, explaining that SPSS is more user-friendly and affordable for beginners while SAS offers greater power and flexibility for advanced users with larger budgets.",
+            "keywords": [
+                "SPSS",
+                "SAS",
+                "statistics"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "Returning to regress",
+            "author_name": "Neill A. Borowski",
+            "author_title": "",
+            "summary": "This article explains key concepts in regression analysis, including how to handle outliers, interpret t-tests, and make data transformations, while emphasizing the importance of understanding the underlying mathematics rather than relying on computer programs as a 'black box.'",
+            "keywords": [
+                "regression",
+                "outliers",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "\"Sick\" Slackers",
+            "author_name": "JAMES H. CAMPANINI",
+            "author_title": "reporter",
+            "summary": "A journalist uses computer-assisted reporting to investigate teacher absenteeism in Lowell schools, discovering data processing errors and systemic issues hidden within 20,000 school records that led to a three-part expos\u00e9 on sick-day abuse and its impact on students.",
+            "keywords": [
+                "absenteeism",
+                "investigation",
+                "data"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "September",
+            "headline": "Healthcare by color",
+            "author_name": "Dave Davis",
+            "author_title": "",
+            "summary": "A journalist investigates racial disparities in death rates from preventable and treatable diseases, finding that Black men die at nearly three times the rate of white men, using CDC mortality data to examine the gap across different illnesses and demographics.",
+            "keywords": [
+                "mortality",
+                "disparities",
+                "healthcare"
+            ]
         }
     ]
 }

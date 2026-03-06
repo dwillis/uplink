@@ -1,13 +1,30 @@
 {
-    "year": 2000,
-    "month": "December",
-    "headline": "The race factor",
-    "author_name": "Dan Browning",
-    "author_title": "Reporter",
-    "summary": "The Minneapolis Star-Tribune investigates whether Minneapolis police use racial profiling. The report analyzes booking, jail, and sentencing data to determine if more black suspects are arrested than whites.",
-    "keywords": [
-        "racial profiling",
-        "police",
-        "Minneapolis"
+    "stories": [
+        {
+            "year": 2000,
+            "month": "December",
+            "headline": "The race factor",
+            "author_name": "Dan Browning",
+            "author_title": "Reporter",
+            "summary": "The Minneapolis Star-Tribune investigates whether Minneapolis police use racial profiling. The report analyzes booking, jail, and sentencing data to determine if more black suspects are arrested than whites.",
+            "keywords": [
+                "racial profiling",
+                "police",
+                "Minneapolis"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "December",
+            "headline": "Nursing mistakes",
+            "author_name": "Mike Berens",
+            "author_title": "Chicago Tribune",
+            "summary": "A Chicago Tribune investigation used the FDA's MAUDE database combined with multiple public records sources to uncover how inadequately trained and overwhelmed nurses cause thousands of patient deaths and injuries annually as hospitals prioritize profits over safety.",
+            "keywords": [
+                "nursing",
+                "hospitals",
+                "databases"
+            ]
+        }
     ]
 }

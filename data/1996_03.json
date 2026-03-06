@@ -1,13 +1,30 @@
 {
-    "year": 1996,
-    "month": "March",
-    "headline": "Computer-assisted reporting turns on more TV journalists",
-    "author_name": "Mike Wendland",
-    "author_title": "WDIV-TV Detroit",
-    "summary": "The article discusses the growing adoption of computer-assisted reporting (CAR) among broadcasters, illustrating through anecdotes how TV journalists are applying these techniques to enhance storytelling and investigative reports.",
-    "keywords": [
-        "broadcast",
-        "journalists",
-        "CAR"
+    "stories": [
+        {
+            "year": 1996,
+            "month": "March",
+            "headline": "Computer-assisted reporting turns on more TV journalists",
+            "author_name": "Mike Wendland",
+            "author_title": "WDIV-TV Detroit",
+            "summary": "The article discusses the growing adoption of computer-assisted reporting (CAR) among broadcasters, illustrating through anecdotes how TV journalists are applying these techniques to enhance storytelling and investigative reports.",
+            "keywords": [
+                "broadcast",
+                "journalists",
+                "CAR"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "March",
+            "headline": "A look at old, decaying dams",
+            "author_name": "Stan Dorsey",
+            "author_title": "NICAR staff",
+            "summary": "A Dateline NBC investigation reveals that thousands of aging American dams pose serious safety risks to nearby communities, with many lacking proper emergency plans and regular inspections despite their hazard ratings.",
+            "keywords": [
+                "dams",
+                "inspection",
+                "safety"
+            ]
+        }
     ]
 }

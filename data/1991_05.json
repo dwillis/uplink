@@ -1,13 +1,43 @@
 {
-    "year": 1991,
-    "month": "May",
-    "headline": "Transporting Toxics Through California",
-    "author_name": "Christopher Schmitt",
-    "author_title": "San Jose Mercury News",
-    "summary": "A four-part series reveals numerous flaws in California's toxic waste monitoring system, including unaccounted waste and regulatory failures.",
-    "keywords": [
-        "toxic waste",
-        "California",
-        "environment"
+    "stories": [
+        {
+            "year": 1991,
+            "month": "May",
+            "headline": "Transporting Toxics Through California",
+            "author_name": "Christopher Schmitt",
+            "author_title": "San Jose Mercury News",
+            "summary": "A four-part series reveals numerous flaws in California's toxic waste monitoring system, including unaccounted waste and regulatory failures.",
+            "keywords": [
+                "toxic waste",
+                "California",
+                "environment"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "May",
+            "headline": "C.P.U. Time, Part Two",
+            "author_name": "Tom Braden",
+            "author_title": "MICAR",
+            "summary": "Government agencies are charging exorbitant fees for electronic public records, and journalists can challenge these costs by analyzing the agencies' own computer cost accounting formulas to determine if prices reflect actual expenses.",
+            "keywords": [
+                "records",
+                "costs",
+                "agencies"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "May",
+            "headline": "Using Data at the Nation's Data Capital",
+            "author_name": "Karl Ross",
+            "author_title": "MICAR",
+            "summary": "Washington D.C. news organizations have access to vast government computer databases but underutilize computer-assisted reporting due to staff constraints, reliance on traditional reporting methods, and lack of full-time technical resources, though some outlets like Cox Newspapers and USA Today are beginning to invest more aggressively in the technology.",
+            "keywords": [
+                "reporting",
+                "computers",
+                "Washington"
+            ]
+        }
     ]
 }

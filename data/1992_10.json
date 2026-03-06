@@ -1,13 +1,69 @@
 {
-    "year": 1992,
-    "month": "October",
-    "headline": "Writing a computer-assisted story in less than a week",
-    "author_name": "Van Denton",
-    "author_title": "Beat Reporter",
-    "summary": "Van Denton used a database to quickly produce a more detailed story on lobbyist spending, illustrating the potential of computer-assisted reporting.",
-    "keywords": [
-        "reporting",
-        "database",
-        "lobbyists"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Writing a computer-assisted story in less than a week",
+            "author_name": "Van Denton",
+            "author_title": "Beat Reporter",
+            "summary": "Van Denton used a database to quickly produce a more detailed story on lobbyist spending, illustrating the potential of computer-assisted reporting.",
+            "keywords": [
+                "reporting",
+                "database",
+                "lobbyists"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "When TRI is not enough, try state hazardous waste manifests",
+            "author_name": "Adam Berliant",
+            "author_title": "Founder of EPIC",
+            "summary": "Hazardous waste manifests provide detailed tracking of toxic materials that can supplement federal TRI data, with about half of U.S. states offering computerized access to these records for investigative journalism purposes. Reporters can use manifest data to identify illegal dumping, verify environmental compliance, and enhance local accountability in environmental stories.",
+            "keywords": [
+                "manifests",
+                "hazardous",
+                "tracking"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "The National Library on Money & Politics searches databases for you",
+            "author_name": "Richard Mullins",
+            "author_title": "Researcher and system administrator for the Library",
+            "summary": "The National Library on Money & Politics provides journalists with processed Federal Election Commission data dating back to 1979, enabling easier access to campaign finance information for reporting on political contributions and funding sources.",
+            "keywords": [
+                "campaign",
+                "finance",
+                "contributions"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Tech Tips: FoxPro adds a new dimension to SQL",
+            "author_name": "Dan Woods",
+            "author_title": "Reporter at The Raleigh, (N.C.) News & Observer",
+            "summary": "FoxPro's SQL point-and-click interface makes database querying accessible to journalists of all skill levels, from beginners to experienced users, enabling more reporters to engage in computer-assisted reporting. The tool simplifies SQL use and automates coding tasks, democratizing technical skills across newsrooms.",
+            "keywords": [
+                "FoxPro",
+                "SQL",
+                "journalism"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Bits, bytes and nibbles: An electronic forum on computers in journalism debuts",
+            "author_name": "Not explicitly provided",
+            "author_title": "Not explicitly provided",
+            "summary": "The University of Louisville established CARR-L, an online forum for journalists and educators to discuss computer-assisted reporting techniques including databases, graphics, and electronic data research. The forum serves as a community hub for sharing resources, software reviews, and job opportunities in computer-assisted journalism.",
+            "keywords": [
+                "journalism",
+                "technology",
+                "education"
+            ]
+        }
     ]
 }

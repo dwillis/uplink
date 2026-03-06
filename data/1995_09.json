@@ -1,13 +1,134 @@
 {
-    "year": 1995,
-    "month": "September",
-    "headline": "Data Tracks Secretive Justice System",
-    "author_name": "Michael J. Berens",
-    "author_title": "Reporter",
-    "summary": "An investigative series exposes the misuse of a court database, unveiling illegal practices such as the jailing of poor individuals and secret cash deals to avoid convictions in Ohio.",
-    "keywords": [
-        "justice",
-        "database",
-        "corruption"
+    "stories": [
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "Data Tracks Secretive Justice System",
+            "author_name": "Michael J. Berens",
+            "author_title": "Reporter",
+            "summary": "An investigative series exposes the misuse of a court database, unveiling illegal practices such as the jailing of poor individuals and secret cash deals to avoid convictions in Ohio.",
+            "keywords": [
+                "justice",
+                "database",
+                "corruption"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "Data tracks secretive justice system Courting the poor",
+            "author_name": "Michael J. Berens",
+            "author_title": "The Columbus Dispatch",
+            "summary": "The Columbus Dispatch's investigation into municipal court data exposed widespread injustices including illegal jailing of poor people and secret cash deals for drunk drivers, requiring a three-year battle to obtain court records and sophisticated data analysis to decode inconsistent clerk entries that revealed systematic deceptions.",
+            "keywords": [
+                "justice",
+                "data",
+                "corruption"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "injuries Merry-go-round",
+            "author_name": "Rick Linsk",
+            "author_title": "Asbury Park Press",
+            "summary": "An Asbury Park Press investigation used computerized data analysis of New Jersey's amusement ride injury database to examine safety trends and regulatory oversight, revealing hundreds of injuries annually despite initial government resistance to releasing the records.",
+            "keywords": [
+                "injuries",
+                "database",
+                "amusement"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "Cracking Windows 95",
+            "author_name": "Dan Keating",
+            "author_title": "The Miami Herald",
+            "summary": "A detailed review of Windows 95 that praises its interface improvements and stability enhancements over Windows 3.1, while cautioning that full benefits require new 32-bit software and recommending users without powerful machines wait before upgrading.",
+            "keywords": [
+                "Windows",
+                "stability",
+                "software"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "NICAR web site expands",
+            "author_name": "",
+            "author_title": "",
+            "summary": "NICAR's website has expanded its offerings to include new home pages for Asian American Journalists Association and National Association of Black Journalists, with plans to add more organization pages in coming months. The site provides comprehensive information about NICAR's activities, conferences, training seminars, and resources for investigative journalists.",
+            "keywords": [
+                "website",
+                "journalists",
+                "resources"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "Growing collection of federal databases",
+            "author_name": "",
+            "author_title": "",
+            "summary": "NICAR maintains an extensive collection of federal government databases spanning elections, aviation, finance, crime, and education that journalists can access for investigative reporting. The organization offers inexpensive data transfer services and continuously expands its library of state and federal records.",
+            "keywords": [
+                "databases",
+                "journalism",
+                "federal"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "NICAR expands minority programs",
+            "author_name": "",
+            "author_title": "",
+            "summary": "NICAR is organizing three regional seminars in 1996 to provide free computer-assisted reporting training for minority journalists, covering spreadsheets, databases, and online resources. The organization is seeking funding and partnerships to expand these programs and offering fellowships to help journalists cover travel and lodging expenses.",
+            "keywords": [
+                "training",
+                "journalists",
+                "seminars"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "New public reord law passes Indiana goes electric",
+            "author_name": "Carol Napolitano",
+            "author_title": "The (Munster, Ind.) Times",
+            "summary": "Indiana passed a new public records law that expands access to electronic records held by government agencies, requiring them to provide records in electronic format when feasible and prohibiting storage methods that impose unreasonable fees or license requirements. The law, which takes effect January 1, represents a second legislative attempt by the Hoosier State Press Association and marks a victory for journalists seeking better access to government information.",
+            "keywords": [
+                "records",
+                "transparency",
+                "legislation"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "Fun fed sites",
+            "author_name": "Andrew W. Lehren",
+            "author_title": "NICAR staff",
+            "summary": "Government agencies are increasingly publishing reports and information online rather than in print, making it easier for journalists to access data quickly. The article provides a directory of useful federal government websites for reporters to find speeches, bills, financial reports, census data, and budget information.",
+            "keywords": [
+                "government",
+                "internet",
+                "journalists"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "September",
+            "headline": "The falling bridges of Madison County",
+            "author_name": "Gwen Carleton",
+            "author_title": "",
+            "summary": "Madison County, Iowa's bridges are aging and in poor condition, with 85 requiring rehabilitation and 59 needing replacement at an estimated cost of $4.5 million, though the famous covered bridges are relatively well-maintained and mostly restricted to pedestrian use.",
+            "keywords": [
+                "bridges",
+                "infrastructure",
+                "Iowa"
+            ]
+        }
     ]
 }

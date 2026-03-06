@@ -1,13 +1,43 @@
 {
-    "year": 1993,
-    "month": "January",
-    "headline": "Optical character reader turns analysis into 4-month nightmare",
-    "author_name": "Barb Pearson",
-    "author_title": "USA Today",
-    "summary": "USA Today's attempt to scrutinize Congressional expenses via scanned data was fraught with technical difficulties, leading to significant scanning errors and extensive manual corrections over four months.",
-    "keywords": [
-        "scanning",
-        "Congress",
-        "data"
+    "stories": [
+        {
+            "year": 1993,
+            "month": "January",
+            "headline": "Optical character reader turns analysis into 4-month nightmare",
+            "author_name": "Barb Pearson",
+            "author_title": "USA Today",
+            "summary": "USA Today's attempt to scrutinize Congressional expenses via scanned data was fraught with technical difficulties, leading to significant scanning errors and extensive manual corrections over four months.",
+            "keywords": [
+                "scanning",
+                "Congress",
+                "data"
+            ]
+        },
+        {
+            "year": 1993,
+            "month": "January",
+            "headline": "Series leaves politicians with no one to blame for recession but themselves",
+            "author_name": "Chris Feola",
+            "author_title": "The Republican-American",
+            "summary": "A major investigative journalism project used spreadsheet analysis of government data to reveal that Connecticut families paid over 50% of their income in taxes, exposing wasteful federal spending and exposing that the Social Security Trust Fund relies on IOUs rather than actual reserves.",
+            "keywords": [
+                "taxes",
+                "spending",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1993,
+            "month": "January",
+            "headline": "Projects at the San Francisco Examiner and the Lawrence Eagle-Tribune uncover (what else?) political waste and greed",
+            "author_name": "Dick Rogers, Brad Goldstein and Ed Achorn",
+            "author_title": "San Francisco Examiner and Lawrence Eagle-Tribune",
+            "summary": "Journalists describe their computer-assisted reporting projects, including a major investigation into San Francisco's AIDS programs using database analysis and a congressional campaign finance study tracking political contributors.",
+            "keywords": [
+                "reporting",
+                "database",
+                "investigation"
+            ]
+        }
     ]
 }

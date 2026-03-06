@@ -1,13 +1,43 @@
 {
-    "year": 1998,
-    "month": "June",
-    "headline": "Moneyed Interests",
-    "author_name": "Jack Dolan and Aaron Rothenburger",
-    "author_title": "CFIC",
-    "summary": "An investigation by Milwaukee Journal Sentinel reporters uncovers a link between campaign contributions and preferential treatment by Wisconsin Governor Tommy Thompson.",
-    "keywords": [
-        "campaign",
-        "finance",
-        "favoritism"
+    "stories": [
+        {
+            "year": 1998,
+            "month": "June",
+            "headline": "Moneyed Interests",
+            "author_name": "Jack Dolan and Aaron Rothenburger",
+            "author_title": "CFIC",
+            "summary": "An investigation by Milwaukee Journal Sentinel reporters uncovers a link between campaign contributions and preferential treatment by Wisconsin Governor Tommy Thompson.",
+            "keywords": [
+                "campaign",
+                "finance",
+                "favoritism"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "June",
+            "headline": "Homes for Sale",
+            "author_name": "Neill A. Borowski",
+            "author_title": "The Philadelphia Inquirer",
+            "summary": "Real estate journalism offers significant opportunities for impactful local reporting, as home values directly affect Americans' largest financial investment and can influence consumer spending and economic trends. Understanding local property value trends through data analysis provides readers with relevant information about their most valuable asset.",
+            "keywords": [
+                "housing",
+                "values",
+                "trends"
+            ]
+        },
+        {
+            "year": 1998,
+            "month": "June",
+            "headline": "Trial of the Century",
+            "author_name": "Wendell Cochran",
+            "author_title": "American University",
+            "summary": "As the year 2000 approaches, companies and governments worldwide are spending billions to fix the Y2K bug that could cause computer systems to malfunction, though computer-assisted journalists are relatively insulated from the problem and should still test their systems.",
+            "keywords": [
+                "millennium",
+                "compliance",
+                "systems"
+            ]
+        }
     ]
 }

@@ -1,13 +1,56 @@
 {
-    "year": 1997,
-    "month": "July",
-    "headline": "Getting by on a shoestring",
-    "author_name": "Loraine Anderson",
-    "author_title": "Regional Editor",
-    "summary": "Loraine Anderson discusses how the Traverse City Record-Eagle manages computer-assisted reporting with limited resources, sharing tips for small newspapers.",
-    "keywords": [
-        "small",
-        "resources",
-        "reporting"
+    "stories": [
+        {
+            "year": 1997,
+            "month": "July",
+            "headline": "Getting by on a shoestring",
+            "author_name": "Loraine Anderson",
+            "author_title": "Regional Editor",
+            "summary": "Loraine Anderson discusses how the Traverse City Record-Eagle manages computer-assisted reporting with limited resources, sharing tips for small newspapers.",
+            "keywords": [
+                "small",
+                "resources",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "July",
+            "headline": "Joining Hands",
+            "author_name": "Joanna Kakissis",
+            "author_title": "NICAR",
+            "summary": "Journalists at small newspapers are forming computer-assisted reporting networks to share training, data, and resources, with examples including CARwash in Washington state and similar consortiums in Wisconsin and across Knight Ridder publications.",
+            "keywords": [
+                "journalism",
+                "data",
+                "collaboration"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "July",
+            "headline": "Abatement analysis",
+            "author_name": "Geoff Dutton",
+            "author_title": "The News-Herald",
+            "summary": "A journalist's computer-assisted reporting project on tax abatements revealed flawed data, but the setback led to a comprehensive five-part series exposing how local municipalities were caught in bidding wars and how most relocated companies simply moved between nearby communities rather than bringing genuine economic growth.",
+            "keywords": [
+                "reporting",
+                "taxes",
+                "development"
+            ]
+        },
+        {
+            "year": 1997,
+            "month": "July",
+            "headline": "Students rank schools",
+            "author_name": "Daniel J. Foley",
+            "author_title": "University of Tennessee, Knoxville",
+            "summary": "A University of Tennessee journalism class partnered with the LaFollette Press newspaper to produce an eight-page special report on Campbell County schools using state education database analysis, resulting in a comprehensive 'report card' of the school district's performance across multiple metrics.",
+            "keywords": [
+                "journalism",
+                "schools",
+                "database"
+            ]
+        }
     ]
 }

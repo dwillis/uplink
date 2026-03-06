@@ -1,13 +1,56 @@
 {
-    "year": 1994,
-    "month": "December",
-    "headline": "CAR & OJ: Perfect Together",
-    "author_name": "Ralph Frammolino",
-    "author_title": "Los Angeles Times",
-    "summary": "Ralph Frammolino discusses the application of computer-assisted reporting (CAR) in creating a detailed jury profile for the O.J. Simpson trial, highlighting the effectiveness of newly acquired skills.",
-    "keywords": [
-        "O.J. Simpson",
-        "jury",
-        "database"
+    "stories": [
+        {
+            "year": 1994,
+            "month": "December",
+            "headline": "CAR & OJ: Perfect Together",
+            "author_name": "Ralph Frammolino",
+            "author_title": "Los Angeles Times",
+            "summary": "Ralph Frammolino discusses the application of computer-assisted reporting (CAR) in creating a detailed jury profile for the O.J. Simpson trial, highlighting the effectiveness of newly acquired skills.",
+            "keywords": [
+                "O.J. Simpson",
+                "jury",
+                "database"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "December",
+            "headline": "CAR's Field of Dreams in NJ",
+            "author_name": "Paul D'Ambrosio",
+            "author_title": "Asbury Park Press",
+            "summary": "The Asbury Park Press developed a computer-assisted reporting program providing newsroom-wide access to databases and analytical software, enabling investigations into local issues like tax delinquency and crime statistics despite ongoing staff adoption challenges.",
+            "keywords": [
+                "reporting",
+                "investigation",
+                "databases"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "December",
+            "headline": "AP scores with big FEC project",
+            "author_name": "Brant Houston",
+            "author_title": "NICAR Managing Director",
+            "summary": "An AP team led by Bill Dedman and Richard Mullins used computer-assisted reporting and FEC data to create 25 detailed reports on campaign contributions for 1,300 federal candidates before the November elections. The project pioneered the use of database management to analyze donor patterns and connect congressional actions to funding sources.",
+            "keywords": [
+                "data",
+                "elections",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "December",
+            "headline": "Crime tops CAR agenda for '94",
+            "author_name": "Gwen Carleton",
+            "author_title": "NICAR",
+            "summary": "In 1994, CAR reporting concentrated on crime coverage, with notable investigations including the Wisconsin State Journal's examination of crime and socioeconomic factors in Madison, analysis of juvenile crime patterns in Southern California, and USA Today's study of prosecutor effectiveness disparities across cities.",
+            "keywords": [
+                "crime",
+                "investigation",
+                "enforcement"
+            ]
+        }
     ]
 }

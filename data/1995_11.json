@@ -1,13 +1,43 @@
 {
-    "year": 1995,
-    "month": "November",
-    "headline": "OSHA falls flat",
-    "author_name": "Jo Craven",
-    "author_title": "NICAR Staff",
-    "summary": "An exploration of how government fines for workplace safety violations often undervalue the loss of life and limb. The article references reports uncovering minimal fines for fatal workplace accidents and the ongoing feature of OSHA records by journalists.",
-    "keywords": [
-        "OSHA",
-        "fines",
-        "safety"
+    "stories": [
+        {
+            "year": 1995,
+            "month": "November",
+            "headline": "OSHA falls flat",
+            "author_name": "Jo Craven",
+            "author_title": "NICAR Staff",
+            "summary": "An exploration of how government fines for workplace safety violations often undervalue the loss of life and limb. The article references reports uncovering minimal fines for fatal workplace accidents and the ongoing feature of OSHA records by journalists.",
+            "keywords": [
+                "OSHA",
+                "fines",
+                "safety"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "November",
+            "headline": "Workplace inspections Short on surprises",
+            "author_name": "Sarah Christian",
+            "author_title": "The Associated Press",
+            "summary": "An AP investigation found that three-quarters of U.S. workplaces where serious accidents occurred had never been inspected by OSHA during the 1990s, with the agency spending more time on union complaints than conducting preventive surprise inspections. The study of 778,000 OSHA inspections revealed systemic gaps in oversight, particularly affecting small, non-union businesses.",
+            "keywords": [
+                "OSHA",
+                "workplace",
+                "inspections"
+            ]
+        },
+        {
+            "year": 1995,
+            "month": "November",
+            "headline": "Selling data to readers",
+            "author_name": "Naomi Aoki",
+            "author_title": "Columbia (Mo.) Missourian",
+            "summary": "Journalists debate whether selling databases of government records aligns with their mission and ethical standards, with some arguing it's a legitimate way to distribute information while others worry about privacy violations, credibility damage, and compromising journalistic integrity for profit.",
+            "keywords": [
+                "databases",
+                "journalism",
+                "privacy"
+            ]
+        }
     ]
 }

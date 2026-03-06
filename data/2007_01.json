@@ -1,13 +1,69 @@
 {
-    "year": 2007,
-    "month": "January/February",
-    "headline": "Data Reveals City Workers' Bonus Pay",
-    "author_name": "Matt Stiles",
-    "author_title": "Houston Chronicle",
-    "summary": "The story uncovers a payroll-padding scandal in Houston's city council's administrative office, revealing that four employees improperly received $143,000 in bonus payments. Further analysis showed many city employees received bonus payments that were not initially disclosed.",
-    "keywords": [
-        "city workers",
-        "bonus pay",
-        "scandal"
+    "stories": [
+        {
+            "year": 2007,
+            "month": "January/February",
+            "headline": "Data Reveals City Workers' Bonus Pay",
+            "author_name": "Matt Stiles",
+            "author_title": "Houston Chronicle",
+            "summary": "The story uncovers a payroll-padding scandal in Houston's city council's administrative office, revealing that four employees improperly received $143,000 in bonus payments. Further analysis showed many city employees received bonus payments that were not initially disclosed.",
+            "keywords": [
+                "city workers",
+                "bonus pay",
+                "scandal"
+            ]
+        },
+        {
+            "year": 2007,
+            "month": "January/February",
+            "headline": "PLUG INTO DATA TO INVESTIGATE UTILITIES",
+            "author_name": "Tom McGinty",
+            "author_title": "Newsday",
+            "summary": "Tom McGinty analyzed Long Island Power Authority data to reveal insights into power plant utilization and wasteful spending on new facilities. The story demonstrates the value of database reporting in uncovering utility inefficiencies and regulatory issues.",
+            "keywords": [
+                "utilities",
+                "databases",
+                "investigation"
+            ]
+        },
+        {
+            "year": 2007,
+            "month": "January/February",
+            "headline": "TRACKING FEDERAL FUNDS INDIAN GRANTS, GAMING REVENUE BOTH ON THE RISE",
+            "author_name": "Ziva Branstetter",
+            "author_title": "Tulsa (Okla.) World",
+            "summary": "An investigation reveals that federal grants to Indian tribes have continued to increase despite rising gaming revenues, showing no reduction in aid as tribes become more self-sufficient through gambling operations.",
+            "keywords": [
+                "grants",
+                "tribes",
+                "gaming"
+            ]
+        },
+        {
+            "year": 2007,
+            "month": "January/February",
+            "headline": "NY POWER AGENCY GIVES $1 MILLION TO LEADERS' PET PROJECTS, CHARITIES",
+            "author_name": "Michelle Breidenbach",
+            "author_title": "The (Syracuse, N.Y.) Post-Standard",
+            "summary": "An investigation into the New York Power Authority discovered that $1 million in annual donations to executives' favored charities were being funded by taxpayers, revealing serious accountability and transparency issues within the state agency. The probe exposed unethical practices including misuse of public funds and excessive executive perks through analysis of public records and financial audits.",
+            "keywords": [
+                "corruption",
+                "accountability",
+                "taxpayers"
+            ]
+        },
+        {
+            "year": 2007,
+            "month": "January/February",
+            "headline": "GAS PUMP INSPECTIONS MAKE SPEEDY CAR STORY",
+            "author_name": "Lee Davidson",
+            "author_title": "The (Salt Lake City) Deseret Morning News",
+            "summary": "Lee Davidson's investigation found that 1 in 25 gas pumps in Utah were inaccurate, exposing gaps in regulatory oversight and inspection transparency. The data-driven project raised consumer awareness about measurement reliability at fuel pumps.",
+            "keywords": [
+                "investigation",
+                "measurement",
+                "regulation"
+            ]
+        }
     ]
 }

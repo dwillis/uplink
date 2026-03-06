@@ -1,13 +1,43 @@
 {
-    "year": 1996,
-    "month": "February",
-    "headline": "Mapping: Unlocking Geographic Patterns",
-    "author_name": "David Herzog",
-    "author_title": "The Morning Call",
-    "summary": "The issue explores how desktop mapping programs like Atlas GIS and Maptitude assist newsrooms in identifying geographic patterns and creating visual maps to enhance storytelling, with examples of their application in analyzing demographics, pollution, and blighted properties.",
-    "keywords": [
-        "desktop mapping",
-        "geographic patterns",
-        "newsrooms"
+    "stories": [
+        {
+            "year": 1996,
+            "month": "February",
+            "headline": "Mapping: Unlocking Geographic Patterns",
+            "author_name": "David Herzog",
+            "author_title": "The Morning Call",
+            "summary": "The issue explores how desktop mapping programs like Atlas GIS and Maptitude assist newsrooms in identifying geographic patterns and creating visual maps to enhance storytelling, with examples of their application in analyzing demographics, pollution, and blighted properties.",
+            "keywords": [
+                "desktop mapping",
+                "geographic patterns",
+                "newsrooms"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "February",
+            "headline": "Maptitude: It's a deal",
+            "author_name": "Carol Napolitano",
+            "author_title": "The Omaha World-Herald",
+            "summary": "Maptitude is an affordable mapping software offering extensive U.S. and world geographic data with Census information, though it has limitations including no Mac version, lower map quality than competitors, and tedious manual editing requirements.",
+            "keywords": [
+                "mapping",
+                "software",
+                "cartography"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "February",
+            "headline": "Atlas GIS has site",
+            "author_name": "Dan Keating",
+            "author_title": "Miami Herald",
+            "summary": "CIESIN is a free online repository offering detailed census maps and demographic data that can be imported into Atlas GIS, with step-by-step instructions for downloading map files and matching data from specific directories.",
+            "keywords": [
+                "CIESIN",
+                "maps",
+                "census"
+            ]
+        }
     ]
 }

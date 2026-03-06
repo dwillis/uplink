@@ -64,6 +64,84 @@
                 "finance data",
                 "tracking"
             ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "SPOTLIGHT: ELECTIONS Finding data for state elections",
+            "author_name": "Derek Willis",
+            "author_title": "The Center for Public Integrity",
+            "summary": "State campaign finance reporting lacks standardization, with each state using different formats and accessibility levels for tracking hundreds of millions of dollars in election spending, though some states like Ohio and New York offer more accessible electronic data than others.",
+            "keywords": [
+                "campaign",
+                "finance",
+                "data"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "TRANSPORTATION Fatal crash data shows truck dangers",
+            "author_name": "Kurt Rogahn",
+            "author_title": "The (Cedar Rapids, lowa) Gazette",
+            "summary": "A newspaper investigation into fatal accidents on Interstate 80 in Iowa reveals that semi-trailer trucks are involved in nearly half of all fatal crashes, prompting changes in driver behavior and follow-up coverage of accident incidents.",
+            "keywords": [
+                "investigation",
+                "accidents",
+                "trucks"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "IRE AWARDS Broadcast, other winners rely on data work",
+            "author_name": "Megan Clarke",
+            "author_title": "IRE and NICAR",
+            "summary": "IRE's annual investigative reporting contest received 595 entries, with many using computer-assisted reporting techniques like databases and tracking software. The article highlights award-winning television investigations that employed CAR methods, including expos\u00e9s on industrial safety violations, port security gaps, and sexual assault cover-ups at the Air Force Academy.",
+            "keywords": [
+                "investigation",
+                "database",
+                "awards"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "MAPPING The latest uses of mapping in news reporting. Spotting sex offenders",
+            "author_name": "Tisha Thompson",
+            "author_title": "WMAR-Baltimore",
+            "summary": "A journalist describes using Microsoft MapPoint to map Maryland's sex offender registry data, identifying clusters near schools and highlighting the technical challenges of converting Windows-based mapping software for use in television graphics.",
+            "keywords": [
+                "mapping",
+                "offenders",
+                "software"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "EDUCATION Scholarship program takes from the poor",
+            "author_name": "Maurice Tamman",
+            "author_title": "The Atlanta Journal-Constitution",
+            "summary": "Georgia's HOPE scholarship program, funded by lottery revenues, has distributed $2.1 billion to 700,000 students but faces financial sustainability challenges and criticism for disproportionately benefiting wealthy, white communities while being subsidized by lottery players in poor and minority neighborhoods.",
+            "keywords": [
+                "lottery",
+                "scholarship",
+                "inequality"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "June",
+            "headline": "Tech tip... Making a point with geocoding",
+            "author_name": "Holly Hacker",
+            "author_title": "IRE and NICAR",
+            "summary": "A KIRO-Seattle investigation using GIS analysis and geocoding discovered that over 600 sex offenders in Washington state live within 100 yards of licensed day-care centers, violating state law. The article explains how geocoding technology converts street addresses into geographic coordinates to map and analyze spatial relationships between offenders and childcare facilities.",
+            "keywords": [
+                "geocoding",
+                "offenders",
+                "investigation"
+            ]
         }
     ]
 }

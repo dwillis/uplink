@@ -1,13 +1,69 @@
 {
-    "year": 1990,
-    "month": "December",
-    "headline": "Fatal Flaws, Death by Device",
-    "author_name": "David Hinchman",
-    "author_title": "Investigative Reporter",
-    "summary": "The investigative report reveals a significant number of malfunctions in medical devices, particularly defibrillators manufactured by Physio Control Corp., leading to patient deaths and injuries.",
-    "keywords": [
-        "medical devices",
-        "defibrillators",
-        "malfunctions"
+    "stories": [
+        {
+            "year": 1990,
+            "month": "December",
+            "headline": "Fatal Flaws, Death by Device",
+            "author_name": "David Hinchman",
+            "author_title": "Investigative Reporter",
+            "summary": "The investigative report reveals a significant number of malfunctions in medical devices, particularly defibrillators manufactured by Physio Control Corp., leading to patient deaths and injuries.",
+            "keywords": [
+                "medical devices",
+                "defibrillators",
+                "malfunctions"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "December",
+            "headline": "National Weather Dis-Service",
+            "author_name": "Valerie Brunell",
+            "author_title": "",
+            "summary": "Cleveland Plain Dealer reporters Bill Sloat and Keith Epstein investigated the National Weather Service's accuracy in issuing severe weather warnings after a deadly Ohio flood, discovering that the service fails to warn of most dangerous weather events by analyzing government databases and records. The pair found that the weather service misses more than two-thirds of tornadoes, three-fifths of flash floods, and 40 percent of severe thunderstorms annually.",
+            "keywords": [
+                "weather",
+                "warnings",
+                "accuracy"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "December",
+            "headline": "Plugging In",
+            "author_name": "Susan Drumheller",
+            "author_title": "",
+            "summary": "Greg Reeves of the Kansas City Star shares his experiences implementing computer-assisted reporting, discussing the software and hardware challenges he faced, the efficiency gains achieved through better data processing tools, and the importance of verifying data accuracy before publication.",
+            "keywords": [
+                "software",
+                "database",
+                "verification"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "December",
+            "headline": "Taxing Investigation in Palm Beach",
+            "author_name": "Michele Ward",
+            "author_title": "",
+            "summary": "The Palm Beach Post's investigation of over 22,000 property records revealed systemic inequities in how the county appraiser assessed homes, with expensive properties undervalued and cheaper homes overtaxed. The database-driven series prompted widespread challenges to assessments and led to a state audit that confirmed numerous errors in the appraisal office.",
+            "keywords": [
+                "assessments",
+                "taxation",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "December",
+            "headline": "Datacore News",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Datacore, launching in January, is an online database service that enables reporters to access government records including Census data and Federal Elections Commission records through a modem connection. The service allows journalists to obtain exclusive access to computer tapes containing campaign contribution records and other publicly available information.",
+            "keywords": [
+                "database",
+                "government",
+                "reporters"
+            ]
+        }
     ]
 }

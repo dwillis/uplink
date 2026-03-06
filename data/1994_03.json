@@ -1,13 +1,30 @@
 {
-    "year": 1994,
-    "month": 3,
-    "headline": "Dining on eatery data",
-    "author_name": "Dan Browning",
-    "author_title": "Reporter",
-    "summary": "The St. Louis Post-Dispatch uses computer-assisted reporting to analyze restaurant health inspection data, revealing that despite high average scores, critical violations are not uncommon and can pose health risks.",
-    "keywords": [
-        "restaurant",
-        "health",
-        "inspection"
+    "stories": [
+        {
+            "year": 1994,
+            "month": 3,
+            "headline": "Dining on eatery data",
+            "author_name": "Dan Browning",
+            "author_title": "Reporter",
+            "summary": "The St. Louis Post-Dispatch uses computer-assisted reporting to analyze restaurant health inspection data, revealing that despite high average scores, critical violations are not uncommon and can pose health risks.",
+            "keywords": [
+                "restaurant",
+                "health",
+                "inspection"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "March",
+            "headline": "EEOC data is goldmine for job stories",
+            "author_name": "Thomas Monnay",
+            "author_title": "",
+            "summary": "A Wall Street Journal investigation of EEOC employment data from over 40 million workers revealed that Black workers were the only ethnic group to suffer net job losses during the 1990-91 recession, losing 59,479 jobs while other groups gained employment. The analysis, which required extensive FOIA requests and verification calls to 400 major federal contractors, has prompted civil rights leaders and a congressional investigation into the companies involved.",
+            "keywords": [
+                "employment",
+                "recession",
+                "discrimination"
+            ]
+        }
     ]
 }

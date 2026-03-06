@@ -38,6 +38,175 @@
                 "overdose",
                 "doctors"
             ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Fresh consumer product data",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Journalists can access the U.S. Consumer Product Safety Commission's Injury and Death database through IRE and NICAR to investigate injuries caused by consumer products like space heaters and turkey fryers. The database includes detailed victim information and incident data to help identify product-related hazards.",
+            "keywords": [
+                "database",
+                "injuries",
+                "products"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Tangled webs",
+            "author_name": "",
+            "author_title": "",
+            "summary": "IRE and NICAR are exploring social network analysis as a tool for journalists to visualize relationships between individuals, businesses, and institutions, a technique long used by law enforcement and other professionals. The Washington Post demonstrated its effectiveness in 2003 when investigating visa mill language schools.",
+            "keywords": [
+                "analysis",
+                "relationships",
+                "journalism"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Getting set for election coverage",
+            "author_name": "David Herzog",
+            "author_title": "NICAR and Missouri School of Journalism",
+            "summary": "This article guides journalists on using computer-assisted reporting (CAR) to cover 2024 elections, highlighting campaign finance data analysis as a key resource. It promotes IRE's campaign finance resources, training opportunities, and a comprehensive beat book to help reporters uncover compelling political stories.",
+            "keywords": [
+                "elections",
+                "campaign",
+                "reporting"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Upcoming hands-on CAR training",
+            "author_name": "",
+            "author_title": "",
+            "summary": "IRE and NICAR offer computer-assisted reporting (CAR) training programs including weeklong boot camps in Columbia, Missouri and hands-on classes at their annual conference, designed for journalists at all levels to learn data analysis and electronic information gathering skills.",
+            "keywords": [
+                "training",
+                "journalism",
+                "databases"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Mapping a new look at presidential results",
+            "author_name": "Robert David Sullivan",
+            "author_title": "CommonWealth",
+            "summary": "CommonWealth magazine created 'Beyond Red & Blue,' an interactive report that maps 10 distinct political regions across the United States by analyzing county-level election data and Census information. The project involved compiling presidential election results into Excel spreadsheets and using GIS mapping software to identify voting patterns that cross traditional state boundaries.",
+            "keywords": [
+                "elections",
+                "mapping",
+                "analysis"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Baby dentistry",
+            "author_name": "",
+            "author_title": "",
+            "summary": "IRE and NICAR's Database Library partnered with WCNC Charlotte to analyze Medicaid data, uncovering that pediatric dentists were performing unnecessary root canals on babies at disproportionately high rates in major metropolitan areas. The investigation won a Scripps Howard Foundation national journalism award for excellence in electronic media.",
+            "keywords": [
+                "Medicaid",
+                "dentistry",
+                "investigation"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "News resources",
+            "author_name": "Art Golab",
+            "author_title": "Chicago Sun-Times",
+            "summary": "IRE's 'In the News' web pages provide journalists with useful databases, publications, and internet resources to add depth to breaking news stories, such as DOT databases for reporting on accidents like the tanker truck incident near Baltimore.",
+            "keywords": [
+                "journalism",
+                "databases",
+                "resources"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Principals cash in on sick pay",
+            "author_name": "Art Golab",
+            "author_title": "Chicago Sun-Times",
+            "summary": "Chicago Public Schools teachers and principals could legally collect up to 315 days of unused sick pay in their final year, allowing some administrators to earn significantly more than state officials, which reporters discovered through computer-assisted reporting after analyzing state salary data.",
+            "keywords": [
+                "compensation",
+                "investigation",
+                "database"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Response times fall short",
+            "author_name": "Enric Volante",
+            "author_title": "(Tucson) Arizona Daily Star",
+            "summary": "The Arizona Daily Star investigated ambulance response times in Tucson using geographic information system software and public records data, revealing that emergency services frequently failed to meet the eight-minute response goal recommended by industry standards.",
+            "keywords": [
+                "ambulance",
+                "response",
+                "investigation"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Sprawl outpaces private ambulances",
+            "author_name": "Jeff Sonderman",
+            "author_title": "Missouri School of Journalism",
+            "summary": "A journalist describes the process of investigating emergency response times in their community by obtaining and analyzing three years of 911 dispatch data, overcoming HIPAA privacy restrictions, and using mapping and database tools to identify patterns and performance issues.",
+            "keywords": [
+                "emergency",
+                "response",
+                "data"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "askSam tames the data clutter",
+            "author_name": "Bonnie Britt",
+            "author_title": "Freelance",
+            "summary": "askSam is a flexible archiving and database program that allows journalists and investigators to organize and search large amounts of structured and unstructured data without forcing information into rigid fields, making it ideal for managing research and evidence.",
+            "keywords": [
+                "database",
+                "journalists",
+                "search"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Xandros: Switching from Windows",
+            "author_name": "Aron Pilhofer",
+            "author_title": "Center for Public Integrity",
+            "summary": "A journalist frustrated by Windows security vulnerabilities, particularly the Mydoom virus, decides to switch to Linux as their primary operating system and evaluates various Linux distributions, ultimately considering Xandros as a user-friendly option designed for Windows users.",
+            "keywords": [
+                "virus",
+                "Linux",
+                "Windows"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "March",
+            "headline": "Curl-ing apart Web documents",
+            "author_name": "Derek Willis",
+            "author_title": "Center for Public Integrity",
+            "summary": "Curl is a free command-line utility that helps journalists efficiently download large datasets from websites by automating batch downloads of pages with consistent URL patterns, eliminating the need for manual clicking through multiple pages.",
+            "keywords": [
+                "curl",
+                "download",
+                "database"
+            ]
         }
     ]
 }

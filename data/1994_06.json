@@ -1,13 +1,30 @@
 {
-    "year": 1994,
-    "month": "June",
-    "headline": "Quick Queries Make Reporter's Life Easier",
-    "author_name": "Kenton Robinson",
-    "author_title": "The Hartford Courant",
-    "summary": "Kenton Robinson shares his experiences using online services and ProfNet to streamline reporting, emphasizing the efficiency and breadth of information available for journalism.",
-    "keywords": [
-        "online services",
-        "ProfNet",
-        "reporting"
+    "stories": [
+        {
+            "year": 1994,
+            "month": "June",
+            "headline": "Quick Queries Make Reporter's Life Easier",
+            "author_name": "Kenton Robinson",
+            "author_title": "The Hartford Courant",
+            "summary": "Kenton Robinson shares his experiences using online services and ProfNet to streamline reporting, emphasizing the efficiency and breadth of information available for journalism.",
+            "keywords": [
+                "online services",
+                "ProfNet",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1994,
+            "month": "June",
+            "headline": "Fed or Med? You can find it online",
+            "author_name": "Beth Marchak",
+            "author_title": "The Plain Dealer",
+            "summary": "FedWorld, a government online database launched in 1993, has become a useful resource for journalists covering the White House and federal issues, while the Internet also offers specialized medical newsletters on topics like RSI, Lyme Disease, and cancer that can help reporters develop stories.",
+            "keywords": [
+                "database",
+                "journalists",
+                "medical"
+            ]
+        }
     ]
 }

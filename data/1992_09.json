@@ -1,13 +1,30 @@
 {
-    "year": 1992,
-    "month": "September",
-    "headline": "The Seductive Technology: A Story of Failure and Four Myths That Made It Possible",
-    "author_name": "Ronald Campbell",
-    "author_title": "The Orange County Register",
-    "summary": "This report delves into the challenges faced in investigating bus safety in California, highlighting the limitations and seductive allure of relying on technology for journalism. The story critiques journalistic myths that lead to a prolonged investigation ultimately revealing less substantial findings than anticipated.",
-    "keywords": [
-        "technology",
-        "journalism",
-        "failure"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "September",
+            "headline": "The Seductive Technology: A Story of Failure and Four Myths That Made It Possible",
+            "author_name": "Ronald Campbell",
+            "author_title": "The Orange County Register",
+            "summary": "This report delves into the challenges faced in investigating bus safety in California, highlighting the limitations and seductive allure of relying on technology for journalism. The story critiques journalistic myths that lead to a prolonged investigation ultimately revealing less substantial findings than anticipated.",
+            "keywords": [
+                "technology",
+                "journalism",
+                "failure"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "September",
+            "headline": "Problem Solving at U.S. News and World Report",
+            "author_name": "John Bare",
+            "author_title": "Ph.D. candidate at the University of North Carolina-Chapel Hill",
+            "summary": "U.S. News and World Report used computer-assisted reporting to investigate medical devices through FDA data, discovering significant obstacles including duplicate records and unstructured text fields that prevented proper data analysis.",
+            "keywords": [
+                "database",
+                "FDA",
+                "implants"
+            ]
+        }
     ]
 }

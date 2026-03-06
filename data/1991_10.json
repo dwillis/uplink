@@ -1,13 +1,43 @@
 {
-    "year": 1991,
-    "month": "October",
-    "headline": "Newsroom conflict: Anything can (and possibly will) go wrong when too many DPs work with your data",
-    "author_name": "Jerry Uhrhammer",
-    "author_title": "Tacoma Morning News Tribune",
-    "summary": "Explores the challenges faced by newsrooms in maintaining control over computer-assisted reporting projects and navigating technical bureaucracy.",
-    "keywords": [
-        "newsroom",
-        "data",
-        "conflict"
+    "stories": [
+        {
+            "year": 1991,
+            "month": "October",
+            "headline": "Newsroom conflict: Anything can (and possibly will) go wrong when too many DPs work with your data",
+            "author_name": "Jerry Uhrhammer",
+            "author_title": "Tacoma Morning News Tribune",
+            "summary": "Explores the challenges faced by newsrooms in maintaining control over computer-assisted reporting projects and navigating technical bureaucracy.",
+            "keywords": [
+                "newsroom",
+                "data",
+                "conflict"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "October",
+            "headline": "'Daily News' links up with county: Info access just a few keystrokes away",
+            "author_name": "Jim Ripley",
+            "author_title": "Dayton Daily News",
+            "summary": "The Dayton Daily News gained direct computer access to Montgomery County records, enabling reporters to quickly investigate property taxes, court documents, and other public filings, which proved invaluable for breaking stories about a financially troubled department store and a fraudulent immigration attorney.",
+            "keywords": [
+                "access",
+                "records",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1991,
+            "month": "October",
+            "headline": "Bringing the classroom to the newsroom by providing computer training to reporters, The News & Observer keeps edge on competitors",
+            "author_name": "Lisa Touye",
+            "author_title": "MICAR",
+            "summary": "The News and Observer in Raleigh democratized computer-assisted reporting by training all interested staff members, from interns to veterans, to routinely use databases as part of their reporting process. The paper's management-supported approach and affordable database acquisition have made data analysis a standard tool across the newsroom rather than a specialized skill.",
+            "keywords": [
+                "training",
+                "databases",
+                "newsroom"
+            ]
+        }
     ]
 }

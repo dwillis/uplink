@@ -1,13 +1,56 @@
 {
-    "year": 1992,
-    "month": "January",
-    "headline": "Access Denied? Register Reporters Fight Agency, Obtain Access Rights to Database",
-    "author_name": "Robert Jackson",
-    "author_title": "MICAR",
-    "summary": "Orange County Register journalists James Grimaldi and Ron Campbell faced an arduous four-month battle with a state agency to access a database. Despite initial setbacks and exorbitant fees, their persistence resulted in revised charges and procedures for accessing public data.",
-    "keywords": [
-        "database",
-        "access",
-        "journalism"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "January",
+            "headline": "Access Denied? Register Reporters Fight Agency, Obtain Access Rights to Database",
+            "author_name": "Robert Jackson",
+            "author_title": "MICAR",
+            "summary": "Orange County Register journalists James Grimaldi and Ron Campbell faced an arduous four-month battle with a state agency to access a database. Despite initial setbacks and exorbitant fees, their persistence resulted in revised charges and procedures for accessing public data.",
+            "keywords": [
+                "database",
+                "access",
+                "journalism"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "January",
+            "headline": "News & Observer challenges N.C. for access to public information",
+            "author_name": "Van Denton",
+            "author_title": "Raleigh News & Observer",
+            "summary": "North Carolina state agencies are blocking public access to government databases through denials, restrictions, and high fees, despite state public-records laws that should apply to electronic information the same as printed documents.",
+            "keywords": [
+                "databases",
+                "access",
+                "government"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "January",
+            "headline": "Morning News tackles teen violence, HUD in computer-assisted reporting project debut",
+            "author_name": "Jon Schmid",
+            "author_title": "Micar",
+            "summary": "The Dallas Morning News uses computer-assisted reporting to analyze death records and identify patterns of teen homicides in impoverished neighborhoods, while also investigating HUD scandal developers through multiple databases to reveal how little money was actually recovered in fines.",
+            "keywords": [
+                "violence",
+                "databases",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "January",
+            "headline": "Post-Dispatch reporters find HUD abuses in investigation",
+            "author_name": "Lisa Touye'",
+            "author_title": "MICAR",
+            "summary": "St. Louis Post-Dispatch reporters investigated how the city government distributed $20 million in HUD block grant funds, discovering that funding was not allocated equitably to neighborhoods in need and that the city's claims about housing spending were misleading.",
+            "keywords": [
+                "funding",
+                "neighborhoods",
+                "investigation"
+            ]
+        }
     ]
 }

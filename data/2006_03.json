@@ -64,6 +64,97 @@
                 "search",
                 "intranet"
             ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Yes, we still say \"computer-assisted reporting\"",
+            "author_name": "David Herzog",
+            "author_title": "NICAR and Missouri School of Journalism",
+            "summary": "Computer-assisted reporting remains a vital journalistic skill that goes beyond simple web searching, involving data analysis through databases and spreadsheets to uncover stories that wouldn't be apparent from surface-level web browsing.",
+            "keywords": [
+                "journalism",
+                "data",
+                "analysis"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Truck inspections",
+            "author_name": "",
+            "author_title": "",
+            "summary": "The Database Library has updated the U.S. Department of Transportation truck inspection dataset through 2004, allowing journalists to investigate truck safety violations by company, state, and cargo type. The resource enables reporting on enforcement gaps, unsafe trucking companies, and industry lobbying efforts.",
+            "keywords": [
+                "trucks",
+                "safety",
+                "violations"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Finding surprises in drug arrest files",
+            "author_name": "Liz Carey",
+            "author_title": "Community Press (Cincinnati)",
+            "summary": "A journalist describes how computer-assisted reporting training helped uncover a drug trend in a Kentucky town by analyzing police data, emphasizing that successful data journalism requires both technical skills and strong source relationships.",
+            "keywords": [
+                "data",
+                "reporting",
+                "investigation"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Covering Congress, states getting trickier",
+            "author_name": "Derek Willis",
+            "author_title": "The Washington Post",
+            "summary": "Computer-assisted reporting on elections has become more complex due to campaign finance law changes, requiring journalists to track data from multiple sources including 527 committees and state PACs beyond just the FEC database. Reporters covering 2006 elections must learn to gather and integrate federal, state, and IRS data to avoid missing important stories about campaign funding.",
+            "keywords": [
+                "elections",
+                "campaign",
+                "data"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Simplifying database full-text searches",
+            "author_name": "Brad Heath",
+            "author_title": "The Detroit News",
+            "summary": "OpenInfo is a free, open-source intranet solution that enables newsrooms to conduct simultaneous full-text searches across multiple databases without expensive tools or extensive coding, featuring customizable search forms and cross-referencing capabilities built on Apache, MySQL, and PHP.",
+            "keywords": [
+                "database",
+                "search",
+                "newsroom"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Mapping Data for News Stories",
+            "author_name": "",
+            "author_title": "",
+            "summary": "A journalist used data analysis and geocoding to map the geographic coverage of emergency warning sirens in Peoria County, finding that 97% of residents are within siren range, and also mapped schools and nursing homes to assess their siren coverage.",
+            "keywords": [
+                "sirens",
+                "geocoding",
+                "coverage"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "March-April",
+            "headline": "Network analysis of city's power lines",
+            "author_name": "Gordon Hickey, Aaron Kessler",
+            "author_title": "editor of the projects team at the Richmond Times-Dispatch; former deputy director of the Virginia Public Access Project",
+            "summary": "Journalists used UCINET network analysis software to map Richmond's power structure through board interlocks, revealing a tightly connected \"good-old-boy\" network of wealthy elites, while grappling with how to incorporate newly elected Mayor L. Douglas Wilder into their visualization.",
+            "keywords": [
+                "network",
+                "power",
+                "Richmond"
+            ]
         }
     ]
 }

@@ -1,13 +1,69 @@
 {
-    "year": 1996,
-    "month": "November",
-    "headline": "Journalists Struggle for Electronic Information Access",
-    "author_name": "Bob Anderson",
-    "author_title": "Contributor, Freedom of Information Center",
-    "summary": "This edition explores the challenges journalists face in accessing electronic data under the new Electronic FOIA Amendments. Contributors discuss the hurdles and legal interpretations that affect the availability of data, highlighting cases and examples from various states.",
-    "keywords": [
-        "FOIA",
-        "journalism",
-        "access"
+    "stories": [
+        {
+            "year": 1996,
+            "month": "November",
+            "headline": "Journalists Struggle for Electronic Information Access",
+            "author_name": "Bob Anderson",
+            "author_title": "Contributor, Freedom of Information Center",
+            "summary": "This edition explores the challenges journalists face in accessing electronic data under the new Electronic FOIA Amendments. Contributors discuss the hurdles and legal interpretations that affect the availability of data, highlighting cases and examples from various states.",
+            "keywords": [
+                "FOIA",
+                "journalism",
+                "access"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "November",
+            "headline": "Electronic FOIA Amendments get mixed review",
+            "author_name": "Bob Anderson",
+            "author_title": "Freedom of Information Center",
+            "summary": "The 1996 FOIA amendments modernize public records access by requiring federal agencies to provide electronic records in digital formats and online, while reducing response times to 20 days. Journalists and transparency advocates view the changes as potentially beneficial for accessing government databases, though some argue the provisions don't go far enough.",
+            "keywords": [
+                "FOIA",
+                "digital",
+                "transparency"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "November",
+            "headline": "Media, agencies wrangle over fees, access",
+            "author_name": "John Sullivan",
+            "author_title": "NICAR staff",
+            "summary": "Journalists face significant obstacles in accessing public records due to exorbitant fees, privacy claims, and agency resistance, forcing many to pursue legal action to obtain information.",
+            "keywords": [
+                "records",
+                "access",
+                "agencies"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "November",
+            "headline": "Excuses, excuses: No data? No dice",
+            "author_name": "Jo Craven",
+            "author_title": "NICAR Staff",
+            "summary": "Government agencies employ various tactics to deny journalists' data requests, from claiming laws are unimportant to arguing that compiling information is too resource-intensive, highlighting the challenges of accessing information in the public interest.",
+            "keywords": [
+                "transparency",
+                "bureaucracy",
+                "obstruction"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "November",
+            "headline": "Groups work to open government records",
+            "author_name": "Rosemary Armao",
+            "author_title": "IRE Executive Director",
+            "summary": "Journalistic organizations are collaborating to address barriers to FOIA access, including lengthy processing times and legal exemptions, while proposing increased penalties and public awareness campaigns to improve government transparency.",
+            "keywords": [
+                "FOIA",
+                "transparency",
+                "government"
+            ]
+        }
     ]
 }

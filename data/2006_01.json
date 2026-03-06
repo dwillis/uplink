@@ -64,6 +64,71 @@
                 "Accidents",
                 "Data"
             ]
+        },
+        {
+            "year": 2006,
+            "month": "January February",
+            "headline": "Tracking home foreclosures",
+            "author_name": "Doug Haddix",
+            "author_title": "Projects editor, The Columbus Dispatch",
+            "summary": "Columbus Dispatch reporters used GIS mapping software to visualize 12,000 foreclosed properties across Franklin County, revealing that the foreclosure crisis extended far beyond poor inner-city neighborhoods and surprising county officials with its widespread scope.",
+            "keywords": [
+                "foreclosure",
+                "mapping",
+                "journalism"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "January February",
+            "headline": "Privacy, security block access to data",
+            "author_name": "Ben Welsh",
+            "author_title": "",
+            "summary": "Journalists across the United States face increasing obstacles in obtaining federal data through Freedom of Information Act requests, with government agencies citing privacy exemptions to deny disclosure at record rates, particularly evident in Florida newspapers' battles with FEMA over hurricane relief records.",
+            "keywords": [
+                "FOIA",
+                "privacy",
+                "data"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "January February",
+            "headline": "Creating data points with Google Maps",
+            "author_name": "Maurice Tamman",
+            "author_title": "Writer on the Sarasota Herald-Tribune special projects team",
+            "summary": "A Florida newspaper used Google Maps APIs to create an interactive property tax database displaying 400,000 parcels across five counties, combining parcel coordinates with tax roll data instead of relying on expensive traditional mapping servers.",
+            "keywords": [
+                "mapping",
+                "database",
+                "interactive"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "January February",
+            "headline": "Open",
+            "author_name": "Aron Pilhofer",
+            "author_title": "Database editor, The New York Times",
+            "summary": "This article provides a step-by-step guide for using TortoiseSVN to create repository checkouts, add documents, and synchronize files across multiple computers in a newsroom environment.",
+            "keywords": [
+                "repository",
+                "synchronization",
+                "documentation"
+            ]
+        },
+        {
+            "year": 2006,
+            "month": "January February",
+            "headline": "Meth stories win first Meyer Award",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Three major journalism investigations were recognized with the inaugural Philip Meyer Awards for their use of social science methods, including expos\u00e9s on methamphetamine regulation failures, Veterans Affairs bureaucratic delays, and Florida wetland destruction.",
+            "keywords": [
+                "investigation",
+                "journalism",
+                "data"
+            ]
         }
     ]
 }

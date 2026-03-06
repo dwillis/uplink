@@ -1,13 +1,56 @@
 {
-    "year": 1996,
-    "month": "August",
-    "headline": "Getting down to business",
-    "author_name": "Neil Reisner",
-    "author_title": "NICAR staff",
-    "summary": "Neil Reisner discusses how business reporters can use computer-assisted reporting to uncover financial discrepancies and trends, emphasizing the importance of rigorous data analysis.",
-    "keywords": [
-        "computer-assisted",
-        "business",
-        "reporting"
+    "stories": [
+        {
+            "year": 1996,
+            "month": "August",
+            "headline": "Getting down to business",
+            "author_name": "Neil Reisner",
+            "author_title": "NICAR staff",
+            "summary": "Neil Reisner discusses how business reporters can use computer-assisted reporting to uncover financial discrepancies and trends, emphasizing the importance of rigorous data analysis.",
+            "keywords": [
+                "computer-assisted",
+                "business",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "August",
+            "headline": "The Rich Get Richer",
+            "author_name": "Andy Lehren",
+            "author_title": "NICAR Staff",
+            "summary": "Philadelphia's economic development aid disproportionately benefits wealthy Center City businesses over poorer neighborhoods, with SBA data revealing the city ranks 17th nationally despite being the fifth-largest.",
+            "keywords": [
+                "inequality",
+                "development",
+                "Philadelphia"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "August",
+            "headline": "Like Money in the Bank",
+            "author_name": "John Hill",
+            "author_title": "Sarasota Herald-Tribune",
+            "summary": "A 1995 Herald-Tribune investigation using HMDA data revealed that while banks claimed improvements in racial lending disparities, Black applicants actually experienced only marginal gains and higher application dropout rates, with credit becoming more concentrated along racial lines.",
+            "keywords": [
+                "lending",
+                "discrimination",
+                "mortgages"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "August",
+            "headline": "Roll Out the Barrel",
+            "author_name": "Mike Fabey",
+            "author_title": "The Journal of Commerce",
+            "summary": "An investigation into ocean shipping lines' overcharging practices claimed a $65 million rate rollback would result, but financial analysis revealed the actual savings were significantly lower than claimed. The reporting demonstrates the importance of independently verifying regulatory claims through data verification.",
+            "keywords": [
+                "shipping",
+                "investigation",
+                "verification"
+            ]
+        }
     ]
 }

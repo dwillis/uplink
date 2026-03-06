@@ -1,13 +1,43 @@
 {
-    "year": 1992,
-    "month": "December",
-    "headline": "Giving credit where credit is due",
-    "author_name": "Dan Woods",
-    "author_title": "The (Raleigh, N.C) News & Observer",
-    "summary": "The article discusses the challenges of crediting computer-assisted reporting work in newsrooms and suggests potential solutions for fair attribution.",
-    "keywords": [
-        "credit",
-        "newsroom",
-        "reporting"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "December",
+            "headline": "Giving credit where credit is due",
+            "author_name": "Dan Woods",
+            "author_title": "The (Raleigh, N.C) News & Observer",
+            "summary": "The article discusses the challenges of crediting computer-assisted reporting work in newsrooms and suggests potential solutions for fair attribution.",
+            "keywords": [
+                "credit",
+                "newsroom",
+                "reporting"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "December",
+            "headline": "Two weapons fight unfair database pricing: old-fashioned haggling and knowing the law",
+            "author_name": "Sandra Davidson Scott",
+            "author_title": "Ph.D, J.D.",
+            "summary": "Missouri's public records law caps fees for computer data access to only duplication and staff costs, resulting in much lower prices than states like Texas that allow overhead charges; agencies often quote inflated prices hoping requesters won't negotiate, but those who push back can achieve significant reductions.",
+            "keywords": [
+                "records",
+                "fees",
+                "Missouri"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "December",
+            "headline": "L.A. Times tackles Department of Transportation data",
+            "author_name": "Hsiao-Yin Hsueh",
+            "author_title": "MICAR Missouri School of Journalism",
+            "summary": "Los Angeles Times journalist Michael Parrish and computer analyst Richard O'Reilly analyzed 10 years of hazardous material transportation data from the Department of Transportation, discovering that hazmat incidents rose 37 percent between 1982-1991, with truck-related injuries soaring 374 percent.",
+            "keywords": [
+                "hazmat",
+                "analysis",
+                "transportation"
+            ]
+        }
     ]
 }

@@ -1,13 +1,69 @@
 {
-    "year": 1990,
-    "month": "November",
-    "headline": "Ohio's Toxic Avenger",
-    "author_name": "Dave Davis",
-    "author_title": "Reporter",
-    "summary": "An investigation into the harmful effects of toxic releases from Armco Steel on local communities in Ohio. The story highlights the role of the Toxic Release Inventory in unveiling pollution and its impact on public health.",
-    "keywords": [
-        "pollution",
-        "health",
-        "benzene"
+    "stories": [
+        {
+            "year": 1990,
+            "month": "November",
+            "headline": "Ohio's Toxic Avenger",
+            "author_name": "Dave Davis",
+            "author_title": "Reporter",
+            "summary": "An investigation into the harmful effects of toxic releases from Armco Steel on local communities in Ohio. The story highlights the role of the Toxic Release Inventory in unveiling pollution and its impact on public health.",
+            "keywords": [
+                "pollution",
+                "health",
+                "benzene"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "November",
+            "headline": "Washington's Secret Service",
+            "author_name": "Michele Ward",
+            "author_title": "",
+            "summary": "Crime reporter Scott North of The Herald used computer-assisted reporting and database analysis to investigate drug cases in Snohomish County, uncovering that drug offenders were demographically similar to typical residents and often received light sentences despite high conviction rates.",
+            "keywords": [
+                "drugs",
+                "database",
+                "conviction"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "November",
+            "headline": "TRI/DART Seminar News",
+            "author_name": "",
+            "author_title": "",
+            "summary": "MICAR is offering a week-long seminar on computer-assisted reporting starting January 27, teaching journalists how to obtain, download, and analyze government computer data. The quarterly training program covers technical skills, program administration, and legal considerations for using government tapes.",
+            "keywords": [
+                "training",
+                "journalism",
+                "computers"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "November",
+            "headline": "Boston Reeling-In Stories",
+            "author_name": "Paul Martin",
+            "author_title": "",
+            "summary": "The Boston Herald's computer-assisted reporting program has produced investigative studies on Massachusetts polluters and defense contractors, including findings that the state ranks third nationally in Freon use with increasing amounts being released despite known ozone-damaging effects.",
+            "keywords": [
+                "reporting",
+                "Massachusetts",
+                "environment"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "November",
+            "headline": "MICAR Library News",
+            "author_name": "",
+            "author_title": "",
+            "summary": "MICAR has expanded its data library with three new datasets from federal agencies, including FAA aircraft malfunction reports and FDA medical device incident records, all available on 9-track computer tapes for journalists.",
+            "keywords": [
+                "data",
+                "reports",
+                "databases"
+            ]
+        }
     ]
 }

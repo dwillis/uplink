@@ -1,13 +1,56 @@
 {
-    "year": 1996,
-    "month": "April",
-    "headline": "Empowering Journalists with Statistics",
-    "author_name": "Stan Dorsey",
-    "author_title": "NICAR Staff",
-    "summary": "The article explores the application of statistical techniques in journalism, aiming to enhance the field of computer-assisted reporting. It emphasizes the importance of understanding and leveraging statistical methods like linear and logistic regression, as well as reliability analysis, to make data-driven journalistic stories.",
-    "keywords": [
-        "statistics",
-        "journalism",
-        "analysis"
+    "stories": [
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "Empowering Journalists with Statistics",
+            "author_name": "Stan Dorsey",
+            "author_title": "NICAR Staff",
+            "summary": "The article explores the application of statistical techniques in journalism, aiming to enhance the field of computer-assisted reporting. It emphasizes the importance of understanding and leveraging statistical methods like linear and logistic regression, as well as reliability analysis, to make data-driven journalistic stories.",
+            "keywords": [
+                "statistics",
+                "journalism",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "SAS vs. SPSS: Playing with the big guns",
+            "author_name": "Steve Doig",
+            "author_title": "The Miami Herald",
+            "summary": "Statistical analysis software packages SAS and SPSS are expensive and complex tools with steep learning curves, but they provide powerful capabilities for advanced data analysis in computer-assisted reporting when routine methods prove insufficient.",
+            "keywords": [
+                "statistics",
+                "software",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "Looking at police stats: It ought to be a crime",
+            "author_name": "Bill Bell",
+            "author_title": "Missouri School of Journalism",
+            "summary": "Jeff Green of The Oakland Press bypassed the FBI to independently collect crime statistics directly from 60 local law enforcement agencies across Oakland County, Michigan, creating a comprehensive database that scooped competitors.",
+            "keywords": [
+                "crime",
+                "journalism",
+                "investigation"
+            ]
+        },
+        {
+            "year": 1996,
+            "month": "April",
+            "headline": "A look at widgetmaking: Economic analysis on the fly",
+            "author_name": "Neill A. Borowski",
+            "author_title": "The Philadelphia Inquirer",
+            "summary": "The article explains how location quotients serve as a crucial analytical tool for journalists to objectively measure whether a region's perceived economic strengths, such as manufacturing or financial services, are actually concentrated compared to national averages.",
+            "keywords": [
+                "location",
+                "quotient",
+                "economies"
+            ]
+        }
     ]
 }

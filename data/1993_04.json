@@ -1,13 +1,56 @@
 {
-    "year": 1993,
-    "month": "April/May",
-    "headline": "Suspicious figures",
-    "author_name": "David Armstrong",
-    "author_title": "Boston Herald",
-    "summary": "David Armstrong discusses the challenges and resistance faced when requesting public records in electronic form, highlighting instances where government cost estimates were inflated.",
-    "keywords": [
-        "records",
-        "government",
-        "cost"
+    "stories": [
+        {
+            "year": 1993,
+            "month": "April/May",
+            "headline": "Suspicious figures",
+            "author_name": "David Armstrong",
+            "author_title": "Boston Herald",
+            "summary": "David Armstrong discusses the challenges and resistance faced when requesting public records in electronic form, highlighting instances where government cost estimates were inflated.",
+            "keywords": [
+                "records",
+                "government",
+                "cost"
+            ]
+        },
+        {
+            "year": 1993,
+            "month": "April/May",
+            "headline": "CD-ROM may be the future, but don't give up your tape drive yet",
+            "author_name": "Deirdre Fleming",
+            "author_title": "Missouri School of Journalism MICAR",
+            "summary": "Government agencies are transitioning from nine-track tapes to new storage technologies, with CD-ROMs and automatic tape library systems emerging as the primary alternatives by the early 2000s to improve efficiency and reduce labor costs.",
+            "keywords": [
+                "storage",
+                "technology",
+                "government"
+            ]
+        },
+        {
+            "year": 1993,
+            "month": "April/May",
+            "headline": "Bringing computer-assisted reporting to every reporter's repertoire",
+            "author_name": "Tom Foster",
+            "author_title": "The Post-Standard Syracuse, N.Y.",
+            "summary": "The Post-Standard in Syracuse has democratized computer-assisted reporting by making data access easy and intuitive for all reporters, enabling daily use of databases for source-finding, fact-checking, and story details rather than limiting such tools to specialized projects. By prioritizing user-friendly interfaces through customized programs and familiar tools like electronic phone directories, the newspaper has integrated database resources into routine newsroom operations.",
+            "keywords": [
+                "databases",
+                "reporting",
+                "newsroom"
+            ]
+        },
+        {
+            "year": 1993,
+            "month": "April/May",
+            "headline": "The National Law Journal uncovers injustice in environmental cleanup",
+            "author_name": "Kelly Devine",
+            "author_title": "Missouri School of Journalism MICAR",
+            "summary": "The National Law Journal's investigative project revealed that the EPA has enforced environmental protection laws unequally, cleaning up toxic waste sites faster in white communities while allowing pollution to persist in minority neighborhoods. The reporters overcame significant government data access barriers to conduct computer-assisted analysis demonstrating this racial divide in environmental law enforcement.",
+            "keywords": [
+                "pollution",
+                "discrimination",
+                "environment"
+            ]
+        }
     ]
 }

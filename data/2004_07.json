@@ -64,6 +64,84 @@
                 "teachers",
                 "demographics"
             ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "AIR SAFETY Data shows maintenance problems with planes",
+            "author_name": "Ted Mellnik",
+            "author_title": "The Charlotte Observer",
+            "summary": "A Charlotte Observer investigation reveals that airline maintenance problems have become a significant factor in fatal crashes, contributing to 42 percent of fatal accidents since 1994, with inadequate oversight and cost-cutting measures compromising safety.",
+            "keywords": [
+                "maintenance",
+                "crashes",
+                "oversight"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "IRE AWARDS Newspaper winners bank on CAR",
+            "author_name": "Andrea Lorenz",
+            "author_title": "IRE and NICAR",
+            "summary": "The article showcases winners and finalists from IRE's annual investigative reporting contest that used computer-assisted reporting, featuring newspaper investigations into pharmaceutical fraud, conflicts of interest at medical research institutions, and military mismanagement of abuse cases.",
+            "keywords": [
+                "investigation",
+                "database",
+                "journalism"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "MAPPING The latest uses of mapping in news reporting. Housing prices on rise",
+            "author_name": "Matthew Waite",
+            "author_title": "St. Petersburg Times",
+            "summary": "The St. Petersburg Times used geographic information systems and home sales data from five counties to analyze Tampa Bay's rapidly escalating housing market, finding that median home prices have risen dramatically from matching Wichita to matching Dallas levels. The analysis involved creating over 300 neighborhood boundaries and mapping price changes at a granular local level rather than relying on broader real estate association reports.",
+            "keywords": [
+                "housing",
+                "analysis",
+                "neighborhoods"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "SPOTLIGHT: REAL ESTATE Finding faults in new homes",
+            "author_name": "Katy Miller",
+            "author_title": "Orlando Sentinel",
+            "summary": "The Orlando Sentinel and WESH-Orlando investigated construction quality in central Florida's new homes, discovering thousands of defects, and created a Microsoft Access database to analyze inspection data from homes built in 2001.",
+            "keywords": [
+                "construction",
+                "database",
+                "inspection"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "CAR TOOL Vigilant program tracks Web changes",
+            "author_name": "Sarah Cohen",
+            "author_title": "The Washington Post",
+            "summary": "Website Watcher is a monitoring tool that helps journalists track changes to websites, such as FEC campaign finance filings, by ignoring irrelevant updates like timestamps and alerting users only to substantive changes.",
+            "keywords": [
+                "journalism",
+                "monitoring",
+                "automation"
+            ]
+        },
+        {
+            "year": 2004,
+            "month": "July-August",
+            "headline": "Tech tip PDF to text using XPDF",
+            "author_name": "Derek Willis",
+            "author_title": "Center for Public Integrity",
+            "summary": "Xpdf is a free command-line utility that allows journalists to easily extract text and tables from PDF files and convert them to usable formats like Excel, saving significant time compared to manual copying and pasting methods.",
+            "keywords": [
+                "PDF",
+                "extraction",
+                "tool"
+            ]
         }
     ]
 }

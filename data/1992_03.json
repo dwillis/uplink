@@ -1,13 +1,69 @@
 {
-    "year": 1992,
-    "month": "March",
-    "headline": "Clear road ahead?",
-    "author_name": "Jon Schmid",
-    "author_title": "MICAR",
-    "summary": "Discussion of improvements in cable and hardware to resolve tape drive issues faced by reporters.",
-    "keywords": [
-        "tape drive",
-        "data",
-        "Qualstar"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "March",
+            "headline": "Clear road ahead?",
+            "author_name": "Jon Schmid",
+            "author_title": "MICAR",
+            "summary": "Discussion of improvements in cable and hardware to resolve tape drive issues faced by reporters.",
+            "keywords": [
+                "tape drive",
+                "data",
+                "Qualstar"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "March",
+            "headline": "Loeb selected for Scripps-Howard award",
+            "author_name": "",
+            "author_title": "",
+            "summary": "Investigative reporter Penny Loeb and data analyst Tom Braden have been named co-recipients of the Roy W. Howard Public Service Award for their Newsday series exposing problems in New York City's tax collection and billing, resulting in $275 million in refunds owed to property owners.",
+            "keywords": [
+                "investigation",
+                "journalism",
+                "award"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "March",
+            "headline": "Linking up: Mercury News finds that criminal justice isn't 'color blind'",
+            "author_name": "Christopher H. Schmitt",
+            "author_title": "San Jose Mercury News",
+            "summary": "A San Jose Mercury News computer-assisted analysis of nearly 700,000 California criminal cases over nine years found that white defendants receive significantly better plea bargain deals than Hispanic or Black defendants accused of similar crimes. The study revealed racial disparities at virtually every stage of pretrial negotiation, with whites more successful at getting charges dropped or reduced.",
+            "keywords": [
+                "sentencing",
+                "discrimination",
+                "plea"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "March",
+            "headline": "Ohio newspapers battle for state drivers license data",
+            "author_name": "Bryan Edwards",
+            "author_title": "MICAR",
+            "summary": "Two Ohio newspapers, the Dayton Daily News and Akron Beacon-Journal, simultaneously requested the same massive state drivers records database from the Ohio DMV, each facing significant technical challenges in analyzing the 60 million records using different computer systems and outdated equipment.",
+            "keywords": [
+                "databases",
+                "newspapers",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "March",
+            "headline": "For discussion: Rape series points out serious flaws in system",
+            "author_name": "Shey Wessol",
+            "author_title": "MICAR",
+            "summary": "A Minneapolis Star-Tribune investigation found that nearly one-third of rapists who underwent Minnesota's treatment programs were re-arrested within three years, compared to a one-quarter return rate for those who served jail sentences, raising questions about the state's sentencing and treatment procedures for sex offenders.",
+            "keywords": [
+                "recidivism",
+                "treatment",
+                "investigation"
+            ]
+        }
     ]
 }

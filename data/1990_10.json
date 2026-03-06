@@ -1,13 +1,30 @@
 {
-    "year": 1990,
-    "month": "October",
-    "headline": "Ghostbusting in East St. Louis",
-    "author_name": "George Landau",
-    "author_title": "Computer-assisted reporting specialist for the St. Louis Post-Dispatch",
-    "summary": "George Landau and Tim Novak investigated voter fraud in East St. Louis using computer-assisted methods, uncovering hundreds of names of deceased or fictitious voters registered to vote.",
-    "keywords": [
-        "voter fraud",
-        "East St. Louis",
-        "computer-assisted reporting"
+    "stories": [
+        {
+            "year": 1990,
+            "month": "October",
+            "headline": "Ghostbusting in East St. Louis",
+            "author_name": "George Landau",
+            "author_title": "Computer-assisted reporting specialist for the St. Louis Post-Dispatch",
+            "summary": "George Landau and Tim Novak investigated voter fraud in East St. Louis using computer-assisted methods, uncovering hundreds of names of deceased or fictitious voters registered to vote.",
+            "keywords": [
+                "voter fraud",
+                "East St. Louis",
+                "computer-assisted reporting"
+            ]
+        },
+        {
+            "year": 1990,
+            "month": "October",
+            "headline": "PLUGGING IN: THE HARTFORD CONNECTION",
+            "author_name": "Brant Houston and Kenton Robinson",
+            "author_title": "Reporter and Editor",
+            "summary": "The article provides eight practical tips for journalists introducing computer-assisted reporting to newsrooms, including learning technical language, understanding hardware/software needs, educating editors and colleagues, securing funding, and working collaboratively.",
+            "keywords": [
+                "reporting",
+                "computers",
+                "journalists"
+            ]
+        }
     ]
 }

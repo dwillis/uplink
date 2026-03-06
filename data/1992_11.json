@@ -1,13 +1,147 @@
 {
-    "year": 1992,
-    "month": "November",
-    "headline": "Pursuing the paper trail",
-    "author_name": "Jerry Uhrhammer",
-    "author_title": "The Morning News Tribune",
-    "summary": "Washington state reporters used computer data to uncover government negligence, with taxpayers paying over $76 million in settlements due to employee misconduct.",
-    "keywords": [
-        "government",
-        "negligence",
-        "data"
+    "stories": [
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "Pursuing the paper trail",
+            "author_name": "Jerry Uhrhammer",
+            "author_title": "The Morning News Tribune",
+            "summary": "Washington state reporters used computer data to uncover government negligence, with taxpayers paying over $76 million in settlements due to employee misconduct.",
+            "keywords": [
+                "government",
+                "negligence",
+                "data"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Looking into the deepest pockets",
+            "author_name": "Rick Mendosa and Sarah Acosta",
+            "author_title": "Hispanic Business",
+            "summary": "Hispanic political contributions to congressional, presidential, and party candidates have more than tripled over three presidential elections, with a disproportionate amount from Florida going to Republicans in the current cycle.",
+            "keywords": [
+                "Hispanic",
+                "contributions",
+                "Republicans"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Senate race ante up to $1 million",
+            "author_name": "Dan Popkey",
+            "author_title": "The Idaho Statesman",
+            "summary": "Reporter Dan Popkey analyzed FEC data to reveal that Republican Senate candidate Dirk Kempthorne raised twice as much money from PACs as his opponent, contradicting his campaign message against politics as usual, with funding primarily from timber and mining interests versus his opponent's labor and agriculture support.",
+            "keywords": [
+                "campaign",
+                "fundraising",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Bush holds big lead in corporate donations",
+            "author_name": "Lance Williams",
+            "author_title": "Francisco Examiner",
+            "summary": "A computer-assisted analysis of FEC records reveals that Republicans raised nearly three times more soft money than Democrats in California through June, with particularly large donations from energy, agribusiness, and real estate interests supporting policies favorable to their industries.",
+            "keywords": [
+                "fundraising",
+                "donations",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "Paying attention to political influences",
+            "author_name": "Thomas Huang and Alex Marshall",
+            "author_title": "The Virginian Pilot and the Ledger-Star",
+            "summary": "A Virginia Pilot/Ledger Star investigation used computer analysis of FEC campaign contribution data to demonstrate the correlation between PAC donations and congressional voting patterns. Reporter Tom Boyer recommends integrating campaign finance data into routine political coverage as a way to increase transparency and accountability.",
+            "keywords": [
+                "money",
+                "contributions",
+                "influence"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "Bush slipped in suburbs",
+            "author_name": "Ted Mellnik and Allen Norwood",
+            "author_title": "The Charlotte Observer",
+            "summary": "The Observer analyzed North Carolina's 1990 census data alongside precinct-level election results to demonstrate that George Bush's support declined more sharply in urban and suburban areas than rural ones, with upper-income voters shifting to Perot and middle-class voters to Clinton.",
+            "keywords": [
+                "election",
+                "demographics",
+                "analysis"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "October",
+            "headline": "The politics of reform",
+            "author_name": "Patti Epler",
+            "author_title": "The (Tacoma, Wash.) Morning News Tribune",
+            "summary": "The News Tribune used computer analysis of campaign finance data to demonstrate that Washington's Initiative-134 would disproportionately harm Democratic candidates by reducing labor union contributions by $1.2 million compared to Republican losses of $800,000.",
+            "keywords": [
+                "initiative",
+                "campaign",
+                "financing"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "New bill promises access to federal databases",
+            "author_name": "Suzanne Langlois",
+            "author_title": "MICAR Missouri School of Journalism",
+            "summary": "Pending legislation to make government data more accessible online through the Government Printing Office has been approved by the House Administration Committee, though commercial data vendors have lobbied to narrow its scope by reducing funding and limiting the range of information available.",
+            "keywords": [
+                "legislation",
+                "government",
+                "online"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "Unraveling those mysterious string functions",
+            "author_name": "George Landau",
+            "author_title": "St. Louis Post-Dispatch",
+            "summary": "This article explains how string functions in database managers and spreadsheets can standardize and match data across different sources by allowing journalists to split, extract, and manipulate text fields.",
+            "keywords": [
+                "database",
+                "functions",
+                "journalism"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "OSHA DATA analyzes information for you",
+            "author_name": "",
+            "author_title": "",
+            "summary": "OSHA DATA is a New Jersey-based service that analyzes Occupational Safety and Health Administration records for insurance companies, offering background checks starting at $195 with discounted rates for frequent use, while also providing specialized database searches and interpretation of OSHA violations data.",
+            "keywords": [
+                "safety",
+                "insurance",
+                "database"
+            ]
+        },
+        {
+            "year": 1992,
+            "month": "November",
+            "headline": "New M.E. furnishes a PC-friendly newsroom in Chicago",
+            "author_name": "",
+            "author_title": "",
+            "summary": "New Chicago Sun-Times managing editor Julia Wallace, who pioneered computer-assisted reporting at USA Today, aims to bring data analysis capabilities into the newsroom through a planned PC-based network conversion. Wallace views advanced reporting technology as now essential for competitive newspapers rather than a luxury.",
+            "keywords": [
+                "technology",
+                "reporting",
+                "journalism"
+            ]
+        }
     ]
 }

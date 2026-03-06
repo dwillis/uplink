@@ -194,7 +194,7 @@ def merge_into_data_file(filepath, new_entries):
 def main():
     parser = argparse.ArgumentParser(description="Generate summaries for unmatched articles and merge into data files")
     parser.add_argument("--dry-run", action="store_true", help="Just show unmatched articles, don't call LLM")
-    parser.add_argument("--model", default="anthropic/claude-3-5-haiku-latest", help="LLM model to use")
+    parser.add_argument("--model", default="claude-haiku-4.5", help="LLM model to use")
     args = parser.parse_args()
 
     unmatched, total, matched_count = find_unmatched()

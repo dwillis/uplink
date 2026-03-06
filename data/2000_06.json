@@ -1,13 +1,30 @@
 {
-    "year": 2000,
-    "month": "June",
-    "headline": "A taxing issue",
-    "author_name": "Richard Dalton",
-    "author_title": "Newsday",
-    "summary": "Fifteen years after an investigation into racial disparities in Long Island's property taxes, Newsday revisits the topic, finding persistent systemic issues. A shift to market value assessments is spurred by fiscal pressures.",
-    "keywords": [
-        "property taxes",
-        "racial disparity",
-        "assessment"
+    "stories": [
+        {
+            "year": 2000,
+            "month": "June",
+            "headline": "A taxing issue",
+            "author_name": "Richard Dalton",
+            "author_title": "Newsday",
+            "summary": "Fifteen years after an investigation into racial disparities in Long Island's property taxes, Newsday revisits the topic, finding persistent systemic issues. A shift to market value assessments is spurred by fiscal pressures.",
+            "keywords": [
+                "property taxes",
+                "racial disparity",
+                "assessment"
+            ]
+        },
+        {
+            "year": 2000,
+            "month": "June",
+            "headline": "Death and dollars",
+            "author_name": "Debbie Cenziper",
+            "author_title": "The Charlotte Observer",
+            "summary": "The Charlotte Observer investigated deaths in North Carolina mental health facilities by analyzing death certificate data, uncovering a lack of oversight that allowed dangerous trends and negligent caregiving to go undetected in both public and private psychiatric institutions.",
+            "keywords": [
+                "deaths",
+                "investigation",
+                "oversight"
+            ]
+        }
     ]
 }

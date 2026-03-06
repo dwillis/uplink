@@ -1,13 +1,30 @@
 {
-    "year": 1999,
-    "month": "October",
-    "headline": "CAR HELPS UNCOVER THE DETAILS - Kennedy crash",
-    "author_name": "Andy Lehren",
-    "author_title": "Dateline NBC",
-    "summary": "An in-depth analysis of John F. Kennedy Jr.'s plane crash using aviation databases to explore potential causes, highlighting spatial disorientation and pilot error.",
-    "keywords": [
-        "Kennedy",
-        "aviation",
-        "crash"
+    "stories": [
+        {
+            "year": 1999,
+            "month": "October",
+            "headline": "CAR HELPS UNCOVER THE DETAILS - Kennedy crash",
+            "author_name": "Andy Lehren",
+            "author_title": "Dateline NBC",
+            "summary": "An in-depth analysis of John F. Kennedy Jr.'s plane crash using aviation databases to explore potential causes, highlighting spatial disorientation and pilot error.",
+            "keywords": [
+                "Kennedy",
+                "aviation",
+                "crash"
+            ]
+        },
+        {
+            "year": 1999,
+            "month": "October",
+            "headline": "ANALYZING MEDICAL DATA - Transplant Disparity",
+            "author_name": "Kevin McCoy",
+            "author_title": "New York Daily News",
+            "summary": "A New York Daily News investigation using UNOS transplant data revealed that African-American and Latino patients in the New York City area receive fewer heart, liver, and lung transplants despite higher disease rates, with African-Americans facing the longest kidney transplant waits in the nation.",
+            "keywords": [
+                "transplants",
+                "disparity",
+                "minorities"
+            ]
+        }
     ]
 }
