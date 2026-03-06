@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIRST VENTURE New-teacher data boosts narrative project — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>FIRST VENTURE New-teacher data boosts narrative project</h1>
+    <div class="article-byline">
+      <span class="author">Tara McLain</span>
+      <span class="author-title">Statesman Journal (Salem, Ore.)</span>
+      <span class="date">July-August 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/education.html" class="badge">Education</a></div>
+  </header>
+
+  <div class="article-summary"><p>I was several weeks into my narra- tive project that involved following a college student through 10 weeks of student teaching. The student was 54 years old and teaching was his third career. Not a no...</p></div>
+
+  <div class="article-body">
+    <p>I was several weeks into my narra- tive project that involved following a college student through 10 weeks of student teaching. The student was 54 years old and teaching was his third career. Not a normal situation - so I thought. The data told me otherwise. After attending an IRE and NICAR Boot Camp this year, I figured I could bolster my story with some statistics about how rare it is for older people to go into teaching.</p>
+<p>I called the Or- egon Teaching and Standards Prac- tices Commission. Just as I learned in Boot Camp, the spokeswoman didn&#39;t know the data and the data guy didn&#39;t know policy. After a lot of conversation and get- ting a few sets of data with the wrong categories, the data guy e-mailed a Microsoft Excel file containing infor- mation about the 10,000 teacher li- censes given out last year. The col- umns of data included the teacher&#39;s name, school district, date of birth, date the license was issued and the type of license.</p>
+<p>Then I got back on the phone with the spokeswoman and found out just a few of the dozens of types of licenses are given to new classroom teachers. The rest were renewals or went to princi- pals or many other variations. I used Excel to filter and sort my way to the new teachers. Then I needed to calculate their ages when they got the license. Here&#39;s where a second lesson from Boot Camp came true: The program doesn&#39;t know the difference between dates, numbers and text unless you tell it the difference.</p>
+<p>I wrote a formula for Excel to subtract the date of license from the date of birth. It gave me a huge number. Excel thinks in days, so I divided the number by 365. Then I noticed there were some doubled, tripled, and even quadrupled, entries. I started deleting a few then scrolled down to see many more. That&#39;s where a third lesson from Boot Camp helped: There&#39;s always a shortcut. There&#39;s always a shortcut.</p>
+<p>This was my first CAR story and couldn&#39;t think of a way to search and destroy the duplicate rows. So I e- mailed Jeff Porter, the IRE and NICAR Database Library Director. He pro- vided, with lightning speed, the perfect formula. He said he stole it from some- one but couldn&#39;t remember whom. With apologies to Jeff and to the person he stole it from, here it is: =IF (AND (E2=E3, F2=F3, A2=A3, D2=D3) &quot;dup&quot; &quot;not&quot;) The formula tells Excel to compare in- formation in each column by row.</p>
+<p>If a last name, first name, date of birth and date of license were all the same in one row as the row before, it would answer &quot;dup&quot;. Then I filtered and sorted the names by duplicates and deleted them. So a fourth lesson from boot camp came true: Cleaning the data can take longer than crunching the data. Now, down to the analysis. I made a pivot table of the count of teachers by age. I got one count of each teacher.</p>
+<p>Remember the dividing by 365? Excel was looking at the age of each teacher as a decimal, although I had rounded it up, and created a cat- egory for each. | ran another formula (with the help of the research coordinator in the marketing department of our newspa- per) that stripped everything off the number except the first two digits. So 35.4332355 in column H became 35 in column I after I entered the formula =LEFT (H2,2) I ran the pivot table again.</p>
+<p>I summed the counts into easy-to-digest age groups: 20 to 29, 30 to 39, and so forth. Here&#39;s where the fifth lesson came in: Editors love pie charts. The pie chart showed that half of the new teachers in Oregon last year were over 30. Not exactly your fresh-faced college undergrads. I got the data from five years ago, went through all the cleaning again (much faster the second time) and found that the proportion of older people (30 plus) being hired to teach had grown from to 52 percent last year from 41 percent in 1999.</p>
+<p>That blew my assumption that all new teachers were young. The officials said the growth probably was because of the stagnant Oregon economy in the past few years and loads of school budget cuts. Districts had their pick of new hires and were choosing older people with more life experience whom they could pay the same as 23-year-olds, they observed. I found out that my 54-year-old student teacher isn&#39;t as rare in Oregon as I had assumed.</p>
+<p>My data-driven sidebar complemented my narrative feature. I also found an 84-year-old teacher in my local district who just had her li- censed renewed. Contact Tara McLain by e-mail at tmclain@statesmanjournal.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2004-november-changes-for-the-database-library.html">Changes for the Database Library</a>
+  <span class="similar-meta">November 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-may-whos-teaching-our-kids.html">Who&#39;s teaching our kids?</a>
+  <span class="similar-meta">May 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1994-december-ap-scores-with-big-fec-project.html">AP scores with big FEC project</a>
+  <span class="similar-meta">December 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-september-october-guiding-the-project-from-start-to-finish.html">Guiding the project from start to finish</a>
+  <span class="similar-meta">September - October 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1997-july-students-rank-schools.html">Students rank schools</a>
+  <span class="similar-meta">July 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-july-august-inside-nicar-new-training-director-making-mark.html" class="article-nav__prev">← INSIDE NICAR New training director making mark</a>
+  <a href="/article/2004-july-august-air-safety-data-shows-maintenance-problems-with-planes.html" class="article-nav__next">AIR SAFETY Data shows maintenance problems with planes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

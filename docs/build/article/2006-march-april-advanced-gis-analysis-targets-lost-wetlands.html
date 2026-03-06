@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced GIS analysis targets lost wetlands — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Advanced GIS analysis targets lost wetlands</h1>
+    <div class="article-byline">
+      <span class="author">Matthew Waite</span>
+      <span class="author-title">St. Petersburg Times</span>
+      <span class="date">March-April 2006</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>I hadn&#39;t been working in the St. Petersburg newsroom for more than a month when Craig Pittman, the environment reporter at the Times, said he had an idea he wanted to run past me. He wanted to measure...</p></div>
+
+  <div class="article-body">
+    <p>I hadn&#39;t been working in the St. Petersburg newsroom for more than a month when Craig Pittman, the environment reporter at the Times, said he had an idea he wanted to run past me. He wanted to measure the wetlands that had been destroyed in the past 15 years, but had no data and no idea how to do it. I told him it would probably require an analysis of satellite imagery. &quot;Probably,&quot; I said, lying through my teeth.</p>
+<p>I had no idea if I could do it. &quot;Can you do it?&quot; he asked. Eventually, I figured it out, and the answer to Pittman&#39;s question was not so simple. Between 1990 and 2003 - a time when the federal government pledged to stem the destruction of wetlands - about 84,000 acres of Florida&#39;s wetlands were replaced by urban uses; houses, schools, gas stations, malls, etc. That figure formed the backbone of an investigation that revealed how poorly the U.S.</p>
+<p>Army Corps of Engineers has enforced the Clean Water Act. What did it take to do it? Two college courses, $5,000 in software, 220 GB of hard drive space, editors with an abundance of patience and faith and about 10 months of free time. If I haven&#39;t scared you off yet, and you think you might try your hand at satellite imagery analysis, here&#39;s how we handled the problem of detecting change with imagery.</p>
+<p>The first step in any satellite imagery analysis is to remember Philip Meyer, the father of precision journalism and a professor at the University of North Carolina. Meyer has been telling us that we should use the scientific method for journalism. With satellite imagery analysis, it is a survival method. You need to clearly understand your problem and thoroughly understand your data before starting your analysis.</p>
+<p>Why? Lots of reasons. If you don&#39;t understand what you are after, you could spend months and money analyzing data, only to come up with nothing. If you misunderstand your question, you might buy the wrong data. That&#39;s right: More often than not, you are going to be buying data. Some of it is expensive. You do not want to spend hundreds of dollars on Landsat imagery only to realize you needed to spend thousands on SPOT data.</p>
+<p>To help you understand your question, you need to understand what imagery can show you. For instance, Landsat data has a resolution of 30 meters- one pixel in the image equals 30 meters on the ground. If you&#39;re looking for individual houses, it&#39;s the wrong data. If you are looking at how whole subdivisions have changed the landscape, you&#39;re in the right place. You also need to know what data you need in your imagery.</p>
+<p>Imagery can contain just visible light - three bands, red, green and blue - or it could contain slices of the infrared spectrum. You need to know what the bands can tell you and which bands you need for your analysis. It&#39;s harder than it sounds, and could fill an Uplink article by itself. It might seem esoteric to talk about being sure you understand your own question, but it&#39;s not. It&#39;s critical. I learned the hard way.</p>
+<p>We originally set out to find how many acres of wetlands had disappeared between 1990 and 2003. After months of work, I had an answer, but it was tens of thousands of acres beyond what any of our reporting had found. So I looked at what we had - a map showing where wetlands had increased and decreased between 1990 and 2003. In a few minutes, I found the problem - tides. In one map, the tide was out, in another, the tide was in.</p>
+<p>So thousands of acres of saltwater marshes were gone, but not really. Other changes were time differences - one image was taken during a wetter month than another. All over Florida, natural changes - rains, tides, etc. - affect the size of wetlands. Our question was too simplistic. What we were really interested in was how many acres of wetlands man had destroyed permanently. More on that in a minute.</p>
+<p>Obtaining data is both easier and more difficult in satellite imagery analysis. It is easier because there are only so many places you can get it. It is harder because the ways in which imagery is stored are a little arcane and, most of the time, costs money. Before you buy data, though, ask around. You might be surprised who has some and who might be willing to share. I found a complete 2003 dataset through a state agency, which made it free to me under Florida&#39;s public records law.</p>
+<p>I found a complete Landsat dataset for the late 1980s through the University of Maryland&#39;s Global Land Cover Facility. They make imagery from all over the country freely available to anyone for download. The upside? It&#39;s free. The downside? It may not be the time period you want, or they may not have your area. If you need something more detailed than Landsat, it gets more difficult. For instance, Space Imaging, the people who run the Ikonos satellite, will sell you 1-meter high-resolution imagery, but it&#39;s expensive.</p>
+<p>Many states and the U.S. Geological Survey do aerial photography at 1 meter - USGS will sell it to you or your state might give it away. You might be able to avoid paying for imagery, but you won&#39;t duck the software price tag. And it&#39;s a doozy. Leica ERDAS IMAGINE , the industry stan- dard software tool, is $3,500 last time I checked. Leica makes an extension for ArcGIS called ArcView Image Analysis.</p>
+<p>It is $2,500, and it is the one we went with, though I regret that now. Comparing IMAGINE to Image Analysis is like comparing SAS to Excel. The power difference is huge, and you will outgrow Image Analysis before you&#39;re done. There are other software packages, but you don&#39;t even want to know how much they cost. With software and data, we set out. The analysis I devised was based on a half a dozen academic papers I read that attempted something similar to the same thing.</p>
+<p>It&#39;s intentionally simple, and it&#39;s called unsupervised classifications. (The detailed methodology with bibliographic information is available at www.sptimes.com/2005/05/22/State/In_depth_methodology.shtml.) In unsupervised classifications, the software takes pixels and groups them together into assesses-clusters of pixels of close to the same values. You can set the number of pixel classes you want.</p>
+<p>We went with 100 to give us maximum flexibility. The trouble with unsupervised classifications is that the computer creates the classes but you have to identify what the class is. How do you do that? You click. A lot. Using maps of ancillary data - land- use maps, road maps, anything you think will help - you determine that all the Class 10s fit inside ponds, so you identify all the Class 10s as ponds.</p>
+<p>We kept it simple, identifying things as wetlands or not wetlands. After you get some practice, one Landsat scene might only take a day&#39;s work. Until then, it can take days. But with 14 Landsat scenes covering Florida, it was extremely tedious. After classifying all the imagery twice - once for each year - you can then compare them. Image Analysis has a change detection algorithm built into it. The algorithm will compare two raw images, but the work that goes into comparing raw images is extremely complex and far beyond this article.</p>
+<p>With classified images, the algorithm will detect where it was once one thing and is now another. From there, the analysis gets more complicated. To answer my question - to see where wetlands had been replaced by urban uses - I had to rely on another dataset, a satellite-derived map of urbanized areas. It was based on the same data, so I just totaled up the acres of area that had been wetlands but were now urbanized areas.</p>
+<p>To do that, I used another extension, Spatial Analyst. Spatial Analyst, a $2,500 extension to ArcGIS, works with raster data, which is what satellite data is. Spatial Analyst has powerful tools that are like Excel for raster data. There are functions and formulas you can write to get the information you need. The syntax is a little tricky, but the ESRI support reference is very good. Our analysis was, in the end, easily the most complicated work I&#39;ve ever done.</p>
+<p>If you decide to try this, I strongly urge you to first take college courses in this. It is well worth the effort and a tremendous addition to your CAR toolbox. But it is complex data and not something you can learn in a tipsheet or an afternoon class. I took two remote sensing classes, which are offered by many large universities. Many of these introductory classes are often offered for those who are getting geography degrees, and the advanced courses are often graduate level.</p>
+<p>You can read Our Vanishing Wetlands online at www.sptimes.com/wetlands. Contact Matthew Waite by e-mail at waite@sptimes.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2006-january-february-meth-stories-win-first-meyer-award.html">Meth stories win first Meyer Award</a>
+  <span class="similar-meta">January February 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-september-hidden-pasts-uncovered-in-times-series.html">Hidden pasts uncovered in Times&#39; series</a>
+  <span class="similar-meta">September 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-september-we-did-it-our-way.html">We did it our way</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-finding-surprises-in-drug-arrest-files.html">Finding surprises in drug arrest files</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2006-march-april-data-lifts-lid-on-delay-money.html" class="article-nav__prev">← Data lifts lid on DeLay money</a>
+  <a href="/article/2006-march-april-new-staff-member.html" class="article-nav__next">New staff member →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

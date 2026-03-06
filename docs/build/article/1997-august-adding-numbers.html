@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding Numbers — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Adding Numbers</h1>
+    <div class="article-byline">
+      <span class="author">Griffin Palmer</span>
+      <span class="author-title">The Daily Oklahoman</span>
+      <span class="date">August 1997</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>Data analysis doesn&#39;t have to drive an education story. Sometimes it can be a nice augment. When reporters Susan Parrott and Melissa Nelson-Varela began preparing a feature about the State Education D...</p></div>
+
+  <div class="article-body">
+    <p>Data analysis doesn&#39;t have to drive an education story. Sometimes it can be a nice augment. When reporters Susan Parrott and Melissa Nelson-Varela began preparing a feature about the State Education Department&#39;s efforts to recruit minority educators, I reached for two data sets I already had. One was a racial breakdown of Oklahoma&#39;s student body. The other was a racial breakdown of certified educators.</p>
+<p>The analysis turned up some surprising numbers that helped shape the story: The greatest discrepancy in numbers between student body and educators was not among blacks, but among Hispanics and Native Americans. Before the analysis, Susan and Melissa had instinctively been focusing mostly on black students and efforts to recruit more black teachers. Our analysis showed them they needed to focus more on other racial minorities.</p>
+<p>The analysis wasn&#39;t terribly complex, but we did have to be careful to select comparable groups from both databases. The State Education Department&#39;s student racial breakdown includes students enrolled at private schools, while the educators&#39; database does not include those working at private schools. The enrollment data documentation warned that students enrolled in bilingual programs were counted twice, a fact that we also had to account for before we could do our analysis correctly.</p>
+<p>Unlike the U.S. Census, the data counted Hispanics as a distinct ethnic group and not as a subset of other racial groups. To make sure we were comparing like groups, we needed to select only those cases from the student enrollment file that contained data for districts included in the educators&#39; file. The tables&#39; design made this challenging. In the student file, each record indicated a grade in a particular school.</p>
+<p>Each record contained columns listing number of class members by race and by gender. The educators&#39; file contained a single record for each teacher or administrator, with a field denoting the individual&#39;s race. Each of the files listed district numbers many times. In the enrollment file, district number occurred in each grade. In the educators&#39; file, district number occurred in each individual&#39;s record.</p>
+<p>Doing a straight relational join in this situation would result in thousands of duplicate matches. A simple nested query, in FoxPro, allowed us to find only those districts appearing in the educators&#39; file and to filter out the duplicate numbers from bilingual enrollments. The tables were called enroll96.dbf and edcert96.dbf The join field was called district. Any time the grade field in the enrollment table contained the string &#39;BI&#39;, it was duplicate information that had to be eliminated.</p>
+<p>Here&#39;s how the query looked: select * from enroll96 where grade &lt;&gt; &#39;BI&#39; ; and district in (select district from edcert96) ; into table public96 We now had a table giving us enrollments only for public school districts, and could make meaningful comparisons between the racial distribution among certified educators and the racial makeup of the student body. We knew that Oklahoma City and Tulsa, the state&#39;s two largest, most urbanized districts, would have sharply different racial makeups than the rest of the state, so we analyzed them separately.</p>
+<p>In fact, we broke the data into four separate groups, based on size of enrollment. Our analysis showed, however, that only Oklahoma City&#39;s and Tulsa&#39;s racial makeup differed significantly from the makeup of other districts. Our analysis showed that blacks made up 36.6 percent of students in Oklahoma City and Tulsa, while blacks comprised 21 percent of the two cities&#39; educators. In the rest of the state, blacks made up 6.6 percent of students; less than 2 percent of teachers.</p>
+<p>American Indians comprised 6.4 percent of the urban student bodies and 2.3 percent of the urban districts&#39; educators. In the balance of the state, the discrepancy was more stark: 16.3 percent of students and 3 percent of educators were American Indian. Similar discrepancies showed up for Hispanics. The ratio of Hispanic students to educators was 9.2-to-1 in the urban districts. The data analysis contributed only a few paragraphs to a 85-column-inch story.</p>
+<p>It lent authority to the story, though, and helped shape its lead. Griffin Palmer can be reached at (405) 475-3311 or send e-mail to palmer@qns.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1995-april-use-computers-for-good-education-stories-the-school-of-hard-data.html">Use computers for good education stories: The school of hard data</a>
+  <span class="similar-meta">April 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2005-february-mapping-stats-show-scope-of-racial-bias.html">Mapping, stats show scope of racial bias</a>
+  <span class="similar-meta">February 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1994-october-faa-reports-considered-suspect.html">FAA reports considered suspect</a>
+  <span class="similar-meta">October 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2002-september-october-databases-add-depth-to-school-stories.html">Databases Add Depth to School Stories</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-august-like-money-in-the-bank.html">Like Money in the Bank</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1997-august-inexperience-reigns.html" class="article-nav__prev">← Inexperience Reigns</a>
+  <a href="/article/1997-august-handout-of-the-month.html" class="article-nav__next">Handout of the Month →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

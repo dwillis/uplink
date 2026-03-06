@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automate common tasks with FoxPro programs — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Automate common tasks with FoxPro programs</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Porter</span>
+      <span class="author-title">IRE and NICAR</span>
+      <span class="date">November 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Automation can be a good thing. You can turn a burdensome chore into a quick-and-easy routine. You can update information more often. You can set up a scheme to do a task consistently. To that end, th...</p></div>
+
+  <div class="article-body">
+    <p>Automation can be a good thing. You can turn a burdensome chore into a quick-and-easy routine. You can update information more often. You can set up a scheme to do a task consistently. To that end, the IRE and NICAR Da- tabase Library has automated quite a few tasks over the past year. We&#39;ve set automated weekly updates of Federal Election Commission cam- paign finance data, Federal Aviation Administration accident and service difficulty reports databases, and monthly updates of databases of air- craft, airmen and Internal Revenue Service nonprofits.</p>
+<p>Such automated tasks, via pro- grams written for Visual FoxPro, keep data fresh and make down- loads for users a snap. Not a FoxPro user? You can program automated tasks in almost any software. One automated process, which we run almost daily, benefits lots of us- ers of our databases, especially those with smaller news organiza- tions seeking a state slice of data. Some state slices are particularly advantageous.</p>
+<p>Occupational Safety and Health Administration inspec- tion data, for example, is voluminous for the entire U.S. but records for one state would likely fit on one CD In years past, state-slicing was a manual process. From a copy of the data on CD, we queried the data, copied the results into a folder, then copied the documentation. The big- ger the database - for example, the truck inspection database con- sumes seven CDs - the more labo- rious the process.</p>
+<p>The end result was, for the most part, that copying the entire country would be easier than slicing out a particular state. So we set out on a project to auto- mate state slices, and those lessons learned can be applied to many types of tasks that can be automated. First, we inventoried what we wanted to offer by state. Our order form (www.ire.org/datalibrary/orderform) lists several databases available via state slice.</p>
+<p>Then we examined the da- tabases in question. Some natural inconsistencies occur: First, not all the databases have the same field names for states, and some have multiple fields listing states. For example, the federal con- tracts database contains three fields that might include a state - the lo- cation of the government office, the address of the contracting company, and the state where work was to be performed.</p>
+<p>The states in those fields might all be different. Second, government agencies don&#39;t treat the state identifiers the same. For contractors, it&#39;s a postal abbreviation. For federal assistance, it&#39;s a two-digit Federal Information Processing Stan- dards (FIPS) code. For the FBI, it&#39;s yet another series of two-digit codes. Then there are the multiple-table da- tabases. In some instances (OSHA, for example) the state code is in- cluded in every table.</p>
+<p>Others (truck accidents, for example) do not. The bottom line: When you get ready to do some automation, get very, very familiar with the data structure and documentation. Here&#39;s how we handled the inconsis- tencies: We created a table of data- bases - including a one-character code for each database, the full name of the database (strictly for human reference; our state-slicer program relies on the code, not the name) and a memo field that contains the SQL query language needed to query the data for a particular state.</p>
+<p>We created a simple SQL-written program that has three steps: 1) It poses a series of questions to the user - On which local drive do you want to save the data? Which database do you want to slice? Which state do you want? 2) It makes a copy of the table of databases, transfers the answers of the questions to the SQL language about that particular database, and copies the memo field material into a new program.</p>
+<p>3) It then runs the just-created pro- gram, including the final step of copy- ing the data, plus documentation, to the local drive the user chose during the first step. To dissect each step: Since this is an internal tool at the moment, there&#39;s no fancy interface - a double-click on a desktop icon starts the process, and just four keystrokes later (that is, one for the drive designation, one for which database, two for the state), the state-slicing begins.</p>
+<p>The first section sets the stage and offers some direction: gcstatedir = \compname\datal gcstoredir = \compname\data\states\list\4 set directory to (gestatedir) Now, the series of questions begin: ? GET READY FOR A SERIES OF QUESTIONS ? ? &#39;YOU WILL BE ASKED: ? 1. WHICH LOCAL DRIVE WILL YOU SAVE THE DATA? TYPICALLY, YOU WILL CHOOSE M OR N&#39; ? 2. WHICH DATABASE ARE YOU QUERYING? ? 3. WHICH STATE ARE YOU SLICING FOR?</p>
+<p>? ? ? YOU SHOULD HAVE IN FRONT OF YOU THE STATE SLICE BINDER&#39; ? ? wait IF YOU ARE READY, HIT THE SPACE BAR TO CONTINUE&#39; set alternate to (gcstatedir) + &#39;drive&#39; set alternate on wait &#39;Which drive will choose to save the data? close alternate What&#39;s an &quot;alternate?&quot; Instead of just splashing questions and answers on the screen, the &quot;alternate&quot; command tells it to store that information into a file, in this case naming it &quot;drive.&quot; The next few steps create a temporary table, append records from the just- created file named &quot;drive&quot; and parse it into records so that we can record the local drive&#39;s letter.</p>
+<p>create cursor tempdrive; (junk c(50), drive c(1)) append from drive type sdf for not empty(junk) replace all drive with upper (substr (junk, at (&quot;?&quot; junk)+1 goto top store alltrim (drive) to curdrive We repeat the process for the other questions/answers. The &quot;store&quot; com- mand takes needed pieces of infor- mation - drive, database, state - and stores that information tempo- rarily, only long enough to complete the state-slicing task.</p>
+<p>Those tempo- rary, arbitrary, names are &quot;curdrive,&quot; &quot;curdbase&quot; and &quot;curstate.&quot; For the sake of example, let&#39;s say we choose the &quot;N&quot; drive on our ma- chine, the government database of firearms licensees (the code on that would be &quot;F&quot;), and the state of Ala- bama (the code in this database would be postal: &quot;AL&quot;). The next step is to use the table of databases, named &quot;tables stored&quot; and make a copy of the table.</p>
+<p>The program names the copy as the word &quot;table,&quot; plus the one-letter code of the database in question and the state code. So our copy of the table would be named &quot;tableFAL.&quot; Then, opening up that copy, we start plugging in the stored pieces of information into the memo field content of the record that relates to the specific database. replace all sql with strtran (sql, XX&#39; (curstate)) for id = (curdbase) replace all sql with strtran(sql,inh (curdrive) for id = (curdbase) The field called &quot;sql&quot; is the memo field that contains the SQL program lan- guage for each individual database to slice.</p>
+<p>The function &quot;strtran&quot; is a find- and-replace tool with three arguments - the field, the character to find and the material to replace it with. For the firearms licensee data, here&#39;s some key SQL language: gcyears = &#39;04&#39; gcdrivedir = \ATF_XX\&#39; gcstatedir = \\compname\\data\\states\\\&#39; gcpickupdir = \compname\data\states\pickup\ATF_FF gcstate &#39;XX&#39; Notice the &quot;XX&quot; and &quot;~&quot; that are serv- ing as placeholders for the actual state code and the drive name where we want to store the data and docu- mentation.</p>
+<p>The &quot;gcpickupdir&quot; folder already contains the documentation that goes along with the data. The query for the data, then copying the results, uses the &quot;gcstate&quot; vari- able, with the &quot;XX&quot; value replaced by &quot;AL&quot; for our example of Alabama: select from &#39;Ffl + (gcyears); where premst = (gcstate) or mailst = (gcstate) ; nowait copy to (gepickupdir) + &#39;Ffl&#39; + (gcyears) type foxplus The last step is to make some copies of the data and documen- tation to a folder named &quot;N:\ATF_AL.&quot; command = &#39;xcopy /e /v + (gcpickupdir) + (gcdrivedir) run &amp;command This is, of course, a work in progress: The next step is to add another question and allow the user to automatically place it on our FTP server if someone needs the data right away.</p>
+<p>After that, we&#39;ll start add- ing our archival data in addition to our current copies of databases we provide year-by-year. All that can be accomplished in some not-too-diffi- cult Visual FoxPro language. We&#39;d love to see how you&#39;ve used your favorite applications to auto- mate tasks; if you&#39;ve got one you&#39;re willing to share, please e-mail me. Contact Jeff Porter by e-mail at jeff@ire.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1992-june-foxpro-paradox-or-xdb.html">FoxPro, Paradox or XDB</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-january-news-and-observer-challenges-nc-for-access-to-public-information.html">News &amp; Observer challenges N.C. for access to public information</a>
+  <span class="similar-meta">January 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-november-december-hard-lessons-in-first-big-data-wave.html">Hard lessons in first big data wave</a>
+  <span class="similar-meta">November - December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-october-tech-tips-foxpro-adds-a-new-dimension-to-sql.html">Tech Tips: FoxPro adds a new dimension to SQL</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1994-september-mean-streets-drive-by-shootings-in-tacoma.html">Mean Streets: Drive-by shootings in Tacoma</a>
+  <span class="similar-meta">September 1994</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-november-nicar-has-transportation-data-for-journalists.html" class="article-nav__prev">← NICAR has transportation data for journalists</a>
+  <a href="/article/2004-november-building-a-no-cost-open-newsroom.html" class="article-nav__next">Building a no-cost, open newsroom →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

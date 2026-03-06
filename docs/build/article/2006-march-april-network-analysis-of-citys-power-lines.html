@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network analysis of city&#39;s power lines — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Network analysis of city&#39;s power lines</h1>
+    <div class="article-byline">
+      <span class="author">Gordon Hickey, Aaron Kessler</span>
+      <span class="author-title">editor of the projects team at the Richmond Times-Dispatch; former deputy director of the Virginia Public Access Project</span>
+      <span class="date">March-April 2006</span>
+    </div>
+    <div class="article-topics"><a href="/topics/technology.html" class="badge">Technology</a><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>When the data was imported in UCINET as a text file and drawn for the first time in the program&#39;s NetDraw graphing application, it proved to be quite a monster. Social network types sometimes refer to...</p></div>
+
+  <div class="article-body">
+    <p>When the data was imported in UCINET as a text file and drawn for the first time in the program&#39;s NetDraw graphing application, it proved to be quite a monster. Social network types sometimes refer to this as the &quot;hairball&quot; - and it was quite a hairball. Despite the visual mess, the analysis functions of UCINET allowed us to calculate who within our hairball held the most power in terms of a number of factors, such as &quot;closeness,&quot; &quot;centrality&quot; and other terms which basically all are variation of the same question: who wields the most influence?</p>
+<p>But displaying the information visually so that the relationship could actually be seen and understood within the network was our goal. And that was simply impossible with close to 1,000 ties. While there are ways to work with the data in UCINET, we found it easier to pare down the data in FoxPro, where our master table resided, and then import the results back into UCINET for analysis, As the peripheral relationships were slowly peeled away, we could begin to see the web of connections that formed the true core of Richmond&#39;s power structure.</p>
+<p>The results were striking. The boards were even more interlocked than we had originally surmised. A couple of organizations shared so many directors that they were almost indistinguishable from each other. And a core group of the city&#39;s powerful and wealthy seemed to have their hands in all the right pots. Richmond&#39;s &quot;good-old-boy&quot; network was coming to light. While many people had already suspected who the major players were, even they were surprised to see just how intertwined the relationships were.</p>
+<p>We still faced a few challenges. The most notable one involved Richmond&#39;s mayor. Richmond had just elected a mayor, the former governor of Virginia, L. Douglas Wilder. He had come in bearing the torch of reform, claiming he would clean up city hall after years of corruption and abuse. But in doing so he had advocated for a change in the city&#39;s charter that would grant the mayor sweeping new powers.</p>
+<p>With those powers in hand, his influence was being felt across the city. While Wilder did not fit into the network of interlocking boards, to totally ignore him would not be a viable option either for a project focused on power brokers within the city. So to bring him into the mix, reporters gathered data on campaign contributions to his mayoral race, and entered them into the database. At first, we tried simply to include Wilder as his own &quot;organization&quot; - the Wilder Campaign, so to speak.</p>
+<p>Those already in the 1,000-record main data table who had contributed to Wilder were given a new connection - to the Wilder node. However, it became evident this approach was not going to work. First, because it was easier to make campaign contributions than to be appointed to a board of directors, Wilder&#39;s prominence in the network was exaggerated when added to the mix in UCINET. He had more ties than even the most connected directors.</p>
+<p>And even more crucially, the logic of the visual network map was that a tie between a person and a board or foundation translated to &quot;is a director of.&quot; The ties to the Wilder campaign did not mean the same thing. To solve this, we instead decided to display our nodes differently, showing whether the node was an organization, an individual who gave to the campaign, or an individual who did not contribute.</p>
+<p>In UCINET you can create data attributes that NetDraw can later use to create distinct symbols. We used blue squares for organizations, red circles for individuals who contributed to Wilder and green circles for all other individuals. The result was a network map that showed a substantial buy-in from the city&#39;s connected and powerful to Wilder&#39;s campaign. After some other final changes, the visual &quot;spider web&quot; representation of the city&#39;s interlocking directorates helped guide even more reporting for the project, and the months of digging by reporters came to fruition in a Sunday package of stories that had even some longtime residents shaking their heads at just how pervasive the good-old-boy network still was.</p>
+<p>The network graphic that appeared in the paper was also accompanied by a series of interactive images on the Times-Dispatch&#39;s Web site. Contact Gordon Hickey by e-mail at ghickey@timesdispatch.com Contact Aaron Kessler by e-mail at essler.aaron@gmail.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2004-march-tangled-webs.html">Tangled webs</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1997-july-joining-hands.html">Joining Hands</a>
+  <span class="similar-meta">July 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-july-august-tech-tip-pdf-to-text-using-xpdf.html">Tech tip PDF to text using XPDF</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2002-march-april-mining-workplace-data.html">Mining workplace data</a>
+  <span class="similar-meta">March-April 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-august-the-rich-get-richer.html">The Rich Get Richer</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2006-march-april-mapping-data-for-news-stories.html" class="article-nav__prev">← Mapping Data for News Stories</a>
+  <a href="/article/2006-may-june-making-the-switch-to-acs.html" class="article-nav__next">Making the switch to ACS →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

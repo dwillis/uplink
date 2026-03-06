@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas GIS has site — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Atlas GIS has site</h1>
+    <div class="article-byline">
+      <span class="author">Dan Keating</span>
+      <span class="author-title">Miami Herald</span>
+      <span class="date">February 1996</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Even after you spend hundreds of dollars, you won&#39;t find detailed local maps in your brand new mapping program. Most of the mapping companies will be glad to sell them to you for hundreds of dollars m...</p></div>
+
+  <div class="article-body">
+    <p>Even after you spend hundreds of dollars, you won&#39;t find detailed local maps in your brand new mapping program. Most of the mapping companies will be glad to sell them to you for hundreds of dollars more. Atlas GIS users are in luck, because there&#39;s an online repository that has tons of detailed maps and matching data. It&#39;s called CIESIN (pronounced see&#39;-son), Consortium for International Earth Science Information Network. (Unfortunately, MapInfo doesn&#39;t import the mapfile format used at CIESIN).</p>
+<p>Get mapping data for your area, you can find census tract maps, block group maps, block maps, county maps, municipal boundaries and Zip code boundaries. You can also find 1990 Census data broken into the same groupings with ID labels already matched up to the maps. It has the 225 most-requested variables.</p>
+<p>Here&#39;s a detailed breakdown on how to get this free information into your system.</p>
+<p>Log onto the CIESIN file transfer site at http://ftp.ciesin.org. (You can check out the Web page, also, at http://www.ciesin.org, but the data is on the ftp site.) Go to pub/ and then census/ and then USA/ You need to pick up map files and then get matching data files.</p>
+<p>Go to tiger/ and then pick your state from the two-letter abbreviation. If you do not know the Census code for your Metropolitan Statistical Area, you should pick up msacodes.txt from the tiger/ directory before moving on.</p>
+<p>Once in your state, take bna_st/ to get local area maps files. The “bg” files are block group maps - these are the smallest detail area that also has vast demographic information. If you&#39;re working with large areas, you can use the “t” tract or “C” county files for the state. I find the block group files extremely useful. Download the file for your MSA. You&#39;ll get a PKZipped file. We&#39;ll get back to that file in a minute.</p>
+<p>If you want the smallest geographic level, take the bnablk/ directory instead of bna_st/. Download the “b” block file for your MSA. These are for very small areas, for which you can get population and household counts, but no detailed demographic data.</p>
+<p>Now you have to get the matching data. Back up through the ftp site back to pub/census/USA/. Now take stf/ and pick your state. Then get the “CONTENTS.XX* file, in which “XX” is the two-letter abbreviation for your state. It will help guide you to get the correct data files. There are “bg” block group data files, “II” tract data files, “zip” Zip code area files, “pl” files with data for cities and other places and more. If you need the population counts for blocks, go to the csvblk/directory and get the file matching the map file you got.</p>
+<p>Download whatever files you need to match the geographic files you got. These will be PKZipped CSV files - meaning the data is separated by commas. Most spreadsheets and databases can import these files, as can Atlas GIS. Now you can sign off the Internet.</p>
+<p>You&#39;ll need one special tool to be able to import the maps. It&#39;s called Import/Export or I/E and costs about $250 from Strategic Mapping. That&#39;s expensive, but it&#39;s a lot cheaper than buying the maps. It also allows you to import many other map formats, which you might come across if you try to get data from your county GIS department or other agencies.</p>
+<p>Put the PKZipped files into a directory. Unzip them. You&#39;ll have *.CSV data files and .bna map files. BNA is the Atlas transfer format.</p>
+<p>At a DOS command line prompt, go to the directory where you have Atlas GIS and use the command line iemapfile.bnamymap.agf/na4&quot;</p>
+<p>Import/Export will create the geographic maps for Atlas GIS. You can then open the maps in the program and then open the .CSV files. The program will ask if the data files can be linked to the maps, and ask which field in the data file to use for matching. Select the “POLID” field except for the block groups, which should be linked with the “_Name3” field.</p>
+<p>Now you&#39;ve got detailed local maps for whatever geographic area you want, along with a mountain of demographic data.</p>
+<p>Dan Keating can be reached at (954) 985-4571, or send e-mail to dtkeats@ibm.net</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1991-july-mapping-a-new-future-for-reporting.html">Mapping a New Future for Reporting</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-july-august-mapping-the-latest-uses-of-mapping-in-news-reporting-housing-prices-on-rise.html">MAPPING The latest uses of mapping in news reporting. Housing prices on rise</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-january-february-creating-data-points-with-google-maps.html">Creating data points with Google Maps</a>
+  <span class="similar-meta">January February 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-june-spotlight-elections-finding-data-for-state-elections.html">SPOTLIGHT: ELECTIONS Finding data for state elections</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1996-february-maptitude-its-a-deal.html" class="article-nav__prev">← Maptitude: It&#39;s a deal</a>
+  <a href="/article/1996-march-computer-assisted-reporting-turns-on-more-tv-journalists.html" class="article-nav__next">Computer-assisted reporting turns on more TV journalists →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

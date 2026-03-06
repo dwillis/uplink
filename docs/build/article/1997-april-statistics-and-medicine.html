@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistics and Medicine — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Statistics and Medicine</h1>
+    <div class="article-byline">
+      <span class="author">Dave Davis and Joan Mazzolini</span>
+      <span class="author-title">The Plain Dealer</span>
+      <span class="date">April 1997</span>
+    </div>
+    <div class="article-topics"><a href="/topics/other.html" class="badge">Other</a></div>
+  </header>
+
+  <div class="article-summary"><p>Imagine you&#39;re so sick you can&#39;t walk from the bedroom to your kitchen and you gasp for every breath. Imagine you go to the doctor, and she tells you your heart is damaged, so damaged you&#39;ll need a tr...</p></div>
+
+  <div class="article-body">
+    <p>Imagine you&#39;re so sick you can&#39;t walk from the bedroom to your kitchen and you gasp for every breath. Imagine you go to the doctor, and she tells you your heart is damaged, so damaged you&#39;ll need a transplant or you&#39;ll die within six months. Then imagine traveling to the hospital every week, even every day for tests blood tests, lung capacity tests, and every known heart test. Imagine you spent thousands of dollars, and your insurer has spent tens of thousands of dollars, and that your family is praying you get on the waiting list and get a donor organ.</p>
+<p>Imagine you go through all of this, but there is really no chance you&#39;ll ever get a transplant. Your hospital has stopped performing them, but doctors didn&#39;t tell you or any of the other patients for fear you might go elsewhere. It sounds horrible, but this is exactly what happened to patients awaiting heart transplants at University of Kansas Medical Center in Kansas City and William Beaumont Hospital in suburban Detroit.</p>
+<p>In each case, doctors at the hospitals turned away for nonmedical reasons donor organs they were offered over the course of about a year. But they didn&#39;t tell patients. In fact, they let patients believe it was the national organ shortage, and not their own stalled programs, that was causing the unending wait. In a series published in February by The Plain Dealer, we used computer-assisted reporting techniques to examine in detail transplant programs that turned away organs that were matched to waiting patients.</p>
+<p>We also followed a 37-year-old Pennsylvania woman through the ordeal of a heart transplant, and entered waiting times into FoxPro to examine the great disparity in waiting times at different centers, and with the help of SPSS analyzed the relationship between the average annual number of transplants centers performed and their mortality rate. Looking for patterns Volume, or the average annual number of transplants a center performed, was one common thread which ran through each of the stories.</p>
+<p>For example, centers that performed a small number of transplants each year almost always had fewer resources in terms of medical staff experienced in transplantation. We found they tended to be the centers that would most often turn away donor organs for non-medical reasons. We were especially intrigued by this question of program volume because, for each type of major organ transplant, half the centers in the country had very small annual transplant numbers.</p>
+<p>For example, about half the centers in the country did fewer than nine heart transplants a year. Researching the question Since donor organs are scarce, we wondered if lives were being lost because a limited number of organs were being spread among too many transplant centers. It was this question, among others, that lured us into a statistical analysis. Using the National Library of Medicine&#39;s Medline database we searched the medical literature online to see what had been published concerning transplant center volume and patient mortality.</p>
+<p>(You can get a Medline user ID online at http://igm.nlm.nih.gov or call 1-800-638-8480.) We didn&#39;t find much, just one article from the Journal of the American Medical Association in which the authors found that heart transplant centers doing fewer than nine transplants a year had significantly higher one-year mortality rate. Honing in with stats With this information in hand, we sought help from Phil Meyer and John Bare at the University of North Carolina-Chapel Hill.</p>
+<p>It was Bare who did the heavy statistical lifting, while Meyer watched over our progress with the big picture in mind: Credible results. We decided on a two-prong analysis. First, we wanted to determine whether low-volume transplant centers had a higher observed one-year mortality rate than high-volume centers. If so, we wanted to find out if the increased rate of death could be explained by differences in patient risk factors and donor characteristics, or whether it was partly attributable to transplant center volume.</p>
+<p>The first part was straightforward data analysis. The second part, however, was trickier. It required using a statistical method known as logistic regression, which is commonly used in medical research to adjust data for certain patient risks. We had patient-level data on transplant donors and recipients - one record for each of the 55,000 transplants that had been performed from 1987 through 1991.</p>
+<p>The records also contained a key field identifying the transplant center. For each organ type, we computed the average annual number of transplants the centers performed. We then labeled each center either &#39;high volume&#39; or &#39;low volume&#39; depending upon whether they were above or below the average volume. We found that the observed 12-month mortality rate was higher at all times for low-volume centers.</p>
+<p>In other words, patients who underwent a transplant at a low-volume center had a greater chance of dying in the first year following the transplant. This held true for all six major types of organs. Next, using logistic regression, we adjusted for medical differences in donors and recipients and found that center volume was a significant predictor of mortality at one-year. Though she did not use CAR, Cheryl Thompson of the Kansas City Star uncovered similarly troubling trends at KUMC in a series of investigative stories published in May of 1995.</p>
+<p>That series, which revealed the hospital had stopped performing transplants and was turning away healthy hearts while continually adding patients to their waiting list, is available in the IRE Resource center. For a copy of the volume analysis technical documentation or a reprint of the entire transplant series, call Davis at 1-800-688-4802 or send email to ddavis00@aol.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1999-october-analyzing-medical-data-transplant-disparity.html">ANALYZING MEDICAL DATA - Transplant Disparity</a>
+  <span class="similar-meta">October 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-may-reporters-tell-how-statistics-nailed-big-stories.html">Reporters tell how statistics nailed big stories</a>
+  <span class="similar-meta">May 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-march-principals-cash-in-on-sick-pay.html">Principals cash in on sick pay</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-july-august-mapping-the-latest-uses-of-mapping-in-news-reporting-housing-prices-on-rise.html">MAPPING The latest uses of mapping in news reporting. Housing prices on rise</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-injuries-merry-go-round.html">injuries Merry-go-round</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1997-march-the-real-story-project-misconceptions.html" class="article-nav__prev">← The real story: Project misconceptions</a>
+  <a href="/article/1997-may-disaster-on-deadline.html" class="article-nav__next">Disaster on Deadline →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building a no-cost, open newsroom — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Building a no-cost, open newsroom</h1>
+    <div class="article-byline">
+      <span class="author">Aron Pilhofer</span>
+      <span class="author-title">The Center for Public Integrity</span>
+      <span class="date">November 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Over the past two years, I&#39;ve reviewed nearly a dozen free and open-source applications I have found useful in a newsroom setting. Starting with this is- sue of Uplink, I&#39;m taking a different tack: I&#39;...</p></div>
+
+  <div class="article-body">
+    <p>Over the past two years, I&#39;ve reviewed nearly a dozen free and open-source applications I have found useful in a newsroom setting. Starting with this is- sue of Uplink, I&#39;m taking a different tack: I&#39;m going to show you how to put this software to work in your newsroom. This series is intended to enhance rather than replace or repeat existing documentation. I&#39;ll point out some of the more important things to think about, as well as how to avoid pitfalls.</p>
+<p>The goal is to provide the road map for a totally free, fully functional computer- assisted reporting platform to rival com- mercial products costing tens of thou- sands of dollars. The heart of computer-assisted report- ing is data, and the best way to handle large quantities of data is with a high- end database server. That job goes to the subject of this article: MySQL, which boasts an ideal combination of speed, power and features.</p>
+<p>In future articles, I&#39;ll cover a number of other software packages, including the Apache Web server (the most popular server in the world) and PostNuke, a powerful but simple con- tent management system that will drive our intranet and deliver data to our newsroom users. I&#39;ll also discuss Subversion, a software package designed for programmers that I have found invaluable as a re- pository for important files, scripts and other documents.</p>
+<p>Subversion allows sharing of documents across a net- work. It tracks changes to the docu- ments, so users are able to revert to a previously saved version at any time. And finally I will talk about how all this software works together with the soft- ware most journalists are familiar with: Microsoft Office and SQL Server (yes, they play well together). Basic needs For the purposes of simplicity and brev- ity, I&#39;m going to assume users have ad- equate hardware.</p>
+<p>In this case, a basic system would be a Pentium 4 desktop or server, 512 megabytes or more of memory and at least 40 gigabytes of hard disk space. One of the benefits of open-source software is that it tends to have fewer bells and whistles than other commercial software. Although I wouldn&#39;t recommend doing so, it would most likely run just fine on something with less power. MySQL is fast, stable and free.</p>
+<p>The server should have a tape drive or separate hard disks to use for back- ups. If you are going to put critical data on the server, you should have a sys- tem in place to ensure that it is safe. In terms of operating systems, I am assuming the server will be running some flavor of Windows, preferably 2000 or XP. Although I have never per- sonally tried to install these software packages on a version of Windows server, I believe they will work just fine.</p>
+<p>In all cases, you will need local adminis- trator privileges to install and configure this software, which is something you may need to negotiate with your IT staff. I do not recommend running Windows 9x/ME. It is too unstable and some of the tools simply will not work. Linux is an excellent alternative to Windows, and will run faster on older hardware, but the configuration is a bit trickier. Starting with MySQL MySQL is the world&#39;s most popular open-source database server for a number of reasons: It&#39;s fast, stable and free.</p>
+<p>MySQL AB, the Swedish company developing their namesake product, has made remarkable strides in just the past five years building a software pack- age that is second only to Oracle in speed and power, and it is closing the gap with SQL Server in terms of features. Just in the past few months, MySQL AB has been rolling out some new tools to make installing and adminis- tering a MySQL Web server easier.</p>
+<p>But let&#39;s start by grabbing the files we need from the MySQL Web site (http:/ /dev.mysql.com). The server itself comes in several flavors. The 4.0.x line is considered the &quot;produc- tion&quot; version, although I recommend the 4.1.x (4.1.5 as of this writing) variant even though it is still technically in a testing stage. MySQL AB is extraordinarily con- servative, meaning versions can be in testing for months or years before they are declared officially stable.</p>
+<p>The 4.1.x line has been in development for nearly two years and is rock-solid stable. I have never seen it crash. Plus, it has several performance and feature advantages that make it the version of choice right now. Version 5.0.x is in early testing right now and will add the last gaping fea- ture hole in MySQL: stored procedures. I have experimented with it without trouble, but believe it is still too early to use in a production environment.</p>
+<p>On the download page, you&#39;ll notice there are three versions of the MySQL server for Windows. The one to get is labeled &quot;Windows Essentials.&quot; Also a relatively new innovation for MySQL, this version includes not only an in- staller but also a configuration wizard to make the process easier. Download the installer and accept the default settings (you really can&#39;t make a mistake). The application will be installed into the following directory: C:\Program Files\MySQLIyySQL Server 4.1).</p>
+<p>When asked to select a server configuration, &quot;typical&quot; will suffice. Initial configuration Once the software is installed, you&#39;ll be prompted to launch the configura- tion wizard. Here, your selections do matter a bit more. At the initial screen, choose &quot;detailed configuration&quot; to be- gin setting up your new server settings. The second page will ask whether the server will be used as a development machine, a multipurpose server or as a dedicated server just for MySQL.</p>
+<p>Unless you intend to run MySQL on your per- sonal desktop computer, choose &quot;Server machine.&quot; This will allow MySQL to use a portion, but not all, of your system re- sources when under heavy loads. The third page is a bit more complicated, and delves into the various types of stor- age engines MySQL offers. In short, the server can store data in one of three pri- mary formats, each of which has cer- tain advantages for certain applications.</p>
+<p>Since we are optimizing our server for speed, select the first (default) setting, &quot;multifunctional database.&quot; The next page asks where to store data for one of the three types of tables used in MySQL (InnoDB). Because we will not use this type of table, accept the defaults. Next, the wizard will prompt you to in- dicate the number of users you expect to hit your database server at any one time. In a small- to medium-sized newsroom, chances are you can be relatively conservative and select the lowest number you feel comfortable with by using the &quot;manual setting&quot; se- lection and pull down.</p>
+<p>The next page asks how the server should be configured to communicate with users, and you&#39;re going to have to bear with me here. This can be con- fusing, but it&#39;s important. By default, MySQL is set up to oper- ate over TCP/IP, the standard address- ing system for most networks ing the Internet. Under this scheme, each computer on a network -whether it is a server or desktop - is assigned a unique IP address that allows them to talk to one another.</p>
+<p>You can see your machine&#39;s IP ad- dress on your network by going to the command line, and typing &quot;ipconfig&quot; at the DOS prompt. You should see a number that looks something like &quot;192.168.1.34&quot;. This address is critical to communicat- ing over a network, especially between servers and clients. Without this ad- dress, for example, an e-mail server wouldn&#39;t have a clue where to send your e-mail. The same applies to MySQL.</p>
+<p>If you don&#39;t know what your MySQL server&#39;s IP address is, neither you nor your users will be able to log in over a network. (That&#39;s not entirely true be- cause there is another protocol for find- ing the server called a &quot;named pipe,&quot; but that&#39;s quite a bit more complicated.) In addition to the IP address, it&#39;s also important to know which port your server software communicates over. Think of the port as a channel on your radio dial.</p>
+<p>If all radio stations broadcast on the same channel, the results would be a mess of confusing and conflicting signals. The same is true for a server, which couldn&#39;t keep all the communica- tions straight if they came in over the same channel. Thus, server software is configured to run on different default ports - 3306 in MySQL&#39;s case. To get back to the con- figuration wizard, this page is prompt- ing users to indicate whether or not they wish MySQL to use TCP/IP (we do), and, if so, what port it should use.</p>
+<p>We can accept the default values in this case. (That may seem a bit anticlimac- tic after the above explanation. But it&#39;s a critical concept to understand, as you will see later). On the next two pages, regarding char- acter sets and installing MySQL as a ser- vice, select the default settings. Although if you intend to store text characters not found in English or most Western Euro- pean languages, you might wish to choose the &quot;best support for multilingual- ism&quot; option on the character set page.</p>
+<p>On the second page, the default settings will install MySQL as a Windows service where it will run in the background auto- matically upon booting the computer. The next page deals with security, spe- cifically setting a password for the de- fault administrator account (called &quot;root&quot; in MySQL parlance). This is critical, and should not be skipped. By default, MySQL ships with a blank password for the root user - which is a very bad thing.</p>
+<p>Root access should be granted only to the database administrator and highly trustworthy individuals who ab- solutely need it, because a root user has the power to alter or delete any- thing and everything - a fairly gaping security hole to say the least. Choose a good, secure password that you won&#39;t forget, enter them in the textboxes and click next. There&#39;s no need to change anything else on this page.</p>
+<p>On the final page, click the execute but- ton and, if all goes well, the configura- tion will complete successfully. If you receive an error message when it tries to install MySQL as a service and you have had a previous version of MySQL installed before, you may have to back up to the configuration page and change the name of the service to something like &quot;MySQL1.&quot; That has solved the problem for me.</p>
+<p>For more information about the new MySQL installer and configuration wizard, see this article on the MySQL Web site: : http://dev.mysql.com/tech-re- sources/articles/4.1/installer.html Final words You now should have MySQL up and running on your server. To confirm, check the Processes tab in the Win- dows task manager and you should see either mysqld.exe or myswqld- nt.exe listed there. In the next article, I will cover the ba- sics of communicating with MySQL, (including how to connect via Microsoft Access/Open Database Connectivity), importing data and making that data available to your newsroom.</p>
+<p>Contact Aron Pilhofer by e-mail at apilhofer@publicintegrity.org.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2003-february-open-source-free-but-worth-the-cost.html">Open Source: Free, but worth the cost?</a>
+  <span class="similar-meta">February 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1994-december-cars-field-of-dreams-in-nj.html">CAR&#39;s Field of Dreams in NJ</a>
+  <span class="similar-meta">December 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-october-newsroom-conflict-anything-can-and-possibly-will-go-wrong-when-too-many-dps-work-with-your-data.html">Newsroom conflict: Anything can (and possibly will) go wrong when too many DPs work with your data</a>
+  <span class="similar-meta">October 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-september-making-it-work.html">Making it work</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1997-september-setting-the-data-free.html">Setting the data free</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-november-automate-common-tasks-with-foxpro-programs.html" class="article-nav__prev">← Automate common tasks with FoxPro programs</a>
+  <a href="/article/2004-november-reservation-deaths-uncovered-with-data.html" class="article-nav__next">Reservation deaths uncovered with data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
