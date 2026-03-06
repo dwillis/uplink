@@ -7,6 +7,7 @@ export function buildSearchIndex(articles) {
     this.field('author_name', { boost: 5 });
     this.field('keywords', { boost: 5 });
     this.field('summary', { boost: 3 });
+    this.field('full_text', { boost: 1 });
 
     for (const article of articles) {
       this.add({
@@ -15,6 +16,7 @@ export function buildSearchIndex(articles) {
         author_name: article.author_name,
         keywords: (article.keywords || []).join(' '),
         summary: article.summary || '',
+        full_text: article.full_text || '',
       });
     }
   });

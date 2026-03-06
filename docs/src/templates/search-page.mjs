@@ -1,4 +1,4 @@
-import { layout } from './layout.mjs';
+import { layout, BASE_PATH } from './layout.mjs';
 
 export function renderSearchPage() {
   const content = `
@@ -13,12 +13,12 @@ export function renderSearchPage() {
     autofocus
     autocomplete="off"
   >
-  <span class="search-hint">Search headlines, authors, summaries, and keywords</span>
+  <span class="search-hint">Search headlines, authors, summaries, and full article text</span>
 </div>
 <div id="search-results" class="search-results" aria-live="polite">
   <p class="search-placeholder">Enter a search term to find articles.</p>
 </div>
-<script src="/js/search.js"></script>`;
+<script src="${BASE_PATH}/js/search.js"></script>`;
 
   return layout({ title: 'Search', content });
 }

@@ -12,9 +12,13 @@
 
   // Load lunr from CDN — already included via script tag in layout
   // Load data
+  const BASE = document.querySelector('script[src*="search.js"]')
+    ? document.querySelector('script[src*="search.js"]').src.replace(/\/js\/search\.js.*$/, '')
+    : '';
+
   Promise.all([
-    fetch('/data/search-index.json').then(r => r.json()),
-    fetch('/data/articles.json').then(r => r.json()),
+    fetch(BASE + '/data/search-index.json').then(r => r.json()),
+    fetch(BASE + '/data/articles.json').then(r => r.json()),
   ]).then(([indexData, articlesData]) => {
     searchIndex = lunr.Index.load(indexData);
     articles = articlesData;
@@ -68,12 +72,12 @@
         : '';
       const topics = (article.topics || []).map(t => {
         const slug = t.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        return `<a href="/topics/${slug}.html" class="badge">${escapeHtml(t)}</a>`;
+        return `<a href="${BASE}/topics/${slug}.html" class="badge">${escapeHtml(t)}</a>`;
       }).join('');
 
       return `<article class="article-card">
   <h2 class="article-card__title">
-    <a href="/article/${escapeHtml(article.slug)}.html">${escapeHtml(article.headline)}</a>
+    <a href="${BASE}/article/${escapeHtml(article.slug)}.html">${escapeHtml(article.headline)}</a>
   </h2>
   <div class="article-card__meta">
     ${article.author_name ? '<span class="author">' + escapeHtml(article.author_name) + '</span>' : ''}
