@@ -61,7 +61,7 @@ export function renderArticleDetail(article, allArticles) {
   <header class="article-header">
     <h1>${escapeHtml(article.headline)}</h1>
     <div class="article-byline">
-      <span class="author">${escapeHtml(article.author_name)}</span>
+      ${article.author_name ? `<span class="author">${escapeHtml(article.author_name)}</span>` : ''}
       ${article.author_title ? `<span class="author-title">${escapeHtml(article.author_title)}</span>` : ''}
       <span class="date">${escapeHtml(article.month)} ${article.year}</span>
     </div>

@@ -13,7 +13,7 @@ export function renderSearchPage() {
     autofocus
     autocomplete="off"
   >
-  <span class="search-hint">Search across ${''} headlines, authors, summaries, and keywords</span>
+  <span class="search-hint">Search headlines, authors, summaries, and keywords</span>
 </div>
 <div id="search-results" class="search-results" aria-live="polite">
   <p class="search-placeholder">Enter a search term to find articles.</p>

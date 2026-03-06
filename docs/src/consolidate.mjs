@@ -12,7 +12,7 @@ function makeSlug(year, month, headline) {
   return slugify(base, { lower: true, strict: true });
 }
 
-const ARTICLE_ARRAY_KEYS = ['articles', 'stories', 'news_stories', 'newsletter'];
+const ARTICLE_ARRAY_KEYS = ['articles', 'stories', 'news_stories', 'newsletter', 'content', 'data'];
 
 function normalizeArticles(data) {
   if (Array.isArray(data)) return data;
@@ -30,32 +30,39 @@ export function consolidate(repoRoot) {
   const dataDir = join(repoRoot, 'data');
   const origDir = join(repoRoot, 'articles', 'original');
 
-  // Step 1: load all full-text articles (authoritative list)
-  const fullTextArticles = [];
+  // Step 1: load all full-text articles grouped by file
+  const fullTextByFile = new Map(); // filename -> [{article}, ...]
+  const allFullText = [];
   for (const file of readdirSync(origDir).sort()) {
     if (!file.endsWith('.json')) continue;
     const filePath = join(origDir, file);
     const raw = readFileSync(filePath, 'utf8').trim();
-    if (!raw) continue; // skip empty files
+    if (!raw) continue;
     const data = JSON.parse(raw);
     const articles = normalizeArticles(data);
+    const fileArticles = [];
     for (const a of articles) {
       if (!a.headline || !a.full_text) continue;
-      fullTextArticles.push({
+      const article = {
         year: parseInt(a.year, 10),
         month: a.month,
         headline: a.headline,
-        author_name: a.author_name || '',
-        author_title: a.author_title || '',
+        author_name: a.author_name && a.author_name !== 'null' ? a.author_name : '',
+        author_title: a.author_title && a.author_title !== 'null' ? a.author_title : '',
         full_text: a.full_text,
-        summary: null,
-        keywords: null,
-      });
+        sourceFile: file,
+      };
+      fileArticles.push(article);
+      allFullText.push(article);
+    }
+    if (fileArticles.length > 0) {
+      fullTextByFile.set(file, fileArticles);
     }
   }
 
-  // Step 2: load all summaries and index by matchKey
+  // Step 2: load all summaries — both as a matchKey map and grouped by file
   const summaryMap = new Map();
+  const summaryByFile = new Map(); // filename -> [{summary}, ...]
   for (const file of readdirSync(dataDir).sort()) {
     if (!file.endsWith('.json')) continue;
     const filePath = join(dataDir, file);
@@ -63,37 +70,80 @@ export function consolidate(repoRoot) {
     if (!raw) continue;
     const data = JSON.parse(raw);
     const articles = normalizeArticles(data);
+    const fileSummaries = [];
     for (const a of articles) {
       if (!a.headline) continue;
       const key = matchKey(a.year, a.month, a.headline);
-      summaryMap.set(key, {
+      const summaryObj = {
+        headline: a.headline,
         summary: a.summary || null,
         keywords: a.keywords || null,
-      });
+        matched: false,
+      };
+      summaryMap.set(key, summaryObj);
+      fileSummaries.push(summaryObj);
+    }
+    if (fileSummaries.length > 0) {
+      summaryByFile.set(file, fileSummaries);
     }
   }
 
-  // Step 3: match and merge
-  let matched = 0;
+  // Step 3: two-pass matching
+  let matchedExact = 0;
+  let matchedPositional = 0;
   let unmatched = 0;
-  const consolidated = [];
 
-  for (const article of fullTextArticles) {
+  // Map from article to its resolved summary
+  const articleSummaries = new Map();
+
+  // Pass 1: exact headline match
+  for (const article of allFullText) {
     const key = matchKey(article.year, article.month, article.headline);
     const summary = summaryMap.get(key);
+    if (summary && !summary.matched) {
+      articleSummaries.set(article, summary);
+      summary.matched = true;
+      matchedExact++;
+    }
+  }
 
-    let finalSummary = article.summary;
-    let finalKeywords = article.keywords;
+  // Pass 2: positional match within same file for unmatched articles
+  for (const [file, fileArticles] of fullTextByFile) {
+    const fileSummaries = summaryByFile.get(file);
+    if (!fileSummaries) continue;
+
+    // Get unmatched articles and summaries for this file
+    const unmatchedArticles = fileArticles.filter(a => !articleSummaries.has(a));
+    const unmatchedSummaries = fileSummaries.filter(s => !s.matched);
+
+    if (unmatchedArticles.length === 0 || unmatchedSummaries.length === 0) continue;
+
+    // Match by position: article N pairs with summary N
+    const limit = Math.min(unmatchedArticles.length, unmatchedSummaries.length);
+    for (let i = 0; i < limit; i++) {
+      articleSummaries.set(unmatchedArticles[i], unmatchedSummaries[i]);
+      unmatchedSummaries[i].matched = true;
+      matchedPositional++;
+    }
+  }
+
+  // Step 4: build consolidated array
+  const consolidated = [];
+
+  for (const article of allFullText) {
+    const summary = articleSummaries.get(article);
+
+    let finalSummary;
+    let finalKeywords;
 
     if (summary) {
       finalSummary = summary.summary;
       finalKeywords = summary.keywords;
-      matched++;
     } else {
       // fallback: first 200 chars of full_text
       const text = article.full_text.replace(/\s+/g, ' ').trim();
       finalSummary = text.length > 200 ? text.slice(0, 200) + '...' : text;
-      finalKeywords = []; // will be filled by topics.mjs via TF-IDF
+      finalKeywords = [];
       unmatched++;
     }
 
@@ -122,6 +172,7 @@ export function consolidate(repoRoot) {
     return a.monthNum - b.monthNum;
   });
 
-  console.log(`Consolidated: ${consolidated.length} articles (${matched} matched, ${unmatched} unmatched)`);
+  const totalMatched = matchedExact + matchedPositional;
+  console.log(`Consolidated: ${consolidated.length} articles (${totalMatched} matched: ${matchedExact} exact + ${matchedPositional} positional, ${unmatched} unmatched)`);
   return consolidated;
 }

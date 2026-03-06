@@ -76,7 +76,7 @@
     <a href="/article/${escapeHtml(article.slug)}.html">${escapeHtml(article.headline)}</a>
   </h2>
   <div class="article-card__meta">
-    <span class="author">${escapeHtml(article.author_name)}</span>
+    ${article.author_name ? '<span class="author">' + escapeHtml(article.author_name) + '</span>' : ''}
     <span class="date">${escapeHtml(article.month)} ${article.year}</span>
   </div>
   ${topics}
