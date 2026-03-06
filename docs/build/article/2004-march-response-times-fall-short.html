@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Response times fall short — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Response times fall short</h1>
+    <div class="article-byline">
+      <span class="author">Enric Volante</span>
+      <span class="author-title">(Tucson) Arizona Daily Star</span>
+      <span class="date">March 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>Manager Shawn Bell called for medical help when a man collapsed in a diabetic seizure one night at Lil Abner&#39;s Steak House. Then Bell waited 10 minutes for help - even though an ambulance station is one minute down the road.</p></div>
+
+  <div class="article-body">
+    <p>Manager Shawn Bell called for medical help when a man collapsed in a diabetic seizure one night at Lil Abner&#39;s Steak House. Then Bell waited 10 minutes for help - even though an ambulance station is one minute down the road. No wonder Bell&#39;s interest was keen when I sat down at the steak house bar the next day and showed him a map that compared how long ambulances took to re- spond to emergencies in his neigh- borhood and others.</p>
+<p>Thousands of people peered at that map a few days later. Last April the Arizona Daily Star published &quot;Res- cue Roulette, a three-day series that revealed that the Tucson Fire Department ambulances failed more than half the time to reach emergencies within the eight- minute goal recommended by a national industry group. The stories also showed how other local ambulance operators often missed the target.</p>
+<p>And many - cluding the company that re- sponded to the diabetic man in the steak house - operated under li- censing requirements less stringent than Tucson&#39;s. We analyzed emergency response data using ESRI&#39;s ArcView 3.2 geo- graphic information system (GIS) software to find out where emer- gency medical workers were going and how long they took to respond. Getting dispatch data If you want to analyze EMS re- sponse, you&#39;ll need to get the CAD, or computer-aided dispatch, data- base.</p>
+<p>CAD data typically includes all the information found on tradi- tional ambulance logs, such as time dispatched and time arrived, as well as information on the inci- dent, patient, property and ve- hicles that responded. Our city serves as dispatcher for the area&#39;s largest ambulance op- erator, the Tucson Fire Depart- ment, and for several fire districts and private ambulance compa- nies. I requested the city&#39;s data for all agencies under the Arizona Public Records Law.</p>
+<p>Tucson officials balked. In addition to patient names, they refused to release addresses to which ambu- lances responded, saying that might identify patients. They cited medical privacy concerns and the new restrictions posed by the Health Insurance Portability and Accountability Act of 1996 (HIPAA). They also withheld all medical data, such as whether the call involved cardiac arrest or an asthma attack.</p>
+<p>My colleague Rhonda Bodfield and I met with city officials to ne- gotiate which fields of data should be released. We would have liked to follow the lead of journalists at The Hartford(Conn.) Courant, who joined a database of EMS responses with a public data- base of deaths to identify patients who died after long waits for medical aid. (For more information see &quot;Car- diac crapshoot&quot; in the July/August 1999 Uplink.) But death certificates are not public in Arizona, despite a fairly broad public-records law that hasn&#39;t been tinkered with much since territorial days.</p>
+<p>So we gave up the address fields on condition that the city substitute plat numbers from a grid of quar- ter-mile land sections. Unable to argue that patients would be iden- tified, the city then also gave up the medical data for each ambu- lance call. Lacking names and addresses, we found patients to interview the old- fashioned way. We hit the court- house to review civil lawsuits and we asked sources in the EMS busi- ness to name people who had waited a long time for help.</p>
+<p>The city provided the database re- luctantly and slowly, but at no cost. We ended up with a text file of 270,968 records of dispatch calls over 18 months that included fires, routine medical transports and medical emergencies. By querying in Microsoft Access we found 92,400 were emergency am- bulance calls. We deleted calls in which an ambulance was diverted to another scene. Sometimes in the heat of an emergency, drivers sim- ply forgot to record when they ar- rived, so we also threw out calls with imprecise arrival times.</p>
+<p>That left 89,818 records. Then we tabulated how long it took from the time an ambulance was dis- patched to the time its crew reported arriving at the scene. We flipped the results into Excel to chart a compari- son of the different agencies. We mapped the calls in ArcView using a quarter-mile grid layer downloaded from the county trans- portation department&#39;s Web site, along with shapefiles of streets, fire stations and subdivisions that helped us see routes to the most populated areas.</p>
+<p>We used ArcView&#39;s legend editor to create a color-graduated grid of response times within each cell of the grid. Slower response times on the edges of the metropolitan area im- mediately jumped out, particularly in the northwest, where a once-ru- ral fire district was coping with a growth boom. But, like many parts of the coun- try where fire departments and pri- vate ambulance companies have fought for turf, the Tucson region is a patchwork of competing pro- viders.</p>
+<p>So we also asked the county&#39;s largest ambulance opera- tor outside the city for its CAD da- tabase. Rural/Metro Corp. denied the request. That lack of account- ability to the public became part of the story. We knew the Arizona Department of Health Services had paper logs of ambulance calls submitted by Rural/Metro as part of its three-year license renewal. We ordered cop- ies. Typing the data into Excel and double-checking it took three days, but it was worth it.</p>
+<p>Unlike the city, the state had no problem releasing the patient ad- dresses in those logs. We used ArcView&#39;s geocoding function to dis- play about 7,500 addresses as points on a street map from the county transportation department. As we queried the data in ArcView, we saw long waits of 15 minutes or more had occurred in many places, not just distant areas. Dennis Joyce, assistant managing editor for news, had us run side-by-side maps show- ing different wait times.</p>
+<p>While Arizona doesn&#39;t release death certificates, it was one of the first states to make campaign finance records available by FTP download. We found Arizona-based Rural/ Metro kicks off the legislative ses- sion each year by spending close to $20,000 on a bash for lawmak- ers at places such as Phoenix&#39;s Ritz-Carlton hotel. As one ex-legis- lator told Bodfield, &quot;I always graded the party by the shrimp - and they would have shrimp.&quot; After we mapped the data, I visited some neighborhoods with long re- sponse times.</p>
+<p>I spoke to a few people on the street and then walked into Lil Abner&#39;s Steak House. When a cook mentioned that a man had been convulsing and kicking tables the night before while the manager phoned for an ambu- lance, I knew I&#39;d brought the map to the right place. You can read the stories online at www.azstarnet.com/specialreports/ emsresponse.html Contact Enric Volante by e-mail at volante@azstarnet.com Would you be willing to share a mapping example with fellow journalists?</p>
+<p>Send an electronic copy of the map along with details to David Herzog at dherzog@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2004-march-sprawl-outpaces-private-ambulances.html">Sprawl outpaces private ambulances</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2003-february-databases-show-implant-troubles.html">Databases show implant troubles</a>
+  <span class="similar-meta">February 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1990-december-fatal-flaws-death-by-device.html">Fatal Flaws, Death by Device</a>
+  <span class="similar-meta">December 1990</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-december-whats-the-911.html">&quot;What&#39;s the 911?&quot;</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1994-june-fed-or-med-you-can-find-it-online.html">Fed or Med? You can find it online</a>
+  <span class="similar-meta">June 1994</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-march-principals-cash-in-on-sick-pay.html" class="article-nav__prev">← Principals cash in on sick pay</a>
+  <a href="/article/2004-march-sprawl-outpaces-private-ambulances.html" class="article-nav__next">Sprawl outpaces private ambulances →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

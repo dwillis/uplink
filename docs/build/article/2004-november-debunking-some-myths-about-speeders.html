@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debunking some myths about speeders — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Debunking some myths about speeders</h1>
+    <div class="article-byline">
+      <span class="author">Holly Whisenhunt Stephen</span>
+      <span class="author-title">WOAI-San Antonio</span>
+      <span class="date">November 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>My first computer-assisted reporting story started shortly after I arrived at WOAI last year. The data involved more than 1. 6 million municipal court records from Bexar County, Texas.</p></div>
+
+  <div class="article-body">
+    <p>My first computer-assisted reporting story started shortly after I arrived at WOAI last year. The data involved more than 1.6 million municipal court records from Bexar County, Texas. The investigative producer I was re- placing had already put the wheels in motion to get the data. It took some time to convince the court system what information was public. I&#39;m told there was some grappling over ob- taining the information, but it wasn&#39;t the biggest fight either.</p>
+<p>I picked up the data, which cost a couple hundred dollars, a few weeks after I started the new job. During an IRE and NICAR Boot Camp, 1 learned to always make cop- ies and never work with the original data. So, after loading the informa- tion, I put the disks in a safe place where they wouldn&#39;t get back into the mix. We received 10 years of data on a CD-ROM that had 12 comma-de- limited text tables.</p>
+<p>I imported the data into Microsoft Access, making sure to bring all the fields in as text, and later changed the number fields in Access table design view. When I imported the data, I selected the advanced options and created specifications to control the importing of the data. This was very helpful and saved lots of time when it came to im- porting the remaining tables, which had the same fields and same data types.</p>
+<p>The one point I cannot stress enough is to make sure the specifications are absolutely correct, or the resulting data table will be a mess, and you&#39;ll have to clean it up or repeat the import. After importing each table, I checked to make sure all records were imported properly. Then I performed an append query to create tables with more than one year of data and joined all other tables. Before that I tallied the total number of records in the individual tables, so I could check whether the append query was successful.</p>
+<p>Each record represented a case in munici- pal court. The municipal court data table con- tained 85 fields. The complaint descrip- tion field was very helpful because it told us what the actual violation was. Other helpful fields included the viola- tion date, time and location. The data also contained the officer&#39;s name and badge number, which made it easy to find out how many tickets an officer is- sued.</p>
+<p>We analyzed five years worth of data. The information contained sev- eral violations ranging from disorderly conduct to wasting water. We chose to focus on speeding, and ended up with more than 400,000 records that I merged into one table. To separate the information, I queried the complaint description field. Because there are several different variations for speeding, I used the wildcard in my Structured Query Language (SQL) WHERE statement to make sure all speeding violations were included in the query.</p>
+<p>After isolating the information, I performed a make-table query, so I would be working with a smaller table containing the data I needed. This first project taught me the impor- tant steps of cleaning data, so it can be analyzed more easily. I performed several counts including how many tick- ets were written for speeding and speeding in a school zone. We wanted to find out where the most tickets were issued in the city.</p>
+<p>To accomplish this I needed the street address of the vio- lation in one field, which was originally spread over four. I concatenated the contents of the four fields into a new one using SQL. I must admit this is one of my favor- ite tricks because it seems like a huge task to accomplish, but with concatenating it&#39;s easy. Before doing this I made a new field called speeding fulladd to hold the new ad- dresses.</p>
+<p>Here is the SQL I used: UPDATE speeding1 SET speeding1.fulladd = trim ([speeding1] [new vioblk1] &amp; [speeding1] - [new vioblk2] &amp; [speeding1] [vio street1] &amp; &amp; [speeding1] [vio street2]) ; After concatenating the addresses, I was able to get a better look at traf- fic-ticket patterns. I ran queries to group by address and count the num- ber of times each appeared in the data. I chose not to change the names of all streets and highways.</p>
+<p>For instance, Highway 281 @ Bitters Road was also listed as Hwy 281 @ Bitters Rd. I decided that standardiz- ing all of the addresses would be too time consuming. Instead, I chose to use Access and an Excel spreadsheet to get an estimate of how many tickets were issued at specific locations. I queried the data in Access to show the streets and the count of accidents for each. I ordered the results in descending order so the streets with the highest number of ac- cidents appeared at the top.</p>
+<p>Then I noted the top streets and did another query to get the records for those streets. I put the records for each street into its own Excel worksheet and worked with the data there. Although it was not scientific, we were able to estimate ticket locations and counts. We chose to publish the speeding sites where more than 1,000 tickets were issued in the San Antonio area. Another thing we wanted to know was the average amount of time that passed from when a ticket was issued until it was resolved.</p>
+<p>I created a new field to hold the calculated times and ran an update query that inserted the number of days, as calculated using the violation and adjudication dates. Here is the SQL: UPDATE speeding1 SET ADJTIME = INT [NEWADJ DATE]-[NEW VIO DATE]) /1) WHERE [NEW VIO DATE] IS NOT NULL OR [NEWADJ DATE] IS NOT NULL; We were able to look at the data and determine some of the common &quot;myths&quot; linked with speeding tickets for instance, that red vehicles are tick- eted most often - weren&#39;t true in San Antonio.</p>
+<p>Other fun facts we were able to find in this data: The officer who issued the most tick- ets and what time of day most tickets were issued. The prime time was 3 pm. A judge stated that&#39;s when people are picking up kids from school and maybe shift workers are leaving for home. A monthly breakdown when most tick- ets are issued. We found the dates with the most tickets were at the beginning of the month (the 3rd, 2nd, and 6th).</p>
+<p>The reason this was surprising is most driv- ers talk about and assume that offic- ers strive to meet quotas at the end of the month and write more tickets then. The average age of drivers who get tickets: 31. The average speed over the posted limit that results in a ticket: 17 mph. The amount of tickets dismissed be- cause officers did not show up for court or did not remember the traffic stop: 3 percent of all speeding tickets.</p>
+<p>The color vehicle received most tick- ets. We ran into some difficulties with this because not all records indicated the color of the vehicle. The Texas De- partment of Transportation does not record vehicle color on car titles be- cause those colors can change. So we could only report on those who records included the data. White vehicles were the most-often ticketed. Overall this was a great database to work on after Boot Camp.</p>
+<p>Many of the lessons I learned during the Boot Camp helped me to clean and analyze the data. The best advice was to be me- thodical and not overwhelmed by the volume of data. My advice to others is take your time, concentrate and under- stand what you are trying to accomplish before you start trudging through steps that might not be helpful. As far as SQL goes, I now know it is impossible to learn everything you think you should know at Boot Camp.</p>
+<p>[ started compiling a list of SQL state- ments and what they can accomplish. I find this to be very helpful when working on different data that has similar challenges. Another great re- source is the NICAR-L listserv, where journalists doing CAR assist each other. Whenever I&#39;ve had any ques- tions (especially on deadline) I just post it online and usually receive sev- eral answers. Contact Holly Whisenhunt Stephen by e- mail at HollyWhisenhunt@woai.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1991-may-cpu-time-part-two.html">C.P.U. Time, Part Two</a>
+  <span class="similar-meta">May 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-october-daily-news-links-up-with-county-info-access-just-a-few-keystrokes-away.html">&#39;Daily News&#39; links up with county: Info access just a few keystrokes away</a>
+  <span class="similar-meta">October 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-april-mainframes-cpu-time-and-your-wallet.html">Mainframes, C.P.U. Time and Your Wallet</a>
+  <span class="similar-meta">April 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-new-public-reord-law-passes-indiana-goes-electric.html">New public reord law passes Indiana goes electric</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2001-septemberoctober-start-the-car.html">Start the CAR</a>
+  <span class="similar-meta">September/October 2001</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-november-extra-extra.html" class="article-nav__prev">← Extra! Extra!</a>
+  <a href="/article/2004-november-unmasking-murder-myths.html" class="article-nav__next">Unmasking murder myths →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

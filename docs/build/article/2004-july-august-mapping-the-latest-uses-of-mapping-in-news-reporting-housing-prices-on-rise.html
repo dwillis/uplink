@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAPPING The latest uses of mapping in news reporting. Housing prices on rise — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>MAPPING The latest uses of mapping in news reporting. Housing prices on rise</h1>
+    <div class="article-byline">
+      <span class="author">Matthew Waite</span>
+      <span class="author-title">St. Petersburg Times</span>
+      <span class="date">July-August 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Over three years you fix a bathroom, paint a few walls and put in some shrubs. And then you de- cide to sell it. Maybe you&#39;ve heard that other homes on the block were selling well, so what the heck.</p></div>
+
+  <div class="article-body">
+    <p>Imagine buying a house for $60,000. Over three years you fix a bathroom, paint a few walls and put in some shrubs. And then you de- cide to sell it. Maybe you&#39;ve heard that other homes on the block were selling well, so what the heck. And, on a whim, you make more in profit than you spent on the house in the first place. Luck? An isolated case? Hardly, a St. Petersburg Times analysis of home sales found.</p>
+<p>The Tampa Bay housing market is in the midst of a transformation that has affected many bigger cities: the price of a home is skyrocketing, changing neighborhoods house by house and, in our case, greatly eroding the area&#39;s reputation for cheap housing. In 1998, the median price of a house around Tampa Bay was the same as Wichita, Kan. Now, it&#39;s the same as Dallas, a larger city with more wealth. To get at this change on a neigh- borhood level, we largely relied on geographic information systems (GIS), in this case, ESRI&#39;s ArcView 3.2 and ArcGIS 8.3.</p>
+<p>We obtained databases of home sales from the property appraiser&#39;s offices in our five-county circulation area, ending up with more than 260,000 home sale records. We also got parcel map files from each county&#39;s ap- praiser. In most cases, the apprais- ers - elected officials - were happy to provide the data or maps free of charge. Others had standard charges, and just who had them seemed hit or miss.</p>
+<p>One county gave us maps for free, but charged us for data. Another county gave us data for free, but charged us for maps. The most expensive was $85, from one of our rural counties. With the sales data and parcel data, we then turned to the problem of analyzing the data at the neighbor- hood level. Some cities have GIS departments, and gladly turned over GIS boundary maps of neighbor- hood associations.</p>
+<p>But our area in- cludes large, heavily populated un- incorporated areas, with no defined neighborhood associations, other than developer-created subdivi- sions that were too small for mean- ingful analysis. So we created our own, using ArcGIS. We started with a Census Designated Place map - which provides reasonable bound- aries for cities and areas and went from there. With help from editors, reporters and maps, we drew more than 100 neighborhoods onto our main map.</p>
+<p>In the end, we had more than 300 neighborhoods, towns, subdivisions and unincorporated areas in our analysis and maps. That allowed us to dig much deeper than we could have with available reports from the Realtors&#39; associa- tions. We could compare cities, towns and neighborhoods from one to another. We could look at how one hot neighborhood spills over into the ones around it. We could get very, very local for our readers.</p>
+<p>The GIS portion of this, while key to the whole project, wasn&#39;t particularly difficult. ] used ArcGIS to perform spatial joins, which assigned our neighborhood names to parcels based upon where the parcel was located. Then, with the names joined to the parcels, I could import the parcel table into Microsoft Ac- cess and join the parcel table to the sales table. Then, with a neighbor- hood name given to a sale, I could group the sales by the neighbor- hood name and then calculate me- dian sale prices by years using SPSS, a statistics program.</p>
+<p>I then cleaned up the median output SPSS created in Excel and calcu- lated percent changes. By the end, I used almost every software tool in my bag. Since the Times is heavily zoned, the idea from the start was to give each zoned edition a story specific to its area. In the end, we published about 30 stories over two days, 25 of them on one Sunday. For any- one wanting to attempt this kind of story, some advice: Brace yourself (part 1): In the be- ginning, this didn&#39;t sound like an enormous undertaking.</p>
+<p>It is. I prom- ise you. The folder where this project resides on my hard drive comes in just under 8 gigabytes, which does not lend itself to easy management. Brace yourself (part: 2): Be prepared for what you&#39;re going to get from the property appraiser offices. Some are using Access and ArcView, mak- ing everything easy. Some use ar- cane data management software and unheard-of mapping applica- tions.</p>
+<p>I was able to get maps and data from them, but it makes a great case for having both Arc 8 and Arc 3 on a machine. Arc 8 relies on a map layer having a projection as- signed to it. Arc 3 does not. Data from one of our counties came from a computer-aided drawing system. The parcel file wasn&#39;t a collection of polygons - it was a giant col- lection of hundreds of thousands of lines that seemed to connect, but didn&#39;t.</p>
+<p>I could see what the parcel map was supposed to look like, but it was worthless to me as an analysis tool. The data, how- ever, contained an X/Y coordinate that corresponded to the center of the parcel it was related to. To as- sign a neighborhood name to a parcel, I did a spatial join. The problem is, none of my layers - from the points to the parcels to the custom-made neighborhood file - had a projection attached to them.</p>
+<p>Arc 8 won&#39;t do a join without a projection, but Arc 3 will. Check everything twice: Each appraiser&#39;s office stored data differ- ently, and we could get only the barest details about a sale from all five counties. And we were after a very specific slice of the market: single family residential sales of houses (no vacant lots, no condos, no townhouses) that were qualified - an arm&#39;s length transaction be- tween a buyer and a seller who didn&#39;t know each other and weren&#39;t giving the other guy a break that would unduly influence the price.</p>
+<p>Some officials understood this per- fectly, and knew exactly what we wanted. Others didn&#39;t get it, and gave us bad data. To check our data, we took more than 1,000 par- cel ID numbers, some from each county, and looked them up, check- ing the sales history of each parcel for sales we had and sales we didn&#39;t have but should have. In one county, the appraiser&#39;s office gave us three dirty data sets before getting it right.</p>
+<p>Write everything down: The last thing I did should have been the first. As one of the last things I did for the project, I wrote out, in excru- ciating detail, exactly what I did from the start. Much of it was cobbled together from handwritten scribbling on printouts and scratch paper. It was therapeutic almost to write it all out. In the future, I plan to start by writing out what I am going to do, then keeping an electronic journal on what I&#39;ve done since then.</p>
+<p>It will come in very handy when editors begin asking ques- tions about why this was done and that was done when it&#39;s been four months since you did them. I&#39;m de- signing an intranet page whose whole purpose will be to track major data projects like this, from data acquisition to analysis to deadlines for stories. The reaction to this story has been great - my editor called it the &quot;feel- good investigative project of the year.&quot; People who own homes are awed by what they might be able to get for their home.</p>
+<p>I&#39;ve received a couple of e-mail messages from house hunters thanking me for showing them that they weren&#39;t alone. People were buying the Sun- day paper at our front counter days after the story ran. The folks who sell them told me they didn&#39;t have many left on Wednesday after it ran. And, our editors have said, the story resonated with people more than anything we&#39;ve done in recent memory. My thought is it resonated because we wrote about some- thing people care deeply about: home.</p>
+<p>And that made all the work well worth it. The complete package, including interactive features, can be found at: www.sptimes.com/2004/ webspecials04/homeprices Contact Matthew Waite by e-mail at waite@sptimes.com Would you be willing to share a mapping example with fellow journalists? Send an electronic copy of the map along with details to David Herzog at dherzog@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1996-february-atlas-gis-has-site.html">Atlas GIS has site</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-september-making-it-work.html">Making it work</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-july-mapping-a-new-future-for-reporting.html">Mapping a New Future for Reporting</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-june-mapping-the-latest-uses-of-mapping-in-news-reporting-spotting-sex-offenders.html">MAPPING The latest uses of mapping in news reporting. Spotting sex offenders</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-november-selling-data-to-readers.html">Selling data to readers</a>
+  <span class="similar-meta">November 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-july-august-ire-awards-newspaper-winners-bank-on-car.html" class="article-nav__prev">← IRE AWARDS Newspaper winners bank on CAR</a>
+  <a href="/article/2004-july-august-spotlight-real-estate-finding-faults-in-new-homes.html" class="article-nav__next">SPOTLIGHT: REAL ESTATE Finding faults in new homes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

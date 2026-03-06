@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating data points with Google Maps — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Creating data points with Google Maps</h1>
+    <div class="article-byline">
+      <span class="author">Maurice Tamman</span>
+      <span class="author-title">Writer on the Sarasota Herald-Tribune special projects team</span>
+      <span class="date">January February 2006</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>In recent years, newspapers have been using maps online to add inter- active Web components to projects and stories. Typically, they have ported geographic data to a Web-based map server or used plug-ins for ArcGIS or similar prod- ucts to create HTML-based maps.</p></div>
+
+  <div class="article-body">
+    <p>In recent years, newspapers have been using maps online to add inter- active Web components to projects and stories. Typically, they have ported geographic data to a Web-based map server or used plug-ins for ArcGIS or similar prod- ucts to create HTML-based maps. Over the summer, we looked for a way to add an interactive component to a property tax project we planned to publish in the fall. We explored the traditional options, but we wanted it to be truly dynamic and to display almost every parcel (about 400,000) in five Florida counties.</p>
+<p>We considered renting space on a mapping server but it was expensive: $5,000 for four to six months. It was also slow, clunky and particularly difficult to use for the uninitiated Web user. At the time, Google had just re- leased the beta version of the Google Maps APIs (application programming interfaces). Google Maps is clearly the best online mapping service (Yahoo! has just started a similar mapping service) and its underlying maps can be built into anyone&#39;s Web-based ap- plications.</p>
+<p>It quickly became clear to us that we could use Google Maps to deliver a far more satisfying online experi- ence. Here is how we did it: Using ArcGIS 9.1 we calculated the center point of every parcel in the five counties: Google Maps uses latitude and longitude coordinates to plot points and lines. From there we extracted market, assessed and taxable values from the counties&#39; 2004 and 2005 tax roll data and created a table in databases with the parcel coordinates, property values and calculated property taxes for each of the years.</p>
+<p>(Example 1) GEvent.addListener( map, &quot;click&quot;, function(a,p) { //here if == null &amp;&amp; map.getZoomLevel &gt; { map.centerAndZoom p, map.getZoomLevel } else if ( o == null &amp;&amp; map.getZoomLevel()&gt;0) map.centerAndZoom p, map.getZoomLevel( -1);1 (Example 2) function parcel() { // Generate a new XMLHTTP Object xmlhttp = false; try { xmlhttp = new ActiveXObject (&quot;Msxml2.XMLHTTP&quot;); } catch (e) { try { xmlhttp = new ActiveXObject (&quot;Microsoft.XMLhTtp&quot;); } catch (E) { xmlhttp = false; } if (!xmlhttp &amp;&amp; typeof XMLHttpRequest!=&#39;undefined&#39;) { xmlhttp = new XMLHttpRequest // Get the current map bounds var b = map.getBoundsLatLng // Send an XMLHTTP Request, asking for the bubble data xmlhttp.open(&quot;*GET&quot;,&quot;SH/cgibin/geo2.cgi?x=&quot;+b.minX+&quot;&amp;y=&quot;+b.m inY+&quot;&amp;x2=&quot;+b.maxX+&quot;&amp;y2=&quot;+b.maxY,f true) xmlhttp.onreadystatechange = process; xmlhttp.</p>
+<p>send (null) (Example 3) # The table columns we want to output my @col = (id lon lat name address soh just assd txbl home tax cat sohtax rate cnty brk name_05 soh_05 just_05 assd 05 txbl_05 home 05 brk_05 rate_05 sohtax 05 tax_05 cat_05 justg sohg assg txblg taxg sohtaxg sohbrk sohbrk_05); my $ret = &quot;Content-type: text/xml\n\n&lt;items&gt;&quot;; # Only do 2/3 of the available area my $x=(p(x2&#39;)- p(x&#39;)) (1/6); my by=(p(y2&#39;)- p(y&#39;))*(1/6); = my (p(&#39;x&#39;)+p(&#39;x2&#39;)) / 2 my (p(&#39;y&#39;) + p(&#39;y2&#39;)) # Request a slice of parcels my $q = $db-&gt;prepare ( &quot;SELECT *, SQRT (POW (parcel_lon- $cx,2) + POW (parcel_lat - $cy,2)) as C FROM parcels WHERE parcel_lon &gt;= ?</p>
+<p>AND parcel_lat &gt;= ? AND parcel_lon &lt;= AND parcel_lat &lt;= and par- cel_just_05 &gt; 0 ORDER BY C LIMIT 40:f is $q-&gt;execute p(&#39;x&#39;) $x, p(&#39;y&#39;) $y, p(&#39;x2&#39;) $y The project examined Florida&#39;s de- cade-old Save Our Homes amend- ment, which caps annual increases in assessed values (and so taxable values) for resident homeowners. We wanted the Web application to show how the amendment had created wild discrepancies in property taxes for neighbors, even those living in virtually identical houses.</p>
+<p>Google&#39;s map does its magic through client-side scripting and Asynchro- nous JavaScript and XML (AJAX). AJAX allows a programmen to grab data from a server without reposting a page. It is the essence of how Google Maps works. In our case, we hired John Resig, a Rochester Institute of Technology senior, to build the skeleton of the application and we adapted his code. We found him by doing a Google search and came across his Web blog (http://ejohn.org) describing techniques using the Google Maps API.</p>
+<p>(For more about the APIs see www.google.com/apis/map.) Anyone planning to work with Google Maps (or the similar Yahoo! Maps) must be a proficient or know a profi- cient programmer in avaScript and a server-side language. In our case we used PERL on the server, but could have picked from other languages, including the various NET flavors. The Google APIs are pretty com- plete, but because of differences in browsers, the programming can be tricky.</p>
+<p>Microsoft&#39;s Internet Explorer 6, for example, renders icons on a map very slowly. Mozilla Firefox, however, renders icons almost instantly. We also wanted to change some of the behavior of the map from the standard Google Maps. The most important being that a click on the map drills down two levels and cen- ters on the click. (We wanted to get users down to the neighborhood as quickly as possible.) (Example 4) Print out the resulting XML $ret .= &quot;&lt;item join map{ $row-&gt;{\&quot;parcel_$_\&quot; = s/&amp;/&amp;amp;/g; $row-&gt;{\&quot;par cel_$_\&quot;} = s/&#39;/&amp;apos;/g; $row-&gt;{\&quot;parcel_$_*)\&quot; nso } @col ) &quot;/&gt;&quot;; (Example 5) // from the XML, gets the cat of property var n = it [i] .getAttribute (&quot;cat_05&quot;) 0; var 35 ( * 5 ) ; // and figure out if is a homesteaded property var ic = new GIcon icon ic.image = &quot;img/bubble&quot; + [i] getAttribute (&quot;home 05&quot;) == &quot;1&quot; ?</p>
+<p>&quot;check&quot; na ) n + &quot; . png&quot; ; // and creates an icon ic.iconSize = new GSize j, j ic.iconAnchor = new GPoint j - 20, j - 10 ) ; c.infoWindowAnchor = new GPoint 10, 10 // and places the icon on the map using the latitude and longitude of the parcel contained in the XML var III = new GMarker ( new GPoint ( it [i] getAttribute (&quot;lon&quot;), .getAttribute lat&quot;) ),ic); Example 1 shows the vaScript code to add click and zoom func- tionality.</p>
+<p>This snippet is part of the windows.onload function(). Effec- tively, it grabs the point of a click and zooms in two levels, centered on the point of the click. At the lowest extent of the map, a client-side function fires that initiates a PERL script on the server that in turn queries a database and returns XML-formatted data. The client-side script then picks back up and places the icons on the map.</p>
+<p>Example 2 shows the vaScript that fires the PERL script on the server. The first half of the code allows the browser to accept XML-formatted data. The second half grabs the coordinates of two opposite corners of the map and sends them to the PERL script. See Example 3 for PERL code to grab the data from a MYSQL server using the map boundaries to gather the appropriate parcel data for the map. After doing some server-side calcu- lations to assign a value that would determine the size and type of icon to be displayed on the map, we then returned the data to the client using the code in Example 4.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1996-february-atlas-gis-has-site.html">Atlas GIS has site</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-july-mapping-a-new-future-for-reporting.html">Mapping a New Future for Reporting</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-february-the-big-picture.html">The big picture</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-february-finding-files-for-mapping.html">Finding files for mapping</a>
+  <span class="similar-meta">February 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2006-january-february-privacy-security-block-access-to-data.html" class="article-nav__prev">← Privacy, security block access to data</a>
+  <a href="/article/2006-january-february-open.html" class="article-nav__next">Open →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

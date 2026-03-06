@@ -1,0 +1,14 @@
+{
+  "name": "uplink-site",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && npx serve build"
+  },
+  "dependencies": {
+    "lunr": "^2.3.9",
+    "natural": "^6.10.0",
+    "slugify": "^1.6.6"
+  }
+}

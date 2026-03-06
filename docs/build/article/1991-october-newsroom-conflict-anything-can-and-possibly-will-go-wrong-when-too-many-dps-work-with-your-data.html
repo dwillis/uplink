@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsroom conflict: Anything can (and possibly will) go wrong when too many DPs work with your data — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Newsroom conflict: Anything can (and possibly will) go wrong when too many DPs work with your data</h1>
+    <div class="article-byline">
+      <span class="author">Jerry Uhrhammer</span>
+      <span class="author-title">Tacoma Morning News Tribune</span>
+      <span class="date">October 1991</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>Explores the challenges faced by newsrooms in maintaining control over computer-assisted reporting projects and navigating technical bureaucracy.</p></div>
+
+  <div class="article-body">
+    <p>I felt vaguely uneasy when I attended MICAR last May and listened to Elliot Jaspin talk about the importance of maintaining newsroom control over computer-assisted reporting projects. Before leaving for Missouri, I&#39;d been talking to our newsroom computer systems technician about the hardware needed for a computer-assisted reporting program. He didn&#39;t think that a separate nine-track tape drive was necessary.</p>
+<p>He was convinced it would make better sense and be less expensive to download nine-track government tapes on the newspaper&#39;s VAX business computer, then transfer the data to the newsroom network&#39;s servers where it could be accessed with a PC. That&#39;s why I was uneasy. Jaspin was telling us that if you&#39;re going to use a computer to analyze government data from nine-track tapes, that&#39;s a reporting function.</p>
+<p>And it&#39;s important that the reporter have control of the software and hardware involved in the process. I happen to be a computer enthusiast as well as an investigative reporter. I also know my own limitations - I&#39;m a non-programmer and non-technician. And I had no illusions about being given access to the business computer to load my own tapes. I knew that if we used the VAX system, I effectively would lose a good deal of control over what I was doing.</p>
+<p>As it turned out, Jaspin&#39;s words foreshadowed a summer of frustration and delays that effectively stalled my newspaper&#39;s venture into computer-assisted reporting for months. Returning from Missouri, I wrote a memo that raised the control issue. But management opted instead to first try the VAX-fileserver-network approach. Why spend $10,000 on new hardware if you can do the job as well, if not better, with existing sources?</p>
+<p>I soon learned first-hand what Jaspin had been talking about. Just the simple act of loading a nine-track tape involved working through two tiers of bureaucracy and across departmental lines. First I had to give the tapes to the newsroom computer technician, who then took them to the data processing department. The data processing professionals (DPPs) actually loaded the tapes on the VAX. The technicians and DPPs are stretched thin with their own projects and I learned that an assurance that something would be done the next day or the next week was not something to bank on.</p>
+<p>Days had a way of stretching into weeks. When things did get done, the results were not always predictable. The first tape loaded contained 1990 census data. But when I tried to extract data into my XDB database program, my 386sx computer labored mightily for a long time and brought forth absolutely nothing. I tried again and again. Still nothing. Thus began a recurring pattern. I was the only one who knew about my XDB software.</p>
+<p>And when something didn&#39;t work, it was up to me to find out why. I spent hours on the telephone calling people familiar with XDB and census tapes. Elliot Jaspin provided the clue that solved the first mystery. The VAX computer did not recognize the character/linefeed signal that marked the end of a record. The absence of such a command left the computer huffing and puffing through 170 megabytes of census data without finding the end of the first record.</p>
+<p>When the VAX was reprogrammed and the census tapes were loaded again, more funny things happened. Asked for specific information on a certain census tract, the computer began spewing out data of all shapes and sizes. I finally realized I hadn&#39;t set up the right filters to narrow down my request. But when I did, I still got two &#39;hits&#39; where I should have gotten only one. After much detective work, I determined that the tapes had been loaded with an incorrect record length.</p>
+<p>The good news was that all we had to do was reload the tapes using the correct record length. The bad news was that data processing was busy with end-of-the-month business-side tasks. My tapes had to wait. More bad news followed. After end-of-the-month time, the DPP who loaded the tapes left on vacation. Thirteen days elapsed before the tapes were reloaded. In the interim, I learned another lesson about what can happen when you aren&#39;t in control of your own data.</p>
+<p>Earlier, we had loaded a different governmental database into the fileserver. But when I finally examined the file, I found the data unreadable. A couple days later, after getting advice on how to cure the problem, I tried to access the database again and found it missing altogether. I had been moved, without my knowledge, to make room for the anticipated reloading of the census tapes. I was told the data would be restored the next day.</p>
+<p>Nine days later it still hadn&#39;t reappeared. I finally stopped asking about its whereabouts because I had new worries. The 40-megabyte hard drive on my computer didn&#39;t have enough memory to handle the loads of data I was pulling into XDB. The solution: reprogram the system so that I would do all my work in the network&#39;s G-drive, which had plenty of memory. That sounded like a pretty good idea, but when we tried it, my XDB software refused to work in G-drive.</p>
+<p>XDB technical support finally figured out what was wrong. The AUTOEXEC batch file written to put XDB on the G-drive contained a command referring to C-drive, which was overriding all subsequent instructions to switch to G-drive. The VAX-fileserver-network approach turned out to be something less than advertised. For much of the summer, it seemed as if getting our computer-assisted reporting project off the ground was operating according to Murphy&#39;s Law: Whatever can go wrong will.</p>
+<p>In retrospect, it illustrated again the basic truth of the adage, too many cooks can spoil the broth. The troubles of summer had a happy ending. My editors agreed that we had to bring all of the program back inside the newsroom, giving us control over our own data. We bought our own hardware for the newsroom, a 486-33 MHz computer with a 330-megabyte hard drive, a Qualstar 1260 tape drive and a printer.</p>
+<p>Now it&#39;s up to me, a reporter, to make it all work. As it should be.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1992-december-giving-credit-where-credit-is-due.html">Giving credit where credit is due</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-november-building-a-no-cost-open-newsroom.html">Building a no-cost, open newsroom</a>
+  <span class="similar-meta">November 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-june-the-perils-of-computer-assisted-reporting.html">The perils of computer-assisted reporting</a>
+  <span class="similar-meta">June 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-september-we-did-it-our-way.html">We did it our way</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1990-october-plugging-in-the-hartford-connection.html">PLUGGING IN: THE HARTFORD CONNECTION</a>
+  <span class="similar-meta">October 1990</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1991-september-mainframe-versus-pcs-its-a-matter-of-time-cost.html" class="article-nav__prev">← Mainframe versus PCs: it&#39;s a matter of time, cost</a>
+  <a href="/article/1991-october-daily-news-links-up-with-county-info-access-just-a-few-keystrokes-away.html" class="article-nav__next">&#39;Daily News&#39; links up with county: Info access just a few keystrokes away →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

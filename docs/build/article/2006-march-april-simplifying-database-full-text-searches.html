@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simplifying database full-text searches — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Simplifying database full-text searches</h1>
+    <div class="article-byline">
+      <span class="author">Brad Heath</span>
+      <span class="author-title">The Detroit News</span>
+      <span class="date">March-April 2006</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>One of the most important things you can do in your newsroom is spread the wealth of information. But finding a way to let other reporters and editors get the data they need, whenever they need it, is a challenge.</p></div>
+
+  <div class="article-body">
+    <p>One of the most important things you can do in your newsroom is spread the wealth of information. But finding a way to let other reporters and editors get the data they need, whenever they need it, is a challenge. The easiest way to do it is on your company&#39;s intranet-but most of the tools are cumbersome or expensive. Here is my solution. OpenInfo is a collection of intranet scripts you can use to run simple, full-text searches across dozens of newsroom databases simultaneously.</p>
+<p>You can add data to the site with a few minutes of work, instead of spending hours writing new search forms. You can customize it to help people in your newsroom find information most relevant to them, with easy searches and automatic cross-referencing of records. Users who want to go deeper will find forms they can use to run advanced searches or write data queries (without having to know Structured Query Language).</p>
+<p>Best of all, it runs entirely on open-source platforms (an Apache Web server, a MySQL database server and the PHP scripting language). If you already have the hardware, you can get the whole package set up in an afternoon, at no cost. And because it relies on MySQL to do the heavy lifting, it can easily accommodate searches of millions of records. (I have used it on one server with almost 70 million records spread across 60 tables.) Download the OpenInfo file from www.nicar.org/downloads Once you provide OpenInfo with basic information about what kinds of data are stored in your table, it does the rest: building search forms, a query wizard and integrating the records into a global full-text search.</p>
+<p>Once you have the scripts set up (more on that in a minute), searching is very straightforward. The home page offers a single form that will search across every database that you incorporate into OpenInfo, using syntax similar to what you are accustomed to using for searching the Web or your electronic archives. (Figure 1) Because the search runs against a full-text index, you don&#39;t need to know the order in which your search words appear, or whether they&#39;re in the same field in the database.</p>
+<p>In addition to simple searches, OpenInfo gives you an almost unlimited ability to drill into and cross-reference your data. Take, for example, my own voter registration information. To find it, I&#39;d start by searching for Heath, Brad* (yes, OpenInfo supports wildcards), then click on the matching results to see the full record. (Figure 2). OpenInfo shows all the fields incorporated into the database (unless you have chosen to hide a few), and makes the contents of each field clickable.</p>
+<p>Clicking any of the links will take you to a pop-up guide that will help you cross-reference that information against other Openinfo records, Google, or any other online database with an accessible URL syntax (Yahoo! News, your archives, your photo assignments, etc.). If you want, OpenInfo can also do some of this work for you. For example, you can teach Openinfo how to assemble the fields in your database to make a complete address.</p>
+<p>If you do, the script displays an embedded map for each record (as well as linking to Google Maps), and gives you tools for cross-referencing the address against other records. It will also automatically check for other records in that table with a matching address and show you a list. That means when you look at my voter registration record, OpenInfo automatically finds my wife&#39;s registration, too.</p>
+<p>(Figure 3). You also can have OpenInfo mash together other fields from the record that you think might be helpful for users looking to find related information. For example, it might be helpful to have one link that will search based on a person&#39;s first name, last name, city and state. For users who want more power, OpenInfo has more advanced search functions. You can search individual fields in a database, or use a built-in query grid to search through or summarize your data and export the results to Microsoft Excel (users who want to do even more can download full data tables as dBASE files).</p>
+<p>Users can create custom groups of sources, or search based on the type of information associated with a field, such as names and addresses. If you want, you can allow users to create their own databases on the fly, for their own use or to add to the public collection of sources. OpenInfo tracks searches and record views so you can find out quickly what is most popular with your newsroom. Setup is easy and inexpensive.</p>
+<p>To start, you need a MySQL database server, an Apache Web server and the PHP scripting language, all of which are open source. (If you don&#39;t already have these, you can add them fairly easily by downloading XAMPP, which installs all three at once, from http://sourceforge.net/projects/xampp.) After that, unpack the script files into one of the folders on your server. Then sign on to your database server as a root user and run the setup.sql file included with the scripts.</p>
+<p>(You might need to make a few other adjustments to your server, depending on how it&#39;s configured. A complete readme file is included with the scripts.) www.mysqlfront.de.) After you have data on your server, sign in to OpenInfo as an administrator, go to the main page and follow the &quot;Grab an existing database&quot; link. You&#39;ll be prompted to choose a database and table, then to enter a name and description of what information is stored in the table.</p>
+<p>Next, OpenInfo reads the structure of your data and asks you to fill in basic information about the table, such as the field that contains a unique identifier for each record and the field you want to use as the main display line for a record. (Figure 4) You also need to decide which fields you want included in the full-text search. (Note that this applies only to text fields, and because of limitations in MySQL, you can choose, at most, 16 fields.) You will be able to add additional information later, including adding detailed annotation to fields, specifying sort orders and setting up rules to create addresses and quick links.</p>
+<p>Openinfo is yours to play with and improve. If you don&#39;t like the way it works, change it. If you have a suggestion for a feature you like, let me know and I&#39;ll work to incorporate it. Among the improvements I&#39;m already polishing up (they&#39;ll be ready soon) are a system that picks out relevant records based on previous searches and the ability to search based on how a word sounds, not just its literal spelling.</p>
+<p>Contact Brad Heath by e-mail at bheath@detnews.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2006-march-april-campus-crime.html">Campus crime</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-november-selling-data-to-readers.html">Selling data to readers</a>
+  <span class="similar-meta">November 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-january-post-dispatch-reporters-find-hud-abuses-in-investigation.html">Post-Dispatch reporters find HUD abuses in investigation</a>
+  <span class="similar-meta">January 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-january-news-and-observer-challenges-nc-for-access-to-public-information.html">News &amp; Observer challenges N.C. for access to public information</a>
+  <span class="similar-meta">January 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-fun-fed-sites.html">Fun fed sites</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2006-march-april-covering-congress-states-getting-trickier.html" class="article-nav__prev">← Covering Congress, states getting trickier</a>
+  <a href="/article/2006-march-april-mapping-data-for-news-stories.html" class="article-nav__next">Mapping Data for News Stories →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

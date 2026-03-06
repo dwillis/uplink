@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sprawl outpaces private ambulances — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Sprawl outpaces private ambulances</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Sonderman</span>
+      <span class="author-title">Missouri School of Journalism</span>
+      <span class="date">March 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Investigating emergency response times takes a lot of upfront reporting and data chasing before you know if you have a story. So how do you know if you should jump into doing this story in your com- munity?</p></div>
+
+  <div class="article-body">
+    <p>Investigating emergency response times takes a lot of upfront reporting and data chasing before you know if you have a story. So how do you know if you should jump into doing this story in your com- munity? There are a couple of ways. If you notice specific cases where people died waiting for an ambulance, that&#39;s an obvious red flag. But you don&#39;t need to wait for such a clear signal. In any community with sprawl and growth, journalists may wonder whether key public services, including emergency medical services (EMS), are keeping up.</p>
+<p>That&#39;s what sparked my interest and led to &quot;A Matter of Time,&quot; a November 2003 story in the Columbia Missourian. The story was based on the analysis of Boone County computer-aided dis- patch data using ESRI&#39;s ArcView 8.2, as well as Microsoft Excel and Access. | obtained three years of computer-aided dispatch (CAD) records of emergency medical calls, 39,744 total, from Public Safety Joint Communications, a city agency that operates the 911 service.</p>
+<p>The agency&#39;s database manager was cooperative and told me what data was available. Because of privacy concerns under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), the agency would only release the data to the hospitals, which then handed it to me on CD. The data came in a comma- delimited text format at no cost because it required no special programming. HIPAA also challenged our desire to map response performance.</p>
+<p>The hos- pitals refused to provide addresses that were logged for each call because the information could easily identify pa- tients. I talked to the database man- ager about alternatives, and he said the dispatch agency logs the general lo- cation of each call using a grid with cells of about one-half square mile each. He e-mailed me an ArcView shapefile of the geographic grid system that day. The response data was relatively clean; 911 system computers, not people, had entered much of the data automatically.</p>
+<p>The biggest problem was that response times were not properly logged on some calls. The response time is re- corded when the dispatcher presses a button at the time of dispatch and again at the arrival on scene. In some cases, the dispatcher missed one of those events, and the response time was re- corded as zero. These records were excluded because the errors seemed to affect calls in a random pattern that did not skew the data.</p>
+<p>This anomaly, as well as all of my analysis, was ex- plained to the readers in a sidebar. We imported and analyzed the data into Access and exported the results of some of the queries in Excel. The analysis included looking at over- all response time, as well as grouping in Access to see response times by am- bulance, specific location, city or town, and time of day. I looked at the division of call volume among various ambu- lances and locations and times of day.</p>
+<p>To analyze performance relative to the eight-and six-minute response time stan- dards of the hospitals, I created two fields to indicate whether the unit had reached the scene within each of those two time frames. I also created new fields to dis- play the response time for each call in seconds, based upon the start and end times included in the data. In ArcView, I used the grid to map re- sponses by grid section, which pro- duced a color-coded mosaic showing the percentage of calls in each sector that were reached within the eight- minute goal.</p>
+<p>To do this, I first used an Access query to group by the coordi- nates for each grid sector. I then summed the number of calls reached within the goal and counted the total number of calls in the area. I imported the result of that query into Excel to figure out the percentage of success- ful response times for each grid sec- tor. Then I imported that simple table just grid coordinates and the percent- age of success into ArcView and ap- plied it to the shapefile that used the same grid coordinates.</p>
+<p>Talking to the people who kept the data also helped us to extract useful data from two of the fields in the database. The grid coordinate field of each record corresponded to a single cell on the grid map, but it also contained a letter at the end of the four or five numbers (the &quot;B&quot; in section 14041B, for ex- ample) that indicated the general lo- cation of the call. Each of the smaller cities and towns in the county had its own assigned letter.</p>
+<p>I parsed the grid coordinate field in Access and placed its letter into a new field so I could eas-ily examine all the calls in those towns using grouping and counting queries. The index field that assigns a unique identifier to each dispatch also included characters that indicate which ambu- lance responded, for example &quot;M31&quot; for Medic 31. We parsed those refer- ences into a new field, which allowed us to look at response times and emer- gency call volume for each ambulance.</p>
+<p>The two ambulance services that cover Boone County are owned and oper- ated by the two major local hospitals. The good news for residents is that they don&#39;t pay a tax for a public ambu- lance service. But this also means the ambulance services are departments of large institutions that have to watch their financial bottom lines. Emergency medical services tend to lose money, and that puts the opera- tors in a sticky position.</p>
+<p>How much money are they willing to lose on an ambulance service to provide better patient care? This is an especially important issue in small but rapidly growing regions, such as Columbia and Boone County, which has a population of about 135,000 people, with about two-thirds of them in the city of Columbia. But Columbia is sprawling outward, away from the ambulance stations, and populations are growing in other cities around the county.</p>
+<p>Once I had the story, it was time to make it come alive with field reporting. I went on several ambulance ride- alongs, arranged by one of the hospi- tals, and shadowed the paramedics when they responded to calls. This firsthand experience helped me understand the system and the num- bers I was writing about. It also gave me extended access to paramedics in their work environment, where they were talkative and comfortable.</p>
+<p>The time I spent on ride-alongs was incred- ably useful. The paramedics are on the front lines of EMS, so they often pro- vided the most insightful comments on the data I showed them. Paramedics can also help answer the big question: How much is better pa- tient care worth? Paramedics almost always want more ambulances and more resources. They would take an ambulance on every street corner if they could get it, because their biggest concern is patient care.</p>
+<p>Here you might find, if not a whistleblower, at least an advocate for change in the system. Contrast that with the concerns of man- agers and hospital administrators. Many of them have never worked as paramedics, and their focus is more on the financial costs of adding ambu- lances or other resources. So in most EMS systems, you will prob- ably find some amount of tension be- tween what the EMS workers want and what the administrators think is nec- essary or practical.</p>
+<p>Each side will be ea- ger to convince you, and you can use information from both sides to develop a balanced story. Contact Jeff Sonderman by e-mail at jeffsonderman@yahoo.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1996-december-whats-the-911.html">&quot;What&#39;s the 911?&quot;</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1997-august-stats-from-the-road.html">Stats from the road</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-march-response-times-fall-short.html">Response times fall short</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-march-survey-helps-explain-heart-attack-survival.html">Survey helps explain heart attack survival</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1990-october-plugging-in-the-hartford-connection.html">PLUGGING IN: THE HARTFORD CONNECTION</a>
+  <span class="similar-meta">October 1990</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-march-response-times-fall-short.html" class="article-nav__prev">← Response times fall short</a>
+  <a href="/article/2004-march-asksam-tames-the-data-clutter.html" class="article-nav__next">askSam tames the data clutter →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

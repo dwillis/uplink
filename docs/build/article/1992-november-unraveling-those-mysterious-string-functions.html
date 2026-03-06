@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unraveling those mysterious string functions — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Unraveling those mysterious string functions</h1>
+    <div class="article-byline">
+      <span class="author">George Landau</span>
+      <span class="author-title">St. Louis Post-Dispatch</span>
+      <span class="date">November 1992</span>
+    </div>
+    <div class="article-topics"><a href="/topics/other.html" class="badge">Other</a></div>
+  </header>
+
+  <div class="article-summary"><p>Coli of computer- assisted reporting. Digesting a database can be impossible without them, but who likes to talk about it? I, for one, don&#39;t like even to admit knowing such stuff.</p></div>
+
+  <div class="article-body">
+    <p>S tring functions are the E. Coli of computer- assisted reporting. Digesting a database can be impossible without them, but who likes to talk about it? I, for one, don&#39;t like even to admit knowing such stuff. But this being a forum for geekspeak, I swallow my pride and cough up the following. All about string functions: String functions are the features of a database manager or spreadsheet that allow you to alter text in a field through truncation or substitution.</p>
+<p>Say you want to match two databases in which names and addresses are the only identifiers. One of the databases is a list of private lawyers who occasionally do work for the state; the other is a list of contributors to the campaign of the state&#39;s attorney general, who hires the private lawyers without competitive bidding. The database of lawyers has records like this: LAWYER NAME ADDRESS Dew E. Cheatham 2424-A Greenback Way Hope U.</p>
+<p>Cansue II One Mercantlie Center And the contributors database looks like this: AME ADDRESS Cheatham, Dew E.Jr. 2424 Greenback Cansue, Hope U. H #1Mercantile Ctr. To minimize the amount of manual compari- son you&#39;ll have to do between the databases, you&#39;d want to standardize the formats of names and addresses. It would help to split each name field into four new fields: LASTNAME, FIRSTNAME, MIDDLEINIT and JRSR.</p>
+<p>You could split the address fields into NUMBER, STREETNAME and STREETSUFFIX. I don&#39;t have the space to go through each step, but I&#39;ll explain how you could use string functions to extract each piece of information for the new fields. (Note: I&#39;ll be referring to string functions available in FoxPro 2.0; I believe that similar functions are available in dBASE and Paradox, although XDB users might find their selections of string functions to be more limited.) FoxPro has a handy function called AT( ) which returns the location of a character in a string.</p>
+<p>For example, in the NAME field with the value &quot;Cheatham, Dew E. Jr.,&quot; the function AT(&quot;,&quot;,name) returns the number 9 - the position of the comma from the start of the NAME field (the capital &quot;C&quot; is in position 1). If there were two commas in the NAME field and we wanted erything to the left of the second one, the AT( ) action could help us: AT(&quot;,&quot;,name,2) will give the position of the second comma.</p>
+<p>AT( ) can have two or three items between its parentheses: the first item is the string to search for (it can be more than one character), the second is the field to search, and the third, optional item denotes which occurrence of the string to search for. To extract the last name from the field contain- ing &quot;Cheatham, Dew E. Jr.,&quot; we want the first eight characters starting from the left. The function LEFT(name,8) would yield the string &quot;Cheatham&quot;.</p>
+<p>To automatically extract all characters to the left of a comma, not matter where the comma appears, you can combine the LEFT() function with the AT() function: LEFT(name,at(&quot;, &quot;name)-1) will do the trick. Another function, SUBSTR( ), can pull a string of any length from any position in a text field. SUSTR(name,3,6) would return the characters &quot;eatham&quot;: the function went to the third character in the NAME field and extracted the next six characters.</p>
+<p>You could write a short program that scans through each record of the file, combining SUBSTR() with the AT() function to pull out text between the first and second spaces that occur in a name field with the format, &quot;Firstname I. Lastname.&quot; Then, using the LEN() function, you could copy that text to the MIDDLEINIT field if the text is only one or two characters long, or copy it to the FIRSTNAME field if it is longer.</p>
+<p>Another string function that can prove mighty useful is STRTRAN(). This one automatically searches a field for any string you specify and replaces it with whatever else you specify -- or deletes it altogether. STRTRAN(name,&quot;eat&quot;,&quot;chow&quot;) would replace &quot;Cheatham, Dew E. Jr.&quot; With &quot;Chchowham, Dew E. .Jr.&quot; You can use this function to remove all punctuation - STRTRAN(name,&quot;.&quot;) would strip the periods from the name field, for example - or to standardize the spellings of small numbers in addresses or street names (STRTRAN(address,&quot;One or STRTRAN(address,&quot;Tenth&quot;,&quot;10th&quot;).</p>
+<p>One last tip: A string function called SOUNDEX() can be useful in matching phoneti- cally similar words with minor spelling variations. The function returns a four-character code describing the sound of a word; &quot;Diane,&quot; &quot;Dyann&quot; and &quot;Deanne&quot; all produce the same SOUNDEX code of D500. This function is useful in identifying possible matches that deserve closer inspection - matches that the computer would otherwise miss.</p>
+<p>If string functions seem a little complicated, don&#39;t worry. These things start to make sense only after you&#39;ve experimented with them for a while. But they are worth learning, because they&#39;ll save you lots of time in the long run. If you have any questions, don&#39;t hesitate to call me at the Post- Dispatch: (314) 340-8296.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1997-august-car-tech-tip.html">CAR Tech Tip</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-october-quick-hits-writing-a-computer-assisted-story-in-less-than-a-week.html">Quick Hits! Writing a computer-assisted story in less than a week</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-april-stats-add-muscle-to-computer-assisted-reporting.html">Stats add muscle to computer-assisted reporting</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1992-december-two-weapons-fight-unfair-database-pricing-old-fashioned-haggling-and-knowing-the-law.html">Two weapons fight unfair database pricing: old-fashioned haggling and knowing the law</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-yes-we-still-say-computer-assisted-reporting.html">Yes, we still say &quot;computer-assisted reporting&quot;</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1992-november-new-bill-promises-access-to-federal-databases.html" class="article-nav__prev">← New bill promises access to federal databases</a>
+  <a href="/article/1992-november-osha-data-analyzes-information-for-you.html" class="article-nav__next">OSHA DATA analyzes information for you →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

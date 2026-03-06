@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTLIGHT: REAL ESTATE Finding faults in new homes — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>SPOTLIGHT: REAL ESTATE Finding faults in new homes</h1>
+    <div class="article-byline">
+      <span class="author">Katy Miller</span>
+      <span class="author-title">Orlando Sentinel</span>
+      <span class="date">July-August 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/agriculture-land.html" class="badge">Agriculture &amp; Land</a></div>
+  </header>
+
+  <div class="article-summary"><p>One of the most expensive purchases a consumer can make is his or her home. For buyers of new homes, one benefit is not having to worry about repairs.</p></div>
+
+  <div class="article-body">
+    <p>One of the most expensive purchases a consumer can make is his or her home. For buyers of new homes, one benefit is not having to worry about repairs. However, an examination of house construction quality in the booming central Florida building mar- ket by the Orlando Sentinel and WESH-Orlando, found thousands of problems with the new homes. Our series, &quot;Building Homes: Building Problems,&quot; uncovered a serious de- cline in craftsmanship in central Florida&#39;s new homes.</p>
+<p>Among the ma- jor problems we found were a myriad of heating, ventilation and air condi- tioning issues, wall and foundation cracks and improperly installed win- dows. In addition, we found everything from major construction failures to simple poor workmanship. Don Tracy, a senior projects reporter, asked me to help him build a Microsoft Access database. We had worked to- gether on an Access database in the past, and I knew he had a working knowledge of the program.</p>
+<p>I didn&#39;t re- alize the extent of project we would be undertaking. Tracy was doing a quantitative study of new home quality in central Florida. As part of the project, Ron Resch, a local building inspector, was selected to train engineering students at the University of Central Florida&#39;s home constructability lab to inspect homes built in 2001. My responsibility was to build the database for the inspections information and analyze the results.</p>
+<p>The newspaper acquired a list of homes built in 2001 from local prop- erty appraisers. Clerks working for the newspaper and television station called homeowners and asked them whether they would be willing to par- ticipate in our study. Those names and phone numbers were submitted to the inspectors to set up appointments. With the assistance of Resch, Tracy created a paper copy of an inspection report for the students.</p>
+<p>It had more than 800 categories of information. That should have been my first tip that Ac- cess was the wrong tool for this project because Access tables are limited in the number of fields. But at the time it seemed like the best choice, and it was a database the UCF students were fa- miliar with. I had two challenges in designing the database. First, I needed to make a form that somewhat resembled the in- spection report used by the students for data entry.</p>
+<p>To achieve this I created multiple tables and linked them to- gether using subforms. I created tables that corresponded to the distinct sections of the inspection report. For example, there was a bath- room subform and a kitchen subform. Each table contained check boxes that indicated whether the student inspec- tors spotted a certain problem. There was a total of 17 subforms linked to the master form.</p>
+<p>While the UCF students inspected the houses, Tracy obtained residential in- spection data from the six surrounding counties for the past three fiscal years. We also acquired inspections con- ducted by the city of Orlando, The goal was to determine the pass-fail rate of the official inspections by county. The cost for the data ranged from free to under $100, varying by county. The city of Orlando provided a Microsoft Access database, but it was read-only.</p>
+<p>We exported the tables into Excel and created a new database. Polk County provided text files. However, the data was in print format and looked like screen shots of a report. I used Mon- arch to parse the data into fields and export it as a delimited text file. Osceola County at first refused to pro- vide anything other than a printout; the press officer claimed that the database was not available in electronic format.</p>
+<p>After we spoke to someone in the tech- nical department, we learned this was untrue and obtained the data in Excel. The remaining counties provided Ex- cel spreadsheets that we easily im- ported into Access. Unfortunately, the data sets had a couple of problems. Although we re- quested the past three years of data, the counties did not provide the exact same time periods. However, I felt there were enough records to show an inspection pass-fail rate.</p>
+<p>The second problem with the data was that every county had provided some duplicate records. I used a select dis- tinct query in Access to create a table with the unique values. SELECT DISTINCT Inspections SITEADDRS Inspections JOBDESCR, Inspections.CONTRTNAME Inspections.CONTRTCOMP Inspections INSPECTOR, Inspections.INSPCODE, Inspections CODEDESCR, Inspections.inspecdate, Inspections RESULTCODE INTO Deduped FROM Inspections After I compiled the results, I attempted to verify our findings with the building inspection departments of each county.</p>
+<p>Only one of the counties had calculated pass-fail rates, and the results matched ours to the decimal point. In Access, I ran queries to determine the number of inspections daily and a failure rate by inspector. I then gener- ated a list of inspections by day for each inspector. This helped find in- spectors who appeared to pass a ma- jority of the houses. We found an inspector who logged more than 90 inspections in one day.</p>
+<p>Using Maplnfo geographic information system, I mapped the daily route for an inspector in each county, illustrat- ing how little time was spent on each inspection because of travel time. After UCF started entering data I needed to transfer it between UCF and the Sen- tinelto monitor the inspection results. Our technology department set up an FTP site and UCF uploaded the newest ver- sion of the database, with accompany- ing photos and videos, every Monday.</p>
+<p>With the assistance of Resch, Tracy classified the problems found into three categories of severity: worth noting, concerns and priority problems. At this point I realized the restrictions of work- ing in Access. I needed to group the problems into these categories using data from multiple tables. The first hurdle was to convert the checkboxes on the forms into a data value. Even after converting the data to a value, I was unable to run queries on the data.</p>
+<p>I solved this problem by converting the values into new tables, and used the new tables when running a query. To avoid re-creating my efforts, the UCF students downloaded a copy of the database I had created with the queries and added data to that database. When the inspections were almost completed, the editor for the project decided to put the database on OrlandoSentinel.com, our newspaper&#39;s Web site.</p>
+<p>I knew that this would take an enormous amount of programming, and using Structured Query Language (SQL) was the best choice. In an effort to be fair to the builders, ev- ery problem found was not published in the series. Before converting the data from Access in SQL, I asked Tracy and WESH producer Travis Sherwin which problems should be included in the Web version of the database. They re- fined the original list of problems down to about 200.</p>
+<p>(See the database online at http://extra.orlandosentinel.com/ buildingproblems) After having a pared down list of prob- lems, I sat down with a programmer from the Orlando Sentinel&#39;s technology de- partment assigned to build the Web da- tabase. Together we assigned each problem a location in the house (i.e., bathroom), a severity ranking, a system HVAC), and a system element (i.e., ductwork) for classification purposes.</p>
+<p>After the inspections were completed, we exported the tables from Access into the Microsoft SQL Server database. There were more than 120 builders, more than 400 homes, and more than 200 potential problems in each home. On the inspection subforms, I created a comments box for problems not listed on the inspection sheet. To include this data in our database, I sorted through more than 800 separate comments to be classified.</p>
+<p>In many cases I had to create a new field for problems that had not been anticipated when the form was created. For example, there were 37 homes with mold on the HVAC unit. I was put in charge of all the data analy- sis and statistics for the series. I signed off on every number and kept a spread- sheet listing every stat I checked and the date so I could easily refer back to what I had done when. This was vital because the numbers were flying every- where, and there were several instances in which preliminary numbers made their way into the final versions of stories.</p>
+<p>One of the main difficulties I encoun- tered was the reporter and editor changing the severity of a problem sev- eral times. Unlike the data gathered from the inspection reports, the sever- ity rating was the most subjective part of the series. For example, a problem originally classified as a &quot;priority prob- lem&quot; was changed to a &quot;concern&quot; the afternoon before a segment was scheduled to air on WESH.</p>
+<p>At 3 p.m. I was scrambling to help Sherwin with the updated numbers for the segment running at 6 p.m. I also worked closely with the graph- ics department, checking off on every chart or graphic. This also paid off. A chart for the pass-failure rate of inspec- tions was mistakenly labeled New Home Inspections, when it was resi- dential inspections of homes of all ages, a category that includes renova- tions of older homes.</p>
+<p>Thanks to this diligence, there were not any corrections or errors in the data I was responsible for. There were a couple of corrections because data was entered incorrectly into the da- tabase by students, despite our ef- forts to compare written reports to the electronic database. The response to the series has been very positive. The Web page devoted to the database generated an incred- ible number of hits and the message boards are full of homeowners report- ing similar problems.</p>
+<p>Tracy had to set up a separate voice mail account to handle all the phone calls in response to the series. A state senator has said he will push for tougher standards on new home construction, and the local Home Builders Association has started to ex- pand a homeowner advocacy program. Contact Katy Miller by e-mail at kmiller@orlandosentinel.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1998-june-homes-for-sale.html">Homes for Sale</a>
+  <span class="similar-meta">June 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1999-march-elderly-evictions.html">Elderly Evictions</a>
+  <span class="similar-meta">March 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-july-nursing-home-neglect-unraveled-care.html">NURSING HOME NEGLECT: Unraveled care</a>
+  <span class="similar-meta">July 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2001-septemberoctober-calculating-bills.html">Calculating bills</a>
+  <span class="similar-meta">September/October 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-simplifying-database-full-text-searches.html">Simplifying database full-text searches</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-july-august-mapping-the-latest-uses-of-mapping-in-news-reporting-housing-prices-on-rise.html" class="article-nav__prev">← MAPPING The latest uses of mapping in news reporting. Housing prices on rise</a>
+  <a href="/article/2004-july-august-car-tool-vigilant-program-tracks-web-changes.html" class="article-nav__next">CAR TOOL Vigilant program tracks Web changes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

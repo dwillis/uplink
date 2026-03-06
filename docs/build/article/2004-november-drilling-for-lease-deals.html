@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drilling for lease deals — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Drilling for lease deals</h1>
+    <div class="article-byline">
+      <span class="author">David Pace</span>
+      <span class="author-title">The Associated Press</span>
+      <span class="date">November 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>An investigation into oil and gas leasing on federal lands, highlighting the major players and examining if industry rules are followed.</p></div>
+
+  <div class="article-body">
+    <p>Earlier this year The Associated Press decided to investigate oil and gas leasing on federal lands, as the Bush administra- tion pushed to open more gov- ernment land to exploration. We wanted to identify the major players, track the leasing pro- cess to find out if the rules were being followed and determine if the administration&#39;s friends in the oil and gas industry were benefiting disproportionately from their leasing decisions.</p>
+<p>We began with the U.S. Bureau of Land Management&#39;s LR2000 database, which the agency&#39;s field offices use to record and track all actions related to oil and gas leasing on federal lands. The database can be queried from the BLM&#39;s Web site (www.blm.gov/lr2000) but using this proved too limited and time- consuming for our purposes. We needed the entire database so we could structure our own queries. The database was easy to ob- tain but difficult to decipher.</p>
+<p>While journalists have used LR2000 infrequently, oil and gas industry insid- ers rely on it for information that helps them prepare for oil and gas lease auc- tions. As a result, the BLM&#39;s Denver office, which administers LR2000, pulls a complete extract of the database each month and makes it available to the public for a nominal fee. We used two extracts in our analysis, one pulled from the database on Feb.</p>
+<p>15, and the other on March 15. Each cost about $45 and covered BLM actions since 1982. Each extract consisted of 11 compressed files. The extract totals more than 11 gigabytes and is organized by state, with each state file (the Eastern states are combined into one file) composed of a series of compressed tables. There are 11 case recordation tables in each state file, although most of the essen- tial information can be found in four of them: the case table, listing the essen- tial details about each lease; the ac- tion table, detailing all actions taken by BLM on each lease; the customer table, listing details of each lease owner; and the land table, providing details on the location of each lease.</p>
+<p>We wanted to look at leasing decisions on all federal lands, so we unzipped the tables and uploaded the data from each state in Microsoft SQL Server, a process that took the better part of a day. We used Enterprise Manager to manage the tables. The largest, which listed all BLM actions on various leases, had more than 9 million records. The next task was cracking the BLM&#39;s complicated coding system.</p>
+<p>The Den- ver office provided a database schema, a spreadsheet with definitions of the hundreds of action codes the agency uses for oil and gas leases and a dic- tionary explaining how each of the data elements is used, both now and his- torically. The documentation helped, but it took many telephone calls to BLM database administrators before the data began to make sense. Finding leaseholders We set out initially to identify those in- dividuals or companies with the most federal acres leased for oil and gas development.</p>
+<p>That proved to be quite a task, since the BLM database identi- fies unique leaseholders only within each state. And the agency makes no effort to associate legal subsidiaries with their corporate parent, even though the law limiting the number of federal acres that can be leased by a company in any state makes it clear that a corporation&#39;s holdings include those of its subsidiaries. To get around this problem, we created a table of the top leaseholders in each state and manually assigned codes to each that would enable us to calculate total hold- ings by the same company and its sub- sidiaries across the country.</p>
+<p>Using Microsoft Access, we created a master table of companies by assigning the same code to the various names used in the state tables to identify the same company and its subsidiaries. This involved researching Securities and Ex- change Commission filings to verify com- pany subsidiary names. Then we joined that master table to each state table on the company name field and summed up the acres owned by each company using the assigned code field to group by.</p>
+<p>The same technique was used to calculate each company&#39;s total holdings across the country. In state after state, we noticed that one address in Artesia, N.M., kept appear- ing among the top leaseholders. The one thing they all had in common was the name Yates. A little digging uncov- ered the fact that the Yates family of Artesia, through nearly three dozen companies, individuals and trusts op- erating out of the same building in Artesia, controls 2.7 million acres of oil and gas leases on public lands, far more than any other company or indi- vidual, Because leases owned by af- filiated companies or individuals aren&#39;t counted together under BLM rules, unless the companies are legal sub- sidiaries, the Yates family has been able to accumulate far more leases than any of the big oil companies.</p>
+<p>Our analysis found that the Yates fam- ily and a dozen large oil companies - including one formerly headed by Com- merce Secretary Don Evans - now control a quarter of all federal lands leased for oil and gas development outside Alaska, despite the acreage cap law that was supposed to prevent such concentration. Exploration data After identifying the largest lease- holders, we began looking at how the leases were being used.</p>
+<p>LR2000 proved less useful here, because the BLM tracks most oil and gas explora- tion activity on federal lands in a separate database, the Automated Fluid Minerals Support System, or AFMSS. But LR2000 does include coding that enabled us to differenti- ate between leases that are produc- ing oil and gas and those that aren&#39;t. We found that nearly three-fourths of the 40 million acres of federal lands leased for oil and gas development in the lower 48 states aren&#39;t produc- ing any oil or gas.</p>
+<p>Using the Freedom of Information Act, we obtained an extract from the AFMSS database that detailed drilling activities on federal leases for $41. We had negotiated the format of the AFMSS data with BLM by including in the FOIA request a detailed listing of the types of information we were seeking. After the request was filed, we answered questions posed by AFMSS data managers who were writing the queries to respond to the FOIA request.</p>
+<p>Ultimately, we received four tables in delimited text format - one detailing information on all ap- plications for drilling permits, one on closed inspections, one on wells started or drilled and one on well in- spections. The data covered the same time frame as the LR2000 data, from 1982. The well inspections table was the largest, with 1.9 million records. Using SQL Server to match that data against the LR2000 files of non-pro- ducing leases, we found that 98 per- cent had never had a single well drilled and 97 percent had never had a single application filed for a permit to drill.</p>
+<p>We joined the tables on the lease identifi- cation number. While industry officials complained that regulatory delays were the main cause for the lack of exploration, the data showed that it took only 61 days on average during 2000 for the BLM to make a final decision on each drill- ing permit application. The average decision time has declined steadily since the Bush administration came into office.</p>
+<p>In opposing new federal oil and gas leases in sensitive areas, environmen- talists had long argued that industry was not exploring many of the leases it already had. They claimed that these undeveloped leases, available for an- nual rents of $2 an acre or less, were being used more to boost oil com- pany share prices than to increase oil and gas production. Our analysis was the first to use the BLM&#39;s own data to show that two-thirds of exist- ing oil and gas leases have never been explored.</p>
+<p>Industry officials said large inventories of undeveloped leases are both normal and neces- sary to protect their investment in energy exploration. They blamed the lack of exploration on a shortage of drilling equipment and skilled person- nel, regulatory delays and pipeline infrastructure deficiencies. Both the LR2000 and AFMSS data- bases offer a wealth of information for further analysis. AFMSS, for ex- ample, tracks the inspection history of all oil and gas wells on federal lands and details the violations found and penalties paid.</p>
+<p>It also includes the decision timeline for key stages in the processing of drilling permit ap- plications. LR2000 includes data on environmental reviews required for most federal oil and gas leases, rental payments on leases and ap- peals of BLM lease decisions, among other things. Contact David Pace by e-mail at dpace@ap.org.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2007-januaryfebruary-gas-pump-inspections-make-speedy-car-story.html">GAS PUMP INSPECTIONS MAKE SPEEDY CAR STORY</a>
+  <span class="similar-meta">January/February 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-december-rocking-the-rules-baby-business.html">&quot;Rocking the Rules: Baby Business&quot;</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-growing-collection-of-federal-databases.html">Growing collection of federal databases</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-november-december-capitol-aides-two-jobs-leave-money-trail.html">Capitol aide&#39;s two jobs leave money trail</a>
+  <span class="similar-meta">November - December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2003-septemberoctober-database-reporting-shows-no-bid-deals.html">Database reporting shows no-bid deals</a>
+  <span class="similar-meta">September/October 2003</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-september-october-starting-small.html" class="article-nav__prev">← Starting small</a>
+  <a href="/article/2004-november-diving-deep-into-marine-park-problems.html" class="article-nav__next">Diving deep into marine park problems →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

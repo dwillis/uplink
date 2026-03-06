@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toxic Release Inventory - What toxins are wafting your way? — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Toxic Release Inventory - What toxins are wafting your way?</h1>
+    <div class="article-byline">
+      <span class="author">Greg Reeves</span>
+      <span class="author-title">The Kansas City Star</span>
+      <span class="date">October 1996</span>
+    </div>
+    <div class="article-topics"><a href="/topics/health-environment.html" class="badge">Health &amp; Environment</a></div>
+  </header>
+
+  <div class="article-summary"><p>Greg Reeves discusses the usefulness of the EPA&#39;s Toxic Release Inventory database in uncovering pollution by analyzing company-reported emissions of chemicals into various environments.</p></div>
+
+  <div class="article-body">
+    <p>For a high-impact story using one of the most interesting databases around, take a look at the Toxic Release Inventory data from the Environmental Protection Agency. Company by company, across the nation, you can produce fascinating reports on the toxic pollutants that waft into our air, float down our rivers, are dumped in a landfill or- the way some toxins are removed-are shot a mile underground.</p>
+<p>Good for beginners</p>
+<p>If you are a beginner at computer-assisted reporting with no more than a spreadsheet at hand, the TRI database would be an excellent entry point-it&#39;s cheap, clean data with lots of public interest. If you&#39;ve thrown around a few gigabytes, you can generate great maps offering a detailed portrait of pollution in your community, neighborhood by neighborhood.</p>
+<p>Since 1987, federal law has required companies to report &quot;toxic releases&quot; to the EPA. They must report what chemicals were involved and what amounts (in pounds) ended up in the air, land, water, sewer or storage site. Each chemical emission is a separate report. And each report becomes a record in the TRI. The easiest way to get the data you want is probably a call to your local EPA office, state environmental office, or NICAR. Various Web sites also offer some TRI data. TRI data is not harmful to your computing environment. The files are roughly one megabyte per state per year. Missouri data, for example, contained 1,845 records for 1994 and fit neatly on one diskette. That included mid-Missouri lead smelter country, where lead emissions in some places total nearly 12 tons per child.</p>
+<p>What&#39;s in the data</p>
+<p>There are 38 fields in the TRI database, and by now you are surely hungry to know them. Basically half the fields identify the &quot;facility,&quot; or company site, and the other half identify the chemical and where it went.</p>
+<p>For each facility you get: an ID number, name, street address, city, state and zip; parent company (if any) and contact name and phone; and, for map-making purposes, the latitude and longitude of the facility.</p>
+<p>For each chemical you get an English name (acetone, styrene, zinc, 1,2,4-trimethylbenzene, etc.), and a unique identifying code from the Chemical Abstracts Service (CAS) registry. Use the CAS number rather than the chemical name to sort and group data. For each release, you get: how much went up a smokestack (&quot;stack&quot; air); how much just drifted away (&quot;fugitive&quot; air); and how much went into the water, in the ground, to sewers or to offsite recycling plants. Finally, each record contains one or more industry codes and federal ID numbers to help identify the facility.</p>
+<p>How to use it</p>
+<p>One of the best uses you can make of the TRI data is to report how pollution has changed in your community over the past eight years. Have the worst companies from the 1980s cleaned themselves up? In FoxPro, you might want to find the biggest overall polluters first:</p>
+<p>SELECT facility, SUM (alw) FROM tri; GROUP BY 1; ORDER BY 3 DESC</p>
+<p>The first field, tri_id, is the facility ID number mentioned above. The &quot;alw&quot; field (&quot;air-land-water&quot;) is the sum of stack-air, fugitive-air, land emissions and water emissions. Another handy add-up is stack-air plus fugitive-air, which equals total air pollution.</p>
+<p>This query will give you a company name at the top and some huge number of pounds-emitted. Take the first 10 or so companies and see how they&#39;ve fared since 1987:</p>
+<p>SELECT tri id, year, facility, SUM(alw); FROM tri; WHERE INLIST (tri id &quot;1st tri_id&quot;, &quot;2nd tri id...&quot;); GROUP BY 1, 2 ORDER BY 1,2,3 DESC</p>
+<p>You&#39;re on your way to a story that people need to know. And there&#39;s much more. Maps bring out TRI&#39;s impact in vivid clarity: per capita toxic waste, the most polluted ZIP code, the center of zinc toxicity in your community.</p>
+<p>Other important ways to look at TRI data include limiting your queries to include only known cancer-causing chemicals and known &quot;reproductive toxins&quot; - chemicals that damage reproductive organs.</p>
+<p>To do that in FoxPro, make a table out of a list of CAS numbers of all the known carcinogens. Then match those numbers against the CAS numbers in the TRI database, something like this:</p>
+<p>SELECT cancer.*, chemical, any-other-fields; FROM cancer, tri; WHERE tri.cas_no = cancer.cas</p>
+<p>Then do the same thing with reproductive toxins, making a FoxPro table out of a list of their CAS numbers.</p>
+<p>Greg Reeves can be reached at (816) 234-4366, or send e-mail to greeves@kcstar.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1990-november-ohios-toxic-avenger-when-the-smoke-cleared-it-was-not-a-pretty-sight.html">Ohio&#39;s Toxic Avenger When the Smoke Cleared, It Was Not a Pretty Sight</a>
+  <span class="similar-meta">November 1990</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2003-septemberoctober-taking-the-pulse-of-a-body-of-water.html">Taking the pulse of a body of water</a>
+  <span class="similar-meta">September/October 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-may-june-endangered-data-helps-find-deadly-mercury.html">Endangered data helps find deadly mercury</a>
+  <span class="similar-meta">May-June 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-may-transporting-toxics-through-california.html">Transporting Toxics Through California</a>
+  <span class="similar-meta">May 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-october-environmental-car.html">ENVIRONMENTAL CAR</a>
+  <span class="similar-meta">October 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1996-october-new-kid-sej-homepage-now-located-at-wwwreporterorg.html" class="article-nav__prev">← New kid - SEJ homepage now located at www.reporter.org</a>
+  <a href="/article/1996-november-ready-aim-foia-keeping-up-with-the-digital-revolution.html" class="article-nav__next">Ready, aim, FOIA: Keeping up with the digital revolution →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

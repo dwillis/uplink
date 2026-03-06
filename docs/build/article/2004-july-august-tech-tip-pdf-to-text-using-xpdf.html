@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech tip PDF to text using XPDF — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tech tip PDF to text using XPDF</h1>
+    <div class="article-byline">
+      <span class="author">Derek Willis</span>
+      <span class="author-title">Center for Public Integrity</span>
+      <span class="date">July-August 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/other.html" class="badge">Other</a></div>
+  </header>
+
+  <div class="article-summary"><p>Here&#39;s a question that should have a familiar ring for CAR veterans: How do I get text out of a PDF file? If your experience has been any- thing like mine, the answer is likely to be &quot;painfully, if at all.</p></div>
+
+  <div class="article-body">
+    <p>Here&#39;s a question that should have a familiar ring for CAR veterans: How do I get text out of a PDF file? If your experience has been any- thing like mine, the answer is likely to be &quot;painfully, if at all.&quot; The existence of Adobe Portable Document Files has been a boon for reporters because governments and agencies everywhere have been able to make documents broadly available over the Internet. It&#39;s hard not to love the idea of a file that looks the same no matter what kind of computer you have.</p>
+<p>But if you&#39;ve ever tried getting tables out of a PDF document - and we all have - the results usually aren&#39;t worth the effort. Until now. (See &quot;Slic- ing and dicing those pesky PDFs&quot; in the July-August 2003 Uplink.) If you&#39;re ready to leave behind the annoyance of copying and pasting from PDF files, a free command line utility called Xpdf will save you time and aggravation. It will, in most cir- cumstances, enable you to go from PDF to Microsoft Excel in a matter of seconds, rather than minutes or hours.</p>
+<p>Did I mention that it&#39;s free? Although Xpdf comes with many ver- sions of the Unix or Linux operating systems, Microsoft Windows users will need to download and install the small application in order to run it. Xpdf can be downloaded from www.foolabs.com/xpdf/ download.html, and it comes in packages for Windows and Linux/ Unix. Look for the precompiled bi- naries for your operating system. A DOS version is available, but unless you run DOS as your primary oper- ating system, the Windows version should be your choice.</p>
+<p>The Win- dows version does not have all the features of the Linux/Unix version, but it has all you&#39;ll need for convert- ing PDFs to text tables. First, save the download file (a zip file) to your computer and then un- zip it into a directory (c:\xpdf works fine). Then, and this is the techni- cal bit, when you have a PDF you want to get tabular text from, sim- ply place the PDF in that directory, open a command prompt, then navigate to c:\xpdf and type: pdftotext layout pdfname.pdf Depending on the size of the PDF file, your output text file (with the same name as the original) will be in the same directory in a matter of seconds.</p>
+<p>Let&#39;s go through the command line syntax. First, the command &quot;pdftotext&quot; is required for this pro- cess, and &quot;pdf2text&quot; won&#39;t work. The &quot;-layout&quot; tag tells Xpdf that you want to preserve the layout that the PDF file uses, which keeps the text in those nice, clean tables. And you need to have the full name of the file (I recommend a single-word name, even though Windows supports filenames with spaces).</p>
+<p>That&#39;s it. You would be forgiven for thinking that it can&#39;t be that easy, but it really is. The resulting text file will be the entire text of the PDF, meaning that you may have to wade through pages of text in order to get to your tables. The preservation of the PDF&#39;s layout means that if a page contained two tables side-by-side, that&#39;s the way they will look in the text file, too. Xpdf doesn&#39;t work in all instances; specifically, it won&#39;t convert PDFs that have been locked by their cre- ators.</p>
+<p>Don&#39;t bother asking the au- thor of Xpdf, either, as he has posted a message on his Web site indicat- ing that he will not add that ability. For dealing with most government documents, Xpdf can be a huge time-saver and allow you to spend more time actually analyzing data rather than trying to free it from the confines of the PDF. Contact Derek Willis by e-mail at derek@thescoop.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2006-march-april-network-analysis-of-citys-power-lines.html">Network analysis of city&#39;s power lines</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-mine-safety-stories.html">Mine safety stories</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1997-august-car-tech-tip.html">CAR Tech Tip</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-campus-crime.html">Campus crime</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2006-march-april-simplifying-database-full-text-searches.html">Simplifying database full-text searches</a>
+  <span class="similar-meta">March-April 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-july-august-car-tool-vigilant-program-tracks-web-changes.html" class="article-nav__prev">← CAR TOOL Vigilant program tracks Web changes</a>
+  <a href="/article/2004-september-october-purged-voter-problems.html" class="article-nav__next">Purged voter problems →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

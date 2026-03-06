@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculating bills — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Calculating bills</h1>
+    <div class="article-byline">
+      <span class="author">Garry Lenton</span>
+      <span class="author-title">Patriot-News</span>
+      <span class="date">September/October 2001</span>
+    </div>
+    <div class="article-topics"><a href="/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>Early last year, the Board of Commissioners in Pennsylvania&#39;s Dauphin County voted to conduct the first real estate reassessment since 1973. It was a long-overdue move, designed to bring property tax values back to reality.</p></div>
+
+  <div class="article-body">
+    <p>Early last year, the Board of Commissioners in Pennsylvania&#39;s Dauphin County voted to conduct the first real estate reassessment since 1973. It was a long-overdue move, designed to bring property tax values back to reality. From the beginning, our city desk figured this for a package story, with lots of graphics telling homeowners what to expect, how the reassessment would work, and how to appeal the results.</p>
+<p>A decision was made early to obtain the reassessment data when the work was completed. But that wasn&#39;t going to be for many months. And, since the county hired a private consultant to do the work, we were told that the newspaper would not get access to the new property values until the county took possession of the data. But the county&#39;s chief tax assessor agreed to provide us with the total real estate values for each of the county&#39;s more than 40 municipalities.</p>
+<p>By comparing those totals with the property values the county was currently using, we were able to get an advance look at where real estate values were changing the most. We wanted to tell our readers how their individual tax bills would change once the reassessment went into effect in 2002. The numbers were provided in a text file. It included the name of the municipality, the updated real estate value, and the old real estate value.</p>
+<p>It took about five minutes to dump the data into an Excel spreadsheet and calculate which municipality&#39;s property values increased most. Surprisingly, the biggest increases were in communities where population growth was the smallest and not in the sprawl zones around suburban Harrisburg as expected. The tax assessor wasn&#39;t surprised, however, and explained that the sparsely populated farming regions had a higher number of old properties whose values would have the farthest to go to catch up with 21st Century prices.</p>
+<p>Once the calculations were completed, we added the FIPS codes for each municipality, saved the spreadsheet as a .dbf file and loaded it into ArcView and mapped the results. The story, with various breakouts and the map filled a full page. But while telling readers where values increased the most was OK, there was more we could do with those numbers. We wanted to tell our readers how their individual tax bills would change once the reassessment went into effect in 2002.</p>
+<p>The only way to do that was to calculate new real estate tax rates, essentially beating local government bodies at their own game by months. Here&#39;s how. Step 1 We imported the real estate millage for each municipality and school district in the county, as well as the county tax rate. We got the data from the Pennsylvania Department of Community and Economic Development&#39;s Web site: (www.dced.state.pa.gov).</p>
+<p>DCED maintains an enormous amount of local government data on its site, mostly all of its transferable just by copying and pasting. Step 2 Use the millage rates to calculate the real estate tax revenue each government body is collecting. If you are new to this, here&#39;s how it works: One mill of tax = .001 of a dollar, or $1 of revenue for every $1,000 of property value. In other words, a $100,000 home taxed at 5 mills will net $500 in taxes (100,000 X 5).</p>
+<p>The formula in Excel would look like this if the property value was in cell A2 and the millage rate expressed in decimal points was in B2: =(A2/1000)*B2 The formula would be written in cell C2. Now you know approximately how much revenue each local government body was earning from real estate taxes. What you must figure out now is how the millage rate must change to generate the same amount of money when it is multiplied by the new real estate values.</p>
+<p>State law forbids local governments from gaining more than 10 percent revenues through reassessment. Step 3 Add a fifth column next to RE_millage and call it RE millnew. Copy and paste the contents of RE_millage into the new column, it&#39;s needed for the function Excel uses to do the math. Add another column next to RE_revOLD and call it RE_revNEW. In this column, calculate a new revenue total using the millage rates in column RE_millnew and the dollar amounts in a column called assessval_new.</p>
+<p>This will give you the amount of money each local government would get if it applied current millage rates to the new assessed values. The result is a number that is twice or more what they are getting now. Step 4 The final step uses Excel&#39;s &quot;goal seek&quot; function to calculate the a new millage rate that will keep revenues at current levels. Here&#39;s how. Click on the first value under the assessval_new column..</p>
+<p>Go to the tools pull-down menu and select &quot;goal seek.&quot; A box will pop up. In the window that says &quot;set value&quot; type in the value generated by the old tax. In the window for &quot;by changing cell,&quot; Then select the cell under RE_millnew. (This cell should have a old millage rate as a value, but Excel will change the number when the operation is complete.) Hit &quot;enter.&quot; The value in the cell under RE_millnew will change, and the value under RE_revNEW should now equal the value in RE_revOLD.</p>
+<p>Unfortunately, goal seek doesn&#39;t work with the autofill function like formulas do. Each value has to be done separately. We calculated the rate for all of the affected government bodies and totaled the millage. We ran a chart showing the new taxes along with instructions on how readers could calculate their tax bill. Before we ran the story, I called the chief tax assessor and outlined this process.</p>
+<p>Better safe than sorry. &quot;That&#39;s exactly how we&#39;re going to do it,&quot; he said. It was just going to be another two months until they could get around to it. Garry Lenton can be reached by e-mail at glenton@patriot-news.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2004-july-august-spotlight-real-estate-property-data-analysis-finds-extra-tax-credits.html">SPOTLIGHT: REAL ESTATE Property data analysis finds extra tax credits</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2001-septemberoctober-ratio-study.html">Ratio study</a>
+  <span class="similar-meta">September/October 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-july-tax-problems-in-new-york-city-again.html">Tax Problems in New York City, Again</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-july-august-spotlight-real-estate-finding-faults-in-new-homes.html">SPOTLIGHT: REAL ESTATE Finding faults in new homes</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2005-february-tallying-lost-money-through-farm-loophole.html">Tallying lost money through farm loophole</a>
+  <span class="similar-meta">February 2005</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2001-septemberoctober-investigating-a-mayor.html" class="article-nav__prev">← Investigating a mayor</a>
+  <a href="/article/2001-septemberoctober-adding-context-meaning.html" class="article-nav__next">Adding context, meaning →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

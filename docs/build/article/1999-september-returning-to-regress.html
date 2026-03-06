@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Returning to regress — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Returning to regress</h1>
+    <div class="article-byline">
+      <span class="author">Neill A. Borowski</span>
+      
+      <span class="date">September 1999</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/education.html" class="badge">Education</a><a href="/topics/public-safety.html" class="badge">Public Safety</a></div>
+  </header>
+
+  <div class="article-summary"><p>This is the second of two parts on how to do a regression analysis. This issue&#39;s column deals with regression outliers, the t-test and making transformations.</p></div>
+
+  <div class="article-body">
+    <p>This is the second of two parts on how to do a regression analysis. This issue&#39;s column deals with regression outliers, the t-test and making transformations. In the last issue, the main advice was not to succumb to the &quot;black box&quot; syndrome - being awed by the ease of running regression analyses through computer programs with no appreciation for what is going on behind the curtain. The math behind the regression process was explained in detail.</p>
+<p>The regression model seeks to fit a line through - or close to - all of your data points. In a plot of the data, the x-axis holds the independent variable and the y-axis holds the dependent variable. That line is one that you might recall from high school algebra: y = ax + b + random error. The &quot;y&quot; is your dependent variable (such as test scores). The &quot;x&quot; is your independent variable (such as poverty rates).</p>
+<p>The &quot;a&quot; is the slope of the line and the &quot;b&quot; is the constant (the intercept of the vertical axis). This is the equation of the regression line. You may have seen the equation stated in different ways. Some statistics texts prefer the notation of y = bx + a. Ory=mx+ b. Or, even fancier, the equation y + Blx E Select whichever you&#39;re most comfortable with. The goal in regression is to show how much the dependent variable is related to the independent variable.</p>
+<p>This quest to find the truly predictive model is one undertaken by social scientists, physicists, epidemiologists, quality-control managers and others in nearly every field. If you&#39;re interested in practicing regression, there are plenty of free, downloadable datasets available on the Internet. Two great sites are the Journal of Statistics Education Data Archive at www.amstat.org/ publications/jselarchive.htm and the Data and Story Library at http://lib.stat.cmu.edu/DASL/, where you&#39;ll even find datasets covering acorns and oak trees and passenger car mileage.</p>
+<p>In most cases, the size of the dataset is small, making regression with MS Excel and other spreadsheet programs relatively easy. Here are some points to remember in the rush to regress. Dealing with outliers An outlier is a data point (observation, record, etc.) that represents an extreme value when compared with other values in the data. Outliers can be gremlins in all data analysis, whether you&#39;re calculating the mean or running a complex regression.</p>
+<p>If you&#39;re going to be &quot;hanging your hat&quot; on your regression results understand the t and the tests. If you don&#39;t pay attention to these tests, your whole hypothesis may be rejected without your knowledge. The simple way of thinking about an outlier is in terms of its effect on the average. Consider a study of speed in fatal automobile accidents. The estimated speeds of the cars involved in such accidents on one stretch of road in one year are 65, 55, 95, 60 and 65.</p>
+<p>The average speed is 68. Yet, all but one speed is less than 68. The 95-miles-per-hour speed skews the data. The average without the extreme value is 61 - certainly more representative of the group. Extreme values or outliers also can affect the outcome of your regression analysis. Many of us have seen the outliers in a scatterplot of test scores, with the percent of students eligible for free lunch as the independent variable.</p>
+<p>We see relatively poor schools with unusually high grades (the &quot;overachievers&quot;) and relatively wealthy schools with unusually low grades (the &quot;underachievers&quot;). In these cases, the news may be in the outliers. What secrets might you find in the poor schools that do well on tests? However, a common practice in regression analysis is to throw out the outliers to try to achieve a higher coefficient of determination (r2).</p>
+<p>With the outliers included, maybe your r2 is 0.53, meaning that 53 percent of the variability in test scores is explained or predicted by the variability in income. By eliminating the outliers, your r2 may increase by several points - making you feel even more confident about a relationship. How far off are some data points? In SPSS, SAS and EXCEL, for example, you can save and study the residuals, which are the differences between the actual value of each observation and the predicted value from your regression model.</p>
+<p>You also can calculate the residuals by hand by substituting each &quot;x&quot; into the regression equation to solve for &quot;y&quot; (y = ax + b). Then find the difference between the actual &quot;y&quot; (for example, the test score) and the predicted &quot;y&quot; from the regression equation. (You can visualize residuals in a scatterplot of your data by drawing vertical lines from the datapoints to the regression line. The lengths of the vertical lines represent the residuals.) Watching the t-test The t test and the F test are part of the regression output in statistical programs and Excel.</p>
+<p>Yet, many people may pay no attention to these tests in their zeal to achieve the highest-possible r2. Pay attention to these tests, which report both the t and the F values, as well as their significance levels. These tests will indicate if there is a serious problem with the regression model. The ideal situation is to see &quot;.000&quot; or something close to zero in the significance box. If you see much more than zero, this is cause for concern.</p>
+<p>If you&#39;re going to be &quot;hanging your hat&quot; on your regression results, spend some time with statistics texts to understand the t and the F tests. They are not difficult to understand, but they are involved. If you don&#39;t pay attention to these tests, your whole hypothesis may be rejected without your knowledge. Making transformations If you plot the data and find there are curves or bends in the fitted line, you may want to express the data differently, or &quot;transform&quot; it.</p>
+<p>I remember discussing this process with a colleague at an IRE and NICAR seminar and he gasped at the thought of changing the data. However, transformations are uniform and change all of the data by the same amount-much like multiplying both sides of an algebra equation by 2 to get rid of the 1/2 on one side of the equation. Depending on the severity and direction of the curve in the fitted line, you may want to transform either the independent (&quot;x&quot;) or the dependent (&quot;y&quot;) variable.</p>
+<p>Methods include substituting the square or square root of &quot;x&quot; or &quot;y&quot; or taking the natural logarithm of one of the variables. The goal is a better fit - a higher r2 and a straighter regression line. Clearly, there is a lot to know about regression analysis. It takes more than simply running a regression using SPSS or Excel and relying on each program&#39;s online Help facility to explain what you are doing.</p>
+<p>Pick up a statistics text or two - particularly those used in graduate school. Many college statistics departments have put up Web sites that explain the basics. Some actual statistics classes are online and available to the public. A good place to start is in Yahoo at http://dir.yahoo.com/ SciencelMathematics/Statisticsl But, most important of all, know that there are a lot of gears whirring in the black box and that it&#39;s worthwhile understanding a bit about how they mesh (or fail to mesh).</p>
+<p>Neill Borowski can be reached by e- mail at nborowski@phillynews.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2005-may-june-charting-test-cheaters.html">Charting test cheaters</a>
+  <span class="similar-meta">May-June 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-april-stats-add-muscle-to-computer-assisted-reporting.html">Stats add muscle to computer-assisted reporting</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2002-february-flunking-tests.html">Flunking tests</a>
+  <span class="similar-meta">February 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-march-school-test-scores-lake-wobegon-effect.html">School Test Scores: Lake Wobegon effect</a>
+  <span class="similar-meta">March 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-august-analyzing-school-analysis-scoring-systems.html">ANALYZING SCHOOL ANALYSIS: Scoring systems</a>
+  <span class="similar-meta">August 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1999-september-sas-vs-spss.html" class="article-nav__prev">← SAS vs. SPSS</a>
+  <a href="/article/1999-september-sick-slackers.html" class="article-nav__next">&quot;Sick&quot; Slackers →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

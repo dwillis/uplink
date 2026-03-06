@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapping a new look at presidential results — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Mapping a new look at presidential results</h1>
+    <div class="article-byline">
+      <span class="author">Robert David Sullivan</span>
+      <span class="author-title">CommonWealth</span>
+      <span class="date">March 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>&quot;Beyond Red &amp; Blue,&quot; an exclusive re- port on CommonWealth magazine&#39;s Web site, takes a fresh look at presi- dential elections by identifying 10 dis- tinct political regions that cross state boundaries.</p></div>
+
+  <div class="article-body">
+    <p>&quot;Beyond Red &amp; Blue,&quot; an exclusive re- port on CommonWealth magazine&#39;s Web site, takes a fresh look at presi- dential elections by identifying 10 dis- tinct political regions that cross state boundaries. Drawing the new politi- cal map of the U.S. required elections and Census data, mapping and spreadsheet analysis and some judg- ment calls. The project evolved from &quot;The Lay of the Land,&quot; a story about the political regions of Massachusetts.</p>
+<p>That story, by comparison, was a no-frills affair. I typed election results for all of the 351 cities and towns in Massachu- setts into Microsoft Excel, and then assigned each city and town to one of 10 regions with almost equal vot- ing strength. For &quot;Beyond Red &amp; Blue,&quot; I did the same for the 3,117 counties in the United States and used ESRI ArcView 3.3 geographic information system (GIS) to create detailed col- ored maps that later were turned into graphics for the report on our Web site.</p>
+<p>(See www.massinc.org/com- monwealth/new_map_exclusivel beyond_red_blue.html). Data into Excel As I built an Excel master data file with the names of the U.S. counties I added elections data collected from Web sites and printed sources. in each state, the Secretary of State&#39;s office - or which- ever agency oversees voting - posts this information on the Internet. In many cases you can download or cut and paste data directly into Excel.</p>
+<p>(See www.politics1.com/states.htmfor links to all 50 states.) Other great sources of data are Dave Leip&#39;s Atlas of U.S. Presidential Elec- tions (www.uselectionatlas.org) and the &quot;America at the Polls&quot; books ed- ited by Richard M. Scammon. The first column of the spreadsheet listed the county and state like this: &quot;Jefferson, AL,&quot; &quot;Jefferson, AR,&quot; to dis- tinguish between counties having the same name in different states.</p>
+<p>In the adjacent columns, I entered how each county voted in every presiden- tial election since 1976. (This was not as time-consuming as it sounds. ] of- ten used Excel&#39;s &quot;fill handle&quot; to mark all the counties in a state as Demo- cratic or Republican, then went back and noted the exceptions, which were usually few.) I then sorted the results and used for- matting tools to color the counties ac- cording to which party carried them in the close presidential elections of 1976 and 2000.</p>
+<p>I ended up with four catego- ries: Democratic both times (blue), Republican both times (red), Demo- cratic then Republican (yellow), and Republican then Democratic (green). That was a good starting point, and I used it to get a preliminary picture of the 10 regions. I added another col- umn to the spreadsheet and assigned each county to one of the 10 regions, basing the decision not only on the voting history but also on the results of certain state elections, and geo- graphic factors.</p>
+<p>To come up with 10 regions that had an equal numbers of voters (as far as that was possible), I added another column to the spreadsheet that in- cluded the total number of votes cast in each county during 2000. Using Excel, I was able to automati- cally add up all the votes cast in every county labeled as being part of, for example, the Appalachia region that I had defined. That way, whenever I re- assigned a county from one region to another, I immediately saw how the change affected the totals for both re- gions.</p>
+<p>By keeping an eye on which re- gions were significantly larger or smaller than 10 percent of the elector- ate, I was able to keep redrawing the boundaries so that none of them got too large or small. At this point, I got greedy for more data. I wanted to use demographic factors to further refine the 10 regions. So I created separate Excel spreadsheets for criteria such as age, family income, and population growth.</p>
+<p>I downloaded county-level data for all of these fac- tors from the U.S. Census Web site (www.census.gov). Smart linking I also linked all of these new spread- sheets to my original spreadsheet through the VLOOKUP function. Thus, each row of data in my Census spreadsheets included a county name and state, and I told Excel to find the equivalent county name and state in my master data file, then plug in the right region names in the new spreadsheet.</p>
+<p>As in the master data file, I used the SUMIF function - and simple calcula- tion formulas to get raw Census num- bers and percentages for each region. Because all the spreadsheets were linked to the master data file I only had to reassign a county from one region to another on my original spreadsheet to change all the spreadsheets. If I looked at the spreadsheet for edu- cational attainment and discovered that the demographics in an Appalachian county more closely matched the Farm Belt region, I would change the county&#39;s designation in the master data file, and it would automatically change in all the other Excel files, producing new regional totals in each of them.</p>
+<p>Because of this system I didn&#39;t have to make any final decisions as to which counties were in which regions until the closing days of the project. I could keep tweaking the regions as I discovered new data. Mapping regions I turned to ArcView late in the project, and I did not use the mapping soft- ware to make any new calculations. I began by using a blank map that showed boundaries for all of all the counties in the United States, a map that came with ArcView.</p>
+<p>That map includes a data (or &quot;attributes&quot;) file that includes standardized codes (known as FIPS codes) assigned to each county. I then added the FIPS codes to the master data file, which I saved as a dBASE file in order to import it into ArcView. Using a method in ArcView similar to Excel&#39;s VLOOKUP function, I then linked the dBASE file to the at- tributes file in such a way that all of the counties were automatically as- signed to the proper regions.</p>
+<p>Then I created a legend that assigned a dif- ferent color to each region, and I used the &quot;unique value&quot; function to pro- duce, with just a couple of keystrokes, a map that resembles the final &quot;Be- yond Red &amp; Blue&quot; map. I wasn&#39;t quite done, however, be- cause the ArcView map exposed cer- tain aesthetic flaws, such as regions with fingers and tentacles made up of sparsely populated counties. I then went back and made some final ad- justments to the master data file, making the regions look a bit more coherent.</p>
+<p>I decided that those odd shapes and extensions are justified only when significant numbers of vot- ers are involved. (For example, I pushed the El Norte region up to in- clude San Antonio&#39;s Bexar County be- cause it&#39;s a major urban area with some 400,000 voters. I did not expand the Big River region to include several Democratic-leaning counties on the Upper Peninsula of Michigan because they include too few voters to be much of a factor in statewide elections.) Af- ter I made these final corrections to the master data file, I saved it as a dBASE file and imported it into ArcView.</p>
+<p>To create separate ArcView maps for each region, I simply copied the na- tional map 10 times. Each time, I changed the legend so that only one region appeared up in color, while the other nine were left invisible. I also imported other ArcView data files to add state lines and major cities. The project took a couple of months while 1 worked on regular duties. The finished product, posted on our Web site in mid-December, includes close- up maps for each region and a set of tables showing the political and demo- graphic characteristics for each.</p>
+<p>Next comes what I consider to be the fun part. When the results come in for the 2004 election, I hope to redraw the &quot;Beyond Red &amp; Blue&quot; map to reflect any changes in voting patterns. And all of my old data will be automatically up- dated to reflect these changes, with very little effort on my part - leaving more time for writing. Contact Robert David Sullivan by e-mail at rsullivan@massinc.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2004-june-spotlight-elections-finding-data-for-state-elections.html">SPOTLIGHT: ELECTIONS Finding data for state elections</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-june-spotlight-elections-using-car-to-cover-the-vote.html">SPOTLIGHT: ELECTIONS Using CAR to cover the vote</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-february-atlas-gis-has-site.html">Atlas GIS has site</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-nicar-web-site-expands.html">NICAR web site expands</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-march-getting-set-for-election-coverage.html">Getting set for election coverage</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-march-upcoming-hands-on-car-training.html" class="article-nav__prev">← Upcoming hands-on CAR training</a>
+  <a href="/article/2004-march-baby-dentistry.html" class="article-nav__next">Baby dentistry →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

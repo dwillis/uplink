@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax breaks — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tax breaks</h1>
+    <div class="article-byline">
+      <span class="author">David Herzog</span>
+      <span class="author-title">The Providence Journal</span>
+      <span class="date">September/October 2001</span>
+    </div>
+    <div class="article-topics"><a href="/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>An analysis of Palm Beach County&#39;s affirmative action program reveals significant increases in contracts awarded to minority and women-owned businesses over a decade, despite political pressure to terminate it.</p></div>
+
+  <div class="article-body">
+    <p>More than two years ago, FBI agents raided Providence City Hall and lugged box loads of documents out of the tax assessor&#39;s office as part of a probe of corrupt city officials. It was a reporter&#39;s nightmare: the documents that we would need to check into the crooked tax deals that we were starting to hear about were in the firm grip of the feds. The agents also took school department lease records.</p>
+<p>Using databases, GIS and spreadsheets we were able to bridge gaps in the paper trail and come up with some great stories. When the Providence Journal&#39;s four-member investigative team was assigned to stay on top of the federal probe while developing our own stories, we knew that computerized records would play a key part in our reporting. Using databases, GIS and spreadsheets we were able to bridge gaps in the paper trail and come up with some great stories.</p>
+<p>Among other things, we used CAR to report stories about a mob associate and his wife getting improper tax breaks and a career criminal getting millions from City Hall in lease and property sale payments. Learning the ropes Early in our reporting, we knew that the FBI had a keen interest in investigating whether city tax board members had squeezed bribes from property owners for property-assessment reductions.</p>
+<p>For property owners, any decrease in the assessed value meant a lower tax bill. The question was: Who got the improper tax breaks? We also know that before jumping into any stories we had to learn how the city&#39;s tax system is supposed to work. Like in many other jurisdictions, we found that the city assessor, or its contractor, sets the value of every property in the city based upon the features of the property (size, number of bathrooms, improvements on the property).</p>
+<p>If a property owner believes the assessor made an error in the assessment (say, by miscalculating the square footage of the lot) the property owner may ask the assessor&#39;s office for a corrected assessment. In other cases, where the property owner and assessor&#39;s office disagree about the value of the property, based on fair market value judgements, the property owner can appeal to the city tax board.</p>
+<p>Property owners make their cases before the board at public hearings, and then the board decides whether to grant a reduction. First step Our first mission was to get hold of the Providence tax board&#39;s database of assessment hearings. The only problem was, it didn&#39;t exist. The board&#39;s secretary kept handwritten hearing dockets that were barely legible, sometimes cryptic and often incomplete. We had to find another way to zero in on the reductions, and decided that database matching would work, at least in a crude way.</p>
+<p>We already had an extract of the assessor&#39;s database from 1997 in Microsoft Access format that we had obtained at no cost from the city Department of Planning and Development. All we needed was a more recent copy of the database, so we could see which properties had declined in assessed value. The 10-mb database contained the key information about all 47,000 properties in Providence, from the newest condos to sprawling industrial complexes vacated years ago.</p>
+<p>And it was very clean, no doubt because the city used to it generate tax bills. By looking at the table, we could see the street address of the property, current value (for the land and improvements), name of the owner, the tax-bill address, parcel type and, in many cases, the most recent sale date and price. Also, the database contained fields for the plat, lot and unit of the property. We got an updated copy of the database at no cost from the city Planning and Development office after sending a public-records request.</p>
+<p>We wanted to join the two tables in Access and construct a query that returned just those properties with a decrease in value. First, we needed to create a unique identifier for each property so Access could match the properties one-to-one. To do this, we created a new field in the tables called &quot;PID&quot; for property ID. Then, we created update queries that filled the PID fields with a unique value concatenated with the plat and unit numbers and hyphens.</p>
+<p>One name jumped out: Paul Calenda, a mob associate who spent time in prison for possessing an Uzi machine gun. With a unique field, we were ready to roll. We constructed a query that joined the two tables on the PID fields and, using the expression builder in Access, selected only the records of properties whose current assessment was lower than the earlier assessment. That left us with more than 1,300 properties: a lot, to be sure, but not an unmanageable number.</p>
+<p>We built a report in Access that listed each reduction on one line. Which reductions were improper? The data couldn&#39;t tell us. So we scanned the names on the list, looking for patterns or the politically connected. One name jumped out: Paul Calenda, a mob associate who spent time in prison for possessing an Uzi machine gun. All told, we found three properties owned by Calenda or his wife that had gotten assessment reductions.</p>
+<p>Seemed like a good candidate for a story. Building property profiles Normally, we could have gotten detailed information about the properties and assessment reductions from the property file folders (arranged by plat, lot and unit) in the assessor&#39;s office. But when we asked for the folder, clerks told us that the folders were gone - the FBI had taken them. Now we knew we were onto something. We created Excel spreadsheets to create profiles of each property, using information we collected from the annual tax rolls and tax bill printouts from the city collector&#39;s office.</p>
+<p>The tax rolls told us the land and improvements value of the properties over the years, and the tax bill printouts showed us the history of payments and credits resulting from reductions granted by the tax board. We discovered that all three of the Calenda properties had credits from the tax board applied on the same day. There&#39;s nothing fancy about this, but it&#39;s just a simple way to track information about one property in one place, so we all could learn a lot at a glance.</p>
+<p>We also used these sheets to calculate the one-year tax savings the Calendas got from the reduction, nearly $17,000. With a solid foundation built with our CAR work, we were able to weave in all the great information we were getting from interviews and documents: how the mayor had invited Calenda onto his boat in Newport for a brief tour and that the tax board chairman had wanted the reductions to go through - Calenda was a friend of his.</p>
+<p>Calenda&#39;s lawyer ducked our interview requests. And, it turns out, he had good reason. Five months later, he admitted in court, that he had delivered a $5,000 bribe from Calenda&#39;s wife to the tax board chairman. Mapping the way to leases Next, we decided to dig into the dealings between Eddie Voccola, a 71-year-old career criminal (notorious for an auto-body insurance scam) and City Hall. We knew that Voccola managed to get at least $1 million from the city, for renting his former garage near a strip club to the school department for a student registration center.</p>
+<p>How much was Voccola getting from the city in how many deals? We couldn&#39;t tell because Voccola had placed his interests behind so many corporate entities. So we used ArcView GIS mapping software and the assessment data to find his property holdings, The beauty of ArcView and other GIS programs is you can select the data you want and display the results on a map. We already had the assessment data, but needed an ArcView shapefile of all the city&#39;s parcels.</p>
+<p>We requested that from the city Department of Planning and Development, which gave it to us at no cost. In ArcView, we created a unique property ID number for the parcels layer, so we could join it to the assessments data with the same field. Once that was done, we queried the table for every property that had a bill going to the mailing address we had for one of Voccola&#39;s companies. ArcView showed us, on the parcel map, the location of Voccola&#39;s properties.</p>
+<p>Then, by clicking on the parcels highlighted by the map, we were able to look at data from the table, including the name of the company owning the property. Once we had that list in hand, we got paper copies of payment records from the city treasurer and entered those into an Excel spreadsheet, finding leases that we hadn&#39;t even known about, including some that hadn&#39;t been approved by the city contracts board.</p>
+<p>When we summed it all up, Eddie Voccola&#39;s grand total hit more than $2.2 million during the 1990s. After our story ran in the summer of 2000, the city stopped leasing property from Voccola. He&#39;s now facing racketeering charges, along with the mayor, for allegedly paying bribes to obtain city leases. David Herzog can be reached by e-mail at dherzog@projo.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1994-october-covering-the-computer-beat.html">Covering the computer beat</a>
+  <span class="similar-meta">October 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1990-december-taxing-investigation-in-palm-beach.html">Taxing Investigation in Palm Beach</a>
+  <span class="similar-meta">December 1990</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2003-may-june-finding-backyard-military-contractors.html">Finding backyard military contractors</a>
+  <span class="similar-meta">May-June 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2003-septemberoctober-database-reporting-shows-no-bid-deals.html">Database reporting shows no-bid deals</a>
+  <span class="similar-meta">September/October 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2000-may-railroad-safety.html">Railroad safety</a>
+  <span class="similar-meta">May 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2001-septemberoctober-mapping-molesters.html" class="article-nav__prev">← Mapping molesters</a>
+  <a href="/article/2001-septemberoctober-program-study.html" class="article-nav__next">Program study →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

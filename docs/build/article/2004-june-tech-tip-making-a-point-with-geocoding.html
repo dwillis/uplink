@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech tip... Making a point with geocoding — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tech tip... Making a point with geocoding</h1>
+    <div class="article-byline">
+      <span class="author">Holly Hacker</span>
+      <span class="author-title">IRE and NICAR</span>
+      <span class="date">June 2004</span>
+    </div>
+    <div class="article-topics"><a href="/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>In Washington state, child molest- ers cannot live within a city block of day-care centers. At least that&#39;s what the law says. In reality, more than 600 sex offend- ers live within 100 yards of child- care centers, KIRO-Seattle reported in February.</p></div>
+
+  <div class="article-body">
+    <p>In Washington state, child molest- ers cannot live within a city block of day-care centers. At least that&#39;s what the law says. In reality, more than 600 sex offend- ers live within 100 yards of child- care centers, KIRO-Seattle reported in February. The IRE and NICAR Database Li- brary assisted KIRO with its inves- tigation by analyzing offender and sex offender data with geographic information system (GIS) analysis.</p>
+<p>KIRO provided files with the ad- dresses of the state&#39;s 15,000 con- victed child molesters and 9,000 li- censed day-care centers. The da- tabase library mapped the files, and then found child molesters and day- care centers within 100 yards of each other. We used the geocoding function to transform the street addresses con- tained in the tables into geographic points. In a nutshell, geocoding takes a street address and converts it into latitude and longitude, so the location can be displayed on a map.</p>
+<p>Common GIS programs - like the program we used, ESRI&#39;s ArcView 8.3 - can geocode addresses. The process can save hours when jour- nalists want to map crimes, schools, businesses, or anything else with street addresses and, preferably, ZIP codes. To geocode street addresses, you need a map file of streets for the area you&#39;re interested in. To map day-care centers and sex offend- ers in Washington state, we down- loaded the files in ESRI shapefile for- mat for the entire state from ESRI&#39;s Web site at www.esri.com/data/down- load/census2000_tigerline.</p>
+<p>The files are based on data from the 2000 Census. Each street is represented in the map file by a number of line seg- ments and records in the map data table. Each street segment has two address ranges reported in the data table: one for each side of the seg- ment. The beauty of geocoding, at least in ArcView, is that the program can map locations even when the address in the data table fails to exactly match what&#39;s in the street file.</p>
+<p>For example, there might be a seg- ment for East Broadway that in- cludes the address ranges 100-150 and 101-159. ArcView&#39;s geocoding tool attempts to match the day-care and offender street addresses to the street segment address ranges. So if there is a day-care center at 125 East Broadway (whose address range falls exactly midway between 100 and 150), the geocoding tool will place the point at the physical mid-point of that line segment.</p>
+<p>The beauty of geocoding, at least in ArcView, is that the program can map locations even when the ad- dress in the data table fails to ex- actly match what&#39;s in the street file. Whether a day-care center is listed at 203 W. Maple St., 203 West Maple Street or even 203 Maple St. West, ArcView will do its best to match it to the corresponding street segment. Each match receives a score from 0 to 100, with 100 being a perfect match.</p>
+<p>That also means many matches are less than perfect. And you can&#39;t accept or reject them based solely on the score. Take two cases from the sex offender data- base. ArcView matched an of- fender at E. 2909 37 to 2901- 3099 East 37th Ave. (identical ZIP codes) with a score of 63. But with the same score, it matched an of- fender at 225 South Warren to 201-299 North Warren Ave., both in ZIP code 99156.</p>
+<p>So either the sex offender&#39;s address is wrong, one of the ZIP codes is wrong, or South Warren Avenue doesn&#39;t show up in ArcView&#39;s street files. (It turns out there is a street seg- ment for South Warren, but it doesn&#39;t include an address range.) It&#39;s one thing if you are geocoding a few businesses in your town and you need to verify them by driving by the businesses or calling to check their locations.</p>
+<p>But what about when you&#39;re mapping 15,000 anonymous sex offenders across an entire state that you don&#39;t live in? (KIRO received the list of all child molesters but without the names.) We didn&#39;t want to mistak- enly place molesters - or day-care centers, for that matter - in the wrong location. Because we had to select molesters within 100 yards of day-care centers, putting either in a bogus spot would com- promise our results.</p>
+<p>That&#39;s where the geocoding options in ArcView came in handy. You can set the minimum score for a match. The default is 60, so any scores of 60 or more will result in a valid match. We upped that threshold to 80. You can also tailor your results with the Spelling Sensitivity and Mini- mum Candidate Score options. You can lower the Spelling Sensitivity (the default is 80 out of 100) if lots of addresses are misspelled.</p>
+<p>The Minimum Candidate Score deter- mines how closely an address matched the street file to even be considered a match. There&#39;s no easy way to determine which settings to use - just experi- ment with your data. For both the molesters and day-care centers, we compared the number of valid matches we got using a minimum match score of 60 versus one of 80. We lost 257 centers using a score of 80 instead of 60.</p>
+<p>That sounds like a lot, but it was only 3 percent of all day-care centers. Similarly, we lost 843 molesters by changing a mini- mum score of 60 to 80 - that&#39;s 5 percent of all offenders. Using that tougher standard, we still mapped 82 percent of all day-care centers and 69 percent of all molesters in the original address files. Based on those results, we came up with 605 cases of molesters living near daycare centers.</p>
+<p>By tightening the geocoding criteria, we erred on the conservative side in our analysis. Had we used a lower minimum match score we could have picked up more valid cases of mo- lesters living near day-care centers - but with so many cases to check, we could have ended up with bad matches too. Even with our higher match criteria, we spot-checked matches on the Web using MapQuest and other sources to make sure we had valid matches.</p>
+<p>See the stories on the Web at www.kirotv.com/investigations/ 2825037/detail.html. Contact Holly Hacker by e-mail at holly@ire.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/2001-septemberoctober-mapping-molesters.html">Mapping molesters</a>
+  <span class="similar-meta">September/October 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2001-januaryfebruary-measuring-foster-care.html">Measuring foster care</a>
+  <span class="similar-meta">January/February 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-june-mapping-the-latest-uses-of-mapping-in-news-reporting-spotting-sex-offenders.html">MAPPING The latest uses of mapping in news reporting. Spotting sex offenders</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-december-correctional-care-prisoner-health.html">CORRECTIONAL CARE: Prisoner health</a>
+  <span class="similar-meta">December 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-may-health-care-investigation-wrestling-giants.html">HEALTH CARE INVESTIGATION: Wrestling giants</a>
+  <span class="similar-meta">May 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/2004-june-education-scholarship-program-takes-from-the-poor.html" class="article-nav__prev">← EDUCATION Scholarship program takes from the poor</a>
+  <a href="/article/2004-july-august-targeting-voting-wrongs.html" class="article-nav__next">Targeting voting wrongs →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

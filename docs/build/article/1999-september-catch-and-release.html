@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch and release — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Catch and release</h1>
+    <div class="article-byline">
+      <span class="author">James Walsh</span>
+      
+      <span class="date">September 1999</span>
+    </div>
+    <div class="article-topics"><a href="/topics/crime-justice.html" class="badge">Crime &amp; Justice</a></div>
+  </header>
+
+  <div class="article-summary"><p>Explores the issue of repeat offenders in Minnesota, focusing on the lack of prison sentences for felonies and crimes committed on probation. Uses data analysis to link multiple criminal justice databases.</p></div>
+
+  <div class="article-body">
+    <p>Commit a felony in Minnesota and, chances are, you won&#39;t go to prison. Commit a crime while on probation and, chances are, you won&#39;t go to prison. We had heard it for years: that repeat offenders and even convicted offenders on probation can and often do re-offend with few consequences. In 1999, we decided to put it to the test. I applied for a newsroom fellowship that would allow me to temporarily jump from our public safety team to the projects team to work with Dan Browning, computer-assisted reporting editor.</p>
+<p>The move freed me from the daily grind of the police and courts beats to dig into the anecdotes and see if there were data to support them. Capturing crime data The first stop was Minnesota&#39;s Data Practices Act, the complex state statute that details which information collected and kept by public agencies is public - and which is not. We reviewed sections on arrest data, jail data and court services data regarding offenders on probation.</p>
+<p>The next step was to fire off letters to several metropolitan area counties, requesting the data we understood to be public. We wanted to first identify the people on probation in the Twin Cities area over the previous five years, then compare those data to jail bookings and court data to see if offenders on probation were being arrested and, if so, what happened afterwards. Getting the data took about three months.</p>
+<p>The state&#39;s two largest counties - Hennepin and Ramsey - refused to give us dates of birth of probationers, insisting the data were private under state law. The Hennepin County Sheriff&#39;s Office refused to give us dates of birth for offenders in the jail, again arguing that the data were private. Birth dates were critical information. The state has no standardized, unique identifier to track criminal suspects among counties or as they pass through the justice system.</p>
+<p>The tracking devices follow cases, not individuals. But by converting birth dates to strings and combining them with names to create key fields, we believed we could link several different criminal justice databases. Thus, birth dates were critical to ensuring that we were finding offenders who crossed county lines and to following individuals from arrest to court to prison and back into the community.</p>
+<p>The Star Tribune sued Hennepin and Ramsey counties for the data, but the lawsuit would take months. We decided to proceed the hard way, but were forced to change focus from probationers to repeat offenders. We wanted to examine who was booked most often, and what was happening to their cases after arrest. We had dates of birth for jail inmates in every Minnesota county but Hennepin. We figured we could match the Hennepin County data to other criminal records to capture dates of birth.</p>
+<p>We obtained millions of criminal justice records from the Minnesota Sentencing Guidelines Commission (results of every sentencing statewide, 1993-1997), the Minnesota Supreme Court (felony and gross misdemeanor court dockets statewide, 1993-1997), Department of Corrections data on adult offenders (1994-1998) and work release inmates (1994-1998), and Bureau of Criminal Apprehension conviction data (felonies and gross misdemeanors, 1984-1999).</p>
+<p>Recognizing repeaters We became the only organization in Minnesota to attempt to link these various databases to find comprehensive criminal histories of repeat offenders. Neither the state nor the counties had constructed anything to answer the questions we would be asking. By matching district court case numbers from the Hennepin County jail database to Hennepin County cases in the state Supreme Court database, we were able to fill in thousands of dates of birth from the court data.</p>
+<p>Doing individual court record searches on others allowed us to fill in more dates of birth for the most frequent offenders. And finally, using FoxPro, we created unique key fields using three different combinations of name (first-middle-last; first-middle initial-last; last) and date of birth for each table in our criminal justice archive. These matches enabled us to extract birth dates for thousands of other Hennepin County offenders.</p>
+<p>In the end, we filled in dates of birth for one-third of all people booked in Hennepin County over the five-year period we studied and, more importantly, the top 1,300 most frequent offenders. Those offenders accounted for the bulk of the bookings. One of our key findings was that the top 3.5 percent of the offenders accounted for 22 percent of the bookings in Hennepin County. We became the only organization in Minnesota to attempt to link these various databases to find comprehensive criminal histories of repeat offenders.</p>
+<p>Neither the state nor the counties had constructed anything to answer the questions we would be asking. To define &quot;chronic offender,&quot; we settled on a standard of more than 11 bookings in the five-year study period. Under that definition, we found at least 8,700 offenders getting booked over and over and over again. And we also found that the impact of chronic offenders was felt not only in the inner cities, but also in the suburbs and rural areas.</p>
+<p>The data backed up our hypothesis. But our work was just beginning. As with all good CAR projects, the data simply gave us a starting place. After about six weeks of data cleaning and writing string functions to query the various tables against each other, we flagged the top offenders in the seven-county metropolitan area of the Twin Cities. We then checked them against court and sentencing databases and began the task of finding the offenders and the victims to tell their stories.</p>
+<p>Meanwhile, my colleague Paul Gustafson worked on a separate but related project examining the work-release program run by the Minnesota Department of Corrections. Gustafson analyzed five years of data and found that the program was releasing more hardened criminals into the program, some of whom served as little as one-third of their sentence behind bars. We decided to publish this project together with the repeat offenders project because they are two ends of the same spectrum: a cheap, lenient corrections philosophy that has saved money but set criminals essentially free in the community.</p>
+<p>Many of these criminals escaped from supervision and some committed new crimes. Readers respond We published our series on July 18, 19 and 20. In the end, it was the very human stories of victims and repeat offenders that gripped many readers. But we also finally gave them a sense of the scope of the problem. Local television, local talk radio and National Public Radio picked up parts of our project.</p>
+<p>We&#39;ve heard from dozens of readers, including some legislators and other elected officials who are calling for ways to monitor repeat offenders. And after publishing our series, Ramsey and Hennepin counties agreed to provide the dates of birth for probationers (and in Hennepin&#39;s case, for those booked into jail) for the five-year study period, thereby settling our lawsuit. James Walsh can be reached by e-mail jwalsh@startribune.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1992-march-for-discussion-rape-series-points-out-serious-flaws-in-system.html">For discussion: Rape series points out serious flaws in system</a>
+  <span class="similar-meta">March 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2002-november-december-data-boosts-crime-stories.html">Data boosts crime stories</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-september-hidden-pasts-uncovered-in-times-series.html">Hidden pasts uncovered in Times&#39; series</a>
+  <span class="similar-meta">September 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-june-mapping-the-latest-uses-of-mapping-in-news-reporting-spotting-sex-offenders.html">MAPPING The latest uses of mapping in news reporting. Spotting sex offenders</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1998-september-crimes-of-the-week-neighborhood-report.html">Crimes of the Week: Neighborhood report</a>
+  <span class="similar-meta">September 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1999-julyaugust-dads-pay-little-welfare-fails.html" class="article-nav__prev">← Dads Pay Little: Welfare fails</a>
+  <a href="/article/1999-september-school-sports-as-big-business.html" class="article-nav__next">School sports as big business →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

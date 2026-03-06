@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setting the data free — Uplink Archive</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/">Browse</a>
+        <a href="/topics/">Topics</a>
+        <a href="/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Setting the data free</h1>
+    <div class="article-byline">
+      <span class="author">Andrew Lehren</span>
+      <span class="author-title">NICAR</span>
+      <span class="date">September 1997</span>
+    </div>
+    <div class="article-topics"><a href="/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>You&#39;re walking on a moonlit beach with a loved one. No, you&#39;re processing data. Wait a second - you can do both at the same time. Using Windows NT 4. 0, there is a clunky little command to schedule jobs while you&#39;re away from the office.</p></div>
+
+  <div class="article-body">
+    <p>You&#39;re walking on a moonlit beach with a loved one. No, you&#39;re processing data. Wait a second - you can do both at the same time. Using Windows NT 4.0, there is a clunky little command to schedule jobs while you&#39;re away from the office. With some planning, you can spend less time at your desk processing data, leaving more time for analyzing and reporting. Setting up The command to run NT&#39;s schedule service is called AT.</p>
+<p>For the most part, Microsoft&#39;s documentation shows how you can use this to back up your computer. But you can use it to run, say, FoxPro, and then use a program to do your legwork. First, you need to get it to work properly with a Windows program. Go to Start Settings Control Panels Click on the Services icon (it&#39;s the one with a couple gears grinding away). You get a menu box. Scroll down to Schedule.</p>
+<p>Highlight it. Hit the Startup Button. Now make sure your settings say the Startup type is Auto- matic, it will log on as System Account, and check the box to Allow Service to Interact with Desktop. Hit OK. Now, to make sure NT knows quickly about your changes: with Schedule still highlighted, hit the Stop button, and then hit the Start button. Now NT will let you run a Windows program at will. Where you&#39;re AT Now we&#39;re ready to actually work with the command scheduler using AT.</p>
+<p>Go to Start Run and then type Command. You get a command line prompt, but don&#39;t get scared. The command line you&#39; need is easy to type. Here is an example to just launch FoxPro: At 11:00/next:s &quot;c:\fpw26\foxprow&quot; This means at 11 a.m. on the upcoming Saturday, start up FoxPro. The program will startup FoxPro every Saturday if you change next:s to /every:s. If you get lost in the syntax, there are two ways to on-line help.</p>
+<p>Atthe command prompt, you can type at ?, or you can go to Start Help and search for AT. Doing the work Just starting a program when you&#39;re not in the office is pretty silly, and your co-workers will only wonder more about you. The trick is to get the program to actually do something. Here&#39;s how I got FoxPro to do something. It&#39;s a two-step process. In the following case, let&#39;s assume I&#39;ve got raw data sitting in a folder called FBI.</p>
+<p>And let&#39;s assume I&#39;ve written a FoxPro program to import the data into empty tables. Let&#39;s say the program is called fbi.prg. (You could add on to your programs to include cleanup tasks like date conversions and elimi- nating leading spaces in text columns). Go to a text editor and type: KEYCOMP = WINDOWS CATMAN=OFF COMMAND = do c:\FBl\fbi.prg Now save that in a file called bi.fpw. You&#39;ve just created a FoxPro configuration file that, when called on, will automatically do your cleanup routine.</p>
+<p>Now go to a text editor again and type: c:\fpw26\foxprow-Cc:\fbi\fbi.fpw And save that in a file called fbi.bat. You&#39;ve just created a batch file that will automatically launch FoxPro 2.6 and, by using -C, you&#39;ve redirected FoxPro to look to your alternate config file. Don&#39;t worry about affecting future uses of FoxPro. The program will only go to that alter- nate config file when you tell it. The Last Part Now let&#39;s go back to the AT command.</p>
+<p>Go back to your prompt, like you did before. Type: at 11:00 /every:s &quot;c:\fbi\fbi.bat&quot; Now, every Saturday, FoxPro will automati- cally process your latest update of that database. If you want to check on any jobs, go to the prompt and type AT, then hit return. It will list all your jobs. Trouble Shooting What we&#39;v done is tell our computer to start a program at a certain time, then look to that program&#39;s configuration file, which then tells it to process a certain database.</p>
+<p>Here are two problems I encountered along the way. First, make sure you&#39;re using the latest ver- sion of NT. Go to www.microsoft.com, click on support and go to Windows NT. Somewhere in that patch was the stuff that gets the Command Scheduler to actually work as well as promised. To make matters worse, the patch requires you to update your NT registry. To do this, look at the readme.txt file that comes with the patch.</p>
+<p>That, of course, refers to another part of the web site. For service patch 3, in section 3.6 of the readme file, it recommends going to www.microsoft.com/kb/. Then go to article Q166730 for Windows NT. Follow the six reso- lution steps. In addition, for those who got NT Resource Kit, you&#39;ll get a gui version of the Command Scheduler. That may make the AT command a little clearer. Andy Lehren can be reached at 1-800-NBC- NEWS x 7739, or by e-mail at andy@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/article/1997-september-funny-car.html">Funny CAR</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1996-september-picture-this.html">Picture this</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1995-september-cracking-windows-95.html">Cracking Windows 95</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/article/1991-april-mainframes-cpu-time-and-your-wallet.html">Mainframes, C.P.U. Time and Your Wallet</a>
+  <span class="similar-meta">April 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/article/2004-march-asksam-tames-the-data-clutter.html">askSam tames the data clutter</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/article/1997-september-tracking-tourism.html" class="article-nav__prev">← Tracking tourism</a>
+  <a href="/article/1997-september-whos-bringing-up-baby.html" class="article-nav__next">Who&#39;s bringing up baby? →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
