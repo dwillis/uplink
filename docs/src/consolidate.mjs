@@ -42,6 +42,50 @@ function matchKey(year, month, headline) {
   return `${year}|${normalizeMonth(month)}|${headline.toLowerCase().trim()}`;
 }
 
+/**
+ * Extract a readable summary from raw OCR full text.
+ * Finds complete sentences that form a coherent opening, targeting ~200 chars.
+ */
+function extractSummary(fullText) {
+  // Normalize whitespace, strip leading junk (page numbers, headers, etc.)
+  let text = fullText.replace(/\s+/g, ' ').trim();
+
+  // Skip past short leading fragments that look like headers/bylines (< 40 chars before first period)
+  const firstPeriod = text.indexOf('.');
+  if (firstPeriod > 0 && firstPeriod < 40) {
+    // Check if there's a sentence after this short fragment
+    const rest = text.slice(firstPeriod + 1).trim();
+    if (rest.length > 100) {
+      text = rest;
+    }
+  }
+
+  // Split into sentences (period/exclamation/question followed by space+uppercase or end)
+  const sentences = text.match(/[^.!?]*[.!?]+/g);
+  if (!sentences || sentences.length === 0) {
+    // No sentence boundaries found — fall back to word-boundary truncation
+    if (text.length <= 250) return text;
+    const cut = text.lastIndexOf(' ', 250);
+    return text.slice(0, cut > 100 ? cut : 250) + '...';
+  }
+
+  // Accumulate complete sentences up to ~250 chars
+  let summary = '';
+  for (const sentence of sentences) {
+    const trimmed = sentence.trim();
+    if (!trimmed) continue;
+    if (summary.length + trimmed.length > 300 && summary.length > 80) break;
+    summary += (summary ? ' ' : '') + trimmed;
+    if (summary.length >= 150) break;
+  }
+
+  if (!summary) {
+    summary = sentences[0].trim();
+  }
+
+  return summary;
+}
+
 export function consolidate(repoRoot) {
   const dataDir = join(repoRoot, 'data');
   const origDir = join(repoRoot, 'articles', 'original');
@@ -156,9 +200,7 @@ export function consolidate(repoRoot) {
       finalSummary = summary.summary;
       finalKeywords = summary.keywords;
     } else {
-      // fallback: first 200 chars of full_text
-      const text = article.full_text.replace(/\s+/g, ' ').trim();
-      finalSummary = text.length > 200 ? text.slice(0, 200) + '...' : text;
+      finalSummary = extractSummary(article.full_text);
       finalKeywords = [];
       unmatched++;
     }
