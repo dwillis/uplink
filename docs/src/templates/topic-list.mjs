@@ -1,4 +1,4 @@
-import { layout, escapeHtml } from './layout.mjs';
+import { layout, escapeHtml, BASE_PATH } from './layout.mjs';
 
 export function renderTopicList(topicIndex, topicNames) {
   const cards = topicNames
@@ -7,7 +7,7 @@ export function renderTopicList(topicIndex, topicNames) {
     .map(topic => {
       const slug = topic.toLowerCase().replace(/[^a-z0-9]+/g, '-');
       const count = (topicIndex[topic] || []).length;
-      return `<a href="/topics/${slug}.html" class="topic-card">
+      return `<a href="${BASE_PATH}/topics/${slug}.html" class="topic-card">
   <h2>${escapeHtml(topic)}</h2>
   <span class="topic-count">${count} article${count !== 1 ? 's' : ''}</span>
 </a>`;

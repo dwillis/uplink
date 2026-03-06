@@ -1,10 +1,10 @@
-import { layout, escapeHtml, topicBadges } from './layout.mjs';
+import { layout, escapeHtml, topicBadges, BASE_PATH } from './layout.mjs';
 
 function similarArticleItem(sim, articleMap) {
   const a = articleMap.get(sim.slug);
   if (!a) return '';
   return `<li class="similar-item">
-  <a href="/article/${escapeHtml(a.slug)}.html">${escapeHtml(a.headline)}</a>
+  <a href="${BASE_PATH}/article/${escapeHtml(a.slug)}.html">${escapeHtml(a.headline)}</a>
   <span class="similar-meta">${escapeHtml(a.month)} ${a.year}</span>
 </li>`;
 }
@@ -52,8 +52,8 @@ export function renderArticleDetail(article, allArticles) {
     : '';
 
   const prevNext = `<nav class="article-nav">
-  ${prev ? `<a href="/article/${prev.slug}.html" class="article-nav__prev">← ${escapeHtml(prev.headline)}</a>` : '<span></span>'}
-  ${next ? `<a href="/article/${next.slug}.html" class="article-nav__next">${escapeHtml(next.headline)} →</a>` : ''}
+  ${prev ? `<a href="${BASE_PATH}/article/${prev.slug}.html" class="article-nav__prev">← ${escapeHtml(prev.headline)}</a>` : '<span></span>'}
+  ${next ? `<a href="${BASE_PATH}/article/${next.slug}.html" class="article-nav__next">${escapeHtml(next.headline)} →</a>` : ''}
 </nav>`;
 
   const content = `
@@ -65,7 +65,7 @@ export function renderArticleDetail(article, allArticles) {
       ${article.author_title ? `<span class="author-title">${escapeHtml(article.author_title)}</span>` : ''}
       <span class="date">${escapeHtml(article.month)} ${article.year}</span>
     </div>
-    <div class="article-topics">${topicBadges(article.topics, '/')}</div>
+    <div class="article-topics">${topicBadges(article.topics)}</div>
   </header>
 
   ${article.summary ? `<div class="article-summary"><p>${escapeHtml(article.summary)}</p></div>` : ''}
