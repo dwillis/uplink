@@ -12,6 +12,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(__dirname, '..');
 const buildDir = join(__dirname, 'build');
 
+let basePath = process.env.BASE_PATH || '/';
+if (!basePath.endsWith('/')) basePath += '/';
+
 mkdirSync(join(buildDir, 'data'), { recursive: true });
 mkdirSync(join(buildDir, 'css'), { recursive: true });
 mkdirSync(join(buildDir, 'js'), { recursive: true });
@@ -45,7 +48,7 @@ writeFileSync(
 console.log(`Written: data/articles.json (${articlesLight.length} articles)`);
 
 console.log('\n=== Step 5: Rendering HTML ===');
-render(articles, topicIndex, topicNames, buildDir);
+render(articles, topicIndex, topicNames, buildDir, basePath);
 
 console.log('\n✓ Build complete! Output in docs/build/');
 console.log(`  Total articles: ${articles.length}`);

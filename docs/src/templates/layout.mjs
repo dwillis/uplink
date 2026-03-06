@@ -1,22 +1,23 @@
-export function layout({ title, content, bodyClass = '' }) {
+export function layout({ title, content, bodyClass = '', basePath = '/' }) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} — Uplink Archive</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="${basePath}css/style.css">
   <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+  <script>window.BASE_PATH="${basePath}";</script>
 </head>
 <body class="${bodyClass}">
   <header class="site-header">
     <div class="container">
-      <a href="/" class="site-title">Uplink</a>
+      <a href="${basePath}" class="site-title">Uplink</a>
       <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
       <nav class="site-nav">
-        <a href="/">Browse</a>
-        <a href="/topics/">Topics</a>
-        <a href="/search.html">Search</a>
+        <a href="${basePath}">Browse</a>
+        <a href="${basePath}topics/">Topics</a>
+        <a href="${basePath}search.html">Search</a>
       </nav>
     </div>
   </header>

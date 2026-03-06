@@ -1,6 +1,6 @@
 import { layout } from './layout.mjs';
 
-export function renderSearchPage() {
+export function renderSearchPage(basePath = '/') {
   const content = `
 <div class="page-header">
   <h1>Search Articles</h1>
@@ -18,7 +18,7 @@ export function renderSearchPage() {
 <div id="search-results" class="search-results" aria-live="polite">
   <p class="search-placeholder">Enter a search term to find articles.</p>
 </div>
-<script src="/js/search.js"></script>`;
+<script src="${basePath}js/search.js"></script>`;
 
-  return layout({ title: 'Search', content });
+  return layout({ title: 'Search', content, basePath });
 }

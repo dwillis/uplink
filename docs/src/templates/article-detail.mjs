@@ -1,10 +1,10 @@
 import { layout, escapeHtml, topicBadges } from './layout.mjs';
 
-function similarArticleItem(sim, articleMap) {
+function similarArticleItem(sim, articleMap, basePath) {
   const a = articleMap.get(sim.slug);
   if (!a) return '';
   return `<li class="similar-item">
-  <a href="/article/${escapeHtml(a.slug)}.html">${escapeHtml(a.headline)}</a>
+  <a href="${basePath}article/${escapeHtml(a.slug)}.html">${escapeHtml(a.headline)}</a>
   <span class="similar-meta">${escapeHtml(a.month)} ${a.year}</span>
 </li>`;
 }
@@ -36,7 +36,7 @@ function formatFullText(text) {
   return paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join('\n');
 }
 
-export function renderArticleDetail(article, allArticles) {
+export function renderArticleDetail(article, allArticles, basePath = '/') {
   const articleMap = new Map(allArticles.map(a => [a.slug, a]));
   const idx = allArticles.findIndex(a => a.slug === article.slug);
   const prev = idx > 0 ? allArticles[idx - 1] : null;
@@ -46,14 +46,14 @@ export function renderArticleDetail(article, allArticles) {
     ? `<aside class="similar-articles">
   <h3>Similar Articles</h3>
   <ul class="similar-list">
-    ${article.similar.map(s => similarArticleItem(s, articleMap)).join('\n')}
+    ${article.similar.map(s => similarArticleItem(s, articleMap, basePath)).join('\n')}
   </ul>
 </aside>`
     : '';
 
   const prevNext = `<nav class="article-nav">
-  ${prev ? `<a href="/article/${prev.slug}.html" class="article-nav__prev">← ${escapeHtml(prev.headline)}</a>` : '<span></span>'}
-  ${next ? `<a href="/article/${next.slug}.html" class="article-nav__next">${escapeHtml(next.headline)} →</a>` : ''}
+  ${prev ? `<a href="${basePath}article/${prev.slug}.html" class="article-nav__prev">← ${escapeHtml(prev.headline)}</a>` : '<span></span>'}
+  ${next ? `<a href="${basePath}article/${next.slug}.html" class="article-nav__next">${escapeHtml(next.headline)} →</a>` : ''}
 </nav>`;
 
   const content = `
@@ -65,7 +65,7 @@ export function renderArticleDetail(article, allArticles) {
       ${article.author_title ? `<span class="author-title">${escapeHtml(article.author_title)}</span>` : ''}
       <span class="date">${escapeHtml(article.month)} ${article.year}</span>
     </div>
-    <div class="article-topics">${topicBadges(article.topics, '/')}</div>
+    <div class="article-topics">${topicBadges(article.topics, basePath)}</div>
   </header>
 
   ${article.summary ? `<div class="article-summary"><p>${escapeHtml(article.summary)}</p></div>` : ''}
@@ -82,5 +82,6 @@ ${prevNext}`;
     title: article.headline,
     content,
     bodyClass: 'article-page',
+    basePath,
   });
 }

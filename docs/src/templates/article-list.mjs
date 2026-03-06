@@ -1,28 +1,28 @@
 import { layout, escapeHtml, topicBadges } from './layout.mjs';
 
-function articleCard(article, depth = '') {
+function articleCard(article, basePath = '/') {
   const summaryPreview = article.summary
     ? (article.summary.length > 180 ? article.summary.slice(0, 180) + '…' : article.summary)
     : '';
 
   return `<article class="article-card" data-year="${article.year}" data-topics="${(article.topics || []).join(',')}">
   <h2 class="article-card__title">
-    <a href="${depth}article/${article.slug}.html">${escapeHtml(article.headline)}</a>
+    <a href="${basePath}article/${article.slug}.html">${escapeHtml(article.headline)}</a>
   </h2>
   <div class="article-card__meta">
     ${article.author_name ? `<span class="author">${escapeHtml(article.author_name)}</span>` : ''}
     <span class="date">${escapeHtml(article.month)} ${article.year}</span>
   </div>
-  ${topicBadges(article.topics, depth)}
+  ${topicBadges(article.topics, basePath)}
   <p class="article-card__summary">${escapeHtml(summaryPreview)}</p>
 </article>`;
 }
 
-export function renderArticleList(articles) {
+export function renderArticleList(articles, basePath = '/') {
   const years = [...new Set(articles.map(a => a.year))].sort((a, b) => b - a);
   const yearOptions = years.map(y => `<option value="${y}">${y}</option>`).join('\n');
 
-  const cards = [...articles].reverse().map(a => articleCard(a)).join('\n');
+  const cards = [...articles].reverse().map(a => articleCard(a, basePath)).join('\n');
 
   const content = `
 <div class="page-header">
@@ -43,7 +43,7 @@ export function renderArticleList(articles) {
 <div class="article-list" id="article-list">
 ${cards}
 </div>
-<script src="/js/app.js"></script>`;
+<script src="${basePath}js/app.js"></script>`;
 
-  return layout({ title: 'Browse Articles', content });
+  return layout({ title: 'Browse Articles', content, basePath });
 }

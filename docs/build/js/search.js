@@ -1,6 +1,7 @@
 (function () {
   'use strict';
 
+  const basePath = window.BASE_PATH || '/';
   let searchIndex = null;
   let articles = null;
   let articleMap = null;
@@ -13,8 +14,8 @@
   // Load lunr from CDN — already included via script tag in layout
   // Load data
   Promise.all([
-    fetch('/data/search-index.json').then(r => r.json()),
-    fetch('/data/articles.json').then(r => r.json()),
+    fetch(basePath + 'data/search-index.json').then(r => r.json()),
+    fetch(basePath + 'data/articles.json').then(r => r.json()),
   ]).then(([indexData, articlesData]) => {
     searchIndex = lunr.Index.load(indexData);
     articles = articlesData;
@@ -68,12 +69,12 @@
         : '';
       const topics = (article.topics || []).map(t => {
         const slug = t.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        return `<a href="/topics/${slug}.html" class="badge">${escapeHtml(t)}</a>`;
+        return `<a href="${basePath}topics/${slug}.html" class="badge">${escapeHtml(t)}</a>`;
       }).join('');
 
       return `<article class="article-card">
   <h2 class="article-card__title">
-    <a href="/article/${escapeHtml(article.slug)}.html">${escapeHtml(article.headline)}</a>
+    <a href="${basePath}article/${escapeHtml(article.slug)}.html">${escapeHtml(article.headline)}</a>
   </h2>
   <div class="article-card__meta">
     ${article.author_name ? '<span class="author">' + escapeHtml(article.author_name) + '</span>' : ''}
