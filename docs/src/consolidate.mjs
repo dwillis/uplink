@@ -22,8 +22,24 @@ function normalizeArticles(data) {
   return [data];
 }
 
+const MONTH_NAMES = [
+  'january','february','march','april','may','june',
+  'july','august','september','october','november','december'
+];
+
+function normalizeMonth(month) {
+  const s = String(month).toLowerCase().trim();
+  // Handle numeric months: "3" → "march"
+  const num = parseInt(s, 10);
+  if (!isNaN(num) && num >= 1 && num <= 12) return MONTH_NAMES[num - 1];
+  // Extract just the first month name from compound formats like
+  // "March-April", "July/August", "November/December", "January-February"
+  const match = s.match(/^([a-z]+)/);
+  return match ? match[1] : s;
+}
+
 function matchKey(year, month, headline) {
-  return `${year}|${String(month).toLowerCase()}|${headline.toLowerCase().trim()}`;
+  return `${year}|${normalizeMonth(month)}|${headline.toLowerCase().trim()}`;
 }
 
 export function consolidate(repoRoot) {
@@ -148,7 +164,7 @@ export function consolidate(repoRoot) {
     }
 
     const slug = makeSlug(article.year, article.month, article.headline);
-    const monthNum = MONTH_ORDER[article.month.toLowerCase()] || 0;
+    const monthNum = MONTH_ORDER[normalizeMonth(article.month)] || 0;
 
     consolidated.push({
       slug,
