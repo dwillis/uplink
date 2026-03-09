@@ -1,0 +1,30 @@
+# Hartford's Toxic Front Page
+
+**By Brant Houston and Kenton Robinson
+Hartford Courant**
+
+You call this environmental protection?
+
+- Connecticut manufacturers are failing to report millions of pounds of toxic emissions to the state as required by law.
+- Connecticut manufacturers are actually emitting more ozone-eating Freon into the atmosphere than they were three years ago, when they pledged to reduce emissions.
+- Some manufacturers are seriously damaging municipal sewer treatment plants by dumping toxic chemicals into the plants, thus causing sewage to pour into Connecticut water and costing taxpayers tens of thousands of dollars in repairs.
+- Connecticut's Department of Environmental Protection has for three years left out tens of millions of pounds of toxic chemical emissions in its annual reports to the public, thus significantly downplaying the amount of poisons dumped and stored in local landfills.
+
+These are some of the facts we've been able to reveal over the past six months with just a rudimentary use of the Toxic Release Inventory (TRI). The inventory is composed of annual reports from certain manufacturers on how much of 300 or so toxic chemicals they emit. While the reports have their shortcomings, they are good for giving an indication of how bad pollution is in your state and for cross-referencing with other files.
+
+Over the past six months, *The Hartford Courant's* environmental reporter, Dan Jones, and I have produced several front page stories and a bunch of others by using TRI. At this point, I think we've just started to appreciate the possibilities.
+
+We began our work by getting computer tapes of the inventory for 1988 and with the use of Nine-Track Express and XDB setting up eight different tables of information on what toxic chemicals manufacturers in Connecticut reported emitting.
+
+We thought of doing a story from those tapes last summer, but realized that the paper reports for 1989 had just been filed - or should have been - with the state Department of Environmental Protection.
+
+We knew that the state would take months to type those reports into a database, so we decided to enter the information onto our own database using laptops. This had been done by several reporters (including Dave Davis at the *Cleveland Plain Dealer*, who gave us the idea) and environmentalists with good results, so we plunged in and created our own 1989 database of 1,500 reports and verified it over a period of three weeks by ourselves and with the help of a researcher. Our database was an abbreviated version, quite similar to the summaries issued on diskette by the National Technical Information Service. (Data entry is really a bother, but we actually got a lot of story ideas while looking at the reports and discovered many flaws in the reports.)
+
+We totaled the emissions, made a top-ten list of manufacturers and chemicals, etc., so we could put out a report six months ahead of the state's annual report. But while comparing our database with the 1988 tapes, which were from the federal EPA, we found that some manufacturers had neglected to send their reports to the state over the past years, meaning the state had underestimated emissions in its annual reports. We also found many shortcomings in how the state cracked-down on some manufacturers.
+
+Over the past few months, we've matched the database with another state database on pollution from sewer treatment plants, used our database for daily stories and for a longer story on ozone eating chemicals, given information from it to many bureau reporters, and used it to analyze transfers of chemicals to landfills and private disposal treatment companies. The state finally came out with its report this month and we immediately did a story on how it downplayed emissions by leaving out 14 million pounds of toxic chemicals shipped offsite by manufacturers. We intend to get the 1989 federal EPA tapes because it will have more detailed information that we didn't have time to type in.
+
+For data entry, we used an inexpensive, off the shelf software called Powerbase. It has a great function-key for repeating duplicate fields in records, and it was small enough to fit on a single diskette and still leave half the diskette open for data.
+
+> *If you want to use TRI....*
+> The 1988 federal 4-volume set is available through both the National Technical Information Service (703) 487-4848, and MICAR (314) 882-0684. 1989 data is expected soon. State-wide data is also available through NTIS at $50 per state. State environmental protection agencies sometimes sell abbreviated data on diskette.

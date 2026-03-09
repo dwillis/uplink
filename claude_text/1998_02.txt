@@ -1,0 +1,458 @@
+# Uplink — February 1998
+
+**A newsletter for the National Institute for Computer-Assisted Reporting**
+
+---
+
+## INSPECTION DU JOUR
+
+# Restaurants Revealed
+
+**By Joel Grover
+KCBS-TV**
+
+When I first proposed the idea of a series on restaurant conditions, it seemed like such a basic investigation. I knew similar investigations had been done for years in other cities. I would have never thought a series like this would attract a firestorm of attention, would be the subject of dozens of newspaper articles, and result in major changes in the law. But that's just what happened when KCBS-TV aired "Behind the Kitchen Door" last November.
+
+(For related stories, see Stuart Watson's restaurant inspection reprise on page two and a review of a Cox News Service project on food processing plants on page three.)
+
+The story began with a tip: a former L.A. County health inspector told me the county was doing nothing to force filthy restaurants to clean up. A quick computer search showed me that no other local media had ever investigated L.A. County's restaurant inspection program, so it seemed like a good subject to probe.
+
+I began my research with what seemed like a simple request to the L.A. County Health Department for its computer database of restaurant inspections. At first the county said such a database didn't exist and later said certain restaurant data wasn't public. Fortunately, my station was willing to fight for this data. CBS lawyers battled L.A. County back and forth for 8 months. Only when we told them we were taking them to court did the health department hand over its database.
+
+## Hired help
+
+KCBS hired NICAR to crunch the data. Clearly we could not have done this ourselves. L.A. County's database contained hundreds of thousands of records on 20,000 restaurants. The county tried to send us the data in a form that would have made it virtually unusable. One phone call from NICAR to the health department solved the problem.
+
+## Unsettling scores
+
+Our producer, Adam Symson, and I brainstormed with Andy Lehren and Jack Dolan at NICAR about all the ways we could crunch the data. We used Foxpro 2.6. We wanted to know how often restaurants were inspected. We wanted to see what percentage of restaurants were averaging poor to failing
+
+**Continued on page four**
+
+---
+
+## FREE BOAT TO CHINA
+# All Expenses Paid
+
+**By Kara G. Morrison
+NICAR**
+
+After Congress tightened rules on member travel funded by private groups in late 1995, Gannett News Service decided to check if the new rules had made a difference.
+
+"We wanted to assess how much travel members of Congress and their staffs have taken from private groups with a stake in Capitol Hill legislation," said GNS special projects editor David Milliron.
+
+The result was a GNS special report titled "Congress: Have invitation, will travel."
+
+The special report, which ran predominantly in many of Gannett's 91 daily newspapers in November, included an overall computer analysis and story on congressional travel, along with stories detailing which special interests paid the highest travel tabs, which destinations were most common, which committees
+
+**Continued on page five**
+
+---
+
+## CHECK, PLEASE
+# Update
+
+Check, please. This food is not so glorious.
+
+On this month's menu, *Uplink* serves up 3 CAR projects exposing deficient food inspections.
+
+Joel Grover recounts a KCBS series on L.A. restaurant inspections, and Stuart Watson details a WRAL series on North Carolina's misleading ratings system. As a third course, a summary of a Cox News Service look into sparse USDA punishments of processing plants is also available. And Nora Paul tops it off with a survey of relevant links.
+
+A review of a Gannett News Service analysis of privately sponsored congressional travel and Neil Reisner's advice on doing short-term CAR projects on breaking news are also inside.
+
+Plus, there's the goings-on at a recent NICAR advanced seminar and a workshop on health care.
+
+**PAGE 10**
+*First Ventures*
+
+**PAGE 11**
+*On The Internet*
+
+**PAGE 12**
+*Stats from the road*
+
+**PAGE 13**
+*Tech Tip*
+
+**PAGE 16**
+*IRE/NICAR Notes*
+
+---
+
+*Page 2*
+
+# Uplink
+
+*February 1998
+Volume 10, Number 1
+A newsletter for the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+bjohnson@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**STAFF**
+Jack Dolan
+Seth Hemmelgarn
+Justin Mayo
+Margaret Murphey
+Curt Poff
+Debbie Roberts
+John Sullivan
+Alistair White
+Paul Walmsley
+Ted Peterson
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+Postmaster: Please send address changes to NICAR.
+Send e-mail to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training on computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+## INSPECTION DU JOUR
+# Behind the Ratings
+
+**By Stuart Watson
+WRAL-TV**
+
+Most of us eat out hundreds of times a year – sometimes more often than we eat at home. While some CAR veterans look down their noses at reports on restaurant health inspections as elementary or overdone, few topics strike closer to home with the public. Many newspapers have long posted weekly sanitation inspections as part and parcel of the news of record. Now, databases of restaurant inspection reports are ready-made for the Web. They give the public fingertip access to raw information about local eateries.
+
+WRAL's series began when a customer at a McDonald's restaurant in Raleigh, N.C., took a close look at its sanitation inspection report posted on the wall. Surprised, she called us to say that, while the local health department had awarded the McDonald's an "A" sanitation grade, the inspector had noted maggots growing in an unused ice cream machine.
+
+## Making the grade
+
+So what does an "A" rating mean, anyway?
+
+We filed an Open Records Act request to get our county's database of sanitation inspection reports to find out. Rules, however, vary from state to state. As we say in TV, check your local listings.
+
+North Carolina, South Carolina and Nevada are the only states that use A-B-C ratings. Most states still use variations of a 100-point scale. Some are moving toward the Food and Drug Administration's latest "model" food inspection rating system, which calls for a satisfactory/unsatisfactory approach that is obviously less conducive to computer-assisted reporting.
+
+North Carolina's database (including only one fourth of all counties) includes fields for type of violation, numbers of points deducted from a 100-point scale, final score and – most valuable of all – the inspector's comments. We found restaurants reportedly having maggots, raw sewage backups, and rats breeding in the dumpster that still received "A" ratings.
+
+Inspectors routinely cited restaurants for less sensational – though more hazardous – violations like food served at improper temperatures and raw meat contaminating cooked food, yet gave them "A" ratings as well.
+
+The inspectors aren't to blame.
+
+The state's 100-point system allows a maximum deduction of only five points for each type of violation – not each individual violation. So a restaurant with a series of relatively innocuous but different violations could score lower than a restaurant with a series of threatening but similar ones.
+
+As is the case with almost all computer-assisted reporting, the database was not the final story – only the beginning of questions.
+
+We adopted the methodology used by Mike Wendland at WDIV-TV in Detroit: culling the lowest and highest scores, then looking at files at the health department to build a much smaller spreadsheet with at least 3 inspections for the group of low-scoring restaurants.
+
+## Expecting surprise
+
+This removed the "just-had-a-bad-day" defense and showed restaurants that scored poorly over time.
+
+It also contained a surprise. Seven of the 10 lowest scoring restaurants posted "A" ratings. Because inspectors are required to reinspect within 15 days, some restaurants would routinely score low on surprise inspections – then clean up their act. The lower and arguably more representative grade from the surprise inspection hangs in public view for two weeks tops; the higher grade from the not-so-surprise inspection hangs on the wall for public consumption for months until it's time for another surprise inspection.
+
+Our report aired just as the state was debating changing from letter grades to number grades. So we were able to follow the debate with new information and context.
+
+Our experience is by no means unique. But in this instance, just because a topic has been covered well in another market does not mean your audience would not benefit from another treatment of it locally – especially if you can augment the on-air story with relevant information online.
+
+Stuart Watson can be reached at
+(919) 821-8705 or by e-mail at
+stuart@interpath.com
+
+---
+
+*Page 3*
+
+## INSPECTION DU JOUR
+# Processor violations
+
+**By Brent Johnson
+NICAR**
+
+Hundreds of meat and poultry plants operating throughout the country are repeatedly issued citations following inspections by the U.S. Department of Agriculture. But the enforcement record against these gutting operations has most often been gutless. An investigative story by Elliot Jaspin and Scott Montgomery of Cox News Service found that few plants – even ones cited hundreds of times – are ever forced shut by the USDA.
+
+## Critical condition
+
+Jaspin and Montgomery used FoxPro to analyze the massive "Feedback File" database provided by the USDA following a FOIA request. Although they requested files from 1990-1996, the USDA only released information from 1996.
+
+The reporters wanted to know how many "critical violations" – defined by the USDA as a plant condition "certain" to cause both food contamination and to reach and then harm consumers – occurred at given plants. "We were expecting 200 tops for a particular plant," Jaspin said. However, they found a poultry plant in Arkansas operated by Tyson Foods that had amassed 1,700 violations. That's when they knew they had a story.
+
+## File me up, file me down
+
+The USDA database arrived on CD-ROM organized by a series of subdivisions. The data were divided into quarters of the year. Each quarter was divided into 26 regions. Each region was divided by week. "So there were 13 zip files for each region, and within those, when unzipped, were different 'circuits,'" or strings of meat and poultry plants, Jaspin said. "We're talking in the neighborhood of 5,000-6,000 little databases."
+
+Transferring the data from the CD-ROM to the hard drive using a batch file presented the first challenge. Then appending the zip files into databases for each quarter awaited. "We had to smash (the unzipped files) into one large database – actually four. One database would've been too unwieldy – over 25 million records."
+
+## Divide and conquer
+
+Dirty data always lurks. Jaspin and Montgomery had to work around an identification problem. They thought each plant would have a unique number but then found individual plants entered multiple times. By cleaning the unique number problem up, they could link violations from inspection records to particular plants by joining tables.
+
+Finally ready to analyze the data, they created "subset databases" to answer particular questions, such as the frequency of critical violations occurring at plants.
+
+"When you have large databases, the whole idea is to divide and conquer, to be able to work in a feasible fashion," Jaspin said.
+
+Jaspin and Montgomery also analyzed the data by geographic distribution of violations and plant size. Smaller databases were created and sent to individual Cox newspapers so they could pursue local stories.
+
+## USDA puts up, but doesn't shut down
+
+Through their database analysis of 1996 inspections, the reporters discovered 299 plants with 100 or more "critical violations" and 7 with more than 1,000. That year, the USDA shut down only 6 plants.
+
+"Heavens," an epidemiologist at the Centers for Disease Control and Prevention told the reporters upon hearing those numbers. "The burning question is why is a plant with that many violations – why has the (federal) inspector not been pulled from that plant? And I have no idea."
+
+Brent Johnson can be reached at
+(573) 882-0684 or by e-mail at
+bjohnson@nicar.org
+
+---
+
+**NICAR IS IN THE PROCESS OF ACQUIRING THE SUMMARY DATA OF THE USDA'S PROCESS DEFICIENCY REPORTS, WHICH INCLUDE A LIST OF VIOLATIONS – CRITICAL, MAJOR OR MINOR – BY PLANT.**
+
+**A PROFILE OF PAUL ADRIAN, AN INVESTIGATIVE REPORTER AT WBNS-TV IN COLUMBUS, OHIO, WHO HAS ALSO USED THE SUMMARY DATA IN A STORY, WILL APPEAR IN NEXT MONTH'S ISSUE.**
+
+---
+
+*Page 4*
+
+*Continued from page one:* **Dirty kitchens**
+
+scores on their inspections. And if restaurants were failing every inspection, were they penalized or shut down?
+
+Our analyis revealed that L.A. County's restaurant inspection system was not doing its job of protecting the public health. We found that many restaurants hadn't been inspected in over 2 years, even though the health department had previously insisted every place gets at least 3 inspections a year. We found that nearly 30 percent of L.A. area restaurants averaged poor to failing scores on health inspections. The data showed that most of these places were never penalized or closed down.
+
+Finally, NICAR ranked all 20,000 restaurants from the lowest to highest scoring. We were amazed when we examined that list. Some of the most respected and popular restaurants in Los Angeles were also getting the worst inspection scores.
+
+## Going undercover
+
+We then decided to conduct an undercover investigation. Using the list that NICAR produced for us, we chose several low-scoring restaurants and sent researchers to work there.
+
+Our computer analysis and our undercover tapes gave us enough material to do many stories. What was originally intended to be a 2-part series turned into an 11-part series. Our first story exposed filthy conditions at many popular L.A. restaurants and used facts from our computer analysis to show the problem was widespread. On the second day we exposed the failures of the inspection system to keep restaurants clean.
+
+We then did several stories using the rankings of restaurants by average inspection score. One story focused on the lowest-scoring restaurants in town; another highlighted the cleanest places.
+
+## An activated audience
+
+KCBS was deluged with calls from viewers wanting to see the entire list of restaurant scores. We put that list on our Web site, www.Channel2000.com. In the following weeks, it received an unprecedented one million hits.
+
+Our initial reports generated hundreds of tips, which gave us material for many solid follow-ups. We reported that a grand jury had warned the health department years earlier that there could be an epidemic of food poisoning if it didn't get tougher on unsanitary restaurants. (The County ignored that warning.) We also reported how the health department had a secret surplus of millions of dollars that it could've used to hire more restaurant inspectors.
+
+Until we broke that story, health officials had been saying they were short on money to beef up their inspection program.
+
+What amazed us most was the fallout and public outcry from our series. Two days after our first report, the Los Angeles County Board of Supervisors publicly grilled health department officials about the problems KCBS uncovered. The department then started cracking down, closing more than 300 unsanitary restaurants, including one owned by Los Angeles Mayor Richard Riordan. Three weeks later, the board adopted a sweeping overhaul of Los Angeles County's restaurant inspection system. Because of our reports, restaurants must now post letter grades reflecting their latest inspection scores. And restaurant workers will be required to get training and certification in safe food-handling practices. Three months later, we are still doing follow-up stories from what we all thought would be just a basic investigative story.
+
+Joel Grover can be reached at
+(213) 460-3284 or by e-mail at
+lax@primenet.com
+
+---
+
+**ACCORDING TO STUART WATSON, HIS STATION'S RESTAURANT INSPECTION SERIES "DEMONSTRATED BETTER THAN ANY OF OUR PREVIOUS INVESTIGATIVE PROJECTS THE ABILITY OF WRAL ONLINE TO SUPPLEMENT ON-AIR REPORTS." HE PROVIDED WEB SITES FOR SIMILAR PROJECTS AT OTHER ORGANIZATIONS:**
+• **WRAL ONLINE HTTP://WWW.WRAL-TV.COM/NEWS/WRAL/5INVESTIGATES/1997/REST-EVAL-DATA**
+• **WDIV-TV DETROIT HTTP://WWW.WDIV.COM/DD4.HTML**
+• **WSB-TV AND THE ATLANTA JOURNAL-CONSTITUTION HTTP://WWW.ACCESSATLANTA.COM/LOCAL/INSPECTIONS**
+• **THE DESERET NEWS HTTP://199.104.95.5/MISC/REST/RESTFORM.HTM**
+• **KCBS-TV LOS ANGELES HTTP://WWW.CHANNEL2000.COM**
+
+---
+
+**Two days after our first report, the Los Angeles County Board of Supervisors publicly grilled health department officials about the problems KCBS uncovered. The department then started cracking down.**
+
+---
+
+*Page 5*
+
+*Continued from page one:* **Travel tabs**
+
+traveled most frequently, and which Congressional spouses earned the most frequent flyer miles.
+
+The new rules require members of Congress and their staffs to explain how such travel relates to their work and to disclose its sponsor, destination, cost and purpose within 30 days.
+
+## Key findings
+
+The GNS database investigation found that private industry and non-profit groups spent nearly $8 million in 16 months on 5,100 trips.
+
+Other key findings included: China was the hottest congressional travel destination; the Nuclear Energy Institute spent $123,000 on congressional travel while lobbying to send radioactive waste to Nevada during 1996-97; the tobacco industry spent $70,000 on 27 trips for congressmen during the same period; and the House Commerce Committee, which oversees telecommunications and electricity deregulation, topped the list of well-traveled congressional committees, taking nearly 200 paid trips in 16 months.
+
+GNS chief political correspondent Chuck Raasch and regional correspondent Fredreka Schouten, together with Milliron, spent three months on the project. They collected the paper records on the more than 5,100 trips between January 1996 – when the new reporting requirements kicked in – and early May 1997. The data from the reports was then keypunched by two interns into six Borland Paradox databases.
+
+Milliron said The Center for Responsive Politics subsequently keypunched the 1997 travel records, which is now available on its Web site.
+
+"I was pleased to see they picked up on this. We feel this is an important thing for the public to know," Raasch said.
+
+"This is the type of information Congress doesn't want in electronic form because it's too easy to see patterns among trips when it's in a computer database," Milliron said.
+
+## Roadblocks
+
+Milliron explained there were a few pitfalls during the project. Because the majority of the reports were handwritten, GNS had to painstakingly decipher the name of each traveler on the forms using various congressional directories. And many of the travel records identified sponsors not by company names but by acronyms, requiring additional research.
+
+Raasch said members of Congress also did a poor job of filling out the forms. Often, writing was illegible or total expenses (including transportation, lodging, meals) were added incorrectly.
+
+And in one instance, Milliron said, House Speaker Newt Gingrich reported the cost of his trip in Swiss francs, which GNS converted to U.S. dollars using the exchange rate at the dates of his trip.
+
+"If that's not trying to abate the system, I don't know what is," Milliron said.
+
+Included in the database were the trip sponsors, names of travelers, destinations and the cost and dates of travel. GNS created a separate database for travel related to committee work.
+
+Once the analysis was complete for the national package, Milliron worked with the bureau's regional reporters, who wrote about three dozen stories on the travels of elected representatives serving their regions.
+
+Overall, Raasch said they were happy with the play the series received.
+
+"As we tried to point out, there are a lot of new ways or different ways for money to get into this process," Raasch said.
+
+Kara Morisson can be reached by e-mail
+at kara@nicar.org
+
+---
+
+**THE 1997 CONGRESSIONAL TRAVEL RECORDS CAN BE ACCESSED ON THE WEB SITE OF THE CENTER FOR RESPONSIVE POLITICS AT HTTP://WWW.CRP.ORG/CRPDOCS/9798TRAVEL/TRAV9798.HTM**
+
+---
+
+*Page 6*
+
+## QUICK HITS
+# Demystifying CAR
+
+**By Neil Reisner**
+*The Miami Herald*
+
+Okay. You've heard one too many stories about the yearlong CAR investigation using umpity-two databases, way-too-sophisticated statistics and a Pentium II 300 with 556 megabytes of RAM and a 200-gigabyte hard drive.
+
+That just ain't the reality you live in.
+
+But you've also heard one too many stories from one too many CAR wizards wearing a pointed cap with stars and crescents on it about the turn-on-a-dime quick hits that they produced merely by blinking their eyes.
+
+They can be done. With just a little bit of forethought, it's possible – even easy – to apply CAR to your everyday work, even to breaking news.
+
+That's what we've been doing at *The Miami Herald's* edition in Broward County, which, despite its connection to a major metro, is really not very different from a medium-sized daily.
+
+That's because we put out our own edition of the paper in Broward with a remade front page, a local news section, bi-weekly neighbors sections, independent calendar listings, local sports – the whole package. We struggle along with the same limitations of staff and resources that confront most other papers. And we compete fiercely with the *Sun-Sentinel* of Fort Lauderdale, with whom we're at war.
+
+Here are four examples of the ways we've used CAR in recent months – not to produce mega-stories but to add value to the routine. (And, for spice, examples of how we could have done better.) None took more than a day, and most were finished in several hours.
+
+## Electing school boards
+
+Education is the big political issue here in Broward, where the local Board of Education has about the same credibility as used car dealers and the schools are overcrowded despite the fact that they've spent $2 billion on construction over the last 10 years. The action involved an election last fall deciding whether to scrap the traditional system of electing school board members at large for a system in which most members would represent specific districts.
+
+The change won overwhelming approval, much to the surprise of some pundits (and school board members) who figured what we call the "condo vote", mostly elderly voters loyal to the locally ruling Democrats, would rally to the status quo. The question was: How did this happen?
+
+We covered election night as usual, downloading overall results from a BBS run by the Superintendent of Elections. The day after the election, though, precinct-by-precinct results were available. Usually, they'd been provided on paper, but last year we got them on floppy disk in a tab-delimited ASCII format.
+
+From there, it was a simple matter to import the data using Excel's import wizard and then to move it over to Access. Teaming up with the political reporter, who knows the precincts like the back of his hand, we were able to isolate model precincts and analyze which way the vote went. The result: Young families and minorities came out in force to support a move they deemed important. The condo vote stayed home. With turnout only about 5 percent, it didn't take much to turn the election.
+
+## Boating accidents
+
+It was a real tragedy. A powerboat – the kind dope smugglers and men in midlife crisis love – was speeding up the Intracoastal Waterway in the dark of the night when it ran over a small cabin cruiser out for a midnight cruise, just about cutting it in half. Six people died, and more were critically injured – making it the worst boat accident in years and one that we covered intensely.
+
+We already had about ten years' worth of data on recreational boating accidents from the Florida Marine Patrol. The dirty little secret was that it was still in the fixed-field ASCII format it arrived in. That meant writing import specifications for four tables with lots and lots of fields. And on deadline, in a competitive situation, that wasn't practical. (Remember what I said about "a little bit of forethought?" I should've imported it ahead of time.)
+
+NICAR to the rescue. A quick phone call to Missouri and the good folks at NICAR extracted five years' worth of Florida data for
+
+**Continued on page seven**
+
+---
+
+**TO FIND OUT HOW TO DOUBLE CHECK YOUR CITY'S MATH, ORDER "COMPUTER-ASSISTED REPORTING: A PRACTICAL GUIDE" BY BRANT HOUSTON. IT CAN BE ORDERED FROM NICAR AND INVESTIGATIVE REPORTERS AND EDITORS FOR $26 FOR IRE MEMBERS OR $30 FOR NON-MEMBERS PLUS SHIPPING. CALL (573) 882-2042.**
+
+---
+
+*Page 7*
+
+*Continued from page six:* **Breaking news**
+
+us from the national data set they have. And – may God bless the inventors of the Internet – within an hour it was winging its way into my e-mail box.
+
+Once in-house, it became clear that we'd only be able to use two years' worth of data because of changes in the field layout. But, with only a few straightforward queries, we were able to find out how many boating fatalities there had been during that time statewide and along our stretch of the coast, how many accidents, the boats most commonly involved in accidents and the most common cause of accidents. We printed out the information, turned it over to a graphic artist and put the data in the next day's paper.
+
+We could have done better, though. As is too often the case, there was insufficient communication between the data guy (me), the reporter and the editor on the story. That meant the reporter didn't get the data soon enough and was insufficiently briefed on what it meant. Keeping everyone on the same page is real important.
+
+## Multiple births
+
+A local woman gave birth to quadruplets a few months ago. And, of course, the hospital PR folks were on the phone with us all agog and, of course, we prepared to go out and do something on the blessed event. (This was before the "Magnificent Seven" in Ohio made mere quadruplets passé.)
+
+Discussing this in the morning news meeting, an editor said words to the effect of: "Geez. Every time quads are born we take the same picture and write the same story. Can we do something different this time? I wonder how much it will cost to raise these kids?"
+
+We went out on the Web and found, oddly enough, a college professor's class lectures noting the USDA's annual cost estimate of child-rearing. A quick trip to the USDA site produced a press release announcing the most recent estimate and a full report on the estimates in *.pdf* format. The USDA estimates how much it costs to raise one child. But you can't just multiply that by four to get the cost or raising quads.
+
+A call to the contact named on the press release got us to a USDA economist who told us the formula we needed. Plugged it all into a spreadsheet and handed it off to the graphics guy.
+
+## Religious migration
+
+With around 270,000 Jewish residents, Broward County makes up the fourth largest Jewish community in the country. That's why we pay a fair amount of attention to Jewish issues. So, when a long-established synagogue decided to sell its building to a charter school and move a few miles north to a more densely populated area, it was news.
+
+The local Jewish federation had recently released a demographic study of the local community with a table showing the number of Jewish residents in each ZIP code. They faxed it to us, and a few minutes later it was typed into a database table.
+
+We'd recently started playing with mapping software and were fortunate enough to have a copy of ArcView. It didn't take much to hang the ZIP code table onto a base map of ZIP codes we'd gotten from the county. (Forethought worked here – the base map was all ready, completed by my colleague Dan Keating.)
+
+Once we drew the map, we saw clearly that the two ZIP codes surrounding the synagogue were among the densest Jewish areas in the county. And the area to which the congregation was moving was among the least populated.
+
+That let us ask much more focused questions and explain that, even though the synagogue was located in a Jewish area, most of its members didn't live there. The area where the congregation was moving was closer to where most congregants lived and, more importantly, near a neighborhood where young Jewish families were moving.
+
+Were any of these stories prize-winners? Hardly. And, with the possible exception of mapping software, they didn't use any software other than the standard spreadsheets, database managers and web browsers we all have. It's just a matter of thinking about the stories we're writing and how a little bit of data can make them better.
+
+Neil Reisner, formerly NICAR training director, can be reached at
+(954) 985-4571 or by e-mail at
+nreisner@web2000.net
+
+---
+
+**BOUND COPIES OF THE 1997 ISSUES OF UPLINK ARE NOW AVAILABLE. CONTACT IRE AT (573) 882-2042. THE COST IS $25 FOR IRE MEMBERS OR $30 FOR NON-MEMBERS, PLUS SHIPPING.**
+
+---
+
+*Page 8*
+
+## ADVANCED SEMINAR
+# Client/server solutions
+
+**By George Landau**
+NewsEngin Inc.
+
+Take a dozen experienced CAR jockeys from around the nation, lock them in a NICAR computer lab for three days at the mercy of two hard-core data wonks, and what do you get?
+
+For starters, you get a dozen CAR jockeys who can install and maintain a Web-based, client/server data warehouse for their newsrooms. And you get to brag about the successful inaugural run of NICAR's advanced seminar.
+
+The advanced seminar arose from a basic question that our crowd has been wrestling with for quite a while: how can CAR specialists manage their valuable data so that the newsroom can perform basic queries without bugging the specialist, and perform fancier queries without a lot of logistical hassles and network slowdowns?
+
+The answer is a client/server database manager with a Web interface. For this particular seminar, the teachers – myself and Tom Torok of the *Philadelphia Inquirer* – instructed our colleagues in the 100% Microsoft solution that consists of Windows NT as the operating system, SQL Server as the database manager, and Internet Information Server (IIS) as the Web server. This all-Microsoft lineup is certainly not the only way to go, but Torok and I believe it provides a strong combination of low-cost, high-performance and predictable results. Besides, what journalist really wants to learn UNIX?
+
+## Day One
+
+We began with an hour-long discussion of client/server databases and Web technology – why they make sense for sharing data within a newsroom. The idea behind client/server is that the database queries run on a beefy PC (the server), which accepts commands over a network in the form of SQL statements. The server executes the SQL statement and passes only the results back over the network to the user (the client). The client software can be a Web browser or a desktop data tool like Access, Approach, Paradox or Excel. The client software can use a graphical interface, like a Web form or the Access query builder, to generate the SQL statements; your users don't have to know SQL.
+
+Client/server is generally a better solution than simply putting an Access or FoxPro database on a server and letting your users open the database over the network. While this might work for simple queries on indexed fields, for anything more ambitious it means pumping the entire database through the narrow (and typically congested) pipes of your network. This tends to make the network crawl for everyone else in your newsroom, especially the folks in photo who inevitably need to move several large images at the same time your query is scanning a 1-gigabyte table.
+
+So that they could repeat the process in their own newsrooms, we led the participants through the entire drill of installing Windows NT Server, SQL Server, IIS and the numerous bug fixes ("Service Packs") that Microsoft provides subsequent to any product's release. Fortunately, we hit just enough snags in this process to make for an authentic experience, and by day's end each participant was the new administrator of a fully-loaded NT Server.
+
+## Day Two
+
+We spent the morning learning about security, configuration and administration in NT Server, SQL Server and IIS. We sailed through the creation of SQL Server devices, databases, tables, views and indexes. We dabbled with various settings and discussed ways to maximize performance.
+
+Once we had a grip on SQL Server, we used ODBC (Open Data Base Connectivity) to connect from Microsoft Access to SQL Server over the network. We transferred data from Access to SQL Server using ODBC alone and in combination with SQL Server's BCP (Bulk Copy Program).
+
+With some data on the server, it was time to install a Web interface. NewsEngin provided all seminar participants with an application called UniQuery and a license to deploy it in their newsrooms. UniQuery's greatest value lies in its ability to perform global searches of all the databases on your server. A user can enter a name, address, birthdate, etc.; regardless of
+
+**Continued on page nine**
+
+---
+
+**THE ADVANCED SEMINAR DREW A SELLOUT CROWD FROM THE SAN JOSE MERCURY NEWS, USA TODAY, DETROIT FREE PRESS, BALTIMORE SUN, DAILY OKLAHOMAN, LEXINGTON HERALD-LEADER, ASSOCIATED PRESS AND WCCO-TV IN MINNEAPOLIS.**
+
+**GEORGE LANDAU AND TOM TOROK WILL REPEAT THEIR SEMINAR ON WEB APPLICATIONS WITH NT AND SQL SERVER THIS SUMMER, AUGUST 14-17. FOR MORE INFORMATION OR TO REGISTER, CONTACT KATY FANNING AT (573) 882-0684.**
+
+---
+
+*Page 9*
+
+*

@@ -1,0 +1,462 @@
+# Uplink Newsletter - April 1998
+
+---
+
+## Page 1
+
+**April 1998**
+
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+---
+
+**VOTER FRAUD**
+
+# Errant electioneering
+
+**By Dan Keating**
+*The Miami Herald*
+
+When the election results for mayor of Miami came in on the night of Nov. 4, it seemed obvious that something strange had gone on in the voting, the first for the new "strong mayor" form of government that would give the city's chief executive a new level of power.
+
+Incumbent Joe Carollo won a majority of the votes cast at the polls. But he was trounced by a 2-1 margin in absentee ballots by one of his challengers, former mayor Xavier Suarez. The absentee tide stopped Carollo 155 votes short of a outright election, forcing a runoff that he then lost.
+
+The strange voting pattern and unprecedented number of absentees – more than 10 percent of the ballots cast – prompted Carollo, the Florida Department of Law Enforcement and *The Miami Herald* to launch investigations into what had gone on.
+
+The Herald has tracked down and published more than 300 "problem" votes so far:
+• A dead guy.
+• People who don't live in the city or live in different city commission districts than where they voted.
+• People who swore they didn't vote, despite a record showing a ballot cast in their names. Many said their names had been forged.
+• People who said ballots were taken from them.
+• People who said they were paid $10 to vote absentee.
+• People who were solicited to vote by a former food stamp eligibility officer who still worked as a facilitator for elderly immigrants.
+• People whose absentee ballots were "witnessed" by people who never saw the voter or by false signatures.
+• More than 100 felons who had lost their civil right to vote.
+
+Contacting more than 1,400 voters required a unique shoe-leather effort that lasted more than two months. But the project also involved a heavy dose of computer-assisted reporting to set the plate for the reporters fanning out into the community, organizing what they found and painting the emerging portrait of fraud.
+
+The essence of the computer work – to find potentially suspicious activity – was matching different lists against the list of people who voted in the election. Though
+
+**Continued on page two**
+
+---
+
+**TECH TIP**
+
+# Enter Intranets
+
+**By George Landau**
+NewsEngin Inc.
+
+Who among us wouldn't want a newsroom where reporters can search public records in a flash, without a lot of training and without having to leave the comfort of their ergonomic chairs?
+
+All it takes to fulfill the promise of an Intranet are a newsroom full of modern PCs or Macs, a network with Transport Control Protocol/Internet Protocol (TCP/IP), a Web server and a big chunk of your time.
+
+There's no way around it: setting up an Intranet for CAR is a lot of work. But if you make the right choices at the outset, your work can pay large dividends. As someone who has been wrestling with this stuff for a few years, I can offer some advice on getting started.
+
+### The network
+
+Since an Intranet uses the same technology as the Internet, your network
+
+**Continued on page four**
+
+---
+
+**THE ROAD FROM INDY**
+
+# Update
+
+Local elections are often more colorful than their national counterparts. They are just as often susceptible to abuse. Dan Keating of *The Miami Herald* reviews his paper's extensive probe into voter fraud committed in the city's mayoral race. Local law enforcement has followed in the footsteps of the *Herald's* investigation.
+
+This issue highlights the drive toward installing Intranets in newsrooms. NewsEngin's George Landau offers a Tech Tip on setting up these systems. NICAR database administrator Justin Mayo surveys the CAR specialists on the front lines of applying the technology.
+
+Intranets weren't the only hot topic at Indiana CAR. NICAR's Seth Hemmelgarn takes the pulse of an apparent software shift to Access but gives recognition to the FoxPro faithful. And CFIC's Jack Dolan gathers tips for discerning which campaign contributions merit making the news.
+
+**PAGE 10**
+*Stats from the Road*
+
+**PAGE 11**
+*Handout of the Month*
+
+**PAGE 12**
+*On the Internet*
+
+**PAGE 14**
+*First Ventures*
+
+---
+
+## Page 2
+
+**Uplink**
+
+*April 1998*
+*Volume 10, Number 3*
+*A newsletter for the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+bjohnson@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**STAFF**
+Jack Dolan
+Seth Hemmelgarn
+Justin Mayo
+Margaret Murphey
+Curt Poff
+Debbie Roberts
+John Sullivan
+Alistair White
+Paul Walmsley
+Ted Peterson
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211 (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+Postmaster: Please send address changes to NICAR.
+Send e-mail to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training on computer-assisted reporting, special academic and advanced training in data analysis. NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+*Continued from page one:*
+
+# Problem polls
+
+Florida law specifically forbids releasing the voting list to the public, *The Herald* obtained it.
+
+With that voter roll, we could wrest great value out of the other public records that we keep on hand.
+
+### Movers and matchmakers
+
+To start off, we matched the voter list against the Social Security Master Death List we had obtained from NICAR, though that list is somewhat spotty by having fields for ZIP codes but not full addresses. Since the voter list did not include a social security number, we had to match by name, date of birth and ZIP code. To broaden our search, we matched name and date of birth to anyone whose last ZIP code was in our county.
+
+It looked exciting – we had eight exact matches. But, much to our disappointment, our field reporters found the purportedly dead voters quite alive and quite well: each proved that the rumors of their deaths had been greatly exaggerated. Most told tales of fighting with the Social Security bureaucracy about being listed as deceased.
+
+(We learned from reporters around the country that such errors aren't at all unusual. And the one dead man we did identify didn't appear in the Master Death List.)
+
+### Packed voting houses
+
+Our next step was more straightforward. With the list of 44,000 voters, we simply grouped by address and sorted descending to find the addresses housing the most voters. Since addresses included apartment or unit numbers, the search aggregated individual living units rather than apartment buildings and showed many residences with six, seven, eight or more voters.
+
+To make the list of voters per home more useful, we merged the addresses with the county's property appraiser roll, which we obtain each year for real estate analysis. Matching the addresses didn't go smoothly because the two agencies are inconsistent when it comes to "3 Ave." or "3rd Avenue," and "S.W. 29th Ter." or "SW 29 Terr."
+
+Using SAS for Windows, we cleaned the addresses from both lists. We removed all punctuation and letters ("th," "st," and "rd") from the fields with numeric street names and scanned to replace variations of "ave," "avenue," "av," and so on.
+
+Matching with the property roll allowed us to identify single-family homes with one or two bathrooms and more than five voters. It also showed us vacant and non-residential properties with voters. When we visited the properties with many voters, we found out-of-town and phantom voters stashed there.
+
+To confirm that people lived elsewhere, we used driver's license and vehicle registration information through AutoTrak. We also used homestead exemptions, a tax deduction that can be taken only on your primary residence. We found people whose driver's license, vehicle registration and homestead records indicated that they lived outside the city. In every case, we spoke directly to the person or, if that was impossible, sent a letter asking for proof of being a legitimate voter.
+
+### The cell bloc
+
+One seemingly straightforward match proved tricky: matching voters with the list of people sentenced to state prison or probation in Florida. The list, available on CD-ROM from the state Department of Corrections, doesn't include those sentenced to time or probation locally, but it captures a good population of convicted felons, who have lost their right to vote.
+
+Because the prison list doesn't have an address field and the voter roll doesn't have a social security number field, we matched by first name, last name, middle initial and date of birth for people convicted in our county or neighboring counties. Of the more than 400 matches, almost none were false matches caused by two people having identical names and birthdays. So it looked like we had a lot of illegal voters.
+
+Complications arose when we checked court files for our first batch of interesting felons. Almost none, it turned out, had been convicted. Miami's overloaded court system is notorious for convicting rarely. Almost everyone can reach a plea agreement with
+
+**Continued on page three**
+
+---
+
+## Page 3
+
+*Continued from page two:*
+
+# Ballots for hire
+
+"adjudication withheld." About three-quarters of the people sentenced to state probation had not been convicted. People who would probably be convicted elsewhere in the state and lose voting rights had not lost them in our county.
+
+We accessed online the local criminal court docket to find which of the 400 offenders had been actually convicted. We determined that more than 130 had been, but the search still wasn't over. We ran those 130 names past the state's Executive Clemency Board that handles restoration of rights. Sorting through the index cards where they keep their records, we found more than 100 felon voters who did not have their rights restored.
+
+We also compared the list of people who voted with the entire list of registered voters and looked for people who had changed addresses into the city or between city commission districts near the election. Under Florida's implementation of the motor-voter law, you can announce on election day that you've moved into the district. And you're allowed to vote.
+
+### Available absentees
+
+Computer matching helped us draw webs of conspiracy involving the organizers of bad votes. A database of people who witnessed absentee ballots showed that many campaign workers witnessed dozens of ballots. If any witnessed ballots that we knew were bad, we checked other ballots handled by them.
+
+We checked bad ballots against a database of campaign contributions and expenditures we had made from paper records for stories before the election. We found people who used their real, out-of-city address to contribute but an in-city address to vote.
+
+Mapping uncovered the operation that paid people $10 to vote absentee in the runoff election. Using ArcView 3.01, we found participants and proved the scope of the operation being run from a parking lot in a poor neighborhood.
+
+In that neighborhood, the primary election included the mayor's race and a contested city commission race involving a popular candidate.
+
+People had months to obtain and fill out an absentee ballot for the election. In the runoff, voters had less than a week to obtain and return an absentee ballot. By mapping all absentees within three-quarters of a mile of the parking lot in both races, we discovered unlikely results: Dozens more absentees were in the runoff than in the main election. By comparing the list of voters from the two elections, we found people who had troubled themselves to vote absentee in the runoff but had not bothered to vote at all in the primary election. We targeted that list s in our search for paid voters. Several confessed, and others admitted knowing of the operation but denied that they were personally involved.
+
+### Maiden Intranet voyage
+
+To keep track of our contacts of more than 1,400 voters, reporters carried paper forms to collect consistent information. Results were then entered in an Access database. As the project progressed, the Access frontend was replaced by a Web-based version that christened our Intranet.
+
+We used the Intranet to set up Web-based search forms so everyone could look up reporter notes on voter contacts. Reporters and editors could search lists of people who had voted or witnessed absentee ballots. Empowering team members to handle their own look-up chores was instantly popular and prevented a bottleneck at the geek's office.
+
+After a three-week, non-jury trial, a judge in March overturned the election and called for a new vote. An appellate court then went a step further by putting Carollo back into office and declaring that the voting-fraud participants should be punished rather than simply forced to compete in another election.
+
+The Florida Department of Law Enforcement has followed our tracks frequently, arresting the man we identified as running the paid-voter scam and several of the illegal voters we uncovered. More arrests are pending.
+
+*The archive of stories from this project is available at www.herald.com/dade/archive/elect97/index.htm*
+
+Dan Keating can be reached at (305) 376-3476 or by e-mail at dkeating@herald.com
+
+---
+
+**THE IRE RESOURCE CENTER MAINTAINS A LIBRARY OF MORE THAN 12,000 INVESTIGATIVE STORIES. OTHER EXAMPLES OF VOTER FRAUD INCLUDE:**
+
+• **"FELONS VOTING," A 1996 WCCO-TV (MINNEAPOLIS) SERIES ON CONVICTED FELONS VOTING WHILE ON PROBATION (#13530 IN THE RESOURCE CENTER)**
+
+• **"VOTER LISTS INVITE FRAUD," A 1995 CHICAGO SUN-TIMES LOOK INTO A SYSTEM ALLOWING DUPLICATE VOTES AND VOTES BY THE DECEASED (#11059)**
+
+• **"FELONS CAST VOTES DESPITE SYSTEM," A 1995 THE HARTFORD COURANT STUDY OF CONVICTED FELONS STILL REGISTERED TO VOTE (#12342)**
+
+• **"DEAD OR ALIVE," A 1990 ST. LOUIS POST-DISPATCH RECORD ANALYSIS OF REGISTERED VOTERS REVEALING THOUSANDS OF INELIGIBLE VOTERS, SOME DEAD FOR YEARS (#7284)**
+
+**FOR COPIES OF STORIES, CONTACT THE CENTER AT (573) 882-3364 OR BY E-MAIL AT RESCNTR@IRE.ORG**
+
+---
+
+## Page 4
+
+**WRANGLING TOO LONG WITH A PARTICULAR DATABASE PROBLEM? WOULD YOU LIKE TO SEE YOUR FRUSTRATIONS ALLEVIATED IN THESE PAGES? SEND SUGGESTIONS FOR FUTURE TECH TIPS TO BRENT JOHNSON AT BJOHNSON@NICAR.ORG**
+
+**TO DISCUSS TOPICS RELATED TO RUNNING AND DEVELOPING CAR INTRANETS, JOIN THE INTRACAR MAILING LIST. SEND AN E-MAIL TO: MAJORDOMO@NICAR.ORG IN THE BODY OF THE MESSAGE TYPE: SUBSCRIBE INTRACAR <YOUREMAILADDRESS>**
+
+**LIST TOPICS INCLUDE MICROSOFT'S INTRANET PRODUCTS, NETSCAPE'S SERVER PRODUCTS, LOTUS NOTES APPLICATION DEVELOPMENT, PROGRAMMING LANGUAGES, AND STRATEGIES TO SHARE DATA WITH THE NEWSROOM AND THE PUBLIC. CONTACT TED PETERSON WITH ANY LISTSERV PROBLEMS AT TED@NICAR.ORG**
+
+---
+
+*Continued from page one:*
+
+# Newsroom boost
+
+needs to use the Internet's TCP/IP networking protocol. When your Intranet users fire up their Web browsers, they'll use TCP/IP to connect to your internal Web server. Chances are pretty good that your network already has TCP/IP, but you should make sure before diving in.
+
+### The Web browsers
+
+If possible, make sure that all of the potential users of your Intranet are using the same kind of Web browser and that it's Version 3 or later. Netscape 3 and 4 and Internet Explorer 3 and 4 are all fine choices. Both companies' browsers are free these days, but my favorite on both Windows and the Mac OS is IE 4.
+
+It's not essential that everyone use the same browser software, but it'll make your job easier if they do. That's because when you design a Web page, you'll discover that it can look different depending on the browser with which you view it. While it's best to design pages that look great in both Navigator and IE, this can mean more work for you.
+
+### The Web server
+
+Assuming you already have a TCP/IP network and that everyone on it already has a decent Web browser, the real work will be in setting up your Web server and putting some useful data on it.
+
+If you're not just dabbling and want a robust Web server, I strongly recommend you use Windows NT Server for the operating system and Microsoft's Web server software, Internet Information Server. Microsoft released IIS 4.0 a few months ago, and it's an excellent product. It's fast, powerful, widely supported and free. You can download it as part of the Windows NT Option Pack from *http://www.microsoft.com/ntserver.*
+
+If you can't afford NT Server (about $500), the next best thing is NT Workstation (about $200). NT Workstation has the same underlying code as NT Server, so it's just as fast and just as dependable. You can download a version of IIS for NT Workstation called Personal Web Server, also part of the NT Server Option Pack.
+
+If your newsroom can't afford NT Work- station and you can't afford to get a job in another newsroom, you can install Personal Web Server for Windows 95. This will work fine in the beginning, but Windows 95 is simply more prone to crashes and does not run as fast as NT. If you want to get your colleagues hooked on your Intranet, it's important that you build a system that runs well with a minimum of downtime.
+
+Regardless of which Microsoft operating
+
+---
+
+**You should plan to put all of your Web-searchable data on the Web server's local hard drives. Do not keep the data on a network drive, as this will lead to pokey searches that bog down the entire network.**
+
+---
+
+system you use, make sure the server has plenty of RAM, especially if you intend to design Web applications that search databases. I'd start with at least 32 megs of RAM. If you plan to use databases, go for 64 megs or more. RAM is cheap these days.
+
+In terms of the speed of your CPU, I'd recommend at least a Pentium 133 for your Web server. Faster is definitely better. Fast hard drives are also a good way to boost the performance of your server.
+
+In terms of the hard disk space you'll need, this depends on how much data you plan to share. Set aside about 500 megs for the operating system and applications (planning ahead for the inevitable code bloat in Microsoft's future offerings).
+
+Unless you'll be using a client/server database like Microsoft SQL Server or Oracle, you should plan to put all of your Web-searchable data on the Web server's
+
+**Continued on page five**
+
+---
+
+## Page 5
+
+*Continued from page four:*
+
+# Accessing data
+
+local hard drives. Do not keep the data on a network drive, as this will lead to pokey searches that bog down the entire network.
+
+### Building the Web pages
+
+When it comes to building Web applications that search a database, there are basically two popular ways to go. Which one you choose depends on your budget, ambitions and prior experience. Either approach will require that you learn the basics of HTML forms and tables.
+
+• **Approach #1:**
+Allaire's Cold Fusion *(http://www.allaire.com)*
+
+Cold Fusion (about $500) extends HTML with special tags that support straightforward SQL queries. It includes a well-designed wizard that does most of the work in building basic search forms and result tables. You can tweak the wizard's offering using any text or HTML editor.
+
+Cold Fusion works in partnership with Microsoft's IIS (and other Web servers) by acting as a broker for database requests. When a user submits a query, the Web server passes the request to Cold Fusion, which runs the query using your database software and passes the HTML-formatted results back to the Web server, which in turn sends it back to the user. The whole process is pretty fast.
+
+• **Approach #2:**
+Microsoft Active Server Pages
+
+ASP, which is built into IIS and thus costs nothing, is essentially a version of Visual Basic (VB) that runs on the Web server. To use it, you write Web pages that contain a combination of Visual Basic programming and HTML. Your users and their browsers never see the VB part – they get just the HTML. Just as with regular VB, you can write ASP pages that query databases and manipulate the results.
+
+If you intend to build a moderately complex Web application with conditional logic and loops, ASP might be a better choice than Cold Fusion. If you already are comfortable with VB or another flavor of BASIC, you'll be able to scan the ASP documentation and get up to speed pretty quickly.
+
+ASP works in a similar fashion to Cold Fusion, but since ASP is more tightly integrated with the IIS Web server, it runs a little faster. For normal newsroom use, though, this speed difference isn't noticeable. The speed of a Web database application depends largely on your choice of hardware and database software, not on your choice of ASP or Cold Fusion.
+
+If you go the ASP route, it's probably worth spending about $200 for Microsoft Visual InterDev, which includes wizards that build some basic database applications for ASP. InterDev does a nice job of managing the various components of a Web application, and it includes a version of the FrontPage HTML editor, so it's worth the money. A new version of InterDev is due soon and is supposed to provide much-needed improvements in the visual design tools (in the current version, "visual" pretty much means you're allowed to see your Visual Basic and HTML code as you write it).
+
+### Managing the data
+
+Active Server Pages and Cold Fusion both use ODBC (Open Database Connectivity) to access your data. If your database software provides an ODBC driver, these tools should work for you. Access, FoxPro, SQL Server and Oracle all have ODBC drivers that work well for basic Web queries. It's a good idea to make sure you have the latest ODBC driver for your software by downloading it from the database vendor's Web site and installing it on your Web server.
+
+As for which database software is best suited for newsroom Intranets, that's a question for another Tech Tip.
+
+But if you want folks to be able to use more than a Web browser (Access or Excel, for example) to work with large databases on the server, you should consider setting up a client/server system like SQL Server.
+
+If you'd rather focus on Web users and don't want to mess with client/server, FoxPro is probably faster than Access and has fewer limitations on database size. Tom Boyer of *The Seattle Times* has succeeded with an Intranet based on FoxPro, Cold Fusion and Windows NT.
+
+George Landau can be reached by e-mail at george@newsengin.com
+
+---
+
+**SIGN UP FOR THE ADVANCED BOOT CAMP, SCHEDULED FOR AUG. 14-16 IN COLUMBIA, MO., TO LEARN ABOUT NT, IIS, SQL SERVER, ODBC AND ASP. YOU'LL ALSO GET A FREE COPY OF NEWSENGIN'S UNIQUERY GLOBAL SEARCH SOFTWARE, AN ASP APPLICATION. CONTACT NICAR AT (573) 882-0684. IF YOU CAN'T ATTEND THE SEMINAR, YOU CAN DOWNLOAD ITS HANDOUTS AND ASP EXERCISES FROM THE "FREE TOOLS" SECTION OF NEWSENGIN'S WEB SITE, HTTP:// WWW.NEWSENGIN.COM.**
+
+**UPCOMING IN THE MAY ISSUE OF UPLINK IS A REVIEW OF COLD FUSION BY RAY ROBINSON OF THE VIRGINIAN PILOT AND TOM BOYER OF THE SEATTLE TIMES.**
+
+---
+
+## Page 6
+
+**SIGN UP TO BE AN IRE MEMBER. YOU CAN JOIN ONLINE AT OUR WEB SITE OR BY DOWNLOADING A MEMBERSHIP FORM AND FAXING IT TO (573) 882-5431. FOR MORE INFORMATION, VISIT WWW.IRE.ORG/ MEMBERSHIP.HTML. IRE MEMBERSHIPS ARE $40 FOR PROFESSIONAL JOURNALISTS AND JOURNALISM EDUCATORS, $25 FOR STUDENTS AND $55 FOR INTERNATIONAL JOURNALISTS. FOR A DETAILED ACCOUNT OF WHAT IRE HAS TO OFFER, CONTACT THE IRE MAIN OFFICE AT (573) 882-2042.**
+
+**LINKS TO RECENT ONLINE CAR PROJECTS ARE NOW AVAILABLE AT WWW.IRE.ORG/ RESOURCES/CONFERENCES/ TRAINING/ CARPROJECTS.HTML THE LIST OF LINKS IS GROWING. CONTACT JACK DOLAN AT JACK@NICAR.ORG IF YOU WOULD LIKE TO SEE A STORY LINK ADDED TO THE SITE.**
+
+---
+
+**INDIANA CAR**
+
+# Conference recap
+
+Indiana CAR showed not only how far the skills of journalists have improved during the last year, but what new skills they are seeking. This year more journalists than ever signed up for classes in mapping (ArcView) and statistics (SPSS). As you will see below, the demand for tools to share data in the newsroom was at an all-time high.
+
+And if you missed Indiana CAR, watch for upcoming seminars that will offer more concentrated training in these topics.
+
+### Learning to share
+
+**By Justin Mayo**
+**NICAR**
+
+Judging from the activity at Indiana CAR, the next challenge facing computer-assisted reporters will be navigating the quagmire of Intranets. Sounding more like a spelling bee than a journalism conference, terms such as TCP/IP, ODBC and ASP were heard throughout the halls of the Hyatt. And although it's easy to get lost in the technical aspects of setting up an Intranet, there is a simple, journalistic motivation driving CAR specialists and database editors to immerse themselves in acronym hell – sharing data with the rest of the newsroom.
+
+"A reporter has easier access to a government computer thousands of miles away than a colleague's computer three feet away," said Tom Torok of *The Philadelphia Inquirer*. "In such an environment, each computer and journalist is an island. However, the information could be made available to all, quickly and securely, through client/server arrangements."
+
+At the conference, Torok, George Landau of NewsEngin Inc., Tom Boyer of *The Seattle Times*, and Bill Miller of the *Battle Creek Enquirer* led roundtable discussions on the choices available in setting up an Intranet.
+
+"Journalism is about answering questions quickly and authoritatively, and a well-stocked client/server system helps reporters do just that," Landau said. He pointed out that these systems provide the best way to keep large amounts of clean, reliable data – such as voter registration, property, and corrections records – readily available for deadline queries.
+
+Indiana CAR marked the first time a NICAR conference has offered such extensive coverage of Intranet technology. The response was enthusiastic.
+
+"I was shocked at the number of people we had in our session," said Boyer. "This field is changing so rapidly."
+
+As the demand for client/server systems in newsrooms grows, so too will the necessity for CAR specialists to learn the technology.
+
+"The classes and panels gave folks a taste, but I think they wanted more," Torok said. "In the future, I'd like to see an all-day workshop where people can bring in samples of their databases and walk out with a finished application."
+
+But will the trend toward Intranets push CAR specialists into the role of full-time propeller heads? Most people argue that
+
+---
+
+**"A reporter has easier access to a government computer thousands of miles away than a colleague's computer three feet away."
+– Tom Torok,** ***The Philadelphia Inquirer***
+
+---
+
+although the impetus for setting up an Intranet will have to come from the newsroom, the long-term goal should be to get the information-systems experts involved.
+
+"I think the ideal situation might be that you have technology-savvy journalists who can oversee these projects, but full-time database wonks, whose skills are way beyond journalists', to set up and maintain the systems," Boyer said.
+
+Landau emphasized that cooperation between the two departments is possible "as long as (information-systems) people are working for, not against, the newsroom." Client/server realms such as data cleanup and verification, he said, should remain newsroom chores because they involve journalistic judgment.
+
+**Continued on page seven**
+
+---
+
+## Page 7
+
+**INDIANA CAR**
+
+*Continued from page six:*
+
+In the long term, assuming the technical hurdles of setting up an Intranet don't consume all your energy, you should have more time for the real work of journalism. If all reporters can quickly and easily access the information they need, then CAR specialists may spend more time on hard-core analyses.
+
+"Even if the resident CAR guru has to do most of the work, setting up the server can still save time in the long run because it allows reporters to do more digging on their own," Landau said.
+
+Once a client/server system is in place, Boyer and Torok stress that all kinds of information can be shared. *The Seattle Times*, for instance, is experimenting with free-text queries over its Intranet. Not only can structured databases be shared throughout the newsroom, but Boolean searches of huge text blocks can be run.
+
+"Don't just think of 'data' as in databases," Torok said. "Just about any form of information - spreadsheets, text, graphics, even Power Point presentations - can be manipulated and made searchable to suit your staff's needs."
+
+### FoxPro to Access and back again
+
+**By Seth Hemmelgarn**
+**NICAR**
+
+Looking at the class schedule at Indiana CAR, one trend stood out:
+
+Most classes were taught using Access, not FoxPro. This reflected the shift in newsrooms across the country; use of Access has become more widespread.
+
+"Ever since Access 2.0 came out and proved to be fairly stable, there's been a steady drift toward deploying it for general newsroom use," said NewsEngin's George Landau.
+
+As part of the Microsoft Office Package, Access is readily available, and newsrooms just starting CAR programs – even those already having them – are using Access more frequently.
+
+If you don't know anything about Structured Query Language, Access' query grid can be a simpler way to build queries. You can point and click your way through them. But if you do know SQL, the grid can make analysis harder.
+
+"I'm still resisting," said *The Cleveland Plain-Dealer's* Beth Marchak, who prefers FoxPro's more direct approach to analysis. "I think in SQL. Learning Access is like being forced to walk around the barn to gain entry when I'm already standing at the front entrance."
+
+---
+
+**"Learning basics in Fox makes it easier for anyone to apply basic concepts and database skills no matter what program is used."
+– Dave Fallis,** ***Tulsa World***
+
+---
+
+Marchak also shies away from Access because she doesn't want it choking on her data, as previous versions of the software have been notorious for doing. "What good is a database manager that can't handle more than 250,000 records?" Marchak said. "All my databases are much bigger than that."
+
+Though maybe not the most fashionable software, FoxPro is still worth learning. "Learning basics in Fox makes it easier for anyone to apply basic concepts and database skills no matter what program is used," said the *Tulsa World's* Dave Fallis.
+
+FoxPro's library of string functions, downloadable utilities, and easily understood programming/scripting language should keep the program from getting too antiquated, Tom Boyer of *The Seattle Times* said.
+
+Landau uses Access to keep track of queries and build front-ends, but he still prefers FoxPro for processing and cleaning. "Even Access97 continues to lack many of the important data-cleaning functions that are built into FoxPro," he said. "It does seem, however, that Access97 is considerably faster than its predecessors at running large queries."
+
+Access does have its advantages. It has more export options. You can save an Access file as a FoxPro file, but not vice versa. Fallis also finds the import wizard handy for quick
+
+**Continued on page eight**
+
+---
+
+**TO STEER YOUR CAR PROJECTS IN THE RIGHT DIRECTION, ORDER "COMPUTER-ASSISTED REPORTING: A PRACTICAL GUIDE" BY BRANT HOUSTON. IT CAN BE ORDERED FROM NICAR AND INVESTIGATIVE REPORTERS AND EDITORS FOR $26 FOR IRE MEMBERS OR $30 FOR NON-MEMBERS PLUS SHIPPING. CALL (573) 882-2042.**
+
+**HANDOUTS AND TIP SHEETS FROM INDIANA CAR ARE AVAILABLE FROM THE IRE RESOURCE CENTER. THE CENTER CAN BE REACHED AT (573) 882-3364 OR BY E-MAIL AT RESCNTR@IRE.ORG**
+
+**AUDIO TAPES OF THE SESSIONS CAN BE ORDERED FROM SOUND IMAGES. ORDERING INFORMATION IS LOCATED AT WWW.IRE.ORG/RESOURCE/ NICAR/CONFERENCES/ INDIANA/AUDIO.HTML**
+
+---
+
+## Page 8
+
+**BE SURE TO VISIT THE CAMPAIGN FINANCE INFORMATION CENTER'S WEB SITE (WWW.CAMPAIGNFINANCE.ORG), WHICH HAS TIP SHEETS, LINKS TO WEB SITES OF STATE DATABASES, AND THE INAUGURAL ISSUE OF THE NEWSLETTER TRACKER. ALSO SEE BITS, BYTES AND BARKS ON THE BACK COVER FOR A CFIC UPDATE.**
+
+**FOR A GROWING LIBRARY OF CAMPAIGN FINANCE STORIES AVAILABLE ONLINE, POINT YOUR BROWSER TO: CAMPAIGNFINANCE.ORG/ STORIES/INDEX.HTML**
+
+**THE VIRGINIA PUBLIC ACCESS PROJECT CAN BE ACCESSED ONLINE AT WWW. CRP.ORG.VPAP THE STAR/NEWS STORY CAN BE ACCESSED AT WWW.STARNEWS.COM/ NEWS/STATEHOUSE/ 0210SN_STATEHOUSE1.HTML THE PALM BEACH POST STORY CAN BE ACCESSED AT WWW.GOPBI.COM/ SPECIALEDITION/ LOBBYISTS/#STORIES**
+
+---
+
+**INDIANA CAR**
+
+*Continued from page seven:*
+
+and dirty imports into blank database structures. Working with relational databases is where Access has the most obvious advantage over other software. "FoxPro is not and never will be a purebred relational database," Landau said. "Access, in contrast, has relational integrity and validation rules

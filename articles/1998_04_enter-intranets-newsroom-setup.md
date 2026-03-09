@@ -1,0 +1,72 @@
+# Enter Intranets
+
+**By George Landau**
+*NewsEngin Inc.*
+
+Who among us wouldn't want a newsroom where reporters can search public records in a flash, without a lot of training and without having to leave the comfort of their ergonomic chairs?
+
+All it takes to fulfill the promise of an Intranet are a newsroom full of modern PCs or Macs, a network with Transport Control Protocol/Internet Protocol (TCP/IP), a Web server and a big chunk of your time.
+
+There's no way around it: setting up an Intranet for CAR is a lot of work. But if you make the right choices at the outset, your work can pay large dividends. As someone who has been wrestling with this stuff for a few years, I can offer some advice on getting started.
+
+## The Network
+
+Since an Intranet uses the same technology as the Internet, your network needs to use the Internet's TCP/IP networking protocol. When your Intranet users fire up their Web browsers, they'll use TCP/IP to connect to your internal Web server. Chances are pretty good that your network already has TCP/IP, but you should make sure before diving in.
+
+## The Web Browsers
+
+If possible, make sure that all of the potential users of your Intranet are using the same kind of Web browser and that it's Version 3 or later. Netscape 3 and 4 and Internet Explorer 3 and 4 are all fine choices. Both companies' browsers are free these days, but my favorite on both Windows and the Mac OS is IE 4.
+
+It's not essential that everyone use the same browser software, but it'll make your job easier if they do. That's because when you design a Web page, you'll discover that it can look different depending on the browser with which you view it. While it's best to design pages that look great in both Navigator and IE, this can mean more work for you.
+
+## The Web Server
+
+Assuming you already have a TCP/IP network and that everyone on it already has a decent Web browser, the real work will be in setting up your Web server and putting some useful data on it.
+
+If you're not just dabbling and want a robust Web server, I strongly recommend you use Windows NT Server for the operating system and Microsoft's Web server software, Internet Information Server. Microsoft released IIS 4.0 a few months ago, and it's an excellent product. It's fast, powerful, widely supported and free. You can download it as part of the Windows NT Option Pack from *http://www.microsoft.com/ntserver.*
+
+If you can't afford NT Server (about $500), the next best thing is NT Workstation (about $200). NT Workstation has the same underlying code as NT Server, so it's just as fast and just as dependable. You can download a version of IIS for NT Workstation called Personal Web Server, also part of the NT Server Option Pack.
+
+If your newsroom can't afford NT Workstation and you can't afford to get a job in another newsroom, you can install Personal Web Server for Windows 95. This will work fine in the beginning, but Windows 95 is simply more prone to crashes and does not run as fast as NT. If you want to get your colleagues hooked on your Intranet, it's important that you build a system that runs well with a minimum of downtime.
+
+Regardless of which Microsoft operating system you use, make sure the server has plenty of RAM, especially if you intend to design Web applications that search databases. I'd start with at least 32 megs of RAM. If you plan to use databases, go for 64 megs or more. RAM is cheap these days.
+
+In terms of the speed of your CPU, I'd recommend at least a Pentium 133 for your Web server. Faster is definitely better. Fast hard drives are also a good way to boost the performance of your server.
+
+In terms of the hard disk space you'll need, this depends on how much data you plan to share. Set aside about 500 megs for the operating system and applications (planning ahead for the inevitable code bloat in Microsoft's future offerings).
+
+> You should plan to put all of your Web-searchable data on the Web server's local hard drives. Do not keep the data on a network drive, as this will lead to pokey searches that bog down the entire network.
+
+Unless you'll be using a client/server database like Microsoft SQL Server or Oracle, you should plan to put all of your Web-searchable data on the Web server's local hard drives. Do not keep the data on a network drive, as this will lead to pokey searches that bog down the entire network.
+
+## Building the Web Pages
+
+When it comes to building Web applications that search a database, there are basically two popular ways to go. Which one you choose depends on your budget, ambitions and prior experience. Either approach will require that you learn the basics of HTML forms and tables.
+
+**Approach #1: Allaire's Cold Fusion** *(http://www.allaire.com)*
+
+Cold Fusion (about $500) extends HTML with special tags that support straightforward SQL queries. It includes a well-designed wizard that does most of the work in building basic search forms and result tables. You can tweak the wizard's offering using any text or HTML editor.
+
+Cold Fusion works in partnership with Microsoft's IIS (and other Web servers) by acting as a broker for database requests. When a user submits a query, the Web server passes the request to Cold Fusion, which runs the query using your database software and passes the HTML-formatted results back to the Web server, which in turn sends it back to the user. The whole process is pretty fast.
+
+**Approach #2: Microsoft Active Server Pages**
+
+ASP, which is built into IIS and thus costs nothing, is essentially a version of Visual Basic (VB) that runs on the Web server. To use it, you write Web pages that contain a combination of Visual Basic programming and HTML. Your users and their browsers never see the VB part – they get just the HTML. Just as with regular VB, you can write ASP pages that query databases and manipulate the results.
+
+If you intend to build a moderately complex Web application with conditional logic and loops, ASP might be a better choice than Cold Fusion. If you already are comfortable with VB or another flavor of BASIC, you'll be able to scan the ASP documentation and get up to speed pretty quickly.
+
+ASP works in a similar fashion to Cold Fusion, but since ASP is more tightly integrated with the IIS Web server, it runs a little faster. For normal newsroom use, though, this speed difference isn't noticeable. The speed of a Web database application depends largely on your choice of hardware and database software, not on your choice of ASP or Cold Fusion.
+
+If you go the ASP route, it's probably worth spending about $200 for Microsoft Visual InterDev, which includes wizards that build some basic database applications for ASP. InterDev does a nice job of managing the various components of a Web application, and it includes a version of the FrontPage HTML editor, so it's worth the money. A new version of InterDev is due soon and is supposed to provide much-needed improvements in the visual design tools (in the current version, "visual" pretty much means you're allowed to see your Visual Basic and HTML code as you write it).
+
+## Managing the Data
+
+Active Server Pages and Cold Fusion both use ODBC (Open Database Connectivity) to access your data. If your database software provides an ODBC driver, these tools should work for you. Access, FoxPro, SQL Server and Oracle all have ODBC drivers that work well for basic Web queries. It's a good idea to make sure you have the latest ODBC driver for your software by downloading it from the database vendor's Web site and installing it on your Web server.
+
+As for which database software is best suited for newsroom Intranets, that's a question for another Tech Tip.
+
+But if you want folks to be able to use more than a Web browser (Access or Excel, for example) to work with large databases on the server, you should consider setting up a client/server system like SQL Server.
+
+If you'd rather focus on Web users and don't want to mess with client/server, FoxPro is probably faster than Access and has fewer limitations on database size. Tom Boyer of *The Seattle Times* has succeeded with an Intranet based on FoxPro, Cold Fusion and Windows NT.
+
+*George Landau can be reached by e-mail at george@newsengin.com*

@@ -1,0 +1,503 @@
+# Uplink — January/February 2000
+
+---
+
+## Page 1
+
+**January/February 2000**
+
+# Uplink
+
+---
+
+**ON THE BEAT**
+
+# Religion with CAR
+
+**By David Crumm**
+*Detroit Free Press*
+
+Searching for God at the turn of the millennium requires more than prayer and meditation. It takes a computer.
+
+The subject is vast and is growing more diverse by the decade. In the United States, 9 out of 10 Americans tell pollsters that they pray and are part of some religious group. While the vast majority of Americans claim to be Christian, most Christians feel increasingly free to switch back and forth among dozens of different denominations – or, if they're feeling restless, to break away entirely and form their own independent sects.
+
+The influences of the world's other major faiths are surfacing more frequently in contemporary music, television, the Internet, movies and magazines.
+
+Outside the United States, religion also remains a major force for good or ill. It can be a powerful catalyst in ethnic strife, a fuel for political aspirations and, in many cases, a helpful inspiration toward resolving conflicts and building communities.
+
+To keep up with this amazingly complex landscape, I use my computer in four basic ways.
+
+**Internet**
+
+As a journalist, I don't idly surf the Internet, because there are thousands of religious Web sites and most of them are not factually reliable.
+
+Over the past five years, I've developed my own list of reliable religious Web sites, most of them sponsored by well-established groups. The list changes constantly as Web sites appear, evolve and disappear. A good place to start sorting out your own list of useful sites is the Yahoo index to religion, which you'll find linked off Yahoo's main page (as a sub-category of "Society & Culture").
+
+A few of the sites I use most frequently are the Vatican's information-rich Web site at *www.vatican.va*, a large evangelical site at *www.gospelcom.net* that links to nearly 150 religious groups and a helpful site at *www.wfn.org* where many Protestant denominations post news releases. A superb place to background yourself on religious history and traditions is the recently upgraded *www.britannica.com*, sponsored by the encyclopedia.
+
+By carefully sifting sites, the Internet has played a major role in my reporting on ev-
+**Continued on page twenty-two**
+
+---
+
+**CENSUS 2000**
+
+# Race tabulations
+
+**By Steve Doig**
+*Arizona State University*
+
+No problem in American society has been more chronic and vexing than that of race relations. Add to that the strains of demographic change caused by the immigration to the United States of millions leaving their countries of birth to seek a better life here. The resulting frictions and adjustments are the source of many important stories for journalists, and Census data is one of the best ways of measuring those changes.
+
+However, the actual tallying of persons by race and ethnic origin has changed greatly over time, and the differences in definitions and methodology from one Census to the next can make it difficult to do accurate comparisons. One of those big changes in methodology is occurring with the 2000 Census, and it will require careful attention from those of us who
+**Continued on page seventeen**
+
+---
+
+## Inside Uplink
+
+**CENSUS 2000**
+
+This issue includes two stories to get you prepared for Census 2000 data, including one on this page by Steve Doig of Arizona State University about changes in race classifications, and another by Doig and Griff Palmer, of *The Daily Oklahoman*, on a formula they developed for reapportionment.
+
+*See page two*
+
+**MILITARY**
+
+Russell Carollo of *The Dayton Daily News* tells how he tackled previously unexamined military aviation databases for his series "Falling from the sky."
+*See page four*
+
+**HEALTH CARE**
+
+Richard Dalton, Jr., and other reporters at *Newsday* used a variety of data to show how HMOs failed to tell customers about doctors who had been disciplined.
+*See page seven*
+
+**CAR IN SCHOOLS**
+
+David Kesmodel of IRE and NICAR examines whether journalism students around the country are getting hands-on training in computer-assisted reporting.
+*See page thirteen*
+
+---
+
+## Page 2
+
+**CENSUS 2000**
+
+# Reapportionment
+
+**By Griffin Palmer**
+*The Daily Oklahoman*
+**and Steve Doig**
+*Arizona State University*
+
+The 2000 Census isn't just a good idea – it's the law of the land. The U.S. Constitution mandates a national headcount every ten years for one purpose, and the specified reason isn't to help fast-food franchisers decide where to build their next burger joint. Rather, the census is required for fairly apportioning the 435 seats in the House of Representatives among the 50 states. All other census applications, whether drawing political district lines, allocating federal funds or siting taco stands, are just constitutional gravy.
+
+The decennial reapportionment of Congressional seats means great stories, and they're the very first ones that will come out of actual 2000 Census data. By law, the Secretary of Commerce (who oversees the Bureau of the Census) will tell the President in late December of 2000 the official population of each state, and the President will then notify Congress. At that point, the bloodletting will officially begin.
+
+**However, it's no trivial task to translate the states' populations into the number of seats each will get, as the two of us have learned.**
+
+Because the number of Congressional seats is capped at 435, some fast-growing states will gain new seats at the expense of those with slower growth. Reapportionment means political musical chairs in the losing states, and a big scramble for the newly-open seats in gaining states.
+
+However, it's no trivial task to translate the states' populations into the number of seats each will get, as the two of us have learned. A simple proportional allocation (in which, for instance, a state with five percent of the nation's population gets five percent of the 435 seats) doesn't work for two reasons. For one, there are no fractional seats in Congress (although some of the occupants certainly are fractious), and so a proper rounding scheme would have to be devised. And more important, the Constitution guarantees that even the smallest state will get at least one House seat even if its share of the nation's population is "worth" less than half a seat.
+
+**Equal proportions**
+
+Numerous apportionment schemes have been devised, and five different ones actually have been used at various times in the nation's history. (See *www.census.gov/population/censusdatalapportm.pdf* for a brief history of those methods, and *www.census.gov/srd/papers/pdf/rr92-6.pdf* for a more exhaustive discussion of the history and mathematics of apportionment methods.) We'll only concern ourselves here with the so-called "method of equal proportions" which has been used since 1940 and was upheld unanimously in 1992 by the U.S. Supreme Court.
+
+**Simulation**
+
+We won't try to explain the mathematical reasoning that underlies the method of equal proportions, because then we'd have to pretend that we actually understand it ourselves. But we have devised an Excel spreadsheet that accurately simulates the method and thus will let you figure out where your state stands in the reapportionment shuffle. To satisfy yourself that it works, first we'll build the spreadsheet using the official 1990 populations. Here's how:
+
+•Open a new spreadsheet.
+•Put these labels in the first row on the specified columns: A: "State", B: "Population", C: "Seat #", D: "Multiplier", E: "Priority value".
+•Fill range A2:A51 with the names of the states.
+•Fill range B2:B51 with the 1990 apportionment populations of the states (which you can find at *www.census.gov/population/censusdata/table-a.pdf*)
+•Fill range C2:C51 with the number 2.
+**Continued on page three**
+
+---
+
+**Uplink**
+
+*January/February 2000*
+
+*Volume 12, Number 1*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+
+**DIRECTOR OF PUBLICATIONS**
+Len Bruzzese
+
+**MANAGING EDITOR**
+Mary Jo Sylwester
+
+**ASSOCIATE EDITOR**
+Jessica Larson
+Cindy Eberting
+
+**ART DIRECTOR**
+Kerrie Kirtland
+
+**SUBSCRIPTION ADMINISTRATOR**
+John Green
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex, Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+
+---
+
+## Page 3
+
+**Census 2000**
+*Continued from page two:*
+
+(We start this with seat 2 because every state is guaranteed at least one seat.)
+•Put this formula in Cell D2: =1/SQRT(C2*(C2-1)). The formal name for this multiplier is the "reciprocal of the geometric mean," in case you get asked on "Who Wants to be a Millionaire?"
+•Put this formula in Cell E2: =D2*B2
+•Put this formula in Cell A52: =A2
+•Put this formula in Cell B52: =B2
+•Put this formula in Cell C52: =C2+1
+•Copy range A52:C52 all the way down to Row 2951. You'll know you did it right if "Wyoming", "455975" and "60" are on that row.
+•Now select range D2:E2 and copy it all the way down to Row 2951, too. It worked if you see "0.0168073" and "7663.716" down there.
+
+(Okay, okay, here's what's happening. The method of equal proportions requires that you calculate a "priority value" for at least as many seats as each state could possibly get. As it turns out, the easiest thing to do is calculate such values for seats 2-60 for every state, on the grounds that not even California will get as many as 60 seats. And 50 states times 59 priority values means 2,950 rows.)
+
+**The decennial reapportionment of Congressional seats means great stories, and they're the very first ones that will come out of actual 2000 Census data.**
+
+Now open a new sheet and follow these steps:
+•Go back to your first table and copy the entire thing, all 2,951 rows and five columns.
+•Use "Paste Special...Values" to paste it onto the new sheet.
+•Sort that second sheet by descending order of Priority Value
+•Insert a blank row at Row 387. This cuts off the table at 385 seats.
+•Insert 50 blank rows into Range A2:A51.
+•Copy the names of the 50 states into Range A2:A51.
+•Put a one (1) in Cell D2, and copy it down to Cell D51
+
+Whew. You now have a table with 435 records, one for each seat in Congress. To find out how many seats each state gets, simply do a pivot table by dropping the State variable into both the Row and the Data boxes.
+
+**The results**
+
+The main table also is worth a detailed look because it shows the order in which the seats were parceled out. Notice, for instance, that California got 42 of its 52 seats before Idaho and Rhode Island got their second seats. Notice also the first few states in the remainder below your main table. Those are the ones that just missed getting another seat (at someone else's expense, of course) and where much of the wailing was heard after the 1990 Census.
+
+Now that you've done one for 1990, repeat the process using projected populations for 2000, which you can find at *www.census.gov/population/projections/state/stpjpop.txt*. You'll see plenty of winners and losers in the data. And if your state is near the bottom of the main table, or near the top of the leftovers, you'll know how important a good census count will be to your readers – and your politicians.
+
+(A final note for FoxPro mavens: Griffin first developed this apportionment simulation using FoxPro. If you want a copy of his method, contact him by e-mail.)
+
+Steve Doig can be reached by e-mail at steve.doig@asu.edu
+
+Griffin Palmer can be reached by e-mail at gpalmer@oklahoman.com
+
+---
+
+**The U.S. Census Bureau's 2000 Census page:**
+www.census.gov/dmd/www/2khome.htm
+
+There you can get information about data releases and download 1990 population figures.
+
+**Recent tipsheets on the census, available from the IRE Resource Center, include:**
+
+• "Using Census 2000 to Investigate Changes," (#1096) by Richard O'Reilly of the Los Angeles Times, for the 1999 IRE Los Angeles Regional Conference. This tipsheet gives reporters an idea of how they can start planning for the 2000 Census.
+
+• "Preparing for the 2000 Census," (#1097) by Steve Doig, Arizona State University, for the 1999 IRE Los Angeles Regional Conference. Doig lists a series of tips on how to begin investigating census data "during the relative calm before the data storm hits."
+
+---
+
+## Page 4
+
+**MILITARY AVIATION**
+
+# Uncovering secrets
+
+**By Russell Carollo**
+*Dayton Daily News*
+
+The *Dayton Daily News* began its 18-month examination of military aviation safety with a fishing expedition. I was fishing for computer databases that hadn't been worked over by 100 reporters when I learned that no one had ever asked for any of the databases on military aviation accidents.
+
+So I filed Freedom of Information Act requests with the safety centers for the Air Force, Army and Navy, which includes the Marine Corps. (I gave up on the Coast Guard after numerous telephone calls and requests went unanswered.) Each service has its own database, and, though there are some similarities, the databases differ significantly from one another, even though some aircraft are flown by more than one service.
+
+**Pilots who survived accidents and the relatives of pilots who were killed frequently had no idea of the findings we had discovered on the databases.**
+
+Major civilian aviation accidents are investigated by an independent body, the National Transportation Safety Board, and the results of NTSB investigations are made public. But major military aviation accidents usually result in two separate internal investigations: One done by one or more people who produce a public report, and the other, a more through investigation, done directly through one of the military safety centers.
+
+Interviews, findings, recommendations and conclusions of the second investigation - the one done through a safety center - are secret, and the courts have upheld this secrecy for years under the so-called Machin Privilege. Factual information, however, is not protected under the Machin Privilege.
+
+So from the beginning, getting information from the safety centers was not easy. I negotiated for months over what was factual and what was protected under the Machin Privilege.
+
+In the end, I got much more than expected. Though the databases differed greatly from one another, each service provided similar types of information: Dates and times of accidents, locations, types of aircraft, cost of accidents, types of injuries, names of crewmembers and even the names of parts believed to have failed. With the identity or parts suspected of failing, I had indications of what the secret safety investigation believed caused accidents - information usually kept from the public under the Machin Privilege.
+
+**Under the surface**
+
+But reading the databases wasn't easy.
+
+Anything military usually is filled with acronyms and coded language, and military aviation is padded with additional layers of technical jargon. Because of this, stories on military aviation require additional fact-checking, which should include a review by a military aviation expert.
+
+Dave Gulliver, who assisted with some of the data analysis, and I discovered that what appeared to be true on the surface often wasn't necessarily the case. For example, one part that appeared to have been linked to dozens of Army helicopter accidents turned out to be landing skids, something that frequently breaks during crash landings but is rarely the cause.
+
+Using the parts tables, we were able to link a single part or a single type of problem to dozens of accidents, concentrating on parts that eventually caused major accidents. In one case, we found that hydraulic problems in the Sea Knight helicopters had caused more than 71 emergencies and accidents from 1988 through July 1998. Nearly all of the cases involved the utility hydraulic pump, and in at least three cases, helicopters were destroyed and crews barely escaped with their lives.
+
+The Navy database even had a "reoccurring problem narrative," tracking problems
+**Continued on page six**
+
+---
+
+Russell Carollo's story "Falling from the sky" is available online at:
+www.activedayton.com/news/1999/10/24/falling.html.
+
+The series is also available from the IRE Resource Center (story #15844). Contact the Resource Center at (573) 882-3364 to order.
+
+• Some tipsheets on covering the military, available from the Resource Center, include: "Checking out someone's military record," (#1107) by Don Ray, a freelance reporter, for the 1999 Los Angeles IRE Regional Conference. Lists sources and contact information for the National Archives and the National Personnel Records Center.
+• "Fast Track: Military records," (#1106) by Vince Gonzales of CBS News, for the 1999 Los Angeles IRE Regional Conference. Provides pointers to locate sources from the Vietnam War era and modern military.
+
+---
+
+## Page 5
+
+**ECONOMIC DATA**
+
+# Cost of living
+
+**By Jennifer LaFleur**
+**And Michelle Quinn**
+*San Jose Mercury News*
+
+When most people think of Silicon Valley, they think of two things: technology and money. If a few national reports are to be believed, nearly everyone in Metro San Jose is a millionaire. Earlier this year, a team of *Mercury News* reporters set out to find out just how much money is being made in Silicon Valley, how it was distributed and how it has affected people's lives.
+
+What our analysis of several private and public databases found was that the valley is out of whack economically compared with the rest of the nation, riding a boom filled with paradoxes.
+
+According to one of the most aggressive estimates, 65,000 Santa Clara County households – roughly 1 in 9 – are worth more than $1 million, not including the value of their homes.
+
+And yet, only 29 percent of Santa Clara County's households can afford the median-priced home, far below the national rate of 55 percent. And two out of five county households would need to stretch beyond advisable limits to rent the average two-bedroom apartment.
+
+**The bottom line of using any of these types of data sources is to compare the results to other information.**
+
+Perhaps most startling: although many people here earn exceptionally high pay compared with the rest of the country, most aren't particularly wealthy. Look at the net wealth of Santa Clara County households – their assets minus their debts – and the distribution closely mirrors the nation's as a whole.
+
+**Data sources**
+
+This series used several sources of data. Our biggest concern was that the market data models truly reflected Silicon Valley. Because many market surveys cap home values and incomes low values for our area, we compared data from several sources.
+
+We ended up using wealth measures from Claritas, an Arlington, Va.-based marketing information firm, which estimates income and wealth distributions for the United States, including all ZIP codes and small areas. Estimates are based on a combination of factors: extrapolation of census data, Claritas' Market Audit Survey and other area-specific sources of demographic data. The Market Audit Survey annually collects information on household assets, liabilities, demographics and financial behavior for approximately 120,000 U.S. households. We used Claritas figures for some of the income data.
+
+A note of caution: If you plan to use any market data, make sure you fully understand the methodology used in their model and that you can verify it with other data sources. Also, these data are good for large metropolitan areas, but not as good for smaller areas.
+
+Additional sources of data we used to look at income included: Census Current Population Survey data (downloadable off *www.census.gov* using the Ferret extraction tool), for which we had to combine years to get a valid sample; and California state franchise tax board tax filing data. Using these data, we were able to show that the mean income was increasing faster than the median income, showing that the higher end was pulling up the average.
+
+**Housing data**
+
+Although many things may seem expensive in Silicon Valley, the one driving factor behind most people's struggles is housing. We used California Association of Realtors data and data from the Real Estate Research Board of Northern California to look at trends in housing costs. Depending on how assessments are done in a particular area, property tax data might be useful for this as well. Because Proposition 13 froze California assessment data at sales prices, it's not a useful tool for looking at housing costs.
+
+Rent data was harder to find. A few private companies do rent analysis, but they vary depending on how the data are gathered.
+**Continued on page six**
+
+---
+
+The *San Jose Mercury News'* story, "The Cost of Living in Silicon Valley," is available online at
+www.sjmercury.com/svtech/news/special/wealth/
+
+**Copies are also available in the IRE Resource Center (story #15718). Contact the Resource Center at (573) 882-3364 to order.**
+
+---
+
+## Page 6
+
+*Continued from page four:* **Secrets**
+
+such as those in the Sea Knight that occurred more than once. One field actually totaled the numbers of times a problem had occurred, and the reoccurring problem narrative added comments, sometimes from commanders concerned that the problem had not been fixed.
+
+The Air Force database had an engine table, complete with serial numbers of engines involved in accidents. With this table, were able to track engines that had been in more than once accident. We found one engine that had been on three F-16s in less then four months. Twice the engine was removed after pilots complained of smoke and fumes in the cockpit, and finally the engine was put on a third jet, which crashed into a South Carolina neighborhood, killing one man and injuring seven others.
+
+**Beyond numbers**
+
+Using the information we gathered from the database, we then sought the lengthy reports on the accidents, filing more than 150 Freedom of Information Act requests with the various services. We also spent months tracking down crewmembers, relatives of victims, attorneys and other with information about the accidents.
+
+One of the most interesting aspects of the reporting came when we shared what we had learned from the computer records and accident reports with pilots, accident investigators and other people who had investigated the accidents. Their explanations greatly enhanced our ability to search the databases for the more significant problems and disregard other problems that - although they appeared significant - actually were minor.
+
+Pilots who survived accidents and the relatives of pilots who were killed frequently had no idea of the findings we had discovered on the databases.
+
+Several people explored legal action as the results of telephone calls from the *Dayton Daily News* concerning our findings, and at least one attorney changed his lawsuit, adding to it a company our records showed produced parts the Army had questioned.
+
+Russell Carollo can be reached by e-mail at rcarollo@coxohio.com
+
+---
+
+*Continued from page five:* **Cost of living**
+
+HUD Fair Market Rent measures are a good start, although they estimate rents lower than the median for an area. Another source for rent data is RealFacts.
+
+The RealFacts data inventory has been assembled over a period of years, and provides complete and current information on more than 4,000 apartment complexes in 10 Metropolitan Statistical Areas (MSAs), including California, Oregon, Washington, Nevada, Utah and New Mexico. These tend to be slightly higher because they are for apartment complexes.
+
+**Income data**
+
+To get a handle on how much money insiders in Silicon Valley made, we used a database of SEC corporate insider trading files from Thomson Financial Wealth Identification (formerly CDA). We used this to get an estimate of the number of people with large amounts of wealth.
+
+To figure out the value of stock options held by employees of select Silicon Valley companies, Institutional Shareholder Services did an analysis based on 10-K filings and several other company factors such as turnover.
+
+After analyzing many economic measures for Silicon Valley, we had a starting point. As with any data-based project, the data are the beginning. The bottom line of using any of these types of data sources is to compare the results to other information.
+
+The large amounts of data that we gathered were not all included in the stories, but we were able to make many of them available online so that individuals could look up wealth, income and other measures for their neighborhoods.
+
+Jennifer LaFleur, who now works for the St. Louis Post-Dispatch, can be reached by e-mail at jlafleur@postnet.com
+
+---
+
+Some military Web sites:
+www.militarycity.com: Catch up on the latest military news. If you subscribe to the sponsors (Defense News, Army Times and affiliates), you can search for military personnel in a 4-million record database and get details on military installations. Sponsored by the publisher of Space News, Federal Times, Defense News and Army Times.
+
+http://lcweb2.loc.gov/pow/powhome.html: The Library of Congress' database includes synopses of all of the 131,000 publicly-available documents concerning military personnel listed as missing in action and prisoners of war from the Vietnam War. The site also includes instructions on how to order the full documents.
+
+www.reporter.org/beat/military.html: Find other links to military sites on Shawn McIntosh's Beat Page for covering the military.
+
+---
+
+## Page 7
+
+**HEALTH CARE**
+
+# Disciplined doctors
+
+**Richard J. Dalton, Jr.**
+*Newsday*
+
+A landmark lawsuit, a monstrous database and rigorous searching using healthcare Web site search engines lie behind a recent Newsday series on disciplined doctors working in managed care.
+
+*Newsday's* series, reported over a 10-month period, revealed that doctors who have been punished for serious or even fatal wrongdoing often continue to work for managed-care companies despite the healthcare industry's promise to screen their doctors and offer the best care to patients.
+
+While many papers have examined HMOs' denial of treatment, this series broke ground by demonstrating that managed-care companies employ disciplined doctors, effectively breaking their promise of quality care.
+
+Staff writer Thomas Maier reported and wrote the series, with computer analysis by this reporter and Dave Ewalt and assistance by Bob Fresco.
+
+**The Health Department regularly releases information from the database to researchers and reporters but removes data identifying doctors to preserve their privacy.**
+
+Before starting on the series, *Newsday* and *The New York Times* put its lawyers to work, suing the New York State Department of Health to obtain a database of information about the performance of doctors in treating patients in New York hospitals.
+
+The Health Department regularly releases information from the database to researchers and reporters but removes data identifying doctors to preserve their privacy. That meant key information remained secret, including the license numbers of attending and operating physicians working on the patient, the admission date, payor identification number and the hospital name.
+
+The omission of such information made it impossible to determine the quality of care by individual doctors and hospitals.
+
+The newspapers argued that physicians had no such right to privacy but agreed that the data about individual patients should remain private. In June 1998, a state appeals court agreed with a lower-court ruling siding with the media, allowing access to the database of millions of hospital admissions.
+
+**Web sites**
+
+When the legal battles subsided, the scene of action turned to the World Wide Web for a Health Department Web site listing disciplined doctors, managed-care company sites listing doctors in the networks and the American Board of Medical Specialties' site revealing doctors with board certification.
+
+The healthcare companies and agencies probably never envisioned their Web sites being scrutinized in the manner Maier examined them. From the board-certification site, he found doctors who erroneously claimed board certification in managed-care listings.
+
+From the HMO sites, he didn't find a new doctor, he uncovered disciplined doctors – 132 of them disciplined in New York state in the 1990s.
+
+Using brief descriptions of the disciplinary actions from the Health Department Web site, we created a database of disciplined doctors, including their names, license numbers, addresses, discipline dates and whether the doctors were board certified. We also noted the doctors' offenses, such as patient mistreatment, sexual misconduct or billing errors, and the disciplinary actions, such as suspension, probation or license revocation.
+
+Next, we began to quantify how many procedures these doctors oversaw after they were disciplined, and how much money patients or insurers paid for care overseen by these disciplined doctors.
+
+**Data work**
+
+The hospital admission data contained millions of procedures performed from 1990
+**Continued on page eight**
+
+---
+
+The *Newsday* series, "Managed Care and Doctors: The Broken Promise," is available online at
+www.newsday.com/news/doctors/edocs14.htm
+
+The story, and other investigative stories, can also be accessed through the IRE and NICAR Web site list of online investigative projects at
+www.ire.org/datalibrary/online.html
+
+---
+
+## Page 8
+
+*Continued from page seven:* **Doctors**
+
+through 1998. Using SPSS, we extracted the procedures overseen by doctors disciplined anytime in the 1990s.
+
+That database contained 130,000 records, but only some procedures were performed after the attending or operating physicians were disciplined. We then matched the database with the list of disciplined doctors to uncover procedures performed after the discipline date.
+
+The discipline date field was straightforward. But, as is common with most government data, the database of hospital procedures from the Statewide Planning and Research Cooperative System, which contained the hospital admission date, was quite quirky.
+
+The admission date in the database was divided into three fields: a year, a month, and a day – not a day of the month, but a day of the week.
+
+We wanted to ensure that we only counted patient visits and hospital charges that occurred after the doctor was punished to demonstrate that taxpayer money was being spent on medical care overseen by disciplined doctors. But the unusual format of the admission date presented a problem when a patient visited a doctor in the same month the doctor was disciplined.
+
+So we decided to turn every admission date into the first of the month. If a patient was admitted in November 1998, we turned that into Nov. 1, 1998, using a module written in Microsoft Access and an update query.
+
+Suppose the patient had been treated in November 1998 and the attending physician was disciplined on Nov. 20 of that month. Using Nov. 1, the visit would have preceded the discipline date and wouldn't be counted. We gave the doctor the benefit of the doubt because it was impossible to be more specific about the admission date.
+
+Once we cleared up the date dilemma, we began to calculate the amount of money that the state had spent on managed-care doctors through Medicare and Medicaid.
+
+At first, the task seemed easy – a field indicated the charges. Then came the caveats. The field represented the total cost of the hospital visit, including the room, surgery and payments to the attending and operating physicians and others.
+
+Furthermore, Maier discovered the actual charges to Medicare and Medicaid turned out to be about 60 percent of the total cost.
+
+So we discounted the figures by 40 percent, and could only say that the disciplined doctors "oversaw" the hospital visit, explaining why the data prevented us from determining how much each doctor actually received.
+
+**License problem**
+
+Each procedure record also contained three licenses of doctors associated with the treatment, listing the licenses for the attending, operating and "other" physician.
+
+We chose to use only the attending and operating physicians. Still, multiple licenses for each record presented a quandary.
+
+It's impossible to link the two licenses – one from the attending physician and one from the operating physician – to the one license field in the doctor table.
+
+To explain why, here's an analogy. Suppose I have a lookup table named States that translates U.S. Postal state abbreviations (e.g., State.code contains "NY," "NJ," etc. into state names, and State.name contains "New York," "New Jersey," etc.).
+
+Suppose I have an address book that lists someone's work address and home address, and I want to link that to the lookup table of state names. Suppose further that a friend lives in New Jersey and works in New York.
+
+That state code for the work address, "NY," and home address, "NJ," cannot simultaneously point to the state code in the lookup table for state names. If it did, then what would the field State.name represent: New York or New Jersey?
+
+To resolve that dilemma, add the doctor table to the query twice by clicking twice on the "add" option in the query/show table window. That adds another table called State_2.
+
+To use it, link the home address to the state table and the work address to the State_2 table. Now State.name is "New York" and State_2.name is "New Jersey."
+
+By the way, Access doesn't really create another table. It merely creates another pointer to the same table.
+
+Richard J. Dalton Jr., can be reached by e-mail at rdalton@newsday.com
+
+---
+
+**Following is the Microsoft Access module. To use it, run an update query, replacing the admitdate field with the following: firstdate([admitmo], [admityr]), where admitmo and admityr are the fields representing the month and year of the admission.**
+
+Option Compare Database
+Option Explicit
+
+Public Function
+FirstDate(mCnt As Long, yCnt As Long)
+As Date
+Dim dCnt As Byte
+Dim y2Cnt As Integer
+Dim NewDate As Date
+y2Cnt = yCnt - 1900
+NewDate = #1/1/1900#
+NewDate =
+DateAdd("yyyy",
+(y2Cnt), NewDate)
+FirstDate =
+DateAdd("m", (mCnt -
+1), NewDate)
+End Function
+
+---
+
+## Page 9
+
+**HEALTH CARE**
+
+# Where to look for data
+
+**By MaryJo Sylwester**
+*IRE and NICAR*
+
+The *Newsday* series, "Managed Care and Doctors: The Broken Promise," tackled a topic that is becoming increasingly important for journalists to analyze as the health care industry continues to grow larger every year.
+
+Whether you're at a large or small news organization, looking at health care in your community is possible.
+
+There were three primary databases that *Newsday* used for its series:
+
+• Hospital procedures performed at local hospitals. Use this to calculate the number of hospital visits and charges related to disciplined doctors. (*Newsday* and *The New York Times* sued to gain access to this database.)
+
+• Doctors who have been disciplined. Each

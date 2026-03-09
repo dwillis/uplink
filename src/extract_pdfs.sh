@@ -24,14 +24,14 @@
 set -euo pipefail
 
 # Configuration
-DEFAULT_MODEL="${GEMINI_MODEL:-gemini/gemini-2.5-pro}"
+DEFAULT_MODEL="${GEMINI_MODEL:-claude-sonnet-4.6}"
 PDF_DIR="${PDF_DIR:-./pdfs}"
-OUT_DIR="${OUT_DIR:-./gemini_text}"
+OUT_DIR="${OUT_DIR:-./claude_text}"
 FORCE="${FORCE:-0}"
 PROMPT="Extract all readable textual content from this PDF. Preserve page order and paragraph breaks. Do not summarize or add commentary."
 
 # Rate limiting delay (seconds)
-DELAY=12
+DELAY=1
 
 # Check if PDF directory exists
 if [[ ! -d "$PDF_DIR" ]]; then

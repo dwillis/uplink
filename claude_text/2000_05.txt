@@ -1,0 +1,546 @@
+# Uplink — May 2000
+
+---
+
+## Page 1
+
+**May 2000**
+
+---
+
+**CAR ON DEADLINE**
+
+# The daily grind
+
+**Neil Reisner**
+*The Miami Herald*
+
+Driving CAR on deadline is not hard.
+It's kind of like the old saw about the tourist in New York who asks an old man on the street: "How do you get to Carnegie Hall?"
+
+The answer: "Practice, practice, practice."
+
+Except, in the case of computer-assisted reporting, it's more like: "Prepare, prepare, prepare."
+
+Now, this may seem like a contradiction in terms – How can we prepare for the unexpected? But it's really no different than any other deadline reporting we do.
+
+---
+
+**EDUCATION**
+
+## Who's teaching our kids?
+
+**By Chris Cantergiani**
+*WSB-TV Channel 2/Atlanta*
+
+We hear from viewers and consultants that crime and education are two big topics of interest. Usually those are two separate story ideas, but last fall we decided to work on an investigation that touched on both.
+
+Our premise was simple: Find out how many of the state's educators have criminal records.
+
+The strength of our state's Open Records Act meant we could do the background checks ourselves. All we needed to obtain was the employment records of all current public school employees and the state's prison and parole databases.
+
+We teamed up with *The Atlanta Journal-Constitution* in August to do the investigation and collaborated our efforts to break the story on air and in print Nov. 4-5.
+
+Our investigation found no one had ever checked the criminal backgrounds of
+**Continue on page thirteen**
+
+---
+
+We all carry around a mental list of sources to use on breaking stories, whom to call when there's a major crime, an unexpected political battle or a big education story that demands coverage for tomorrow's paper or tonight's broadcast.
+
+It's no different with CAR.
+
+In CAR's case, though, it's a matter of knowing what data are available, knowing how to analyze it, whom to call to verify or interpret it. It's a matter of what can be called "thinking in rows and columns" – thinking always about how data can supplement a story.
+
+Now, we're not talking about big projects here. We're talking about daily or two-day stories; sometimes we're not talking about stories at all but "computer-assisted paragraphs," those little bits of context that make a good story even better.
+
+Here are some examples from recent history at the Broward County edition of *The Miami Herald:*
+
+## Tobacco and kids
+
+A couple of months ago, we sent a FOIA to the FDA requesting the database they used to build their "Children & Tobacco Compliance Checker" on their Web site. It contained information on how states and various retailers were doing in the effort to enforce laws barring sale of tobacco products to young people.
+
+The response to our letter was typical: "We don't have any way of doing that, but we've asked our outside contractor for a program and they're working on it." A few weeks after that, they called: "We've got the data and we've put it up on the Web site. You can download it."
+
+Great.
+
+The FDA in its wisdom had decided to make the data "easy" to get by releasing it to the world instead of to the handful of reporters who'd asked for it. Now what had been a
+**Continued on page eight**
+
+---
+
+## Inside Uplink
+
+**CAR on deadline**
+
+Trebor Banstetter of *The Palm Beach Post* used databases from the Web to provide background to a fatal car-train wreck in Florida.
+
+**SEE PAGE TWO**
+
+The newsroom intranet at *The Bergen Record* in New Jersey fields about 80 queries per day from staffers. Robert Gebeloff offers some tips on starting an intranet in your newsroom.
+
+**SEE PAGE THREE**
+
+**Campaign Finance**
+
+Following the money in politics is more than who ends up with what. Darrel Rowland of *The Columbus Dispatch* uses a well-placed source to analyze fundraising invitations sent out by Ohio state politicians.
+
+**SEE PAGE TEN**
+
+**Mapping**
+
+Jennifer LaFleur of the *St. Louis Post-Dispatch* describes how to get started with geocoding, mapping data to spot geographic trends.
+
+**SEE PAGE ELEVEN**
+
+---
+
+## Page 2
+
+# Uplink
+
+*May 2000*
+
+*Volume 12, Number 4
+A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+
+**DIRECTOR OF PUBLICATIONS**
+Len Bruzzese
+
+**MANAGING EDITOR**
+Mary Jo Sylwester
+
+**ASSOCIATE EDITOR**
+Paul Monies
+
+**ART DIRECTOR**
+Kerrie Kirtland
+
+**SUBSCRIPTION ADMINISTRATOR**
+John Green
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting,
+138 Neff Hall Annex
+Columbia, MO 65211.
+(573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR.
+Send e-mail to jgreen@nicar.org
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+
+---
+
+**CAR ON DEADLINE**
+
+# Railroad safety
+
+**By Trebor Banstetter**
+*The Palm Beach Post*
+
+A horrific crash at a West Palm Beach railroad crossing shocked residents in March 1999: A car sitting at the crossing gates was pushed into the path of a speeding Amtrak liner after being rear-ended by another car, killing a 19-year-old.
+
+The crash was the latest in a series of car-train smashups in South Florida. As a reporter covering transportation for *The Palm Beach Post*, the crashes made me wonder just how safe railroad crossings really are.
+
+I was fortunate to have some CAR training from NICAR and Cox computer journalism guru Elliot Jaspin. I had already spent some time poking around railroad safety databases, and saw the West Palm Beach crash as an opportunity to put railroad-crossing safety in a broader perspective.
+
+Fortunately for CAR reporters, the Federal Railroad Administration has an extensive national database of railroad crossing collisions online going back to 1975, at *http://safetydata.fra.dot.gov/officeofsafety.*
+
+**It took a flurry of traditional reporting to discover the reasons behind the county's poor safety rate.**
+
+The Web site has a searchable front-end, but it allows you to download the entire database, which is more useful for CAR work.
+
+This file has all reported cases of an impact between on-track equipment (usually a train) and anything on a public or private highway-railroad intersection, including a wealth of other information.
+
+## Getting the data
+
+First, I got the record layout in PDF format, which is very detailed and includes all codes used in the data.
+
+Then I went to the "Download Database Files" page. Several databases are available, but I wanted the "Grade Crossing Accidents" file.
+
+One downside is that you cannot download every year at once. I wanted to look at five year's worth of data, so I downloaded each year and merged them into a single Access table.
+
+The data downloads in a self-extracting file that becomes a fixed-length text file. The record layout shows where the fields start and stop so you can import it into a spreadsheet or database software.
+
+After importing the data into Microsoft Access, I ran several queries to gauge the situation in Palm Beach County.
+
+## The findings
+
+The findings were significant. In the past five years, the county had more crashes than any other in Florida — in fact, it was among the worst in the nation. The crashes here also had higher injury and fatality rates than elsewhere in the state.
+
+I used two more FRA databases available on the same site (Public and Private Crossings) to compare the number of crashes with the total number of railroad crossings in the county. Again, Palm Beach was at the top of the state's list of crashes per crossing.
+
+It took a flurry of traditional reporting to discover the reasons behind the county's poor safety rate. Problems included a combination of the area's high growth rate, increasing traffic congestion and heavy freight and passenger railroad traffic. I also sat alongside a train engineer for a ride from West Palm Beach to Miami to see the problems up close. I was astounded at the number of near misses the train encountered on a single trip.
+
+The weekend after that fatal West Palm Beach crash, *The Post* published the story. It took only a few days to turn around, but it put the incident into a broader context and gave our readers something to think about the next time they approach railroad crossings.
+
+Trebor Banstetter can be reached at trebor_banstetter@pbpost.com.
+
+---
+
+## Page 3
+
+**CAR ON DEADLINE**
+
+# Intranet start-up
+
+**By Robert Gebeloff**
+*The Record*
+
+When word spread in Norwood, N.J., that authorities had granted a variance for a Korean congregation to build a large church, some residents began pressuring town leaders to reverse the decision.
+
+The primary argument against the new building: It would draw hundreds of "outsiders" into town and disrupt the peaceful suburban atmosphere.
+
+But before he even set foot in Norwood, reporter Adam Geller knew more about the community than some of its residents.
+
+At his desk in *The Record's* Hackensack newsroom, Geller made a few clicks on our CAR Lab intranet and was able to compile various demographic facts about the town.
+
+**Two years after we laid down the first line of intranet code, we can attest that there's no better way to have an impact on the daily news report than to 'democratize' your data.**
+
+By throwing a few simple stats up against the perception of some Norwood residents, Geller was able to illustrate a major component of the conflict better than he could have with a thousand words of explanation.
+
+And he didn't have to touch a spreadsheet or database manager.
+
+Examples like this are exactly what we hoped to see when we began planning our newsroom intranet in 1998. While we use CAR in projects and short-term enterprise, we also subscribe to the philosophy that CAR should be for everyday use.
+
+And two years after we laid down the first line of intranet code, we can attest that there's no better way to have an impact on the daily news report than to "democratize" your data — making it widely available to all journalists in the shop, regardless of computer skill level.
+
+Our staff of about 100 reporters and editors is now averaging 80 queries a day through our intranet. Not every single query gets in the paper, of course, but it shows that our staff is using this tool as a regular part of the reporting process.
+
+I won't mislead you — building and maintaining an intranet does not produce the same high-profile results as hardcore CAR enterprise work. But if you plan it right, and pick the proper tools, you can minimize the workload and lay the groundwork for newsroom-wide CAR.
+
+Before delving into an overview of intranet planning and development, a few comments are in order about the advantages of an intranet over other systems for building database front-ends for general staff use.
+
+Many of you use Microsoft Access, which has fantastic tools for building search forms that allow users with no Access experience to query databases.
+
+The problem with Access front ends, however, is that they're not as efficient over a network as a "client-server" system. If you build front ends into Access databases and put them in a common folder on the network, vast quantities of data have to move back and forth between the user's computer and the computer where the database resides. This can become a major drain on network bandwidth.
+
+A client-server intranet, on the other hand, keeps network traffic to a minimum. The user types input into the client machine – a Web page on their desktop – and the input is passed on to the server. The query is run on the server, and just the results are sent back to the client. The database itself stays put and bandwidth use is minimal.
+
+So if you're hoping to make data available to a lot of users, an intranet is the way to go. But before you begin, you'll need to plan thoroughly in three areas:
+
+## The Back End
+
+This is the guts of your intranet, the stuff behind the scenes that makes it all work. Your back end has to include some kind of Web server and a scheme for handling database queries.
+**Continued on page six**
+
+---
+
+Using newsroom intranets:
+
+Reporters at *The Record* use the intranet in a variety of ways.
+
+• Political reporter Maia Davis uses voter registration records all the time, not just for finding the names of party members in certain towns, but also to learn the home address of a person in the news.
+
+• On deadline, Scott Fallon pulled the salary and title of a teacher accused of sexual assault.
+
+• Reporter John Chadwick regularly finds unlisted phone numbers in the voter registration records.
+
+• Alex Nussbaum discovered that the mayor in one of his towns was giving out incorrect information about property assessments.
+
+---
+
+## Page 4
+
+**CAR ON DEADLINE**
+
+# Intranet essentials
+
+**By Noemi Ramirez**
+*IRE and NICAR*
+
+And you thought of your company's intranet as a mere sophisticated version of the traditional office bulletin board? Not quite. An informal survey among Newslibbers – subscribers of the NewsLib discussion list who have had experience with developing an intranet at a newspaper or TV station – shows that intranets play an important and sometimes essential role in promoting CAR in the newsroom.
+
+Elisabeth Donovan, Research Editor at *The Miami Herald*, reports that the *Herald's* intranet, one of the first ones in the country together with the NeRD page of the *News & Observer*, "started in 1995 as a collection of Web links on a file server."
+
+This static compilation of online resources, however, evolved into a more complex structure in January 1998. According to Donovan: "That year we added several searchable databases, including voter registrations, city/county employee databases, etc." Having these data sets easily available and, even more importantly, sharing the input forms so that "reporters on the project could track the people they were investigating" was crucial in developing the Miami vote fraud project, which in 1999 won *The Miami Herald* its sixteenth Pulitzer Prize.
+
+**A well set up intranet designed to meet the culture and information needs of its organization can make all the difference on deadline.**
+
+Intranets, however, prove to be most useful for daily reporting, says Russell Clemings, a CAR reporter who has maintained the intranet at the *Fresno Bee* since 1997. Clemings, who highlights the importance of having a budget for keeping the intranet updated, says his newspaper's intranet helps reporters "track down and background news subjects. The local contribution data, which goes back to 1992, is especially useful in covering development."
+
+Breaking news is a challenging situation for reporters, editors and researchers. Once again, a well set up intranet designed to meet the culture and information needs of its organization can make all the difference on deadline.
+
+Tom Boyer, research editor at *The Seattle Times*, recalls that when white supremacist Buford O'Neal Furrow Jr. opened fire at a Los Angeles day-care center on Aug. 10, 1999, his paper was a full day ahead of the rest of the country because of their people-tracking resources. "We were able to identify the guy, found his family, friends and associates and found obscure court records on him in the first 12 hours," Boyer says. *The Seattle Times'* intranet, which started as a "virtual Rolodex" of staff phone numbers in 1996, has since then added dozens of public record databases including real estate, business licenses, drivers, voters, state licensing and campaign contributions.
+
+Boyer, whose plans to improve the intranet are focused on refining the interfaces to allow for simultaneous searches in multiple databases, concludes that because of their intranet "we basically are going to have a significant home-court advantage on any story that involves public records in Washington."
+
+Newspapers are not the only medium that has taken advantage of the intranet technology. C.B. Hayden, director of research services at ABC News, says, "The intranet has been the focus of our efforts to provide the highest level of research service to a large international news organization." Like many others, ABC's intranet grew out of a network of CD-ROM databases in 1998.
+
+Two years later, offering more than 50 different fee-based services and receiving 100,000 hits per month, the research staff uses the intranet in a sophisticated way to customize content from database providers. Dedication, purpose and enthusiasm are keys for the success of the intranet project at ABC. "Every day we are making decisions on how to develop it," Hayden says. "We find that there seems to be no end to the creative ways we could use it."
+
+What does an intranet need to become the
+**Continued on page seven**
+
+---
+
+For a more detailed account of how the Miami project was done, check out the IRE Resource Center story #15632, or Tom Boyer's report in the July-August 1999 issue of *American Journalism Review* at: http://ajr.newslink.org/ ajrboyersideja99.html
+
+Interested in checking what others are doing? The News division of the Special Libraries Association has compiled a few links to sample demo newsroom intranets at: http:// metalab.unc.edu/slanews/ intranets/
+
+---
+
+## Page 5
+
+**CAR ON DEADLINE**
+
+# Realistic goals
+
+**By Heather Newman**
+*Detroit Free Press*
+
+You're sitting at your desk one afternoon, when the story hits the fan. You've only got a few hours, but you want to make the most of your computer skills. What do you do?
+
+Be realistic. Computer-assisted reporting can put you leagues ahead of your PC-challenged colleagues when it comes to responding to breaking stories, but only if you use it wisely. The last thing you want is to get caught up in technical problems and do a mediocre job on the story.
+
+So what can you realistically accomplish with CAR on deadline?
+
+## Numbers and background
+
+Use the Net to flesh out that list of who to call for the story. There is no better way to quickly find a public relations person for a particular company than to visit the firm's Web site and read through past press releases.
+
+As a bonus, those releases may have information that's pertinent to your story now. Is the president resigning? Chances are, you can find the last shareholder proxy that told how much he makes, or records of his insider stock trades, as part of the company's investor relations section.
+
+## Get experts
+
+A Lexis/Nexis search on your topic may turn up some great experts. So might a search of the Web, though be careful to double-check sites and attributions to make sure you're speaking with someone legitimate. ProfNet's Expert Database, posted at *www.profnet.com*, may have someone who can speak knowledgeably for you.
+
+If you're a beat reporter, it might be worth compiling the names and e-mail addresses of experts you speak with often, then use them in a (rare) mass mailing if you're desperately searching for someone who can be quoted in your story.
+
+Two tips: First, tell those experts you occasionally do this, and ask them if it's okay to contact them.
+
+Second, use this resource as little as possible, and you won't burn out a good deadline source.
+
+## Crunch some quick numbers
+
+Don't be afraid to fire up Excel or some other spreadsheet to help you if you need to crunch numbers, whether it is the number of beds in your local hospitals, changes in the stock prices for local public companies or budgets for different city departments.
+
+If you've got more than a dozen numbers to calculate, Excel will be faster even if you have to type in all the raw data yourself.
+
+## Analyze familiar databases
+
+If you're reporting on a recall of listeria-tainted meat (as the *Free Press* did for much of last year) and you have a database of USDA recalls that you've already compiled and used before, it's a snap to pull it open to calculate grand total poundage of meat recalled for listeria or other problems.
+
+Because you've used the database before, you know where to find it, what it contains, how accurate it is and how it works. Those are the tools you need to do a snap analysis on deadline – one that will make you look extremely smart when compared to your competition.
+
+## Similar problems
+
+Using a good Web search engine such as Google (*www.google.com*) or a good newsgroup search engine such as Deja (*www.deja.com*), you may be able to find someone who has suffered from whatever problem you're reporting on. The catch: It's darned hard to find local sources on deadline. If you can get away with someone in another state, however, it's worth the attempt.
+
+What's NOT reasonable to expect from CAR on deadline?
+
+## New databases
+
+First, you may have troubles getting the data you need at all, if it's not posted already on the Web. Second, even if you have the data on the Web or on disk, if you've never used it before, you're bound to run into glitches. Even if the data doesn't cause you
+**Continued on page twelve**
+
+---
+
+Get directions:
+Don't overlook the Net's ability to help you with the most basic of tasks — figuring out where you have to drive to report the **story.**
+
+MapQuest (at *www.mapquest.com*) is just one of dozens of mapping sites that can give you directions to that explosion.
+
+"Great Scouts!: CyberGuides for Subject Searching on the Web" by Nora Paul, Margot Williams, Paula Hane (editor). Cyber-Age Books/ Information Today (*www.infotoday.com*). A review of this book will appear in the May issue of the *IRE Journal.*
+
+---
+
+## Page 6
+
+*Continued from page three:* **Intranet**
+
+There are different types of servers, and I'm not going to advocate any specific model. For specs, just get as powerful a machine as you can. I can happily report that our Web server is a low-end Pentium and still does an adequate job.
+
+The question of server type is thornier. There are a LOT of ways to build an intranet, and a lot of different opinions about the best way.
+
+If your Web server is fueled by the Microsoft Back Office suite, there is one set of tools for building the front-end user interface. If you have a Unix box, then the set of tools is completely different.
+
+**It's ultimately a compromise. The downside is it takes some work to build and maintain. But the upside is that you're helping reporters help themselves.**
+
+My advice, which admittedly will irk the purists of specific technologies, is to use the tools that are most accessible. If your company already has a corporate intranet on a Windows server, then see if you can get space on it. If your IT department is filled with Unix geeks, then tap into their knowledge.
+
+As for data, we now have our tables stored on an SQL Server. But when we started, we used Access and achieved acceptable results.
+
+Our Web server knows where to find our data because we use "open database connectivity," or ODBC. This is a simple setting in the Control Panel of our Web server. You give each of your databases a name, and then give the Web server actual location of the data on the network. Then, when you're building a Web page and want to tap into a database, you just insert the ODBC name and your Web server knows where to get the data.
+
+Whatever scheme you use, the key to efficiency is to make sure all your tables are indexed on the fields that your users will query.
+
+## The Front End
+
+Once you know what's running your server, you'll need to decide what to use for building Web pages. We use Microsoft Front Page for our static Web pages – our Internet guide, CAR newsletter, etc. – and Active Server Pages for our databases.
+
+There are many other options, however. ColdFusion is used in some newsrooms. I've seen people on the NICAR list talking about MySQL too.
+
+I don't want to talk about the pros and cons of each, but rather about some general design concepts.
+
+First of all, the whole point of doing this is not to give users the power to do every conceivable trick with a database that you can do with Access.
+
+Rather, the goal should be to pick out the queries that will be most useful to the staff as a whole. In many databases, all your staff really will want are simple name and town look-ups.
+
+We try to add value to the results. If a reporter is looking at campaign contributions by the late local oil baron Leon Hess, they can click on the results and see what other employees of Amerada Hess contributed. If the reporter is running a name through our crime database, they can click on the results and see what happened to the co-defendants.
+
+We also have learned not to cram every field into the results. With our criminal background search, the user types in a name, and if there's a hit, the page displays the county and case number. One more click yields about 80 fields of information.
+
+Front-end software such as ColdFusion and FrontPage offer wizards that will quickly build simple look-ups, which is a good way to get started. But we found ourselves wanting to do more than the wizards provided, so we learned how to build Active Server Pages with Visual Basic Script.
+
+Knowing how to code gives you absolute freedom to build whatever front-ends your reporters will need, and it's not the most difficult skill to pick up. I learned by studying a
+**Continued on page seven**
+
+---
+
+Tipsheets:
+
+"Using the Net for Beat and Deadline Reporting," a compilation from a 1998 panel featuring Kitty Bennett of *The St. Petersburg Times* and Christopher Callahan of the University of Maryland, (tipsheet #818) with tips on using the Internet for beat and deadline reporting. Audio tape is available through Sound Images, Inc.; (303) 649-1811; for $11. Order by email to soundimages@ soundimages.net
+
+"Strategic Searching on Deadline —A Game Plan," by Christopher Callahan of the University of Maryland, (tipsheet #900).
+
+To order, call the IRE Resource Center at (573) 882-3364.
+
+---
+
+## Page 7
+
+*Continued from page six:* **Intranet**
+
+few sample scripts donated by Tom Torok when he was at *The Philadelphia Inquirer*, and then by picking up the wonderfully simple *Active Server Pages for Dummies.*
+
+## Operation/Maintenance
+
+Like a lot of things, you'll get out of your intranet what you put into it. I'm fortunate enough to have CAR specialists, plus a part-time data entry person to help me out.
+
+That has allowed us to expand the site to keep more than two dozen databases up to date. Still, we have a dozen more that I haven't found time for yet.
+
+Keeping a good intranet is a job, but the question is who does the job. At our place, the library is heavily involved in maintaining the corporate intranet, and the CAR intranet is our baby. But at your paper, the library might be interested in helping out, and the more help you can get the better.
+
+I should caution, however, that you should resist the temptation to turn your intranet over to non-journalists. Sure, the technical skills and labor can be handled by anyone, but the real gold in doing this is in the design.
+
+It takes a database editor to decide what databases to post and to design an interface that will best serve reporters.
+
+Most of us dread the notion of becoming a "service bureau." And rightly so. As journalists, our ambition should not be to become the source of fascinating facts for stories by other reporters.
+
+At the same time, however, I feel that it's a disservice to our news organizations if we simply acquire and horde databases. I can cite countless stories in *The Record* that were made better because of information or ideas a reporter developed from using our intranet.
+
+It's ultimately a compromise. The downside is it takes some work to build and maintain. But the upside is that you're helping reporters help themselves, and that, in turn, gives you the freedom to pursue your own work.
+
+Robert Gebeloff can be reached by e-mail at gebeloff@bergen.com
+
+---
+
+*Continued from page four:* **Essentials**
+
+foremost research tool in your newsroom? Here you have a few suggestions offered by members of the NewsLib listserv:
+
+**In-house archives:** Text archives, live and archived photo systems, internal databases like celebrity or experts contact information, link collections of online resources organized by beat and category.
+
+**Training materials:** Instructional cheat sheets on how to use public records, online databases, or file a FOIA request.
+
+**Databases of public records:** General databases like death records, vital statistics, voter registration, campaign contributions, cars, driving licenses, business licenses, property records, real estate. Beat-specific databases like workers' compensation, city/county/state employees and salaries, inmates, aircraft, government aerospace data.
+
+**Commercial resources:** Lexis-Nexis Universe, Dialogselect, Wilson Biographies, Gale Biography Resource Center, Facts on File, Keesing Records of World Events, InfoUSA, Bell & Howell Proquest, Encyclopedia Britannica, Hoover's, Merlin, CD-Law Legal Research, Autotrack, Public Records Online
+
+**Other research resources:** Percentage calculators, weights and measures converter, zip-code directory, phone and reverse phone directories, online searchable AP stylebook.
+
+**Company information:** Daily announcements, research request forms, expense forms, job requisition and evaluation forms, letterheads, phone and e-mail staff directory, staff schedules, conference room scheduler, job postings, bulletin board for staffers to post things for sale and, just for fun, softball league team rosters!
+
+**Feedback:** Design critique, best headlines of the week, tips, help documentation.
+
+That's not bad for a start, is it? So next time you need to turn to the Internet to get some data, think twice. Maybe the answer is right under your nose or, better said, under the firewall of your Intranet.
+
+Noemi Ramirez can be reached by e-mail at noemi@ire.org
+
+---
+
+"Getting data to the newsroom masses," by George Landau of NewsEngin, Inc., provides tips and advice on setting up and running a newsroom Intranet. (#895)
+
+"Optimal Ralphing," by David Heath formerly of the *St. Louis Post-Disptach*, Justin Mayo of *The Seattle Times*, and Tom Torok, formerly of *The Philadelphia Inquirer*. (#898)
+
+These tipsheets and others are available from the IRE Resource Center by calling (573) 882-3364.
+
+---
+
+## Page 8
+
+*Continued from page one:* **Daily CAR**
+
+leisurely, spare-time kind of story became competitive. (*The Herald's* Broward edition competes fiercely with the *Sun-Sentinel*, the *Chicago Tribune* daily located across town.)
+
+We downloaded the data, saw it was in a beautifully simple, comma-delimited format and imported it into Access. Browsing through it, there were a few undefined codes, so we put a call in to the FDA for interpretation. We also saw that while cities were in the data, counties weren't.
+
+That meant quickly creating a look-up table to group South Florida cities into the counties in which *The Herald* was interested. Finally, the analysis: How was Florida doing compared to the rest of the country? How was South Florida doing? How were our local retailers doing?
+
+The result: We were doing better on all counts. Florida's push – and it's a big one – to get kids off tobacco was bearing fruit.
+
+**We anticipate stories we know we're going to need to do and prepare data appropriately.**
+
+Though this was not scientifically gathered data – it was not random but showed only what happened at the retailers FDA checked, a fact made clear in the story. So what we had was a nice, incremental story, a pat on the back for Florida, maybe not destined for 1A but for sure good on 1B.
+
+Total time: Two days. And it would have been one had the FDA not taken its sweet time calling back.
+
+## Elections
+
+Local elections are an example of how CAR can add depth and context to stories we already do. There are basically two questions we ask after an election: Who won? How did they do it?
+
+That often means staring at a table: Voting districts or precincts down the side, candidates across the top. Reporters often eyeball the results in certain "key" precincts, call a couple of pundits and throw a story in the paper or on the air.
+
+We do it a little differently.
+
+We've arranged with our county election supervisor to download precinct-by-precinct results at the end of election evening or, at worst, early the next morning.
+
+We import that into an Access database in which we've already prepared several lookup tables showing voter registration, precinct or district demographics, etc.
+
+With that, it's easy to pull out areas or demographics in which we're interested to show, for example, how predominantly black districts voted or to look at the "condo canyons" full of retired, New Deal Democrats.
+
+Add a mapping program such as ArcView, and you can draw a precinct-by-precinct picture of exactly how the vote went.
+
+And that lets us ask the candidates and the pundits exactly why they think various demographics voted the way they did instead of asking who made the difference.
+
+## Another example:
+
+Every week, we survey 34 gas stations around the county and print the price of regular gasoline at each.
+
+Since the beginning of the year, we've also keyed the results into an Access database.
+
+Because we'd taken the time to prepare, we were in an ideal position to add local context – county and neighborhood averages, week-by-week price fluctuations and the like – to our stories when gas prices jumped dramatically a few months ago.
+
+## Conclusion
+
+What these examples have in common is this:
+• We think in rows and columns, that is, we look for stories in which data might be used.
+• We take our opportunities when we see them.
+• We anticipate stories we know we're going to need to do and prepare data appropriately.
+
+And we do a couple of other things:
+• We prowl constantly for useful data and maintain a data warehouse, available to all reporters at their desks.
+• We use these databases to background people, find neighbors, check salaries, etc.
+
+Neil Reisner can be reached by e-mail at nreisner@herald.com
+
+---
+
+Tipsheets:
+
+"Backgrounding the individual on deadline," (tipsheet #1083) by Don Ray, of Exclusive News Group, offers ten steps to backgrounding on deadline and a comprehensive list of resources that are essential to a functioning newsroom.
+
+"CAR on Deadline," by Neil Reisner, of *The Miami Herald*, (tipsheet #908) provides a list of databases that could be turned into interesting stories.
+
+"Quick CAR," by Janet Roberts of *The St. Paul Pioneer Press*, (tipsheet #909) provides some keys to success for using CAR to enhance deadline stories.
+
+To order, call the IRE Resource Center at (573) 882-3364.
+
+---
+
+## Page 9
+
+**CAMPAIGN FINANCE**
+
+# Following the money
+
+**By Darrel Rowland**
+*The Columbus Dispatch*
+
+Want to read another *

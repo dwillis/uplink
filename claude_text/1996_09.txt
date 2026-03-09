@@ -1,0 +1,441 @@
+# Uplink Newsletter - September 1996
+
+---
+
+## Page 1
+
+**September 1996**
+
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+---
+
+### Newsrooms, start your engines
+## Uplink update
+
+Don't stall while you're getting your CAR started.
+
+In this issue of Uplink, newsrooms and reporters share how they got CAR programs up and running. The approaches vary from the *Seattle Times*, where Tom Boyer oversees a staff of researchers, to the *Minneapolis Star Tribune*, where CAR director Bill Loving trains reporters and runs a CAR station in the newsroom, and to WDIV-TV in Detroit, where Mike Wendland began CAR at home on his own equipment.
+
+Also, Bill Dedman shares The Associated Press' guidelines for responsible Internet use, and Penny Loeb talks about *U.S. News & World Report's* approach to computer-assisted reporting.
+
+NICAR's Richard Mullins tells how to get a Top 10 out of your database, Dave Migoya of *The Detroit Free Press* reveals a hot new database, and Maureen Smith of the *Star Tribune* shares how she and a team of reporters and editors used a spreadsheet on deadline to analyze school test scores.
+
+### Inside
+
+*On the Internet*
+**Page 5**
+*Calendar*
+**Page 14**
+*Bits, Bytes and Barks*
+**Page 16**
+
+---
+
+### Newsrooms share CAR models
+## We did it our way
+
+**By Angie Gaddy**
+NICAR staff
+
+Who does your data? That's what a lot of CAR newbies want to know from those using CAR in the newsroom.
+
+Whether run by a database editor, the library staff or a computer-savvy reporter, newspapers are structuring a CAR hierarchy. Four large dailies share their CAR models:
+
+### Train them
+
+It's been almost seven years since CAR began at the *Minneapolis Star Tribune*. At first, CAR was used in fits and starts, but in the past two years, a new push led by CAR director Bill Loving has gathered momentum.
+
+Loving's goal is to have more than a dozen reporters skilled and using CAR on a semi-regular basis by the end of 1996. (See CAR Trips, page eight).
+
+Loving is accomplishing this goal by training and coaching the paper's newsroom staff of 350, half of whom are reporters. He has trained at least 100 reporters to use the Internet in his own workshops and plans to set up workshops for tackling database managers. He has sent six staffers to NICAR bootcamps.
+
+Loving has a CAR center in the newsroom equipped with two computers, including a Pentium and a 486 PC, a nine-track tape reader, a zip drive and some external hard drives. He plans to get a scanner and CD-ROM writer. CAR reporters build queries using FoxPro, Paradox and Quatro Pro, but most stick to Access' query by example to build their own searches.
+
+While Loving waits for reporters to build skills, he is focusing on acquiring databases. Loving acquires databases on nine-track tapes, via FTP, CD-ROMs and diskettes. Most of the databases are stored on CD-ROM in the library. He is just starting to put databases on the newspapers network server.
+
+"We've made strides in the last year,"
+**Continued on page two**
+
+---
+
+### Broadcasters vie for support
+# Picture this
+
+**By John Sullivan**
+NICAR staff
+
+If you're a broadcast journalist looking to start a computer-assisted reporting program at your station but can't get support from the higher-ups, you're not alone.
+
+"I get an e-mail every day from reporters looking for advice on how to start programs at their stations," says Mike Wendland, author of "Wired Journalist" and CAR reporter at WDIV-TV in Detroit.
+
+Wendland's own experience may benefit those trying to convince news directors of the benefits of computers in the newsroom. Wendland started with equipment he purchased on his
+**Continued on page seven**
+
+---
+
+## Page 2
+
+**Uplink**
+September 1996
+Volume 8, Number 9
+A newsletter for the National Institute for Computer-Assisted Reporting
+
+**Editor**
+Brant Houston
+brant@nicar.org
+**Managing Editor**
+Jo Craven
+jo@nicar.org
+**Assistant Managing Editor**
+Andrew Lehren
+andy@nicar.org
+**Senior Contributing Editors**
+Richard Mullins
+richard@nicar.org
+Rosemary Armao
+jource@muccmail.missouri.edu
+**Staff**
+Wendy Charron
+Stan Dorsey
+Angie Gaddy
+Seth Hemmelgarn
+Daniel Kim
+Justin Mayo
+Neil Reisner
+John Sullivan
+Wallace Winfrey
+**Copy Editor**
+Marilyn Lehren
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscription price is $35 (U.S.) annually, $50 outside the United States. Postmaster: Please send address changes to NICAR. Send e-mail to nicar@muccmail.missouri.edu.
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training on computer-assisted reporting, special academic and advanced training in data analysis. NICAR is supported by a grant from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+### *Continued from page one:* Newsroom models
+
+he says. "We have an enthusiastic backing from the managing editor and executive editor. That's an absolute necessity."
+
+### An in-house homepage
+
+One way to incorporate CAR into the newsroom is by using an internal newsroom homepage, says *Boston Globe* computer-assisted reporter David Armstrong.
+
+The page — maintained by Matt Carroll, a part-time database editor, and by the paper's information services department — is accessible only in the newsroom, from the reporter's homes and from bureaus. It is loaded on newsroom Pentium PCs, which are all equipped with CD-ROM drives. While the paper converts its newsroom Atex system to PCs, a process that is half-finished, reporters can access the Internet and the paper's databases at two computers at a public station in the newsroom. Eventually, all reporters will have a PC at their desks linked to the paper's internal homepage.
+
+Reporters can search databases of Massachusetts Motor Vehicle registration and driver's licenses; campaign contributions; and state, city and university system employees. The site also links to other homepages and newsroom chat groups. To make the system easier to use, there are front ends for accessing both the Internet and databases. Front ends are user-friendly interfaces that allow reporters to fill in templates, rather than build their own queries to maneuver around databases or the 'Net.
+
+Armstrong says there's no push for a nine-track tape reader in the newsroom because he can download databases more simply and with fewer data errors through FTP. Now that more data comes on diskettes or CD-ROMS, nine-track tape readers, which are clumsier, are going by the wayside in data transfer.
+
+Access is loaded on all PCs, but most *Globe* CAR reporters prefer FoxPro. Excel is the most popular software program for those doing CAR — approximately 12 reporters use spreadsheets for stories.
+
+The paper has brought in NICAR twice for training and has an in-house trainer from information services to help reporters. Carroll works one day a week updating databases, acquiring data, answering reporters' questions about data and working on queries with reporters.
+
+"It's not an ideal situation, because on the other four days a week he's unavailable to reporters working with him. It's a handicap," Armstrong says.
+
+Armstrong, who is lobbying for a full-time database editor, says what the paper needs is "almost a cheerleader" in the newsroom, who encourages and sells the idea to reporters.
+
+### Make searching easier
+
+With his desk equipped with a Pentium 90 with 1.6 gigs and DELL behind him, Mike Himowitz is literally situated between the newsroom and the library. His job as electronic news editor at *The Baltimore Sun* bridges library research with newsroom reporting.
+
+Since CAR is just starting at the paper, Himowitz says the paper does not have a CAR model. Its's evolving, and Himowitz is discovering what works and what doesn't at his paper.
+
+What works is creating front ends, or templates linked to database queries, to the paper's databases. Although it would make his job easier if reporters learned more CAR skills, his front ends makes it easier for reporters to find information without running to him with every question.
+
+"Reporters don't have to become mavens (at CAR)," he says. "Some disagree. Some want to make reporters computer-attack dogs, but you can't expect every reporter to do it. Most will learn the skills that apply to their particular beat."
+
+Reporters only need to type in the name or address they are looking for in the Baltimore city property tax records database, or the school name or county in the Maryland school scores database. They can access the databases, all stored on a server linked to the PCs, at a computer station outside of the newsroom library, equipped with four Pentium 90s, all with CD-ROM drives and hooked to the Internet. One computer is hooked to a scanner and an Overland nine-track tape reader.
+
+There are two ends to CAR, Himowitz says: One is using it as an investigative tool. The other is using it to gather research for reporters. "We will see more response when more stories come out," he says. "The big payoff hasn't come just yet."
+
+**Continued on page three**
+
+---
+
+## Page 3
+
+### CAR in any newsroom
+## Making it work
+
+**By Penny Loeb**
+U.S. News & World Report
+
+In the three-and-a-half years I've been at *U.S. News*, we've done about 70 computer-assisted stories. They range from major projects on special education, bad blood, redlining and air safety to which Senator pays the most to fly home.
+
+We've taught about 20 people at some level. They have been through 10 weeks of classes, gone to IRE conferences, learned on projects. We have one of the best computer setups anywhere, with a great amount of software, Web access and e-mail for everyone.
+
+But there's a lot more to do. Here's what I've learned:
+
+• A mission statement is essential. Everyone from the top editor to the person who runs tapes for data processing must endorse CAR.
+
+• You need to let everyone know the possibilities of CAR. But you need to meet them at their level. Some people will go through the classes and do projects. Some will need someone to download and clean data.
+
+• You need to organize and prioritize. If you have a library, librarians should order and catalog data sets that are used routinely, such as contracts. You need to maintain lists of all data.
+
+• You need to make the data user friendly. Guides for use help. You can also write front-end search menus in Visual Basic.
+
+• You need a backup person who knows just about everything the CAR expert knows.
+
+• The hardest thing to teach is a data mindset: the ability to integrate the possibilities for data into every step of a story and the perseverance to survive the inevitable snags.
+
+Penny Loeb can be reached at (202) 955-2640, or send e-mail to ploeb@usnews.com
+
+---
+
+**A complete list of handout abstracts, many dealing with CAR, from IRE's June National Conference held in Providence is available on-line at http://www.ire.org/provfin2.html, or from the IRE front page at http://www.ire.org, where you'll find a Resource Center link. Each file includes material distributed and an audio tape reference number for every session. A complete set of handouts includes material from 80 different panels — a total of 1,075 pages. Cost for a complete set is $150 and includes shipping. Packets from individual panels are also available at the cost of 10 cents per page plus shipping. The minimum order is $5. Nonmembers must pay an additional $10 access fee. To order, send e-mail to Dawn Hobbs at dawn@ire.org, call (573) 882-3364, or fax (573) 882-5431.**
+
+---
+
+### *Continued from page two:* Newsroom models
+
+### Start with research
+
+Overseeing five news researchers, Tom Boyer began as database editor at the *Seattle Times* six months ago. The researchers look for news services, acquire new databases, coach, train and do higher end CAR work. Boyer's job is to coach researchers and reporters in CAR techniques, "as well as be 'stopper' on technical issues that no one else can deal with."
+
+Networked Pentiums are scattered across the Atex system newsroom, all loaded with Excel and running on a TCP/IP network so the research staff can build World Wide Web front ends. The "hard-core" CAR computer is in the library. The paper's information systems department runs nine-track tape downloads, and they hire a local computer-consulting company to handle tougher tape downloads. Boyer says they are buying a high-end database server, most likely an MS SQL server, to handle large files.
+
+Presently, reporters come to researchers for help. But Boyer adds, "We do not search the *Times* database for staffers generally. If they need help, we schedule them for training."
+
+As the *Globe* and the *Sun* have done, Boyer plans to set up a front end so reporters can run their own database queries. And, as at the *Globe*, Boyer has created an internal Web site with a file of 3,000 source names, *Times* text archives and front ends to public records databases.
+
+"We have to handle the basics first and organize things properly before I can really start CAR work in earnest," Boyer says. After that, he plans to start training reporters and editors on query techniques.
+
+"But ultimately, it's not the responsibility of the database editor to make good CAR stories happen," he says. "If we're going to do this right, CAR has to come organically out of the work of the beat reporter."
+
+Bill Loving can be reached at (612) 673-4493, send e-mail to loving@startribune.com
+
+Mike Himowitz can be reached at (410) 332-6638, or send e-mail to mikeh@clark.net
+
+David Armstrong can be reached at (617) 929-3192, or send by e-mail to armstrong@globe.com
+
+Tom Boyer can be reached at (804) 446-2478, or send e-mail to tboynew@seatimes.com
+
+---
+
+## Page 4
+
+### Wired
+## Setting 'Net policy
+
+**By Bill Dedman**
+The Associated Press
+
+After collecting samples of newsroom policies on Internet use, The Associated Press devised the following policy to guide staff use of electronic resources. Some of the material is unique to AP, but may be useful to other news organizations interested in creating similar guidelines.
+
+### AP Guidelines for Responsible Use of Electronic Services
+
+1. Accounts on AP's electronic services are intended to aid the business and professional activities of AP staff. The accounts are for business use only, the same as AP portable computers and cellular phones. If you have private business to conduct, use a private account. Although you can access the AP accounts from home, this is not a license to connect for personal use. Remember that connecting to electronic services uses a limited resource that costs the AP money. The same Internet connections and dial-up ports are needed to file and distribute AP text, graphics, photos, video, and data.
+
+2. Each account is assigned for use only by the AP staffer. Sharing accounts is not permitted. No generic or departmental accounts will be assigned. Change your password monthly, choosing a password that would be difficult to guess (not your birthday, not a word in any dictionary).
+
+3. Conduct business on electronic services as if you are appearing at a public meeting representing the AP, or writing a letter on company letterhead. After all, every message sent with an AP account is stamped "ap.org." What you write, even in private e-mail but especially in posts to lists and Usenet newsgroups, could be forwarded to millions of people, and no doubt will be saved somewhere by somebody. Many mailing lists that are erroneously thought of as private are routinely archived on Usenet or the World Wide Web, which are public. Even World Wide Web servers collect the addresses of all Internet users visiting them. And any user of AP's Internet server can see generally what activity any other user is doing. In short, if you wouldn't want your on-line activity to be shown on CNN or in Times Square, don't do it on the Internet or America Online.
+
+4. AP has long-standing rules against news employees participating in political activities or taking sides on matters of public debate. These rules apply to electronic communication as well. Do not express opinions about products, companies or individuals. Non-news employees, who may be unaccustomed to these rules, should remember that Internet readers won't know whether a user from ap.org is a newsperson. Even what a non-news employee does can reflect on AP's news gathering.
+
+5. To do their work, AP staff need to participate in electronic discussion groups on professional or technical topics. Posting to other groups of general interest should be limited to seeking information. For example, a reporter doing a story on prostate cancer may post to a medical group, or a group for older men. Or a technician may seek help on a software discussion group.
+
+6. When participating in discussion groups, be sure the reader knows that you are not stating AP policy. Someone reading a message from you@ap.org won't know AP's organizational structure. If complaints or questions come to you because you are identified as an AP employee, refer them to the appropriate supervisor.
+
+7. Act as if the laws on libel and privacy apply to electronic communications. Remember that the laws of other jurisdictions may be more restrictive than your own. Respect the privacy of individuals, who may not be aware that their comments in electronic forums could be distributed by journalists. Do not quote private individuals or public figures from on-line communications unless you verify the identity of the author and assure yourself that the author meant to speak publicly. Often, it's best to contact people on-line, then to conduct an interview by telephone or in person. If you have on-line discussions to gather information, make sure the other party knows you are a working journalist. Although some Web pages and browsers allow sending of what's called anonymous e-mail, send only mail with your name and AP affiliation attached.
+
+8. Apply the strictest standards of accuracy to anything you find on electronic services. The
+**Continued on page six**
+
+---
+
+**IRE, NICAR and *The Richmond Times-Dispatch* will offer the Computer-Assisted Reporting Workshop for Minority Journalists in Richmond, Va., Nov. 15-17. The hands-on training will include navigating the Internet, spreadsheets, database managers, negotiating for data and more. Only 10 of 40 slots remain available. To register, call Lisa Barnes at (573) 882-8969, or send e-mail to lisa@nicar.org**
+
+---
+
+## Page 5
+
+### *Continued from page five:* On the Internet
+
+laws, and an excellent listing of sources on journalism ethics.
+
+**WWW Virtual Library: Journalism**
+http://www.cais.com/makulow/vlj.html
+
+John Makulowich, Internet trainer and early compiler of resources for journalists created this compilation of journalism related links. Section 8. Other Resources and Services, lists a number of research web pages.
+
+### Creating research pages
+
+Think about the following when you go to design and compile lists of links. The answers to these questions will help give the page focus and clarity.
+
+**Planning and design:**
+• WHAT is the purpose of the web site?
+• WHO is the audience for the site, who will be seeing the site?
+• WHAT types of resources do you want to make available?
+• WHAT kind of description will be made about the sites?
+• WHO will evaluate recommended sites?
+• HOW can sites be recommended?
+• HOW will the sites be evaluated?
+• WHO will maintain links to sites? What is the process for checking and maintaining?
+• HOW will the site be organized? (around beats, topic areas, needs?)
+
+• HOW will the site be searchable, how will it be navigated?
+• SHOULD "non-Internet" resources be included? If so, which ones and how can they be?
+
+**Research Web features:**
+• Annotation: Why this site is useful, what the site contains, specific news applications.
+• Instruction: Information about how to use the link (hints about searching).
+• Searchability: How can you get to the exact site you need?
+• Controlled vocabulary?: Is there a set of terms being used by the newsroom; if so, use them again!
+• Links to non-Internetted resources: Pointers to internal databases, records
+
+**Guidelines for evaluating sites:**
+• WHO put the site/page together? What is their agenda? Why was it put together?
+• WHO was the site designed for?
+• WHAT does the site/page contain?
+• WHAT perspective/side does the site take?
+• WHEN was the information last updated?
+• WHERE did the information come from?
+• HOW is the information updated?
+• HOW can this site help the journalist; what need is filled by this site?
+• HOW easy is it to use (or how frustrating?)
+
+Nora Paul can be reached at (813) 821-0583, or send e-mail to npaul@poynter.org
+
+---
+
+### *Continued from page four:* Setting 'Net policy
+
+Internet is not an authority; authorities may use it, but so do quacks. Make certain a communication is genuine before relying on it as a source for a news story. More than one person may share an e-mail address, and e-mail addresses and Web page sponsorship can easily be faked. Ask yourself, "Could this be a hoax?"
+
+Do not publish on the wire any electronic address without testing to see that it's a working address, and satisfying yourself that it is genuine. Apply, in other words, your usual news judgment.
+
+9. Respect the copyrights of individuals and organizations, including the AP. Do not forward or post anyone's material without permission. Do not post or send to individuals any proprietary AP material, including news stories, photos, graphics, audio, video, data, or any internal communication.
+
+10. Abide by the courtesies of the electronic community. Courtesy requires basic technical competence. For example, be careful not to send a message to a mailing list that was intended for only one user. Don't type in all caps; people will think you're shouting. Avoid the "flame wars" that easily erupt when conversations are conducted on-line. And, because AP's Internet server has limited capacity, clean out your mailbox and home directory routinely, and log off when you're not using the system.
+
+Bill Dedman can be reached at (212) 621-6984, or send e-mail to bdedman@ap.org
+
+---
+
+**For an in-depth look at problems with databases, check out "Computer-Assisted Reporting: A Practical Guide" by Brant Houston. It can be ordered from NICAR or Investigative Reporters & Editors for $26 plus shipping. Call (573) 882-2042.**
+
+---
+
+## Page 6
+
+### *Continued from page one:* Support for broadcasters
+
+own. "If you want to get something going, you just have to make the investment and buy the hardware to start at home. If you wait for someone to allocate the money, you may wait a long time," Wendland says.
+
+Back in 1985 when Wendland started using computers to do stories, it was much harder to convince management to invest in hardware. In recent years, some producers have recognized the benefits of computers and made the top-down push to move number-savvy journalists into the high-tech fray.
+
+Alan Cox at WCCO-TV in Minnesota admits his is an anomaly among broadcast programs. Cox says then news director John Lansing went to a 1993 IRE conference in Raleigh, N.C., and came back convinced computers were going to play a big role in the medium. Cox had done a county-by-county breakdown of state lottery funds in 1990 with Lotus 1-2-3 for DOS and a one-hour Macintosh training course at Kinko's. Lansing sent Cox for training, bought him some hardware, and gave him the luxury of two months free time to play around and learn what he could.
+
+But Cox notes there was a precedent at WCCO. The station had done some of the earlier CAR stories under the direction of Pat Wyland. Cox produced stories right out of the gate and "Computer Center 4" was born.
+
+Cox and Wendland offer some specific advice for starting programs:
+
+If management is "strongly encouraging" you to embrace CAR, which may mean learn it or leave, Cox recommends getting professional training and as much material as possible. Cox says he came home from conferences with a briefcase full of IRE/NICAR handouts.
+
+Both Cox and Wendland agree that if management does not push you onto the dance floor, you need to start moving and shaking on your own. Cox calls it the guerrilla approach: "Do whatever you can to get your hands on the equipment, even if it means going over to accounting and using what they have."
+
+Wendland says a mistake many new CAR reporters make is biting off more than they can chew. He suggests starting small and producing stories to show news directors that investing in computers is in the station's best interest. Cox started out with Internet stories that showed consumers the kinds of services that were available on the 'Net. The hard data stories came later. Wendland and Cox now do complex investigative stories using a variety of databases and software.
+
+### Hardware
+
+Despite what many may think, CAR hardware necessary to do most stories can be bought on a reasonable budget. With memory as cheap as it is right know and ultra-fast processors making 486's hard to sell — and therefore a potential CAR bargain — a system is definitely within reach. In fact, Cox still uses a 486DX2-66 with 32 mb RAM and two hard drives of a gigabyte each. He says the memory is especially helpful for situations like election night, when he runs a graphics program along with mapping and spreadsheets.
+
+Wendland's shop uses four computers and several laptops for their four-person CAR team. The computers are all Micron units ranging from a Pentium 200 to several 120s. The 200 has two gigs of memory, and Wendland uses a one-gig Iomega Jazz drive and a zip drive for larger jobs. They are all networked to a T-1.
+
+Some hardware purchases are more specialized, such as a nine-track tape machine. However, new operations can get by without it since organizations like NICAR can process nine-track data.
+
+Cox does have his own nine-track machine and some other useful tools, including an SVGA-to-NTSC converter that allows computer video to be put directly on air. Cox also says that after he lost a hard drive and found out how difficult it is to restore backups from nine-track, he got a Travanstyle tape unit, which also comes in handy for moving large files from machine to machine.
+
+Cox says his station uses an old 486 outfitted with an extra hard drive on the assignment desk so managers can search the station's databases.
+
+Wendland has seen his CAR program grow to include a reporter, producer and an associate-producer. Cox says he hopes his program expands with the purchase of some new hardware. Both programs prove that whether your resources are limited or unlimited or whether the initiative comes from you or someone else, you can do quality CAR stories for the broadcast medium.
+
+Mike Wendland can be reached at (313) 222-0532, or send e-mail to mikew@wdiv.com
+Alan Cox can be reached at (612) 330-2530, or send e-mail to wccotv@mr.net
+
+---
+
+**Mike Wendland is the author of "Wired Journalist: Newsroom Guide to the Internet." The book, intended for radio and television broadcasters, details many of the research tools available on the Internet, including an appendix that lists several hundred helpful Web sites. The book is available from: Radio and Television News Directors Foundation. 1000 Connecticut Avenue, N.W. Suite 615 Washington, D.C. 20036. Phone: (202) 659-6510; or e-mail: rtnd@rtndf.org**
+
+---
+
+## Page 7 (Pages 8 in original)
+
+### CAR Trips: First ventures
+## Count me in
+
+**By Maureen Smith**
+The (Minneapolis) Star Tribune
+
+The next time you think about crunching numbers with a calculator, think again.
+
+The education team at the *Minneapolis Star Tribune* walked into the land of computer-assisted reporting much like a nomad would wander into the forest: equipped with survival skills and resourceful minds, but little technical knowhow. And we were more comfortable with calculators than computers.
+
+But we got over it. On deadline.
+
+It this summer. Our five-reporter-and-one-editor-team was strategizing around noon about the news to come: a breaking test score story (don't yawn yet). All we knew was that later in the afternoon, we'd have the test scores of scads of Minnesota eighth graders on new state-wide tests in math and reading.
+
+### Comparing school districts
+
+We already knew that fewer students passed the basic skills tests than hoped or expected. And we knew that the students would be the first group in the state that had to pass the tests to graduate by the year 2000. What grabbed our curiosity was how districts compared. This was the first opportunity in Minnesota to eyeball scores of different districts on the same tests.
+
+The state Department of Children, Families and Learning (the former Department of Ed, renamed and overhauled by the Republican Gov. Arne Carlson) was releasing data on each school district in Minnesota. We knew nothing about what the data looked like. We hadn't even thought of asking for it on disk.
+
+By 3 p.m., a reporter came back armed with stacks of blue sheets of paper — one for each of about 300 school districts. Did it have the information the way we wanted it? Of course not. We wanted to know what percentage of kids passed and failed for each district.
+
+Each blue sheet had the name of the district, the number of students who took the math and reading tests. But instead of telling us what percentage passed and failed, each sheet broke the students into six score categories that didn't neatly add up.
+
+A passing score was 70 percent. The score categories were broken into students who scored 0 to 24 percent; 25 to 49 percent; 50 to 69 percent; 70 to 74 percent, 75 to 79 percent; and 80 to 100 percent. The number of students who fell into each category was listed. The percentage of students who fell into each category were also listed. But the percentages were rounded up, and didn't add up to 100 percent. In other words, we couldn't simply add up the percentages of kids in the three upper score categories (70 percent and above).
+
+The bottom line was that we had to do the math ourselves.
+
+### Calculator vs. spreadsheet
+
+Then began the debate: Should we use calculators, which we all knew how to use, or those unfathomable computer spreadsheets? Could we do either on deadline? Was it enough to have one reporter who knew how to use Lotus, another who had passing familiarity with the term "spreadsheet," and an enthusiastic but not technocratic editor? Our education editor, Maureen McCarthy, bargained on the risk. Her face lit up at the mention of a chart that would compare all school districts.
+
+Fortunately, Bill Loving, since named CAR director, happened to be within earshot. "Hey Bill, do you think we could do this on a spreadsheet?" Loving and I sat down and I learned how to use Quattro Pro while we set up the spreadsheet. Another reporter who knew what a spreadsheet was prepared four others (including a copy editor) for data entry.
+
+It was going on 3:30 p.m. as I agonized over figuring out the formula for percentage and finding the formatting command for a percentage column. I paged through Quattro Pro guides and played with formulas.
+
+Meanwhile, three teams of two people each entered a stack of raw data: One read it, the other typed it in the computer. Each group also proofread their data entry list once. One column for the district name, another for the district number. Six columns for the score categories.
+
+By about 5 p.m., we had three lists of school districts and merged them together into a common spreadsheet that summarized the percentage of students who passed and failed at each district. In a column on the final spreadsheet, we added the kids who passed, or scored 70 percent or above. In another column, we calculated the
+**Continued on page fifteen**
+
+---
+
+**IRE and NICAR will hold a regional/student conference Nov. 9 and 10 at Syracuse University. The conference will have sessions on paper and on-line records; interviewing, FOI, writing, and investigations on a budget for both print and broadcast. Cost is $10 for members, $50 for non-members, which includes a year membership worth $40. The student cost is $35, which also includes a year's membership worth $25. Student members can also attend for $10. Panels will take place on Saturday. Hands-on computer training will be available on Sunday for an extra $25. For more information, e-mail Rose Ciotta at ciotta@buffnews.com or Rosemary Armao at armao@ire.org**
+
+---
+
+## Page 8 (Page 9 in original)
+
+### Tech Tip
+## Today's Top 10 list
+
+**By Richard Mullins**
+University of Missouri/NICAR
+
+I remember the first few times I was asked a certain "Is there a way to do this?" question. Unfortunately, I said there wasn't a way.
+
+Turns out I was wrong (I'm writing this for penance). I should have said, "Not that I know of yet." I've managed to reassure myself by seeing my error as confirmation of one of the presumptions that I recommend to every reporter using a computer to commit journalism: If you can even dimly conceive it, there is probably a way to do it.
+
+Here was the question: Is there a way to write a query that just gives you the top 10 (or 20 or 101) rows?
+
+I'll cover Access first, then FoxPro. Apologies to those I've left out.
+
+Access users who came to the software tainted with previous knowledge of SQL, a lingua franca of data analysis, probably noticed the extra keyword Access used: DISTINCTROW. I'll explain that one, too, after the ranking business.
+
+In Access, this query, which orders candidates according to their fundraising, doesn't limit the result to any rank:
+
+SELECT DISTINCTROW CandName, Receipts
+FROM CandRept
+ORDER BY Receipts DESC
+
+Adding one keyword and a number gives the same results, but with a specified cutoff in rank:
+
+SELECT TOP 10 CandName, Receipts
+FROM CandRept
+ORDER BY Receipts

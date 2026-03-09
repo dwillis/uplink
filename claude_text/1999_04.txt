@@ -1,0 +1,470 @@
+# Uplink Newsletter - April 1999
+
+---
+
+## Page 1
+
+**April 1999**
+
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+---
+
+**D. C. 'S "DEADLY FORCE"**
+
+# Officer downings
+
+**By Jo Craven**
+*The Washington Post*
+
+In the 1990s, District of Columbia police shot and killed more people per resident than any metro police department in the country – including New York, Los Angeles, Chicago, Detroit and New Orleans.
+
+*The Washington Post* story, "Deadly Force," resulted from a close examination of the FBI's Supplementary Homicide Report, one of the computer databases included in the annual release of the Uniform Crime Reports.
+
+That examination revealed that the 1995
+
+---
+
+**THE PRICE OF CONCENTRATED COMPETITION**
+
+## Investor burden
+
+**By Christopher H. Schmitt**
+Investigative Group International
+*Chris Schmitt conducted the following project while at the* San Jose Mercury News.
+
+One area in which computer-assisted reporting has been less frequent is business coverage, in large part because there aren't gobs of data readily available, such as that prepared by government agencies.
+
+But, if you scout around, it turns out great information actually is available. With some imagination, you can use it to produce good stories. One example, humbly submitted: The *San Jose Mercury News* recently enjoyed success in mining trading records of the Nasdaq Stock Market to show how investors are forced to pay sharply higher trading costs.
+
+Before you yawn, understand that Nasdaq affects virtually everyone. In Silicon Valley, the *Mercury News'* backyard, Nasdaq has been the coin of the realm in recent years. Hundreds of high-tech com-
+
+**Continued on page five**
+
+---
+
+SHR data for the country (released in 1996) did not have a single "81"– the code in the circumstance field for justifiable homicide by a police officer. Neither did any of the other years of data that I checked.
+
+This suggested that whole records were missing from the dataset. The FBI's own documentation revealed another corroborating clue: The data is provided on nine-track tapes, and an "analysis of records written" printout accompanies each tape. This printout describes how many records were "read" in the government's computer versus how many were "written" on the tape provided to the purchaser. These should match; in 1995, however, the number of records written was short by 287.
+
+### They shall be released
+
+Several conversations with the FBI revealed that the bureau did collect justifiable homicides but that the numbers were not part of the "standard data release." We ordered a nonstandard release, specifically asking for justifiable homicides.
+
+Six weeks passed before the nine-track tapes arrived. When they did, we eagerly downloaded the data, opened the records, scrolled to the circumstance field and looked for 81s. There were none.
+
+Despite a very specific written request, which had been reinforced with several telephone conversations, the FBI had sent the "standard release," minus justifiable homicides. We reordered the data and reiterated the request.
+
+Several more weeks passed, new tapes arrived, we processed the data, and there they were: hundreds of 81s.
+
+### A hot tip
+
+The raw numbers of justifiable homicides by police officers alone were remark-
+
+**Continued on page two**
+
+---
+
+## Inside Uplink
+
+The Dow just broke the 10,000 mark. What better time for computer-assisted reporters to open their CAR tool boxes and investigate the corporate world? This issue provides several examples.
+
+Chris Schmitt of Investigative Group International, formerly of the *San Jose Mercury News,* discusses his analysis of NASDAQ trading records that determined costs to investors are higher as competition becomes concentrated among dealers.
+
+T. Christian Miller of the *Los Angeles Times* explains a multitiered CAR story that combined mapping, campaign contributions and other data to portray how developers had flouted growth restrictions and contributed to costlier natural-disaster relief.
+
+Chris Callahan of the University of Maryland contributes an Internet column itemizing the most useful sites for covering the business beat.
+
+And Jo Craven of *The Washington Post* leads off with a recap of the "Deadly Force" series, which documented how D.C.'s police officers shot and killed more people than any other U.S. police department.
+
+**PAGE 10**
+*On the Internet*
+
+**PAGE 13**
+*Tech Tip*
+
+---
+
+## Page 2
+
+# Uplink
+
+*April 1999*
+*Volume 11, Number 3*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+bjohnson@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Len Bruzzese
+len@ire.org
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**STAFF**
+Britton Clapp
+Dawn Fallik
+Jason Grotto
+Ben Lesser
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Neil Warner
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+Postmaster: Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+*From page one:* **Justifiable homicides**
+
+able. Only officers in a handful of cities – all much larger than Washington, D.C. – had shot and killed more people. Ultimately, these records served only as a starting point.
+
+As the project progressed, *The Post* decided against relying on the FBI's justifiable homicide reports for several reasons. Some
+
+---
+
+**By definition, FBI reports are jurisdictional, not departmental: If an officer kills someone in another jurisdiction, according to Uniform Crime Report guidelines, the death should be reported by the agency in the jurisdiction where it occurred rather than by the officer's own department.**
+
+---
+
+criminologists have questioned the data's accuracy. By definition, FBI reports are jurisdictional, not departmental: If an officer kills someone in another jurisdiction, according to Uniform Crime Report guidelines, the death should be reported by the agency in the jurisdiction where it occurred rather than by the officer's own department.
+
+Additionally, reports to the FBI may include justifiable homicides by armed security guards, transit police, housing police or other armed police. There is no flag in the data to indicate whether an officer is a member of the reporting agency's force.
+
+Because of these and other concerns, *The Post* chose to survey directly police departments to collect fatal shootings and woundings by each department's officers for 1990 to 1997. We focused on the 27 cities that had at least 500,000 residents at any point from 1990 to 1996, the latest year that U.S. Census population estimates were available.
+
+For verification, we compared the num-
+
+bers we collected to those in the SHR. We searched news clippings for previously published reports. Often, there were small differences; sometimes, bigger ones. To address these variations, we contacted the departments for further clarification or sought other sources, such as state UCR reporting programs or state attorneys general charged with reviewing fatal shootings by police officers.
+
+### Five-gauge analysis
+
+After consulting criminologists and reading literature on the subject, we determined that no single measure was adequate to gauge a department's number of officer-involved shootings. We decided instead to measure fatal shootings against five other categories: population, violent crime, arrests for violent crime, homicide and the number of uniformed police officers.
+
+Our data sources, all electronic, included:
+
+• Return A for violent crime and homicide totals. (This is the base table in the FBI's UCR.) Because it is the FBI standard, we used the Return A for homicides instead of the SHR. We also found its numbers to be more accurate than the SHR's. For example, in 1996, the SHR recorded four homicides for Austin, while the Return A recorded 40.
+
+• Age, sex and race of persons arrested for the number of violent crime arrests
+
+• Police employees for each department's number of uniformed officers
+
+• Instead of the FBI's population estimates for cities, which are extrapolated from state estimates, we used the more sophisticated Census Bureau city estimates for per capita calculations. (These figures are not ready early enough for inclusion in the FBI's annual reports.)
+
+Arriving at violent crime, homicide and arrest totals required adding up numerous fields of coded data. To verify our data work, we checked each number that we planned to use against the appropriate volume in "Crime in the United States," the FBI's annual publication. To further vet the FBI data, we checked the District's crime numbers with the police department and called a sample of other departments as well.
+
+**Continued on page three**
+
+---
+
+## Page 3
+
+*From page two:* **Spate of shootings**
+
+### More shootings by all measures
+
+To help offset possible discrepancies and to compensate for years with accurate but unusual spikes in fatal shootings, we averaged the number of fatal police shootings over the period for each department. Like-
+
+---
+
+**After consulting criminologists and reading literature on the subject, we determined that no single measure was adequate to gauge a department's number of officer-involved shootings. We decided instead to measure fatal shootings against five other categories: population, violent crime, arrests for violent crime, homicide and the number of uniformed police officers.**
+
+---
+
+wise, we averaged the numbers of violent crimes, arrests for violent crimes, homicides, uniformed officers and population.
+
+We used these averages to calculate how many fatal shootings there were per 100 homicides, per 1,000 arrests for violent crimes, per 10,000 violent crimes and per 100,000 residents in the District.
+
+We aggregated the other 26 cities' numbers and compared the District to the group. We also aggregated the data for nine other particularly violent cities and compared the District to that subset as well. Because of variations in how departments define and report violent crime, we used homicides to identify violent cities, choosing those with the highest homicide rates for the period.
+
+By each of these measures, the number of
+
+fatal shootings by District officers was higher than average – often significantly higher. Only when measured against homicide did D.C. approach the norm. Some criminologists say a high rate of homicide helps explain officer-involved shootings.
+
+To confirm the statistical significance of our findings, *The Post* consulted with Sarah Cohen, then NICAR's training director (*The Post* has since hired her), and later submitted the findings to James Fyfe, a nationally recognized criminologist, for review.
+
+### Local digs
+
+While we mined these federal databases, we also dug in locally, obtaining at least one electronic database, building others and scouring the courts for civil and criminal cases.
+
+With a FOIA request, we obtained an electronic database from the District of Columbia Use of Service Weapon Review Board that purported to detail every firearm discharge by a District police officer. The records outlined the circumstances leading to each shooting, but the department redacted officer names.
+
+We collected and built a database of nearly seven years of press releases from the D.C. police department on officer-involved shootings. We also found seven press releases on fatal shootings that had never made it to the department's Use of Service Weapon Review Board, the body charged with determining whether a shooting was justified or not.
+
+Another FOIA request yielded a list of lawsuits against the District, the Metropolitan Police Department or its officers that involved a shooting. We examined each of these lawsuits, gleaning more details about the shootings, the officers and sometimes the department's own investigations.
+
+Eventually, we expanded our search to include police brutality and built a database of more than 300 lawsuits against the District, the police department or police officers that had been settled or adjudicated, recording the settlement amount and the nature of the complaint.
+
+Finally, we mapped the local data, which provided a stark and startling picture of the volume and location of fatal shootings and woundings in the District.
+
+Jo Craven can be reached by e-mail at cravenja@washpost.com
+
+---
+
+**THE FIVE-DAY "DEADLY FORCE" SERIES IS ONLINE AT HTTP:// WASHINGTONPOST.COM CLICK ON METRO, THEN SPECIAL PROJECTS, THEN DEADLY FORCE.**
+
+**THE REPORTING TEAM INCLUDED DATABASE SPECIALIST JO CRAVEN, WRITERS JEFF LEEN, DAVID JACKSON, AND SARI HORWITZ, CAR DIRECTOR IRA CHINOY, INVESTIGATIVE EDITORS RICK ATKINSON AND MARILYN THOMPSON, AND RESEARCHERS ALICE CRITES AND MARGOT WILLIAMS.**
+
+**IT RECENTLY WON THE SELDEN RING AWARD.**
+
+---
+
+## Page 4
+
+**IGNORED RESTRICTIONS**
+
+# Flirting with disaster
+
+**By T. Christian Miller**
+*Los Angeles Times*
+
+The Santa Monica Mountains are one of Los Angeles' most spectacular natural features. The range stretches through the heart of the region, rising high above the city sprawl. It's where the famous – from Johnny Carson to Axl Rose – build their ego mansions.
+
+It's also where county politicians have routinely allowed developers and campaign contributors to run roughshod on environmental and growth restrictions, according to a recent *Los Angeles Times* analysis.
+
+Flouting those restrictions not only hurt the mountains but also stole from the public's pocketbook. Homes built in excess of the area's growth limits stood better than twice the chance of being hit by one of the natural disasters that plague the region – earthquake, flood and fire. Usually, state and federal taxpayers picked up the repair bill.
+
+### Mapping reality over design
+
+The story began with a simple question: Who built all the homes in the mountains, and how did it happen?
+
+From the beginning, it was clear this would be a mapping project, albeit one with a depressingly large scope: 20 years of development approvals covering more than 35,000 parcels of property.
+
+To start, we paid a consultant to scan in the area's growth plan, an outdated, 20-year-old document created when the bulk of the undeveloped part of the mountains was declared a national recreation area. The complicated map had more than 5,000 polygons, each representing different use and density classifications.
+
+At the time of the original plan, the idea was to hold down building density. That map, we figured, showed how the mountains were supposed to look. The next step was creating a map that showed the reality: all subdivision approvals since 1978.
+
+That turned out to be a trickier task. The Los Angeles County Assessor's Office wanted $80,000 to sell the GIS information outright. Instead, we rented time on the assessor's mainframe, then watched as one of his assistants created a special file showing the outlines of the subdivisions in our area of study.
+
+Once we had the two maps, we imported them into Maptitude, a low-budget, though effective, GIS program. Then we overlaid the two. The growth-plan map showed proposed density. Our new map showed actual density. The overlay, the heart of the project, showed the subdivisions that violated the growth restrictions – 40 percent of the nearly 100 subdivisions.
+
+### Timely contributions
+
+From there, we began reviewing the individual subdivision approvals, combing through musty files in numerous city halls and planning departments for the names of the developers, engineers, consultants and attorneys involved in the high-density projects. Using laptops loaded with Excel, we created our own database to track them, eventually inputting about 2,500 names.
+
+We ran those names against the *Times'* in-house database of political contributions, which has been continually updated since 1984. The results were not surprising: Nearly all of the developers and businessmen involved contributed to the campaigns of various supervisors in charge of the area.
+
+Since the link between developers and county supervisors had long been known, we decided to take the story one step further. To do that, we obtained the case-tracking database from our planning agency, which included the dates of public hearings and planning commission votes going back 15 years.
+
+We then compared the dates in that database with the dates in our political contribution database to determine that, in many cases, contributions came within the day and weeks of key votes on the projects. After approval, when the developers had gotten what they wanted, the money tap shut down.
+
+### Harmed habitats
+
+Next, we decided to check the damage from the developments. From the county's Flood Control District, we obtained water-level data for various streams in the area, data they had kept continuously for 30 years.
+
+Using SPSS, we then charted the increase in high-density area homes against an in-
+
+**Continued on page fifteen**
+
+---
+
+**SAFETY THROUGH GIS**
+
+JENNIFER LAFLEUR AND JOHN WOOLFOLK OF THE SAN JOSE MERCURY NEWS OFFER THIS EXAMPLE OF A STORY THAT COULD NOT HAVE BEEN DONE WITHOUT GIS.
+
+BEFORE THE 1998 EL NINO STORMS, WE OBTAINED LANDSLIDE AND DEBRIS FLOW MAPS FROM THE U.S. GEOLOGICAL SURVEY FOR THE NEARBY SANTA CRUZ MOUNTAINS. USING GIS WE WERE ABLE TO OVERLAY THOSE MAPS WITH BUILDING PERMITS ISSUED DURING THE PAST TEN YEARS TO SHOW WHERE BUILDING PERMITS HAD BEEN ISSUED ON LANDSLIDE AREAS.
+
+THE STORY RAN JANUARY 11. JENNIFER LAFLEUR SAN JOSE MERCURY NEWS JLAFLEUR@SJMERCURY.COM FOR MORE INFORMATION.
+
+---
+
+## Page 5
+
+*From page one:* **Costlier trading**
+
+panies have gone public on Nasdaq, raising the capital that has funded the valley's world-changing innovations.
+
+More broadly, tens of millions of Americans invest in Nasdaq stocks – on an individual stock basis, through 401(k) plans or through pension plan holdings.
+
+Unlike its better-known cousin, the New York Stock Exchange, Nasdaq has no trading floor. Instead, Nasdaq exists in the form of a super-fast computer network connecting securities dealers across the country.
+
+### Investors' losses are stock dealers' gain
+
+Therein lies our story. The fundamental premise of this system is that spirited competition among the dealers is supposed to keep investors' trading costs low. But, using a CAR analysis, the *Mercury News* found that isn't true.
+
+As we said in our "Shortchanged on Nasdaq?" report, more often than not, trading of a company's stock is concentrated in the hands of only a few dealers. When that happens, the transaction costs for investors are sharply higher.
+
+How much higher? Add it all up and the extra cost to the investing public could reach hundreds of millions of dollars annually.
+
+Who profits? Mostly the stock dealers, which include such household names as Morgan Stanley, Merrill Lynch and Goldman Sachs, plus regional firms across the country.
+
+To study Nasdaq, we analyzed about 11.2 million Nasdaq trades and market price postings. This data came from the Trade and Quote database of the New York Stock Exchange. Available on CD-ROM at nominal cost, TAQ contains trade-by-trade data on stocks listed on the NYSE, the American Stock Exchange and Nasdaq.
+
+Widely used by academics, TAQ is a good example of the kind of lesser-known business data that's available.
+
+Our analysis found that trading of a company's stock was concentrated in the hands of only a small number of dealers nearly two-thirds of the time. When there was the least amount of competition among dealers, the cost to investors to buy or sell those stocks was nearly twice what it was to trade when competition was vigorous.
+
+Most important, the level of dealer competition turned out to be a bigger factor in explaining investor costs than other factors customarily looked at by Nasdaq and federal regulators.
+
+Developing this last point was key, and it accounted for most of the heavy lifting in our CAR analysis. It turns out that assessing dealer competition by itself isn't terribly difficult. Besides dealer competition, things like trading volume also affect investor costs. It was crucial to "filter out" those other things to arrive at an apples-to-apples comparison.
+
+### Know statistical limits
+
+We did this using a multiple regression model we developed. If you're interested in the gory details, check out the Web sites listed in the sidebar. In the meantime, suffice it to say this model accounted for various factors affecting transaction cost and allowed us to explore among all of them how significant the influence was of dealer competition. Our primary software tools were QuattroPro, Paradox and SPSS.
+
+As we said in our story, we didn't find evidence of collusion or other deliberate anti-competitive behavior among dealers. But, some economists who reviewed our findings believe Nasdaq should make changes to improve market performance.
+
+With any analysis like this, it's important to keep in mind that you can never prove a relationship – in statistical terms, you've got to be on guard against confusing correlation with causality. While we didn't prove that lagging dealer competition directly causes higher investor costs, the analysis clearly suggested that the level of competition plays a significant role, even when accounting for other factors.
+
+Nasdaq executives hated what we did, calling it misguided and wildly inaccurate. In fact, they went to considerable lengths to try and prevent publication of the story.
+
+But, the bottom line, as business people are wont to say, was this: We put CAR to work in a coverage area where data isn't as readily available as others. In doing so, we think we told a compelling pocketbook tale that affects nearly everyone. You can, too.
+
+Chris Schmitt can be reached at (202) 778-1200 or by e-mail at CHSchmitt@aol.com
+
+---
+
+**TO SEE THE ENTIRE "SHORTCHANGED ON NASDAQ?" REPORT, GO TO WWW.SJMERCURY.COM/ BUSINESS/NASDAQ**
+
+**TO GO DIRECTLY TO A DISCUSSION OF METHODOLOGY ON HOW THIS RESEARCH WAS DONE, GO TO WWW.SJMERCURY.COM/ BUSINESS/NASDAQ/ NASDMETHOD.HTM**
+
+**FOR DETAILS ON THE NEW YORK STOCK EXCHANGE'S TRADE AND QUOTE DATABASE, GO TO WWW.NYSE.COM/PUBLIC/ MARKET/2C/2C3/2C3FM.HTM**
+
+**THE MAIN NYSE SITE IS AT WWW.NYSE.COM**
+
+---
+
+## Page 6
+
+**HANDOUT OF THE MONTH**
+
+# Write the flipping story!
+
+**By Dan Browning**
+*Star Tribune*
+
+*Browning provided this handout at the 1999 NICAR National Computer-Assisted Reporting Conference in Boston.*
+
+You'll probably never hear an editor yell that across a newsroom. Too bad. Across the United States, speculators are engaging in real
+
+---
+
+**Sophisticated power-brokers refined the scam during the S & L crisis. They flipped commercial properties and entire planned communities. Now, schemers are at work in poor neighborhoods in the nation's cities.**
+
+---
+
+estate scams called "flipping" as fast as they can. It's an old gambit. You've probably seen motivational programs on the practice on late-night TV: "Buy property with no money down! Get rich using other people's money!"
+
+In short, flipping is the practice of buying property and turning it around quickly for a large increase in value. It's not inherently illegal. But it often is.
+
+In an illegal flip, a speculator must find an appraiser to inflate the value of a house so that a lender will advance a mortgage that is not supported by the property's true market value. The speculator then buys the property near or below its true market value and re-sells it, either to a dupe or to a straw buyer, who finances the transaction with the loan. The purchase and resale often take place the same day.
+
+Sophisticated power-brokers refined the scam during the S & L crisis. They flipped commercial properties and entire planned communities. Now, schemers are at work in poor neighborhoods in the nation's cities. A handful of reporters have documented flipping schemes in New Jersey, Maryland, Florida, Wisconsin and Minnesota. It's undoubtedly more widespread.
+
+### Equity skimming and surfing
+
+The latest flipping schemes are intriguing. Investigators have discovered fake financial records, forgeries, misrepresentation of ownership and many other ploys. Authorities suspect some flippers of laundering drug money through the purchase and resale of these homes.
+
+When straw buyers are involved – that is, when the buyer is working with the seller, usually for a fee – equity skimming is often found. That's where the buyer rents out the property but fails to pay the mortgage. The buyer keeps the rents as the property winds through the foreclosure process, which can take up to 18 months in a state like Minnesota. By the time the authorities uncover the scam, the flippers may be long gone.
+
+Who suffers? Entire neighborhoods may be overassessed because of the artificial inflation of property values. Unsophisticated buyers end up in foreclosure, their credit wrecked and their eligibility for first-time home-buying programs forever lost. Buildings get boarded up and condemned. Municipal utility bills go unpaid. Lenders get stuck with properties they can't sell. And they must reimburse investors who bought securities backed by these fraudulently obtained mortgages. Shareholders in the mortgage companies therefore get less return on their investments. Lenders, feeling burned, then shy away from poorer neighborhoods.
+
+### Dealers deduced
+
+How do you uncover property flips? It's easier than you might think.
+
+In 1996, when I worked at the *Saint Paul Pioneer Press,* I wrote about property flips involving one well-connected speculator. A source told me that the speculator had bragged that he was putting people into business around the country, and no one would ever catch him. Two years later, I discovered that several of his associates or acquaintances had indeed gone into business.
+
+I was following one of his associates closely. Based on a tip, I pulled his property transactions. But I found far fewer deals than I expected. The reason? Dirty data. I'd type in the name of his company, but the data entry at the county was so poor that I missed many of the deals. Later, I discovered that he used several corporations to do the deals. I talked with local
+
+**Continued on page seven**
+
+---
+
+**BROWNING SUGGESTS THE FOLLOWING SOURCES TO USE WHEN CONDUCTING SIMILAR STORIES:**
+
+**PAPER SOURCES:**
+REAL ESTATE DOCUMENTS SUCH AS TITLE TRANSFERS, TAX RECORDS, CLOSING STATEMENTS, APPRAISAL REPORTS
+
+**HUMAN SOURCES:**
+BUYERS, SPECULATORS, INVESTIGATORS IN YOUR STATE GOVERNMENT WHO OVERSEE REAL ESTATE AGENTS, MORTGAGE BROKERS, MORTGAGE WHOLESALERS, BOARD OF REALTORS, APPRAISERS, HUD INSPECTOR GENERAL'S OFFICE, U.S. ATTORNEY'S OFFICE, STATE ATTORNEY GENERAL'S OFFICE, LOCAL ASSESSORS, NEIGHBORHOOD ACTIVISTS, HOUSING ADVOCATES
+
+---
+
+## Page 7
+
+*From page six:* **Property scams**
+
+assessors and found that I could buy data documenting property sales, called "certificates of real estate value"(CRV).
+
+In Minnesota, as in most places nowadays, a buyer must file these documents attesting to the date of the sale, the buyer, the seller, the property identification number, the purchase price and the nature of the financing, among other things. I pulled a bunch of hard copies and found that most of the time, the buyer, seller, sales date, PIN and purchase price were accurate. Most everything else on the forms were unreliable.
+
+The assessor gave me (at no charge) the database of CRVs from 1995 through March 1998. I used FoxPro to assign a transaction number on each sequential sale for a property and to clean up the names of the buyers and sellers. I had 6,575 transactions on 3,079 Minneapolis properties. Of those, 2,148 sold more than once, for a total of 4,170 transactions. Knowing that flips occur rapidly and for significant increases in value, I calculated the number of days between each repeat sale, and the percent change in value. Because many of the transactions took place on the same day, I couldn't say whether the percent change was positive or negative. So I decided to ignore the sign (plus/minus) of the percent change.
+
+I decided to examine deals that took place in less than 45 days for greater then a 50 percent change in value. I brought everything into Access to count the number of transactions each buyer and seller made. Then I took the list of major traders and ran the corporate names through the Secretary of State's Office to find out who was behind the corporations. I called this my AKA list. Then I pulled every single deal these heavy traders made, regardless of whether it appeared to be a flip or not.
+
+If a high percentage of the speculators' deals resembled flips, I copied their names to a short list. By contrast, if a small percentage fit the pattern of a flip, I decided to ignore them. Once my short list was built, I recounted the number of transactions these speculators had completed, both in terms of purchases and sales. Then I went to the courthouse and pulled the paper records: mortgage information, title transfers, etc. That was the hard part. It took about two months and cost me about $500 to copy these property records.
+
+### Widespread speculators, scarce licenses
+
+Minnesota requires anyone who makes five or more trades in property in a 12-month period to get a "limited broker's license." I took my data to the Minnesota Commerce Department and asked which of my speculators were unlicensed. The department was investigating flip sales on its own. But my database revealed that the practice was far more widespread than they had believed. They expanded their investigation. The department revealed that the FBI also was investigating.
+
+The commerce department, concerned that the media would ignore the problem, planned a press conference. The *Pioneer Press* ran my story on flips to head that off. The *Star Tribune* followed with several stories of its own. One showed that flips can take place even when the speculator holds the property and rehabilitates it.
+
+I later moved to the *Star Tribune.* In February, I wrote a story about the first criminal indictment here, which charged five people with conspiracy, mail fraud, bank fraud and various money laundering charges. I also noted three major civil suits filed by WMC Mortgage Corp. against 23 people and 30 business entities. My colleagues published follow-ups showing the human pain these practices can wreak. A sidebar showed how Norwest Mortgage, the nation's largest residential lender, lobbied the U.S. Attorney's Office to bring the criminal indictment. That case involved one of the lender's former mortgage brokers. So far, the state has disciplined six license holders and has targeted a total of 50 for closer scrutiny. Two FBI investigations are moving forward. The criminal division of the IRS is reportedly investigating, as is the state attorney general's office.
+
+I'd be remiss if I failed to mention the great work done on flipping stories by the *Milwaukee Journal* and the *Asbury Park Press* in the past two years.
+
+But I'd also be neglecting this opportunity if I failed to point out that this practice is going on around the country, yet few reporters have chosen to investigate it. I urge you to reconsider.
+
+Dan Browning can be reached by e-mail at dbrowning@startribune.com
+
+---
+
+**DIGITAL SOURCES:**
+PROPERTY SALES DATA (CALLED CERTIFICATIONS OF REAL ESTATE VALUE IN MINNESOTA), SECRETARY OF STATE CORPORATE RECORDS, MULTIPLE LISTING SERVICE (IF YOU'VE GOT A FRIENDLY REALTOR WHO CAN GET YOU ACCESS TO THE DATABASE), PHONEDISC (TO CHART THE DISTANCE BETWEEN SUBJECT PROPERTIES AND COMPARABLES LISTED IN THE APPRAISALS.
+
+---
+
+## Page 8
+
+**LOCAL ECONOMIC PORTRAIT**
+
+# "Booming" claim busted
+
+**By Paige St. John**
+*Tallahassee Democrat*
+
+The tip came from the side of the news building that most reporters suspect and shun: Advertising.
+
+Tallahassee car dealerships were in a foul funk, selling fewer cars and therefore buying fewer ads. But, when we called dealers to ask what was going on, each and every one claimed business was booming.
+
+Booming? We returned from visiting the computer clerk in the county recorder's office with a stack of monthly new car registration reports, which turned out to be the first key to dissecting the local economy. (HINT: This dataset also produced shorts on the hottest selling vehicles in town and statistics on out-of-town buyers. Later we learned the reports already were being collected each month by our own advertising department.)
+
+The car registration reports were broken down not only by dealership but also vehicle model. Month-to-month comparisons showed sales were way down. Plotting the numbers on six-month and 12-month rolling averages showed we were looking at an entrenched slump, not a glitch in the market.
+
+Armed with something solid, we called the dealers back. "Business is great!" they said again, but when we started citing their own slipping sales numbers, the interviews took a dramatic turn. Suddenly, the dealers were trying to explain a mysterious slump that was dragging down Tallahassee's economy.
+
+Business reporter Lisa Newkirk and I decided to try to take the pulse of the region, dividing the economy into sectors and, like the car dealership story, accumulating data on the performance of each one.
+
+### Lagging employment and wages
+
+The Florida Division of Labor and Employment Security *(www.state.fl.us/dles/main/ statdata.htm)* keeps an electronic warehouse of reports, downloadable in spreadsheet format. Most useful were the ES-202s, quarterly surveys of employment levels and wages broken down by county and by job sector. The standardized reports allowed easy statewide and national comparisons. Importing 10 years of reports into Excel, we could tell where Tallahassee was lagging in job and wage growth.
+
+### Slim pickings, housing glut
+
+A detailed database of home listings and sales, kept by the local realtors association, reflected activity in the housing market. It showed what was selling and where. More importantly, it showed what was not selling. The "market time," the period a home was on the market before being sold, had stretched to three years in what once had been Tallahassee's hottest housing developments – hallmarks of a building glut.
+
+Because realtor records don't reflect homes sold by developers, builders or individual homeowners (the "For-Sale-By-Owner" crowd), we turned to a commercial service for more detailed activity reports. The Florida-based Metro Market Trends collects monthly data tapes from county clerk and building permit offices. Our advertising department already subscribed, so we had free access. In addition to home sales, the reports showed a sharp drop in building permit activity and a rise in mortgage foreclosure filings. (Some of the same data also is available directly from local building permit offices.)
+
+### From spurt to sputter
+
+We mapped population growth – important to fuel the home construction industry – using the Census Bureau

@@ -1,0 +1,472 @@
+# Uplink — March 1999
+### A newsletter of the National Institute for Computer-Assisted Reporting
+
+---
+
+## PAGE 1
+
+**NURSING HOME ENTRANCE**
+
+# Elderly evictions
+
+**By Doug Stanley**
+*The Tampa Tribune*
+
+When *The Tampa Tribune* broke the news that one of the nation's largest nursing-home chains intended to evict more than 50 of its poorest residents in Tampa, reaction was swift.
+
+A circuit court judge issued an injunction, state health officials launched an investigation, a powerful state senator called for fines, and the state attorney general's office threatened to broaden its ongoing probe into fraud within the Medicaid system.
+
+But what initially appeared to be a local story about an isolated incident grew into a six-month *Tribune* investigation of the quality of care in Florida nursing homes run by large corporations whose stock is traded on Wall Street.
+
+The seemingly isolated incident wasn't isolated at all. Vencor Inc., the same company evicting residents in Tampa under the guise of a remodeling project, was evicting or planning to evict Medicaid residents in at least 13 other states.
+
+Clearly there was something bigger here. But what?
+
+Elderly affairs reporter Lindsay Peterson recalled a conversation she had with senior editor Ray Locker only a few weeks earlier. Locker suggested there might be an enterprise story in all the money Wall Street was pouring into the nursing home industry and companies like Vencor.
+
+Peterson began calling stock analysts who told her Vencor's stock had been dropping. Investors were worried cuts in Medicare and Medicaid would cut into profits.
+
+### Nagging questions
+
+Key questions became obvious: Do large, publicly traded nursing-home corporations take better or worse care of residents than other home operators? What role, if any, does the pursuit of profit play in the equation?
+
+The questions begged to be answered. More than one-quarter of Florida's 70,000 nursing-home residents live in facilities operated by six publicly traded companies: Beverly Enterprises, Genesis Health Ventures, Health Care & Retirement Corp., Integrated Health Services, Mariner Health Group and Vencor Inc. And an industry trend toward consolidation suggested that more and more frail elderly would become residents of homes where
+
+**Continued on page two**
+
+---
+
+**DRINKING WATER ANALYSIS**
+
+### Unsafe taps
+
+**By Peter Eisler**
+*USA Today*
+
+It's no secret that millions of Americans get bad drinking water. Year after year, private and governmental studies find that thousands of public water systems violate safe drinking water laws by failing to monitor and control contamination. News organizations (*USA Today* included) give those studies plenty of coverage.
+
+Last year, we decided to figure out how these bad water systems — from big-city utilities to mom-and-pop operations serving tiny rural communities — keep getting away with it again and again.
+
+The answer turned out to be simple: No one enforces safe drinking water laws.
+
+But proving it — and detailing the problem's breadth and impact — required one of the most challenging computer-assisted investigations we've ever done. We reviewed records on each of the 170,000 public water sys-
+
+**Continued on page seven**
+
+---
+
+## Inside Uplink
+
+Computer assisted reporters have been extending their investigative visiting hours at nursing homes, exposing abuse, neglect and exploitation within the world of elderly care.
+
+Doug Stanley of *The Tampa Tribune* reveals the highest rates of violations in homes operated by Florida's largest companies. Mike Berens of the *Chicago Tribune* unveils the pursuit by nursing home owners of mentally ill, often violent patients to fill unoccupied beds. Mark Rochester of *The Indianapolis Star and the Indianapolis News* continues digging at the site of an earlier nursing home series to uncover evidence of racial disparities.
+
+Also, Peter Eisler of *USA Today* analyzes the widespread violations but minimal enforcement of public drinking water laws. Dave Davis and Joan Mazzolini of *The Plain Dealer* unmask hospitals that claim illnesses more severe than actually existed to boost Medicare reimbursements. Ford Fessenden of *Newsday*, now of *The New York Times* portrays a region-wide pattern of racially imbalanced health care.
+
+**PAGE 10**
+*Tech Tip*
+**PAGE 14**
+*On the Internet*
+
+---
+
+## PAGE 2
+
+# Money or mercy?
+
+*From page one:*
+
+shareholders also must be served.
+
+The project began to take shape when it appeared the answers might lie in public documents — particularly nursing home inspection data from the Health Care Financing Administration and financial information from the Securities and Exchange Commission.
+
+### Comparison standards
+
+We acquired the OSCAR database for Florida from HCFA in ASCII on diskettes and imported the data into Access. Then came the requisite cleanup and false starts associated with unfamiliar data. Because our objective was to measure the homes of the six largest public companies against each other and against all other homes, the first step was to ensure accuracy in the field containing ownership information. Often that information was out of date. We used state and company documents to make revisions where necessary. This step is crucial.
+
+Ownership changes among some homes owned by the Big Six companies dictated that we look only at one year's inspection data. The universe became 642 nursing homes whose most recent inspections occurred between January 1997 and May 1998.
+
+We chose to look at total deficiencies as an overall indication of quality. But we were most interested in severe deficiencies that endangered or harmed patients. A field in OSCAR that assigned a letter-code ranking to each deficiency made that easy.
+
+How to compare the homes? Should comparisons be based upon numbers of beds or numbers of homes? After careful consideration, we settled on comparing deficiency rates based on numbers of homes because of varying bed-occupancy rates and an inspection system that uses the same size sample regardless of home size. Also, comparisons based on numbers of homes would be easier for readers to grasp.
+
+A "deficiency" is any violation of a nursing home rule or regulation. A total deficiency rate and a severe deficiency rate (both per 10 homes) were calculated for each of the Big Six companies; for all other Florida nursing homes; for all other for-profit homes; and for all nonprofit homes.
+
+### What we found
+
+The *Tribune*'s computer analysis found that residents of the homes operated by the Big Six companies are about 20 percent more likely to be harmed or put at risk than are residents of all other Florida nursing homes. It also showed that quality of care varied greatly among the big chains — when compared both to each other and to all other homes.
+
+**Key questions became obvious: Do large, publicly traded nursing-home corporations take better or worse care of residents than other home operators? What role, if any, does the pursuit of profit play in the equation?**
+
+With that key finding in hand — and reams of computer data on the care records of individual homes — Peterson and *Tribune* medical reporter Vickie Chachere descended on public records repositories around the state gathering the details that would put the flesh on the computer-constructed skeleton. They combed through thousands of pages of paper records, which held the human detail. Hundreds of interviews followed. Countless hours were spent in nursing homes. The SEC's EDGAR database and the companies' own Web sites provided financial context.
+
+Published as a special 8-page section on Nov. 15, the project struck a chord with readers and with lawmakers. Moderated by executive editor Gil Thelen, a community forum on a weeknight just before the holidays brought 150 people to the newspaper's downtown offices. State and federal lawmakers filed reform bills. Published during the midst of a change in administrations at the state level, the real impact of the project won't be felt until after the legislative session.
+
+Doug Stanley can be reached at (813) 259-7364 or by e-mail at dstanley@tampatrib.com
+
+---
+
+**Uplink**
+*March 1999*
+*Volume 11, Number 2*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+bjohnson@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Len Bruzzese
+len@ire.org
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**STAFF**
+Button Clapp
+Dawn Fallik
+Jason Grotto
+Ben Lesser
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Neil Warner
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex, Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+## PAGE 3
+
+**ILLNESS MANIPULATION**
+
+# Upcoding downfall
+
+**By Dave Davis and Joan Mazzolini**
+*The Plain Dealer*
+
+Out in the farmland of Ohio, far from sophisticated 1,000-bed teaching hospitals, hospital administrators say they are caring for the sickest elderly patients. It defied logic, experts told us. They were right. The rural hospitals aren't treating the most serious cases, but they are trying to make it look that way on paper to get higher Medicare reimbursements.
+
+Using four years of Medicare reimbursement data compiled by a private company, we found that in our state for-profit hospitals — without exception small in size and located in suburban or rural areas — received larger Medicare reimbursements than other hospitals. They claimed more often that their elderly patients suffered from an illness with complications.
+
+In Ohio, this defies logic. It means that small hospitals such as 52-bed Knox Community Hospital in the rich farmland of southwestern Ohio are treating sicker patients than the large, teaching hospitals in Cincinnati, Columbus and Cleveland. Health care experts told us that the opposite was true: Big-city hospitals treated the sickest, usually poorest, patients.
+
+"No one who is sober would dispute that," Frank Sloan, a researcher at Duke University told us. "It's like disputing the Earth is round."
+
+### Complication claims
+
+But we did come across a few administrators — mostly from hospitals owned or managed by Quorum Health Group, Ohio's most powerful for-profit player — who argued the illogical. That's not surprising — our analysis of Medicare reimbursements for 1994 through 1997 found that Quorum's hospitals, on average, claimed that 89 percent of their elderly patients suffered from an illness with complications. For large teaching hospitals, the average was 81 percent.
+
+In Ohio, Quorum's rate of claiming illnesses with complications was considerably higher than even the rate of Columbia HCA/Healthcare Corp., whose deftness in the art of "upcoding," the practice of making patients sicker on paper than they were in the hospital, has caught the attention of federal investigators and was the subject of a revealing and exhaustive investigative project by *The New York Times*. (See Josh Barbanel's cover story in the May 1998 issue of *Uplink*.)
+
+To understand how this works, you need to understand that Medicare pays hospitals a fixed dollar amount for treating the elderly based on the illness, known as a Diagnostic Related Group (DRG) in Medicare-speak. Some DRGs are related to one another, one being a more complex (and more expensive) case of the other, such as "simple pneumonia" and "respiratory infection with complications." Respiratory infection is the higher reimbursed DRG here. Not surprisingly, we found the number of reported respiratory infections on the rise in Ohio.
+
+Let's now make this more confusing. Each DRG, in addition to being part of a hierarchy of related illnesses, is part of a pair. DRG pairs are the exact same illnesses, but one has complications and the other doesn't, such as "simple pneumonia" and "simple pneumonia with complications." It should come as no surprise that Medicare pays more for treating the latter.
+
+### DRG analysis
+
+*The New York Times* investigation centered on true upcoding, where Columbia claimed reimbursement for treating a more complex DRG. Our stories focused on an offshoot of upcoding, where hospitals claimed high rates of treating an illness with complications.
+
+Our stories, published in October, took about three weeks to complete and could be easily duplicated in any state in the nation. The analysis included about one million admissions in 170 Ohio hospitals.
+
+It was pretty simple, really. We found a Louisville, Ky.-based company that combines information from two U.S. Department of Health and Human Services data files — the Medicare Cost Reports and Medicare Provider and Analysis and Review File (MedPar). The company, Data Advantage, (502) 587-9500, sold us the data for about $200.
+
+The data file we received contained hospital-level records by DRG. For each DRG, the records showed the number of elderly patients treated, the average amount the hospital was reimbursed and its bed size, among other things.
+
+We then examined each of the several hundred DRG pairs and calculated how often hospitals claimed their patients suffered an illness with complications rather than without.
+
+**Continued on page eight**
+
+---
+
+**THE TAMPA TRIBUNE STORIES CAN BE VIEWED ONLINE AT WWW.TAMPATRIB.COM/ REPORTS/HOMES/HOME.HTM**
+
+**NICAR'S DATABASE LIBRARY WILL FINISH PROCESSING THE OSCAR DATABASE IN MARCH. CALL (573) A884-7332 FOR MORE INFORMATION.**
+
+**FOR AN EXTENSIVE LISTING OF MEDICARE OR NURSING HOME INVESTIGATIONS AVAILABLE FROM THE IRE RESOURCE CENTER, POINT YOUR BROWSER TO WWW.IRE.ORG/ RESOURCECENTER**
+
+**RECENT MEDICARE EXAMPLES INCLUDE:**
+- **"NEW CHOICES, NEW WORRIES," CONSUMER REPORTS' LOOK AT THE EFFECTS OF SWEEPING MEDICARE CHANGES (#14789)**
+- **THE TENNESSEAN'S COMPUTER ANALYSIS OF 1995-1996 MEDICARE DATA. THE STORY PROVED SHOWED MEDICARE WAS KEEPING OVER-PAYMENTS MADE BY PATIENTS (#14759)**
+
+---
+
+## PAGE 4
+
+**CARE AND COLOR**
+
+# Treatment disparity
+
+**By Adam Pitluk**
+NICAR
+
+School safety officer Dedri Brown, an African-American diabetic, lost a leg to amputation. Yet it might have been saved if she had been aware of available treatments. Amputation is just one of several fates suffered more frequently by black diabetics than white diabetics, a *Newsday* investigation found.
+
+Gerald Adams is another example of insufficient health care for Blacks in New York: He has been waiting for a kidney transplant for five years — almost twice as long as the average white patient.
+
+For the past year, reporters from *Newsday* examined the health care provided to people in their region. The newspaper conducted a behavioral-risk study of more than 2,000 residents of Long Island and Queens to parallel surveys done at the federal level. At the helm of the investigation was *Newsday* data specialist and reporter Ford Fessenden, now with *The New York Times*.
+
+Fessenden's story started as an offshoot of a 1996 report card on all of the hospitals in the area. *Newsday* Associate Managing Editor Rich Galant wanted to know what the numbers had to say about the health issues facing readers. He and projects editor Bob Tiernan sent Fessenden to find out.
+
+"We found that the health of people in our region was good virtually on everything except heart disease," Fessenden said, "and nobody had ever really told people they had some of the highest heart attack rates in the country."
+
+### Transformed investigation
+
+It also quickly became clear that health care varied widely among different populations in Queens and Long Island. The study manifested into an issue of who receives better and more effective health care, whites or blacks. Here is what *Newsday* found:
+
+• Whites get more intensive treatment. They die of coronary heart disease at a lower rate than blacks but are more likely to undergo advanced heart procedures. Whites also have hip replacements at a rate twice as high as blacks, knee replacements at a rate 23 percent higher, and gall-bladder operations at a rate 53 percent higher. (All figures are adjusted for differences in age between the races.)
+
+• Blacks receive more radical surgery when less severe alternatives are an option. *Newsday* cited diabetes as an example: Blacks are more likely to lose feet or legs to amputation; whites are more likely to have surgery to restore blood flow and save their legs. Among 1,907 whites and 385 blacks from Nassau, Suffolk and Queens who had surgery for arteriosclerosis or diabetes-related circulatory problems in 1995, 61 percent of whites had surgery to restore blood flow, but only 43 percent of blacks had leg-saving surgery. Dedri Brown was not among them.
+
+• Black women are more likely to have the more invasive kind of hysterectomy treatment. Blacks with serious kidney problems wait longer for transplants and are less likely to receive one than whites. For every 1,000 blacks in the hospital with kidney failure, there were 8.2 transplants; for whites, 13.3 transplants.
+
+### Delayed visits
+
+Fessenden and his team analyzed some 3 million records of hospital admissions in Long Island and Queens covering a period of five years.
+
+As part of the inquiry, *Newsday*, joined by *The New York Times*, sued the state — which had refused to release fields in health care databases identifying doctors and insurance companies — and won. *Newsday* then showed that the best hospitals and busiest doctors treated white patients almost exclusively. *Newsday* also commissioned a pollster and concluded that blacks are more likely to seek alternatives to traditional medicine and delay visiting a doctor.
+
+"Even blacks with good insurance are sicker when they arrive at the doors of medical practitioners," he said. "Black cancer sufferers are more likely to die of their disease — a strong indicator they aren't getting care early enough."
+
+Treatment disparities have been an ongoing problem in medicine, Fessenden said. The purpose of his coverage was to let the numbers tell the story and make patients and doctors alike aware of this dirty little secret. On Feb. 14, 1999, a local conference of health officials addressed the problem, a di-
+
+**Continued on page eight**
+
+---
+
+**VIEW THE NEWSDAY STORIES ONLINE AT WWW.NEWSDAY.COM/ FEATURES/HEALTH/ HRSERIES.HTM**
+
+**BESIDES HOSPITAL ADMISSIONS RECORDS, FESSENDEN ALSO LOOKED AT DEATH RECORDS, DATA FROM CDC'S BEHAVIORAL RISK FACTOR SURVEY, THE NATIONAL HOSPITAL DISCHARGE SURVEY AND NATIONAL DEATH DATA FOR 1995 FROM THE NATIONAL CENTER FOR HEALTH STATISTICS. STATE DEATH RECORDS AND HOSPITAL ADMISSIONS WERE OBTAINED FROM NEW YORK STATE AND NEW YORK CITY HEALTH DEPARTMENTS.**
+
+**ORDER FESSENDEN'S 1997 HANDOUT FROM HIS EIGHT-PAGE NEWSDAY SERIES ON HOSPITALS (#682), IN WHICH HE LOOKED AT TOTAL ADMISSIONS, MORTALITY RATES AFTER COMMON SURGERY, EMPLOYEES PER PATIENT AND OTHER STATISTICS. CONTACT THE RESOURCE CENTER AT (573) 882-3364.**
+
+---
+
+## PAGE 5
+
+**NURSING HOME ENTRANCE**
+
+# Wanted: mentally ill
+
+**By Dawn Fallik**
+NICAR
+
+Mike Berens' three-part series, "Dangerous Bedfellows," began with the wrong question.
+
+"I had seen that the cost of health care in jails was going way up, and a tip told me it was mostly psychotropic drugs," said the *Chicago Tribune* reporter. "So I wanted to find out how many mentally ill patients were in the jails."
+
+Instead, he found the state taking mentally ill patients off the streets and out of the institutions and placing them into nursing homes. The reasoning: The state split the costs of care for nursing home patients with Medicaid. But, if the patient were placed in an institution, the state paid the full cost.
+
+Using about a dozen federal and state databases, including the OSCAR nursing home database, Berens pieced together the skeleton of a dangerous and occasionally deadly practice. He found that nursing home owners openly searched for mentally ill patients and that the Department of Public Aid often turned a blind eye to nursing homes filled with non-elderly residents.
+
+The series, published Sept. 27-29, 1998, resulted in a federal investigation of Medicaid fraud. The state responded by launching its own investigation. Illinois recently admitted that 17 of its nursing homes were actually being operated as mental institutions; all were then withdrawn from the Medicaid program.
+
+Because of the series and the investigation that followed, many nursing homes will be relicensed to allow such patients, but staffs will be required to receive specialized service and rehabilitation training.
+
+### Violent histories
+
+Berens found that many of the incoming mentally ill patients had histories of violence and needed intensive psychiatric care and drug therapies, neither of which nursing home employees were trained to handle.
+
+"In 99 percent of the cases, the attacks — and the resulting injuries — were never reported to police. This lack of reporting is part of a major problem," Berens said. "I documented hundreds of incidents of attacks and injury from the state nursing home inspection reports."
+
+Creating his own database of incidents, Berens found evidence of sexual and physical abuse of elderly patients and neglect of those who needed psychiatric care. In one case, he found a man whose behavior goals included keeping sexual fondling of other patients down to three times a week.
+
+Department of Public Aid officials denied putting mental patients into nursing homes. In order to subvert a rule that Medicaid would pay only for patients in homes with more than 50 percent actual nursing home clients, psychiatric patients were sometimes reported as physically ill.
+
+In one case, a woman whom state doctors had verified as mentally ill was re-classified in a nursing home as suffering from "cranial dermatitis," or bad dandruff, Berens said.
+
+### Underlying numbers
+
+Much of the evidence Berens used in his series came from a Department of Public Health database, which included a patient-by-patient listing of about 1,200 nursing homes. DPH's state twin, the Department of Public Aid, was not so helpful.
+
+"I would go to them with the numbers I had, showing that thousands of patients in nursing homes were mentally ill. And they would tell me I didn't understand the numbers and that I wasn't calculating the figures right," Berens said. "I've never had public officials just out-and-out lie to my face before."
+
+Although the federal Medicaid cost report shows the owners of nursing home facilities, it only includes those who own more than five percent.
+
+When Berens requested the same information from state sources, he was denied. After several months of wrangling with attorneys, the state relented. Berens then used the data to track down those owning less than 5 percent of the homes. "The whole thing was like an octopus network," he said.
+
+It wasn't until Berens completed his investigative work that he finally stepped foot into the nursing homes themselves.
+
+"The thing that helped me most was finding real advocates inside who helped guide me through the system. The series was a real melding of computer database technology and old-fashioned reporting."
+
+Dawn Fallik can be reached by e-mail at dawn@nicar.org
+
+---
+
+**VIEW THIS SERIES ONLINE AT HTTP:// CHICAGOTRIBUNE.COM/ NEWSMETRO/CHICAGO/ ARTICLE10;1051,ART-15623,00.HTML**
+
+**OF "DANGEROUS BEDFELLOWS," BERENS SAID: "I DIDN'T WANT IT TO BE A CAR STORY. THE STORIES ARE WRITTEN IN NARRATIVE FORM, WITH THE PEOPLE AS THE FOCUS, NOT THE NUMBERS."**
+
+**OTHER NURSING HOME INVESTIGATIONS AVAILABLE FROM THE IRE RESOURCE CENTER'S COLLECTION OF MORE THAN 12,000 STORIES:**
+- **TEXAS MONTHLY'S INVESTIGATION INTO THE STATE'S LARGEST NURSING HOME OPERATOR(#14867)**
+- **THE MILWAUKEE JOURNAL SENTINEL'S EXAMINATION OF ELDERLY ABUSE BY NURSING HOME WORKERS WITH FELONY RECORDS AND LAX FOLLOW-UP ENFORCEMENT BY THE STATE (#14535)**
+
+---
+
+## PAGE 6
+
+**NURSING HOME SECOND ENTRANCE**
+
+# Revisiting hours
+
+**By Mark J. Rochester**
+*The Indianapolis Star*
+*and The Indianapolis News*
+
+Too often, daily newspapers are reluctant to pursue major investigative efforts *after* the so-called "big story" has been published and the problem exposed. But do we really go back and take a second look?
+
+Sure, we all do follow-up stories: What is the reaction, if any, of the public or government officials to the findings of the investigation? Will anything likely change as a result of the investigation?
+
+Those are important stories, but they may signal the premature end of an investigation. Often, there is much more work to be done. For various reasons — lack of resources, other investigative projects in the pipeline, fear of repetition — we fail to keep digging following an investigation.
+
+We miss a lot of good stories when we do that.
+
+When state government and health officials promised significant reforms following publication of a year-long investigation of nursing home care printed in June, it was tempting for *The Indianapolis Star* and *The Indianapolis News* to simply bundle up our documents, source lists and computer databases and move on to the next project.
+
+### Past and present
+
+The newspapers had documented the pervasiveness of poor care in nursing homes and the shortcomings of numerous state and federal regulations that allowed the problems to linger. State and federal authorities reacted swiftly: State officials announced a series of reform initiatives, including tougher penalties against the worst providers.
+
+We could have assigned a reporter to follow those reforms and considered our work done on the issue, but we knew there was more to the story. Stick with an investigation until you've exhausted all crucial subject areas.
+
+The reporters had uncovered numerous leads and tips during the initial reporting effort. Others came flooding in after publication of the series, "The Tarnished Years." After several meetings, we decided to take the extraordinary step of undertaking another six-month investigation. Instead of reducing the staffers dedicated to the effort, the newspapers expanded the reporting team to three reporters, who, along with the CAR coordinator and a dedicated photographer, tackled an entirely new set of questions about the quality of care in nursing homes.
+
+Among the key findings of the second investigation:
+
+• As the need for reform was being debated by state health and government officials, problems in nursing homes rose dramatically from the previous year — there were 50 percent more health and safety violations, a computer analysis of state inspection records showed.
+
+• In Indianapolis, residents in predominantly black nursing homes received far worse care than those in white facilities. Among the disparities: Homes serving low-income blacks had nearly five times as many harm-level violations as homes serving whites.
+
+• Needless deaths and illnesses occur in nursing homes every year because of problems associated with the routine feeding and care of patients.
+
+### Separate and unequal
+
+Aside from the significant increase in health and safety violations, the most striking element of the latest investigation were the racial disparities in quality of care. Tackling that issue was difficult.
+
+Our first attempt to obtain data containing demographic information about nursing homes from was blocked by government officials, who denied our FOIA requests. Rather than continue that fight, however, we decided to pursue the matter at the state level, a strategy
+
+**Continued on page eight**
+
+---
+
+**THE SECOND FIVE-DAY SERIES, PUBLISHED JAN. 24-28, 1999, IS AVAILABLE ONLINE AT HTTP://WWW.STARNEWS.COM/ NEWS/SPECIAL/ NURSING2.HTML**
+
+**READ ABOUT ROCHESTER'S EARLIER NURSING HOME INVESTIGATION IN THE JULY 1998 ISSUE OF UPLINK.**
+
+**THE ORIGINAL SERIES, "THE TARNISHED YEARS," CAN ALSO BE VIEWED ONLINE AT HTTP:// WWW.STARNEWS.COM/NEWS/ SPECIAL/NURSING.HTML**
+
+**A SEARCHABLE DATABASE OF STATE INSPECTION RECORDS FOR METRO INDIANAPOLIS NURSING HOMES IS AVAILABLE AT HTTP:// SEARCH.STARNEWS.COM/DBI/ NURSING.QRY**
+
+---
+
+## PAGE 7
+
+# Laxity allowed
+
+*From page one:*
+
+tems subject to state and federal regulation. We made FOIA requests to all 50 states and the federal government. We spent hundreds of hours compiling, standardizing and scrutinizing data. Our analysis was so thorough and unassailable that the U.S. Environmental Protection Agency inquired about hiring our database editor, Barbara Hansen.
+
+### Matters of "significance"
+
+Some of our findings:
+
+• About 40,000 water systems violate safe drinking water laws each year; 9,500 of them have "significant" problems that pose "serious threats to public health," according to the EPA. Yet just one in 10 "significant" violators face binding enforcement action such as an administrative order, fine or lawsuit. One-quarter of all "significant" violators have been in that category for at least three years.
+
+• Eleven states have not implemented all the Safe Drinking Water Act's contamination limits, which should have been in place by 1995. At least 13 states don't meet federal guidelines by inspecting water systems every three to five years. A half-dozen have not given their drinking water regulators the power to levy fines.
+
+• The EPA is more than a year behind in completing required assessments of drinking water programs in at least 11 states. What's more, the agency's Safe Drinking Water Information System (SDWIS), the main national database used to monitor water systems' performance, is terribly inaccurate.
+
+The stories got a strong response. We met requests for more than 30,000 reprints. In Congress, the project prompted an inquiry to the EPA by Reps. Henry Waxman, D-Calif., and Sherrod Brown, D-Ohio. Waxman's office says he intends to raise the issue with EPA officials at hearings this year.
+
+### A path full of hurdles
+
+The project began simply, but it didn't stay that way. First, we went about learning how drinking water rules work. Then we set measures for evaluating their success: Are states implementing required regulations? Are states conducting regular sanitary surveys (inspections) of water systems? Are state and federal officials taking action against systems that violate health and safety rules?
+
+We sent FOIA requests to the EPA and the states for the records we needed. The states' data were wildly inconsistent — each state has different rules on what constitutes a violation of drinking water laws and what warrants an enforcement action.
+
+More troublesome: the states' data didn't jibe with much of what the EPA had in SDWIS. The federal database was riddled with errors. Some we were able to resolve, but we had to adjust our expectations. We used SDWIS to draw conclusions at the state and national levels, but information on specific water systems had to be verified independently.
+
+We finished with four databases: SDWIS, which we imported into Paradox using Monarch parsing software, and three we built ourselves. The first, based on sanitary survey records, allowed us to calculate average inspection rates for water systems in each state. The second, based on census data and information from EPA's infrastructure needs survey, allowed us to calculate per-capita costs for bringing water systems into compliance with federal requirements. The third, based on state budget data, allowed us to determine each state's per-capita spending on drinking water oversight.
+
+### Lessons learned
+
+• Know the rules: You can't interpret data without a keen understanding of how it was compiled and categorized. Plus, you'll win over sources with your technical expertise.
+
+• Check data: To confirm findings' validity, develop alternate queries and different approaches that should yield the same result.
+
+• Be honest: Explain your data's limits. We wrote a separate story on the problems we found — especially with SDWIS — to help readers understand what conclusions could and could not be reached.
+
+• Allow time: When you're getting data from varied sources, budget time for cleanup and verification. Also, many states aren't used to handling requests for computerized records, so there's a lot of haggling.
+
+Peter Eisler can be reached by e-mail at peisler@usatoday.com
+
+---
+
+**USA TODAY'S FIVE-PAGE REPORT, "DRINKING WATER'S HIDDEN DANGERS," WAS PUBLISHED OCT. 21, 1998.**
+
+**VIEW THE REPORT ONLINE AT WWW.USATODAY.COM/ NEWS/SPECIAL/ WATER001.HTM**
+
+**FOR REPRINTS, CALL PETER EISLER AT (703) 276-5822.**
+
+---
+
+## PAGE 8
+
+# Medicare milked
+
+*From page three:*
+
+Next, we grouped hospitals together based on their size (small, medium and large) and who operates them (for-profits or non-profits).
+
+We found that size mattered little in how often hospitals claimed complications. Ownership, however, was a big deal. Because the records included the average amount hospitals received for each DRG, we also estimated how much tax money would have been saved if the small, for-profit hospitals had received reimbursement for patients no sicker than patients in their urban, non-profit counterparts. The figure was a whopping $22 million for the four-year period.
+
+Dave Davis can be reached by e-mail at ddavis@plaind.com
+
+---
+
+# Finding the unknown
+
+*From page four:*
+
+rect result of Fessenden and *Newsday*'s findings.
+
+### Incredulous response
+
+When the article ran, there was a lot of initial resistance by doctors.
+
+"At first the doctors said, 'No way.' But some of them came back to me and said, 'Hmm. Maybe my practice is like the study.'"
+
+Fessenden said his findings are important as both public service and investigative journalism. "The nice thing about this stuff is we found something other people didn't know. We took our findings to the health department and they said, 'What?' It's expert journalism in that it gives you information not previously known, as well as believability."
+
+Adam Pitluk can be reached by e-mail at c664490@showme.missouri.edu.
+Ford Fessenden can be reached by e-mail at fordfess@nytimes.com
+
+---
+
+# Measured neglect
+
+*From page six:*
+
+that had worked well while putting together our original series.
+
+We knew the state of Indiana collected the same nursing home census information as the federal government, so we hoped it would be a simple matter of obtaining that database. It wasn't. State officials denied the existence of any such electronic records, claiming only hard copy forms tucked into thousands of files warehoused in their offices.
+
+Even though we were running into roadblocks set up by officialdom, we had other successes that inspired us to keep going. Using Paradox and SPSS software to analyze several different databases we had already obtained, we determined other patterns in the data that let us know we were on the right track. For example, we documented the impact poverty has on quality of care by examining state inspection records, U.S. census data and Medicaid reimbursement rates from the government. Analysis showed that most poorly performing facilities were in low-

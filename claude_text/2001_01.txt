@@ -1,0 +1,539 @@
+# Uplink — January/February 2001
+
+---
+
+## Page 1
+
+**January/February 2001**
+
+# Uplink
+
+---
+
+**CHILD WELFARE**
+
+# Measuring foster care
+
+**By Jason Method**
+*Asbury Park Press*
+
+Despite New Jersey's child protection agency's two-year, $128 million reform effort, children who are wards of the state are spending more time in foster care, group homes and institutions than just a few years ago. That was the key finding when the *Asbury Park Press* decided to find out how much, if any, progress the state had made in its reform goals.
+
+Like in many states, the child protection agency is veiled under confidentiality laws. To make reporting more difficult, New Jersey has one of the weakest public
+
+---
+
+**CENSUS 2000**
+
+# Race problem solutions
+
+**By Steve Doig**
+*Arizona State University*
+
+A year ago (see the January/February 2000 *Uplink*) I wrote about the looming problem of making valid comparisons of the racial and Hispanic origin data from 1990 and 2000. In that piece, I followed journalism's great thumbsucker tradition of raising an alarm but offering no solid solutions. Well, the problem is no longer looming – it's here, so it's time to focus on solutions.
+
+The problem, of course, is that in the 2000 Census, respondents were allowed to check off as many racial categories as they wished, whereas respondents in 1990 and earlier could only pick one race to describe themselves. This meant that the ten possible 1990 race and Hispanic origin categories (ranging from "Non-Hispanic white" to "Hispanic Other") have ballooned to a total of 126 possible
+
+**Continue on page nineteen**
+
+---
+
+access laws in the nation. DYFS officials turned down my request for some dozen statistical reports that would have documented the agency's performance.
+
+Fortunately, I learned of a database kept by the federal government that can pierce through the confidentiality laws and bureaucratic resistance. The database tracks the some 600,000 children, in all but a handful of states, who are under state foster care or are in other state facilities. CAR journalists may use the database to evaluate state child protection agencies through the systemic criteria used by child welfare experts and to track that performance over time.
+
+The Adoption and Foster Care Analysis and Reporting System contains detailed information on every child who has entered care in a federal fiscal year. The foster care data includes the date of birth, sex and race. It gives other important dates, such as the date the child last entered state care and the date the child was discharged. It provides reasons why the child was removed and indicates any physical disability.
+
+AFCARS, which comes only in an SPSS or SAS format, also has variables tracking how many foster homes or other state facilities the child has been placed in, how many times they have been removed from their natural home, and what type of placement — such as foster home, group home or institution —the child was last reported in.
+
+A second database that comes with the AFCARS data documents adoptions of former foster children or children placed by the state agencies across the country. It contains the same biographical and date information as the foster care database.
+
+Names and addresses are excluded from the datasets and dates of birth are altered slightly for confidentiality reasons. But that
+
+**Continued on page fourteen**
+
+---
+
+## Inside Uplink
+
+This issue of *Uplink* contains a cornucopia of topics, ranging from census data to gambling.
+
+**Gambling**
+
+Barnet Wolf of the *Columbus Dispatch* used a variety of data sources to study gambling trends in Ohio.
+
+**SEE PAGE EIGHT.**
+
+**First Ventures**
+
+Randy Travis of WAGA-TV in Atlanta tells about his station's first foray into computer-assisted reporting: a story that revealed convicted felons working as certified nurse aides in Georgia nursing homes.
+
+**SEE PAGE FOUR.**
+
+Jason Callicoat of the *South Bend Tribune* tells about his attempt to recreate a NICAR Bootcamp favorite, parking tickets and bad weather.
+
+**SEE PAGE FIFTEEN.**
+
+**Mapping**
+
+John Maines of the *South Florida Sun-Sentinel* shares tips on setting up an inexpensive, simple mapping system that can handle any newsroom task.
+
+**SEE PAGE ELEVEN.**
+
+---
+
+## Page 2
+
+# Uplink
+
+*January 2001*
+
+*Volume 13, Number 1
+A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+
+**MANAGING EDITOR**
+Mary Jo Sylwester
+
+**ASSOCIATE EDITORS**
+Mike Sherry
+Amy Sherrill
+
+**ART DIRECTOR**
+Kerrie Kirtland
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+
+**DIRECTOR OF PUBLICATIONS**
+Len Bruzzese
+
+**SUBSCRIPTION ADMINISTRATOR**
+John Green
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org
+
+---
+
+**IN THE NEWSROOM**
+
+# CAR newsletters
+
+**By Richard Dalton**
+*Newsday*
+
+So you do computer-assisted reporting at your news organization and you've decided that with all the spare time on your hands, you might as well start an in-house newsletter to spread the CAR gospel to the rest of the newsroom?
+
+Great. You've joined a handful of other newsrooms.
+
+Even with a limited amount of time, you can produce a CAR newsletter that is both practical and inspirational. Here are some tips on creating CAR newsletters. CAR enthusiasts sent in some tips, while I culled others from reading newsletters.
+
+For some examples of in-house newsletters, including Car Talk, Byte Me and Mouse Droppings, check out *www.kricar.com.*
+
+## This-Is-How-I-Did-It articles
+
+The best way to provide both practical advice and inspiration is the TIHIDI article — the This-Is-How-I-Did-It piece. *Uplink* is chock full of TIHIDI articles, and for good reason. Such pieces show how you can replicate the story in your area and help you brainstorm. And the articles offer the Wow factor: "Wow, it's amazing what you can do with computer-assisted reporting."
+
+**Even with a limited amount of time, you can produce a CAR newsletter that is both practical and inspirational.**
+
+Even a small in-house newsletter should contain at least one TIHIDI article. And the best part is that you can delegate this task: Ask other staff members to write articles describing how they wrote a CAR story. If you're part of a chain, ask other reporters in your chain to contribute.
+
+The piece should briefly describe the CAR story, indicate what software was used, what databases were analyzed and how they were
+
+obtained. A box accompanying the story should list some of the key fields in the database.
+
+If CAR reporting is quite active in your newsroom, run a roundup of CAR stories.
+
+## CAR Q&A
+
+Answer questions that reporters submit to the newsletter. Or if you help out another reporter in person, turn the help session into a Q&A for the newsletter.
+
+## Software Tips
+
+Microsoft Excel and Access are the most commonly used software tools in CAR. Focus on those products initially, starting with simple tips: subtotals, importing data from HTML documents, etc.
+
+## Don't let 'em lose it
+
+You know how easy it is to lose something amidst the mounds of papers on a reporter's desk. So, Jennifer LaFleur, of the *St. Louis Post-Dispatch* recommends printing the newsletter on obnoxiously bright paper, so it won't get lost in the shuffle. In her previous job in San Jose, she gave out binders for reporters to store tip sheets and copies of the newsletter.
+
+## Point out CAR resources
+
+Highlight useful Web sites for finding anything from phone numbers to government data. What databases does your news organization have? Focus on a few, listing possible story ideas. List CAR resources reporters can turn to, including possibly yourself. Does your news organization offer training in Microsoft Excel or Access? List the schedule of classes. Or hold some classes yourself. Also point out books or videos on CAR software. Do you have tech-support people who can answer questions about software? If so, point reporters in their direction (and save yourself some time.)
+
+## Highlight Math Tips
+
+Include tips on calculating percentage change, per-capita rates, inflation adjustments, etc.
+
+## How often to publish
+
+Janet Roberts of the *St. Paul Pioneer Press* went from writing all of the articles to relying almost entirely on contributions from re-
+
+**Continued on page sixteen**
+
+---
+
+## Page 3
+
+**CENSUS 2000**
+
+# Historical data sources
+
+**By Neill A. Borowski**
+*The Philadelphia Inquirer*
+
+My squirrel-like habits of burying historical census data like acorns to be uncovered in the future began in the days of paper.
+
+And my prized "database" is a booklet called Recent Historical Trends, published by the Philadelphia City Planning Commission. How "recent" are the trends? The report was published in 1966 and long ago fell apart (it's held together with a binder clip). But that report is packed with detail on population and race in parts of the city going back to 1930.
+
+Should you be as obsessed? If you're so inclined, your newspaper could benefit greatly from historical local census data online – available well in advance of the flood of 2000 data.
+
+Electronic data archives should be easier to build than paper ones. But they aren't.
+
+I discovered this recently when I began to ask around about the availability of 1970 and 1980 census data in computer form. A typical answer from one agency in Pennsylvania that hands out such data was "We don't have anything that old."
+
+If you build a historical census archive for your area, you may have the only such archive around. You will be building something useful to reporters and editors that will be around long after you're gone.
+
+However, you may find yourself behind closed doors – as I have been – reconciling an ArcView census tract map on your computer screen with an old paper map from 1950. Yet, imagine how powerful a graphic we'll have to accompany a story on population change in a given Philadelphia neighborhood: 50 years of change, from 1950-2000.
+
+You may not want to get so nerdy that you include every census tract from 1960 in your archive. But you may want to have the populations of minor civil divisions (townships, cities, boroughs) or counties going back 50 or more years.
+
+A few ideas to get started in your quest to pin the wonk-meter's needle:
+
+• Visit your local library. Tucked away on shelves you'll often find dusty printed volumes of census results going back decades. Photocopy the pages and have the data input to build a database.
+
+• Stop by the "United States Historical Census Data Browser" at *http://fisher.lib.virginia.edu/census/*. You can pull county-level data going back to the first decennial census in 1790.
+
+• Purchase the 1980 and 1990 data in bulk from the Census Bureau. Go to *www.census.gov/mp/www/rom/* to check out pricing and availability. For example, the 1980 STF-3A file for the nation costs $1,500. However, the cost plunges to $150 if you're after only one state (the CDs contain several states each). The 1990 STF-3A file for the nation costs $4,340. Some single states fit on one CD at $100 each. Larger states, such as Pennsylvania, fill several CDs. Pennsylvania, for example, is a three CD set costing $225. Texas is a four-CD set costing $300. The PL 94-171 file for 1990 costs $550 for the nation (10 CDs) or $100 for a single CD.
+
+---
+
+**"Your newspaper could benefit greatly from historical local census data online - available well in advance of the flood of 2000 data."**
+
+---
+
+• Buy the 1970 block-level data from the National Archives at *www.nara.gov/nara/electronic/cen1970.html*. The price ranges from $90 for a state to $1,315 for the nation.
+
+• Purchase 1940 through 1970 tract-level data from the National Archives at *www.nara.gov/nara/electronic/bogue.html*. This dataset, called the "Bogue File," was created by keypunching paper data as part of research at the University of Chicago. Not all areas of the country are represented, although the largest cities are in the data. Each year is $80 on nine-track tape.
+
+• Buy the CensusCD from GeoLytics Inc. (*www.geolytics.com/*). National data for a full year is available on one CD. This private firm's slogan is "Making Demographics Easy to Use!" and using the CensusCDs is far easier
+
+**Continued on page seven**
+
+---
+
+**Sources for historical census data:**
+
+United States Historical Census Data Browser,
+http://fisher.lib.virginia.edu/census/
+
+U.S. Census Bureau, 1980 & 1990 data,
+www.census.gov/mp/www/rom/
+
+National Archive, tract level data, www.nara.gov/nara/electronic/bogue.html
+
+GeoLytics Inc.,
+www.geolytics.com/
+
+CIESIN, www.ciesin.org/
+
+OSEDA,
+www.oseda.missouri.edu/.
+
+---
+
+## Page 4
+
+**FIRST VENTURE**
+
+# Felons and nurses
+
+**By Randy Travis**
+*WAGA-TV, Atlanta*
+
+We've worked long-term investigations here before, but nothing compares to my station's first venture into computer-assisted reporting. As it turned out, the story was well worth the wait. Even if it took nearly a year.
+
+Our investigation began with an issue some reporters in other parts of the country have already tackled: people with criminal records working in nursing homes.
+
+What intrigued us here in Georgia is a unique twist in our law. The state certifies nursing home workers, called certified nurse aides (CNA). Then, Georgia nursing homes must do a criminal background check before they are hired. But the law doesn't preclude the nursing home administrator from hiring a convicted felon. With staffing shortages so critical, we suspected CNAs with criminal records were still being hired. Turns out, we were right.
+
+We started with separate open records requests to the state Department of Human Resources (DHR) and the Department of Corrections (DOC). DHR maintains a database of all certified nurse aides, both past and current. DOC keeps track of all criminal convictions, both felony and misdemeanor. We got the complete DOC database without any trouble, and no charge. Our first roadblock came in getting what we needed from DHR.
+
+We felt Social Security numbers provided the most accurate way to match up names between the two databases. No problem, DOC told us. They gave us everything. But DHR balked at the idea of providing us what they considered private information. Our state's open records law does not directly address this issue. It took four months of phone calls to the attorney general's office and DHR before we finally convinced them the information was subject to the open records law. The disk cost us only $10. But by then, our plans for a May sweeps series were gone.
+
+## Dirty data
+
+It didn't take long, though, for us to realize that the hard work hadn't even begun. The data from both sources were dirty. In one table, the Social Security numbers were
+
+separated by dashes. In the other, the numbers weren't separated at all. First and last names were in separate fields in one ... but combined in the same field in the other.
+
+That's why we turned to NICAR. They were able to clean up the data and do the match between databases. Of the 73,410 nursing aides, NICAR found 5,595 had a criminal record. But there was more work to do.
+
+The CNA database included people who hadn't been certified in years. We didn't want them included in this investigation. Secondly, some of the CNAs committed their first crime after they were certified. Can't blame a nursing home for that. Yet they still showed up as a match.
+
+So, we began eliminating matches. Using Microsoft Access, we first kicked out all CNAs whose certification expired before 2000. That gave us a list of current criminal CNAs. Then we took out all CNAs who were convicted after their certification date. That eliminated all those CNAs who had clean records when they were hired, but committed a crime later on. We wound up with 219 felons and 2,942 probationers currently allowed to work in Georgia nursing homes. Now it was time to find them.
+
+---
+
+**We felt Social Security numbers provided the most accurate way to match up names between the two databases. No problem, DOC told us.**
+
+---
+
+Georgia does not keep track of where certified nurse aides actually work. So it was impossible for us to say how many of the criminal caregivers actually had access to the elderly. The DHR database did include the CNA's address at the time of certification. So, we started there. Thanks to the Web site healthgrades.com, we used those addresses to get a list of every nursing home nearby. Then we started calling asking to speak to some-
+
+**Continued on page five**
+
+---
+
+**The WAGA-TV Story "Criminal Caregivers," will be available soon in the IRE Resource Center at *www.ire.org/resourcecenter/***
+
+**Data: certified nurse aides database**
+**Source: Georgia Department of Human Resources**
+
+**Data: criminal convictions**
+**Source: Georgia Department of Corrections**
+
+**Software used: Microsoft Access**
+
+**See sample slices of the data WAGA-TV used on the NICAR Web site, *www.nicar.org/techtips.html***
+
+---
+
+## Page 5
+
+*Continued from page four:* **Felons**
+
+one to verify employment. When we got a hit, we confirmed it by Social Security number. We focused on the small communities that didn't have as many nursing home choices. We found more than a dozen criminal caregivers that way.
+
+## Crimes at nursing homes
+
+The other part of our investigation looked at whether criminal caregivers are actually more likely to commit crimes once they get inside the nursing home. The state Department of Human Resources also maintains an abuse registry. When a CNA harms a resident, they wind up on the registry. We merged the registry with the Department of Corrections table and found 82 criminals. Many of them committed the same crime inside the nursing home that they had on their record when they were hired: burglary, assault, theft, etc.
+
+It took us even longer to track down those victims or their families. By law, they're not listed in the abuse registry. That meant contacting local police departments and asking for incident reports of those crimes. But often, the nursing home didn't bother to call the police. Months later, we managed to find family members to react to our investigation. They had no idea the nurse aide who had harmed their elderly relative was a criminal before he was ever hired.
+
+Our series finally aired November 8 and 9, 2000, nearly a year after we made our first request for the data. The investigation is expected to prompt a change in the law when the state general assembly meets in January.
+
+Unfortunately, in an ironic twist, state lawmakers may also vote to make Social Security numbers exempt from the open records law. If you're planning a similar investigation, fight for that key data. Without it, our investigation would certainly have taken even longer.
+
+Randy Travis can be reached by e-mail at rtravis@fox5atlanta.com
+
+---
+
+**TECH TIP**
+
+# Enterprise joins
+
+**By Ron Nixon**
+*IRE and NICAR*
+
+Enterprise joins – matching databases that weren't designed to be matched – is one of the most powerful features of relational database managers like FoxPro, Access and Paradox. Using enterprise joins, reporters across the country have successfully matched databases of school bus drives against people with driving convictions, found dead people voting in elections, felons with hunting license, and deadbeat parents in state government.
+
+When seeking databases, reporters should always think about ways they could join databases from different agencies or across different fields of study to get stories. Unfortunately, databases rarely have identifying codes like Social Security numbers or some form of employee id. In cases where you don't have this type of information you have to come up with proxies. Some identifiers could be birth dates or address like the person's street number, city or zip code.
+
+Although enterprise joins can produce great stories they can be fraught with danger. A wrong match can give you incorrect information. You could, for example, get a match for a deadbeat parent working at the agency that collects delinquent childcare payments. But since you only matched on the person's name, the join could be wrong.
+
+Always remember that a name is never a unique identifier. How may Ron Nixon's are there or John Smith's? There are probably thousands. Another thing to remember is that the names have to match in both. Ron Nixon is not the same as Ronnie N. Nixon to the database, even though they might be the same people. You will have to standardize the names to get the matches you want.
+
+Finally, always verify, verify, and verify that the name you have is really the person you think it is. The join is just the start. Once you have that the real reporting begins.This not only ensures that you get the story right, it also protects you and your paper from a potential lawsuit.
+
+Ron Nixon can be reached by e-mail at ron@nicar.org
+
+---
+
+**Stories**
+
+For more on matching felony and caregiver databases, take a look at these stories available from the IRE Resource Center, (573) 882-3364
+
+**Story # 15823.**
+The Record (Hackensack, N.J.) reports that "New Jersey has allowed numerous thieves, drug dealers, and violent offenders to work as home health aides - no questions asked. In nearly every county, The Record found criminals — fully certified by the state — working alone in the homes of cancer survivors, the elderly, and the infirm, their pasts hidden from vulnerable patients."
+
+**Story # 15102.**
+*The Denver Post* examines four suicides that occurred at a state mental health institute. Abusive employee reports led into findings of their criminal histories. Many of these employees were on work-release programs.
+
+---
+
+## Page 6
+
+**TRANSPORTATION**
+
+# Valuable accident data
+
+**By Hurst Laviana**
+*The Wichita Eagle*
+
+Wayne Louden has been involved in 37 traffic accidents since Jan. 1, 1990, making him the most accident-prone driver in Kansas. Thomas Spicer has been involved in 27 wrecks, 21 of which resulted in inattentive driving tickets.
+
+Louden and Spicer were key players in a series of stories about accident-prone drivers in Kansas. The series was based on a Kansas Department of Transportation 1990-1999 database that covered 703,000 traffic accidents involving 1.1 million drivers.
+
+Acquiring the database was a struggle, but it has proved to be one of the most valuable data sets in our newsroom. It has yielded stories about the growing number of car-deer accidents in the state, the reluctance of drivers in the nation's "beltless belt" to use seatbelts and the fact that accidents involving police chases doubled in Kansas during the 1990s. The data also allows us to quickly generate lists of accidents that have occurred at any intersection in the state.
+
+---
+
+**Acquiring the database was a struggle, but it has proved to be one of the most valuable data sets in our newsroom.**
+
+---
+
+But the biggest reader reaction came from the story about accident-prone drivers. Many were surprised to learn they were sharing the roads with 20 Kansas drivers who had 10 or more accidents in the 1990s. And some of those drivers had dozens of traffic convictions.
+
+How did they keep driving?
+
+It turned out that the Kansas Division of Motor Vehicles hasn't been enforcing a law that allows it to suspend the license of any driver convicted of three moving violations in a 12-month period. Instead, the DMV only takes action after the fifth conviction.
+
+It also turned out that Spicer's inattentive driving tickets – as well as 70,000 other inattentive driving citations issued each year by Wichita police – don't even count against a driver's record. Inattentive driving is a ticketable offense in many Kansas cities, but state law does not prohibit it. So the state doesn't count it.
+
+## Doing the stories
+
+The seeds for the story were planted more than a year ago when Crime & Safety team leader Jim Lewers asked KDOT for five years of accident data. KDOT mailed him copies of the 1990 through 1996 annual traffic accident reports.
+
+Lewers tried again, this time asking for a comprehensive electronic database with detailed information about each accident. KDOT's response: for $51,710 we could have the data – minus the drivers' names and accident locations. KDOT, which wanted 5 cents a line for just more than 1 million lines of data, said giving us the names and accident locations could result in the information being used against it in court.
+
+KDOT held its ground until February, when a judge ruled that the agency was improperly withholding railroad crossing accident data from another Kansas newspaper, the Garden City Telegram. KDOT eventually gave us the accident data – names and all – for $87.11.
+
+## Crunching numbers
+
+The file arrived in the newsroom on a CD-ROM in the form of a 550-megabyte Microsoft Access database, which included separate tables for such variables as drivers, accidents and vehicles. My three-gigabyte hard drive was no match for that much data, but we did turn around some quick stories using pieces of the data.
+
+On March 22, the day the Kansas House of Representatives approved a bill designed to cut car-deer accidents by increasing the number of out-of-state hunting permits, we sliced the deer accidents from the accidents table and loaded them into an Excel spreadsheet.
+
+Excel's Chart Wizard produced an interesting graphic that showed a steady rise in
+
+**Continued on page seven**
+
+---
+
+**"Bad Drivers," is available online at *http://web.wichitaeagle.com/content/wichitaeagle/2000/10/02/special/driverslist1002.htm***
+
+**It is also available in the IRE Resource Center, story #16839.**
+
+**For more on the *The Wichita Eagle's* story see the January/February 2001 issue of the *IRE Journal*.**
+
+**Software: Microsoft Access and Excel**
+
+**Data: Kansas traffic accidents, 1990-1999**
+**Source: Kansas Department of Transportation**
+
+---
+
+## Page 7
+
+*Continued from page six:* **Accident data**
+
+the number of car-deer accidents. It also revealed a sizable blip every November, when the males were out seeking mates, and a smaller blip every May, when females were out looking for places to give birth.
+
+Our lead: "Cars, trucks and buses crashed into more than 10,000 deer in 1999, a record for the state."
+
+Once a bigger hard drive was installed in my computer, we set out to find the accident-prone drivers. We needed the extra room in order to link the tables so we could track such variables as injuries, fatalities and accident causes.
+
+A single "group-by" query on the driver's license field generated a list of hundreds of Kansans who had been involved in three or more accidents during the decade. The process was complicated by the fact that Kansas changed its driver's license numbering system in the mid-1990s, so most drivers had two driver's license numbers.
+
+Other "group-by" queries on the firstname, lastname and DOB fields turned up another batch of candidates. We ended up working with a list of 1,960 drivers who had five or more accidents in the 1990s. Their 11,165 accidents left 50 people dead (including 14 of the accident-prone drivers) and 5,171 injured.
+
+We eventually decided to focus on the six drivers who had 12 or more serious accidents during the decade.
+
+## Doing the legwork
+
+The next step was to ask KDOT for hard copies of the accident reports for the six drivers. We also asked local law enforcement agencies for copies of reports for non-injury accidents involving less than $500 in damage – accidents that aren't reported to the state.
+
+The written reports, which often had narratives and diagrams, included more detailed information than the KDOT database. Based on this information, reporters interviewed drivers.
+
+The series ran in late September, and a week later we put the list of drivers with five or more accidents on our Web site with a disclaimer noting that the listed drivers were not necessarily at fault in any of the accidents.
+
+The only negative reaction from readers came on the following Wednesday, when a woman who works at City Hall called to say our on-line information was wrong – that she hadn't been involved in six accidents. When given the dates and locations she retreated, then insisted that none of the accidents was her fault.
+
+Hurst Laviana can be reached by e-mail at hlaviana@wichitaeagle.com
+
+---
+
+*Continued from page three:* **Data sources**
+
+than rummaging through the Census Bureau's data disks. However, queries using the CensusCD set were designed to go through the front end.
+
+You can extract bulk data, but it can be cumbersome. If you can't afford mapping programs, the CensusCD+Maps product does a solid job of making thematic maps (the maps can be exported to ArcView Shape and MapInfo MIF files).
+
+Costs: CensusCD+Maps (to block group geography), $500; CensusCD Blocks, $1,000 for nation; $500 for a single state; CensusCD 1980, $800 each; $400 for a single state. The company also has an-
+
+nounced a CensusCD1970, although the introduction date and pricing weren't available at press time.
+
+• Other useful sites for census data include Center for International Earth Science Network (CIESIN) at *www.ciesin.org/* and Office of Social and Economic Data Analysis at the University of Missouri (OSEDA) at *www.oseda.missouri.edu/*. Also check the site for your state data center *(www.census.gov/sdc/www/)* or state, regional and local planning agencies.
+
+Neill Borowski can be reached by e-mail at nborowski@phillynews.com.
+
+---
+
+**Computer-Assisted Reporting Boot Camps**
+**Missouri School of Journalism**
+**Columbia, Mo.**
+
+• **March 25-30, 2001**
+• **May 20-26, 2001.**
+• **July 15-20, 2001**
+• **August 5-10, 2001**
+
+CAR Boot Camps give journalists a jumpstart in computer-assisted reporting techniques. These unique seminars train journalists to acquire electronic information, use spreadsheets and databases to analyze the information and to translate that information into high-impact stories. In addition, the institute then provides follow-up help when participants return **to their news organizations.**
+
+More information, including a registration form, is available at *www.ire.org/training/bootcamps.html*, or call **(573) 882-0684**
+
+---
+
+## Page 8
+
+**GAMBLING PART I**
+
+# The math on gambling
+
+**By Barnet D. Wolf**
+*Columbus Dispatch*
+
+Sometimes the germ of a project begins with something very common.
+
+"Ohio Hedges Its Bets," a three-day series on the gambling industry published Oct. 27-29 in *The Columbus Dispatch* really started when a Business News copy editor began pooling money from staff members to drive two hours to Indiana and buy Powerball tickets.
+
+One writer pointed out that ever since the multistate lottery games began in states adjacent to Ohio, the staff had rarely pooled its money for the Ohio Lottery.
+
+What was happening in Columbus, we thought, probably was happening all across the state, not only with the lottery but also with other types of gambling.
+
+Just how big is the legal gambling industry in Ohio and the nation, we wondered, and what impact have casinos, multistate lotteries and other forms of betting in neighboring states had on Ohio?
+
+Setting out to find data on the subject, we found that some statistics would be easy to uncover, because they were collected by the states. A large amount of data also was compiled by the casino industry.
+
+## State lottery
+
+For instance, some computer-assisted research was used to plot the impact of new border-state gambling options to the decline in Ohio Lottery *(www.ohiolottery.com)* ticket sales.
+
+By using the state's own lottery sales numbers for several years, and then breaking them into ZIP codes, the figures could be plotted on a map.
+
+The Ohio Lottery Commission provided an electronic database of sales for the past several years. That database was pretty thorough, with a breakdown of sales by each vendor (gas station, convenience store, etc.). Each vendor listing had a street address as well as a city and ZIP code for the business where tickets are sold.
+
+That made it fairly easy to analyze with Microsoft Access. We basically grouped and totaled the sales figures by ZIP code, then moved that into our ArcView mapping software. Once we had a list of sales by ZIP code,
+
+it wasn't tough to map that across Ohio.
+
+The results were compelling: They showed that the sales decline was much more severe along the state's borders than in the middle of Ohio.
+
+The state also keeps statistics for bingo games and horse racing, two other large gambling sectors.
+
+## Out-of-state casinos
+
+But other conclusions were much more difficult to determine, particularly trying to find out how much money Ohioans gambled at out-of-state casinos.
+
+The result was a time-consuming exercise that required searching for financial and marketing data from public and private local, state and national sources, and then applying old-fashioned math to the numbers.
+
+The findings could not be precise because of the limitations of the data available, but the approach produced a reliable estimate.
+
+Fortunately, *The Dispatch* had the assistance of the Buckeye State Poll, conducted by Ohio State University in conjunction with the newspaper, to help serve as a secondary source to back up some of the numbers.
+
+The questions posed by the poll, conducted in April, looked at the gambling opinions and habits of Ohioans and where — if anywhere — they gambled.
+
+## Gambling revenues
+
+States maintain decent statistics when it comes to revenues from gambling — after all, tax money is derived from it — so that's always a good place to start. Most states also provide the most basic of their lottery data online.
+
+In a state like Indiana, which has riverboat gambling, a gaming commission maintains statistics about slot machines and gaming tables. West Virginia's devices — video slots only — are overseen by the Lottery Commission *(www.state.wv.us/lottery)*.
+
+Sometimes the casino information is easily accessible. For instance, Mississippi's gaming commission *(www.msgaming.com)* has data on its Web site that gives the percentage of casino business from residents of other states.
+
+For the most part, however, states maintain data only on the

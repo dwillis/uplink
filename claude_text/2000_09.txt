@@ -1,0 +1,495 @@
+# Uplink — September 2000
+
+---
+
+## Page 1
+
+**September 2000**
+
+# Uplink
+
+### MAPPING
+# Census and GIS
+
+**By Steve Doig**
+*Arizona State University*
+
+Still trying to persuade the newsroom bean counters that they should pay for a good geographical information system mapping program? Tell them the U.S. Constitution requires it.
+
+Well, okay, the Constitution doesn't actually mention computer mapping. But it does mandate a national census every 10 years. And a newsroom that tries to do census stories without a GIS will be about as effective as one that covers breaking news without cell phones and digital cameras. It
+
+---
+
+### CRIME
+## Rampage killers
+
+**By Ford Fessenden**
+*The New York Times*
+
+In March, *The New York Times* published "Rampage Killers," a four-part series that revealed the results of a database project we undertook of 100 cases of explosive public murder over the past 50 years. These killings are not new, we said, although they may have increased in the 90s. We found more evidence of serious mental illness than of fascination with violent video games, and pointed out some important ways these criminals differed from regular murderers.
+
+The series showed what you can do with the techniques of precision journalism. It showed how you can speak with authority when you let computer tools help you manage and distill large amounts of information.
+
+The seeds were sowed at *The New York Times* in 1999, when Thom Shanker, an editor in the Washington bureau, suggested a few days after the Kosovo pogrom
+
+**Continued on page fourteen**
+
+---
+
+can be done, but it's a lot more difficult.
+
+The census, in fact, is a perfect story for mapping. The reason is that every scrap of census information is connected to some particular piece of geography. Moreover, a key part of most census stories is explaining how the demographics of various places compare to each other. Which do you think readers, viewers and editors would rather see: A page full of numbers, or a nicely shaded map?
+
+Of course, journalists were printing and broadcasting maps long before GIS programs came along. But even relatively simple maps can take a graphic artist hours to complete using a drawing program. And census maps are likely to be very complex. For instance, a census tract map of a typical metro area will contain hundreds of polygons to be drawn and shaded, while creating and shading a map of the nation's 3,156 counties could mean days of work. A GIS, however, can make such maps in seconds.
+
+### What to buy?
+
+Okay, you're convinced. So start shopping for a good GIS program. There are a variety of them available, including MapInfo and Maptitude. But I and many other CAR specialists would recommend ESRI's ArcView 3.2.
+
+ArcView is pricey – expect to pay about $1,200 for a copy. But ArcView's advantages are many. It works well on both PC and Macintosh computers. ArcView maps are easily exported into files that can be opened and enhanced by your graphic artists. The widespread use in the CAR community means you can get quick help from journalism mapping experts via the NICAR-L and JAGIS-L (Journalism and GIS) e-mail lists. You can get excellent training at NICAR's mapping boot camp scheduled for Oct. 20-
+
+**Continued on page five**
+
+---
+
+## Inside Uplink
+
+This month's issue of *Uplink* focuses on one of the hottest CAR topics: mapping. With the Census 2000 data coming out soon, mapping is a skill that will be in high demand. Jeff Thomas of the *Colorado Springs Gazette* shares his experience getting started with mapping this past year (see page two). Ron Nixon of *The Roanoke Times* used mapping to reveal faults in plans to relieve flooding (see page four). Jennifer LaFleur, of *The St. Louis Post-Dispatch*, writes about how journalists in Europe are using mapping (see page six).
+
+### Access Reports
+
+The report tool in Access is an often overlooked part of the database manager, but Mike Himowitz of *The* (Baltimore) *Sun* explains how he found it particularly useful for a project investigating Maryland's sentencing system for crimes with handguns.
+
+**SEE PAGE TWELVE**
+
+### No more confusion
+
+In the midst of a large analysis project, it's likely you've saved what seems like a zillion queries. Richard Dalton, of *Newsday*, offers some naming conventions that promise to simplify this process and make it easier to retrace your steps later.
+
+**SEE PAGE TEN**
+
+---
+
+## Page 2
+
+### MAPPING
+# A beginner's lessons
+
+**By Jeff Thomas**
+*Colorado Springs Gazette*
+
+The first moral of this story is: New CAR tools don't always make life easier. They can help you tell a smarter story – as our first attempt at using mapping software did for us in one case – but you're still likely to break a sweat getting up the learning curve.
+
+Shortly after I returned from NICAR's three-day mapping seminar in Columbia, Mo., last October, voters in our largest school district rejected a bond issue. Three years earlier, they had approved an even larger bond. Naturally, we asked: Why the turnaround? Finding the neighborhoods where the drop was most dramatic would steer us to the kind of people we needed to talk to. Mapping software could help us do this. It also could help us see if the swing precincts had older or younger people, more or fewer kids, higher or lower income, etc.
+
+---
+
+**Mapping software gave us the ability to automate the colored-pencil part, giving us much more lead time to report the story.**
+
+---
+
+We had used spreadsheets in the past to unearth voting trends in the precincts, but the chore usually wasn't complete until we had broken out the colored pencils and a large precinct map. Mapping software gave us the ability to automate the colored-pencil part, giving us much more lead time to report the story. It also would show us the underlying demographics of the precincts where the vote swing was most pronounced.
+
+### Getting started
+
+I dusted off a copy of ESRI's ArcExplorer CD, which I had picked up at NICAR's Boston conference several months earlier. This is a stripped-down version of ArcView, the standard in most GIS-equipped newsrooms. As I found out, it did the job, barely. For example, ArcExplorer lacks the extensions
+
+necessary to export a map in a format the art department can work with. Publishing a map would have been nice, but more-informed reporting was our first goal, and the tight turnaround on the story precluded building a map from scratch on the Macs, so we went without the map.
+
+We poured the precincts' "yes" and "no" votes on the bond issue into two columns of a spreadsheet, and poured the votes from the 1996 election into two other columns. For each precinct in each year, we calculated a support ratio (yes votes/no votes). Then, for each precinct, we calculated the percentage change in the ratio from 1996 to 1999. Precincts with the most-negative change numbers were those where support had dropped most dramatically. We added a column indicating voter turnout in each precinct. This took just a few minutes.
+
+The bigger job was to assemble the needed digitized maps, which ESRI calls shapefiles: voting precincts (to plot the change in voting behavior), Census tracts (to plot demographics), and streets (to help the eye navigate the map).
+
+I asked the county's GIS department for a digital map of precinct boundaries. No problem, they said: That will be $500. The GIS manager, however, was on my side and sneaked me onto the next day's county commission agenda, where I made my plea for a fee waiver, which was granted. I left the meeting with the CD.
+
+I downloaded a street shapefile from the Census Bureau's TIGER service (*http://tiger.census.gov*). A Census tract shapefile was downloaded from CEISIN (*http://sedac.ciesin.org*).
+
+Files in hand, I opened ArcExplorer, launched a new project, and used the "add theme" function to bring the three files in. The first beads of sweat began to form when I tried to view all three themes at once. When viewing the street and Census-tract themes, I could not add the precinct theme. Or, when viewing the precinct theme, I could not add streets and tracts to the view.
+
+### Glitches
+
+Which brings me to the second moral of the story: Always check the projections of
+
+**Continued on page three**
+
+---
+
+## Uplink
+
+*September 2000*
+
+*Volume 12, Number 7
+A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+
+**MANAGING EDITOR**
+Mary Jo Sylwester
+
+**ASSOCIATE EDITOR**
+Mike Sherry
+
+**ART DIRECTOR**
+Kerrie Kirtland
+
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+
+**DIRECTOR OF PUBLICATIONS**
+Len Bruzzese
+
+**SUBSCRIPTION ADMINISTRATOR**
+John Green
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org
+
+---
+
+## Page 3
+
+*Continued from page two:* **Lessons**
+
+your digitized maps. After wailing to the NICAR listserv, I was instructed to check the metadata of each map to make sure the projections matched. Sure enough, the precinct map was in a different projection than the street and tract maps. This is a potential pitfall that Andy Lehren spent a fair amount of time hammering into our heads at the NICAR seminar, but I guess it took a real-life example to drive the point home.
+
+In any case, ArcView can convert projections, but ArcExplorer cannot (and won't let you add the necessary conversion extensions), so the county converted the precinct map projection and shipped me the new shapefile. All three themes now could be seen at once: precinct boundaries, census tracts, and beneath them both, streets.
+
+The next step was to pour the demographic into the Census-tract map. This required joining a table of demographics to the table underlying the tract shapefile in ArcExplorer. I bummed a MapInfo CD of 1996 Census-tract demographics from our marketing department and moved the selected records to an Excel sheet. To make the join, I had to modify the short tract ID numbers (e.g., 2.01) in Excel to match the longer ID contained in ArcExplorer tract shapefile (e.g., 080410002.01).
+
+---
+
+**Finding the neighborhoods where the drop was most dramatic would steer us to the kind of people we needed to talk to.**
+
+---
+
+I saved the table as a .dbf file, closed it and used the "add table" function in ArcExplorer to open it. More problems. For reasons still unknown, the lengthened tract ID numbers on the Excel sheet did not survive the transition to a table within ArcExplorer. Again I ran to the NICAR list, where I was advised to move the Excel data
+
+to Access, export the table from Access as a .dbf file, then pick up the table with ArcExplorer. This worked. I used the same routine to move the precinct voting numbers into ArcExplorer.
+
+In ArcExplorer, I joined the voting-numbers table to the table underlying the precinct shapefile, and the demographic table to the table underlying the Census-tract shapefile. This was the point where ArcExplorer could start doing its job.
+
+### Results
+
+Now that the demographic numbers were a part of each census tract's record in the shapefile, we could identify the tracts with the greatest concentration of, say, school-age kids. The ones with the highest concentrations were indicated by, say, vertical lines.
+
+And now that the vote-swing numbers were part of each precinct's record in the shapefile, the precincts with the biggest swings against the bond issue could be indicated with a color. Precincts where the swing was less dramatic appeared in successively lighter shades of the color. This is quick, point-and-click stuff.
+
+Looking at both themes – demographics (lines) on top of vote swing by precinct (color), – we were able to produce this story nut: "A Gazette computer-assisted analysis shows that [the] steep drop in support was spread across the district. Perhaps surprisingly, the reversal was evident in precincts on the northeast and northwest sides, where simple demographics would seem to indicate strong support for schools. Those neighborhoods are filled with young families. Median household income is higher – by several thousand dollars – than it is countywide. Voter turnout tends to be high."
+
+We never published a map, but the reporter was able to zero in on the critical precincts, ask better questions, and force the school district to confront the reality that it has serious credibility issues to deal with in neighborhoods it had counted on.
+
+Which brings me to the final moral of this story: The effort is worth it.
+
+Jeff Thomas can be reached by e-mail at jeff@gazette.com
+
+---
+
+### Mapping Bootcamp:
+
+This three-day bootcamp will be held in Columbia, Mo., Oct. 20-22.
+
+Andy Lehren of Dateline NBC and Jennifer LaFleur of the *St. Louis Post-Dispatch* will teach the basics of mapping, geocoding and spatial analysis using ArcView GIS.
+
+More information, including registration and hotel details, is available at *www.ire.org/training/oct20*.
+
+---
+
+## Page 4
+
+### MAPPING
+# Flood dangers
+
+**By Ron Nixon**
+*The Roanoke Times*
+
+Flooding is a way of life in the city of Roanoke. The city has had major floods in 1940, 1972, 1977 and 1985. The last flood was a hundred-year flood causing millions of dollars in damage and costing several lives. In the late 1990's the city decided to enlist the U.S. Army Corps of Engineers to relieve the flooding problems.
+
+The Corps proposed channeling the Roanoke River, which runs through the city and several surrounding localities. The Corps and the city said the project would reduce the amount of flooding by 50 percent. But other localities pulled out of the project saying it would provide little benefit in reducing flooding.
+
+They were right.
+
+Using mapping, flooding data and interviews with flooding experts we were able to show that the city was actually helping to create the very problems that the flood control was trying to fix. Our analysis showed that there were over a thousand properties in the flood plains in the city.
+
+---
+
+**It's a recipe for disaster that we were only able to show using GIS.**
+
+---
+
+And despite the numerous floods that have occurred in the last 20 years, more structures continued to be built. Even a new multi-million dollar bio-medical center is slated to be built in the flood plains.
+
+It's a recipe for disaster that we were only able to show using GIS. Even the city had no idea of just how many structures were in the flood plain.
+
+The stories prompted dozens of letters to the paper, and local, state and federal officials are beginning to take a closer look at building in the flood plains in Roanoke. Many residents are pushing the city to remove more structures from the flood plains. Officials from FEMA are also looking at the flood plain development in the city.
+
+This project showed me the power of GIS, but it also showed me that you have to be careful when using the powerful tool.
+
+I began looking into the flood dangers when three nearby localities pulled out of the flood control project and started moving homes and business out of the flood plains. I asked the city why it wasn't doing the same and how many structures were in the flood plains. They said they did keep a database of buildings in the flood plains, so we began to try and find out for ourselves.
+
+For a couple hundred dollars, I purchased the building permit database of structures built since the last great flood, and bought digital maps from Federal Emergency Management Agency.
+
+With help form Andy Lehren at Dateline NBC, I culled the flood plains from the digital maps. I then overlaid the locations of buildings with maps of the city and the local river.
+
+I did several interviews and thought I had my story done until I noticed something in the building permit database. It was a structure owned by *The Roanoke Times*, my employer, but no one had ever heard of it. My analysis showed that it was in the flood plain and had been built fairly recently. I called former employees to see if they knew about it. No one did. Finally, with maps in hand, I drove to the address. I found an empty lot.
+
+Panicked, I called the city back to find out what was wrong with the data. It took several days, but they finally got back to me and said the address showing a *Roanoke Times'* owned building in the flood plain was actually a temporary structure that had been put up for a local festival. There were dozens of other addresses in the building permit database like that. The city had no way of showing permanent structures in it database; using it, you couldn't tell a sign from a house.
+
+There goes the story I thought. Then I remembered that a few weeks earlier, I had gotten the city's real estate database. The database had all permanent structures in it, the year built, type of building, everything I needed to complete the project. The impact of this project is still on-going.
+
+Ron Nixon can be reached by e-mail at ronn@roanoke.com
+
+---
+
+### Tipsheets:
+
+"An introduction to mapping as a CAR tool," tipsheet #1159 from the 2000 IRE national conference.
+
+This tipsheet explains the uses and importance of mapping, and it includes some suggestions for data to map.
+
+The tipsheet can be downloaded from the IRE Web site at *www.ire.org/resourcecenter*.
+
+Search the tipsheet database, then follow the directions below the abstract for downloading a PDF file.
+
+---
+
+## Page 5
+
+*Continued from page one:* **Census**
+
+22. And ESRI's "Virtual Campus" has online courses in all sorts of GIS topics.
+
+Even better, ArcView and its big brother, ArcInfo, are widely used by federal, state and local government agencies. This means a big step forward in meeting your second major need: Acquiring map files.
+
+A GIS program like ArcView works by merging data tables, such as you might see in an Excel spreadsheet, with map files which contain the information necessary to draw and label political boundaries, streets, bodies of water and other geographic features. Thus, you'll want a collection of map files (which ArcView calls "shapefiles") to cover all the kinds of maps you're likely to need for stories: Census tracts, streets, ZIP codes, election precincts, police patrol zones, etc.
+
+---
+
+**Even better, ArcView and its big brother, ArcInfo, are widely used by federal, state and local government agencies. This means a big step forward in meeting your second major need: Acquiring map files.**
+
+---
+
+### Shapefiles
+
+Chances are good, though, that most such shapefiles can be had from your local government GIS specialist via a public records request. Shapefiles useful for working with older census data, such as 1990 tract maps, also can be downloaded for free from the Census Bureau at *www.census.gov/geo/www/cob* or from ESRI's ArcData Online site at *www.esri.com/dataonline*.
+
+However, the shapefiles for the 2000 census geography are not yet available. Worse, the Census Bureau indicates it may not be
+
+until next summer before those shapefiles can be downloaded from the Census site. That's too late for anyone wanting to work with the first wave of data, which will hit in March.
+
+Happily, there is another alternative - The Census Bureau's TIGER/Line files, the national map database used by the bureau to create all its maps. The updated 2000 version of TIGER, the one that will be used to create the official boundaries for all the 2000 census geographic units, is expected to be ready just before that first wave of data is released.
+
+TIGER doesn't come in the shapefile format that is used by ArcView. But ArcView does have a so-called extension – an add-on script that gives the program additional capabilities – that will translate TIGER files into shapefiles. If you have ArcView, you can practice with the "TIGER Reader" extension now by downloading the 1998 TIGER files for your state from *www.census.gov/geo/tigerline/tl_1998.html*.
+
+### Different geographies
+
+One other 2000 Census mapping problem also awaits resolution. It's the question of how different your 2000 census geography is from the 1990 version, particularly if you want to look at demographic change during the decade.
+
+State and county boundaries should be the same, but some cities will have annexed territory during the '90s. Even more likely are changes to census tracts. While most of them will be unchanged, tracts that gained or lost a lot of population may be split or combined. The Census Bureau promises to release "Relationship Files" comparing 1990 and 2000 blocks and tracts – but probably not until next summer.
+
+Rather than wait, you'll want to make your own comparison table for your area once the 2000 geography is set. And that's another good task for a GIS.
+
+The next IRE and NICAR Census workshop will be held in College Park, Md., Dec. 9-10. More information, including registration forms and hotel details, is available at *www.ire.org/training/censusworkshops.html*
+
+Steve Doig can be reached by e-mail at steve.doig@asu.edu
+
+---
+
+**"Reporting Census 2000":**
+*http://cronkite.pp.asu.edu/census*
+
+Shapefiles can be downloaded from the Census Bureau at *www.census.gov/geo/www/cob* or from ESRI's ArcData Online site at *www.esri.com/dataonline*.
+
+You can practice with the "TIGER Reader" extension now by downloading the 1998 TIGER files for your state from *www.census.gov/geo/tigerline/tl_1998.html*.
+
+---
+
+## Page 6
+
+### MAPPING
+# No boundaries
+
+**By Jennifer LaFleur**
+*St. Louis Post-Dispatch*
+
+As mapping skills spread, journalists are plotting data beyond U.S. boundary files. Reporters in Denmark, the Netherlands, Sweden and other European countries use GIS (geographic information systems) software for showing crime incidents, business data or demographic trends.
+
+At *Morgenavisen Jyllands-Posten*, Denmark's largest newspaper, journalists Nils Mulvad and Flemming Svith do mapping regularly using a GIS program called MAPS by Denmark-based FSS. Currently, according to Svith, about five people are using mapping in the newsroom.
+
+Recently, Svith has mapped the wages of municipal employees compared to costs and wages in the private market. His story showed that 1.4 billion Kroner (about $188 million) were being put in the wrong pockets and that about 100,000 employees earned too little. "I could only have done this story using a map," Svith said.
+
+GIS also speeds up production. "Before, graphics did the maps and you couldn't do any analysis and it took a whole day to create. Now, I can do a map and send it to graphics. We have a lot more maps in the paper now."
+
+### Netherlands
+
+Dick van Eijk a reporter and editor with *NRC Handelsblad* in the Netherlands also uses mapping in reporting. Some are quicker mapping projects. "A growing number of maps is not the result of extensive data analysis, but not a copy of a map provided by others either. In these cases we receive a data file, e.g. from a government agency, from Eurostat, from the OECD or another organization. This file contains data for every municipality, region of country in a par-
+
+ticular area. From these data we generate our own thematic maps using mapping software. Some simple calculations may precede the creation of the map, e.g. dividing by number of inhabitants of the area. Sometimes this is done in a spreadsheet (Microsoft Excel), sometimes in the mapping program itself (MapInfo, both on the Mac and on PC)."
+
+At *NRC Handelsblad* there are three people familiar enough with MapInfo and Excel to do mapping – two reporters and one person in the graphics department.
+
+Van Eijk says they also do bigger CAR projects using mapping. In April, Van Eijk did a project on royal decorations awarded on Queen's Day.
+
+"Typically some 2,000 people a year receive such an award on Queen's Day, and some 2,000 more on other occasions. It turned out that the geographical distribution of these decorations was very uneven. That was remarkable. I had a hunch that this was a structural phenomenon, but I could not
+
+**Continued on page seven**
+
+---
+
+**Commandeurs en officieren vooral in universiteitssteden en rijke gemeenten**
+
+Aantal Commandeurs en Officieren ter gelegenheid van Koninginnedag, 1996 - 2000
+
+● 10
+● 5
+● 1
+
+Coropgrens gemeente
+
+NRC Handelsblad 280400 / Bron: Ministerie van Binnenlandse Zaken
+
+---
+
+### For more information:
+
+MAPS: *www.mapping.dk/*
+
+ArcView: *www.esri.com*
+
+Mapinfo: *www.mapinfo.com*
+
+Danish Institute for Computer-assisted Reporting (DICAR) *www.dicar.org*
+
+The map to the right, created by Dick van Eijk, shows the absolute number of higher medals per municipality that he found for a story on royal decorations.
+
+---
+
+## Page 7
+
+*Continued from page six:* **No boundaries**
+
+prove that using one year of data. So this year I analyzed all the royal decorations awarded on Queen's Day since the new law on these decorations in 1996." The new law requires uniform rules in every part of the country for determining who gets awards.
+
+"Using five years of data I could show not only that the geographical distribution of royal decorations was very uneven, but I could also prove that this uneven distribution was consistent over the years. In some municipalities the number of decorations per head was more than twenty times as high as in others."
+
+New journalists are also learning mapping. Peter Verwey, director of the new media department at the School of Journalism in Utrecht, the Netherlands, incorporates ArcView training into digital journalism coursework. Verwey's students used maps to study the relationship between the crime rate in a police district and the money spent on the police force in that district. They also have used maps to look at restaurant inspections in Utrecht.
+
+As CAR has become a more common tool in newsrooms in Europe so have geographical information systems. Will records access issues slow European journalists' ability to do mapping?
+
+Not in Denmark, says Mulvad of *Morgenavisen Jyllands-Posten* and the chair of the Danish Institute for Computer-Assisted Reporting.
+
+"The country is divided geographically in lots of ways – postal codes, local authorities, and so on. It's very easy to divide political thinking, income, police solving crimes, prostitutes, foreigners and so on geographically and put it in a map in the paper," he said. "Actually, because of that and because of the easy way to use maps, we think mapping perhaps will be used before using database managers for a lot of journalists."
+
+Jennifer LaFleur can be reached by e-mail at jlafleur@postnet.com
+
+---
+
+### MAPPING
+## School test scores
+
+**By Seth Hemmelgarn**
+*San Jose Mercury News*
+
+In California, school funding is tied to schools' performance on standardized tests. Starting with the 1999 scores, each school is given a 1 to 10 ranking. Schools with a 1 are in the bottom 10 percent of the state, and schools with a 10 are in the top 10 percent.
+
+The state released the data in January. We wanted to map where schools with the highest and lowest ranks were in our county. The only problem was, we had the score for each school, but we didn't have the address. So we got the addresses from the state, and created a dbaseIV file with all of the information we needed.
+
+After I geocoded the file in ArcView, I used the query wizard to pinpoint the schools with ones and tens. Not surprisingly, most of the highest-ranked schools formed a blob running along the county's western foothills, where millionaires are commonplace. The lowest-ranked schools showed up in a patch on the city's eastside, where incomes are generally lower.
+
+This was my first official mapping assignment after I attended NICAR's incredibly worthwhile mapping bootcamp, so I wanted to have somebody else review my work. That's where Carl Neiburger, mapping guru and *Mercury News* cohort, came in.
+
+I'd used two different queries to show the highest and lowest ranking schools, which resulted in two different shape (shp) files. Carl suggested selecting all of the ranks – from 1 to 10 – into one shp file. Then, I just eliminated the ranks we didn't need. This meant one less shp file to keep track of.
+
+Carl also enlisted the help of Nadine Selden, from the paper's marketing research department. Nadine pulled the median income for each of our county's Census tracts from Claritas, and Carl included this in the map. The result was a map that not only showed where the high and low-scoring schools were, but what the income ranges in those areas were.
+
+Seth Hemmelgarn can be reached by e-mail at SHemmelgarn@sjmercury.com
+
+---
+
+### Mapping Listservs:
+
+NICAR-L is a busy list (expect 10-20 messages a day) hosted by the National Institute for Computer-Assisted Reporting.
+
+It's frequented by hundreds of working journalists whose CAR skills range from expert to beginner. To join the list, send this one-line message: **SUB NICAR-L firstname lastname** to *listproc@lists.missouri.edu*.
+
+JAGIS-L: Tom Johnson's JAGIS homepage is at *http://online.sfsu.edu/~jagis/*. There's a sign-up link there.
+
+CENSUS-L was started early this year as an offshoot of NICAR-L. Discussion is primarily about the Census, but there may be talk about mapping as well.
+
+To join, send this one-line message: **SUB CENSUS-L** to *majordomo@nicar.org*.
+
+---
+
+## Page 8
+
+### MAPPING
+# Forming a users group
+
+**By Doug Haddix**
+*The Columbus Dispatch*
+
+It all started with the self-proclaimed "BAG lady."
+
+Media analyst Gwen Brown maps data extensively to promote advertising through direct mail and in "The BAG," a collection of circulars distributed weekly to 700,000 households in central Ohio.
+
+Last summer, Gwen suggested the creation of a mapping users group open to all of the local companies under the umbrella of Wolfe Enterprises Inc. In addition to On Target Marketing, the direct marketing arm of the Dispatch Printing Co., the family-owned company's holdings include *The Columbus Dispatch* and WBNS-TV, the local CBS affiliate.
+
+The idea for a GIS users group emerged during a three-day course on using ArcView mapping software. The class included 14 employees from the newsroom, the newspaper's marketing department and the direct marking group.
+
+---
+
+**Several of the members have used mapping software for years, so they bring a wealth of experience and technical support to those of us in the newsroom who ventured into mapping just a year ago.**
+
+---
+
+The class diehards formed the nucleus of the GIS users group, whose mission is to share data resources, technical expertise, mapping-related news and ideas about creative uses. Members meet quarterly, rotating among the company sites, and correspond regularly between sessions.
+
+Several of the members have used mapping software for years, so they bring a wealth
+
+of experience and technical support to those of us in the newsroom who ventured into mapping just a year ago.
+
+Many newsrooms could benefit from becoming part of a GIS group, whether it involves marketing and advertising or other departments at their media company, a more far-flung corporate group such as ours, or a community group of users in local government and business.
+
+Already, we've seen numerous benefits:
+
+• Substantial discounts on software and licenses bought at the corporate level with multiple users.
+
+• Professional bonds with mapping experts outside the newsroom who can help trouble-shoot technical problems and assist on enterprise work. Gwen spent several hours in the newsroom looking over data for a project on the Columbus School District and offering ideas on how to map it effectively. Cherie Smith of the marketing department took the same data and ran a regression analysis on it to find the most influential demographic factors in student proficiency test scores.
+
+• The sharing of data that already has been cleaned up and standardized. For example, our marketing department provided a database table of all drug stores in central Ohio with latitudes and longitudes. That enabled us to produce a quick map to run with a business story about an escalating retail war in the Columbus area among the big drug chains.
+
+• Creative brainstorming on tackling upcoming news stories. Our group includes several people who have worked extensively in analyzing census data; their expertise will be pivotal in helping *The Dispatch* prepare for the mapping mother lode of demographic data from the 2000 census.
+
+• The sharing of local shape files.
+
+• Connections with other mapping users. Newsroom representatives have attended the quarterly meetings of a local government GIS users group and reported key developments to the Wolfe Enterprises group.
+
+• The sharing of training tips and handouts from conferences, such as the mapping boot camp last fall by NICAR and the annual IRE convention.
+
+Involvement in the GIS users group has kept the newsroom on a steady course as we
+
+**Continued on page nine**
+
+---
+
+### Past projects and investigations of *The Columbus Dispatch* are available online at *www.dispatch.com/news/special/*
+
+The stories include:
+
+"Dividing Lines": *The Dispatch* investigated the division of Columbus public elementary schools along lines of race, poverty, student achievement, teacher experience, building conditions and educational resources. Published June 25-28, 2000.
+
+"Appalachia: Hollow Promises": In this five-day series, *The Dispatch* investigated the Appalachian Regional Commission's spending to find out where the money from the commission was going and why it often bypassed some of the neediest counties in the region. Published Sept. 26 - 30, 1999.
+
+---
+
+## Page 9
+
+*Continued from page eight:* **Users group**
+
+continue to explore the practical uses of mapping software. Think of the group as a local version of the IRE and NICAR listserves – a source of inspiration, story ideas, trouble-shooting and emotional support.
+
+### Reporting uses
+
+Over the past year, *The Dispatch* has used mapping software

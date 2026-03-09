@@ -71,19 +71,22 @@ def main():
     parser.add_argument('model', help='Model to use (e.g., gpt-4o, claude-3-sonnet, gpt-3.5-turbo)')
     parser.add_argument('--list-models', action='store_true', help='List available models and exit')
     parser.add_argument('--test', type=int, default=0, help='Quick test: process only the first N .txt files')
-    
+    parser.add_argument('--output-dir', default='articles/original', help='Output directory for JSON files (default: articles/original)')
+    parser.add_argument('--skip-existing', action='store_true', help='Skip files where output already exists with adequate full text (>= --min-fulltext chars per article)')
+    parser.add_argument('--min-fulltext', type=int, default=1000, help='Minimum avg full_text length to consider an existing file adequate (default: 1000)')
+
     args = parser.parse_args()
-    
+
     # If user wants to list models, do that and exit
     if args.list_models:
         print("Available models:")
         for model in llm.get_models():
             print(f"  - {model.model_id}")
         return
-    
+
     print(f"Using model: {args.model}")
-    # Ensure output directory exists
-    os.makedirs("articles", exist_ok=True)
+    print(f"Output directory: {args.output_dir}")
+    os.makedirs(args.output_dir, exist_ok=True)
 
     # Gather text files and optionally limit for testing
     text_files = [fn for fn in sorted(os.listdir("text")) if fn.endswith('.txt')]
@@ -92,13 +95,30 @@ def main():
         print(f"Test mode: processing first {len(text_files)} text file(s)")
 
     for filename in text_files:
+        out_path = os.path.join(args.output_dir, filename.replace('.txt', '.json'))
+
+        if args.skip_existing and os.path.exists(out_path):
+            try:
+                existing = json.load(open(out_path))
+                ARRAY_KEYS = ['articles', 'stories', 'news_stories', 'newsletter', 'content', 'data']
+                items = existing if isinstance(existing, list) else next(
+                    (existing[k] for k in ARRAY_KEYS if k in existing and isinstance(existing[k], list)), []
+                )
+                if items:
+                    avg_len = sum(len(a.get('full_text') or '') for a in items) / len(items)
+                    if avg_len >= args.min_fulltext:
+                        print(f"Skipping {filename} (existing avg full_text {avg_len:.0f} chars >= {args.min_fulltext})")
+                        continue
+                    else:
+                        print(f"Re-processing {filename} (existing avg full_text {avg_len:.0f} chars < {args.min_fulltext})")
+            except Exception:
+                pass  # Can't read existing file; re-process it
+
         try:
             print(f"Processing {filename}")
-            out_path = f"articles/{filename.replace('.txt', '.json')}"
             articles = combine_stories(filename, args.model)
             with open(out_path, 'w') as file:
                 json.dump(articles, file, indent=4)
-            # Print a short summary so testers can quickly inspect results
             if isinstance(articles, dict) and 'articles' in articles:
                 print(f"  -> wrote {len(articles['articles'])} article(s) to {out_path}")
             else:

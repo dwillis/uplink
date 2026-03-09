@@ -25,14 +25,14 @@
 set -euo pipefail
 
 # Configuration
-DEFAULT_MODEL="${GEMINI_MODEL:-gemini/gemini-2.5-pro}"
-GEMINI_TEXT_DIR="${GEMINI_TEXT_DIR:-./gemini_text}"
+DEFAULT_MODEL="${GEMINI_MODEL:-claude-sonnet-4.6}"
+GEMINI_TEXT_DIR="${GEMINI_TEXT_DIR:-./claude_text}"
 ARTICLES_DIR="${ARTICLES_DIR:-./articles}"
 OUT_DIR="${OUT_DIR:-./articles}" # Output directory for processed markdown articles
 FORCE="${FORCE:-0}"
 
 # Rate limiting delay (seconds)
-DELAY=12
+DELAY=1
 
 PROMPT="Analyze this text and identify each distinct article. For each article found, provide:
 

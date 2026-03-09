@@ -1,0 +1,476 @@
+# Uplink Newsletter - September 1998
+
+---
+
+## Page 1
+
+**September 1998**
+
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+**DISCOVERING INTERSECTIONS**
+
+# Data map makers
+
+**By Jennifer LaFleur**
+*San Jose Mercury News*
+
+Although mapping can be used to visually enhance any story, in some cases it's the key to the story. Geographic Information Systems (GIS) allows you to map one or more sets of raw data, which can show intersections between data sets or clusters in one data set that otherwise you would not be able to find.
+
+Most of you have used a database manager to look at data in many ways. With geographically based information, that's easy to do – if for example you're dealing with county names and know where those counties are. But what if your data is listed by Census tract? You probably wouldn't look at a list of tract numbers and say: "Hey, look there at tracts 5001.02 and 5002.03. Isn't that interesting." Seeing the same information on a map makes the data much more powerful.
+
+When Carol Napolitano of the *Omaha World-Herald* needed to look at trends in more than 300,000 crime incidents for the last seven years, she used a map. "The fastest way to see is visually," Napolitano said.
+
+### Flowing foundations
+
+Before El Nino hit California, the *San Jose Mercury News* wanted to look for potential mudslide problems in the Santa Cruz Mountains. By overlaying permit data and geological data on one map, our story addressed the fact that many new building permits have been issued in areas susceptible to landslides and debris flows.
+
+Getting the maps of the slides and flows was easy (well, sort of). We were lucky in that the U.S. Geological Survey uses ArcInfo mainframe software to do its mapping. ArcInfo is compatible with ArcView, the mapping software the *San Jose Mercury News* uses.
+
+The *San Jose Mercury News* also obtained a database of building permits since 1985 from the Santa Cruz County planning department. We would have loved to have gone back to 1982, but the county started computerizing its records in 1985. The building permit data contained addresses for all the building permits.
+
+Using a technique called "geocoding" (as opposed to "Gee, coding!" that programmers say when they get really excited about something they've done), mapping software converts addresses to latitudes and longitudes and, eventually, to points on a map.
+
+**Continued on page four**
+
+---
+
+**THE DAILY COMMUTE**
+
+## Traffic tally
+
+**By Neill A. Borowski**
+*The Philadelphia Inquirer*
+
+"Ca-chunk, ca-chunk, ca-chunk." Cars and trucks travel over the black hose stretched across the road. Each "ca-chunk" registers on a roadside counter as the government tallies the vehicles using the road each day.
+
+The data are loaded into databases – at state departments of transportation or county planning departments – and adjusted for the number of axles. Fascinating information, but it is most often used only by the departments themselves for proposing future road projects or by marketers to decide where to locate the latest fast-food restaurants.
+
+Earlier this year we decided to do a project looking at the daily commute. For several years, I had collected snippets of Average Daily Traffic (ADT) information from a variety of sources. I had pieces from various marketing reports and text files from online DOT databases. What
+
+**Continued on page two**
+
+---
+
+## Inside Uplink
+
+Data discoverers are charting new territory in the ever expanding world of CAR. This issue concentrates on computer-assisted stories strengthened by the use of mapping software.
+
+Jennifer LaFleur of the *San Jose Mercury News* describes overlaying building permit data with geological mudslide data to predict potential trouble areas and talks to other mapping practitioners.
+
+Neill Borowski of *The Philadelphia Inquirer* revisits his paper's analysis of traffic patterns among commuters, lists the varied benefits of knowing latitude and longitude coordinates, and predicts future uses of the Global Positioning System.
+
+Jeff Porter of the *Arkansas Democrat-Gazette* reports on the mapping of Little Rock's planned infrastructure projects, which the paper compared by ward.
+
+James Derk of the *Evansville Courier* evaluates the weekly updates of crime reports he makes on his paper's Web site.
+
+**PAGE 8**
+*Tech Tip*
+**PAGE 10**
+*Stats from the Road*
+**PAGE 12**
+*Handouts of the Month*
+
+---
+
+## Page 2
+
+# Uplink
+
+*September 1998*
+*Volume 10, Number 8*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+bjohnson@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Len Bruzzese
+len@ire.org
+Sarah Cohen
+sarah@nicar.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**STAFF**
+Jack Dolan
+Dawn Fallik
+Jason Grotto
+Seth Hemmelgarn
+Ben Lesser
+Justin Mayo
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Alistair White
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211 (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers
+Postmaster: Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+*Continued from page one:* **Transmit globally...**
+
+I wanted to do, however, was pull together a comprehensive look at ADT in the Philadelphia metropolitan area. A map was the logical choice to convey the commute to readers. (The special section, called "Drive Time," was published on May 31, 1998.)
+
+### Traffic averages
+
+The result was a map loaded with about 600 different points. Each point represented a spot on a road or highway and showed the average daily traffic. I produced the early map with ArcView and passed the project along to our graphics department, which also uses ArcView. Graphics artist Matthew Ericson broke down the points into five different categories, ranging from less than 10,000 cars per day to more than 75,000 cars per day.
+
+We acquired the data from the Delaware Valley Regional Planning Commission in Philadelphia. The commission traffic specialists' first reaction was: "What intersections are you interested in?"
+
+Our answer was the usual CAR response: "We want the whole database."
+
+The planners viewed the request as odd, but after some negotiating they shared the data. The result was an illuminating map. One marketing firm in the Philadelphia suburbs eagerly ordered several copies of the map because they had never been able to capture the whole region on one map before.
+
+### Coordinated accidents
+
+While the project, we thought, was interesting and useful, the most exciting mapping aspect came in the use of latitude and longitude coordinates provided with the file. I brought the lat/lon coordinates in as an added event theme in ArcView (a *.dbf file) and overlaid them on our regional streets file. We found the coordinates were amazingly accurate, matching perfectly with the street file.
+
+Lesson learned: Always ask if the file has lat/lon coordinates built in.
+
+Shortly after the "Drive Time" project, we put together a large story looking at where accidents occurred in South Jersey (Pennsylvania won't give exact locations of accidents). This was far more difficult than the Drive Time/ADT project.
+
+The database file listed accidents by intersection or milepost on highways. That prompted my call to the New Jersey Department of Transportation in which I asked, "How am I supposed to know just where milepost 27.33 is on Route 70?"
+
+"Oh," the highway guy said, "you need our straight-line diagrams. We'll send you a CD-ROM."
+
+---
+
+**We found the coordinates were amazingly accurate, matching perfectly with the street file. Lesson learned: Always ask if the file has lat/lon coordinates built in.**
+
+---
+
+The CD is a compilation of Acrobat *.pdf files. You click on a route, and it gives you the breakdown in miles. Click on 26-28, for example, and you can see exactly where milepost 27.33 is located and its nearest cross street.
+
+The process of finding these sites was far from automated, but the straight-line file made it easier than it might have been. Check with your state DOT to see if it has straight-line diagrams in book or computer form. I sent a copy of the CD along to our graphics department, which was delighted to get it. Seems that they are forever getting accident reports on deadline and trying to figure out how to locate mileposts on highways.
+
+Accident files provided to us by the state did not include lat/lon coordinates. However, a more recent accident file, which the state told us not to use because it had bugs that could affect our findings, did include the coordinates. I managed to look up latitude and longitude for the accident spots we wanted to map. However, when we mapped the coordinates with our streets file, we discovered that many were off a bit. Some were several miles away from where they should have been.
+
+**Continued on page three**
+
+---
+
+## Page 3
+
+*Continued from page two:* **position locally**
+
+### Navigation's convert
+
+Despite some wrinkles, I've come to believe in latitude and longitude as an essential tool. I remember doing a story on some GPS (Global Positioning System) fans a few years ago. One predicted that latitude and longitude would supplant ZIP codes and addresses in the future. Your address would be your latitude and longitude – a universal system. I rolled my eyes a bit, but now I'm wondering whether they were on to something. Yes, I've joined the GPS Cult.
+
+A couple of years ago, we purchased two hand-held GPS receivers. We bought Eagle Explorers, but there are many good brands out there for less than $200. I gave one to a technically astute *The Philadelphia Inquirer* photographer, Michael Mally. We kept the other one in our CAR department.
+
+The GPS receiver uses readings from three (out of a total of 24) GPS satellites to calculate the latitude and longitude of the spot where you're standing. The accuracy is said to be within 100 feet.
+
+Mally became a navigational convert. Besides the GPS unit, he also uses a laptop computer with Delorme's Street Atlas USA. He's often the photographer who goes up in helicopters to shoot aerials. Mally realizes helicopter time is precious – particularly when it runs as high as $600 an hour.
+
+He routinely uses Street Atlas to find the lat/lon of the points he wants to visit and maintains that this cuts deeply into time in the air. He merely gives the headings to the pilot; then they sit back without having to locate highways or landmarks below to determine if they are on the right track.
+
+The navigational tool can work in the other direction, too. Mally says he has been flying when they discover a column of smoke. From the air, it's difficult to determine where the smoke is coming from. But, with a lat/lon reading, he can plug the coordinates into his map program and pinpoint the location.
+
+Mally also used the handheld GPS unit when shooting the construction of an artificial reef off the Jersey coast (the National Guard was sinking old tanks). The GPS allowed him not only to determine where the reef was being built but also to estimate the reef's length by calculating the difference between the first coordinates and the last.
+
+### A GPS future
+
+I believe that one day the Metro Desk will have a stock of GPS units in a drawer. Maybe they'll be common "pool" items like company cars and cell phones. Those company cars also might come with the GPS units built in to provide directions to reporters as well as to report coordinates.
+
+---
+
+**One GPS fan predicted that latitude and longitude would supplant ZIP codes and addresses in the future. Your address would be your latitude and longitude – a universal system. I rolled my eyes a bit, but now I'm wondering whether they were on to something.**
+
+---
+
+A reporter running out to cover a major forest fire would grab a GPS to give accurate coordinates to the graphics department to map the fire. In fact, the report could take coordinates for the perimeter of the fire so the map in the next day's paper would be an accurate portrayal of where the fire was burning.
+
+We were prompted to purchase the GPS units after trying to figure out the site of a major bus accident-on-deadline in a wooded area in South Jersey's Pine Barrens. Even with regular maps open in front of us, we weren't clear where the accident occurred. A photographer or reporter with a GPS unit could have given us lat/lon coordinates, and we could have pinpointed the location.
+
+The potential uses seem endless: a murder victim is dug up in the woods; an oil truck flips and spills on a back road; a new development is going up in the middle of a farm in a rural area without new roads.
+
+Neill A. Borowski can be reached by email at nborowski@phillynews.com.
+
+---
+
+**TO STEER YOUR CAR PROJECTS IN THE RIGHT DIRECTION, ORDER "COMPUTER-ASSISTED REPORTING: A PRACTICAL GUIDE" BY BRANT HOUSTON. IT CAN BE ORDERED FROM NICAR AND INVESTIGATIVE REPORTERS AND EDITORS FOR $26 FOR IRE MEMBERS OR $30 FOR NON-MEMBERS PLUS SHIPPING. CALL (573) 882-2042.**
+
+**FOR A LISTING OF OTHER TITLES AVAILABLE CONCERNING COMPUTER-ASSISTED AND INVESTIGATIVE REPORTING TECHNIQUES, VISIT OUR WEB SITE AT WWW.IRE.ORG/ PUBLICATIONS/ BOOKSTORE**
+
+**SUBSCRIBE ONLINE:**
+
+**YOU CAN NOW SUBSCRIBE TO UPLINK ONLINE. POINT YOUR BROWSER TO WWW.IRE.ORG/RESOURCES/ NICAR/UPLINK**
+
+---
+
+## Page 4
+
+**FOR A LIST OF LOCAL ARCVIEW USERS GROUPS, GO TO WWW.ESRI.COM.**
+
+**FOR MORE INFORMATION ON MAPPING, CHECK OUT SOME OF THESE BOOKS RECOMMENDED BY STEVE DOIG AND OTHERS:**
+
+• **"VISUAL DISPLAY OF QUANTITATIVE INFORMATION," BY EDWARD TUFTE, 1992**
+
+• **"ELEMENTARY STATISTICS FOR GEOGRAPHERS," BY GERALD BARDER AND JAMES E. BURT, 1996**
+
+• **"HOW TO LIE WITH MAPS," BY MARK MONMONIER AND H. J. DE BLIJ, 1996**
+
+• **"COMPUTER-ASSISTED CARTOGRAPHY: PRINCIPLES AND PROSPECTS," BY MARK S. MONMONIER, 1982**
+
+---
+
+*Continued from page one:* **Plotting thickens**
+
+The technique is not perfect. You'll never get a perfect match of every address. But once you've run the process, you can go back to the addresses that didn't match and make a pretty good estimate of where they are.
+
+Being able to join the two sets of data – the landslides and the permits – allowed us to see where clusters of building permits were granted on or near areas of potential landslides. From that point onward, we talked to experts and real people about our findings.
+
+The *San Jose Mercury News* also has used maps to show precinct-by-precinct voting results against other data. For example, when a major transportation ballot measure was passed, we mapped results against major traffic routes. Votes were strongest where people with the worst commutes lived.
+
+### Spatial education
+
+In 1992, Steve Doig, then of *The Miami Herald,* overlaid wind speeds and building damage after Hurricane Andrew hit Florida. The map showed something that no other tool would have revealed: an area with minimal wind speed yet some of the worst damage.
+
+"I've always conceptualized CAR as 'finding the patterns' in the data," Doig said. "And spatial patterns are perhaps the easiest to understand. I first got a GIS package in order to work with 1990 census data, and I saw how much easier it was for reporters to see the story in the data when I could give it to them mapped. Not only does mapping make good end graphics to go with a story, but, perhaps even more important, it helps sell a story to editors and reporters."
+
+### Visual understanding
+
+A few years ago, Ron Campbell of *The Orange County Register* mapped bank locations against demographics. The map showed a pattern that would have been obvious in no other formation than a map. "In everywhere but Santa Ana, you could practically stub your foot on a bank," Campbell said. He purchased a database of bank locations and mapped it. "That made it clear. There was a donut in Orange County with a hole in the center without banks." From there he started looking at demographics.
+
+*The Orange County Register* also has used maps to display voting by census tract. "You have to develop precinct votes to census tracts," Campbell said. "But when you get over the conversion problem, you can display how votes differ from place to place."
+
+"I think the real value to mapping is in the cliché 'a picture being worth a thousand words.' You can go on and on about the trends; but when you put the data on a page in color, people can tell what's going on," Campbell said.
+
+---
+
+**"Numbers represented visually let you see nuances that your eyes never pick up in a data grid, even for the simplest data set. Mapping is one of the most powerful tools available to reporters."**
+**— Carol Napolitano**
+
+---
+
+### CAR clusters
+
+When you're trying to show clustering of data geographically or looking at trends between geographically based data sets, consider mapping it. Some of the most commonly used GIS programs are Atlas GIS, MapInfo and Arcview. It's probably worth talking with some of your local planners to find out what software they use in order to find something compatible.
+
+"In just about any case when I'm dealing with a large set of data, if I can map it, I will," Napolitano said. "Numbers represented visually let you see nuances that your eyes never pick up in a data grid, even for the simplest data set. Mapping is one of the most powerful tools available to reporters."
+
+Once you select your software, join your local users group. Most of the mapping folks from local government participate in those groups, and it's a great way to do some nerd-bonding and find resources for maps.
+
+Jennifer LaFleur can be reached by email at jlafleur@sjmercury.com
+
+---
+
+## Page 5
+
+**INFRASTRUCTURE OUTLINE**
+
+# Projects breakdown
+
+**By Jeff Porter**
+*Arkansas Democrat-Gazette*
+
+We found a story in our city government's infrastructure wish list. We reported it because a wish of our own was granted: mapping software.
+
+Our choice was Maptitude – among the least expensive mapping software available. But we were pleased with our results.
+
+The *Arkansas Democrat-Gazette* published, on Oct. 12, 1997, a page-wide map showing city wards, major streets and the drainage, bridge and traffic-signal projects that the city planned. We skipped street reconstruction or resurfacing because a much larger map than we could publish would be required. The best part was that we could export our Maptitude file, helping our graphics department create what turned out to be a handsome map.
+
+The Public Works Department of Little Rock worked for months preparing a list of infrastructure needs. A detailed file showed exactly where and what types of projects were needed, with estimates of the costs. The total – more than $400 million – made it clear that the city was about to set its infrastructure course for the coming decades. But the thick printout listing about 6,000 projects in hundreds of pages just sat there. We changed that.
+
+### Wards forward
+
+Before we could begin to map, we had to examine the data. Here's what we did. The department created its list using a Lotus 1-2-3 spreadsheet. Importing it was a snap. First, we looked at the file using Microsoft Excel, cleaned up the data, and saved the file as a dBase IV file.
+
+Then we went to work.
+
+We used Visual FoxPro to take quick looks at how the projects were divided by ward. That way, readers could quickly see how their areas of the city would be affected. We broke down spending by each ward. Then we broke down projects by ward.
+
+We saw, for example, that in one ward drainage improvement was a vital need. In another, reconstructing streets accounted for 75 percent of the city's planned improvements.
+
+With that information, we organized the data to show exactly where the major projects were planned.
+
+We exported some data to Excel, where we created easy-to-understand pivot tables for the reporter to work with. Then, we used Maptitude to inspect visually the city's plans by opening a *.dbf file with the mapping software.
+
+The city helped. The public works department has a skilled Special Programs division that uses ArcInfo mapping software. It was quite willing to share mapping files with the newspaper, generating ESRI-exported, uncompressed files that Maptitude could easily import.
+
+We imported ward boundaries, streets and other files in order to create maps showing total costs and percentages for each ward. The map and spreadsheet printouts helped the reporter find the areas of the city he should ask about and visit.
+
+### Graphics challenge
+
+But then what? Maptitude made maps that were just fine for reporters to look at, but maps fit for publication were entirely different. We had to find a way to export the Maptitude files – from a Compaq, no less – to a file that the graphics department's Macintoshes could handle. Our answer was software called MAPublisher. We downloaded and used the limited-time demo version of the software for this project. We exported our files, layer by layer, to ArcView shape files, which MAPublisher imported as a plug-in for Adobe Illustrator. While the files still needed considerable work to make them presentable, we were not starting from scratch.
+
+The result: Our detailed stories about infrastructure needs were accompanied by a six-column map showing the pinpointed projects. The large graphic included breakdowns by ward of the total number of projects, how much money was to be spent for each type of project, and the percentage of the money to be spent in each ward.
+
+The best reaction came at a meeting of city officials. They asked employees to give them the same detailed information as the newspaper had provided its readers.
+
+Jeff Porter can be reached by email at jporter@ardemgaz.com
+
+---
+
+**THE WEB SITE FOR THE CAMPAIGN FINANCE INFORMATION CENTER (WWW.CAMPAIGNFINANCE.ORG) IS A VALUABLE RESOURCE FOR ANYONE INVESTIGATING CAMPAIGN FINANCES. IT INCLUDES:**
+• **DOWNLOADABLE DATABASES OF CONTRIBUTION DATA AND LINKS TO SEARCH ENGINES MAINTAINED BY NON-PROFIT ORGANIZATIONS AND STATE BOARDS OF ELECTION**
+• **STORIES FROM PRIOR ISSUES OF TRACKER**
+• **STORIES EXPLORING CAMPAIGN FINANCE AT THE LOCAL, STATE AND FEDERAL LEVELS**
+• **INFORMATION ON THE CFIC-L MAILING LIST**
+• **TIPSHEETS ON COVERING CAMPAIGN FINANCE**
+• **LINKS TO POTENTIAL SOURCES FOR CAMPAIGN FINANCE STORIES AND OTHER RELEVANT SITES**
+
+---
+
+## Page 6
+
+**CRIMES OF THE WEEK**
+
+# Neighborhood report
+
+**By James Derk**
+*Evansville Courier*
+
+The *Evansville Courier* (65,000 daily, 125,000 Sunday) was the first newspaper in the world to publish weekly crime maps on the World Wide Web.
+
+I say that not to boast, but instead to emphasize the major benefit of working in a smaller market – the ability to map out every crime in an entire city for a whole year and not have the whole town covered by thousands of colored dots.
+
+Even so, our beginnings in mapping were modest. I talked my editor into forking out the $1,295 for Mapinfo for Windows after seeing Jennifer LaFleur of the *San Jose Mercury News* use the software at NICAR's boot camp several years ago.
+
+### Extending coverage
+
+I launched the weekly crime map in an effort to spread more information to residents of our community. When I got my first phone call from an angry realtor who my maps had "destroyed property values" in one neighborhood, I knew we were on to something. But we didn't do it just to tick off the realtors.
+
+Anyone who has worked the city desk knows the phone call. "My neighbor's garage was broken into last night, and someone took their Snapper lawn mower and their chainsaw, nearly new. How come there was nothing in the paper?"
+
+There was nothing in the paper because newspapers and the people who run them don't care about neighborhood crime. Sure, we cover the bank robberies and murders. But we don't cover the burglaries, thefts, vandalized mailboxes and other parts of daily life in a community.
+
+The crime map helps us do that. We can't print a story in the paper every time some kid kicks in a yard barn and takes the mower. We can at least give our readers a dot on a map and maybe help prevent some crimes in the process.
+
+### Quid pro cop
+
+How is this done? In 1995, Art Gann, Evansville's chief of police, agreed to a trial run of giving The *Evansville Courier* online access to police blotter information. We started to archive the logs and soon had a month's worth of information. I started to play with Mapinfo and showed the cops what we could do with their boring data.
+
+The police had a civilian employee whose job it was to stick colored pins into a large map of Evansville that hung on the wall of the detective office. I showed them how we could do that with Mapinfo. We soon struck a deal:
+
+---
+
+**Mapinfo is not a beast to be conquered in a few days. If you are going to spend the money for mapping software, include training in the price.**
+
+---
+
+They would email me a week's worth of data, and I would produce a color map for them every week.
+
+In case the map could inadvertently identify a victim's home, the police had a moment's pause about mapping the location of sex crimes. After a prototype map was developed, their fear was allayed because one dot covered an entire city block.
+
+### Uncontrolled exports
+
+Once the maps were on the Web, we turned to getting them published in the newspaper. What I thought would take a day or two ended up taking more than a year and a half. Turns out Mapinfo does not export data in a graphical form in a high-enough resolution to be used in the newspaper.
+
+I waited about a year for the next upgrade of Mapinfo because an engineer told me exporting would be improved in Version 4.1. It was, but not enough. I later bought Version 4.5, which also did not help.
+
+We eventually heard about Map Publisher, an add-on tool from Avenza (*www.avenza.com*) that for $495 made exporting to our graphics and pagination system possible. Because of shortcomings in both programs, we still can print only in black and white the weekly map in the newspaper.
+
+### Be careful about...
+
+The address given by the police may not
+
+**Continued on page seven**
+
+---
+
+**DERK'S ARTICLE IS AN UPDATE TO A HANDOUT PROVIDED AT THE IRE NATIONAL CONFERENCE IN NEW ORLEANS (#814).**
+
+**TO SEARCH THE COLLECTION OF CONFERENCE HANDOUTS AVAILABLE FROM THE IRE RESOURCE CENTER, VISIT OUR WEB SITE AT WWW.IRE.ORG/RESOURCES/ CENTER/ HANDSEARCH.HTML. HANDOUTS ARE SORTED BY SUBJECT, YEAR AND LOCATION.**
+
+**TO SEARCH THE LIBRARY OF MORE THAN 12,000 INVESTIGATIVE STORIES AVAILABLE, VISIT WWW.IRE.ORG/RESOURCES/ CENTER/SEARCH.HTML**
+
+**THE RESOURCE CENTER CAN BE REACHED AT (573) 882-3364 OR BY EMAIL AT RESCNTR@IRE.ORG**
+
+---
+
+## Page 7
+
+*Continued from page six:* **Filtered arrests**
+
+be the address where the crime occurred. A woman is assaulted but drives to her parents' home across town. They call police. The report (at least in Evansville) will list the parents' address because that's where the report was taken.
+
+Some reports will list the addresses of hospitals and police stations because that's also where the victims reported the crimes. They need to be filtered out and handled differently – or it will look like those areas have major crime sprees.
+
+Be careful about theft. Mapping theft can take up lots of time and show nothing. My weekly maps filter out shoplifting because there are hundreds of reports every week.
+
+Consider which crimes deserve weekly reporting. Just because you get all the data doesn't mean you use it all. My maps show all felonies and some Class A misdemeanors, such as sexual battery.
+
+Be careful about arrests. There are two ways to look at mapping crime. When a burglary report is filed, it's because a crime has taken place. When a prostitution report is filed, it's because an arrest has taken place. Just because a lot of arrests are made in a certain area does not mean that's where the prostitutes are. That just means it's where the police are.
+
+Be prepared to fiddle with the "street-level maps" you buy from vendors. Some are old; some are inaccurate. If you live in Washington, D.C., or Detroit, I would expect they are reasonably up to date. But it does take them a while to work their way to Evansville, Indiana. So if someone builds a new subdivision or renames a road from Don Mattingly, then you need to change your database, too. And be prepared for cops who still use old names for roads long changed. Old habits die hard, and the data can be filled with addresses like "540 Old Highway 41" or "540 Business 41 N" or "540 Fares Ave." – all of which are the same place.
+
+Mapinfo is not a beast to be conquered in a few days. If you are going to spend the money for mapping software, include training in the price. It also helps if you know how to use a relational database, such as Access or Paradox, and a spreadsheet for basic tasks.
+
+James Derk can be reached at (812) 464-7409 or by email at jderk@evansville.net
+
+---
+
+*This is the Evansville Courier Crime Map for the week ending Sept. 16, 1998 available at the Couriers crime page at http://courier.evansville.net/crime/. Courier now publishes the crime map in the newspaper each week.*
+
+---
+
+**JOBS:**
+
+**FOR RECENT JOB POSTINGS ON THE IRE WEB SITE, INCLUDING A POSITION WITH THE JOURNAL GAZETTE IN FORT WAYNE, INDIANA, POINT YOUR BROWSER TO WWW.IRE.ORG/JOBS**
+
+**ONLINE CAR PROJECTS: TO VIEW A LISTING OF LINKS OF RECENT COMPUTER-ASSISTED REPORTING STORIES POSTED ON THE WEB, POINT YOUR INTERNET BROWSER TO WWW.IRE.ORG/ RESOURCES/CONFERENCES/ TRAINING/ CARPROJECTS.HTML**
+
+**THE SITE INCLUDES A DESCRIPTION OF THE STORIES AS WELL AS LINKS TO IRE AWARD WINNERS. IF YOU WOULD LIKE TO SEE A STORY ADDED TO THE LIST OF LINKS, SEND JACK DOLAN AN EMAIL AT JACK@NICAR.ORG**
+
+---
+
+## Page 8
+
+**TECH TIP**
+
+# Fitted for publication
+
+**By Carl Neiburger**
+*San Jose Mercury News*
+
+It's great to be able to use a GIS program to turn data into a map that you can display on your computer screen, but it's much nicer to be able to share the results with your readers.
+
+Unfortunately, the process of turning a viewable GIS map into a publishable map is anything but easy. It is possible, though, using ArcView 3.0 and Freehand version 7.0 or 8.0, plus a small Mac shareware program called epsConverter.
+
+### Before exporting
+
+Before I export ArcView maps, I make sure that:
+
+• Only the themes I need are turned on. Otherwise, ArcView will export unnecessary – and possibly confusing – data. I'll have to spend a lot of time later deleting it.
+
+• Every feature is a unique color or color blend – either line color or fill color. It doesn't matter which color is which as long as it is unique. After I export the file, I can change the colors to whatever I want.
+
+• Objects shown as lines, such as rivers and roads, are simple (single) lines, not filled lines, dotted lines or patterned lines..
+
+• If the map uses symbols, they are madde with simple geographic shapes, such as circles or squares.
+
+• All text labels are deleted. If they are not, ArcView will convert them on export to *paths* that will have to be deleted.
+
+• A suitable map projection is chosen. To do this, I pull down View | Properties and select the Projection button. I can select from at least one projection for every state or from several projections of the continental United States.
+
+After this, I use File | Export and select NEW EPS to save the view. (While ArcView has an option to export to Adobe Illustrator format, it has a bug that renders it useless.) I use a network drive to move it to a Mac, but I could also export it by copying the file to a PC diskette and then inserting the diskette into a Macintosh.
+
+### After exporting
+
+Neither Freehand nor Illustrator can directly open the EPS file created by ArcView. But epsConverter, a $25 Macintosh shareware program, will convert it into a form that both programs can use. epsConverter is available from *http://users.aol.com/ArtAge* or *ftp://users.aol.com/ArtAge.*
+
+To use epsConverter, I drag the EPS file onto the epsConverter icon. If my original file was called MYMAP.EPS, epsConverter creates a new file in the same directory called MYMAP.EPS.art.
+
+Freehand requires lots of memory to handle an EPS file from ArcView, so I generally quit all other Mac applications, select the Freehand program icon and hit Control-I. I then boost the memory up as far as I can – to about 50 megs. (If you can't do this, and if Freehand gives you out-of-memory errors when opening the file, try opening it first in Adobe Illustrator and saving it in Illustrator 5.0 format. Freehand should be able to open the Illustrator file.)
+
+Once I open the file in Freehand, I have to alternately ungroup the map and cut its contents twice before all the pieces are free. Then I go to the Xtras menu and Colors | Name All Colors. Naming all the colors lets me do two things:
+
+• I can use the graphic search function to select groups of items by color. If I made all the roads red before exporting them from

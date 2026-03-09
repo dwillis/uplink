@@ -1,0 +1,466 @@
+# Uplink Newsletter - May 1999
+
+---
+
+## Page 1
+
+May 1999
+
+**Uplink**
+A newsletter of the National Institute for Computer-Assisted Reporting
+
+---
+
+### MAPPING ANALYSIS
+
+# Charting a flood
+
+**By Chris Williams**
+*San Antonio Express-News*
+
+Two weeks after a freak storm dropped more than 15 inches of rain on San Antonio, more than 100 residents from a flood-ravaged neighborhood gathered in an elementary school gym. They wanted to know why the government, at any level, had not told them they were at risk of flooding.
+
+Across town, journalists at the *San Antonio Express-News* already were working on the same deceptively simple questions. Before the swollen creeks had receded, we were asking: "Where did the flood water go? Was there any pattern to the damage? Did people who needed flood insurance have it? Why not?"
+
+Some moderately sophisticated CAR techniques were needed to answer those simple questions. On Nov. 29, five weeks after the flood, we printed the results of the work of a computer-savvy reporter and news researcher. We found:
+
+• The path of the destruction closely followed the 100-year flood plains published in 1996. In fact, 75 percent of the 175 residences destroyed by the flood were in those flood plains.
+
+• Citywide, only about 10 percent of the damaged buildings were insured by the National Flood Insurance Program, which meant 90 percent of the people in 470 damaged buildings were trying to rebuild on slim federal grants or disaster loans they could not afford to repay.
+
+• Many more houses along creeks on the poor side of town were damaged than buildings along creeks in wealthier areas.
+
+---
+
+### CAR REPORT FROM LATIN AMERICA
+
+## Mexico and beyond
+
+**By Pedro Enrique Armendares**
+**Periodistas de Investigación**
+
+Training Mexican journalists in the methods of investigative reporting has been the purpose of Periodistas de Investigación for almost three years now. PI was the brainchild of IRE members from both sides of the border and it extends IRE's programs, such as workshops on computer-assisted reporting, to Mexico thanks to a grant from the McCormick Tribune Foundation.
+
+In September 1996 Lise Olsen and I opened PI's office in Mexico City. Lise came out of the United States with many years of experience in investigative journalism and CAR. She had also taught CAR workshops for IRE. I began my work in radio and television, later moving to the Mexico City daily *La Jornada*, where I covered special assignments for seven years.
+
+The last decade has been an exciting time for investigative journalism in
+
+**Continued on page five**
+
+---
+
+### Geocoding databases
+
+The story demonstrated that you don't need a full-time data analyst or CAR guru to get high-impact stories into the newspaper.
+
+From the very beginning, we knew that we wanted to print a map showing the locations of hundreds of properties damaged by the flooding. We quickly decided the way to do that was building, then geocoding, a database of damaged addresses. Geocoding is the geek word for assigning latitude and longitude coordinates to (in our case) street addresses.
+
+We used the software at hand – Microsoft Access for building the database and MapInfo for generating the maps and analyzing the relationship between the flood plains and the locations of the actual damage.
+
+The American Red Cross gave us hard
+
+**Continued on page four**
+
+---
+
+## Inside Uplink
+
+We at NICAR would like to dedicate this issue of *Uplink* to its managing editor, Brent Johnson, who died April 13 after complications from heart surgery. He was 27. Editing many of these stories from his hospital bed, Brent kept working until the night before the surgery. We'll miss his dedication. Please see page 2.
+
+This issue of *Uplink* includes reports of data analysis from across the Atlantic and south of the Rio Grande. Pedro Enrique Armendares of Periodistas de Investigación, a Mexican affiliate of IRE, writes about CAR activity throughout Latin America. Flemming Svith and Nils Mulvad describe the birth of the Danish Institute for Computer-Assisted Reporting. And Dick van Eijk shows how he broke new ground in the Netherlands with his 1994 mapping of election results.
+
+Closer to home, Chris Williams tracks flood-plain data, and Laura Zuckerman discovers a rising boat-accident rate.
+
+**PAGE 4**
+*On the Internet*
+
+**PAGE 12**
+*Handout of the Month*
+
+---
+
+## Page 2
+
+**Uplink**
+
+*May 1999*
+*Volume 11, Number 4*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Brent Johnson
+
+**SENIOR CONTRIBUTING EDITORS**
+Len Bruzzese
+len@ire.org
+Anna Brutzman
+anna@nicar.org
+Cindy Eberting
+cindy@ire.org
+Richard Mullins
+richard@nicar.org
+
+**COPY EDITOR**
+Jeanine M. Davis
+
+**ART DIRECTOR**
+Wendy Charron
+
+**DESIGNER**
+Kerrie Kirtland
+
+**STAFF**
+Britton Clapp
+Dawn Fallik
+Jason Grotto
+Ben Lesser
+Ted Peterson
+Noemi Ramirez
+Aaron Springer
+Neil Warner
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers.
+
+Postmaster: Please send address changes to NICAR.
+Send email to jeanine@nicar.org
+NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism.
+NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+NICAR is supported by grants from The Freedom Forum and other foundations intended to help the institute deliver its services nationwide to news organizations and associations.
+
+---
+
+# In Memorium
+
+Many of you knew Brent Johnson, a graduate student here at Missouri, who has been managing editor of our newsletter *Uplink* and has contributed to the *IRE Journal*. Brent died April 13 of cardiac arrest.
+
+Brent had Marfans Syndrome, a connective-tissue disorder that affects the cardiovascular and skeletal systems, and had gone into the hospital to have a heart valve replaced.
+
+Although this was a serious operation, he (and we) fully expected a quick recovery and for him to go on to his internship at the *Miami Herald* this summer. However, complications ensued during and after the operation.
+
+Brent, who was with us for the past two years, was a gifted writer and reporter and a wonderful colleague and friend with a great sense of humor and perspective. We will miss his voice.
+
+In his memory, we are setting up at IRE a scholarship fund in his name to be
+
+**BRENT PAUL JOHNSON**
+**1971 - 1999**
+
+given each year to the graduate student who is managing editor of *Uplink*. If you want to make a contribution, please make out your check to IRE and mark it for the "Brent Johnson Scholarship Fund."
+
+---
+
+### TIME, SWEAT AND SHOE LEATHER
+
+# CAR's advantages
+
+**By Paul Overberg**
+*USA Today*
+
+One of computer-assisted reporting's less-celebrated virtues is its ability to save time, sweat and shoe leather.
+
+When we sell CAR to skeptical editors and reporters, we often focus on how it can root out corruption or do the previously impossible, such as analyzing and publishing to the Web a school test-score package.
+
+But it's good to remember CAR's humbler virtues. Time and money are always short. Saving you two days of interviewing and saving the editor's plan to run your story the following weekend win just as many converts as a big hit.
+
+This idea struck me again last year when discussion arose on the NICAR mailing list about how one might track and analyze the tragedy of fatally abused children who have been written off as victims of sudden-infant death syndrome. I watched colleagues at Gannett News Service do this in 1991. Most cases turned up from interviews and Lexis-Nexis searches. But they also had a statistician analyze 49,569 death certificates from 1987 of children under nine to determine autopsy rates for various causes of death, especially suspicious ones, in every state. That steered them to good places for shoe-leather work, which turned up great material for the case database. Reporters Marjie Lundstrom and Rochelle Sharpe won the Pulitzer.
+
+### More recent examples:
+
+• In analyzing county-level personal bankruptcy rates in 1997, *USA Today's* Barbara Pearson checked several correlations before finding that one of the best was whether a state allowed wage garnishment. She mapped the data and found the Augusta, Ga., metropolitan area offered a stark contrast. Flanking the Savannah River, Richmond County, Ga., and Aiken County, S.C., were pretty similar, but the former had twice the bankruptcy rate. Reporter Tanya Albert went to Richmond County and found a wealth of local lore – the perfect prism for this CAR story.
+
+• Water well tests around Oakland County, Mich., last year showed fairly high levels of arsenic. The *Detroit Free-Press* mapped test results with geological information. The worst results clustered where soil was shallow over sandstone from which the arsenic came, said Heather Newman, a *Free-Press* projects reporter and CAR specialist. That told reporters exactly where to find people who were most affected.
+
+• In Utica, N.Y., gasoline prices well above the national and regional averages prompted an editor at *The Observer-Dispatch* to wonder if they were due to concentrated gas station
+
+**Continued on page thirteen**
+
+---
+
+## Page 3
+
+### FOR MORE FLOOD RESOURCES SEE IRE RESOURCE CENTER TIPSHEET #186. IT'S THE ST. LOUIS POST-DISPATCH'S "BIBLIOGRAPHY OF FLOOD SOURCES" LISTING GOVERNMENT AND NON-GOVERNMENT SOURCES USED TO REPORT THE FAILURE OF NATIONAL FLOOD PROGRAMS. CONTACT IRE'S RESOURCE CENTER AT (573)882-3364 TO GET IT.
+
+### CHECK OUT THE FEDERAL EMERGENCY MANAGEMENT AGENCY'S WEB SITE – FEMA.GOV – FOR INFO ON FLOOD SAFETY, FLOOD INSURANCE, FLOOD LAWS AND REGULATIONS
+
+---
+
+*From page one:* **Flood analysis**
+
+copies of their damage assessments, which included addresses, an inspector's opinion of the extent of damage and the estimated depth of the water. We built the database using a form in Access. Although most of the fields were standard, we devised a clever trick that we recommend for anyone who needs to build and then geocode a database.
+
+We copied the streets file out of our MapInfo software and imported it as a table into Access. We cut out all the columns except the street names. Then we deleted duplicate names, which whittled the table down from 87,000 to 20,000 rows. Within our data-entry form, we linked the street address field via a combo box to our new table of street names. The computer would recommend the proper spelling of a street name after we typed its first two or three letters, which saved time and ensured that the street names in the database would be exactly as they appeared in the MapInfo file.
+
+Having street names in a database that don't match those on the streets file of the GIS software is frustrating. The computer can't tell the difference between "Villa Main" and "Villamain." When we were done, we could generate a map of red dots for the 470 buildings damaged in the flood. With MapInfo's query ability, we could sort out homes, businesses, apartments and mobile homes.
+
+### Art and interviews
+
+The missing piece was the flood-plain data. That was easy. We bought it. The MapInfo Web page listed a company, On Target Mapping, that sold digital maps from the Federal Emergency Management Agency for about $200. From there, we printed a large map of the city and several smaller, blow-up maps of the damaged areas for the art department. We had difficulty outputting maps into a format our art department could import on their Macs. So, the artists scanned the images into their graphics software, then retouched them.
+
+Once the data wrangling was finished, the story became a matter of traditional reporting. We interviewed dozens of people, such as the mother who lost everything in the flood except five dresses and two school uniforms for her son and the city public works director who claimed he told several unheeding neighborhood groups about the dangers of flooding.
+
+After the story appeared, several members of the San Antonio City Council pledged to force the city to notify by mail everyone who lived in a flood plain about their risks of flooding. The council also embarked on a multi-million-dollar program of buying out properties in the flood plain that were damaged by the flood.
+
+Chris Williams can be reached by e-mail at cwilliams@express-news.net
+
+---
+
+### ON THE INTERNET
+
+# Calculating Aids
+
+**By Stephanie Reitz**
+*The Hartford Courant*
+
+1. Statistics Every Writer Should Know:
+*nilesonline.com/stats/*
+
+Compiled by Rocky Mountain News webmaster Robert Niles, this site offers a great primer on averages, mean, median, per capita and other concepts.
+
+2. The 10 Commandments of Polling:
+*metalab.sunc.edu/journalism/pollcomd.txt*
+
+Ken Blake of University of North Carolina (chapel Hill) explains the basic dos and don'ts of polling. Thou shalt not miss this site.
+
+3. The Spreadsheet Page: *j-walk.com/ss/*
+
+Compiled by a computer consultant in Sand Diego, the best offerings on this site can be found along the toolbar on the left-hand side of the page. Look for easy tips (and jokes) on various kinds of spreadsheet programs.
+
+4. Martindale's Calculators Online: *www-sci.lib.uci.edu/HSG/RefCalculators.html*
+
+It takes a bit of navigating to get used to the format of this page, but the results are worth the effort. It claims to have more than 8,200 calculators on the site, ranging from basic percent-change calculators to translation of names from English into various languages (not helpful during budget time but fun after deadline).
+
+Stephanie Reitz can be reached by e-mail at reitz@courant.com, or by phone at (860) 647-5349.
+
+---
+
+## Page 4
+
+### HIGH SCHOOL GENDER DISCRIMINATION
+
+# Title IX undermined
+
+**By Jim Hopkins**
+*The Courier-Journal*
+
+In Fourmile, on the western edge of Appalachian Kentucky, softball coach Rick Nelson bristled at the way some high school girls were treated by the Bell County School District.
+
+At the girls' softball field, about half the lights didn't work. Dugouts were little more than tin roofs propped up by two-by-fours. The restrooms were crowded, dirty and didn't always work. Seven miles down the road the boys' baseball team had manicured fields that were amply lit and featured cinder-block dugouts painted with the Bobcats' logo.
+
+Nelson told *The Courier-Journal* that he believed the county school district was in violation of Title IX, part of a 1972 federal law that requires schools to provide comparable athletic programs for girls and boys.
+
+That interview prompted a team of *Courier-Journal* reporters to conduct a six-month computer-assisted examination of athletic programs at hundreds of public high schools in Kentucky and Southern Indiana. Our conclusion in February 1998: There was rampant gender discrimination in equipment, practice times, facilities, budgets and the number of teams offered.
+
+*The Courier-Journal's* disclosures brought immediate results. The Kentucky Board of Education now requires all high schools to certify annually that they're complying with Title IX. For the first time, the state sponsored two Title IX training sessions for school officials. And in February of this year, after the newspaper published a follow-up report showing continued inequities, education board members accused the Kentucky High School Athletics Association of not working hard enough to deal with the problem.
+
+### How we did it
+
+The newspaper's findings came after lots of traditional shoe-leather journalism mixed with newer computer-assisted reporting and analysis techniques.
+
+Under open-records laws, we mailed requests to each of the 255 Kentucky and Southern Indiana high schools that have interscholastic sports. We asked for sports participation numbers by gender, for spending on boys' and girls' sports, for a gender breakdown on athletic directors and coaches and other information. We also obtained electronic copies of schedules for more than 5,000 boys' and girls' basketball games for the 1997-98 season.
+
+Using Paradox and Excel, we created dozens of databases to track the following: spending, growth in boys' teams versus girls' teams and trends in the hiring of women. We showed, for example, that:
+
+• Although boys comprised about 50 percent of school enrollment in Kentucky's public high schools, they held 62 percent of all the team positions.
+
+• Men held virtually all the coaching slots in major boys' sports and the majority of slots in girls' softball, basketball and soccer.
+
+• Nearly 40 percent of boys' basketball games were played during "prime time" – Friday nights, when audiences are especially large. Less than 13 percent of girls' games were scheduled during that time slot.
+
+### Problems we overcame
+
+The biggest obstacles we faced were in gathering data. Because there was no central repository for the records we needed, the lead reporter had to write individual records requests to each school. When school officials didn't respond, we placed follow-up phone calls and made additional written requests.
+
+We were also hampered by the fact that school officials generally provided raw data, which meant sorting through copies of budgets and hiring schedules to learn, for example, how much was spent on travel for a football team or how many women were in coaching positions.
+
+Finally, to keep the story focused on the people most affected – the students – we crisscrossed the state to interview parents, team members and school officials, then supplemented that reporting by talking with experts on a national level.
+
+Going beyond the data led us to people like Jerry Owens, principal at Owen County High. "There is probably not a high school in the state that isn't violating the law," he said. "The good ol' boy network is very much in place."
+
+Jim Hopkins can be reached by e-mail at hopkinsj@courier-journal.com
+
+---
+
+### SEE THE REQUIREMENTS MANDATED BY TITLE IX OF THE 1972 EDUCATION AMENDMENTS:
+ED.GOV/OFFICES/OCR/INTERATH.HTML
+
+• IN 1997, THE KANSAS CITY STAR PUBLISHED A SIX-PART PIECE ON THE NCAA THAT INCLUDED STORIES AND DATA ON TITLE IX COMPLIANCE. YOU CAN VIEW IT ONLINE OR ORDER REPRINTS OF THE ENTIRE SERIES AT KCSTAR.COM/NCAA.
+
+• THE UNIVERSITY OF IOWA CONDUCTED A GENDER EQUITY IN SPORTS PROJECT ON TITLE IX ENFORCEMENT. DATA FOR THE PROJECT CAN BE FOUND AT BAILWICK.LIB.UIOWA.EDU/GE
+
+• THE BROWN DAILY HERALD CHRONICLED BROWN UNIVERSITY'S STRUGGLES WITH TITLE IX ENFORCEMENT. TO LEARN MORE, GO TO NETSPACE.ORG/HERALD/LIBRARY/TITLEIX/HOMEPAGE.HTML
+
+CHECK OUT TIPSHEET #854 FROM THE IRE RESOURCE CENTER ON INVESTIGATING COLLEGE SPORTS FROM THE 1998 IRE NATIONAL
+
+---
+
+## Page 5
+
+### • THE WEB SITE ALSO OFFERS FULL TEXT VERSION OF PI'S BIMONTHLY NEWSLETTER, LA RED, AT: WWW.INVESTIGACION.ORG.MX/LAREDI.
+
+### • FIND CONTACT INFORMATION ON INVESTIGATIVE REPORTERS FROM LATIN AMERICA AT: INVESTIGACION.ORG.MX/DIRECTORIO/INDEX.HTML.
+
+---
+
+*From page five:* **Training difficulties**
+
+tion, including financial documents and economic data. Many businesses are more cooperative than the government and frequently have information in electronic form.
+
+One advantage for Latin American CAR is that many governmental offices and private firms skipped the era of mainframe computers and work mostly with PCs. Information is in a more accessible and easier-to-use format, as compared to the older and clumsier format found in the United States.
+
+### Success Stories
+
+Many participants in our CAR workshops immediately apply the techniques they learn. A few days after one Access workshop in Brazil, a reporter used the INS database of legal immigrants to the United States from our class to show the "brain drain" of Brazilian executives to the United States. This reporter was no newcomer to CAR, but we have seen many colleagues with no former training work on story ideas or at least dig out those boxes of clippings from under their desk to build a personal database even before the workshop is over.
+
+(This type of enthusiasm can get out of hand. A dear friend of mine has submitted to his spreadsheet analysis everything from how many times his country's lawmakers play hooky to the hobbies, body measures and hair color of the contestants in a beauty pageant.)
+
+Some Latin American colleagues have done very interesting things with their own databases built from paper documents. Reporters from the daily *Público*, in Guadalajara, Mexico, have profiled the arrest and sentencing patterns for drug offenders. The paper got the information from judicial sources though it was like pulling teeth, to later design a database, enter the data and analyze it using Access.
+
+*Público* found that only 5% of the arrests had been the result of police investigations, the rest being the result of random inspections, tip-offs or even traffic accidents in which vehicles carrying drugs were involved. The paper found inconsistencies in sentencing: One a kid caught at home with two dope plants is doing the same jail time as a recurrent smuggler who was captured while transporting dozens of pounds of cocaine.
+
+The Internet also helps reporters reach international sources such as scholars, journalists, and even government sites with information relevant to Latin American countries.
+
+Gerardo Reyes, of the *Miami Herald*, tells a story of one Honduran editor who literally jumped out of his chair when Reyes presented a General Accounting Office Web
+
+**Many media owners are unconvinced about the profitability of CAR.**
+
+site. Located there was data on U.S. military aid to the Honduras military. This information is classified in Honduras, he said.
+
+### A few problems
+
+In many newsrooms when owners or managers acquire modern equipment, reporters resist the necessary training either due to fear of technology or because they think their time is too "valuable" to squander in computing lessons. Computers become glorified word processors. Reporters prefer to go to their paper's library or to base their stories on readily available documents and press releases.
+
+At the same time, most media show little interest in paying to have their reporters trained at CAR techniques. Their excuse is the recurring economic crisis, and many of the owners and publishers in the region are still unconvinced of the profitability of modern journalistic resources. One exception, *Folha de Sao Paulo*, sponsors a training program for its staff and for young people fresh out of journalism school and even other fields.
+
+Journalists just getting exposed to CAR, however, often forget about traditional reporting. They fail to turn data into an interesting story. We often read a few dry paragraphs surrounded by tables and graphics or stories that run out of steam three lines after the lead. This will disappear as the novelty of these techniques wears off and especially when data-dazzled editors pick up their pencils and
+
+**Continued on page nine**
+
+---
+
+## Page 6
+
+*From page one:* **Official walls fall**
+
+Mexico. Economic reform during the last three administrations has been accompanied by electoral dispute, political assassinations, the appearance of peasant guerrilla movements in the southern part of the country and the rise of left- and right-leaning opposition that threatens the dominance of the governing Revolutionary Institutional Party. Emerging through all of this has been an increasingly participatory citizenry demanding more accountability from politicians.
+
+The media's situation has also changed. Mexico has a large number of dailies – in the capital alone there are more than 20 – but quality journalism has always faced an uphill battle against payoffs and censorship. The same government that could be generous to friendly media could also become a mortal enemy to newspapers running "uncomfortable" stories. But many media are progressively more dependent on public preference and advertisers instead of official subsidies, and government censorship is down.
+
+Our goal at PI is to bring investigative journalism, and in particular CAR, up to a level of sophistication demanded more and more by the public.
+
+When we first offered our workshops on investigative journalism, our first surprise was that despite marked centralism in Mexico, the interest in our project was much greater outside Mexico City. We also started to get requests for workshops from media in other countries in the region, including Colombia, Argentina, Brazil and Peru. PI is now continental, conducting workshops throughout Latin America.
+
+### Interest and Skepticism
+
+Our initial CAR workshops in newsrooms of Mexico and elsewhere in Latin America provoked a mixture of skepticism and interest. Relatively few of our colleagues had used CAR tools such as the Internet, spreadsheets and database managers.
+
+When we showed examples of computer-assisted stories done in the United States, our new friends thought the stories were excellent. But they also brought up all sorts of reasons why this type of journalism couldn't be done in Latin America, from electronic information not being available or reliable to the lack of modern computers in newsrooms.
+
+All agreed that bureaucrats and politicians tend to consider public information as a personal resource, to be shared with the press and society in general only at will. This problem is particularly serious in Mexico, where freedom-of-information legislation is ambiguous and toothless, and in countries where a recent authoritarian past has included stifling journalistic investigation for "national security."
+
+In the past few years, however, we have confirmed that CAR is possible and weakens the official monopoly on information. Reporters can use the Internet to search alternative sources and find the information that bureaucrats and politicians try to hide. They can analyze this information using spreadsheets or database managers and then compare it to official press releases. Once the reporting is published, politicians must respond. Occasionally information is released that was previously controlled.
+
+Some types of official information in Latin America, such as demographic data from the census bureau, health statistics and electoral data, are trustworthy, readily available and helpful for CAR stories. Such information has until now gone unexplored.
+
+We have also used the Web sites maintained by many Latin American governmental offices. These sites offer up much information that would otherwise take days or weeks to retrieve, given the bureaucrats' poor organization or intentional procrastination.
+
+Latin American reporters also make ever-more-frequent use of private-sector informa-
+
+**Continued on page six**
+
+---
+
+**We have confirmed that CAR is possible in Latin America and weakens the official monopoly on information. Once the reporting is published, politicians must respond.**
+
+---
+
+### PERIODISTAS DE INVESTIGACIÓN AIMS TO BECOME A MUST-STOP WEB SITE FOR JOURNALISTS INTERESTED IN INVESTIGATIVE ISSUES IN LATIN AMERICA.
+
+• READ MORE ABOUT THE GOALS AND OBJECTIVES OF PERIODISTAS DE INVESTIGACIÓN AT: INVESTIGACION.ORG.MX.
+
+• PI HAS COLLECTED DIGITAL RESOURCES AT: INVESTIGACION.ORG.MX/RECURSOS.HTML. MOST OF THEM ARE IN SPANISH, BUT SOME ARE ALSO AVAILABLE IN ENGLISH.
+
+---
+
+## Page 7
+
+### CAR REPORT FROM DENMARK
+
+# Discovering data
+
+**By Flemming Svith and Nils Mulvad**
+*Morgenavisen Jyllands-Posten*
+
+During the last three years, computer-assisted reporting has developed in Denmark from something unknown to an established set of research and analytic skills.
+
+At the outset, there was a defeatist attitude toward CAR in Denmark, but that has changed fundamentally. Active reporters with different areas of expertise have cooperated with each other; a very competent freedom-of-information lawyer has joined the effort; and the management of the Danish School of Journalism has been supportive.
+
+All main Danish media today have heard about CAR and have journalists trained in it. But still only a few newspapers run CAR stories.
+
+### Creating DICAR
+
+In 1997 The Association of Computer-Assisted Reporting in Denmark (FCJ) was founded. Membership has increased steadily. In 1998 FCJ launched the first Danish CAR day.
+
+The association prepared an action program for the establishment of an institute for CAR. The program was to be based on three important principles:
+
+• It would be a nonprofit organization.
+• Active journalists would be in control.
+• Quick action in the beginning would secure a stable and democratic system for the future.
+
+In 1998 DICAR, the Danish Institute for Computer-Assisted Reporting under the Danish School of Journalism (DJH), was established. Based on experience from Sweden and the United States, the institute filled the need for a more formal and ambitious structure of CAR training and communication.
+
+The statutes and a cooperation agreement with DJH are nearly finished. DICAR has established the first courses and completed a Web page (*www.dicar.dk*). The institute has also organized conferences, and it is beginning to receive money. There is so much work to do that it needs to hire a part-time employee. Things are moving ahead.
+
+Two main things are helping the process. One is the experience of American journalists in this field. The other is technological development in general, which puts PCs on the desks of journalists and the Internet in a central position for research. CAR is not an obscure realm of nerds but is broadly recognized in mainstream journalism because of the developing computer knowledge in society.
+
+### Pushing for access
+
+One of the main obstacles is access to data. Denmark has 5.2 million inhabitants. Since 1970 the population has had some freedom of information; slowly, a practice of fighting for greater freedom has taken root. Like the authorities of other Scandinavian countries, the Danish government has become largely computerized. But its attitude toward granting access to electronic information has been very restrictive. When information is electronic, there is generally no legal basis for gaining access to it.
+
+Although no right of access to electronic data exists, many authorities are prepared to pass on information, anyway. Moreover, it is possible to invoke other acts and rules in order to generate interpretations that can be used later to formulate precise requests for an alteration of the existing rules.
+
+There have been some very good CAR stories proving that the skills do work in journalism. But still there haven't been sensational CAR stories. No CAR stories until now have been nominated for the Danish version of the Pulitzer Prize, Cavling-prisen.
+
+In the coming year, an important task is making the association and the institute both run stable – on a minor scale much like IRE and NICAR in the United States. Getting the Danish authorities to place an overview of their data on the Internet will be a future task. Other considerable tasks are continuing the dialogue with authorities – both concerning specific experiments with mailing lists and access to electronic documents – and regarding the broader and more fundamental issue of formulating proposals for law reform.
+
+Nils Mulvad can be reached by e-mail at nmulvad@jp.dk
+Flemming Svith can be reached by e-mail at flemming.svith@jp.dk
+
+---
+
+### SVITH AND MULVAD ARE REPORTERS WITH MORGENAVISEN JYLLANDS-POSTEN, DENMARK'S LARGEST NEWSPAPER. THEY TEACH CAR AND CO-FOUNDED THE ASSOCIATION OF COMPUTER-ASSISTED REPORTING IN DENMARK AND THE DANISH INSTITUTE FOR COMPUTER-ASSISTED REPORTING. THEY AUTHORED THE FIRST DANISH CAR HANDBOOK, PUBLISHED IN 1998.
+
+• IN APRIL, MORE THAN 60 PARTICIPANTS AND 18 SPEAKERS TOOK PART IN THE GROUP'S SECOND DANISH "CAR-DAY." THEIR ORGANIZATION HAS GROWN FROM 40 TO 140 MEMBERS IN THE PAST YEAR.
+
+• THE GROUP ALSO JUST WON A GRANT FROM THE DANISH PUBLISHER'S ASSOCIATION TO PROCESS DATA AND PUT IT ON THE WEB (ATWWW.DICAR.DK). AND HELP THE ASSOCIATION WORK WITH BEAT REPORTERS.
+
+---
+
+## Page 8
+
+### CAR REPORT FROM THE NETHERLANDS
+
+# CAR on the map
+
+**By Dick van Eijk**
+*NRC Handelsblad*
+
+In the past five years, computer-assisted reporting in the Netherlands has developed from an obscure activity of an individual reporter to a formally established practice at two national newspapers. Mapping played an important role in breaking ground for the new professional methods.
+
+To American journalists, it may seem obvious that in their jobs they can use a computer for many tasks other than writing a story. Computer-assisted reporting is something that has existed for thirty years and can be learned at seminars, boot camps and conferences. The situation in the Netherlands, and in the rest of Europe, is entirely different. Only very recently has computer-assisted reporting been gaining momentum in a few countries, notably Sweden and the Netherlands.
+
+I did not know of the American tradition in 1993 when I used a database program (dBase III Plus for MS DOS) to enter the names and positions of more than 2,000 top officials of social-security institutions in the Netherlands. The Dutch parliament was doing a formal investigation on the execution of social-security laws, and we were curious about who actually governed these executing bodies.
+
+From the database analysis, it turned out that there was a relatively small network of unknown officials that met several times a week to determine policy. These officials actually ran the social-security programs. I interviewed most of them and attended, with their permission, a few of their meetings. I wrote two background stories about their hidden world. The stories did not mention that a computer database was used preparing them. Only a few of my colleagues knew.
+
+The database program had proved useful, but at that time I did not realize that the technique had the potential of being an integral part of everyday journalistic practice. That changed during the next year.
+
+### Mapping wish list
+
+To everyone's surprise, local parties gained a strong position in the March 1994 municipal elections. The polls had not predicted the rise of local parties because they concentrated on national trends and national parties. What we needed, but did not have, was a map showing the percentage of votes collected by local parties in each municipality. Speaking of maps, wouldn't it be nice to show other aspects of election results as well, such as where particular parties were strong or where they had gained or lost the most votes?
+
+That should be possible with a computer, I thought, though I had no idea how to do it. Our national editor encouraged me to find out. I worked largely on evenings and weekends to be able to present such maps on the day after the parliamentary elections, which were only two months away. I made myself familiar with the world of Windows, with Lotus Approach and with the newly discovered mapping program, MapInfo. The application worked, and the day after the elections the newspaper ran a page containing eight maps showing the strength as well as gains and losses of the major parties. The maps were considered a big hit, an experience that would recur in later projects. The explanation, I think, is that the maps showed information not available in such a form before. Their value could be judged without knowing anything about the database analysis behind them.
+
+The power of maps would prove to be an important argument for CAR in the Netherlands. The election maps were discussed on national television, and the professional magazine *De Journalist* wrote about them. We have repeated the map

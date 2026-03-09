@@ -1,0 +1,113 @@
+### The state of CAR at a small newspaper
+## The CAR lot: Munster, Ind.
+
+**By Carol Napolitano**
+*The (Munster, Ind.) Times*
+
+This is a story of inspiration and frustration. It is about living every day in a world of archaic laws and petty bureaucrats, distracted bosses, and tightening purse strings.
+
+It is about courting governments, educating editors, and changing the way people think.
+
+Welcome to the world of computer-assisted reporting. It isn't easy to ease your way into CAR, especially if you are a small or mid-sized newspaper.
+
+The Times is one of those. Our circulation dances around the 70,000 mark. But, unlike many newspapers our size, we are luckier than some because our publisher and many of our editors have vision.
+
+But that vision often is obscured by financial realities and deadline pressures. And that, unfortunately, is the way things are just about everywhere.
+
+Few papers give their reporters a year to analyze data, or spend $30,000 routinely to keypunch information. Yet, sometimes, it seems those are the only stories we hear about CAR programs. And we ask ourselves, "Gee, why can't it be so wonderful at my paper?"
+
+Well, I'm here to share some CAR stories that aren't so wonderful. But, I hope they will be inspirational to reporters who struggle each day to get a CAR program off the ground.
+
+> **The county data board's attorney actually suggested they might give us electronic records if we promised not disclose any of this public information to the public. That's true, I swear. There were witnesses.**
+
+#### Those pesky data requests
+
+The Times has the misfortune of covering Lake County, Indiana, where corruption and secrecy are a way of life in government and too many bureaucrats think we should be eternally grateful for the mere fact that they show up for work.
+
+A lot of records here are not computerized at all. And for the ones that are, county officials have hired a private agency, Cenifax, to oversee them.
+
+We've been pestering the county for almost 18 months now to get records — any records — in any electronic format. Officials' responses have ranged from ignoring us to contacting their private attorneys, viewing our requests as some kind of personal legal threat.
+
+Our paper even sat down with the county Data Board at one of its public meetings to ask for some kind of policy or procedure for acquiring electronic records.
+
+The board's attorney actually suggested they might give us electronic records if we promised not disclose any of this public information to the public. That's true, I swear. There were witnesses.
+
+When the meeting was over, the Data Board added one more insult. It refused to give us written minutes or a copy of the tape recording they made of that public meeting.
+
+In March, when Rebecca Buckman of the Indianapolis Star did a story about access to electronic records, she asked the head of Cenifax why his agency and county officials were so uncooperative.
+
+His answer: "The reason for that is because the files would be obsolete in a matter of days...and therefore any statistical abstractions drawn from the data" would be outdated.
+
+"Paper gets obsolete too," he said. But with computer tapes "you can manipulate (data) in any manner you see fit, therefore deriving any statistics that you want..."
+
+Gee, I don't remember any law that allows government to withhold public records because they are worried someone out there might misconstrue them.
+
+#### Speaking of the law
+
+Speaking of the law, Indiana's public records access law dates back to 1200 B.C., I think.
+
+For instance, death records are private! The state figures revealing someone's death certificate is violating their medical privacy. How can a dead person have privacy?
+
+In fact, to get death records you have to convince the state registrar that there is a "direct tangible and legitimate public interest" at stake, according to the law.
+
+So, when Lake County became embroiled in vote fraud scandal, we figured we had a good case to get a copy of some death records. Already we had uncovered cases of "dead" people voting and things were getting so hot the county prosecutor got in on the act.
+
+Here's what the state registrar said, in response to our request:
+
+"Clearly, you have no direct interest in the matter recorded on the death certificates. In addition, I do not believe that your request shows an extraordinary case that is a direct tangible and legitimate public interest."
+
+In addition to public officials who don't consider election fraud to be of public interest, we must contend with a state law that gives those same officials the choice as to whether to provide us with electronic data or paper data.
+
+You can pretty much guess what option they take.
+
+Recently, the Hoosier State Press Association, working with journalists from around the state, drafted a new records access law that would require government to give people records in the format they requested, if they had the ability to produce that format.
+
+The law also would have required agencies to charge people no more than the direct cost of reprogramming computers to produce the public record.
+
+The bill never got out of committee.
+
+#### Battles and luxuries on the homefront
+
+When we're not fighting government, we're fighting technology and time.
+
+The Times cannot afford the luxury of letting me work on CAR projects full time. It can't afford to hire a computer whiz.
+
+And our own technical people have to keep 18 papers in our chain running. They just don't have the time for me or my program.
+
+So, being just a reporter who kind of stumbled into computers, I grope my way through the world of CAR blindly, but with hope.
+
+I absorb manuals that often leave me asking more questions than they answer. I get on the computer and learn by making mistake after mistake.
+
+I swallow my pride and mutter endless apologies each time I find myself calling that elite group of CAR geniuses that you often hear speaking at conferences.
+
+But, after 18 months of talking to editors and pleading my cases, I am lucky to have acquired a good variety of CAR tools — We have dBase for Unix on all terminals; FoxPro on our Macs and on my laptop; Quattro Pro for Windows on my laptop and Lotus on a few Macs. My paper has not been stingy when it comes to buying software.
+
+But, like most other papers out there, I don't get a lot of time to work with my techno-toys. Deadline pressures demand I spend a lot of my time writing daily and weekend stories.
+
+It's hard to convince an editor to give you a few weeks to diddle around with the census data or just let you sit there and learn the software they've bought you.
+
+Often, you hear CAR gurus say the way they got more time was to produce some quick hitting stories. That works, if you live in a county or state where you can get data for quick hitters — like marriage licenses for a story on the most popular day to get married, or property records for a story on who owns the most land or who has the most expensive homes in towns.
+
+But in this state and this county, those kinds of records either aren't computerized, or aren't public, or government just won't give them to you electronically. So these popular quick hits often aren't an option for us here.
+
+#### One small step for CAR, one giant step for the Times
+
+As a result, most of the dozen or so stories we have done in the past year have come from homemade databases.
+
+We created a database on gun permits to do a story about what kind of people are carrying guns. We conducted polls on hot local issues, like riverboat gambling, and used our CAR software to analyze results.
+
+We compiled a database of all murders in Gary, Indiana, which had the highest per capita murder rate in the nation at the time, and used it to write a week-long series on homicide in that city.
+
+We gave students in the area a geography test, entered their scores into a database, and wrote a story about geography knowledge.
+
+And most recently, we used surveys filled out by police departments to take a look at our law enforcement resources and whether they were adequate to combat crime in the area.
+
+We did invest in one database — the census on CD-ROM and got a great little quick hit story out of that. We used the data to find heavily Irish neighborhoods to spruce up our St. Patrick's Day story.
+
+So, even without the cooperation of government and without the endless financial resources and without the unwavering editorial support I'd love to have, we have managed to breath life into a CAR program here.
+
+And, recently, we got our first electronic records from Lake County, thanks to one county official who still understands that public officials are there for the public.
+
+See? There are miracles.
+
+> **In this business there always will be people who want to know why you can't produce that Pulitzer-quality CAR series in a few days; who don't understand why it can take weeks, or even months, to make data usable.**

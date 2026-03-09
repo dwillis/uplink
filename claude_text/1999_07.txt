@@ -1,0 +1,536 @@
+# Uplink — July/August 1999
+
+---
+
+## Page 1
+
+**July/August 1999**
+
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+---
+
+### INVENTING A SCHOOL SYSTEM
+# Busting busing
+
+**By Ted Mellnik**
+*The Charlotte Observer*
+
+What if kids went to their neighborhood school? That's the big question in Charlotte.
+
+After the landmark 1971 Supreme Court decision upholding court-ordered busing here, the city was touted as the place where busing worked. But support has eroded over the past decade. Now a court challenge to race-based assignment policies threatens to dismantle Charlotte's system of busing for racial integration.
+
+To explore the issues and challenges that would accompany a move to neighborhood
+
+---
+
+### DADS PAY LITTLE
+## Welfare fails
+
+**By Jim Hopkins**
+*The Courier-Journal*
+
+For the first time since welfare reform began in Kentucky, a growing body of evidence shows that former welfare recipients in the state's chronically poor Appalachian region are failing to achieve one of reform's most important goals: finding jobs that pay a living wage.
+
+Welfare recipients in Kentucky's mountain counties also are more burdened by lax enforcement of child-support laws. Although welfare reform requires mothers to find work, many fathers who owe child support pay nothing, *The Courier-Journal* found in a six-month investigation.
+
+Our inquiry came down to people like Sheila Stone, a former welfare recipient trying to support four children on a $5.50-an-hour bank job. Her ex-husband hid from the law because he owed more than $40,000 in child support. Stone and the authorities didn't know where her ex-
+
+**Continued on page two**
+
+---
+
+schools, *The Charlotte Observer* designed a mock school system. In our system all kids went to the school (elementary, middle or high) closest to where they lived.
+
+Our model system is simplistic and probably impractical, but it gave us a way to spotlight potential changes and trends. We believed that if we fully explained our methods and assumptions, our model could contribute to our community's debate over neighborhood schools.
+
+The stories ran in January 1999 as the first five parts of "Deciding Desegregation," a continuing series. Reporter Debbie Cenziper and I described the forces of change acting on the schools. We compared schools in our system to existing schools, tracking ethnic diversity, concentrations of poverty, home-to-school distances and campus crowding.
+
+### Geography lesson
+
+The key ingredient of the Deciding Desegregation series was geographic data on each of about 94,000 students.
+
+We regularly use student data at *The Observer* because of the range of possibilities it offers for analysis. Most often we deal with results of tests such as the SAT and North Carolina's end-of-grade and end-of-course exams. The data has an entry for each student with key facts, including information we used for the Deciding Desegregation series such as a student's race, gender, grade in school and school attended.
+
+But we still needed to find out where students lived.
+
+Geographic data is a set of coordinates, like latitude and longitude. These sorts of data would allow us to find a spot on earth near each student's home and display it as a dot in a computer mapping program.
+
+School officials have on hand geographic
+
+**Continued on page seven**
+
+---
+
+## Inside Uplink
+
+This issue features several stories noted in the annual "Best CAR stories this year" panel at the National IRE Conference.
+
+Ted Mellnik of *The Charlotte Observer* tells how its series evaluated school busing by inventing a school district.
+
+Alan Miller of the *Los Angeles Times* explains how to find 10-year-olds giving thousands to politicos. See page 3.
+
+Jack Dolan of *The Hartford Courant* found slow ambulances that led to deaths. See page 4.
+
+Linda Goldston of the *San Jose Mercury News* writes about her first CAR story on trading exotic zoo animals. See page 8.
+
+Bennett Cunningham of KTVT-TV (Dallas) found pharmacists giving away deadly drugs to the wrong people. See page 10.
+
+NICAR's Training Director Tom McGinty explains new software that converts .PDF files into usable database files. See page 16.
+
+**PAGE 15**
+*On the Internet*
+
+**PAGE 18**
+*Stats and Such*
+
+**PAGE 20**
+*Handouts of the Month*
+
+---
+
+## Page 2
+
+# Uplink
+
+*July/August 1999*
+*Volume 11, Number 6*
+*A newsletter of the National Institute for Computer-Assisted Reporting*
+
+**EDITOR**
+Brant Houston
+brant@nicar.org
+
+**MANAGING EDITOR**
+Cindy Eberting
+cindy@nicar.org
+
+**SENIOR CONTRIBUTING EDITORS**
+Len Bruzzese
+len@ire.org
+Jessica Larson
+jessica@nicar.org
+
+**COPY EDITOR**
+Jessica Larson
+
+**ART DIRECTOR**
+Wendy Gray
+
+**STAFF**
+Chen Feng-Lan
+Britton Clap
+Jo Craven
+Dawn Fallik
+John Green
+Seth Jayson
+Tom McGinty
+Mareesa Orth
+Ted Peterson
+Tom Philipp
+Noemi Ramirez
+Laura Ruggerio
+Aaron Springer
+Neil Warner
+
+*Uplink* is published every month by the National Institute for Computer-Assisted Reporting, 138 Neff Hall Annex, Columbia, MO 65211. (573) 882-0684. Subscriptions are $40 for IRE members, $60 for nonmembers. Postmaster: Please send address changes to NICAR. Send e-mail to jgreen@nicar.org. NICAR is a joint effort of Investigative Reporters and Editors and the University of Missouri School of Journalism. NICAR services include hands-on newsroom training in computer-assisted reporting, special academic and advanced training in data analysis.
+
+---
+
+### From page one: **Welfare**
+
+husband was. As part of our investigation, we tracked him down and eventually reported his return to jail.
+
+Reaching our conclusions was anything but simple, however. We fought for electronic databases from the state welfare agency responsible for reform. We relied extensively on data from the Census Bureau, the U.S. Bureau of Economic Analysis and AutoTrak, a for-pay service that locates people. And we used paper records from the welfare agency and the state's employment services division to build databases of our own.
+
+### The face of welfare
+
+From the beginning, we suspected the biggest challenge for Kentucky's welfare reform efforts would be the tens of thousands of women and children in the state's 49 Appalachian counties, home to some of the nation's poorest residents. Indeed, although Appalachia has 30 percent of the state's population, it has nearly half of all Kentucky's welfare cases.
+
+One of our chief sources of data was a statewide telephone survey of 522 former welfare recipients conducted by the University of Louisville. We persuaded Kentucky welfare officials to give us the raw data from the survey, which the university conducted under a state contract. The survey asked a host of questions, from the reasons recipients left welfare to whether life was better without government assistance.
+
+We divided the responses into three groups: Appalachian counties, other rural counties and urban counties. Using Paradox and Excel to analyze the results, we immediately saw significant differences in the three regions. For example, only 41 percent of the Appalachian women said they left welfare because they found a job, compared with 55 percent in the urban areas. Examining state welfare records received on paper and fed into a separate database, we found that child support was collected by only 45 percent of the women in Appalachia, versus 53 percent in the rest of the state.
+
+The next step involved downloading state job-growth projections from the Internet, then sorting those into the same geographic groups. Our analysis showed that the Appalachian counties were expected to have half
+
+the job growth of urban counties over the next six years. This suggests there would be even more competition in the region for future jobs as additional women try to quit welfare. And where jobs are created in Appalachia, a disproportionate share will be in the low-wage ends of retailing and the service industry, our analysis showed.
+
+---
+
+**The state's biggest welfare database turned out to be too unwieldy … Learning to navigate our way through the data would have taken more time than we had.**
+
+---
+
+We decided to tell the story through the experience of Stone, 30, and her ex-husband, Antoine Stone, 32, a formerly well-paid computer programmer evading an arrest warrant for failing to pay child support. Relying partly on AutoTrak, a service I first learned about through NICAR, we found Antoine Stone in Detroit, where he agreed to an interview.
+
+We spent five days with Sheila Stone and her children to document the reality of trying to move off welfare, then contrasted that with the life Antoine Stone led on the run. Our hope was that readers would be pulled into the series by telling Sheila's story one day, then Antoine's the next.
+
+### Dealing with obstacles
+
+The state's biggest welfare database turned out to be too unwieldy; it consisted of more than 80 individual, linked datasets, some of which included confidential information. Learning to navigate our way through the data would have taken more time than we had. In the end, we settled on using the university's survey results and on less detailed paper records that were more accessible.
+
+Jim Hopkins can be reached by e-mail at hopkinsj@courier-journal.com.
+
+---
+
+## Page 3
+
+### CAMPAIGN FINANCE
+# Kiddie donors
+
+**By Alan C. Miller**
+*Los Angeles Times*
+
+They are the most precocious of political donors: youngsters who are not old enough to drive a car, never mind cast a vote, yet they dispense $1,000 checks to candidates for public office.
+
+The suspicion, of course, is that these school-age donors are the beneficiaries of a generous onetime boost in their allowance from parents looking to circumvent federal contribution limits. At $1,000 per election, family bundles are a tempting – and potentially illegal – way for wealthy givers to double or triple their largess to a favored candidate.
+
+Federal law places no minimum age on donors but requires that the funds be "owned or controlled exclusively by contributors" and that they "give knowingly and voluntarily."
+
+### Consultant helps
+
+Our curiosity about the extent of this practice was piqued by contributions from three students in a single family to a U.S. Senate candidate from California in 1998. So, we retained independent researcher Dwight Morris and his Campaign Study Group in Virginia, to provide a definitive set of numbers on federal contributions and a road map for further reporting.
+
+---
+
+**The FEC regards student giving as such a potentially serious loophole that it has repeatedly urged Congress to ban donations by minors.**
+
+---
+
+Starting with the Federal Election Commission records of contributions of $200 or more between Jan. 1, 1991 and Dec. 31, 1998 – a total of 3.9 million donations – Morris searched for donations to federal candidates or party committees by those identified as "students."
+
+He then scrubbed the initial hits to locate additional money from those identified as students for some contributions but not others (donations often include no information listed for occupation).
+
+Conversely, he eliminated other donors who were listed as students but who proved to be housewives taking a college course or professionals who had gone back to school.
+
+The tally: 8,876 student donations totaling $7.5 million. And the trend lines showed the numbers were growing.
+
+Using this database, Morris compiled a list of major student donors, including many of the 163 who gave a total of $5,000 or more. This was our starting point.
+
+Since the FEC does not list ages, we had to learn more about these donors to determine whether they were law school students who might be contributing themselves or pre-adolescents whose largess was less likely to be their own.
+
+Our strategy was to eliminate the older students through public records before approaching them and their parents.
+
+### Profiling givers
+
+Using online newspaper searches and voting and motor vehicle records, we built files on the top 50 donors who gave $13,700 to $93,250 each. This included a 15-year-old who donated $20,000 to the Democratic Congressional Campaign Committee.
+
+But we still needed more truly young givers that we believed were out there.
+
+We then focused on students who gave smaller sums and were therefore more likely to include youngsters in affluent California counties.
+
+Through the FEC records, we identified those whose donations in recent election cycles came at about the same time that their parents gave the legal maximum to the same candidate. We then eliminated those who were eligible to vote by checking their names with county registrars of voters.
+
+### Underage donating
+
+The final step was to nail down a specific age for those not registered to vote or licensed to drive.
+
+Here, we found a wide disparity in the
+
+**Continued on page five**
+
+---
+
+To learn more about campaign finance coverage, attend the Money in Politics seminar, Sept. 17-19 in Des Moines. Hands-on NICAR classes included. See *www.ire.org/training/iowa.html* for more info and online registration.
+
+**You can also order tapes from past campaign finance panels.**
+
+• From the 1999 IRE Conference:
+"Soft money goes Stateside: Get ready for Campaign 2000"
+
+• From the 1999 NICAR Conference:
+"Giving at Home"
+"Federal Campaign finance: Before and after the elections."
+
+• From the 1998 NICAR Conference:
+"State and Local Campaign Finance"
+
+To order a tape, call the IRE Resource Center at (573)882-2364 or visit *www.ire.org/store.*
+
+---
+
+## Page 4
+
+### AMBULANCE RESPONSE TIMES
+# Cardiac crapshoot
+
+**By Jack Dolan**
+*Hartford Courant*
+
+When Mike McIntire handed a cardboard box of diskettes across the divider and said, "I don't know if you can do anything with these," I knew I'd taken the right job.
+
+It was my first day at the *Hartford Courant*, my first job since leaving NICAR. McIntire, my new colleague on the investigative team, was working on a story about deathly slow response times by American Medical Response, one of the nation's largest private ambulance companies. AMR made several promises to Hartford officials to wrest the 911 business away from smaller, local companies including responding to 90 percent of serious medical emergencies within six minutes.
+
+### Disks to database
+
+McIntire had heard plenty of stories about AMR failing to meet that standard, but he knew he needed hard data to see if the anecdotes were part of a larger pattern. To that end, he got two years' worth of 911 call records from the Hartford police, who dispatch the ambulances. Each month of records came on a separate diskette as a tab-delimited text file. Those were the disks in the box Mike handed over the divider.
+
+Before long, we'd appended all of the files into a single FoxPro table, calculated the response times by address, and sorted the 50,000 calls so that the one with the longest response time was on top. Then we picked through the data for what doctors say are indisputable emergencies: cardiac arrest, chest pains, and difficulty breathing.
+
+We found that 34 percent of these most vulnerable patients waited more than six minutes for their ambulance – three times the number the AMR contract allowed. Hundreds of verified heart attack victims waited longer than ten minutes. Some waited longer than twenty minutes. Over two years, the number of people put at serious risk by long response times reached into the thousands.
+
+Emergency medicine experts across the country told us that dangerously long response times are bound to happen once in a while. That's why ambulance companies, when negotiating contracts, make sure to give themselves a cushion 10 percent of the time; 34 percent shocked the experts. We were told
+
+that if we wanted to discover what happened to those who waited the longest, the best place to start checking was the morgue.
+
+### Joining death records
+
+So we requested a database of all recorded deaths in Connecticut from the Department of Health. Among the fields in the death data were the name and address of the deceased and the date of death. The 911 records had no names of victims, but they did have the date of the call and the victim's address.
+
+---
+
+**Once we had the hard numbers that showed just how long AMR's response times are, the rest of the CAR work just helped make an already strong story stronger.**
+
+---
+
+We joined the databases on two criteria. The first was where the addresses matched. The second was when a death was recorded within one day after a wait of more than 10 minutes after a 911 call for someone suffering from one of those three most serious emergencies. A sad roll call of silent victims filled the screen. Through interviews with these victims' families, police, EMTs and AMR executives, we discovered that, like everyone else who waited too long for an ambulance, most of the dead fell into three distinct categories.
+
+### Mapping the calls
+
+First, some seemed to have to wait too long for the ambulance because of where they lived. We grouped all of the addresses of calls that took longer than six minutes into census tracts, then mapped the tracts using ArcView. Each tract was a different shade depending on the percentage of calls that took too long – the darker the color, the longer the response time.
+
+The darkest tracts were on the extreme northern, southern, and western edges of the
+
+**Continued on page five**
+
+---
+
+Check out *www.nhtsa.dot.gov/people/injury/ems/StateEMS/nasemsd.list.htm* to find a listing of each state's EMS office and contact information.
+
+Read or watch other stories about ambulance response times, available through the IRE Resource Center at *www.ire.org/resourcecenter* or call (573)882-3364. These stories include:
+
+A 1995 story on WTVT-TV (Tampa, Fla.) that showed slow ambulances may have led to deaths in a Florida county. Ask for story #12822.
+
+A 1995 investigation by the *Post-Bulletin* (Rochester, Minn.) of the Rochester Fire Department and its false alarms, response times and how its firefighters spend their time. Ask for story #12970.
+
+A 1995 story on WKRN-TV documenting slow response times and an ambulance shortage. Ask for story #12834.
+
+---
+
+## Page 5
+
+### From page four: **Response times**
+
+city. We expected a lot of long response times in the north, since it is the poorest part of Hartford. But the west is the wealthiest, and the darkest-colored southern tract is home to the mayor and many long-time Democratic city bosses. So much for the old adage about city services being best on the mayor's own street.
+
+The explanation, it turned out, is that AMR retrenched on an agreement to keep a certain number of ambulances based on the edges of the city at all times. Instead, the company reduced the number of ambulances available, rotating those that remain between the city's hospitals, which are located in the center of Hartford.
+
+A second apparent predictor of whether an ambulance would come quickly was the time of day. We expected to find that most of the longer calls happen in the early evening, when the 911 call volume is highest. Our logic was simple: if two people are waiting for one ambulance, somebody has to wait longer.
+
+Instead, we found response times are longest at mid-morning when 911 call volume is very light. Several EMTs explained that the peak hours for the lucrative business of shuttling non-emergency, well-insured patients home from the hospital are between 10 a.m. and noon, just after doctors have made their rounds and discharged patients. Therefore, AMR is loath to send an ambulance off on a 911 call during those hours since the company has a much better chance of getting paid for the high priced taxi service.
+
+A third contributor to long ambulance response times was the medical ignorance of some police officers thrust into the ambulance dispatcher role, often with very little medical training. We found 20 percent of confirmed cardiac arrest cases were not initially classified by police dispatchers as emergency calls, so the ambulance driver was not put on the highest alert.
+
+Since our investigation, the *Courant* ran several stories on AMR's poor performance in Connecticut and the company's problems holding onto contracts in other parts of the country.
+
+### Story prompts suit
+
+Finally, in early June, the state of Connecticut reached an anti-trust settlement with AMR. The settlement forced the company to give up 30 ambulance licenses to its competitors and give up 40 percent of the Hartford market.
+
+In Hartford, ambulances are dispatched by the police and not by the ambulance company. That was key to our investigation, because it meant the dispatch database was a public record.
+
+Once we had the hard numbers that showed just how long AMR's response times are, the rest of the CAR work just helped make an already strong story stronger.
+
+Jack Dolan can be reached by e-mail at dolan@courant.com
+
+---
+
+### From page three: **Donors**
+
+national public availability of birth records. Fortunately, we were able to access them in Los Angeles County.
+
+Dr. Scott Stolnitz, a Marina del Rey dentist, initially told me he wanted nothing to do with our story. When I subsequently called back to say that his daughter was going to be prominently featured, he said, "You know nothing about my daughter."
+
+I replied that I knew she was 10 years old when she gave $1,000 to Republican presidential candidate Lamar Alexander the same day that both her parents also gave the maximum.
+
+"OK," he said, "Here's the story." (Which turned out to be that he decided to make the contribution on his daughter's behalf from a checking account that he funds.)
+
+With our cases in hand, further reporting revealed that the FEC regards student giving as such a potentially serious loophole that it has repeatedly urged Congress to ban donations by minors, based on the presumption that contributors below age 16 are not making contributions on their own behalf.
+
+Yet, since 1975, the oft-criticized watchdog has assessed just one fine arising from minors' donations.
+
+Alan Miller can be reached by e-mail at alan.miller@latimes.com
+
+---
+
+See related tipsheets on mapping from the 1999 IRE Conference panel "Mapping as an Investigative Tool," Tipsheet #971 and Tipsheet #970.
+
+**These tipsheets are available online at** *www.ire.org/resourcecenter*
+
+---
+
+Check out Tipsheet #795 from the 1998 NICAR panel "State and Local Campaign Finance." This tipsheet is available online at *www.ire.org/resourcecenter*
+
+---
+
+## Page 6
+
+### WARNING HOMEOWNERS
+# Shoddy shacks
+
+**By Ames Alexander**
+*The Charlotte Observer*
+
+Looking for a story that will bring about an avalanche of phone calls and e-mail from grateful readers? Have we got one for you.
+
+In December, *The Charlotte Observer* published "Home Buyer Beware," a six-day series that detailed how Charlotte's housing boom had swamped builders, overwhelmed inspectors and left scores of homeowners with costly and dangerous problems.
+
+Across the Carolinas, thousands of families have discovered serious construction flaws in their new homes, ranging from shifting foundations to walls in danger of collapse. The homes belonged to people like Alan and Marie Nelsen, who vacated their new, half-million-dollar house in an exclusive lakefront neighborhood after an engineer reported that it was uninhabitable. People like Michael and Chona Hoy, who say serious construction defects led to a 1996 blaze that destroyed their new house.
+
+How could it possibly happen? Our research showed that builders are routinely hiring workers with little or no experience. North Carolina's laws favor builders over buyers, and overworked building inspectors are missing serious flaws.
+
+### Checking inspectors
+
+During our eight-month project, reporter Rick Rothacker and I accompanied building inspectors on their daily rounds, watched houses get built, pored through public records and interviewed more than 400 homeowners, builders, inspectors and others. And with the help of database editor Ted Mellnik, we used a variety of computer files to add power, authority and detail to our reporting.
+
+Local officials said they couldn't provide precise statistics on the workloads of inspectors, so we got the raw data – four million computer records on all building inspections conducted in Mecklenburg County since the 1970s. Among the conclusions the computer data helped us draw:
+
+• In Charlotte, construction flaws were widespread. The data showed that public building inspectors were rejecting home builders' work in roughly 4 of every 10 inspections.
+
+• Building inspectors were swamped. Inspectors in Mecklenburg were averaging 18 inspections per day. As a general rule, experts say, code officials should average about 10 inspections a day. On some days, code enforcers were doing more than 70 inspections – and spending an average of less than eight minutes on each of them.
+
+• Whether a house passed an inspection depended in part on the inspector. In 1997, one inspector failed 62 percent of the buildings he inspected. One of his colleagues, though, failed just 17 percent.
+
+---
+
+**Our research showed that builders are routinely hiring workers with little or no experience.**
+
+---
+
+*The Observer* also conducted a survey of Charlotte-area residents who'd recently bought new homes and found that more than 30 percent wouldn't recommend their builder to a friend. To find all those homeowners, *The Observer* obtained databases from area counties with information about new house permits. Meanwhile, a North Carolina Department of Labor database allowed us to show exactly how brisk business had been for the region's home builders.
+
+### Helpful sites
+
+We also used a variety of Web sites. Among the handiest was one maintained by the National Association of Home Builders: *www.nahb.com*. The group collects reams of information on new homes and the companies that build them – including survey data on how builders cope with the labor shortage and how much profit they're pocketing.
+
+Some advice for reporters who hope to delve into construction issues:
+
+• By all means request your county's building inspections data, but be prepared for some fancy computer work. For our project, Mellnik untangled the unwieldy hierarchical database provided by Mecklenburg County and put it in a form that allowed me to analyze it with Microsoft Access.
+
+**Continued on page seven**
+
+---
+
+The National Association of Home Builders' Web site offers contact names, addresses and phone numbers for each state's local associations at *www.nahb.knowwhere.com/nahb/*
+
+Check out *www.BuildingOnline.com/buildingindices.shtml* for a list of various architect, builder and contractor group Web sites and contact information.
+
+See related tipsheet from the 1995 IRE Conference for the panel on community development block grants. This packet includes phone numbers of deputy inspectors general, a chart of available grants, a key to CDBG and Home Reports and a sample audit report from the office of the inspector general. Tipsheet #355 can be ordered from the Resource Center at (573) 882-3364.
+
+---
+
+## Page 7
+
+### From page one: **Schools**
+
+data for each student, drawn from their home addresses, in order to analyze attendance zones. In our data request for the school district, we argued successfully that with names and addresses stripped out, the geographic coordinates would not be invasive of student privacy: the coordinates could not be converted to addresses and used for purposes such as mass mailing or telephone solicitation. We also argued that releasing the data would serve an important public purpose because of high community interest in where kids go to school.
+
+To this basic information we added four items for each student record: straight-line distance from home to school attended; ID of the nearest school; distance to the nearest school; and the census block group of the student's home. We used the student data, computer maps of school locations and the desktop computer-mapping software Atlas GIS for these calculations.
+
+### Time on the bus
+
+One of the first patterns to emerge was the disparity in the way the burden of busing is distributed. Blacks bear more than whites.
+
+That is, we found black students travel a longer distance to school. Also, more whites than blacks (54 percent compared to 32 percent) attend the closest school.
+
+When we attempted to measure the impact of so-called forced busing by counting students who attend neither their nearest school nor a magnet school, we found 42 percent of blacks are subjected to forced busing compared to 23 percent of whites.
+
+We built one part of the series around this existing difference, as well as the fact that in our model, distance to school dropped twice
+
+as much for black students as for whites when compared with their distances to current schools.
+
+### The death of desegregation?
+
+Our other findings included:
+
+• Under neighborhood schools, more than half (64) of the schools would be largely one race, compared to 19 now. Our measure was a school-level ethnic diversity index or the chance that two students picked at random from a school would be of different races.
+
+• Neighborhood schools would create a group of highly impoverished campuses concentrated in the inner city. We measured poverty by assigning to each student the poverty rate of their home census block group.
+
+• Under neighborhood schools, the number of students on overcrowded campuses would double and building classrooms to house them would cost hundreds of millions of dollars. Meanwhile, classrooms in some schools would stand empty. We defined overcrowding as 120 percent or more of building design capacity, not including mobile units on site.
+
+In response to the series, we received more than 500 phone calls, e-mail messages, faxes and letters from readers, most of them appreciative. Our series has been the only attempt to explore the potential impact of neighborhood schools here. When questions arose about neighborhood schools during a series of community meetings conducted by school officials, our series was cited.
+
+You can find the series online at: *www.charlotte.com/observer/special/deseg/index_jan.htm*
+
+Ted Mellnik can be reached by e-mail at Tmellnik@charlotte.com.
+
+---
+
+### From page six: **Home buyers**
+
+• Be ready to invest some time. It may make sense to attend a course on the building code, as I did. And there's no substitute for actually watching the nails get driven.
+
+• You may also want to get your graphics artists involved from the start. William Pitzer's superb series of graphics showed how houses are built and what often goes wrong, adding depth and context to the project.
+
+• If you tackle a story like this one, you'll probably find your time was well spent. After reading our series, Mecklenburg County officials agreed to hire more inspectors and take other steps to reduce the high inspection failure rate. State lawmakers introduced several bills to better protect home buyers. And more than 250 readers contacted the Observer to thank us and share their stories.
+
+Ames Alexander can be reached by e-mail at aalexander@charlotte.com
+
+---
+
+Check out *www.schoolbusfleet.com/Resource/index.htm* to find surveys, government bills, statistics and other resources for reporting on busing stories.
+
+See related tipsheet from the 1995 IRE Conference for the panel on desegregation of school systems. This tipsheet contains tips on understanding the dissimilarity index, the exposure index and counts and percentages. Tipsheet #311 can be ordered from the Resource Center at (573) 882-3364.
+
+An audiotape of the panel is also available for $11 from Sound Images, Inc. at (303) 649-1811 or on email at soundimages@soundimages.net. Ask for Tape #IRE95-6.
+
+---
+
+## Page 8
+
+### FIRST VENTURES
+# Animals to go
+
+**By Linda Goldston**
+*San Jose Mercury News*
+
+The zoos were making me mad.
+
+I wanted animal disposal records from all of the accredited zoos so I could track their surplus tigers, monkeys and nyalas after they left the zoo grounds.
+
+Most of the zoos weren't cooperating, and I wasn't about to settle for a dik-dik studbook and records from a couple dozen of the smaller zoos.
+
+Even so, for a while I became known as "Ms. Scanner" in the office as I faithfully scanned every animal transaction record I'd been able to get my hands on into Excel – thinking all the while I'd plead, pry, pout and use my Southern accent to get the rest.
+
+Records from my FOIA requests to the U.S. Fish & Wildlife Service and the U.S. Department of Agriculture already filled enough boxes to turn my desk, my car and my living room into forts. But I was still missing huge parts of the puzzle: Where did all of the animals go?
+
+### Seeking zoo records
+
+One zoo director told me no reporter had asked for studbooks before, yet I was demanding them with a vengeance after learning all of them were public records, thanks to agreements signed with other zoological groups around the world. The studbooks recorded the genetic histories of animals in a species but they also contained such goodies as showing which animals left an accredited zoo and went to such dealers as Earl Tatum and Buddy Jordan.
+
+I became very fond of a three-letter initial recorded after many of those animals were listed as going to dealers in the studbook – LTF, or "lost to follow-up." Lost to me, the public and the zoo itself. Lost in the regulatory black hole that governs zoo and exotic animals.
+
+Enough already!
+
+I had notebook after notebook of handwritten lists of where certain animals went after leaving the zoos, but the whole picture was far from complete.
+
+So I decided, hell, I'll try to buy the same database the zoos use themselves to record their animal transaction records.
+
+The first time I called the International
+
+Species Information System (ISIS) in Apple Valley, Minnesota, I simply said I wanted to buy a set of the CD-ROMs that hold all of the goodies.
+
+The guy I spoke with said I didn't qualify – I needed to have a collection of animals. Ah, never fear, I said, I have a dog and a cat. The ISIS man laughed half-heartedly and said, um, no.
+
+---
+
+**This ol' warrior will add one thing: A database is a remarkable tool – one that I came to admire and deeply appreciate. I might even do it again.**
+
+---
+
+Fine.
+
+About that time, a pair of wild ducks had taken up residence in the moat surrounding two sides of the Mercury News and hatched more than a dozen ducklings to make their way in the chlorinated waters of the moat.
+
+So I called the ISIS man back: "Hey, now I have a dog, a cat, a mama duck, a papa duck and 14 babies," I said. "Surely that qualifies as an animal collection."
+
+Um, no, that won't do, the ISIS man said, and there was no half-hearted laugh this time.
+
+But as soon as I checked the list of ISIS members on the Internet and saw a few of the same dealers listed that I was trying to track, I had one of those moments investigative reporters know well. It's the moment when you say, OK, by god, I don't know how, but I WILL get the information.
+
+### Sources offer data
+
+It took a little while longer, but I obtained two copies of the database from separate sources. It enabled us to verify the integrity of the data on each set.
+
+Now all of you trained observers will have noticed that I slipped the first "us" into my narrative. I spent most of my career getting to the
