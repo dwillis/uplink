@@ -58,7 +58,7 @@ uv run llm keys set anthropic
 uv run python src/extract_pdf_pages.py --missing
 
 # Generate issue JSON from text (skips existing files with adequate content)
-uv run python src/convert_to_json.py claude-sonnet-4-6 --skip-existing
+uv run python src/convert_to_json.py claude-sonnet-4.6 --skip-existing
 
 # Backfill any missing summaries
 uv run python src/summarize_unmatched.py
