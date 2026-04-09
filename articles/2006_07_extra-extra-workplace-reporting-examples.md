@@ -1,9 +1,0 @@
-# Extra! Extra! — Your Guide to the Latest Investigative Work
-
-Check out the stories below for examples of journalists using computer-assisted reporting to report about the workplace. These stories and others can be found at Extra! Extra! on the IRE Web site (*www.ire.org/extraextra*).
-
-Keith Rogers of the *Las Vegas Review-Journal* used Department of Labor statistics to review compensation applications made by sick employees who once worked at six radioactive and toxic materials sites. Rogers found that the Nevada Test Site had a compensation approval rate of 6 percent, the lowest of the sites. Yet only at the Nevada site did employees work in areas that had been detonated by nuclear devices. Nearly 900 cases were denied because former employees couldn't prove beyond a 49 percent likelihood that radioactive materials contributed to their illnesses.
-
-Randy Ludlow of *The Columbus Dispatch* reports on respiratory illnesses contracted by more than a quarter of the employees working in a TRW brake plant in Mt. Vernon, Ohio. He also reviews the lack of Occupational Safety and Health Administration standards to regulate practices that caused these respiratory problems. As he describes in the July-August issue of *The IRE Journal*, Ludlow found illness trends by using a database of TRW employee complaints from the Ohio Bureau of Workers' Compensation. He incorporated that data with OSHA's inspection data and anecdotes gathered from dozens of interviews.
-
-In *Time* magazine, Donald L. Bartlett and James B. Steele review how employees lost their retirement benefits when 401(k) plans tanked and pension plans were pulled out from under them. Company-sponsored pension plans are under-funded by $450 billion in the private sector and are quick to vanish when companies hit financial troubles. While 2004 reports claimed the average 401(k) is worth $61,000, the authors say that the median value was only $18,000.

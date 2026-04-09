@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun with the dir command — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Fun with the dir command</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      <span class="author-title">University of Missouri</span>
+      <span class="date">December 1994</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>There really is something useful that a DOS command can do for you, even if you use Windows all the time because you hate typing DOS commands. Computer hard drives can quickly become like attics or neglected closets.</p></div>
+
+  <div class="article-body">
+    <p>There really is something useful that a DOS command can do for you, even if you use Windows all the time because you hate typing DOS commands.</p>
+<p>Computer hard drives can quickly become like attics or neglected closets. They fill up with so much stuff that we forget what&#39;s there and waste a lot of space with stuff we don&#39;t need any more or files that are duplicated unknown times in subdirectories all over the place.</p>
+<p>What if we could inventory all the files on a hard drive into one sorted text file that could be viewed with a text editor or printed? The DIR command, plus a few options, will do it. Many DOS users are familiar with the use of /p or /w after a DIR command. These switches, as they&#39;re called, pause the output of the DIR list every screenful or arrange the output horizontally. The following disk inventory command will use three options you may not have used before. Here&#39;s the command. Change to the root directory first (cd/), then type: dir /on /s /a-d &gt; disklist.txt</p>
+<p>It may take a minute to finish, and you won&#39;t see anything on your screen while it&#39;s working, but that&#39;s it. Here&#39;s the explanation: The first option /on - orders the directory output by name. Use /oe if you want to order files by extension, /od by date, /os by size. The second option /s - gets the directory output for all subdirectories. That&#39;s why you have to do the command from the root directory of the drive.</p>
+<p>The third option /a-d - means show only files, not directory names, which you normally see in a DIR output. We exclude them here because they would be redundant. Every subdirectory in the output will have a full path heading.</p>
+<p>To understand this one, remember that DOS considers directories as a special kind of file. Translated more exactly, this option means: include files that don&#39;t have the directory attribute. &quot;Slash A&quot; (/a) introduces the attribute option; &quot;Minus d&quot; (-d) means &quot;not directory.&quot;</p>
+<p>The greater-than sign (&gt;) is the redirect sign. If you leave this part off, you&#39;d see the directory output rush by on the screen without stopping. Redirecting the output from the screen to a file (here called disklist.txt) gives you something a little more permanent you can view or print.</p>
+<p>One more tip: If you want a quick reminder on any DOS command, don&#39;t fumble for your manual; the answer is already on your computer if you have DOS 5.0 or higher. You can find the short documentation on any DOS command by typing the command word, followed by /?</p>
+<p>For example: copy /?</p>
+<p>- Richard Mullins can be reached at (314) 882-2127.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-september-setting-the-data-free.html">Setting the data free</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-september-fun-fed-sites.html">Fun fed sites</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-july-august-tech-tip-pdf-to-text-using-xpdf.html">Tech tip PDF to text using XPDF</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-xandros-switching-from-windows.html">Xandros: Switching from Windows</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-september-cracking-windows-95.html">Cracking Windows 95</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1994-december-ap-scores-with-big-fec-project.html" class="article-nav__prev">← AP scores with big FEC project</a>
+  <a href="/uplink/article/1994-december-crime-tops-car-agenda-for-94.html" class="article-nav__next">Crime tops CAR agenda for &#39;94 →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

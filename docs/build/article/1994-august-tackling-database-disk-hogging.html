@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tackling database disk-hogging — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tackling database disk-hogging</h1>
+    <div class="article-byline">
+      <span class="author">Chris Feola</span>
+      <span class="author-title">Reporter, Waterbury Republican American</span>
+      <span class="date">August 1994</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>Computer hardware tends to run a couple of generations ahead of software. This is sort of natural for programmers; there&#39;s not a lot of sense in writing a program for equipment that doesn&#39;t exist.</p></div>
+
+  <div class="article-body">
+    <p>Computer hardware tends to run a couple of generations ahead of software. This is sort of natural for programmers; there&#39;s not a lot of sense in writing a program for equipment that doesn&#39;t exist.</p>
+<p>It can be a royal pain for users, though, when your screaming high-tech machine won&#39;t work because your software was designed for the latest and greatest hardware - of 1988.</p>
+<p>A case in point: many database management programs have notorious problems with free disk space.</p>
+<p>The problem lies in the need for large stretches of open disk space for temporary tables. Although this article deals with the problem in Paradox, the theories apply to FoxPro, Access, and other database management programs as well.</p>
+<p>As a rule of thumb, Paradox needs free disk space equal to three times the size of the tables you want to use. If you want to sort a 30 megabyte table, for example, you need 120 megabytes of disk space: 30 for the table, and 90 for the temporary tables.</p>
+<p>The temporary tables are built by Paradox as it reformats a table. It&#39;s the digital equivalent of running off 10 copies of a 50-page report on a copier, then spreading everything out on a table to assemble 10 sets of reports with the pages in the right order.</p>
+<p>Knowing that database management programs tend to be disk pigs, I keep a 550-megabyte drive empty for database work.</p>
+<p>So imagine my surprise one day when Paradox gave me an &quot;Out of disk space&quot; error message while rekeying a 12-megabyte table.</p>
+<p>As you can guess, I was somewhat puzzled. Even if Paradox needed open disk space equal to 10 times the table, I was still good to go with 550 megabytes of free space.</p>
+<p>Being geniuses, we did what we always do: We tried it again, on the always-popular theory that computers are odd and will sometimes not work for no particular reason.</p>
+<p>No go. We got the same message: &quot;Out of disk space.&quot;</p>
+<p>We still needed the table sorted, however, so we thought of a different tack. Instead of rekeying the table (keys are fields used to automatically sort a database table), we decided to try manually sorting the table with the SORT command.</p>
+<p>This proved unsuccessful, but provided a solution. The sort failed, producing an &quot;Out of disk space&quot; error message. However, unlike the error messages that came up while trying to rekey the table using the table restructure command, the SORT error message offered the name of the offending table: C:TEMP$$$AF123.TMP.</p>
+<p>Now we were getting somewhere. Paradox, in its infinite wisdom, was trying to shoehorn its temporary tables into my jammed C: drive, rather than my wide-open I: drive. This is a throwback to the early days of DOS and PCs. A decade ago, you could plunk down several hundred dollars and get an enormous 10-megabyte hard drive. DOS was built to treat the drive as a single object - after all, who could need more than one drive or partition? But as far back as DOS 3.3 - around 1988 - DOS started to provide the ability to handle multiple partitions for large drives. And when your system gets up into the gigabyte range, dividing your drives up into partitions is a basic rule of disk management. Many large systems are now using a separate partition for the operating system - an arrangement I favor. Modern system design reserves drive letters A: and B: for floppy drives; C: is usually the boot partition on the hard drive. Setting up a separate C: partition has lots of advantages. This arrangement makes it easy to switch operating systems, for one; a switch I make about once a month it seems lately. My setup uses a 150-megabyte C: drive. My work drive for Paradox is the empty 550 megabyte I: drive. But instead of working on I:, Paradox was putting the temp files on C:.</p>
+<p>Paradox is putting its temp files on C: because that is where the system pointer is set. But the system pointer is supposed to be for system files, rather than program files. WordPerfect, for example, lets you set the pointer for that program&#39;s temp and backup files; if you don&#39;t set anything, the program defaults to its home directory. Once we knew what Paradox was up to, the problem was easy to solve. We reset the system pointer to the I: drive, and Paradox cranked happily away.</p>
+<p>Tips for conquering the disk problem:</p>
+<p>Set up a temp directory. Pick a drive with lots of open space and make sure you don&#39;t let it fill up. Make a temp directory using the Make Directory command. &quot;MD TEMP&quot; will make a directory called &quot;TEMP.&quot;</p>
+<p>Set the system pointer to your new temp directory by putting the following line in your temp directory: &quot;SET TEMP=C:TEMP&quot;. That line points to the TEMP directory on the C drive; obviously, substitute the correct drive and directory.</p>
+<p>Periodically clean out your temp directory. There are lots of ill-behaved programs that don&#39;t clean up their temp files. You can run out of disk space real quick - and for no reason - if you have a program leaving around large temp files.</p>
+<p>Never clean out your directory when Windows is running!! If you shell out to a DOS prompt and erase temp files while Windows is running, you will crash your system and lose data from any programs that are running. Always exit to DOS and exit all programs before cleaning out the temp directory.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-march-clear-road-ahead-new-cable-improved-heads-may-keep-reporters-from-driveing-themselves-nuts.html">Clear road ahead? New cable, improved heads may keep reporters from drive(ing) themselves nuts</a>
+  <span class="similar-meta">March 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-junejuly-nine-track-tape-drive-provides-easy-and-dependable-backup.html">Nine-track tape drive provides easy and dependable backup</a>
+  <span class="similar-meta">June/July 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-january-software-success.html">Software Success</a>
+  <span class="similar-meta">January 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-september-writing-the-story.html">Writing the story</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-september-picture-this.html">Picture this</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1994-august-choosing-the-right-computer.html" class="article-nav__prev">← Choosing the right computer</a>
+  <a href="/uplink/article/1994-august-how-to-negotiate-for-campaign-data-begging-for-records-in-pennsylvania.html" class="article-nav__next">How to negotiate for campaign data - Begging for records in Pennsylvania →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

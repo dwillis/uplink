@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons from parking database never expire: Repaying tickets in Boston — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Lessons from parking database never expire: Repaying tickets in Boston</h1>
+    <div class="article-byline">
+      <span class="author">David Armstrong</span>
+      <span class="author-title">The Boston Globe</span>
+      <span class="date">January 1995</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>Parking in Boston is often compared to a trip to the dentist: It can be painful and expensive. The city of Boston, not unlike scores of other cities across the country, dispatches meter maids to aggressively prowl the clogged city streets and hand out thousands of parking tickets each day.</p></div>
+
+  <div class="article-body">
+    <p>Parking in Boston is often compared to a trip to the dentist: It can be painful and expensive. The city of Boston, not unlike scores of other cities across the country, dispatches meter maids to aggressively prowl the clogged city streets and hand out thousands of parking tickets each day.</p>
+<p>Since everybody hates parking tickets, the Boston Herald (where I used to work) decided a year ago to request a copy of the city&#39;s parking ticket database. We had a number of stories in mind when requesting the database. We wanted to know what areas of the city were ticketed most frequently, which areas were avoided by ticket writers and why, who were the scofflaws and who was having their tickets dismissed or taken care of.</p>
+<p>The database of 3.5 million records on 269-track tapes proved helpful for those ideas and more.</p>
+<p>In fact, the most surprising information on the database was something we had never considered. The city had collected more than $2 million in overpayments from unwitting parking violators. This information proved to be wildly popular with the motoring public. The newspaper published a list of those companies and individuals owed the most money by the city because of overpayments. The overpayments were the result of errors by the city in recording license plate numbers, overlapping overdue notices and poor bookkeeping by parking violators who paid for the same ticket twice. Embarrassed parking officials were forced to admit they knew about the overpayments for years, but did nothing to return the money. The same officials set up a hotline to refund the money after the story appeared. The mayor ordered that printouts of the 60,000 companies and individuals owed money for overpayments be placed in every library for public inspection. Two months after the first story was published, the city had returned $1 million to parking violators.</p>
+<p>The database provided by the city of Boston actually came from a city vendor - Lockheed Information Services. Lockheed maintains the same records for many large and midsize cities across the country.</p>
+<p>The database has fields indicating the location of the ticket, who wrote it, the amount, the amount of overdue charges, whether or not the ticket was dismissed, the registration number of the ticketed vehicle and more.</p>
+<p>A Lesson on obtaining data</p>
+<p>The size of the file - 1.7 gigabytes - presented some problems. The data was analyzed on a Gateway 486 PC with an 800 megabyte hard drive. Using Nine-track Express, I heavily filtered the data to bring in only the information I absolutely needed.</p>
+<p>Using FoxPro, I would look at 300 to 400 megabyte chunks. For instance, when looking at who had tickets dismissed, I brought in only the fields for dismissal, name, amount, location and date. This cut the record length more than 70 percent. The hardest part of this endeavor, it turned out, was getting the tapes in the first place.</p>
+<p>Spending three weeks analyzing and playing with the data also drove home another point: Reporters should always do their own computer work, even if it is with the assistance of a more experienced or skilled programmer. Several story ideas were born from the long and often painful task of learning the database and attempting to analyze it.</p>
+<p>- Widely hated meter maids, who endure the curses and shouts of angry ticket recipients, are major money makers for the city. We found one meter maid had written 15,210 tickets totalling $516,000 in just one year of work. The same meter maid was paid $433 a week for her work.</p>
+<p>- We were able to produce a chart showing readers the 40 locations in Boston that would most likely result in your car getting a ticket.</p>
+<p>- Rental car companies were the biggest scofflaws in the city. Two companies owed the city a combined $1 million for parking tickets amassed by rental drivers who never paid up.</p>
+<p>It took three years for the Boston Herald to obtain a copy of the city&#39;s parking ticket database on 9-track tapes. The city only complied with the request when it was threatened with legal action by the state attorney general, who is charged with enforcing the state&#39;s public records law.</p>
+<p>In repeatedly rejecting the Herald&#39;s request, the city maintained it had the right to decide the form of any response to a public records request. In that vein, the city offered to provide the parking records in paper form at great cost to the newspaper. The state&#39;s public records law, which is modeled after the federal FOIA, does not provide government agencies the option of responding this way.</p>
+<p>Until recently, the city of Boston uniformly refused to comply with any requests for records in electronic form. In most of these cases, the city would offer a mile-long printout of paper as an alternative. In fact, city workers once delivered boxes of documents to the Herald newsroom after a reporter specifically requested the information on 9-track tape.</p>
+<p>It should be noted that the city&#39;s top computer manager also served as the mayor&#39;s pollster. That combination of computer knowledge and political savvy may explain the city&#39;s reluctance to help the media and others gain access to computerized records.</p>
+<p>In addition to the discovery that tens of thousands of motorists were overpaying the city for tickets, here are some of the other stories that resulted from analyzing the database:</p>
+<p>- The police officer assigned to drive former Mayor Raymond Flynn had every parking ticket issued to his personal car, a 1987 Jaguar, dismissed. The tickets totalled $355.</p>
+<p>Meanwhile, police officers and local business owners contributed anecdotes and color with their tales of furious motorists and creative scofflaws.</p>
+<p>Whether you&#39;re a CAR novice or an old pro, city parking ticket records offer a wealth of story opportunities.</p>
+<p>Ron Brown of the Roanoke Times &amp; World-News investigated his city&#39;s &quot;Car Wars&quot; in a series published earlier this year. (Call the IRE/NICAR resource center, 314-882-2042 for a copy.) With the help of computerized municipal records, Brown found how much Roanoke is earning from parking tickets, how many it dismisses, and the top 10 blocks for parking violations. Other statistics included the top grossing police officers and a list of the most common types of violations.</p>
+<p>But even better, Brown also found a few surprises on his list of frequent offenders.</p>
+<p>At the top of the list was Roanoke&#39;s Chief Assistant Commonwealth Attorney Betty Jo Anthony - someone, Brown wrote, who makes a living enforcing the rules.</p>
+<p>And before she could be identified, Times &amp; World-News columnist Kathleen Wilson stepped forward with her own admission of excessive fines.</p>
+<p>(David Armstrong moved from The Herald to The Globe in 1994. He can be reached at 617-929-2539 or through e-mail at armstr@news.globe.com.)</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-february-special-interest-contributions-revealed.html">Special interest contributions revealed</a>
+  <span class="similar-meta">February 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1990-november-boston-reeling-in-stories.html">Boston Reeling-In Stories</a>
+  <span class="similar-meta">November 1990</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2007-januaryfebruary-data-reveals-city-workers-bonus-pay.html">DATA REVEALS CITY WORKERS&#39; BONUS PAY</a>
+  <span class="similar-meta">January/February 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-november-december-tallying-city-spending-on-trinkets.html">Tallying city spending on trinkets</a>
+  <span class="similar-meta">November - December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-july-tax-problems-in-new-york-city-again.html">Tax Problems in New York City, Again</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1995-january-restaurants-on-car-menu.html" class="article-nav__prev">← Restaurants on CAR menu</a>
+  <a href="/uplink/article/1995-january-successes-with-epa-databases.html" class="article-nav__next">Successes with EPA databases →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

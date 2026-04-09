@@ -35,8 +35,20 @@
   <div class="article-summary"><p>FoxPro&#39;s SQL point-and-click interface makes database querying accessible to journalists of all skill levels, from beginners to experienced users, enabling more reporters to engage in computer-assisted reporting. The tool simplifies SQL use and automates coding tasks, democratizing technical skills across newsrooms.</p></div>
 
   <div class="article-body">
-    <p>The article provides an introduction to SQL&#39;s capabilities in FoxPro for newsroom use. With the SQL&#39;s point-and-click interface, beginners can easily construct queries without deep technical knowledge. This interface allows users to select databases and fields visually, greatly lowering the SQL learning curve. For seasoned users, the tool automates some SQL coding tasks, making it efficient for database manipulation.</p>
-<p>By simplifying SQL use, FoxPro encourages more reporters to engage in computer-assisted reporting, ensuring the spread of technical knowledge across newsrooms.</p>
+    <p>FoxPro&#39;s Point and Shoot SQL Interface can smooth the way for beginners.</p>
+<p>The great thing about Structured Query Language is that it is simple, powerful and for the most part, easy. Beginners can get started quickly, and pros can go as fast as they need to. It&#39;s no surprise that SQL has been adopted by reporters enthusiastically.</p>
+<p>For the first stage of a program of computer-assisted reporting, SQL releases the power of the highly-motivated individuals who are driving the effort. But after a small cadre of reporters has hit a few home runs, knowledge must spread throughout the newsroom in order to avoid a bottleneck. That&#39;s why training eventually becomes one of the top, if not the top priority to ensure the success of a program of computer-assisted reporting.</p>
+<p>For those news organizations using FoxPro Version 2.0, the Relational Query By Example interface provides a tremendous tool for teaching SQL to beginners. No matter how easy SQL may seem to the initiated, beginners need, and should have, as much help as possible.</p>
+<p>What the Relational Query By Example interface does is provide a point and shoot menu interface for SQL. For each portion of the SQL statement, the user chooses from a menu instead of typing the command. For the seasoned SQL programmer, this may seem awkward at first. I know it did for me, but now I write almost all of my SQL statements using RQBE.</p>
+<p>The benefit for beginners is that they don&#39;t have to sit there facing a SELECT statement, wondering what to type next. With the RQBE interface, they can play around and use menus to build the statement they want as follows.</p>
+<p>To enter the RQBE interface, a FoxPro user creates a new query file by choosing New from the file menu and specifying the file type as Query. This displays the interface screen.</p>
+<p>When FoxPro creates the query, it assumes that whichever database is open will be the subject of the query. If this isn&#39;t the correct database, then it can be cleared from the screen, and another database can be added from a menu of all available databases. If a database named &quot;DB1&quot; were open, then that database would be used for the query and its fields would be displayed in the Select Fields window.</p>
+<p>The user can change which fields appear in the query, or to choose various functions, such as SUM, AVG, COUNT, etc.</p>
+<p>When a user adds a second database to the query, say &quot;DB2&quot;, FoxPro pops up a menu-driven interface to the WHERE clause. Instead of typing in WHERE DB2.IDNUM = DB1.IDNUM, the WHERE interface allows a user to point and shoot. First a menu of all the fields in the DB2 database is presented so the user can select the appropriate field to join the databases together. Then the user selects the comparison operator, (LIKE or =, EXACTLY LIKE, etc.), and finally a menu of fields from the DB1 database appears.</p>
+<p>After the WHERE menu has been filled out, the where clause will appear in the large box at the bottom left of the screen. Also, all of the fields in the DB2 database will appear when the Select Fields menu is chosen. The same style interface is available for the ORDER BY, GROUP BY and HAVING clauses.</p>
+<p>The menus are nice for queries that use several databases, because the job of placing the alias tags that identify which field belongs to which database is handled automatically.</p>
+<p>When I first started to use this interface, I balked because I thought that it was a replacement for SQL, not a way to learn it. As soon as I clicked on the See SQL box, I realized I was wrong. Clicking on this box displays the SQL query built by the interface. A beginner can point and shoot for a while, then look at the SQL that he or she has created.</p>
+<p>Once the query has been completed, then it can be executed. The output can be directed to a temporary database for browsing, a permanent database for later use, or a report for printing.</p>
   </div>
 </article>
 
@@ -44,24 +56,24 @@
   <h3>Similar Articles</h3>
   <ul class="similar-list">
     <li class="similar-item">
-  <a href="/uplink/article/1992-june-foxpro-paradox-or-xdb.html">FoxPro, Paradox or XDB</a>
+  <a href="/uplink/article/1992-june-tech-tips-building-ranges-in-sql.html">Tech Tips: Building Ranges in SQL</a>
   <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-what-does-it-take-to-run-a-successful-computer-assisted-reporting-program.html">What does it take to run a successful computer-assisted reporting program?</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-foxpro-paradox-or-xdb-which-should-you-choose.html">FoxPro, Paradox or XDB: Which should you choose?</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-augustseptember-programming-as-easy-as-sql.html">Programming? As easy as SQL</a>
+  <span class="similar-meta">August/September 1993</span>
 </li>
 <li class="similar-item">
   <a href="/uplink/article/1997-september-setting-the-data-free.html">Setting the data free</a>
   <span class="similar-meta">September 1997</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/1997-august-car-tech-tip.html">CAR Tech Tip</a>
-  <span class="similar-meta">August 1997</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/2004-november-automate-common-tasks-with-foxpro-programs.html">Automate common tasks with FoxPro programs</a>
-  <span class="similar-meta">November 2004</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/1996-september-we-did-it-our-way.html">We did it our way</a>
-  <span class="similar-meta">September 1996</span>
 </li>
   </ul>
 </aside>

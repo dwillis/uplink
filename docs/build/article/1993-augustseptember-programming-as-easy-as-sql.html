@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming? As easy as SQL — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Programming? As easy as SQL</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      <span class="author-title">National Library on Money &amp; Politics</span>
+      <span class="date">August/September 1993</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>OK, this one&#39;s about programming, a word that may clash with the usual job description of a reporter. Just like the ideas of data and computers and SQL once did.</p></div>
+
+  <div class="article-body">
+    <p>OK, this one&#39;s about programming, a word that may clash with the usual job description of a reporter. Just like the ideas of data and computers and SQL once did.</p>
+<p>Assimilating SQL required something of an attitude adjustment from reporters about their life&#39;s calling and how they were to go about fulfilling their mission. This, in spite of the fact that SQL is all about Queries, the Prime Mover of Reporting.</p>
+<p>Well, scribblers, while you were cultivating the intellectual traits necessary for writing sharp, database-piercing queries, fertile ground was prepared for programming. Yes, programming. It&#39;s been growing up there, inside your skull, though you probably weren&#39;t aware of it.</p>
+<p>Since you already know so much about programming, this article would be as easy as SELECT FROM BidRiggers.</p>
+<p>I&#39;m going to use the FoxPro environment to talk about programming since it integrates (with a few compromises) SQL and a Fox&#39;s version of a standard database programming language called XBase.</p>
+<p>You may have also used some FoxPro commands by typing them in the command window: LOCATE, GOTO BOTTOM, INDEX ON, etc. If so, then you know all you need to know to de-mystify Fox Programming. A Fox program is just an ordinary text file with several commands that execute in order when you run the program.</p>
+<p>One of the benefits of SQL is that it is a Query Language, not a programming language. That means you use SQL to specify what information you want extracted from the database; you don&#39;t have to tell the computer how to do the fetching. But there are things that you may need to do with your data that can&#39;t be done with a query language. That&#39;s when it&#39;s time for programming. Many repetitive data cleanup tasks can be programmed, for example.</p>
+<p>The program can take user input, and then proceed based on the answers. A program can save the frustration of remembering the commands and the syntax and typing them correctly. Look them up and type them once, then run the program over and over.</p>
+<p>I&#39;ll end this part with a very shortened version of a program you can use to cut down, for example, a 500,000 record database to a copy with only 1,000 records. The program extracts or samples every 500th record (500,000 divided by 1,000).</p>
+<p>In this shortened form, the program is a slight improvement over typing a few lines in the command window. It would be more useful if you didn&#39;t have to go into the program to change the three variables. I&#39;ll add this next level -- getting the variables from the user - in a second part. It would also be more useful if it figured out the skip interval for you, based on your input of how many records you wanted extracted.</p>
+<p>The last line needs some explaining. The program language lets you copy ALL records or records satisfying a certain condition. The condition is introduced by the keyword &quot;FOR&quot;. Fox and Dbase files keep a record number for every record in a database.</p>
+<p>To satisfy the condition for getting copied to the target database, the number that we set as the skip interval (that&#39;s &#39;SkipInt&#39; in the program) should divide evenly into the record number (&#39;recno()&#39; in the program). The &quot;MOD&quot; function does the division and reports what the remainder is; if it&#39;s ZERO, that record is extracted to the target database. (This method is not the only way this could be done. It&#39;s the one I thought of when I wrote the program, ad hoc, two years ago.)</p>
+<p>Use the built-in text editor in Fox to type in this program. To create or edit a program file: In the command window, type &#39;modify command xtract&#39;. If the file XTRACT.PRG doesn&#39;t already exist, it is created.</p>
+<p>To run the program, type &#39;DO xtract&#39; in the command window.</p>
+<p>PROGRAM LISTING:</p>
+<p>XTRACT.PRG In this simple version, you have to fill in these three variables each time you use the program: SkipInt = 500 &amp;&amp; This number sets the extraction interval SourceDB = &#39;&#39; &amp;&amp; Name of DB to extract from TargetDB = &#39;&#39; &amp;&amp; Name of DB to copy extracted records use (SourceDB) in 1 alias source make an empty copy of the source DB copy structure to trim(TargetDB) now put the extracted records in it copy to (TargetDB) for mod( recno(), SkipInt ) = 0</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-october-tech-tips-foxpro-adds-a-new-dimension-to-sql.html">Tech Tips: FoxPro adds a new dimension to SQL</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-what-does-it-take-to-run-a-successful-computer-assisted-reporting-program.html">What does it take to run a successful computer-assisted reporting program?</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-tech-tips-building-ranges-in-sql.html">Tech Tips: Building Ranges in SQL</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-january-many-happy-returns.html">Many happy returns</a>
+  <span class="similar-meta">January 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-january-money-go-round.html">Money-go-round</a>
+  <span class="similar-meta">January 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1993-augustseptember-plugging-in-the-morning-call-allentown-pa.html" class="article-nav__prev">← Plugging in. The Morning Call, Allentown, Pa.</a>
+  <a href="/uplink/article/1994-march-dining-on-eatery-data.html" class="article-nav__next">Dining on eatery data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

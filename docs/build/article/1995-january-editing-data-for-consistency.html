@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editing data for consistency — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Editing data for consistency</h1>
+    <div class="article-byline">
+      <span class="author">George Landau</span>
+      <span class="author-title">St. Louis Post-Dispatch</span>
+      <span class="date">January 1995</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/agriculture-land.html" class="badge">Agriculture &amp; Land</a></div>
+  </header>
+
+  <div class="article-summary"><p>A lot of data analysis involves grouping and sorting - summing the expense reimbursements to a bunch of employees when you have the employees&#39; names and addresses but not Social Security numbers, for example.</p></div>
+
+  <div class="article-body">
+    <p>A lot of data analysis involves grouping and sorting - summing the expense reimbursements to a bunch of employees when you have the employees&#39; names and addresses but not Social Security numbers, for example. Unless you&#39;re sure that Joseph Schmo&#39;s name is entered the same way for each reimbursement, and that his address is consistently spelled, you won&#39;t be able to get reliable totals.</p>
+<p>One dependable but very painful way to edit this stuff is to list the various values in a field - names, for example - and manually do search-and-replace on the database until everything&#39;s consistent. In FoxPro or another SQL database, you could start like this:</p>
+<p>select fullname, count(*) from expenses group by 1; order by 1</p>
+<p>The query would return an alphabetized list of every way that a name is spelled in the entire database, along with the number of times each variation occurs. For example:</p>
+<p>FULLNAME / CNT Landau, George / 7 Landau, George T / 3 Landau, George T. / 3 Landau, George Thomas / 2</p>
+<p>Let&#39;s say you&#39;re certain these are all the same George Landau (remember, we can check addresses, also). You want to standardize on the variation with the most info: &quot;George Thomas Landau.&quot; To edit these the hard way, you could start typing commands like this:</p>
+<p>replace all fullname with &quot;Landau, George Thomas&quot; for fullname = &quot;Landau, George&quot; replace all fullname with &quot;Landau, George Thomas&quot; for fullname = &quot;Landau, George T&quot; replace all fullname with &quot;Landau, George Thomas&quot; for fullname = &quot;Landau, George T.&quot;</p>
+<p>Fine, but there are 10,000 records in this database. You might not be done for another month. The absolute fastest way out of this mess involves some moderately complex FoxPro programming; if you really want to know, give me a call and I&#39;ll tell you how to do it. But without any fancy programming - with only two keyboard macros, really - you can get the job done with a minimum of pain.</p>
+<p>Here&#39;s how:</p>
+<p>1. For reasons that will become clear as you read on, we need to get a list of every unique name into a FoxPro program file (*.prg), which is just a text file that contains a list of commands that will be executed in bulk, as if you had typed them all at once in FoxPro&#39;s command box. A query like this will do the job:</p>
+<p>select fullname from expenses group by 1; order by 1 [this line isn&#39;t actually necessary, since the &#39;group by&#39; sorts alpha-ascending by default] to file CLEAN1.PRG nowait</p>
+<p>The last line of this query puts the results into the specified text file, as ordinary ASCII text. The &#39;nowait&#39; clause prevents the process from halting at every screenful and forcing you to press a key to continue.</p>
+<p>2. Now let&#39;s edit the &quot;program&quot; you just created by typing in the Command box: modify command clean1</p>
+<p>3. Delete the first few lines, down to and including the line that contains the field name heading. You&#39;ll also notice that each line starts with two spaces of padding, and ends with a lot of padding. We want to get rid of those extra spaces, which we can do by using the Find function off the Edit menu.</p>
+<p>First, get rid of all the leading spaces by searching for \r\n (these blanks represent two spaces) and replacing with \r\n (\r\n is how you specify Carriage Return-Line Feed in FoxPro&#39;s Find dialog box). Then get rid of the trailing spaces by replacing \r\n with \r\n a few times; each time you get no matches, specify fewer trailing spaces until all are gone.</p>
+<p>This search-and-replace step can be tricky, so don&#39;t panic if you don&#39;t get it right the first time.</p>
+<p>4. Now we&#39;ve got a list of every name variation in the database, free of unwanted spaces. Our goal is to record two keyboard macros that will generate a REPLACE command for the names we want to change. Let&#39;s say you&#39;re looking at these entries again:</p>
+<p>Landau, George Landau, George T Landau, George T. Landau, George Thomas</p>
+<p>If you wanted to make the last one (Landau, George Thomas) the standard entry, click the cursor anywhere on that line. Here&#39;s where we&#39;ll record our first macro. First press shift-F10 to start the macro recorder. Specify a keystroke to assign the macro (I like Ctrl-Z, &#39;cause I don&#39;t use it for anything else). Then click OK. Every key you press from now until you press shift-F10 again will be recorded - mouse movements and clicks will be ignored. Press these keys (things in curly braces represent special keys; don&#39;t actually type the braces or the word, just press the key or key-combo):</p>
+<p>[Home] {Shift+End} {Ctrl+C}</p>
+<p>Now click shift-F10 again and click OK to stop recording the macro. Now whenever you press Ctrl-Z (or whatever keystroke you specified for the macro), FoxPro will define whatever line the cursor&#39;s on and copy all of it to the clipboard.</p>
+<p>Now click the cursor on the first line you want to change, &quot;Landau, George.&quot; Here&#39;s where we&#39;ll record our second macro. First press shift-F10 to start the macro recorder. Specify a keystroke to assign the macro (try something physically close to Ctrl-Z or whatever you chose, like Ctrl-A). Then click OK. Once again, every key you press from now until you press shift-F10 again will be recorded - mouse movements and clicks will be ignored. Type these keys and characters (again, things in curly braces are special keys; don&#39;t actually type the braces or the word, just press the key or key-combo):</p>
+<p>{Home}replace all fullname with &quot;{Ctrl+V}&quot; for fullname = &quot;{End}&quot;</p>
+<p>Then press Shift-F10 again and click OK to stop recording the macro. Now whenever you press Ctrl-A (or whatever keystroke you specified for the second macro), FoxPro will create a command to replace that line&#39;s contents with whatever&#39;s in the clipboard.</p>
+<p>5. Before you get down to business, you should save the macros so that you won&#39;t have to re-record them next time you run FoxPro. Pull down the Program menu and choose Macros. You can either save these as part of the default macros, which are loaded whenever FoxPro is run, or under a new name that you can restore manually when you need to.</p>
+<p>6. Now for the truly thrilling part. To begin standardizing all those spellings, just position the cursor on an entry that you want to become the standard and click Ctrl-Z (the first macro you recorded). This copies the line to the clipboard. Then click on one of the lines you want changed to the standard, and click Ctrl-A (or the key for the second macro) to create a &quot;replace&quot; command. Do this until you&#39;ve made it all the way through the file. Then go through and delete any entries that weren&#39;t made into a &quot;replace&quot; command (Hint: if you&#39;re comfortable going back and forth between text files and tables, as I described in the earlier part of this handout dealing with print images, you can append this program into a table and delete all the records that don&#39;t start with &quot;replace&quot;, then copy it back to a text file).</p>
+<p>7. Before you go any further, make a backup copy of the table you&#39;re intending to edit.</p>
+<p>8. Then open up either the backup or the original and do the program you just created. If you called the file &quot;clean1.prg,&quot; you just need to type &quot;do clean1&quot; in the Command box. This program may take a while to run if the database is large, because each &quot;replace&quot; command forces FoxPro to scan through all of the data. At least you&#39;re free to do something else, though.</p>
+<p>9. When it&#39;s done, your data will be standardized. You can now do accurate grouping, summing and sorting.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-april-all-in-the-family.html">All in the family</a>
+  <span class="similar-meta">April 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-july-mapping-a-new-future-for-reporting.html">Mapping a New Future for Reporting</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2007-januaryfebruary-data-reveals-city-workers-bonus-pay.html">DATA REVEALS CITY WORKERS&#39; BONUS PAY</a>
+  <span class="similar-meta">January/February 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-july-pennsylvania-suit-seeks-to-treat-tapes-as-public-records.html">Pennsylvania suit seeks to treat tapes as public records</a>
+  <span class="similar-meta">July 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-august-record-fight.html">Record Fight</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1995-january-successes-with-epa-databases.html" class="article-nav__prev">← Successes with EPA databases</a>
+  <a href="/uplink/article/1995-february-property-tax-records-disclose-wealth-of-stories.html" class="article-nav__next">Property tax records disclose wealth of stories →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
