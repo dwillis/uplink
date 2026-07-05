@@ -197,6 +197,25 @@ def slice_around_anchors(text, first_words, last_words):
     return text[char_start:char_end]
 
 
+MIN_GOOD_LENGTH = 400  # matches report.py's "very short" truncation threshold
+
+
+def existing_good_articles(stem):
+    """Articles already in issues/{stem}.json with substantial full_text,
+    keyed by normalized headline -- used to skip re-extracting content
+    that's already good rather than reprocessing every issue from scratch."""
+    issue_path = ISSUES_DIR / f"{stem}.json"
+    if not issue_path.exists():
+        return {}
+    old_articles = json.loads(issue_path.read_text()).get("articles", [])
+    good = {}
+    for a in old_articles:
+        if len(a.get("full_text", "")) >= MIN_GOOD_LENGTH:
+            norm = re.sub(r"[^a-z0-9 ]", "", a.get("headline", "").lower()).strip()
+            good[norm] = a
+    return good
+
+
 def run_extract(stem, model, force=False):
     inv_path = INVENTORY_DIR / f"{stem}.json"
     if not inv_path.exists():
@@ -212,10 +231,29 @@ def run_extract(stem, model, force=False):
         item for item in inventory.get("articles", [])
         if item.get("kind") in ("article", "column", "listing")
     ]
+    good_by_headline = {} if force else existing_good_articles(stem)
+    good_headlines = list(good_by_headline.keys())
 
     for idx, item in enumerate(items):
         out_path = out_dir / f"{idx:02d}.json"
         if out_path.exists() and not force:
+            continue
+
+        norm = re.sub(r"[^a-z0-9 ]", "", item["headline"].lower()).strip()
+        match = difflib.get_close_matches(norm, good_headlines, n=1, cutoff=0.85)
+        if match:
+            old = good_by_headline[match[0]]
+            out_path.write_text(json.dumps({
+                "full_text": old.get("full_text", ""),
+                "author_name": old.get("author_name", ""),
+                "affiliation": old.get("affiliation", ""),
+                "author_title": old.get("author_title", ""),
+                "headline": item["headline"],
+                "kicker": item.get("kicker", ""),
+                "unverified": False,
+                "reused": True,
+            }, indent=2) + "\n")
+            print(f"  [{idx + 1}/{len(items)}] {item['headline'][:60]}... (reusing existing text)")
             continue
 
         slice_text = slice_around_anchors(text, item["first_words"], item["last_words"])
@@ -278,18 +316,23 @@ def assemble(stem):
         match = difflib.get_close_matches(norm, old_norm_headlines, n=1, cutoff=0.85)
         old_article = old_by_norm_headline[match[0]] if match else {}
 
+        reused = extracted.get("reused", False)
         new_articles.append({
             "headline": item["headline"],
             "kicker": item.get("kicker", ""),
             "author_name": extracted.get("author_name") or old_article.get("author_name", ""),
             "author_title": extracted.get("author_title") or old_article.get("author_title", ""),
-            "affiliation": extracted.get("affiliation", ""),
+            "affiliation": extracted.get("affiliation") or old_article.get("affiliation", ""),
             "full_text": extracted.get("full_text", ""),
             "summary": old_article.get("summary", ""),
             "keywords": old_article.get("keywords", []),
+            "topics": old_article.get("topics", []),
+            "technologies": old_article.get("technologies", []),
             "provenance": {
-                "extracted_by": DEFAULT_MODEL,
-                "extracted_at": date.today().isoformat(),
+                "extracted_by": old_article.get("provenance", {}).get("extracted_by", "pre-v2")
+                                if reused else DEFAULT_MODEL,
+                "extracted_at": old_article.get("provenance", {}).get("extracted_at", "")
+                                if reused else date.today().isoformat(),
                 "verified": not extracted.get("unverified", False),
             },
         })

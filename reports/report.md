@@ -6,7 +6,7 @@
 - Articles: 678
 - Coverage bands: 58 green, 5 yellow, 82 red, 0 overridden
 - Articles flagged as possibly truncated: 52
-- TOC cross-check ran on 65 issue(s), 475 headline(s) enumerated but not extracted
+- TOC cross-check ran on 145 issue(s), 1349 headline(s) enumerated but not extracted
 - Unexplained schedule gaps: 9
 
 ## File coverage
