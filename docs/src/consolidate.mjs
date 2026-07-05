@@ -29,6 +29,7 @@ export function consolidate(repoRoot) {
   const issuesDir = join(repoRoot, 'issues');
 
   const consolidated = [];
+  const slugCounts = new Map();
 
   for (const file of readdirSync(issuesDir).sort()) {
     if (!file.endsWith('.json')) continue;
@@ -45,8 +46,17 @@ export function consolidate(repoRoot) {
       const month = issue.month || '';
       const monthNum = MONTH_ORDER[normalizeMonth(month)] || 0;
 
+      // Generic recurring headlines ("Tipsheets", "Web Links", "Bits &
+      // Bytes") can collide within the same issue/month now that far more
+      // short items are captured -- disambiguate so pages don't silently
+      // overwrite each other.
+      let slug = a.id || makeSlug(year, month, a.headline);
+      const seen = slugCounts.get(slug) || 0;
+      slugCounts.set(slug, seen + 1);
+      if (seen > 0) slug = `${slug}-${seen + 1}`;
+
       consolidated.push({
-        slug: a.id || makeSlug(year, month, a.headline),
+        slug,
         year,
         month,
         monthNum,
