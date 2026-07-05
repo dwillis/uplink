@@ -17,15 +17,18 @@ import argparse
 import difflib
 import json
 import re
-from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-PDF_DIR = REPO_ROOT / "pdfs"
-TEXT_DIR = REPO_ROOT / "text"
-ISSUES_DIR = REPO_ROOT / "issues"
-WORK_DIR = REPO_ROOT / "work"
-DATA_DIR = REPO_ROOT / "data"
-REPORTS_DIR = REPO_ROOT / "reports"
+from pipeline_common import (
+    DATA_DIR,
+    ISSUES_DIR,
+    PDF_DIR,
+    REPORTS_DIR,
+    TEXT_DIR,
+    WORK_DIR,
+    effective_text_chars,
+    parse_months_field,
+    parse_text_pages,
+)
 
 SCHEDULE_NOTES_PATH = DATA_DIR / "schedule_notes.json"
 COVERAGE_OVERRIDES_PATH = DATA_DIR / "coverage_overrides.json"
@@ -61,46 +64,8 @@ def load_coverage_overrides():
 
 
 # ---------------------------------------------------------------------------
-# Text file parsing
-# ---------------------------------------------------------------------------
-
-PAGE_HEADER_RE = re.compile(r"^Page \d+\s*$", re.MULTILINE)
-
-
-def parse_text_pages(stem):
-    """Split a text/{stem}.txt file into pages if it has 'Page N' / '---' markers.
-
-    Most text files in this archive came from an alternate OCR pass that
-    doesn't include page markers, so this treats the whole file as a single
-    page when no markers are present rather than failing.
-    """
-    path = TEXT_DIR / f"{stem}.txt"
-    if not path.exists():
-        return []
-    raw = path.read_text(errors="replace")
-    if "\n\n---\n\n" in raw and PAGE_HEADER_RE.search(raw):
-        chunks = raw.split("\n\n---\n\n")
-        pages = []
-        for chunk in chunks:
-            body = PAGE_HEADER_RE.sub("", chunk, count=1).strip()
-            pages.append(body)
-        return pages
-    return [raw]
-
-
-def effective_text_chars(pages):
-    """Character count of page bodies, ignoring the markers themselves."""
-    return sum(len(p) for p in pages)
-
-
-# ---------------------------------------------------------------------------
 # Schedule modeling
 # ---------------------------------------------------------------------------
-
-MONTH_NAMES = {
-    1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "June",
-    7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December",
-}
 
 
 def expected_stems():
@@ -121,18 +86,6 @@ def expected_stems():
                 break
             stems.append(f"{year}_{month:02d}")
     return stems
-
-
-def parse_months_field(data):
-    """Best-effort parse of the issue's `month` string into a set of month ints."""
-    month_field = data.get("month", "")
-    if isinstance(month_field, int):
-        return {month_field}
-    months = set()
-    for num, name in MONTH_NAMES.items():
-        if name.lower() in str(month_field).lower():
-            months.add(num)
-    return months
 
 
 def schedule_gaps(actual_stems, issues_by_stem, schedule_notes):
@@ -167,6 +120,11 @@ def schedule_gaps(actual_stems, issues_by_stem, schedule_notes):
 
 SENTENCE_END_RE = re.compile(r'["\')\]]?[.!?]["\')\]]?\s*$')
 CONTINUATION_RE = re.compile(r"continued on page|see .*page \d|cont'?d", re.IGNORECASE)
+# Common non-sentence article-closing conventions in this newsletter: an
+# email address, phone number, or URL, usually after "can be reached at ...".
+CONTACT_END_RE = re.compile(
+    r"(\S+@\S+\.\w+|\(\d{3}\)\s*\d{3}-\d{4}|\d{3}-\d{3}-\d{4}|https?://\S+|www\.\S+)\s*$"
+)
 
 
 def looks_truncated(full_text):
@@ -178,7 +136,7 @@ def looks_truncated(full_text):
         return "continuation marker at end"
     if len(text) < 400:
         return "very short"
-    if not SENTENCE_END_RE.search(text):
+    if not SENTENCE_END_RE.search(text) and not CONTACT_END_RE.search(text):
         return "no sentence-ending punctuation"
     if text[-1].isalpha() and text.rstrip().endswith("-"):
         return "ends mid-hyphenation"

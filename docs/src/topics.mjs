@@ -1,78 +1,19 @@
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 import natural from 'natural';
 
 const { TfIdf } = natural;
 
-// Curated topic taxonomy: topic name -> keywords to match (lowercase)
-const TAXONOMY = {
-  'Data & Databases': [
-    'data', 'database', 'databases', 'records', 'spreadsheet', 'spreadsheets',
-    'statistics', 'statistical', 'sql', 'access', 'dbase', 'foxpro', 'excel',
-    'tape', 'magnetic tape', 'diskette', 'dataset', 'datasets', 'data analysis',
-    'data sharing', 'data journalism', 'data matching', 'database matching',
-  ],
-  'Investigative Methods': [
-    'investigation', 'investigative', 'car', 'computer-assisted reporting',
-    'computer assisted reporting', 'analysis', 'reporting', 'methodology',
-    'foia', 'public records', 'records request', 'open records',
-    'document analysis', 'tipsheet',
-  ],
-  'Crime & Justice': [
-    'crime', 'criminal', 'police', 'courts', 'prison', 'jail', 'felony',
-    'felons', 'murder', 'homicide', 'sentencing', 'parole', 'probation',
-    'law enforcement', 'justice', 'criminal justice', 'convicted', 'arrests',
-    'sex offenders', 'voter fraud', 'fraud',
-  ],
-  'Government & Politics': [
-    'government', 'politics', 'elections', 'voter', 'voters', 'voting',
-    'legislature', 'campaign', 'campaign contributions', 'political',
-    'congress', 'senate', 'federal', 'state government', 'city government',
-    'election', 'political analysis', 'political favors', 'lobbying',
-    'transparency', 'accountability',
-  ],
-  'Public Safety': [
-    'safety', 'faa', 'aviation', 'transportation', 'fire', 'accident',
-    'accidents', 'aviation accidents', 'airline', 'highway', 'traffic',
-    'bridge', 'infrastructure', 'workplace safety', 'osha', 'military',
-  ],
-  'Health & Environment': [
-    'health', 'environment', 'pollution', 'toxic', 'water', 'air quality',
-    'cancer', 'disease', 'hospital', 'hospitals', 'medical', 'healthcare',
-    'pharmaceutical', 'drugs', 'contamination', 'chemical', 'epa',
-    'environmental', 'public health',
-  ],
-  'Education': [
-    'education', 'schools', 'school', 'university', 'students', 'teachers',
-    'college', 'graduation', 'test scores', 'curriculum', 'student',
-    'academic', 'classroom',
-  ],
-  'Business & Economy': [
-    'business', 'economy', 'contracts', 'real estate', 'financial',
-    'tax', 'taxes', 'tax loophole', 'property taxes', 'farm tax',
-    'corporate', 'subsidies', 'budget', 'spending', 'economic',
-    'insurance', 'banking', 'finance',
-  ],
-  'Journalism & Newsroom': [
-    'journalism', 'newsroom', 'training', 'conference', 'editors',
-    'reporter', 'reporters', 'nicar', 'ire', 'investigative reporters',
-    'missouri', 'car conference', 'media', 'news', 'broadcast', 'television',
-    'resources',
-  ],
-  'Technology': [
-    'technology', 'computers', 'internet', 'software', 'hardware',
-    'programming', 'gis', 'mapping', 'geographic information', 'digital',
-    'online', 'web', 'network', 'mainframe', 'unix',
-  ],
-  'Demographics & Census': [
-    'census', 'demographics', 'population', 'race', 'racial', 'racial bias',
-    'poverty', 'income', 'housing', 'neighborhood', 'community',
-    'geographic', 'policing',
-  ],
-  'Agriculture & Land': [
-    'agriculture', 'farm', 'farming', 'land', 'property', 'rural',
-    'livestock', 'crop', 'food inspection', 'restaurant', 'sanitation',
-    'food safety', 'inspection',
-  ],
-};
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Curated topic taxonomy: topic name -> keywords to match (lowercase).
+// Single source of truth is data/taxonomy.json (also read by
+// src/extract_metadata.py) so the Python and Node sides can't drift.
+const TAXONOMY = JSON.parse(
+  readFileSync(join(__dirname, '..', '..', 'data', 'taxonomy.json'), 'utf8')
+);
+const TAXONOMY_TOPICS = new Set([...Object.keys(TAXONOMY), 'Other']);
 
 function extractTfIdfKeywords(fullText, topN = 3) {
   const tfidf = new TfIdf();
@@ -87,6 +28,13 @@ function extractTfIdfKeywords(fullText, topN = 3) {
 }
 
 function assignTopics(article) {
+  // Prefer topics already assigned by the LLM metadata pass
+  // (src/extract_metadata.py) over keyword/TF-IDF guessing.
+  if (Array.isArray(article.topics) && article.topics.length > 0) {
+    const valid = article.topics.filter(t => TAXONOMY_TOPICS.has(t));
+    if (valid.length > 0) return valid.slice(0, 3);
+  }
+
   const keywords = (article.keywords || []).map(k => k.toLowerCase());
   const assignedTopics = new Set();
 

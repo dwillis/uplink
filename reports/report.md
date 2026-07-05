@@ -3,10 +3,10 @@
 ## Summary
 
 - Issues: 145 (PDFs: 145, text: 145)
-- Articles: 662
-- Coverage bands: 57 green, 5 yellow, 83 red, 0 overridden
-- Articles flagged as possibly truncated: 116
-- TOC cross-check: not yet available (run Stage A inventory first)
+- Articles: 678
+- Coverage bands: 58 green, 5 yellow, 82 red, 0 overridden
+- Articles flagged as possibly truncated: 52
+- TOC cross-check ran on 1 issue(s), 0 headline(s) enumerated but not extracted
 - Unexplained schedule gaps: 9
 
 ## File coverage
@@ -18,13 +18,13 @@
 
 ## Metadata fill rates
 
-- Total articles: 662
-- Missing author_name: 69 (10.4%)
-- Missing summary: 0 (0.0%)
-- Missing keywords: 82 (12.4%)
-- Missing topics: 662 (100.0%)
-- Missing technologies: 662 (100.0%)
-- author_title values that look like an affiliation (should move to `affiliation`): 322
+- Total articles: 678
+- Missing author_name: 72 (10.6%)
+- Missing summary: 16 (2.4%)
+- Missing keywords: 98 (14.5%)
+- Missing topics: 678 (100.0%)
+- Missing technologies: 678 (100.0%)
+- author_title values that look like an affiliation (should move to `affiliation`): 320
 
 ## Unexplained schedule gaps
 
@@ -44,7 +44,6 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 
 | issue | articles | captured/text chars | ratio | flags |
 |---|---|---|---|---|
-| 2001_07 | 2 | 2324/118036 | 0.02 | only 2 article(s) from 118036 chars of text |
 | 2001_01 | 2 | 2416/90735 | 0.03 | only 2 article(s) from 90735 chars of text |
 | 2002_01 | 2 | 3748/119030 | 0.03 | only 2 article(s) from 119030 chars of text |
 | 2001_11 | 2 | 3819/116109 | 0.03 | only 2 article(s) from 116109 chars of text |
@@ -140,7 +139,7 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 
 ## Possibly truncated articles
 
-<details><summary>44 issue(s) with flagged articles</summary>
+<details><summary>30 issue(s) with flagged articles</summary>
 
 
 **1990_11**
@@ -167,50 +166,18 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 **1994_04**
 - [2] Bits, Bytes and Barks — no sentence-ending punctuation
 
-**1994_06**
-- [1] Fed or Med? You can find it online — no sentence-ending punctuation
-
-**1994_08**
-- [3] Choosing the right computer — no sentence-ending punctuation
-
-**1994_10**
-- [5] Tech Tips: Calculating medians in Paradox — no sentence-ending punctuation
-
 **1995_05**
 - [0] Reporters tell how statistics nailed big stories: Crunch Those Numbers — no sentence-ending punctuation
 
-**1995_06**
-- [2] When babies die — no sentence-ending punctuation
-
 **1995_09**
-- [4] NICAR web site expands — no sentence-ending punctuation
 - [8] Fun fed sites — no sentence-ending punctuation
 
 **1995_10**
 - [0] Tracking military justice — no sentence-ending punctuation
 
-**1995_12**
-- [0] Unraveling the mysteries of nonprofits' 990s — no sentence-ending punctuation
-- [6] Baby, you can't drive my car: Do instructors practice what they preach — no sentence-ending punctuation
-
-**1996_01**
-- [5] Campaign coverage — no sentence-ending punctuation
-
-**1996_02**
-- [0] The big picture — no sentence-ending punctuation
-- [1] Maptitude: It's a deal — no sentence-ending punctuation
-- [2] Atlas GIS has site — no sentence-ending punctuation
-
 **1996_11**
 - [0] Uplink update — continuation marker at end
-- [1] Ready, aim, FOIA: Keeping up with the digital revolution — no sentence-ending punctuation
 - [4] No data? No dice: Excuses, excuses — no sentence-ending punctuation
-
-**1997_02**
-- [1] Collision course — no sentence-ending punctuation
-
-**1997_03**
-- [2] The real story: Project misconceptions — no sentence-ending punctuation
 
 **1997_08**
 - [0] Separate & Unequal — no sentence-ending punctuation
@@ -220,15 +187,7 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 - [8] IRE/NICAR Notes — no sentence-ending punctuation
 
 **1997_09**
-- [1] Paper rates critics — no sentence-ending punctuation
-- [2] Number-assisted features — no sentence-ending punctuation
 - [3] CAR goes to the dogs — no sentence-ending punctuation
-- [4] Funny CAR — no sentence-ending punctuation
-- [5] Stats from the road — no sentence-ending punctuation
-- [7] Sites on the borderline — no sentence-ending punctuation
-- [8] Tracking tourism — no sentence-ending punctuation
-- [9] Setting the data free — no sentence-ending punctuation
-- [10] Who's bringing up baby? — no sentence-ending punctuation
 
 **1999_04**
 - [2] IGNORED RESTRICTIONS - Flirting with disaster — no sentence-ending punctuation
@@ -239,31 +198,8 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 - [3] CAR's advantages — no sentence-ending punctuation
 - [7] CAR on the map — no sentence-ending punctuation
 
-**1999_09**
-- [0] Catch and release — no sentence-ending punctuation
-- [1] School sports as big business — no sentence-ending punctuation
-- [2] 'Out to the ball game' — no sentence-ending punctuation
-- [3] PAC Power — no sentence-ending punctuation
-- [4] SAS vs. SPSS — no sentence-ending punctuation
-- [5] Returning to regress — no sentence-ending punctuation
-- [6] "Sick" Slackers — no sentence-ending punctuation
-- [7] Healthcare by color — no sentence-ending punctuation
-
 **2000_05**
 - [1] Who's teaching our kids? — no sentence-ending punctuation
-
-**2000_09**
-- [0] Census and GIS — no sentence-ending punctuation
-
-**2001_09**
-- [1] Mapping molesters — no sentence-ending punctuation
-- [3] Program study — no sentence-ending punctuation
-- [4] Investigating a mayor — no sentence-ending punctuation
-- [5] Calculating bills — no sentence-ending punctuation
-- [6] Adding context, meaning — no sentence-ending punctuation
-- [8] Poorly run program — no sentence-ending punctuation
-- [10] Start the CAR — no sentence-ending punctuation
-- [11] Prepared success — no sentence-ending punctuation
 
 **2002_05**
 - [7] Intranet tools and preparing for disaster — no sentence-ending punctuation
@@ -281,54 +217,26 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 - [6] Delving into ancestry with SF4 data — no sentence-ending punctuation
 
 **2004_03**
-- [0] Finding 'missing' kids — no sentence-ending punctuation
 - [1] Survey helps explain heart attack survival — no sentence-ending punctuation
 - [4] Tangled webs — no sentence-ending punctuation
-- [5] Getting set for election coverage — no sentence-ending punctuation
-- [7] Mapping a new look at presidential results — no sentence-ending punctuation
-- [9] News resources — no sentence-ending punctuation
-- [11] Response times fall short — no sentence-ending punctuation
-- [12] Sprawl outpaces private ambulances — no sentence-ending punctuation
 - [15] Curl-ing apart Web documents — no sentence-ending punctuation
 
-**2004_05**
-- [1] PEACE CORPS Analysis exposes attacks on volunteers — no sentence-ending punctuation
-- [2] SPOTLIGHT: ELECTIONS Using CAR to cover the vote — no sentence-ending punctuation
-- [5] SPOTLIGHT: ELECTIONS Finding data for state elections — no sentence-ending punctuation
-- [7] IRE AWARDS Broadcast, other winners rely on data work — no sentence-ending punctuation
-- [8] MAPPING The latest uses of mapping in news reporting. Spotting sex off — no sentence-ending punctuation
-- [10] Tech tip... Making a point with geocoding — no sentence-ending punctuation
-
 **2004_07**
-- [4] FIRST VENTURE New-teacher data boosts narrative project — no sentence-ending punctuation
-- [7] MAPPING The latest uses of mapping in news reporting. Housing prices o — no sentence-ending punctuation
-- [8] SPOTLIGHT: REAL ESTATE Finding faults in new homes — no sentence-ending punctuation
 - [9] CAR TOOL Vigilant program tracks Web changes — no sentence-ending punctuation
-- [10] Tech tip PDF to text using XPDF — no sentence-ending punctuation
-
-**2004_11**
-- [6] Debunking some myths about speeders — no sentence-ending punctuation
-- [9] Automate common tasks with FoxPro programs — no sentence-ending punctuation
-- [11] Reservation deaths uncovered with data — no sentence-ending punctuation
 
 **2005_01**
 - [12] Setting up, stocking your data warehouse — no sentence-ending punctuation
 
 **2005_03**
 - [1] Analysis shows feds' claims about charity — no sentence-ending punctuation
-- [7] Data for examining security spending — no sentence-ending punctuation
 
 **2006_01**
-- [0] CAR ISSUES Giving proper credit — no sentence-ending punctuation
 - [2] Analysis finds bias in jury picks — no sentence-ending punctuation
-- [3] Farm story gets CAR started — no sentence-ending punctuation
 - [5] Tracking home foreclosures — no sentence-ending punctuation
-- [6] Privacy, security block access to data — no sentence-ending punctuation
 - [9] Meth stories win first Meyer Award — no sentence-ending punctuation
 
 **2006_03**
 - [1] Data lifts lid on DeLay money — no sentence-ending punctuation
-- [7] Finding surprises in drug arrest files — no sentence-ending punctuation
 - [10] Mapping Data for News Stories — no sentence-ending punctuation
 
 **2006_07**
@@ -345,7 +253,6 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 - [0] PLUG INTO DATA TO INVESTIGATE UTILITIES — no sentence-ending punctuation
 - [1] DATA REVEALS CITY WORKERS' BONUS PAY — no sentence-ending punctuation
 - [2] INDIAN GRANTS, GAMING REVENUE BOTH ON THE RISE — no sentence-ending punctuation
-- [5] DRILL FOR OIL DATA ON OPEC SITE — no sentence-ending punctuation
 
 </details>
 

@@ -46,17 +46,19 @@ export function consolidate(repoRoot) {
       const monthNum = MONTH_ORDER[normalizeMonth(month)] || 0;
 
       consolidated.push({
-        slug: makeSlug(year, month, a.headline),
+        slug: a.id || makeSlug(year, month, a.headline),
         year,
         month,
         monthNum,
         headline: a.headline,
         author_name: a.author_name || '',
         author_title: a.author_title || '',
+        affiliation: a.affiliation || '',
         summary: a.summary || '',
         keywords: a.keywords || [],
         full_text: a.full_text,
-        topics: [],
+        topics: a.topics || [],
+        technologies: a.technologies || [],
         similar: [],
       });
     }

@@ -1,6 +1,6 @@
 {
-  "total_articles": 662,
-  "total_truncated": 116,
+  "total_articles": 678,
+  "total_truncated": 52,
   "total_toc_missing": 0,
   "gaps": [
     "1991_08",
@@ -14,13 +14,13 @@
     "2005_07"
   ],
   "fill": {
-    "total": 662,
-    "missing_author": 69,
-    "missing_keywords": 82,
-    "missing_summary": 0,
-    "missing_topics": 662,
-    "missing_technologies": 662,
-    "mislabeled_title": 322
+    "total": 678,
+    "missing_author": 72,
+    "missing_keywords": 98,
+    "missing_summary": 16,
+    "missing_topics": 678,
+    "missing_technologies": 678,
+    "mislabeled_title": 320
   },
   "red": [
     {
@@ -102,13 +102,7 @@
       "flags": [
         "only 2 article(s) from 36233 chars of text"
       ],
-      "truncated": [
-        {
-          "index": 1,
-          "headline": "Fed or Med? You can find it online",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
+      "truncated": [],
       "toc_missing": null
     },
     {
@@ -190,23 +184,7 @@
       "band": "red",
       "override_reason": null,
       "flags": [],
-      "truncated": [
-        {
-          "index": 0,
-          "headline": "The big picture",
-          "reason": "no sentence-ending punctuation"
-        },
-        {
-          "index": 1,
-          "headline": "Maptitude: It's a deal",
-          "reason": "no sentence-ending punctuation"
-        },
-        {
-          "index": 2,
-          "headline": "Atlas GIS has site",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
+      "truncated": [],
       "toc_missing": null
     },
     {
@@ -317,11 +295,6 @@
           "reason": "continuation marker at end"
         },
         {
-          "index": 1,
-          "headline": "Ready, aim, FOIA: Keeping up with the digital revolution",
-          "reason": "no sentence-ending punctuation"
-        },
-        {
           "index": 4,
           "headline": "No data? No dice: Excuses, excuses",
           "reason": "no sentence-ending punctuation"
@@ -364,13 +337,7 @@
       "flags": [
         "only 2 article(s) from 64826 chars of text"
       ],
-      "truncated": [
-        {
-          "index": 1,
-          "headline": "Collision course",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
+      "truncated": [],
       "toc_missing": null
     },
     {
@@ -382,13 +349,7 @@
       "band": "red",
       "override_reason": null,
       "flags": [],
-      "truncated": [
-        {
-          "index": 2,
-          "headline": "The real story: Project misconceptions",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
+      "truncated": [],
       "toc_missing": null
     },
     {
@@ -844,13 +805,7 @@
       "flags": [
         "only 1 article(s) from 34080 chars of text"
       ],
-      "truncated": [
-        {
-          "index": 0,
-          "headline": "Census and GIS",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
+      "truncated": [],
       "toc_missing": null
     },
     {
@@ -931,20 +886,6 @@
       "override_reason": null,
       "flags": [
         "only 2 article(s) from 107617 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": null
-    },
-    {
-      "stem": "2001_07",
-      "num_articles": 2,
-      "text_chars": 118036,
-      "captured_chars": 2324,
-      "ratio": 0.0196889084686028,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 118036 chars of text"
       ],
       "truncated": [],
       "toc_missing": null
@@ -1308,17 +1249,12 @@
           "index": 1,
           "headline": "Analysis shows feds' claims about charity",
           "reason": "no sentence-ending punctuation"
-        },
-        {
-          "index": 7,
-          "headline": "Data for examining security spending",
-          "reason": "no sentence-ending punctuation"
         }
       ],
       "toc_missing": null
     }
   ],
-  "green_count": 57,
+  "green_count": 58,
   "overridden": [],
   "file_coverage": {
     "pdf_stems": [
