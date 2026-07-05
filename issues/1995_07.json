@@ -1,42 +1,147 @@
 {
+  "schema_version": 2,
   "year": 1995,
   "month": "July",
   "articles": [
     {
+      "headline": "Uplink update",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Covering campaign contributions is a staple of computer-assisted reporting. But it's tricky.\n\nA lot of states do not offer computerized donation databases. The Federal Election Commission's online service is not perfect. And there is always the need to go beyond the numbers for hard-hitting stories. This issue helps you with these problems.\n\nTwo Associated Press reporters tell how they computerized state election records available only on paper. One used scanners. The other arranged a massive data entry team. Both got good stories. Padraic Cassidy of the Los Angeles Times (and a former NICAR staff member) tells how to use the FEC on-line database.\n\nChristopher Schmitt of the San Jose Mercury News and Jackie Duobinis from the National Library on Money & Politics offer tips on analyzing contribution records.\n\nAnd the Poynter Institute's Nora Paul offers tips on how to use the Internet to better cover campaigns.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
       "headline": "Federal campaign reports that don't add up",
+      "kicker": "",
       "author_name": "Padraic Cassidy",
       "author_title": "Los Angeles Times",
+      "affiliation": "",
       "full_text": "From the campaign treasurer to your computer's hard drive, data from the Federal Election Commission follows a tortured route. The paper records are filed first with the Clerk of the House or the Senate, who photocopies them and send them to the FEC on microfilm. The FEC then makes paper copies from the microfilm, keeps a copy for public view and sends a copy out to be keypunched. That data then is checked and made available to the Direct Access Program users. The good news is that the FEC makes a mammoth effort to have data on thousands of committees available as soon as possible after the reporting period deadlines. The bad news is that the smallest keypunch errors can wreak havoc on a news story. \n\nRecently a problem cropped up in the amounts each candidate was supposedly contributing to their own campaign: For a while, the records showed Senate hopeful Michael Huffington giving his campaign $2 million more than he actually did, although that may have been hard to see in a campaign where he chipped in $28 million of his own money. \n\nBut take the case of Kyle McSlarrow in his losing campaign for Virginia's 8th district. Just two keypunch errors accounted for a $3 million mistake in a campaign where he spent less than $700,000. The FEC is working to correct the errors and the best advice is to sum all figures and check, check, check those totals. \n\nThe majority of the useful information and the type most easily accessible for stories on deadline-hangs out in two major areas: The \"5\" report section for PACs, party committees and other committees, and the \"1\" report section for individual donors. The FEC supplies totals for almost every search.",
       "summary": "Dedicated to improving coverage of campaign contributions, this issue includes experiences from journalists using technology to handle non-digitized state election records, tips on navigating federal databases, and leveraging internet resources for political reporting.",
       "keywords": [
         "Campaign Contributions",
         "Database",
         "Reporting"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "Paying the bills",
+      "headline": "Best votes money can buy",
+      "kicker": "",
       "author_name": "Christopher H. Schmitt",
-      "author_title": "San Jose Mercury News",
-      "full_text": "It's the ultimate question when journalists focus on campaign cash and elected officials' behavior: Can you prove that the money directly influences votes on particular bills? \n\nUltimately, no, unless officials are caught asking for money in exchange for votes. But short of that, we recently used a regression analysis to show campaign contributions are often a strong predictor not only of aggregate behavior, but of individual votes on individual bills. \n\nThe analysis, which focused on 10 major bills from California's 1993-94 legislative session, showed that the more money individual lawmakers took from interests pushing a particular bill, the more likely they were to vote for that bill.",
-      "summary": "A regression analysis of California's 1993-94 legislative session found that campaign contributions from interests backing specific bills were strong predictors of lawmakers' individual votes on those bills, suggesting money influences legislative behavior even without direct quid pro quo arrangements.",
-      "keywords": [
-        "contributions",
-        "votes",
-        "legislation"
-      ]
+      "author_title": "",
+      "affiliation": "San Jose Mercury News",
+      "full_text": "It's the ultimate question when journalists focus on campaign cash and elected officials' behavior: Can you prove that the money directly influences votes on particular bills?\n\nUltimately, no, unless officials are caught asking for money in exchange for votes. But short of that, we recently used a regression analysis to show campaign contributions are often a strong predictor not only of aggregate behavior, but of individual votes on individual bills.\n\nThe analysis, which focused on 10 major bills from California's 1993-94 legislative session, showed that the more money individual lawmakers took from interests pushing a par-",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
-      "headline": "Milking campaign funds",
+      "headline": "Scan for the facts",
+      "kicker": "Milking campaign funds",
       "author_name": "Rich Eggleston",
-      "author_title": "Associated Press",
-      "full_text": "The Associated Press bureau in Wisconsin showed that the lack of an electronic database is no obstacle to good computer-assisted reporting. \n\nThe bureau wanted to track campaign fundraising by Gov. Tommy Thompson and other state politicians. Wisconsin, like some other states, does not store that electronically, it only requires candidates to file on paper. The longer reports - like Thompson's - almost defy manual analysis. \n\nOur solution: a scanner. \n\nWe took the step last year, after Nick Schiavo, a former Air Force computer expert, asked how a computer could solve problems with government records. I told him about campaign reports, and how few news organizations spend the time or money inputting the information. \n\nSchiavo believes the latest scanning technology is faster and more accurate than punching it in. He wrote a program to accommodate the state forms. He customized optical character recognition and data entry systems. Microsoft and Microrim R:BASE software runs the programs. He scanned in the first reports using DataPen, a hand-held scanner, but later ones were scanned in more efficiently with a sheet-fed scanned. He dumped the information into FoxPro. The endeavor went so well that Schiavo created his own small company, CampaignWatch, which sells the package. \n\nEach computerized record included the page number from the paper report. We traced back anything that looked funny. The scanner did turn one $1,200 contribution into a $120,000 contribution, but we used the page number to catch the error. There were typos, but the product was remarkably accurate. When one male contributor was listed in the database as a housewife, we went back to the paper records and found nothing wrong - the campaign listed him that way. \n\nOur bureau produced stories on business executives backing the incumbent, and a challenger relying on support from one county. We also examined cross-giving to both candidates. I found contributions timed with a special legislative session that loosened state telecommunications regulation, and noted how accountants and builders said \"Thank You\" with their checkbooks for laws that benefited their professions. \n\nSchiavo plans to upgrade his package as optical scanning equipment improves. Some fonts are too difficult to scan in, and handwritten documents are still too tough. He is also starting to cross-reference the state contribution data with Federal Election Commission records. As our governor pushes legislation for the next four years, I'll keep checking his moves against the list of political I.O.U.'s in my hard drive.",
-      "summary": "The Associated Press bureau in Wisconsin used scanning technology and optical character recognition to digitize paper campaign finance reports, enabling computer-assisted reporting that revealed patterns in political fundraising and contributions tied to legislative actions.",
-      "keywords": [
-        "scanning",
-        "campaigns",
-        "database"
-      ]
+      "author_title": "",
+      "affiliation": "Associated Press",
+      "full_text": "The Associated Press bureau in Wisconsin showed that the lack of an electronic database is no obstacle to good computer-assisted reporting.\n\nThe bureau wanted to track campaign fundraising by Gov. Tommy Thompson and other state politicians. Wisconsin, like some other states, does not store that electronically, it only requires candidates to file on paper. The longer reports - like Thompson's almost defy manual analysis.\n\nOur solution: a scanner.\n\nWe took the step last year, after Nick Schiavo, a former Air Force computer expert, asked how a computer could solve problems with government records. I told him about campaign reports, and how few news organizations spend the time or money inputting the information.\n\nSchiavo believes the latest scanning technology is faster and more accurate than punching it in. He wrote a program to accommodate the state forms. He customized optical character recognition and data entry systems. Microsoft and Microrim R:BASE software runs the programs. He scanned in the first reports using DataPen, a hand-held scanner, but later ones were scanned in more efficiently with a sheet-fed scanned. He dumped the information into FoxPro. The endeavor went so well that Schiavo created his own small company, CampaignWatch, which sells the package.\n\nEach computerized record included the page number from the paper report. We traced back anything that looked funny. The scanner did turn one $1,200 contribution into a $120,000 contribution, but we used the page number to catch the error. There were typos, but the product was remarkably accurate. When one male contributor was listed in the database as a housewife, we went back to the paper records and found nothing wrong - the campaign listed him that way.\n\nOur bureau produced stories on business executives backing the incumbent, and a challenger relying on support from one county. We also examined cross-giving to both candidates. I found contributions timed with a special legislative session that loosened state telecommunications regulation, and noted how accountants and builders said \"Thank You\" with their checkbooks for laws that benefited their professions.\n\nSchiavo plans to upgrade his package as optical scanning equipment improves. Some fonts are too difficult to scan in, and handwritten documents are still too tough. He is also starting to cross-reference the state contribution data with Federal Election Commission records. As our governor pushes legislation for the next four years, I'll keep checking his moves against the list of political I.O.U.'s in my hard drive. Send e-mail to Rich Eggleston at richeggl@ix.netcom.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "How to check campaign coffers",
+      "kicker": "",
+      "author_name": "Jackie Duobinis",
+      "author_title": "",
+      "affiliation": "The National Library on Money & Politics",
+      "full_text": "Here are some tips to remember when you examine campaign contributions.\nCheck campaign records for patterns. Sort contributions chronologically to spot fundraising events and bundling. Sort by employer to also check for contribution bundling. Sort by last names to find family members and multiple contributions from an individual.\nAs always, stop and ask why? Why are there 50 contributions on the same day? Why did every executive from Jones & Johnson give? Look for people at corporations who would not normally be giving, like secretaries and assistants. Were they reimbursed or pressured?\nLook for coincidences. Does the candidate own stock in a corporation whose PAC is contributing? Is there a bill sponsored by that legislator that affects the individual or corporation?\nTake a look at the paper trail. Even though looking at computerized campaign finance records is important, some things aren't computerized. Check the disbursements on Schedule B. Track payments to consultants and companies. Check for loans on Schedule C. Look at the detail of debt on Schedule D.\nRemember this is only a start. The contributions or expenditures point you in the right direction. Rarely are they the whole story.\nJackie Duobinis can be reached at (202) 857-0318.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "The New Yorker probed how media and telecommunication conglomerates",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The New Yorker probed how media and telecommunication conglomerates, using campaign contributions and lobbying efforts, are trying to sway Congress on federal communication and tax laws. The June 5 story by Ken Auletta, called \"Pay Per Views,\" examined cross-giving and other patterns as executives seek to sway policy.\n\nThe Center for Responsive Politics plans to launch an Internet site this month. The address will be gopher.crp.org. The center also plans to make data available via a telnet site. The center publishes a bimonthly newsletter, Capital Eye. Subscribe by calling (202) 857-0044.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "They're in the money",
+      "kicker": "On the Internet",
+      "author_name": "Nora Paul",
+      "author_title": "librarian",
+      "affiliation": "Poynter Institute",
+      "full_text": "There are numerous sources on the Internet that may help you cover money and politics. Here are some highlights.\n\nNewt's PAC Money, brought to you by NewtWatch, is a beautiful example of data collection and presentation on the web. Click on the colorful pie chart divided by special interest sectors and see the breakdown of contributions and then link to a listing of organizations and their exact amounts of contribution. If only every elected official had such a page created about them. http://www.cais.com/newtwatch/pac$indx.html\n\nCharlotte's Web Government Reform Issues Page is compiled by \"United We Stand,\" the political action group that grew out of Ross Perot's independent bid in the 1992 presidential race. The listing of documents and websites contains information about federal budgeting and campaign financing. There is potential material for background and sources. http://www.emf.net/-cr/govreform.html\n\nInteractive activists\n\nWe the People focuses on campaign finance reform, single-payer health care, and environmental issues incinerators). The site has articles on the group's platform, audio files from radio programs and other materials. http://hoek.cchem.berkeley.edu/\n\nWashington Citizen Action describes itself as a national federation of state citizen organizations with a combined membership of more than 2.5 million Americans. The group is an advocate in Washington, D.C., for medical reform, environmental clean-up, and campaign finance reform. There isn't very much on its pages right now, but this is a group that would be good to have on your rolodex. http://www.cyberquest.com/~wca/welcome.html\n\nJustin's Political Infopage links to activist groups on the Net and \"Nonpartisan Resources\". http://www.cs.cmu.edu/afs/cs/user/jab/mosaic/politics.html\n\nNetworked Government Resources isn't anything specifically about campaign finance, but it is a great page of links to presidential, congressional and other federal offices. http://www.ai.mit.edu/projects/iiip/government.html\n\nCongressional Quarterly offers a wide variety of information about Capital Hill. gopher://gopher.cqalert.com\n\nC-Span offers a simple list of PAC contributions to federal candidates. It is located in the Government Resource Center. Get to C-Span through the Library of Congress' gopher at marvel.loc.gov\n\nTake a run at the White House\n\nFind out what President Clinton and his aides have said in speeches, press briefings and interviews about campaign finance reform. http://docs.whitehouse.gov/white-house-publications?election-campaign\n\nProject Vote Smart offers a phone directory for all the presidential campaigns. http://www.peak.ork/vote-smart\n\nOn the Road to the White House says, \"In preparation for the 1996 Presidential Voting Season, Internet Publishing Technologies is providing a collection of candidate information and links to various government and party related sites throughout the Web.\" Put this one on your bookmark, folks. They've got all the spin doctors - I mean sites - covered. http://www.ipt.com/vote/\n\nIn California\n\nThe Great Money Chase page links to a detailed study of campaign financing in California with charts and statistics from the national and state races. The study by Kim Alexander, with research assistance provided by Brian Tanner and Tracey Norwood, was published by California Common Cause in April. (For paper copy of the report contact Common Cause, 926 J Street, Suite 910. Sacramento, Calif.; (916) 443-1792, comcause@netcom.com.) http://www.uwsa.com:8972/uwsa/issues/cfr/moneychase.html\n\nThe California Campaign Finance Reform Page claims it contains a general discussion of campaign finance reform topics. applicable to any level of government anywhere in the United States. It also contains campaign finance information and potential solutions which are specific to California.\" There are some great key readings and background materials here. http://www.uwsa.com:8972/uwsa/issues/cfr/\n\nIf you have suggestions for this column, e-mail Nora Paul at npaul@poynter.org. Visit the Poynter Institute's website at http://www.nando.net/prof/poynter/home.html. It features Paul's Hot News/Hot Research in the Poynter Institute's library section. It takes news stories and links you to some good sources for information to cover that story. To go directly to the page: http://www.nando.net/prof/poynter/hrintro.html\n\nNora Paul is a former Miami Herald librarian now at the Poynter Institute. She is the author of Computer Assisted Research, available from the Poynter Institute and NICAR",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Bits, Bytes and Barks",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Bits, Bytes and Barks\n\nTracking pirates\n\nA speedboat with armed bandits chased down a cargo ship in the South China Sea. Masked bandits stole from a container ship anchored off Rio de Janeiro. These incidents are part of the rise in piracy, according to the Journal of Commerce. Reporter Michael Fabey used a government electronic bulletin board service (BBS), Marlinespike, to help report the April 8 story.\n\nThe BBS is (202) 366-8505, with settings 8-1-N. The section to check is the ONI World Wide Threat to Shipping.\n\nCheck out transplant rates\n\nUsing data from the United Network for Organ Sharing, Hartford Courant reporter Robert S. Capers charted the survival rates of organ transplant patients at hospitals across the country and in the newspaper's backyard.\n\nThe bulletin board information is easily downloaded and analyzed with spreadsheet or database software, and can be tailored for any audience in the country.\n\nThe UNOS data includes patient survival rates at four time intervals for six procedures at every U.S. transplant center over a three-year period. It also contains demographics on donors and recipients and comments from transplant center officials.\n\nTo find the UNOS organ transplant data, dial into the HHS bulletin board at (301) 443-5913. Enter your name and address when prompted and you will be added to the department's database for future logons.\n\nChoose the file menu, then the download option. The file is survival.zip. For those who don't have it, decompression software is also there. UNOS also runs a World Wide Web site with numerous facts and statistics on organ transplants. Visit http://www.infi.net/-shreorg/unos.html\n\nCommerce changes on-line data site\n\nThe U.S. Commerce Department consolidated its vast STAT-USA Internet sites June 15. That means the STAT-USA gopher and ftp servers are being shut down. The agency now charges a subscriber fee of $24.95 for three months, or $100 for a year, for access through its web site.\n\nSTAT-USA includes more than 300,000 government reports, including the federal government's budget, the president's economic report, regional and national economic data, and foreign trade reports. The sources include U.S. Bureau of Economic Analysis and the National Trade Data Bank.\n\nAmong the more useful sections is the Economic Bulletin Board, which offers reports \"just minutes after its official release\" from the Federal Reserve Board, the Bureau of Labor Statistics, the Treasury Department and other federal agencies.\n\nFor more information or to subscribe, go to www.stat-usa.gov, or call STAT-USA at (202) 482-1986.\n\nJoin NICAR on the Internet\n\nDon't forget to keep up with NICAR on the Internet. Subscribe to our listserve and join in as reporters talk about how to do the job better. E-mail to listserv@mizzoul.missouri.edu. In the message, on the first line, write: subscribe nicar-1 your name. To join Investigative Reporters and Editors on the Internet, the instructions are the same except, on first line, write: subscribe ire-1 your name.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

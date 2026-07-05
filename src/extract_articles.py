@@ -233,7 +233,9 @@ def slice_around_anchors(text, first_words, last_words):
     if end_idx != -1 and end_idx > start_idx:
         char_end = min(len(text), end_idx + len(last_words or "") + 500)
     else:
-        char_end = min(len(text), start_idx + 16000)
+        # Anchor not found at all (as opposed to found-but-unreliable) --
+        # rather than guess a window size, give the rest of the issue.
+        char_end = len(text)
     return text[char_start:char_end]
 
 

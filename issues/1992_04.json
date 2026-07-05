@@ -1,11 +1,14 @@
 {
+  "schema_version": 2,
   "year": 1992,
   "month": "April",
   "articles": [
     {
       "headline": "Courant creates profile of murders",
+      "kicker": "",
       "author_name": "Brant Houston",
       "author_title": "Investigative reporter",
+      "affiliation": "The Hartford Courant",
       "full_text": "After doing computer-assisted reporting for a few years, I find myself and my colleagues increasingly attracted to those phrases such as \"a computer-assisted review of 1.2 million records found...\"\n\nIt's imposing, comprehensive and satisfying to see that number in print when weeks and months of your life prior to computers was spent sifting and stitching together a few hundred paper files for investigative projects.\n\nBut recently I had a sharp reminder of how some simple nuts and bolts computer-assisted reporting that uses only a few hundred records - can serve as a tipster, a backgrounder and an investigator, and end up having high impact.\n\nLast October, Courant police reporters noticed a streak of unsolved murders involving minority women in the Hartford area, and they mentioned it in a story in the back pages of the newspaper. However, the reporters had trouble going further or pinning down police investigators because they had no systematic files on the murders and our clip library is not electronic.\n\nI decided to create a computer file for the reporters that would include all of the unsolved murders of minority women in the state during the last few years. I created one file in an XDB database from our clips that included details of the murders and demographics of the victims. I knew it was incomplete, but it gave us about two dozen solid cases.\n\nWith a little sorting and comparing and working with the police reporters and Leah Segal, our Courant researcher, we culled the list to about six or seven cases. The reporters then began questioning police in the Hartford area, using the details from the database. The police thought we had a tipster and conceded that they had quietly been looking at links among five murders. That broke the first story that there might be a serial killer on the loose.\n\nThe police reporters, Gina Briscone and Andrew Julien, and I then collected more information for the database by visiting the sites where the victims were last seen and where their bodies were dumped and by interviewing victims' friends and families.\n\nThen I went to the state's medical examiner and asked for his computerized files. The medical examiner was worried about confidentiality but gave us several fields of information.\n\nUnfortunately, he didn't know how to download the information to diskette. I asked him to just give me a printout, and we borrowed a scanner from our advertising department and scanned about 200 records into the computer. Then I added some information from a death certificate tape we had recently acquired.\n\nAs the reporters were using the database to help do individual stories on the victims, I linked the various files together and started sorting and comparing while consulting experts on serial murders. It appeared there were similar murders throughout the state. On one interesting run, it appeared the murders generally occurred on a quarterly basis.\n\nWe also talked to a university professor who had data on 16 years of homicides in Connecticut. At our request, he did a quick run with our criteria and found the recent series of unsolved murders was a definite - if not statistically proven - blip on a chart of such murders.\n\nA few interviews later and we had two more stories that expanded the possible range of the murders and showed that police in different jurisdictions were investigating similar murders without talking to each other.\n\nBy now we had some investigators who were sure we had access to confidential files and wanted to know what we knew, and some of whom were full of culpas. One investigator told me point blank that we had done what police should have done months before.\n\nAs a result, the state's chief prosecutor convened a task force in January composed of police departments to look into at least 11 unsolved murders.\n\nA caveat: We never asserted there was a serial murderer at work. We simply established a pattern of murders that the police agreed should be seriously investigated. Even if two or three killers are not responsible for all the murders, would it be good news that there were 11 killers instead?\n\nWe also focused attention on the murders of minority women - some of whom were prostitutes - that had not been there before.\n\nSadly, many cities have a collection of unsolved homicides of black or Hispanic prostitutes that are dismissed as routine (murder is supposed to be an occupational hazard). In several other states, serial murders have plied their trade for years because society generally could care less about those kinds of victims.\n\nAnd our stories also allowed the newspaper to reaffirm its ties to our inner-city neighborhoods. We were thanked many times by victims' families and friends who thought these were the kinds of cases that the Courant wouldn't care about, much less investigate.",
       "summary": "The Hartford Courant developed a database to investigate unsolved murders of minority women, discovering patterns suggesting a possible serial killer and prompting police attention.",
       "keywords": [
@@ -13,7 +16,6 @@
         "database",
         "Hartford"
       ],
-      "affiliation": "The Hartford Courant",
       "topics": [
         "Investigative Methods",
         "Crime & Justice",
@@ -22,16 +24,22 @@
       "technologies": [
         "XDB",
         "scanner"
-      ]
+      ],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "MO Education Department releases test scores to MICAR",
+      "kicker": "",
       "author_name": "Russ Buettner",
       "author_title": "research assistant",
+      "affiliation": "MICAR (Missouri Institute for Computer-Assisted Reporting)",
       "full_text": "The Missouri Department of Education wrongfully imprisoned valuable data, at least until continued effort threatened to require movement. Since beginning an education project last September, the Missouri Institute for Computer-Assisted Reporting has acquired various computer files related to education. The Missouri Mastery and Achievement Test, this state's version of a standardized test, seemed a logical addition.\n\nThe department's usually helpful programmer could tell me nothing about the file. So I called John Jones, director of school data. In his lofty lobe, journalism serves no purpose beyond nuisance.\n\n\"Russ, I don't keep that information, and I don't want it,\" he said. \"If I had it, every newspaper in the state would be calling me for their little score sheets.\"\n\nYou can imagine the sickening image: a director of data providing data.\n\nI asked him who had the data. He said the department contracted with the Educational Assessment Center, another state agency, to administer, score and store the test results.\n\nSo I call Sharon Shattgin, assistant director of the center.\n\n\"See technically, we don't own the data,\" she told me. \"Technically, it's the property of each school district. We contract with each superintendent. The data is public information, but you have to get a release from the superintendent.\"\n\nBut I didn't want one district. I wanted all 453 districts.\n\n\"I guess you'd have to get a signed release from each district,\" she said.\n\nEven over the telephone, you can tell when someone is talking through a smirk. I asked her if there was anyone else I could speak to about this.\n\n\"Have you spoken to John Jones?\"\n\nAs ridiculous as it sounds in itself, this arrangement, clearly designed to block access to the data, had a much worse effect. As a result of not \"owning\" the data, the department of education has never analyzed test results in their entirety, nor by gender, race, rural versus urban, or in any other way. It only publishes an annual mean based on a 10 percent sample.\n\nIn other words, the state spends millions of dollars administering the tests, but does not use it to uncover weak spots.\n\nAlthough the leaders in Missouri education seemed to think they had cleverly locked up the data, even from themselves, they had unknowingly propped open a window for us.\n\nJones, incarcerator of data, had provided us earlier with a computer file containing the title, name and mailing address of every school administrator in the state. It took less than an hour to download the file, move it into an XDB table and export the table as a WordPerfect mail merge file. I then wrote a form letter to the superintendents explaining this ridiculous situation and informing them of their responsibility under the state's Sunshine Laws to respond within three working days.\n\nBut I never intended to actually print, let alone mail, those letters.\n\nInstead, I wrote a letter to Otis Baker, the director of elementary and secondary education, explaining our efforts and the apparent necessity of the mailing. I told him our form letters and return envelopes were addressed directly to him \"to insure their authenticity,\" and that each letter referenced his name and phone number \"should any of the 453 superintendents have any questions regarding the necessity of this procedure.\"\n\nI told him we had scheduled everyone on our staff for an envelope-stuffing party on March 3, three working days after he received the letter. If I didn't hear from him by then, out the letters went.\n\nWhen I arrived at the MICAR office on March 3, I found that Mr. Baker had called.\n\n\"He said he needs to talk to you TODAY,\" said MICAR Administrative Assistant Michele Ward. \"He said he just got your letter today. He'll be in meetings all day, but his secretary will interrupt when you call. He definitely needs to talk to you today.\"\n\nOtherwise deaf bureaucrats seem to perk up to the threatening sound of 400-plus letters and phone calls thundering in over a few days.\n\n\"I just got your letter today,\" he said when I called. \"Don't send out those letters. You've gone to too much trouble already. I'll send out a release letter today.\"\n\nIn an eventual story, we might tell Missouri's citizens more than they know about their education system. We might also tell Missouri's education leaders more than they apparently want to know about the jobs they do. Yet I doubt the Department of Education will begin graciously providing files.\n\nNonetheless, maybe computers can help us free more wrongfully imprisoned data by presenting the jail keeper's greatest menace - the threat of imminent labor.",
       "summary": "The Missouri Department of Education wrongfully imprisoned valuable data, at least until continued effort threatened to require movement.",
       "keywords": [],
-      "affiliation": "MICAR (Missouri Institute for Computer-Assisted Reporting)",
       "topics": [
         "Data & Databases",
         "Investigative Methods",
@@ -40,16 +48,22 @@
       "technologies": [
         "XDB",
         "WordPerfect"
-      ]
+      ],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Will early version woes hurt XDB?",
+      "kicker": "",
       "author_name": "David Raziq",
       "author_title": "",
+      "affiliation": "MICAR",
       "full_text": "For two weeks in July 1989, Bob Paynter was supposed to be on vacation. But during his stay at a North Carolina beach, he frequently found himself on the phone. The problem: his software. Paynter specializes in computer-assisted reporting for the Akron Beacon-Journal, and he says his database program of choice, XDB, was giving him major problems.\n\n\"I was very concerned,\" says Paynter. \"I was involved in a project involving campaign finances that required me to move a large database back and forth between XDB and Dbase.\"\n\nPaynter says his troubles began when he tried to import the information back into XDB. The program wouldn't accept it. So he placed the first of many calls to the software company.\n\n\"There were people joking in our department that suggested I demand a development fee from XDB,\" Paynter says.\n\nIn the last few months the staff of MICAR has heard a number of complaints from XDB users. Bob Paynter's story is representative.\n\nFor example, Paynter himself finally ended up shipping his entire database to XDB. During his break, XDB's technical support eventually solved his difficulty with a new import engine.\n\nIt wasn't long before he experienced another set of problems - indexing a large file.\n\n\"It would take a split second to index a file of almost two million records so I knew something was screwed up,\" he says.\n\nWhen Paynter queried about the values within the file, his computer came up blank.\n\nSo after another month trouble-shooting with XDB's technical support staff, Paynter got the file to index. But he found a new bug: Given the exact same query, the program would return different answers.\n\nAnd that, he explained, was the last straw.\n\n\"I said 'I just can't trust this,'\" he says. \"And I talked to other database managers, and nobody had ever heard of XDB.\" So after consulting friends, Paynter switched to the Paradox database system.\n\nEd Foldessy of the Wall Street Journal has also abandoned XDB for his record analysis. \"XDB is not graceful with numbers,\" he says. \"I encountered every conceivable problem working with it.\"\n\nAccording to Foldessy, one of those problems included sorting fields. \"It wasn't giving a good sort,\" he said. \"You might have .01, .02, but then you'd have a number that was out of order.\"\n\nLike Paynter, Foldessy says he \"will never use XDB again,\" and instead relies on Datacase, his corporation's recommended program.\n\nHowever, many reporters stand by the XDB product. Elliot Jaspin, the director of the Missouri Institute for Computer-Assisted Reporting, is one of the pioneers in this reporting technique. He has had a long standing relationship with XDB.\n\n\"When I was teaching at Columbia University, I began searching for a database program,\" says Jaspin. \"So I went down to PC Magazine's software library and tried them all. And XDB was the winner, hands down.\"\n\nJaspin lists speed, flexibility and ease of use as some of the product's strong points. Because he also uses XDB in his computer-assisted reporting seminar, he says the program has some other advantages. \"It's a good teaching tool,\" he says. \"It has a simple interface, and it has good implementation of structured query language.\"\n\nBut Jaspin also readily admits that the program has had an \"unacceptably high number\" of problems. Specifically, Jaspin mentioned problems indexing large files, and he has noticed an \"unevenness\" in XDB's support staff.\n\nAccording to Mike Waters, XDB's Director of Sales, most of the problems were found on an earlier version of the software.\n\nFor example, Waters explained that Paynter's indexing problem was due to the index pointer being defined as a small integer. \"So once you got up to a little over 31,000 unique indexes, you ran out of numbers,\" he says.\n\nWaters said his company corrected those types of problems with the 2.4 version of XDB and currently markets a 2.41 version of the software.\n\nWaters also explained that the once-limited indexing function of the 2.3 software could have caused Paynter to get different answers for the same query. \"When you do the query, the optimizer inside is actually building indexes on a slide,\" he said. \"So if he was dealing with a lot of records with the 2.3 version, he could have gotten inconsistent results if he got more than 31,000 on an index scheme.\"\n\nHowever, Waters said he was unaware of any complaints about sorting fields of numbers, as was the problem Ed Foldessy experienced.\n\n\"As a matter of fact,\" he says, \"I offer free products to any of these guys that made a comment to you. I'd love for them to try them again.\"",
       "summary": "For two weeks in July 1989, Bob Paynter was supposed to be on vacation. But during his stay at a North Carolina beach, he frequently found himself on the phone.",
       "keywords": [],
-      "affiliation": "MICAR",
       "topics": [
         "Investigative Methods",
         "Technology",
@@ -60,7 +74,29 @@
         "dBase",
         "Paradox",
         "Datacase"
-      ]
+      ],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Bytes, bits and nibbles..",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Racist cops and lethal working conditions were a few of the problems exposed by the winners in this year's IRE reporting competition.\n\nMike Casey and Russell Carollo of the Dayton Daily News won for their series \"Worker Safety in America.\" The team used computer analysis of records from the Occupational Safety and Health Administration to document the failure of that agency to protect American workers.\n\nCarolyn Tuft of the Belleville (Ill.) News-Democrat won for a four-month computer-assisted investigation of city traffic tickets that revealed the city's police department was targeting black motorists in attempt to deter them from entering the city.\n\nWinners will receive their awards in June at the IRE National Conference in Portland, Ore.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

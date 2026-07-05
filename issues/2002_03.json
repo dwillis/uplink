@@ -1,9 +1,14 @@
 {
+  "schema_version": 2,
   "year": 2002,
   "month": "March-April",
   "articles": [
     {
       "headline": "Bits & Bytes",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
       "full_text": "Data updates: The IRE and NICAR Database Library has recently updated the following databases: MAUDE. IRE and NICAR in early March updated its copy of the Manufacturer and User Facility Device Experience database, from the U.S. Food and Drug Administration, just as doctors in Baltimore and officials with another federal agency criticized a manufacturer for a faulty medical device. The MAUDE data includes information about problems that occurred with medical devices. Current as of 2001. Home mortgages. This database includes a record of mortgage applications, including demographic information about loan applicants, including race, sex and income; the purpose of the loan; whether the buyer intends to live in the home; the type of loan; and the outcome of the loan application. The dataset also includes geographical information on applicants, such as Census tract, metropolitan statistical area, state and county. Current as of 2000. Trucks. The truck accidents database consists of accidents that involve commercial vehicles that weigh more than 10,000 pounds, as reported by state transportation agencies to the U.S. Department of Transportation. The vehicles included in this database are buses, semis, moving trucks, rental trucks and hazardous-material carriers. Current as of 2000. Fatal accidents. The latest updated Fatal Accident Reporting System database consists of three relational tables, containing data on automobile accidents on public U.S. roads that resulted in the death of one or more people within 30 days of the accident. In the past, the NICAR data files were available in four relational tables. For the current update, NICAR used SAS software to replicate the data tables used by the Department of Transportation and translated those tables into DBF format, which can be opened by almost any database manager software. In the latest data update, SAS translates the official DOT codes to plain English in the data tables. Covers 1975-2000.",
       "summary": "This article outlines recent updates to the IRE and NICAR Database Library, covering databases for medical device failures, home mortgages, truck accidents, and fatal car accidents.",
       "keywords": [
@@ -11,11 +16,20 @@
         "NICAR",
         "transportation"
       ],
-      "author_name": "",
-      "author_title": ""
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Building it from scratch: WTC victim database",
+      "kicker": "TERRORISM",
+      "author_name": "Paul Overberg and Anthony DeBarros",
+      "author_title": "USA Today",
+      "affiliation": "",
       "full_text": "Some of the best databases are not the ones you buy or acquire through FOIA but the ones you build yourself, one fact at a time. That's what USA Today found when it set out to chronicle the thousands of lives lost in the terrorist attacks of Sept. 11. The result was several stories that effectively challenged official reports of the death toll, as well as a major enterprise story that chronicled the last moments inside the World Trade Center. On Sept. 12, USA Today's four database editors huddled to catch their breath and draw up a CAR-based plan.",
       "summary": "USA Today recounts how their data editors manually constructed a database of September 11 victims to verify death toll figures and tell personal stories.",
       "keywords": [
@@ -23,11 +37,20 @@
         "WTC",
         "victims"
       ],
-      "author_name": "Paul Overberg and Anthony DeBarros",
-      "author_title": "USA Today"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Mining workplace data",
+      "kicker": "SPOTLIGHT: WORKPLACE",
+      "author_name": "David Herzog",
+      "author_title": "NICAR and Missouri School of Journalism",
+      "affiliation": "",
       "full_text": "A quick scan of your daily paper or network news program shows that workplace woes are big news: Enron, once a little-known energy company, now is a household word. Workers - and not just at Enron - are fretting about the health of their employer- backed retirement savings plans. In this issue of Uplink, we focus on workplace data. Stephanie Armour of USA Today recounts how she used computer-assisted-reporting's most basic tool - the spreadsheet - to build her own database of cases of immigrant maids being abused by their employers. In another article, Armour shares some reporting ideas and data sources that you can use to scrutinize employers and suspect workplace practices. Over the years, many journalists have plunged into the massive enforcement database kept by the federal Occupational Safety and Health Administration, only to come up gasping for air. Ron Nixon, the national trainer for IRE & NICAR in this issue offers some guidance for journalists who want to stay afloat while working with the OSHA data. After the fall of Enron flattened out its employee retirement savings plans, heavy in company stock, St. Paul Pioneer Press business reporter Jim McCartney turned to the web for the local angle. McCartney wanted to see whether the retirement savings plans offered by the 15 biggest publicly-traded companies in the Twin Cities were loaded with company stock. So he turned to the online 10k Wizard and looked for 11K annual reports the companies submitted to the U.S. Securities Exchange Commission that provide detailed financial information about employer 401(k) retirements savings plans. After looking over the documents and punching the numbers into his calculator, McCartney wrote a Feb. 2 story saying two-thirds of the top companies had 401(k) plans in which company stock accounted for at least 40 percent of the total assets. Pension plan administrators every year submit detailed information about the plans using Form 5500, available with other documents on the Department of Labor's Web site. Foreign/immigrant workers. Data from the Immigration and Naturalization Service can provide some clues. The INS data, sold by the NICAR database library, specifies the sex, age, marital status, country of birth, country of last permanent residency, port of entry and ZIP Code of intended residence for immigrants. State workers compensation data, used by journalists investigating bogus injury claims and injury patterns at problem work sites, can be put to other uses. Last year, reporters at the Washington Post dug through ten years of Maryland Workers Compensation Commission data as they probed the Prince George's County Police Department.",
       "summary": "An exploration of various workplace data sources, including OSHA logs, pension filings, and workers' compensation records, used by journalists to investigate employer practices.",
       "keywords": [
@@ -35,11 +58,20 @@
         "pensions",
         "OSHA"
       ],
-      "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Following the riverboat pilots",
+      "kicker": "SPOTLIGHT: WORKPLACE",
+      "author_name": "Jeffrey Meitrodt",
+      "author_title": "The New Orleans Times-Picayune",
+      "affiliation": "",
       "full_text": "Teal Grue was the poster boy for our lead story about what's wrong with Louisiana's archaic system of selecting and overseeing Mississippi River pilots. Grue dropped out of high school after 10th grade, had a DUI conviction, and tested positive for marijuana before becoming an elite river pilot. We reviewed resumes and typed them into an Excel spreadsheet after The Times-Picayune decided to investigate what some believe is the ultimate good-old-boys club in Louisiana. Louisiana pilots earned about $321,000 each last year, and we documented that widespread nepotism makes it virtually impossible for non-relatives to join. Of the 100 people elected to become river pilots in recent years, 85 are related to other pilots. We also analyzed accident reports and pilot misconduct records, which are judged by the pilots themselves. The records contained several bombshells. First, we discovered that two pilots were allowed to keep their jobs after testing positive for cocaine use in 2000. Second, we found that one group racked up nearly 100 accidents yet failed to discipline a single pilot in a decade.",
       "summary": "An investigation by The Times-Picayune reveals high salaries, nepotism, and lack of accountability among Louisiana's riverboat pilots through spreadsheet analysis of resumes and accident reports.",
       "keywords": [
@@ -47,11 +79,20 @@
         "river pilots",
         "Louisiana"
       ],
-      "author_name": "Jeffrey Meitrodt",
-      "author_title": "The New Orleans Times-Picayune"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "How data can correct government stats",
+      "kicker": "TERRORISM",
+      "author_name": "Mark Fazlollah and Peter Nicholas",
+      "author_title": "Philadelphia Inquirer",
+      "affiliation": "",
       "full_text": "There was quick action when the Philadelphia Inquirer reported that the Department of Justice had dramatically overstated its record of convicting terrorists, with conservative and liberal congressmen calling for an investigation. The December story, which documented a five-year pattern of inflated terrorism statistics, went unchallenged by the Justice Department. Our basic data came from Syracuse University's Transactional Records Access Clearinghouse (TRAC). We paired the justice information with federal court data offered through the Public Access to Court Electronic Records (PACER). The pairing is painfully time consuming and best suited to small samplings of cases. PACER allowed us to select all cases filed on a specific date in any federal court district. For each federal district, we entered the date of each Justice Department's terrorism case. Usually, there were no more than a dozen criminal cases filed on a single day. Of those, there usually would be only one with the specific criminal charge matching the Justice Department data. In one supposed case of terrorism in Seattle, a pilot sent a phony report that another pilot was planning a hijacking due to a personal feud. The agent told us this was his 'only real case of terrorism' in three years. Now Congress wants to know how pervasive the problem is.",
       "summary": "The Philadelphia Inquirer used TRAC and PACER data to prove the Department of Justice was inflating terrorism conviction statistics with non-terrorist criminal cases.",
       "keywords": [
@@ -59,83 +100,37 @@
         "terrorism",
         "TRAC"
       ],
-      "author_name": "Mark Fazlollah and Peter Nicholas",
-      "author_title": "Philadelphia Inquirer"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "Tracking contributions",
-      "full_text": "An interesting side note was that all of the spouses we found listed 'homemaker' in the occupation field. By doing these painstaking queries found things my initial match missed. For example, I had an executive listed as J. Clifford Baxter. In the FEC data he's listed as John C. Baxter. Once I had flagged all of the contributions made by the Enron executives, I pulled this chunk out of the data and started the analysis. We asked all kinds of questions: How much went to Bush? Who were the other big recipients? How much in soft money? How much in hard money? The data work for this story was not difficult, just a little time-consuming. I used Visual FoxPro for most of the work but then kept track of results in Excel. The results of our story were swift and exciting. The day after we posted the story on our Web site, Attorney General John Ashcroft recused himself from the investigation after Sen. Henry Waxman showed him our story saying he had received $55,000 from Enron.",
-      "summary": "Data editor MaryJo Sylwester explains how tracking Enron executive campaign contributions led to Attorney General John Ashcroft's recusal from the Enron investigation.",
-      "keywords": [
-        "Enron",
-        "FEC",
-        "campaign finance"
-      ],
-      "author_name": "MaryJo Sylwester",
-      "author_title": "IRE and NICAR Data Library administrator"
-    },
-    {
-      "headline": "Handy Internet resources for reporters",
-      "full_text": "What kinds of Internet sites are being bookmarked these days by web-savvy reporters? The right URL address can lead to aviation accident reports, campaign contribution databases, people finders, tax records for charities and prison inmate tracking systems. Sites discussed include Liszt for listservs, Google Groups, Profnet for experts, PubMed for health studies, PACER for court records, Martindale for lawyers, GuideStar for charities, OSHA for worker safety, and FedStats for federal figures. Some of the best sites are maintained by reporters and researchers, such as the Journalist's Toolbox, Power Reporting, and The Reporter's Desktop.",
-      "summary": "A guide to the most useful websites for investigative journalists, covering everything from charity tax filings to federal court records and expert finders.",
-      "keywords": [
-        "Internet",
-        "research",
-        "journalism"
-      ],
-      "author_name": "John Tedesco",
-      "author_title": "San Antonio Express-News"
-    },
-    {
-      "headline": "San Francisco 2002",
-      "full_text": "Reporters and editors are bound for the City by the Bay this year for the IRE National Conference, May 30- June 2. The conference has become an invaluable tradition for newsrooms around the country, offering journalists the chance to enrich their skills through workshops and panel discussions featuring top-notch investigative reporters. Panels will highlight the best investigative journalism from around the nation, delving into energy regulation and deregulation, immigration, military and defense issues and campaign finance reform. In light of the high-profile collapse of Enron and the Kmart bankruptcy, attendees also can expect tips on using business documents and covering corporate fraud. On Thursday, panels dedicated to computer-assisted reporting will help journalists learn and fine-tune their CAR skills.",
-      "summary": "A preview of the 2002 IRE National Conference in San Francisco, highlighting panels on energy regulation, corporate fraud, and computer-assisted reporting.",
-      "keywords": [
-        "IRE",
-        "conference",
-        "training"
-      ],
-      "author_name": "Gina Bramucci",
-      "author_title": "IRE and NICAR"
-    },
-    {
-      "headline": "Automating parsing",
-      "full_text": "A few years back while I was a reporter at the Roanoke (Va.) Times, I came across a problem in a database that confounded me for days: names spelled hundreds of different ways. After searching the Web I found a little program called Splitter made for Microsoft Access databases. The program not only splits names no matter how they are entered, it also guesses the gender. One of my favorites programs, NameChop, is available for free from Semaphore Corp.'s Website. In addition to NameChop, Semaphore also gives away DupeDetect, a program that lets you flag duplicate records. Another program that works fairly well at parsing files is McXtract. A parsing program that had gotten attention on the IRE listserv for parsing is ParseRat, which costs about $50 and parses addresses as well. Programmers in the open source movement have also developed a parsing and data-cleaning program called Potters Wheel.",
-      "summary": "Ron Nixon reviews various software tools like Splitter and NameChop that automate the tedious process of parsing and cleaning dirty name and address data.",
-      "keywords": [
-        "parsing",
-        "software",
-        "data cleaning"
-      ],
-      "author_name": "Ron Nixon",
-      "author_title": "IRE and NICAR"
-    },
-    {
-      "headline": "Money in - and from - the bank",
-      "full_text": "The News Journal in Wilmington, Del., discovered a sudden upsurge in campaign spending by MBNA, one of the nation's largest issuers of credit cards. MBNA executives were the single largest identifiable group of contributors to then-candidate George W. Bush's presidential campaign, giving more than $250,000. MBNA ended up as the most generous campaign contributor among finance/credit companies in 2000, giving more than $3.5 million. The News Journal uncovered memos that showed how top MBNA executives were influencing employees to contribute to candidates the company favored. Campaign-finance reform advocates said it was more than coincidental that the company's interest in national politics came at a time when an important piece of bankruptcy reform legislation was pending in Congress. The project involved compiling data from several campaign finance sources, including raw FEC data and paper filings.",
-      "summary": "The Wilmington News Journal investigated a surge in campaign donations from MBNA executives, linking the spending to efforts to pass bankruptcy reform legislation.",
-      "keywords": [
-        "MBNA",
-        "campaign finance",
-        "bankruptcy"
-      ],
-      "author_name": "Aron Pilhofer",
-      "author_title": "IRE and NICAR"
-    },
-    {
-      "headline": "Students reveal gifts to legislators",
-      "full_text": "My Legislative Reporting students at Virginia Commonwealth University created and analyzed a relatively small database: a list of all gifts received last year by state legislators, the governor and other top officials. The dataset contained fewer than 1,000 records, totaling about $185,000 in gifts, taken from the conflict-of-interest forms. We highlighted the biggest gifts - including trips to hunt caribou in the Arctic Circle and quail in Georgia. Many gifts have a cachet that campaign donations don't. Access is the goal of most big gifts and campaign contributions. Constituents may view certain gifts more suspiciously than campaign contributions. The class entered the Schedule E information into a spreadsheet using Microsoft Excel. We then analyzed the data with Excel's PivotTable Report feature. This allowed us to see how much each donor had given in gifts and how much each lawmaker had received. One student decided to write about gifts given to Gov. Jim Gilmore, who reported 337 gifts worth almost $55,500.",
-      "summary": "VCU journalism students built a database of gifts given to Virginia legislators, highlighting expensive trips and potential conflicts of interest.",
-      "keywords": [
-        "ethics",
-        "legislature",
-        "gifts"
-      ],
-      "author_name": "Jeff C. South",
-      "author_title": "Virginia Commonwealth University"
+      "headline": "readme.txt",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Stories\n\nThe stories mentioned in this edition of Uplink will soon be available from the IRE Resource Center. Search the story database at www.ire.org/resourcecenter for order numbers. Call 573-882-3364 to order these and other investigative stories.\n\nDatabases\n\nTo view the list of databases available at the IRE and NICAR Data Library, view the Web site www.ire.org/datalibrary. From this page, you can also download an order form. The library's telephone number is 573-884-7711.\n\nTech tips\n\nHave you found a technical solution that saves you time? Share it as an Uplink Tech Tip, a story of 500-1,000 words showing a technique that you'd be willing to share. Please contact Managing Editor Jeff Porter at jeff@nicar.org or by telephone at 573-882-1982.\n\nTraining material\n\nFor a calendar of IRE and NICAR training events, visit the Web page www.ire.org/training/otr.html.\n\nTipsheets\n\nThe IRE Resource Center offers a searchable database of tipsheets for journalists at www.ire.org/resourcecenter. Many are downloadable, or call 573-882-3364 to order tipsheets.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "From the Lists",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
       "full_text": "Listserv messages you may have missed between members of NICAR-L. Topics include the benefits of using FTP software over browser downloads for speed and batching files; converting SPSS data to Excel using 'File/Save As'; copying import specifications between Access databases using the 'Get External Data' function and checking the 'Import/Export Specs' option; creating dot-density maps in ArcView by aggregating point data into census tracts; using the instr(), Left(), and Mid() functions in Access to split name fields; and calculating weighted averages for school test scores. Another user tip addresses disk space errors in Access by changing the location of TEMP files in the Windows Environment settings.",
       "summary": "A compilation of technical advice from NICAR listservs, covering file transfers, database management in Access, and mapping techniques.",
       "keywords": [
@@ -143,8 +138,131 @@
         "Excel",
         "listserv"
       ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Handy Internet resources for reporters",
+      "kicker": "ONLINE",
+      "author_name": "John Tedesco",
+      "author_title": "San Antonio Express-News",
+      "affiliation": "",
+      "full_text": "What kinds of Internet sites are being bookmarked these days by web-savvy reporters? The right URL address can lead to aviation accident reports, campaign contribution databases, people finders, tax records for charities and prison inmate tracking systems. Sites discussed include Liszt for listservs, Google Groups, Profnet for experts, PubMed for health studies, PACER for court records, Martindale for lawyers, GuideStar for charities, OSHA for worker safety, and FedStats for federal figures. Some of the best sites are maintained by reporters and researchers, such as the Journalist's Toolbox, Power Reporting, and The Reporter's Desktop.",
+      "summary": "A guide to the most useful websites for investigative journalists, covering everything from charity tax filings to federal court records and expert finders.",
+      "keywords": [
+        "Internet",
+        "research",
+        "journalism"
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Automating parsing",
+      "kicker": "Tech tips",
+      "author_name": "Ron Nixon",
+      "author_title": "IRE and NICAR",
+      "affiliation": "",
+      "full_text": "A few years back while I was a reporter at the Roanoke (Va.) Times, I came across a problem in a database that confounded me for days: names spelled hundreds of different ways. After searching the Web I found a little program called Splitter made for Microsoft Access databases. The program not only splits names no matter how they are entered, it also guesses the gender. One of my favorites programs, NameChop, is available for free from Semaphore Corp.'s Website. In addition to NameChop, Semaphore also gives away DupeDetect, a program that lets you flag duplicate records. Another program that works fairly well at parsing files is McXtract. A parsing program that had gotten attention on the IRE listserv for parsing is ParseRat, which costs about $50 and parses addresses as well. Programmers in the open source movement have also developed a parsing and data-cleaning program called Potters Wheel.",
+      "summary": "Ron Nixon reviews various software tools like Splitter and NameChop that automate the tedious process of parsing and cleaning dirty name and address data.",
+      "keywords": [
+        "parsing",
+        "software",
+        "data cleaning"
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Money in - and from - the bank",
+      "kicker": "CAMPAIGN FINANCE",
+      "author_name": "Aron Pilhofer",
+      "author_title": "IRE and NICAR",
+      "affiliation": "",
+      "full_text": "The News Journal in Wilmington, Del., discovered a sudden upsurge in campaign spending by MBNA, one of the nation's largest issuers of credit cards. MBNA executives were the single largest identifiable group of contributors to then-candidate George W. Bush's presidential campaign, giving more than $250,000. MBNA ended up as the most generous campaign contributor among finance/credit companies in 2000, giving more than $3.5 million. The News Journal uncovered memos that showed how top MBNA executives were influencing employees to contribute to candidates the company favored. Campaign-finance reform advocates said it was more than coincidental that the company's interest in national politics came at a time when an important piece of bankruptcy reform legislation was pending in Congress. The project involved compiling data from several campaign finance sources, including raw FEC data and paper filings.",
+      "summary": "The Wilmington News Journal investigated a surge in campaign donations from MBNA executives, linking the spending to efforts to pass bankruptcy reform legislation.",
+      "keywords": [
+        "MBNA",
+        "campaign finance",
+        "bankruptcy"
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Students reveal gifts to legislators",
+      "kicker": "CAMPAIGN FINANCE",
+      "author_name": "Jeff C. South",
+      "author_title": "Virginia Commonwealth University",
+      "affiliation": "",
+      "full_text": "My Legislative Reporting students at Virginia Commonwealth University created and analyzed a relatively small database: a list of all gifts received last year by state legislators, the governor and other top officials. The dataset contained fewer than 1,000 records, totaling about $185,000 in gifts, taken from the conflict-of-interest forms. We highlighted the biggest gifts - including trips to hunt caribou in the Arctic Circle and quail in Georgia. Many gifts have a cachet that campaign donations don't. Access is the goal of most big gifts and campaign contributions. Constituents may view certain gifts more suspiciously than campaign contributions. The class entered the Schedule E information into a spreadsheet using Microsoft Excel. We then analyzed the data with Excel's PivotTable Report feature. This allowed us to see how much each donor had given in gifts and how much each lawmaker had received. One student decided to write about gifts given to Gov. Jim Gilmore, who reported 337 gifts worth almost $55,500.",
+      "summary": "VCU journalism students built a database of gifts given to Virginia legislators, highlighting expensive trips and potential conflicts of interest.",
+      "keywords": [
+        "ethics",
+        "legislature",
+        "gifts"
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Mining workplace data (continued)",
+      "kicker": "workplace",
+      "author_name": "David Herzog",
+      "author_title": "",
+      "affiliation": "NICAR and Missouri School of Journalism",
+      "full_text": "& NICAR in this issue offers some guidance for journalists who want to stay afloat while working with the OSHA data.\n\nThese articles just touch on what you do. There are plenty of other angles that data-savvy reporters can follow.\n\nPensions\n\nAfter the fall of Enron flattened out its employee retirement savings plans, heavy in company stock, St. Paul Pioneer Press business reporter Jim McCartney turned to the web for the local angle.\n\nMcCartney wanted to see whether the retirement savings plans offered by the 15 biggest publicly-traded companies in the Twin Cities were loaded with company stock. So he turned to the online 10k Wizard and looked for 11K annual reports the companies submitted to the U.S. Securities Exchange Commission that provide detailed financial information about employer 401(k) retirements savings plans. Not all plans are covered; only those in which the employer matches employee contributions in company stock, and grants the employees the right to buy more shares. McCartney said he found the data on 10k Wizard, a subscription service, up to date.\n\nMcCartney obtained data about other pension plans at FreeERISA, a site that offers no-cost access to pension plan data collected by the Department of Labor's Pension and Welfare Benefits Administration under the Employee Retirement Income Security Act. McCartney said that the data for some companies was outdated by as much as three years.\n\nAfter looking over the documents and punching the numbers into his calculator, McCartney wrote a Feb. 2 story saying two-thirds of the top companies had 401(k) plans in which company stock accounted for at least 40 percent of the total assets. McCartney found two companies based in the Twin Cities - Target and Best - with company stock concentrations higher than Enron's.\n\nComfortable with heavy-duty number crunching? You can obtain the entire ERISA database from the U.S. Department of Labor, and compare some 750,000 pension plans across the country. Pension plan administrators every year submit detailed information about the plans using Form 5500, available with other documents on the Department of Labor's Web site. In the coming months, IRE and NICAR will be selling the pension data in an easy-to-use format.\n\nFive years ago, News 12 Long Island reporter Mark Lagerkvist obtained the massive database (a whopping 6gb on 27 9-track tapes!) from the department via a federal Freedom of Information Act request. After carving out smaller data sets and analyzing them, Lagerkvist broadcast \"Stolen Dreams,\" a special report on how employers plundered pension plans.\n\nForeign/immigrant workers\n\nSoon after the Sept. 11 attacks, federal agents began sweeping the United States for suspected terrorists, focusing on Middle Eastern men. Foreign visitors, legally in the United States with temporary work visas, were questioned. So were legal immigrants.\n\nSo where are these workers? Data from the Immigration and Naturalization Service, part of the U.S. Justice Department, can provide some clues. The INS data, sold by the NICAR database library, specifies the sex, age, marital status, country of birth, country of last permanent residency, port of entry and ZIP Code of intended residence for immigrants.\n\nWith some rudimentary queries in your database manager, you'd be able to find out what national groups live in your area, and see which occupations are the most prevalent for the groups.\n\nWorkers compensation\n\nState workers compensation data, used by journalists investigating bogus injury claims and injury patterns at problem work sites, can be put to other uses.\n\nLast year, reporters at the Washington Post dug through ten years of Maryland Workers Compensation Commission data as they probed the Prince George's County Police Department. [For details, see \"Detailing Questionable Police Shootings Required Extensive Search of Documents\" in the March-April 2002 issue of The IRE Journal.] While examining fatal shootings by police, the reporters mined the data for cases where police officers filed disability claims because of the stress and emotional trauma related to the shootings. One field in the database covering 700,000 unique claims sometimes contained a detailed narrative of the shootings. After identifying the cases, the reporters obtained the original case documents on file with the commission.\n\nPost reporters used the data again when they were looking at out-of-control police dogs. This time, the reporters queried for cases where police filed disability claims because they were bitten by department canines.\n\nOther journalists have put workers compensation data to use in more traditional ways. In 1997, Mary Fricker and Bob Norberg, reporters at the Santa Rosa Press Democrat analyzed workers comp data and unmasked claims that fraud was behind one third of the disputed cases.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Upcoming CAR Training",
+      "kicker": "",
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Advanced Statistics Workshop, June 9-13 - Chapel Hill, N.C CAR guru and Knight Chair in Journalism Professor Philip Meyer once again will present an advanced statistics workshop with IRE and NICAR. The workshop strengthens the skills of reporters who want to move beyond basic computer-assisted reporting and use social research methods and statistical analysis in their work, including understanding and using regressions, indexes, sampling and polling. Participants are introduced to SPSS, a statistical software package. Other instructors include Sarah Cohen of The Washington Post and IRE Executive Director Brant Houston.\n\nMapping the Census Seminar, May 3-5 - Columbia, Mo. IRE and NICAR will offer this intensive hands-on training using ArcView GIS software, with a focus on mapping Census data to uncover stories. We will look at noteworthy stories that have used mapping. The sessions will include address geocoding, thematic mapping, overlaying and spatial analysis. Trainers include Andy Lehren of Dateline NBC, Jennifer LaFleur of the St. Louis Post-Dispatch and David Herzog of NICAR and the Missouri School of Journalism. Participants are encouraged to bring their own data to work on during open lab time.\n\nUsing the Religious Census, April 10-11, 2002 - Washington, D.C. Religion Newswriters Association Workshop at National Press Club: Reporters will learn how to use data from Glenmary Research Institute's religious census, which will be released in May or early June. The Census is done every 10 years by the Institute, a religious-based research organization. The Census Bureau often refers reporters to this organization since they are barred from asking religious questions. The religious census contains information relating to the number of churches and total church membership by denomination by state and county.\n\nCAR Boot Camps\n\nMarch 24-29 and May 19-24 - Columbia, Mo. IRE and NICAR are offering two CAR boot camps in Missouri this spring with special tracks. The six-day boot camps each open with special sessions on campaign finance and each offer four fellowships for journalists at small- to medium-sized news organizations who are interested in improving their coverage of elections. The May boot camp also will have special sessions on using Census data.\nAug. 4-9 - Columbia, Mo. A special track for broadcast journalists will be featured at this Boot Camp. Learn how to acquire electronic information, use spreadsheets and databases to analyze the information and to translate that information into high-impact stories. In addition, NICAR provides follow-up help when participants return to their news organizations.\n\nFor registration and fellowship information, go to www.ire.org/training/otr.html",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

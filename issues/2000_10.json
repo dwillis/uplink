@@ -1,18 +1,198 @@
 {
+  "schema_version": 2,
   "year": 2000,
   "month": "October",
   "articles": [
     {
       "headline": "Private foundations",
+      "kicker": "PHILANTHROPY",
       "author_name": "Jeff Porter",
       "author_title": "Arkansas Democrat-Gazette",
+      "affiliation": "",
       "full_text": "Outside of the grant-seeking or grant-making industries, the term \"private foundation\" means little. But for colleges and universities, hospitals and libraries, museums and zoos, the term means this: money. We assign scores of reporters to cover government. An entire section is devoted to business. But when it comes to philanthropy - billions and billions of dollars - we write routine stories about big gifts and seldom look below the surface. James M. Naughton, president of nonprofit The Poynter Institute, would tell you that's wrong. In a speech last year for the Knight Program in Ethics in the Department of Journalism and Mass Communications at Washington and Lee University, he said: \"Nonprofit businesses had 7 million employees. They represented 6 percent of the nation's total economic output. Since 1970 they were growing at a rate four times as fast as the rest of the economy. You would think that they - and the implications of their growth - would be at least Topic C, if not Topic A or B, in the news.\" Taking Naughton's advice, the Arkansas Democrat-Gazette last fall embarked on a detailed look at private foundations. What we found was astounding. Arkansas' 273 private foundations controlled about $1.5 billion in assets and handed out $116 million during the last year reported. And that's for a state that lags behind the rest of the nation. Without the foundations, the impoverished Mississippi River Delta would be even more desperate. Fewer students could afford college tuition. The arts would have a much smaller canvas. To match just one 1998 grant from the Walton Family Foundation in Bentonville, Ark., the Girl Scouts would have to sell 110,000 boxes of cookies. It became clear to us that, directly or indirectly, the life of every Arkansan is touched. Naughton repeated an old journalism adage: \"Follow the money.\" That turned out to be easy. Most nonprofit organizations of any size are required to file tax returns - called 990 forms - with the Internal Revenue Service each year. The returns are open to the public. The nonprofits themselves are required to provide copies for reasonable fees.",
       "summary": "An exploration of the significant economic impact of private foundations in Arkansas, revealing the vast assets they control and their contributions to societal needs.",
       "keywords": [
         "philanthropy",
         "foundations",
         "economy"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Money talks in Russia",
+      "kicker": "INTERNATIONAL CAR",
+      "author_name": "Natalya Shulyakovskaya",
+      "author_title": "",
+      "affiliation": "The Orange County Register",
+      "full_text": "Five hundred dollars speaks volumes: $1,500 can do miracles. And you might not want to know what $5,000 worth of Russian databases is ready to tell you. (Well, I didn't have enough cash to properly test it.)\n\nRussia is a wonderland for a CAR junkie.\n\nMy ears first perked up when I bought a train ticket from St. Petersburg to Moscow in early 1998. A hefty woman selling tickets at the train station demanded my ID and dutifully typed my name and passport number into her computer. When a printer spewed out my yellow ticket, my name was on it.\n\nLater, I asked a friend who runs IT services for a new Moscow magnate if there was a way to get a copy of a database listing all train tickets. He said: \"Sure, I have",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Boot camp lessons",
+      "kicker": "FIRST VENTURE",
+      "author_name": "Edward L. Carter",
+      "author_title": "",
+      "affiliation": "Deseret News",
+      "full_text": "Analyzing city employee salaries for a story on pay equity reinforced three lessons I learned at NICAR's computer-assisted reporting boot camp:\n\n- Do your homework\n- Get everything\n- Guarantee the \"minimum story\"\n\nMy initial attempt at applying what I learned at a March boot camp was the well-traveled \"pet name\" story, which seemed to make an impression on readers and editors of the Deseret News, a 70,000-circulation daily in Salt Lake City.\n\nWith that small success under my belt, I decided to research employee salaries for two cities on my beat. Editors asked me to expand it regionally. The result was a story about the challenges facing female employees in Utah's patriarchal culture.\n\nMy first lesson\n\nThe first lesson I learned was the importance of doing your homework, especially on FOI issues. When I approached the cities' personnel directors, I was told I could have ranges of salaries but not the exact earnings of employees. However, I knew from researching my state's open records laws that salaries had to be disclosed. I submitted formal requests and waited.\n\nAfter the obligatory stops on the attorneys' desks, my requests were approved. One city told me I would have to pay a programmer's hourly costs to run my reports. I recalled IRE and NICAR Executive Director Brant Houston's advice (\"Your negotiating position should begin at zero,\" he told us) and I told the personnel director I wouldn't pay unless they first told me how much per hour and how many hours it would require. Two days later, I got a call saying a floppy disk was ready for me. Money was never discussed again.\n\nWhen I attempted to convert the disk's text file into a Microsoft Excel document, I ran into a snag. Only about half the data came in, and I couldn't find the rest. Bypassing administrators, I called the programmer back and asked him to re-send the salary data in Excel format.\n\nGetting everything\n\nMy second lesson was to follow Brant's advice about getting everything. I recall him saying at boot camp that it's easier to remove unnecessary data than it is to fight for information a second time. Unfortunately, I learned the hard way. I had only asked for employee names, salaries and job titles. Once I began running some pivot table reports, I realized I also needed tenure and the city department in which the employee worked (it wasn't always obvious from the job title). I ended up going back to the cities to get the departments, but I never got the years of service. I also had to backtrack and get employees' gender since I couldn't tell from some of the names.\n\nAdditionally, I neglected to push for the record layouts and code sheets, which was stressed at boot camp. In this case, I was able to work through the problem.\n\nMinimum story\n\nThird, I learned the value of the \"minimum story.\" Being a computer-assisted reporting novice, I didn't want to get in over my head. After spending several days perusing and sorting the data, I had several ideas about where the story could go. But the most obvious thing \u2014 and the easiest story to do \u2014 was that female employees were very scarce at the top management levels. In one city, only two women graced the 100 top-paid employees. I also realized that women were concentrated in jobs as secretaries, police dispatchers and librarians \u2014 not a revelation, to be sure, but the data allowed me to quantify it.\n\nI pursued that angle, and used a few simple Web searches to gather information from a couple of national organizations about pay gaps between male-dominated jobs and female-dominated jobs. One of the most interesting results came from pivot table reports I ran to compare men and women who held the same job titles. That showed that women who got the same jobs as men earned comparable salaries, but the hang-up was that few women had crossed the line from the traditional female jobs to the traditional male jobs. Readers responded well to the story, a topic of interest not frequently investigated in this state.\n\nEdward L. Carter can be reached by e-mail at carter@desnews.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Doctors and damages",
+      "kicker": "MEDICINE",
+      "author_name": "Jack Dolan",
+      "author_title": "",
+      "affiliation": "The Hartford Courant",
+      "full_text": "Cracking the \"public use\" version of the National Practitioner Data Bank \u2014 the secret national repository for records of adverse actions against doctors since 1990 \u2014 took ten percent CAR skills and 90 percent shoe leather.\n\nThe data file has the barest of identifying information attached to more than 200,000 records including malpractice payments made on behalf of medical practitioners, state license actions and disciplinary measures taken by hospitals. The practitioner's names are replaced by random ID numbers generated by Department of Health and Human Services computers. Ages and medical school graduation dates are given to the nearest decade.\n\nSo, before you start trying to attach names to the anonymous records of 100,000 doctors in the databank, make some careful choices about whom you think is worth tracking down.\n\nFor our \"White Coats, Dark Secrets\" series, The Hartford Courant focused on doctors with at least 25 entries overall, at least $3 million in total malpractice payments and at least one disciplinary action taken by a state licensing board. We ignored dentists and podiatrists since their screw-ups, although a great inconvenience for the injured patient, aren't likely to be life threatening.\n\nBe prepared for strong resistance from the medical community to almost any criteria you select. They will argue that the number of malpractice suits a doctor faces depends more on his specialty than his skill. They'll also say certain areas of the country are simply more litigious than others. The truth is, they are right on both counts.\n\nOur criteria were so broad, however, that nobody from the American Medical Association or on the staff of the NPDB seriously argued that we were unfairly skewering good doctors who had caught a few bad breaks.\n\nOnce you've picked your targets, the real work begins. State disciplinary actions are almost always public, but that doesn't make them easy to find. Most states have Web sites with some information about regulatory actions. Some, such as Massachusetts, New York and Florida, let you look up physicians by name. When working with the NPDB, however, you don't have the name.\n\nInstead, we found ourselves working through a tedious process of elimination. For example, if one of the anonymous doctors on our list had a six-month suspension in New York in 1996 and a reprimand in Massachusetts in 1998, we'd go to the records from those states and compare the lists. Most of the time that left us with a shorter list of only a handful of doctors who fit both criteria. Then we checked each doctor's date of birth and year of graduation from medical school (both conveniently provided by the AMA's Web site in most cases) to see which matched the decades listed in the NPDB.\n\nWhen we needed records from a state that didn't have a decent Web site, we turned to Public Citizen's \"Questionable Doctors\" series. This hefty, three-volume paperback catalogue lists license surrenders, revocations, suspensions and licenses put on probation from fifty states and the District of Columbia. But it's not cheap. The 2000 version, with actions from 1990 through 1999, costs $400.\n\nAnother drawback to the books, aside from the expense and the paper, is that the doctors are listed alphabetically by state and name. That makes a lot of sense if you are looking up your family practitioner. But when you are going from the NPDB you'll be searching for a type of action taken in a given year. We nearly went blind doing this in the Public Citizen books.\n\nOnce you have a couple of possible names, however, the Public Citizen books are a great resource. Instead of going from Web site to Web site to make sure all of the actions against a doctor match in each state, you have each doctor's full regulatory history at your fingertips. That means you can quickly pick the right doctor from a lineup of three or four possibilities. If you exhaust the leads provided by state disciplinary actions, and",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Programs for parsing",
+      "kicker": "TECH TIP",
+      "author_name": "David Heath",
+      "author_title": "",
+      "affiliation": "Seattle Times",
+      "full_text": "If you work with data much, at some point you're going to deal with files that defy easy import.\n\nKnowing a few tricks can sometimes save you lots of work. For example, if a text file is missing carriage returns at the end of each line \u2014 a common dilemma \u2014 you can open it in Word and save it into a new text file. Voil\u00e0. You now have carriage returns.\n\nYou can also do a lot with search and replace tools, Excel's import wizard and Monarch, a terrific software package that converts reports back into databases. But there are times when even Monarch falls short. That's especially true if columns don't line up or the structure of each record is not consistent.\n\nWhen the going gets rough, the tough write a program.\n\nWriting your own program is the only solution I know if you're trying to parse data that's loosely structured. Say that you want to take a collection of Web pages and put all the links into a database. The links aren't hard to find; they always begin with \"<a href=\" But otherwise, the pages may lack any consistent format.\n\nThere is a way to do this, but you have to learn a smidgen of programming. If you already write simple programs to clean data, you probably already have most of the skills needed. If you are a novice or have never tried programming, the good news is that you don't have to learn that much. You'll be working with a limited set of functions and statements.\n\nI'm going to show you how to deal with problems using Visual Basic. You could do the same type of thing with FoxPro or, for those fearless of its steep learning curve, Perl. The latter is especially powerful at pattern matching, making it an ideal tool for finding HTML tags.\n\nVB's chief advantages are that it's already built in to Access, Excel and Word \u2014 so you don't have to buy any new software \u2014 and it was especially created to be an easy-to-learn programming language. (Although you've already got a version of VB, if you buy the full version you'll get a lot of debugging tools that can be a life saver.)\n\nTo manipulate text in VB, you need to learn five things:\n\n1. How to declare variables, which simply means defining them as either characters or numbers.\n\n2. How to open and close files.\n\n3. How to read from files and write to files.\n\n4. How to use text functions, such as MID, INSTR, LEFT, TRIM and LEN\n\n5. How to create loops.\n\nWhen you're first learning Visual Basic, it's easy to get distracted making pretty pictures: forms, buttons, labels, etc. But your program doesn't have to look good; it just needs to get the job done. In fact, all the tools you need can be found in the old QBasic, that free program that comes with DOS. A great book for learning Basic programming is \"QBasic by Example,\" written by Greg M. Perry.\n\nThere's no way to teach you everything you'll need to start programming in a brief article, so I highly recommend getting a book. However, I can walk you through a fairly simple program that parses data, and that should give you a pretty good idea of what to expect.\n\nLet's take the U.S. Census home page, at www.census.gov, and parse all the links into a comma-delimited file that we can easily import into a database. Save the page to your hard drive and note the location, because you'll need it for later. The file is tricky because the page is very loosely structured and the HTML tags are not always consistent. Sometimes they are followed by quotation marks and sometimes they aren't. So we have to include some conditional statements in our programs.\n\nOf course, it's not efficient to write a program to parse a single page, but this program could parse scores of Web pages all at once. You'll find plenty of situations where such a program can do wonders.\n\nTo run this, go to Tools | Macro | Visual Basic Editor in Excel and type in the following code. Then simply click on the Run button.\n\nPrivate Sub Command1_Click()\n\nStart by declaring the data type of all the variables you'll use.\n\nI've just made up the variable names on the left, starting some with \"str\" to signify string, int to signify integer or lng to signify Long Integer.\n\nDim strLine As String\nDim intRead, intWrite As Integer\nDim lngFindAHREF, lngEndHere, lngFindAlt As Long\nDim lngStartHere, lngFindEndTag, lngFindName As Long\nDim lngFindGreaterThan, lngFindLessThan As Long\nDim strHref, strAlt, strName As String\nDim strNextLine As String\n\nFreeFile() is a useful function that assigns an unused number to a file. Basic requires files to be numbered for opening, closing, reading and writing.\nintRead = FreeFile()\n\nIn this case, intRead is now equal to 1. We can now open our Web page to read from as file No. 1.\nOpen \"c:\\census\\www_census_gov.html\" For Input As #intRead\n\nNext we want to create a second file, No. 2, that we are going to write the data to.\nintWrite = FreeFile()\nOpen \"c:\\census\\filetoimport.txt\" For Output As #intWrite\n\nSo all we've done is opened the Web page, which was previously saved to your computer. Your path may differ from that above. Then we created a file called \"filetoimport.txt\" that we will write to.\n\nWe're now ready to look through the Web page for patterns. The statement for that is\nDo while NOT EOF(intRead)\nMeaning read until you get to the End Of File #1, followed by\nLine Input #intRead, strLine,\nmeaning\nGo to the next line and put it into my variable \"strLine.\"\nDo While Not EOF(intRead)\nLine Input #intRead, strLine\n\nTime to start looking for the pattern \"a href\". The function InStr gives the number of the characters from the left that a pattern appears.\n\nvbTextCompare _\nignores upper and lower cases.\nlngFindAHREF = InStr(1, strLine, \"A HREF\", vbTextCompare)\n\nIf we find \"a href\" in a line, we want to grab that line eight characters to the right of the start of the tag.\nIf lngFindAHREF > 0 Then strLine = Mid(strLine, lngFindAHREF + 8)\n\nSome of the lines wrap, so we have to make them one long line using a loop.\nDo While Not InStr(1, strLine, \"</A\", vbTextCompare) > 0\nLine Input #intRead, strNextLine\nstrLine = LTrim(strLine) + \" \" + LTrim(strNextLine)\nLoop\n\nWe're looking for the end of the first tag and will put the text in between into a variable called strHref.\nlngEndHere = InStr(1, strLine, \">\", vbTextCompare)\nstrHref = Mid(strLine, 1, lngEndHere - 1)\n\nNow we're looking for the ALT tag, which is what shows up if an image can't be displayed on the Web page. If we find it, we'll put the text in that tag into the variable \"strAlt.\" To help find the end of the tag, we're searching for quotation marks. I've used the Chr() function because we can't put quotations within quotations.\nlngFindAlt = InStr(1, strLine, \"ALT\", vbTextCompare)\nIf lngFindAlt > 0 Then\nlngStartHere = InStr(lngFindAlt, strLine, Chr(34)) + 1\nlngEndHere = InStr(lngStartHere, strLine, Chr(34))\nstrAlt = Mid(strLine, lngStartHere, lngEndHere - lngStartHere)\nEnd If\n\nFinally, we're looking for the last tag, which sometimes will include text that you see on the Web page as a hyperlink.\nlngFindEndTag = InStr(1, strLine, \"</a\", vbTextCompare)\nstrLine = Mid(strLine, 1, lngFindEndTag 1)\n\nlngFindGreaterThan = InStr(1, strLine, \">\")\nlngFindLessThan = InStr(1, strLine, \"<\")\nIf lngFindLessThan > 0 Then\nstrLine = Mid(strLine, lngFindGreaterThan + 1)\nEnd If\nlngFindName = InStr(strLine, Chr(62))\nstrName = Mid(strLine, lngFindName + 1)\n\nWe have a little bit of clean up work to do. There are extraneous quotation marks to remove and pieces of unwanted text. Also, some of the links begin with \"http://\" and some don't.\nIf Left(strHref, 1) = Chr(34) Then strHref = Mid(strHref, 2)\nIf InStr(1, strHref, \" \") > 0 Then strHref = Mid(strHref, 1, InStr(1, strHref, \" \") - 2)\nSelect Case Left(strHref, 1)\nCase \"h\"\nstrHref = strHref\nCase \"/\"\nstrHref = \"http://www.census.gov\" + strHref\nCase Else\nstrHref = \"http://www.census.gov/\" + strHref\nEnd Select\nIf Right(strHref, 1) = Chr(34) Then strHref =\nMid(strHref, 1, Len(strHref) - 1)\n\nWe're combing the ALT tags with the hyperlinks because they do essentially the same thing.\nIf strAlt = \"\" Then strAlt = strName\n\nNow we'll write the variables to a comma-delimited file.\nWrite #intWrite, strHref, strAlt\n\nIt's time to clean out the variables and run through the loop again.\nstrHref = \"\"\nstrAlt = \"\"\nstrName = \"\"\nEnd If\nLoop\n\nYou always have to close files that you've opened. The command for that is simple.\nClose\nEnd\nEnd Sub\n\nDavid Heath can be reached by e-mail at dheath@seattletimes.com.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "VBasic resources",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Try these Web sites for more on Visual Basic:\n\nhttp://msdn.microsoft.com/vbasic\n\nwww.vbexplorer.com\n\nwww.programmersheaven.com/zone1/index.htm\n\nwww.vb-helper.com\n\nwww.vbsquare.com/beginning",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Uplink story ideas",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Have you or one of your colleagues recently published a story using CAR that has not been done before or involved particularly difficult data work?\n\nDo you know of a technical problem (or its solution) that others may like to hear about?\n\nIs there some issue or beat we haven't looked at you would like to see covered?\n\nWe'd like to hear from you. Please contact associate editor Paul Monies either by e-mail at paulm@nicar.org or by phone at (573) 884-7711.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Fund-raising expenses",
+      "kicker": "PHILANTHROPY",
+      "author_name": "Harvy Lipman",
+      "author_title": "",
+      "affiliation": "The Chronicle of Philanthropy",
+      "full_text": "When the Internal Revenue Service last year issued rules forcing nonprofit organizations to provide copies of their tax returns to the public, journalists who cover charities suddenly found themselves with access to a wealth of data that previously was about as easy to extract as an impacted wisdom tooth.\n\nBut as The Chronicle of Philanthropy has discovered after years of rummaging through those IRS Forms 990, reporters should be cautious about relying on the information nonprofits provide. A case in point might be called \"The Mystery of the Disappearing Fund-raising Expenses.\"\n\nActing on a tip from a source who teaches nonprofit accounting at a major university \u2014 who told us that one of her research papers discovered that many nonprofits with sizeable incomes were reporting spending nothing on fund-raising \u2014 we decided to do a computer analysis of the fund-raising expenses reported on the 990s filed by the largest nonprofits in 1996 (the most recent year for which computerized data were available). We reasoned that any charitable organization that raised $500,000 or more in gifts during the year must have spent something to raise those funds.\n\nKeep in mind that the IRS definition of what must be reported as fund raising is pretty broad. It includes, of course, the cost of hiring outside soliciting firms and the salary paid any full-time fund-raisers on staff. But it also covers the portion of any paid staff time devoted to fund-raising (including writing grants seeking money from foundations), an allocated portion of the cost of producing a newsletter if that publication includes requests for funds, the cost of publicizing fund-raising events, and the production of any fund-raising manuals or other materials.\n\nThe data we needed was obtainable from the Urban Institute's National Center for Charitable Statistics in Washington, which has CD-ROM sets of basic data filed by the nation's nonprofits. We found nearly 5,000 organizations which reported at least $500,000 in gifts for that year \u2014 of which more than 25 percent had reported zero fund-raising expenses. In many cases \u2014 approximately half \u2014 there were good explanations; the most common being that the charity reporting no fund-raising costs was affiliated with another nonprofit organization that handled all the fund-raising. Another common reason covered the foundations formed by state universities: The schools themselves \u2014 which as government entities don't file 990s \u2014 do the fund-raising, while the foundations distribute the money from the gifts, so the foundations legitimately are reporting zero in the fund-raising column.\n\nBut a large number simply didn't bother to report what they'd spent on fund-raising. In almost every case, the organizations' audited financial statements did list the expenses, which is an important lesson for anyone covering nonprofits: Don't settle for the 990, ask for the audited financial statements, and get real huffy if they don't want to give them to you (ask them what they have to hide).\n\nWe also obtained databases from three states \u2014 California, New York and Ohio \u2014 that require registration from all professional fund-raisers and charities that use solicitors. We found dozens of examples of charities that had hired solicitors and still told the IRS they'd spent nothing on fund-raising.\n\nThe Zoological Society of Cincinnati, for instance, spent at least $500,000 on fundraising, including the hiring of a telemarketing company that conducted a multi-year soliciting campaign. Trinity University in San Antonio spent $2.5 million on fund-raising over three years. Neither reported any to the IRS.\n\nSome of the explanations were priceless: One group, in a classic case of Orwellian Newspeak, told us that \"to put fund-raising in the column called fund-raising would be misleading.\" Its argument was that since all the organization does is raise money to distribute to other charities, its fund-raising amounted to its official program (program services, the money spent on a charity's stated function, is reported on a different line of Form 990). The IRS was not amused, pointing out that the organization's program is to distribute money, not raise it, and that everything it spent on fund-raising should be listed as fund-raising expenses.\n\nThe Arizona Community Foundation insisted it does no fund-raising, and then sent us a copy of its newsletter which included a half-page solicitation of bequests.\n\nA large number of charities pointed the finger at its outside accounting firms, saying they filled out the tax forms. Most of the major firms refused to comment, and those that did insisted their policies require precise reporting of all fund-raising costs.\n\nWhy would nonprofits go to such lengths to hide their fund-raising costs? Two reasons: One, most of the watchdog groups in this area rate charities based on the percentage of their revenue they spend on their programs, and if you can make it seem like as little as possible is going toward fund-raising, you come out looking better to potential donors. Two, there are virtually no penalties for hiding fund-raising costs, because the IRS doesn't even look at them.\n\nThe results of our investigation should be an object lesson for journalists and the general public. Examine the tax forms of nonprofit organizations with care, and apply common sense.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "The story",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The Chronicle of Philanthropy story on fundraising expenses is available from the IRE Resource Center, Story #16587. Call (573) 882-3364 for more information.\n\nOn the Web:\nNational Center for Charitable Statistics, http://nccs.urban.org.\n\nIndependent Sector, a coalition of foundations, nonprofits and corporations, www.indepsec.org.\n\nThe Foundation Center, http://fdncenter.org.\n\nNational Council of Nonprofit Associations, www.ncna.org.\n\nQuality 990, a project to improve the quality of IRS form 990 reporting, www.qual990.org",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Tipsheets",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Tipsheet #1235 from 2000 IRE national conference. This tipsheet for covering tax-exempt organizations shows where to find information for particular organizations and how to compare them as a sector of the economy. It also outlines disclosure procedures.\n\nTipsheet #1022 from 1999 IRE national conference. This provides a list of government offices to contact for information regarding charities that solicit within your state as well as a charity and nonprofit organization source list.\n\nTipsheet #1021, also from 1999, provides an index of charity regulators in every state as well as a sample 990 form filled out from a nonprofit in Hawaii.\n\nThe tipsheets can be downloaded from the IRE and NICAR Web site at www.ire.org/resourcecenter. Search the tipsheet database, and then follow the directions below the abstract for downloading a PDF file.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Disciplinary records",
+      "kicker": "EDUCATION",
+      "author_name": "Meggen Lindsay",
+      "author_title": "Editor, The Miami Student",
+      "affiliation": "Miami University, Ohio",
+      "full_text": "The pursuit of open disciplinary records at colleges and universities has become a constant and often embittered battle between student press and school administrators.\n\nI experienced this conflict first-hand last year when I worked on a three-month project to create and analyze a database of Miami University's disciplinary records.\n\nCollege disciplinary records are considered \"academic\" records and are protected under the Family Educational Rights to Privacy Act. The Miami Student, Miami University's student paper, argued in 1996 that the records are not academic and should not be covered by FERPA. The Student sued the school for access to them under the Ohio Public Records law.\n\nThe Ohio courts sided with the students, and although the university appealed to the U.S. Supreme Court, which refused to hear the case, full disciplinary records were to be released. But when the university began releasing records in 1998, the U.S. Department of Education asserted that Miami was in violation of FERPA, and sued the school in federal court to prevent the records' release.\n\nThe Department won its case last April, and the decision is being appealed by The Chronicle of Higher Education, one of the papers that initially requested Miami's records.\n\nAs editor of The Student last year, I became interested not only in the court cases, but also in the records themselves. There were close to 300 records in a box on my office floor \u2014 throughout the lawsuit, no one had even looked at the actual records.\n\nBecause The Students' request failed, the disciplinary records the paper received (from the university) were devoid of all personally identifiable information such as the students' names, ages and Social Security Numbers.\n\nThey consisted of two letters sent to the charged student: one initial citation informing the student of what he or she was being charged with, and one final letter explaining the case's outcome. A description of the incident, the violation with which the student was",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

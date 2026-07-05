@@ -1,45 +1,65 @@
 {
+  "schema_version": 2,
   "year": 2007,
   "month": "January/February",
   "articles": [
     {
       "headline": "PLUG INTO DATA TO INVESTIGATE UTILITIES",
-      "full_text": "In July 2001, just a month after I was hired by Newsday and assigned to the utilities beat, the Long Island Power Authority, or LIPA, announced that it had to build new power plants across the island because increasing demand by residents and businesses would soon surpass the available supply. Talking to experts about the issue, I learned that utilities in the Northeast typically have plenty of kilowatts to go around on all but the hottest days of the year when air conditioners cause huge spikes in demand. I was curious about changes in demand on LIPA's system over time, so I asked the utility for three years' worth of hourly readings in electronic format. The chief spokesman looked at me like I was from Mars (the authority had never been asked for electronic data before), but he ultimately gave me a disk with 26,000 records in fixed-width ASCII format along with an utterly pointless 500-page printout of the same data. My resulting story documented that demand on LIPA's system, which then had a maximum capacity of 4,600 megawatts, had exceeded 4,000 megawatts during just 16 hours in the previous year. The data allowed me to explain to readers that new power plants, always unpopular with residents, wouldn't be needed if the utility and its customers could find ways to cut electric usage during those few peak hours. Throughout the ensuing years on the beat, I would turn to databases and public documents from countless sources to fact-check industry officials and investigate a wide range of issues, from fuel costs and pollution to utility salaries and the impact of deregulation on the energy industry. In fact, few beats have more data and public documents readily available to the reporter who knows where to find them and \u2013 this is the hard part \u2013 how to decipher the incredibly arcane terminology of the industry. Untangling the inner workings of electric utilities got that much harder after the Federal Energy Regulatory Commission prodded many states to deregulate their utilities. Deregulation involved breaking up the electric monopolies that historically owned every piece of the systems \u2013 the power plants, the high-voltage transmission lines that move the juice over long distances and the low-voltage distribution circuits that feed kilowatts to users. In states where deregulation was enacted, including New York, utilities were typically forced to sell their power plants to independent firms and open their wires to competitors who would purchase bulk power on newly established exchanges and try to sell it to utilities' customers. Proponents of deregulation said the newly competitive landscape would lead to efficiencies and lower rates that the stodgy monopolies of yesterday could never match. But as New York Times reporter David Cay Johnston noted in a recent series of articles, that promise has not been realized. \"A decade after competition was introduced in their industries, long-distance phone rates had fallen by half, air fares by more than a fourth and trucking rates by a fourth,\" Johnston wrote in October. \"But, a decade after the federal government opened the business of generating electricity to competition, the market has produced no such decline.\" This is fertile ground for utility beat writers, and all the information they need to piece together what has happened in their states is readily available. The first stop should be the U.S. Department of Energy's Energy Information Administration, which maintains dozens of databases with thousands of measurements of every facet of the electric industry. For example, the annual database created from form EIA-826 contains monthly sales figures for most utilities in the nation. As of this writing, it is available from 1990 through July 2006 in dBASE format, which is",
-      "summary": "Tom McGinty explains how using hourly demand data and public records can help journalists investigate utility capacity and the impact of deregulation.",
-      "keywords": [
-        "utilities",
-        "deregulation",
-        "electricity"
-      ],
+      "kicker": "ENERGY AND UTILITIES",
       "author_name": "Tom McGinty",
-      "author_title": "staff writer on Newsday's investigative team"
+      "author_title": "Staff Writer",
+      "affiliation": "Newsday",
+      "full_text": "In July 2001, just a month after I was hired by Newsday and assigned to the utilities beat, the Long Island Power Authority, or LIPA, announced that it had to build new power plants across the island because increasing demand by residents and businesses would soon surpass the available supply.\n\nTalking to experts about the issue, I learned that utilities in the Northeast typically have plenty of kilowatts to go around on all but the hottest days of the year when air conditioners cause huge spikes in demand. I was curious about changes in demand on LIPA's system over time, so I asked the utility for three years' worth of hourly readings in electronic format.\n\nThe chief spokesman looked at me like I was from Mars (the authority had never been asked for electronic data before), but he ultimately gave me a disk with 26,000 records in fixed-width ASCII format along with an utterly pointless 500-page printout of the same data.\n\nMy resulting story documented that demand on LIPA's system, which then had a maximum capacity of 4,600 megawatts, had exceeded 4,000 megawatts during just 16 hours in the previous year. The data allowed me to explain to readers that new power plants, always unpopular with residents, wouldn't be needed if the utility and its customers could find ways to cut electric usage during those few peak hours.\n\nThroughout the ensuing years on the beat, I would turn to databases and public documents from countless sources to fact-check industry officials and investigate a wide range of issues, from fuel costs and pollution to utility salaries and the impact of deregulation on the energy industry.\n\nIn fact, few beats have more data and public documents readily available to the reporter who knows where to find them and \u2013 this is the hard part \u2013 how to decipher the incredibly arcane terminology of the industry.\n\nDeregulation tangle\n\nUntangling the inner workings of electric utilities got that much harder after the Federal Energy Regulatory Commission prodded many states to deregulate their utilities. Deregulation involved breaking up the electric monopolies that historically owned every piece of the systems \u2013 the power plants, the high-voltage transmission lines that move the juice over long distances and the low-voltage distribution circuits that feed kilowatts to users.\n\nIn states where deregulation took hold, the utilities sold their generating plants to independent power producers while keeping the wires. Those producers then competed to sell electricity to the utilities and large industrial customers. Middlemen \u2013 energy marketers and traders \u2013 began buying and selling electricity like a commodity in what were essentially spot markets.\n\nOf course, Enron became the most infamous player in this new world and its 2001 collapse sent shockwaves through the industry. In California, energy deregulation led to rolling blackouts and billions in costs to ratepayers. Many states that had considered deregulation backed off.\n\nIn New York, where LIPA operates, deregulation led to what I considered one of the best stories of my tenure on the beat. The state's largest utility, Consolidated Edison, had sold its power plants as part of deregulation. Its customers in New York City and Westchester County were now dependent on those independent power producers for their electricity.\n\nI learned through regulatory filings that Con Ed was paying a fortune to keep some of those independent producers on standby \u2013 plants that would only run during emergencies. These were called ",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": false
+      }
     },
     {
       "headline": "DATA REVEALS CITY WORKERS' BONUS PAY",
-      "full_text": "I returned from last January's computer-assisted reporting Boot Camp in Columbia, Mo., with renewed vigor and eager to apply the new skills to my city hall beat. I didn't have to wait long. The following month, a payroll-padding scandal broke, and the story dominated our local media for weeks. The tale was perfect for a CAR rookie. Most of the details couldn't be told well without data on city salaries, budgets and bonuses, and typically talkative sources had clammed up because of an administrative investigation. In short, I had little choice but to turn to data. The payroll scandal involved four employees in the city council's administrative office who were accused of taking $143,000 in improper, incremental bonus payments over approximately one year. The employees were quickly suspended and later fired. Mayor Bill White and other city officials told reporters that bonus payments \u2013 especially in such large quantities \u2013 were highly unusual for city employees. That wasn't exactly true, but it took CAR to show it. We compiled an exclusive story showing that one in six city employees was paid extra money \u2013 totaling about $4 million \u2013 since Mayor White took office in 2004. The",
-      "summary": "A Houston Chronicle reporter uses payroll data to uncover widespread bonus payments to city employees following a local scandal.",
-      "keywords": [
-        "payroll",
-        "bonuses",
-        "city hall"
-      ],
+      "kicker": "FIRST VENTURE",
       "author_name": "Matt Stiles",
-      "author_title": "City Hall reporter at the Houston Chronicle since May 2005"
+      "author_title": "",
+      "affiliation": "Houston Chronicle",
+      "full_text": "I returned from last January's computer-assisted reporting Boot Camp in Columbia, Mo., with renewed vigor and eager to apply the new skills to my city hall beat.\n\nI didn't have to wait long. The following month, a payroll-padding scandal broke, and the story dominated our local media for weeks.\n\nThe tale was perfect for a CAR rookie. Most of the details couldn't be told well without data on city salaries, budgets and bonuses, and typically talkative sources had clammed up because of an administrative investigation.\n\nIn short, I had little choice but to turn to data.\n\nThe payroll scandal involved four employees in the city council's administrative office who were accused of taking $143,000 in improper, incremental bonus payments over approximately one year. The employees were quickly suspended and later fired. Mayor Bill White and other city officials told reporters that bonus payments \u2013 especially in such large quantities \u2013 were highly unusual for city employees.\n\nThat wasn't exactly true, but it took CAR to show it. We compiled an exclusive story showing that one in six city employees was paid extra money \u2013 totaling about $4 million \u2013 since Mayor White took office in 2004. The",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "INDIAN GRANTS, GAMING REVENUE BOTH ON THE RISE",
-      "full_text": "Indian gaming has grown explosively during recent years. While giving few specific examples, tribes in Oklahoma claim they are putting that money to good use for programs to benefit their members. Before gaming, tribes relied almost solely on the federal government to pay for housing, medical care, education and other needs. This led me to wonder about the relationship between tribes' gaming revenues and the funds they receive from the federal government. As tribes make more from gaming and become more self-sufficient, is there any reduction in federal funds for housing, medical care, government and the like? The answer is no, at least during the three years of data I examined. While revenues from Indian gaming grew 30 percent nationally during fiscal years 2002 through 2004, federal grants to tribes grew 44 percent. By 2004, federal assistance to tribal organizations totaled about $7 billion; Indian gaming revenues topped $19 billion nationally. The pattern was the same in Oklahoma. I found the answer using a database called the Federal Assistance Award Data System, or FAADS, maintained by the U.S. Census Bureau and available from the IRE and NICAR Database Library, www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=38. Covering federal financial assistance for about 600 federal programs, FAADS includes",
-      "summary": "This investigation examines the relationship between tribal gaming revenues and federal grants, finding that both are increasing simultaneously.",
-      "keywords": [
-        "tribal gaming",
-        "federal grants",
-        "FAADS"
-      ],
+      "kicker": "TRACKING FEDERAL FUNDS",
       "author_name": "Ziva Branstetter",
-      "author_title": "projects editor of the Tulsa World"
+      "author_title": "",
+      "affiliation": "Tulsa (Okla.) World",
+      "full_text": "Indian gaming has grown explosively during recent years. While giving few specific examples, tribes in Oklahoma claim they are putting that money to good use for programs to benefit their members. Before gaming, tribes relied almost solely on the federal government to pay for housing, medical care, education and other needs.\n\nThis led me to wonder about the relationship between tribes' gaming revenues and the funds they receive from the federal government. As tribes make more from gaming and become more self-sufficient, is there any reduction in federal funds for housing, medical care, government and the like? The answer is no, at least during the three years of data I examined.\n\nWhile revenues from Indian gaming grew 30 percent nationally during fiscal years 2002 through 2004, federal grants to tribes grew 44 percent. By 2004, federal assistance to tribal organizations totaled about $7 billion; Indian gaming revenues topped $19 billion nationally. The pattern was the same in Oklahoma.\n\nI found the answer using a database called the Federal Assistance Award Data System, or FAADS, maintained by the U.S. Census Bureau and available from the IRE and NICAR Database Library, www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=38. Covering federal financial assistance for about 600 federal programs, FAADS includes",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "UPLINK GOES ELECTRONIC",
+      "kicker": "INSIDE NICAR",
+      "author_name": "David Herzog",
+      "author_title": "NICAR and Missouri School of Journalism",
+      "affiliation": "",
       "full_text": "This issue of Uplink, as you've no doubt noticed, ushers in a new look that we hope will be more appealing to our readers, who are a loyal, demanding and intelligent bunch. While we're still mailing our print edition, subscribers now can download an electronic version of Uplink and take advantage of its interactive features. Just visit the NICAR Web site (www.nicar.org) and download the Adobe Acrobat PDF file for this issue. Inside, you'll find full-color graphics, hyperlinks that will take you to online resources and searchable pages. We're also sprucing up the NICAR Web site to include even more sample data files and multimedia features relating to what's on the pages of Uplink. Features will change and develop as we make the transition to this new format. We'd love to get your feedback on these changes. Please send me an e-mail and let me know what you think. And, don't forget to send in your registration for the annual CAR Conference March 8-11 in Cleveland. It will be a great opportunity to learn the tricks of the trade or recharge your CAR battery.",
       "summary": "Uplink introduces its new interactive electronic version and website updates to better serve its readers with full-color graphics and searchable pages.",
       "keywords": [
@@ -47,11 +67,71 @@
         "digital journalism",
         "NICAR"
       ],
-      "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "CAR conference deadlines",
+      "kicker": "Bits and Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Make plans now for the 2007 CAR Conference to be held March 8-11 at the Renaissance Cleveland Hotel in downtown Cleveland.\n\nAttendees must reserve a room by Friday, Feb. 9, to receive the discounted rate of $119 plus tax per night. The last day to register for the conference at the early-bird rate of $150 is Feb. 19. After that date, you must register on site for $175.\n\nThe conference will feature panels by the best in the business on every beat and topic including: Census, crime, education, local and state government, freedom of information, transportation and more. Hands-on classes will be offered featuring spreadsheets, database managers, mapping, statistics and other technology.\n\nRegistration, hotel information and preliminary program details can be found at www.ire.org/training/cleveland07.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Truck data updated",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Keep an eye on jack-knifing semis and other trucks on your local roads using three databases recently updated by NICAR. The Truck Accidents database (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=51) shows commercial-carrier accidents as reported to local and state police, including details such as location, fatalities and vehicle identification numbers for trucks, buses or semis involved in wrecks. The Truck Inspections database (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=37) contains information on the number of inspection violations for each truck; date, time and place of the inspection; whether the inspection occurred before or after a crash, as well as alcohol and drug detection information. Finally, the Truck Census database (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=50) contains the shipper's DOT census number, company address, number and type of vehicles in the company's fleet, cargo types and safety ratings.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "New archives for NICAR-L",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "A new archive interface makes it easier to search for tips and solutions posted on the NICAR-L Listserv, whether you're searching for a string function, a URL, author's name, or a phrase, such as \"Excel date conversion.\"\n\nThe updated system organizes entries by thread, month, and author. The advanced search feature offers helpful filtering options, ranging from familiar boolean terms to wildcard searches and pattern-matching with regular expressions. IRE members can access the archives at www.ire.org/membersonly/lists/NICAR-L.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "NY POWER AGENCY GIVES $1 MILLION TO LEADERS' PET PROJECTS, CHARITIES",
+      "kicker": "ENERGY AND UTILITIES",
+      "author_name": "Michelle Breidenbach",
+      "author_title": "covers state government for the Post-Standard in Syracuse, N.Y.",
+      "affiliation": "",
       "full_text": "New Yorkers are familiar with the clean hydropower the state has been producing from the waterfalls on the St. Lawrence River for the past 50 years. But, is anyone paying attention to the agency that runs these dams? The New York Power Authority is managed by political appointees who work in White Plains, a two-hour drive from Albany. The staff treats the agency like a private business, and employees call it \"the company.\" The NYPA is owned, however, by New York state taxpayers. Its meetings are public. Its records are subject to New York's Freedom of Information Law. Its board of directors is held to the same ethical standards as the governor or anyone who works for the highway or education departments. Readers were surprised to learn from our two-part series that the NYPA's top executives make more money than the governor, fly even short distances on state-owned airplanes and donate about $1 million a year to their pet charities. They used public money to buy chandeliers for a theater in the governor's hometown and to throw a ski weekend for an Albany congressman. NYPA executives refused to be interviewed in person about their day-to-day business. So, I relied on records. To get started, I learned how New York's public power system fits into the national scene. The American Public Power Association (www.appanet.org) ranks public power utilities and put NYPA at No. 4 in generation. I researched a state-owned power company of similar size in South Carolina \u2013 Santee Cooper \u2013 for comparison. I filed a public records request for Santee Cooper's salaries. They refused to send electronic records but provided a paper list with last names, positions and annual salaries for employees who make more than $50,000. The records showed that 4.4 percent of Santee Cooper's public power workers made more than $100,000 per year. I also reviewed the salaries at the New York agencies whose budgets are controlled by the legislature and the governor. The electronic records are on file at the state comptroller's office. At these agencies, 3.8 percent of employees earn more than $100,000 per year. The governor makes $179,000 per year. Getting electronic records from the NYPA proved to be more difficult. The first response was: No, it is not state policy to distribute electronic records. So, I made an argument using opinions from the State Committee on Open Government, a branch of the Department of State. Some states, such as New York, have assigned someone within the government the task of interpreting open records and meetings laws. It is easy to search past opinions on the committee's Web site (www.dos.state.ny.us/coog/coogwww.html). New York courts ruled more than 20 years ago that government agencies could not restrict access to data simply because it was held in computers and not on paper. Therefore, NYPA staff agreed to release electronic records. Payroll records came in a simple Microsoft Excel spreadsheet with names, titles and salaries for about 1,600 people. It showed 12.5 percent of employees make more than $100,000 per year. Fifteen NYPA employees make more than the governor. Using the Find option in the Edit menu, easy word searches showed how many titles contained certain terms: there are 21 with \"vice president,\" 53 with \"director,\" 88 with \"manager\" and 15 with \"public\" or \"government affairs.\" We used this information in a graphic. A simple ranking of the list also teased out telling details: A janitor makes $85,488. That compares to less than $30,000 for janitors on the ordinary state payroll. I asked the state comptroller's office and the Assembly Energy Committee what kind of documents they had received or requested in their audits and investigations of the NYPA. The comptroller's office provided procurement reports, which detailed the authority's contracts and their bidding processes. The Assembly Energy Committee had asked for airplane records, which it said it had not received. NYPA filled my request for airplane records, which existed only on paper. I had received a tip that the governor had been overusing NYPA's airplanes, even though he had access to the state police fleet (the only other planes in state government). I split the records into piles to separate trips that included anyone who was not on my roster of NYPA employees. I made a spreadsheet of trips taken by Gov. George Pataki and his staff. In the end, this exercise proved only that the tip did not appear to be true. The records did show, however, that NYPA executives were using the planes to travel from Albany to New York City and White Plains \u2013 trips other state employees make by train. I wanted to know about the other ways the NYPA had strayed from its original mission. They provided an electronic copy of their vehicle report, which accounted for 798 electric-drive cars, vans and lawn mowers they had distributed in the name of green energy. The vehicles went to places such as Yankee Stadium. The authority's list of green energy projects showed new heating, air conditioning and lights at Rochester City Hall but not as many projects for Syracuse, a city that had not been represented on the NYPA's board of directors in a dozen years. I also asked for an accounting of what the NYPA called \"community support projects.\" I called it philanthropy. It turned out that the agency set aside $1 million per year for executives and staff to hand out to the charities of their choice. This included buying tables at fundraising galas and donating to construction-fund drives for groups in which NYPA executives are active. The agency's Excel spreadsheet showed the names of the recipients and the amount the NYPA donated. I looked up the grant recipients' IRS 990 forms at Guidestar (www.guidestar.org) and compared their board members to the names of the NYPA employees I had in my spreadsheet. There were a lot of hits. I also looked up the home addresses of NYPA board members and executives and looked for connections between their resumes and the groups on the philanthropy list. I typed these connections into a new spreadsheet and started making phone calls. Several grant recipients said they got their money because someone from the NYPA served on their board. Online county property records revealed that the NYPA's former president Eugene Zeltmann owned a home in Lake Placid in the Adirondack Mountains. The NYPA had contributed $55,000 to the Olympic Regional Development Authority, another state public authority. ORDA manages Whiteface Mountain in Lake Placid and the other venues used in the 1980 Winter Olympics. Like the NYPA, the authority is headquartered a few hours' drive from Albany and beyond the eyes of the legislature and the capitol press corps. ORDA's spokesman said they used some of the power authority's money for an annual event called the Congressional Winter Challenge. It is a fantasy camp intended for Rep. John Sweeney to bring other members of Congress and their staff members to ski, play hockey and socialize. The hope is that they will return to Washington and send federal money to the mountains. A records request at the development authority resulted in the kind of details that make a story about a winter fantasy camp come to life. They provided a copy of the invitation, the list of passengers who boarded a Washington airplane for Albany, an itinerary and team rosters. One participant was called simply \"Mary S's best friend.\" Mary S. is the congressman's daughter. The U.S. Olympic Committee, a nonprofit that rents space at ORDA's office, provided copies of opinions they had circulated from the House and Senate Ethics committees. Sweeney sought advice from the committees, which said that it is permissible for a member to take a privately sponsored trip in connection with his or her duties as an officeholder if the trip is for fact-finding and if the recreational activities were \"merely incidental to the trip.\" Only one other member of Congress attended the official fact-finding trip to Lake Placid. Other guests included at least a dozen Washington lobbyists, Sweeney family members, former Sweeney staffers and staff and relatives of NYPA executives. Sweeney lost re-election in November. It turns out no one was paying attention ORDA either. After that story, tips poured in from the North Country, located way outside our circulation area. One tipster said the agency had steered contracts for the winter weekend to its own board members who own posh resorts in Lake Placid. Another round of records requests proved that to be true. For the past two years, ORDA paid $96,378 to a resort owned by one board member and $112,040 to a resort owned by another board member.",
       "summary": "An investigation reveals that New York Power Authority executives received higher salaries than the governor and used public funds for personal charities and political perks.",
       "keywords": [
@@ -59,11 +139,20 @@
         "accountability",
         "public records"
       ],
-      "author_name": "Michelle Breidenbach",
-      "author_title": "covers state government for the Post-Standard in Syracuse, N.Y."
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "DRILL FOR OIL DATA ON OPEC SITE",
+      "kicker": "ENERGY AND UTILITIES",
+      "author_name": "Jeff Porter",
+      "author_title": "NICAR Database Library Director",
+      "affiliation": "",
       "full_text": "In \"The Wizard of Oz,\" Scarecrow asked the critical question just after the Tin Woodsman was discovered by the Yellow Brick Road: Dorothy: \"Did you say something?\" Tin Woodsman: \"Oil can.\" Dorothy: \"He said, 'Oil can.'\" Scarecrow: \"Oil can what?\" We know the answer to the Scarecrow's question: Oil can make or break politicians. Oil can drive the world's economy. Oil can make news time after time. Oil can play into data, too \u2013 data that can cover the entire world. The influential organization of countries that produce oil, the Organization of the Petroleum Exporting Countries, or OPEC, has its own Web site and numerous tables, which are easily downloadable and already in Microsoft Excel format, that can provide numbers and perspective to stories about oil imports and exports, the transportation of petroleum products and, of course, pricing. OPEC is made up of 11 oil producing and exporting countries: Algeria, Indonesia, Iran, Iraq, Kuwait, Libya, Nigeria, Qatar, Saudi Arabia, United Arab Emirates and Venezuela. For those countries, oil is the main commodity and key to their economies. The Web site, www.opec.org, offers charts, publications and background on OPEC itself and, under its Publications link, the Annual Statistical Bulletin. See www.opec.org/library/Annual%20Statistical%20Bulletin/ASB2005.htm. From there, you can check the table of contents and download tables on a variety of topics: basic indicators, oil and gas production, export and import, transportation by tanker or pipeline, oil prices, major oil companies and global flows of crude and refined oil. For example, click on the link for Oil and Gas Data, then choose Table 56: World Imports of Crude Oil by Country, 1980-2005: With a single click on the Excel icon, you can download the table and make additional comparisons or calculations. This table is just one example of the rich amount of year-by-year data available from the OPEC site. A quick comparison by region with a calculation of percentage change can show big increases in oil consumption from 1960 to 2005 in Asia and the Mideast, which helps drive the price of oil. See the category called Summary Tables and Basic Indicators. If you want to use this material in a serious way, you should read the General Notes section of the Annual Statistical Bulletin. There you can find definitions of terms such as \"Consumption of refined products,\" a list of countries included in each region and explanations of abbreviations (for example, \"b/d\" means barrels per day). Also, you can compare some of these statistics with other data sources: World Trade Organization \u2013 www.wto.int International Trade Administration \u2013 www.trade.gov Trade Stats Express \u2013 http://tse.export.gov",
       "summary": "Jeff Porter highlights the wealth of data available on the OPEC website, including downloadable tables on oil production, imports, and global pricing.",
       "keywords": [
@@ -71,11 +160,20 @@
         "oil statistics",
         "petroleum"
       ],
-      "author_name": "Jeff Porter",
-      "author_title": "NICAR Database Library Director"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "GAS PUMP INSPECTIONS MAKE SPEEDY CAR STORY",
+      "kicker": "ENERGY AND UTILITIES",
+      "author_name": "Lee Davidson",
+      "author_title": "special projects reporter for the Deseret Morning News of Salt Lake City",
+      "affiliation": "",
       "full_text": "If you're looking for a quick, fairly easy investigation that will grab the interest of readers, then checking out the accuracy of gasoline pumps is the one for you. The project, which took me only about a week to do (and I spent most of that negotiating and waiting for a copy of a state database) came about after a string of stories about how gasoline prices had dropped significantly nearly everywhere except Utah. While the governor launched another investigation of the high prices, we decided to look at whether customers really receive what they pay for at the pump. We began our investigation with a quick search on the state's Web site, www.utah.gov, which showed us that the Division of Weights and Measures in the Department of Agriculture and Food had the data we needed. The Web site mentioned that the division tests \"all gasoline pumps for accurate measurement.\" (I also could have found that by simply looking more closely on the inspection stickers that the division places on each gasoline pump in the state.) The state provided me a full copy of its Microsoft Access database on a CD, and it already had some state-designed queries saved on it, such as \"total pumps failed with location and count,\" which made my life far too easy. A major drawback with the Utah database is that it did not include whether a \"volume failure\" occurred because a pump gave too much gasoline or too little. However, the inspection supervisor and other inspectors agreed that nearly half of the time the failed pumps gave too much, and half the time they gave too little. I had most of the numbers and information that I needed from the database in about an hour. Some simple division of the number of pumps that failed (1,898) by the total pumps inspected (44,796) gave the overall failure rate (4.2 percent). Division of the number of stations with at least one failed pump (92) by the number of total stations (1,140) gave the failure rate for stations (8 percent). I did some sorting by station and inspection date to discover that many stations had all their pumps fail repeatedly in up to five inspections over two years. Sorting by city, I also found that some of the state's biggest cities did not have any failing pumps, while some smaller cities had numerous failures. Finally, sorting and counting by date showed that virtually all known stations had been inspected in 2005, but inspections appeared to be way down in 2006. Some of our findings: Customers in Utah have a 1-in-25 chance of buying gasoline at a pump that fails to give amounts within legal ranges. About half of the pumps that fail give too little gasoline, and half give too much. So, motorists have about a 1-in-50 chance of getting more than they paid for, and 1-in-50 odds of getting less. About 8 percent of gas stations in Utah had at least one pump that failed from January 2005 through August 2006. They were scattered among 92 stations in 43 communities. Some stations had all of their pumps fail repeatedly in multiple inspections. However, the state issued no fines and closed no pumps or stations at that time. The state inspected all of the state's gasoline stations in 2005 but now has decided to inspect only about one-third of them each year. It has only eight inspectors, and they do a variety of other work, including checking scales and price scanners at stores statewide. The state said that other work had been suffering. Once I had my information from the database, I interviewed state officials and industry representatives. A photographer and I went with a state inspector to a local gas station to see and describe how inspections occur. We also found some interesting tidbits along the way. The inspector told us that pumps always give a little more gasoline when it is pumped quickly instead of slowly, so now I am sure that all of our readers pump gas as quickly as possible. State officials also say pumps are designed so that as they wear out they should err in favor of consumers. I also suspect that readers started looking for older pumps. We put a list online of all stations that had at least one pump fail. It showed the dates of inspections and how many pumps failed each time. We arranged that by city to make it easier for readers to identify nearby stations.",
       "summary": "Lee Davidson describes a quick investigation into gas pump accuracy in Utah using state inspection databases.",
       "keywords": [
@@ -83,8 +181,30 @@
         "Utah",
         "consumer protection"
       ],
-      "author_name": "Lee Davidson",
-      "author_title": "special projects reporter for the Deseret Morning News of Salt Lake City"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "RESOURCES FROM IRE AND NICAR FOR REPORTING ON ENERGY AND UTILITIES",
+      "kicker": "ENERGY AND UTILITIES",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "You can find more tips for covering energy and utility in databases, stories, tips and publications available from IRE and NICAR.\n\nDon't forget that IRE maintains a Web page with resources for covering blackouts and updates the information when power outages make headlines. The listings include online resources from a variety of sources. See www.ire.org/inthenews_archive/blackout.html.\n\nDatabase Library\n\nThe National Inventory of Dams (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=44) includes dam maintenance records, structure, composition and owner, including power-generating dams. This update includes records for almost 80,000 dams. This update includes data through 2002. (In the past, the U.S. Army Corps of Engineers updated the database biannually, but the two-year reporting system is currently delayed.)\n\nFederal Assistance Award Data System\n\nFollow federal funding for state and local energy and water programs with FAADS (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=38), compiled by the General Service Administration. It shows major categories of federal spending, including grants, loans and direct payments. Entries include references to program codes used in the Catalog of Federal Domestic Assistance (http://12.46.245.173/cfda/cfda.html). The data is not a perfect picture of the government's payouts, but it does provide an overview of spending programs and money flowing to the state, county or city level.\n\nCheck the Database Library's federal contracts collection (http://www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=17) to find information on companies involved in energy-related projects or provision of services to the government. IRE and NICAR's data covers 1979-2006, plus portions of the current fiscal year 2007. It includes the company, contact information, the agency, type of work performed and where the work was performed.\n\nResource Center\n\n\u2022 \"The Investigative Reporter's Handbook\" covers \"Investigating Energy and Communications Utilities\" in Chapter 17.\n\n\u2022 The IRE Journal (July/Aug. 2004) covered energy issues, including how to respond to power blackouts.\n\n\u2022 Nigel Jaquiss of Portland's Willamette Week provides a list of tips for journalists who are covering utility companies and explains how to find sources and appropriate documents. He also gives information on potential conflicts between consumers and shareholders. Tipsheet No. 2706\n\n\u2022 Ken Ward, The Charleston (W. Va.) Gazette, lists and discusses 10 sources of data for journalists investigating water and air quality, pollution, energy usage and other environmental issues. Tipsheet No. 1369\n\n\u2022 Ron Nixon, IRE and NICAR, and Tom McGinty, Newsday, compiled a list of Web sites helpful in covering the electric utility industry for the annual computer-assisted reporting conference in 2002. Tipsheet No. 1505\n\n\u2022 Arthur O'Donnell, California Energy Markets, provides a list of Web sites about energy information and electric and gas business news. This is from the 2002 annual IRE conference. Tipsheet No. 1620\n\n\u2022 Mike Taugher, Contra Costa Times, compiled a list of Web sites about energy, environment related issues and companies having energy for a presentation at the 2002 annual IRE conference. Tipsheet No. 1631\n\nTo order databases, contact the Database Library at 573-884-7332 or 573-884-7711. For a complete listing of the databases available from NICAR, visit www.ire.org/datalibrary/databases/databases.php.\n\nFor copies of stories or tipsheets, contact the Resource Center at 573-882-3364 or rescntr@ire.org. IRE members can download free PDF copies of most tipsheets at www.ire.org/resourcecenter.\n\nRead more about Energy and Utilities in The IRE Journal (Jan./Feb. 2006) IRE Members can view archived issues at www.ire.org/membersonly/resourcecenter/irejournal",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

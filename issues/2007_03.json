@@ -1,30 +1,202 @@
 {
+  "schema_version": 2,
   "year": 2007,
   "month": "March/April",
   "articles": [
     {
-      "headline": "FLUFF RULES IN PUERTO RICAN LEGISLATURE",
-      "author_name": "Omaya Sosa Pascual",
-      "author_title": "El Nuevo D\u00eda",
-      "full_text": "Politics in Puerto Rico are complicated and intense. The current legislature could also be described as frivolous and wasteful, according to a recent computer-assisted investigation by El Nuevo Dia. The San Juan newspaper used electronic legislative filings to show that Puerto Rican legislators choose quantity over quality when proposing new measures. They devote their energy to saluting special occasions or launching trivial investigations, while neglecting serious economic and social problems. In the middle of one of Puerto Rico's worst economic crises, more than half of the legislative efforts were dedicated to congratulating people, often for no extraordinary reason. Newcomer Nelson Del Valle Col\u00f3n presented the most proposals overall, but almost 92 percent were congratulatory measures. Resolutions to investigate accounted for 16 percent of the total, yet most of the 690 investigations focused on inconsequential issues, and only 6 percent were completed. Joint resolutions to allocate funds accounted for 9 percent, with 340 resolutions to allocate a total of $120 million from the deficit-ridden general fund for all sorts of agencies, organizations, and individuals. This occurred within a government that had to shut down several agencies, including public schools, in June 2006 due to insufficient funds. Legislation on core issues like public health and education received little attention.",
-      "summary": "A computer-assisted investigation revealed that the Puerto Rican legislature focuses more on trivial matters than addressing significant economic and social issues, highlighting the issue of quantity over quality in legislative measures.",
-      "keywords": [
-        "Puerto Rico",
-        "legislation",
-        "politics"
-      ]
-    },
-    {
       "headline": "SUBSIDIES SPREAD CASH FAR FROM STRUGGLING FARMS",
+      "kicker": "DOWN ON THE FARM",
       "author_name": "Sarah Cohen",
       "author_title": "The Washington Post",
+      "affiliation": "",
       "full_text": "Skeptical of the claims that farm subsidies are needed to save the small family farm, Dan Morgan, Gilbert M. Gaul, and Sarah Cohen spent 2006 answering a simple question about federal subsidy programs: Who reaped the benefits from the taxpayer dollars, and did it help struggling small family farmers? The investigation revealed that subsidies included $1.3 billion meant for working farmers but paid to those who grow nothing; $9 billion in disaster aid that went often to farms already covered by a $20-billion crop insurance program; and payments to farms that exceeded legal payment limits. Unlocking USDA data was crucial, and The Washington Post published nine stories as part of the 'Harvesting Cash' series.",
       "summary": "A 2006 Washington Post investigation revealed that federal farm subsidies, often justified as supporting small family farms, were instead distributed to non-farmers, duplicate payments, and operations exceeding legal limits, with investigators analyzing USDA data to uncover billions in questionable payments.",
       "keywords": [
         "subsidies",
         "investigation",
         "farming"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "FLUFF RULES IN PUERTO RICAN LEGISLATURE",
+      "kicker": "FIRST VENTURE",
+      "author_name": "Omaya Sosa Pascual",
+      "author_title": "El Nuevo D\u00eda",
+      "affiliation": "",
+      "full_text": "Politics in Puerto Rico are complicated and intense. The current legislature could also be described as frivolous and wasteful, according to a recent computer-assisted investigation by El Nuevo Dia. The San Juan newspaper used electronic legislative filings to show that Puerto Rican legislators choose quantity over quality when proposing new measures. They devote their energy to saluting special occasions or launching trivial investigations, while neglecting serious economic and social problems. In the middle of one of Puerto Rico's worst economic crises, more than half of the legislative efforts were dedicated to congratulating people, often for no extraordinary reason. Newcomer Nelson Del Valle Col\u00f3n presented the most proposals overall, but almost 92 percent were congratulatory measures. Resolutions to investigate accounted for 16 percent of the total, yet most of the 690 investigations focused on inconsequential issues, and only 6 percent were completed. Joint resolutions to allocate funds accounted for 9 percent, with 340 resolutions to allocate a total of $120 million from the deficit-ridden general fund for all sorts of agencies, organizations, and individuals. This occurred within a government that had to shut down several agencies, including public schools, in June 2006 due to insufficient funds. Legislation on core issues like public health and education received little attention.",
+      "summary": "A computer-assisted investigation revealed that the Puerto Rican legislature focuses more on trivial matters than addressing significant economic and social issues, highlighting the issue of quantity over quality in legislative measures.",
+      "keywords": [
+        "Puerto Rico",
+        "legislation",
+        "politics"
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "CENSUS SHOWS BLACKS DRIVEN FROM THEIR HOMES",
+      "kicker": "HIDDEN HISTORY",
+      "author_name": "Elliot Jaspin",
+      "author_title": "",
+      "affiliation": "Cox News Service",
+      "full_text": "Old census records \u2013 I mean really old census records \u2013 are a pretty unlikely place to look for a news story. Even current census numbers aren't that exciting and, unlike a fine cognac, sitting around for 100 years doesn't help.\n\nBut as I began exploring a database of population figures that stretched from 1890 to 1930, I stumbled across something perplexing. In county after county throughout the United States, I found that the black population would suddenly and mysteriously disappear.\n\nIn places like Forsyth County in Georgia and Missouri's Lawrence County, one census would show blacks living in the county, and then a decade later, they were gone. Why had whole communities that had existed since slavery suddenly left? And, once gone, why had blacks never moved back?\n\nAt the time, I didn't know that I was looking at the unique signature left by one of the uglier events in American history: racial cleansings.\n\nLike most people, I had never heard of America's racial cleansings. In 1998, I found myself on assignment in Berryville, Ark. With a little time to kill, I wandered into a small history museum and marveled at a display of antique embalming equipment in one",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "MEYER WINNERS EXAMINE STOCKS, HOSPITALS, SCHOOLS",
+      "kicker": "INSIDE NICAR",
+      "author_name": "David Herzog",
+      "author_title": "",
+      "affiliation": "NICAR and Missouri School of Journalism",
+      "full_text": "Three newspapers recently won the 2006 Philip Meyer Award for their use of social science methods in reporting on stock options, hospital care and public schools.\n\nThe Wall Street Journal took first place for \"Perfect Payday,\" a series of stories that uncovered the practice of secretly backdating stock options to benefit corporate insiders. Reporters Charles Forelle and James Bandler used a statistical model to show how the backdating timing probably didn't happen by mere chance.\n\nGannett News Service won second place for \"Special Report: Rating Hospital Health Care.\" Database editor Robert Benincasa and reporter Jennifer Brooks analyzed national treatment data to show how patients in poor and rural areas weren't getting recommended care.\n\nThe Philadelphia Inquirer received third place for its investigation of Camden, N.J., schools. Melanie Burney, Frank Kummer and Dwight Ott found some test scores at some of the schools in the troubled district were higher than would be expected. The revelations led to the resignation of the superintendent and close oversight from the state.\n\nCongratulations to the winners. It's great to see journalists using the tools of social science to report on matters that are important to us all. More information about the winners and the Meyer Award is available online at www.ire.org/meyeraward/06winners.html. Contact David Herzog by e-mail at dherzog@nicar.org.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Campus Crime Update",
+      "kicker": "Bits and Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "How safe are the campuses of your local colleges or universities? The IRE and NICAR Database Library recently updated the Campus Crime database so you can find out.\n\nOn October 1st of each year, schools are required to report crime statistics for the three most recent calendar years. The data cover 2001 through 2005 and contain 8,771 records for the most recent year. On campus and off-campus crime, arrests, discipline and hate crimes are reported in separate tables that can be linked. More limited information is available for 2000. For more information and sample data, visit the Database Library's Web site www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=54.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "IRE spring training",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "A variety of IRE's upcoming on-the-road training events will feature CAR sessions.\n\nThe Watchdog Journalism series (www.ire.org/training/watchdogjournalism.html) designed for reporters and editors at small or mid-sized papers or bureaus of larger papers, will feature CAR training at several events. You must register for the Watchdog Workshop to attend the CAR sessions; space is limited.\n\nBetter Watchdog Workshop, April 14-15, in Syracuse, N.Y. (www.ire.org/training/betterwatchdog/Syracuse07.html) Beginning Excel.\n\nBetter Watchdog Workshop, April 28-29, in Oklahoma City. (www.ire.org/training/betterwatchdog/Oklahoma07.html) Beginning Excel.\n\nIRE will conduct a Money in Politics workshop (www.knightnewmediacenter.org/seminars/archives/election_08_covering_politics_in_cyberspace) April 20-21 in Los Angeles in conjunction with the Knight New Media Center seminar on politics in cyberspace.\n\nCAR Boot Camp, May 13-18, in Columbia, Mo. (www.ire.org/training/bootcamps/may2007.html) offers intensive training in spreadsheets, databases and how to use CAR in your news organization.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "TRACKING COTTON SUBSIDIES AND LEARNING SQL SERVER ON THE FLY",
+      "kicker": "DOWN ON THE FARM",
+      "author_name": "Megan Clarke",
+      "author_title": "",
+      "affiliation": "The Atlanta Journal-Constitution",
+      "full_text": "Cotton is still king in Georgia. In 2005, the federal government pumped $317 million in subsidies into the state for cotton alone, making it Georgia's top subsidized crop.\n\nGeorgia's take was a piece of $23 billion in subsidies paid nationwide that year. American farm subsidies are criticized around the world for artificially depressing crop prices, and The Atlanta Journal-Constitution decided to see how those payments help or harm farmers in the United States.\n\nTo tell the story, we chose cotton subsidies because of the amount of money involved and the crop's historical importance in Georgia. My collaborators were reporters Ken Foskett and Dan Chapman, and projects editor Jim Walls.\n\nThe U.S. Department of Agriculture's Farm Service Agency is responsible for distributing subsidy money. I requested payment data for the entire country dating back to 1994. FSA initially assured me the data included all subsidy payments. But after some research and checking with a fellow CAR person, I discovered I needed databases for three more programs with nearly $4 billion a year in subsidies: tobacco transition payments, commodity certificate payments and cotton cooperative certificate payments.\n\nBy requesting a fee waiver because the information was of \"public interest,\" I avoided paying for any of the data. The payment database took about a month to receive, but the others, which are not requested as often, took a little longer. I would recommend requesting expedited action in your FOIA request. Most federal agencies do not recognize such a request, but FSA did.\n\nOnce I received 70 GB of data \u2013 180 million records \u2013 it was clear that my usual software, Microsoft Access and FoxPro, were not going to cut it.\n\nWith trouble-shooting help from our then-CAR editor David Milliron and the book \"Sams Teach Yourself Microsoft SQL Server 2000 in 21 Days\" by Richard Waymire and Rick Sawtell, I took a crash course in SQL Server.\n\nThe capabilities of SQL Server were overwhelming at first. It can handle 1 million terabytes of data, versus 2 gigabytes in Access. (The drawback to SQL Server's power is that it comes with a hefty price tag.)\n\nI learned the organization and the differences in SQL statements on deadline. SQL Server syntax slightly differs from SQL commands in FoxPro (wildcards, for example and excluding the semi-colon after each line in a query). One handy feature with SQL Server is the color-coded command text. SELECT, DELETE, INSERT all turn blue when used properly and values turn red when your syntax is correct.\n\nIf you're transitioning from Access or FoxPro, stick with what you know (e.g. familiar queries) in the beginning. Once you get used to the software, it's easier to transition to advanced features. I continue to use Access and FoxPro for quick-hit analyses or daily CAR, but SQL Server has offered more advanced options for more organized, efficient analysis.\n\nSQL Server also provides more advanced security and a great feature called transaction logs, which documents almost every change made to the database. Like most database management software, SQL Server provides advanced processing tools.\n\nFor the subsidy story, I used summarizing queries to produce aggregates by several different categories. My biggest interest was finding oddities and outliers. (When you see a person with a Beverly Hills address collecting cotton subsidies in Georgia, it piques your interest.) Through geographic and time-ordered slices of the data, I was able to spot trends. Besides calculating the typical",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "COTTON",
+      "kicker": "DOWN ON THE FARM",
+      "author_name": "Megan Clarke",
+      "author_title": "Reporter",
+      "affiliation": "AJC",
+      "full_text": "Combining the processing, mapping, analysis and memos, I worked on it for about five months.\n\nThe payment database includes a separate name table, which includes farm operator names and addresses. The tables are linked by a customer number, which is a surrogate for the tax ID that FSA normally uses. All of the different subsidy datasets can be linked using the customer number. The payment data also includes state codes, county codes, program names, types of crops, date and amount. It does not include the location of the farms, other than the county and state. I started cross-referencing the payment data with entity data, which identifies the members of each entity that collects subsidies. I found many recipients living quite a distance from the farms they are collecting on. People in Atlanta, New York City and even Saudi Arabia and Japan were collecting subsidies for U.S. farms.\n\nIt became apparent we needed to rework our definition of \"farmer.\" We discovered that college students, churches, prisons, universities, corporate rate pension plans and even a sports bra company collect farm subsidies. Familiar names also popped up in the data, too including Chevron Corp., CNN founder Ted Turner and Georgia Gov. Sonny Perdue.\n\nLate last year after we published our project, FSA released a new data set of subsidy recipients, called 1614, that news organizations have not had until now. The dataset, named for Section 1614 of the 2002 Farm Bill, tracks all subsidy payments to a human being when possible. The new data is only 6 GB and contains 66 million records for payments from Oct. 2002 to June 2006.\n\nPreviously, some payment records stopped at the corporate level and did not disclose the owners cashing the subsidy checks. The 1614 data connects the dots for you. With the old data, I was able to uncover most of the owners behind corporations with a few extra queries.\n\nFor those organizations that don't have access to database management software like SQL Server, The Environmental Working Group, an advocacy group, posts subsidy data online. On its Web site, www.ewg.org, EWG illustrates aggregates and provides a searchable database to look up specific recipients and their entities.\n\nAfter analyzing the payment records, we found:\n\u2022 Five percent of eligible farmers collect half of all U.S. farm subsidies.\n\u2022 Farmers can easily circumvent USDA limits on subsidy payments. Nearly 200 U.S. farm operations collected more than $1 million each in 2005. That's nearly a quarter of a billion dollars to a group that could fit inside a grade school cafeteria.\n\u2022 Subsidies drive up rural land prices and prevent small American growers from farming more land.\n\u2022 Wealthy Americans and institutions with no apparent need for government aid, including some who live far from their farmland, collect hundreds of millions of dollars in subsidies. Enforcement of income caps for subsidy recipients is spotty.\n\nThe data also turned up great leads on individual farmers. A top USDA official was the nation's single biggest beneficiary of a disaster relief program for orchard owners. Some farm operators accused of scheming to collect millions they were not entitled to later received millions more under new corporate names. Farmers who hit payment limits organized new partnerships to double or triple their subsidies.\n\nThe findings highlighted a fundamental flaw with current U.S. farm programs: They benefit landowners, sometimes to the detriment of farmers. That's because cropland owners can collect a subsidy even if they grow nothing, or they contract with a farmer to farm the land and split the subsidy.\n\nWe took it a step further and compared subsidy payments with those of another USDA program: food stamps. We found that a third of Georgia's counties collected more in farm subsidies than food stamps.\n\nAgricultural Census data provided an astonishing glimpse at the decline in farms and farmers in Georgia. Compiled by the National Agricultural Statistics Service, the ag census provides state and county-level numbers on everything regarding agriculture and is conducted every five years. NASS will survey farmers in December of this year; the data should be available in February 2009.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "FARMSUBSIDY.ORG OPENS ACCESS TO EU FARM PAYMENTS",
+      "kicker": "DOWN ON THE FARM",
+      "author_name": "Brigitte Alfter, Tommy Kaas and Nils Mulvad",
+      "author_title": "",
+      "affiliation": "Information; Kaas & Mulvad",
+      "full_text": "Each year, the European Union pays more than $100 million to subsidize Arla, the seventh largest dairy corporation in the world. In the accounting year 2004, the sum of the subsidies was larger than the profit declared by the Danish-Swedish corporation.\n\nDuring World Trade Organization negotiations in December 2005, the EU promised to abolish the export subsidies that provide the largest part of Arla's bounty. The consequence, according to the company's deputy director when confronted with the subsidy figures, would be a restructuring, including moving jobs from Denmark and Sweden to a number of lower-cost countries.\n\nThis straightforward business story targeted a Danish audience, but more European journalists now are starting to report in their own language on EU subsidy programs after decades of silence. Almost half of the EU's annual budget is allocated to farm subsidies. In 2007, the amount is \u20ac54.9 billion, or $71.2 billion. Yet, until recently, who gets the money has been entirely secret.\n\nFarmsubsidy.org is the driving force in bringing Europe's farm subsidies into the light. This network organization uses Freedom of Information laws and computer-assisted reporting to gather and distribute subsidy data from EU nations. The work to get complete data on the subsidies is vast and far from done, but the potential in the data already gathered is huge. As a result of",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "FARMSUBSIDY.ORG",
+      "kicker": "DOWN ON THE FARM",
+      "author_name": "Brigitte Alfter, Tommy Kaas and Nils Mulvad",
+      "author_title": "Brussels correspondent (Alfter); Partner (Kaas & Mulvad)",
+      "affiliation": "Information; Kaas & Mulvad",
+      "full_text": "test case of the EU's young FOI act (http://eur-lex.europa.eu/LexUriServ/site/en/oj/2001/l_145/l_14520010531en00430048.pdf) that only had come into effect in December 2001.\n\nAlfter filed the application in June 2004, and the commission finally rejected it the following September. The core reason for the rejection was the definition of a database. According to the commission, only information retrieved through \"routine operations\" could be released. Another argument was a confidentiality clause for EU member states preventing the commission from revealing the data.\n\nThe case is still pending at the level of the European Ombudsman (www.euro-ombudsman.eu.int/home/en/default.htm). Another option for appeals \u2013although at least as time-consuming as an Ombudsman complaint and far more costly \u2013 would have been to go to the European Court of Justice.\n\nThe next step obviously had to be addressing other member states. In spring 2005, Alfter filed applications in Germany, where two cases currently are pending in administrative courts. The cases challenge German legislation and legal practices containing some of Europe's strongest privacy and business secrecy protections.\n\nBritish and Dutch journalists and organisations caught interest, too. British media, including London newspapers The Guardian and the Telegraph, published stories exposing Queen Elizabeth II, her son Prince Charles and other nobility among the largest beneficiaries of what is politically presented as support for the struggling farmers.\n\nIn the Netherlands, the Evert Vermeer Foundation (www.eucoherence.org/renderer.do/clearState/true/menuId/227658/returnPage/227304), which opposes EU policies that harm developing countries, achieved access to national data in late 2005 after a number of court cases.\n\nCreating Farmsubsidy.org\n\nBy May 2005, it was time for a closer network among those interested in transparency, and a handful of people met in Brussels and drafted the idea for the Farmsubsidy.org network, established by Mulvad and British researcher Jack Thurston. It was time to actively include colleagues in other countries, too.\n\nSoon data were released or requested in Sweden, Finland, Poland, Slovenia and a number of other EU member states. When www.farmsubsidy.org went online in late 2005, data of varying quality from a number of EU member states were available, and it became possible to trace subsidies for corporations with subsidiaries in multiple member states.\n\nThe heaviest arguments used for rejections all over the EU were privacy, protection of business secrets and the fundamental question of access to information held in databases. However, parts of the European Commission started their own struggle for transparency of the data with the commissioner for public administration, Estonian Siim Kallas, taking the lead. Late last year, after a long struggle with some opposition within the EU, the EU passed a decision declaring that all subsidy data are to be published, beginning in 2009.\n\nTime to lean back and relax at the Farmsubsidy.org network? Not exactly. Particularly in the countries that have resisted transparency most strongly, Network members already can trace movements warning subsidy recipients of the transparency. This easily could lead to a disguise of the true beneficiaries before 2009. Thus, the work continues.\n\nCAR challenges\n\nWork continues on additional information and additional possibilities for the Web site.\n\nGovernments provide data in many different formats. Some are uploaded to the Web as PDF files \u2013 some, such as Spain's, cover more than 5,000 pages, which are filled with spelling errors. Some countries, such as the Netherlands, only give access to a limited search form, and they try to hinder Web scraping, which makes it very difficult to get a copy of all data for analyzing.\n\nOn the other hand, some of the countries are very cooperative and give out data in a standard electronic format (Microsoft Excel or delimited text), which makes it very easy to work with.\n\nNot only the format but also the content varies from country to country. Some countries use the calendar year; others count from the day they open applications for a given program, or they follow the so-called FEOGA year used in the EU budget (an administrative concept similar to a fiscal year in the U.S.).\n\nUnfortunately, the subsidy data is really dirty and changes year after year. For Farmsubsidy.org members, it means trying to create standards and get an overview of the data to understand what to request and what pieces of data are necessary. Mulvad uses his journalism training and CAR experience for scraping, importing and cleaning data. He collaborates with Bob Larkin, a data programmer and project leader who works with MySQL, Drupal (http://drupal.org/about) and PHP.\n\nPreparing for mapping is another major project. The group has geocoded the addresses of subsidy recipients, a process that allows them to be plotted with geographic information system software, and has requested shapefiles of agricultural land that are kept by authorities in each country. This will allow Farmsubsidy.org to geographically display and analyze data about subsidies and other EU statistics.\n\nWe also have rated the score of transparency of government authorities according to how much data they give out and the quality of the data. Now we're close to finishing a process on integrating further indices to prepare it for demands for more data. That will facilitate the process of following the money.\n\nThe main new thing on the Web site for the coming period will be combining documentation with the transparency index. It will involve uploading new data, including subsidy programs and possibly also the main layout in a multilingual system, making it easier for people who speak languages other than English.\n\nThe whole idea is to open opportunities for new types of stories, call it the next wave, in which we look at the aim of the subsidy program and investigate how it actually works in practice. We look into the effects of the schemes that were not taken into consideration, when they were introduced and whether they now might be outdated.\n\nThe entire EU farms subsidy system is going to be submitted to a so-called health check this year and next \u2013 even more reason to request the data now \u2013 instead of waiting until 2009.\n\nSee data at www.farmsubsidy.org, for the U.S. data, visit the Environmental Working Group's Web site, www.ewg.org.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "REPORTING ON MIGRANT FARM LABOR",
+      "kicker": "DOWN ON THE FARM",
+      "author_name": "David Walle",
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "full_text": "When a team of reporters for the Palm Beach Post began preparing packages on migrant farm laborers (www.palmbeachpost.com/moderndayslavery/content/moderndayslavery/) and the dangers of pesticide (www.palmbeachpost.com/localnews/content/news/special_reports/carlitos/index.html) in 2003 and 2005, they pursued multiple angles.\n\nThey found instances of modern-day slavery, explored the politics that touch migrant lives and calculated the unseen costs of migrant labor. Covering the story required traveling to its sources: in the crop fields of Florida, to the streets of Guadalupe, Mexico, and the trails taken by smugglers to bring migrants into America. Inquiry into the abuses also meant digging into reports provided by state and federal agencies.\n\nWhenever the federal government contracts a state agency to enforce its laws, the agency must collect data and file reports to the federal government, says Christine Stapleton, a Palm Beach Post reporter who worked on both migrant packages. Stapleton suggests that reporters first read the contract, which explains the type of data and the format in which it's kept. Reporters can then request specific databases or record fields from the state.\n\nFor example, the Palm Beach Post tapped the state health department to check for housing violations caused by migrants living in overcrowded homes. Reporters compiled demographic profiles of labor contractors by getting their phone numbers and birthplaces from the state department of professional registration. While working on the pesticides package, they searched worker compensation data for chemical injury claims filed against agricultural employers. Stapleton shares more advice on investigating agriculture in Tipsheet 2086 (www.ire.org/resourcecenter/viewtipsheets.php?number=2086).\n\nThe following resources also can aid investigations into farm labor conditions:\n\nNational Agricultural Workers Survey\n(www.dol.gov/asp/programs/agworker/naws.htm) \u2013 A report of demographic and employment characteristics of the U.S. crop labor force. Released in 2005, the data is taken from face-to-face interviews of farm workers.\n\nMigrant and Seasonal Farmworker Enumeration Profiles Study\n(http://bphc.hrsa.gov/migrant/EnumerationEnumerationStudy.htm) \u2013 Profiles of workers in ten states (Alaska, California, Florida, Louisiana, Maryland, North Carolina, Mississippi, Oklahoma, Texas and Washington). It includes county estimates of migrant and seasonal workers and each state's labor demand for crops.\n\nUrban Institute\n(www.urban.org) \u2013 Includes various academic articles about immigrants and plenty of statistics.\n\nThe Inter-American Development Bank\n(www.iadb.org) \u2013 Has posted two useful papers, \"Data on Immigrant Families\" and \"Remittances 2005,\" which discusses how migrants send money back to families in their native countries.\n\nSarasota/Manatee Farmworker Supporters\n(www.smfws.com) \u2013 A collection of national articles about immigration that are updated daily and archived through 2003.\n\nMigrant Farmworker Justice Project\n(www.floridalegal.org/migrant.htm) \u2013 Includes a facts section on farm workers in Florida.\n\nIRE Data, stories and tipsheets\nThe Wage and Hour Enforcement Database has information on violations, penalties and employers for more than 700,000 closed cases between the 1980s and 2004 (www.ire.org/datalibrary/databases/viewdatabase.php?dbaseindex=46). The database covers areas including child labor, overtime, minimum wage and medical or family leave.\n\nWINK-Fort Myers, Fla., reported that between 20,000 to 50,000 people are smuggled into the U.S. each year as indentured servants. Some",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

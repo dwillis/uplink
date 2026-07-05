@@ -1,54 +1,193 @@
 {
+  "schema_version": 2,
   "year": 2006,
   "month": "May-June",
   "articles": [
     {
       "headline": "Making the switch to ACS",
+      "kicker": "CENSUS",
       "author_name": "Paul Overberg",
       "author_title": "USA Today",
+      "affiliation": "",
       "full_text": "Once again, the Census Bureau's American Community Survey faced a budget challenge that could have killed it. It wasn't until a congressional conference committee hashed out details in mid-November that it was funded at sustainable levels for this year. Nothing is certain in Washington, but this means it's increasingly likely that after years in pilot, ACS finally will take wing and replace the long form of the 2010 Census. Each year, 3 million households will get the ACS survey. Each summer, data from the preceding year will be released for big places (over 65,000 people). By summer 2008, data from 2005-07 will be released as three-year averages for places of at least 20,000 people. Finally, in summer 2010, data from 2005-09 will be released as five-year averages for places as small as census tracts (3,000 people) and in some cases block groups (600 people). Every year after that, new annual data...",
       "summary": "The Census Bureau's American Community Survey faced funding challenges but is likely to replace the long form of the 2010 Census.",
       "keywords": [
         "Census",
         "ACS",
         "data"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Rolling hazards in rail cargo",
+      "kicker": "SPOTLIGHT: TOXIC LIVING",
       "author_name": "David Danelski",
       "author_title": "The (Riverside, Calif.) Press-Enterprise",
+      "affiliation": "",
       "full_text": "A freight train derailment last year left several tank cars containing deadly chemicals twisted and dented just yards from homes in densely populated San Bernardino. The accident raised obvious questions about the transport of hazardous materials by railroad through our region. Our investigation ultimately found ineffective track inspections, misidentified tank cars, and communications problems between railroad and police officials that allowed hundreds of residents to return home before it was safe to do so. The Press-Enterprise covers Riverside and San Bernardino counties, an area in Southern California that serves as a railroad conduit for growing volumes of goods that have arrived from Asia at the ports of Los Angeles and Long Beach. Much of our railroad coverage has focused on increasing rail traffic, toxic diesel exhaust from locomotives and long waits at rail crossings. The threat of potentially deadly chlorine gas escaping from a ruptured tank car became a new target for our reporting after the April 4, 2005 derailment. The San Bernardino wreck, we reported, was a symptom of a national hazard that claimed more lives in 2005 than in the previous 20 years combined. San Bernardino had escaped a disaster...",
       "summary": "Investigation into freight train derailments revealed ineffective track inspections and other issues that endangered residents.",
       "keywords": [
         "rail cargo",
         "hazards",
         "derailments"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "ER gridlock exposed",
+      "kicker": "HEALTH CARE",
       "author_name": "Augusta Brennan Jones",
       "author_title": "WBAL-Baltimore",
+      "affiliation": "",
       "full_text": "If you have visited a hospital emergency room, you've probably experienced a wait. But I'll bet it wasn't as long as the time I rushed my husband, John, to the hospital. It was a Monday night last July. John is a cardiac patient, and he was having neck and jaw pain. That visit, which stretched to more than eight hours, inspired our investigative unit at WBAL to examine ER waiting times using freely available data from a Maryland state agency. Shortly after I got John to Northwest Hospital outside Baltimore, he was called to the triage unit where they checked his vital signs and determined he could wait. So they sent him back to the waiting room with dozens of other sick-looking patients. After about an hour, he still had not seen a doctor; that's when a nurse announced there would be a six-hour delay. I said, 'I'll take him to Sinai Hospital.' She said, 'Sinai is on an eleven-hour delay.' I couldn't believe it. There didn't seem to be any option but to wait, and it gave me lots of time to wonder what's going on inside Baltimore ERs...",
       "summary": "Investigation into Maryland ERs revealed significant delays and highlighted a crisis in emergency healthcare.",
       "keywords": [
         "healthcare",
         "ER",
         "Maryland"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Storm season",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "IRE and NICAR Database Library",
+      "full_text": "Just in time for storm season, the IRE and NICAR Database Library has updated its Storm Events database through Dec. 31, 2005. The data contains information about last season's hurricanes, including Hurricane Katrina.\n\nThe database includes more than 600,000 records of U.S. storm events ranging from hail and flooding to hurricanes and tornadoes. Each record contains details about fatalities and injuries, damage to crops and property, and remarks about the storm. Many of the storm records include latitude and longitude data, which can be used to map the locations using geographic information system (GIS) software.\n\nIn addition to information on recent storms, the database has archival information as far back as 1950.\n\nTo order the storm events data, contact the database library at 573-884-7711 or download an order form at www.ire.org/datalibrary/orderform.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Deadly roads",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "In February, the database library analyzed fatal vehicle accidents data for a WCBS-New York story.\n\nAssistant administrator Megan Means analyzed the Fatality Analysis Reporting System (FARS) Data, available from the database library, to count fatalities on highways in New York and New Jersey. She found the majority of accidents occurred in daylight during fair weather conditions.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "CAR: It's a starting point",
+      "kicker": "INSIDE NICAR",
+      "author_name": "David Herzog",
+      "author_title": "",
+      "affiliation": "NICAR and Missouri School of Journalism",
+      "full_text": "Hundreds of journalists were on hand for the computer-assisted reporting day at the annual IRE conference in June in Fort Worth, Texas. The one-day focus on CAR is an annual rite for many journalists and, for others, an introduction to the use of databases, spreadsheets and Internet resources for reporting.\n\nFor many newcomers, it's easy to get overwhelmed by the possibilities of CAR and all of the jargon (think GIS, SQL, regression analysis, intranets). But those journalists who persist can develop new reporting tools that can help them produce better news stories. That's what it's all about, right?\n\nIn each issue of Uplink, you read about these news stories. And while you might notice differences in the software, techniques and obstacles overcome, you'll see one common thread: CAR provided the starting point for even more reporting.\n\nSpeaking of Uplink, we're working on publishing the newsletter electronically. If you have any suggestions for use, please let me know. I'd love to hear them.\n\nThe March-April Uplink \"Mapping it Out\" feature incorrectly identified the location of a village near Peoria, Ill., that was struck by a tornado. It is South Pekin.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "About our contributors",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Augusta Brennan Jones is executive producer-special projects at WBAL-Baltimore, where she manages the station's I-Team. She began her broadcast career as a producer at WRTV-Indianapolis.\n\nDavid Danelski covers air pollution and does investigative projects for The Press-Enterprise in Riverside, Calif. He is an alumnus of the 2004 Advanced CAR Statistics Boot Camp.\n\nPaul Overberg, a database editor at USA Today, helps coordinate its demographic coverage. He began using data from the American Community Survey nine years ago and has been invited to participate in several user workshops on development of its products.\n\nEric Sagara has reported the Tucson Citizen for five years and has covered the crime, higher education, business and wildfire beats. He currently covers primary and secondary education. He is an alumnus of the 2005 Advanced CAR Statistics Boot Camp.\n\nDuane Schrag is special projects reporter at the Salina (Kan.) Journal. He has worked for the Harris Enterprises newspaper group, based in Hutchinson, Kan., since 1984. Previously, he was editor and publisher of the Chanute (Kan.) Tribune.\n\nKen Ward Jr. is a reporter for The Charleston (W.Va.) Gazette and has received national reporting awards for stories about environmental topics. He is chairman of the Society of Environmental Journalists' First Amendment Task Force.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Stats help deflate big crowd count",
+      "kicker": "FIRST VENTURE",
+      "author_name": "Eric Sagara",
+      "author_title": "",
+      "affiliation": "Tucson Citizen",
+      "full_text": "If you have ever strained to count a crowd of people milling around a concert, parade or festival, you know how hard it can be to get an accurate head count.\n\nThe difficulty of crowd counting came up briefly at an IRE and NICAR Advanced CAR Statistics Boot Camp at Arizona State University, and I learned there is a way to go beyond official estimates and find a more accurate estimate for readers.\n\nWithin days of my completing the Boot Camp, editors wanted to find a way to accurately count the number of people that attended La Fiesta de los Vaqueros Rodeo Parade.\n\nTouted as the world's longest, non-motorized parade at a length of 2.1 miles, it marks the beginning of the Tucson Rodeo, the first event of the season on the U.S. professional rodeo circuit.\n\nOrganizers say the parade and the events over the ensuing days are a major economic boon to the community with an estimated 200,000 people attending the parade alone every year.\n\nAs a native Tucsonan who had never been to the rodeo or the parade, I found that figure hard to believe. It meant that as many as one in every four people living in the county attended the opening day event.\n\nLast year, our count put attendance at roughly a third of the parade committee's official estimates, which ranged from 175,000 to 180,000.\n\nStats camp instructor Steve Doig, a professor at Arizona State University, talked about several different methods of approaching the problem, including using of aerial photography and software designed specifically for the task.\n\nWe decided the parade did not warrant the expense of chartering an airplane or purchasing software. Instead, I opted for a notebook, an Excel spreadsheet and my mountain bike.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "Endangered data helps find deadly mercury",
+      "kicker": "SPOTLIGHT: TOXIC LIVING",
       "author_name": "Ken Ward Jr.",
       "author_title": "The Charleston (W.Va.) Gazette",
+      "affiliation": "",
       "full_text": "At the annual computer-assisted reporting conferences and on the NICAR listserv, I always hear about how bad government data is. When the conversation steers toward the U.S. Environmental Protection Agency's Toxic Release Inventory, the criticisms seem especially harsh. And they're probably mostly true. There are lots of problems with the TRI. But right now, the biggest problem is that we might lose it. The EPA is proposing major cutbacks, including a plan to make the now-annual data collection an every-other-year deal for the chemical industry and other manufacturers. I also know that some of the best stories I do are based in some way on TRI, or at least use some nugget from the TRI for that crucial 'computer-assisted paragraph' that makes the story solid. TRI is still the best basic set of pollution numbers we have. With that in mind, here's how TRI helped me turn what could have been a boring daily story from a news release into a more meaningful Sunday and Monday package of stories...",
       "summary": "TRI data was used to investigate mercury pollution from chlor-alkali plants, revealing significant environmental concerns.",
       "keywords": [
         "TRI",
         "mercury",
         "pollution"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Excel & VB help crack school finances",
+      "kicker": "the Detables Tech tip",
+      "author_name": "Duane Schrag",
+      "author_title": "",
+      "affiliation": "The Salina (Kan.) Journal",
+      "full_text": "All across the United States lawsuits have been filed in recent years accusing state governments of failing to provide a suitable education for their citizens. Many - perhaps most - of the cases turn on the question of adequate financing: Are schools being given enough money to educate students most at risk?\n\nKansas is one of those states. More than two years ago, a county district judge ruled that too little money was being spent to educate low-income, bilingual and special education students. During the litigation the State Board of Education - the principal defendant - commissioned a study to find out whether the Kansas school finance formula was appropriate and, if not, how much it would cost to implement one that was.\n\nThe study by consultants Augenblick & Myers proposed a new formula for school spending. The study's findings were presented as evidence in the case, along with the state's estimate of the financial impact of the formula. In ruling for the plaintiffs, the judge repeatedly said the cost of fixing school finance in Kansas would be at least $1 billion. However, the state had submitted a figure of $853 million. And the study estimated it at $236 million.\n\nMy story set out to answer the question: How much would it really cost to implement the findings? And how would it affect the 75 school districts in our readership area? I used Microsoft Excel, Access and Visual Basic programming to answer the questions.\n\nEarlier, when I had asked the gurus at the state education department about that, they were dismissive. \"Augenblick & Myers got it wrong,\" they said. I have worked with these people for years, and I took their word for it. If I had listened more closely to my instincts, we would have had this story earlier.\n\nThe Kansas Supreme Court later upheld the lower court's ruling, so the funding was in the news again. I requested figures on how the ruling would affect the 302 school districts in Kansas. The Kansas Department of Education sent me the information, with the stipulation that I not attribute it. \"Even the school districts haven't seen this,\" I was told. That was a red flag.\n\nInitially, the thought of calculating the cost on my own was too intimidating. But after looking closely at the formulas, I realized it was not out of the question. It required algebra, not rocket science. Calculating the cost involved:\n\nformulas to compute weighting factors for district size, low-income, bilingual, and special education. These factors assign more \"weight\" to low-income students, for instance, which increases state aid for them.\nenrollment figures for each school district, and the subgroups within each district.\n\nThe enrollment information was relatively easy to get. The state does a fairly good job of posting it and many other key tables online. Most importantly, the data is usually available as Microsoft Excel spreadsheets, so rekeying is not necessary. If possible, get this data in electronic, not paper, format. Transcription errors are too easy to make.\n\nIn my calculations, I had to make sure I was using full-time equivalents when those were required, headcounts when headcounts were required. I had to re-run the data after learning the special education figures posted online were incomplete - they excluded children in gifted programs.\n\nThe formulas themselves are straightforward - a series of If/Then statements, with assorted multiplication and division operations. Excel has a built-in If() function that I found too limited for my purposes. Instead, I wrote custom functions in Visual Basic.\n\nExample 1 examines the adjustment for school size. This is how the consultant presented the formula for a base budget per pupil of $4,550.\n\nExample 2 is the equivalent in Visual Basic. I named the function size_weight(), which takes as arguments the base budget per pupil (b) and the district's enrollment (e).\n\nYou may notice the base budget per pupil is a variable, not a constant - this made it possible to compute the cost for any base figure. For our story, we used $5,000, which was the study's original figure adjusted for inflation.\n\nWith the formulas in hand, and the raw numbers in spreadsheet format, it was a breeze to compute the weightings, and thereby create the exact budget figure for each school district. At this point, I knew how much the proposal would cost, but that was only half the problem.\n\nThe other half of the problem was comparing the proposal to the status quo. Again, finding the raw data was not difficult - every school district's budget is posted online, in sufficient detail to extract the information needed for the story.\n\nExtracting the correct figures required some work. In order to compare apples and apples, I needed to deduct expenses for transportation, capital outlay, food service and adult education. The budget is a massive spreadsheet - it consists of 14 separate sheets, each with 302 rows (one for each school district) and as many as 20 columns of figures. Spending for the services in question were scattered across those sheets.\n\nFirst, I sought help from the local school district. I sat down with the business manager and made certain I knew which columns had to be deducted to account for the necessary change. There were dozens.\n\nOnce again, I wrote a Visual Basic function to systematically extract the necessary information. While it is possible to do this by hand, the number of operations (about 10,000) makes it highly likely a mistake will be made.\n\nNow I could make the proper comparison. I had the true cost of applying the proposal, district by district. And I had the actual comparable cost under the existing formula. I used Microsoft's Excel and Access to manage the data, although relying solely on Excel would be possible.\n\nA&M's model was never adopted, so it is impossible to say what it would have ended up costing. But in January 2006, an exhaustive study by the Kansas Legislative Division of Post Audit on the \"true\" cost of providing an education said an additional $400 million is required; this comes on top of an extra $143 million added last year. That put the additional spending right where we said A&M would have put it.\n\nPerhaps the most important lesson this story reinforced for me is that journalists must do a tricky balancing act - know when to ask for information, know when to do the work yourself.\n\nSources for this story gave wildly different interpretations of what the A&M study said. Some who should have known it backwards and forwards were dead wrong. Only by reading it, re-reading it, discussing it, and re-reading it further was I able to offer the story's conclusions with confidence.\n\nContact Duane Schrag by e-mail at dschrag@saljournal.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

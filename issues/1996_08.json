@@ -1,9 +1,14 @@
 {
+  "schema_version": 2,
   "year": 1996,
   "month": "August",
   "articles": [
     {
       "headline": "Getting down to business",
+      "kicker": "",
+      "author_name": "Neil Reisner",
+      "author_title": "NICAR staff",
+      "affiliation": "",
       "full_text": "Most business stories involve numbers, and a large portion involve many, many numbers. More business writers than ever can't imagine even beginning such a story without first entering the numbers on a spreadsheet or using a database manager to look for trends. \"A business writer who believes he/she is getting everything from the companies is just plain wrong,\" says one veteran reporter. \"It's like saying that sports reporters get all they need from the teams or political reporters get all they need from politicians.\" It's too easy to say that no one knows the balance sheets better than management, and therefore we should let them do the analysis. Just substitute \"Congress\" or \"the governor\" or \"the mayor\" for \"management\" in the last sentence, and the point will be clear: Management knows the financials - but that doesn't mean they tell you everything that shareholders or the public or employees need to know. Here are some ways business reporters can use computer-assisted reporting: Use the annual Home Mortgage Disclosure Act to examine whether banks give mortgages in all the neighborhoods they serve. HMDA summarizes how lenders responded to home-loan applications by Census tract and by applicants' race, sex, income and requested loan amount. In many cases, reporters find that banks disproportionately deny loans to minorities. Search the patents database, available in part on-line or from the Patent Trademark Office, for patents in your area and get totals from the U.S. Patent Office. What sorts of patents are most common? Quick hit: Write a spot profile of new patents in your area. Use a spreadsheet to build basic graphics that make it easier to see a company's sales/profits patterns. You can, for example, find out whether a company's newspapers or television stations make a bigger contribution to earnings. Are your airlines on time? Check out the on-time flight database from the FAA and find out which cities are the best and worst routes for your location (in terms of getting there or coming back on time), and which airlines are the best and worst in your city. Track the health of your local banks. Take banking data (it comes out quarterly) and look at (Liabilities + Loans-on-the-Brink - those that may go bad in 90 days) / assets. The ratio is a quick way to look at the health of banks. USA Today was able to get a great jump on troubles at Chase Manhattan using this method. Use a spreadsheet to analyze tariffs. Mike Fabey did this to look at beer tariffs for the Journal of Commerce. Use mapping software to examine bank locations. Are banks and S&Ls where most people can conveniently reach them? You may find that most banks are located in upscale office parks or high-rent neighborhoods. Buy the necessary addresses from Sheshunoff, the bank research firm. Or scour the Yellow Pages and enter the data yourself. Once you have a map, and see just how large the unserved area is, go visit it and find out how people get banking services. You may find they depend on check-cashing \"services\" and rarely, if ever, can borrow money on reasonable terms. Are your businesses paying back the community? Check the SBA database for the promises businesses made about how many employees they'll add if they get a loan. Did they follow through? Writing about the Orange County bankruptcy, Ron Campbell of The Register used Excel to track the professional fees in the mammoth case - $50 million and counting. He also used Excel to keep track of dozens of bond issues, each with its own interest rate, tax status, underwriter and financial adviser, and seemingly hundreds of recovery plans. Use data from the Bureau of the Census Web site to see how the age/race composition of your state or region will change over the next 25 years, and report on how that will affect state agencies, the economy, etc. How are your local or regional businesses doing on the Net? Find out whether this Web thing is hype or whether people are really making money. What are their concerns? Companies usually report several years' results in their annual report or SEC Form 10-K. Put those numbers on a spreadsheet and do some charts. What sources of income have changed in the past few years? Is the company taking on more debt? What about its inventory? In many industries, inventory is a ticking time bomb. Many companies have adopted \"just-in-time inventory.\" The reason for this strategy is purely financial: to keep from wasting valuable capital on storage for goods you might not be able to sell at a profit. Compile figures from a number of company annual reports or 10-Ks to take a look at an industry segment, using the same sort of calculations. Use the OSHA database to determine the most common accidents and causes for your area. Use the Internet and other on-line services to research small or obscure companies. Rob Gebelof at The Record in Hackensack, N.J., did that when it researched a company owned by a scientist who had been murdered. Little was known about the company. But by punching it into Altavista, a Net search engine, a reporter found a reference to it on a page maintained by another company. A call to that firm yielded an interview with someone who knew both the victim and his company well. See how many workers in your area are filing for NAFTA-related benefits compared to the rest of the country. Use a spreadsheet to look at company balance sheets. Most companies do not provide information such as debt ratios, which are vital to understanding a business. Crain's New York set up a system so reporters can type in the basic numbers and get computations on key ratios. Andy Lehren of NICAR, a former Philadelphia business writer, did the same thing as a way to find publicly traded companies worth probing. Use spreadsheets to analyze Commerce data on the fly. By using stat-USA, you can get U.S. economic data as soon as it's released by Commerce. You can quickly get that information into spreadsheets and go beyond the press releases. Business reporters can turn around quick merger stories using desktop mapping. When one company says its going to swallow another, business reporters should type company locations into a database and analyze the result with a mapping program. Dave Herzog at The Morning Call in Allentown, Pa., did that when CoreStates announced it was taking over Meridian Bank. The paper highlighted branches within a stone's throw of each other and speculated which might be shuttered, ending up close to the mark. The St. Louis Post-Dispatch used the same technique when one grocery store chain bought another.",
       "summary": "This article provides a comprehensive list of story ideas and methodologies for business reporters to use computer-assisted reporting (CAR). It covers the use of spreadsheets, databases, and mapping software to analyze financial trends, bank lending, and corporate behavior.",
       "keywords": [
@@ -11,11 +16,20 @@
         "Spreadsheets",
         "Mapping"
       ],
-      "author_name": "Neil Reisner",
-      "author_title": "NICAR staff"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "The rich get richer",
+      "kicker": "What SBA data shows",
+      "author_name": "Andy Lehren",
+      "author_title": "NICAR staff",
+      "affiliation": "",
       "full_text": "In Philadelphia - a city recuperating from a severe budget crisis - officials talk a lot about economic development. But the city's poorer neighborhoods complain that too much public aid goes to Center City businesses and other well-off areas, while struggling communities get little assistance. Officials have admitted that certain programs, such as Urban Development Action Grants, were funneled downtown to ensure its economic health. But they countered that other government assistance, such as loans backed by the U.S. Small Business Administration, did not work that way. An October 1995 analysis by the Philadelphia Daily News showed that's not true. The two-part series showed how the agency did a poor job of getting money into the city and, when it did, the support went more to neighborhoods that are already better-off. The stories mined the SBA's national database for 7a loans. That is the SBA's key program for helping small businesses. The name refers to the section of law that created the program. The program is supposed to encourage bank lending to companies that would otherwise not qualify. It is designed to work this way: A company is seeking a bank loan, but the bank is reluctant. Maybe the company owners have little credit history to help the bank make a decision. Perhaps the deal is a bit chancy. But if the company qualifies, it could get the federal government to guarantee a big chunk of the loan. The bank is happy because it gets to do the deal with less risk. The company is pleased because it gets the cash. The SBA is content because it helps a small business. There are rules. However, in the decentralized federal agency, a clear picture emerged: Some district offices and banks were better at churning out loans than others. Philadelphia was among those cities with a smaller piece of the pie. The data was a key part of the story. Obtained under the Freedom of Information Act, the nine-track tapes showed where the money was going. The database was a little dirty; developing look-up tables for cities and ZIP codes helped alleviate problems caused by sloppy data entry. After that, the numbers showed that, despite being the nation's fifth-largest city, it ranked 17th when it came to getting SBA aid. In addition, when agency officials countered that they were improving, a year-by-year breakdown showed that, while Philadelphia's numbers were a bit higher as time went on, its relative position fell because other places were doing even better. I spoke to those in places getting more money. They described how they worked the system to do more deals. Those methods underscored the problems back in Philadelphia. When it came to particular loans, the database was handy for seeking paper records. I submitted an FOIA request to the SBA district office, attaching a spreadsheet that listed the names, addresses and loan dates. The district office complied with documents that showed much more than what is in the database - including details like the equipment or land used as collateral. This was also a great way to check the data's integrity. I linked the SBA data with U.S. Census Bureau poverty and population tables to see whether SBA officials were right that the money was evenly distributed among rich and poor neighborhoods. Using SPSS, I ran a series of independent t-tests and analysis of variance, and found a significant gap. All this led to much better interviews. One City Hall official pointed out that, adding insult to injury, Philadelphia was also the biggest city without its district office located within its borders. A check of SBA district offices, published on the agency's web site, showed that was true. I tracked down the Reagan administration official who moved the office out to the suburbs. He conceded that the long commute, among other reasons, caused him to pull out.",
       "summary": "An investigation in Philadelphia revealed that SBA loans were disproportionately awarded to businesses in wealthier neighborhoods rather than struggling communities. The reporter used national SBA loan data and Census tables to prove significant disparities in the distribution of federal aid.",
       "keywords": [
@@ -23,11 +37,20 @@
         "Philadelphia",
         "Loans"
       ],
-      "author_name": "Andy Lehren",
-      "author_title": "NICAR staff"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Like money in the bank",
+      "kicker": "HMDA data pays off.",
+      "author_name": "John Hill",
+      "author_title": "Sarasota Herald-Tribune",
+      "affiliation": "",
       "full_text": "Wiggling out of one problem can make you look worse. Just ask bankers in Sarasota, Fla. In July 1995, the Sarasota Herald-Tribune was preparing a story that showed racial disparities in home lending. The story was based on Home Mortgage Disclosure Act data from 1993, the most recent available at the time. Several bankers, in interviews before the story was published, insisted their performance in 1994 had improved. They credited themselves with offering a variety of innovative schemes that effectively loosened mortgage credit to blacks and to minority communities. There was only one problem: It wasn't true. After those early interviews, the Herald-Tribune decided to hold the story. When the 1994 numbers were available, an analysis showed that while blacks saw their approval rate inch up slightly - from 61 percent in 1993 to 62 percent the following year - those gains did not keep pace with other racial groups. Moreover, while the denial rate for blacks dropped in 1994, these gains were offset by the large numbers of blacks who grew frustrated with the lending process and withdrew their applications, or who had their files closed by the banks for being \"incomplete.\" As a result, while these \"new\" and \"aggressive\" schemes lured more blacks to the door, the spike in loan activity only further concentrated housing credit into the hands of whites, doing little to redistribute mortgages along racial lines or to buttress housing values in mixed communities. The result was a far stronger story, particularly given the demographics of southwest Florida, where a standard analysis of HMDA data along racial lines is complicated by the small number of black and minority applicants. HMDA numbers are problematic enough. Ask anyone who's based a story on them. You can't account for credit histories, or analyze in any quantifiable way the margins between debt and income by an applicant's race. (This is how lenders typically dismiss the charge of mortgage \"redlining\" or discrimination.) Here are ways to work around problems with the data: Analyze whether mortgage credit is flowing to minority communities. Using Census data, we analyzed the approval rates, and amount loaned, to areas which were two and three times Sarasota's nonwhite average. As it turned out, large banks generally moved away from mixed neighborhoods, leaving higher-priced mortgage and finance companies to pick up the slack. Examine the amount of loans made to individual blacks, by income. Are loans to blacks going to those with exclusive incomes, thereby making any claim of racial equalization moot? Compare denials in your area with those from similarly composed counties or metropolitan areas in your state.",
       "summary": "The Sarasota Herald-Tribune used HMDA data to investigate racial disparities in home lending, debunking bank claims of improved performance. The study showed that despite aggressive marketing to minorities, loan approvals still favored white applicants and mixed neighborhoods remained underserved.",
       "keywords": [
@@ -35,23 +58,37 @@
         "Redlining",
         "Lending"
       ],
-      "author_name": "John Hill",
-      "author_title": "Sarasota Herald-Tribune"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "Roll out the barrel: Checking a cartel rollback",
-      "full_text": "It's never easy to check a government agency's claim that it's saving money for its constituents. It gets even trickier when the agency's the Federal Maritime Commission, and it's talking about saving money on shipping contracts from exporters and importers all around the world, which vary according to the cargo, the ports and the carrier. The commission, or FMC, was investigating the Trans-Atlantic Conference Agreement, the cartel of major ocean shipping lines that carry goods between North America and Europe. Importers and exporters said the cartel was forcing the shippers to pay too much money for the service because the ocean liners knew the shippers had few alternatives. The FMC agreed to drop its investigation when the cartel said it would roll back its rates to the previous year's prices. The agency and the lines said the rollback would save importers and exporters about $65 million, a nice chunk of change. The Journal of Commerce, a daily business newspaper in New York, likes nothing better than financial breakdowns. I asked the agency and cartel for a breakdown of the $65 million. They were unable or unwilling to do so. The agency admitted it got its number from the cartel - verbally, with no written documentation to back it up. The cartel would only say that it had based its figures on numbers of containers moving across the Atlantic multiplied by $100. To check this, I used a special database offered by Port Import/Export Reporting Service, or PIERS, to find the biggest shippers. Beer is the biggest commodity shipped in the trade. Heineken is the biggest shipper, followed by Becks and Guinness. I used ProComm Plus for Windows to dial into another commercial database provider called Transax Systems to retrieve shipping contracts. Then, using Claris Works for windows, I put together a spreadsheet that compared the rates for the two years. Heineken's rollback was about $12 per container - a little lower than the $100 per container the cartel said had been saved. To sketch a fairer picture, I picked three of the top commodities - beer, alcoholic beverages and chemicals. Because of the limitations of my equipment, I had to copy information by hand and filled two notebooks. I spent three weeks on a cargo ship to Brazil entering this information into an Excel spreadsheet with more than 400 contract variations. I found that the average rollback was about $50 for each box. This was still only half of what the cartel said was the average rollback discount. I wrote a column about how the $65 million discount just didn't add up.",
-      "summary": "A reporter investigated claims by the Federal Maritime Commission that a shipping cartel's rate rollback would save $65 million. By analyzing contract data for top commodities like beer, the reporter proved the actual savings were only half of what was claimed.",
-      "keywords": [
-        "Shipping",
-        "FMC",
-        "Tariffs"
-      ],
+      "headline": "Roll out the barrel",
+      "kicker": "Checking a cartel rollback",
       "author_name": "Mike Fabey",
-      "author_title": "The Journal of Commerce"
+      "author_title": "",
+      "affiliation": "The Journal of Commerce",
+      "full_text": "It's never easy to check a government agency's claim that it's saving money for its constituents. It gets even trickier when the agency's the Federal Maritime Commission, and it talking about saving money on shipping contracts from exporters and importers all around the world, which vary according to the cargo, the ports and the carrier.\n\nThe commission, or FMC, was investigating the Trans-Atlantic Conference Agreement, the cartel of major ocean shipping lines that carry goods between North America and Europe.\n\nImporters and exporters said the cartel was forcing the shippers to pay too much money for the service because the ocean liners knew the shippers had few alternatives.\n\nThe FMC agreed to drop its investigation when the cartel said it would roll back its rates to the previous year's prices. The agency and the lines said the rollback would save importers and exporters about $65 million, a nice chunk of change.\n\nThe Journal of Commerce, a daily business newspaper in New York, likes nothing better than financial breakdowns. They make for nice graphics. I asked the agency and cartel for a breakdown of the $65 million. They were unable or unwilling to do so. I asked both to quantify where the $65 million would come from. The agency admitted it got its number from the cartel - verbally, with no written documentation to back it up. The cartel would only say that it had based its figures on numbers of containers moving across the Atlantic multiplied by $100, which, it said, was the average increase for each container before the rollback.\n\nThe executives in the cartel probably figured no one would check. The shipping lines transport about 1.4 million containers across the Atlantic each year, carrying beer, furniture and just about anything anyone can think of. The lines file more than 400 contracts each year for all the different commodities, and each contract can have any number of different rates, depending on all kinds of shipping variables, such as whether the cargo needs to be refrigerated.\n\nThe contracts themselves are mostly written documents, with separate rates, surcharges and other costs scattered throughout. As most of the folks at NICAR told me, there was no way to write a program to capture all the relevant data easily to format it for a spreadsheet or database manager.\n\nSo, I opted for a small piece of the pie. I figured I'd pinpoint the largest shippers in the trade and find out the rollback those companies got. They controlled most of the cargo, and their prices would serve as a good barometer for the rest of the bunch.\n\nI use an Epson ActionNote 650 laptop for most of my computer work. To find the biggest shippers in the trade, I used my Epson and my Motorola Lifestyle 14.4 Data/Fax modem to hook into a special database offered by Port Import/Export Reporting Service, or PIERS, which tracks these kinds of things. PIERS provides FOCUS software to search its data.\n\nTapping the beer trade\n\nBeer is the biggest commodity shipped in the trade. Heineken is the biggest shipper, followed by Becks and Guiness.\n\nNow came the hard part. I had to get the shipping contracts for these beer barons. Shipping line cartels have to file their contracts with the FMC, but the deals don't name the shippers. You have to look for things like port of origin to look for specific companies. For example, Heineken comes from Holland, so Rotterdam would be the biggest close port.\n\nIn times B.C. - before computers - reporters would have to check through the thousands of contracts at the FMC in Washington by hand. I never left my office in the New York World Trade Center.\n\nI used ProComm Plus for Windows to dial into another commercial database provider called Transax Systems. The database includes all shipping contracts filed with the FMC. You can search them by line, by type of cargo, by port, by date and other parameters. I retrieved the beer contracts and saved them.\n\nThen, using Claris Works for windows, I put together a spreadsheet that compared the rates for the two years. Heineken's rollback was about $12 per container - a little lower than the $100 per container the cartel said had been saved.\n\nThe cartel complained that the Heineken accounts did not truly represent the amounts and savings of the contracts on the Atlantic. Of course, they said, the biggest shipper would have the best deal, the lowest increase, and thus the lowest rollback, especially an importer whose goods, beer, was one of the cheapest goods to ship. To sketch a fairer picture of the contracts and rollbacks, they said, I would have to compare contracts for goods that cost more to ship, which would have a greater rollback.\n\nUsing PIERS data, I picked three of the top commodities being shipped in the trade - all the beer contracts and those for other alcoholic beverages and chemicals. Some contracts included rates for all three in the same deal.\n\nI used ProComm Plus to retrieve the contracts. But, because of the limitations of my equipment, I had to copy the information from the contracts by hand. I filled two notebooks with the columns. But I needed time to transfer the information into a spreadsheet, time my daily beat did not allow me.\n\nUntil, that is, the paper sent me on a cargo ship to Brazil. The three weeks on the ship gave me enough time to put together an Excel spreadsheet of more than 400 contract variations. There was little else to do at night aboard a ship off the coast of South America.\n\nWhen I finished the spreadsheet, I made a copy and saved it into a dbf file, which I opened with FoxPro. I queried the database on the average rollback costs for the commodities.\n\nI found that the average rollback was about $50 for each box. More than what was offered in the Heineken deal. But still only half of what the cartel said was the average rollback discount. I wrote a column about how the $65 million discount just didn't add up.\n\nMike Fabey can be reached by sent e-mail to MJF625775@aol.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "Power lunches",
+      "kicker": "CAR Trips: First ventures",
+      "author_name": "David M. Poole",
+      "author_title": "The Roanoke Times/Virginian Pilot",
+      "affiliation": "",
       "full_text": "For the Virginia state capitol press corps, lobbyists' expense reports are a one-day story. The Roanoke Times/Virginian Pilot decided to delve deeper into the reports, looking for specific ways in which lobbyists influence the legislative process. The story, which ran July 12, began with a hunch: One sure way to a legislator's heart is through his or her stomach. To get the story, I built a database using FoxPro. The Virginia disclosure law requires lobbyists to report certain details of any meal or entertainment costing $100 or more. The lobbyist must indicate the number of lawmakers present, but need not name names. I created six fields: Name of company, name of individual lobbyist, date of expense, location of meal, number of legislators present, amount spent. The database contained 149 records, representing 42 companies. The next step was to look for any correlation between the dates a company took lawmakers to dinner and the dates when lawmakers voted on bills affecting the company. We logged onto the Legislative Information System to confirm the dates each vote reached a key committee or floor vote. The data revealed some interesting patterns. Virginia Power Co. entertained five lawmakers on Feb. 22, a day when the electric utility's centerpiece bill was unexpectedly stalled. The lack of lawmakers' names made it virtually impossible to establish a connection between lobbyists' generosity and lawmakers' votes. The loophole shifted the focus of the story to an all-too-common fact in Virginia politics: Disclosure laws that lead to less-than-meaningful disclosure.",
       "summary": "Journalists in Virginia used a FoxPro database to correlate lobbyist-funded meals with legislative voting schedules. The investigation highlighted a significant loophole in state disclosure laws that allows lawmakers to accept expensive meals without revealing their identities.",
       "keywords": [
@@ -59,11 +96,20 @@
         "Virginia",
         "Disclosure"
       ],
-      "author_name": "David M. Poole",
-      "author_title": "The Roanoke Times/Virginian Pilot"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Managing CAR reporting",
+      "kicker": "What's up at NICAR",
+      "author_name": "Brant Houston",
+      "author_title": "NICAR executive director",
+      "affiliation": "",
       "full_text": "Over the past year, many newsroom managers have been struggling with how to set up and oversee computer-assisted reporting. In response, NICAR is collecting the different models that news organizations have used for CAR. We plan to use the information to develop written materials and a curriculum for seminars. The working name of the national conference is NashCAR, to be held in Nashville March 6-9. It will offer panels and hands-on training for all levels of users. With the help of the Knight Foundation and Freedom Forum, NICAR has also increased opportunities for minority journalists. By January, more than 20 minority journalists will have gone through NICAR's week-long bootcamp seminars. NICAR's on-the-road trainer, Neil Reisner, has traveled across the country teaching at TV stations, newspapers, and universities. In January, Reisner plans to handle on-line training and database work, and we will hire a new on-the-road trainer.",
       "summary": "Brant Houston discusses the various models newsrooms use to manage computer-assisted reporting and provides updates on NICAR initiatives, including the NashCAR conference and training for minority journalists.",
       "keywords": [
@@ -71,11 +117,20 @@
         "Training",
         "NICAR"
       ],
-      "author_name": "Brant Houston",
-      "author_title": "NICAR executive director"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Mexico institute hires training director",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
       "full_text": "Pedro Enrique Armendares has joined Periodistas de Investigacion - Investigative Reporters and Editors in Mexico as training director, effective Sept. 1. Through the project, made possible by a $540,000 grant from the McCormick Tribune Foundation, IRE and NICAR hope to offer low-cost or free training in newsrooms and at seminars across Mexico. Armendares' duties will include developing training programs in computer-assisted and investigative reporting. Armendares has worked since 1989 as an investigative/special projects reporter at La Jornada, a major Mexico daily. He will join Lise Olsen, managing director of Periodistas de Investigacion, in the Mexico City office.",
       "summary": "Pedro Enrique Armendares has been appointed as the training director for a new investigative reporting project in Mexico, supported by a grant from the McCormick Tribune Foundation.",
       "keywords": [
@@ -83,11 +138,20 @@
         "Journalism",
         "Training"
       ],
-      "author_name": "",
-      "author_title": ""
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Switching from FoxPro to Access",
+      "kicker": "Tech Tip",
+      "author_name": "Richard Mullins",
+      "author_title": "University of Missouri/NICAR",
+      "affiliation": "",
       "full_text": "Some journalists love FoxPro; others just use it. But no one believes it's pretty or the easiest to learn. If you're making the switch, or starting to use Access for much of your work, here's a guide to the conversion. In FoxPro, every table, query, and index is a separate file. Access uses one Database file (.mdb) to hold objects like tables, queries, forms, and reports. This presents objects with a file cabinet metaphor. Character field length storage is another difference; long field lengths do not waste space in Access. The file size of an Access database increases as you add to it, but does not contract if you delete rows; you must use the Compact Database command. Making queries in Access is easier as you can type SQL with line breaks without the semicolons FoxPro requires. Syntax differences include dates, which use the pound sign (#) in Access, and wildcard characters like '*' and '?' which match DOS standards. Access defaults to being case-insensitive for criteria. You can use 'Attached tables' to query FoxPro files in their native format without duplicating them. You can also use long names with spaces for tables and columns in Access, whereas FoxPro limits you to 8 characters for table names.",
       "summary": "This technical guide outlines the key differences between FoxPro and Microsoft Access for journalists. It explains database object management, syntax variations in SQL, and the benefits of using Access for data analysis.",
       "keywords": [
@@ -95,11 +159,20 @@
         "Access",
         "SQL"
       ],
-      "author_name": "Richard Mullins",
-      "author_title": "University of Missouri/NICAR"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Doing business on the Web",
+      "kicker": "On the Internet",
+      "author_name": "Neil Reisner",
+      "author_title": "NICAR staff",
+      "affiliation": "",
       "full_text": "The World Wide Web and other on-line resources can provide fertile ground for business reporters to mine. Here's a list of Web sites that might prove useful: American Stock Exchange (http://www.amex.com), Bizweb (http://www.bizweb.com), Business Web 100 (http://fox.nstn.ca/~at_info/w100_intro.html), Hoovers (http://www.hoovers.com), Investor Web (http://www.investorweb.com/company.htm), and the SEC/EDGAR database (http://www.sec.gov). Calculators are also available online, such as the Relocation Salary Calculator (http://www.homefair.com/homefair/cmr/salcalc.html). Government resources include the Census Bureau (http://www.census.gov), CIA World Factbook, Department of Commerce, and the Bureau of Labor Statistics (http://stats.bls.gov/dolbls.htm). Other useful sites include the Patent & Trademark Office (http://www.uspto.gov), GPO Access for GAO reports, and Thomas for Congressional data.",
       "summary": "Neil Reisner provides a curated list of essential online resources and websites for business reporters. The list includes financial data providers, government agencies, and useful online calculators.",
       "keywords": [
@@ -107,20 +180,64 @@
         "Business",
         "Websites"
       ],
-      "author_name": "Neil Reisner",
-      "author_title": "NICAR staff"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "ProfNet response",
-      "full_text": "Reporters who have used ProfNet, a valuable on-line research tool for locating academic experts, have been concerned about ProfNet's recent sale to PR Newswire. The commercial outfit sells ProfNet queries to other paying clients, compromising confidentiality. ProfNet sysop Dan Forbush says they will soon be able to segment queries by type of institution (academe, nonprofit, government, corporations, PR agencies) to reduce off-target responses. They have also created an on-line database of 2,000 leading experts. Despite these reassurances, some reporters remain concerned that widely broadcasted queries could tip off competitors or subjects of investigations.",
-      "summary": "The article discusses journalist concerns following the acquisition of the expert-sourcing service ProfNet by PR Newswire. Issues regarding query confidentiality and the potential for increased commercial spam are highlighted.",
-      "keywords": [
-        "ProfNet",
-        "Research",
-        "Privacy"
-      ],
+      "headline": "From the NICAR library",
+      "kicker": "Growing collection of federal databases",
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "NICAR offers a number of federal government databases. Here is a list of our growing collection:\n\nNEW A monthly CD subscription for all 1995-96 Federal Election Commission campaign contributions by individuals and political action committees, plus all presidential matching fund requests.\nThe Health Care Financing Administration's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.\nFederal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.\nCoast Guard boating accidents, 1969-1994.\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns.\nFederal procurement data, 1992-1995, includes breakdowns by agency.\nAlcohol, Tobacco and Firearms gun dealer records. 1993, 1995.\nNEW National Bridge Inventory System data, includes inspection grades.\nFBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the new 1994 data.\nSocial Security death records, by name and social security number, going back to 1937.\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies.\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\nU.S. Small Business Administration loan guarantees, 1989-1995. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.\nU.S. Small Business Administration disaster loan guarantees, 1989-1994. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\nU.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.\nNEW U.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.\nU.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1988 to 1995.\nU.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.\nFor up-to-date prices and more information, call (573) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Bits, Bytes and Barks",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Bits, Bytes and Barks\n\nProfNet response\n\nReporters who have used ProfNet, a valuable on-line research tool for locating academic experts on numerous subjects, have been concerned about ProfNet's recent sale to PR Newswire. That commercial outfit sells ProfNet queries to other paying clients, compromising the confidentiality of reporters' queries and sometimes resulting in a deluge of unwanted commercial appeals mixed in with sought after academic responses. PR Newswire has little incentive to keep queries quiet because the greater their distribution, the more money the company makes.\n\nHere's what ProfNet sysop Dan Forbush has had to say about the issue:\n\n\"Two recent developments at ProfNet are relevant.\n\n\"First, we'll soon be able to give reporters the ability to segment queries by type of institution. The more narrowly we can pinpoint the delivery of queries, the smaller the opportunity for off-target responses.\n\n\"By the end of this month, you'll be able send a query to the entire list or to any combination of the following:\n\nacademe\nnonprofit organizations\ngovernment\ncorporations\nPR agencies\n\n\"For example, if you want leads only on experts who can discuss the educational and First Amendment implications of filtering Internet content in the schools, we'll suggest you direct your query only to our academic list.\n\n\"If, on the other hand, your story is focused on the latest filtering products, we'll recommend a distribution that goes only to corporate and agency members. The larger and more diverse the ProfNet membership, the more powerful the resource. Segmentation is key, though, which is why we've spent the last six months developing this new distribution system.\n\n\"The second piece of relevant news is that we've created an on-line database providing bios and contact information for 2,000 leading experts across all disciplines - a utility that is proving particularly helpful to reporters either who are in immediate need of experts or who, for whatever reason, prefer not to conduct a sweep via ProfNet Search. Capable of full-text searches and 'relevance-ranking' of sources, ProfNet's Experts Database is up and running at www.vyne.com/profnet/ped\"\n\nDespite Forbush's reassurances, some reporters remain concerned about the changes in ProfNet, and wonder whether widely broadcasted queries could tip off competitors or subjects of investigations, or even whether they could be used in libel suits.\n\nTo raise these issues with ProfNet, call (800) PROFNET, or send e-mail to profnet@vyne.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "New IRE-L and NICAR-L addresses",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "IRE-L and NICAR-L have changed addresses. They are located on lists.missouri.edu, a dedicated Unix system designed to service discussion groups run out of the University of Missouri. All posts to the lists should now be sent to: ire-l@lists.missouri.edu or to nicar-l@lists.missouri.edu\n\nAll commands for subscription changes should be sent to: listproc@lists.missouri.edu",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

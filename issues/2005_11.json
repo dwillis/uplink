@@ -1,9 +1,14 @@
 {
+  "schema_version": 2,
   "year": 2005,
   "month": "November/December",
   "articles": [
     {
       "headline": "Planning for the worst",
+      "kicker": "DISASTERS",
+      "author_name": "Theresa Wieberg",
+      "author_title": "IRE and NICAR",
+      "affiliation": "",
       "full_text": "Preparing for disaster might sound like an impossible task \u2013 after all, events such as this season's hurricanes do not wait until those in their paths are ready for their fury. But there are steps journalists can take to get ready for computer-assisted reporting after the big one hits. Journalism veterans say there are some essential databases for newsrooms to use in reporting on the aftermath of a disaster. So what should you keep on hand and updated? \"Any databases that give you a comprehensive picture both of the people and the structures of your area, such as detailed Census data, property tax roll, flood plain maps in database form ready for mapping, and information about the transportation system of the area,\" says Steve Doig, a journalism professor at Arizona State University and a member of Investigative Reporters and Editors' board of directors. Property tax rolls, available in electronic form, are at the heart of any investigation about who and what is affected by a disaster. These databases provide information about the characteristics of each property, such as buildings and land use, and who owns it. Property records are also useful in tracking activity as communities rebuild, says Margot Williams, database research editor at The New York Times. \"They may give us a way to figure out down the road where people went, to see where they were, what new ownership will be and where people used to live,\" Williams says. \"It allows us to take a look back when we see what places like Louisiana look like a year or two from now.\" Data from the 2000 Census \u2013 the most recent \u2013 contains detailed population information, down to areas as small as a city block. Journalists can use this data to generate estimates of the number of people stricken by disaster and describe the affected areas. Williams says the newspaper's strategy includes backing up databases on servers that are accessible off-site. It also has a newsroom already set up elsewhere if journalists need to relocate from the newspaper's main newsroom. Doig stressed the importance of off-site backup as part of a plan to get a newsroom back in operation. \"Individual reporters can dump files onto a CD, but the IT department should also have a plan that puts [the files] in another location.\" Doig recalled the 2001 anthrax contamination at the American Media Inc. building in Boca Raton, Fla., which shut down the building. AMI, which publishes supermarket tabloids, abandoned the building. \"With a little bit of thought, you can anticipate certain disasters, and with a relatively small amount of money, you can make sure it won't be a crippling one.\"",
       "summary": "Journalism veterans suggest maintaining a library of essential databases like Census data and property tax rolls to prepare for reporting on disaster aftermaths.",
       "keywords": [
@@ -11,11 +16,20 @@
         "Databases",
         "Census"
       ],
-      "author_name": "Theresa Wieberg",
-      "author_title": "IRE and NICAR"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Probing FEMA's chronic illness",
+      "kicker": "AFTER A HURRICANE",
+      "author_name": "John Maines",
+      "author_title": "South Florida Sun-Sentinel",
+      "affiliation": "",
       "full_text": "The meltdown of the Federal Emergency Management Agency's response to Hurricane Katrina stunned America and the rest of the world. At the South Florida Sun-Sentinel in Fort Lauderdale, there was a lot less surprise. By the time Katrina hit New Orleans, we had spent the better part of a year documenting troubles with the FEMA relief efforts that followed Florida's four hurricanes in 2004. We found one problem after another, ranging from widespread fraud and waste in the agency's disaster assistance program to the discovery that many FEMA housing inspectors had criminal histories. Our work led to a U.S. Senate investigation and a demand by senators for sweeping changes at FEMA to shore up sloppiness and improve accountability. FEMA responded to 313 declared disasters across the United States and in U.S. territories between 1999 and 2004. We mapped out the money by ZIP code using ArcGIS 9 and compared our data maps to any document we could find \u2013 public records of damage in these areas, newspaper stories, police or fire calls, ambulance runs, public utility flooding reports, and the National Climatic Data Center's storm events database. During the investigation Sun-Sentinel reporters visited the inner cities of Baton Rouge, Cleveland, Detroit, and Los Angeles. In each, residents told us almost mirror versions of what we had heard in Miami: FEMA was an easy mark. As a result of the Sun-Sentinel's articles, in May hearings were held before the U.S. Senate Committee on Homeland Security and Governmental Affairs. Two months later the committee sent then-FEMA director Brown a letter saying \"serious shortcomings\" existed in the nation's disaster relief program that \"allowed taxpayer dollars to be wasted.\" FEMA announced a series of reforms in its Building on Success report, outlining plans for greater scrutiny or work by inspectors, who now are required to take photographs of damaged property.",
       "summary": "The South Florida Sun-Sentinel's year-long investigation into FEMA revealed systemic waste, fraud, and a lack of accountability in disaster relief payments.",
       "keywords": [
@@ -23,11 +37,37 @@
         "Fraud",
         "Disaster Relief"
       ],
-      "author_name": "John Maines",
-      "author_title": "South Florida Sun-Sentinel"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "SPOTLIGHT: For more about hurricane destruction see:",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "SPOTLIGHT: For more about hurricane destruction see:\n- GIS and GPS plot storm damage, p. 6\n- Identifying at-risk populations, p. 8\n- Covering coastline stories, p. 10\n- The November-December 2005 IRE Journal",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "Assault data riddled with holes",
+      "kicker": "TROUBLE IN SCHOOLS",
+      "author_name": "Jeff Roberts and David Olinger",
+      "author_title": "The Denver Post",
+      "affiliation": "",
       "full_text": "When is an assault not an assault? When public schools in Colorado say so, as these cases illustrate: A child is beaten on his way home from middle school by five older boys in ski masks. Five girls ambush a 10th-grader with a blow to the head. They hold her down, pull up her sweater and burn her with a cigarette. A 13-year-old girl suffers bruised kidneys and blood in her urine after a girl jumps her from behind. None of these were assaults. Not according to the yearly \"report cards\" \u2013 or School Accountability Reports (SARs) \u2013 the schools delivered to parents last year along with their children's performance on the state assessment tests. Parents get a nice pamphlet with all sorts of information about their kid's school such as student-teacher ratios, academic ratings, teacher experience and average daily attendance. While Jefferson County, the state's largest school district, listed nearly 650 fights and assaults on its report cards to parents, Denver Public Schools listed only 103. Suburban Cherry Creek schools reported just one fight for the entire school year, as did the Aurora school district. Police reports, detailing each time officers were called to a school because of violence, were the key. From the reports we learned Denver police had recorded at least 345 assault arrests at high schools last year, while the SARs listed only 38 assaults. State education officials told us they had limited the \"assaults/fights\" category on accountability reports to first- and second-degree felony assaults to avoid listing every shoving match, but this definition effectively hid serious violence from parents.",
       "summary": "An investigation found that Colorado school districts use narrow legal definitions to exclude serious violent incidents from their public accountability report cards.",
       "keywords": [
@@ -35,23 +75,71 @@
         "Accountability",
         "Colorado Education"
       ],
-      "author_name": "Jeff Roberts and David Olinger",
-      "author_title": "The Denver Post"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "Bits & Bytes",
-      "full_text": "Judging for the Philip Meyer Journalism Awards, created to recognize journalism that uses social science research methods, is under way. The awards, new this year, will honor the best use of methods such as surveys, content analyses, field experiments, social network analyses and statistical analyses in news reporting. IRE offers resources to journalists covering boating accidents, such as the Lake George, N.Y., tour boat accident in October. The boating accidents resources Web page includes information about databases useful in covering boating accidents that are available from the IRE and NICAR database library. Visit www.ire.org/inthenews_archive/katrina.html on the IRE Web site for stories, databases and tipsheets available for journalists covering the aftermath of hurricanes.",
-      "summary": "This section highlights the new Philip Meyer Journalism Awards and provides resources for journalists reporting on boating accidents and hurricane recovery.",
-      "keywords": [
-        "Journalism Awards",
-        "Boating Accidents",
-        "Hurricane Resources"
-      ],
+      "headline": "Entries in [Philip Meyer Journalism Awards]",
+      "kicker": "Bits & Bytes",
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Judging for the Philip Meyer Journalism Awards, created to recognize journalism that uses social science research methods, is under way.\n\nThe awards, new this year, will honor the best use of methods such as surveys, content analyses, field experiments, social network analyses and statistical analyses in news reporting.\n\nFor the inaugural awards, judges are choosing from 28 entries postmarked before the Oct. 31 deadline. The judging is scheduled to be completed on Dec. 20 and the awards will be presented at the 2006 CAR Conference, which is scheduled for March 9-12 in Newark, N.J.\n\nFirst, second, and third prizes will be awarded.\n\nThe awards were announced by IRE, NICAR and the Knight Chair in Journalism at Arizona State University this year. NICAR is a joint program of IRE and the Missouri School of Journalism.\n\nThe annual award is named in honor of Meyer, author of \"Precision Journalism\" and a pioneer in using social science methods in news reporting. Meyer is the Knight Chair in Journalism at the University of North Carolina at Chapel Hill.\n\nThe awards include cash prizes of $500 for first place, $300 for second place, and $200 for third place.\n\nFor more information, visit www.ire.org/meyeraward.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Boating resources",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "IRE offers resources to journalists covering boating accidents, such as the Lake George, N.Y., tour boat accident in October.\n\nThe boating accidents resources Web page includes information about databases useful in covering boating accidents that are available from the IRE and NICAR database library. In addition, there are synopses of related tipsheets and stories available from the IRE Resource Center, and references to relevant past articles in Uplink and The IRE Journal.\n\nThe site can be found at www.ire.org/inthenews_archive/tourboat.html.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Hurricane help",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Visit www.ire.org/inthenews_archive/katrina.html on the IRE Web site for stories, databases and tipsheets available for journalists covering the aftermath of hurricanes.\n\nThe Web site includes detailed descriptions of stories about hurricanes and tipsheets for reporting on hurricanes that are in the IRE Resource Center. In addition, the Web site includes links to other sites that journalists will find useful in their reporting.\n\nJournalists also can get more information about databases available from the Database Library that can be used in reporting about hurricanes and their economic effects.\n\nFor more information about the databases visit www.ire.org/datalibrary or call the Database Library at 573-884-7711.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "Covering the big story",
+      "kicker": "",
+      "author_name": "David Herzog",
+      "author_title": "NICAR and Missouri School of Journalism",
+      "affiliation": "",
       "full_text": "The aftermath of Hurricane Katrina and its lesser siblings is the big U.S. news story of the year. As journalists document how evacuees are settling into nearly every corner of the United States, it is easy to see how the ripple effects of this devastating storm will generate local news stories in the years to come. Here are five key areas that journalists using computer-assisted reporting can focus on: 1. The resettlement. Journalists will want to examine how the resettlement affects schools, social services, housing, employment and the economy in their towns. 2. Racial inequity. New Orleans residents left behind were disproportionately African-American; data can show if minorities in other areas are similarly at risk. 3. FEMA's failures. Journalists can use FEMA's data to show if aid was wasted on people who suffered no losses locally. 4. Coastal safety. Use data to report on population growth versus the erosion of natural safeguards like wetlands. 5. The reconstruction. Federal spending, loan programs, and property databases can track the flow of billions of dollars.",
       "summary": "David Herzog provides a roadmap for journalists to use computer-assisted reporting to investigate the long-term impacts of Hurricane Katrina on local communities.",
       "keywords": [
@@ -59,11 +147,37 @@
         "Data Journalism",
         "FEMA"
       ],
-      "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "About our contributors ...",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "About our contributors ...\n\nAdam Bell specializes in computer-assisted reporting at The Charlotte Observer.\n\nChase Davis is a senior at the Missouri School of Journalism. Through December, he is working as a reporting intern at The Boston Globe. His Web site focusing on computer-assisted reporting is at www.car-chase.net.\n\nJohn Keefe is news director for WNYC-New York Public Radio. He is an alumnus of the 2005 Editor mini-boot camp.\n\nJohn Kelly is space editor at Florida Today and is one of the newspaper's computer-assisted reporting specialists.\n\nJohn Maines is assistant research manager/computer-assisted reporting specialist at the South Florida Sun-Sentinel in Fort Lauderdale. He is a 2000 alumnus of the Advanced Statistics mini-boot camp.\n\nDavid Olinger has been a reporter at The Denver Post since 1997. He has written many stories with the assistance of public databases or in-house statistical analyses: on unregulated gun trades after the Columbine High massacre, predatory foreclosure investors, child abuse deaths, neighborhood pollution and Census trends.\n\nJeff Roberts is The Denver Post's computer-assisted reporting editor. He has worked at The Post, as a reporter or editor, since 1984. He attended the IRE and NICAR Computer-Assisted Reporting Boot Camp in 1997 and has been a presenter and instructor at the annual IRE and CAR conferences.\n\nMatthew Waite is a reporter for the St. Petersburg Times who specializes in computer-assisted reporting and the use of geographic information systems (GIS). Waite is a 1999 boot camp alumnus.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     },
     {
       "headline": "Suspensions underreported",
+      "kicker": "TROUBLE IN SCHOOLS",
+      "author_name": "Adam Bell",
+      "author_title": "The Charlotte Observer",
+      "affiliation": "",
       "full_text": "This year, when we examined the Charlotte-Mecklenburg Schools' suspension rate, we found that more than 450 students had been suspended at least 10 times. We started our analysis with a Microsoft Access database that listed 52,600 suspensions in a district of 114,000 students. For a follow-up story, we requested from the district more complete data. This revised database allowed us to give interested parents and others a way to look at schools and compare them to others. We felt the more accurate picture on race was provided by using the total individuals suspended rather than total suspensions. We made clear the distinction. Overall, CMS suspended 8 percent of its white students and 30 percent of its black students, disparities that exist nationally, but are not easily explained. This complex issue touches on several factors, including racism, cultural misunderstanding by teachers and poverty. In Charlotte's home county, black school-age children were four times more likely to live in poverty than white children. After the series ran, the CMS board called for a review of discipline practices to stop the surging suspensions.",
       "summary": "The Charlotte Observer used a detailed suspension database to uncover significant racial disparities and a high frequency of repeat suspensions in local schools.",
       "keywords": [
@@ -71,11 +185,20 @@
         "Racial Disparities",
         "Charlotte-Mecklenburg"
       ],
-      "author_name": "Adam Bell",
-      "author_title": "The Charlotte Observer"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Destination: Failing schools",
+      "kicker": "TROUBLE IN SCHOOLS",
+      "author_name": "John Keefe",
+      "author_title": "WNYC-New York Public Radio",
+      "affiliation": "",
       "full_text": "For years, there had been rumblings that kids with special needs were being \"dumped\" into New York City's worst high schools. Reporter Beth Fertig decided to see whether enrollment numbers confirmed what the parents of these children had long suspected. While our analysis could not detect evidence of intentional dumping, it did show that special education students and English language learners were disproportionately overrepresented in the city's failing and most violent public high schools. At the same time, those kids \u2013 as a group \u2013 were losing out on the new, small schools created to improve education. Fertig started by filing a request under New York's freedom of information law for enrollment data about each of the city's 337 public high schools. After we compiled the data, we created a column to calculate the percent of special needs students in each school and then sorted the data by that percentage in descending order. At a glance it was easy to see the list.",
       "summary": "WNYC's analysis of enrollment data found that special education students in New York City are disproportionately concentrated in the city's worst-performing high schools.",
       "keywords": [
@@ -83,11 +206,20 @@
         "Enrollment Data",
         "Failing Schools"
       ],
-      "author_name": "John Keefe",
-      "author_title": "WNYC-New York Public Radio"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "GIS, GPS after the storm",
+      "kicker": "MAPPING IT OUT",
+      "author_name": "Matthew Waite",
+      "author_title": "St. Petersburg Times",
+      "affiliation": "",
       "full_text": "After a hurricane strikes, one of the hardest things to do early is get a good grip on the scope of the damage. One of the best ways to do it is with mapping. You will need a geographic information system (GIS) program and a global positioning system (GPS) receiver. Mark damage points when you see them. If you have more than one GPS unit, you can send them out with other reporters and compile the data later. I did that for Hurricane Ivan in 2004 and used GPS to map damage. Once airborne in a helicopter, power up your GPS. Every time you spot newsworthy damage, create a waypoint. Note the waypoint numbers in your notebook and describe what you see for each. You can download the points to your GIS after you land. The next day, we published dramatic pictures, details of damage in areas closed off to other reporters and a damage map, both in print and interactively online.",
       "summary": "Matthew Waite explains how to use GPS and GIS tools to rapidly map hurricane destruction, providing better visual context and reporting for readers.",
       "keywords": [
@@ -95,11 +227,20 @@
         "GPS",
         "Hurricane Mapping"
       ],
-      "author_name": "Matthew Waite",
-      "author_title": "St. Petersburg Times"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Maps identify at-risk areas",
+      "kicker": "AFTER A HURRICANE",
+      "author_name": "John Kelly",
+      "author_title": "Florida Today",
+      "affiliation": "",
       "full_text": "After Katrina, we decided to test our community's readiness to move people to safety in event that a really monstrous storm ever roared our way. Are there people living in hurricane-threatened areas of our county who might not have the means to escape? We combined data from local, state and federal sources to look at the number of people, homes and businesses located in the most vulnerable areas of the county. The answer was \"Yes.\" Not as many as New Orleans, but the numbers show thousands of seniors, poor people and families without cars living in risky places. Brevard County has a program for free rides to people who are elderly or disabled, but you have to sign up in advance. About 2,000 people had signed up; our numbers revealed at least 20,000 might qualify. We used Census block groups to identify these neighborhoods. The resulting story and map prompted good discussions among emergency management officials, and at least a couple of hundred people contacted the county to get on the pick-up list.",
       "summary": "Florida Today used GIS to identify thousands of residents in hurricane-prone areas who were eligible for evacuation assistance but had not signed up for the program.",
       "keywords": [
@@ -107,11 +248,20 @@
         "Vulnerable Populations",
         "GIS"
       ],
-      "author_name": "John Kelly",
-      "author_title": "Florida Today"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Covering coastlines with IRE Resources",
+      "kicker": "AFTER A HURRICANE",
+      "author_name": "Amanda Buck and Rhitu Chatterjee",
+      "author_title": "IRE and NICAR",
+      "affiliation": "",
       "full_text": "IRE and NICAR offer numerous resources that can help journalists report on coastline change using computer-assisted reporting. Highlights include the series \"Boom on the Beach\" by USA Today, which examined economic growth along coasts, and \"Shoreline in Peril\" by Newsday, which found property owners building at public expense. Tipsheets such as \"Land Scandals by the Sea\" focus on how to look at court documents and environmental records for coastal development stories.",
       "summary": "A guide to IRE resources and past investigative stories that can help journalists cover issues related to coastal development and environmental vulnerability.",
       "keywords": [
@@ -119,20 +269,47 @@
         "IRE Resources",
         "Investigative Reporting"
       ],
-      "author_name": "Amanda Buck and Rhitu Chatterjee",
-      "author_title": "IRE and NICAR"
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
-      "headline": "Google Maps API as a Reporting Tool",
-      "full_text": "Reporters should beware never to take points plotted on a Google Map as precise locations, especially in cases where a measurement of a few yards is likely to matter. The maps are great for eyeballing clusters and showing trends in areas, but more precise measurements should be left to GIS packages. The API also does not handle multiple points plotted at exactly the same coordinates well. Finally, Google does not want corporations using their maps exclusively on local intranets. Under the API's terms of use, all maps have to be displayed on the open Internet and must be universally accessible. Geocoding \u2013 assigning latitude and longitude coordinates to addresses \u2013 requires some creative programming. The Google Maps API can make spatial data display a more prominent and accessible component of news coverage, revealing new story ideas and helping create a better-informed newsroom.",
-      "summary": "This article discusses the advantages and technical limitations of using the Google Maps API for geocoding and spatial data visualization in newsrooms.",
-      "keywords": [
-        "Google Maps API",
-        "Geocoding",
-        "Data Visualization"
-      ],
+      "headline": "[Google Maps API / mapping hacks]",
+      "kicker": "",
       "author_name": "Chase Davis",
-      "author_title": "Missouri School of Journalism / The Boston Globe"
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "this meaning on their own. But as with any other source, journalists must be skeptical.\n\nReporters should beware never to take points plotted on a Google Map as precise locations, especially in cases where a measurement of a few yards is likely to matter. The maps are great for eyeballing clusters and showing trends in areas, but more precise measurements should be left to GIS packages.\n\nThe API also does not handle multiple points plotted at exactly the same coordinates well. No matter how many points are plotted there, only one will appear. In those cases, I usually alter the coordinates by an infinitesimal amount so the points appear offset at higher zoom levels.\n\nFinally, Google does not want corporations using their maps exclusively on local intranets. Under the API's terms of use, all maps have to be displayed on the open Internet and must be universally accessible. I got around this by placing mine on my personal Web site, and it seems Google is willing to compromise on other solutions.\n\nThere are technical issues as well. Microsoft Internet Explorer sometimes chokes trying to map more than a few hundred points. Although performance is quickly improving, Google Maps was not designed to handle thousands of events at a time.\n\nBecause no function exists for it in the API, geocoding \u2013 assigning latitude and longitude coordinates to addresses \u2013 requires some creative programming. Many programmers scrape the coordinates from www.geocoder.us, which condones the practice, or set up a large Census TIGER database on their servers and draw from it using Perl.\n\nSolutions for these problems and others are often discussed by the extensive community that has coalesced around the API since Adrian Holovaty, a 2001 graduate of the Missouri School of Journalism recently hired by The Washington Post, helped popularize maps hacking with chicagocrime.org earlier this year.\n\nGoogle's message boards are loaded with information, and Google representatives often log in to answer questions. It seems that Google continues to supports the innovation born from tinkering with their technology, and the potential is clear.\n\nAlthough it is not without hiccups, the Google Maps API has already been used to create gorgeous online graphics. Within the newsroom, it can also be turned into a useful reporting tool that could help relieve some of the deadline dependence reporters have on CAR gurus.\n\nBut more importantly, it can make spatial data display a more prominent and accessible component of news coverage, revealing new story ideas and helping create a better-informed newsroom.\n\nContact Chase Davis by e-mail at chase.davis@gmail.com.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "CAR Workshops",
+      "kicker": "",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "These unique seminars, taught by IRE and NICAR's experts, train journalists to acquire electronic information, use spreadsheets and databases to analyze the information and to translate that information into high-impact stories. In addition, IRE and NICAR provide follow-up help when participants return to their news organizations.\n\n2006 Boot Camps:\nColumbia, Mo.\n\n\u2022 Jan. 8-13, 2006\n\u2022 March 26-31, 2006\n\u2022 May 21-26, 2006\n\u2022 Aug. 6-11, 2006\n\nMapping Data for News Stories:\nColumbia, Mo.\nLearn how to uncover news stories by mapping data with geographic information system software.\n\n\u2022 Jan. 6-8, 2006\n\nEditor Boot Camp\nColumbia, Mo.\nThe boot camp will teach editors the things they need to know to make CAR successful in their newsrooms.\n\n\u2022 April 7-9, 2006\n\nAdvanced CAR Statistics\nTempe, Ariz.\nAimed at strengthening the skills of reporters who want to move beyond basic CAR and use statistical analysis in their work.\n\n\u2022 Feb. 17-19, 2006\n\nWhat previous Boot Campers have said about the experience:\n\n\"It was intense, but totally inspiring. I feel like I came away with some solid skills.\"\n\n\u2013 Abigail Sterling Vazquez,\nKRON-San Francisco\n\n\"This was one of the best training workshops I've ever attended. You've taken a very intimidating topic and made it easy to understand and apply in my own newsroom.\"\n\n\u2013 Patrick Powers,\nBelleville News-Democrat\n\nFellowships\nA limited number of minority and small-news organization fellowships are available for IRE and NICAR workshops. Visit www.ire.org/training/fellowships.html for more information and an application.\n\nwww.ire.org/training/bootcamps.php",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

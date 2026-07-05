@@ -1,30 +1,627 @@
 {
+  "schema_version": 2,
   "year": 2002,
   "month": "February",
   "articles": [
     {
+      "headline": "New Uplink",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "This edition of Uplink is the result of rethinking and redesigning, with the goal of delivering the most useful information we can. The design changes were well under way when the events of Sept. 11 occurred, so in addition to a new look, Uplink devotes most of this edition to the coverage of security and terrorism.\n\nAs always, we seek your input, so please drop us a line and let us know if the design meets with your approval, if you have suggestions, which articles appeal to you the most, and, of course, if you have suggestions for future articles. We welcome stories from our subscribers. E-mail your thoughts to Managing Editor Jeff Porter at jeff@nicar.org, or mail him at 138 Neff Annex, Missouri School of Journalism, Columbia, MO 65211.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Data updates: Trucks, Dams, OSHA, SBA",
+      "kicker": "Bits & Bytes",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The IRE and NICAR Database Library has recently updated the following databases:\n\nTrucks\n\nThe U.S. Department of Transportation's Truck Census File, which contains records on each company that has commercial interstate vehicles weighing more than 10,000 pounds. This group includes buses, semis and shippers of hazardous materials. Current as of July 2001.\n\nDams\n\nThe National Inventory of Dams includes U.S. dams. The fields cover the construction date, the last inspection date and whether an emergency action plan is in place in case the dam fails. Current as of mid-October.\n\nOSHA\n\nThe OSHA workplace safety data contains detailed information about workplace inspections, injuries, hazardous-substance accidents and violations for companies in the U.S. and its territories. Current as of March 2001.\n\nSBA\n\nThe Small Business Administration disaster loan database includes loans that have been approved - although not necessarily fully distributed - for businesses and individuals in the wake of emergencies. The update includes more than 700 loans related to the Sept. 11 terrorist attacks. Current as of Oct. 31, 2001.\n\nFor more information about the database library's collection, including purchase prices, go to www.ire.org/datalibrary/databases/. To order data, contact NICAR at 573-884-7711 or download an order form at www.ire.org/datalibrary/orderform/orderform.pdf",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
       "headline": "Flunking tests",
+      "kicker": "TEACHER QUALITY",
       "author_name": "Becky Beaupre",
       "author_title": "Chicago Sun-Times",
+      "affiliation": "",
       "full_text": "Teachers who had flunked at least one test of teacher competence taught more than 180,000 Illinois schoolchildren last year. Some of these teachers failed exams - including a Basic Skills test written at an eighth- or ninth-grade level - five or 10 times before passing. Some never passed. But before the Chicago Sun-Times started poring over teacher test score data earlier this year, nobody but the individual test takers knew it - not even the state agency that kept the data. Our quest to investigate teacher quality in Illinois began with a Freedom of Information Act request for data on teacher certification. In the end, we made some startling discoveries - such as the existence of a special education teacher who had failed 24 of 25 tests. (In Illinois, teachers must pass a Basic Skills test - which contains sections on reading, grammar, math and writing - and a subject matter test in the area in which they plan to teach.) We learned that the largest proportion of flunkers were concentrated in the neediest schools: those with the poorest and lowest-achieving students, and those with the highest percentage of minorities. We also identified 635 full-time teachers who had never passed the Basic Skills test required for a regular Illinois teaching certificate. But the road to these findings was bumpy. It took us five months to figure out what data existed and convince the state to give it to us. Nobody we interviewed was able to answer questions on all the data. And nobody had ever conducted the analysis we were attempting. We would find someone who could explain one aspect of the database to us, but who had almost no knowledge of the rest. What's more, outdated records and duplicates had to be identified and corrected. We were also under a unique deadline: I was solely responsible for the analysis and was expecting my first child at the end of the summer. Our biggest hurdle was pulling together the information we needed into a usable database. The data resided in several different departments at the state Board of Education. One file contained the names of every person who had taken a test since 1988, which tests they took, when they took them and whether they passed or failed. Raw score data was available in a separate file for tests taken since July 1999. Another database listed the certificates held by each Illinois teacher. A fourth file contained information on each teacher's assignment\u2014where and what they were teaching. A fifth file\u2014one we already had on hand from a previous project\u2014gave us important information on each public school in Illinois, including breakdowns by race and income. Another file from a previous FOIA provided us with the most recent student scores on state exams. This file, which contained records for each Illinois student (minus names and Social Security numbers), allowed us to examine the correlation between teacher performance on certification tests and student achievement.",
       "summary": "An investigation revealed that over 180,000 Illinois students were taught by teachers who had flunked at least one competency test. The analysis exposed significant gaps in teacher quality, especially in low-income and high-minority schools.",
       "keywords": [
         "teacher",
         "test",
         "Illinois"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
     },
     {
       "headline": "Poor airport security",
+      "kicker": "SPOTLIGHT: TERRORISM",
       "author_name": "Matt Carroll",
       "author_title": "Boston Globe",
+      "affiliation": "",
       "full_text": "How were the Sept. 11 hijackers able to skip through security at Logan International Airport to commandeer not one, but two airplanes? That was one of the key questions Boston Globe reporters sought to answer following the horrific events that ended with the four planes crashed, the World Trade Center in ruins, and thousands dead. This much was known about Logan already: The Massachusetts Port Authority, the public agency that runs the airport, was a patronage haven, filled with former state officials, relatives and cronies. Articles in the days following the crashes hammered that point home. The suspicion was that security at Logan was weak. There was anecdotal proof\u2014passengers who walked onto planes while accidentally carrying along knives, scissors and corkscrews\u2014but no hard numbers.",
       "summary": "Following the September 11 attacks, the investigation focused on how hijackers bypassed security at Logan International Airport, exposing the Massachusetts Port Authority as a patronage haven with lax security measures.",
       "keywords": [
         "airport",
         "security",
         "terrorism"
-      ]
+      ],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "pre-v2",
+        "extracted_at": "",
+        "verified": true
+      }
+    },
+    {
+      "headline": "CNN's 'Flight Risk'",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Denise Prodigo-Herrmann",
+      "author_title": "Database consultant",
+      "affiliation": "CNN",
+      "full_text": "In the weeks following 9-11, journalists around the country were scrambling to make sense of the Federal Aviation Administration Enforcement Information System (EIS) database.\n\nUnder the guise of \"national security and safety\" the Federal Aviation Administration refused to comment about any information relating to the enforcement database, making it difficult to decipher the meanings of some codes within the database. The NICAR listserv was flooded with information, ideas, concerns and strategies relating to the data and was a helpful resource during the entire analysis process.\n\nBecause CNN was interested in security issues relating to the top 25 airports and the top 10 airlines in the country, I obtained a list of the top 25 airports based on passenger load from Airports Council International and a list of the top 10 airlines from the U.S. Department of Transportation. My analysis focused mainly on the FAA EIS database, but reports about airport security and safety from the General Accounting Office also were used. While the enforcement data was said to date back to 1962, the earlier years of data did not seem complete. The final CNN analysis covered a 10-year period from 1991-2000.\n\nWithin the FAA database, the main table included all incidents relating to enforcement, such as flight operations, training, drug testing, hazardous materials and security. Using Microsoft Access, security incidents were isolated using cat_code = 20 in the main table. The security table detailed the type of security violations.\n\nWhen linked with the main table, the database started to tell a story. For example: On April 19, 1991, at Anchorage International Airport, concourse B, a male passenger, whose identity is expunged in this database, had a firearm in his possession. The firearm was detected in the X-ray machine, and the firearm was unloaded.\n\nFor the CNN analysis, it would be impossible to provide that level of detail on deadline for 25 airports and 10 airlines over a decade.\n\nAs with all information collected from databases, the data must be confirmed by other sources, such as police records, to accurately report the story. So, I decided to summarize the database by counting specific weapons detected at airports over a 10-year period. My theory was, if airports like Newark and Logan could have terrorists board planes with weapons, they likely would have a low number of weapons detected at their airports as compared to equally large U.S. airports. If few weapons are detected as compared to other airports, then screeners aren't doing their jobs.\n\nFocus on weapons\n\nWith more than 300 security codes and no FAA confirmation, it was difficult to ascertain the meanings of some of these codes. After much debate and research, I decided to focus on all security breaches related specifically to weapons. Weapons were defined using the following security descriptions: bludgeon, explosive, firearm, firearm hand gun, firearm - long gun, incendiary, knife, other weapon, stun gun and tear gas/chemical.\n\nGrouping these descriptions into one category showed the number of weapons detected at each airport by year with further breakdowns of the number of weapons.\n\nSecurity descriptions allegedly relating to tests conducted by the FAA, where FAA employees dress in plain clothes and try to get items through security check points, were not used as the meanings of the code descriptions were unclear. Some reports, for example, stated that the code \"Fail Detect HG\" meant failure to detect a handgun while others reported that it meant failure to detect a hand grenade. Without FAA confirmation of the meanings, I decided to take a more cautious approach to my analysis.\n\nStories and graphics\n\nThe six-week project produced nine stories written by CNN.com reporter Mike Fish and a number of detailed graphics designed by the CNN.com staff. The graphics showed:\n\nThe number of incidents and violations at the top 25 airports and the top 10 airlines over a decade. For each incident, there could be numerous violations. The numbers were broken down year by year for each airport and airline in separate charts.\nThe number of weapons found at the top 25 airports over a 10-year period. These numbers also were broken down year by year for each airport in separate charts.\nThe dollar amount paid in fines by the top 10 airlines from 1998 - 2000, according to the FAA quarterly enforcement reports.\nThe annual turnover rate of security screeners at 18 airports as reported by a GAO aviation security report from June 2000. The percentages of security violations for the same period also were reported from the enforcement database.\n\nDenise Prodigo-Herrmann can be reached by e-mail at dmph@bellsouth.net",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "In-depth online",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Mike Fish",
+      "author_title": "",
+      "affiliation": "CNN.com",
+      "full_text": "Before the events of Sept. 11, air travelers might have thought security personnel at airport checkpoints worked for the government. The airlines, maybe. Or they may have guessed the local airport authority.\n\nThe truth is, under Federal Aviation Administration guidelines, the airlines are responsible for airport security - but they bid the job out to private security firms. So, how does the system grade out and should travelers feel secure? And, if not, what are the holes in the system and why have they gone uncorrected?\n\nArmed with a laundry list of questions, CNN.com embarked on a computer-assisted reporting project that produced the four-part series \"Flight Risk\" (www.cnn.com/SPECIALS/2001/trade.center/flight.risk/index.html). The Web site contracted with Denise Prodigo-Herrmann, former Atlanta Journal-Constitution database editor, to clean up the data and oversee its analysis. We also performed extensive searches of government and aviation Web sites, which proved helpful in providing context and leading us to earlier critical reports submitted to Congress.\n\nA 2000 report from the General Accounting Office was of particular interest, revealing that the starting salary for security screeners at 14 of the nation's 18 largest airports was $6 or less an hour (www.gao.gov click on Airport Security under GAO Reports). The federal minimum wage is $5.15 an hour.\n\nSaddled with low wages, entire airport security teams - considered one of the most crucial jobs in assuring passenger safety - routinely turn over at least once a year.\n\nWatchdogs had identified this extraordinary turnover as a dangerous shortcoming, though offering little or no statistical support. In a bid to do so, we took the GAO turnover rates for the individual airports and compared them with security breaches reported by the FAA during the same 12-month period ending April 1999.\n\nBreaking security\n\nOur analysis revealed that at major airports experiencing a more than 200 percent annual turnover rate - like Lambert in St. Louis, Hartsfield in Atlanta and O'Hare in Chicago - screeners detected a smaller percentage of security breaches. And at airports with lower turnover, screeners uncovered more security violations.\n\nThe CNN.com computer-assisted analysis of FAA enforcement data from 1991 to 2000 also found:\n\nThe top 10 carriers incurred $13.13 million in FAA fines since 1998, fines which critics say have done little to fix security shortcomings.\nLogan International Airport in Boston, Dulles in Virginia and Newark International - the originating points for the Sept. 11 terrorist hijackings - have some of the lowest number of weapons caught by the airline screeners as a percentage of all reported security violations at each airport.\nAmerican Airlines, one of the carriers whose planes were hijacked on Sept. 11, was cited for the most security incidents in the decade. Delta Air Lines was second, and United Airlines, the other carrier whose planes were hijacked, had the third-highest number of incidents. Combined, American and United airlines have paid more than $5 million in FAA fines during the past three years.\n\nOur six-week project produced nine stories under the sub-heads: The System, Previous Warnings, Comparing U.S. to Europe and Solutions. Kevin Drew edited the project, while designer Emily Chen worked with Ann Hoevel developing graphics, charts and images.\n\nBecause CNN.com isn't hamstrung by space limitations of a daily newspaper, we were able to effectively support our stories with extensive graphics and charts. We were able to take the top 10 airlines and break down their security breaches on a year-by-year basis over the last decade. The same was done with the nation's top 25 airports, where we further detailed the weapons violations at each of the airports.\n\nCritics of the security system had accused the FAA of perpetuating a system of levying fines when breaches are found rather than seeking harsher corrective measures for the airlines. We chose to profile one of the leading security providers, Atlanta-based Argenbright, while also examining the fines assessed by the FAA against the airlines over the past three years (www.faa.gov/agc/enforcement).\n\nDifferent approach\n\nSeveral media organizations also were analyzing FAA data in the wake of Sept. 11, but Prodigo-Herrmann followed a slightly different approach for CNN.com.\n\nWhile the data came with detailed record layouts, some data within specific fields were hard to decipher, specifically security descriptions. Despite numerous requests from NICAR, the FAA refused to unveil details about the data. The NICAR listserv was flooded with commentary from journalists around the country on the complexity of the security code definitions. Prodigo-Herrmann focused her analysis on weapons or violations actually detected by screeners as opposed to an analysis of weapons that screeners missed in FAA tests of the system.\n\nMike Fish can be reached by e-mail at Mike.Fish@turner.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Links",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The CNN.com original project \"Flight Risk\" was reported by Mike Fish. Denise Prodigo-Herrmann conducted the database analysis. Kevin Drew was the editor. Emily Chen was the designer and worked with Ann Hoevel to develop graphics, charts and images. Meriah Doty also developed images. Robert Felker was the illustrator. Charles Rawls was the web editor. www.cnn.com/SPECIALS/2001/trade.center/flight.risk/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Access after attacks",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Jennifer LaFleur",
+      "author_title": "",
+      "affiliation": "St. Louis Post-Dispatch",
+      "full_text": "Just as federal agencies were beginning to develop useful Web sites, where more and more data was being made available, many agencies are now swiftly pulling databases from their sites.\n\nSince the Sept. 11 attacks, several federal agencies have removed public records and documents from their Web sites because of security concerns. In addition, some states have proposed rules that may limit access to public records.\n\nMuch of the information federal agencies handle is covered by the federal Freedom of Information Act, a law enacted in 1966 that requires government agencies to disclose records. Since then, Congress has amended the law to encourage, but not require, agencies to make commonly requested information available on their Web sites. Many responded to that call, but some are now beginning to rethink what they put online. Among them:\n\nThe Bureau of Transportation Statistics has discontinued public access to the National Transportation Atlas Databases and the North American Transportation Atlas. Environmental groups have used information from those sites to assess the impact of transportation proposals.\n\nThe U.S. Geological Survey has removed several reports relating to water quality.\n\nThe Office of Pipeline Safety has removed access to the pipeline mapping system, making the information available only to pipeline operators and government officials.\n\nThe Federal Aviation Administration has removed a link to enforcement data that includes security violations at the nation's airports. Several news organizations used the information for stories before the agency removed it from its site.\n\nThe Environmental Protection Agency has removed risk-management-plan records for chemical plants and other facilities that store and use chemicals.\n\nThe state of New Jersey has removed chemical information from its Web site.\n\nChilling message\n\nIn each case, the agencies cited the need to take precautions in the face of the terrorist threat. But it appears they are acting on their own. A White House spokesman said that it has issued no request for agencies to remove materials from their sites. But they have done it with the backing of U.S. Attorney General John Ashcroft. On Oct. 12, Ashcroft issued a memorandum to the heads of all departments and agencies in which he told agencies to carefully consider \"disclosure determinations\" under the FOIA.\n\nThe memo also states: \"When you carefully consider FOIA requests and decide to withhold records in whole or in part, you can be assured that the Department of Justice will defend your decisions unless they lack a sound legal basis or present an unwarranted risk of adverse impact on the ability of other agencies to protect other important records.\"\n\nThe memo \"sends a chilling message to the entire federal bureaucracy that they better think long and hard before they fulfill an FOIA request or they will be in trouble,\" said Charles Davis, executive director of the Freedom of Information Center, based at the Missouri School of Journalism in Columbia. \"If they want to deny it, the Justice Department is right behind them. In addition, it gives very little credit to the positive values of freedom of information.\"\n\nSecurity also was a concern for the FAA when the agency removed a file of enforcement records on Sept. 14 at the request of the agency's general counsel, according to FAA spokesman Paul Turk. But Turk noted that limited access to enforcement information is still available on the Web site; it lacks some of the details that were in the database.\n\nThose details are what Cleveland Plain Dealer reporter Beth Marchak says are so important. She used FAA enforcement data to examine the 1996 ValuJet crash in the Florida Everglades.\n\n\"You can't make intelligent decisions about safety unless you can look at these records,\" Marchak said. \"In the past, I've used the data to look at how FAA handles enforcement cases. They were settling cases for pennies on the dollar and a lot of cases were just being resolved with paper. People need to know that.\"\n\nNew security restriction\n\nAnother database routinely used by reporters to tell their readers and viewers that might be at risk from old, rarely inspected dams was the Army Corps of Engineers National Inventory of Dams. Now, when you go to crunch.tec.army.mil/nid/webpages/nid.cfm and click on MAP DISPLAY, you get a screen that says:\n\nPublic access to the National Inventory of Dams is currently restricted. Please contact the NID Pagemaster if you have any questions. Thank you.\n\nThe most recent data on dams is still available online at a Stanford University data query site and from NICAR's data library.\n\nThose with concerns about access to government information don't discount the terrorist threat. But it requires balance with the public's right to know, says Gary Bass, executive director of OMB Watch, a nonprofit organization concerned with freedom of information issues.\n\n\"We live in an open society. Everything we put out carries a risk. Are we not going to announce where the next football game is?\" Bass said. \"The flip of that is we end up living in a closed system.\"\n\nOMB Watch has come under criticism itself recently for continuing to make risk-management-plan data available. Bass said such information is necessary for citizens and communities to know their risks.\n\n\"They could identify the names of these chemical companies, but if you go to the yellow pages you can do the same thing,\" he said.\n\nThe records also provide information about what effects an accident would have. \"It will say something like the plume would go 4.3 miles affecting X number of people, two child-care centers and a school,\" Bass said.\n\n\"If I were the parent of a kid in one of those child-care centers, I would want to know that. Doesn't OMB Watch have a responsibility to provide that information to the parents. If we don't do that, aren't we guilty of not doing everything we can to protect them?\"\n\nFor almost 14 years, Paul Orum, director of the Working Group on Community Right-to-Know, has used public records to try to make chemical plants safer for citizens and to make communities aware of their risks.\n\n\"We have pushed for many years for improved site security and hazard reduction at chemical plants,\" Orum said.\n\n\"There has been a great deal of complacency that has accompanied traditional secrecy in the industry. Environment groups and public interest groups have relied on the right to know to push government and industry to make changes as far as hazards.\"\n\nHaphazard actions\n\nBass also argues that much of the information was removed randomly without a clear directive. When he's asked agencies for the reasons behind their actions, he's gotten vague responses.\n\nAn e-mail response to Bass from the Department of Transportation's information services department said: \"Due to the attacks on September 11th, BTS and all other government agencies have had to re-evaluate the content available through our Web pages.\"\n\n\"We need to have a reasoned debate about this,\" Bass said. \"We shouldn't be acting precipitously to take things down.\n\nBass was particularly concerned about the phrase \"all other government agencies.\" He argues that much of these actions have been done without a clear plan.\n\n\"If there is a reasonable argument with reasonable benchmarks. I think we want to hear that and act accordingly. But until then I think in an open society public right to know has to prevail.\"\n\n\"Bin Laden doesn't need a click of a mouse to get this information,\" Bass said.\n\nPress for information\n\nIn the current atmosphere, reporters may have to be more diligent in their requests for public information.\n\nAgencies can't just deny a record without citing a specific exemption to FOIA or a state public records law, said Rebecca Daugherty, director of the Freedom of Information Service Center of the Reporters Committee for Freedom of the Press.\n\nAnd agencies can't simply invoke national security, Daugherty notes. \"If you're going to invoke national security, the records have to be classified. If it has been public before, they can't now reclassify it.\"\n\nDaugherty also said that reporters should appeal any denials they get and that organizations such as the Reporters Committee can help reporters write appeal letters. She also suggested that reporters ask for expedited review for their requests dealing with Sept. 11 and terrorism. Doing so puts those requests at the front of the line.\n\n\"They are probably going to be successful when they do because of the widespread interest,\" Daugherty said.\n\nDaugherty also emphasized the importance of covering public records issues at this time.\n\n\"I don't think the public has any idea how much information is being withheld from them,\" she said. \"Journalists need to challenge closures and write about them.\"\n\nJennifer LaFleur can be reached by e-mail at jlafleur@post-dispatch.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Links",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The CNN.com original project \"Flight Risk\" was reported by Mike Fish. Denise Prodigo-Herrmann conducted the database analysis. Kevin Drew was the editor. Emily Chen was the designer and worked with Ann Hoevel to develop graphics, charts and images. Meriah Doty also developed images. Robert Felker was the illustrator. Charles Rawls was the web editor. www.cnn.com/SPECIALS/2001/trade.center/flight.risk/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Putting together the data puzzle",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "John Perry",
+      "author_title": "",
+      "affiliation": "The Oklahoman",
+      "full_text": "Putting together the data puzzle\n\nBy John Perry, The Oklahoman\n\nThe Federal Aviation Administration probably deserves an award for creativity in thwarting public access to information. The agency's Enforcement Information System database, which includes information about airport security violations, is publicly available. But the FAA releases only sketchy documentation.\n\nAmong the information you can't get: an explanation of the security violation codes. Explaining what those codes mean could endanger airport security, the FAA argues.\n\nAfter the Sept. 11 terrorist attack, that left newspaper data-crunchers scratching their heads, trying to make sense enough from the enforcement data to evaluate security at their local airports. What exactly is the difference, for example, between security violation code C130, cryptically described in the documentation as \"FAIL DETECT - GENERAL\" and violation code M140, described as \"DETECT - X-RAY.\" And more importantly, which records represent security failures.\n\nData revelation\n\nThe enforcement data is split into four interconnected tables. For those of us looking at security violations, two tables are of primary interest: the main table that contains one record with general information for each case and a secondary table that usually includes several records with security violation codes for each case number.\n\nAnother table connects cases to the specific regulation violated, and another gives the action taken by the FAA in response to the violation.\n\nThe first thing I did with the files was to run a series of cross tabulations to see which codes in the violator name, violation source, operation type, certification type and employer fields matched with each other and with the security violation codes.\n\nThe first revelation, at least for me, was that the data included not just security lapses by airlines and airports, but also violations by members of the general public - the data recorded not only security lapses, but also security successes.\n\nWith only a few exceptions, when the operator type was either passenger or non-passenger, the certification type was \"NONE,\" the violator name was expunged, the violation source was \"LOCAL/ST GOVT\" and there was an entry in the sex field.\n\nSecurity codes that matched with the passenger and non-passenger operator type records tended to come from one group of codes, all beginning with an M, that seemed to include things people would get in trouble for: \"FIREARM,\" \"EXPLOSIVE,\" \"DETECT - X-RAY,\" \"WEAPON LOADED,\" \"FAILURE TO SUBMIT TO SCREENING.\"\n\nCrosstabs looking at records where the operation type was \"AIR CARRIER\" and the violation source was \"SURVEILLANCE\" or \"SPECIAL SURVEILLANCE/INSPECTION\" tended to match with security violation codes such as \"FAIL DETECT - HAND GRENADE.\" These were apparently the incidents where FAA inspectors succeeded in sneaking things past screening stations.\n\nBut just to confuse things, in almost every case where the operator type was passenger or non-passenger, there was also the name of an airline in the employer field. So were these airline employees?\n\nThe FAA wasn't explaining. But the description of the field in the documentation said it included \"violator employer if applicable, or responsible air operator.\" Since airlines are responsible for passenger screening, the employer field entries made sense.\n\nFilling in blanks\n\nTo confirm which records recorded security lapses and which were security successes, I took a clue from the violation source code \"LOCAL/ST GOVT\" and tried to match the records where the operation type was passenger or non-passenger with our database of local crime incidents.\n\nOur crime incident database goes back to 1992 and is updated monthly by e-mail. The airport is a separate police reporting district to itself, so I pulled all the incident records from that reporting district and matched it with the FAA violation data by date.\n\nIn every case, the FAA violations matched with a crime incident record that seemed to match the security violation descriptions.\n\nOur cop reporter pulled the full narrative police reports for the matching incidents, and when we compare the incident narratives with the FAA security violation codes, the data started to make more sense.\n\nFor example, a March 26, 2000, security violation in the main FAA table connected with four records in the security code table with the following codes: \"DETECT - X-RAY,\" \"FIREARM - HANDGUN,\" \"WEAPON - LOADED\" and \"WEAPON - CONFISCATED.\"\n\nThe police narrative report said that the X-ray operator detected a handgun in a purse and called airport police. The purse was owned by a Fletcher, Okla., reserve police officer who had forgotten her handgun was in her purse when she came to meet her son-in-law. After a discussion with the FBI, she was released, but the police kept her gun.\n\nThe most entertaining incident, however, was coded only as \"MISC OTHER\" in the FAA data. When asked at the ticket counter if anyone had given him anything to carry on the plane, one man replied, \"Just the bomb.\"\n\nThat quip got him a visit with the police and the FBI. He was released to catch a later flight.\n\nJohn Perry can be reached by e-mail at jperry@oklahoman.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Tipsheets",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "More information on airline security is available from the following tipsheets in the IRE Resource Center:\n\nTipsheet #1210. Includes a list of agency Web sites, such as the National Transportation Safety Board and the Federal Aviation Administration. It also explains what each site can offer reporters investigating aviation safety.\n\nTipsheet #729. Covers how to use aviation safety documents when an aircraft crashes in your hometown, including information on what documents are obtainable and how to get them. documents. Audio tape is available through Gaylor MultiMedia, Inc., 888-310-3100, for $6, ask for tape #63.\n\nTipsheet #613. Explains how to use CAR to cover the aviation community. It includes a sample story from The Seattle Times, sources for covering aviation and sample documents from the Federal Aviation Administration. Audio tape available through Gaylor MultiMedia, Inc. 615-361-3611, for $6, ask for tape #14.\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Stories",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Other stories on housing problems available from the IRE Resource Center:\n\nStory#17226 New Times Los Angeles reported that \"slum properties can be shuffled among a small cadre of co-conspirators, keeping law enforcement and housing activists at bay,\" revealing \"how a slumlord managed to defy the best efforts of housing enforcement officials and his own tenants to bring a substandard building up to code, even when he was slapped with a $455,000 judgment.\"\n\nStory#15948 The St. Paul Pioneer Press published a three-part report on \"chronic problem properties\" and the effect they have on the Twin Cities. \"At the heart of the issue,\" the newspaper reported, \"is a badly broken system, rife with legal loopholes, spotty enforcement and too few penalties for lawbreakers.\" The newspaper found that \"more than 6,400 properties in St. Paul and another 22,000 in Minneapolis have failed to comply with housing codes for two years or longer,\" inspectors are unwilling to crack down on the offenders and \"a small group of landlords account for a disproportionate number of complaints.\"\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Security problems",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Paul D'Ambrosio",
+      "author_title": "",
+      "affiliation": "Asbury Park Press",
+      "full_text": "As news organizations scrambled to produce special editions Sept. 11, CAR writers and editors were faced with reporting under some of the most difficult circumstances possible.\n\nWhile the unfolding news changed from minute to minute, communication overloads at the Asbury Park (N.J) Press and perhaps other news outlets around New York City put a crimp in our usual tools of the trade. Telephone connections were sporadic and, worse, our Internet service was down more than it was up. Our on-site, online servers were overwhelmed with perhaps 10 times as many page views as normal.\n\nEven the day after, it took more than three hours to download the latest FAA security data from NICAR - a 25-meg database that would normally slide through our pipeline within minutes.\n\nThe delay pushed the first story about weak security at Newark International Airport right up to our 8 p.m. deadline. I had never used the security data before, but was familiar with FAA terminology and mindset, having written several stories on the administration in the late 1990s.\n\nThere were two key tasks: use the database to elicit reaction from airline officials, and find real people to tell their tales of security lapses.\n\nZeroing in with data\n\nIn the database, I focused on the SECURITY table, one of four in the FAA data. Pressed for time, I focused exclusively on Newark airport, the departure airport for United flight 93 the flight that crashed in a Pennsylvania field.\n\nAfter quickly scanning the security code violations at Newark (coded by its common call letters, EWR) I zeroed in only on two security issues: mock weapons making their way through checkpoints, and unauthorized personnel entering air operation areas, or AOAs. The latter are supposedly secure sites to prevent those bent on destruction from tampering with the aircraft itself.\n\nBoth areas were a critical concern since at that point, no one knew how the hijackers got their box cutters or knives on board.\n\nI used security codes C111, and C130 to C139, which focused on security officers failing to detect weapons during undercover tests. A131 and A132 also gave me counts on unauthorized access to AOAs. The FAA cited United Airlines four times in 1999 for screening violations, but only issued warning letters.\n\nBlackout limitations\n\nUnited and the FAA had imposed a media blackout, so no more information about the lapses could be learned that night. The Port Authority of New York and New Jersey, which owns Newark Airport, provided some background on how security in the terminals worked.\n\nThe data had limitations. There was no way to know how many times airport security was tested, so no rate could be developed to compare one facility with another. But, recent Inspector General and General Accounting Office reports confirmed security was a major problem at airports around the county, which added depth to the story.\n\nWe also found a local resident who told of walking onto two empty planes just a month before the hijackings. She contacted me after reading our first story. She said she was appalled at the lack of security, which was so lax that an airline worker even helped her get onto one aircraft.\n\nHer experience led to a second story the next day about people entering the sterile air operations areas. The data was again helpful in that area since AOA violations were well noted.\n\nPaul D'Ambrosio can be reached by e-mail at pmd@app.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Tipsheets",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "More information on airline security is available from the following tipsheets in the IRE Resource Center:\n\nTipsheet #1210. Includes a list of agency Web sites, such as the National Transportation Safety Board and the Federal Aviation Administration. It also explains what each site can offer reporters investigating aviation safety.\n\nTipsheet #729. Covers how to use aviation safety documents when an aircraft crashes in your hometown, including information on what documents are obtainable and how to get them. documents. Audio tape is available through Gaylor MultiMedia, Inc., 888-310-3100, for $6, ask for tape #63.\n\nTipsheet #613. Explains how to use CAR to cover the aviation community. It includes a sample story from The Seattle Times, sources for covering aviation and sample documents from the Federal Aviation Administration. Audio tape available through Gaylor MultiMedia, Inc. 615-361-3611, for $6, ask for tape #14.\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Comparing foot traffic",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "James E. Wilkerson",
+      "author_title": "",
+      "affiliation": "The Morning Call",
+      "full_text": "Comparing foot traffic\n\nLike other CAR reporters across the country, I turned to the FAA enforcement data in the wake of the Sept. 11 terrorist attacks to see what I could find about our local airport.\n\nGoing back five years, I found that the Lehigh Valley International Airport had seen relatively little action. That smelled right, considering that it's a relatively small airport in a quiet corner of Pennsylvania.\n\nHowever, two incidents stood out. In two separate tests conducted within three months of each other in 1999, FAA inspectors sneaked contraband through a passenger-security checkpoint. The entries for the smuggled objects were obscure, but others on the NICAR list had already decoded them as a fake bomb and a fake hand grenade.\n\nThose incidents alone made for an interesting story, but before I started writing I had to put them into context by looking at similar lapses at other airports.\n\nThose incidents alone made for an interesting story, but before I started writing I had to put them into context by looking at similar lapses at other airports. Because the Lehigh Valley International Airport is pretty small, I didn't think it fair to compare it to larger nearby airports in Philadelphia, New York and New Jersey. But I didn't have a clue about how to choose similar airports.\n\nWe all know how helpful the FAA has been in working with reporters lately, so needless to say, my call to flaks there for guidance went unanswered.\n\nEnplanement data\n\nI turned again to the NICAR mailing list, where some discussion of airport enplanement data caught my interest. I sent out a message asking for help and I soon had 1999 Department of Transportation enplanement data for all airports in the United States showing the number of passengers boarding planes and passing through.\n\nI used Excel to sort the airports by the enplanement numbers. I eyeballed where our airport fell as compared to others and decided that a spread of 20,000 enplanements below and above our airport would be fair for a rough comparison. Others used different approaches.\n\nJeff Thomas of The Gazette (Colorado Springs, Colo.) chose airports with enplanements from 50 to 150 percent of his local airport, giving him a range of 37 airports, plenty for a fair comparison. Ken Ward Jr. of the Charleston (W.Va.) Gazette, chose a 25 percent range above and below his airport. He ran the results by an airport administrator, who confirmed that he had a good set of airports comparable to his. David Washburn, of The San Diego Union-Tribune, grabbed the largest 30 airports, of which his ranked 28th.\n\nComparing airports\n\nMy method left me with 20 airports. I used the Internet to look at information on each and eliminated a handful that obviously served a very different purpose than our airport, such as one in Nevada that appeared to be used exclusively by tourists into the Grand Canyon area.\n\nFinally, I did the shoe-leather reporting necessary to fill in the gaps. I went out to the local airport to talk to personnel and get a better feel for exactly where the incidents occurred. I also called on security experts to give me some perspective about how the FAA conducts the tests.\n\nOn Sept. 21, we ran a front-page story that came as a shock to many readers, not to mention other reporters and editors, who were stunned that FAA inspectors were able to smuggle contraband into airports on such a regular basis.\n\nJames Wilkerson can be reached by e-mail at james.wilkerson@mcall.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Stories",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Other stories on housing problems available from the IRE Resource Center:\n\nStory#17226 New Times Los Angeles reported that \"slum properties can be shuffled among a small cadre of co-conspirators, keeping law enforcement and housing activists at bay,\" revealing \"how a slumlord managed to defy the best efforts of housing enforcement officials and his own tenants to bring a substandard building up to code, even when he was slapped with a $455,000 judgment.\"\n\nStory#15948 The St. Paul Pioneer Press published a three-part report on \"chronic problem properties\" and the effect they have on the Twin Cities. \"At the heart of the issue,\" the newspaper reported, \"is a badly broken system, rife with legal loopholes, spotty enforcement and too few penalties for lawbreakers.\" The newspaper found that \"more than 6,400 properties in St. Paul and another 22,000 in Minneapolis have failed to comply with housing codes for two years or longer,\" inspectors are unwilling to crack down on the offenders and \"a small group of landlords account for a disproportionate number of complaints.\"\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Tracking a suspect",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Phil Williams",
+      "author_title": "",
+      "affiliation": "WTVF-TV",
+      "full_text": "Tracking a suspect\n\nIt was a phone call that brought an amusing reminder of the value of computer-assisted reporting.\n\nFor days, my photographer and I had been chasing down leads and reporting on a possible terrorist suspect who had operated in and out of the Nashville area. So, when the cell phone rang, we thought it might be someone with new information.\n\nInstead, it was an investigator with a top law enforcement agency who had a question for us: Where were we getting our information?\n\nIn fact, in the days following the Sept. 11th terrorist attack, I would be repeatedly reminded of how many doors - or, should I say, Windows-have been opened by these CAR techniques.\n\nRight after the attack, our first quick-turn investigation focused on the company in charge of security at Nashville International Airport. Argenbright Security also held contracts at the airports in Boston, Washington and Newark used by the terrorists.\n\nA quick Google search pulled up years of news stories documenting the company's long history of security lapses. Combined with information that Tennessee regulators had caught the company using a security guard with a criminal history, we had our first story on the company's lackluster reputation.\n\nQuestions about Argenbright's background aside, that story still didn't answer the question about how well or poorly the company had actually performed at our airport.\n\nSlicing the data\n\nTo get at that question, I downloaded the Federal Aviation Administration's enforcement database from NICAR and immediately sliced out only the data dealing with security violations at Nashville International Airport.\n\nIn analyzing the results and comparing notes with other NICARians, it became clear that there was lots of information that could easily be misinterpreted. That was especially true, given the FAA's refusal to help interpret the data.\n\nFor example, I pulled out the raw number of \"security violations\" at the airport. But many were cases where individuals were caught with weapons and other contraband. In fact, those violations might be an indicator of good security.\n\nSo, I decided to focus on a narrow snapshot - violations where security personnel had failed to detect weapons. The result was a story that the security forces had repeatedly flunked tests involving handguns, hand grenades and dynamite bombs.\n\nFinding people\n\nOver the coming days, we would use AutoTrack to background individuals whose names emerged as possible suspects.\n\nBut the most interesting development came from a post to the IRE-L listserv by an international colleague. The post was a list of 370 individuals with possible terrorist ties that Finnish banking authorities had inadvertently released.\n\nOne of those names, Khaled Alzeedi, had a Tennessee address and phone number, as well as an e-mail address for a company at zidiaviation.com.\n\nA quick search of anywho.com linked the address to an aircraft sales company in nearby Clarksville, Tenn. The phone number belonged to a Hilton Suites in downtown Nashville.\n\nFrom computer-assisted reporting to plain gumshoe work, we discovered that the Saudi pilot had come to Tennessee in August to buy two Tampico aircraft that would be used to train pilots. Hotel workers recalled that he had claimed to be an Iranian diplomat, and restaurant employees insisted he had been back since the Sept. 11 attacks.\n\nKeep searching\n\nWith each new development, I returned to the computer to conduct new searches to see where those threads might lead.\n\nFor example, a search of aircraft registrations at landings.com confirmed that two Tampicos had been registered to Zidi Aviation in mid-August. Then, with those tail numbers, I went to the Web site for the aircraft sales company and discovered the sale information for the two aircraft - and photos of the actual planes!\n\nAnother Google search for Zidi Aviation led to the discovery that the company had been an authorized distributor for flight simulation software manufactured by Jeppesen, a Boeing subsidiary. A Jeppesen attorney refused to comment on the relationship with Zidi, saying she couldn't discuss \"anything related to terrorism.\"\n\nI also came across a reference for another Zidi Aviation e-mail address at zidinet.com. But the Web page for zidinet.com was nothing more than white type on a black screen, with no links. Our Webmaster suggested that I try a bit of simple hacking and add a \"/images\" to the URL. Then - Voila! - that led to a prototype Web page that showed pilots training to fly jumbo jetliners.\n\nLocal police followed our stories, but they reported back to me that they had checked with the local FBI office, and agents insisted they were not looking for Alzeedi. That had other media virtually ignoring our reporting.\n\nSo, it came as a relief when The Associated Press, following up on our stories, got confirmation from an assistant FBI director that the agency was indeed searching for Alzeedi.\n\nPhil Williams can be reached by e-mail at pwilliams@newschannel5.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Tipsheet",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Tipsheet\n\nMore information on terrorists is available from the following tipsheet in the IRE Resource Center:\n\nTipsheet #1168. From a 2000 New York conference panel, this tipsheet consists of a list of contact names and organizations to help reporters investigate terrorists and fringe groups.\n\nStory\n\nAnother story on terrorists is available from the IRE Resource Center:\n\nStory #16709. \"Will Terrorists Go Nuclear?\" American Spectator. After the 1993 World Trade Center bombing, the National Security Council began investigating terrorist use of nuclear weapons. This story looks at the threat radioactive waste materials pose to the public.\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Flipping a table",
+      "kicker": "From the Lists",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Q: How do I flip an Excel table so that the information in rows goes in columns and columns rows?\n\nA: Select the cells you want to flip and hit copy. Open a new workbook or sheet. Then go to PASTE SPECIAL and down near the bottom click on transpose. Then hit OK.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Ranking with Excel",
+      "kicker": "From the Lists",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Ranking with Excel\n\nQ: I'm working with election results. We had 27 people contending for nine council positions; choose nine. I'm using the RANK function in Excel to tell me how each candidate ranked within each ward/precinct. Is there a way to write an expression that would boldface any rank/number 9 or below?\n\nA: Simply highlight the entire column and select FORMAT > CONDITIONAL FORMATTING Select CELL VALUE IS and LESS THAN OR EQUAL TO and type in the number 9 now select FORMAT and BOLD and RED and voila everything that is less than or equal to 9 should be red and bold.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Updating with Access",
+      "kicker": "From the Lists",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Updating with Access\n\nQ: Is there a way to trim leading and trailing spaces from an Access field by doing an update query or some other function? I tried updating NewField with the expression: Trim([OldField]) and all it does is remove the equal sign and insert the text \"trim([OldField])\" in the field I'm updating.\n\nA: I just used this one and it worked fine, trimming excess spaces at the beginning or end but not in the middle:\n\nUPDATE [Text] SET [Text].newtext=Trim([oldtext]);\n\nText is the table. Oldtext and Newtext are the two fields.\n\nTo subscribe the NICAR-L discussion list, follow the instructions at www.ire.org/membership/subscribe/nicar-l.html.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Detailing identities",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Richard J. Dalton Jr.",
+      "author_title": "",
+      "affiliation": "Newsday",
+      "full_text": "Just hours after two planes crashed into the World Trade Center, while all of us were still absorbing the immensity of the tragedy, Newsday reporters began writing profiles of the victims for the next day's paper. It has become the newspaper's forte, after winning a Pulitzer Prize for its coverage of the 1996 crash of TWA Flight 800.\n\nOver the next several weeks, reporters gathered names of victims from many different sources: Web sites of companies who lost employees, press releases, relatives, airlines, the medical examiner's office, wire services, death notices, the police and New York State Supreme Court, which, at the request of relatives, issues death certificates for victims.\n\nReporters then turned to Nexis and AutoTrack to track down the victims' hometowns, ages and phone numbers.\n\nA month after the disaster, we had collected the full names and hometowns of nearly 2,650 victims. The database, now even larger, is available online at www.newsday.com.\n\nProfiling victims\n\nThe database proved useful for editors to keep track of which profiles had been written. But it also enabled three of Newsday's computer-assisted reporting specialists - Robert Fresco, Jo Craven McGinty and myself - to write a story showing just how far-reaching the acts of terrorism were.\n\nAnalyzing the database in Microsoft Access, Newsday's enterprise team wrote a story revealing that victims came from at least 41 states and the District of Columbia. Using ArcView, we created a map of the United States, highlighting how many victims came from each state. Another map showed the metropolitan area, with various sized dots indicating how many victims perished from each community.\n\nThe maps were powerful images, with all but nine states highlighted on the U.S. map and with dots small and large all over the place on the metropolitan area map. The map clearly showed a cluster of victims within easy commuting distance of Manhattan. Most of Long Island's victims, for instance, came from Nassau and Western Suffolk counties, each within an hour or less commute by train. (That's considered an easy commute in New York.)\n\nWe showed that the terrorists took the lives of people from more than 770 cities and towns - from Portland, Maine, to Honolulu, Hawaii.\n\nWe also produced a chart showing the number of victims in each age group, by decade. More than a third of the victims were in their 30s, and nearly half hadn't yet celebrated their 40th birthday.\n\nFiguring percentages\n\nWe then determined the gender, based on the first name of the victim. The Census Bureau provides a database of male first names and female first names at www.census.gov/ftp/pub/genealogy/names/, including how frequently each name occurs for men and women. It's a little quirky. For instance, both the male and female databases list \"James.\" But, only one-hundredth of 1 percent of women were listed as having the name \"James,\" compared with 3.3 percent of men.\n\nOf course, some names are both male and female, such as \"Jamie\" - 0.07 percent of men and 0.15 percent of women. When a name was listed in both the male and female databases, we used the frequencies to determine whether it was male, female or both. So, as expected, \"James\" turned out to be a male name while \"Jamie\" could be either. When calculating the percentage of male and female victims, we used only the names that were either male or female, excluding those that could be either.\n\nWe then supplemented the Census database with another database of names we found at www.incompetech.com/named/. The database is searchable online, and the Webmaster e-mailed us a link to download it.\n\nUsing these lookup tables, Newsday estimated that three-quarters of the victims were men. (OK, that's a lot of work for something seemed obvious given the profiles we had been doing. But it gave us an approximate percentage.)\n\nWe, of course, revealed the shortcomings of the analysis. Our database was skewed toward mostly male victims of the New York City police and fire departments, which released the names of virtually all their victims. Many of the companies that lost employees have not released lists.\n\nRichard J. Dalton Jr. can be reached by e-mail at rdalton@newsday.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Story/Tipsheet Available from the IRE Resource Center:",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Story #16854. Michael Paterniti of Esquire tells the story of the crash of Swissair Flight 111. He tries to capture the feeling of the crash site and the emotions of the family members and rescue workers.\n\nTipsheet #538. On Aug. 7, 1994, Bruce Shapiro was among seven people stabbed and seriously wounded in a coffee bar a few blocks from his house. In \"One Violent Crime,\" Shapiro shares the experience of being a victim.\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "War windfall",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "David Wethe & Michael Whiteley",
+      "author_title": "",
+      "affiliation": "Dallas Business Journal",
+      "full_text": "Within hours of the Sept. 11 terrorist attacks, many started to wonder what - if anything - the nation would do to respond.\n\nTexans wondered if their loved ones would get the call to go to war. And the tech companies, machine shops and aviation subcontractors of the Dallas-Fort Worth area - businesses that had accounted for a dime of every dollar spent on Desert Storm - wondered if they could balance the losses to the airline industry with some profit from a new war.\n\nWe decided to use NICAR's database of federal contractors to identify and interview some of the companies on the early call lists for the Department of Defense or the Defense Logistics Agency.\n\nWe slated the story for a quick turnaround - to appear in next week's issue while the idea was still fresh on our readers' minds.\n\nOn Sept. 14, we ordered the Texas share of the database, which covered companies and their federal contract obligations for 2000. It arrived the following Monday morning, giving us time to write a story for the Sept. 21 paper.\n\nDefense contracts\n\nUsing Visual FoxPro 6.0, we ran a series of relatively simple queries that split out the defense contracts, finding contractors based in the Dallas-Fort Worth area, summing their contract obligations and sorting in descending order.\n\nWe queried NICAR's data into successive tables, culminating with \"metrodef.dbf.\" The values \"DD\" and \"DT\" in the field \"prtagncy\" identified contracts issued by defense agencies, including the DOD, the DLA, the Air Force and the Army.\n\nWe queried the table \"Fedprc.dbf\" with: SELECT FROM fedprc; WHERE Fedprc.prtagncy = \"DD\"; OR (Fedprc.prtagncy = \"DT\") ORDER BY Fedprc.contractor; INTO TABLE :\\defense\\defquery.dbf\n\nWe renamed defquery.db to \"Texdef.dbf\" and queried it to isolate contractors' home cities using the query: SELECT DISTINCT Texdef.contcity; FROM texdef; ORDER BY Texdef.contcity; INTO TABLE city.dbf\n\nWe edited the results to include only cities in Dallas County, Tarrant County and the surrounding counties in the Dallas-Fort Worth area.\n\nWe then ran the new table, \"city.dbf\" against our \"Texdef\" table using: SELECT FROM texdef INNER JOIN city ; ON Texdef.contcity = City.contcity; INTO TABLE metrodef.dbf\n\nBig dollar amounts\n\nThe query yielded a table of Dallas-Fort Worth area defense contractors - or at least contractors who did defense work in the Dallas-Fort Worth area last year - with a total of 6,507 contracts worth $7.7 billion. By comparison, our crunch of Texdef produced 19,614 contracts worth $12.8 billion for 2000. That meant the Dallas-Fort Worth area companies handled contracts accounting for 60 cents of every dollar spent in Texas.\n\nThe next step was to identify the major players, such as Lockheed Martin Corp., and to sort out the smaller shops that might depend on a DOD call for survival and might add a human element to our story.\n\nWe isolated the names of the contractors and the dollar amount of each of their contracts using: SELECT Metrodef.contnmif1, Metrodef.dollaramt; FROM metrodef; ORDER BY Metrodef.dollaramt; INTO TABLE companytot.dbf\n\nAnd we tallied their combined contract values, in descending order, with: SELECT companytot.contnmcif1, SUM (dollaramt) FROM companytot; GROUP BY companytot.contnmcif1; ORDER BY 2 desc; INTO TABLE Metrosum.dbf\n\nWith the help of staff writers Hala Habal and Margaret Allen, we divided the companies and called a healthy mix of those who'd done a brisk business with DOD and DLA in 2000 and those who'd handled smaller contracts.\n\nEarly on, we found some irony. Luminator Holding L.L.C. of Plano was expecting heavy losses from a division that makes instrument lights for jet airliners. But those losses were somewhat offset by an emergency order for search lights phoned in from a military base overseas within days of the attack.\n\nIn Garland, we found beefed-up security at a company identified as the sole manufacturer of U.S.-certified bombs. In Fort Worth, a company that makes bomb fuses and parts for the Bradley fighting vehicles had received the call to speed up orders.\n\nAlso in Garland, a startup quickly received word from the Pentagon to be ready for delivery of its new Thermal Angel, a device that can be used for warming IV fluids in the battlefield.\n\nQuick, easy story\n\nThis story was done in a hurry. It was a quick and easy CAR story that can be done in just about any newsroom that has a database manager.\n\nAlthough no one really knew what kind of war we were talking about, we felt confident many companies in our database would get the call. And one of them offered some news - the possibility that the nation might not be ready for another war.\n\n\"I don't think their inventory was that great,\" said Kyle Blake, vice president of AGH in Fort Worth. \"After Desert Storm, the Department of Defense pretty much turned the spigot off. It got behind and never caught up again.\"\n\nMichael Whiteley can be reached by e-mail at mwhiteley@bizjournals.com\n\nDavid Wethe can be reached by e-mail at dwethe@bizjournals.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Data",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The IRE and NICAR data library offers these databases that can pinpoint information:\n\nFAA Enforcements A database of FAA enforcement actions against airlines, pilots, mechanics, and designees.\n\nFAA Service Difficulty Reports: A database of maintenance incidents collected by the FAA for the purpose of tracking repair problems with commercial, private, and military aircraft, and aircraft componentry.\n\nFAA Accidents and Incidents: A database of mainly U.S. flights where there was an accident or an incident, including crashes, collisions, deaths, injuries, major mechanical problems or costly damages.\n\nFAA Aircraft Registry: A listing of all aircraft and aircraft owners registered in the United States.\n\nFAA Airmen Directory: The FAA Airmen Directory is a listing of pilots and other airmen, including the type of certificate(s) they hold and their ratings.\n\nNASA Air Safety Reporting System: A database of anonymous reports of airplane safety submitted by pilots, flight attendants, air traffic controllers and passengers.\n\nFor more information about the database library's collection, including purchase prices, go to www.ire.org/datalibrary/databases/. To order data, contact NICAR at 573-884-7711 or download an order form at www.ire.org/datalibrary/orderform/orderform.pdf",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Meeting the data challenge",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Justin Mayo and David Heath",
+      "author_title": "",
+      "affiliation": "The Seattle Times",
+      "full_text": "In just a couple of hours, 19 hijackers shattered public confidence in airport security. Even officials at the Federal Aviation Administration, who make the rules and monitor airport security, were so unsure of the system's ability to prevent further hijackings that they kept airlines grounded for three days.\n\nSo it was natural for newspapers to ask how safe airports are.\n\nThe Seattle Times began looking for information on Seattle-Tacoma International Airport security immediately. The data available through the FAA's Enforcement Information System had serious limitations. What's more, the agency was of little help and in some cases even hostile in our efforts to understand the data.\n\nTo supplement this data, we also requested all security incident reports at the airport for two years. We also interviewed employees and managers at airport screening companies, experts at the General Accounting Office and Transportation Department's Inspector General's office and former FAA security officials.\n\nFinding context\n\nThe database lists each individual violation of FAA security rules, including the name of the offender, the name of the airport, the date, a description of the violation and what actions were taken for the past 20 years. FAA hires inspectors to test screeners and those violations were listed as \"failure to detect\" various types of weapons.\n\nWe first used the database for a Sept. 12 story, culling general statistics on the number of security violations and proposed penalties for airlines from the database.\n\nBut it was apparent that there was much more local detail, especially in the descriptions of security violations committed by airports and airlines. The problem was how to interpret it and put it in context without the benefit of knowledgeable sources willing to talk.\n\nFinding a focus\n\nThe mechanics of analyzing the FAA enforcement data are straightforward.\n\nTo find security violations, you link the Main table, which contains basic data on the violator and when and where the violation occurred, to the Security table, which has distinct violations for each incident. Then, link to the Actions table to find the FAA's response, including civil penalties, warning letters, certificate revocation, etc.\n\nEarly on you have to decide how you're going to define a \"security violation.\" One incident from the Main table could contain several security violations or actions. We decided to focus on incidents, not violations. That meant that if a loaded gun were found in a checked bag, which is against FAA rules, it was counted only once even though the agency may have issued several citations for failing to declare the weapon, illegally storing ammunition and improperly packing a gun.\n\nThe main challenge, however, was deciding which security violations to focus on. There are about 250 distinct security codes that airports, airlines, passengers or mechanics could be cited for violating. Most were cryptic, such as failure to detect \"encap weapon.\" We were unable to decipher that description before our deadline.\n\nTo narrow our scope we looked at weapons violations.\n\nThe enforcement data can be divided into two broad categories of weapons violations: those where the security system failed and those where it worked. In the Security table the \"failure to detect\" codes show where airline screeners let FAA inspectors slip test weapons through undetected. These failures are detailed by date, airline, type of test weapon and in many cases even the specific concourse where the violation occurred. We used these failures to document problems at the Seattle-Tacoma airport and to show how many test objects - pipe bombs, hand grenades, pistols the screening system let through.\n\nFinding answers\n\nWe decided against comparing Seattle's results to other airports because at that time we had no way tell how frequently the FAA tested each airport. We were concerned that FAA inspectors in some jurisdictions might be more diligent than in others, making comparisons impossible.\n\nWe knew from the book Flying Blind, Flying Safe by former DOT Inspector General Mary Schiavo that Sea-Tac screeners had detected explosive devices only 12 percent of the time in tests - one of the worst performances in the nation.\n\nThe data show the security system working when real weapons are discovered, usually because a passenger fails to declare a gun in a checked bag or has one in their carry-on. Guns were frequently discovered in checked bags at Sea-Tac, even though few checked bags are put through X-ray machines or bomb-detection devices. We used these violations to calculate the number of firearms found at major airports and computed a rate based on domestic enplaned passengers. Sea-Tac ranked second in the country in 1999.\n\nSupplementing the enforcement data, local police records and other sources showed that the FAA seriously underreports incidents involving weapons. Port of Seattle records showed gun violations, mostly minor, occurring almost every day at the airport - everything from a passenger failing to disclose that a weapon has been stored in a checked suitcase to trying to walk through the metal detector with a concealed handgun strapped to an ankle holster.\n\nFinding sources\n\nBesides reporting the data, we interviewed a 38-year-old screener, Teuila Tuitele, who said that the training she received inadequately prepared her for the job. She had some classroom training during her first week and passed a multiple-choice test asking how she should handle irate passengers or what to do if she detected a weapon on the X-ray machine. She was shown and tested on how to identify suspicious bomb-like shapes. She said screeners needed only an 85 percent detection rate to get assigned a job.\n\nIt is not uncommon for a screener to sit at the X-ray machine for two or even three hours without a break. \"Sitting there more than 30 minutes you fall asleep,\" Tuitele said. \"It's like watching the TV.\"\n\nJustin Mayo can be reached by e-mail at jmayo@seattletimes.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "The stories mentioned in this edition of Uplink",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "IRE Resource Center",
+      "full_text": "The stories mentioned in this edition of Uplink will soon be available from the IRE Resource Center. Search the story database at www.ire.org/resourcecenter for order numbers. Call 573-882-3364 to order these and other investigative stories.",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Data",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The IRE and NICAR data library offers these databases that can pinpoint information:\n\nFAA Enforcements A database of FAA enforcement actions against airlines, pilots, mechanics, and designees.\n\nFAA Service Difficulty Reports: A database of maintenance incidents collected by the FAA for the purpose of tracking repair problems with commercial, private, and military aircraft, and aircraft componentry.\n\nFAA Accidents and Incidents: A database of mainly U.S. flights where there was an accident or an incident, including crashes, collisions, deaths, injuries, major mechanical problems or costly damages.\n\nFAA Aircraft Registry: A listing of all aircraft and aircraft owners registered in the United States.\n\nFAA Airmen Directory: The FAA Airmen Directory is a listing of pilots and other airmen, including the type of certificate(s) they hold and their ratings.\n\nNASA Air Safety Reporting System: A database of anonymous reports of airplane safety submitted by pilots, flight attendants, air traffic controllers and passengers.\n\nFor more information about the database library's collection, including purchase prices, go to www.ire.org/datalibrary/databases/. To order data, contact NICAR at 573-884-7711 or download an order form at www.ire.org/datalibrary/orderform/orderform.pdf",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Doing cross tabs can create quick comparisons",
+      "kicker": "Tech tips",
+      "author_name": "Jeff Porter",
+      "author_title": "Managing Editor",
+      "affiliation": "IRE/NICAR",
+      "full_text": "Doing cross tabs can create quick comparisons\n\nBy Jeff Porter, IRE/NICAR\n\nCall it an art form - rearranging data in a useful way, comparing fields across columns instead of down long rows. The spreadsheet program Excel calls it a pivot table. Database managers often call it a cross tab. For Visual FoxPro users, it's a fast, quick step to compare hundreds of thousands of records instantly.\n\nTake, for example, Small Business Administration disaster loan data. The loans themselves are the primary form of federal assistance for nonfarm, private-sector disaster losses. The loans help homeowners, renters, businesses of all sizes and nonprofit organizations finance their rebuilding. The loans, which are repaid to the Treasury, are provided at low-interest rates and have tailored repayment schedules befitting each borrower's financial capability.\n\nTo create a cross-tab comparison, the rules are simple.\n\nYou want three fields. Ideally, the first has the most potential variables. Using the SBA disaster loan data, we'll compare states and a few other geographic areas, such as territories.\n\nIn the second field, you want to limit the number of variables, technically, to 255. In practical terms, you want just a few variables. In the SBA disaster loan database, there's a field called CHGOFF, noting whether a business disaster loan is deemed uncollectible. It's either a YES or NO - just two possible variables and perfect for a cross-tab.\n\nThe third field is the data field, a total count or sum, for example, categorized by the two other fields. For this example, the count will be categorized as the status of each loan in each state.\n\nFor Visual FoxPro 5.0, here's the SQL to first list the borrowers' states, whether the loan was charged off, and the total number for each category by state. The query limits the type of loan to just businesses - coded as a capital B in the data not individuals, because the SBA won't tell the status of an individual's loan. In this example, the number of loans is limited to those since the beginning of 1990 to businesses: select borstate, chgoff, count (*) from disaster; where apprdate > {12/31/89) and type = 'B', group by 1, 2 The results would look like this:\n\nTHE Query\n\nBorstate Chgoff Ltd\n\nNO 1\nAE NO 1\nAK NO 68\nAL NO 97\nAL YES 2\nAR NO 216\nAZ NO 10\nCA NO 150\nCO NO 25\nCT NO 20\nDC NO 37\nDE NO 4\nFL NO 829\nFL YES 4\nGA NO 161\n\nHelpful, but only slightly. Now, one could export results to Excel and create a pivot table to show the CHGOFF variables across the top of the spreadsheet and the states down the side, but Visual FoxPro can do it quicker. Just use one line of SQL in the software's command window: do _genxtab)\n\nWith this short command, you've created a new table called Xtab, created in the software's default directory. It should, though, be already open, so simply type\n\nbrowse\n\nAnd you should see this:\n\nHE Xtab\nBorstate No Yes\n 28 4\nAA 2\nAE 8\nAK 695 29\nAL 1416 117\nAP 4\nAR 642 25\nAS 179 41\nAZ 340 38\nCA 36787 4752\n\nBetter - at least one can read across and see in a glance how a particular state is doing. Note here, for example, that in California, 36,787 loans aren't in trouble, while 4,752 are categorized as uncollectible.\n\nWhat's that as percentage? Again, one could export over to Excel; instead, though, one could run one last, quick query to show the result. For this example, the number of total loans is limited to 101 or more by state or territory, to leave out areas with a tiny number of loans that might skew a comparison: select borstate, no, yes, yes/(no+yes) pct from xtab; where no+yes > 100; order by 4 desc\n\nThe query creates a new field - the number of loans charged off, divided by the total number - and names it PCT, short for percentage. Also added: The last line tells FoxPro to sort the records by highest percentage to lowest, finding the states with the highest percentage of loan default. The answer:\n\nQuery\nBorstate No Yes Pct\nAS 179 41 0.1864\nRI 881 18 0.1538\nSC 1770 303 0.1462\nGA 2007 289 0.1259\nPR 5349 732 0.1204\nFL 10345 1394 0.1187\nCA 36787 4752 0.1144\nHI 1666 207 0.1105\nMO 1922 221 0.1031\nIL 2074 237 0.1026\nNH 132 15 0.1020\nAZ 340 38 0.1005\nLA 2367 251 0.0959\nKS 642 61 0.0868\nNM 139 13 0.0855\nSD 718 67 0.0854\nIN 410 38 0.0848\n\nIn the first record, AS stands for American Samoa, a U.S. territory with 19 percent of the loans defaulting during the time period. Those California numbers show up at No. 7 in this calculation, with 11 percent.\n\nStates, of course, make up a simple example. Reporters can filter and cross-tab by city, zip code, even type of business to compare and calculate, filtering before or after running the cross-tab command. The SBA disaster loan data table contains 731,352 records, far beyond Excel's pivot table capability.\n\nOf course, even a well executed cross-tab doesn't relieve the reporter of reading the fine print about the data. The table lists the state of the borrower, not necessarily the location of the damaged property. The majority of the most recent loans, including those in the days after the Sept. 11 attacks, haven't had time to run into serious trouble.\n\nJeff Porter can be reached by e-mail jeff@nicar.org",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "A problem company",
+      "kicker": "HOUSING",
+      "author_name": "R.G. Dunlop and Mark Schaver",
+      "author_title": "",
+      "affiliation": "The Courier-Journal",
+      "full_text": "Code enforcement seems like a ripe subject for computer-assisted reporting, and that is where reporters and editors at The Courier-Journal (Louisville, Ky.) turned when they first considered a housing project in mid-2001.\n\nWhat they found, however, was a government database that contained potentially key information but needed lots of legwork before it could be unlocked.\n\nWhat followed was an example of how traditional reporting and database analysis supported and strengthened each other.\n\nBased on preliminary, anecdotal evidence, the newspaper decided to focus on a controversial apartment-management company, River City Properties, Inc., whose sprawling, low-rent complexes were located mostly in Jefferson County, outside the city limits of Louisville.\n\nThe county was of particular interest because it contained nearly as many rental-housing units as did the city, but had less than one third as many housing code-enforcement inspectors. And the Jefferson County Health Department, which is responsible for code enforcement in the county, was reportedly strapped for resources.\n\nRental units in the county were spread across 323 square miles, an area more than five times larger than the city itself and a logistical challenge for a mere handful of inspectors to navigate. And housing stock in the county, while generally much newer than that in the city, was aging to the point that decline was beginning to surface in some neighborhoods. Without inspectors' vigilance, we thought, landlords could take liberties.\n\nThe first hurdle was obtaining the database, which was maintained not by the local health department, but by the state Cabinet for Health Services, of which local health departments are a part.\n\nSketchy database\n\nAfter a series of telephone calls, and written requests under Kentucky's Open-Records law, we got the database in Access format, making it easy to work with. Unfortunately, however, it provided only sketchy information for four years' worth of code-enforcement inspections about 7,000 total - that were available.\n\nEach complaint had a unique control number and was logged by date and by address. But, landlords' names and corporate affiliations, if any, were listed only occasionally.\n\nBecause of the missing ownership information, the health department couldn't assemble an overall inspection history for a particular property owner or manager, or even for a specific address. So how could we? And unless we knew the history of enforcement and the results attained, how could we judge the effectiveness of the health department's code-enforcement program?\n\nIf there was a solution, we decided, it lay in the street addresses contained in the database. By assembling the addresses of every property managed by River City Properties, we could begin to unlock its code-violation history as shown in the database.\n\nTo determine River City's apartment holdings, a reporter searched tax records and reviewed about 60 personal-injury and other lawsuits filed over a 20-year period against the company, its president, Garey Higdon, or the individual apartment complexes managed by River City Properties and owned at least partially by Higdon. Interviews with code-enforcement officials, attorneys, realtors and representatives of various advocacy groups revealed still more about River City's real-estate empire.\n\nMissing information\n\nBut neither the lawsuits, the local tax records, nor the sources disclosed the crucial piece of information necessary to link the properties to the health department's database. That missing link was a comprehensive, up-to-date list of addresses for all the apartments in a particular complex.\n\nWithout those, complaints in the database couldn't be tied to a common source - in this case, a single property manager. We would not be able to determine River City's violation history or the health department's handling of it.\n\nFinding the addresses was time consuming. River City wouldn't help - Higdon refused to be interviewed and his attorney declined to provide the names or locations of properties managed by River City. The telephone book and the city directory provided only the address of an apartment complex's main address as determined by local planning and zoning officials, and did not account for addresses among the various buildings in a complex.\n\nSome of the company's complexes were crisscrossed by as many as eight or 10 streets. To determine conclusively how many complaints each complex generated would require knowing the street names and numbers for each building in each complex. To get this, a reporter went to each apartment complex associated with River City Properties - more than 40 in all.\n\nSome streets, and some buildings, were unmarked or incompletely identified with names or numerals. The sketchy and often outdated public records that were available sometimes conflicted with visual observations. But eventually, by checking and rechecking, the newspaper was able to compile an address list with which reporters and editors felt comfortable.\n\nCleaning the data\n\nUltimately, the decision was made to focus on 17 complexes managed by River City Properties, Inc., and owned at least in part by Higdon. Other properties owned by Higdon but sold long ago were eliminated, as was another set of apartments currently or formerly owned by one of his brothers.\n\nThe newspaper constructed its own Access database of River City-managed properties, including tables for owners, street addresses, lawsuits and tax assessments. The addresses in that database were then matched against the county health department's database to determine how many housing-code complaints River City Properties' complexes had generated.\n\nThis couldn't be done with a simple query, however.\n\nThe county health department's database was dirty, with many streets misspelled or misnamed. So we created a new column in the database to put corrected street names, while preserving the uncorrected ones in case there were questions later. This made it easier to pull out the right properties and enabled us to calculate counts on complaints for each complex.\n\nBecause there were so many addresses, we decided that the simplest and surest approach for finding River City's properties would be to go through the database record by record, looking for the ones that matched the addresses the reporter had compiled.\n\nWe created a separate table of just River City complaints by deleting non-River City complaints from a database copy. That gave us two tables: one for all complaints, and one for just River City's.\n\nAlthough this was a crude way to do it, it was the surest and most straightforward. Having a separate table of just River City properties made it easier to work with. We were confident these were the right properties, because we had examined each record individually, leaving out any that didn't clearly belong to River City.\n\nThe results were still striking: more than 1,200 complaints filed with the health department during the four-year period were tied to River City's complexes. And, the vast majority of complaints were anything but frivolous. Nearly 70 percent resulted in either a violation or an inspector taking some other sort of action, including a follow-up visit to the site of the problem.\n\nHerculean task\n\nThe newspaper also devoted many hours to pursuing a database maintained by the City of Louisville, which has a separate housing inspection office. Although only a few River City properties were in the city, we also wanted to look at the company's violation history within the city. Obtaining city's records was complicated by the fact that the city's database was on a mainframe using decades-old CA Datacom/DB software that no one still employed by the city fully understood.\n\nThe city's computer staff ran previously created programs to generate reports from the database, but no one understood how the dozens of tables that made up the database were linked together and nobody was skilled at programming it. When the city had questions it couldn't answer, it called on a former city employee who now worked as a contractor.\n\nUnder Kentucky's Open Records law, agencies are required to provide electronic records only in their native format or as ASCII text. The city initially told us that the database would cost us $100,000 to obtain, because we would have to have purchase the original software to use it.\n\nWe knew this was nonsense, but we were afraid that even if we pursued a long records battle and obtained the database for a minimal cost, there was the chance we wouldn't be able to make sense of it once it was in our hands. Even if we had all the data, we had no idea of the relationships between all the tables, and it could have been a Herculean task to figure it out.\n\nThe Courier-Journal decided the best solution would be to pay the $600 the city said it would cost to hire the former employee to write a program that would pull from the database just the records and fields we wanted in a single, flat file. As an added bonus, we got the records in Access format, which wasn't a requirement of the law.\n\nThis database showed River City Properties had a large number of complaints at its city complexes as well, although that finding ultimately played only a small part in our series.\n\nStories and results\n\nRiver City officials had long argued that complaints were not a fair barometer by which to judge the condition of its properties. Large and numerous apartment complexes naturally generate more complaints, company officials contended.\n\nThe newspaper found, however, that River City's 25 percent share of all complaints filed with the county health department during the period far exceeded the company's share of the rental housing market in the county, as determined by census data. The company's share was less than 4 percent.\n\nAfter the newspaper published a three-part series about River City Properties and the health department in October, the company publicly pledged to do a better job and the health department admitted that it was underfunded and understaffed. Officials said the issues may be addressed when city and county governments merge in 2003.\n\nR.G. Dunlop can be reached by e-mail at rdunlop@courier-journal.com\n\nMark Schaver can be reached by e-mail at mschaver@courier-journal.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Stories",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "Other stories on housing problems available from the IRE Resource Center:\n\nStory#17226 New Times Los Angeles reported that \"slum properties can be shuffled among a small cadre of co-conspirators, keeping law enforcement and housing activists at bay,\" revealing \"how a slumlord managed to defy the best efforts of housing enforcement officials and his own tenants to bring a substandard building up to code, even when he was slapped with a $455,000 judgment.\"\n\nStory#15948 The St. Paul Pioneer Press published a three-part report on \"chronic problem properties\" and the effect they have on the Twin Cities. \"At the heart of the issue,\" the newspaper reported, \"is a badly broken system, rife with legal loopholes, spotty enforcement and too few penalties for lawbreakers.\" The newspaper found that \"more than 6,400 properties in St. Paul and another 22,000 in Minneapolis have failed to comply with housing codes for two years or longer,\" inspectors are unwilling to crack down on the offenders and \"a small group of landlords account for a disproportionate number of complaints.\"\n\nTo order, call the Resource Center at 573-882-3364 or go to www.ire.org/resourcecenter/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Lessons from disaster",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Jeff Porter",
+      "author_title": "",
+      "affiliation": "IRE/NICAR",
+      "full_text": "Be prepared, say the Boy Scouts. In the last few months, more and more journalists are saying it, too.\n\nIndeed, one of the consistent lessons from almost any disaster is to keep a warehouse of data, preparing it for instant use for the next catastrophe. The advantages are twofold: There's no wait for the data, and reporters, without the pressure of disaster, can begin understanding the best uses and pitfalls of the data.\n\nCase in point: FAA enforcement data, which many newsrooms used to focus on security breaches in airports after terrorist attacks killed thousands on U.S. soil.\n\nThe Web searches can be excellent starting points, especially on deadline, but only in a limited way.\n\n\"It was obvious on Sept. 11 that airport security had failed dreadfully,\" says Ron Campbell with the Orange County Register. \"The FAA database showed that the failure was systemic. It showed many, many failures at every major airport nationwide for several years. It showed that the system worked on Sept. 11 exactly the way it was designed to work - badly.\"\n\nThe database, though, has its own limitations. It's often cryptic and open to interpretation (see numerous accounts of the use of the data in this edition of Uplink). While the data included the cases in which FAA inspectors penetrated airport security during surveillance, it didn't include those times when airport screeners caught them. The database, after all, is about enforcement actions. If the airport screeners did their job, no enforcement action is required.\n\n\"As valuable as the FAA database was, it has huge gaps,\" Campbell says. \"We don't know how many times security caught the FAA trying to penetrate security, so there is no way to determine which airports had the worst security. We can't even compute a nationwide security breach rate, since the FAA won't say on a national level how often they tried to breach security but were stopped by alert guards.\"\n\nCiting vague security concerns, the FAA refused to answer even rudimentary questions about the data.\n\nYears before the terrorist attacks, Elizabeth Marchak of The Plain Dealer (Cleveland, Ohio) pushed preparation for aviation disasters. Never, she wrote in a conference handout that's available from the IRE Resource Center, use data on deadline you've never seen before.\n\nBy their very nature, databases are incomplete, according to Marchak, and it takes some experience to fully understand those limitations.\n\nOnline aviation data\n\nThere are a few shortcuts, thanks to the World Wide Web, that allow reporters to look up simple information about aircraft, pilots, accidents and incidents. So part of preparing for disaster coverage is conscientiously bookmarking Web sites. Numerous IRE tipsheets show Web addresses that would help. Again, though, the searchable online databases are incomplete and limited. It pays to read the fine print even on a government Web site.\n\nThe FAA Flight Standards Service Web site promotes itself as providing safety-related information, and in fact, it's a place worth bookmarking. Reporters can look up airworthiness directives and recent service difficulty reports, search for pilot schools, and link to search pages for accidents and incidents, both from the FAA and the NTSB.\n\nAnother FAA Web presence: the FAA Civil Aviation Registry, where a reporter can look up ownership of an aircraft, by registration number or serial number.\n\nA non-government but useful Web site comes from Aviation Research Group/US Inc. You can sign up to receive preliminary accident information via e-mail for free. According to the company's Web site, several times a day it downloads the FAA's preliminary accident files, then sends out automatic notifications to e-mail subscribers. You can choose categories and filters, too. For example, you can choose to receive only notifications of all multi-engine airplanes, or just single and multi-engine jets, or just helicopters.\n\nLike the databases residing on a reporter's desktop or a newsroom's network, though, Web-based or e-mailed data have limitations, too. The FAA's lookup information on service difficulty reports, for example, only go back to 1995. The actual database of SDRs, though, goes back to 1974. One can look up ownership of particular aircraft through the FAA Civil Registry Web search, but it's problematic to summarize and count how many airplanes of a certain type are owned by a particular company.\n\nPreparation is key\n\nThe Web searches can be excellent starting points, especially on deadline, but only in a limited way. They don't take the place of actually obtaining and understanding the data.\n\nAnd that should take place not in the heat of a disaster, but beforehand, when authorities are less harried and, in the case of the FAA, might be more open.\n\n\"The FAA database taught me a lesson for the future,\" Campbell says. \"When getting government databases, always find out how the data is compiled. In the case of the FAA database, we know that airport security guards, airport security coordinators and FAA inspectors all must have filled out reports. There is undoubtedly a manual telling these folks how to fill out reports, explaining for example when to charge multiple violations for a single offense. But we don't have that manual, and it's extremely unlikely post-Sept. 11 that the FAA will give it up.\"\n\nJeff Porter can be reached by e-mail at jeff@nicar.org",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Links",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The CNN.com original project \"Flight Risk\" was reported by Mike Fish. Denise Prodigo-Herrmann conducted the database analysis. Kevin Drew was the editor. Emily Chen was the designer and worked with Ann Hoevel to develop graphics, charts and images. Meriah Doty also developed images. Robert Felker was the illustrator. Charles Rawls was the web editor. www.cnn.com/SPECIALS/2001/trade.center/flight.risk/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Fighting the airport",
+      "kicker": "SPOTLIGHT: TERRORISM",
+      "author_name": "Alan Judd and Maurice Tamman",
+      "author_title": "",
+      "affiliation": "The Atlanta Journal-Constitution",
+      "full_text": "Fighting the airport\n\nBy Alan Judd and Maurice Tamman, The Atlanta Journal-Constitution\n\nBen DeCosta runs the world's busiest airport, Atlanta's Hartsfield International. So on Sept. 26, when The Atlanta Journal-Constitution reported on Hartsfield's history of security breaches, DeCosta was not happy.\n\nIn DeCosta's view, the story, based on the Federal Aviation Administration's database of security violations, did nothing more than confirm the worst fears of air travelers days after terrorists hijacked four planes to attack New York and Washington.\n\nWhat's more, he said, \"they have no right to have their worst fears confirmed.\"\n\nDeCosta's comment typified the official reaction to unsettling post-Sept. 11 revelations about the safety of the nation's air travel system. After the Journal-Constitution and many other newspapers wrote stories off the database of violations, the FAA quickly pulled it from its Web site.\n\n(This shouldn't have been surprising; a few years ago, after several stories appeared on the alarming rate at which airport security screeners failed to detect fake bombs and other weapons planted by the FAA, the government declared the information to be \"security sensitive\" and restricted public access.)\n\nAviation focus changed\n\nBefore Sept. 11, reporting on commercial aviation often focused on matters of convenience: flight delays and limits on carry-on baggage.\n\nAfter Sept. 11, when news organizations began examining the far more important issues of safety and security, the new scrutiny made the people who run the air travel system more than a little uncomfortable.\n\nIn Atlanta, DeCosta virtually accused a reporter of being unpatriotic for reporting on the security breaches.\n\nNoting that passenger loads on airliners had dropped by 40 percent the week after air travel resumed, DeCosta said: \"What the public needs is more than your newspaper gives them. You have a special responsibility not to exaggerate and exacerbate an already bad situation. Get people to focus, instead of scaring the hell out of them.\"\n\nNot that officials were going to make our reporting on anything at the airport easy.\n\nBarricades to reporters\n\nReporting about the airport required access to concourses and terminals, but airport officials would not allow the press access beyond the security gates leading to the terminal trains and gates.\n\nIn the week after the attack, we attempted to document how little business was being done at what we routinely describe as the world's busiest airport. That required getting behind the security checkpoint.\n\nWe solved the problem by purchasing unrestricted full fare tickets. The reporters, however, had to be careful. The reporters needed to order the ticket online for a flight within a few hours of the period they would be working behind the lines.\n\nThe reporters did not check in, but presented a printout of the Web page ticket confirmation page. In one case, the ticket cost $987.\n\nAfter that, it was through the metal detectors, past the security guards and out to the terminals.\n\nIt's quite remarkable that reporters were considered such a security risk that they were not allowed out to the terminals. Meanwhile, any shlub with a home computer and a printer could re-create a confirmation Web page, print it out and have complete, unfettered access to the terminals.\n\nAfter passing in and out of the terminals at will, the reporters had to get in line at a ticket counter, before their flight was scheduled to depart, and get a refund.\n\nAirline employees\n\nWith passengers jittery about flight in the days that followed the reopening of airports, it was clear airline employees were worried. While airport officials were useless, airline employees were polite, friendly, even plaintive.\n\nIn one case, a Delta employee behind one counter pleaded with a reporter not to cancel his round trip ticket to Orlando.\n\nHe asked several questions about why the reporter was not flying.\n\nDo you know flying is safe? Do you know there are no delays? Yes it was expensive, but why not go?\n\nThen he squinted suspiciously at the black-haired, bearded reporter. He waited a few seconds, before pressing a key on his keyboard. A receipt printed out.\n\n\"You will receive your credit within 30 days,\" he said.\n\nMaurice Tamman can be reached by e-mail at mtamman@ajc.com.\n\nAlan Judd can be reached by e-mail at ajudd@ajc.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Cheap, easy solution",
+      "kicker": "INTRANET",
+      "author_name": "Andy Crain",
+      "author_title": "",
+      "affiliation": "(Sarasota) Herald-Tribune",
+      "full_text": "Your boss asks you to build \"one of those intranet things.\" It's a top priority and must be finished quickly, your boss says, patting you on the back. And oh yeah, there's no money in the budget for this.\n\nImpossible? Actually, no.\n\nDeveloping an intranet, one that's hooked up to databases and full of all sorts of dynamic features, is well within the capabilities of even the most overworked CAR grunt. All it takes is a Web server and ColdFusion Express, the free, trimmed-down version of the popular and expensive Web application server.\n\nYou'll have the support of an easy-to-learn language, great documentation (the kind that comes with commercially distributed software, which is ColdFusion's main enterprise) and a huge ColdFusion programming community. Best of all, you can get away with all this without spending a penny.\n\nAt the (Sarasota) Herald-Tribune, I created such a system without a single software purchase. Reporters and editors query research databases, search in-house and AP stylebooks, share sources, request and assign photos, participate in discussion forums, and more.\n\nBig hits, low cost\n\nIn an average week, the site responds to just under 5,000 page requests and sends 150 MB of data to over 160 distinct addresses, using free software and Microsoft Access databases. Even the hardware's low-budget: an old PC running Windows 95 with 32 MB of RAM.\n\nThe popular intranet model is to build \"dynamic\" Web pages that change and present different views depending on information stored in a database.\n\nDoing this typically requires a Web server, which sends out pages formatted in HTML in response to user requests, for example the clicking of a link to a new page; a database server, which stores the always-changing information that is presented in these pages; and some sort of \"glue\" to link everything together.\n\nYou could hook up an enterprise database server, such as Microsoft's SQL Server, with Microsoft's IIS Web server and use ASP to build dynamic, database-driven pages. All well and good, if you have the cash to pay for it.\n\nOr you could try an open-source solution. A combination of a MySQL database server, an Apache Web server, and PHP to build the pages and link everything together packs just as much punch, but with a much more appealing price tag: $0. The downside is a much steeper learning curve and cumbersome, sometimes spotty documentation. Although this solution has a lot going for it, if you're pressed for time, it's probably not the right one.\n\nEnter ColdFusion Express, which combines all the benefits of a commercial solution with one of the more appealing features of open-source software (it's free).\n\nColdFusion Express Server (download it at www.macromedia.com/software/coldfusion/trial/cf_server_express.html) is distributed as a teaser for Macromedia's ColdFusion Server. Presumably, the company hopes that you'll ultimately purchase their flagship product, which goes for between $1,300 and $5,000.\n\nColdFusion limitations\n\nAs a result, ColdFusion Express lacks some of the features of the full-blown product. For example, there's a cap on the number of simultaneous connections to the server. ColdFusion Express supports a maximum of five.\n\nThis isn't as bad as it sounds. Connections last mere milliseconds, so dozens, even hundreds, of users can be clicking around via ColdFusion Express at the same time.\n\nAlso, there is limited native driver support for databases.\n\nIf your data is in Oracle, IBM's DB2, Informix, SQL Server, or some other high-end database, you'll need the cash-money version of ColdFusion. ColdFusion Express works only with desktop databases and has native drivers for Microsoft Access, Paradox, dBase, FoxPro, Excel or Lotus Approach.\n\nWith drivers for Access and other database systems, ColdFusion Express becomes a virtual database server, running queries itself and returning results. You don't even need Access on the server; ColdFusion reads and processes mdb files directly. Many times, ColdFusion will process some complex queries faster than Access.\n\nAnyone familiar with HTML will feel at home with ColdFusion, which is completely tag-based. A ColdFusion application is nothing more than a typical HTML document with ColdFusion tags inserted in among the HTML tags. Requests for ColdFusion pages are sent first to the ColdFusion Express Server, which will process the tags, query databases and whatever else it's told to do, and then return the results to the Web server as HTML.\n\nAndy Crain can be reached by e-mail at andy.crain@heraldtribune.com",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
+    },
+    {
+      "headline": "Links",
+      "kicker": "readme.txt",
+      "author_name": "",
+      "author_title": "",
+      "affiliation": "",
+      "full_text": "The CNN.com original project \"Flight Risk\" was reported by Mike Fish. Denise Prodigo-Herrmann conducted the database analysis. Kevin Drew was the editor. Emily Chen was the designer and worked with Ann Hoevel to develop graphics, charts and images. Meriah Doty also developed images. Robert Felker was the illustrator. Charles Rawls was the web editor. www.cnn.com/SPECIALS/2001/trade.center/flight.risk/",
+      "summary": "",
+      "keywords": [],
+      "topics": [],
+      "technologies": [],
+      "provenance": {
+        "extracted_by": "anthropic/claude-sonnet-4-6",
+        "extracted_at": "2026-07-05",
+        "verified": true
+      }
     }
   ]
 }

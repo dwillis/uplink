@@ -1,7 +1,7 @@
 {
-  "total_articles": 678,
-  "total_truncated": 52,
-  "total_toc_missing": 1349,
+  "total_articles": 1838,
+  "total_truncated": 231,
+  "total_toc_missing": 30,
   "gaps": [
     "1991_08",
     "1993_10",
@@ -14,2279 +14,124 @@
     "2005_07"
   ],
   "fill": {
-    "total": 678,
-    "missing_author": 72,
-    "missing_keywords": 98,
-    "missing_summary": 16,
-    "missing_topics": 304,
-    "missing_technologies": 357,
-    "mislabeled_title": 172
+    "total": 1838,
+    "missing_author": 666,
+    "missing_keywords": 1400,
+    "missing_summary": 1341,
+    "missing_topics": 1547,
+    "missing_technologies": 1586,
+    "mislabeled_title": 118
   },
   "red": [
     {
-      "stem": "1991_11",
-      "num_articles": 2,
-      "text_chars": 17031,
-      "captured_chars": 8143,
-      "ratio": 0.4781281193118431,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 17031 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "The Top 10 Sin List",
-        "Scanners may eliminate data entry problems",
-        "Data entry problems: How do newspapers protect the integrity of information"
-      ]
-    },
-    {
-      "stem": "1993_01",
-      "num_articles": 3,
-      "text_chars": 24881,
-      "captured_chars": 9965,
-      "ratio": 0.40050641051404684,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Read this before scanning text",
-        "Working around a software bug",
-        "Bits, bytes and nibbles"
-      ]
-    },
-    {
-      "stem": "1993_02",
-      "num_articles": 1,
-      "text_chars": 35199,
-      "captured_chars": 4912,
-      "ratio": 0.13954941901758572,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 35199 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "deadly cure",
-        "Acquiring information from the Nuclear Regulatory Commission",
-        "TRAC'ing more complete NRC data",
-        "Taking bytes out of the education apple",
-        "Secrets of the superprogrammers",
-        "Where to look for electronic information",
-        "Greensboro News & Record wins a court battle",
-        "More on CAR seminars",
-        "MICAR boot camp seminar"
-      ]
-    },
-    {
-      "stem": "1994_03",
-      "num_articles": 2,
-      "text_chars": 22664,
-      "captured_chars": 9033,
-      "ratio": 0.3985615954818214,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 22664 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "So what is NICAR?",
-        "Coming Events",
-        "Computer conference set for Oct. 6-9, 1994",
-        "How to keep data straight by adding an ID",
-        "Akron completes yearlong CAR series",
-        "A shaggy dog story?",
-        "Census Bureau phasing out mainframes"
-      ]
-    },
-    {
-      "stem": "1994_05",
-      "num_articles": 1,
-      "text_chars": 36526,
-      "captured_chars": 1237,
-      "ratio": 0.03386628702841811,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 36526 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "New advanced seminars planned / Road shows launched",
-        "Coming Events",
-        "Data only part of HMDA story",
-        "HMDA data pitfalls",
-        "Mapping reveals data trends",
-        "Where to find banking info",
-        "Computer conference set for Oct. 6-9, 1994",
-        "The trouble with storing data",
-        "Getting your program to talk back",
-        "Bits, Bytes and Barks",
-        "Arch Investigations June 16-19, 1994"
-      ]
-    },
-    {
-      "stem": "1994_06",
-      "num_articles": 2,
-      "text_chars": 36233,
-      "captured_chars": 11090,
-      "ratio": 0.3060745729031546,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 36233 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "Online sources you can't do without",
-        "Insights into Mosaic",
-        "Fixing data in FoxPro",
-        "New looks for the Net",
-        "Beyond the Rolodex",
-        "Canadian govt. launches Internet project",
-        "EPA improving online access",
-        "State land records going on CD",
-        "UC Berkeley offers Mosaic site",
-        "Usenet for those with e-mail only access",
-        "Internet guide to govt. sources available"
-      ]
-    },
-    {
-      "stem": "1994_09",
-      "num_articles": 2,
-      "text_chars": 35047,
-      "captured_chars": 12709,
-      "ratio": 0.3626273290153223,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 35047 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "CAR uncovers urban ills",
-        "Coming Events",
-        "Tapes for those who missed it",
-        "Train with best in CAR",
-        "Internet robust but unreliable",
-        "Drive-by shootings in Tacoma",
-        "NICAR offers inexpensive data transfer",
-        "Japanese equipment prices rising",
-        "NICAR and IRE hit the Net with two new lists",
-        "Gillmor goes West",
-        "Jobs, jobs, jobs",
-        "Paper marks decade of CAR",
-        "Here's a look at our hardware & software"
-      ]
-    },
-    {
-      "stem": "1995_03",
-      "num_articles": 4,
-      "text_chars": 35256,
-      "captured_chars": 9072,
-      "ratio": 0.25731790333560245,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "When crime doesn't add up",
-        "Dusting pesticide records",
-        "Join us on the Internet",
-        "Go up the database staircase",
-        "Data available from the NICAR library",
-        "FBI data: Continued from page one",
-        "Unknown strangers: Continued from page one",
-        "Which assaults matter?",
-        "Doing Time In Miami",
-        "Portables can do big jobs",
-        "Cool Internet Site",
-        "Get computer training",
-        "Disaster sites to tap",
-        "Bits, Bytes and Barks",
-        "The survey says",
-        "AP hires Port; St. Pete job opens",
-        "Miami Herald promotes Gordon",
-        "Computers shadow groundhog"
-      ]
-    },
-    {
-      "stem": "1995_07",
-      "num_articles": 3,
-      "text_chars": 16471,
-      "captured_chars": 4955,
-      "ratio": 0.3008317649201627,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "Best votes money can buy",
-        "Scan for the facts",
-        "How to check campaign coffers",
-        "The New Yorker probed how media and telecommunication conglomerates",
-        "They're in the money",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1995_10",
-      "num_articles": 2,
-      "text_chars": 33052,
-      "captured_chars": 7142,
-      "ratio": 0.2160837468231877,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 33052 chars of text"
-      ],
-      "truncated": [
-        {
-          "index": 0,
-          "headline": "Tracking military justice",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": [
-        "Uplink update",
-        "Tracking military justice: Prisoners hit pay dirt",
-        "Mapping branches: Look where banks aren't",
-        "Getting Access for stories",
-        "NICAR web site expands",
-        "Growing collection of federal databases",
-        "Get computer training",
-        "Missed Cleveland?",
-        "Being inventive: Go on-line to find designs",
-        "Here are books available from IRE",
-        "Patented on the net",
-        "U.S. Patent and Trademark Office announcement",
-        "Look who gets City Hall jobs",
-        "Office of Economic Conversion and Information",
-        "Access to Electronic Records",
-        "Bits, Bytes and Barks",
-        "NICAR wants you",
-        "Join NICAR on the Internet"
-      ]
-    },
-    {
-      "stem": "1995_11",
-      "num_articles": 3,
-      "text_chars": 34846,
-      "captured_chars": 5048,
-      "ratio": 0.1448659817482638,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "Data on the 'Net",
-        "Cover campaigns better",
-        "From the NICAR library",
-        "Get computer training:",
-        "Missed Cleveland?",
-        "Beyond OSHA",
-        "Tale of OSHA tapes",
-        "Tips",
-        "SEC ponders EDGAR's fate",
-        "Survey: 'No problem'",
-        "Visit NICAR at http://www.reporter.org",
-        "Bits, Bytes and Barks",
-        "Nation of Islam site defaced",
-        "Bound for California",
-        "Bound for Omaha",
-        "Swedish IRE begins listserv",
-        "Join NICAR on the Internet"
-      ]
-    },
-    {
-      "stem": "1996_02",
-      "num_articles": 3,
-      "text_chars": 47513,
-      "captured_chars": 14384,
-      "ratio": 0.30273819796687224,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Lost your way in CAR? Maybe a map would help.",
-        "May I draw you a map?",
-        "Get computer training",
-        "Visit NICAR at http://www.reporter.org",
-        "May I draw you a map? (continued)",
-        "Pick a mapping program",
-        "Newsrooms flock to the 'Net",
-        "A one-day conference on 'Satellite Imagery and the News Media'",
-        "Analytical software elbows in",
-        "PCs dominate hardware",
-        "Here are some academic studies",
-        "IRE-L and NICAR-L mailing list archives",
-        "The ABCs of CAR",
-        "NICAR telephone numbers have a new area code",
-        "From the NICAR library",
-        "The FEC has made available free of charge campaign finance data",
-        "IRE seeks training director",
-        "Mapping out the Web",
-        "Journalists needed for on-line service",
-        "Russell Clemings websites for journalism job openings",
-        "Bits, Bytes and Barks",
-        "Send us your ideas",
-        "Keep up with NICAR on-line"
-      ]
-    },
-    {
-      "stem": "1996_03",
-      "num_articles": 2,
-      "text_chars": 52557,
-      "captured_chars": 11943,
-      "ratio": 0.22723899765968378,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 52557 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Get computer training:",
-        "Check out recent broadcast projects",
-        "Facts and findings from \"National Inventory of Dams\"",
-        "Radio tunes into CAR",
-        "Excel paints picture for KPNX",
-        "Search and seize our abstracts",
-        "Postgres95 lets multiple users in",
-        "How to get a date",
-        "Miss something?",
-        "From the NICAR library",
-        "IRE seeks training director",
-        "E-TV: Stations on-line",
-        "Check out the following urls for newspapers",
-        "Bits, Bytes and Barks",
-        "CAR training lands investigative job",
-        "Writers discussion group",
-        "Check out IRE conference on the Web",
-        "Keep up with NICAR on-line"
-      ]
-    },
-    {
-      "stem": "1996_05",
-      "num_articles": 1,
-      "text_chars": 52268,
-      "captured_chars": 3961,
-      "ratio": 0.07578250554832786,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 52268 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Winners use CAR",
-        "Top prize for investigation Fertility fraud",
-        "Pulitzer win hog heaven",
-        "Pulitzer finalist for national reporting 'Military secrets'",
-        "Pulitzer finalist for explanatory journalism 'Divided We Sprawl'",
-        "Pulitzer finalist for beat reporting 'Medicaid HMO Game'",
-        "CAR trips: First adventures Debunking gas claims",
-        "NICAR seminars Taking the show on the road",
-        "Post praises 'ambassadors'",
-        "Miss something?",
-        "Tech tips: A guide to search engines Seek and ye shall find",
-        "On the Internet Awards, honors and prizes",
-        "Tech tips: Searching (continued from page eight)",
-        "Here's a tip if you're trying to find a listserv",
-        "From page one: Finding fertility fraud",
-        "Growing collection of federal databases From the NICAR library",
-        "From page four: 'Divided We Sprawl' (continued)",
-        "Bits, Bytes and Barks",
-        "Check out the IRE contest home page",
-        "Data to think about",
-        "NICARIANS moving on",
-        "Taxed to the limit?",
-        "Keep up with NICAR online"
-      ]
-    },
-    {
-      "stem": "1996_06",
-      "num_articles": 1,
-      "text_chars": 51503,
-      "captured_chars": 2517,
-      "ratio": 0.04887093955691901,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 51503 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Oops! Uplink update",
-        "Errors can wreck stories",
-        "Checking data integrity",
-        "Crash course on plane crashes",
-        "Playing by the numbers",
-        "Erratic enforcement found",
-        "What's on TRAC's IRS Web site",
-        "Tracking rail safety",
-        "Data you can surf",
-        "From the NICAR library",
-        "Bits, Bytes and Barks",
-        "Producers wanted",
-        "Miami Herald changes, job opening",
-        "New IRE-L and NICAR-L addresses"
-      ]
-    },
-    {
-      "stem": "1996_07",
-      "num_articles": 1,
-      "text_chars": 50607,
-      "captured_chars": 3203,
-      "ratio": 0.06329163949651234,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 50607 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Wish you were here",
-        "Fishing in international waters Reeling in Web data",
-        "Danes battle for access",
-        "Jyllands-Posten website notice",
-        "Dueling for Canadian data",
-        "Quebec Launch Pad for Journalists",
-        "Canada explores CAR",
-        "Public Information Dataset Manifest notice",
-        "Excel goes Dutch",
-        "Kyodo news agency homepage notice",
-        "Bootcamps fill up fast",
-        "CAR Workshop for Minority Journalists notice",
-        "IRE-L and NICAR-L list archives notice",
-        "Untangling problem layouts",
-        "NameBase research tool notice",
-        "IRE committees notice",
-        "Data you can access",
-        "Advanced Bootcamp notice",
-        "Growing collection of federal databases",
-        "NICAR bootcamps notice",
-        "Bits, Bytes and Barks",
-        "Get them while they last",
-        "New IRE-L and NICAR-L addresses"
-      ]
-    },
-    {
-      "stem": "1996_08",
-      "num_articles": 10,
-      "text_chars": 52698,
-      "captured_chars": 21713,
-      "ratio": 0.41202702189836427,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Roll out the barrel",
-        "From the NICAR library",
-        "Bits, Bytes and Barks",
-        "New IRE-L and NICAR-L addresses"
-      ]
-    },
-    {
-      "stem": "1996_09",
-      "num_articles": 9,
-      "text_chars": 64772,
-      "captured_chars": 25419,
-      "ratio": 0.3924380905329463,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Picture this",
-        "CAR in any newsroom",
-        "IRE conference handouts notice",
-        "CAR Workshop for Minority Journalists notice",
-        "On the Internet",
-        "IRE/NICAR Student Regional Conference notice",
-        "Advanced Bootcamp notice",
-        "National Fire Information Reporting System availability notice",
-        "Don't get burned",
-        "IRE committees volunteers notice",
-        "100 Computer-Assisted Stories notice",
-        "NICAR on track for NashCAR conference",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks",
-        "ProfNet update"
-      ]
-    },
-    {
-      "stem": "1996_10",
-      "num_articles": 3,
-      "text_chars": 66134,
-      "captured_chars": 14422,
-      "ratio": 0.21807239846372517,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "For the birds",
-        "New kid",
-        "What toxins are wafting your way?",
-        "Cancer-causing chemicals",
-        "Reproductive toxins",
-        "CAR helps catch big fish story",
-        "Environmental sites that cook",
-        "Web sites for job listings",
-        "Data makes INS sweat",
-        "Students beat odds",
-        "IRE committees seeking volunteers",
-        "How long did that take?",
-        "Excel tip: flipping data",
-        "Math for journalists",
-        "Math for journalists resources",
-        "We've got plans for you",
-        "Contest, publications and more",
-        "Get your training",
-        "From the NICAR library",
-        "NashCAR on track",
-        "Jobs",
-        "IRE-L and NICAR-L addresses"
-      ]
-    },
-    {
-      "stem": "1996_11",
-      "num_articles": 15,
-      "text_chars": 67068,
-      "captured_chars": 33203,
-      "ratio": 0.4950647104431323,
+      "stem": "1998_11",
+      "num_articles": 7,
+      "text_chars": 33731,
+      "captured_chars": 14513,
+      "ratio": 0.4302570335892799,
       "band": "red",
       "override_reason": null,
       "flags": [],
       "truncated": [
-        {
-          "index": 0,
-          "headline": "Uplink update",
-          "reason": "continuation marker at end"
-        },
-        {
-          "index": 4,
-          "headline": "No data? No dice: Excuses, excuses",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": [
-        "Ready, aim, FOIA",
-        "Electronic battles",
-        "Journalists can get help with FOI issues by:",
-        "Excuses, excuses",
-        "Breaking barriers",
-        "Check out the IRE-L and NICAR-L mailing list archives",
-        "California dreaming",
-        "Join the fight",
-        "Access these FOI sites",
-        "Moving on up",
-        "Using Report Writer",
-        "We've just made it easier to become an IRE member",
-        "Reporter ISO love story",
-        "Trucking, trucking, trucked",
-        "IRE committees always are on the lookout for good volunteers",
-        "Get your training",
-        "From the NICAR library",
-        "Gearing up for NashCAR",
-        "Moving on",
-        "Jobs",
-        "IRE-L and NICAR-L addresses",
-        "Intermediate CAR seminar",
-        "Don't forget that the Advanced Bootcamp"
-      ]
-    },
-    {
-      "stem": "1996_12",
-      "num_articles": 3,
-      "text_chars": 67326,
-      "captured_chars": 12284,
-      "ratio": 0.18245551495707454,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Rocking the rules",
-        "Continued from page one: Baby business",
-        "From page two: Station times emergency responses",
-        "Handout of the month",
-        "Check out the AMA Web site",
-        "Continued from page one: Vital signs",
-        "Let's split",
-        "Take our money - please",
-        "National Association of Fleet Managers notice",
-        "Put the pedal to the metal",
-        "Wanted: executive director",
-        "You get what you pay for",
-        "I've got a secret",
-        "ADs, NPRMs and service bulletins",
-        "Continuedfrompagenine: What you pay for",
-        "Continued from page thirteen: More tech tip",
-        "Products notice",
-        "Get your training",
-        "From the NICAR library",
-        "Gearing up for NashCAR",
-        "Moving on",
-        "Science journalists",
-        "IRE-L and NICAR-L addresses"
-      ]
-    },
-    {
-      "stem": "1997_01",
-      "num_articles": 9,
-      "text_chars": 65520,
-      "captured_chars": 20982,
-      "ratio": 0.3202380952380952,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Backgrounding sites",
-        "The Reporters Network",
-        "New on-the-road trainer hired",
-        "IRE membership online join notice",
-        "Pawnshops draw criminals",
-        "Get your training",
-        "From the NICAR library",
-        "Jobs"
-      ]
-    },
-    {
-      "stem": "1997_02",
-      "num_articles": 2,
-      "text_chars": 64826,
-      "captured_chars": 10325,
-      "ratio": 0.15927251411470705,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 64826 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Counting the crashes",
-        "Wire service serves CAR",
-        "Internet travel assistance",
-        "Mining data from Census",
-        "NashCAR: Ready to roll",
-        "IRE News",
-        "CAR goes on field trip",
-        "Tricks with the delete marker",
-        "NashCAR '97",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_03",
-      "num_articles": 3,
-      "text_chars": 65687,
-      "captured_chars": 9333,
-      "ratio": 0.1420829083380273,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Summa CAR Laude",
-        "Quick hits",
-        "Crime connections",
-        "Score!",
-        "The real story",
-        "Trading places",
-        "Babies, buildings and bureaucrats",
-        "On the Internet",
-        "Tech Tip",
-        "CAR Trips: First ventures",
-        "NICAR Notes",
-        "Newcomer's tips",
-        "Handout of the month",
-        "Seminars, bootcamps, conferences",
-        "Growing collection of federal databases",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_04",
-      "num_articles": 1,
-      "text_chars": 66673,
-      "captured_chars": 5749,
-      "ratio": 0.08622680845319694,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 66673 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Lonely Hearts",
-        "Getting Back to Basics",
-        "Statistics Resources",
-        "Power to the people",
-        "Correction",
-        "Stats from the road",
-        "FoxPro wrote me a letter",
-        "Surfing for stats",
-        "IRE gets Joyce grant",
-        "Census profiles communities",
-        "Get your training",
-        "From the NICAR library",
-        "Help Wanted",
-        "NICAR Net",
-        "Statistics newsletter"
-      ]
-    },
-    {
-      "stem": "1997_05",
-      "num_articles": 3,
-      "text_chars": 64223,
-      "captured_chars": 3430,
-      "ratio": 0.05340765769272691,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Investigating crime statistics",
-        "Continuing with crosstabs",
-        "CAR catches big fish",
-        "Reporter lands rudder story",
-        "Cheating at FoxPro",
-        "Surfing for winners",
-        "Spreadsheet story ideas",
-        "So many CAR options",
-        "Get your training",
-        "From the NICAR library",
-        "NICAR Net"
-      ]
-    },
-    {
-      "stem": "1997_06",
-      "num_articles": 1,
-      "text_chars": 63205,
-      "captured_chars": 3171,
-      "ratio": 0.050170081480895495,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 63205 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink Update",
-        "Experimenting with Drugs",
-        "Beyond the nightmares",
-        "IRE Resource Center notice",
-        "Head of the Class",
-        "More databases; Volunteers",
-        "Rigging the Results",
-        "What's Your Function?",
-        "Must-have sites",
-        "A Question of Diversity",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_07",
-      "num_articles": 4,
-      "text_chars": 66099,
-      "captured_chars": 17685,
-      "ratio": 0.2675532156310988,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Newspaper coalitions",
-        "Cultivating CAR",
-        "Keeping CAR local",
-        "Using regression analysis",
-        "Backgrounding individuals",
-        "The data, they are a changin'",
-        "Quick Hits",
-        "Campaign finance assistance",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_08",
-      "num_articles": 9,
-      "text_chars": 65580,
-      "captured_chars": 17795,
-      "ratio": 0.27134797194266547,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 0,
-          "headline": "Separate & Unequal",
-          "reason": "no sentence-ending punctuation"
-        },
-        {
-          "index": 5,
-          "headline": "Stats from the road",
-          "reason": "no sentence-ending punctuation"
-        },
         {
           "index": 6,
-          "headline": "CAR Tech Tip",
-          "reason": "very short"
-        },
-        {
-          "index": 7,
-          "headline": "On the Internet",
-          "reason": "no sentence-ending punctuation"
-        },
-        {
-          "index": 8,
-          "headline": "IRE/NICAR Notes",
+          "headline": "Out-of-date data",
           "reason": "no sentence-ending punctuation"
         }
       ],
-      "toc_missing": [
-        "Back to School",
-        "Seminars, bootcamps, conferences",
-        "From the NICAR library",
-        "Bits, Bytes and Barks",
-        "Reader Response",
-        "NICAR Net"
-      ]
-    },
-    {
-      "stem": "1997_10",
-      "num_articles": 2,
-      "text_chars": 60627,
-      "captured_chars": 10405,
-      "ratio": 0.1716232041829548,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 60627 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Analyzing property tax",
-        "Covering Housing",
-        "International Wrap-up",
-        "Finland update",
-        "Denmark Update",
-        "Making data entry easy",
-        "Around the world on the Web",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_11",
-      "num_articles": 1,
-      "text_chars": 61699,
-      "captured_chars": 4997,
-      "ratio": 0.08098996742248658,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 61699 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Slam Dunk",
-        "Bending the Rules",
-        "Open records tips",
-        "Hunting for data",
-        "Poll producer",
-        "Playing with Statistics",
-        "One-to-many how-to",
-        "World Wide Sports",
-        "When the team leaves home",
-        "Database update",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1997_12",
-      "num_articles": 1,
-      "text_chars": 100879,
-      "captured_chars": 4963,
-      "ratio": 0.04919755350469374,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 100879 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Error Free Goof-proofing CAR",
-        "Beginner's lesson in teaching",
-        "What teaching is really like",
-        "Driver's education",
-        "Broadening a CAR program",
-        "Military hospitals report",
-        "Taming crime statistics",
-        "Math for every reporter",
-        "CAR down under",
-        "CAR training tips",
-        "Get your training",
-        "From the NICAR library",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_02",
-      "num_articles": 2,
-      "text_chars": 64833,
-      "captured_chars": 9211,
-      "ratio": 0.14207270988539786,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 64833 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Behind the Ratings",
-        "Processor violations",
-        "Dirty kitchens",
-        "Demystifying CAR",
-        "Client/server solutions",
-        "Risky Behavior",
-        "Evaluating educators",
-        "Soup's On",
-        "Upcoming Events",
-        "Wipe away math fears",
-        "Converting dates in Access",
-        "Highlights from the Database Library",
-        "Health care hints",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_03",
-      "num_articles": 2,
-      "text_chars": 58510,
-      "captured_chars": 2470,
-      "ratio": 0.042215005981883436,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 58510 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "MAKING THE WAVES: TV transformed",
-        "AIR APPARENT Update",
-        "CAMPAIGN FINANCE: Access granted",
-        "The Disclaimer",
-        "The Conversion",
-        "Columbus discoveries",
-        "Pension plunder",
-        "Problem paramedics",
-        "CAR hits the road",
-        "Purchased aid (Campaign Finance continued)",
-        "Plug in to the 'Net",
-        "Sex criminals exposed",
-        "UPCOMING BOOT CAMPS",
-        "Cleaning tables",
-        "A bridge to CAR",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_04",
-      "num_articles": 1,
-      "text_chars": 68834,
-      "captured_chars": 3385,
-      "ratio": 0.04917627916436645,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 68834 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "VOTER FRAUD",
-        "TECH TIP Enter Intranets",
-        "IRE RESOURCE CENTER VOTER FRAUD STORIES",
-        "Newsroom boost",
-        "INDIANA CAR Learning to share",
-        "FoxPro to Access and back again",
-        "Newsworthy contributions",
-        "STATS FROM THE ROAD Causes and effects",
-        "HANDOUT OF THE MONTH Required reading",
-        "ON THE INTERNET Search for news - not noise",
-        "FIRST VENTURES Government felons",
-        "Bits, Bytes and Barks",
-        "CFIC Mailing List"
-      ]
-    },
-    {
-      "stem": "1998_05",
-      "num_articles": 3,
-      "text_chars": 66168,
-      "captured_chars": 6828,
-      "ratio": 0.10319187522669568,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Wrestling giants",
-        "Sudden Seizures",
-        "System protecting military malpractice",
-        "Undeserved overtime",
-        "CAR with microdata",
-        "Pulitzer profiles",
-        "Steps to data freedom",
-        "Cold Fusion",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_06",
-      "num_articles": 3,
-      "text_chars": 68123,
-      "captured_chars": 4687,
-      "ratio": 0.06880201987581287,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Two WEB SITES TO CHECK OUT FOR YEAR 2000 COMPUTER ISSUES INCLUDE:",
-        "Date handling in popular CAR applications",
-        "WENDELL COCHRAN PROVIDES THE FOLLOWING WEB SITES OF COMPUTER COMPANIES ADDRESSING YEAR 2000 COMPUTER ISSUES:",
-        "Tales from the vault",
-        "A more perfect union",
-        "Battling for access",
-        "Beyond plain Boolean",
-        "Boolean Logic Primer",
-        "Assembly required",
-        "Paper riches",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_07",
-      "num_articles": 1,
-      "text_chars": 68440,
-      "captured_chars": 2497,
-      "ratio": 0.036484511981297485,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 68440 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "SPREADING HAZARDS Toxic two-time",
-        "WILSON WRITES",
-        "BOOMING OR BUSTING? Rising bankruptcies",
-        "THE WEEK-LONG BANKRUPTCY SERIES FOCUSED ON THE FOLLOWING QUESTIONS",
-        "ON THE INTERNET Estimating relevancy",
-        "BERKMAN WRITES: Flooding engines",
-        "STATS FROM THE ROAD Sampling: Not a dirty word",
-        "UPCOMING BOOT CAMPS",
-        "FIRST VENTURES Clogged artery",
-        "HANDOUT OF THE MONTH Spreading CAR at small news organizations",
-        "Maintaining CAR on duct-tape budgets",
-        "Chasing the big story",
-        "TECH TIP Tell me Y2K you cry",
-        "DATABASE LIBRARY HIGHLIGHTS Hazardous materials",
-        "NICAR's DATABASE LIBRARY HAS RECENTLY UPDATED THREE FEDERAL AVIATION ADMINISTRATION DATABASES",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_08",
-      "num_articles": 2,
-      "text_chars": 71089,
-      "captured_chars": 2927,
-      "ratio": 0.04117373995976874,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 71089 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "ANALYZING SCHOOL ANALYSIS",
-        "CAR-COOKING RAW NUMBERS",
-        "ASSESSING THE E-RATE",
-        "A FEW GOOD CARs",
-        "REPORT CARDS REVISAL",
-        "NICAR's DATABASE LIBRARY HAS RECENTLY ADDED THE FOLLOWING DATA SETS",
-        "TECH TIP",
-        "HANDOUT OF THE MONTH",
-        "STATS FROM THE ROAD",
-        "FIRST VENTURES",
-        "ON THE INTERNET",
-        "Bits, Bytes and Barks",
-        "Conference Audio Tapes",
-        "Campaign Finance Information Center",
-        "Moving On",
-        "Conferences: The Next Wave"
-      ]
-    },
-    {
-      "stem": "1998_09",
-      "num_articles": 4,
-      "text_chars": 57454,
-      "captured_chars": 7306,
-      "ratio": 0.12716259964493334,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "DISCOVERING INTERSECTIONS",
-        "THE DAILY COMMUTE",
-        "FOR A LIST OF LOCAL ARCVIEW USERS GROUPS",
-        "INFRASTRUCTURE OUTLINE",
-        "CRIMES OF THE WEEK",
-        "TECH TIP",
-        "ON THE INTERNET",
-        "UPCOMING BOOT CAMPS",
-        "STATS FROM THE ROAD",
-        "ALSO SEE LAFLEUR'S ARTICLE ON MAPPING",
-        "Handouts of the Month / Software hardline",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_10",
-      "num_articles": 2,
-      "text_chars": 68329,
-      "captured_chars": 10640,
-      "ratio": 0.15571719182192043,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 68329 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CAR-covered planet",
-        "Waste deep",
-        "Mire on the mountain",
-        "Polluters online",
-        "Political science",
-        "Manning and Kanigher offer these tips for starting Internet searches",
-        "Daily nuclear feed",
-        "Jobs and Online CAR Projects notices",
-        "Recalled emissions",
-        "Upcoming Boot Camps",
-        "Gleaning cleanliness",
-        "Means to appends",
-        "Database Library additions",
-        "Society of Environmental Journalists notice",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1998_11",
-      "num_articles": 1,
-      "text_chars": 33731,
-      "captured_chars": 2106,
-      "ratio": 0.06243514867629184,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 33731 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "2000 tuneup",
-        "Surfing data waves",
-        "Census resources",
-        "Quick hits and the long term",
-        "County population estimates",
-        "Out-of-date data"
-      ]
-    },
-    {
-      "stem": "1998_12",
-      "num_articles": 3,
-      "text_chars": 70899,
-      "captured_chars": 5288,
-      "ratio": 0.07458497298974598,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "UNDERMINING DEFINING",
-        "CORRECTIONAL CARE",
-        "\"WE DON'T FILE OUT TAPES\"",
-        "CRIME WITHOUT PUNISHMENT",
-        "FIRST VENTURES",
-        "TECH TIP",
-        "ON THE INTERNET",
-        "From the mailbox",
-        "STATS FROM THE ROAD",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1999_01",
-      "num_articles": 2,
-      "text_chars": 99040,
-      "captured_chars": 4440,
-      "ratio": 0.04483037156704362,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 99040 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Charting campaign cash",
-        "Simplifying incidents",
-        "Mapping crimes",
-        "Build-your-own tables",
-        "Coding questions",
-        "Let the buyer know fares",
-        "Dealing wheels",
-        "Neighborhood rap sheet",
-        "UPCOMING BOOT CAMPS",
-        "Planes, trains",
-        "Crash course (#816)",
-        "Must-have resource (#677)",
-        "Colliding databases (#816)",
-        "Using aviation safety documents (#677)",
-        "Transportation scams and bungling - some tips (#847)",
-        "Hidden hazards (#618)",
-        "Transportation sites",
-        "Searching for influence",
-        "CFIC revamped",
-        "Can't get a date?",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "1999_03",
-      "num_articles": 1,
-      "text_chars": 35489,
-      "captured_chars": 2209,
-      "ratio": 0.0622446391839725,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 35489 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Unsafe taps",
-        "Money or mercy?",
-        "Upcoding downfall",
-        "Treatment disparity",
-        "Wanted: mentally ill",
-        "Revisiting hours",
-        "Laxity allowed",
-        "Medicare milked",
-        "Finding the unknown",
-        "Measured neglect"
-      ]
-    },
-    {
-      "stem": "1999_06",
-      "num_articles": 3,
-      "text_chars": 67228,
-      "captured_chars": 15532,
-      "ratio": 0.2310346879276492,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Counting crime right",
-        "Digging up submarines",
-        "Look Before Touching",
-        "FIPS fixes",
-        "Geo-spatial sites",
-        "Usable Data",
-        "NICAR data update"
-      ]
-    },
-    {
-      "stem": "1999_07",
-      "num_articles": 2,
-      "text_chars": 99027,
-      "captured_chars": 4279,
-      "ratio": 0.04321043755743383,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 99027 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CAMPAIGN FINANCE: Kiddie donors",
-        "AMBULANCE RESPONSE TIMES: Cardiac crapshoot",
-        "WARNING HOMEOWNERS: Shoddy shacks",
-        "FIRST VENTURES: Animals to go",
-        "NERD NOTES: Zoo data can be a bear",
-        "ERRING PHARMACISTS: Dealing drugs",
-        "TICKET SCAMS: Bad drivers fund city",
-        "SUPREME COURT AND CAR: Justice is Blind",
-        "ON THE INTERNET: Backgrounding by Web",
-        "TECH TIP: Importing PDF tables",
-        "STATS AND SUCH: Raging to regress",
-        "HANDOUTS OF THE MONTH: Sprawling around",
-        "HANDOUTS OF THE MONTH: Editing CAR work",
-        "Bits, Bytes and Barks: NICAR data update"
-      ]
-    },
-    {
-      "stem": "1999_10",
-      "num_articles": 2,
-      "text_chars": 68618,
-      "captured_chars": 4566,
-      "ratio": 0.06654230668337754,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 68618 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Kennedy crash",
-        "Transplant disparity",
-        "What's next?",
-        "Uplink survey",
-        "Being prepared pays",
-        "Tales from the field",
-        "Back to school",
-        "College crime",
-        "Using SAT scores",
-        "Numerical accuracy",
-        "Desktop site improved",
-        "Political coverage",
-        "Delimiter dilemmas",
-        "Story update",
-        "NICAR data update",
-        "Upcoming advanced CAR training"
-      ]
-    },
-    {
-      "stem": "1999_11",
-      "num_articles": 1,
-      "text_chars": 35265,
-      "captured_chars": 5131,
-      "ratio": 0.14549836948816106,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 35265 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Behind school walls",
-        "Conviction rate",
-        "Campus crime",
-        "Columbine aftermath",
-        "A few of the stories on school violence at the IRE Resource Center",
-        "Inconsistent data",
-        "More resources on school violence",
-        "School violence resources",
-        "Learning the hard part",
-        "Tipsheets available from the IRE Resource Center",
-        "Uplink story ideas",
-        "Aftermath",
-        "The Bush files",
-        "Bush data sources",
-        "Confidence rates",
-        "Y2K on the Web"
-      ]
-    },
-    {
-      "stem": "1999_12",
-      "num_articles": 2,
-      "text_chars": 63244,
-      "captured_chars": 4665,
-      "ratio": 0.07376193789134147,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 63244 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "In pursuit of data",
-        "Privatized data",
-        "Successful E-FOIA",
-        "Federal data fights",
-        "FOI resources",
-        "Overcoming Excuses",
-        "Coming soon",
-        "Foreign planes",
-        "Down the road",
-        "Fatal accidents",
-        "Bundling bucks",
-        "Drivers' records access",
-        "Mapping conversions",
-        "ArcView themes",
-        "The 1999 IRE Awards",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2000_01",
-      "num_articles": 2,
-      "text_chars": 100375,
-      "captured_chars": 7112,
-      "ratio": 0.07085429638854296,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 100375 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Religion with CAR",
-        "Race tabulations",
-        "Reapportionment",
-        "Uncovering secrets",
-        "Cost of living",
-        "Disciplined doctors",
-        "Where to look for data",
-        "The Money Trail: Tracking Campaign Cash",
-        "CEOs' giving habits",
-        "Online tax calculator",
-        "Weighting data",
-        "The future of CAR",
-        "Troubled bridges",
-        "Parsing nightmare",
-        "Census glossary",
-        "Predicting next Pope",
-        "Religion Web sites",
-        "Bits, Bytes and Barks",
-        "NICAR data library",
-        "Census Workshops"
-      ]
-    },
-    {
-      "stem": "2000_03",
-      "num_articles": 3,
-      "text_chars": 68361,
-      "captured_chars": 7785,
-      "ratio": 0.11388072146399263,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Around the globe",
-        "Lake Wobegon effect",
-        "Political Census",
-        "Making CAR progress",
-        "White collar crime",
-        "Recent CAR stories",
-        "Finding data",
-        "International data sources",
-        "More international data sources",
-        "Going beyond OSCAR",
-        "Other stories in the IRE Resource Center on nursing homes",
-        "Tipsheets in the IRE Resource Center",
-        "Census workshops",
-        "Recent CAR stories",
-        "The world's not flat",
-        "Nulls and averages",
-        "Some recent CAR stories",
-        "Dangerous devices",
-        "NICAR databases (as of Feb. 1, 2000)",
-        "NICAR databases (as of Feb. 1, 2000)",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2000_04",
-      "num_articles": 2,
-      "text_chars": 65014,
-      "captured_chars": 2695,
-      "ratio": 0.04145261020703233,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 65014 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Advice from the front",
-        "Other stories",
-        "Hunting felons",
-        "Young hunters",
-        "Gun issue sources",
-        "More gun issue sources",
-        "User-friendly forms",
-        "Recent CAR stories online",
-        "Recent CAR stories",
-        "Playing the lottery",
-        "Text to date",
-        "Trimming spaces",
-        "Uplink story ideas",
-        "Impact of choice",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2000_06",
-      "num_articles": 2,
-      "text_chars": 65887,
-      "captured_chars": 2869,
-      "ratio": 0.043544250003794374,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 65887 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Starting with modules",
-        "The right projection",
-        "Track federal funds",
-        "Covering tax assessments:",
-        "Exposing flaws",
-        "The Perl-y gates",
-        "Fronts for forms",
-        "Bits, Bytes and Barks",
-        "Data update",
-        "NICAR on the Web"
-      ]
-    },
-    {
-      "stem": "2000_07",
-      "num_articles": 2,
-      "text_chars": 98415,
-      "captured_chars": 9790,
-      "ratio": 0.09947670578671951,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 98415 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Kentucky Fried CAR",
-        "CAR specialists",
-        "One-man show",
-        "Sampling for answers",
-        "State-level data",
-        "Cheap & easy data",
-        "Repeat offenders",
-        "Eliciting change",
-        "SQL Server pays off",
-        "Hidden costs",
-        "Keep an eye on Ferrett",
-        "More on Perl",
-        "Newsroom training",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2000_09",
-      "num_articles": 1,
-      "text_chars": 34080,
-      "captured_chars": 5334,
-      "ratio": 0.15651408450704227,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 34080 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Rampage killers",
-        "A beginner's lessons",
-        "Mapping Bootcamp:",
-        "Flood dangers",
-        "Tipsheets:",
-        "\"Reporting Census 2000\" and related resources",
-        "No boundaries",
-        "For more information:",
-        "School test scores",
-        "Mapping Listservs:",
-        "Forming a users group",
-        "Past projects and investigations of The Columbus Dispatch"
-      ]
-    },
-    {
-      "stem": "2000_10",
-      "num_articles": 1,
-      "text_chars": 33086,
-      "captured_chars": 2133,
-      "ratio": 0.06446835519555098,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 33086 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Money talks in Russia",
-        "Boot camp lessons",
-        "Doctors and damages",
-        "Programs for parsing",
-        "VBasic resources",
-        "Uplink story ideas",
-        "Fund-raising expenses",
-        "The story",
-        "Tipsheets",
-        "Disciplinary records"
-      ]
-    },
-    {
-      "stem": "2000_11",
-      "num_articles": 3,
-      "text_chars": 65842,
-      "captured_chars": 4385,
-      "ratio": 0.0665988274961271,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Inmate imports",
-        "Web links",
-        "Discarded and decayed",
-        "Discarded and decayed",
-        "For similar stories on housing",
-        "Second chances",
-        "The following stories also address jails and prison problems",
-        "Tipsheets",
-        "Raving the wrong way",
-        "IRE's Resource Center has the following stories on drugs",
-        "FileMaker Intranet",
-        "Web links",
-        "The following stories on housing issues are available in IRE's Resource Center",
-        "Tipsheets",
-        "WEB LINKS People and records",
-        "Beat Books",
-        "Using subqueries",
-        "Mark your calendars",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2000_12",
-      "num_articles": 2,
-      "text_chars": 59267,
-      "captured_chars": 11577,
-      "ratio": 0.19533635918808107,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 59267 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Check sheets",
-        "Race and tickets",
-        "Tipsheets",
-        "Data and privacy",
-        "Web links",
-        "Tipsheets",
-        "Equity",
-        "Social science",
-        "Tapes of panels from the National CAR Conference",
-        "Tread carefully",
-        "Stories",
-        "Intranet set up",
-        "Tipsheets",
-        "Web links",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2001_01",
-      "num_articles": 2,
-      "text_chars": 90735,
-      "captured_chars": 2416,
-      "ratio": 0.02662699068716592,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 90735 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CAR newsletters",
-        "Historical data sources",
-        "Felons and nurses",
-        "Enterprise joins",
-        "Stories",
-        "Valuable accident data",
-        "The math on gambling",
-        "Stories",
-        "Tribes and casinos",
-        "Maps to go",
-        "Parking tickets",
-        "Census listserv",
-        "Restaurant inspections",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2001_03",
-      "num_articles": 1,
-      "text_chars": 34378,
-      "captured_chars": 5404,
-      "ratio": 0.15719355401710397,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 34378 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CAR in the aftermath",
-        "Everday methods",
-        "Uplink improvements",
-        "Census, maps and more",
-        "Four-day success",
-        "Election machine",
-        "CAR in Election 2000",
-        "Tipsheets for local elections",
-        "Other local election stories",
-        "The Tallahassee Democrat stories online",
-        "The New York Times and Scripps Howard post-election analysis"
-      ]
-    },
-    {
-      "stem": "2001_05",
-      "num_articles": 2,
-      "text_chars": 107617,
-      "captured_chars": 4004,
-      "ratio": 0.03720601763661875,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 107617 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CENSUS 2000 Heavy lifting ahead",
-        "Fatal highway",
-        "Truck safety",
-        "Bus driver",
-        "Water, roads and more",
-        "Data galore",
-        "Outside the gates",
-        "Tread dangers",
-        "IRE AWARDS CAR winners",
-        "More Resources",
-        "Crash scams",
-        "Body parts industry",
-        "Medical conflicts",
-        "Preparation pays off",
-        "Census Lessons",
-        "CENSUS STORIES ONLINE",
-        "Lots of kids",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2001_11",
-      "num_articles": 2,
-      "text_chars": 116109,
-      "captured_chars": 3819,
-      "ratio": 0.03289150711831124,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 116109 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Database tools",
-        "Tipsheets",
-        "Tracking Rail Accidents",
-        "Airport performance",
-        "Radioactive contamination",
-        "Deciding boundaries",
-        "Pricing homes",
-        "Family offense",
-        "Dragging justice",
-        "Affordable CAR",
-        "Danger below",
-        "More tank stories",
-        "A pet project",
-        "Uplink story ideas",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2002_01",
-      "num_articles": 2,
-      "text_chars": 119030,
-      "captured_chars": 3748,
-      "ratio": 0.03148786020331009,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 119030 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "New Uplink",
-        "Data updates: Trucks, Dams, OSHA, SBA",
-        "CNN's 'Flight Risk'",
-        "In-depth online",
-        "Links",
-        "Access after attacks",
-        "Links",
-        "Putting together the data puzzle",
-        "Tipsheets",
-        "Stories",
-        "Security problems",
-        "Tipsheets",
-        "Comparing foot traffic",
-        "Stories",
-        "Tracking a suspect",
-        "Tipsheet",
-        "Flipping a table",
-        "Ranking with Excel",
-        "Updating with Access",
-        "Detailing identities",
-        "Story/Tipsheet Available from the IRE Resource Center:",
-        "War windfall",
-        "Data",
-        "Meeting the data challenge",
-        "The stories mentioned in this edition of Uplink",
-        "Data",
-        "Doing cross tabs can create quick comparisons",
-        "A problem company",
-        "Stories",
-        "Lessons from disaster",
-        "Links",
-        "Fighting the airport",
-        "Cheap, easy solution",
-        "Links"
-      ]
+      "toc_missing": []
     },
     {
       "stem": "2002_03",
-      "num_articles": 12,
+      "num_articles": 13,
       "text_chars": 72936,
-      "captured_chars": 13639,
-      "ratio": 0.18699956125918613,
+      "captured_chars": 20476,
+      "ratio": 0.2807392782713612,
       "band": "red",
       "override_reason": null,
       "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "readme.txt",
-        "Mining workplace data (continued)",
-        "Upcoming CAR Training"
-      ]
-    },
-    {
-      "stem": "2002_05",
-      "num_articles": 8,
-      "text_chars": 34787,
-      "captured_chars": 12545,
-      "ratio": 0.36062322131830854,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 7,
-          "headline": "Intranet tools and preparing for disaster",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": [
-        "readme.txt",
-        "readme.txt",
-        "readme.txt"
-      ]
-    },
-    {
-      "stem": "2002_07",
-      "num_articles": 1,
-      "text_chars": 71847,
-      "captured_chars": 8006,
-      "ratio": 0.11143123582056313,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 71847 chars of text"
-      ],
       "truncated": [],
       "toc_missing": []
     },
     {
-      "stem": "2002_09",
+      "stem": "2002_07",
       "num_articles": 3,
-      "text_chars": 75954,
-      "captured_chars": 3907,
-      "ratio": 0.051439028885904625,
+      "text_chars": 71847,
+      "captured_chars": 17731,
+      "ratio": 0.24678831405625845,
       "band": "red",
       "override_reason": null,
       "flags": [],
       "truncated": [],
       "toc_missing": [
-        "Bits & Bytes New and updated from the Database Library",
-        "NICAR UPDATE Changes with Uplink, Database Library",
-        "Census workshops scheduled for reporters, editors",
-        "Building a database for tracking state money",
-        "Plotting school data",
-        "Uncovering \"back-door vouchers\"",
-        "Measuring long bus rides for rural children",
-        "Rating cities' readiness to handle attacks",
-        "FAA withholds data",
-        "Tech tip.. FoxPro program cleans, standardizes names"
-      ]
-    },
-    {
-      "stem": "2002_11",
-      "num_articles": 3,
-      "text_chars": 83356,
-      "captured_chars": 4756,
-      "ratio": 0.05705648063726666,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "GIS data carries high cost",
-        "Mapping finds bars, DUI wrecks linked",
-        "SPOTLIGHT:",
-        "Bits & Bytes",
-        "Aviation data (updated)",
-        "Another member of the family moves on",
-        "Upcoming CAR, census training",
-        "Covering income, commuting with SF3",
-        "Access forms help build inspections database",
-        "Mapping the census",
-        "Data shows judges set suspects free",
-        "Analysis finds juries lack color",
-        "Checking for duplicates in Excel",
-        "Elder care homes ripe for probes",
-        "Stitching points, data when GIS address matches fail"
-      ]
-    },
-    {
-      "stem": "2003_01",
-      "num_articles": 3,
-      "text_chars": 82992,
-      "captured_chars": 3194,
-      "ratio": 0.038485637169847695,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Digging into health, medicine",
-        "Database Library News",
-        "Hands-on CAR training upcoming",
-        "Counting the faithful with church roll data",
-        "Other sources of religion data",
-        "Database Library News continued",
-        "TV pioneer Cox rolls with changes",
-        "Judges database helps uncover political games",
-        "Free stats programs compare hospitals",
-        "Eatery data shows poor food handling",
-        "Using SAS code in other programs",
-        "Office package needs more work",
-        "Data Library tackles specialty data jobs"
-      ]
-    },
-    {
-      "stem": "2003_03",
-      "num_articles": 3,
-      "text_chars": 59527,
-      "captured_chars": 4340,
-      "ratio": 0.07290809212626204,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Key data, resources for covering conflict",
-        "Help from IRE & NICAR",
-        "Hands-on CAR training upcoming",
-        "New audit data",
-        "Extra! Extra!",
-        "KBS boot camp",
-        "FEDERAL SPENDING Getting a handle on shuttle contractors",
-        "The Business of War",
-        "FIRST VENTURE Simple queries find prince of the city",
-        "EDUCATION Analysis helps uncover college funding scheme",
-        "Tech tip... Using Census files to link 1990 and 2000 geography"
-      ]
-    },
-    {
-      "stem": "2003_07",
-      "num_articles": 3,
-      "text_chars": 79356,
-      "captured_chars": 16598,
-      "ratio": 0.20915872775845556,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Simple sorts reveal cops' overtime jackpot",
-        "Historical spending data",
-        "IRE's chief trainer moves on",
-        "Hands-on CAR training upcoming",
-        "CAR gives contest winners boost",
-        "Data analysis",
-        "Training",
-        "Tallying the bill for unused sick time",
-        "GIS shows close call for Dallas",
-        "Combing through data finds top-paid workers",
-        "Analysis spots hiring during state crunch",
-        "GPS units add depth to reporting",
-        "Buying a GPS",
-        "Tech tip continued from page 13",
-        "Data for covering workers, compensation",
-        "Hiring continued from page 9",
-        "Salaries continued from page 8",
-        "Overtime continued from page 1",
-        "Back tax continued from page 1",
-        "Incumbent continued from page 1"
-      ]
-    },
-    {
-      "stem": "2003_09",
-      "num_articles": 4,
-      "text_chars": 102301,
-      "captured_chars": 11348,
-      "ratio": 0.11092755691537717,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Fresh migration, aircraft data",
-        "Breaking news help",
-        "New Beat Book",
-        "Contribute your files to database library",
-        "Hands-on CAR training upcoming",
-        "Pinpointing polluters in Chicago area",
-        "Mapping soil tests shows legacy of lead",
-        "Showing sources, effects of emmissions",
-        "Squeezing trends from air emissions data",
-        "Making sense of Navy aviation crash data",
-        "Using ParseRat to carve up names",
-        "New Linux offering great for serving data"
-      ]
-    },
-    {
-      "stem": "2003_11",
-      "num_articles": 1,
-      "text_chars": 80875,
-      "captured_chars": 6886,
-      "ratio": 0.08514374034003092,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 1 article(s) from 80875 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Data-based approach reaps great stories",
-        "Newsroom data depots no longer a luxury",
-        "Bits & Bytes",
-        "New faces, changes at database library",
-        "Hands-on CAR training",
-        "Party town arrest patterns uncovered",
-        "CAR Conference",
-        "Breaking news",
-        "New service opens door to most recent data",
-        "Finding a snow job after storm",
-        "Showing contributions from strip-club workers",
-        "Spreadsheet, good eye help find missing money",
-        "readme.txt (IRE tipsheets on campaign finance)",
-        "Free tool reads, converts SAS data",
-        "Geometry, scripting find nearby points",
-        "readme.txt (CAR tool tip)",
-        "Upcoming CAR Workshops",
-        "readme.txt (newsroom intranets tipsheets)"
+        "Bits & Bytes continued"
       ]
     },
     {
       "stem": "2004_09",
-      "num_articles": 12,
+      "num_articles": 19,
       "text_chars": 96142,
-      "captured_chars": 31270,
-      "ratio": 0.32524807056229327,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Hazardous-site data available",
-        "Pollution beat book",
-        "Upcoming hands-on CAR training",
-        "Hazmat updated",
-        "Editor's note",
-        "Where's the fire [station]?",
-        "readme.txt"
-      ]
-    },
-    {
-      "stem": "2005_01",
-      "num_articles": 14,
-      "text_chars": 93507,
-      "captured_chars": 35445,
-      "ratio": 0.3790625300779621,
+      "captured_chars": 39362,
+      "ratio": 0.4094152399575628,
       "band": "red",
       "override_reason": null,
       "flags": [],
       "truncated": [
         {
-          "index": 12,
-          "headline": "Setting up, stocking your data warehouse",
+          "index": 9,
+          "headline": "Editor's note",
+          "reason": "very short"
+        },
+        {
+          "index": 18,
+          "headline": "readme.txt",
           "reason": "no sentence-ending punctuation"
         }
       ],
-      "toc_missing": [
-        "UPCOMING TRAINING",
-        "2005 CAR Training",
-        "readme.txt",
-        "readme.txt",
-        "readme.txt",
-        "readme.txt"
-      ]
-    },
-    {
-      "stem": "2005_05",
-      "num_articles": 2,
-      "text_chars": 74842,
-      "captured_chars": 7152,
-      "ratio": 0.0955613158387002,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 74842 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "Finding overlap in public-private interests",
-        "Bits & Bytes",
-        "Seleman joins IRE",
-        "Time to say thanks to our writers",
-        "About our contributors",
-        "Uncovering bad bridges at risk in mudslides",
-        "readme.txt",
-        "911 data shows system's shortcomings",
-        "readme.txt",
-        "The dividing line",
-        "Tracking hurricanes path to the coast",
-        "readme.txt",
-        "EXTRA! EXTRA! YOUR GUIDE TO THE LATEST INVESTIGATIVE WORK",
-        "Grappling with data on EPA mainframe",
-        "Cleaning your files With TextPipe"
-      ]
-    },
-    {
-      "stem": "2005_09",
-      "num_articles": 2,
-      "text_chars": 92452,
-      "captured_chars": 7222,
-      "ratio": 0.07811621165577813,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 92452 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "PHILIP MEYER JOURNALISM AWARD Contest honors stats pioneer",
-        "Visiting journalist",
-        "Global gathering",
-        "Change of seasons in Database Library",
-        "Contest continued from page 1",
-        "Bits & Bytes continued from page 2",
-        "Pollution data",
-        "Looking anew at dams, taxes, bridges",
-        "Uneven hand in enforcement",
-        "GIS software discount for IRE members only",
-        "Homes, drought a fiery mix",
-        "Database answers bankruptcy questions",
-        "EXTRA! EXTRA! YOUR GUIDE TO THE LATEST INVESTIGATIVE WORK",
-        "Detecting bloat in job claims",
-        "Dissecting biggest public companies",
-        "Resources for covering business",
-        "Tech tip Making XML useful",
-        "Home mortgage resources",
-        "Homes continued from page 7",
-        "Mortgage continued from page 17"
-      ]
+      "toc_missing": []
     },
     {
       "stem": "2005_11",
-      "num_articles": 11,
+      "num_articles": 16,
       "text_chars": 78865,
-      "captured_chars": 13444,
-      "ratio": 0.1704685221581183,
+      "captured_chars": 20258,
+      "ratio": 0.2568693336714639,
       "band": "red",
       "override_reason": null,
       "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "SPOTLIGHT: For more about hurricane destruction see:",
-        "Entries in [Philip Meyer Journalism Awards]",
-        "Boating resources",
-        "Hurricane help",
-        "About our contributors ...",
-        "[Google Maps API / mapping hacks]",
-        "CAR Workshops"
-      ]
+      "truncated": [
+        {
+          "index": 2,
+          "headline": "SPOTLIGHT: For more about hurricane destruction see:",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
     },
     {
       "stem": "2006_05",
-      "num_articles": 4,
+      "num_articles": 10,
       "text_chars": 45809,
-      "captured_chars": 4197,
-      "ratio": 0.09161955074330372,
+      "captured_chars": 16374,
+      "ratio": 0.3574406775961056,
       "band": "red",
       "override_reason": null,
       "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Storm season",
-        "Deadly roads",
-        "CAR: It's a starting point",
-        "About our contributors",
-        "Stats help deflate big crowd count",
-        "Excel & VB help crack school finances"
-      ]
+      "truncated": [
+        {
+          "index": 4,
+          "headline": "Deadly roads",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
     },
     {
       "stem": "2006_07",
-      "num_articles": 8,
+      "num_articles": 10,
       "text_chars": 77463,
-      "captured_chars": 35410,
-      "ratio": 0.457121464441088,
+      "captured_chars": 35022,
+      "ratio": 0.45211262150962395,
       "band": "red",
       "override_reason": null,
       "flags": [],
@@ -2297,153 +142,217 @@
           "reason": "no sentence-ending punctuation"
         }
       ],
-      "toc_missing": [
-        "Bits & Bytes",
-        "EXTRA! EXTRA! YOUR GUIDE TO THE LATEST INVESTIGATIVE WORK"
-      ]
-    },
-    {
-      "stem": "2007_03",
-      "num_articles": 2,
-      "text_chars": 34855,
-      "captured_chars": 2128,
-      "ratio": 0.0610529335819825,
-      "band": "red",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 34855 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "CENSUS SHOWS BLACKS DRIVEN FROM THEIR HOMES",
-        "MEYER WINNERS EXAMINE STOCKS, HOSPITALS, SCHOOLS",
-        "Campus Crime Update",
-        "IRE spring training",
-        "TRACKING COTTON SUBSIDIES AND LEARNING SQL SERVER ON THE FLY",
-        "COTTON",
-        "FARMSUBSIDY.ORG OPENS ACCESS TO EU FARM PAYMENTS",
-        "FARMSUBSIDY.ORG",
-        "REPORTING ON MIGRANT FARM LABOR"
-      ]
+      "toc_missing": []
     }
   ],
   "yellow": [
     {
-      "stem": "1992_09",
-      "num_articles": 2,
-      "text_chars": 24073,
-      "captured_chars": 13734,
-      "ratio": 0.5705146845013085,
-      "band": "yellow",
-      "override_reason": null,
-      "flags": [
-        "only 2 article(s) from 24073 chars of text"
-      ],
-      "truncated": [],
-      "toc_missing": [
-        "the seductive technology",
-        "Real help for data junkies",
-        "Tech tips: Eliminating happy faces and other garbage characters",
-        "CORRECTION",
-        "Bits, bytes and nibbles"
-      ]
-    },
-    {
-      "stem": "1993_04",
-      "num_articles": 4,
-      "text_chars": 28304,
-      "captured_chars": 18178,
-      "ratio": 0.6422413793103449,
+      "stem": "1996_06",
+      "num_articles": 14,
+      "text_chars": 51503,
+      "captured_chars": 31000,
+      "ratio": 0.6019066850474729,
       "band": "yellow",
       "override_reason": null,
       "flags": [],
       "truncated": [],
-      "toc_missing": [
-        "Turning print-image files into databases",
-        "Monarch",
-        "Bits, bytes and nibbles",
-        "Uplink becomes bimonthly",
-        "An invitation for Paradox users",
-        "Jon Schmid moves south for a new job"
-      ]
+      "toc_missing": []
     },
     {
-      "stem": "1995_02",
-      "num_articles": 3,
-      "text_chars": 25067,
-      "captured_chars": 13679,
-      "ratio": 0.5456975306179439,
-      "band": "yellow",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Uplink update",
-        "Coming Events",
-        "SDR reports still useful",
-        "From the NICAR library",
-        "Road seminars open to all",
-        "Bits, Bytes and Barks"
-      ]
-    },
-    {
-      "stem": "2003_05",
-      "num_articles": 11,
-      "text_chars": 36860,
-      "captured_chars": 21506,
-      "ratio": 0.5834508952794357,
+      "stem": "1996_08",
+      "num_articles": 12,
+      "text_chars": 52698,
+      "captured_chars": 30014,
+      "ratio": 0.5695472313939808,
       "band": "yellow",
       "override_reason": null,
       "flags": [],
       "truncated": [
         {
-          "index": 0,
-          "headline": "Homemade files track priests",
-          "reason": "no sentence-ending punctuation"
-        },
+          "index": 11,
+          "headline": "New IRE-L and NICAR-L addresses",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "1997_01",
+      "num_articles": 14,
+      "text_chars": 65520,
+      "captured_chars": 39565,
+      "ratio": 0.6038614163614163,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
         {
           "index": 1,
-          "headline": "Finding backyard military contractors",
+          "headline": "Backgrounding sites",
           "reason": "no sentence-ending punctuation"
         },
         {
-          "index": 6,
-          "headline": "CAR fuels TV, other division winners",
-          "reason": "no sentence-ending punctuation"
+          "index": 5,
+          "headline": "IRE membership online join notice",
+          "reason": "very short"
         },
         {
-          "index": 10,
-          "headline": "Toronto profiling stories spark a firestorm",
+          "index": 13,
+          "headline": "Jobs",
           "reason": "no sentence-ending punctuation"
         }
       ],
       "toc_missing": []
     },
     {
-      "stem": "2005_03",
+      "stem": "1998_06",
+      "num_articles": 14,
+      "text_chars": 68123,
+      "captured_chars": 41481,
+      "ratio": 0.608913289197481,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 3,
+          "headline": "Two WEB SITES TO CHECK OUT FOR YEAR 2000 COMPUTER ISSUES INCLUDE:",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "1999_05",
       "num_articles": 8,
-      "text_chars": 49016,
-      "captured_chars": 30376,
-      "ratio": 0.6197160110984169,
+      "text_chars": 35624,
+      "captured_chars": 21140,
+      "ratio": 0.5934201661801033,
       "band": "yellow",
       "override_reason": null,
       "flags": [],
       "truncated": [
         {
           "index": 1,
-          "headline": "Analysis shows feds' claims about charity",
+          "headline": "Mexico and beyond",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 3,
+          "headline": "CAR's advantages",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 7,
+          "headline": "CAR on the map",
           "reason": "no sentence-ending punctuation"
         }
       ],
-      "toc_missing": [
-        "O'Reilly joins IRE team",
-        "Updated data",
-        "UPCOMING HANDS-ON CAR TRAINING",
-        "IRE and NICAR resources for war, security coverage"
-      ]
+      "toc_missing": []
+    },
+    {
+      "stem": "2002_05",
+      "num_articles": 11,
+      "text_chars": 34787,
+      "captured_chars": 18730,
+      "ratio": 0.5384195245350275,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 10,
+          "headline": "Intranet tools and preparing for disaster",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2002_09",
+      "num_articles": 13,
+      "text_chars": 75954,
+      "captured_chars": 44483,
+      "ratio": 0.58565710824973,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": []
+    },
+    {
+      "stem": "2003_09",
+      "num_articles": 16,
+      "text_chars": 102301,
+      "captured_chars": 66328,
+      "ratio": 0.6483612085903364,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": []
+    },
+    {
+      "stem": "2005_01",
+      "num_articles": 20,
+      "text_chars": 93507,
+      "captured_chars": 51657,
+      "ratio": 0.5524399242837434,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 14,
+          "headline": "Setting up, stocking your data warehouse",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2006_03",
+      "num_articles": 10,
+      "text_chars": 58533,
+      "captured_chars": 35293,
+      "ratio": 0.602959014572976,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 1,
+          "headline": "Data lifts lid on DeLay money",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2006_11",
+      "num_articles": 12,
+      "text_chars": 34085,
+      "captured_chars": 19808,
+      "ratio": 0.5811353968021123,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 6,
+          "headline": "These sources speak when subjects won't",
+          "reason": "very short"
+        },
+        {
+          "index": 11,
+          "headline": "Wiki Resources",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
     }
   ],
-  "green_count": 58,
+  "green_count": 127,
   "overridden": [],
   "file_coverage": {
     "pdf_stems": [
