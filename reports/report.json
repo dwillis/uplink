@@ -1,0 +1,1770 @@
+{
+  "total_articles": 662,
+  "total_truncated": 116,
+  "total_toc_missing": 0,
+  "gaps": [
+    "1991_08",
+    "1993_10",
+    "1993_11",
+    "1993_12",
+    "1994_01",
+    "1994_02",
+    "1995_08",
+    "1998_01",
+    "2005_07"
+  ],
+  "fill": {
+    "total": 662,
+    "missing_author": 69,
+    "missing_keywords": 82,
+    "missing_summary": 0,
+    "missing_topics": 662,
+    "missing_technologies": 662,
+    "mislabeled_title": 322
+  },
+  "red": [
+    {
+      "stem": "1991_11",
+      "num_articles": 2,
+      "text_chars": 17031,
+      "captured_chars": 8143,
+      "ratio": 0.4781281193118431,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 17031 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1993_01",
+      "num_articles": 3,
+      "text_chars": 24881,
+      "captured_chars": 9965,
+      "ratio": 0.40050641051404684,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1993_02",
+      "num_articles": 1,
+      "text_chars": 35199,
+      "captured_chars": 4912,
+      "ratio": 0.13954941901758572,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 35199 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1994_03",
+      "num_articles": 2,
+      "text_chars": 22664,
+      "captured_chars": 9033,
+      "ratio": 0.3985615954818214,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 22664 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1994_05",
+      "num_articles": 1,
+      "text_chars": 36526,
+      "captured_chars": 1237,
+      "ratio": 0.03386628702841811,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 36526 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1994_06",
+      "num_articles": 2,
+      "text_chars": 36233,
+      "captured_chars": 11090,
+      "ratio": 0.3060745729031546,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 36233 chars of text"
+      ],
+      "truncated": [
+        {
+          "index": 1,
+          "headline": "Fed or Med? You can find it online",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1994_09",
+      "num_articles": 2,
+      "text_chars": 35047,
+      "captured_chars": 12709,
+      "ratio": 0.3626273290153223,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 35047 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1995_03",
+      "num_articles": 4,
+      "text_chars": 35256,
+      "captured_chars": 9072,
+      "ratio": 0.25731790333560245,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1995_07",
+      "num_articles": 3,
+      "text_chars": 16471,
+      "captured_chars": 4955,
+      "ratio": 0.3008317649201627,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1995_10",
+      "num_articles": 2,
+      "text_chars": 33052,
+      "captured_chars": 7142,
+      "ratio": 0.2160837468231877,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 33052 chars of text"
+      ],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "Tracking military justice",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1995_11",
+      "num_articles": 3,
+      "text_chars": 34846,
+      "captured_chars": 5048,
+      "ratio": 0.1448659817482638,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_02",
+      "num_articles": 3,
+      "text_chars": 47513,
+      "captured_chars": 14384,
+      "ratio": 0.30273819796687224,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "The big picture",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 1,
+          "headline": "Maptitude: It's a deal",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 2,
+          "headline": "Atlas GIS has site",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_03",
+      "num_articles": 2,
+      "text_chars": 52557,
+      "captured_chars": 11943,
+      "ratio": 0.22723899765968378,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 52557 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_05",
+      "num_articles": 1,
+      "text_chars": 52268,
+      "captured_chars": 3961,
+      "ratio": 0.07578250554832786,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 52268 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_06",
+      "num_articles": 1,
+      "text_chars": 51503,
+      "captured_chars": 2517,
+      "ratio": 0.04887093955691901,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 51503 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_07",
+      "num_articles": 1,
+      "text_chars": 50607,
+      "captured_chars": 3203,
+      "ratio": 0.06329163949651234,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 50607 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_08",
+      "num_articles": 10,
+      "text_chars": 52698,
+      "captured_chars": 21713,
+      "ratio": 0.41202702189836427,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_09",
+      "num_articles": 9,
+      "text_chars": 64772,
+      "captured_chars": 25419,
+      "ratio": 0.3924380905329463,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_10",
+      "num_articles": 3,
+      "text_chars": 66134,
+      "captured_chars": 14422,
+      "ratio": 0.21807239846372517,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_11",
+      "num_articles": 15,
+      "text_chars": 67068,
+      "captured_chars": 33203,
+      "ratio": 0.4950647104431323,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "Uplink update",
+          "reason": "continuation marker at end"
+        },
+        {
+          "index": 1,
+          "headline": "Ready, aim, FOIA: Keeping up with the digital revolution",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 4,
+          "headline": "No data? No dice: Excuses, excuses",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1996_12",
+      "num_articles": 3,
+      "text_chars": 67326,
+      "captured_chars": 12284,
+      "ratio": 0.18245551495707454,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_01",
+      "num_articles": 9,
+      "text_chars": 65520,
+      "captured_chars": 20982,
+      "ratio": 0.3202380952380952,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_02",
+      "num_articles": 2,
+      "text_chars": 64826,
+      "captured_chars": 10325,
+      "ratio": 0.15927251411470705,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 64826 chars of text"
+      ],
+      "truncated": [
+        {
+          "index": 1,
+          "headline": "Collision course",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_03",
+      "num_articles": 3,
+      "text_chars": 65687,
+      "captured_chars": 9333,
+      "ratio": 0.1420829083380273,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 2,
+          "headline": "The real story: Project misconceptions",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_04",
+      "num_articles": 1,
+      "text_chars": 66673,
+      "captured_chars": 5749,
+      "ratio": 0.08622680845319694,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 66673 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_05",
+      "num_articles": 3,
+      "text_chars": 64223,
+      "captured_chars": 3430,
+      "ratio": 0.05340765769272691,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_06",
+      "num_articles": 1,
+      "text_chars": 63205,
+      "captured_chars": 3171,
+      "ratio": 0.050170081480895495,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 63205 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_07",
+      "num_articles": 4,
+      "text_chars": 66099,
+      "captured_chars": 17685,
+      "ratio": 0.2675532156310988,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_08",
+      "num_articles": 9,
+      "text_chars": 65580,
+      "captured_chars": 17795,
+      "ratio": 0.27134797194266547,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "Separate & Unequal",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 5,
+          "headline": "Stats from the road",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 6,
+          "headline": "CAR Tech Tip",
+          "reason": "very short"
+        },
+        {
+          "index": 7,
+          "headline": "On the Internet",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 8,
+          "headline": "IRE/NICAR Notes",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_10",
+      "num_articles": 2,
+      "text_chars": 60627,
+      "captured_chars": 10405,
+      "ratio": 0.1716232041829548,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 60627 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_11",
+      "num_articles": 1,
+      "text_chars": 61699,
+      "captured_chars": 4997,
+      "ratio": 0.08098996742248658,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 61699 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1997_12",
+      "num_articles": 1,
+      "text_chars": 100879,
+      "captured_chars": 4963,
+      "ratio": 0.04919755350469374,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 100879 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_02",
+      "num_articles": 2,
+      "text_chars": 64833,
+      "captured_chars": 9211,
+      "ratio": 0.14207270988539786,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 64833 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_03",
+      "num_articles": 2,
+      "text_chars": 58510,
+      "captured_chars": 2470,
+      "ratio": 0.042215005981883436,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 58510 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_04",
+      "num_articles": 1,
+      "text_chars": 68834,
+      "captured_chars": 3385,
+      "ratio": 0.04917627916436645,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 68834 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_05",
+      "num_articles": 3,
+      "text_chars": 66168,
+      "captured_chars": 6828,
+      "ratio": 0.10319187522669568,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_06",
+      "num_articles": 3,
+      "text_chars": 68123,
+      "captured_chars": 4687,
+      "ratio": 0.06880201987581287,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_07",
+      "num_articles": 1,
+      "text_chars": 68440,
+      "captured_chars": 2497,
+      "ratio": 0.036484511981297485,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 68440 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_08",
+      "num_articles": 2,
+      "text_chars": 71089,
+      "captured_chars": 2927,
+      "ratio": 0.04117373995976874,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 71089 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_09",
+      "num_articles": 4,
+      "text_chars": 57454,
+      "captured_chars": 7306,
+      "ratio": 0.12716259964493334,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_10",
+      "num_articles": 2,
+      "text_chars": 68329,
+      "captured_chars": 10640,
+      "ratio": 0.15571719182192043,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 68329 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_11",
+      "num_articles": 1,
+      "text_chars": 33731,
+      "captured_chars": 2106,
+      "ratio": 0.06243514867629184,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 33731 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1998_12",
+      "num_articles": 3,
+      "text_chars": 70899,
+      "captured_chars": 5288,
+      "ratio": 0.07458497298974598,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_01",
+      "num_articles": 2,
+      "text_chars": 99040,
+      "captured_chars": 4440,
+      "ratio": 0.04483037156704362,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 99040 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_03",
+      "num_articles": 1,
+      "text_chars": 35489,
+      "captured_chars": 2209,
+      "ratio": 0.0622446391839725,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 35489 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_06",
+      "num_articles": 3,
+      "text_chars": 67228,
+      "captured_chars": 15532,
+      "ratio": 0.2310346879276492,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_07",
+      "num_articles": 2,
+      "text_chars": 99027,
+      "captured_chars": 4279,
+      "ratio": 0.04321043755743383,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 99027 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_10",
+      "num_articles": 2,
+      "text_chars": 68618,
+      "captured_chars": 4566,
+      "ratio": 0.06654230668337754,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 68618 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_11",
+      "num_articles": 1,
+      "text_chars": 35265,
+      "captured_chars": 5131,
+      "ratio": 0.14549836948816106,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 35265 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1999_12",
+      "num_articles": 2,
+      "text_chars": 63244,
+      "captured_chars": 4665,
+      "ratio": 0.07376193789134147,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 63244 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_01",
+      "num_articles": 2,
+      "text_chars": 100375,
+      "captured_chars": 7112,
+      "ratio": 0.07085429638854296,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 100375 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_03",
+      "num_articles": 3,
+      "text_chars": 68361,
+      "captured_chars": 7785,
+      "ratio": 0.11388072146399263,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_04",
+      "num_articles": 2,
+      "text_chars": 65014,
+      "captured_chars": 2695,
+      "ratio": 0.04145261020703233,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 65014 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_06",
+      "num_articles": 2,
+      "text_chars": 65887,
+      "captured_chars": 2869,
+      "ratio": 0.043544250003794374,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 65887 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_07",
+      "num_articles": 2,
+      "text_chars": 98415,
+      "captured_chars": 9790,
+      "ratio": 0.09947670578671951,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 98415 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_09",
+      "num_articles": 1,
+      "text_chars": 34080,
+      "captured_chars": 5334,
+      "ratio": 0.15651408450704227,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 34080 chars of text"
+      ],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "Census and GIS",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_10",
+      "num_articles": 1,
+      "text_chars": 33086,
+      "captured_chars": 2133,
+      "ratio": 0.06446835519555098,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 33086 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_11",
+      "num_articles": 3,
+      "text_chars": 65842,
+      "captured_chars": 4385,
+      "ratio": 0.0665988274961271,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2000_12",
+      "num_articles": 2,
+      "text_chars": 59267,
+      "captured_chars": 11577,
+      "ratio": 0.19533635918808107,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 59267 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2001_01",
+      "num_articles": 2,
+      "text_chars": 90735,
+      "captured_chars": 2416,
+      "ratio": 0.02662699068716592,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 90735 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2001_03",
+      "num_articles": 1,
+      "text_chars": 34378,
+      "captured_chars": 5404,
+      "ratio": 0.15719355401710397,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 34378 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2001_05",
+      "num_articles": 2,
+      "text_chars": 107617,
+      "captured_chars": 4004,
+      "ratio": 0.03720601763661875,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 107617 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2001_07",
+      "num_articles": 2,
+      "text_chars": 118036,
+      "captured_chars": 2324,
+      "ratio": 0.0196889084686028,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 118036 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2001_11",
+      "num_articles": 2,
+      "text_chars": 116109,
+      "captured_chars": 3819,
+      "ratio": 0.03289150711831124,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 116109 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_01",
+      "num_articles": 2,
+      "text_chars": 119030,
+      "captured_chars": 3748,
+      "ratio": 0.03148786020331009,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 119030 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_03",
+      "num_articles": 12,
+      "text_chars": 72936,
+      "captured_chars": 13639,
+      "ratio": 0.18699956125918613,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_05",
+      "num_articles": 8,
+      "text_chars": 34787,
+      "captured_chars": 12545,
+      "ratio": 0.36062322131830854,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 7,
+          "headline": "Intranet tools and preparing for disaster",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_07",
+      "num_articles": 1,
+      "text_chars": 71847,
+      "captured_chars": 8006,
+      "ratio": 0.11143123582056313,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 71847 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_09",
+      "num_articles": 3,
+      "text_chars": 75954,
+      "captured_chars": 3907,
+      "ratio": 0.051439028885904625,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2002_11",
+      "num_articles": 3,
+      "text_chars": 83356,
+      "captured_chars": 4756,
+      "ratio": 0.05705648063726666,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_01",
+      "num_articles": 3,
+      "text_chars": 82992,
+      "captured_chars": 3194,
+      "ratio": 0.038485637169847695,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_03",
+      "num_articles": 3,
+      "text_chars": 59527,
+      "captured_chars": 4340,
+      "ratio": 0.07290809212626204,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_07",
+      "num_articles": 3,
+      "text_chars": 79356,
+      "captured_chars": 16598,
+      "ratio": 0.20915872775845556,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_09",
+      "num_articles": 4,
+      "text_chars": 102301,
+      "captured_chars": 11348,
+      "ratio": 0.11092755691537717,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_11",
+      "num_articles": 1,
+      "text_chars": 80875,
+      "captured_chars": 6886,
+      "ratio": 0.08514374034003092,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 1 article(s) from 80875 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2004_09",
+      "num_articles": 12,
+      "text_chars": 96142,
+      "captured_chars": 31270,
+      "ratio": 0.32524807056229327,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2005_01",
+      "num_articles": 14,
+      "text_chars": 93507,
+      "captured_chars": 35445,
+      "ratio": 0.3790625300779621,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 12,
+          "headline": "Setting up, stocking your data warehouse",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "2005_05",
+      "num_articles": 2,
+      "text_chars": 74842,
+      "captured_chars": 7152,
+      "ratio": 0.0955613158387002,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 74842 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2005_09",
+      "num_articles": 2,
+      "text_chars": 92452,
+      "captured_chars": 7222,
+      "ratio": 0.07811621165577813,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 92452 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2005_11",
+      "num_articles": 11,
+      "text_chars": 78865,
+      "captured_chars": 13444,
+      "ratio": 0.1704685221581183,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2006_05",
+      "num_articles": 4,
+      "text_chars": 45809,
+      "captured_chars": 4197,
+      "ratio": 0.09161955074330372,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2006_07",
+      "num_articles": 8,
+      "text_chars": 77463,
+      "captured_chars": 35410,
+      "ratio": 0.457121464441088,
+      "band": "red",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "A bumpy ride",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "2007_03",
+      "num_articles": 2,
+      "text_chars": 34855,
+      "captured_chars": 2128,
+      "ratio": 0.0610529335819825,
+      "band": "red",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 34855 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    }
+  ],
+  "yellow": [
+    {
+      "stem": "1992_09",
+      "num_articles": 2,
+      "text_chars": 24073,
+      "captured_chars": 13734,
+      "ratio": 0.5705146845013085,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [
+        "only 2 article(s) from 24073 chars of text"
+      ],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1993_04",
+      "num_articles": 4,
+      "text_chars": 28304,
+      "captured_chars": 18178,
+      "ratio": 0.6422413793103449,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "1995_02",
+      "num_articles": 3,
+      "text_chars": 25067,
+      "captured_chars": 13679,
+      "ratio": 0.5456975306179439,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [],
+      "toc_missing": null
+    },
+    {
+      "stem": "2003_05",
+      "num_articles": 11,
+      "text_chars": 36860,
+      "captured_chars": 21506,
+      "ratio": 0.5834508952794357,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "Homemade files track priests",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 1,
+          "headline": "Finding backyard military contractors",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 6,
+          "headline": "CAR fuels TV, other division winners",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 10,
+          "headline": "Toronto profiling stories spark a firestorm",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    },
+    {
+      "stem": "2005_03",
+      "num_articles": 8,
+      "text_chars": 49016,
+      "captured_chars": 30376,
+      "ratio": 0.6197160110984169,
+      "band": "yellow",
+      "override_reason": null,
+      "flags": [],
+      "truncated": [
+        {
+          "index": 1,
+          "headline": "Analysis shows feds' claims about charity",
+          "reason": "no sentence-ending punctuation"
+        },
+        {
+          "index": 7,
+          "headline": "Data for examining security spending",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": null
+    }
+  ],
+  "green_count": 57,
+  "overridden": [],
+  "file_coverage": {
+    "pdf_stems": [
+      "1990_10",
+      "1990_11",
+      "1990_12",
+      "1991_01",
+      "1991_02",
+      "1991_03",
+      "1991_04",
+      "1991_05",
+      "1991_06",
+      "1991_07",
+      "1991_09",
+      "1991_10",
+      "1991_11",
+      "1991_12",
+      "1992_01",
+      "1992_02",
+      "1992_03",
+      "1992_04",
+      "1992_05",
+      "1992_06",
+      "1992_07",
+      "1992_08",
+      "1992_09",
+      "1992_10",
+      "1992_11",
+      "1992_12",
+      "1993_01",
+      "1993_02",
+      "1993_03",
+      "1993_04",
+      "1993_06",
+      "1993_08",
+      "1994_03",
+      "1994_04",
+      "1994_05",
+      "1994_06",
+      "1994_07",
+      "1994_08",
+      "1994_09",
+      "1994_10",
+      "1994_11",
+      "1994_12",
+      "1995_01",
+      "1995_02",
+      "1995_03",
+      "1995_04",
+      "1995_05",
+      "1995_06",
+      "1995_07",
+      "1995_09",
+      "1995_10",
+      "1995_11",
+      "1995_12",
+      "1996_01",
+      "1996_02",
+      "1996_03",
+      "1996_04",
+      "1996_05",
+      "1996_06",
+      "1996_07",
+      "1996_08",
+      "1996_09",
+      "1996_10",
+      "1996_11",
+      "1996_12",
+      "1997_01",
+      "1997_02",
+      "1997_03",
+      "1997_04",
+      "1997_05",
+      "1997_06",
+      "1997_07",
+      "1997_08",
+      "1997_09",
+      "1997_10",
+      "1997_11",
+      "1997_12",
+      "1998_02",
+      "1998_03",
+      "1998_04",
+      "1998_05",
+      "1998_06",
+      "1998_07",
+      "1998_08",
+      "1998_09",
+      "1998_10",
+      "1998_11",
+      "1998_12",
+      "1999_01",
+      "1999_03",
+      "1999_04",
+      "1999_05",
+      "1999_06",
+      "1999_07",
+      "1999_09",
+      "1999_10",
+      "1999_11",
+      "1999_12",
+      "2000_01",
+      "2000_03",
+      "2000_04",
+      "2000_05",
+      "2000_06",
+      "2000_07",
+      "2000_09",
+      "2000_10",
+      "2000_11",
+      "2000_12",
+      "2001_01",
+      "2001_03",
+      "2001_05",
+      "2001_07",
+      "2001_09",
+      "2001_11",
+      "2002_01",
+      "2002_03",
+      "2002_05",
+      "2002_07",
+      "2002_09",
+      "2002_11",
+      "2003_01",
+      "2003_03",
+      "2003_05",
+      "2003_07",
+      "2003_09",
+      "2003_11",
+      "2004_01",
+      "2004_03",
+      "2004_05",
+      "2004_07",
+      "2004_09",
+      "2004_11",
+      "2005_01",
+      "2005_03",
+      "2005_05",
+      "2005_09",
+      "2005_11",
+      "2006_01",
+      "2006_03",
+      "2006_05",
+      "2006_07",
+      "2006_09",
+      "2006_11",
+      "2007_01",
+      "2007_03"
+    ],
+    "text_stems": [
+      "1990_10",
+      "1990_11",
+      "1990_12",
+      "1991_01",
+      "1991_02",
+      "1991_03",
+      "1991_04",
+      "1991_05",
+      "1991_06",
+      "1991_07",
+      "1991_09",
+      "1991_10",
+      "1991_11",
+      "1991_12",
+      "1992_01",
+      "1992_02",
+      "1992_03",
+      "1992_04",
+      "1992_05",
+      "1992_06",
+      "1992_07",
+      "1992_08",
+      "1992_09",
+      "1992_10",
+      "1992_11",
+      "1992_12",
+      "1993_01",
+      "1993_02",
+      "1993_03",
+      "1993_04",
+      "1993_06",
+      "1993_08",
+      "1994_03",
+      "1994_04",
+      "1994_05",
+      "1994_06",
+      "1994_07",
+      "1994_08",
+      "1994_09",
+      "1994_10",
+      "1994_11",
+      "1994_12",
+      "1995_01",
+      "1995_02",
+      "1995_03",
+      "1995_04",
+      "1995_05",
+      "1995_06",
+      "1995_07",
+      "1995_09",
+      "1995_10",
+      "1995_11",
+      "1995_12",
+      "1996_01",
+      "1996_02",
+      "1996_03",
+      "1996_04",
+      "1996_05",
+      "1996_06",
+      "1996_07",
+      "1996_08",
+      "1996_09",
+      "1996_10",
+      "1996_11",
+      "1996_12",
+      "1997_01",
+      "1997_02",
+      "1997_03",
+      "1997_04",
+      "1997_05",
+      "1997_06",
+      "1997_07",
+      "1997_08",
+      "1997_09",
+      "1997_10",
+      "1997_11",
+      "1997_12",
+      "1998_02",
+      "1998_03",
+      "1998_04",
+      "1998_05",
+      "1998_06",
+      "1998_07",
+      "1998_08",
+      "1998_09",
+      "1998_10",
+      "1998_11",
+      "1998_12",
+      "1999_01",
+      "1999_03",
+      "1999_04",
+      "1999_05",
+      "1999_06",
+      "1999_07",
+      "1999_09",
+      "1999_10",
+      "1999_11",
+      "1999_12",
+      "2000_01",
+      "2000_03",
+      "2000_04",
+      "2000_05",
+      "2000_06",
+      "2000_07",
+      "2000_09",
+      "2000_10",
+      "2000_11",
+      "2000_12",
+      "2001_01",
+      "2001_03",
+      "2001_05",
+      "2001_07",
+      "2001_09",
+      "2001_11",
+      "2002_01",
+      "2002_03",
+      "2002_05",
+      "2002_07",
+      "2002_09",
+      "2002_11",
+      "2003_01",
+      "2003_03",
+      "2003_05",
+      "2003_07",
+      "2003_09",
+      "2003_11",
+      "2004_01",
+      "2004_03",
+      "2004_05",
+      "2004_07",
+      "2004_09",
+      "2004_11",
+      "2005_01",
+      "2005_03",
+      "2005_05",
+      "2005_09",
+      "2005_11",
+      "2006_01",
+      "2006_03",
+      "2006_05",
+      "2006_07",
+      "2006_09",
+      "2006_11",
+      "2007_01",
+      "2007_03"
+    ],
+    "issue_stems": [
+      "1990_10",
+      "1990_11",
+      "1990_12",
+      "1991_01",
+      "1991_02",
+      "1991_03",
+      "1991_04",
+      "1991_05",
+      "1991_06",
+      "1991_07",
+      "1991_09",
+      "1991_10",
+      "1991_11",
+      "1991_12",
+      "1992_01",
+      "1992_02",
+      "1992_03",
+      "1992_04",
+      "1992_05",
+      "1992_06",
+      "1992_07",
+      "1992_08",
+      "1992_09",
+      "1992_10",
+      "1992_11",
+      "1992_12",
+      "1993_01",
+      "1993_02",
+      "1993_03",
+      "1993_04",
+      "1993_06",
+      "1993_08",
+      "1994_03",
+      "1994_04",
+      "1994_05",
+      "1994_06",
+      "1994_07",
+      "1994_08",
+      "1994_09",
+      "1994_10",
+      "1994_11",
+      "1994_12",
+      "1995_01",
+      "1995_02",
+      "1995_03",
+      "1995_04",
+      "1995_05",
+      "1995_06",
+      "1995_07",
+      "1995_09",
+      "1995_10",
+      "1995_11",
+      "1995_12",
+      "1996_01",
+      "1996_02",
+      "1996_03",
+      "1996_04",
+      "1996_05",
+      "1996_06",
+      "1996_07",
+      "1996_08",
+      "1996_09",
+      "1996_10",
+      "1996_11",
+      "1996_12",
+      "1997_01",
+      "1997_02",
+      "1997_03",
+      "1997_04",
+      "1997_05",
+      "1997_06",
+      "1997_07",
+      "1997_08",
+      "1997_09",
+      "1997_10",
+      "1997_11",
+      "1997_12",
+      "1998_02",
+      "1998_03",
+      "1998_04",
+      "1998_05",
+      "1998_06",
+      "1998_07",
+      "1998_08",
+      "1998_09",
+      "1998_10",
+      "1998_11",
+      "1998_12",
+      "1999_01",
+      "1999_03",
+      "1999_04",
+      "1999_05",
+      "1999_06",
+      "1999_07",
+      "1999_09",
+      "1999_10",
+      "1999_11",
+      "1999_12",
+      "2000_01",
+      "2000_03",
+      "2000_04",
+      "2000_05",
+      "2000_06",
+      "2000_07",
+      "2000_09",
+      "2000_10",
+      "2000_11",
+      "2000_12",
+      "2001_01",
+      "2001_03",
+      "2001_05",
+      "2001_07",
+      "2001_09",
+      "2001_11",
+      "2002_01",
+      "2002_03",
+      "2002_05",
+      "2002_07",
+      "2002_09",
+      "2002_11",
+      "2003_01",
+      "2003_03",
+      "2003_05",
+      "2003_07",
+      "2003_09",
+      "2003_11",
+      "2004_01",
+      "2004_03",
+      "2004_05",
+      "2004_07",
+      "2004_09",
+      "2004_11",
+      "2005_01",
+      "2005_03",
+      "2005_05",
+      "2005_09",
+      "2005_11",
+      "2006_01",
+      "2006_03",
+      "2006_05",
+      "2006_07",
+      "2006_09",
+      "2006_11",
+      "2007_01",
+      "2007_03"
+    ],
+    "pdf_no_text": [],
+    "text_no_issue": [],
+    "issue_no_pdf": [],
+    "text_no_pdf": []
+  }
+}
