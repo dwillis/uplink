@@ -10,9 +10,17 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Big news in NICAR world: Brant Houston, managing director of NICAR, has been named IRE executive director. As executive director, Brant hopes to enhance the connection between IRE and NICAR programs.\n\nNow, on to this month's issue. Here's what's in store: many students have turned in their cap and gown for computers and gigabytes. Others have produced hard-hitting CAR stories before the band began playing \"Pomp and Circumstance.\" This issue features some of those recent and soon-to-be graduates. Naomi Aoki is helping The Virginia-Pilot take a bite out of surface-level crime coverage, Natalya Shulyakovskaya of the St. Louis Post-Dispatch explains how she used CAR for everything from features to investigations. But you don't have to have a diploma to do data. Students at the University of Nebraska and University of Maryland are proving that. And Stan Dorsey, a NICAR staffer and a soon-to-be Missouri graduate, looks at sports and CAR.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Brant Houston has been named IRE executive director and plans to strengthen connections between IRE and NICAR programs. The newsletter features profiles of recent and soon-to-be graduates using computer-assisted reporting in journalism, including work at major newspapers and universities.",
+      "keywords": [
+        "journalism",
+        "graduates",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -24,8 +32,8 @@
       "headline": "Tracking the trends",
       "kicker": "",
       "author_name": "Naomi Aoki",
-      "author_title": "The Virginia Pilot",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Virginia Pilot",
       "full_text": "Last year was the safest year in South Hampton Roads, Va., since the dawn of this decade. But readers of The Virginian-Pilot might not have guessed it. One reader even called recently to suggest that we package all of our crime news in a special 'atrocity section.' In that reader's defense, we wrote an average of one murder story a day, not counting briefs. Some were about actual murders, others about murder trials. All this for an area where a person's chances of being murdered were about one in 100,000 last year. In The Pilot's defense, we did report that violent crime in Portsmouth, the most crime-ridden of the five cities in the South Hampton Roads area, was on the decline for the first time in 12 years. We also reported other trends, both good and bad. In the coming year, we hope to give readers a more accurate picture of crime in our region by reporting on more trends and doing it regularly. The Pilot has dedicated a weekly page, dubbed Public Safety, for this purpose. We hope the weekly reports will help to make sense of crimes that seem to occur randomly and chaotically. If patterns can be shown, it becomes clear that crimes are not so random, not so chaotic. And it is easier to combat crimes if there are ways to anticipate where they will occur, and when, and to whom. The success of the page, however, depends on being able to quickly produce computer-assisted reporting stories that give readers useful information about crimes, crime prevention and the local criminal justice system. In short, that means high-volume, high-quality CAR. Status reports on crime can help people evaluate their level of safety. Using local police data or FBI data, you can look at which crimes are going up or down and how your city compares to others. If you have information about where - blocks, census tracts or police patrol zones - crimes happen, you can calculate crime rates for them and see how the different areas within your city are doing. Use FBI incident data to keep tabs on your local police departments. Look at their clearance rates and their staffing. See how they compare to other similar cities. If the Department of Motor Vehicles in your state keeps records on crashes, you can use it to find the most dangerous stretches of road. Or if you can get your hands on trooper activity reports, you can see who the most prolific writer of traffic tickets is in your area and do a ride-along.",
       "summary": "Naomi Aoki discusses efforts by The Virginian-Pilot to provide readers with a more accurate picture of crime trends in the South Hampton Roads region through regular reporting on crime trends using computer-assisted reporting.",
       "keywords": [
@@ -33,7 +41,11 @@
         "Virginia",
         "reporting"
       ],
-      "topics": [],
+      "topics": [
+        "Crime & Justice",
+        "Public Safety",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -48,10 +60,20 @@
       "author_title": "",
       "affiliation": "The Virginia Pilot",
       "full_text": "Status reports on crime can help people evaluate their level of safety. Using local police data or FBI data, you can look at which crimes are going up or down and how your city compares to others.\nIf you have information about where - blocks, census tracts or police patrol zones - crimes happen, you can calculate crime rates for them and see how the different areas within your city are doing.\nUse FBI incident data to keep tabs on your local police departments. Look at their clearance rates and their staffing. See how they compare to other similar cities.\nIf the Department of Motor Vehicles in your state keeps records on crashes, you can use it to find the most dangerous stretches of road.\nOr if you can get your hands on trooper activity reports, you can see who the most prolific writer of traffic tickets is in your area and do a ride-along.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article provides guidance on using publicly available crime and safety data from sources like the FBI and local police to evaluate community safety, track crime trends, and investigate law enforcement practices.",
+      "keywords": [
+        "crime",
+        "data",
+        "safety"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Crime & Justice",
+        "Public Safety"
+      ],
+      "technologies": [
+        "FBI data"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -62,13 +84,23 @@
       "headline": "Crime connections",
       "kicker": "",
       "author_name": "Naomi Aoki",
-      "author_title": "",
-      "affiliation": "Virginian-Pilot",
+      "author_title": "Database journalist",
+      "affiliation": "Portsmouth newspaper",
       "full_text": "The first step is arming ourselves with as many useful databases as possible and keeping them up-to-date. We've bought all the relevant data NICAR has to offer, such as FBI Uniform Crime Report and fatal accident reports. We've also negotiated with a number of different state agencies for court records, auto accidents data, state police trooper activity reports, concealed weapons permits and autopsy statistics on causes of accidental deaths, suicides and homicides.\n\nBut, perhaps, the most crucial data, such as incident reports, we have came from local police departments.\n\nThis is the heart and soul of what we will be reporting on the weekly Public Safety page.\n\nUsing the police incidents data, we can look at almost any kind of crime big or small in our area. We get quarterly updates allowing us to track trends in our area long before the FBI releases its incident reports.\n\nThe data includes information about when and where crimes happened, including block numbers and street addresses, Census tracts, and whether the incident happened in a home or in an alley. Some of the databases also include information about stolen property, suspects, victims and any weapons used.\n\nFrom data to news\n\nThe next step is to mine our growing body of data for stories. We look for one-hit stories in the data - a profile of the state's most prolific writer of traffic tickets, for instance.\n\nBut more importantly, we use the data to track crime rates, clearance rates and the changing faces of crime.\n\nWe look at which of the eight major crimes (murder, rape, robbery, aggravated assault, burglary, larceny, auto theft and arson) are increasing or decreasing. And we look for regional trouble spots.\n\nWe use the statistics to add context to daily stories by adding a paragraph to reports telling readers what the neighborhood's crime rate is and how it compares to the city rate. We can also include numbers on how prevalent the crime - whether it is murder, burglary or vandalism - is in this area. Yearly status reports on crime can also be turned quickly. Using both the FBI and our local incident data, we can track the frequency of major crimes in our area back to 1980. Often, these analyses lead us to bigger stories a recent series on violent crime in Portsmouth, for example.\n\nReporting crime in Portsmouth\n\nPortsmouth's rate of violent crime had climbed every year since 1993. By 1995, Portsmouth reached it highest violent crime rate ever, with 1,480 violent crimes per 100,000 residents. It had also achieved the dubious distinction of being the 14th most murderous city in the nation.\n\nLast year, the violent crime rate dropped 29 percent. Having tracked the crime rate for years, we were able to break the news. Our databases allowed us to give readers a comprehensive package about the drop and reality of violent crime in Portsmouth.\n\nHere's how we did the analysis. The Portsmouth incident reports database includes the following fields: case number, offense, report date, incident date and time, block number, street address and Census track where the incident occurred, weapons used, property stolen and the race and sex of victims.\n\nFirst, I added a field in order to categorize the crimes to fit the Uniform Crime Reporting definitions of murder/manslaughter, rape, robbery and aggravated assault. Then, grouping by that field, I did a citywide count of those four crimes.\n\nUsing the city's population, I used those counts to calculate a violent crime rate for the city.\n\nLooking at the four crimes individually allowed us to see that huge decreases in murders and robberies were responsible for the plummeting crime rate.\n\nIt also showed readers the frequency of each violent crime.\n\nNext, we wanted to see if the drop in violent crime was spread throughout the city or in specific areas of the city. So, we grouped by Census tracts and used a where clause to count only the four violent crimes. Using population statistics from the 1990 Census and those counts, we calculated a violent crime rate for each Census tract.\n\nWe did the same for 1995, and then calculated the percent change in violent crime for each Census tract.\n\nWhat we found was that the most crime-ridden areas showed the biggest decreases in crime. The few areas where crime had increased in 1996 were still relatively low-crime areas.\n\nBy mapping the data, we were able to show readers how the crime rate in their neighborhoods stacked up to other areas of the city.\n\nWith the bulk of the analysis done, we ranked the four violent crimes and found robberies to be the most common.\n\nGrouping by block number and street and using a where clause to narrow the field to only violent crimes, we located the 10 most dangerous city blocks.\n\nGrouping by the weapon used, we found that feet and hands were the most common weapons used in the commission of a violent crime.\n\nLast year's drop in violent crime in Portsmouth does not make a trend, and we clearly stated that fact in the third graph of the story.\n\nBut it may be an early signal that the city has reason to hope - a signal computer-assisted reporting helped us recognize.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A newsroom explains how they build and maintain comprehensive crime databases from police departments and government agencies, then use data analysis to identify trends, track crime statistics, and develop investigative stories about public safety in their community.",
+      "keywords": [
+        "databases",
+        "crime",
+        "analysis"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -82,10 +114,22 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "Score!\n\nCAR assists sports writers\n\nBy Stan Dorsey NICAR staff\n\nWhen most people think of sports, the first thing that comes to mind is numbers.\n\nWhether it be the spiraling salaries of superstar athletes or the plummeting success rate of your favorite team, virtually all sports are mired in a swirling eddy of points, polls and percentages.\n\nWhy then, when most reporters think of sports, do they not think of CAR? It looks like a match made in heaven, but few sports writers take advantage of computer-assisted reporting.\n\nTom Witosky of the Des Moines Register knows this is true. Just a few years back, he was only an occasional practitioner of CAR, but now Witosky uses tools such as Quattro Pro and Paradox virtually every week to help him give readers insight past the ordinary numbers they are used to seeing in their daily sports pages.\n\nOne of the main obstacles, Witosky said, is technophobia. \"I think it is lack of knowledge and fear,\" he said. \"People just are a bit scared to jump into the water.\"\n\nIn addition, sports reporters over the years have grown increasingly dependent on the preselected and calculated statistics provided to them by sports information departments. While easing deadline pressure, it also may lead to complacency on the part of the reporter.\n\n\"Who is to say that all the information in the releases is accurate? Sports information departments will often just highlight numbers that they want you to see,\" said Witosky, who co-led a panel on sports and CAR at the NashCAR seminar in Nashville, Tenn. \"Besides, if you were a government reporter, would you necessarily rely on a press release from the governor's office on earnings or on some financial matters? I have learned to not necessarily trust the numbers I get.\"\n\nWitosky said he looks at the releases, but treats them with a grain of salt.\n\nInstead, Witosky often compiles his own numbers and uses a database manager to unveil relationships that aren't evident in the vanilla reports handed out by SIDs.\n\nHe does this every week with the Iowa State and University of Iowa football teams.\n\nUsing the play-by-play sheets distributed by SIDs after games, Witosky enters each play into a spreadsheet program and creates fields for the quarter, down, yards to go, possession, field position, play result, and time of game.\n\nWitosky said entering play-by-play is one of the easiest projects for beginning CAR reporters in that it involves simple data entry and requires no database requests. Plus, it can produce useful information every day.\n\nHe then plugs the numbers into a database manager such as Paradox and searches for trends he may not otherwise see: production by quarter or by down, tendencies of a certain player, or play calling habits of a coach.\n\n\"These are exactly the type of calculations coaches do every week,\" Witosky said. \"Why shouldn't the reporters who cover them do the same?\"\n\nHowever, many off-the-field aspects of sports also lend themselves to CAR.\n\nThat is what Doug Bedell of the Dallas Morning News found when he decided to investigate accusations of fraud made by a Texas A&M University basketball player.\n\nUsing phone records obtained from the university on nine-track tape, Bedell was able to look at the calling patterns of certain coaches on the A&M staff and found that an unusually high number of calls were being made to a certain number in New York. The number, it turned out, was that of a talent scout who had been working illegally with coaches on the staff to recruit a player who was playing for Syracuse at the time.\n\nWhen the player finally came forth and admitted his involvement with the agent, the Morning News had a story on the incriminating phone records in the next day's paper.\n\nObtaining the records wasn't easy, Bedell said, but when the school tried to give him the run-around, simply invoked the state's Open Records Law. The law, in existence in all states, classifies as public record anything toward which taxpayers' dollars are contributed. The calling card calls qualified, and the university relented.\n\nIt isn't always that easy, of course.\n\nJust recently, Bedell tried to obtain records from the University of Nebraska and, though officials granted him access to the files, they told him he could only see them in paper form and that he would have to travel to Lincoln, Neb., and bring his own photocopier.\n\n\"That's fully within the law,\" Bedell said. \"That's what they can do to you if they want to be nasty about it.\"\n\nStill, Bedell said, it is usually worth the trouble, even if you aren't looking for anything specific in the records. Red flags such as simultaneously used calling card numbers or a high volume of calls to a particular out-of-state number can often indicate trouble.\n\nDuring one such blind search, Bedell stumbled upon a coach's calling card that had far more calls than any other on the staff. The reason, he found, was that the card had been posted in the locker room of University of Texas basketball team for use by its players.\n\n\"I guess it was supposed to be like a perk,\" Bedell said.\n\nBut for all the corruption that goes on at the collegiate and professional levels, high schools are by no means immune from questionable activities.\n\nMark Skertic had never done a sports story before, but, as an education reporter at the Cincinnati Enquirer, he had plenty of CAR experience. That made him the perfect cross-over candidate when the paper decided to act on a tip and look into discrepancies in reported high-school enrollment figures.\n\nIn Ohio, as in most states, schools' athletic teams are placed in a division based on enrollment figures for ninth, 10th and 11th grades. In October of each year, school officials report one figure to the state to help determine funding; they also report a number to the Ohio High School Athletic Association for athletic division placement.\n\nWhat Skertic found, after using Quattro Pro to look at five years worth of enrollment figures from both the state and the OHSAA, was that the figures often did not match.\n\n\"In some cases, there are accusations schools are juicing up the number they give to the state to boost their funding subsidy,\" Skertic said. \"In others, the athletic numbers are lowballed to put a school in a smaller division where, presumably, they might be a powerhouse.\"\n\nWhile Skertic said some of the inconsistencies turned out to be data entry mistakes at the school or state level, his story disturbed state officials enough that they decided to launch several internal audits and search for a better way to collect the information.\n\nStories like these help bring accountability to a sports world that often thrives on two things: One, reporters' fear of numbers and technology and their subsequent unwillingness to probe issues. And two, the complacency spawned by SIDs who consistently produce boring, meaningless numbers just to keep reporters happy, and keep themselves free from scrutiny.\n\nStan Dorsey can be reached at (573) 882-0684, or send e-mail to stan@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Sports reporters are underutilizing computer-assisted reporting despite sports being data-driven, with Tom Witosky of the Des Moines Register demonstrating how CAR tools like databases can uncover trends and insights beyond standard statistics provided by sports information departments.",
+      "keywords": [
+        "sports",
+        "reporting",
+        "data"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Quattro Pro",
+        "Paradox",
+        "9-track tape"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -99,10 +143,22 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "The real story Project misconceptions\n\nBy Joanna Kakissis NICAR staff\n\nWhen Matthew Waite began his studies at the University of Nebraska at Lincoln three and a half years ago, he heard the \"freshman folklore\" about Malone, one of Lincoln's oldest neighborhoods.\n\nMalone was supposedly Lincoln's ghetto, a dangerous place characterized by crime and poverty. Only the uneducated poor lived there in miserable, run-down homes, and outsiders entered its seedy boundaries at their own risk.\n\nBut after a nine-month investigation using computerized police records, Home Mortgage Disclosure Act (HMDA) data, Census data and scores of interviews, the 21-year-old college senior gave a dramatically different presentation of Malone in a Dec. 12 story in the university's student newspaper.\n\nAccording to Waite's story, Malone is one of city's safest neighborhoods, ranking near the bottom in nine major crime categories when compared with eight other Lincoln neighborhoods. In addition, Malone is one of Lincoln's most ethnically diverse areas despite the common misconception that only African Americans lived there. Also, more than half of Malone residents have been to college.\n\nOnly one perception-- the area's poverty--remained as fact. Malone is Lincoln's poorest neighborhood, with a median individual income of $12,917. After an analysis of HMDA data, Waite discovered that Malone received the least amount of home-loan money of the nine neighborhoods surveyed for the story.\n\nWaite interviewed sociologists, law enforcement officials and civic and minority leaders who alleged the area's lingering poverty was strongly related to Malone's reputation as a ghetto. Because of the inaccurate perceptions, Malone residents saw a reluctance by businesses to invest in the neighborhood, low property values and a lack of medical services.\n\n\"After I realized that the data showed Malone was not a crime-ridden neighborhood, I got the HMDA data and realized that the Malone neighborhood was suffering from the burden of misrepresentation,\" Waite said.\n\nWaite first came upon the idea after meeting Malone resident Leola Bullock while he was covering an anti-death penalty rally in 1994. Bullock, an African American, had moved to Malone in 1950 because of Lincoln's racial segregation housing policies. Although she had moved from Malone in 1967, her description of it as a culturally vibrant neighborhood so contradicted Lincoln lore, Waite decided to explore the issue for an in-depth reporting class. He obtained the 1995 computerized crime records from the local police chief, loaded the 39,490 records on a Pentium 132 Megahertz with 64 megs of RAM and formatted them into the Maptitude program he had purchased for about $600.\n\nWaite is no novice with computers. His father has been in the data processing industry for 25 years, and Waite spent summers working with his father at home in Blair, Neb.\n\n\"But this project was a huge learning curve for me,\" he said. \"I didn't know much about data analysis or dirty data.\"\n\nInitially, the computer rejected 65 percent of the police records because the addresses for the scenes of crimes had not been recorded in a standard manner by Lincoln police.\n\n\"I had to hand-check 26,000 records. It took me four months,\" he said.\n\nWaite worked every day from 11 p.m. to midnight and from 3 to 4 in the morning before the address entries were consistent. After cleaning the address data, he categorized the data into nine high-profile crimes: larceny, vandalism, disturbances, robbery, burglary, miscellaneous weapons, car theft, assault and narcotics.\n\n\"When I saw the results, I noticed a pattern,\" he said. \"Crimes thinned out when it got to the Malone neighborhood.\"\n\nWaite put faces with the statistics by interviewing several Malone residents, community leaders, minority and civil leaders and law enforcement officials.\n\nWaite calls reaction to his article \"unbelievable.\" Last month, Nebraska's Cornhusker State Bank offered $1.5 million in low-income home guarantees to Malone residents. In addition, millions of tax revenue dollars used for community reinvestment funds are being re-evaluated.\n\n\"I didn't think a student newspaper could have this kind of influence,\" he said.\n\nJoanna Kakissis can be reached at (573) 882-0684, or send e-mail to c680409@showme.missouri.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A college journalist used computerized police records, mortgage data, and census information to debunk persistent negative stereotypes about Lincoln's Malone neighborhood, revealing it is actually one of the city's safest areas despite persistent poverty and a history of discriminatory lending practices.",
+      "keywords": [
+        "investigation",
+        "misconceptions",
+        "data"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "Maptitude",
+        "Pentium",
+        "computerized police records"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -113,13 +169,24 @@
       "headline": "Trading places",
       "kicker": "Voters shift to third parties",
       "author_name": "Kara Morrison",
-      "author_title": "NICAR staff",
+      "author_title": "Staff Writer",
       "affiliation": "NICAR",
       "full_text": "Trading places\n\nVoters shift to third parties\n\nBy Kara Morrison\nNICAR staff\n\nAs Bill Thompson watched friends and acquaintances in Maryland become more disillusioned with Republicans and Democrats, he wondered how widespread the sentiment was becoming.\n\nThompson, a graduate student at the University of Maryland College of Journalism, decided to turn his question into a computer-assisted reporting project for the school's Capital News Service, a wire service based in Annapolis.\n\nAlong with graduate student Kristina Schurr, Thompson used Access and Excel to analyze voter registration data and actual voting totals by county from the 1988, 1992 and 1996 presidential elections.\n\nMinor explosion\n\nNot only were people turning away from the two major parties, but minor political parties in Maryland appeared to be gaining force rapidly.\n\nTheir data showed large increases from 1988 to 1996 in the number of voters registering as Independents or in a minor party.\n\nOverall, such registrations grew by more than 55 percent (104,868 voters), while registration for Democrats increased only 2.4 percent and Republican registrations increased 21.5 percent during the same period.\n\nIn addition, actual votes for minor party presidential candidates from 1988 to 1996 increased nearly 1,000 percent.\n\n\"The state of Maryland has been a Democratic stronghold as long as I can remember,\" said Thompson, a Maryland native. \"The thing I was surprised most about is the Democrats are losing their stronghold.\"\n\nBy dividing their data into Maryland's five main regions, Thompson said they were able to report that the majority of the increase in minor party support was coming from the state's rural areas.\n\nMinor frustrations\n\n\"It was an interesting story,\" said Barbara Sauers, managing editor of the 17,000-circulation Star-Democrat. Sauers, who ran the story the front page, said she knew readers in her area were interested in third parties, especially in light of the significant following Ross Perot's candidacy drew in the area during the 1992 election.\n\nIn all, the project Thompson and Schurr about two months. Three Maryland newspapers, including the Easton Star-Democrat, ran the story in December 1996.\n\nThompson and Schurr said the story did pose some challenges.\n\nOne of the biggest frustrations the pair encountered was an archaic record-keeping system at Maryland's State Administrative Board of Election Law. Thompson said the office kept only paper records. The result was a large chunk of time spent waiting for the records and then entering them by hand.\n\nSchurr said there were other frustrations, such as designing a spreadsheet in Excel to perform the calculations as they envisioned.\n\nAlthough both had taken a computer-assisted reporting course taught by U.S. News and World Report senior editor Penny Loeb, Schurr said working as a team helped them get through the technical glitches they encountered along the way.\n\n\"You have to really understand what it is you're looking for,\" Thompson said.\n\nHe added that a good editor is a great help. Their Annapolis bureau chief, Linda Fibich, reminded them to make sure the results couldn't be explained by population increases, which led them to an analysis of Census data in addition to voting records.\n\nIn the end, Thompson sent Shurr a Christmas card insisting it was a CAR reporter who said, \"These are the times that try men's souls.\"\n\n\"That's how we felt sometimes,\" Schurr admitted.\n\nNevertheless, Thompson said the project wasn't overly difficult. Schurr said she's convinced CAR is a necessity.\n\n\"The notion that computer-assisted reporting is just for the Big Boys is silly and outdated,\" she said. \"It's just something you ought to know.\"\n\nCurrently, Thompson, 34, and Schurr, 23, are interns at the Baltimore Sun. Both will graduate from the University of Maryland in May.\n\nKara Morrison can be reached at (573) 882-0684, or send e-mail to c684223@showme.missouri.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Graduate journalism students used computer-assisted reporting to analyze Maryland voter registration data from 1988-1996, discovering a dramatic shift away from the two major parties toward independent and minor party registration, with increases of over 55 percent among third-party registrants. Their findings revealed that rural areas were driving most of the growth in minor party support, challenging Maryland's longtime Democratic stronghold.",
+      "keywords": [
+        "voters",
+        "parties",
+        "registration"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Government & Politics",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -133,10 +200,20 @@
       "author_title": "Newsroom Researcher",
       "affiliation": "St. Louis Post-Dispatch",
       "full_text": "I graduated in May 1996 from the University of Missouri and was soon hired by the St. Louis Post-Dispatch (I had a summer internship there a year before). The paper created a funky position called newsroom researcher - not a writing job, but a full-fledged computer-assisted reporting berth and I signed on. I came to the Post-Dispatch to work with George Landau. So I tinkered with SQL server (some), collected a lot of data and worked as a free agent on different projects with different reporters. In the months that followed, I analyzed Missouri state pensions, St. Louis city cellular phone use, medical data, abandoned and vandalized buildings, local campaign contributions and voter registration. I requested and got a lot more data than I was able to turn into stories. I didn't put nearly as much data on the SQL server as I should have. And I made my mistakes. Here is a cheat sheet that I slowly compiled.\n\nNo More Babies\n\nWhen you get a new job, it's great to start with something not-so-complicated. Choose your first data projects carefully - it is likely you will come back to these data over and over again. Besides, your colleagues will remember you as a person doing \"SUCH and SUCH.\" I didn't strategize and I ended up measuring babies. The Post-Dispatch had gotten several years worth of birth records for the state of Missouri. No names, but the rest of the data is intact and you can fish out all sorts of amazing information (medical procedures and complications, parents' educational level, prenatal care, etc.) My affair with the data started when an editor came to our geek nook and waived a press release about big babies in front of me. Scientists in Illinois studied babies, documented that as a norm the current newborns are much bigger than the charts that are used by the pediatricians to measure their progress. \"Can we look at Missouri infants?\" the editor asked.\n\nWe did - we charted baby weight, found some doctors who specialized in delivering huge newborns and talked to moms whose sons wore clothes for 3-year-olds right after their birth.\n\nSeveral weeks later, I was back working on a story about the skyrocketing number of multiple births. Now, whenever I pass our metro desk talking about stories, I get a grin from that editor: \"No more babies,\" he mutters. But now I have sources in the State Center for Health Statistics.\n\n$3 Million Question\n\nYou need to discuss your findings with your subjects, but you need to be careful - they would love to steal your show.\n\nSt. Louis has thousands of dilapidated abandoned buildings, and we decided to look at where they are and what the city is doing about them. Last summer, two kids were found dead on two different occasions in two different buildings in North St. Louis.\n\nWe got a copy of the city's demolition permits, a survey of the vacant and vandalized buildings that the building inspectors compile every year, a database of condemnations and started looking at the neighborhoods that were decaying.\n\nAs we were nearing the deadline, we talked to the building commissioner, inspectors, the grandmother of the dead girl and an occasional PR person from the City Hall who was always curious: \"So when is your story going to run?\" Then they saw our final data runs.\n\nOn Friday, before our Sunday story hit the presses, the St. Louis mayor declared he was pouring an extra $3 million into demolitions. It didn't kill the story, but made me much more careful when I worked on the next city-related project.\n\n18 Minute Gaps\n\nRead and check the data as soon as the tapes land on your lap.\n\nAfter a couple of weeks of working with a cumbersome and complicated file tracking pensions for Missouri Highway Patrol and Transportation Department, I discovered that multiple fields in the middle of the file were missing. Cold sweat was dripping down my face.\n\nIt turned out that a programmer forgot to include those fields in a read-out program. We got the tape back in two days. At that point I was glad my data clean-up was saved in a program.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A journalism graduate describes his early career at the St. Louis Post-Dispatch as a newsroom researcher, sharing lessons learned from data-driven reporting projects on topics ranging from birth records to abandoned buildings.",
+      "keywords": [
+        "journalism",
+        "data",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -148,12 +225,23 @@
       "kicker": "Internet job search",
       "author_name": "Nora Paul",
       "author_title": "",
-      "affiliation": "The Poynter Institute",
+      "affiliation": "Poynter Institute",
       "full_text": "Congratulations, Graduates! You've worked on your studies for years and now you are ready to put all that knowledge to work.\n\nHere are some sites on the World Wide Web that can help you scout out jobs and get some job-seeking advice. Also listed are listservs that often post new job openings.\n\nSo, get yourself a job!\n\nCareers in Journalism\n\nhttp://www.asne.org/kiosk/careers/carerdet.htm\nThe American Society of Newspaper Editors has put together this page with information on preparing for a career in journalism and tips on finding your first job. Check the listing of 1997 Newspaper Internships, but hurry: Many of them have pretty early deadlines for application.\n\nAsian American Journalist's Association\nhttp://www.aaja.org/benefits.html\nLearn about the AAJA's Job Hotline and find information on the Executive Leadership program, and fellowships to help Asian American journalists develop their journalism and leadership skills.\n\nAssociation for Education in Journalism and Mass Communication\nhttp://www.aejmc.sc.edu/online/home.html\nScroll down the home page of this association for journalism educators and locate the \"Placement Ads\" area. There are opportunities for graduate assistantships as well as postings for professor positions.\n\nDow Jones Newspaper Fund\nhttp://www.dowjones.com/newsfund/alumni.html\nFind out where you can get a monthly posting of editing and reporting positions available in the 70 newspapers that participate in the DJNF programs.\n\nJournalism and Women Symposium\nhttp://www.jaws.org/jobs.html\nJob postings on JAWS numbered more than 10 on a recent check. They have also put together links to other sites with Job Banks including:\n\nNational Diversity Journalism Job Bank\nhttp://www.newsjobs.com/\nSee the link to other job banks more than 15 listed!\n\nNational Association of Hispanic Journalists' Job Bank\nhttp://www.nahj.org/nahjjob.html\nNicely broken down into different types of positions, internships, print, broadcast, radio.\n\nGannett Newspaper Newsroom Opportunities\nhttp://www.gannett.com/job/jobs.htm\nCovers not only opportunities in the newsroom, but on the business side and production, too.\n\nThe Minorities in Broadcasting Training Program\nhttp://www.webcom.com/mibtp/OPENINGS.html\nFocused on jobs in television, broken down by administrative, technical, on-air and writing.\n\nEditor and Publisher Classifieds\nhttp://www.mediainfo.com/ephome/class/classhtm/class.htm\nThese listings are broken down into all the kinds of positions in a news organization from advertising to art and graphics to editorial and production. With dozens of listings, this may be the most comprehensive site for journalism job openings.\n\nListservs:\n\nNewslib\nhttp://sunsite.unc.edu/slanews/about/newslib.html\nInformation on how to join NewsLib, the listserv for news librarians and researchers. This listserv is often the posting place for internship, researcher and news library director positions available.\n\nNICAR-L\nhttp://www.nicar.org/list.html\nThis site tells you how to join the National Institute for Computer Assisted Reporting listserv. If you are looking for a CAR type position in a newsroom, read the postings, be an active (and intelligent) contributor and get your name out there!\n\nNora Paul can be reached at (813) 821-9494, or send e-mail to npaul@poynter.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A comprehensive guide to journalism career resources and job search websites for recent graduates, including links to major job boards, professional associations, and listservs that post journalism positions.",
+      "keywords": [
+        "journalism",
+        "careers",
+        "jobs"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web",
+        "Internet",
+        "listserv"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -164,13 +252,24 @@
       "headline": "Tech Tip",
       "kicker": "What day is it?",
       "author_name": "Richard Mullins",
-      "author_title": "",
+      "author_title": "Computer-Assisted Reporting Instructor",
       "affiliation": "NICAR/Missouri School of Journalism",
       "full_text": "Tech Tip What day is it?\n\nBy Richard Mullins\nNICAR/Missouri School of Journalism\n\nIf you wanted to find out what day of the week you were born, you could find a calendar for that year and look it up.\n\nBut if you wanted to find out which weekday had the most arrests or traffic accidents, the calendar lookup strategy would be too time-consuming for 50 records, let alone 150,000.\n\nAccess and FoxPro have functions that look at a date and determine the day of the week for that date. I'll explain both and show examples, starting with the FoxPro functions. For illustration, I'll assume a table called Arrests, with date-type field called BookDate.\n\nYou can see how this works with a query like this:\n\nSELECT bookdate, dow (bookdate) ;\nFROM arrests\n\nThe dow() function returns the day-of-the-week as number, with Sunday being 1. If you want the name of the weekday, use cdow(). Here's how to remember the function names: DOW stands for DayOfWeek and CDOW stands for CharacterDayOfWeek.\n\nSELECT bookdate, dow (bookdate), cdow (bookdate) ;\nFROM arrests\n\nSince you can always retrieve this day-of-week information with the function, you don't need to store the weekday in a new field in order to use it for a query. To find the arrest counts by weekday, in descending order, you would write this group-by query:\n\nSELECT cdow (bookdate) count (bookdate)\nFROM arrests ;\nGROUP BY 1 ;\nORDER BY 2 DESC\n\nIn Access, you can get this same information with the format() function. The help file on this function is quite long, since the function is used for more than just dates.\n\nHere is a general tip for help files: If you think that the help file on a particular topic is too confusing or too long, then look through the examples for the stuff that seems to fit what you want to do. Paste the example into your query and try it out.\n\nHere is the general syntax for the Access format function as it applies to dates. You specify two parameters, or instructions. These go inside the parentheses after the function name and are separated by commas.\n\nThe first parameter is some date expression, like a literal date or a column containing a date. The second is format specifier, which is a quoted string of characters specifying how you want the day of the week to be expressed. Here is the syntax:\n\nFormat DateExpression, FormatTemplate\n\nYou have three choices for FormatTemplate:\n\nW day of week as a number\nddd as abbreviation (Sun-Sat)\ndddd as full name (Sunday-Saturday)\n\nApplying this to the example table, here are the queries in Access:\n\nTo get the day of the week as a number:\n\nSELECT bookdate, format (bookdate, \"w\")\nFROM arrests ;\n\nTo get the day of the week as an abbreviation:\n\nSELECT bookdate, format (bookdate, \"ddd\")\nFROM arrests ;\n\nTo get the day of the week as a full name:\n\nSELECT bookdate, format (bookdate, \"dddd\")\nFROM arrests ;\n\nThe Access query to show arrests by weekday, in descending order of the arrest count:\n\nSELECT format (bookdate, \"dddd\"), count (bookdate)\nFROM arrests\nGROUP BY format (bookdate, \"dddd\"),\nORDER BY count (bookdate) DESC ;\n\nCan't turn your text file into a table? This question and more were answered in Tech Tip columns in 1996. The bound edition of 1996 Uplinks is now available for $20 plus shipping. To order, call Wendy Charron at (573) 882-0684.\n\nRichard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This tech tip explains how to use database functions in Access and FoxPro to determine the day of the week from date fields, allowing journalists to analyze patterns like which weekdays have the most arrests or traffic accidents without manually checking calendars.",
+      "keywords": [
+        "database",
+        "functions",
+        "dates"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "FoxPro",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -182,12 +281,22 @@
       "kicker": "Calculating cafeteria costs",
       "author_name": "Derek Willis",
       "author_title": "Reporter",
-      "affiliation": "The Palm Beach (Fla.) Post",
+      "affiliation": "Palm Beach Post",
       "full_text": "School board members were told that the Palm Beach County School District's cafeteria division would spend about $55,000 on printing costs in 1997. But it paid a printer nearly four times that amount in the last six months of 1996, paying 10 times more for a business card than the district did and nearly 23 times the norm for tab dividers to separate sections of cookbooks and manuals.\n\nPalm Beach Post reporters detailed how the school district's spending controls were virtually absent within the cafeteria division, which provides meals for approximately 135,000 school children, and that school board members were unaware of a district policy that permitted over-spending on contracts.\n\nSome of the findings:\n\nPink and teal business cards for employees of cafeteria department cost nearly $21,000 or 24 cents for each card. The typical school district business card costs 2.4 cents.\nThe cafeteria unit spent $85,000 on tab dividers - often spending $23.75 a set when the rest of the district paid $1 for each set.\n\nHow it Started\n\nSchools reporter Mary Warejcka investigated how the district spent money on vendors, businesses and individuals that supplied services and products. After examining paper records and getting a tip, she found that the cafeteria division was spending more than the school board had approved on its contract with a local printer, KC's Desktop Publishing.\n\nThe school system followed an unwritten rule that allowed it to exceed the limit of a school board-approved contract. In this case, the district spent nearly $400,000, almost three times the $135,000 specified in the contract.\n\nWarejcka requested copies of the printer's invoices from the district and was given a four-inch stack of paper records dating back to 1994, when the contract was awarded. The 500-plus invoices contained multiple orders and some were barely legible. We decided to create a database.\n\nWe spent more than six hours entering details from the invoices into a Paradox database, making note of the item purchased, the quantity and price, among other details. We also tried to match purchase orders from district records to the invoices.\n\nWhen we finished, we looked at the items the district paid for, including the business cards and tab dividers. Using queries, we were able to tell how much the cafeteria unit spent on most items and a per-item price.\n\nWe also discovered that the invoices contained incomplete information. Nearly a quarter of them did not have an order date. And 40 percent of the money was spent without any reference to how the items corresponded with the contract. The story was published the following day.\n\nReactions\n\nOne school board member had this reaction to the expensive tab sets: \"That's totally outrageous. Are they lined in gold?\" The district's internal auditor requested, and the superintendent ordered, an audit of the food service department. The director of the cafeteria was suspended with pay two weeks after the story ran. In addition, the district changed its policy to require that the school board be notified whenever a contract exceeds the amount it approved. Since then, additional tips - and the school district's own investigation of spending - have yielded more stories on the cafeteria unit director, who set up a private consulting firm with the same name as the cafeteria division and accepted $4,000 in speaking fees at conferences across the nation.\n\nAdvice\n\nSchool districts in Florida are county-wide and often are the county's largest employers and some of the biggest spenders. Tackling school spending piece-by-piece, or department-by-department, seemed to be the way to go in our case.\n\nAlthough certain school records were available on computer, the district did not enter all of the information from the printer's invoices into a database. Thus we had to make our own to see how much the cafeteria division spent on business cards and other items.\n\nDerek Willis can be reached at (561) 820-4463 or send e-mail to dwillis@gate.net.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A Palm Beach Post investigation uncovered massive overspending in the school district's cafeteria division, revealing that the district paid exorbitant prices for items like business cards and tab dividers through a printer contract that exceeded its approval by nearly three times. The reporters created a database from over 500 invoices to expose the lack of spending controls and an unwritten policy permitting contract overages.",
+      "keywords": [
+        "overspending",
+        "cafeteria",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Paradox"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -201,10 +310,27 @@
       "author_title": "Managing Director",
       "affiliation": "NICAR",
       "full_text": "One of our flyers about NashCAR, our annual computer-assisted reporting conference, talked about racing to the future. Once we got to Nashville, however, it looked the future was racing toward us. Four years ago at a conference in Raleigh, our panels and training dealt mostly with spreadsheets and database managers. The use of the Internet was an afterthought and there was no mention of the World Wide Web. But in Nashville the ante was raised. Our speakers and instructors covered spreadsheets and database managers, two of the basic tools for journalists doing CAR. They also spoke about using mapping software, SPSS (statistical software), intranets, programs for cleaning up databases, and writing CD-ROMs. But they didn't stop there. They talked about the role of computers in the newsroom (whether broadcast or print), the role of database editors and the best ways to train colleagues. At the same time, they gave advice on how to use computers to cover particular beats and specialties, how to use CAR for breaking news and how to tailor CAR for broadcast. The range of offerings through more than 50 panels and dozens of hands-on classes left most first-time CAR conference attendees dazzled and left repeat attendees satisfied that new and advanced courses were plentiful. Furthermore, we had our highest number of attendees ever - more than 500 - and we strained our largest number of computers for hands-on training - about 140 - to meet demand. For those who could not get to this conference, we have tape recordings of panels. (They are still valuable even if speakers sometimes refer to computer screen projections that you can only imagine.) We also have a bag of handouts that is startling in its breadth and depth.\n\nHere's a sampling:\n\nPaul Overberg of USA Today, showed how to profile your community with Census data.\nElizabeth Marchak, recent winner of a Polk Award, gave 11 solid tips on covering aviation. while Byron Acohido of the Seattle Times described how to do an investigation such as the amazing ones he has done on Boeing.\nPenny Loeb of U.S. News and World Report and Carol Napolitano of the Omaha World Herald teamed up to do an actual newsletter on housing just for NashCAR. And Mike Himowitz checked in with another sharp tip sheet on housing.\nNeill Borowski of the Philadelphia Inquirer gave a quick lesson in adjusting for inflation and advice on avoiding math errors.\nIf it moves (transportation excluding planes), Heather Newman of the Detroit Free Press and Loeb of U.S. News put it together in tip sheets that tell where the databases are and how to use them.\nChris Schmitt of the San Jose Mercury News and Griff Palmer of the Daily Oklahoman analyzed the coverage of state government.\nRob Covey of U.S. News gave six steps to improve graphics.\nA CAR kit for local reporting was assembled by four journalists: Rose Ciotta of the Buffalo News, Margot Williams of the Washington Post, Napolitano of the World Herald and Tom Torok of the Philadelphia Inquirer.\nWhen it comes to crime, Bill Ruberry of the Richmond Times-Dispatch outlined a plan for coverage and Bob Warner of the Philadelphia Daily News reviewed a project that followed violence in schools.\nOn sports, Tom Witosky of the Des Moines Register, had nine story ideas and provided actual story clips.\nJeff South of the Austin American-Statesman created a handout of can't miss ideas for localizing federal databases.\nJim Specht of the Gannett News Service and April Lynch and Aurelio Rojas of the San Francisco Chronicle offered two primers on covering immigration issues.\nDiagnosing hospitals were Robert Benincasa of the Burlington Free Press, Rick Linsk of the Asbury Park Press, and Tom Gaumer of the Plain Dealer in Cleveland.\nLise Olsen and Pedro Enrique Armendares of IRE's Periodistas de Investigacion (our new program in Mexico City) collected and distributed a list of web sites on border issues while Robin Rowland of the Ryerson Institute for Computer-Assisted Reporting in Canada summarized the way international data can be shared.\nCAR pioneer Philip Meyer and Barbara Hansen of USA Today explained the careful use of significance tests.\nJanet Roberts of the Wilmington Morning Star in North Carolina gave out strategies for making CAR work in a small newsroom.\nAnd to help reporters on the run, Tom Boyer of the Seattle Times gave an overview of how to deliver relational databases through a Web browser and Mike Himowitz of the Baltimore Sun talked about friendly front ends.\nIn the coming weeks, the handouts will be collated and distributed in hardcopy form or at our Web site. (www.nicar.org)\nAt IRE and NICAR, no one believes that we did everything right at NashCAR. Panels can be adjusted, training improved and scheduling of events can go smoother. Although half of our speakers were first-time presenters, we are looking hard for even more new panelists and viewpoints at our next conference, which is planned for Indianapolis in March 1998. We will also try to get more broadcasters and new media people on panels and continue to push for more women and minority journalists to participate.\nWe do know that we should keep the program flexible enough so that impromptu meetings, special demonstrations and on-the-fly workshops can always find a home at the conference.\nThanks to those who came to Nashville and made it such a great conference and for those who didn't we hope to see you next year in Indiana.\nBrant Houston can be reached at (573) 882-0684, or send e-mail to brant@nicar.org\n\nNewcomer's tips\n\nThe sea of paper\n\nIf they give you too much information on paper, they want you to drown. Hire a keypunch firm.\n\nOur investigative reporter Carolyn Tuft asked the city (six months before the primary in the mayoral race) for a copy of cellular phone bills. The city replied that it would infringe on privacy of our city officials, that it would stall all work at City Hall and that they didn't keep the bills. They just pay them.\n\nTwo months later, the case was settled out of court and piles of paper started arriving every day. Soon the stacks were covering the floor in my office, and we were losing our sanity.\n\nI tried scanning the bills, but they were too dirty. We tried to do the data entry ourselves. We used Access, designed a form and assigned three clerks to punch the data.\n\nTwo days later, we realized it would take us months to finish. We hired a professional data entry firm.\n\nThe story documented widespread abuse: hundreds of calls to girlfriends, liquor stores, gambling boats and 2 a.m. calls to a city contractor.\n\nNever again will I attempt to enter thousands or records in-house. Measure the price in terms of your salary and time. Unless it's a developing database of unique things happening on a beat, it's silly to the waste newsroom's time on typing.\n\nA couple of quick points:\n\nWrite weekly (daily, if you can discipline yourself) memos summarizing your projects, data negotiations and technical progress. It helps to divide projects into more manageable chunks. On a slow week, it helps to see what I've been doing with my life - and keep my spirits up.\n\nDocument. I log all the data cleaning and restructuring and put it in a program right away. Often, start with a program. It helped me a great deal when I was updating databases or when I made mistakes and had to go back to the original data. Make a CD with your original data, the clean database and all the documentation and programs.\n\nAs I work with the data, I try to keep my notes in the same place-electronically. Lotus Notes, a groupware the Post-Dispatch uses for e-mail and Web publishing, works pretty well. I log my conversations with officials, write technical notes and keep my requests in a Lotus Notes database I call \"Fish Tank.\"\n\nNatalya Shulyakovskaya can be reached at (314) 340-8183 or send e-mail to natalya@pd.stinet.com.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The NashCAR computer-assisted reporting conference in Nashville showcased significant advances in journalism technology, featuring over 50 panels and 140 computers for hands-on training with more than 500 attendees. The conference covered expanded topics including mapping software, statistical analysis, database management, and practical applications for various beats and news formats.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "technology"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "database managers",
+        "Internet",
+        "World Wide Web",
+        "mapping software",
+        "SPSS",
+        "intranets",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -215,13 +341,24 @@
       "headline": "Handout of the month",
       "kicker": "Sports and the Computer",
       "author_name": "Tom Witosky",
-      "author_title": "",
+      "author_title": "Sports Reporter",
       "affiliation": "Des Moines Register",
       "full_text": "To improve the quality of news in your sports department, try these reporting ideas. There will be some resistance, but it will be worth it if you try.\n\nStories by the numbers\n\n1. Football play-by-play\n\nBuild a database of all offensive and defensive plays from all games played by State U or your local professional team. Analyze the most recent games or the team's seasons statistics in a weekly column. Best resource is the play-by-play provided by the home team's sports information office or public relations department.\n\nThe database should be structured so that it includes quarter, ball position, down, distance, team in possession, play, result of play, tackler(s), penalty and time of game.\n\nKeep individual game play-by-play in separate tables, then combine tables to determine team tendencies and individual performance.\n\nCollege and professional coaching staffs spend a lot of time each week analyzing their opponent's tendencies. We should do the same thing. Similar databases can be built for basketball, baseball or any other sport where a substantial amount of information is kept. Small papers could do high school sports though reporters will have to do own play-by-play.\n\n2. Spending on sports\n\nHigh schools, colleges and universities spend millions and millions of dollars annually on sports. Where does the money go, and does it make a difference in the outcome? These kinds of projects are exactly what the computer is to be used for. It allows for analysis of lots of information easily.\n\nAre the schools in compliance with federal gender equity laws? Last year, I found that the girls high school basketball team uses hall lockers to change for practice. Along that same hallway was a locked boy's basketball gym. Colleges and universities are a lot better about Title IX, but there are exceptions. Recently, I found five Division I-A schools still had a 30 percent gap between the percentage of women enrolled and the percentage of the women participating in sports.\n\n3. Workers compensation\n\nNo professional team owner or general manager ever has anything nice to say about the cost of their workers comp. Generally, workers comp records are public. Build a database with the last five years of injuries sustained by players for the local professional team. Is there a pattern? What does the team physician say?\n\n4. Outside income contracts\n\nThis will allow you to track over the years how much money your top coaches are making from endorsement contracts and other deals. Coaches are required to provide their presidents with a report of all outside income contracts. Get them and begin to build the database.\n\n5. College athletic department audits\n\nAlso keep drive charts.\n\nNCAA rules require that each athletic department have its books audited by an outside firm annually. Open records laws should be strong enough to get copies of the reports from the public institution. Private schools will resist, but ask anyway. Build a database from the reports to find trends in spending and revenue generation. Get copies from the other schools in your school's conference for comparison.\n\n6. Season Ticket Holders\n\nEver wondered who sits in the best seats at a college football game? Most athletic departments now have their season ticket holders in a database. Ask for it and have fun with the powerful people in your community. Use it against campaign disclosure lists and see how the similarities run.\n\nThese are just some of the ideas that I have used my computer to help me with. There are others many others to try. Sports is a game of numbers, and computers crunch them better than reporters. Get to know spreadsheets and relational software. It will give you some top notch Page 1 stories.\n\nTom Witosky can be reached at (515) 284-8522, or send e-mail to glrumper@msn.com.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article provides sports journalists with five data-driven reporting ideas to improve coverage, including analyzing play-by-play statistics, tracking athletic spending and Title IX compliance, examining workers' compensation records, monitoring coaches' outside income contracts, and reviewing athletic department audits.",
+      "keywords": [
+        "database",
+        "analysis",
+        "sports"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "relational database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -233,12 +370,24 @@
       "kicker": "Get your training",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR and, where indicated, The Associated Press provide specialized training in your newsroom. Learn to transfer data from government files into newsroom PCs. Build spreadsheets for insightful stories on the beat. Comprehend documents with database managers. Navigate the Internet and on-line databases.\n\nCost varies. For information, call Lisa Barnes at (573) 882-8969, or to register, call the numbers below.\n\nNote: In the following list, \"Open to all\" means any journalist may sign up. \"Closed\" means the session is open only to members of the host organization.\n\nLincoln, Neb., Alternative News Weeklies April 12. Closed.\nKansas City, Alternative News Weeklies April 12. Closed\nMilwaukee, Wis., Milwaukee Journal April 14-16. Closed.\nNew York, N.Y., CBS News April 16. Closed.\nLima, Ohio, Lima News - April 20-22. Closed.\nCharleston, W.Va., Marshall University- May 13-16. Closed.\nNew York, N.Y., Reuters America-May 29-30. Closed.\n\nConferences\n\nNICAR will offer training and seminars at the following professional conferences, including the IRE and NICAR national conferences. Costs vary. For information or to register, call Lisa Barnes at (573) 882-8969. IRE National Conference, Phoenix, Ariz., - June 12-15.\n\nBootcamps\n\nBootcamps are week-long, intensive training sessions offered at NICAR's headquarters at the Missouri School of Journalism in Columbia, Mo.\n\nAs with on-the-road training, you will learn to transfer data from government files into newsroom PCs, build spreadsheets for stories on the beat, comprehend documents with database managers, and navigate the 'Net and on-line databases - but you'll be drilled all day, every day for a full week. Tuition ranges from $500-$1,000 depending on circulation or market size.\n\nFor information, call Wendy Charron at (573) 882-0684.\n\nMay 4-9. Advanced Bootcamp concentrating on stats and maps at the University of North Carolina-Chapel Hill with Philip Meyer, author of The New Precision Journalism. The seminar is held in Chapel Hill. For details, call (573) 882-0684.\nMay 18-23. Regular Bootcamp on general computer-assisted reporting. For details, call (573) 882-0684.\nAug. 10-15. Regular Bootcamp on general computer-assisted reporting. For details, call (573) 882-0684.\n\nSouth of the Border\n\nPeriodistas de Investigacion (IRE-Mexico) offers computer-assisted reporting training in Spanish to journalists in Mexico and Latin America. PI, based in Mexico City, has developed a two-day workshop that covers the basics of investigative reporting and computer-assisted reporting, and a four-to-five day bootcamp that covers CAR intensively.\n\nThe workshops can be held in almost any city with prior notice. The courses cover using internet, spreadsheets, database managers, and generally electronic records, and uses examples from the Mexican and Latin American press.\n\nThere are two bootcamps scheduled in April and May:\n\nMedellin, Universidad Pontificia Bolivariana April 7-12\nMexico City - May 14-18.\n\nA one or two-day CAR workshop will be held in April in Monterrey, Mexico. Dates and times to be announced.\n\nAnnual membership to IRE-Mexico is $25 (or $200 pesos mexicanos) and is open to journalists or students of journalism living in Mexico and Latin America.\n\nInstructors are Lise Olsen, managing director of IRE-Mexico, and Pedro Enrique Armendares, assistant director. Both have more than seven years of experience in investigative reporting, Olsen at The Virginian-Pilot (Norfolk, Virginia) and Armendares at La Jornada (in Mexico City). Olsen specializes in computer-assisted reporting, and Armendares in internet resources. Call Olsen at (52)-5-554-7613 for more information, or e-mail her at: lise@ire.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR and The Associated Press offer specialized computer-assisted reporting training through on-the-road sessions, bootcamps at their Missouri headquarters, and international programs, with costs varying by location and program type.",
+      "keywords": [
+        "training",
+        "journalism",
+        "reporting"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "spreadsheets",
+        "database managers"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -250,12 +399,21 @@
       "kicker": "From the NICAR library",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR offers a number of federal government databases. Here is a list of our growing collection:\n\nNEW Federal Aviation Administration's accidents and incidents, including major plane crashes since 1971.\n\nNEW NASA's air safety reporting system, including anonymous complaints by pilots and air traffic controllers. Useful for finding near misses and problems at local airports, 1988-1996.\n\nA monthly CD subscription for all 1995-96 Federal Election Commission campaign contributions by individuals and political action committees, plus all presidential matching fund requests.\n\nThe Health Care Financing Administration's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.\n\nFederal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.\n\nCoast Guard boating accidents, 1969-1994.\n\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.\n\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns, 1992-1995.\n\nFederal procurement data, 1992-1995, includes breakdowns by agency.\n\nAlcohol, Tobacco and Firearms gun dealer records. 1993-1995.\n\nNEW National Bridge Inventory System data, includes inspection grades. 1994-1995\n\nFBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the new 1995 data.\n\nSocial Security death records, by name and social security number, going back to 1937.\n\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies, 1974-1996.\n\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\n\nU.S. Small Business Administration disaster loan guarantees, 1989-1995. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\n\nU.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.\n\nThe National Inventory of Dams. 1991-1995.\n\nU.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.\n\nU.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1988 to 1995.\n\nU.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.\n\nFor up-to-date prices and more information, call (573) 882-0684, or send e-mail to info@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR provides access to a comprehensive collection of federal government databases covering aviation, transportation, crime, finance, health care, and safety records, useful for investigative journalism and data analysis projects.",
+      "keywords": [
+        "databases",
+        "federal",
+        "journalism"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -269,10 +427,25 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Bits, Bytes and Barks\n\nGoodbye Nashville, Hello Phoenix\n\nThere will be no trips to the Grand Ole Opry like at NashCAR, NICAR's national conference, and your chances of seeing Dolly Parton are slim, but the national IRE conference in Phoenix does promise a lot of surprises. And, it's just around the corner. The conference will be June 12-15 at The Arizona Biltmore Hotel. For more information or to register, call IRE at (573) 882-2042. Also, keep an eye on the IRE website (www.ire.org) for the latest details. For hotel reservations, call The Biltmore at (800) 950-0086.\n\nHelp Wanted\n\nThe Associated Press is looking for a director of computer-assisted reporting to lead its CAR programs and to train reporters and editors in AP bureaus worldwide. Applicants should have experience as an investigative reporter and/or editor and should have skills in the development and use of computer-assisted reporting tools including relational databases, database front ends, SQL Server, spreadsheets and the Internet.\n\nInterested journalists should e-mail Bob Port, special assignments editor, at bport@ap.org or Drew Sullivan, news data editor, at drew@ap.org.\n\nThe Baltimore Sun is offering a 90-day paid internship in computer-assisted reporting this summer. It is looking for a college student with strong journalistic skills and a familiarity with CAR tools and concepts. Experience with Microsoft Access, Excel and FoxPro is a plus.\n\nThe intern will work closely with the electronic news editor on a variety of CAR projects. The pay is $370 a week, and starting and ending dates can be flexible to accommodate school schedules.\n\nInterested college journalists should send resumes to Michael Himowitz, electronic news editor.\n\nHe can be reached via e-mail at mikeh@clark.net, or students can mail their resumes to Michael J. Himowitz, Electronic News Editor, The Baltimore Sun, 501 N. Calvert St., Baltimore, MD 21278.\n\nNICAR Net\n\nTo subscribe to IRE-L or NICAR-L, send e-mail to listproc@lists.missouri.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The article announces an upcoming IRE national conference in Phoenix and lists job opportunities in computer-assisted reporting at the Associated Press and The Baltimore Sun.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "reporting"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "SQL Server",
+        "Access",
+        "Excel",
+        "FoxPro",
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

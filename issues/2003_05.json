@@ -7,7 +7,7 @@
       "headline": "Homemade files track priests",
       "kicker": "RELIGION",
       "author_name": "Jaimi Dowdell",
-      "author_title": "IRE and NICAR",
+      "author_title": "",
       "affiliation": "IRE and NICAR",
       "full_text": "Many journalists who recently investigated sexual misconduct within the Roman Catholic Church faced a major hurdle: a lack of data about allegations of abuse by priests. Some news organizations found the answer to this problem by creating their own databases. The stories that resulted show how useful these homegrown databases can be.\n\nIn January 2002, The Boston Globe began publishing \"Crisis in the Catholic Church,\" a series that offered a picture of a Catholic archdiocese riddled with scandal. More than 800 stories later, The Globe's series has garnered many awards including a Pulitzer Prize for public service and the IRE Medal. Conducting an intense investigation into the church's private realm, the newspaper's Spotlight Team found success through the use of shoe-leather reporting, documents and a database that greatly supported the re-",
       "summary": "Journalists from The Boston Globe and other organizations overcame data shortages by creating internal databases to investigate sexual misconduct within the Catholic Church.",
@@ -16,8 +16,13 @@
         "sexual misconduct",
         "The Boston Globe"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -28,7 +33,7 @@
       "headline": "Finding backyard military contractors",
       "kicker": "CAR FOR WARTIME",
       "author_name": "Adam Bell",
-      "author_title": "The Charlotte Observer",
+      "author_title": "",
       "affiliation": "The Charlotte Observer",
       "full_text": "With war looming in Iraq and the demand for related local news stories rising a few months ago, we decided to look at which companies in the Carolinas benefited from military contracts.\n\nWe obtained the Federal Procurement Data System from the IRE and NICAR Database Library and imported it to Access 2000 for our initial queries. Because this database compiled by the U.S. General Services Administration contains all federal contracts with a value of more than $25,000, we needed to filter our queries to limit our results to Department of Defense contracts. Then we decided to omit contracts granted by the civilian Army Corps of Engineers since the story focused on military activities.\n\nNow we were ready to explore the data two ways: for work performed in the Carolinas and work performed by contractors based in the Carolinas. We decided that it was more interesting to",
       "summary": "The Charlotte Observer used federal procurement data to identify Department of Defense contractors in the Carolinas during the lead-up to the Iraq war.",
@@ -37,8 +42,15 @@
         "Federal Procurement Data System",
         "Department of Defense"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Access",
+        "Federal Procurement Data System"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -49,8 +61,8 @@
       "headline": "Segregation in black white, shades of gray",
       "kicker": "SPOTLIGHT: RACE",
       "author_name": "Holly Hacker",
-      "author_title": "IRE and NICAR",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "What is the most segregated metropolitan area in the United States: Detroit, Milwaukee, Minneapolis or New York? They all are. It just depends on how you measure segregation. And there are lots of yardsticks to choose from. Researchers have devised at least 20 ways to measure residential segregation. That's great for sociologists who have months to write detailed articles for scholarly journals, but not for journalists who must pound out stories on deadline for a general audience.",
       "summary": "The article examines the complexities and various methodologies researchers use to measure residential segregation in American metropolitan areas.",
       "keywords": [
@@ -58,7 +70,10 @@
         "residential data",
         "metropolitan areas"
       ],
-      "topics": [],
+      "topics": [
+        "Investigative Methods",
+        "Demographics & Census"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -71,7 +86,7 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "The public is becoming increasingly aware of the risks associated with obesity. A study published in April in The New England Journal of Medicine reports that being overweight increases the risk for death associated with cancer. In 2000, more than 1,000 people died in the United States because of causes directly related to obesity, according to the Mortality, Multiple Cause-of-Death database recently added to the IRE and NICAR Database Library collection of federal government databases. Journalists can use this database to track many diseases and other health issues, such as infectious disease and cancer, within their state or community. The data consist of detailed information about each death compiled from death certificates. Geographic information is complete for metropolitan areas with populations of 100,000 or more. The 1988 through 2000 data include death certificate records for the entire United States and U.S. territories. Detailed demographic information about the deceased, including age, race and marital status can be determined. Causes of death can also be analyzed by using the International Classification of Disease (ICD) field. Specific details about each death are also included, such as whether it was an accident, occurred in the workplace or was a suicide. For more information about this database go to www.ire.org/datalibrary/databases/health. Learn how ArcView 8 GIS can help you explore data for great stories. The Mapping Data for News Stories mini-boot camp July 25-27 in Columbia, Mo., will provide journalists with instruction on how to combine data with geocoding, thematic mapping, overlay and spatial analysis to enhance their reporting. For more information about this mini-boot camp, including how to register, go to www.ire.org/training/mapJuly2003.html; for information on other IRE and NICAR training and events go to www.ire.org/training/otr.html. If you missed the 2003 Annual Computer-Assisted Reporting Conference in Charlotte, N.C., there are still opportunities to learn what other CAR professionals presented at the event. More than 65 tipsheets are available from the conference, providing CAR techniques and story ideas for just about every beat. They include information on Access forms, Census data, spatial analysis, social network analysis and much more. To download the tipsheets, go to www.ire.org/training/charlotte and click on \"Tipsheets from this Conference\".",
       "summary": "Updates on the Mortality, Multiple Cause-of-Death database, upcoming ArcView GIS mapping training, and available tipsheets from the 2003 CAR conference.",
       "keywords": [
@@ -79,8 +94,16 @@
         "GIS mapping",
         "CAR conference"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Health & Environment",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "ArcView",
+        "Access",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -91,8 +114,8 @@
       "headline": "CAR practitioners share tricks",
       "kicker": "",
       "author_name": "David Herzog",
-      "author_title": "University of Missouri and NICAR",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "University of Missouri and NICAR",
       "full_text": "More than 250 journalists from across the globe gathered in Charlotte in March for IRE and NICAR's Annual Computer-Assisted Reporting conference. Attendance was smaller than many of the other recent CAR conferences, but those who attended were part of a committed bunch. How committed? Let me put it this way: Some of the conference-goers helped load CDs full of software onto the PCs in training rooms. Others performed manual labor, hauling PCs and monitors out of packing crates and lugging them into the training rooms. It was a great reminder that IRE and NICAR work because the journalists at the grass roots work by sharing their time, experience and knowledge. For those of you who missed it, the conference was packed with panels and demo sessions on all kinds of topics: weaving CAR into the beat, data for covering CAR during wartime and spatial analysis for investigations. And then there were special advanced workshops geared to CAR power users and hands-on classes for everyone. With the prospect of war looming, many of the panels had a special focus on defense and homeland security. Likewise, the spotlight panel focused on a timely subject: the battle over access to information. If you want to catch up on the happenings at the conference, you can order tipsheets provided by panelists. For more information about ordering contact the IRE Resource Center at (www.ire.org/resourcecenter or 573-882-3364). The tipsheets are a great way to learn lessons from other journalists. Thanks to everyone for making this a great conference. Contact David Herzog by e-mail at dherzog@nicar.org.",
       "summary": "David Herzog reflects on the collaborative environment and diverse training sessions at the 2003 Annual CAR conference in Charlotte.",
       "keywords": [
@@ -100,8 +123,14 @@
         "Charlotte",
         "journalism training"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -113,7 +142,7 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "IRE and NICAR has numerous training opportunities in the coming months for journalists who want to learn computer-assisted reporting. For a complete list of training events visit www.ire.org/training/otr.html. Here are some of the highlights: Mapping Data for News Stories, July 25-27 in Columbia, Mo., is for journalists who want to extend their CAR skills by using geographic information systems (GIS) to enhance their reporting. Trainers will be Jeff Porter and David Herzog of the NICAR staff, both longtime users of GIS in news reporting. Herzog is the author of \"Mapping the News,\" a case study book published by ESRI Press that shows how journalists use GIS. Journalists can get an overview of computer-assisted reporting at Better Watchdog Workshops offered by IRE and the Society for Professional Journalists. Upcoming workshops include Sept. 11 in Tampa, Fla., Oct. 4 in Eugene, Ore., and Oct. 25 in State College, Pa.",
       "summary": "A list of upcoming training events for journalists, including GIS mapping workshops in Columbia, Missouri, and Better Watchdog Workshops across the U.S.",
       "keywords": [
@@ -121,8 +150,14 @@
         "Better Watchdog Workshops",
         "IRE training"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "GIS"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -133,7 +168,7 @@
       "headline": "CAR fuels TV, other division winners",
       "kicker": "IRE AWARDS",
       "author_name": "Rachel Schaff",
-      "author_title": "University of Missouri",
+      "author_title": "",
       "affiliation": "University of Missouri",
       "full_text": "CAR fuels TV, other division winners\n\nBy Rachel Schaff, University of Missouri\n\nIRE received a flood of entries for its 2002 investigative reporting contest. Many of the entries used computer-assisted reporting, along with traditional reporting techniques. The following is an overview of some of the winners and finalists that used CAR in the television, other media and special categories.\n\nTelevision\n\nTop 20 Market \u2013 Finalist\nWFAA-Dallas: \"Fake Drugs, Real Lives\" by Brett Shipp, Mark Smith, Kraig Kirchem and David Duitch. This investigation examined the legitimacy of drug busts made by Dallas police. The journalists found that nearly half of the police department's cocaine seizures contained little or no illegal drugs. (Story No. 19889 in the IRE Resource Center).\n\nInstead, the substance seized was gypsum, a main component of billiard chalk. Further, the arrests often involved recent Mexican immigrants. The reporters developed a Microsoft Excel spreadsheet of Dallas County felony drug cases for 2000 and 2001. Reporters used the spreadsheet to separate defendants with Hispanic surnames and determine whether the seizures involved illegal drugs.\n\nThe story has won many other awards, including a George Foster Peabody Award; an Alfred I. duPont-Columbia University Silver Baton; a Harvard University Goldsmith Award Finalist for Investigative Reporting; Texas Gavel Award; the Katie Legacy Award; and Katie Award for Television Investigative Reporting.\n\nBelow Top 20 Market \u2013 Certificate\nWTVF-Nashville: \"Friends in High Places\" by Phil Williams and Brian Staples. This seven-month investigation exposed the questionable relationship between Tennessee Gov. Don Sundquist and some state contractors. Journalists used Microsoft Excel to analyze spreadsheets of all noncompetitive contracts awarded by the state of Tennessee. (Story No. 19649)\n\nThis story has also won a George Polk award, a National Headliner Award and a Sigma Delta Chi award.\n\nBelow Top 20 Market \u2013 Finalists\nWITI-Milwaukee: \"The Pain Doctor\" by Bob Segall and Diane Carbonara. This investigation focused on a local doctor who used questionable medical and billing practices and acted abusively toward his patients. Journalists used CAR to analyze information acquired through interviews with dissatisfied patients and to analyze pharmacy prescription data to determine the amounts and types of medications prescribed by the doctor. \"The Pain Doctor\" also has won a regional Edward E. Murrow award, Best Series Reporting from the Wisconsin Associated Press, and Best Investigative Report from the Milwaukee Press Club. (Story No. 19674)\n\nWOAI-San Antonio: \"Councilman & Judge \u2013 A Cozy Connection\" by Brian Collister, Joe Ellis and Stephanie Kline. This piece investigated a San Antonio criminal defense attorney (who is also a city councilman) and his relationship with a female judge. The journalists used Microsoft Access and Excel to analyze databases of criminal court records and county payment records. They determined which attorneys received the most court appointments and made the most money, both in each court and across all courts. Eventually the results helped show that the councilman and the judge had a romantic relationship, shared a bank account, shared an address at one time, and possibly committed fraud together. This story received an Honorable Mention in the Investigative category from Texas Associated Press Broadcasters and also won first place for Best Continuing Coverage by the Texas Associated Press Broadcasters. (Story No. 19671)\n\nOther Media\n\nMagazine/Specialty Publication \u2013 Finalists\nTime Magazine: \"Look Who's Cashing in at Indian Casinos\" by Donald L. Barlett and James B. Steele. This investigation revealed that Indian reservation casinos do not benefit the majority of Native Americans; most of the proceeds go to non-Indian investors and a handful of small tribes with fabulously profitable casinos. CAR played a large role in the investigation; Barlett and Steele made extensive use of databases, the Internet and spreadsheets. One of the most important databases, the Indian Labor Force Report, contains information about individual tribal enrollment as well as the employment rate and poverty levels of each tribe. (Story No. 19517)\n\nU.S. News and World Report: \"The New Math of Old Age: Why the Nursing Home Industry's Cries of Poverty Don't Add Up\" by Christopher Schmitt. The nursing home industry has long contended that the federal aid it receives is inadequate; in 2002 nursing home operators lobbied the federal government for additional billions of dollars of aid. However, this investigation showed that the nursing home industry is, in fact, profitable and growing, with many nursing homes earning 20 percent to 30 percent profit margins. The investigation required many different databases of nursing home cost reports. Schmitt used Paradox for database management, FoxPro for data import and Excel for spreadsheet analysis. (Story No. 19495)\n\nOnline \u2013 Finalist\nCenter for Public Integrity: \"Enron Top Brass Accused of Dumping Stock Were Big Political Donors\" by John Dunbar, Robert Moore and MaryJo Sylwester. This investigation looked at the col-",
       "summary": "An overview of 2002 IRE Award winners and finalists across television and magazine categories that used computer-assisted reporting to investigate corruption, medical malpractice, and fraud.",
@@ -142,8 +177,15 @@
         "investigative reporting",
         "data analysis"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Excel",
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -155,7 +197,7 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "The public is becoming increasingly aware of the risks associated with obesity. A study published in April in The New England Journal of Medicine reports that being overweight increases the risk for death associated with cancer. In 2000, more than 1,000 people died in the United States because of causes directly related to obesity, according to the Mortality, Multiple Cause-of-Death database recently added to the IRE and NICAR Database Library collection of federal government databases. Journalists can use this database to track many diseases and other health issues, such as infectious disease and cancer, within their state or community. The data consist of detailed information about each death compiled from death certificates. Geographic information is complete for metropolitan areas with populations of 100,000 or more. The 1988 through 2000 data include death certificate records for the entire United States and U.S. territories. Detailed demographic information about the deceased, including age, race and marital status can be determined. Causes of death can also be analyzed by using the International Classification of Disease (ICD) field. Specific details about each death are also included, such as whether it was an accident, occurred in the workplace or was a suicide. For more information about this database go to www.ire.org/datalibrary/databases/health. Learn how ArcView 8 GIS can help you explore data for great stories. The Mapping Data for News Stories mini-boot camp July 25-27 in Columbia, Mo., will provide journalists with instruction on how to combine data with geocoding, thematic mapping, overlay and spatial analysis to enhance their reporting. For more information about this mini-boot camp, including how to register, go to www.ire.org/training/mapJuly2003.html; for information on other IRE and NICAR training and events go to www.ire.org/training/otr.html. If you missed the 2003 Annual Computer-Assisted Reporting Conference in Charlotte, N.C., there are still opportunities to learn what other CAR professionals presented at the event. More than 65 tipsheets are available from the conference, providing CAR techniques and story ideas for just about every beat. They include information on Access forms, Census data, spatial analysis, social network analysis and much more. To download the tipsheets, go to www.ire.org/training/charlotte and click on \"Tipsheets from this Conference\".",
       "summary": "Updates on the Mortality, Multiple Cause-of-Death database, upcoming ArcView GIS mapping training, and available tipsheets from the 2003 CAR conference.",
       "keywords": [
@@ -163,8 +205,15 @@
         "GIS mapping",
         "CAR conference"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Health & Environment",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "ArcView",
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -175,8 +224,8 @@
       "headline": "Database sleuthing uncovers the missing",
       "kicker": "CRIME",
       "author_name": "Lise Olsen",
-      "author_title": "Seattle Post-Intelligencer",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "Seattle Post-Intelligencer",
       "full_text": "Deep in the heart of Green River Killer country our initial goal was to try to identify probable serial killer victims. We did that and found a lot more, but not without a struggle. We learned that when someone went missing his or her records often disappeared too. That was one of the challenges reporters at the Post-Intelligencer faced when we attempted to analyze 20 years of missing-persons reports from more than 300 police agencies in the state of Washington. The police had misplaced or purged dozens of reports for people still listed as missing in the official state and national databases. The official databases also were inaccurate. Many people who should have been included weren't, and other cases that should have been purged remained in the system. The consequences were dramatic: Murder cases went unsolved, bodies remained unidentified and killers stayed free. The databases we built and those we obtained from police, coupled with traditional investigative reporting, allowed us to make such sweeping conclusions with confidence. We also found that agencies had lost or destroyed more than 100 reports for active missing-persons cases. Coroners and medical examiners had lost files, physical evidence and even remains. Most police agencies routinely violated a law that requires them to seek dental records in long-term missing person cases, even though the records can provide key clues in identifying corpses. The database steered us to dramatic human stories: a foster child whose disappearance and mysterious death in Mexico was never adequately investigated. A toddler, the unidentified victim of murder in 1987, whose image had never been publicized until our series ran. A missing woman whose frantic family could not convince police to take a report after she slit her wrists and drove away. The anecdotes alone were appalling but our database allowed us to combine the tales with hard numbers. Our investigation took nearly a year, mainly because it was so difficult to obtain records, most of them police reports from open investigations. But it also took time to track down families of the victims. Reporter Lewis Kamb filed the first public disclosure requests in January 2002, asking all the departments across the state for unsolved missing persons reports. From the beginning, the newspaper specified that it wanted reports that were at least a year old. We didn't want to track the thousands of teen-agers and adults each year who return home after a few days. Federal and state auditors regularly are supposed to review whether police accurately track long-term missing persons cases in the National Crime Information Center (NCIC) database. But it immediately became clear that most departments didn't have their records in order. While some departments responded to the public records requests within a week or two, most dragged their feet. Some flatly refused to provide records. Others provided information only in summary form or redacted names. It took the Seattle Police Department, the state's largest agency, nine months to respond. Kamb was relentless in his pursuit of the records. He pointed out to the reluctant police departments that some major police agencies had immediately provided copies. After several months, I got involved in building the database. Kamb had boxes full of reports. But, using a list of official missing persons provided by the state, I quickly realized that many departments had not given us everything. We wrote back again and called some departments dozens of times. By late fall, we had assembled more than 600 reports in all sorts of formats, some handwritten, some barely readable, but most usable. I built an index to our reports that included fundamental information, such as the department name, date, victim name, age, sex, race, where disappeared, usual residence, a description of the victim and a summary of circumstances behind the disappearance. I marked others that seemed to bear more investigation as \"interesting\" in the database. I also attempted to categorize the reports by the reasons police had given in the reports to possibly explain the disappearance. Foul play was suspected in many. A key category for us was serial killer victim. This involved a lot of investigation into alleged serial killers who had operated in Washington since the 1980s. In additional to the missing-persons database, I built a database of unidentified dead persons. Next we compared the information more closely to official records. We received parts of the missing persons data and much of the unidentified persons data from the state. Journalists can obtain similar data from the authorities in their own states. We found that more than 60 percent of all missing persons had no dental reports on file. Despite the limits of the data, I was able to analyze it and discover that some probable murder victims had never been entered as official missing-persons. The NCIC tries to match the tables of the missing and the dead but, our reporting found, the automated search engine in the database was flawed. So I matched the tables we obtained to see whether I could find matches overlooked by the police. So far, the identities of two long-unidentified bodies have been confirmed based on information generated by the series. I hope that more will be added to that list over time. To see the series and a portion of the databases we used, see http://seattlepi.nwsource.com/missing. Contact Lise Olsen by e-mail at LiseOlsen@seattlepi.com.",
       "summary": "The Seattle Post-Intelligencer investigated two decades of missing-persons cases in Washington, finding that police negligence and database errors led to unsolved murders and unidentified remains.",
       "keywords": [
@@ -184,8 +233,14 @@
         "Seattle Post-Intelligencer",
         "police negligence"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Crime & Justice",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "NCIC"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -196,8 +251,8 @@
       "headline": "Adding the 3rd dimension",
       "kicker": "MAPPING IT OUT",
       "author_name": "Stephen K. Doig",
-      "author_title": "Arizona State University",
-      "affiliation": "",
+      "author_title": "journalist",
+      "affiliation": "Arizona State University",
       "full_text": "A few months ago, I was wowed by a demonstration of a mapping tool that was new to me. It was 3D Analyst, an extension to ESRI's popular ArcView geographical information system (GIS) software. 3D Analyst can take a two-dimensional map, such as a thematic map of census tracts, and transform it into a three-dimensional image in which the height of each area on the map can represent another variable. The resulting depiction of data, which looks like a cityscape of skyscrapers, can then be \"explored\" by turning it every which way, zooming in and out and even flying through it up close. I decided I had to learn how to use this cool toy. Like most journalists interested in computer-assisted reporting, I learn new tools best when I have some real journalistic task to accomplish. The trick was to find something interesting to do. Janet Roberts of the St. Paul Pioneer-Press quickly took up my offer. Having seen a nice 3D map of median income change data created by the Chicago Tribune, she wanted to do something similar for the city of St. Paul, looking at percentage change in median household income since 1989. Turns out I needn't have worried. If you already know how to use ArcView, doing the basic work with 3D Analyst is a snap. So here's a handy step-by-step for ArcView 8.x in case you get your hands on the extension: The first step is to activate the 3D Analyst extension. Hit the Add Data button and find your shapefile. To make a 3D image, launch ArcScene, which is 3D Analyst's workspace. Now right-click on the layer name and open the Properties window. Click on the \"Extrude features in a layer\" box in the Extrusion tab. In the Expression Builder window, click on a field you want to have provide the height variable. If the variable's value by itself won't do what you want, go back to the expression builder window and multiply or divide by some arbitrary number. Now explore the image using the Navigate and other pointers on the ArcScene toolbar. Finally, go to File\\Export Scene\\2D on the menu to save the image in whatever graphics format you want. 3D Analyst will do much more than simply making a 3D version of a flat thematic map. Contact Steve Doig by e-mail at steve.doig@asu.edu.",
       "summary": "Stephen Doig explains how to use ArcView's 3D Analyst extension to create three-dimensional maps for news reporting, using a St. Paul income study as an example.",
       "keywords": [
@@ -205,8 +260,18 @@
         "GIS mapping",
         "ArcView"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "ArcView",
+        "3D Analyst",
+        "ArcScene",
+        "GIS",
+        "shapefile"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -217,8 +282,8 @@
       "headline": "Ticket data shows search rate gaps",
       "kicker": "SPOTLIGHT: RACE",
       "author_name": "Karisa King",
-      "author_title": "San Antonio Express-News",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "San Antonio Express-News",
       "full_text": "The story began with a Texas law that went into effect in January 2002 and required every law enforcement agency in the state to track the race of drivers stopped and searched. Seeking to go beyond this debate, the San Antonio Express-News filed a state open records request and obtained the first full year's worth of data for the city. Using Microsoft Access I analyzed nearly 290,000 records detailing all the police traffic and pedestrian stops for 2002. This was my first computer-assisted reporting story, done shortly after I attended a NICAR Boot Camp in March. Before we could put the findings into perspective we had to leap one of our biggest hurdles: finding a point of comparison. Profiling experts agree that no convenient standard exists for comparing data. Census figures reflect a community's population, not the demographics of drivers. In the end, we settled on using Census data for San Antonio residents but told readers up front about the debate over comparing the numbers and emphasized that our benchmark was imperfect. We determined the stop rates by summing the total number of drivers stopped for traffic reasons for each race and calculated that as a percent of the total number of drivers stopped. Then we compared those percentages to the Census population percentages. To determine the search rates we compared the total number of drivers of each race who were searched to the total number of drivers of each race stopped for traffic reasons. Among the findings: Police stop minorities and whites for traffic reasons at rates that are roughly proportional to their share of the population. But during probable cause and consensual searches \u2013 instances in which officers use discretion \u2013 blacks are more than three times as likely as whites to face a search during traffic and pedestrian stops. Although blacks are more likely to face consensual searches, police found contraband \u2014 some type of evidence of a crime, stolen property or drugs \u2014 at about the same rates for all three groups. With those findings in hand it was time for the traditional reporting. I interviewed police officers and administrators, civil rights advocates, profiling experts and drivers. I pulled the ticket numbers from the data and submitted an open records request to the San Antonio Municipal Court for copies of about 40 traffic tickets. In response to the article, San Antonio police acknowledged that the difference between the search rates of whites and blacks caught their attention. Contact Karisa King by e-mail at kking@express-news.net.",
       "summary": "The San Antonio Express-News analyzed traffic stop data, finding that black drivers were three times as likely to be searched as white drivers despite similar contraband find rates.",
       "keywords": [
@@ -226,8 +291,14 @@
         "San Antonio",
         "traffic stops"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Crime & Justice",
+        "Demographics & Census",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -238,7 +309,7 @@
       "headline": "Toronto profiling stories spark a firestorm",
       "kicker": "SPOTLIGHT: RACE",
       "author_name": "Stephanie Kang",
-      "author_title": "IRE and NICAR",
+      "author_title": "",
       "affiliation": "IRE and NICAR",
       "full_text": "When Toronto Star reporter-photographer Jim Rankin submitted a Freedom of Information request for a database detailing arrests in Toronto, he knew the police wouldn't just hand over the data. There was no precedent for such an expansive request to a Canadian law enforcement agency and no database editor at the Star to help him.\n\nAlthough the Star had already lost plenty of FOI battles to the Toronto police, Rankin felt that the paper's commitment to his request was strong enough to prevail this time. He had hope.\n\nThat hope was rewarded April 10 when Rankin and four other Star reporters received the Michener Award for meritorious public service journalism for their series, \"Race and Crime.\" This year marked the first time that the award, one of the most prestigious awarded to Canadian media, recognized a computer-assisted reporting project done",
       "summary": "The Toronto Star received the Michener Award for its 'Race and Crime' series, which used a landmark database request to investigate police racial profiling.",
@@ -247,8 +318,14 @@
         "Michener Award",
         "racial profiling"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Crime & Justice",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

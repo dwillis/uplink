@@ -7,8 +7,8 @@
       "headline": "Tracing guns",
       "kicker": "CRIME",
       "author_name": "David Olinger",
-      "author_title": "The Denver Post",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "The Denver Post",
       "full_text": "We responded to the Columbine High massacre last April in part by putting a spotlight on the firearms trade, particularly the accessibility of guns to kids and convicted felons. Two results of that effort appeared in The Denver Post in September and December, each as a three-day series. The first described how used police guns had become a primary source of high-capacity magazines, banned from manufacture in 1994 but legal to possess today, and how thousands of old police guns were getting traced as crime guns. The second, called \"The Gun Pipeline,\" detailed how homicides, assaults, the shooting of a federal agent and the pistol taken from a 13-year-old cocaine dealer could all be traced to multiple handgun sales. Both sets of stories relied on databases from the U.S. Bureau of Alcohol, Tobacco and Firearms as primary sources of information. Paying for the databases was the easy part. We got two for $75 - one consisting of guns that ATF was asked to trace from 1994 through 1998, the other a compendium of multiple handgun sales reported to ATF from 1995 through 1997. The hard part was using them to find criminal cases that could be explored as potential news stories. Ultimately we needed help from friendly ATF sources, from police departments small enough to remember a murder or a suicide on a particular date, and from Joseph Vince, a former director of ATF's national tracing center. ATF has since agreed to provide more information in its gun-tracing database, including serial numbers.",
       "summary": "The Denver Post conducted an investigation following the Columbine massacre, focusing on how police guns became crime guns and detailing the 'Gun Pipeline' of firearms linked to various crimes.",
       "keywords": [
@@ -16,8 +16,14 @@
         "Columbine",
         "crime"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "databases"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -28,8 +34,8 @@
       "headline": "The escape problem",
       "kicker": "CRIMINAL JUSTICE",
       "author_name": "Jack Dolan",
-      "author_title": "Hartford Courant",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "Hartford Courant",
       "full_text": "A throwaway paragraph caught our eye in one of the dozens of stories about the killing of eight-year-old murder witness \"BJ\" Brown, and the arrest of suspect Adrian Peeler. Buried amid the outcries for a new, centralized state-level witness protection program lurked an interesting, and wholly ignored, piece of information: at the time of the killing Peeler was officially listed as escaped from a Department of Correction halfway house. A three-month investigation that started with the DOC inmate database showed that the department routinely allowed prisoners to walk away from halfway houses and home release supervision long before their sentences were finished. By the time we wrote the story, nearly 15 percent of Connecticut's entire inmate population was listed as escaped. Another field in the database, \"deadtime,\" contained the number of days not credited towards a prisoner's sentence because he had taken an unscheduled and unannounced leave of absence from the Department of Correction. Not only did the \"deadtime\" field help us show that almost nobody is ever arrested for escape alone, but it also showed that hundreds of inmates since 1994 had escaped more than once.",
       "summary": "An investigation into Connecticut's correctional system revealed systemic issues with prisoners escaping from halfway houses, linking this to failures in monitoring and arrest follow-ups.",
       "keywords": [
@@ -37,8 +43,14 @@
         "escapes",
         "system"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "database"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -49,13 +61,23 @@
       "headline": "Advice from the front",
       "kicker": "GUNS",
       "author_name": "Sarah Cohen",
-      "author_title": "",
+      "author_title": "Database reporter",
       "affiliation": "The Washington Post",
       "full_text": "Advice from the front\n\nBy Sarah Cohen\nThe Washington Post\n\nJust about this time last year, The Washington Post - like many other news organizations - began requesting data on crime guns from the federal Alcohol, Tobacco and Firearms agency of the Treasury Department.\n\nAfter an eight-month battle with the agency, we published a story linking eight former police weapons in the District of Columbia to homicides. The story, \"Recycled D.C. Police Guns Tied to Crimes,\" described more than 100 crimes tied to weapons once owned by the D.C. police. During this time, the city was paying residents to turn in their guns and was enforcing the strictest gun laws in the nation - a virtual ban on all handguns in the city.\n\nFor years, the ATF had logged guns recovered by local police agencies. It recorded information about the gun, the person caught with the gun and the suspected crime. The database is mainly used to help local police trace the history of guns they recover. ATF claims it is also used to identify rogue dealers who are suspected of breaking federal laws in selling weapons.\n\nThe story idea was simple - how does a good gun turn bad? Where does it go down the road to crime? The answer, we found, was that it sometimes goes bad when it is traded back to manufacturers from police departments, a lucrative deal for cash-strapped police and for the manufacturers.\n\nThe good news is that any news organization can now get the database we - and others - fought so hard to open. There's a strong argument that ATF is still withholding too much information, such as the identity of the dealers who sold the guns and the name of the police agency that requested information about it. But the web of information available can - especially in areas outside the D.C. area - be of use.\n\nThe two primary databases that ATF will provide without a fight are what it considers the public portions of the \"Firearms Tracing System,\" or FTS, and the multiple sales gun database. Since our story ran, other news organizations have simply requested the same database provided to The Post and received it without question for $75.\n\nHere's what you'll get and how you can use it:\n\nMultiple Sales\n\nI'm listing the multiple sales database first because it will often be of more use for breaking stories in certain parts of the country. Under federal law, dealers must record sales of more than one gun in a week to any individual. Those records are turned over to ATF, which lost a lawsuit to keep them secret. Under that ruling, the judge said that dealers have no right to privacy under the law, but left the door open to ATF to appeal it on other grounds. The agency never did and the ruling stands.\n\nThis database was of little use in our area because all of our local states have had laws prohibiting multiple sales for years. But, as The Denver Post's David Olinger points out in this issue, it can be of use to reporters in Western and Southern states with fewer rules.\n\nMultiple sales show the serial number, make and model of the gun, the name of the dealer, its ATF license number and the date of the report to ATF. (The dealer has a month to report it to the federal government.) Less than 2 percent of all guns sold in the U.S. are sold under these transactions, but law enforcement officers and crime experts say they are the source of a disproportionate number of gun crimes. It's worth checking this database whenever you have a serial number for a gun used in a crime.\n\nIn one part of our project, we tried to track guns that had been recovered by police agencies back to multiple sales, essentially tracing guns that were used in crimes then sold by the police. But the dates in the multiple sales database were often garbled. In fact, most large police agencies have stopped reselling recovered weapons, making anything we did find less newsworthy anyway.\n\nTrace data\n\nThe ATF trace database lists the serial numbers of most guns traced by local law enforcement agencies, their make and model, the date of the trace and the date of the recovery, information about where the gun was recovered and the crime it was suspected to be involved in.\n\nOne of the most contentious issues with ATF was the \"completion code.\" The database lists about 100 different codes, for example, \"S4,\" to indicate whether the gun was successfully traced. ATF argued that disclosing these codes would be disclosing a national secret. They eventually did identify the codes.\n\nWe knew that \"S5\" meant that the gun was traced to a law enforcement agency, not a private dealer or individual. In fact, we were encouraged even before Columbine that we had a story, since D.C. was the source of many S5's. It turned out to be wildly inaccurate and is a lesson in what flaws the trace database has.\n\nAnother point of contention is the list of serial numbers redacted. The ATF removed any serial numbers that are included in the multiple sales database for four years - the amount of time that they've been keeping multiple sales.\n\nAnd the ATF made it clear that it would fight as much as it could to keep dealers' identities secret, despite the fact that these dealers' names were already in the public eye thanks to a study requested by an anti-gun congressman.\n\nData Flaws\n\nThere are two big flaws in the database, both related to how police agencies trace guns.\n\nIn most police agencies that do 100 percent tracing - that is, they trace every gun they recover - the trace request is part of the protocol in the property room. That means there are two big problems with the trace. First, the \"crime\" listed by the police may or may not end up being the crime committed with the gun. In fact, ATF defines ANY gun recovered by police as a crime gun. Its argument is that leaving a gun out on the street is illegal anywhere. So even found guns are associated with crimes.\n\nFor our story, this meant tracking down the ballistics reports and the victims to make sure that the guns we say were used to commit homicides were actually the guns listed in the trace data. (Everywhere else, we described the guns as \"connected with\" or \"linked to\" crimes.)\n\nFor our story, the other problem was how manufacturers trace the guns. In fact, almost all of the \"S5\" guns in D.C. were, in fact, service weapons either shot at suspects or discharged accidentally. But guns that had been traded by the D.C. police didn't show up as government weapons - the manufacturers gave ATF the most recent buyer, not the original buyer. This is understandable, but meant that the figures in the ATF database for some areas will be wildly erroneous. (This depends on how the guns were traded back to manufacturers. If they went through dealers, the figures for your area will probably be reasonably accurate.)\n\nOther databases:\n\nLike the Denver reporters, we found a state database of as much or more use than the ATF's. In Virginia, every gun recovered by police in some counties had been typed into a mirror system. This included the names and dates of birth of the people the firearm was taken from, along with a description of what happened. Unlike the federal data, it also listed the name of the police agency that recovered the weapon, making the reporting in that state much easier.\n\nSarah Cohen can be reached by e-mail at cohensh@washpost.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Sarah Cohen from The Washington Post explains how journalists can access federal firearms databases, including the ATF's Firearms Tracing System and multiple sales gun database, which were previously difficult to obtain and can be used to investigate the path of crime guns.",
+      "keywords": [
+        "guns",
+        "database",
+        "ATF"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Crime & Justice",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Firearms Tracing System"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -69,10 +91,19 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Other stories:\n\n\"The life of a gun,\" by The Seattle Times (#15060) focused on just one gun to explore how and why illegal guns find their way onto the streets.\"\n\n\"Cops Selling Guns,\" by ABC News 20/20 (#16289) reported on the little-known practice of law enforcement agencies reselling guns they seize from criminals.\n\n\"Gun Show Not Only Place Felons Can Shop,\" by The Tribune (Tampa, Fla.), found guns are being bought and sold on the Internet by unlicensed dealers. (#15941)\n\nCall (573) 882-3364 to order.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "These journalism investigations examine how illegal guns circulate through various channels including street distribution, law enforcement resales, and unlicensed online dealers.",
+      "keywords": [
+        "guns",
+        "illegal",
+        "dealers"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -86,10 +117,20 @@
       "author_title": "",
       "affiliation": "St. Paul Pioneer Press",
       "full_text": "The story had been done before, but it was ripe for another visit: Convicted felons, who aren't supposed to carry firearms, were hunting in the Minnesota woods with guns.\n\nThe St. Paul Pioneer Press had to look no further than Donald Blom, a suspect in Minnesota's most intensely covered crime in 1999. Charged in the May 1999 abduction and killing of a 19-year-old convenience store clerk, Blom had a pistol, two shotguns and a rifle hidden in his cabin.\n\nBecause of those guns, Blom - convicted sex offender - was found guilty last summer of being a felon in possession of firearms. Among the evidence presented at his federal court trial: Blom's Minnesota hunting license and the registration he filed after bagging a deer.\n\nWe figured Blom wasn't the only felon roaming the woods in flame-orange clothing. Two databases helped us confirm that: one listing people who received special hunting permits from the state Department of Natural Resources, the other a Bureau of Criminal Apprehension database listing convicted felons. We matched names and birth dates to find people listed in both files.\n\nNarrowing list\n\nFrom there, we narrowed the list. State law says people convicted of certain violent crimes are forbidden from possessing a firearm within 10 years of their release from supervision. Because we were unable to determine release dates from the conviction data, we cast a narrower net, winnowing our list to felons convicted of violent crimes within the past 10 years.\n\nWe had to build our own lookup table of violent crimes. Only certain convictions result in the loss of gun privileges. We built an Access table of those crimes, then matched them against our hunters' convictions.\n\nWithin an hour, we found 236 felons who were not supposed to possess firearms but had received hunting permits from the DNR. Some had been convicted of multiple offenses. Our cast of characters included rapists, a murderer and others convicted of violent crimes such as aggravated assault, stalking, armed robbery and possessing a machine gun.\n\nThe actual number of violent felons with hunting permits is surely much higher. Because the state keeps computer records only of special hunting permits - those for hunting bear, turkey, moose and female deer - the newspaper was unable to run criminal checks on the hundreds of thousands of other hunters whose licenses are not computerized.\n\nAlso, our analysis was conservative. We matched first, middle and last names. Felons who didn't list their middle names on their hunting permit applications didn't make our list. And because we narrowed the list by the felon's conviction date rather than release date, we likely missed many other hunters who are not yet eligible to carry a gun.\n\nState response\n\nReporter Amy Mayron's story pointed out that if the newspaper, in an hour's time, could come up with more than 200 likely violators of state and federal weapons laws, the state could do the same. The state's response? They don't have the time or manpower to do the checks.\n\nTheir response had been the same two years earlier, when Twin Cities television station WCCO used the same databases to report that convicted felons were getting hunting licenses and taking game with firearms. The station's report featured a state lawmaker who was outraged by the findings and vowed to pass legislation to force state officials to perform the checks.\n\nOur reporter found that lawmaker equally outraged when she told him that two years later, nothing had changed. A couple of days after our story ran, it was easy to see why. The chairman of the Senate Environment and Natural Resources Committee said he would block any bill that would use hunting permits to check for convicted felons with guns. Lawmakers in Minnesota, where hunting is a rite of passage, are not about to enforce gun laws by snooping on hunters.\n\nA couple of lessons from this story: Don't be dissuaded from delving into a database just because it's incomplete. Even though the licenses of hundreds of thousands of Minnesota hunters never get entered into a computer, those for more than 200,000 others do. Readers are smart enough to understand that if we could delve into an incomplete database and find 200 felons registered to hunt, there's likely a whole lot more hunting felons out there.\n\nAnd don't be afraid to revisit a story that someone else has already done. Sometimes, these stories are just as good the second time around.\n\nJanet Roberts may be reached by e-mail at jroberts@pioneerpress.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The St. Paul Pioneer Press investigated convicted felons who were illegally hunting in Minnesota and found 236 violent felons who had received hunting permits despite being prohibited from possessing firearms, raising questions about state enforcement.",
+      "keywords": [
+        "felons",
+        "hunting",
+        "weapons"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -101,11 +142,19 @@
       "kicker": "HUNTING ACCIDENTS",
       "author_name": "James E. Wilkerson and David Washburn",
       "author_title": "",
-      "affiliation": "The Morning Call",
+      "affiliation": "McClatchy (The Morning Call/San Diego Union-Tribune)",
       "full_text": "In terms of popularity, hunting in Pennsylvania ranks just behind a cold Rolling Rock and just ahead of NASCAR, so getting our hands on hunting accident statistics seemed like a natural.\n\nThe Pennsylvania Game Commission had a database of hunting accidents going back to 1983. Getting the data from the commission was quite easy and it was relatively clean. However, it was lacking some basic information, meaning a couple of our story ideas were killed right off the bat. For example, it didn't contain information on alcohol involvement in accidents. Nor did it contain information about where on the body a person was shot or any information that identified the individuals involved.\n\nWe saw a chance to clear up a sometimes-fatal misconception, but to make it work we needed a human story.\n\nBut the table did contain a wealth of other information concerning every reported shooting accident in the state going back to 1984. We had information about what they were doing at the time of the shooting, the cause, the topography of the area, whether they were wearing required blaze orange and their ages, among many other items.\n\nBackground\n\nHunting accident analysis has been well covered by other papers, so James ran some queries based on information we'd seen featured in stories archived by IRE and NICAR. He started with the types of guns involved, peak periods, what types of animals the hunters were going after, etc. Because neither of us are hunters, Dave spent some time attending the hunter education classes required for licensing.\n\nAfter a couple of weeks we compared notes, and one item stood out: Although Dave's contacts insisted that younger hunters (17 and under) were the safest because they'd more recently received instruction, the data clearly showed that younger hunters were much more likely to be involved in accidents, on both ends of the gun.\n\nAfter consulting with our outdoors editor and confirming that top state officials, as well as instructors, believed the myth about young hunters, we had the premise of our story. It appeared that even the state's top game commission officials had bought into the myth without checking their own records.\n\nWe saw a chance to clear up a sometimes-fatal misconception, but to make it work we needed a human story.\n\nBeyond records\n\nWe matched dates and locations of the incidents to our paper's computerized library and homed in on some half-dozen incidents involving young hunters. The first person we contacted, a widow in Columbia County, turned out to be the interview we needed to make the story work. Her husband had been accidentally shot and killed by their 12-year-old son during their first hunting trip a few years before.\n\nThat boy's experiences, just weeks after he'd taken the state-mandated hunting safety course, provided a springboard for us to examine hunting-safety instruction in Pennsylvania and compare it to other states where hunting is just as popular. The story showed that our state was far behind many others when it came to exposing students to gun-safety programs.\n\nJames Wilkerson can be reached by e-mail at james.wilkerson@mcall.com. David Washburn, who is now with the San Diego Union-Tribune, can be reached by e-mail at david.washburn@uniontrib.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Pennsylvania journalists analyzed hunting accident data from the state Game Commission to debunk the myth that younger hunters are safer, discovering that hunters 17 and under are actually more likely to be involved in accidents despite recent safety instruction.",
+      "keywords": [
+        "hunting",
+        "accidents",
+        "data"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -118,12 +167,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "Media General News",
       "full_text": "Gun issue sources:\n(An excerpt from a tipsheet by Mark Johnson, Media General News, tipsheet #1140)\nNational Rifle Association: www.nra.org or Bill Powers, director of public affairs, (703) 267-3820\nHandgun Control Inc./Center to Prevent Handgun Violence: www.handguncontrol.org or Naomi Paiss, director of communications, (202) 898-0792\nViolence Policy Center: www.vpc.org or Bill McGeveran, communications director, (202) 822-8200\nSecond Amendment Foundation: www.saf.org or Dave LaCourse, public affairs, (425) 454-7012",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A tipsheet providing contact information and resources for journalists covering gun policy issues, listing major organizations representing both pro-gun and gun-control perspectives.",
+      "keywords": [
+        "guns",
+        "sources",
+        "contacts"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -137,9 +195,15 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "More gun issue sources:\nU.S. Bureau of Alcohol, Tobacco and Firearms: (202) 927-8500, public affairs\nNational Shooting Sports Foundation/Sports Arms and Ammunition Manufacturer's Institute, Jim Chambers, executive director, (703) 242-1690 or saami@ntpix.net\nCoalition to Stop Gun Violence, Desmond Riley, press contact, (202) 534-0340\nJohns Hopkins Center for Gun Policy and Research, Susan DeFrancesco, coordinator, (410) 955-3995 or sdefranc@jhsph.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A compiled list of key sources and contacts for reporting on gun-related issues, including government agencies, industry organizations, and advocacy groups.",
+      "keywords": [
+        "guns",
+        "sources",
+        "contacts"
+      ],
+      "topics": [
+        "Public Safety"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -151,13 +215,24 @@
       "headline": "User-friendly forms",
       "kicker": "TECH TIP",
       "author_name": "David Herzog",
-      "author_title": "",
+      "author_title": "CAR specialist",
       "affiliation": "Providence Journal",
       "full_text": "One of the things I've learned in my few years on the Providence Journal investigative team is that for such a small state, Rhode Island breeds some big corruption cases. As the CAR specialist on the paper's I-team, one of my roles is to gather the data to help uncover wrongdoing and make sure other reporters can get to it easily.\n\nNot everyone working on these investigations wants to learn how to query databases, so I've used Microsoft Access to create stand-alone programs that allow reporters to point and click their way to useful information.\n\nAccess provides all the tools to create these programs and enough power to accomplish everything you need without resorting to programming.\n\nBefore getting into the nuts and bolts of creating a program, it's necessary to understand how you can design forms to create screens for entering and querying data. That's what this article is about. Once you know how to create a form, it's easy to learn how to create a program.\n\nForms are the building blocks of the programs you create. You use the forms to design screens for your program, enter data into tables and query tables. Another issue of Uplink will carry the details of making forms work with other objects to create the program.\n\nNearly every investigation relies on a chronology to organize the story, so let's use one to get started.\n\nFor this lesson, I'm using an Access database file called apriltech.mdb, which you can download from the NICAR web site http://www.nicar.org. After downloading the file, open it in Access. (I'm using Access 97). You can open the Chronology table in design view to look at the fields and data types.\n\nThe simplest way to create a form is to let the Form Wizard do the work, then tweak the form manually. For this form we want to make these three modifications: (1) Create a button to close the form. (2) Create a \"pick list\" of story topics. (3) Create a toolbar with buttons to allow easy querying.\n\nCreate form\n\nCreate the form by clicking on the Forms tab, then New. Pick Form Wizard, then select the Chronology table from the pick list below. Click Ok. As you click the Next buttons, the Form Wizard will walk you through the steps of creating a form. Select all the fields, except for Edate, which Access will fill in automatically. Then, pick Columnar layout and pick a style. Finish and the wizard displays the form. Now you're ready to modify the form.\n\nClose button\n\nLet's start with the close button. First go into the form's design view by clicking on the Design View button at the upper left (hint: it looks like a square and pencil). Make room for the button by pulling the Form Footer rule down. Then click on the command button in the tool box (if you put your cursor over each button, Access will tell you the name of each one) and click on the form.\n\nThe Command Button Wizard appears. In the Categories box pick Form Operations. In the Actions box, pick Close Form. Click on next and choose a button style. Click Next, then Finish. Go back to the form view and save the changes to your form. Click on the close button to make sure it works (you have to be in Form view).\n\nPick List\n\nNext, we'll add a pick list that contains pre-defined story topics. Return to the form's design view, select the topic field and delete. Click on the combo box button in the toolbar and then click on the form, where the topic field was. The Combo Box Wizard starts.\n\nSelect \"I will type in the values that I want\" and click on Next. Under Coll type the story topics: Bribery, Sedition and Mutiny, using the Tab key to create a new line for each word. Then click Next.\n\nIn the next step, click Store that value in this field and select Topic from the pick list and click on Next. Now type a label for the pick list: \"Topic\" and click Finish. Switch to the form view and you see that the Topic combo box has a pick list with your story topics.\n\nEntering data\n\nNow try entering data into your form and use the Tab key to move through the fields. (If the cursor skips over the Topic field: Go back into Design View, right click on the form background and select Tab Order from the pop-up menu. Click Auto Order and Access creates a tab order based on the placement of the fields on the form. Click OK and go back to Form View.)\n\nIf you need to adjust any of the field widths or placement of field labels, you can do that in Design View. Finish adding records so you have a dozen or so for querying.\n\nCreating toolbar\n\nTo make things easy for users, we'll create a toolbar that will step users through queries using this form. Go back to Design View and select View-Toolbars-Customize from the menu.\n\nIn the Customize box click New and call your toolbar E-Z Query. A blank toolbar appears. Now we need to add buttons that will run the queries. In the Customize box, click the commands tab to access the available buttons. In the Categories box select Records. Then, drag and drop these three command buttons from the right onto the blank toolbar: Filter by form, Apply Filter and Remove Filter/Sort.\n\nSince these buttons won't make sense to your users, we will create text buttons. Right click on the first button on the toolbar (while still in Design View) and in the text box that appears in the pop-up menu, type (1) Define query. Then click Text Only (Always) in the pop-up menu. Change the next two buttons to (2) Run query and (3) Show all.\n\nNow we will make sure the toolbar appears with the form. Go back to the Customize box and click the Toolbars tab. Select E-Z Query and click the Properties button. Under Toolbar type, pick Toolbar. Under Docking, pick Allow any. With these settings, you'll be able to move the toolbar under the toolbars at the top of the Access window and make it look like a menu bar. Attach the toolbar to the form by modifying the form's properties. To open the properties box, left click the form select box (it's the square to the immediate left of the ruler that runs from left to right) then right click to get the pop-up menu. Select Properties, then the Other tab. In the Toolbar field, pick E-Z Query, then close the Properties box.\n\nReady to go\n\nSave your database and get ready to query using the 1-2-3 method. Click the (1) Define Query button and you'll get a blank to enter query parameters. Let's look at records having to do with the Bribery story. Go to the Topic pick list and select bribery. Then click on the (2) Run query button to select just those records. At the bottom of the form, you'll see how many records were selected. After looking at your records, pick (3) Show all to remove the filter. You can run queries on any of the fields and use Access' wildcards.\n\nThat's all you have to do to make data mining easy for other reporters. In the next article, we'll put together a stand-alone program that will make it even easier for others to get information out of your data.\nDavid Herzog can be reached by e-mail at david_herzog@projo.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A Providence Journal investigative reporter explains how to use Microsoft Access forms as building blocks for creating stand-alone programs that allow journalists to query databases without programming knowledge, using a chronology table as an example.",
+      "keywords": [
+        "Access",
+        "database",
+        "forms"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "Access 97"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -171,9 +246,17 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "\"Awash in money, arts groups seek help\" St. Paul Pioneer Press March 5-6, 2000 www.justgo.com/twincities/ The Pioneer Press looked into the finances of nonprofit arts and cultural groups in the Twin Cities. The newspaper's analysis of I-990 forms from 1993 through 1997 found that these groups have enjoyed unprecedented prosperity in the 1990s.\n\n\"An Uneven Burden\" Newsday March 5, 2000 www.newsday.com/news/ncovsun.htm A computer-assisted analysis of home sales from Jan. 1998 to Sep. 1999 found the heaviest tax burdens in Long Island's Nassau County are among homeowners in communities where blacks and Hispanics make up the majority of the population.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The Pioneer Press analyzed nonprofit arts organizations' finances in the Twin Cities, finding they experienced significant financial growth during the 1990s. Newsday's investigation revealed disparities in property tax burdens, with the heaviest taxes falling on homeowners in predominantly Black and Hispanic communities on Long Island.",
+      "keywords": [
+        "arts",
+        "finances",
+        "taxes"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Demographics & Census"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -186,11 +269,19 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "The Courier Houma, The Daily Comet, The Opelousas Daily World, The Philadelphia Inquirer",
       "full_text": "Recent CAR stories\n\n\"Louisiana: Polluter's Paradise?\"\nwww.dailycomet.com/pollute.html\nThe Courier Houma, The Daily Comet and The Opelousas Daily World\nFeb. 24-Feb. 28, 2000\nNew York Times Regional newspapers in Louisiana have teamed up to investigate how well the Louisiana Department of Environmental Quality is meeting its obligations.\n\n\"Crime in Philadelphia\"\nThe Philadelphia Inquirer\nwww.philly.com/packages/crime/\n\nApril 18, 1997 to Feb. 4, 2000\n\nIn a stream of series over two years, the Inquirer has documented how Philadelphia police have been systematically \"downgrading\" crimes for years, booking them as lesser offenses that don't appear in the FBI's national listing of crime rates.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Two major investigative journalism projects: Louisiana newspapers examine environmental regulatory oversight, while Philadelphia Inquirer documents systematic crime classification manipulation by police.",
+      "keywords": [
+        "investigation",
+        "police",
+        "environment"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Health & Environment",
+        "Crime & Justice"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -205,10 +296,21 @@
       "author_title": "",
       "affiliation": "Pittsburgh Tribune-Review",
       "full_text": "\"Confronting the Numbers,\" a three-month Pittsburgh Tribune-Review investigation of the Pennsylvania lottery, began by confronting the kind of statistical conundrum that makes journalism such a fun job. The main point of my first computer-assisted reporting project was to see if the conventional wisdom - that the poor gamble on the lottery more than the rich - was true in our metro area. Not an easy question, it turned out. There are essentially two ways to use state data to determine who buys lottery tickets. One relies on sales information. The Pennsylvania Lottery will provide a spreadsheet of annual lottery sales by retailer. The spreadsheet includes the retailer's address, so a CAR reporter can sum the sales data by zip codes.\n\nBut numbers don't tell the whole story. Eventually, I had to put the mouse down and pick up the phone. I even had to (gasp!) leave the office.\n\nUsing demographic statistics, such as Claritas data, it's easy to figure per capita sales for a zip code, and compare that to median incomes in the same neighborhood.\n\nThe problem with this method is that it can't determine whether most, all, or none of a store's sales are to people who live in the neighborhood. Maybe the store is selling to commuters on their lunch hour or on the way home from work.\n\nShow a lottery official your sales-based analysis, and he immediately will try to shoot holes in it for that reason.\n\nAlternate method\n\nThe other method focuses on winners. Lotteries have to report anyone who wins more than $600 in a game to the IRS, and those records are public.\n\nBecause winners are a random sample of all players (if not, you've probably got a bigger story on your hands), a CAR reporter can extrapolate what share of sales comes from a given neighborhood based on what share of winners lives there.\n\nThe problem with this method is that $600 threshold. In Pennsylvania, the prize for hitting the three-digit Daily Number on a $1 straight bet is $500. Those winners aren't reported to the IRS. Numbers games are extremely popular in Pittsburgh, especially with its large elderly population. They are the game of choice among the heaviest players, the ones who collect lists of lucky numbers they notice on license plates or passing buses.\n\nA Pennsylvania lottery official confirmed to me that if savvy numbers players want to bet $10 on 7-9-2 straight, they buy 10 $1 tickets. That way, if they hit they get 10 $500 payments instead of a single pot of $5,000 that will be reported to the IRS.\n\nGiven that choice, I opted to use the sales method. It is more straightforward and easier for readers to understand.\n\nI eliminated from my analysis any ticket sales in the downtown area or in the airport, where sales were most likely to be to people who didn't live nearby.\n\nThough Pennsylvania is notoriously secretive, they didn't balk at mailing the sales data on two disks of Excel spreadsheets. Because the data were statewide, I was able to give customized stats to sister papers in neighboring counties, allowing them to do similar stories.\n\nThe results\n\nSurprise! Sales were highest in working class neighborhoods, and lowest in the wealthier suburbs.\n\nNow comes the part most dangerous for CAR geeks - getting buried in spreadsheets. I made top ten lists of this, figured per capita of that, made pie charts and line graphs and all sorts of neat stuff. I became a data weasel. But numbers don't tell the whole story.\n\nEventually, I had to put the mouse down and pick up the phone. I even had to (gasp!) leave the office.\n\nI visited the library and read what the experts and other pundits had to say about lotteries. I called the professors, the industry experts, and the state budget gurus. Several long interviews and hundreds of inches of notes yielded no quotes at all, but helped me understand the subject.\n\nI found out about a 1987 legislative resolution to study how much the lottery causes problem gambling - which the state has since ignored.\n\nMonths of poking around caused some leaks to spring. We got a tip that 15 employees got custom Pennsylvania Lottery sportcoats, purchased from the lottery director's tailor, costing the state $500 each.\n\nI visited a Gamblers Anonymous meeting in a church basement in the neighborhood where sales are highest. There I met several self-professed lottery addicts who were surprised and angry to hear the state director and revenue secretary both claimed such people did not exist.\n\nAt the region's top-selling store, our photographer met a poor family that spends $9 a day on tickets - two bucks for Mom and Dad, and one for each of their seven children. Their story sold the package and generated the most response from our readers.\n\nI waited until late in the game to go to the capital and interview the bigwigs. By that time, I had a lot of pointed questions ready, and was able to anticipate likely evasions and press for further explanations.\n\nThe state still has a lottery; I don't think any revelations are likely to change that. But as a result of our story, the state legislature held hearings to review the lottery's financial health, which our package called into question. Soon after, the auditor general announced his office would launch a formal audit.\n\nAnd the lottery director caught a tremendous amount of flak for those jackets. Three months after the series ran, he resigned, citing a need to spend more time with his family.\n\nMark Houser can be reached by e-mail at mhouser@tribweb.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A Pittsburgh Tribune-Review investigation uses computer-assisted reporting to analyze Pennsylvania lottery sales data by zip code and demographic information to determine whether poor communities spend more on lottery tickets than wealthy ones, ultimately choosing the sales method over winner analysis due to methodological challenges.",
+      "keywords": [
+        "lottery",
+        "analysis",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Business & Economy"
+      ],
+      "technologies": [
+        "Excel",
+        "Claritas"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -222,10 +324,22 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Here are versions in Access and FoxPro for converting character fields, such as \"01021999\" to a true date field, \"01/02/ 1999.\"\n\nNo matter what program you're using, start by inserting a new field in your table. In this example, the original date field is called DOB and the newly created field is called BIRTHDT. The date appears as mmddyyyy.\n\nIn Access:\n\nIn the grid view, put the name of the new field, BIRTHDT, in the field grid. In the criteria line: Left([DOB],2) & \"/\" & Mid([DOB],3,2 & \"/\" & Mid([DOB],5,4)\n\nThe SQL version looks like this: UPDATE [TABLENAME] SET BIRTHDT= Left([DOB],2) & \"/\" & Mid([DOB],3,2)\n\n& \"/\" & Mid([DOB],5,4)\n\nThis tells the computer, start at the left side of the DOB field and take two digits, then insert a forward slash (/), then go to the middle of the DOB field and start at the third position and take two digits, then insert another forward slash and finally go to the middle of the DOB field and start at the fifth position, taking four digits.\n\nIf your date has only two digits for the year, replace the final 4 with a 2.\n\nMake sure to use the ampersand (&) and not the plus sign.\n\nIn FoxPro:\n\nHere's the SQL (notice slightly different syntax): Replace all BIRTHDT with; CTOD(substr(D0B,1,2) + \"/\" + substr(DOB,3,2) + \"/\" substr(D0B,5,4))",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Instructions for converting character date fields (like '01021999') to formatted date fields (like '01/02/1999') using either Access or FoxPro database software.",
+      "keywords": [
+        "database",
+        "formatting",
+        "conversion"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Access",
+        "FoxPro",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -237,12 +351,23 @@
       "kicker": "QUICK TIP",
       "author_name": "Tom McGinty",
       "author_title": "Training Director",
-      "affiliation": "IRE and NICAR",
+      "affiliation": "NICAR",
       "full_text": "This module will trim leading and trailing spaces in a field, as well as extra spaces between words. For example, it will turn \"(space) Tom (space)(space)(space)McGinty(space).\" into \"Tom(space)McGinty\".\n\nTo find the Microsoft article about this module, go to www.microsoft.com/directory and click on \"Searchable Knowledge Database.\" Search for story number Q148396. From there you can copy and paste this module directly into Access.\n\nHere's how the module works: Go to the module tab on your database window and click on the \"new\" button. The window that pops up should have the following two lines at the top: Option Compare Database Option Explicit If it does not, add them. Next, type the following syntax below those two lines:\n\nFunction StripExtraChars (PassedStr, RemoveExtraChar$) On Local Error GoTo stripExtraChars_Em Dim i As Integer, GotChar As Integer Dim HoldStr As String, HoldChar As String , Exit if passed value is Null. If IsNull (PassedStr) Then Exit Function Trim extra characters from passed , string. PassedStr = Trim$(PassedStr) , Cycle through string and remove , extra string characters specified in , the RemoveExtraChar value. For i = 1 To Len(PassedStr) HoldChar = Mid$(PassedStr, i, 1) If HoldChar = RemoveExtraChar\n\nThen If GotChar = False Then GotChar = True HoldStr = HoldStr & HoldChar End If Else GotChar = False End If If Not GotChar Then HoldStr = HoldStr & HoldChar End If Next i StripExtraChars HoldStr StripExtraChars_End: Exit Function StripExtraChars_Err MsgBox Error$ Resume StripExtraChars_End End Function\n\nNext, under the \"Debug\" menu, choose \"Compile and save all modules.\" It will prompt you to name the module. Name it \"TrimSpaces\" and then close the module.\n\nNow, let's say you have a field called NAME that has extra spaces between first and last names, and unwanted spaces at the beginning and end of some of the names First, create a new field in your table called \"NEWNAME\"(NEVER change your original data).\n\nThen start a new query, add your table to the query and then, under the \"Query\" menu, choose \"Update Query.\" Pull the \"NEWNAME\" field down into the \"Field\" row of the update query. Then type this in the \"Update To:\" row of the query:\n\nStripExtraChars([NAME],Chr$(32))\n\nThat applies the new module you just created to the NAME field and puts the results into the NEWNAME field. The second argument of the function, Chr$(32)), is the ASCII code for spaces. The SQL for the same update query would look like this: update TABLENAME set NEWNAME = StripExtraChars([NAME],Chr$(32)) Tom McGinty can be reached by e-mail at tmcginty@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A tutorial on creating and using a Microsoft Access module that removes leading, trailing, and extra spaces between words in database fields.",
+      "keywords": [
+        "Access",
+        "module",
+        "spaces"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "Visual Basic",
+        "Microsoft"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -254,11 +379,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Uplink story ideas: Have you or one of your colleagues recently published a story using CAR that has not been done before or involved particularly difficult data work?\n\nDo you know of a technical problem (or its solution) that others may like to hear about? Or is there some issue or beat that we haven't covered?\n\nIf you have a story idea, we'd like to hear from you. Please contact managing editor Maryjo Sylwester either by e-mail at maryjo@nicar.org or by phone at (573) 884-7711.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR's Uplink newsletter invites journalists to submit story ideas about computer-assisted reporting (CAR) projects, technical solutions, and uncovered beats or issues for potential publication.",
+      "keywords": [
+        "journalism",
+        "reporting",
+        "data"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -273,10 +404,23 @@
       "author_title": "",
       "affiliation": "The Daily Oklahoman",
       "full_text": "Impact of choice\n\nIn the past five years, the Oklahoma City school district has, with growing enthusiasm, embraced the \"choice school movement.\" The growth of the movement has coincided with the dismantling of the district's court-ordered busing system and a return to neighborhood schools, many of them with student bodies that are 90 percent or more black.\n\nOklahoma City's choice schools are widely viewed as unqualified successes. But dissenting voices have argued that the establishment of choice schools, catering to elite students, imposes a cost on other students.\n\nEducation reporter Bobby Ross and I decided to put a yardstick to the debate: Are choice schools having an impact on other schools in Oklahoma City? How much of an impact? What are the implications? Our measurement tools included FoxPro, Excel, SPSS and Atlas GIS.\n\nWe found that students attending Oklahoma City's choice schools are disproportionately white, and are drawn disproportionately from the city's wealthiest, best-educated neighborhoods. We also found that neighborhood schools have greater concentrations of minority students and poor students than live within those schools' attendance boundaries. This bleeding off of talent from the wealthiest neighborhoods has coincided with a marked decline in standardized test scores among students in neighborhood schools.\n\nData used\n\nAt the heart of our analysis was a data file containing the home addresses and school assignments of Oklahoma City's 40,000 students.\n\nSeveral fellow journalists expressed surprise that we were able to get the school district to give us this data. There is ample room, though, under the Family Educational Rights and Privacy Act of 1974, for a school district to release student directory information.\n\nThe school district also provided us boundary files for neighborhood school attendance zones. We geocoded students' addresses and then used Atlas GIS to assign geocoded addresses to corresponding school attendance boundaries.\n\nThen we were able to measure how many students were leaving their neighborhood school zones to go to choice schools. But we also wanted to know something about the economic status of those leaving and those staying.\n\nEconomic status\n\nWe first tried to link student addresses to county property tax data, intending to use property values as proxy measures of student economic status. We discovered problems with this approach, though. We felt that we would have to develop separate measurement scales for those who lived in rental property and those who lived in their own homes. However, the tax rolls didn't identify rental properties or provide rent cost data.\n\nWe abandoned this approach, swallowed hard, and turned to our marketing department for a piece from its collection of Claritas data: estimated 1999 median household income and 1990 educational attainment by census block group. (See the Jan./Feb. 2000 issue of Uplink for a more detailed discussion on measuring student economic status).\n\nWe used Atlas GIS to assign each student's address to the census block group within which it fell. Then, we linked the student address data to the Claritas income and education data, joining on the block group field.\n\nBlock group-level income and education data served as rough indicators of individual students' socioeconomic status. This method allowed us to make observations based on the socioeconomic status of the block groups in which students lived, but not on individual students.\n\nWe used SPSS to calculate income quartiles for all middle and high school students, based on the block group in which they lived.\n\nWe assigned an income quartile ranking to each student in the data set. Then, we used FoxPro to create three tables:\n\n1.) One grouping the data by middle school/high school income quartile within each school.\n2.) One grouping by middle school/high school income quartile within each attendance zone.\n3.) One grouping by income quartile among students living in each attendance zone but enrolling in a choice school.\n\nWe joined the three tables on school name. The result was a table that contrasted the number of students in each quartile living within a school attendance zone with the number of students actually attending the school and the number going to choice schools.\n\nOpening the table into Excel, we calculated percentage of each school's enrollment, attendance zone and choice school out-migration falling into each quartile.\n\nWe found that in 11 of Oklahoma City's 13 neighborhood middle and high school attendance zones, a disproportionately low number of students from the lowest income quartile, and disproportionately high number of students from the highest income quartile, had left neighborhood schools for choice schools.\n\nSchool lunch data reinforced this observation. We found that the opposite was happening in neighborhood schools.\n\nOther measures\n\nVirtually all of the income disproportionality between neighborhood schools and their attendance zones was attributable to the out-migration of students to choice schools. A tiny portion was attributable to out-migration to other neighborhood schools.\n\nHowever, we were unable with our data to measure how many students were leaving neighborhood school attendance zones for suburban schools and private schools. While we weren't able to distinguish between students recaptured from private schools and suburban public schools, we were able to identify those students enrolling in Oklahoma City schools from addresses outside the district. (A disproportionate number of high-income students from out of district were getting into choice schools.)\n\nWe used similar methods to analyze household education levels within neighborhood schools' attendance zones, and to contrast them with the household education levels of the block groups in which out-migrating students lived.\n\nTo get an idea of racial proportionality, we compared the racial makeup of each choice school with the racial makeup of the nearest neighborhood school serving the same grades. In virtually every instance, we found that the choice schools, while having diverse populations, had disproportionately more white students.\n\nWe also analyzed district admission statistics and found that a greater percentage of minority applicants than of white applicants were being denied admission to those choice schools that used selective admission criteria.\n\nThese measurements provided a framework on which Bobby hung anecdotal evidence gathered through countless hours spent inside choice schools and neighborhood schools, and through innumerable interviews and focus-group sessions.\n\nDid we prove that neighborhood-school students are being harmed by the choice school system?\n\nNo. But we did create a replicable set of measurements against which to discuss studies showing that students in schools with greater concentrations of poverty tend to perform more poorly on standardized tests.\n\nGriff Palmer can be reached by e-mail at gpalmer@oklahoman.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "An investigation into Oklahoma City's choice school movement reveals that these schools disproportionately serve white, wealthy students from educated neighborhoods, while neighborhood schools become increasingly concentrated with minority and poor students, coinciding with declining test scores.",
+      "keywords": [
+        "choice",
+        "schools",
+        "segregation"
+      ],
+      "topics": [
+        "Education",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "FoxPro",
+        "Excel",
+        "SPSS",
+        "Atlas GIS"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -288,12 +432,24 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Census Workshops\n\nA third date for the IRE and NICAR Census 2000 seminars has been set for Dec. 8-10 in College Park, Md. Others will be held April 7-9 in Tempe, Ariz., and Aug 4-6 in Columbia, Mo.\n\nThese intensive two-day sessions will be a fast-track lesson on what you need to know to start producing stories when the data begins to emerge at the end of this year.\n\nInstructors will be Paul Overberg, a database editor at USA Today, and Steve Doig, the former Miami Herald research editor who now teaches computer-assisted reporting at Arizona State University.\n\nMore information, including registration forms and a schedule, is available at www.ire.org/training/censusworkshoptempe.html\n\nAlso check out Doig's new Web site on using data from the 2000 Census. The site is at http://cronkite.pp.asu.edu/census (note: make sure \"frames\" are enabled on your browser).\n\nThe project, supported by a grant from the Russell Sage Foundation, features a variety of pages that will be useful for journalists.\n\nNICAR data update\n\nNICAR has updated the Consolidated Federal Funds Report (CFFR) data through September 30, 1998, the National Endowment of the Arts grants database through fiscal year 1998 and the Recreational Boating Accidents database through the end of 1998. The CFFR data includes all federal money paid to states, counties and local agencies. That includes social security payments, grants and direct loans. A sample slice and record layout are available at www.nicar.org/data/cffr/ The recreational boats database contains data on accidents that resulted in death or injury requiring more than first aid. NICAR has data going back to 1969. More information and sample slices of the tables are available online at www.ire.org/datalibrary/databases/BoatAcc/ NEA database includes grants awarded since 1987 to arts organizations throughout the United States. More information and a sample data slice are available online at www.ire.org/datalibrary/databases/NEA/ Contact the data library to order these or any other datasets by calling (573) 884-7711.\n\nConferences\n\nA registration form for the IRE National Conference, June 1-4 in New York City, is available in this issue on page 15. The first day of the conference will be an optional CAR day with panels planned on topics such as: housing issues such as slumlords and land flips, environmental databases, responding to disasters, census, campaign finance, deadline data work, newsroom training and mapping. More information is available online at www.ire.org/training/ny00/\n\nSchedule information and registration forms for the National CAR Conference, Sept. 14-17 in Lexington, Ky., should be available soon on the IRE Web site. More information is available by calling (573) 882-0684.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE and NICAR are offering Census 2000 workshops in three locations with expert instructors, while also updating several federal databases including the Consolidated Federal Funds Report and announcing upcoming conferences in New York and Kentucky.",
+      "keywords": [
+        "census",
+        "workshops",
+        "databases"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Data & Databases",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "FTP"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

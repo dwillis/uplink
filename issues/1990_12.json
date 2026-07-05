@@ -37,10 +37,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "If you want to use MDR.\n\nThe volume is 3 reels, 6250 bpi, EBCDIC and avalible through NTIS (# pb90-591610) NTIS phone number is 703-487-4848. But at the time this issue of Uplink was printed, the NTIS sales desk was closed due to a fire in their computer room. MICAR can provide the volume (updated through Sept. 1990) for $300.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Information about accessing MDR data available through NTIS on 3 reels of tape, with alternative availability through MICAR for $300 due to temporary NTIS closure.",
+      "keywords": [
+        "data",
+        "NTIS",
+        "availability"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Technology"
+      ],
+      "technologies": [
+        "9-track tape",
+        "EBCDIC"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -66,7 +76,8 @@
         "Public Safety"
       ],
       "technologies": [
-        "9-track tape"
+        "computer",
+        "tape"
       ],
       "provenance": {
         "extracted_by": "pre-v2",

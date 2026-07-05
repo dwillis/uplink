@@ -10,9 +10,17 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "The binders have been bought. The pencils have been sharpened. Now it's time to see what's really going on behind the school house door.\n\nMark Skertic and The Cincinnati Enquirer found out that middle-income parents have yanked their kids from the city's public schools. Heather Newman and a team of reporters at the Detroit Free Press discovered that uncertified substitutes were often being called on to teach classes and that principals were being paid for outside activities that other principals did for free. NICAR's Kara Morrison reports on how the Baltimore Sun showed that the Baltimore school district's greenest teachers were assigned to the area's most disadvantaged schools.\n\nAnd Griffin Palmer of The Daily Oklahoman tells how reporters there used computer-assisted reporting to analyze minority hiring in the school district.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Journalists across multiple newsrooms have uncovered significant issues in public school systems, including middle-income student exodus, uncertified substitute teachers, unequal teacher assignments, and disparities in minority hiring practices.",
+      "keywords": [
+        "schools",
+        "reporting",
+        "districts"
+      ],
+      "topics": [
+        "Education",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -24,7 +32,7 @@
       "headline": "Separate & Unequal",
       "kicker": "Uplink Update",
       "author_name": "Mark Skertic",
-      "author_title": "The Cincinnati Enquirer",
+      "author_title": "",
       "affiliation": "The Cincinnati Enquirer",
       "full_text": "Some school administrators refused to believe it when they read that parents in Cincinnati were less likely to choose public schools than their counterparts in almost every other large city in the nation. After all, the school chiefs argued, walk into any of the district's magnet schools and you see happy children from all over the city working together. But anecdotes don't always give a clear picture. Census Bureau reports make clear that the district's hold on middle-class families is tenuous. Instead of a public school system that mixes together children from different social and economic classes, Cincinnati schools are in danger of becoming a system that exists only to teach the community's poorest children. The analysis that appeared in The Cincinnati Enquirer showed that high-income families have given up on public schools and many middle-income earners have opted for private schools or other options. Today, about 78 percent of Cincinnati households with school-age children choose the public schools. That compares to 86 percent on average in Ohio and 87 percent nationally. Parents are more likely to choose public schools in most cities in the nation, including Detroit, Los Angeles and Miami. The news was troubling for public school advocates who see local elementaries and high schools as great melting pots, where different races and social classes come together to learn. Instead, their school system's population is an imperfect reflection of the community, with a disproportionally poor population. More than half the children enrolled in Cincinnati schools come from households where the annual income is less than $20,000 annually.\n\nCensus tracks school kids\n\nSchool administrators had said for years that they didn't collect the information necessary to really know how well the district's enrollment represented the overall population, nor did they know what percentage of parents were using the public schools.\n\nBut it was all there in the 1990 Census files, waiting to be sifted out. For reporters in cities where there have been dramatic population shifts or school enrollment has jumped or plummeted wildly that makes this a difficult story to replicate. Most of it was collected in 1989 and it's just too outdated if your area has changed substantially in that time.\n\nBut if population and enrollment have been stable, the information will prove useful. In this case, I talked with demographers and education researchers at the University of Cincinnati about the validity of the data. They checked elements of the data listed below against some current population estimates. In their judgment, the school-enrollment trends I was preparing to cite were still valid.\n\nThe sources I used:\n\nThe School District Data Book, a series of CD-Roms from the National Center for Education Statistics. That software uses information from the 1990 Census to provide detailed information broken down by school district. Most states are available on a single disk. For details and current prices, call the center at (800) 424-1616. The same information is also available online at http://govinfo.kerr.orst.edu/sddb-stateis.htm.\n\nThe CD-ROM version is user friendly and fast. It operates in DOS, but the menus are easy to use. The reference manual that comes with the disks is expansive, but also easy to use.\n\nThe National Center for Education Statistics also has detailed information on enrollment and poverty trends. Much of this is available on the center's web site: http://www.ed.gov/NCES/.\n\nA series of tables the Census Bureau ran for a Center for Education Reform study on where teachers send their children to school. When I saw that study a few months before doing this project, I realized that before the bureau could break out details on teachers, an analysis had to be done on where the general population sent their children.\n\nThe bureau's analysis for the Center for Education Reform resulted in several tables: A state-by-state listing of the percentage of parents who chose public school and the percentage who chose private, a listing of the 100 largest cities with the same information and similar tables. In all cases, information was provided for the overall population broken down by income bracket. That analysis was paid for by the Bradley Foundation of Milwaukee, Wisc. But once the Census Bureau created the \"document\" for that study, I got a copy by calling the population division and asking for it. Special Tabulation Package 181 cost $60 for three disks. The text files were easy to call up in a spreadsheet program. Contact the bureau's population division at (301) 457-2429 for a copy.\n\nPutting it together\n\nThe School District Data Book contains more than 100 pieces of information for every school district in the state. The menu system makes it easy to break data down into subsets for analysis.\n\nFor example, I was able to choose between looking at economic information for all households in the school district or households with children. I could examine demographic profiles of children or for all school-age children.\n\nThat allowed me to do detailed breakdowns, looking at where middle income earners sent their children to school.\n\nThe Special Tabulation purchased from the Census Bureau had all the information needed to look at the nation's largest cities, giving readers a larger perspective on the situation.\n\nFinally, the National Center for Education Statistics reports had details about population shifts and trends.\n\nAfter the story appeared, the school district's treasurer got copies of the School District Data Book CDs, hoping to double-check my work and prove how inaccurate I had been. He didn't have much luck.\n\nIn fact, Cincinnati Public Schools recently began doing a series of demographic studies, hoping to take the same sort of research and project it over five years. The analysis will be used to develop a recommendation for some school closing and repair prioritization. I'm already looking forward to FOling their raw data for some analysis of my own.",
       "summary": "An analysis revealed that Cincinnati's public schools are struggling to retain middle-income families, leading to a disproportionate number of low-income students in public schools compared to state and national averages.",
@@ -33,8 +41,14 @@
         "public schools",
         "demographics"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Education",
+        "Data & Databases",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -45,8 +59,8 @@
       "headline": "Record Fight",
       "kicker": "Going Private",
       "author_name": "Heather Newman",
-      "author_title": "Detroit Free Press",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "Detroit Free Press",
       "full_text": "It started with a tip last November: Detroit Public School principals were raking in extra cash by doing after-school activities other principals did for free. Detroit Free Press education writer Jennifer Juarez Robles realized that with teachers' union salary negotiations coming up in 1997, how much principals - and regular staff members - were making above their base salaries could quickly become a hot debate topic. Salaries and benefits are a perennial issue in the district, making up 83 percent of all discretionary dollars spent. So Robles and Ariana Cha, an intern now at the San Jose MercuryNew filed an open records request for the district's salary database. They asked for race, sex and age information, as well as gross salaries for the past two years, base salaries, names, position titles and where the people worked. Detroit Public Schools has more than 22,000 employees, making it one of the largest public payrolls in the state. ",
       "summary": "Detroit Free Press reporters obtained salary data for over 22,000 Detroit Public School employees to investigate principals earning extra compensation for after-school activities ahead of upcoming union negotiations.",
       "keywords": [
@@ -54,7 +68,11 @@
         "investigation",
         "principals"
       ],
-      "topics": [],
+      "topics": [
+        "Data & Databases",
+        "Education",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -66,8 +84,8 @@
       "headline": "Inexperience Reigns",
       "kicker": "Poor schools get rookies",
       "author_name": "Kara Morrison",
-      "author_title": "NICAR",
-      "affiliation": "",
+      "author_title": "NICAR representative",
+      "affiliation": "NICAR",
       "full_text": "Mike Himowitz had often heard Baltimore County's neediest schools were getting stuck with the greenest teachers. But it wasn't until Baltimore Sun reporter Marego Athans ran across some teacher turn-over data that the two were able to substantiate the problem. Athans discovered one school administrator disturbed by the trend had been keeping track of teacher transfers and turnover and years of teaching experience. Himowitz, the Sun's electronic news editor, said the numbers jumped off the page. They supported complaints that Himowitz had heard for years as a former education reporter and Baltimore County bureau chief. The result was a story in the June 4 Baltimore Sun detailing how teachers without much experience are concentrated in disadvantaged schools with the lowest test scores, highest poverty rates and usually the largest minority populations. In other words, Athans said, students do not have equal access to experienced teachers. She reported that according to several national reports, teacher experience is one of the most important factors in student achievement. ",
       "summary": "Baltimore Sun reporters discovered that disadvantaged schools with the lowest test scores and highest poverty rates are staffed disproportionately with inexperienced teachers, limiting equal access to quality education. The finding was substantiated through teacher turnover data showing a concentration of less experienced educators in schools serving the largest minority populations.",
       "keywords": [
@@ -75,7 +93,11 @@
         "inequality",
         "schools"
       ],
-      "topics": [],
+      "topics": [
+        "Education",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -87,8 +109,8 @@
       "headline": "Adding Numbers",
       "kicker": "Minority teachers missing",
       "author_name": "Griffin Palmer",
-      "author_title": "The Daily Oklahoman",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Daily Oklahoman",
       "full_text": "Data analysis doesn't have to drive an education story. Sometimes it can be a nice augment. When reporters Susan Parrott and Melissa Nelson-Varela began preparing a feature about the State Education Department's efforts to recruit minority educators, I reached for two data sets I already had. One was a racial breakdown of Oklahoma's student body. The other was a racial breakdown of certified educators. The analysis turned up some surprising numbers that helped shape the story: The greatest discrepancy in numbers between student body and educators was not among blacks, but among Hispanics and Native Americans. Before the analysis, Susan and Melissa had instinctively been focusing mostly on black students and efforts to recruit more black teachers. Our analysis showed them they needed to focus more on other racial minorities. The analysis wasn't terribly complex, but we did have to be careful to select comparable groups from both databases. The State Education Department's student racial breakdown includes students enrolled at private schools, while the educators' database does not include those working at private schools. The enrollment data documentation warned that students enrolled in bilingual programs were counted twice, a fact that we also had to account for before we could do our analysis correctly. Unlike the U.S. Census, the data counted Hispanics as a distinct ethnic group and not as a subset of other racial groups. To make sure we were comparing like groups, we needed to select only those cases from the student enrollment file that contained data for districts included in the educators' file. The tables' design made this challenging. In the student file, each record indicated a grade in a particular school. Each record contained columns listing number of class members by race and by gender. The educators' file contained a single record for each teacher or administrator, with a field denoting the individual's race. Each of the files listed district numbers many times. In the enrollment file, district number occurred in each grade. In the educators' file, district number occurred in each individual's record. Doing a straight relational join in this situation would result in thousands of duplicate matches. A simple nested query, in FoxPro, allowed us to find only those districts appearing in the educators' file and to filter out the duplicate numbers from bilingual enrollments. The tables were called enroll96.dbf and edcert96.dbf The join field was called district. Any time the grade field in the enrollment table contained the string 'BI', it was duplicate information that had to be eliminated. Here's how the query looked: select * from enroll96 where grade <> 'BI' ; and district in (select district from edcert96) ; into table public96 We now had a table giving us enrollments only for public school districts, and could make meaningful comparisons between the racial distribution among certified educators and the racial makeup of the student body. We knew that Oklahoma City and Tulsa, the state's two largest, most urbanized districts, would have sharply different racial makeups than the rest of the state, so we analyzed them separately. In fact, we broke the data into four separate groups, based on size of enrollment. Our analysis showed, however, that only Oklahoma City's and Tulsa's racial makeup differed significantly from the makeup of other districts. Our analysis showed that blacks made up 36.6 percent of students in Oklahoma City and Tulsa, while blacks comprised 21 percent of the two cities' educators. In the rest of the state, blacks made up 6.6 percent of students; less than 2 percent of teachers. American Indians comprised 6.4 percent of the urban student bodies and 2.3 percent of the urban districts' educators. In the balance of the state, the discrepancy was more stark: 16.3 percent of students and 3 percent of educators were American Indian. Similar discrepancies showed up for Hispanics. The ratio of Hispanic students to educators was 9.2-to-1 in the urban districts. The data analysis contributed only a few paragraphs to a 85-column-inch story. It lent authority to the story, though, and helped shape its lead. Griffin Palmer can be reached at (405) 475-3311 or send e-mail to palmer@qns.com.",
       "summary": "A reporter used data analysis to uncover that Hispanic and Native American students had the largest representation gap compared to educators, rather than Black students as initially assumed, by carefully comparing student enrollment and certified educator databases while accounting for data inconsistencies.",
       "keywords": [
@@ -96,8 +118,14 @@
         "educators",
         "minorities"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Education",
+        "Data & Databases",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "FoxPro"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -108,8 +136,8 @@
       "headline": "Handout of the Month",
       "kicker": "CAR coverage syllabus",
       "author_name": "Rose Ciotta",
-      "author_title": "Buffalo News",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "Buffalo News",
       "full_text": "This is an excerpt of a handout given at the National IRE Conference in Phoenix. To order the complete handout or to get a list of other available handouts, call the IRE Resource Center at (573) 882-3364. Using CAR to investigate school trends is no longer of interest only to the education reporter. There are scores of local stories based on the analysis of data gathered at the local or state level. In many cases, the data match national trend data - is collected by the U.S. Department of Education. These stories can be done by reporters covering education, suburbs or just one school district. Readers want to see how their district compares to other districts. By getting the same data for all of the districts in your state you can easily report how your district compares on any number of variables. It's an excellent way to size up your district. Here is a list of ideas to get you started. CAR Education Topics 1. Demographic Data Schools have to report their racial breakdown. In a growing community, those numbers alone can help you compare and contrast districts as a reflection of housing patterns. Or, in established areas, the demographic data can help you identify districts and/or schools to feature for other stories. Also look for income information which is usually reported as percent eligible for a free or reduced lunch or the Census poverty index. At-risk data includes suspension and dropout rates. There's also percent of students in special education, number of students with limited English proficiency, percent of graduates who went to college, percent who graduated with a state diploma. 2. Salaries Taxpayers everywhere want to know how the teacher salaries in their district compare to teachers in other districts. The best way to do this story is to get all of the salaries and figure your own medians and averages to determine which number best reflect the teachers' salaries. If salaries increase with seniority, a district or school with a high number of veteran teachers with advanced degrees will have high salaries compared to districts hiring younger teachers with bachelor's degrees. If actual salaries are not readily available, the state usually can give you median salaries. The state also collects other details related to seniority, education, race, certification and pupil-teacher ration. Don't stop with teachers. Some of the most interesting figures are the salaries paid to top administrators. Once you get that database, you can also figure salaries on a per pupil basis to compare salaries between large and small districts and number of administrators per pupil. 3. Taking the Long View Pick an issue and look at it over a long period of time, i.e. a decade. Whether it's teacher salaries or amount raised in local revenues, any numbers would have to be adjusted for inflation. To account for changes in enrollment, the value needs to be figured on a per pupil basis. The result is a per pupil number adjusted for inflation that allows anyone to compare data such as total expenditures, amount spent on special education, amount raised in local taxes and amount raised in state or federal aid. 4. School Taxes School taxes probably account for the largest portion of the local property tax bill if your district relies on local property taxes for its funding. This is another area that can benefit from a long view analysis. When analyzing revenues, make sure you know what's included an what isn't. Local revenues may include sales tax. Is that a major or minor portion of the total? To be sure you have the whole picture of a district, ask for all of the revenue pieces including how much the district receives in state aid and federal grants. To compare districts over time, calculate these numbers on a per pupil basis adjusted for inflation. 5. Enrollment It's reasonable that spending increases when enrollment increases. But, you can often get interesting explanations when the opposite occurs. Looking at data simultaneously over a 10-year period allows you to see these trends. 6. Spending This is the trickiest area in school finance and another very good place to calculate per pupil spending over time with adjustments for inflation. The pitfalls are in the definition of spending. Remember, readers get the total expenditure number on their tax bill. They may be confused if you use anything else to calculate spending per pupil. Rose Ciotta can be reached at (716) 849-5548, or send e-mail to ciotta@buffnews.com There's approved operating spending with only includes day to day operating expenses. There's total expenditures which includes everything including busing, and there's total general fund expenditures which is spending for the program itself.",
       "summary": "This IRE conference handout guide provides education reporters with computer-assisted reporting (CAR) techniques to investigate and compare school district data, including demographic information, teacher salaries, and long-term trends, enabling readers to see how their districts compare locally and statewide.",
       "keywords": [
@@ -117,7 +145,11 @@
         "analysis",
         "districts"
       ],
-      "topics": [],
+      "topics": [
+        "Education",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -138,8 +170,16 @@
         "housing",
         "economics"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "CPI",
+        "GDP deflator",
+        "Web site"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -150,7 +190,7 @@
       "headline": "CAR Tech Tip",
       "kicker": "Splitting up isn't hard to do",
       "author_name": "Richard Mullins",
-      "author_title": "NICAR",
+      "author_title": "",
       "affiliation": "NICAR",
       "full_text": "CAR Tech Tip\n\nSplitting up isn't hard to do\n\nBy Richard Mullins NICAR\n\nThis column will go over the same ground as an earlier column - how to use string functions to split a field - but with the functions and commands used in Access instead of FoxPro.\n\nIf you work with databases for very long, you will face the question, \"How do I split apart a field?\"\n\nIf your search for help leaves you with a half-dozen offers of \"I don't know Access. I like FoxPro better. I can show you how to do it FoxPro,\" then there's this month's column. It's not person-to-person, but you can tape it to your monitor.\n\nLittle difference\n\nThe differences between FoxPro and Access are not all that great, especially if you think about it right. You probably don't need anyone else telling you how to think, but that's OK because I might not do a very good job and so no harm will be done.\n\nHere is one way to state what's needed to solve the problem: You need to understand the three FoxPro functions, left (), at (), and substr ()\n\nHere is a better way to state what you need to know. You need to understand that all database programs have a way to look at strings and:\n\n1) Pluck out a certain number of characters starting from the left, or from anywhere in the string.\n\n2) Locate the position of a certain character.\n\nTo illustrate the solutions, I'll assume a table called Contribs with the original field called name, which contains a last name, then a comma, then the rest of the name: the first name, and perhaps middle name or initial. There are two new columns called last and rest.\n\nThe examples will be in SQL, which you can type into the SQL view of an Access query.\n\nOne of the benefits of SQL being the lingua franca of databases is you can pass along plain text of a query and not have to describe the specific screen of a specific database program. Last month's column presented the FoxPro/Access-SQL versions of updating columns and deleting rows.\n\nFollowing the usual typographic convention, the SQL words are all caps. The string function words are in italic, a departure from the usual convention.\n\nTo split off the last name into the field called last.\n\nUPDATE Contribs SET last = Left (name, InStr (name, \",\")-1) WHERE (Len (name) >0 AND name IS NOT NULL AND InStr (name, \",\") > 0 )\n\nNow for the explanations: The function, instr (), which you can remember as being short for in-string, is the Access equivalent of the FoxPro function at (). These functions give the position of the comma within the field called name.\n\nTo avoid taking the comma trailing the name, you subtract 1 from the number that indicates the comma position.\n\nWhere conditions\n\nIn SQL update queries, all rows are changed unless you include a WHERE condition. In this case, the WHERE statement tells Access to split all the name fields apart, but only if three conditions are true: 1) the field is not empty, 2) the field is not NULL, and 3) the comma can be found in the field.\n\nThis is necessary in Access to avoid error messages that FoxPro would never trouble you with.\n\nI know that conditions one and two seem to be saying the same thing, but in Access, which is more precise than FoxPro in the way it deals with nothing, a field can be NULL or it can contain a string whose length is zero.\n\nTo split off the rest of the name into the field called rest.\n\nUPDATE Contribs SET rest = Mid (name, InStr (name, \",\") +1) WHERE (Len (name) > 0 AND name IS NOT NULL AND InStr (name, \",\") > 0 )\n\nThe Access function for going to any position within a string is mid. The FoxPro equivalent is substr().\n\nAgain, we have to find the comma, but not put it in the destination field. So for the right split, we add 1 to the position of the comma.\n\nRichard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org",
       "summary": "This column demonstrates how to use string functions in Access to split fields, building on similar techniques previously covered for FoxPro, a practical skill for anyone working with databases.",
@@ -159,8 +199,16 @@
         "string",
         "databases"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "FoxPro",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -171,7 +219,7 @@
       "headline": "On the Internet",
       "kicker": "Education on the Web",
       "author_name": "Pete Weitzel",
-      "author_title": "Poynter Institute",
+      "author_title": "",
       "affiliation": "Poynter Institute",
       "full_text": "To add depth to dailies or to make your series as hard-hitting as possible, it is worth a trip to the Web. Here are dozens of useful sites collected by Pete Weitzel. These sites offer everything from education statistics to education-related magazines. These locations can help you earn an A on your next education assignment.\n\nSites we've found most useful\n\nEducation Week-http://www.edweek.org/ Articles from the current Education Week; background information on education issues; links to a range of education sites, listed by subject, and to education organizations. Education Week's \"The Daily News\"-http://www.edweek.org/context/clips/clips.htm Education stories from select newspapers, magazines and other reports on education. U.S. Department of Education - http://www.ed.gov/ A good place to get started on research. Links to resource directories, research reports, education organizations and associations, including: Associations: http://www.ed.gov/EdRes/EdAssoc.html Organizations: http://oeri.ed.gov:8888/STATES/direct/SF National Center for Education Statistics http://www.ed.gov/NCES/ or gopher.ed.gov:10000 Numbers on just about anything you want to know about. The Condition of Education, 1997-http://www.ed.gov/NCES/pubs/ce/index.html The NCES analysis of education in America, with statistical comparisons, and including these chapters: The Social Context of Education - http://www.ed.gov/NCES/pubs/ce/c97004.html Public and Private Schools, How Do They Differ? - http://www.ed.gov/NCES/pubs/ce/c97006.html Climate and Diversity-http://www.ed.gov/NCES/pubs/ce/c97sece.html Educational Research Information Center (ERIC) - http://www.aspensys.com/eric/barak.html\n\nERIC is a national information system providing access to education-related literature. It is supported by the Department of Education and the National Library of Education.\n\nERIC Clearinghouses-http://www.aspensys.com/eric/barak.html#1 The clearinghouses collect, abstract and index education materials, and respond to requests for information in specific subject areas.\n\nEric Search Wizard - http://ericae2.educ.cua.edu/scripts/ewiz/amain2.asp Designed to help you search for information on specific subjects.\n\nCurriculum Standards on the World Wide Web http://cdp.mde.state.mi.us/info/standards.html Links to national and state standards, by subject. A good starting place if you are interested in doing a local report card. Edlinks - http://webpages.marshall.edu/~jmullens/edlinks.html A strong list of education links, with short explanations of each site. And a 'Daily Report Card' of media coverage of education issues. Maintained by Marshall University.\n\nOrganizations and interest groups\n\nAmerican Association of School Administrators - http://www.aasa.org/ \"Front Burner Issues\" plus a comprehensive lists of links to education organizations & associations, materials & resources, regional laboratories, and to state superintendent organizations. Council for Great City Schools - http://www.cgcs.org/ Includes \"Urban Educator,\" and descriptions of \"programs that work.\" Center for Research on Evaluation, Standards, and Student Testing - http://cresst96.cse.ucla.edu/index.htm Education Commission of the States - http://www.ecs.org Hot topics backgrounders Education Writers Association - http://www.ewa.org/ Links to prize-winning education stories and various education sites American Federation of Teachers - http://www.aft.org//index.htm National Education Association - http://www.nea.org/ Council for Basic Education-http://www.c-b-e.org/index.htm Washington-based interest group focused on curriculum standards. National Association of Secondary School Principals - http://nassp.org/ National PTA - http://www.pta.org/ U.S. Charter Schools Association - http://www.uscharterschools.org/\n\nReports and research studies\n\nThe Condition of Education, 1996 http://www.ed.gov/NCES/pubs/ce/home.html National Education Summit - http://www.summit96.ibm.com/ Americans' Views on Standards - http://www.summit96.ibm.com/brief/papers/public.html#executive A Public Agenda Foundation study for the National Education Summit. Goals 2000 Update - http://www.ed.gov/G2K/ProgRpt96/ A 1996 update on the federal initiative. Third International Mathematics and Science Study - http://www.ed.gov/NCES/timss/brochure.html or http://www.ed.gov/NCES/timss/ The first is the official site; the latter seems to get to the point quicker. Teachers of English to Speakers of Other Languages - http://www.cal.org/cal/html/eslindex.htm Proposed standards for ESL teaching. US News, Special Report on Standards - http://www.usnews.com/usnews/news/stanhigh.htm March 1996 cover story, with poll results, and links to related resources\n\nReport cards\n\n(Note: Many states, school districts and schools post \"report cards\" on Internet home pages. Here are links to two urban school district pages, as examples, and to one newspaper's guide to providing comparative information on local schools.) Boston Public Schools - http://www.boston.k12.ma.us/ The system's website includes statistical reports on its schools (enrollment by race/grade and test scores) and school home pages. San Francisco Public Schools \"Accountability Report Cards\"-http://www.sfusd.k12.ca.us/schlhome.htm Seattle Times High School Guide - http://www.seattletimes.com/schoolguide/altindex.html The newspapers' consumer report on high schools, with report cards and statistics on each.\n\nMiscellaneous\n\nHarvard Graduate School of Education - http://gseweb.harvard.edu/ Links to the school's education newsletter, abstracts of articles in the Harvard Education Review. Columbia Teachers College - http://www.tc.columbia.edu/rschact.stm Centers on Urban Education and Technology and School Change. Edweb - http://edweb.cnidr.org:90/resource.cntnts.html Discussions on education and the use of computers and the internet. Phi Delta Kappan - http://www.pdkintl.org:80/karticle.htm Home page for education fraternity's journal Lists of schools The American Schools Directory - http://www.asd.com/ Provides links to web sites at 106,000 K-12 schools. HotList of K-12 Internet School Sites - http://rrnet.com/~gleason/k12.html Links to state departments of education, state school districts. Web66: International WWW School Registry -http://web66.coled.umn.edu/schools.html Links to school websites around the world. Pete Weitzel can be reached at (919) 489-4151, or send e-mail to pweitzel@aol.com",
       "summary": "A guide to useful web resources for education reporting and research, compiled by Pete Weitzel, featuring sites like Education Week that provide statistics, articles, and background information on education issues.",
@@ -180,8 +228,15 @@
         "resources",
         "reporting"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Education",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "gopher"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -192,13 +247,24 @@
       "headline": "IRE/NICAR Notes",
       "kicker": "New strategies in CAR",
       "author_name": "Brant Houston",
-      "author_title": "IRE Executive Director",
-      "affiliation": "IRE",
+      "author_title": "Executive Director",
+      "affiliation": "IRE and NICAR",
       "full_text": "For journalists in the 21st century the road of excess information can lead to the palace of wisdom, but only if news organizations rethink the way they gather, archive and retrieve that information.\n\nOver the past decade, news organizations in the United States have struggled to use traditional management structures to deal with terrifyingly new technologies and an overabundance of electronic news tips, faxes, on-line services and electronic government databases.\n\nThe old management structure rests on hierarchies of publisher-editor-reporter and on fiefdoms of \"desks\" such as \"national\", \"state\" and \"metro\" and on departments separated into the categories of newsroom, library, information technology, and lately the World Wide Web site. In addition to sometimes inhibiting communication and cooperation, the structure also makes few arrangements for training for reporters and editors.\n\nIn the newest \"age\" of electronic information (these ages seem to emerge every two years), the old management structure can lead to poor planning, duplication of efforts, and news stories that make little use of information that could provide depth and context.\n\nNew strategies\n\nBecause of the shortcomings of the traditional approaches, a new structure has begun forming as news organizations realize they must tear down the virtual walls between the newsroom, the library, and the trainers. While this new structure is only a preliminary one and only beginning to be implemented, it is a first step in re-thinking how a news organization can survive and thrive in the 21st century.\n\nThe new structure calls for requiring cooperation between reporters and editors, research librarians and trainers. Although the new structure may initially seem only appropriate for large organizations, smaller news organizations will need to look toward incorporating the new approaches for research and training.\n\nHow information comes in\n\nOne way to understand the need for the new approach is to look at what is happening at many U.S. newspapers now. Traditionally, reporters have been responsible for storing and organizing their information in their own private files. Often this storage is haphazard and inconsistent because of the daily requirements and the innate volatility and unpredictable nature of news.\n\nIf the reporters share their information, it is generally on an informal basis in conversation or a slightly formal basis in memos or in \"mentor\" programs. Indeed, some reporters see little sense in sharing too much information because of the internal competitiveness in a newsroom, a competitiveness often condoned by management in hopes of producing better stories.\n\nMeanwhile, secondary sources such as news stories, atlases, directories and reports come to the news library, which then reminds the news staff of the documents and resources it has gathered.\n\nIn recent years, however, more information has come in electronically. Because of its electronic form, the information can be more easily stored and distributed if a news organization is up to date in its technology.\n\nTo see how a new structure can work, here are some of the current best techniques of electronic information gathering.\n\nHow new databases are dealt with\n\nA reporter, as part of working on a story, acquires a database that contains thousands of relevant records on the subject of a story or a database that is so complete or intriguing that a story springs from it.\n\nThe reporter then seeks the help of an experienced \"database editor.\" The database editor is usually a veteran journalist who has been largely self-taught in technology and software. The database editor is well-trained in reviewing a database, finding its flaws and determining its accurate uses. The database editor also has the abilities, sometimes with help of more expert data processor, to carefully correct some of the database's imperfections, perhaps by standardizing names and coding categories.\n\nThe reporter, who may have received in-house or outside training in data analysis for journalistic purposes, reviews and analyzes the database, conducts interviews, and goes into the field to gather more information for the story.\n\nDuring the interview stage, the reporter also consults with the originating editor and again with the database editor, who may be called on to do more \"data cleaning\" and more advanced data analysis. When the database has been used for its first story or series of stories, it then goes to the news library for archiving and distribution. At that point, the database editor writes a document detailing the kinds of information it contains and the caveats involved in its use. The document is reviewed by the librarian and possibly receives further editing. This database and its documentation is then archived on CD-ROM and/or made available through an Intranet or some other kind of an internal network for journalists. During the initial reporting, of course, the library is involved, pointing the reporter to other databases and sources of information. In a third path of information gathering, the reporter does not obtain a database, but goes to the Intranet or to the library to search its archives, seeking advice from the news researchers on how to better search and on what other archives might be available. The reporter also searches public sources and private on-line databases with guidances from researches. In another path, the reporter keeps his or her own notes in a software program such as Lotus Notes and retrieves various pieces of information through key word searches. At the same time, the network technology and library keeps track of the reporter's interests. When a fax or other electronic information comes into the newsroom or library or is entered into the electronic archives, the reporter could be alerted electronically to the new information.\n\nWhat's needed\n\nLooking at just these examples of how information gathering has developed helps identify the kind of coordinating that is needed. This new reporting requires a trained editorial staff, trained library researchers, a training curriculum, a World Wide Web and network staff, and a trainer staff. At smaller news organizations, one staff member might still perform two or three of these jobs, but these are some of the titles and duties that have evolved:\n\nDatabase editor. Coordinates acquisition and analysis of electronic databases and information by the news staff.\n\nWorks with news librarian, trainer, and Intranet coordinator to determine strategies, prevent duplication of efforts, and to develop curriculum for training.\n\nNews Library Researcher. Coordinates acquisition by library staff, archival, retrieval and distribution of electronic databases and information.\n\nTrainer. Coordinates training of news staff use and understanding of electronic databases and the software for the use and understanding. Works with database editor and news library researcher to develop curriculum, schedule training and choose appropriate trainers. Works with Intranet coordinator to make training and materials available on Web.\n\nIntranet Coordinator. Works with database editor, news library research and trainer to ensure search tools and material on the Web are useful and relevant.\n\nThe editorial staff needs a basic knowledge of how electronic information is stored and how it can be used. The library researchers need to make sure that information is being archived and distributed and that the news staff knows what the library has or can get. The Web site and network staff needs to know how the news staff produces stories and what kind of distribution works bests. The trainers need to ensure the editorial and library has the capability to use all the electronic tools and information and to realize the potential of those tools. This involves creating a curriculum with those other groups.\n\nThe push into the electronic information age has been primarily spurred by reporters and news librarians. Editors and managers have often been overwhelmed by daily crises and the need to put out news. They frequently have regarded the acquisition of electronic information as mysterious, threatening or frivolous.\n\nHowever, the advent of Web technology, through its visual representations, has defogged the importance of electronic information and editors are beginning to realize the treasure trove for stories and services it provides.\n\nEditors and managers can now step forward to ensure that the acquisition is organized and efforts are not duplicated.\n\nWith this beginning structure, news organizations can ensure they continue to do journalism and are not simply information providers.\n\nBrant Houston can be reached at (573) 882-0684, or send e-mail to brant@ire.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "News organizations must restructure their traditional hierarchical management to break down barriers between newsrooms, libraries, and training departments to effectively manage the explosion of electronic information. A new collaborative approach is emerging as the solution for news organizations to survive and thrive in the 21st century.",
+      "keywords": [
+        "information",
+        "structure",
+        "collaboration"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web",
+        "electronic government databases"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -210,12 +276,25 @@
       "kicker": "Get your training",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR provides specialized training in your newsroom. Learn to transfer data from government files into newsroom PCs. Build spreadsheets for insightful stories on the beat. Comprehend documents with database managers. Navigate the Internet and on-line databases. Cost varies. For information, call Lisa Barnes at (573) 882-8969. September 11-13, 1997 - Washington, D.C. Computer-Assisted Reporting Workshop Sponsored by NICAR and the Medill School of Journalism September 15-17, 1997 - Atlanta, Ga. On-the-road training for CNN September 20, 1997 - Coeur D'Alene, Idaho Join NICAR for hands-on training at the Idaho Press Club's annual conference in Coeur D'Alene. Limited to conference participants. September 24-26, 1997 - Arlington, Va. On-the-road training for USA Today October 4, 1997 - Tucson, Ariz Join NICAR for hands-on training at at the Society of Environmental Journalists' annual conference. Limited to conference participants. October 16, 1997 - New York, N.Y. Join NICAR for hands-on training at the Media and Democracy Conference. Limited to conference participants. October 16-17, 1997 - Washington, D.C. On-the-road training for Reuters October 20-24, 1997 - Ft. Lauderdale, Fla. On-the-road training for the Sun-Sentinel December 11-13, 1997 - Washington, D.C. Computer-Assisted Reporting Workshop Sponsored by NICAR and the Medill School of Journalism\n\nConferences & Events\n\nNICAR will offer training and seminars at the following professional conferences, including the IRE and NICAR national conferences. Costs vary. For information or to register, call Lisa Barnes at (573) 882-8969. November 15-16, 1997 - Ciudad Juarez, Mexico Gathering at the Border March 5-8, 1998 - Indianapolis, Ind. NICAR Conference June 4-7, 1998 - New Orleans, La. IRE National Conference June 3-6, 1999 - Kansas City, Mo. IRE National Conference\n\nBootcamps\n\nBootcamps are week-long, intensive training sessions offered at NICAR's headquarters at the Missouri School of Journalism in Columbia, Mo. As with on-the-road training, you will learn to transfer data from government files into newsroom PCs, build spreadsheets for stories on the beat, comprehend documents with database managers, and navigate the 'Net and on-line databases - but you'll be drilled all day, every day for a full week. Tuition ranges from $500-$1,000 depending on circulation or market size. For information, call Wendy Charron at (573) 882-0684. January 4-9, 1998 - Columbia, Mo. NICAR Regular Bootcamp May 10-15, 1998 - Chapel Hill, N.C. NICAR Advanced Bootcamp May 17-22, 1998 - Columbia, Mo. NICAR Regular Bootcamp August 9-14, 1998 - Columbia, Mo. NICAR Regular Bootcamp",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR offers specialized computer-assisted reporting training workshops, bootcamps, and seminars at various locations throughout 1997-1998, teaching journalists how to extract data from government files, create spreadsheets, and navigate databases for investigative reporting.",
+      "keywords": [
+        "training",
+        "journalism",
+        "databases"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "spreadsheet",
+        "database managers",
+        "newsroom PCs"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -227,11 +306,19 @@
       "kicker": "Growing collection of federal databases",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "From the NICAR library\n\nNICAR offers a number of federal government databases. Here is a list of our growing collection:\n\nNEW U.S. Food and Drug Administration's Medical Devices Reports, detailing complaints about drugs, pacemakers and other medical products. 1974-1996.\n\nNEW U.S. Centers For Disease Control's AIDS database, providing case-by-case demographic information about those with the HIV virus. 1995.\n\nU.S. Census Bureau's Consolidated Federal Funds Reports, showing which communities get how much under various federal programs. 1983-1995.\n\nFederal Aviation Administration's accidents and incidents, including major plane crashes since 1974.\n\nNASA's air safety reporting system, including anonymous complaints by pilots and air traffic controllers. Useful for finding near misses and problems at local airports, 1988-1996.\n\nFederal Election Commission campaign contributions by individuals and political action committees, 1990-1997.\n\nThe Health Care Financing Administration's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.\n\nFederal Railroad Administration data for accidents, casualties, and highway crossings, 1991-1996.\n\nCoast Guard boating accidents, 1969-1994.\n\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration, 1974-1997.\n\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns, 1992-1995.\n\nFederal procurement data, 1992-1996, includes breakdowns by agency.\n\nAlcohol, Tobacco and Firearms gun dealer records. 1993-1996.\n\nNational Bridge Inventory System data, includes inspection grades, 1994-1995.\n\nNEW. FBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the 1995 final report.\n\nSocial Security death records, by name and social security number, going back to 1937.\n\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies, 1974-1996.\n\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\n\nU.S. Small Business Administration loan guarantees, 1980-1997. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.\n\nU.S. Small Business Administration disaster loan guarantees, 1989-1995. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\n\nU.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.\n\nThe National Inventory of Dams, 1991-1995.\n\nU.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1996.\n\nU.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1975 to 1995.\n\nU.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.\n\nFor up-to-date prices and more information, call (573) 882-0684, or send e-mail to info@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR provides access to a comprehensive collection of federal government databases covering topics from aviation and crime to healthcare and finance, enabling journalists to investigate government spending, safety records, and regulatory compliance across multiple agencies.",
+      "keywords": [
+        "databases",
+        "government",
+        "investigation"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Government & Politics"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -244,11 +331,17 @@
       "kicker": "Help Wanted",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Bits, Bytes and Barks\n\nHelp Wanted\n\nIRE and NICAR have several positions open:\n\nDirector/Trainer for Campaign Finance Information Center and Database Library Administrator for Campaign Finance Information Center\n\nWe are looking for excellent journalism skills and/or excellent computer skills. The center will archive state and local campaign finance data, offer on-site and on-line training and will publish a newsletter. Salaries for the jobs range from $35,000 to $40,000.\n\nIRE Deputy Director\n\nIRE is also looking for a deputy director who will report to the executive director and help oversee IRE's six divisions: training, publications, the Mexico program, NICAR database library, operations and the new campaign finance information center. Salary range is $40,000 to $46,000. The job may include teaching at the school of journalism as an adjunct professor.\n\nDatabase Library Administrator for NICAR\n\nThis position involves supplying data and data analysis to more than 120 print and broadcast organizations and overseeing a team of graduate research assistants. Salary range is $35,000 to $45,000.\n\nInquiries and resumes should be sent to Brant Houston, Executive Director, IRE, 138 Neff Annex, Columbia, Mo. 65211 or brant@ire.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "IRE and NICAR are hiring for multiple positions including a Director/Trainer for the Campaign Finance Information Center, Database Library Administrator, IRE Deputy Director, and NICAR Database Library Administrator, with salaries ranging from $35,000 to $46,000.",
+      "keywords": [
+        "hiring",
+        "journalism",
+        "database"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -261,11 +354,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "Reader Response\n\nIt's time we heard from you. We are looking to improve Uplink and want to know your ideas.\n\nAre there certain columns that you would like to add? Are there certain topics you would like covered? Have you done a story that you think should be featured in an upcoming issue? This is your chance to play armchair editor.\n\nSend comments, critiques and suggestions to Uplink's editor, Jody Sowell, at jody@nicar.org We look forward to hearing from you.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Uplink newsletter is soliciting reader feedback and suggestions for improving content, columns, and topic coverage, with readers invited to submit their ideas directly to the editor.",
+      "keywords": [
+        "feedback",
+        "improvement",
+        "engagement"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -278,12 +377,22 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "NICAR",
+      "affiliation": "IRE and NICAR",
       "full_text": "Recent topics on the IRE and NICAR listserv have included campaign finance data, troubles with traffic accident data, ethics, medical investigation, medical investigations and Access tips.\n\nTo subscribe to IRE-L or NICAR-1, send e-mail to listproc@lists.missouri.edu\n\nIn the body of the message, type:\n\nsubscribe NICAR-L<your name>\n\nsubscribe IRE-L<your name>\n\nAlso, check out the IRE-L and NICAR-L mailing list archives on our website at http://www.ire.org and http://www.nicar.org. You can see posts to both lists organized by thread, author and date. The list archives are available in html or in plain text format.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The article provides information about subscribing to IRE-L and NICAR-L mailing lists for journalists, which discuss topics like campaign finance, traffic accidents, ethics, and medical investigations, with archives available online.",
+      "keywords": [
+        "listserv",
+        "journalism",
+        "archives"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "Email"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

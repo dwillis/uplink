@@ -37,11 +37,17 @@
       "kicker": "",
       "author_name": "The Editor",
       "author_title": "Editor",
-      "affiliation": "UPLINK / Missouri Institute for Computer-Assisted Reporting",
+      "affiliation": "Missouri Institute for Computer-Assisted Reporting",
       "full_text": "THIS IS YOUR LAST ISSUE unless you have paid for your UPLINK subscription. Because of the Missouri Institute for Computer-Assisted Reporting's growing mailing list and high production costs, UPLINK will no longer come to you free of charge. Your June issue will not arrive without a subscription. A year-long subscription costs $15. MICAR believes that this fee will be enough to cover our costs. If you wish to continue receiving UPLINK, fill out the subscription form on Page 4. We hope you will continue to read and contribute to UPLINK. Checks should be made out to the University of Missouri and sent to the address found on the subscription form. Thank you,",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The Missouri Institute for Computer-Assisted Reporting's UPLINK newsletter is transitioning from free to paid distribution, requiring a $15 annual subscription to continue receiving issues.",
+      "keywords": [
+        "subscription",
+        "newsletter",
+        "journalism"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -108,12 +114,23 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "Missouri Institute for Computer-Assisted Reporting",
+      "affiliation": "MICAR",
       "full_text": "The Environmental Protection Agency's Toxic Release Inventory (TRI) has been one of the most popular databases used by the readers of UPLINK. It has been the source of excellent industrial pollution stories in Florida, California, Connecticut, Ohio and elsewhere.\n\nBut many reporters still have not used the database.\n\nIn June, N.T.I.S. will make the 1989 TRI available on computer tape. We have found a way to make using these tapes irresistible. MICAR has produced A Reporter's Working Guide to the Toxic Release Inventory.\n\nThis short, step-by-step guide helps reporters download TRI into their computers, organize the data so that is usable, and manipulate the data to produce meaningful reports.\n\nAnd because specific SQL commands are included, reporters using the guide will be able to: identify the major polluters in their area; list the quantities of toxic chemicals discharged by state, county or zip code; identify the most polluted rivers and streams in their area; find out what toxic chemicals are used for; list the most common types of discharges and the list goes on.\n\nThe guide, which is really all you need if you already own the TRI database, costs $30 by itself. But for $50, MICAR will also include the NineTrack Express record profiles needed to download TRI.\n\nIf you do not own TRI, cannot afford it, or simply do not have a tape drive, for $350 MICAR will also supply TRI data concerning your entire state on 3.5\" diskettes. These diskettes contain unabbreviated data, unlike that which N.T.I.S. sells.\n\nFinally, if you wish to purchase the entire TRI database on computer tape, MICAR can supply it for $500. To order, call MICAR at (314)-882-0684.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A new Reporter's Working Guide to the Toxic Release Inventory provides step-by-step instructions for journalists to download, organize, and analyze EPA pollution data to create meaningful environmental stories. MICAR offers the guide in various package options ranging from $30 to $500, including database access and technical tools.",
+      "keywords": [
+        "pollution",
+        "database",
+        "reporters"
+      ],
+      "topics": [
+        "Health & Environment",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "SQL",
+        "9-track tape"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -125,11 +142,18 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "Dayton Daily News",
       "full_text": "The Dayton Daily News is accepting applications for a projects reporting position. Candidates must have demonstrated investigative reporting skills and an aptitude for using personal computers as a reporting tool. In the past year we have done computer-assisted reporting projects on discrimination in court sentencing, campaign finance and safety in the workplace. We have sent reporters through courses at the MICAR and have worked with faculty members of the National Institute for Advanced Reporting at Indiana University. Applicants should send resumes and clips to Jim Ripley, executive metro editor at: Dayton Daily News Fourth and Ludlow Streets Dayton, OH 45402",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The Dayton Daily News is hiring a projects reporter with investigative skills and computer-assisted reporting expertise, requiring applicants to submit resumes and clips to the listed address.",
+      "keywords": [
+        "reporting",
+        "investigative",
+        "position"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -144,9 +168,15 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Name:\n\nTitle:\n\nOrganization:\n\nAddress:\n\nPlease send this form and $15 dollars to The Missouri Institute for Computer-Assisted Reporting, University of Missouri School of Journalism, 120 Neff Hall, Columbia, MO, 65211. Make Checks Payable to The University of Missouri. Thank you.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "This is a membership or registration form for The Missouri Institute for Computer-Assisted Reporting requesting personal information and a $15 payment sent to the University of Missouri School of Journalism.",
+      "keywords": [
+        "registration",
+        "journalism",
+        "payment"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

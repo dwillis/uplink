@@ -7,8 +7,8 @@
       "headline": "Purged voter problems",
       "kicker": "ELECTIONS",
       "author_name": "Chris Davis and Matthew Doig",
-      "author_title": "Sarasota Herald-Tribune",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "Sarasota Herald-Tribune",
       "full_text": "Our analysis of a controversial database that Florida election officials were using to purge felons from the voter rolls exposed a fatal flaw that led to the list's demise. The analysis was simple, though the story was anything but ordinary. We imported the state's data into Microsoft Excel. With the help of a pivot table, we found how many of the 48,000 people on the list were white, black or Hispanic. Excel's pivot table function allows users to create cross-tabs to categorize and summarize data. The check was a basic step any journalist should take after he or she first gets new data. Immediately, the problem appeared in the results \u2013 24,000 of the potential felons were white, 22,000 were black, and 61 were Hispanic. We knew that Hispanics in Florida make up a key Republican voting bloc that had been instrumental in getting Gov. Jeb Bush and the President elected. Roughly 17 percent of Florida's population is Hispanic, the largest minority population in the state. It didn't seem logical that there would only be 61 on the list. After we double-checked our work to make sure we hadn't made a mistake, it left us with three possibilities to explore: 1. Are Hispanics less likely to commit felonies and less likely to register to vote? Neither turned out to be true. Hispanics make up about 11 percent of the state's registered voters, about 11 percent of Florida's prison population and 11 percent of the state's voting-age population. Given those numbers, it didn't make sense that less than 1 percent of the people on the state's purge list was Hispanic. 2. Were Hispanics hidden on the list under different race classifications? To answer this, we took a sample of 200 names from the list and examined them one by one, looking for Spanish surnames. We settled on a sample of 200 after talking with Steve Doig, a journalism professor at Arizona State University and Matthew's father. The sample size gave us an acceptable error margin of just about 7 percent. We obtained our sample by dividing 200 into 47,763, the total number of names on the list. We took the result, 239, and used Excel to number each name from 1 to 239 and repeated that process all the way through the list Then we employed the highly scientific method of asking someone in the newsroom to shout out a number between 1 and 239. When we had our number, we used Excel's AutoFilter tool to display only those names with that number beside them. We found a list of common Hispanic surnames on the Internet, and we enlisted a Hispanic colleague at the newspaper to help us identify people who could be Hispanic felons but listed under another race category. We repeated this process three times to convince ourselves we hadn't made an error. Each time we determined that, at best, 3 percent of the people on the state's purge list were Hispanic. That fell far short of the 11 percent we expected to see. 3. Did Florida's election officials botch their list somehow? Given what happened during the 2000 presidential election, this was something we'd considered from the start. So when we ruled out the other potential explanations, we started investigating how the state had built their felon list so we could spot where a data flaw might have been introduced. Our Hispanic colleague helped again when he reminded us that Hispanics traditionally have trouble being placed into a particular racial or ethnic category. An official with the U.S. Census Bureau agreed with his observation. The perfect example of this problem would be a man born in Cuba whose skin is black. That person might think of himself as Hispanic, and he could identify himself that way when registering to vote. But if someone else, such as a police officer, attempted to categorize him, he could easily be considered black. We interviewed an official with Florida's Department of State who explained that they merged two data sets \u2013 one from the Florida Department of Law Enforcement and another from the Division of Elections \u2013 to create a list of people who were convicted felons registered to vote. Florida is one of a handful of states in which a felon's voting rights aren't automatically restored. If you've used Microsoft Access to join two tables, you know an identifier common in both databases is needed to pull off the feat. And because the data might not be uniform in the tables, you also know what a headache it can be to make that match. To ensure that John Smith the felon was also the same John Smith registered to vote, state officials used every identifier available to make their match. This included first and last names, date of birth, sex and race. If any of those fields didn't match across the tables, that person would not have been included in the purge list. Because state officials used race for the matching process, we knew that's what had caused so many Hispanics to be left off the list. We presented what we found to the state's elections chief, and she conceded that problems in classifying Hispanics into a single race category had probably resulted in their exclusion. Despite the admission, officials said they had no plans to fix the Hispanic felon flaw. But apparently it's a lot harder to resist something published in The New York Times. After seeing the Herald-Tribune story, Times reporter Ford Fessenden learned that there was more to the problem than ambiguity in race reporting. It turned out that the FDLE database didn't even offer Hispanic as a race category. Later, the Herald-Tribune reported that prior to 1994, many supervisors of elections did not offer Hispanic as a race category. That virtually guaranteed that Hispanic felons wouldn't end up on the purge list. And it meant that Florida election officials had botched three felon purge lists since 1998. Three days after the Herald-Tribune first reported the Hispanic voter flaw, Fessenden's story ran in The New York Times. Later that day, Florida Secretary of State Glenda Hood announced she was scrapping the list. The flaw has cost the state millions of dollars and diminished its credibility, especially with Democrats and African-Americans who claim the list is designed to minimize their political power. The current purge list had only 9,500 Republicans, compared to about 28,000 Democrats. The demise of the list could have a huge impact on the November presidential election, which polls show could be as close as the one in 2000. With another quick Excel analysis, we were able to illustrate the potential impact. We began with the premise that the presidential election in Florida would be as close in 2004 as it was when it was decided by a 537-vote margin in 2000. We wanted to see how many people on the purge list would have to vote along party lines to reverse the outcome of a hypothetical election that was as close as the Bush-Gore race. What we found is that even if every Republican on the purge list voted for Bush, less than 36 percent of the Democrats would need to vote for Kerry to give Florida's electoral votes to Democrats. And if every Republican and Democrat on the list voted for their party's candidate, the outcome would be an 18,000-vote victory for the Democrats. That little bit of math let us write this lead: 'If the 2004 presidential election ends up being as close as the last one, Gov. Jeb Bush may have cost his brother his job.'",
       "summary": "Reporters discovered a fatal flaw in Florida's felon voter purge list where Hispanics were systematically excluded due to inconsistent race categorization. The analysis led to the scrapping of the list, which could have significantly impacted the 2004 presidential election results.",
       "keywords": [
@@ -16,8 +16,14 @@
         "Florida elections",
         "felon list"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -28,8 +34,8 @@
       "headline": "Guiding the project from start to finish",
       "kicker": "SPOTLIGHT: EDITING & MANAGING",
       "author_name": "Tim Ragones",
-      "author_title": "IRE and NICAR",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Working on a computer-assisted reporting project can mean dealing with slow record requests, dirty data and uncooperative software. But untrained editors may pose as much an obstacle to projects as these other hurdles. That's what John Ullmann, IRE's first full-time executive director and the current executive director of the World Press Institute in St. Paul, Minn., told a room of newsroom managers at a CAR boot camp for editors earlier this year in Columbia, Mo. If project reporting is a team sport, Ullmann said, editors are its weakest members. Ullmann, tapping into his experience as a former project editor, provided guidance to the editors and news managers at the boot camp on how to build better computer-assisted stories from conception to publication. Ullmann served as the assistant managing editor for projects at the Star Tribune in Minneapolis for six years. He supervised projects that won more than four dozen awards. In 1990, a series showing how members of the St. Paul, Minn., fire department profited from arson won the Pulitzer Prize for investigative reporting. In Ullmann's experience, the typical computer-assisted or investigative project lasts three to six months. Ullmann liked two-person investigative teams because he could partner people with different skills, and they would finish more quickly. Ullmann said good stories come from good editors who are well-read and good reporters working out in the field. While data is a valuable resource for finding story ideas, it's just a starting point, he said. Reporters should not be too proud of themselves when they get the data because the data is rarely the story. Journalists are in the business of storytelling, not describing numbers. Stories are always about victims and protectors, and it's important to look beyond the data to find them. When a reporter pitches a prospective story, Ullmann said an editor should ask two questions. First, what is the best-case scenario of the story? Second, would the reporter read the story if his or her name wasn't on it? Once a news organization approves a computer-assisted project and the reporting begins, Ullmann said it's important to give meaning to the data. That means the reporters need to find people who can reflect what the data shows and identify experts who can help interpret conclusions. Ullmann recommended transcribing soon after the interview. He said reporters should throw out any notes they took during the interview because these are not as accurate as the transcribed tape. Numbers can mean many things; Ullmann said it's important to include numbers that can support other interpretations in the story. He suggested working just as hard to disprove a story's thesis. Show the findings to the 'enemy' early in the reporting to avoid surprises after publication or broadcast. Reporters and editors should meet frequently for story conferences. When he was an editor, Ullmann said he barred computer printouts and notebooks from these meetings so numbers would not rule reporters. Reporters should never wait until they finish reporting before starting to write, Ullmann said. He liked to see drafts from his reporters every few weeks. Reporters should write what they know as they report. This strategy allows the news organization to publish or broadcast earlier than planned if necessary. In addition, it gets the reporters to focus on the story, not on each individual document or source. Ullmann suggested that reporters distribute their drafts to editors around the newsroom to find out if they get excited about the story. Ullmann said it's important to allow substantial time for editing and rewriting. That may involve shortening the story, but not always. Ullmann said long stories work if readers and viewers care about them. Charts, graphics and pictures are one way to increase a story's pace by cutting number-heavy material out. Ullmann said editors should include the photo and graphic staff from the beginning. They are partners in the presentation of the project, and they are critical to making it work. When the project is ready for publication or broadcast, Ullmann stressed one final step: line-by-line editing. Reporters should do this with their data. When Ullmann supervised projects, he wanted to see the source of every number in the story, whether it was in a document or came from a formula. He asked his reporters to redo calculations in front of him to make sure they were correct. If editors follow these steps, Ullmann said they would not be stuck on the bench; instead they will become valuable members of the team.",
       "summary": "Veteran project editor John Ullmann offers essential guidance for newsroom managers on how to effectively lead and edit computer-assisted reporting projects.",
       "keywords": [
@@ -37,7 +43,10 @@
         "newsroom editors",
         "investigative reporting"
       ],
-      "topics": [],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -49,8 +58,8 @@
       "headline": "Starting small",
       "kicker": "",
       "author_name": "David Donald",
-      "author_title": "IRE and NICAR",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "What's next? That's the question I face most often when I finish teaching an introductory session of computer-assisted reporting to journalists from small news organizations. What they're often really asking is simple: How do I go back to a small- or medium-sized newsroom that has never done CAR? Sad to say, even today some larger newsrooms exist without doing much CAR. But for reporters in smaller organizations, the thought is intimidating. They know that with CAR, as with most skills, it's use it or lose it. The real trick is changing that mind set. When working in a small- to medium-sized newsroom, you must not use size as an excuse, even if you have fewer CAR converts and resources than your counterparts in larger newsrooms. Easier said than done. But journalists in some smaller newsrooms are doing outstanding CAR work. A good place to see this in action is in Uplink's First Venture feature, which provides useful lessons for journalists in smaller newsrooms. A recent example: Dave Moore of the Columbia (Mo.) Daily Tribune wrote about his analysis of racial disparity in juvenile arrests in the May/June 2004 issue. When Dave got the records on a CD, they were a mess. He could have given up. But with some help from NICAR, he got the data straightened out and a good story into the paper. When I worked in a smaller newsroom, I had some rules to keep on track. What follows are 10 of those dos and 10 don'ts. Cut out the ones that make sense to you and paste them on your computer. Do: 1. Have reporters sit next to you while you do your analysis. 2. Insist your reporters gather all documents electronically if possible. 3. Attend news meetings at which brainstorming for story ideas happens. 4. Get to be the 'numbers person' in your newsroom. 5. Start small. Editors adore daily copy that makes their lives easier. 6. Broaden your definition of CAR. 7. Get to know your graphic artists. 8. Bookmark 10 Web sites you can use to find data. 9. Carve out a neglected niche in your newsroom that is CAR-intensive. 10. Stay passionate and love what you do. Don't: 1. Take no for an answer when asking for hardware or software. 2. Be a recluse. Keep networking with CAR folks. 3. Let public officials win when they refuse to give you data digitally. 4. Stay in a newsroom that has absolutely NO appreciation for CAR. 5. Forget the IRE Resource Center when trolling for CAR ideas. 6. Get totally caught up with the computer and forget about stories. 7. Be afraid to think big. 8. Fall for Stockholm Syndrome in your newsroom. 9. Try to make everyone in your newsroom a CAR believer. 10. Get discouraged. You're doing work vital to journalism and those you serve.",
       "summary": "David Donald provides a strategic list of ten 'dos' and ten 'don'ts' for journalists attempting to establish computer-assisted reporting practices in smaller newsrooms.",
       "keywords": [
@@ -58,8 +67,16 @@
         "CAR techniques",
         "professional development"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "CD-ROM",
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -73,10 +90,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Journalists investigating environmental issues in their community can use a database about hazardous waste sites now available in the IRE and NICAR Database Library. The database contains information on potential and confirmed hazardous waste sites at which the U.S. Environmental Protection Agency Superfund Program has some involvement.\n\nMaintained by the EPA, the Comprehensive Environmental Response, Compensation and Liability Information System (CERCLIS) database has been cleaned by NICAR data analysts for easier use. It includes two tables about contaminants and responsible parties that are not available for download from the EPA Web site. The data is current as of April 2004.\n\nTo order the CERCLIS database, contact IRE and NICAR at 573-884-7711.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists investigating environmental issues can now access a cleaned and enhanced EPA hazardous waste database through the IRE and NICAR Database Library, which includes additional tables on contaminants and responsible parties not available from the EPA website.",
+      "keywords": [
+        "database",
+        "hazardous",
+        "journalists"
+      ],
+      "topics": [
+        "Health & Environment",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "CERCLIS"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -88,12 +115,22 @@
       "kicker": "Bits & Bytes",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE",
       "full_text": "IRE recently published an environmental pollution beat book, \"Covering Pollution,\" in collaboration with the Society of Environmental Journalists. The book shows journalists how to get to the heart of an investigation quickly and without waiting months for Freedom of Information requests to be fulfilled. Included is information about how to use Web-based, federal database searches and tips from veteran reporters about how to handle investigative reporting aspects such as interviews and writing. To buy the book or to search for another IRE beat book, visit www.ire.org/store/books or call 573-882-3364.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE published a new environmental pollution beat book in collaboration with the Society of Environmental Journalists that provides journalists with tools for quick investigations, including federal database searches and tips from experienced reporters on interviews and writing.",
+      "keywords": [
+        "pollution",
+        "investigation",
+        "journalism"
+      ],
+      "topics": [
+        "Health & Environment",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -104,8 +141,8 @@
       "headline": "Putting a focus on the editing",
       "kicker": "INSIDE NICAR",
       "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism",
-      "affiliation": "",
+      "author_title": "Director",
+      "affiliation": "NICAR",
       "full_text": "Here at NICAR and in the pages of Uplink, we tend to focus on computer-assisted reporting. It makes sense, given that the majority of journalists who are doing CAR are reporters. But reporting is only one part of the process, and the reporting side is no more important than the editing. So with this issue of Uplink we provide guidance for editing CAR stories and address some of the unique challenges these stories present. Also, you'll find articles about how to start CAR in smaller newsrooms \u2013 something that's on the mind of many journalists in these days of fewer resources. Editors and news managers have specific needs for hands-on CAR training. That's why IRE and NICAR regularly offer a mini-Boot Camp for editors. Ten editors from newspaper, television and radio attended the last session. They learned how to make CAR successful in their newsrooms, negotiate for electronic records, and understand what their reporters are doing. Next year's Editor Boot Camp is April 8-10 in Columbia, Mo. You'll find registration materials at www.ire.org/training/april05EditorCamp.html. If you're an editor or news manager who wants to understand more about CAR and allow it to blossom, this is essential training.",
       "summary": "This article highlights the critical role of editing in the computer-assisted reporting process and details training opportunities designed specifically for newsroom managers.",
       "keywords": [
@@ -113,7 +150,10 @@
         "CAR training",
         "news management"
       ],
-      "topics": [],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -126,12 +166,25 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Looking for intensive computer-assisted reporting training in the coming year? IRE and NICAR have scheduled several introductory and specialty hands-on CAR seminars.\n\nThere are four weeklong Boot Camps in Columbia, Mo., for journalists who want to learn how to acquire electronic information, use spreadsheets and databases to analyze the information, and to translate that information into high-impact stories. IRE and NICAR provide follow-up help after participants return to their news organizations. The 2005 Boot Camps are Jan. 9-14, March 20-25, May 15-20 and Aug. 7-12.\n\nJournalists interested in learning how to map data for news stories can take advantage of mini-Boot Camps in using geographic information systems (GIS). The training sessions, Jan. 14-16 and Aug. 19-21 in Columbia, will use ArcView GIS. Participants will learn how to create basic maps, work with projections, and geocode data. Additional GIS training is being planned for Washington, D.C.\n\nHands-on classes will be offered at the Annual CAR Conference March 17-20 in Hollywood, Calif., and at the IRE Annual Conference June 2-5 in Denver.\n\nFor complete information about IRE and NICAR training visit www.ire.org/training.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE and NICAR are offering computer-assisted reporting training programs in 2005, including week-long Boot Camps in Columbia, Missouri, specialized GIS mapping courses, and hands-on classes at annual conferences in Hollywood and Denver.",
+      "keywords": [
+        "training",
+        "journalism",
+        "reporting"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "ArcView",
+        "spreadsheets",
+        "databases",
+        "geographic information systems"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -142,8 +195,8 @@
       "headline": "Scraping away for useful data",
       "kicker": "INSIDE NICAR",
       "author_name": "Derek Willis and Jeff Porter",
-      "author_title": "The Center for Public Integrity / IRE and NICAR",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Center for Public Integrity / IRE and NICAR",
       "full_text": "Been scraping lately? Toss out the mental images of home improvement, and instead think about databases on the Internet. The rise of government Web sites provides a great opportunity for CAR-savvy newsrooms. As with many developments involving governments, the promise is somewhat hidden, but IRE and NICAR are planning a project to change at least part of that. More and more public databases are being placed on the Web, but often they are hidden behind a search form, or they require hours of repetition to save each record. And then there's the time spent separating the data from the HTML that surrounds it. The Scraping Project is an answer to these problems. With a small dose of programming (think scripting languages like Perl, PHP or Python), news organizations can \"scrape\" the information directly from a Web site and save it in a format that spreadsheet and database programs can use. Many state and federal agencies now provide data in this way, even if the underlying data can be obtained through public record requests. The advantage of scraping is that often you can get the data in a much quicker time frame. Here are some recent examples of scraping: Mark Schaver of The (Louisville) Courier-Journal wrote a script in Perl to grab information about state-registered charities from the Kentucky attorney general's Web site. In another instance, John Perry of The Oklahoman used Perl to scrape docket information off a state court Web site. Other IRE members have done \u2013 or will soon do \u2013 similar tasks, and the Scraping Project will become a central resource for either the code or the data (or both, depending on the situation). Journalists would identify data sources in their states or cities that are not available as a single download, and then either write a script themselves or ask for assistance from fellow scrapers. Depending on the nature of the data and competitive factors, the script \u2013 and perhaps the data \u2013 would be made available to other journalists through IRE's Web site. For news about the Scraping Project, keep checking the main IRE Web page (www.ire.org). Developments will also be announced on the NICAR-L listserv.",
       "summary": "IRE and NICAR are launching the Scraping Project to help journalists use programming scripts to extract and format data from public government websites.",
       "keywords": [
@@ -151,8 +204,20 @@
         "data collection",
         "Perl"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Perl",
+        "PHP",
+        "Python",
+        "spreadsheet",
+        "database",
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -164,12 +229,22 @@
       "kicker": "Bits & Bytes",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "New data in IRE and NICAR's Hazardous Materials Incident Reporting System (HMIRS) database can help journalists investigate the impact of accidents in their region. The database includes incident reports about hazardous material releases for all types of transportation (air, highway, railway and water).\n\nThe main table, Hazmat, provides incident details including location, carrier, shipper and consigner's identity, origin, and destination. Data covers the period between 1970 and June 3, 2004.\n\nThe IRE Resource Center offers examples of hazardous material stories including one by the The (Cleveland) Plain Dealer that found the Federal Aviation Administration had failed to monitor hazardous materials transported on airplanes (Story No. 15476). For sample stories, visit the IRE Resource Center at www.ire.org/resourcecenter. For more information or to order the HMIRS database, contact IRE and NICAR at 573-884-7711.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE and NICAR's Hazardous Materials Incident Reporting System (HMIRS) database provides journalists with detailed incident reports on hazardous material releases across all transportation modes from 1970 to 2004, enabling investigation of regional safety impacts. The resource includes examples of investigations, such as a Cleveland Plain Dealer story about FAA monitoring failures.",
+      "keywords": [
+        "hazardous",
+        "database",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Health & Environment",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Hazardous Materials Incident Reporting System (HMIRS)"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -183,9 +258,15 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "In the last issue of Uplink, \"Finding faults in new homes\" by Katy Miller of the Orlando Sentinel included an incorrect name. It should have referenced senior projects reporter Dan Tracy. Construction stories in which Tracy took part can be found in the IRE Resource Center (www.ire.org/resourcecenter) under Story No. 21240 and 20682.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A correction to a previous Uplink article about home construction faults, clarifying that senior projects reporter Dan Tracy should have been credited, with references to his related work in the IRE Resource Center.",
+      "keywords": [
+        "correction",
+        "construction",
+        "journalism"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -197,8 +278,8 @@
       "headline": "Cobbling together data for public lands",
       "kicker": "CRIME",
       "author_name": "Judd Slivka",
-      "author_title": "The Arizona Republic",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Arizona Republic",
       "full_text": "Our story about crime in parks along the Arizona-Mexico border started after a park ranger remarked to me, 'It's getting so dangerous out here that I won't even take my family camping anymore.' At first, my newspaper wanted to measure crime on public land in Arizona and the West, but we quickly ran into obstacles. One big problem: Five federal agencies dominate land ownership in the Southwest, and none kept their data the same way. The reporting got complex, even for what seemed like simple questions. Working with BLM's public affairs and law enforcement staff, we finally limited the scope to properties in the National Resource Conservation System. Even then, there was so much public land that we ended up limiting the scope even further by focusing on the region west of the Rocky Mountains. We had to deal with five agencies, none of which kept its data in the same way. The federal agencies did not record their crimes using the FBI Uniform Crime Report (UCR) format. The USDA Forest Service, for example, has a new system for reporting crimes that uses a violation code that does not conform with UCR categories. It took days to figure this out by building an Excel spreadsheet for each of the 40 forests in the West. The National Park Service has a standard form that its parks are supposed to use, but we discovered that not all parks use the form. Now that we had the data, we had to figure out how to measure it. The statistical part was simple; we would use a common benchmark, crimes per 10,000 visitors. We also chose to measure acres per law enforcement officer. After we compiled the data and sorted it in Excel, we faced a new problem: dissimilar data. The numbers looked the same, but they were not comparable. We used the combined list internally to show us where to focus the reporting. Our database guided us to a story on how crime on the Arizona-Mexico border was drawing law enforcement officers of the agencies away from their assigned stations. As a result, crime was going unnoticed and unpunished on vast tracts of recreational land. The database wasn't perfect. But it was a great guide for us to write a story on a subject close to the hearts of our readers.",
       "summary": "Reporter Judd Slivka details the difficulties of normalizing crime data from five different federal agencies to investigate public safety in Western parks.",
       "keywords": [
@@ -206,8 +287,14 @@
         "public lands",
         "federal agencies"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Crime & Justice"
+      ],
+      "technologies": [
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -218,8 +305,8 @@
       "headline": "Plotting firehouse coverage",
       "kicker": "MAPPING IT OUT",
       "author_name": "Thomas Gaumer",
-      "author_title": "The (Cleveland) Plain Dealer",
-      "affiliation": "",
+      "author_title": "reporter",
+      "affiliation": "The Cleveland Plain Dealer",
       "full_text": "As part of a regionalism series, Plain Dealer reporter Martin Stolz decided to explore fire services. A central question was whether greater Cleveland had duplicative fire departments, equipment or stations. He quickly realized the fire stations element was a story best told visually. Cuyahoga, the county around Cleveland, has a total of 103 fire stations. Stolz wanted to see if the county really needed that many, or if perhaps consolidation might save taxpayers millions of dollars without affecting firefighting abilities. The result was a map of the location of every fire station in Cuyahoga County with a one-mile radius around it. The Plain Dealer was making the switch from ESRI ArcView 3.3 to ArcView 8.3 and this was the first chance to do a major map with the new software. Stolz had created a Microsoft Excel spreadsheet with every station in the county. On our first pass through geocoding, ArcView plotted all but 15 of the 103 stations. That's when the hard part started. For several addresses, ArcView had the street name, but not an exact address, and we were able to force ArcView to geocode those addresses using a nearby address. We found one street that was not even in ArcView. It was barely more than an alley, yet it was the legal address of the fire station. We deliberately gave some stations the wrong address from the standpoint of the post office, but perfectly fine for ArcView. In the case of SOM Center Road, the letters were officially separated by periods, as in 'S.O.M.,' but ArcView saw 'S.' as 'South.' Once we found the problem it was easy enough to fix. It was easy to draw the one-mile radius around each station using ArcView's buffer wizard and telling it we wanted a buffer of one mile. At first, ArcView made circles appear as ovals, which signaled that we needed to pick a better map projection. After we selected a projection for northern Ohio the ovals turned into circles. We exported the map in the Adobe Illustrator format and our graphics staff was able to open it with Illustrator and change colors and reposition numbers and names as they wanted.",
       "summary": "The Cleveland Plain Dealer used GIS mapping to reveal potential redundancies in fire station locations, suggesting that consolidation could save taxpayers millions.",
       "keywords": [
@@ -227,8 +314,17 @@
         "GIS",
         "government efficiency"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Public Safety"
+      ],
+      "technologies": [
+        "ArcView 3.3",
+        "ArcView 8.3",
+        "Excel",
+        "Adobe Illustrator"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -242,10 +338,20 @@
       "author_title": "",
       "affiliation": "The Plain Dealer",
       "full_text": "Cuyahoga County is home to 53 municipal fire departments with 103 fire stations. This map and accompanying chart show that most stations have potentially overlapping service areas, but each department operates independently of its neighbors. The combined cost to taxpayers is more than $300 million. What's wrong with that picture? Some leaders say that it shows needless and costly duplication and offers a compelling reason to consolidate all of the departments into one.\n\nFire station location and area within one mile of the station.\n(Number refers to station on the chart below.)\n\nHow many stations for three communities?\n\nIn a research paper last year, Cleveland State University urban planning student Archie Tse mapped how much area firefighters could cover from fire stations in Warrensville Heights, Highland Hills and North Randall in the minutes after a 9-1-1 call. The calculation:\n\nWithin four minutes: The stations could cover a lot of the same ground.\n\nWithin eight minutes: Any of the stations could reach\n\nDATA COMPILED AND ANALYZED BY MARTIN STOLZ, PATRICIA O'DONNELL AND THOMAS GAUMER. GRAPHIC BY BILL MARSHALL AND JOEL HURWIT, THE PLAIN DEALER.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Cuyahoga County's 53 independent fire departments operating 103 stations cost taxpayers over $300 million annually with significant overlap in service areas, prompting calls for consolidation to reduce duplication and costs.",
+      "keywords": [
+        "consolidation",
+        "duplication",
+        "inefficiency"
+      ],
+      "topics": [
+        "Public Safety",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "mapping"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -256,8 +362,8 @@
       "headline": "Mapping hidden patterns in crime-ridden city",
       "kicker": "FIRST VENTURE",
       "author_name": "Brad Branan",
-      "author_title": "Tucson Citizen",
-      "affiliation": "",
+      "author_title": "projects reporter",
+      "affiliation": "Tucson Citizen",
       "full_text": "I found an investigative story last spring before I even moved to Arizona to work as a projects reporter at the Tucson Citizen. The Tucson metro area had the nation's highest crime rate, Sperling's BestPlaces found in a study of FBI data. Department officials blamed the FBI's Uniform Crime Reports for providing a distorted picture of crime. Using Microsoft Excel, I crunched the FBI numbers to come up with rankings for violent crime. The violent crime rate for the Tucson area was 55th out of 280 metro areas. I needed to find out where the violent crime was concentrated. The skills I learned at an IRE and NICAR mapping mini-Boot Camp this year helped me answer those questions. Go to the Center for Advanced Spatial Technology Web site (www.cast.uark.edu), click on 'Starting the Hunt,' and you'll find a list of GIS sites nationwide. Tucson police provided me with an electronic file of the reports but wouldn't give me exact street addresses. I created a spreadsheet of the crime reports in Excel and then opened the file in ArcView. To find the areas with the greatest number of crimes, I needed to count the reports within smaller geographic areas. I attached the geocoded crime reports to a map of 38 police patrol areas. While I was putting together the map, editors and reporters speculated that the highest violent crime rate would be found on Tucson's south side. The perception proved to be wrong. The area with the highest violent crime rate was on the other side of town \u2013 the north side. The north side had long been the site of the city's red-light district, attracting prostitutes and drug dealers. By placing a map of city neighborhood associations over the crime clusters, I knew who to talk to in each community. The ability to downplay violent crime was diminished after the story was published. In June, the Bureau of Alcohol, Tobacco, Firearms and Explosives announced a violent crimes task force for the city. A city official said my story was the reason the task force was formed. Despite a budget crunch, the Tucson City Council approved the police department's request for $4 million to hire 71 more officers.",
       "summary": "Reporter Brad Branan used GIS mapping to disprove local official perceptions about crime locations in Tucson, leading to significant law enforcement resource increases.",
       "keywords": [
@@ -265,8 +371,15 @@
         "ArcView",
         "police reporting"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Excel",
+        "ArcView"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -277,8 +390,8 @@
       "headline": "Lobbyist data rich with trips, food, gifts",
       "kicker": "ELECTIONS",
       "author_name": "Kit Wagar",
-      "author_title": "The Kansas City Star",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "The Kansas City Star",
       "full_text": "The entire trip \u2013 the private flight, food and drink after the game, and tickets to see the St. Louis Rams lose on a last-second field goal \u2013 was worth $4,136.61, as reported by two lobbyists who picked up the tab. The trip came to light two years later, after The Kansas City Star launched a series of articles about lobbyist spending in the Missouri statehouse. The series is based on the analysis of data about more than 20,000 gifts from January 2001 through July 2003. The value of the gifts totaled $2.4 million. The analysis found the major difference was that new members under term limits tried harder to cover up the gifts they received from lobbyists. Work on the project began in September 2003, when I requested the entire database of lobbyist gifts from the Missouri Ethics Commission. The number of ways a single name could be entered was astounding. Michael Gibbons, the Senate majority leader, was entered as Mike Gibbons, Sen. Michael Gibbons, Senator Gibbons, and more. All those had to be standardized because the computer sees each variation as a different person. I spent parts of three weeks cleaning up the data and putting it into usable formats. I divided the data into four broad areas: individual elected officials; groups of lawmakers; staff, family and friends; and lobbyists. Once the data was cleaned up, I used Excel to perform calculations and exported the information into Access to aggregate the gifts. After Republicans took control of the House in January 2003, lobbyist spending on the Social Services Appropriation Committee fell 90 percent, while spending on tax- and business-related panels rose 141 percent. In 2003, lawmakers expanded the use of caucuses as a way to disguise their sponging off of lobbyists. While spending on individual lawmakers fell 34 percent, spending on private caucuses rose 80 percent. The total numbers give backbone to a project like this. But what riles readers is the nature of individual gifts. The database, however, described most gifts vaguely as food or beverage, travel, lodging or entertainment. Armed with my results, I was able to approach lobbyists and lawmakers from a position of strength. The closest I came involved a Harvard seminar. Of the 10 lobbyists who paid for the legislator to attend, eight were insurance lobbyists. The lawmaker happened to be vice chairman of the House Insurance Committee.",
       "summary": "Kit Wagar analyzed 20,000 lobbyist gift records to expose how Missouri legislators received millions in gifts, highlighting a trend of using caucuses to hide spending.",
       "keywords": [
@@ -286,8 +399,15 @@
         "Missouri",
         "ethics"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -298,8 +418,8 @@
       "headline": "Tapping into MySQL's advanced features",
       "kicker": "OPEN SOURCE",
       "author_name": "Aron Pilhofer",
-      "author_title": "Center for Public Integrity",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "Center for Public Integrity",
       "full_text": "I have extolled the virtues of MySQL in Uplink because the program is insanely fast, rock-solid stable and free of cost. But over the past few months, I have discovered this open-source database server has a few more tricks up its sleeve. MySQL supports an extremely advanced set of regular expression functions that make searching databases easier and more precise. I recently investigated this feature when I was trying to find a way to efficiently join two tables of data by conditionally matching all or part of a company name. I wanted a way to search for various combinations of 'Kellogg, Brown and Root' in a single query, and that's exactly what regular expressions allowed me to do. The REGEXP operator can be used in the place of a LIKE clause in SQL, including in joins. Regular expressions offer a great deal more precision over a wildcard search. GROUP_CONCAT is a new function for MySQL as of version 4.1, and I have found it particularly useful for aggregating non-numeric data. Say you have a number of ZIP codes and a number of towns within each ZIP, and you want to know in one query all the towns contained in each ZIP code. MySQL also includes a useful function that allows users to get not only aggregates but also subtotals. This function is a modifier to the GROUP BY clause, called ROLLUP. The records with the NULL value are subtotals, and the final record is a grand total. MySQL includes 95 percent of the features CAR folks use 95 percent of the time, as well as a few features the other ones lack. With version 5.0, MySQL will add stored procedures. Even if it does not become your platform of choice for CAR work, it is worth investigating as an alternative to the high-priced database servers.",
       "summary": "Aron Pilhofer explores the advantages of using MySQL for data analysis, highlighting specific features like regular expressions, GROUP_CONCAT, and ROLLUP.",
       "keywords": [
@@ -307,8 +427,15 @@
         "SQL",
         "database features"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "MySQL",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -319,8 +446,8 @@
       "headline": "Scaping for data the Perl way",
       "kicker": "Tech tip...",
       "author_name": "John Perry",
-      "author_title": "The Oklahoman",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Oklahoman",
       "full_text": "In the March/April edition of Uplink, Derek Willis wrote about using the free utility Curl to automate the task of downloading pages from Web sites. Sometimes you need a smarter tool that cannot only find Web pages, but also looks at the content and decides what to do with it. That's where Perl \u2013 and other scripting languages such as PHP and Python \u2013 come to the rescue. Two modules, WWW-Mechanize and HTML-TokeParser, are godsends for Web scrapers. WWW-Mechanize acts like a virtual Web browser and hides the technical intricacies of HTTP requests. HTML-TokeParser is one of several tools Perl provides for pulling useful information from Web pages. Web scraping came in handy during a recent investigation of the Oklahoma County District Court and the court clerk's office. We wanted to look at all Oklahoma County cases in which the bond had been forfeited. The Supreme Court's Web search result pages are simple and seem designed for easy parsing. With a Perl script using the Mechanize module, I grabbed the docket info page for each of the cases and saved them in a directory. I then wrote a script that used the TokeParser module to search for key words in the docket text. The first step in Web scraping is to find the information about the search page that you'll need. To find and save all the cases in our list of bond forfeitures, we had to accomplish these tasks: get the search form page; set the 'db' and 'number' fields; click the search button; save the page; and return to the form. A one-second sleep is necessary because servers protect themselves from denial of service attacks. TokeParser turns a Web page into a stream of tokens. To get to the docket text, we start at a comment, then step down rows and cells. This is a relatively simple example of the capabilities of Perl and its collection of Web scraping tools.",
       "summary": "John Perry explains how to use Perl scripts and specific modules like WWW-Mechanize to automate the collection of data from court docket websites.",
       "keywords": [
@@ -328,8 +455,18 @@
         "web scraping",
         "automation"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Perl",
+        "WWW-Mechanize",
+        "HTML-TokeParser",
+        "PHP",
+        "Python",
+        "Curl"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -340,8 +477,8 @@
       "headline": "Mapping candidate support",
       "kicker": "ELECTIONS",
       "author_name": "Ron Campbell",
-      "author_title": "The Orange County Register",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "The Orange County Register",
       "full_text": "While reporting on presidential campaign fundraising, Ron Campbell of The Orange County Register used Federal Election Commission campaign contribution data and ArcView 8.3 to show where President Bush and Democratic Party challenger John Kerry were drawing financial support. Campbell prepared these maps (Bush on top left, Kerry on top right) showing the locations of individual donors who gave the maximum $2,000 contribution to each candidate. The maps show that Bush was successful in attracting contributions from a wide area. Kerry's big financial support, in contrast, has come mostly from metropolitan areas. For both candidates, Campbell queried FEC data of individual contributions to count all $2,000 donations by five-digit ZIP code. He then joined those tables to a ZIP code map in ArcView and created a national map (bottom left) and one for southern California (bottom right).",
       "summary": "Ron Campbell used FEC data and GIS mapping to visualize the geographic differences in donor support between George W. Bush and John Kerry in the 2004 election.",
       "keywords": [
@@ -349,8 +486,14 @@
         "GIS mapping",
         "2004 election"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "ArcView"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -362,11 +505,19 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE",
       "full_text": "Some of the best journalists in the business recently spoke at the IRE Annual Conference in Atlanta about putting together a computer-assisted reporting project from start to finish. You can purchase tapes of these panels and related tipsheets.\n\nOrder tapes from Sound Images Inc. by providing the Session ID number. Contact Sound Images at 888-649-1118 or service@soundimages.net. A complete list of the available sessions can be found at www.ire.org/store/tapes/atlanta04.pdf.\n\nIRE members can search for the tipsheets online and view them online at www.ire.org/resourcecenter/initial-search-tipsheets.html. You may also order the tipsheets by contacting the IRE Resource Center at 573-882-3364 or rescntr@ire.org and providing the tipsheet number.\n\n\"CAR from start to finish: Choosing stories.\" John Erickson of the Dayton Daily News and Douglas Pardue of The (Charleston, S.C.) Post and Courier. (Session ID No. IRE04-009). Pardue provides advice on looking for cues to good stories in Tipsheet No. 2065. Erickson's Tipsheet No. 2001 also provides ideas for identifying stories while on the beat.\n\n\"CAR from start to finish: Fighting for data.\" Russell Carollo of the Dayton Daily News and Jennifer LaFleur of The Dallas Morning News (Session ID No. IRE04-014). LaFleur's Tipsheet No. 2095 shows how data restrictions have hampered reporting.\n\n\"CAR from start to finish: The data is in \u2013 now what?\" Ted Mellnik of The Charlotte Observer and David Milliron of The Atlanta Journal-Constitution. (Session ID No. IRE04-019). Tipsheet No. 2132 offers advice about looking at data before analyzing it.\n\n\"CAR from start to finish: Putting it all together.\" Rose Ciotta of The Philadelphia Inquirer, Shawn McIntosh of The Atlanta Journal-Constitution and George Papajohn of the Chicago Tribune. (Session ID No. IRE04-024). The panelists share their advice in Tipsheet No. 2099.\n\nFor an overview of the lessons learned in two decades of CAR, order \"Blending traditional reporting with data analysis: What we've learned in 20 years\" (Session ID No. IRE04-099) with Sarah Cohen of The Washington Post, John Erickson of the Dayton Daily News, and Deborah Nelson of the Los Angeles Times. Nelson has a checklist to use at the start of a CAR project (Tipsheet No. 2092). Erickson provides guidelines for editing the CAR project (Tipsheet No. 2087). Cohen shares advice for working in teams (Tipsheet No. 2128).\n\nThe IRE Resource Center also has tipsheets from earlier conferences:\n\nMark Nichols of The Indianapolis Star provides ideas on how editors can help guide the CAR story. (Tipsheet No. 2049)\n\nBarbara Vobejda of The Washington Post provides advice for putting together the CAR project. (Tipsheet No. 1945)\n\nDebbie Wolfe of the St. Petersburg Times provides a quick checklist of questions for editors so they can be CAR-savvy through every step of the reporting process. (Tipsheet No. 1828)\n\nGriff Palmer of the San Jose Mercury News offers tips about editing and organizing a large data-heavy project, from getting a strong start and helping it grow to making it relevant for readers. (Tipsheet No. 1557)",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Journalists from top news organizations share expertise on computer-assisted reporting projects through panel sessions, tapes, and tipsheets available from the IRE Annual Conference in Atlanta, covering topics from story selection to data analysis and final publication.",
+      "keywords": [
+        "journalism",
+        "data",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

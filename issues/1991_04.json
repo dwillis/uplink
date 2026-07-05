@@ -35,11 +35,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "Missouri Institute for Computer-Assisted Reporting",
       "full_text": "Each month, hundreds of journalists across the country are receiving and reading UPLINK. The newsletter's mailing list has almost doubled since its debut. Unfortunately, this means UPLINK's production costs have also doubled The Missouri Institute for Computer-Assisted Reporting can no longer afford to provide UPLINK for free.\n\nIn June, MICAR will require UPLINK's readers to pay a $15 subscription fee. This will entitle the subscriber to 1 year of UPLINK. All of UPLINK's readers will receive next month's issue, but MICAR will cease delivery of the June UPLINK to those who fail to subscribe by the last week of that month.\n\nA subscription form can be found on Page 4 of this issue. If there are any questions, call MICAR at (314) 882-0684. Thank You.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "UPLINK, a journalism newsletter with a rapidly growing readership, will begin charging a $15 annual subscription fee starting in June due to doubled production costs. Readers must subscribe by late June to continue receiving the newsletter.",
+      "keywords": [
+        "subscription",
+        "newsletter",
+        "journalism"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -110,10 +116,21 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "purchasing a data tape, whether it be through a private company or an agency governed by the state.\n\nWhat you have to consider is what resources you have available, what type of work is being done and how much you are willing to pay for those services, says Bill Plummer, director of campus computing at the University of Missouri.\n\nMany private companies base prices on the type of processing being done, says Mike Dalleska of the Word Processing and Information Services, Inc. in Cincinnati. ``No two projects are alike,\" he says.\n\nMaking matters worse for price shoppers is that no standardized formula for rates has been established in the data processing field. Some agencies base rates on the amount of use they get from the system and your share of that total use. Others base prices on the amount of information being manipulated, whether it be on a per-record basis or by computer bytes used.\n\nCosts based on your share of the system are usually listed as CPU time. The CPU is the computer's central processing unit that directs its logical and mathematical functions. Other charges, such as input and output time or access charges, may be included, but the main cost will be calculated in minutes used.\n\nCPUs can be calculated either as computer time or wall clock time, says Jerry Fox, a marketing representative for IBM. With computer time, prices are high but only include the amount of time that a computer is actively running a command. Depending on the type of computer system and the complexity of the command, most computers can complete a task within a matter of seconds. With wall clock time, rates are low; users are charged from the time they sign on to the system until they sign off, regardless of whether or not the computer is active or sitting idle.\n\nWhen contracting out for services, consider the type of system being used and its ability to process formation. A project that takes only an hour on a mainframe computer may take days or even months on a personal computer.\n\nMost importantly, know specifically what is included in the prices quoted. You may be paying for something you shouldn't.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "When purchasing data processing services from private companies or state agencies, organizations must carefully compare pricing models, which vary based on CPU time, system usage, or data manipulation, and understand exactly what services are included in quoted rates.",
+      "keywords": [
+        "pricing",
+        "processing",
+        "services"
+      ],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "mainframe",
+        "personal computer"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -124,12 +141,20 @@
       "headline": "LETTER TO THE EDITOR",
       "kicker": "",
       "author_name": "Christopher H. Schmitt",
-      "author_title": "",
+      "author_title": "Reporter",
       "affiliation": "San Jose Mercury News",
       "full_text": "Dear UPLINK,\n\nTsk, tsk, tsk. Slighting the Mercury News the way the (March) issue of UPLINK did. Well, the best we can do now is try to set the record straight. It's so dissappointing when the press screws up, no? Just kidding. Anyhow, (enclosed) are the copies of the San Francisco Chronicle and the San Jose Mercury News for the two days following the release of the California census tape. You make the call, as they say, but here are several things we modestly point out:\n\n- We think our statistical material was more detailed and better presented.\n- It took the Chron until the second day to find out San Francisco had lost an ethnic white majority. We reported the first day that four of five California's largest cities had lost majority.\n- The Chron's first-day statistics were 1990 based. We had a 1980-1990 comparison the first day.\n\nAs my editor suggested, we're willing to let this slight pass.\n\nBest Regards, Christopher H. Schmitt, San Jose Mercury News\n\nImagine that. A Californian computer-assisted reporting war fought here in the meek pages of UPLINK. As for making \"the call\" on the Census packages produced by The Chronicle and the Mercury News, UPLINK has decided to take a flimsy but conveniently diplomatic position. They were both great. The editor",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The San Jose Mercury News responds to criticism in UPLINK's March issue, defending their superior coverage of California census data with more detailed statistics and faster reporting of demographic shifts than the San Francisco Chronicle.",
+      "keywords": [
+        "census",
+        "journalism",
+        "coverage"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

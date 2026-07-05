@@ -90,12 +90,24 @@
       "kicker": "INSIDE NICAR",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Fresh consumer product data\n\nHow many people did space heaters or turkey fryers hurt in the past year? Journalists can use the U.S. Consumer Product Safety Commission Injury and Death database, recently updated by the IRE and NICAR Database Library, to investigate these and other products.\n\nThe database consists of four tables provided by the commission's National Injury Information Clearinghouse. The CPSC maintains this data so it can alert the public to potential hazards associated with consumer products. Fields include age, race and gender of the victim, state and city of the incident, product type involved and more. To order the database, call the Database Library at 573-884-7711 or go online to www.ire.org/datalibrary/databases/cpsc.\n\nTangled webs\n\nIRE and NICAR are beginning to more deeply explore social network analysis for visualizing and diagramming relationships between individuals, businesses and institutions. It's a new approach for journalists, but business consultants, law enforcement agencies and public health investigators have used this approach for decades. In 2003, The Washington Post used social network analysis to report on a group of Los Angeles-area language schools that appeared to be \"visa mills\" for foreign students. For more information and a list of Web links and tipsheets on this emerging technique, go to www.ire.org/sna.\n\nBaby dentistry\n\nThe IRE and NICAR Database Library worked with WCNC-Charlotte, N.C. to analyze Medicaid data for a story that aired in December. The Database Library transferred tapes of Medicaid billing records to Microsoft Access and FoxPro and identified pediatric dentists spending millions of dollars of taxpayer money on unneeded root canals in babies. The analysis found that the main metropolitan Medicaid centers in North Carolina treated fewer than 10 percent of the kids on Medicaid in the state, but performed almost half of the baby root canals. To view the story, go to www.wcnc.com/news/topstories/stories/wcnc-121803-al medicaid.b4d99017.html. The series won a Scripps Howard Foundation national journalism award for excellence in electronic media, large market television/cable. For more information on how IRE and NICAR can help your news organization with data analysis, contact the Database Library at 573-884-7711.\n\nNews resources\n\nWhen news breaks, journalists can find help at IRE's \"In the News\" Web pages. The special sections list useful databases, publications and Internet sites that can add depth to deadline reporting. When a tanker truck fell from an overpass above I-95 near Baltimore, IRE and NICAR suggested several databases from the U.S. Department of Transportation containing truck accident and hazardous material release reports. To learn more about this and other resources available, visit www.ire.org/inthenews_archive",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists can access updated CPSC injury databases and explore new investigative techniques like social network analysis, with examples including consumer product safety investigations and Medicaid fraud in pediatric dentistry.",
+      "keywords": [
+        "database",
+        "investigation",
+        "journalism"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Access",
+        "FoxPro",
+        "9-track tape"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -146,7 +158,7 @@
         "Technology"
       ],
       "technologies": [
-        "Social network analysis"
+        "Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -296,13 +308,24 @@
       "headline": "FIRST VENTURE Principals cash in on sick pay",
       "kicker": "",
       "author_name": "Art Golab",
-      "author_title": "",
+      "author_title": "Education reporter",
       "affiliation": "Chicago Sun-Times",
       "full_text": "Elementary school principal Anthony Forst Jr. was rarely, if ever, sick in his 35-year career with the Chicago Public Schools.\n\nBut he collected $129,000 in sick pay his last year, bringing his total salary to $247,000 - significantly more than the mayor or governor makes. And it was all legal.\n\nThat $247,000 figure appeared on the top of one of the first sorts of teacher salary data Sun-Times education reporter Rosalind Rossi and I received from the state.\n\nIt led us to a story detailing how, under a little-known provision in their contract, Chicago teachers and principals can collect up to 315 days of unused sick pay in their last year of service, a practice unheard of in private industry.\n\nWe also found that 244 of those sick days could be added to their service time for pension purposes, a double-dip that was unheard of even in government. As a result, principals could get bigger pensions.\n\nRossi and I were relatively new to this sort of thing, as our paper had just lost both of our computer-assisted reporting specialists and decided to hurl us into the breach.\n\nFortunately, the paper sent us to an IRE and NICAR Boot Camp where we learned the tricks of the CAR trade. We were much better prepared to tackle the story than if we had tried to teach ourselves.\n\nAs a warm-up, we did the annual school report card, which involved mostly importing school test score data into Microsoft Access and formatting it for a special section. It was mind-numbing work, importing and boiling down 11,000 columns of data for 3,900 schools. But it helped hone our CAR skills.\n\nWe had to learn to select and import large chunks of delimited text files and make sure we assigned the correct heading to each column of data. Then we found ways to check its accuracy. We also learned to link the tables we had generated to tables that had been created by another reporter the year before.\n\nWe ran queries that calculated the difference in school scores between the years for several grade levels in several subjects.\n\nIn the course of all this work and while we were going back and forth with the State Board of Education on discrepancies in the data (the boot camp had prepared us well to expect this), Rossi thought to ask them if the latest teacher salary data was available.\n\nIt was, and it arrived on a CD by courier the next day, free of charge. When we finished the report card, we felt ready for anything, and decided to tackle the teacher salary data, which was technically a lot simpler.\n\nNow the challenge was to get something interesting out of this data containing 159,000 records of the salaries of every teacher and school administrator in the state.\n\nThe teacher pay story had already been done to death.\n\nThe previous year our paper had written about the best-paid high school teachers and what they did to earn their salaries.\n\nA Sun-Times investigative reporter no longer with the paper took it up a notch, doing the definitive story on school superintendent pay. He revealed that top-paid superintendents were getting retirement incentives that had the potential to cripple the taxpayer-backed state pension fund.\n\nOur competition, the Chicago Tribune, borrowed that angle and applied it to elementary teachers.\n\nSo Rossi suggested we look at principals.\n\nOur data had the name, salary, position and district information for all school employees in the state, but the state board had omitted the names of their schools.\n\nWe asked them to provide another disk with the school name information, which they did, and forged on, running simple queries for salaries of high school, junior high and elementary principals. To do that we selected the codes used for each position, which were provided in a separate text file that also contained the record layout.\n\nThe top ten ranged from $179,000 to $247,000, which was definitely very interesting. But the question arose, how do they make the money? Most were at or close to retirement age. Was it just another case of retirement incentives inflating pay?\n\nThe raw numbers only gave us total salaries.\n\nWe had to get the breakdowns the hard way, by calling each district. We made our jobs easier by focusing only on the top ten salaries.\n\nBut the district superintendents and business managers at first took advantage of the fact that we didn't know which questions to ask. They gladly broke out retirement incentives because they could make a case that this saved them money by enabling them to hire less-experienced, lower-paid replacements.\n\nBut accumulated sick pay, vacation pay and other benefits that we had no idea existed all were lumped into one category.\n\nGradually, by comparing notes between districts, we learned to ask for more specific breakdowns from everyone and kept calling until we got them.\n\nGetting the numbers is sometimes the easiest part of the story.\n\nAs a result, the Microsoft Excel spreadsheet we used to keep track of the salary breakdowns kept growing wider.\n\nThree facts quickly emerged. All of these principals had retired, and in many cases retirement incentives had pushed them into the top pay brackets.\n\nBut only suburban principals got the retirement incentives.\n\nChicago principals got a different going away present. They were allowed to cash out nearly a year of sick days and apply a large portion of those days to their service time, thereby boosting their pensions.\n\nWe still weren't sure this was a story.\n\nTo put it in perspective, we called school districts in New York and Los Angeles. After wading through their complex retirement packages (nothing is simple in educational bureaucracies) we learned they were far less generous with accumulated sick pay than Chicago.\n\nAnd a compensation expert at the Illinois Chamber of Commerce told us such benefits were unheard of in private industry.\n\nSo we finally had a story.\n\nSchool and union officials defended the system, saying it provides an incentive for teachers (who eventually become principals) to show up every day and thus saves money spent on substitute teachers. It also rewards Chicago teachers who stick it out until retirement and don't make as much money as suburban teachers.\n\nAnd it serves as a de facto retirement incentive, allowing quicker replacement of top-scale teachers and principals with lower-paid beginners.\n\nBut other experts pointed out that the Chicago teachers and principals also get another perk, that few, if any, in private industry get - a pension that pays 75 percent of their base retirement salary.\n\nThis project confirmed what Rossi and I had learned in the CAR boot camp. Getting the numbers is sometimes the easiest part of the story. Figuring out what they mean, putting them in context and then bringing those numbers to life is the hard part.\n\nContact Art Golab by e-mail at agolab@suntimes.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Chicago Sun-Times reporters investigated how Chicago Public Schools teachers and principals could legally collect up to 315 days of unused sick pay in their final year, with one principal earning $247,000 in his last year through this practice. The reporters used computer-assisted reporting techniques learned at an IRE/NICAR boot camp to analyze 159,000 salary records and uncover this little-known contractual provision that also allowed sick days to be counted toward pension calculations.",
+      "keywords": [
+        "salary",
+        "investigation",
+        "pension"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Access",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -373,12 +396,26 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "CAR Tools focuses on software that's useful to journalists doing computer-assisted reporting. Recent issues of Uplink have taken a look at:\n\nClusterSeer analytic mapping tool. (January/February 2004)\nSAS System Viewer (November/December 2003)\nParseRat text parser (September/October 2003)\nos X operating system (May/June 2003)\nRematch extension for ArcView 3.x (March/April 2003)\n\nIf you have a favorite CAR tool that Uplink readers should know about, drop us a line at uplink@nicar.org.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "CAR Tools highlights software useful for computer-assisted reporting, featuring recent reviews of mapping, analytics, and text parsing tools for journalists.",
+      "keywords": [
+        "software",
+        "journalism",
+        "tools"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "ClusterSeer",
+        "SAS System Viewer",
+        "ParseRat",
+        "OS X",
+        "ArcView"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -420,12 +457,26 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "CAR Tools focuses on software that's useful to journalists doing computer-assisted reporting. Recent issues of Uplink have taken a look at:\n\nClusterSeer analytic mapping tool. (January/February 2004)\nSAS System Viewer (November/December 2003)\nParseRat text parser (September/October 2003)\nos X operating system (May/June 2003)\nRematch extension for ArcView 3.x (March/April 2003)\n\nIf you have a favorite CAR tool that Uplink readers should know about, drop us a line at uplink@nicar.org.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "CAR Tools highlights software useful for computer-assisted reporting, featuring recent reviews of mapping, analytics, and text parsing tools in the Uplink newsletter.",
+      "keywords": [
+        "software",
+        "journalism",
+        "tools"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "ClusterSeer",
+        "SAS System Viewer",
+        "ParseRat",
+        "ArcView",
+        "OS X"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

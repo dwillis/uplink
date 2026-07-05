@@ -10,10 +10,22 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "This issue of Uplink looks at how desktop mapping programs can help you identify geographic patterns and create images to help readers better understand your stories.\n\nNewsrooms have used desktop mapping to locate clusters of blighted properties, pinpoint pollution and analyze demographics. News artists then convert the results into often startling analytical maps.\n\nOur stories tell you about these successes, walk you through downloading mapping data from the Internet, describe what programs are available, how much they cost and where you can get them.\n\nAlso inside are stories on the results of two national surveys revealing what hardware and software newsrooms are using - including mapping programs.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This issue of Uplink explores how newsrooms use desktop mapping programs to identify geographic patterns and create analytical maps that help visualize stories, covering available tools, costs, and data sources.",
+      "keywords": [
+        "mapping",
+        "newsrooms",
+        "data"
+      ],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "ArcView",
+        "MapInfo",
+        "Atlas GIS"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -27,10 +39,25 @@
       "author_title": "",
       "affiliation": "The (Allentown, Pa.) Morning Call",
       "full_text": "After months of wrangling, you finally get that database you wanted from the county courthouse. You crunch the data with your database manager. You slice and dice it with a spreadsheet. You think you're done analyzing and ready to start interviewing.\n\nStop there and think again. Unless you run your data through a desktop mapping program to look for geographic patterns you could be missing the big picture.\n\n\"The magic of mapping software is that it provides a visual interpretation of your data,\" said Bill Loving, editor for computer-assisted reporting at the Minneapolis Star Tribune. \"Mapping is just such a quick and useful way of taking what could be an otherwise unintelligible pile of information and finding the patterns in it,\" says Steve Doig, research editor at the Miami Herald.\n\nIn the aftermath of 1992's Hurricane Andrew, Doig used AtlasGIS for DOS to analyze 60,000 damage inspection reports. In the Herald's Pulitzer Prize-winning series, Doig's analysis showed how homes built after 1980 fared much worse than sturdier older homes.\n\nDesktop mapping growing\n\nMore and more, journalists like Doig are using desktop mapping software to supplement traditional data analysis. One paper, the Oregonian in Portland, hired a master's student in geography as an intern for this school year to delve into desktop mapping, says Gail Hulden, assistant librarian and research director. In one of the clearest signs of desktop mapping's arrival, Microsoft Excel for Windows 95 includes Data Map, a tool for quickly displaying spreadsheet data.\n\nNewsrooms that use desktop mapping are finding great stories. They've been able to locate clusters of blighted properties, pinpoint pollution and analyze demographics. News artists have turned these analytical maps into eye-grabbing graphics.\n\nStill a CAR frontier\n\nYet, desktop mapping remains one of computer-assisted reporting's frontiers. The 1994 University of Miami national CAR study found just 17 percent of the 208 responding newsrooms used mapping for analysis.\n\nChalk that up to a couple of reasons: Desktop mapping on the PC is relatively new, and the investment can run into the thousands of dollars.\n\nHigh-end mapping analysis programs, called geographic information systems (GIS), have been on mainframes for two decades. But it wasn't until around 1990 that desktop mapping caught on in newsrooms across the country, thanks to two factors.\n\nFirst, in the late 1980s, GIS program makers introduced easy-to-use PC software. Second, the results from the 1990 Census became widely - and inexpensively - available in computer form, along with the public domain geographic files.\n\nIn fact, the Census provided the initial push for many reporters and editors to learn desktop mapping.\n\nShortly after the Census, New York Times database editor John Freed used MapInfo to analyze the racial makeup of proposed city council districts. Under the Voting Rights Act, New York had to submit its redistricting plan to the U.S. Justice Department.\n\nWhen the Justice Department rejected the plan, the Times used its own findings to show why: East Harlem and the South Bronx's Hispanic population had been splintered into numerous districts - putting nearly all of the Hispanics in the minority, Freed said. \"It was very obvious.\"\n\nMapping tools\n\nHigh-end mapping programs, such as AtlasGIS and MapInfo give users a number of tools for analyzing data. Less expensive programs likely will have fewer of these features.\n\nThematic mapping. This common feature takes your data and converts it to a map that uses colors or symbols to show variations. The Minneapolis Star Tribune used AtlasGIS for DOS to show changes in property values in the Twin Cities. Seeing the extent and location of the areas in decline, marked in red, was stunning, Loving said.\n\nThe Morning Call in Allentown, Pa., and other newspapers have used thematic mapping and Home Mortgage Disclosure Act data to find inner-city Census tracts with high home loan rejection rates.\n\nAddress matching or geocoding. You know those pin maps that police use to track murders? This feature allows you to create the computer equivalent. However, you must first use the mapping program's geocoder to assign latitude and longitude coordinates to each record in your database.\nThe Morning Call geocoded branch offices of merging banks. After we mapped the branches, we looked for overlap and speculated which ones might be shuttered.\n\nSelecting. A good mapping program allows you to select records that meet certain geographic criteria. MapInfo for Windows, the program I use, lets users select records that fall within boundaries or circles drawn on the map with a mouse. The top programs also have an SQL database manager that lets you find areas that meet certain criteria.\n\nFlexibility. The program should be able to work with a variety of geographic, text, spreadsheet and database files. In addition, the programs should be able to export to a wide range of formats.\n\nGeographic and 'attribute' data\n\nMapping programs use two kinds of data: geographic data and \"attribute\" data. The former defines features on the map (streets, county boundaries, rivers). The latter is what you analyze. When you use a desktop mapping program, you add layers of geographic and attribute data.\n\nMost mapping programs come bundled with some geographic data. However, you'll probably need to buy other geographic data to match the locations in your databases. If you want to analyze Federal Election Commission data, you'll need ZIP boundaries because the database contains the donor's ZIP code. If you're thinking about demographic analysis, get boundaries for census tracts or block groups that constitute tracts.\n\nDesktop mapping can cost thousands of dollars, but it doesn't have to, Doig says. Anyone who looks hard enough can find inexpensive geographic data sources. For instance, the Herald paid just $30 for election districts from Dade County. Local planning agencies may have the data you need. Also, check with university geography professors.\n\nSmaller newsrooms, or those with a tight budget, should talk to other departments (especially marketing or research) at their news organizations and see if they can share a desktop mapping program.\n\nThat's what the Flint Journal did about five years ago. The newsroom and two other departments chipped in for AtlasGIS for DOS, says Mary Ann Chick Whiteside, a former editor who's now the paper's new media manager.\n\nSince then, the Journal has printed a number of mapping-based stories, including one showing clusters of homes for the mentally ill. \"We knew they were all in the same ZIP code, but we plotted them and found them on streets back-to-back,\" Whiteside says.\n\nA reporter could have taken a list of group home addresses and stuck pins in a map to find the patterns, she said. \"But what reporter has time to do that?\"\n\nDavid Herzog can be reached at (610) 820-6584, or send e-mail to herzog@pulitzer.mcall.com\n\nNewsrooms that use desktop mapping are finding great stories. They've been able to locate clusters of blighted\n\nYet, desktop mapping remains one of computer-assisted reporting's frontiers. The 1994 University of Miami national CAR study found just 17 percent of the 208 responding newsrooms used mapping for analysis.\n\nChalk that up to a couple of reasons: Desktop mapping on the PC is relatively new, and the investment can run into the thousands of dollars.\n\nHigh-end mapping analysis programs, called geographic information systems (GIS), have been on mainframes for two decades. But it wasn't until around 1990 that desktop mapping caught on in newsrooms across the country, thanks to two factors.\n\nFirst, in the late 1980s, GIS program makers introduced easy-to-use PC software. Second, the results from the 1990 Census became widely - and inexpensively - available in computer form, along with the public domain geographic files.\n\nIn fact, the Census provided the initial push for many reporters and editors to learn desktop mapping.\n\nShortly after the Census, New York Times database editor John Freed used MapInfo to analyze the racial makeup of proposed city council districts. Under the Voting Rights Act, New York had to submit its redistricting plan to the U.S. Justice Department.\n\nWhen the Justice Department rejected the plan, the Times used its own findings to show why: East Harlem and the South Bronx's Hispanic population had been splintered into numerous districts - putting nearly all of the Hispanics in the minority, Freed said. \"It was very obvious.\"\n\nMapping tools\n\nHigh-end mapping programs, such as AtlasGIS and MapInfo give users a number of tools for analyzing data. Less expensive programs likely will have fewer of these features. Thematic mapping. This common feature takes your data and converts it to a map that uses colors or symbols to show variations. The Minneapolis Star Tribune used AtlasGIS for DOS to show changes in property values in the Twin Cities. Seeing the extent and location of the areas in decline, marked in red, was stunning, Loving said.\n\nThe Morning Call in Allentown, Pa., and other newspapers have used thematic mapping and Home Mortgage Disclosure Act data to find inner-city Census tracts with high home loan rejection rates.\n\nAddress matching or geocoding. You know those pin maps that police use to track murders? This feature allows you to create the computer equivalent. However, you must first use the mapping program's geocoder to assign latitude and longitude coordinates to each record in your database.\nThe Morning Call geocoded branch offices of merging banks. After we mapped the branches, we looked for overlap and speculated which ones might be shuttered.\nSelecting. A good mapping program allows you to select records that meet certain geographic criteria. MapInfo for Windows, the program I use, lets users select records that fall within boundaries or circles drawn on the map with a mouse. The top programs also have an SQL within boundaries or circles drawn on the map with a mouse. The top programs also have an SQL database manager that lets you find areas that meet certain criteria.\nFlexibility. The program should be able to work with a variety of geographic, text, spreadsheet and database files. In addition, the programs should be able to export to a wide range of formats.\n\nGeographic and 'attribute' data\n\nMapping programs use two kinds of data: geographic data and \"attribute\" data. The former defines features on the map (streets, county boundaries, rivers). The latter is what you analyze. When you use a desktop mapping program, you add layers of geographic and attribute data.\n\nMost mapping programs come bundled with some geographic data. However, you'll probably need to buy other geographic data to match the locations in your databases. If you want to analyze Federal Election Commission data, you'll need ZIP boundaries because the database contains the donor's ZIP code. If you're thinking about demographic analysis, get boundaries for census tracts or block groups that constitute tracts.\n\nDesktop mapping can cost thousands of dollars, but it doesn't have to, Doig says. Anyone who looks hard enough can find inexpensive geographic data sources. For instance, the Herald paid just $30 for election districts from Dade County. Local planning agencies may have the data you need. Also, check with university geography professors.\n\nSmaller newsrooms, or those with a tight budget, should talk to other departments (especially marketing or research) at their news organizations and see if they can share a desktop mapping program.\n\nThat's what the Flint Journal did about five years ago. The newsroom and two other departments chipped in for AtlasGIS for DOS, says Mary Ann Chick Whiteside, a former editor who's now the paper's new media manager.\n\nSince then, the Journal has printed a number of mapping-based stories, including one showing clusters of homes for the mentally ill. \"We knew they were all in the same ZIP code, but we plotted them and found them on streets back-to-back,\" Whiteside says.\n\nA reporter could have taken a list of group home addresses and stuck pins in a map to find the patterns, she said. \"But what reporter has time to do that?\"\n\nDavid Herzog can be reached at (610) 820-6584, or send e-mail to herzog@pulitzer.mcall.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Desktop mapping software is becoming an increasingly valuable tool for journalists conducting computer-assisted reporting, allowing them to visualize geographic patterns in data that might otherwise be overlooked during traditional analysis. Despite its proven effectiveness in uncovering major stories, the technology remains underutilized in newsrooms due to its relative newness and high costs.",
+      "keywords": [
+        "mapping",
+        "analysis",
+        "data"
+      ],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Atlas GIS",
+        "MapInfo",
+        "Excel",
+        "Data Map",
+        "GIS",
+        "mainframe"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -41,8 +68,8 @@
       "headline": "Atlas GIS has site",
       "kicker": "Get mapping data on-line",
       "author_name": "Dan Keating",
-      "author_title": "Miami Herald",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "Miami Herald",
       "full_text": "Even after you spend hundreds of dollars, you won't find detailed local maps in your brand new mapping program. Most of the mapping companies will be glad to sell them to you for hundreds of dollars more. Atlas GIS users are in luck, because there's an online repository that has tons of detailed maps and matching data. It's called CIESIN (pronounced see'-son), Consortium for International Earth Science Information Network. (Unfortunately, MapInfo doesn't import the mapfile format used at CIESIN).\n\nGet mapping data for your area, you can find census tract maps, block group maps, block maps, county maps, municipal boundaries and Zip code boundaries. You can also find 1990 Census data broken into the same groupings with ID labels already matched up to the maps. It has the 225 most-requested variables.\n\nHere's a detailed breakdown on how to get this free information into your system.\n\nLog onto the CIESIN file transfer site at http://ftp.ciesin.org. (You can check out the Web page, also, at http://www.ciesin.org, but the data is on the ftp site.) Go to pub/ and then census/ and then USA/ You need to pick up map files and then get matching data files.\n\nGo to tiger/ and then pick your state from the two-letter abbreviation. If you do not know the Census code for your Metropolitan Statistical Area, you should pick up msacodes.txt from the tiger/ directory before moving on.\n\nOnce in your state, take bna_st/ to get local area maps files. The \u201cbg\u201d files are block group maps - these are the smallest detail area that also has vast demographic information. If you're working with large areas, you can use the \u201ct\u201d tract or \u201cC\u201d county files for the state. I find the block group files extremely useful. Download the file for your MSA. You'll get a PKZipped file. We'll get back to that file in a minute.\n\nIf you want the smallest geographic level, take the bnablk/ directory instead of bna_st/. Download the \u201cb\u201d block file for your MSA. These are for very small areas, for which you can get population and household counts, but no detailed demographic data.\n\nNow you have to get the matching data. Back up through the ftp site back to pub/census/USA/. Now take stf/ and pick your state. Then get the \u201cCONTENTS.XX* file, in which \u201cXX\u201d is the two-letter abbreviation for your state. It will help guide you to get the correct data files. There are \u201cbg\u201d block group data files, \u201cII\u201d tract data files, \u201czip\u201d Zip code area files, \u201cpl\u201d files with data for cities and other places and more. If you need the population counts for blocks, go to the csvblk/directory and get the file matching the map file you got.\n\nDownload whatever files you need to match the geographic files you got. These will be PKZipped CSV files - meaning the data is separated by commas. Most spreadsheets and databases can import these files, as can Atlas GIS. Now you can sign off the Internet.\n\nYou'll need one special tool to be able to import the maps. It's called Import/Export or I/E and costs about $250 from Strategic Mapping. That's expensive, but it's a lot cheaper than buying the maps. It also allows you to import many other map formats, which you might come across if you try to get data from your county GIS department or other agencies.\n\nPut the PKZipped files into a directory. Unzip them. You'll have *.CSV data files and .bna map files. BNA is the Atlas transfer format.\n\nAt a DOS command line prompt, go to the directory where you have Atlas GIS and use the command line iemapfile.bnamymap.agf/na4\"\n\nImport/Export will create the geographic maps for Atlas GIS. You can then open the maps in the program and then open the .CSV files. The program will ask if the data files can be linked to the maps, and ask which field in the data file to use for matching. Select the \u201cPOLID\u201d field except for the block groups, which should be linked with the \u201c_Name3\u201d field.\n\nNow you've got detailed local maps for whatever geographic area you want, along with a mountain of demographic data.\n\nDan Keating can be reached at (954) 985-4571, or send e-mail to dtkeats@ibm.net",
       "summary": "CIESIN is a free online repository offering detailed census maps and demographic data that can be imported into Atlas GIS, with step-by-step instructions for downloading map files and matching data from specific directories.",
       "keywords": [
@@ -50,8 +77,20 @@
         "maps",
         "census"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Atlas GIS",
+        "MapInfo",
+        "FTP",
+        "Internet",
+        "World Wide Web",
+        "CSV",
+        "PKZipped"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -62,8 +101,8 @@
       "headline": "Maptitude: It's a deal",
       "kicker": "Less sophisticated, but more affordable",
       "author_name": "Carol Napolitano",
-      "author_title": "The Omaha World-Herald",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "The Omaha World-Herald",
       "full_text": "Maptitude is a great deal for all but the most sophisticated of mappers and it costs a fraction of other similar programs. One drawback: There is no Macintosh version.\n\nFor the United States, you get: county and state boundaries, Census designated places and metropolitan statistical areas boundaries, cities and populated places boundaries, roads and highways, local streets, landmarks, railroads, water, ZIP codes, Census tracts, Census block groups, designated market areas, areas of dominant influence and TIFF images of a few dozen major U.S. metropolitan areas. You also get world boundaries, places, highways, railroads and latitude and longitude grids.\n\nYou get selected Census data, including the basics of population, gender, race, marital status, age, ancestry, occupation, household income, poverty status, and more. In some instances, as when you join an outside database to your map, Maptitude will do some math for you, giving you raw numbers as well as highs, lows and averages. So, for example, if you had a FoxPro database on accidents in your area, you could join that to a Maptitude ZIP code map, and it would figure out the average number of accidents per ZIP code.\n\nYou get what you pay for. First, the entire program is designed for a screen operating at a 1024x768 resolution. If you are like me and operate at 640x480, you cannot see or use half or more of the toolbar, which means going in and out of menus more often than you might like. This resolution means that even with a 17-inch monitor, I often cannot see my whole map at once unless I make it very small and, consequently, lose labels and other details.\n\nSecond, map and label quality is poorer than that of Atlas GIS or MapInfo. Lines are fuzzier and so forth. These maps probably shouldn't be reproduced in the paper without some enhancement in a graphics program.\n\nMaptitude offers a nice range of thematic mapping options, but nothing extravagant. You can choose from colors and patterns, pin mapping, scaled symbol, dot density, pies, horizontal and vertical bars and stacked bars. You can modify and hide legends, as well as colors, patterns, dot shapes, etc.\n\nAs you build maps, you can save each layer as an editable or non-editable map. However, you have ZIP codes that extend beyond your city boundary, for example, you cannot tell Maptitude to split the ZIP area using the city boundary as its guideline. You must manually edit the ZIP code boundary, dragging its polygon lines down to match the city boundary. Or, you can trace the city line with the drawing tools and then delete the area outside of it. This can be extremely tedious.\n\nWhen you delete a portion of a geographic area, Maptitude estimates what percentage of the data is deleted and updates the remaining data accordingly. So, if you delete 60 percent of a ZIP code area because it is outside your city, then 60 percent of the population will be deleted in the attached Census data for that map. Of course, this isn't the greatest way to split data, because it assumes the population is evenly distributed in the ZIP code. It works the other way too. If you join three counties together in a map, it will add their three populations.\n\nOne annoying thing is that when you edit a map (for example, you select your city from the United States for mapping), the data does not automatically go with the map lines. Several times I created maps, forgetting to check that little box, and all I created were empty shells with no attached data tables. And you can't undo it. You have to start all over again.\n\nAnother problem: Thematic mapping rounds off numbers by default. You can check a box to turn this default off and you should in many cases. Rounding often messes up thematic mapping when you are plotting numbers in equal intervals because not all of the numbers will fall at equal intervals, making your map inaccurate. Turning off the rounding function fixes this.\n\nThis is an area where I am not very impressed. You can use an automatic labeling tool or a manual labeling process. With either choice, label layers cannot be treated differently when it comes to overlapping or not overlapping them. Therefore, if you have a map with ZIP code boundaries and then streets over that, and you want to overlap ZIP code labels but not street labels, you can't do it. They all must be overlapped or not overlapped. Automatic labels also cannot be moved around, so if they overlap, you can't pull them away from each other. Manual labels can be moved around, but manual labeling can be tedious and time consuming.\n\nYou can save maps in Maptitude as editable or non-editable. Editable versions can be copied from your PC and pasted into something like Paint Shop Pro (which you can download from the Internet as shareware and pay $69) and then saved in a variety of formats, including Adobe Photoshop and MacPaint. These can be opened up by graphics programs on Macs and sharpened, edited and published. If you have a network, you can move the files. If you don't have a network, your maps will have to be small enough to fit on a disk.\n\nDocumentation is in a single book that could be more detailed, but is decent. Technical service is knowledgeable, honest about the program's inadequacies, polite and helpful. Technicians are often all busy, but the company takes messages and gets them to the techs call back within a couple of hours. The customer service rep was courteous, knowledgeable and took the hint when I told him I wasn't interested in a hard sell. Additionally, the company gave us a 30-day unconditional money-back guarantee so I could put the program through the paces and decide whether it fit our needs.\n\nCarol Napolitano can be reached at (402) 444-1000, ext. 2403, or send e-mail to CarolNap@aol.com",
       "summary": "Maptitude is an affordable mapping software offering extensive U.S. and world geographic data with Census information, though it has limitations including no Mac version, lower map quality than competitors, and tedious manual editing requirements.",
       "keywords": [
@@ -71,8 +110,17 @@
         "software",
         "cartography"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Maptitude",
+        "FoxPro",
+        "Atlas GIS",
+        "MapInfo"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -86,9 +134,15 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Get computer training:\n\nNICAR Bootcamps, week-long intensive training seminars, March 10-15 and May 19-24, Columbia, Mo.\nNICAR/Medill Broadcast Seminar, March 23-24, Medill School of Journalism, Evanston, Ill.\nNorth Carolina Advanced Computer-Assisted Reporting Seminar, May 5-10, Chapel Hill, N.C.\nNational IRE Conference, June 13-16, Convention Center, Providence, R.I.\n\nThese dates are open to all journalists. For more information, call NICAR, (314) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR offers multiple computer-assisted reporting training opportunities for journalists, including week-long bootcamps, a broadcast seminar, and a national conference scheduled throughout spring and summer.",
+      "keywords": [
+        "training",
+        "journalism",
+        "reporting"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -101,12 +155,22 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "Visit NICAR at http://www.reporter.org. Administered by NICAR's web master, Wallace Winfrey, the web site offers detailed information about NICAR's activities. This includes upcoming events, training seminars, the newsletter Uplink, and NICAR's database library. In addition, you can search the journalism resource center run by Investigative Reporters and Editors, at www.ire.org The web site also includes a menu for IRE and for the Hillman Project, which is developing a site for tips and resources for journalists around the world.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR's website, administered by Wallace Winfrey, provides comprehensive information about the organization's events, training seminars, newsletter, and database library, while also offering access to IRE's journalism resource center and the Hillman Project's global journalist resources.",
+      "keywords": [
+        "NICAR",
+        "journalism",
+        "resources"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -120,10 +184,22 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "ArcView ($995)\nUnix workstation, Windows and Macintosh versions. Environmental Systems Research Institute; (800) 447-9778\nIncludes Avenue, a tool for building front-end interfaces. Also comes with U.S. state and county boundary files, ZIP-5 boundary and point files and point files for state capitals and cities with more than 10,000 people.\n\nAtlas GIS (Call for price)\nWindows and DOS versions. Strategic Mapping Inc.; (800) 472-6277\n\nMapInfo ($1,295)\nWindows and Macintosh versions. MapInfo Inc.; (518) 285-6000\nLatest Windows version, MapInfo Professional, includes U.S. state and county boundaries, ZIP code boundaries and points; 200,000 landmarks, 9,000 cities and state capitals.\n\nMaptitude ($395)\nWindows version only. Caliper Corp. (617) 527-4700\nIncludes CD-ROM of U.S. streets, useful for street address matching. A second CD includes U.S. state, county and census tract boundaries, as well as ZIP code boundaries and points. Census demographics are included for each geographic boundary type.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A comparison of four geographic information system (GIS) software products including ArcView, Atlas GIS, MapInfo, and Maptitude, with pricing, features, and contact information for journalism and research applications.",
+      "keywords": [
+        "software",
+        "mapping",
+        "GIS"
+      ],
+      "topics": [
+        "Technology"
+      ],
+      "technologies": [
+        "ArcView",
+        "Atlas GIS",
+        "MapInfo",
+        "Maptitude",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -134,13 +210,23 @@
       "headline": "Newsrooms flock to the 'Net",
       "kicker": "Research shows 7 percent gain",
       "author_name": "Bruce Garrison",
-      "author_title": "",
+      "author_title": "Professor",
       "affiliation": "University of Miami",
       "full_text": "Use of on-line services in newsrooms is growing rapidly, up about 7 percent in just one year.\n\nIn 1994, reporters, news researchers, and editors at about 57 percent of daily newspapers in the United States used some form of on-line services.\n\nA year later, 1995 data from a national survey show a considerable 7 percent growth to 64 percent of daily newspapers using some type of on-line services-ranging from government bulletin board systems to commercial services to the Internet.\n\nThe findings are part of a two-year research project about CAR conducted in the School of Communication at the University of Miami that included data collected from 208 daily newspapers in 1994 and 287 in 1995. The response rates were about 41 percent in 1994 and 56 percent in 1995.\n\nThe differences in a newsroom's capability to use CAR may not be any more dramatic than in the use of on-line information services. Distinctions in large and small newspaper use of these on-line services are quite evident when basic use is analyzed by size.\n\nLarger dailies, which were defined as those with daily circulation over 52,800 in 1995, are far more resource rich, have almost completely moved into on-line tools for reporting. While 64 percent used on-line services overall, more than 90 percent of the nation's large newspapers reported using on-line tools in 1995, overshadowing the 40 percent use level of smaller dailies.\n\nIf a news organization subscribed to an on-line service, chances were good that it was widely used. A total of 33 percent of daily newspapers searched one or more times daily in 1995. The figure was 27 percent in 1994.\n\nIn 1995, 25 percent of dailies searched once a week or more often, but not daily. Another 11 percent searched once a month or more often, but not weekly. A total of 6 percent searched less than monthly, and 24 percent said they had never used on-line services.\n\nBruce Garrison can be reached at (305) 284-2846, or send e-mail to bgarriso@umiami.ir.miami.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Online service usage in U.S. newsrooms grew 7 percent from 1994 to 1995, with 64 percent of daily newspapers now using some form of online tools, though large newspapers adopted them much more rapidly than smaller ones.",
+      "keywords": [
+        "newsrooms",
+        "online",
+        "growth"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -154,9 +240,16 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "A one-day conference on \"Satellite Imagery and the News Media\" will be held March 7 at American University in Washington, D.C. The conference is being sponsored by American University, the Poynter Institute, the Miami Herald, Earthwatch, the U.S. Geological Survey, and For more information, call Professor Chris Simpson at (202) 885-2037, or fax him at (202) 885-2099.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A one-day conference on satellite imagery and its applications in news media will be held March 7 at American University in Washington, D.C., sponsored by multiple organizations including the Poynter Institute and the Miami Herald.",
+      "keywords": [
+        "satellite",
+        "journalism",
+        "imagery"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -168,13 +261,37 @@
       "headline": "Analytical software elbows in",
       "kicker": "",
       "author_name": "Bruce Garrison",
-      "author_title": "",
+      "author_title": "Professor",
       "affiliation": "University of Miami",
       "full_text": "Analytical software elbows in\n\nBy Bruce Garrison\nUniversity of Miami\n\nWhat was the most popular combination of software used for CAR in 1995? It was Xy Write, Excel, Paradox, askSam, MapInfo, SPSS and Procomm. Here are the details:\n\nWord Processing. Xy Write (27 percent) remains the most-used word processor and text editor in newsrooms for purposes related to CAR as well as general newsroom writing tasks.\n\nMicrosoft Word (20 percent) and Novell WordPerfect (14 percent) are becoming more common as newsrooms move to PC-based networks and adopt the leading office \"suites\" produce by Microsoft, Novell and Lotus.\n\nSpreadsheets. Microsoft's Excel has become the dominant spreadsheet (31 percent) in newsrooms that reported using spreadsheets, but many journalists also use Lotus 1-2-3 (20 percent) and Novell's Quattro Pro (17 percent). Noticeable proportions did not use spreadsheets or did not respond, however.\n\nExcel's use grew 9 percent from 1994 to 1995, while Quattro Pro and 1-2-3 use grew very little - about 1 percent each. The fact that there was a 16 percent drop in \"missing/none\" responses in the single year indicates more awareness of products in use as well as more use of spreadsheets that began in the past year.\n\nRelational databases. Relational database management systems, or relational database software, are very popular. In 1995, Borland Paradox was the preferred (24 percent) software, but Microsoft's FoxPro (21 percent) was also widely used. Another Microsoft relational database program, Access, is growing in popularity as part of the Microsoft Office suite \"Professional\" edition. It was used by 5 percent of newspapers in 1995.\n\nAnalytical Mapping. Mapping programs have not yet gained widespread use. One of the major reasons, until recently, has been the high cost of the software. Some producers lowered their prices in 1995.\n\nMost newspapers (71 percent) were not yet using computer mapping products. But the decrease in this figure shows signs of some growth in use. MapInfo (15 percent) and Atlas GIS (9 percent) are the most widely used.\n\nThere were also differences in use by size. Larger newspapers (43 percent) used the product far more than smaller ones (10 percent). MapInfo gained in use over the year, about 7 percent, while Atlas GIS did not change in proportion of use over the year.\n\nStatistics. Not many newspapers - just 16 percent - used statistical software in 1995. The Statistical Package for the Social Sciences (SPSS) is the most popular CAR statistics tool with just 9 percent use. The Statistical Analysis System (SAS), was used by 3 percent, and other products by 4 percent.\n\nCommunications. Procomm Plus dominates newsroom preferences for general on-line connections. In 1995, about 45 percent of newsrooms using communications software reported preferring Procomm Plus for DOS or Windows. All other programs - such as Crosstalk, Windows Terminal, Smartcom - constitute only about 39 percent of use. However, one in six newspapers, 16 percent still did not use any communications software or simply did not know what was in use.\n\nBruce Garrison can be reached at (305) 284-2846, or send e-mail to bgarriso@umiami.ir.miami.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A 1995 survey of newsroom computer-assisted reporting (CAR) software usage reveals that Xy Write dominated word processing, Excel led spreadsheets, Paradox was preferred for databases, and MapInfo emerged as the top mapping tool, while most newspapers had not yet adopted statistical or mapping software.",
+      "keywords": [
+        "software",
+        "newsrooms",
+        "spreadsheets"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "XyWrite",
+        "Excel",
+        "Paradox",
+        "askSam",
+        "MapInfo",
+        "SPSS",
+        "Procomm",
+        "Microsoft Word",
+        "WordPerfect",
+        "Lotus 1-2-3",
+        "Quattro Pro",
+        "FoxPro",
+        "Access",
+        "Atlas GIS",
+        "SAS"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -185,13 +302,30 @@
       "headline": "PCs dominate hardware",
       "kicker": "Striking differences among large, small newspapers",
       "author_name": "Bruce Garrison",
-      "author_title": "",
+      "author_title": "Professor",
       "affiliation": "University of Miami",
       "full_text": "What types of PC hardware are most used by U.S. dailies in computer-assisted reporting? Findings from the 1994 and 1995 national surveys conducted by the School of Communication at the University of Miami suggest preference patterns are emerging. They include:\n\nProcessors. The most commonly used central processing unit for CAR projects is an Intel 80486-type that has been on the market since 1993. A total of 43 percent of all newspapers used \"486s\" for CAR in 1995. Only a handful of newsrooms percent) used the then-new Intel Pentium processor.\n\nA little more than one in 10 newspapers used any type of Macintosh for CAR (12 percent) and another one in 10 still used older 80386-type processors.\n\nDifferences in small and large newspapers are striking. Larger newspapers, for example, defined as those with daily circulation over 52,800 copies, rarely use Macintoshes for CAR, but are widely known to use them for graphics. Almost one-quarter of smaller newspapers use them for CAR. In fact, it is the second-largest category of CPU for the smaller dailies and only by a small margin.\n\nTop operating system\n\nOperating Systems. The most-used operating system in 1995 was the popular combination of DOS and a Windows overlay. More than half of the newspapers responding to the 1995 survey (52 percent) reported using some form of DOS with a version of Windows. Since the data in the 1995 survey were collected early in the year, prior to the debut of the national Windows 95 beta program or the final release, the newest form of Windows was not included or found to be in use.\n\nCD-ROMS. In the 1995 survey, more than half of the newspapers reported using one or more CD-ROM drives for CAR. A total of 38 percent reported using one CD-ROM drive and another 33 percent reported using two or more CD-ROM drives, or more than 71 percent used a CD-ROM drive. Large dailies typically have more than one CD-ROM drive, while smaller dailies are more likely to have only one drive and a much larger proportion had none.\n\nAbout 39 percent of the reporting newspapers used one or more CD-ROM drive in newsrooms. Of that, 36 percent reported using one CD-ROM reader, and just 4 percent used more than one CD-ROM reader. This reflects a 23 percent growth in the number of newspapers with two or more CD-ROM drives and a 19 percent growth in the number of newsrooms with CD-ROMs in use for CAR overall.\n\nGreater capacity\n\nHard drives. Hard drive manufacturers in 1994 and 1995 were making larger and faster drives and, at the same time, lowering their prices. This meant that newsrooms using personal computers for CAR had greater capacity available to them. And they were taking advantage of the newer drives. The mean CAR hard-drive size was over a gigabyte (1,055 MB) in early 1995. A year earlier, the mean hard-drive size was considerably less at 853 MB for the newspapers reporting.\n\nThe most frequent reported sizes in early 1995 were 1 GB (10 percent), 500 MB drives (5 percent), and 2 GB (4 percent). The sizes ranged from a 20 MB drive still in use to a 6.7 GB server in use for CAR.\n\nThese data suggest that news organizations acquire new CAR hardware as it becomes available on the market, but not very quickly. This suggests budgetary influences and that CAR is not yet a high spending priority in most newsrooms. Equipment is acquired as spending limitations permit it, but often a year or more after the new technology debuts on the market.\n\nNevertheless, there seemed to have been steady hardware advances in daily newspaper newsrooms between 1994 and 1995, suggesting similar growth between 1995 and 1996 as well.\n\nBruce Garrison can be reached at (305) 284-2846, or send e-mail to bgarriso@umiami.ir.miami.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A 1994-1995 University of Miami survey reveals that U.S. daily newspapers predominantly used Intel 486 processors, DOS with Windows operating systems, and increasingly adopted CD-ROM drives and larger hard drives for computer-assisted reporting, with notable differences between large and small publications.",
+      "keywords": [
+        "hardware",
+        "newspapers",
+        "survey"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Intel 80486",
+        "Intel Pentium",
+        "Macintosh",
+        "Intel 80386",
+        "DOS",
+        "Windows",
+        "Windows 95",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -203,12 +337,23 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "\"Daily Newspaper Utilization of Computer Data Bases,\" Frederic F. Endres, Fall 1985, Newspaper Research Journal. \"Daily Use of Computers to Analyze Data,\" Cecilia Friend, Winter 1994, Newspaper Research Journal. \"Computer-Assisted Reporting,\" Bruce Garrison, 1995. Lawrence Erlbaum Associates.\n\nFor a full text, see NICAR's website at http://www.nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This collection of scholarly sources documents the evolution of computer technology adoption in newspaper journalism, from early database utilization in the 1980s through computer-assisted reporting methods in the 1990s.",
+      "keywords": [
+        "journalism",
+        "computers",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -220,12 +365,23 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Check out the IRE-L and NICAR-L mailing list archives on our websites at http://www.ire.org and http://www.nicar.org. You can see posts to both lists organized by thread, author and date. The list archives are available in HTML or in plain text format, which is useful for downloading a particular month. If you have any comments on how we can make these archives more useful, send e-mail to wally@nicar.org.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE and NICAR have made their mailing list archives publicly accessible on their websites in multiple formats (HTML and plain text), allowing users to browse posts by thread, author, and date.",
+      "keywords": [
+        "archives",
+        "mailing",
+        "accessible"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "HTML"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -239,10 +395,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "\"Computer-Assisted Reporting: A Practical Guide\" by Brant Houston specifically written for the beginner is a concise handbook providing students with an accessible guide to the essentials of computer-assisted reporting. The first text of its kind, \"Computer-Assisted Reporting: A Practical Guide\" can be used in a wide variety of introductory courses. Its focused approach also makes it suitable as a supplementary text for more advanced courses or as a handy reference for the working journalist. Emphasizing the most useful tools in on-line reporting, it springboards students into the computer age. The book provides, in a concise format, the knowledge students need to understand-and effectively use-computer-assisted reporting. The text helps students locate and negotiate government databases, examines how to use descriptive statistics to perform an initial analysis of those databases, and explains how to detect flaws. Other feature includes: Includes numerous practical examples and step-by-step procedures on the basics of computer-assisted reporting. Gives students a straightforward, practical, guided tour through the Internet. Accompanied by data diskette. Houston is managing director of the National Institute for Computer-Assisted Reporting at the University of Missouri. The book is available for $24 from IRE and St. Martin's Press Inc., New York.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Brant Houston's 'Computer-Assisted Reporting: A Practical Guide' is an introductory handbook that teaches journalists how to use computer tools and online databases for reporting, including accessing government data and detecting analytical flaws.",
+      "keywords": [
+        "reporting",
+        "databases",
+        "journalism"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -254,11 +420,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR telephone numbers have a new area code: 573 replaces 314; however, both area codes will work until July, when 314 will be eliminated for all of Mid-Missouri areas except St. Louis. The new numbers are: Brant Houston, (573) 882-1984 Rosemary Armao, (573) 882-1982 NICAR, (573) 882-0684 IRE, (573) 882-2042",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR telephone numbers are transitioning to a new 573 area code to replace 314, with both codes functioning until July when 314 is eliminated for Mid-Missouri regions outside St. Louis.",
+      "keywords": [
+        "NICAR",
+        "areacode",
+        "Missouri"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -271,11 +443,18 @@
       "kicker": "Growing collection of federal databases",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR offers a number of federal government databases. Here is a list of our growing collection:\nFederal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.\nCoast Guard boating accidents, 1969-1994.\nFederal Election Commission contributions data, including donations by individuals and political action committees.\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns.\nFederal procurement data, 1992-1994, includes breakdowns by agency.\nAlcohol, Tobacco and Firearms gun dealer records.\nNational Bridge Inventory System data, includes inspection grades.\nFBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the new 1994 data.\nSocial Security death records, by name and social security number, going back to 1937.\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies.\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\nU.S. Small Business Administration loan guarantees, 1989-1995. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.\nU.S. Small Business Administration disaster loan guarantees, 1989-1994. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\nU.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.\nU.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.\nU.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1988 to 1994.\nU.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.\nNational Endowment for the Arts, grants, 1989-1993.\nFor up-to-date prices and more information, call (314) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR provides access to a comprehensive collection of federal government databases covering transportation safety, financial transactions, crime statistics, and regulatory compliance from various agencies. The databases span multiple decades and include detailed records useful for investigative journalism on topics ranging from accidents and fraud to discrimination patterns.",
+      "keywords": [
+        "databases",
+        "federal",
+        "government"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -290,10 +469,21 @@
       "author_title": "",
       "affiliation": "NICAR",
       "full_text": "The FEC has made available free of charge campaign finance data via the Internet. Data posted by the FEC includes: information about candidates, parties and other committees; downloadable databases containing data about candidates, parties and other committees; and summary files for past election cycles. The 1995-1996 cycle data will be updated monthly henceforth and posted on-line the first of each month. The data can be accessed via the World Wide Web at http://www.fec.gov or via anonymous ftp (file transfer protocol) at ftp.fec.gov.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The FEC has launched a free internet service providing public access to campaign finance data including candidate information, downloadable databases, and historical election cycle summaries, with monthly updates beginning with 1995-1996 cycle data.",
+      "keywords": [
+        "campaign",
+        "finance",
+        "data"
+      ],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "FTP"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -305,11 +495,18 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE (Investigative Reporters and Editors)",
       "full_text": "Investigative Reporters and Editors is searching for a training director for the new Instituto Mexicano de Investigacion Periodistica, a not-for-profit educational organization for Mexican journalists funded with a three-year grant from the McCormick Tribune Foundation.\n\nThe training director will report to the Insituto Coordinator with the goal of assuming that top position within two years and will help develop and carry out professional training programs for journalists. Applicants should be Mexican journalists who are fluent in English with an interest in investigative reporting and computer-assisted reporting. Send a letter, resume and references to IRE Executive Director Rosemary Armao, 138 Neff Hall Annex, University of Missouri School of Journalism, Columbia, Mo., 65211. The deadline is May 1.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Investigative Reporters and Editors is recruiting a training director for a new nonprofit educational organization in Mexico aimed at professional journalist development, with the position potentially leading to a coordinator role within two years.",
+      "keywords": [
+        "journalism",
+        "training",
+        "Mexico"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -322,12 +519,27 @@
       "kicker": "On the Internet",
       "author_name": "David Herzog",
       "author_title": "",
-      "affiliation": "The (Allentown, Pa.) Morning Call",
+      "affiliation": "The Morning Call",
       "full_text": "Whether you're a novice who wants to learn more about geographic information systems or a power user looking for files, you'll find a number of useful sites on the Internet's World Wide Web. Here are some of the best:\n\nCaliper Corp. This Massachusetts company makes Maptitude, a GIS package that comes with a load of useful data and maps. Cost is $395. www.caliper.com\n\nU.S. Census Bureau. This official Census site has all kinds of economic and demographic data on-line. In addition, you can get information about the Census' data products on CD-ROM and tape. www.census.gov\n\nConsortium for International Earth Sciences Information Network U.S. Demography page. CIESIN has 4 GB of compressed data and TIGER mapping files available for free download. www.ciesin.org/datasets/us-demog/us-demog-home.html\n\nEnvironmental Systems Research Institute. ESRI's web site has information about its ArcView GIS programs. Also, it has good general information for the beginner, including a glossary and \"Getting to Know Desktop GIS.\" www.esri.com\n\nGeographic Information Systems FAQ. This large (128 KB) file answers frequently asked questions regarding GIS. The subject matter, however, tends to be on the scholarly and arcane side. www.lib.ox.ac.uk/internet/news/faq/archive/geography.infosystems-faq.html\n\nGIS World Magazine. This magazine and its sister publication, Business Geographics (www.gisworld.com/mag/bg/index.html), put their indexes and sample articles on-line. www.gisworld.com/mag/gw/index.html\n\nMapInfo. The official home of MapInfo, maker of widely used GIS programs. Its web site includes product information, tech tips, training guides and user group lists. Also, you can download demo programs. www.mapinfo.com\n\nStrategic Mapping Inc. The home of Strategic Mapping, maker of the popular GIS package, AtlasGIS. Get product information and technical support files. You can download program demos. www.stratmap.com\n\nXerox Map download archive. You can find some TIGER and Census demographic files in this free download site maintained by Xerox Corp. ftp://spectrum.xerox.com\n\nDavid Herzog can be reached at (610) 820-6584, or send e-mail to herzog@pulitzer.mcall.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A guide to useful websites for learning about and working with geographic information systems (GIS), ranging from beginner resources to professional tools and data sources.",
+      "keywords": [
+        "GIS",
+        "mapping",
+        "data"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "ArcView",
+        "MapInfo",
+        "Atlas GIS",
+        "Maptitude",
+        "World Wide Web",
+        "FTP",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -339,12 +551,26 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "The Miami Herald",
       "full_text": "Journalists needed for on-line service\n\nThe Miami Herald and El Nuevo Herald need journalists to help develop on-line English and Spanish news and information services. Because content will be presented in two languages, fluency in both English and Spanish is a plus. Among the positions:\n\nWeb Designer/Illustrator with digital design skills and experience with HTML, Photoshop and Adobe Illustrator.\nOn-line Managing Editor responsibile for organizing online editorial content, building web pages and identifying web links.\nOn-line Producer to build web pages, organize and edit previously published material, create new content to be delivered online, and seek out web links. Experience in news research and computer-assisted reporting techniques would be valuable.\nDatabase/Unix Analyst Programmer to design databases for web publishing. Prefer experience in designing and implementing client/server relational database applications and familiarity with HTML, Unix platforms and utilities, including Perl. Expect to learn other programming tools, including Java.\n\nTo apply, send resume and statement of online philosophy to Elizabeth W. Ruiz, Employment Recruiter, The Miami Herald Publishing Co., 1 Herald Plaza, Miami, Fla., 33132.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The Miami Herald and El Nuevo Herald are hiring journalists and technical staff to develop bilingual English and Spanish online news services, with positions including web designer, managing editor, producer, and database programmer.",
+      "keywords": [
+        "journalists",
+        "online",
+        "bilingual"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "HTML",
+        "Photoshop",
+        "Adobe Illustrator",
+        "Unix",
+        "Perl",
+        "Java"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -358,10 +584,19 @@
       "author_title": "computer-assisted reporting reporter",
       "affiliation": "The Fresno Bee",
       "full_text": "Russell Clemings, computer-assisted reporting reporter, The Fresno Bee, recently shared the following websites as good sources of journalism job openings: The California Society of Newspaper Editors has job listings at: http://www.ccnet.com/CSNE/jobs/postings.html Editor and Publisher classifieds are online at: http://www.mediainfo.com/edpub/ep/classi.htm Gannett has openings posted at: http://www.gannett.com/newswatch/nw0128-8.htm And while this one is mainly for computer job openings, it also includes technical writing and similar positions: http://www.espan.com/",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Russell Clemings from The Fresno Bee recommends several websites for finding journalism job openings, including resources from the California Society of Newspaper Editors, Editor and Publisher, Gannett, and a tech job board that also lists technical writing positions.",
+      "keywords": [
+        "jobs",
+        "journalism",
+        "openings"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -375,10 +610,24 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Radio and TV journalists, mark your calendars for March 23-24, when The National Institute of Computer-Assisted Reporting and the Medill School of Journalism will offer a special two-day workshop at Northwestern University.\n\nThe workshop will focus on the special needs of broadcast journalists when using electronic data and will include discussions, demonstrations, and hands-on training from some of the best teachers and CAR practitioners in the country. Among the topics to be covered:\n\nHow computer-assisted reporting makes for better stories.\nA review of some of the best work done by broadcasters.\nUsing the Internet for breaking stories and references.\nBest World Wide Web sites for broadcasters.\nChoosing good commercial on-line services.\nBest on-line discussion groups.\nComputer-assisted reporting for investigative pieces.\nCD-Roms that every broadcast journalist should have.\nUsing computer-assisted reporting for radio.\nConvincing your station manager of the value of computer-assisted reporting.\nHow electronic databases turn into great stories.\nWhat's a spreadsheet and how to use it.\nWhat's a database manager and how to use it.\nTurning netsurfing into daily stories.\nThe ethics of computer-assisted reporting.\nHow to make the data visual.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The National Institute of Computer-Assisted Reporting and Medill School of Journalism are hosting a two-day workshop on March 23-24 at Northwestern University for broadcast journalists to learn data analysis techniques, including internet research, databases, spreadsheets, and investigative reporting methods.",
+      "keywords": [
+        "workshop",
+        "journalists",
+        "broadcast"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "CD-ROM",
+        "spreadsheet",
+        "database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -390,12 +639,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Planning is underway for the June 13-16 IRE/NICAR National Conference in Providence. We are intent on making this a program appealing to all our members - broadcast, print, freelance, big and small markets, alternatives, etc. Send suggestions for panels and speakers now to Rosemary Armao, IRE executive director, at jourrca@mizzoul.missouri.edu, or call her at (573) 882 1982. Meanwhile, check out the Providence Journal's National Conference Homepage at: http://www.projo.com/ire/. You'll find dates, prices, hotel numbers, information on the shape of the program so far and fun things to do in New England.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The IRE/NICAR National Conference is scheduled for June 13-16 in Providence, with organizers seeking panel and speaker suggestions from members across all journalism sectors. Additional conference details, pricing, and Providence area information are available on the Providence Journal's conference website.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "Providence"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -407,12 +665,24 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Subscribe to our listserve and join in as reporters talk about how to do the job better. E-mail to LISTSERV@MIZZOU1.MISSOURI.EDU In the message, on the first line, write: subscribe NICAR-L your name. To join IRE on the Internet, the instructions are the same except, on first line, write: subscribe ire-1 your name.\n\nIRE/NICAR is also accessible through CompuServe's Journalism Forum. Go to the JForum, Section 19. Also look into the IRE/NICAR files in Library 19.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Instructions for subscribing to journalism listservs NICAR-L and IRE-1 via email, with additional information about accessing IRE/NICAR resources through CompuServe's Journalism Forum.",
+      "keywords": [
+        "listserve",
+        "journalism",
+        "subscribe"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "CompuServe",
+        "listserve",
+        "Email"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

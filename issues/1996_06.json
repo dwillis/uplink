@@ -10,10 +10,21 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Oops!\n\nUplink update\n\nTo err is human; to forgive, divine; and to print a correction, humiliating.\n\nWhile computer-assisted reporting allows us to write industrial-strength stories loaded with facts and details, it also lets us make eye-popping errors at light speed.\n\nIn this issue of Uplink, reporters share their own CAR mistakes in hopes of preventing the rest of us from repeating their errors. Plus, NICAR's Brant Houston and the AP's Drew Sullivan share tips on performing integrity checks that may head off data catastrophes.\n\nAlso in this issue, Penny Loeb describes how U.S. News and World Report used train data to examine railroad safety problems around the country, NICAR's Andy Lehren reveals how reporters exploited FAA data after the ValuJet DC-9 crash, and David Milliron of Gannett News Service shares some handy Web sites.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Computer-assisted reporting enables journalists to produce detailed, fact-rich stories but also increases the speed at which errors can be made; this issue explores common CAR mistakes and strategies for data integrity checks.",
+      "keywords": [
+        "reporting",
+        "data",
+        "errors"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -27,9 +38,17 @@
       "author_title": "managing director",
       "affiliation": "NICAR",
       "full_text": "The recent correction of a page-one story by the Atlanta Constitution Journal was a nasty reminder of how easy it is to make a critical error when doing computer-assisted reporting.\n\nThe newspaper reported that Atlanta, on the eve of the Olympics, has the highest violent crime rate among United States cities. In fact, Atlanta is in the Top 5, but it is not No. 1. The newspaper accidentally left out several major cities when typing in data.\n\nThis certainly is not the first mistake made while doing a CAR story (or any news story). Mistakes have been made since journalists began using software to collect and analyze data. Some mistakes have made it to print or on air. Many did not because the journalists were aware where things could go awry and because they followed rudimentary guidelines for preventing errors.\n\nData snafus\n\nTo get an idea of some of the data perils out there, NICAR recently asked journalists for examples of errors and snafus. Here are a few of them:\n\nThe Miami Herald was examining the sentencing patterns for drunken drivers, using court files. The data showed a category for jail time and a category for a fine. In looking at the data, the Herald deduced that a small percent of drunken drivers received no punishment.\n\nIn fact, judges always gave some kind of punishment, including community service. But there was no field in the data for community service. The clerks using the data knew \"0\" for jail time and \"0\" for fine meant community service, but no one put the information in the code book for the database, and no one told the Herald about the lack of codes. In another story, the Herald examined problems in local schools and in-\n\nBrant Houston can be reached at (573) 882-1984, or send e-mail to brant@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A correction by the Atlanta Constitution Journal highlights the risks of computer-assisted reporting, as the newspaper incorrectly ranked Atlanta's violent crime rate first when it actually ranks in the top 5 due to missing data entry. The article discusses common data errors in journalism and provides examples of mistakes made during CAR investigations.",
+      "keywords": [
+        "data",
+        "errors",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -44,9 +63,16 @@
       "author_title": "",
       "affiliation": "Associated Press",
       "full_text": "A pair of mantras that NICAR's Richard Mullins teaches his students at the Missouri School of Journalism is: \"All databases are bad,\" and \"All data is dirty.\" If you've worked with many databases, you soon realize the truth in these statements. Underpaid and overworked government data-entry clerks will forever confuse similar postal codes, such as Missouri (MO) and Montana (MT) or Connecticut (CT) and Colorado (CO). And even the most clever database designers cannot account for incomplete data.\n\nDrew Sullivan can be reached at (800) 845-8450, ext. 7639, or send e-mail to drew@ap.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR instructor Richard Mullins emphasizes that all databases contain flaws and errors, such as data entry mistakes by government workers and incomplete information that even skilled designers cannot fully prevent.",
+      "keywords": [
+        "databases",
+        "data",
+        "journalism"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -61,9 +87,17 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "Crash course on plane crashes\n\nBy Andy Lehren\nNICAR staff\n\nWhen the ValuJet DC-9 crashed near Miami, many reporters poured through airline data to find out what went wrong.\n\nA common step was taking the airplane's tail number and running it through key Federal Aviation Administration databases, such as Service Difficulty Reports and Accidents and Incidents. Some went further, using the airplane's serial number and studying its history before ValuJet began using the jet.\n\nHere are some lessons from reporters who mined data for covering the crash:\n\nprepared. The Cleveland Plain Dealer's Beth Marchak had been reporting about ValuJet's problems before the crash. She began by sorting SDR data by date, by tail number, by serial number and by the troubled part of the plane. She checked for structural work. And she used her search results as a springboard for additional reporting. SDRs helped prepare her for interviewing passengers and airline workers. They also helped her craft Freedom of Information requests for FAA documents. She said paper records were vital for showing the depth of ValuJet's problems.\n\nWatch out for dirty data. For instance, in the FAA Accidents and Incidents database, Delta had mistakenly reported the fatal DC-9's serial number as its tail number. Severity codes in the SDR database are inconsistent. The FAA violates its own rules for the key fields in the SDR table. Operator codes in the Accidents database are often missing.\n\nBeware of how information is entered into the database. The SDR database allows the airline to report one character for the precautionary procedure taken if the plane was in the air. The St. Paul Pioneer Press' Dan Browning found Northwest often did not use the code for dumping fuel. But the airline routinely dumped fuel when facing a problem in the air. The Seattle Times's Bryan Acohido reported about rudder problems in Boeing 737s and found those difficulties were not always coded the same way (see Uplink, February 1995).\n\nLook how often an airline submits reports. They are supposed to report any mechanical difficulty. They often don't. Airlines report at different rates. Browning said he tries to adjust for reporting rates. He also looks at what the airline owns by using the FAA's Annual Inventory of Airframes and Aircraft Engines by Carrier.\n\nBut the problem raises questions about how the agency works. \"Why does the FAA tolerate the disparity?\" Browning asked. The University of North Carolina's Phil Meyer said that, with this problem, a lack of reports may well tip off a reporter to probe into an airline.\n\nLook at other databases. The ValuJet crash was linked with a hazardous chemical. The U.S. Department of Transportation's Hazardous Materials database includes airline accidents that involve hazardous chemicals. The Miami Herald used this information to put the crash into context, and show how rarely such accidents happen. It also gave readers a chronology of earlier accidents involving such substances.\n\nDateline NBC's David Hinchman used the FAA's Enforcement Information System to examine lax enforcement in commuter airline safety (see Uplink, April 1996).\n\nCBS's Roberta Baskin recommended using NASA's Aviation Safety Reporting System, where pilots make anonymous reports on problems. By using dates, she has been able in other cases to strip away that anonymity and learn more about an incident.\n\nThe FAA's collection of advisories showed the agency was already concerned about bad wiring in the cockpits of DC-9s. National Transportation Safety Board records are often valuable for understanding airline safety, said the New York Times' Steve Engleberg.\n\nKeep in mind that human errors play a big role in crashes. The Minneapolis Star Tribune's Greg Gordon recommended that, along with other databases, include a look at FAA records for runway incursions (when mistakes happen on landings and takeoffs), pilot diversions (when pilots make mistakes), and near mid-air collisions. These can provide great anecdotal information.\n\nLook overseas. Newsday's Ford Fessenden used Aviation Information Services Ltd. and Flight International, both in the United Kingdom, to probe airline accidents worldwide. For tracking who owns planes outside the United States, he uses a book called the Jet Airliner Production List, published in Great Britain, and confirms information with the airplane's makers. Track ownership and major changes to an aircraft. The AP's Drew Sullivan checked FAA ownership and airworthiness certification records in Oklahoma City. Major repair records also include information for developing sources, including the name of the engineer who signed off on the work.\n\nAndy Lehren can be reached at (573) 882-0684, or send e-mail to andy@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Journalists covering the ValuJet plane crash used FAA databases and aviation records to investigate the accident, but encountered challenges including data quality issues, inconsistent reporting practices by airlines, and the need to cross-reference multiple sources for accurate information.",
+      "keywords": [
+        "aviation",
+        "databases",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -78,10 +112,20 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "Playing by the numbers\n\nBy Andy Lehren, NICAR staff\n\nThe holy grail in aviation data is figuring out what predicts accidents.\n\nWhat causes plane crashes: The airline? The type of aircraft? Pilot mistakes? Poor maintenance? Violent weather? How can reporters sift through patterns when so much changes over time - airlines change management, the aircraft they fly, and even owners.\n\nAfter the ValuJet crash, a challenge remains in trying to develop an airline safety index. And even if this is not successful, University of North Carolina Professor Phil Meyer, author of \"The New Precision Journalism,\" said this problem sheds light on how to think about developing an index.\n\nIndices are no stranger to news pages. Look at the Dow Jones Industrial Average or the Standard & Poor's 500. Both are used daily to reflect the stock market's health. The Philadelphia Inquirer's Neill Borowski wrote in April's Uplink how he indexed various local economic segments against the nation. That helped him determine the Philadelphia area's strengths and weaknesses. Baseball fans track how many games back a team is from the leaders.\n\nMore than ranking\n\nThe idea is that these numbers do more than rank things. They are barometers. They show relative strength or weakness. A baseball fan knows more than whether a team is in second place; games back tell whether the team is close or far from the division leader. The S&P 500 indicates how much better or worse the stock market is doing. The index used by Borowski showed how much the local economy's makeup is different.\n\nAt Newsday, Ford Fessenden had previously looked at accidents worldwide to show a history of airline crashes, including predecessors in the numbers for the airlines that took them over, and included information such as the odds of a plane crashing. That, he said, showed readers that foreign carriers in certain countries have troubling accident rates.\n\nThe stories also underscored how human mistakes - and companies with a culture that did not emphasize safety and training play a great role in crashes.\n\nMeyer suggested reporters can try to go one step further. The goal would be to create a safety index for airlines, gauging the likelihood that someone would get killed riding a particular airline. It would include an analysis looking at whether factors in older crashes predict more recent accidents.\n\nDrawing from the data\n\nAn index would use one or more factors for measuring safety. Journalists look to Federal Aviation Administration data such as Service Difficulty Reports, which include equipment problems, engine flame outs and emergency landings. They also look at the FAA's Accidents and Incidents reports, which include when people are hurt or killed, or the airplane suffers major damage.\n\nThe FAA also keeps information on accident rates, and one recent report, separating start-up carriers from major airlines, claimed there is a difference between the two groups. The report ranks airlines by accident rates, but does not include a statistical analysis.\n\nReporters have already documented airlines failing to report SDRs. Instead of representing the whole universe of U.S. airline problems, or even a random sample, the database is skewed because of contrasting reporting rates. Airlines are required to file SDRs when they repair aircraft, but reporters have found many don't comply with FAA rules, and the agency lacks the teeth for enforcing regulations.\n\nRichard Newman of U.S. News & World Report is among those reporters who believe SDRs could never be part of an index on airline safety. In an unpublished analysis, St. Paul Pioneer Press' Dan Browning attempted to adjust SDR data by looking at reporting rates. The Cleveland Plain Dealer reported nine of 10 repairs were unreported in SDRs (See Uplink, February 1995). Even when reports are made, key information may be missing. Details may not be coded consistently. Accidents and Incidents data also suffer from missing information, though many reporters agree that accident data appears more complete.\n\nWhat if a reporter did not face these and other problems, Meyer said they could begin the quest by looking at whether fatal air crashes and major repairs during the 1980s predict accidents during this decade. \"It may be that the past doesn't predict the future,\" Meyer said. \"If it doesn't, there is no reason to look at an index.\" But if it did, reporters could also look at how well several factors such as aircraft age and the number of most severe SDRs - fit together. One test for reliability is called Chronbach's alpha, which looks at whether factors move together consistently. (In SPSS 6.1, with professional statistics, go to statistics scale reliability analysis). Those who attended the 1996 Advanced Computer-Assisted Reporting Bootcamp in North Carolina used it for studying polling data. The most robust indices, Meyer said, are those that still predict even when some elements are stripped away.\n\nBecause the FAA's inspector general raised so many concerns about ValuJet before the crash, Meyer said the quest for developing a safety index is worth pursuing. But one problem - for data hounds, not passengers - is the few number of crashes in U.S. aviation. That means an analysis trying to predict accidents is fragile. To get an idea of what that means, if you changed an airline's accident total just by one crash, it could drastically alter results. The FAA noted that in its recent report on start-up carriers. One way to shore up that problem is to also look at severe mishaps and other incidents. But those records - along with those on pilot mistakes and other human errors - are less complete. A recent New York Times story noted these problems for developing a safety predictor. Trying to use airline data to do this kind of analysis, said the Minneapolis Star Tribune's Greg Gordon, \"is a lot like squeezing molasses and watching it go in all directions.\"\n\nAndy Lehren can be reached at (573) 882-0684, or send e-mail to andy@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists can develop airline safety indices using FAA data to help predict crashes and measure relative safety across carriers, moving beyond simple rankings to create meaningful barometers for readers. The approach involves analyzing historical accident patterns, pilot errors, maintenance issues, and safety culture to identify which factors best predict future aviation accidents.",
+      "keywords": [
+        "aviation",
+        "indices",
+        "safety"
+      ],
+      "topics": [
+        "Public Safety",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "FAA"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -95,10 +139,20 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "Sleepy Roanoke Virginia has never been associated with rampant tax fraud. But if you happen to live there, you are 57 times as likely to be recommended for prosecution by the IRS than if you lived in New Mexico. The likelihood of prosecution in Pittsburgh is 29 times greater than that of all of Idaho, according to \"Where the IRS Aims the Prosecution Ax,\" a recent New York Times article by David Cay Johnston. Johnston documented capricious IRS prosecution after examining Justice Department data on 4,542 cases in which the IRS sought prosecution in 1994. The data, which was stripped of taxpayers' names, was made available to reporters on the Internet by Susan Long and David Burnham, co-directors of the Transactional Records Access Clearinghouse (TRAC) at Syracuse University.\n\nJohnston says the data raises some serious questions about the disparity in the way the IRS pursues tax cases, such as the case of Albert Taggi of Scarsdale, N.Y., who took a \"voluntary\" buyout from AT&T Corp. in 1985 along with 11 other engineers and middle managers.\n\nAccording to Johnston, the 12 involved, all residents of New York, filed for refunds of income taxes on the buyout and got varying results: Some paid no taxes. Some paid partial taxes. And two, including Taggi, were taxed on the full amount. The federal appeals court that heard the case said it was irrelevant that the 12 were taxed differently.\n\nAnalysis of the data indicates Taggi's case may be closer to the rule than the exception, although IRS and Justice Department officials Johnston interviewed disagreed.\n\n\"Officials of the IRS and the Justice Department tried to disown the data after TRAC had spent five years in a protracted lawsuit trying to gain access to it. If the data truly was flawed, the Justice Department had five years to deal with that issue,\" Johnston said. Long and Burnham argue that the data is useful in showing how the IRS carries out enforcement.\n\nJohn Sullivan can be reached at (573)882-0684, or send e-mail to john@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "An investigation into IRS prosecution data reveals significant geographic disparities in tax fraud prosecutions, with some regions like Roanoke, Virginia experiencing dramatically higher prosecution rates than others, raising questions about the consistency and fairness of IRS enforcement practices.",
+      "keywords": [
+        "IRS",
+        "prosecution",
+        "disparities"
+      ],
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -110,12 +164,24 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "TRAC",
       "full_text": "TRAC's IRS Web sight for criminal enforcement allows you to choose from four main menu choices. The first is a roadmap to the sight, which includes information about TRAC.\n\nThe second, Findings and Data Graphics on IRS, includes graphs, rankings and tables on the United States and each district, including a ranking by district.\n\nThe third is Data Sets on IRS for downloading information on each criminal referal recommending prosecution in a district, or summary information on all districts, including comparative counts, percents, rates and ranks for districts and the nation.\n\nFinally, you can also navigate by topic, district or by comparative rankings.\n\nIf you choose to navigate by topic you may view a series of graphs and tables that give an overview of IRS referrals for criminal prosecution. It also provides information about conviction and prison terms, length of time to prosecute or decline a referral, and odds of referral.\n\nNavigating by district provides essentially the same information, but allows you to choose from 90 separate federal districts and view analyses from those districts.\n\nNavigating by comparative rankings provides a series of maps displaying comparative district rankings and tables used to tabulate the rankings.\n\nTRAC's IRS Web site is located at http://trac.syr.edu/tracirs/",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "TRAC's IRS criminal enforcement website offers four main navigation options including roadmaps, data graphics, downloadable datasets, and topic-based, district-based, or comparative ranking views to analyze criminal referrals, convictions, and prosecution data across U.S. federal districts.",
+      "keywords": [
+        "IRS",
+        "enforcement",
+        "data"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Crime & Justice",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "MapInfo"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -126,13 +192,26 @@
       "headline": "Tracking rail safety",
       "kicker": "Answers found in the data",
       "author_name": "Penny Loeb",
-      "author_title": "",
+      "author_title": "Reporter",
       "affiliation": "U.S. News and World Report",
       "full_text": "Tracking rail safety\n\nBy Penny Loeb\n\nU.S. News and World Report\n\nA train crashes in your city. What's the accident record of that railroad? Several people in a car are killed at a crossing. How many people have been killed at crossings in your state? Some of the answers are in the databases distributed by the Federal Railroad Administration at its Web site, and also by NICAR.\n\nIn May, U.S. News and World Report and ABC's PrimeTime Live released a joint investigation of safety problems with railroads. It revealed that accidents have remained pretty steady for a decade while the FRA and railroads ignored calls for better braking systems, tracks, passenger safety and working conditions from Congress and the National Traffic Safety Board.\n\nThe FRA's user-friendly Web site has .dbf files ready for download, as well as record layouts and code lists. There are four files. One is accidents, which are available from 1991 through February 1996. Reports provide rich detail, including railroad, time, weather, place, cause, type of track, number killed, number injured, number evacuated and number of cars with hazardous materials. The one catch is that there is a record for each railroad and track owner involved in the accident, making for as many as three records for one accident. The FAQ file explains that the unique identifier is year3, month3, rr3 and incdno3. The data also has a field with the same state-county code used by MapInfo. mapped the serious accidents for December 1995, which made a compelling graphic.\n\nThere are also separate tables on casualties, grade-crossing accidents and number of miles traveled by each railroad. Casualties contains injuries to employees, trespassers, passengers and others. Grade crossings has accidents at railroad crossings. A few of these will be reported in the accident file, if damages to the train were more than $6,300. The grade crossing database also has multiple entries for some accidents, so you need to group by the same four fields.\n\nThe FRA has put the entire, very detailed 1994 Accidents/Incidents bulletin on the Web site for downloading. You can spot check your calculations against those in the report.\n\nThere are several weaknesses in the data. First, it is self-reported by railroads. Second, the accidents database only has those with damages over $6,300. The damage threshold omits more than 90 percent of the accidents. CSX, one of the largest railroads, had 104 reportable accidents in 1995, but the total number was 1,755. found a number of small spills of hazardous materials on the Hazmat database, but missing from FRA.\n\nWe got total numbers of inspections and violations from the FRA, but did not get the data. It is available on nine-track tape, but it is difficult to use because the inspection system changed in the past two years, as did some of the data. The FRA database administrator, Robert Finkelstein, is very helpful, though.\n\nIf you are contemplating a story on railroads in your area, check NTSB accident reports and recent Congressional testimony for detailed background. You will need to develop sources among rail workers, who can guide you to the worst problems. Smaller railroads often have higher accident rates.\n\nHere are some useful Web sites:\n\nRailroad Definitions: http://pavel.physics.sunysb.edu/rr/railroaddefinitions.html\nThis includes a glossary of railroad terms, such as FREDs, blue flags, bottling air.\nStone Railroad Switching: http://www.fortnet.org/%7fdk/uprrhome.htm\nThis links to many railroad sites.\nTrack Warrants: http://www.aimnet.com/~steves/n/twar/twmenu.htm\n\nThis is a personal Internet publication with information on some crashes.\n\nPenny Loeb can be reached at (202) 955-2640, or send e-mail to ploeb@usnews.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The Federal Railroad Administration provides downloadable databases on train accidents, casualties, and grade-crossing incidents that journalists can use to investigate railroad safety records, though the data has significant limitations including a high damage threshold that omits over 90% of accidents.",
+      "keywords": [
+        "railroad",
+        "safety",
+        "database"
+      ],
+      "topics": [
+        "Public Safety",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "MapInfo",
+        "9-track tape",
+        "World Wide Web",
+        ".dbf"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -146,10 +225,24 @@
       "author_title": "",
       "affiliation": "Gannett News Service",
       "full_text": "When the federal building was bombed in downtown Oklahoma City, Detroit News reporter Dave Farrell turned to the Internet to show readers how bomb books are just a phone call away.\n\nFarrell had found one of the most complete encyclopedias on destruction - \"The Big Book of Mischief,\" a 40,000-word electronic tome on bomb-building, explosives and weapons of terror.\n\nWhen ValuJet Flight 592 crashed in the Florida Everglades, killing all 110 people aboard, Tennessean reporter Heather Newman turned to the Internet for a listing of the aircraft's Service Difficulty Reports. Newman was able to document specific problems experienced by the downed plane in the months prior to the crash.\n\nThese are just two examples of how the Internet can help reporters cover major news events.\n\nComputer-assisted reporting is quickly becoming as valuable to reporters as notepads and the telephone. However, although the Internet can be a valuable reporting tool, the information gained is no more accurate than it is from other sources.\n\nSome reporters and their news operations were embarrassed in the aftermath of the Oklahoma City bombing when they reported as factual two online hoaxes. Someone on America Online identifying himself as \"Timothy McVeigh\" posted several messages that tabloid TV shows - and later some newspapers - picked up and used without confirmation. McVeigh had been behind bars two days prior to the postings. On an Internet news group, a man identifying himself as a militia member from Montana posted inflammatory messages that the U.S. government was behind the bombing. The man later admitted he had posted the messages as a joke, but not before some newspapers already had reported the remarks as factual. When surfing the Internet, always be leery of dirty data. Almost every piece of data you will work with is certain to have some quirks. So, bottom line online: Check it out!\n\nHere's a list of free searchable databases any newsroom with Internet access can access:\n\nFACSNET is a service developed by the Foundation for American Communications for print and broadcast journalists. Not just another homepage with lists of Internet links, FACSNET goes deep into economics, science, business, technology and other areas that journalists cover every day. Databases include reporting tools, sources online, internet resources for journalists and top issues. http://www.facsnet.org\n\nThe Poynter Institute for Media Studies' \"Hot News/Hot Research\" homepage will feature research sources that will help you understand and cover top stories. They will be looking at a number of links, but only list the ones with some useful content. http://www.poynter.org/poynter/hrintro.html\n\nU.S. Federal and State Courts Finder is a service of the Emory School of Law. This point-and-click map to federal courts provides hypertext links to all on-line federal court sites.\nhttp://www.law.emory.edu/FEDCTS/ http://www.law.cornell.edu/opinions.html\n\nSupreme Court opinions and related documents in WordPerfect 5.1 or html format. From the HERMES project, these documents are transmitted by the court upon release and uploaded to The Federal Bulletin Board daily. http://fedbbs.access.gpo.gov/court01.htm\nhttp://www.law.cornell.edu/supct/ http://www.law.cornell.edu/syllabi ftp://ftp.cwru.edu/hermes/\n\nOne of the most complete all-in-one sites with access to several dozen state constitutions, statutes, codes, legislation, is found at http://www.law.cornell.edu/statutes.html\n\nUnited U.S. Post Office Database that actually corrects addresses and gives you ZIP+4.\nhttp://www.cedar.buffalo.edu/adserv.html http://www.ualberta.ca/~slis/guides/direct/phone.htm\nhttp://www.usps.gov/ncsc/aq-zip.html gopher://odie.niaid.nih.gov:70/77/deskref/zipcodes/index\n\nAnd, you can even look up ZIP+4 Codes for United States vessels at http://www.semaphorecorp.com/cgi/navy.html\n\nSearch college telephone books from around the world through a vast collection of searchable telephone books and other directories. gopher://gopher.nd.edu:70/11 Click on \"Non-Notre Dame Information Sources\"\nClick on \"Phone Books-Other Institutions\"\n\nReporters and editors can calculate everything from foreign exchange rates, local tides, distances between cities, taxes, loan and mortgage rates, the amount of seed needed to plant an acre of different crops and even a quarterback's passer rating on the Calculators On-line Web page. http://www-sci.lib.uci.edu/HSG/RefCalculators.html\n\nWe'll look at some more sites next month.\n\nDavid Milliron can be reached at (703) 276-5805, or send e-mail to dmilliro@gcil.gannett.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The article examines how journalists are increasingly using the Internet as a reporting tool, highlighting both successful examples and cautionary tales of misinformation, while providing a list of free databases available to newsrooms.",
+      "keywords": [
+        "Internet",
+        "journalism",
+        "verification"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "FTP",
+        "gopher",
+        "WordPerfect"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -161,12 +254,21 @@
       "kicker": "Growing collection of federal databases",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR offers a number of federal government databases. Here is a list of our growing collection:\n\nNEW A monthly CD subscription for all 1995-96 Federal Election Commission campaign contributions by individuals and political action committees, plus all presidential matching fund requests.\nNEW The Health Care Financing Administration's 1995 database of all Medicare-funded inpatient work in U.S. hospitals.\nFederal Railroad Administration data for accidents, casualties, and highway crossings. 1991-1995.\nCoast Guard boating accidents, 1969-1994.\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns.\nFederal procurement data, 1992-1994, includes breakdowns by agency.\nAlcohol, Tobacco and Firearms gun dealer records.\nNational Bridge Inventory System data, includes inspection grades.\nFBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders. This includes the new 1994 data.\nSocial Security death records, by name and social security number, going back to 1937.\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies.\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\nU.S. Small Business Administration loan guarantees, 1989-1995. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.\nU.S. Small Business Administration disaster loan guarantees, 1989-1994. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\nU.S. Small Business Administration's list of minority companies certified for SBA assistance in seeking federal contracts. It includes the name of the company, its address, the owner, type of business and phone number.\nU.S. Department of Transportation hazardous materials accidents database, a collection of roadway, rail, air and waterway accidents from 1971 to 1995.\nU.S. Department of Transportation fatal accident reporting system. It includes all roadway accidents from 1988 to 1994.\nU.S. Coast Guard directory of U.S. merchant vessels. It includes the name of the ship, the managing owner, home port and various descriptive information.\nNational Endowment for the Arts, grants, 1989-1993.\nFor up-to-date prices and more information, call (573) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR provides access to a comprehensive collection of federal government databases covering topics including campaign finance, healthcare, transportation safety, crime statistics, and small business loans, available through subscription or purchase.",
+      "keywords": [
+        "databases",
+        "government",
+        "federal"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -180,10 +282,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "New and Improved reporter.org\n\nThe new version of the www.reporter.org web site is up. It's located at http://www.reporter.org/index.html Among the professional journalism organizations and related mailing lists hosted by the site are:\n\nwww.ire.org (Investigative Reporters and Editors)\nwww.nicar.org (National Institute for Computer-Assisted Reporting)\nwww.aaja.org (Asian-American Journalists Association)\nwww.nabj.org (National Association of Black Journalists)\nwww.nyabj.org (New York Association of Black Journalists)\nwww.ewa.org (Education Writer's Association)\nwww.jaws.org (Journalism and Women Symposium)\n\nTo subscribe to a mailing list for announcements regarding the www.reporter.org web site, send mail to: majordomo@reporter.org\n\nIn the body of the message, type:\n\nsubscribe reporter-announce\n\nYou'll receive a confirmation of your subscription shortly thereafter. This information, as well as the archived postings to the list, is available at: http://www.reporter.org/lists/reporter-announce\n\nIf you have any comments regarding the new site or would like to become part of the reporter.org web project, send e-mail to Web Master Wallace Winfrey at wally@nicar.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The redesigned reporter.org website is now live, hosting professional journalism organizations and mailing lists including IRE, NICAR, and various diversity-focused journalist associations. Users can subscribe to announcement updates and provide feedback to the webmaster.",
+      "keywords": [
+        "website",
+        "journalism",
+        "organizations"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -195,12 +307,22 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "WDIV-TV",
       "full_text": "WDIV-TV, the Post-Newsweek-owned NBC affiliate in Detroit, is looking for three producers, including one each for its I-Team, Consumer Unit and Medical team. All should have several years television news experience in writing and producing. For the I-Team, the candidate must have done investigative reporting in the past. Ideally, the person would also be familiar with CAR techniques and the Internet. Send tapes and resumes News Director Carol Rueppel, WDIV-TV, 550 W. Lafayette Blvd., WDIV-TV, Detroit, Mich., 48226. For questions, call Mike Wendland at (313) 222-0532, or send e-mail to mikew@wdiv.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "WDIV-TV in Detroit is hiring three producers for its I-Team, Consumer Unit, and Medical team, requiring television news experience and investigative reporting skills for the I-Team position.",
+      "keywords": [
+        "hiring",
+        "producers",
+        "Detroit"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -214,9 +336,15 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "After more than 19 years at The Miami Herald, Associate Editor and Researcher Steve Doig is leaving to become Knight Professor of Journalism at Arizona State University, Tempe. Dan Keating will move from the Herald's Broward office to replace Doig, and the Herald is searching for a reporter with CAR skills to fill the Broward opening. Send resume and clips to: Rick Hirsch, Broward City Editor, The Miami Herald, 3325 Hollywood Blvd, Suite #102, Hollywood, Fla., 33021.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Steve Doig, longtime Associate Editor at The Miami Herald, is departing after 19 years to join Arizona State University as a Knight Professor of Journalism. The Herald is reorganizing its staff with Dan Keating moving to replace Doig and seeking a CAR-skilled reporter for the Broward position.",
+      "keywords": [
+        "journalism",
+        "promotion",
+        "staffing"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -231,10 +359,18 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Effective immediately, IRE-L and NICAR-L have changed addresses. They are located on lists.missouri.edu, a dedicated Unix system designed specifically to service the over 200 discussion groups run out of the University of Missouri. All posts to the lists should now be sent to: ire-l@lists.missouri.edu or to nicar-l@lists.missouri.edu\n\nAll commands for subscription changes should be sent to: distproc@lists.missouri.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE-L and NICAR-L discussion lists have moved to a new server at lists.missouri.edu, with updated email addresses for posts and subscription management.",
+      "keywords": [
+        "lists",
+        "migration",
+        "email"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

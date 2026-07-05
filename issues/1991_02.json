@@ -37,20 +37,19 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "The Missouri Institute of Computer-Assisted Reporting and the U.S. Census Bureau are holding a conference for reporters on obtaining and using census data in early April.\n\nThe one-day seminar will be held Monday, April 15, 1991 at the University of Missouri-Columbia.\n\nSpeakers from the Census Bureau, MICAR and the University of Missouri, plus software and on-line systems experts will discuss ways to obtain census data. Featured are on-line systems, magnetic tapes as well as traditional paper records. Plus, ways to analyze census data, such as using mapping software, will be discussed. Panelists will also share information concerning how the media uses census data and notable demographic trends on the national, state and local levels.\n\nThe cost of this conference is $30, transportation, accommodations and meals not included. Attendance will be limited to 200.\n\nIf you're interested in attending the seminar, please call Michele Ward at MICAR, (314) 882-0684.\n\nCensus Seminar Schedule appears on Page 4",
-      "summary": "The Missouri Institute of Computer-Assisted Reporting and the U. S. Census Bureau are holding a conference for reporters on obtaining and using census data in early April.",
-      "keywords": [],
+      "summary": "The Missouri Institute of Computer-Assisted Reporting and the U.S. Census Bureau are hosting a one-day seminar on April 15, 1991 at the University of Missouri-Columbia to teach reporters how to obtain and analyze census data using various formats and tools.",
+      "keywords": [
+        "census",
+        "seminar",
+        "reporters"
+      ],
       "topics": [
         "Demographics & Census",
         "Journalism & Newsroom",
-        "Data & Databases"
+        "Technology"
       ],
       "technologies": [
-        "magnetic tape",
-        "9-track tape",
-        "CD-ROM",
-        "Cendata",
-        "Tiger Mapping System",
-        "Strategic Mapping"
+        "mapping software"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -63,11 +62,18 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "MICAR, University of Missouri School of Journalism",
       "full_text": "CONTRIBUTE! This space should be yours\n\nAfter all, Uplink is supposed to be a forum for computer-assisted reporting. Tell us about your success stories, your defeats, your problems, your ideas, your insights anything! If it concerns computer-assisted reporting, it is material for Uplink.\n\nSend stories and ideas to: MICAR, 120 Neff Hall, University of Missouri School of Journalism, Columbia, MO 65211. Or call us at (314) 882-0684.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Uplink invites journalism professionals to contribute stories, experiences, and insights about computer-assisted reporting to their forum at the University of Missouri.",
+      "keywords": [
+        "journalism",
+        "reporting",
+        "collaboration"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -82,12 +88,16 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Your database management software omits data and gives you the wrong information for your story. But it's not until you start receiving angry phone calls that you learn there's a bug in your software. What happens if one of the angry callers turns to the legal system?\n\nWho's to blame? You or the people who supposedly debugged the software?\n\nReporters who rely too heavily on software are to blame - bug or no bug. But as the legal system evolves to account for our computerized society, there are some strategies you can take to defend yourself, even if the software has a disclaimer on its label.\n\nThere is such a thing as computer negligence. If your software really is to blame, you might want to consult a lawyer. But here are some of the basics.\n\nIt used to be that computer negligence cases fell specifically under contract law, but today, because of the prevalence of computers in the workplace and their use by people other than the buyer, computer negligence cases have fallen in the realm of tort law.\n\nWhat's the difference?\n\n\"Say you have car insurance,\" said John Jay Fossett an attorney at Strauss and Troy in Covington, Ky., who has published journal articles concerning computer law. \"That's a contract between you and your insurance company. You pay them money and they provide coverage for you.\"\n\n\"If you're in your car and you run into somebody, well that's tort,\" Fossett said. \"You've committed a tort because if you acted negligently and should have been watching where you're going, you've committed a tort against the person you hit.\"\n\nFossett said that as computers are used more in society, especially in manufacturing, more computer negligence cases will move toward tort law especially, in cases that involve physical injury.\n\nFor example, if a glitch in a computer program causes hot molten steel to be poured on a mill worker instead of where it was supposed to be poured, the worker has recourse under tort law. The worker does not have recourse under contract law because he or she was not one of the members who drew up the original contract.\n\n\"If there is an error caused by the computer, and whoever developed the program or machinery was negligent in developing that, they should be held liable for someone who is injured,\" Fossett said.\n\nMost of the computer negligence cases that have been decided under tort law so far have involved physical injury, not the loss of information, Fossett said. Loss of information would most likely come under contract law.\n\nEven though most cases have fallen under tort law, a case where a reporter has used faulty software would be a breach of contract between the reporter and the creator of the software he or she used.\n\n\"Then you'd have to prove how you or your business was damaged because of the loss of information,\" Fossett said.\n\nIf the story causes damages to your organization, say you're sued for libel, you may then have a contract case against the software company. You will still pay damages for your libel case, but you may have recourse against the software company.\n\nEven disclaimers on software packaging can not prevent you from this kind of recourse Fossett said.\n\n\"For negligence you need to prove a duty to someone - a breach of that duty. That breach must be the cause of injury, and that injury has to result in damages,\" Fossett said. \"The hardest question to answer is duty,\" he said. \"If some software you've used was not completely debugged and you lose information by using it, part of the case depends on the effort that went into debugging the program. The programmers have a duty to create a product that is relatively safe.\"\n\n\"They put in warranties and disclaimers,\" he said. \"If I had a good case, I'd try to get around those limited disclaimers.\"\n\nBut the disclaimers are carefully written, so recovery would be limited, he added.\n\nClaiming computer negligence is a tricky business. Do not expect that a bug in your software will relieve you from responsibility.",
-      "summary": "Your database management software omits data and gives you the wrong information for your story. But it's not until you start receiving angry phone calls that you learn there's a bug in your software.",
-      "keywords": [],
+      "summary": "When faulty database software causes reporters to publish incorrect information, liability depends on whether the case falls under contract or tort law, with reporters bearing responsibility for their reliance on software despite potential claims against developers.",
+      "keywords": [
+        "software",
+        "liability",
+        "negligence"
+      ],
       "topics": [
-        "Investigative Methods",
         "Technology",
-        "Journalism & Newsroom"
+        "Journalism & Newsroom",
+        "Investigative Methods"
       ],
       "technologies": [],
       "provenance": {
@@ -103,10 +113,24 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Census Bureau Media Seminar Schedule:\n\n8:30 - 9:00 Registration\n9:00 - 9:15 Welcome\nDean Mills, Dean of MU School of Journalism\n- Marvin Postma, Director of Census Bureau Regional Office, Kansas City\n\n9:15 - 10:15 How the Media Uses Census Data\n- Ray Bancroft, PIO for the Census Bureau, Washington, DC\n- Byron Scott, Chairman of the Editorial Dept., MU School of Journalism\n- Bill Elder, Research Associate of the MU Office of Social and Economic Data Analysis\n\n10:15 - 10:30 Break\n\n10:30 - 11:15 Subject Content\n- John Kavaliunas, Chief of the User Training Branch, Census Bureau, Washington, DC\n\n11:15 - 12:00 Trends to Track\nNational Trends: Pete Bounpane, Asst. Director of the Decennial Census, Washington, DC\nState and Local Trends: Rex Campbell, MU Sociology Dept.\n\n12:00 - 1:00 Census Products Availability and Support\n- John Kavaliunas\n- Marlys Davis, Census Data Center, Missouri\n\n1:00 - 2:30 Lunch\n\n2:30 - 3:00 On-line panel\n- Elliot Jaspin, DATACORE, MU\n- Cendata Representative\n\n3:00 - 3:30 Breakout Sessions\nQ & A Session on media uses of census data:\nByron Scott, Ray Bancroft and Bill Elder\n\nOn-Line Demonstration\n- Elliot Jaspin\n- Cendata Representative\n\nMapping demonstration\n- John Kavaliunas, Tiger Mapping System\n- Tod Everett, Strategic Mapping\n- Tim Haithcoat, MU Dept. of Geography\n\n3:30 - 3:45 Break\n\n3:45 - 4:15 Tape Panel\n- Elliot Jaspin, NineTrack Express\n- Tod Everett, Strategic Mapping\n- John Kavaliunas, Census Bureau\n\n4:15 - 4:45 Breakout Sessions\nHow census data is obtained and used\n- Emmett Morris, Census Bureau Regional Office, Kansas City\n- Ryan Burson, Census Data Center, Public Law Data File, MO\n\nCD-ROM demonstration\n- John Kavaliunas\n\nTape Demonstration\n- Elliot Jaspin, Tod Everett\n\n4:45 Closing Session",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The Census Bureau hosted a media seminar at the University of Missouri School of Journalism covering how journalists use census data, including presentations on data trends, products, and online demonstrations of mapping and data access tools.",
+      "keywords": [
+        "census",
+        "journalism",
+        "data"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Journalism & Newsroom",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Cendata",
+        "Tiger Mapping System",
+        "Strategic Mapping",
+        "9-track tape",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

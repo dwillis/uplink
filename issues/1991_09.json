@@ -70,12 +70,24 @@
       "kicker": "",
       "author_name": "Robert Jackson",
       "author_title": "Editor",
-      "affiliation": "MICAR",
+      "affiliation": "Post-Tribune",
       "full_text": "Gary, Indiana Post-Tribune reporter Joseph Conn knows his city's census data - intimately.\n\nThat's because Conn spent the better part of 20 hours pouring through reams of the data, trying to figure out how many of Gary's west side residents would be displaced if the city received a multi-billion federal construction project to expand its airport.\n\n\"According to airport boosters the expansion could create about 140,000 jobs and bring billions of dollars into the area,\" Conn said.\n\nSo Conn began with the 1991 Census data. He began pulling block numbers off paper maps with the idea of comparing that information with the proposed \"footprint\" of airport expansion.\n\n\"I had already invested about 20 hours in the task and had not even begun to sort the data and marry it to the list of block numbers,\" Conn said. \"It was like using a spoon to clean a stable.\"\n\nConn figured it would take another 20 to 40 hours just to come up with some useable information. That is until he learned about a redistricting computer program called GEO District, and a librarian named Steve Fisher.\n\n\"I learned that the state had purchased this program, which is similar in some respects to Atlas GIS,\" Conn said. \"There are six terminals on the state's GEO District system but only one allowed public access.\"\n\nSo he made an appointment and drove to Indianapolis. That's where he met Fisher.\n\n\"Basically, I navigated and (Fisher) steered,\" Conn explained. \"I gave directions to him from a street map with the proposed airport 'footprint' drawn on it, and he used a mouse to trace the footprint onto the computer screen.\"\n\nUsing the program's lasso and \"point-and-shoot\" tools, Fisher placed the footprint on a map of U.S. Census Bureau blocks for the area specified by Conn. Once the map was drawn and all footprint blocks were selected and filled in with color by the mouse, Fisher queried the data base for households, total population and population by racial groups within the specified area.\n\nWhat Conn found amazing was that it took very little time.\n\n\"(the data base query) only took five minutes, and copying the reports from that query onto a 3.5-inch diskette took about five minutes more,\" Conn said. \"Making the map took roughly one hour.\"\n\nHe was even able to verify the GEO District-generated block numbers by checking them against the paper sheets he had already developed.\n\n\"I found about 10 block numbers that the program didn't pick up along the footprint margins,\" he said. \"It seems the program had difficulty picking up some of the smaller census blocks or we failed to see that certain blocks were not selected or colored in.\"\n\n\"On the flip side, the program did pick up about six blocks that I'd missed when doing the listing by pen and paper, so one effort aided the other,\" he added.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Gary Post-Tribune reporter Joseph Conn used a GEO District computer program and a state librarian's assistance to quickly analyze census data and determine how many residents would be displaced by a proposed airport expansion, completing in hours what would have taken him 40-80 hours manually.",
+      "keywords": [
+        "census",
+        "airport",
+        "data"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "GEO District",
+        "Atlas GIS",
+        "3.5-inch diskette"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

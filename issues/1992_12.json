@@ -92,10 +92,22 @@
       "author_title": "",
       "affiliation": "Cox Newspapers",
       "full_text": "One of life's more vexing problems - along with faulty plumbing and telephone solicitations - is getting rid of duplicate records. You can, of course, use the DISTINCT command, but it has its limitations. If you want to eliminate the second record with a duplicate field in a list, DISTINCT has no way of distinguishing between which record came first and which second.\n\nThe only alternative, short of manually deleting each record, is to use the programming language that is part of any database software. While the following example is done using the procedural language in XDB, the same approach can be modified to work with PAL in Paradox or any of the xbase products.\n\nBefore writing any code to accomplish this task, imagine how you might do this if you were working with a stack of papers instead of electronic records. You would first sort the records to make sure that the first record you wanted of any duplicates would always appear first. Next you would take the first record off the stack, and compare a key with the second record. If the two fields matched you would throw away the second record. But if they didn't match, you would save the second record and use it to match against the record. You would then repeat the process until you had gone through all the records.\n\nWhile the instructions to the computer will appear different from the way it is described above, the method is the same.\n\nLet us assume our list of records looks like the following table, called Doubles:\n\nKey\tCompany\tLast\tFirst\n57\tAjax\tSmith\tJohn\n44\tWidget\tClinton\tBill\n44\tWidget\tRoebuck\tBubba\n32\tWidget\tWheedle\tSkeeter\n88\tRebar\tLybdenum\tMolly\n88\tRebar\tStang\tArnold\n\nThe first step is to select a stack of records and sort them according to our criteria. In XDB this means running a select statement and assigning the result to a label.\n\nQ1: SELECT FROM DOUBLES ORDER BY KEY, COMPANY, LAST\n\nJust as with our hypothetical stack, you then select the first record and load the comparison value into a variable.\n\nFIRST Q1 < This selects the first record, and COMPVAL = Q1.KEY < the value in the key field is loaded into compval.\n\nOur next step is to select the second record from the list before we begin repeating the process.\n\nNEXT Q1\n\nTo loop through the entire list we can use a WHILE statement. In this case the WHILE statement is constantly checking to see if the next record grabbed from the list is the last record in the list. In XDB, determining the last record is done by checking the \"stat\" value. If STATUS is \"1\" then there are still more records. But if the status value changes to \"0\" we know we have reached the end of the list. What we are saying in the next statement is to keep taking records from the list until there are no more records - until the value of status is \"0.\"\n\nWHILE (STATUS[Q1])>0\n\nWe're now ready to make the actual comparison, using an \"if-then-else\" statement.\n\nIf the two values match then delete the second record, grab another record, make it the comparison value and repeat the process. ELSE makes the second record the comparison value.\n\nIF COMPVAL = Q1.KEY If they match, DELETE Q1 < delete the second record, NEXT Q1 < get another record COMPVAL = Q1 KEY < make it the comparison value. ELSE COMPVAL = Q1 KEY < Otherwise make the ENDIF second record the comparison value.\n\nWhether we decide to delete a record, the last thing we need to do is get another record.\n\nNEXT Q1\n\nTo repeat the whole process we end this short routine with an ENDWHILE. That forces our program to loop back to the WHILE statement and repeat the process until, of course, we run out of records.\n\nNote that this method only deletes the first duplicate record. If more than one duplicate exists, another approach must be used.\n\nNow if we could just write a program to prevent salesmen from hawking life insurance by phone.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article explains how to eliminate duplicate records in a database using programming languages, comparing the process to manually sorting through papers and removing duplicates by matching key fields and deleting matching second records.",
+      "keywords": [
+        "database",
+        "duplicates",
+        "programming"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "XDB",
+        "Paradox",
+        "dBase"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -109,10 +121,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "The CompuServe Journalism Forum will host a two-week-long online lecture about computer-assisted reporting sometime in January. The exact date for the lecture has not been set. Chris Feola, of the Waterbury Republican-American in Connecticut, will lecture about setting up your own computer-assisted journalism program. Larry Krumenaker, a freelancer who's written about online research for Quill and PC Today, will give several days of lectures about online research. The lecturers will post their lessons on the computer bulletin board during the first part of the week and then devote the end of the week to answering questions. For those who don't already dial in to Compuserve, call 800-848-8990 for information.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "CompuServe's Journalism Forum will host a two-week online lecture in January on computer-assisted reporting, featuring Chris Feola discussing program setup and Larry Krumenaker covering online research techniques.",
+      "keywords": [
+        "reporting",
+        "journalism",
+        "online"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "CompuServe"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -126,10 +148,21 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "It's virtually impossible to keep track of the growing number of databases out there, much less sample each one for its usefulness. That's where The Database Files can help. This new newsletter includes CD-ROM and software reviews but its focus is online databases. There are currently more than 5,000 online databases in existence, said John Ullmann, publisher of The Database Files. The newsletter will inform readers about databases which are valuable to journalists but usually unknown because they aren't offered by major vendors, such as Dialog. The Database Files features an in-depth review of a database every issue, including costs, pitfalls and instructions on how to link up. A regular column on bulletin boards profiles \"one or two boards that have content or clientele that would be useful for newsrooms to know about\" The November issue had a meaty article on Westlaw. This isn't the most obscure database, but the authors answered just about every question imaginable. We look forward to more such thoroughly researched reviews with more esoteric, equally valuable databases. The Database Files is published six times each year. Subscription costs $100, or $95 prepaid, and includes one or two special supplements on selected topics in addition to the regular newsletter. Ullmann said he will provide a complimentary copy for review. For information write to The Database Files, 5622 Wood Lane, St. Louis Park, MN 55436, or call (612) 925-6210.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The Database Files is a new newsletter that reviews online databases and software useful for journalists, covering lesser-known resources beyond major vendors and featuring in-depth analyses of database features, costs, and access instructions.",
+      "keywords": [
+        "databases",
+        "journalism",
+        "newsletter"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "CD-ROM",
+        "Dialog",
+        "Westlaw"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

@@ -20,11 +20,11 @@
 
 - Total articles: 1838
 - Missing author_name: 666 (36.2%)
-- Missing summary: 1341 (73.0%)
-- Missing keywords: 1400 (76.2%)
-- Missing topics: 1547 (84.2%)
-- Missing technologies: 1586 (86.3%)
-- author_title values that look like an affiliation (should move to `affiliation`): 118
+- Missing summary: 0 (0.0%)
+- Missing keywords: 0 (0.0%)
+- Missing topics: 0 (0.0%)
+- Missing technologies: 385 (20.9%)
+- author_title values that look like an affiliation (should move to `affiliation`): 0
 
 ## Unexplained schedule gaps
 

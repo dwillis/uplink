@@ -38,10 +38,20 @@
       "author_title": "",
       "affiliation": "MICAR",
       "full_text": "With every major news organization in the nation expending hundreds of hours to cover the Federal Emergency Management Agency (FEMA), you might wonder how $2.9 billion could slip through the cracks.\n\nLarry Lipman and Elliot Jaspin of the Cox News Service found out earlier this year when their recent computer-assisted reporting venture uncovered that for every dollar spent responding to natural disasters, FEMA has quietly shelled out $12 on plans to keep the government running during a nuclear war.\n\nIt wasn't that other media outlets hadn't gone to the right people, said Jaspin. They just didn't know which questions to ask.\n\nOnly after he and Lipman confronted a source with information they had obtained during a six-month analysis of computer tapes from the General Services Administration (GSA) did they learn what only a few FEMA officials and 20 members of Congress had known all along -- that for the past 11 years, FEMA has spent billions on a top-secret nuclear war program set up with the help of former White House national security aide Oliver North.\n\n\"It was like putting a key in a lock,\" said Jaspin. \"There was the great beauty and value of what I've been babbling about for years.\"\n\nThe story grew out of a suggestion from Cox member newspaper The Palm Beach Post. In the wake of Hurricane Andrew, the newspaper contacted Lipman and asked for a story on FEMA.\n\nLipman and Jaspin got to work shortly thereafter, downloading FEMA payments from a tape of government contracts above $50,000 handed out over the past four years. The tape is available for $100 annually from the GSA.\n\nIn reviewing the data, they noticed a number of payments to the Harris Corp. and several other national security contractors.\n\n\"At that point I was really baffled,\" said Jaspin. \"I didn't know what FEMA would be doing with national security contracts.\"\n\nThe pair went to FEMA with the information they had uncovered and a request to view the contracts. Agency officials rejected the appeal, citing national security concerns.\n\nBut one of Lipman's FEMA sources agreed to talk with the two reporters. \"It was enough,\" said Jaspin.\n\nThe source detailed a massive secret plan involving hundreds of high-tech communications vehicles, including one truck weighing 24 tons, all designed to make the government a moving target during a nuclear war.\n\nAlthough sources from other news organizations had been covering FEMA for years, none had discovered the secret operation. Part of the reason lies in the fact that budgets for the operation totalling more than a billion dollars have appeared annually as a single line - \"submitted under a separate package.\"\n\nLipman and Jaspin also learned that nearly a third of FEMA's employees operate within the top-secret project, three times as many as work on natural disaster programs.\n\nAccording to the article, which ran over the Cox News Service wire in February, FEMA spent $1.3 billion on equipment, support facilities and personnel between 1982 and 1991 in order to provide communications for government leaders during a nuclear war. The agency spent an additional $1.6 billion on related national security programs.\n\nDespite the obvious benefits the secret communications program could have in helping victims of natural disasters, no complete mobile unit has ever been used in such fashion. Most FEMA employees assigned to deal with Hurricane Andrew last year didn't even know about the agency's capacity.\n\nAfter hunting down other sources to verify the information they had obtained, Jaspin and Lipman called FEMA again and requested an opportunity to see the Mobile Emergency Response Support units, known as MERS. To their surprise, officials approved the request, as well as a full scale briefing of the project.\n\nProgram details provided by FEMA officials filled in the gaps and gave the pair enough to publish their story on February 22.\n\nOn March 1, one week after the Post published Lipman and Jaspin's account, a blue-ribbon panel recommended that FEMA's top-secret national security functions be turned over to the military and that a new domestic crisis unit be created to handle catastrophes.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Cox News Service reporters uncovered a secret $2.9 billion FEMA nuclear war program through computer-assisted reporting and data analysis, revealing that FEMA spent $12 on nuclear contingency planning for every dollar spent on natural disaster response. The investigation succeeded where other media outlets failed because the reporters knew which specific questions to ask and had obtained GSA contract data that exposed the hidden program.",
+      "keywords": [
+        "FEMA",
+        "investigation",
+        "nuclear"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Government & Politics",
+        "Public Safety"
+      ],
+      "technologies": [
+        "General Services Administration tape"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -55,8 +65,12 @@
       "author_title": "",
       "affiliation": "Cox News Service",
       "full_text": "My computer crashed. It was not really a crash. It was more like the big chill. One moment the computer chips were merrily processing data. The next instant they were suspended in cyberspace the electronic equivalent of chicken suspended in an eternal aspic.\n\nThe little tape backup unit that had come with the computer was no help. Despite hours of coaxing and several software upgrades, the tape backup unit continued to view its job with the glacial disdain of a headwaiter.\n\nThe answer to my woes was the nine-track tape drive. While we view these drives as a way to shovel mainframe data on to our PCs, they are able to perform several other valuable functions.\n\nThe software that comes with the drives sold by Computer Logics, for example, includes utilities that can backup a hard disk and copy tapes. Both programs are relatively easy to use and very dependable.\n\nTired of listening to the internal tape back up unit hoot, hum and whistle to no great effect, I put a blank tape on my nine-track drive and switched to my directory of utilities. A program, aptly named \"Save\", copies the contents of my hard drive to magnetic tape. In an era of graphical interfaces, mouse buttons and dialog boxes, it has all the appeal of a battered Ford truck with a loose muffler.\n\nOn the command line, you type \"Save c:\\*.*/s\". This tells the program to copy all the contents of the root directory. The \"/s\" switch says to copy all the subdirectories. When you need to restore the files to disk you type in the companion program, \"Load\", and the data comes flooding back. It may not be pretty but it has one major advantage. It works and it works. In the time it took to format a tape cartridge, I had copied all the files from my 660 megabyte hard disk to three reels of tape.\n\nThe cognoscente will point out a number of caveats. Reels of tape are awkward compared to a little cartridge. The Save and Load utilities do not handle data compression. And there is that ugly command line interface. All true and completely beside the point. Tape backup programs can be many things but they must above all else be super reliable and reasonably fast. And that is where these utilities shine.\n\nThe other essential are two utilities Dupin and Dupout. If you need to copy a tape, this is about as simple as you can get. Put the tape you want to copy on the drive, type \"Dupin\" followed by a file name, and an exact duplicate of what is on the tape will be copied to your hard drive.\n\nWhen Dupin is done, mount a blank tape on the drive with the plastic read/write ring installed and type Dupout and the name of the file. The program copies the disk file back to the tape and a duplicate tape is made.\n\nThe only cautionary note is to check the amount of free space on your hard disk. If you don't have room to hold the contents of the tape, housecleaning is in order.",
-      "summary": "It was not really a crash. It was more like the big chill. One moment the computer chips were merrily processing data. The next instant they were suspended in cyberspace the electronic equivalent of chicken suspended in an eternal aspic.",
-      "keywords": [],
+      "summary": "The author describes using a nine-track tape drive with Computer Logics software to back up computer data after experiencing system failure, finding the reliable Save and Load utilities more effective than the built-in tape backup unit despite their basic command-line interface.",
+      "keywords": [
+        "backup",
+        "tape",
+        "software"
+      ],
       "topics": [
         "Technology",
         "Data & Databases"
@@ -78,8 +92,12 @@
       "author_title": "Associate Producer",
       "affiliation": "The Crusaders, Los Angeles",
       "full_text": "Mary Field was excited by the possibilities. The investigative TV producer had just spent an intensive week at MICAR's computer-assisted reporting training seminar. When she returned to her station, WGN in Chicago, Field came up with a story idea: to examine the windy city's property taxes.\n\nBut there was one thing Field didn't have: the hardware and software necessary to do the story. Field's news director was not convinced installing CAR technology would fit in with the station's priorities under a tightening budget. So she had to look elsewhere.\n\nAfter weeks of searching, Field found a former academic interested in her subject. She had the data. He had the ability to download the information, so the two began a partnership.\n\nOf the 134 journalists who have attended the seminar, only four have been broadcasters.\n\nIt is not surprising that Field had to go through so much effort to use the skills she acquired at the MICAR seminar. Of the 134 journalists who have attended the seminar, only four have been broadcasters. Although major newspapers have experimented with computer-assisted journalism for several years, few broadcast outlets presently use computer-assisted reporting.\n\nSome attribute the lack of interest in CAR to the visual element required of the broadcast medium. \"The thinking by broadcasters is that computer-assisted stories are computer stories and they're not,\" Field said.\n\nShe also credited her knowledge of computer-assisted reporting with expanding the way she visualized stories. \"There have been other stories that I've done that I wouldn't have done before because of the way I now know the government stores its information.\"\n\nThe station put together a piece on Chicago's efforts to catch those who failed to register their cars. The city spent roughly $20,000 to employ an army of patrols which would walk the streets searching for offenders and then ticket them. WGN reported that the data was stored on tapes, and all the city had to do was run the two tapes against each other, a move they reported would save taxpayers thousands of dollars. The city changed their policy as a result of the story.\n\nBut the reality of the technology is costly by some standards. It runs about $14,000, including hardware, software, training and access to the database.\n\nBrooks Jackson, a correspondent with CNN's special assignment unit, can relate to the cost limitations. Jackson recently shared a sample of stories researched using CAR methods with CNN management. He also proposed they buy the appropriate equipment and hire a CAR specialist to run it. The result? Management was very enthusiastic but so far there has been no money committed to the project. \"International expansion is hot, so every spare nickel is going in that direction. For the moment everything domestically is on hold,\" said Jackson.\n\nThere's also the matter of time. Television stories run much shorter than print pieces and usually require less time to put together. Jackson said that, in an industry where every second counts, computer-assisted stories may appear to be too time consuming. \"Because TV is so demanding logistically, correspondents spend all their time traveling and doing ten takes in front of the Capitol. The ratio of producers to correspondents is one-to-one. We're already stretched thin doing the kind of stories we know are there.\"\n\nBut the future holds promise. In fact, at a recent seminar for the Radio and Television News Directors Association, broadcast news executives appeared very excited about the technology. One news executive, who said he'd like to keep his identity secret because he'll be the first in his market to use computer-assisted reporting, proclaimed a bright future for CAR in television.\n\n\"Electronic journalism is the frontier for TV investigative reporting,\" he said. \"There's almost an infinite amount of information which is available to the public and the media which we have in the past not even tapped. We are going to be able to do stories we have never been able to do in the past.\"\n\nThe news executive purchased the equipment almost as soon as he returned to work. He said he hopes to have a new computer-assisted reporting program on line by September.",
-      "summary": "Mary Field was excited by the possibilities. The investigative TV producer had just spent an intensive week at MICAR's computer-assisted reporting training seminar.",
-      "keywords": [],
+      "summary": "Mary Field, a TV producer trained in computer-assisted reporting (CAR), struggles to implement the technology at her Chicago station due to budget constraints and lack of broadcaster adoption, highlighting the challenges of integrating CAR into broadcast journalism despite its proven investigative value.",
+      "keywords": [
+        "broadcast",
+        "technology",
+        "investigation"
+      ],
       "topics": [
         "Investigative Methods",
         "Journalism & Newsroom",
@@ -97,12 +115,27 @@
       "kicker": "Bits, bytes and nibbles",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Investigative Reporters and Editors and The News & Observer in Raleigh, N.C., will show reporters and editors this fall how they can do their jobs with more precision, depth and power through computer-assisted reporting. About 50 top journalists and other experts who use computers to gather and sort information and write stories will demonstrate their skills and share their ideas with 400 - 500 peers during a four-day conference devoted exclusively to computer-assisted reporting. The conference will be Oct. 21 - 24 at the Radisson Plaza Hotel in downtown Raleigh.\n\nThe program will mix beginning and advanced sessions. Sessions will include:\n\nEquipment and software -- what's best and what to budget for\nDatabases -- what's out there, where to find them and how to negotiate for them\nGoing on-line\nIntroduction to CD-ROM and Hypertext\nAdvanced word processing techniques\nParsing, scanning, mapping\nVisual Basic and other application development tools\nSpecific story ideas to take home and do\nPolling and statistics\nIdeaware -- covering a variety of useful\nHow to set up computer-assisted reporting classes in the newsroom\n\nHands-on training classes will cover:\n\nWindows/DOS\nSpread sheets\nNineTrack Express\nCreating and manipulating databases, analyzing data and programming in FoxPro and Paradox\n\nFor more information about the conference please write or call: Investigative Reporters & Editors 100 Neff Hall UMC School of Journalism Columbia, MO 65211 (314) 882-2042.\n\nTop journalists from the News & Observer, the St. Petersburg Times, the Washington Post, New York Newsday, USA Today and U.S. News & World Report and experts from the FEC, the Poynter Institute and the National Library on Money and Politics will demonstrate their computer-assisted reporting skills at October conference",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Investigative Reporters and Editors and The News & Observer will host a four-day computer-assisted reporting conference in October 2024 in Raleigh, bringing together 50 expert journalists and 400-500 peers to demonstrate and teach skills in using computers for data gathering, analysis, and storytelling.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "computers"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "FoxPro",
+        "Paradox",
+        "CD-ROM",
+        "Visual Basic",
+        "NineTrack Express",
+        "Windows/DOS"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

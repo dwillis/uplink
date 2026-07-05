@@ -10,10 +10,22 @@
       "author_title": "staff",
       "affiliation": "NICAR",
       "full_text": "When hospital officials told The New York Times that babies were dying because of unusually sick mothers, reporter Josh Barbanel knew what to do. He ran a regression. And like many reporters who work with statistics, he found story: babies born in New York's public hospitals are significantly more likely to die than those born in private hospitals - even when the babies are born healthy. Statistics have always been a powerful tools in the hands of knowledgeable journalists. Now, as more news organizations invest in computers and statistical software, number crunching is more important. Statistics-savvy journalists are proving that statistics can mean more accurate, incisive reporting. In recent months, Minneapolis' WCCO-TV found mistakes in a state report on unwed mothers. The Raleigh News & Observer showed the link between ex-convicts who keep commiting crimes and drug or alcohol abuse. In December 1993, U.S. News & World Report proved that black students were more likely to be relegated to special education programs.\n\nProving the point\n\nThe New York Times published \"Mismanaged Care: How Public Hospitals Fail\" on March 5-7. The story did not need statistics to get into the paper, Barbanel said. Reporters Dean Baquet and Jane Fritsch had already uncovered scores of horror stories.\n\n\"But (the story had been) argued through anecdotes. Someone who didn't believe unnamed sources could dispute it,\" he said. The numbers made it harder to dismiss.\n\nBarbanel's analysis showed the infant mortality rates were significantly different even after accounting for such variables as prenatal care, the mothers' health and the babies' health. The numbers also allowed the newspaper to question the causes.\n\nBarbanel others have discovered that a careful analysis can quiet controversy and convince skeptics. It could also prevent costly missteps.\n\nWhen WCCO-TV in Minneapolis got a state report on unwed mothers, reporter Alan Cox double checked the numbers with regression analyses.\n\nThe state suggested poor mothers have more out-of-wedlock births. Cox said, \"I couldn't find the correlation, and chose to weed that out of my story.\"\n\nCox said he often runs rudimentary regression analyses to decide how or whether- to report a story. The CBS affiliate also uses them for election returns and exit polls.\n\n\"It's very helpful to have some understanding of sampling techniques,\" he said. \"I think by having statistical training in that area, you avoid going out on a limb on election night.\"\n\nIn television, it's hard to convey numbers. Cox recommends using graphs. And, he said, viewers have been enthusiastic.\n\n\"We get e-mails: Where did you get those numbers?\" he said. \"I think there's a hunger out there, though maybe not an overwhelming one.\"\n\nGoing back in jail\n\nSampling techniques are good for more than just interpreting polls. For a recent story about why ex-convicts keep going back to prison, Jon Schmid, assistant database editor with the Raleigh News & Observer, picked a random sample.\n\n\"We found who had come back to prison about 200 people and we wanted to find out why,\" he said. Schmid worked with a reporter who believed people got back into trouble because of severe drinking or drug problems.\n\nBecause he did not have time to background 200 prisoners, Schmid selected a small sample. He and the reporter checked those prisoners thoroughly. They found many were indeed sent back to prison for drug and alcohol-related crimes.\n\n\"I buy into the statistical theory that using a random sample, you can draw an inference,\" Schmid said. \"I dont think we could have done that story based on anecdotal evidence.\"\n\nSchmid rarely works with correlations and high-end statistics because he works mostly with data based on observations. That makes it difficult to establish cause and effect. But he frequently uses what he calls \"exploratory statistics\" - like cross tabs and graphs to look for trends and unusual occurrences.\n\n\"They help you to look at data, to go beyond making a list,\" he said. \"The tools are a compass that lets me see through the fog of data.\"\n\nCross-tabs at work\n\nSarah Cohen, a St. Petersburg Times business reporter, also is a fan of cross tabs: those tables that test two or more variables at once.\n\n\"They work out well,\" she said. \"They are easier to show to editors because you can see immediately how to tell the story to people.\"\n\nCohen, a former government economist, cautioned that some statistical methods may be better than others.\n\n\"My sense is that people out there can do (high-end statistics) better than we can,\" she said. \"I've used these tools for a long time, and I never saw an economics study you couldn't fight with. Why should we get in on that in newspapers?\"\n\nOn the other hand, professional statisticians are not interested in countless topics, Cohen said. These areas are full of opportunities for journalists, and often require only simpler statistical processes.\n\nInstead of ranking schools based on just one measure, for example, education writers can create an index. Then they can take test scores, spending per pupil, teacher salaries and drop-out rates into account. Journalists can do this quickly, and improve stories significantly.\n\n\"These are tools that help you sort through a huge number of different combinations of things,\" she said. \"Indexes, cross (tools) where its clear what you're talking about when you're finished.\"\n\nSchmid agrees that some analyses are better done on deadline than others.\n\n\"Cross tabs are really straight forward,\" he said. \"(But) when you get into real stats, like taking a sample and so forth, you have to be really careful. It's based on some really strict assumptions.\"\n\nCohen recommends that journalists get comfortable with statistics through skepticism and practice.\n\n\"One thing we're not doing well is being as skeptical of numbers as we are of words,\" she said. \"We need to remember we're not very skeptical and think some more.\"",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists increasingly use statistical analysis and regression techniques to investigate stories and verify claims, moving beyond anecdotes to provide more rigorous and convincing evidence. Examples include New York Times reporting on infant mortality in public hospitals, WCCO-TV's analysis of unwed mother statistics, and other news organizations using data analysis to uncover meaningful patterns.",
+      "keywords": [
+        "statistics",
+        "journalism",
+        "analysis"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "SPSS",
+        "SAS",
+        "regression analysis"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -25,12 +37,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "Uplink",
       "full_text": "It's like the old Groucho Marx joke: Math is so easy a 12 year old can do it. Quick. Get me a 12 year old. The St. Louis Post-Dispatch did just that. In February, the newspaper recounted how Carrie Coughlin used statistics to figure out the home court advantage in Big Eight basketball. And she checked for significance. For journalists, statistics are one more way to better cover stories. \"Computer-assisted reporting gives greater access to greater volumes of information,\" Philip Meyer said. \"That means there is a greater capacity for making mistakes. By learning how to use statistics, we reduce the risk of getting it wrong.\" In this issue, Uplink offers stories so you get it right. Meanwhile, in the wake of the Oklahoma City bombing, Nora Paul trolls the Internet for militia groups. Uplink also updates government access to electronic records.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article explores how journalists use statistical analysis and computer-assisted reporting to improve accuracy in covering stories, featuring an example of a young researcher analyzing basketball statistics and discussing how journalists can reduce errors through proper statistical methods.",
+      "keywords": [
+        "statistics",
+        "journalism",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -44,9 +65,17 @@
       "author_title": "Professor, Department of Technical Journalism",
       "affiliation": "Colorado State University",
       "full_text": "Access tight for electronic records\n\nBy David H. Morrissey\nColorado State University\n\nPresident Clinton issued Freedom of Information Act guidelines in 1993 that he said would expand public access to federal computerized data.\n\nA year later, Congress initiated on-line access to thousands of federal documents by passing the General Printing Office Electronic Information Access Enhancement Act.\n\nBoth actions were responses to the fact that- within five years - 75 percent of Washington's vast storehouse of documents will be created, stored and disseminated electronically.\n\nWithout electronic access, the public will have little ability to check what Washington does. A key question now is: How much access do we have?\n\nThe answer halfway through the Clinton administration is clearly \"not enough.\"\n\nClinton policies\n\nThe Clinton FOIA policy is the first by a president to specifically mention the public's right to electronic records. The president encouraged agencies \"to enhance public access through the use of electronic information systems.\"\n\nClinton's policy also limits when the Justice Department can defend agencies withholding documents requested under FOIA. Prior to this, Reagan/Bush FOIA guidelines established in 1981 required the Justice Department to defend agencies if there was \"a substantial legal basis\" for secrecy. In effect, agencies were told \"when in doubt, deny requests.\"\n\nClinton changed that. He requires agencies to cite specific \"foreseeable harm\" before the Justice Department will defend them, a policy often called, \"When in doubt, release.\"\n\nUnless this new standard is overturned by a new president, Clinton's policy should eventually increase public access to electronic records.\n\nIn addition, the president ordered in 1993 a review of the security classification system. A draft executive order from this review expands national security information releasable under the FOIA - expanding electronic access in the process - and overturns a Reagan-era executive order encouraging secrecy.\n\nOn April 17, the order was issued, and it expands the amount of information available.\n\nCongress, meanwhile, has twice recently attempted to address electronic records. In 1994, the House killed a Senate bill that would define FOIA-releasable records to include \"computer programs, machine readable materials, and computerized, digitized, and electronic information...\"\n\nThe bill, which may be reintroduced, would require agencies to make reasonable efforts to create or modify computer programs to retrieve records; create computer programs to separate disclosable from non-disclosable information; and provide information in formats specified by requesters.\n\nMeanwhile, in 1994, Congress did pass the GPO Access Act. The GPO now provides on-line access to several thousand government documents.\n\nWhile useful, the act remains fundamentally flawed. Congress left agencies in control of what records will be available electronically - not the requesters. The measure covers only some of Washington's electronic information. No agency is required to release electronic records; their compliance is voluntary.\n\nFew real changes\n\nDespite the president's call for openness, and congressional encouragement, few agencies are rushing into the electronic future. I surveyed 70 federal agencies after the Clinton FOIA policy was announced, and found not one had changed policies to make access to electronic records easier. Some called the president's policy too vague. Others claimed they already practiced maximum disclosure and saw no need to change policies.\n\nDetailed presidential or congressional action may increase public access to Washington's information. Passing the FOIA demonstrated this change. But as responses from the 70 agencies suggest, broad policy statements produce only minimal agency change. Many electronic records remain difficult to obtain. The agencies \u2014 not the public \u2014 still set most policies guiding release of electronic federal records.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "President Clinton's FOIA guidelines and congressional efforts have begun to expand public access to federal electronic records, but significant gaps remain as most government documents will soon exist only in digital form.",
+      "keywords": [
+        "FOIA",
+        "electronic",
+        "access"
+      ],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -58,12 +87,20 @@
       "headline": "You may have a friend in Pa.",
       "kicker": "The long fight for electronic records",
       "author_name": "Bob Warner",
-      "author_title": "",
+      "author_title": "Reporter",
       "affiliation": "Philadelphia Daily News",
       "full_text": "Whatever's happening in Washington, the information revolution is slower in some state capitals.\n\nIt took 18 months, a lawsuit, and a new Pennsylvania governor for the Philadelphia Daily News to secure an electronic list of 82,034 state employees -- the same information that's been available to the public for years on microfiche at the state library in Harrisburg.\n\nFormer Gov. Robert P. Casey refused to provide a computer tape of the state payroll, with no explanation beyond saying he was satisfied with the old arrangements. The Daily News sued in Commonwealth Court and Casey stalled. He left office January. His successor, Gov. Tom Ridge, settled the case by turning over the computer tape three weeks after taking office.\n\nPennsylvania reporters remain hampered by a 1957 public records law that doesn't mention computers, requiring only that public officials establish \"reasonable rules\" for providing copies of public documents. The Allentown Morning Call's Jack Kraft and David Washburn recently reported on the trouble this has meant for local governments, citizen groups and journalists throughout the state.\n\nRidge said during his 1994 campaign that if a government document is considered public when it's on paper, then the same information should be accessible to the public in electronic formats, technology permitting. State legislator Stewart Greenleaf has sponsored legislation to that effect. But to become law, it needs approval from a state Senate that still denies the public even paper copies of Senate payroll and expense records.\n\nBob Warner can be reached at (215) 854-5885 or send e-mail to bwarner@omni.voicenet.com.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Pennsylvania's outdated 1957 public records law fails to address electronic access to government documents, as demonstrated by the Philadelphia Daily News's 18-month legal battle to obtain an electronic employee payroll list. Governor Tom Ridge has signaled support for modernizing the law to ensure electronic documents are as accessible as paper records, but the state Senate has resisted such transparency reforms.",
+      "keywords": [
+        "Pennsylvania",
+        "records",
+        "transparency"
+      ],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -78,9 +115,16 @@
       "author_title": "",
       "affiliation": "NICAR",
       "full_text": "NICAR offers a number of federal government databases. Here is a list of our growing collection:\n\nFederal Elections Commission contributions data, including donations by individuals and political action committees.\nFederal Aviation Administration data, including airplane maintenance work documented in the service difficulty report, pilot licenses and grades, and aircraft registration.\nHome Mortgage Disclosure Act records, for tracking who gets loans and who gets turned down, and finding redlining patterns.\nFederal procurement data, 1992-1994, includes breakdowns by agency.\nAlcohol, Tobacco and Firearms gun dealer records.\nNational Bridge Inventory System data, includes inspection grades.\nFBI Uniform Crime Reports, a detailed compilation of crime data that includes statistical breakdowns of individual murders.\nSocial Security death records, by name and social security number, going back to 1937.\nOccupational Safety and Health Administration violation data includes worker accidents and exposures to hazardous chemicals by companies.\nU.S. Department of Transportation truck accident and census data. It includes accidents by company and road.\nU.S. Small Business Administration loan guarantees, 1989-1994. This includes the name of the business, address, amount covered by the SBA, and status, including whether the loan went bad.\nU.S. Small Business Administration disaster loan guarantees, 1989-1994. This includes individuals and businesses, the amount covered by the SBA, and the status, including whether the loan went bad.\n\nNICAR also offers inexpensive data transfer for journalists, and houses an expanding library of state databases. NICAR is also constantly adding up-to-date data.\n\nCall NICAR for up-to-date prices and more information at (314) 882-0684, or send e-mail to nicar@muccmail.missouri.edu",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR provides journalists with access to numerous federal government databases covering elections, aviation, mortgages, crime, and other regulatory data for investigative reporting, along with affordable data transfer services.",
+      "keywords": [
+        "databases",
+        "journalism",
+        "federal"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -93,11 +137,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "NICAR",
+      "affiliation": "Virginia Press Association",
       "full_text": "Get Computer training\n\nVirginia Press Association\n\nNICAR will conduct training June 1-3 in Richmond, Va. Call Deb Roberts, (804) 550-2361. California AP NICAR and the Associated Press will conduct training June 19-21 in the Los Angeles area and Sacramento. Call the AP's Daniel Day, (415) 621-7432. NICAR Bootcamp NICAR's weeklong intensive training seminar, Aug. 6-11, Columbia, Mo. Call NICAR, (314) 882-0684, or send e-mail to nicar@muccmail.missouri.edu.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR offers computer training seminars in Richmond, Los Angeles, Sacramento, and Columbia during June and August, with contact information provided for registration.",
+      "keywords": [
+        "training",
+        "computer",
+        "journalism"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -109,13 +159,22 @@
       "headline": "Slice percents right",
       "kicker": "Yogi Berra might say 90 percent of journalism is half mental",
       "author_name": "Jennifer LaFleur",
-      "author_title": "NICAR Staff",
+      "author_title": "Staff",
       "affiliation": "NICAR",
       "full_text": "So you went into journalism to avoid math? For the more nerdy, mathematical formulas may come as naturally as slipping on a pocket protector each morning; however, to those just starting in computer-assisted reporting, math can be intimidating.\n\nI'm not suggesting that to do computer-assisted reporting you have to have an immediate grasp of differential equations, but whether you're looking at hard copy reports from a government agency or analyzing data in a spreadsheet, you should be familiar with three key formulas: percent change, percent of total and per capita.\n\nPercent of total\n\nThis one is easy to get turned around. The rule is: the amount divided by the total (amount/total). For example, if Bob owns 10 animals and two of those animals are cats, 2 divided by 10 (2/10) or 20 percent of his animals are cats.\n\nPercent change\n\nYou're dealing with two years' worth of data and want to figure percent change from one year to the next. Take the difference of the two years divided by the amount from the earlier year. Say we're looking at 1993-1994 data. The difference: 2,567 - 2,345 = 222. Now: 222/2,345 = 0.09.\n\nPer capita\n\nLooking at occurrences by city or county or state can be interesting. But remember to keep things on common ground. You can't compare raw numbers if the \"bases\" are different. That means if I'm looking at the number of murders by city in the United States, Los Angeles and New York probably will come out on top, but only because they have more people. A more useful measure would be per capita murders. In this case, per capita murders would be the number of murders divided by population.\n\nSometimes these measures will be adjusted a little if the number of occurrences is low. Crime statistics, for example often are reported per 100,000 or per 10,000 people. These measures are used because (hopefully) the number of murders in a city is fairly low compared to the number of people. The per capita measure might be 0.0005 - yikes! By looking at the figure per 100,000 people, it becomes easier to read: 50 murders per 100,000 people.\n\nWhen you're trying to figure if persons per household is households divided by population or population divided by households. Do one simple thing: turn your per into a division sign. This means that persons PER households becomes persons/households or population/households. If that doesn't work, trying narrowing the field to a few items: for example if I have two houses and 10 people, how many persons per household is that? Of course, it's five a house.\n\nJennifer LaFleur can be reached at (314) 882-9491, or send e-mail to jenster@aol.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article explains three essential mathematical formulas for computer-assisted reporting in journalism: percent change, percent of total, and per capita, with practical examples to help reporters analyze data effectively.",
+      "keywords": [
+        "formulas",
+        "reporting",
+        "data"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "spreadsheet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -126,12 +185,19 @@
       "headline": "Books to help reporters work better with numbers",
       "kicker": "",
       "author_name": "Jennifer LaFleur",
-      "author_title": "NICAR Staff",
+      "author_title": "Staff",
       "affiliation": "NICAR",
       "full_text": "Here are some books to help reporters work better with numbers:\n\nCohn, Victor. News & Numbers. 1989. Iowa State University Press.\n\nCrossen, Cynthia. Tainted Truth: The Manipulation of Fact in America. 1994. Simon & Schuster.\n\nMeyer, Philip. The New Precision Journalism. 1991. Indiana University Press.\n\nThe Economist Numbers Guide: The Essentials of Business Numeracy. 1993. Penguin Books.\n\nPaulos, John Allen. Innumeracy: Mathematical Illiteracy And Its Consequences. 1988. Hill and Wang.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A curated list of recommended books for journalists to improve their numerical literacy and data analysis skills, covering topics from news statistics to mathematical understanding and fact verification.",
+      "keywords": [
+        "journalism",
+        "numbers",
+        "literacy"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -146,8 +212,12 @@
       "author_title": "NICAR staff",
       "affiliation": "NICAR",
       "full_text": "Philip Meyer, a founder of computer-assisted reporting and author of The New Precision Journalism, believes there is much more reporters can do with numbers to improve their stories. In a recent Uplink interview, the Pulitzer Prize winner listed several tips:\n\nAvoid apples-and-oranges comparisons. Among the most common, he said, \"is any story where there is a dollar comparison over time.\" In other words, a newspaper may have cost only a few cents at the turn of the century. But before you get misty eyed about the good old days, don't forget to figure for inflation. Reporters can do that getting the Consumer Price Index issued by the U.S. Bureau of Labor Statistics.\n\nWatch out for \"lurking variables.\" Journalists often write about how one thing correlates with another. Meyer believes they should always check for other variables, and see what happens when those other variables are held constant.\n\nFor example, he cited stories that rank states based on Standard Achievement Test scores. The problem is that, in some places, a smaller percentage of students take the SAT scores the college-bound who, overall, post better scores. Elsewhere, a larger percentage of students take the test. By using a simple regression, reporters could adjust for differences.\n\nShow a scatterplot. No math here. This kind of graphic is good for showing relationships. Say you are reporting about how a natural disaster reaped heavier damage in neighborhoods built during a certain period. Peg the vertical (y) axis to the year constructed; the horizontal (x) axis to percent destroyed. Then plot each block on the graph. The scatterplot marks each bit of data effectively. Newspapers don't use scatter blocks enough, Meyer said.\n\nThe chi-square test. What are the odds that something happened by coincidence? The chi-square test is a quick way to find out. A variety of books describe the chi-square test, including Meyer's The New Precision Journalism.",
-      "summary": "Philip Meyer, a founder of computer-assisted reporting and author of The New Precision Journalism, believes there is much more reporters can do with numbers to improve their stories.",
-      "keywords": [],
+      "summary": "Philip Meyer, a Pulitzer Prize-winning pioneer of computer-assisted reporting, shares five statistical techniques journalists can use to strengthen their stories, including adjusting for inflation, controlling for lurking variables, using scatterplots, and applying the chi-square test.",
+      "keywords": [
+        "statistics",
+        "journalism",
+        "data"
+      ],
       "topics": [
         "Investigative Methods",
         "Data & Databases",
@@ -167,10 +237,18 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Cool math tip: Each year a dollar loses value. Here's how to adjust for inflation. Just look at the percent change in the Consumer Price Index (CPI) from one year to the next. Adjust the earlier year's sum \"up\" to reflect them in current dollars. It's a simple multiplication: percent change (expressed in decimal form, not percent) times the older dollar amount. Add that to the older figure. Keep in mind that CPI varies regionally, so use the CPI for your area. The CPI for most areas is available on the Internet at gopher://hopi.bls.gov:70/00hopiftp.dev/special.requests/cpi",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A guide to adjusting historical dollar amounts for inflation using the Consumer Price Index (CPI), with a simple multiplication method to convert older figures into current dollars while accounting for regional variations.",
+      "keywords": [
+        "inflation",
+        "dollars",
+        "CPI"
+      ],
+      "topics": [
+        "Data & Databases"
+      ],
+      "technologies": [
+        "gopher"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -181,13 +259,25 @@
       "headline": "IRE's Annual Conference",
       "kicker": "Find cyber sources on the beat",
       "author_name": "Rosemary Armao",
-      "author_title": "IRE executive director",
+      "author_title": "Executive Director",
       "affiliation": "IRE",
       "full_text": "The program is firming up for IRE's 20th annual National Conference set for the Inter-continental Hotel in Miami June 8-11. Here's the program for the Optional Day, June 8, which is dedicated to \"CAR on the Beat.\"\n\nIn addition to the panels listed below, we'll be offering an advanced seminar on statistics with Precision Journalism guru Philip Meyer and Steve Doig of the Miami Herald instructing, a souped-up computer demo room and an Internet Lab.\n\nE-mail us jourire@muccmail.missouri.edu if you'd like to see the entire preliminary schedule. Be sure to sign up for this major journalism event.\n\nTHURSDAY, JUNE 8\n\n9 a.m.-noon Statistics Seminar, Philip Meyer, The New Precision Journalism, and Steve Doig, Miami Herald\n\n9-10:25 a.m.\n\nCar on the City Hall Beat Moderator, Rose Ciotta, Buffalo News David Migoya, Detroit Free Press\nCAR, Quick and Easy NICAR Staff\nAccess: What You're Entitled To and How to Get It\nModerator, Shawn McIntosh, Dallas Morning News Barbara Peterson, First Amendment Foundation Bob Warner, Philadelphia Daily News\n\n10:30-11:55 a.m.\n\nCar on the Education Beat Moderator, Nora Paul, Poynter Institute George Jordan, Newsday Neil Mara, Charlotte Observer\nGetting Started David Milliron, Gannett News Service\nIntroduction to the Internet Beth Marchak, Cleveland Plain Dealer Dan Keating, Miami Herald\n\n1:45-3:10 p.m.\n\nCar on the Courts Beat Moderator, Steve Doig, Miami Herald Nancy Stancill, Charlotte Observer Michelle Quigley, Palm Beach Post\nPowering Up, Plugging In Nora Paul, Poynter Institute\nPolling: How to Write Survey Questions and Build on what Pollsters Provide\nJennifer LaFleur, NICAR John Brennan, Los Angeles Times\n\n3:15-4:40 p.m.\n\nCar on the Crime Beat Jeff Kummer, St. Paul Pioneer Press Mike Berens, Columbus Dispatch Nora Paul, Poynter Institute\nIntroduction to Spreadsheets Rich Gordon, Miami Herald Sarah Cohen, St. Petersburg Times\nFlorida Government: Electronic records Bob Port, Associated Press Scott Anderson, Fort Lauderdale Sun-Sentinel Barbara Peterson, First Amendment Foundation\n\n4:45-6 p.m.\n\nCar on the Politics Beat Bob Warner, Philadelphia Daily News Jackie Duobinis, National Library on Money & Politics\nIntroduction to Databases Shawn McIntosh, Dallas Morning News Richard Mullins, University of Missouri\nVisualizing Information: Mapping, Charts and Graphics\nTed Mellnik, Charlotte Observer Jennifer LaFleur, NICAR\n\nInternet demo room\n\nIn addition, look for the room with multiple hookups to the Internet staffed with experts. Find out how to better use this exciting research and communications tool. For more information and to register, call IRE at (4) 882-2042.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "IRE's 20th annual National Conference in Miami (June 8-11) is offering an Optional Day on June 8 focused on computer-assisted reporting (CAR) across various journalism beats, featuring panels, seminars, and demonstrations led by journalism experts.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "computer"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "Spreadsheets",
+        "Databases"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -201,17 +291,22 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "When breaking news hits - and rarely does a story hit harder than the bombing in Oklahoma - the Internet can be your link to the latest news, and the most esoteric background materials.\n\nAlmost immediately, newspapers, radio and television stations around the country created sites with information about the bombing, the survivors, and the victims. A sampling:\n\nMedia organizations\n\nThe Edmond (Okla.) Evening Sun had just started a web site. Soon after the bombing, the paper posted letters to the editor and a photo album. http://www.icon.net/sun/index.html\n\nKBIA Radio News (from University of Missouri) started a special report about the bombing containing audio files of Clinton's and Reno's statements. It offers a comprehensive list of other sources on the bombing and its aftermath. http://www.missouri.edu/-jschool/kbia/bombing/index.html\n\nKOCO-TV in Oklahoma City posted pictures from the blast site, and has been keeping the community informed with food bank, and Red Cross services available for victims. http://www.ionet.net/koco/index.html\n\nThe Raleigh News & Observer has been constantly updating its Oklahoma City bombing report with photos and news stories. Its list of links is invaluable. http://www.nando.net/newsroom/nt/bbextra.html\n\nTime Warner's Pathfinder service leads the pack of news magazines. http://www.pathfinder.com/\n\nGovernment agencies\n\nWhen it comes to covering what should be done in emergencies, several agencies offer useful information:\n\nThe Federal Bureau of Investigation web site describes the government's reward for information about the bombing. It is also the best site for background information on the continuing Unabomber attacks. http://naic.nasa.gov/fbi/\n\nAlso, the Oklahoma State Government Information Server for official state and local reports. http://www.oklaosf.state.ok.us/\n\n(For more information on Internet sources for disaster coverage, including the American Red Cross, Federal Emergency Management Agency and Emergency Preparedness Information eXchange see Nora Paul's Uplink article in the March 1995 edition.)\n\nStalking militia groups\n\nWhen the suspect was caught, and his links to radical anti-government militias were discovered, finding background and information on the militia groups became research priority. Here's where the Internet could help:\n\nMilitia Groups by State: State listing of militia groups, with contact names, addresses, e-mail, and bbs numbers when available. http://www.io.com/user/sdragon/docs/dir3.1\n\nThe Stormfront White Nationalist Resource page includes various tracts (including comments on the Oklahoma City bombing, how the Bible fits with ideology, and works by David Duke), plus links to the Aryan News Agency and a list of like-minded radio shows, including those on AM, FM and shortwave. http://204.181.176.4/stormfront/\n\nPatriot Web's Militia Files: This ftp site includes commentary, directories and profiles on prominent members like Linda Thompson. http://www.tezcat.com/patriot/Militia/\n\nThe ftp site (http://www.tezcat.com/patriot/) \"Patriot\" includes directories of files on topics such as Waco Weaver, Patriotic Justice journals, historical files, and a timeline of individual rights \"violations\" throughout American History. This site provides great (although, obviously, biased) background on the issues that militia groups feel they are dealing with. Another collection of links is at http://www.primenet.com/~lion/data01.html.\n\nThey Fight the Right lists groups that provide research about right-wing organizations, cults, and hate groups. It's compiled by Political Research Associates. There are some organizations which may be useful in locating background information on militias. This is a wonderful resource with contact information and other details. The Terrorism Handbook (which includes a recipe for ammonium nitrite fuel oil bombs) is often pulled from lists almost as soon as its posted. (It is, however, still available in the newsgroup zer.t-netz.pyrotechnik) http://www.qrd.org/qrd/.html/ftr/theyfigh.html\n\nNews Groups to keep an eye on: misc.activism.militia us.events.ok-explosion talk.politics.guns alt.politics.org.batf\n\nNora Paul is a former Miami Herald librarian now at the Poynter Institute. She is the author of Computer Assisted Research, available from the Poynter Institute and NICAR.",
-      "summary": "When breaking news hits - and rarely does a story hit harder than the bombing in Oklahoma - the Internet can be your link to the latest news, and the most esoteric background materials.",
-      "keywords": [],
+      "summary": "The article describes how media organizations, government agencies, and online resources provided coverage and background information about the Oklahoma City bombing, including details on news sites, emergency services, and militia group research materials available on the Internet.",
+      "keywords": [
+        "bombing",
+        "Internet",
+        "militia"
+      ],
       "topics": [
         "Technology",
-        "Journalism & Newsroom",
-        "Investigative Methods"
+        "Investigative Methods",
+        "Crime & Justice"
       ],
       "technologies": [
         "Internet",
         "World Wide Web",
-        "FTP"
+        "FTP",
+        "modem/BBS"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -226,8 +321,12 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Not every college offers CAR knowledge\n\nDespite advances in newsrooms, many university journalism programs have not yet introduced computer-assisted reporting. In a 1993 survey, less than a third taught on-line searching, and even fewer dealt with databases.\n\nKevin Lee, an assistant communications professor at West Virginia Wesleyan College, conducted a blind survey of more than a dozen experts, asking how to change the situation. The participants included Elliot Jaspin at Cox Newspapers; Penny Loeb at U.S. News & World Report; Steve Ross at Columbia University; and Shawn McIntosh, Dallas Morning News.\n\nThe results are that schools would enhance their reputations, and students would be better journalists, if more universities taught computer-assisted reporting. The hurdles include getting and maintaining good equipment, resistance from school officials, and a lack of qualified teachers.\n\nInternet in a beat\n\nPreston P. Forman, a reporter for the Standard-Times of New Bedford, Mass., recounted two instances where the Internet helped his small newspaper get the story in a hurry.\n\nWhen a television station license was sold, he needed to find someone at the Federal Communications Commission - an agency he had never covered. He went to http://www.fcc.gov, found the agency's internal phone directory, and got the right official quickly.\n\nAnother time, there was a dispute over the lack of accessibility at town buildings for the disabled. He went to http://www.usdoj.gov, and, a few clicks later, got details on what the Americans with Disabilities Act means for municipalities.\n\nArizona TV station seeks CAR reporter\n\nKPNX-TV of Phoenix, Ariz., is seeking a reporter with at least three years experience, including work in computer-assisted reporting.\n\nMore information is available from Jeanine L'Ecuyer, assistant news director, KPNX-TV, P.O. Box 711, Phoenix, Az. 85001; (602) 257-6630.\n\nJoin NICAR on the Internet\n\nDon't forget to keep up with NICAR on the Internet. Subscribe to our listserve, and join as reporters talk about how to do the job better. E-mail to listserv@mizzoul.missouri.edu. In the message, on the first line, write: subscribe nicar-1 your name.\n\nTo join Investigative Reporters and Editors on the Internet, the instructions are the same except, on first line, write: subscribe ire-1 your name.\n\nDon't bank on it\n\nThe Wall Street Journal recently used computer-assisted reporting to show that big banks - despite ads to the contrary - don't lend that much to small businesses.\n\nThe newspaper studied bank filings (known as call reports) to the Federal Deposit Insurance Corp. The computer helped the paper sift through almost 12,000 reports, and help compare small business deals versus overall company loans.\n\nThe newspaper contrasted the numbers with the banks' advertising claims. It also described how small business owners face a tough time getting loans, and how analysts believe the decline of local banking means tougher times ahead.",
-      "summary": "Not every college offers CAR knowledge Despite advances in newsrooms, many university journalism programs have not yet introduced computer-assisted reporting.",
-      "keywords": [],
+      "summary": "Many university journalism programs have not adopted computer-assisted reporting (CAR) training despite its proven value, with barriers including equipment costs, institutional resistance, and teacher shortages. The article highlights how CAR skills benefit journalists and provides examples of successful reporting using online databases and internet research.",
+      "keywords": [
+        "journalism",
+        "reporting",
+        "computer"
+      ],
       "topics": [
         "Investigative Methods",
         "Journalism & Newsroom",
@@ -235,7 +334,8 @@
       ],
       "technologies": [
         "Internet",
-        "World Wide Web"
+        "World Wide Web",
+        "Email"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -247,12 +347,20 @@
       "headline": "Not every college offers CAR knowledge",
       "kicker": "",
       "author_name": "",
-      "author_title": "",
-      "affiliation": "",
+      "author_title": "assistant communications professor",
+      "affiliation": "West Virginia Wesleyan College",
       "full_text": "Not every college offers CAR knowledge\n\nDespite advances in newsrooms, many university journalism programs have not yet introduced computer-assisted reporting. In a 1993 survey, less than a third taught on-line searching, and even fewer dealt with databases.\n\nKevin Lee, an assistant communications professor at West Virginia Wesleyan College, conducted a blind survey of more than a dozen experts, asking how to change the situation. The participants included Elliot Jaspin at Cox Newspapers; Penny Loeb at U.S. News & World Report; Steve Ross at Columbia University; and Shawn McIntosh, Dallas Morning News.\n\nThe results are that schools would enhance their reputations, and students would be better journalists, if more universities taught computer-assisted reporting. The hurdles include getting and maintaining good equipment, resistance from school officials, and a lack of qualified teachers.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "Many university journalism programs have not adopted computer-assisted reporting education despite its proven benefits, facing obstacles like equipment costs, institutional resistance, and a shortage of qualified instructors.",
+      "keywords": [
+        "journalism",
+        "technology",
+        "education"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Education"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -267,10 +375,21 @@
       "author_title": "reporter",
       "affiliation": "Standard-Times of New Bedford",
       "full_text": "Preston P. Forman, a reporter for the Standard-Times of New Bedford, Mass., recounted two instances where the Internet helped his small newspaper get the story in a hurry.\n\nWhen a television station license was sold, he needed to find someone at the Federal Communications Commission - an agency he had never covered. He went to http://www.fcc.gov, found the agency's internal phone directory, and got the right official quickly.\n\nAnother time, there was a dispute over the lack of accessibility at town buildings for the disabled. He went to http://www.usdoj.gov, and, a few clicks later, got details on what the Americans with Disabilities Act means for municipalities.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A New Bedford newspaper reporter describes how using government websites helped him quickly find sources and information for stories about FCC licensing and disability access compliance.",
+      "keywords": [
+        "Internet",
+        "sources",
+        "government"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -284,9 +403,16 @@
       "author_title": "",
       "affiliation": "KPNX-TV",
       "full_text": "KPNX-TV of Phoenix, Ariz., is seeking a reporter with at least three years experience, including work in computer-assisted reporting.\n\nMore information is available from Jeanine L'Ecuyer, assistant news director, KPNX-TV, P.O. Box 711, Phoenix, Az. 85001; (602) 257-6630.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "KPNX-TV in Phoenix is hiring an experienced reporter with at least three years of journalism experience, including expertise in computer-assisted reporting.",
+      "keywords": [
+        "reporter",
+        "Phoenix",
+        "journalism"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -299,12 +425,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "Join NICAR on the Internet\n\nDon't forget to keep up with NICAR on the Internet. Subscribe to our listserve, and join as reporters talk about how to do the job better. E-mail to listserv@mizzoul.missouri.edu. In the message, on the first line, write: subscribe nicar-1 your name.\n\nTo join Investigative Reporters and Editors on the Internet, the instructions are the same except, on first line, write: subscribe ire-1 your name.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR and IRE offer listserve subscriptions where journalists can discuss improving their reporting skills and techniques through online communication.",
+      "keywords": [
+        "journalists",
+        "listserve",
+        "networking"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "listserve"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -316,11 +451,19 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "The Wall Street Journal",
       "full_text": "The Wall Street Journal recently used computer-assisted reporting to show that big banks - despite ads to the contrary - don't lend that much to small businesses.\n\nThe newspaper studied bank filings (known as call reports) to the Federal Deposit Insurance Corp. The computer helped the paper sift through almost 12,000 reports, and help compare small business deals versus overall company loans.\n\nThe newspaper contrasted the numbers with the banks' advertising claims. It also described how small business owners face a tough time getting loans, and how analysts believe the decline of local banking means tougher times ahead.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The Wall Street Journal used computer-assisted reporting to analyze FDIC bank filings and reveal that major banks lend significantly less to small businesses than their advertising claims suggest, highlighting growing challenges for entrepreneurs seeking capital.",
+      "keywords": [
+        "banks",
+        "lending",
+        "analysis"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Business & Economy",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

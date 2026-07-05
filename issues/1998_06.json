@@ -7,8 +7,8 @@
       "headline": "Moneyed interests",
       "kicker": "CFIC UPDATE",
       "author_name": "Jack Dolan and Aaron Rothenburger",
-      "author_title": "CFIC",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "CFIC",
       "full_text": "A direct link between campaign contributions and favoritism is the Holy Grail of campaign finance reporting. In the 1997 series \"Money and Influence,\" Milwaukee Journal Sentinel reporters Steve Schultze and Daniel Bice connected campaign contributions to preferential treatment by Wisconsin Governor Tommy Thompson. The two reporters examined records from eight state agencies, state contracts, campaign contributions and expenditures, and Thompson's phone records. The eight-month investigation revealed a startling correlation between those who gave money to Thompson's campaign and those who got lucrative state contracts. In one instance, Schultze and Bice found that Ron Van Den Heuvel, a Wisconsin businessman, donated $10,000 to Thompson's campaign fund the day before a state agency awarded him $24 million in tax-free bond financing to build a paper-manufacturing plant. Van Den Heuvel says a Thompson fundraiser asked him for the donation. The newspaper's inquiry forced Thompson to return the contribution. Shultze and Bice stated the Van Den Heuvel affair was not an isolated incident, describing donors and well-connected firms enjoying a close and mutually beneficial relationship with the Thompson administration. Readers can investigate this claim by downloading Wisconsin campaign finance data from the CFIC or by searching the Wisconsin Democracy Campaign website.",
       "summary": "An investigation by Milwaukee Journal Sentinel reporters uncovers a link between campaign contributions and preferential treatment by Wisconsin Governor Tommy Thompson.",
       "keywords": [
@@ -16,7 +16,11 @@
         "finance",
         "favoritism"
       ],
-      "topics": [],
+      "topics": [
+        "Government & Politics",
+        "Investigative Methods",
+        "Business & Economy"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -28,8 +32,8 @@
       "headline": "Homes for sale",
       "kicker": "STATS FROM PHILLY",
       "author_name": "Neill A. Borowski",
-      "author_title": "The Philadelphia Inquirer",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "The Philadelphia Inquirer",
       "full_text": "Your editor mumbles \"estate story.\" You immediately head for the door. Many reporters have little or no interest in writing about homes. Yet relevant news about the typical family's most valuable investment can make for a front-page story that has impact. This doesn't mean the filler material that tends to populate many newspaper real estate sections. The emphasis is on stories that are local and tell readers something they want to know. What can be more relevant than a story that explains trends in values of their home? Let's consider the role of the home in the United States, according to the American Housing Survey for the United States in 1995. The house is the central asset, the biggest debt, and the greatest monthly expense for countless Americans. Out of 106 million year-round housing units in the nation, 60 percent are owner-occupied. The median value of owner-occupied homes is $92,507. About six out of 10 homes have one mortgage outstanding. Seven percent have two or more mortgages and 13 percent have a home-equity loan. The median number of years to repay the mortgage is 20, with a median principal of $48,466 to go. The median monthly cost is $593. The median ratio of home value to income is 2:3. However, the home value for about 25 percent of owners is four times their income or more. Perceptions\u2014and misperceptions\u2014about trends in real estate prices can influence consumer spending and the economy. Inquirer surveys conducted study trends from 1989, and the conclusions revealed new insights when paired with Realist Inc.'s comprehensive property data. This allowed the creation of matched pairs to observe specific property price changes, thereby providing a clearer picture of real estate value changes in the region.",
       "summary": "Real estate journalism offers significant opportunities for impactful local reporting, as home values directly affect Americans' largest financial investment and can influence consumer spending and economic trends. Understanding local property value trends through data analysis provides readers with relevant information about their most valuable asset.",
       "keywords": [
@@ -37,8 +41,14 @@
         "values",
         "trends"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Business & Economy",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Realist Inc."
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -49,8 +59,8 @@
       "headline": "Trial of the century",
       "kicker": "MILLENNIUM AD NAUSEUM",
       "author_name": "Wendell Cochran",
-      "author_title": "American University",
-      "affiliation": "",
+      "author_title": "",
+      "affiliation": "American University",
       "full_text": "Nanosecond by nanosecond, the clock ticks toward the millennium and the biggest beta test in computer history - the rollover from 1999 to the year 2000. By some accounts, that first day of the new century is going to bring a silicon meltdown because millions of computers, literally, won't know what day it is. Stock exchanges, banks, airlines, government agencies, and major corporations are spending billions to make their systems compliant. The Information Technology Association of America estimates it will cost more than $50 billion to fix computers in the United States, perhaps $600 billion worldwide. Some economists have predicted that the costs of fixing computer hardware and software are so high that the U.S. economy will be thrown into a recession. Some companies and governmental bodies, apparently hoping the problem will just go away, have barely begun to figure out what the Y2K issue means to their operations. A member of Congress recently reported that some \"mission-critical\" Pentagon systems won't be fixed until 2009. Thankfully, those of us who work in computer-assisted journalism probably don't need to panic. Most of our hardware is relatively new; most of the applications we use regularly have tried to address the Year 2000 problem at least after a fashion; and most of our databases and spreadsheets don't depend on precise date calculations. However, CAR specialists are suggested to test their systems, experiment with date handling, and assess older software applications which may face more complications due to Y2K.",
       "summary": "As the year 2000 approaches, companies and governments worldwide are spending billions to fix the Y2K bug that could cause computer systems to malfunction, though computer-assisted journalists are relatively insulated from the problem and should still test their systems.",
       "keywords": [
@@ -58,8 +68,16 @@
         "compliance",
         "systems"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "hardware",
+        "software",
+        "databases",
+        "spreadsheets"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -73,10 +91,18 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Two WEB SITES TO CHECK OUT FOR YEAR 2000 COMPUTER ISSUES INCLUDE:\n\nwww.Y2K.COM\nWWW.YEAR2000.COM\n\nTHESE ISSUES HAVE FOSTERED LENGTHY DISCUSSIONS ON THE IRE AND NICAR MAILING LISTS. TO SEARCH THE ARCHIVES OF THESE MAILING LISTS BY AUTHOR, SUBJECT OR DATE, POINT YOUR BROWSER TO THE FOLLOWING WEB ADDRESSES.\n\nIRE-L: WWW.IRE.ORG/RESOURCES/IRE-L/INDEX.HTML\n\nNICAR-L: WWW.IRE.ORG/RESOURCES/NICAR/NICARL.HTML",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The article recommends two websites for researching Year 2000 computer issues and provides links to searchable archives of IRE and NICAR mailing lists where these topics have been discussed.",
+      "keywords": [
+        "Y2K",
+        "websites",
+        "archives"
+      ],
+      "topics": [
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -90,10 +116,26 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Date handling in popular CAR applications\n\nPROGRAM\tSTART DATE\tEND DATE\tTwo-DIGIT YEAR DEFAULTS\nExcel 97\tJan. 1, 1900\tDec. 31, 9999\t00-29=2000\n\t\t\t30-99=1900\nExcel 98 for Macintosh\tJan. 2, 1904\tDec. 31, 9999\t\nAccess for Windows 97\t\tDec. 31, 9999\tSame as Excel\nFoxPro\t\tDec. 31, 9999\t\nQuattro Pro 8\tJan. 1, 1600\tDec. 31, 9999\t00-50=2000\n\t\t\t51-99=1900\nParadox 8\t9999 BC\tDec. 31, 9999\t00-50=2000\n\t\t\t51-99=1900\nLotus 123\tJan. 1, 1900\t\t\nLotus Approach\t\t\t\n\nSources: Microsoft, Corel, Lotus. Note: Earlier versions of these programs handle dates differently. Check your documentation.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A reference table comparing how popular computer-aided reporting (CAR) applications handle date ranges and two-digit year defaults, showing variations in start dates, end dates, and century interpretation rules across programs like Excel, Access, FoxPro, Quattro Pro, Paradox, Lotus 1-2-3, and Lotus Approach.",
+      "keywords": [
+        "dates",
+        "software",
+        "reporting"
+      ],
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "Access",
+        "FoxPro",
+        "Quattro Pro",
+        "Paradox",
+        "Lotus 1-2-3",
+        "Lotus Approach"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -107,10 +149,19 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "WENDELL COCHRAN PROVIDES THE FOLLOWING WEB SITES OF COMPUTER COMPANIES ADDRESSING YEAR 2000 COMPUTER ISSUES:\n\nMICROSOFT: www.MICROSOFT.COM/CIO/ARTICLES/YEAR2000FAQ.HTM\nCOREL: www.CoREL.COM/2000.HTM\nLOTUS: wWW.LOTUS.COM\nINTEL: HTTP://SUPPORT.INTEL.COM/YEAR2000/PAPER.HTM\nIBM: www.IBM.COM/IBM/YEAR2000\nAPPLE: www.APPLE.COM/MACOS/INFO/2000.HTML\nCOMPAQ: www.COMPAQ.COM/YEAR2000\nHEWLETT-PACKARD: www.HP.COM/YEAR2000/INDEX.HTML\nDELL: www.DELL.COM/YEAR2000\nGATEWAY2000: wWW.GATEWAY.COM HOME/SUPPORT/c%5FTECHDOCS/Y2K/DEFAULT.HTM\nNOVELL: www.NOVELL.COM",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Wendell Cochran compiles a resource list of major computer companies and their websites addressing Year 2000 computer issues, including Microsoft, IBM, Apple, Dell, and others.",
+      "keywords": [
+        "computers",
+        "Y2K",
+        "resources"
+      ],
+      "topics": [
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -124,10 +175,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Continued from page one:\n\nat http://www.campaignfinance.org/stories/ divert.html.) According to The Dispatch, the biggest beneficiary so far of this loophole is Cleveland area state Senator Robert A. Gardner. State Republicans funneled more than $900,000 into Gardner's last campaign, or more than 90 percent of Gardner's total reciepts. A sudden, last-minute $384,000 advertising campaign paid for by the state party and \"loaned\" to Gardner may have been the deciding factor in Gardner's narrow victory. The loan was especially generous since there is no time line for Gardner to repay it, no state law that prohibits the party from simply forgiving it, and no requirement to report who repays it if it is in fact repaid. Rowland also reports that a new headquarters for the Ohio Republican Party was \"custom-designed around the state's campaign finance laws.\" The building was financed by a party trust fund that allowed corporations to exceed normal contribution limits. Rowland calls the new Republican headquarters veritable factory for in-kind contributions\" since the TV and radio ads, computer services, and direct mailings that originate in the new headquarters count as in-kind contributions to party candidates. Rowland's series also details how the Democratic and Republican national parties used Ohio's less restrictive campaign finance laws to their benefit. In 1996, the Democratic National Committee directed out-of-state contributors to send unsolicited contributions to the Ohio Democratic Party. The money is then transferred, or even sold back, to the national party. The biggest single contributor to the Ohio Democratic party in 1992 was Indonesian businessman James T. Riady, who gave $75,000 to the state party six days before President Clinton's election. The latest Ohio campaign finance data can be searched online at the Ohio Open Elections Project on the Web site of the Center for Responsive Politics (http://www.crp.org/ooepl).\n\nWhen the bureaucrats in charge of computerizing state campaign finance records settle into their customary glacial rhythm, reporters have two choices: cover well-rehearsed sound bytes and photo opportunities while waiting for an information thaw, or start a fire by building their own campaign finance database. A consortium of 29 newspapers and two TV stations in New York lit their own fire under local politicians this year when they set aside traditional rivalries to join forces and turn over 10,000 paper records into the most comprehensive campaign finance database in New York history. The result, according to Newsday's Ford Fessenden, was blizzard of stories\" putting state politicians on notice that the public is interested in their campaign finances. A telling example of the impact: A couple of years ago, a Newsday reporter noticed that the paper contribution reports from Governor Pataki's office came sorted alphabetically by the contributor's first name. Suspecting a computer was used to generate that order, the reporter called Gov. Pataki's press secretary, Zenia Mucha, to ask for the governor's campaign contributions in electronic form rather than on paper. Mucha laughed at the reporter. Today, after hundreds of stories on state campaign finances generated by consortium members, Pataki files contribution reports electronically.\n\nCFIC offerings\n\nThe CFIC library, located online at www.campaignfinance.org/stories/index.html, is an archive of local, state and federal articles that use campaign contribution reports to \"follow the money.\" The library also serves as a complement to the CFIC's online databases of state campaign finance contributions. The three investigative series described above are just a few of the excellent examples of how campaign finance data can enhance state and local political reporting. If you have a relevant article or series to submit to the CFIC's growing repository of stories, or if you know of an article or series that should be submitted, contact Jack Dolan at jack@nicar.org or Noemi Ramirez at noemi@nicar.org, or call (573) 884-1802. Jack Dolan can be reached by email at jack@nicar.org. Aaron Rothenburger can be reached by email at aaron@nicar.org\n\nSEE PAGE 15 FOR TIPS ON CREATING CAMPAIGN CONTRIBUTION DATABASES FROM PAPER RECORDS. THE TIPS ARE WRITTEN BY DIANE RENZULLI OF THE CENTER FOR PUBLIC INTEGRITY.\n\nTHE WEB SITE FOR THE CAMPAIGN FINANCE INFORMATION CENTER IS A VALUABLE RESOURCE FOR ANYONE INVESTIGATING CAMPAIGN FINANCES.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A detailed investigation by The Dispatch reveals how Ohio's campaign finance laws have been exploited by both state and national political parties, with examples including Senator Robert Gardner receiving over $900,000 in party support and a custom-built Republican headquarters designed to maximize in-kind contributions.",
+      "keywords": [
+        "campaign",
+        "loophole",
+        "contributions"
+      ],
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -141,10 +202,21 @@
       "author_title": "",
       "affiliation": "Dateline NBC",
       "full_text": "For FoxPr 2.6 fans wondering whether to jump to Visual Fox, here's one reason: you can handle time without any fancy programming.\n\nThat's because Visual Fox includes a date time data type. It's separate from the old date data type, which remains in the newer versions. And along with the new category come some handy functions. Here's an overview with tips to get things done faster and avoid mistakes.\n\nConverting your data\n\nLet's assume you want to convert data stored as character. You can create a new date time field by taking your mouse to Table Properties and modifying the structure. After inserting a new column, go to data type and pick date time. That's a choice you didn't have in earlier versions of Fox. Now go back to your command window. To bring in data from a character column, you'll need to use the character-to-time function ctot(). Let's look at how it works.\n\nLet's say you're starting with three separate character columns, one with dates, another with times, and a third designating a.m. or p.m. Pretend this is part of a database showing the times that city officials made telephone calls:\n\nCALLDATE\tCALLTIME\tAMorPM\n12/31/95\t12:45\tAM\n09/14/60\t7:35\tPM\n01/10/60\t7:40\tAM\n10/8/96\t11:35\tAM\n\n(Notice the data is a little inconsistent. Sometimes you've got a leading zero in your day or time. Sometimes you don't. It doesn't matter - Fox will cut you slack. You also won't need to trim any leading spaces.) In this example, we'll pretend you've created a new date time column called CALLTIME.\n\nNow we're ready to use the ctot function. Have no fear. It should be familiar territory to anyone who's messed with Fox functions. To fill in the times in the new column, run this command:\n\nReplace all CALLTIME with ;\nctot(CALLDATE + CALLTIME + AMorPM)\n\nThe result should look something like this:\n\n12/31/95 12:45:00 AM\n09/14/96 07:35:00 PM\n01/10/97 07:40:00 AM\n10/08/96 11:35:00 PM\n\nAnd you're done converting your data.\n\nMissing or bizarre entries\n\nIf, for some reason your data includes a time that cannot exist, like 25:00, the replacement for that record won't work. Nothing will be inserted. The same goes for an invalid date, even if you have a valid time. Nothing will be inserted. However, if you have a valid date and nothing in your time field, Fox will insert the date plus 00:00:00, which is midnight. And, if you have a valid time but no date, Fox will insert 12/30/1899. (If you forgot how to see what century it is, simply type in your command window: SET CENTURY ON.) If these seem like boring details, keep in mind that this can mean the difference between a query that gets a right or wrong answer.\n\nHow do I look?\n\nThe default setting shows time with seconds. If you don't like this - your data doesn't have seconds and you don't like looking at all those zeros - type SET SECONDS OFF in your command window. Away go all those pesky :00s.\n\nIn addition, you may find it easier to ask some questions by using military time. That's where the clock goes all the way to 24:00 and you no longer need a.m. or p.m. To do that, type SET HOURS TO 24. Now everything will be in military time. Then again, if you hate seeing things in military time, the opposite command is SET HOURS TO 12.\n\nA query sampler\n\nLet's say you want to find all calls after 2 p.m. on Sept. 12, 1996, when a big piece of legislation was introduced:\n\nSelect * ;\nFrom PhoneCalls ;\nWhere CALLTIME > { 9/14/96 14:00}\n\nHere you need to use the curly braces, the same way you needed them for the original date data type. Let's say you want to find all calls between p.m. on Sept. 12, 1996, and 10 a.m. on Jan. 15, 1997, when the big piece of legislation finally came up for a vote:\n\nSelect * ;\nFrom PhoneCalls ;\nWhere between (CALLTIME, {9/12/96 14:00}, {1/15/97 10:00}\n\nAgain, you need to use the curly braces. Now let's say you want to find out who's so important that the mayor is calling after 10:00 at night. If you have things set to military time, the query is simply:\n\nSelect * ;\nFrom PhoneCalls ;\nWhere hour(CALLTIME) > 22\n\nNotice that when you use the hour() function, the criteria is numeric. You don't need any punctuation, like quotes or curly braces.\n\nTime differences\n\nLet's say you have the starting time of a phone call and the ending time, and you want to know how long a city council member called that 900 number. Remember that the date time data type answers with the number of seconds - even if you've set seconds off. So if you want your answer in seconds, don't do a thing. If you want it in minutes, divide by 60. In hours, by 3600. And so on. For example:\n\nSelect , (ENDCALL - BEGINCALL) / 60 as CallLength ;\nFrom PhoneCalls\n\nThis will tell you the call's length, in minutes. Notice that you need to put the EndCall - BeginCall in parentheses. The reason that must be done is to first generate the difference a result that will be numeric and can then be divided by 60.\n\nLet's say that, for some reason, you have one column as a date field, and another as a date time field and you want to find the difference between them. Let's say it's an arrest database. The date field is Birthday, and the date time field is Arrested, noting when someone was busted. For this mixing and matching, you can use the ttod() function. Here's an example. (This time, dividing converts our answer into years, to see how old they were when arrested):\n\nSelect (ttod(Arrested) - Birthday) /365.25 as ArrestAge ;\nFrom Crimes\n\nCatching nulls\n\nRemember in the section on missing and bizarre entries? Let's say you want to find an instance when no data is in the field. There are two ways to do that: with the isblank or empty() functions. The isnull() function will not work because Fox has yet to allow true null designations for these cases. So here's an example to catch them:\n\nSelect * ;\nFrom PhoneCalls;\nWhere empty(EndCall)\n\nAnd, since you know what Fox inserts when you have a valid time but no date, or vice versa, you can run filters to catch or ignore those entries.\n\nWatch out! A caution about averages\n\nRemember how Fox will convert proper days with no time (by adding midnight) or no days with proper time (by assuming the day is 12/30/1899)? Well, don't forget that can screw up any summary calculations. For some reason, Fox will consider empty entries when running averages unless you tell it otherwise. Regardless, be careful to filter for these kinds of values if you don't want to include them.\n\nAndy Lehren can be reached by e-mail at alehren@nbc.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Visual FoxPro 2.6 users can benefit from upgrading to Visual Fox to access a dedicated datetime data type with built-in functions for easier time and date handling. The article demonstrates how to convert character data to datetime format using the ctot() function and explains how to handle missing or invalid entries.",
+      "keywords": [
+        "datetime",
+        "conversion",
+        "functions"
+      ],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Visual Fox",
+        "FoxPro 2.6"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -158,10 +230,21 @@
       "author_title": "",
       "affiliation": "San Jose Mercury News",
       "full_text": "Jennifer assumed that the press needs access to government databases. seems a little cocky.\n\nI recently spoke at a conference for the organization for federal FOIA Officers (called ASAP). Although my evaluations varied, the above comment stood out for me:\n\nThe battle for records access is heating up. It is no longer a given that government records are easily available. The hurdles are many, but three key problems that are more frequent and of grave concern include:\n\nPrivatization of records: Government agencies are more frequently having private companies maintain their databases. It makes access more difficult and muddies the definitions of what is owned by the public. Sometimes government agencies themselves have problems getting data in these situations.\n\nEscalating costs for records, particularly electronic records, which prevent or greatly delay a news organization's ability to gain access to records.\n\nViolating public records laws in the name of protecting the privacy of citizens. In many states, the courts have flipped public records laws on their heads. They make it the burden of news organizations to show public interest over privacy, which was not the intention of those laws.\n\nAlthough there is a lot of hype about how the Internet is causing everyone's privacy to be invaded (just like cable television was when I was younger), the public doesn't always agree with government's protection. At a recent Mercury News brown bag with readers on a totally different topic, readers spoke up about how they want their newspaper to get access to government records. They even volunteered to get a packet of letters together in support of public records access. If not for ourselves, we owe it to our readers to demand access to government records.\n\nIs it our fault?\n\nRather than dwell on the usual ways government agencies bamboozle reporters into thinking they shouldn't have access to data, let's think about some of the things we do or don't do when it comes to public records.\n\nCover citizen's access battles. We don't do very many stories about how citizen's can't get records or how one government agency can't get information from another.\n\nCover how candidates stand on public records. How many know how your local candidates stand on public records? Did your legislators vote for the Drivers Privacy Protection Act?\n\nDo we follow legislation that affects open records? Do a search of legislation in your state to find those affecting your state's open records act - you might be surprised.\n\nProvide information for readers about how to get information. Once a year the American Society of Newspaper Editors does a project called \"Your Right to Know\" where they provide information to newspapers (and encourage papers to do their own work) on open records. What else could you do?\n\nDo reporters follow through with requests and make agencies accountable? Or do they get tired of asking and move on to something else? We are all guilty of giving up some fights - but that sends a message to government agencies that they've \"won.\" If you don't have legal help at your newspaper, and you've tried every means yourself - contact IRE's access committee or your local SPJ chapter.\n\nDuplicate the Indiana Project. Seven newspapers in Indiana did an audit of government records in their state. Search the Indiana CAR www.ire.org information on this project.\n\nGuidelines to request records\n\n1. Know the law. Know how FOIA/open records law treats the information you're requesting and what the exemptions are. If there are exemptions, the agency must be able to cite them.\n\n2. Know what information you want. Don't ask an agency to provide you everything they have. Make your request specific. It's likely that a reporter may need the actual data that was used for a report. Before asking for the data, request the record layout for that database. Documentation is available under the law.\n\n3. Know how the information is kept. Try to find someone in the information systems department at an agency who knows. This is not to avoid the public relations person you're dealing with, but sometimes it's necessary to talk nerd-to-nerd. Reporters using computer databases are actually quite computer-savvy.\n\n4. Know what the appropriate cost should be. You really should have to pay only duplication costs. Ask for an itemization for those costs. This is an area that gets difficult when an agency has a set price for databases.\n\n5. Know the source of the data - be familiar with how the records are created.\n\n6. Know who administers the data. The person in charge of the database can be helpful for understanding the data.\n\n7. Get hard copy summary reports. This will give you a way to check your data.\n\n8. Know how many records or pieces of information are in the database. When you get the database, make sure you have the right number of records.\n\n9. Know how large the database is. You don't have to know a lot of technical jargon. Most PCs will hold at least 250 megabytes of information or roughly 250 million characters. If they say the file is 900 megabytes, you won't be able to do much with it unless you find a computer a bigger hard drive. Most newsrooms have the capability of reading nine-track tapes from mainframes and many other data formats.\n\n10. Confidential information. A government agency may claim that certain pieces of the information are confidential. There very well may be confidential information in the file, but that doesn't mean you shouldn't get the rest of it.\n\n11. Involved with local group meetings of software users. These groups bring together folks from all different disciplines who work together to solve problems and share tips.\n\nNon-viable denial\n\nThe previous guidelines are all dandy, until you actually go to ask for the data. Many times you'll run into reasons why an agency give you information, probably because 8 out of 10 reporters will just say \"oh, okay\" and go away. Here is a sample of reasons I have received for why an agency cannot fill my request:\n\nListen Missy (yes, this really happened): Our database is very complicated. You probably won't understand it. Most newsrooms have the capacity to handle very large and complex databases. If you're not dealing with someone who knows the data, you need to.\n\nOur computer system can't do that. This is unusual for any database system. It may take talking with the software vendor to figure out the best option for both sides.\n\nThe person that knows how to do that is on vacation for two weeks/doesn't work here anymore. This is a problem.\n\nIt will cost you $20,000. Ask for an itemized estimate of charges. Remember that the list of other recipients of the data and what those recipients paid is available under FOIA.\n\nThe database is not public record. The burden is on the agency to show where in the law that information is not public record. If you have done your homework, this should be less of a problem.\n\nWe don't like what you plan to do with it. Interesting. On the other hand, when you're able to cooperate with an agency, they frequently can help point you in the right direction.\n\nThe database contains confidential information. Everyone needs to do their homework on this one. Redacting with a computer is possible just like on paper with a black marker.\n\nWe don't keep that on computer. Although this is true in some cases with smaller jurisdictions or small offices federal organizations, it's uncommon.\n\nIf we give it to you, we'll have to give it to everyone. So what's the problem with this.\n\nThat uses proprietary software. You don't want software, you want the data. This may require getting together with the vendor.\n\nWe don't mind giving you a few records, we just don't want to give you the whole database. To which the judge asked: You mean if they wanted one record from one person it would be okay? Their answer: depends on the person.\n\nVisit these relevant Web sites:\n\nAmerican Society of Newspaper Editors \"Your Right to Know\" project: www.asne.org/ideas/rtk/rtkmain.htm\n\nFreedom of Information Center: www.missouri.edu/-foiwww\n\nReporters Committee for Freedom of the Press: www.rcfp.org\n\nJennifer LaFleur can be reached by e-mail at jlafleur@sjmercury.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A journalist argues that news organizations must demand access to government records, highlighting obstacles like privatization, escalating costs, and privacy concerns, while also questioning whether the media adequately covers public records issues and holds government accountable.",
+      "keywords": [
+        "records",
+        "access",
+        "government"
+      ],
+      "topics": [
+        "Government & Politics",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -175,10 +258,23 @@
       "author_title": "",
       "affiliation": "St. Petersburg Times",
       "full_text": "Searching the Web with pizzazz and aplomb requires going beyond (yawn) plain Boolean.\n\nBy some estimates, the Web contains more than 150 million pages-some 50-60 billion words. (Let's not get too picky over the \"exact\" size. The point is the Web is huge and growing exponentially. It's time to learn advanced searching tips and tricks and to keep current with searching advancements.)\n\nIf you're still doing searches only with plain \"and\" and \"or\" connectors/operators, you must love to plow through junk hits. Since search engines and directories offer some of the same advanced Boolean logic options available in Nexis, Dialog and DowJones, why not take advantage to save time and frustration?\n\nSerendipity has its place in any searcher's toolkit, but when you're on deadline-or just not in the mood to plow-try focusing your search with supercharging techniques.\n\nSample supercharges\n\nMaking sure \"and\" means AND!\nAdd a (plus) sign in front of each word you absolutely want to include in the results: +pet+care finds both pet+care finds 'care\" and may find \"pet\"\nProximity: \"phrase\" and \"near\" searches Add quote marks around words you want to search as a phrase: \"pet care\" looks for both as a phrase \"+pet+care\" finds both as a phrase pet near care looks for \"pet\" within a certain number of words of \"care\"\n\nOrder can make a difference Change the order of your search terms to adjust the weight assigned to each part: breeders and title:\"maltese\" may find different results than title:\"maltese\" and breeders\n\nTest your searching savvy\n\nAlta Vista (http://www.altavista.digital.com)\nI'll either use this or Yahoo (http://www.yahoo.com) to start a Web search quest. The advanced search page \"Help\" area reveals one of the most comprehensive tip sheets out there. Run the same query on the simple and advanced pages and you'll get different results. Search words are automatically weighted on the simple page-you're in charge on the advanced page. Caution: If you don't specify a word to sort by, the advanced results will be in no particular order.\nFindLaw - Internet Legal Resources (http://www.findlaw.com)\nDejaNews (http://www.dejanews.com) The best place to search Usenet newsgroup postings, including complete threads.\nCalifornia State University at Stanislaus (http://www.library.csustan.edu)\nLinks to search engines maintained by librarians.\nLycos (http://www.lycos.com) Search for pictures or sound files through the drop-down menu. Pro search help area has a link to \"Web Guides.\" Choose \"Education\" and browse the \"Reference\" link to locate electronic favorites.\nHotBot (http://www.hotbot.com) The form-based interface looks simple to use, but spend some quality time checking out the options since documentation is lacking. The \"Browse by Category\" area has a unique cascading interface. Check out the \"Reference\" link to see the effect.\n\nInfoSeek (http://www.infoseek.com)\nThe tip sheet is a fast scan, the interface is simple, and the results come back at rocket speed.\nThe Virtual Reference Desk (http://thorplus.lib.purdue.edu/reference/index.html)\nI know this is not a search engine or directory, but I couldn't help myself. This page is so wonderful, it will convince any jaded journalist that the Web is a tool that belongs at everyone's desk!\nMagellan (http://www.mckinley.com) Simple to use. What's best about this site is the \"Find Similar\" link on the results page. This feature helps you modify your original search with one click. Reviews are also included.\nExcite (http://www.excite.com)\nOnce you get a results page, the \"List by Web site\" feature is a handy way to look the top 40 hits as multiple links from the same site address are grouped together for easy evaluation. The \"More Like This\" link on the results page is a quick way to modify a strong link for further results.\nWebCrawler (http://www.webcrawler.com)\n\nFast and simple to use. The \"Similar Pages\" feature on the summary results page helps to focus the next search. Choose between \"titles\" or \"summaries\" for display options. Don't have enough time to check out all the links? Save the page in HTML format and explore them later!\n\nReference.com (http://www.reference.com)\n\nMetasearch sites\n\nInternet Sleuth (http://www.isleuth.com) Allows you to search one-six engines/directories at a time and completes the task in seconds, but the results display takes time. The interface also likes the lowest-common-denominator search strategy, which frequently limits what you are looking for to plain Boolean. The service indexes only links to what it considers \"searchable databases.\"\n\nAll4One (http://www.all4one.com)\n\nSearch four engines simultaneously: AltaVista, Lycos, HotBot and Excite. Each engine is displayed in a frame taking up a quarter of the screen.\n\nHighway61 (http://www.highway61.com)\n\nThis is a down-to-earth site, and when you get there, you'll see why. It searches six engines at once: Excite, Infoseek, Lycos, WebCrawler and Yahoo. The display intermingles the results and ranks each hit on a scale of 100. Response time is fast.\n\nMetaCrawler (http://www.metacrawler.com)\n\nSearch six engines at once: Excite, Lycos, Yahoo, WebCrawler, Vista and Infoseek. The display is intermingled, and the results are ranked by confidence level on a scale of 1,000. Check out the \"MetaSpy\" link for a fun, red-light district of what other folks are searching for. Response time is extremely fast.\n\nProFusion (http://www.designlab.ukans.edu/profusion)\n\nSearch nine sites, including Excite, AltaVista, WebCrawler, Lycos, Magellan, Infoseek and Yahoo. You can ask the site to pick the best three, the fastest three, or all nine. The interface is very thorough and user-friendly. Ranked results are displayed by title and URL only.\n\nDogpile (http://www.dogpile.com) Quickly search 13 Web engines and directories, four Usenet newsgroup sources, and 2 FTP archives including Filez (http://www.filez.com). Results are displayed ordered by the engine where they were found. This is my top pick for metasearch sites.\n\nVerio MetaSearch, previously known as OnRamp (http://search.verio.net)\n\nSearch eight sites including Excite, HotBot, Infoseek, Lycos, WebCrawler and Yahoo. Be sure to read \"About\" and \"Origins,\" then go to the advanced search area and experiment with the weight options very cool! BONUS SITE: Search Engine Watch (http://searchenginewatch.com) This is your homework!\n\nDebbie Wolfe can be reached by email at dpwolfe@sptimes.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Advanced web search techniques using Boolean operators and specialized search engine features can significantly improve search results and save time by reducing irrelevant hits. The article provides examples of supercharging searches through phrase matching, proximity searches, and weighted terms, along with recommendations for major search engines of the era.",
+      "keywords": [
+        "search",
+        "Boolean",
+        "techniques"
+      ],
+      "topics": [
+        "Technology",
+        "Journalism & Newsroom",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "Nexis",
+        "Dialog"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -192,9 +288,16 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Boolean Logic Primer\n\nOR broadens the results AND narrows the results NOT narrows the results\n\ncontain at least one item)* contain all items) (results must contain A & B but no C's)\n\nA or B or C A and B and C (A and B) not C\nhurricane or surge or damage hurricane and surge and damage (hurricane and surge) not damage\n\n* An \"OR\" search would look for \"hurricane\" or \"surge\" or \"damage\" or any combination of the three words. In the illustration above, the results indicate every possible result except the combination of all three words.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "A primer explaining how Boolean logic operators (OR, AND, NOT) work to broaden or narrow search results in databases and search engines.",
+      "keywords": [
+        "Boolean",
+        "search",
+        "operators"
+      ],
+      "topics": [
+        "Technology",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -209,10 +312,21 @@
       "author_title": "",
       "affiliation": "Times-Picayune, St. Louis Post Dispatch, The Morning Call",
       "full_text": "\"The Ten Commandments of Building Your Own Database\"\n\n1. Use the computer as a source.\nThe most compelling stories can be put together with readily available information that merely needs to be organized and examined. Such records include standardized test scores available to every parent, traffic tickets, lawsuit records, public contracts, campaign finance reports, city/county school budgets, personnel files, public official voting records, billing records, check files.\n\n2. No amount of data is too small an amount.\nHow big does a story have to be before you plug data into a spreadsheet or database? The answer: \"smaller than you'd think.\" Reporters love to say, \"We analyzed a gazillion records and found\" That is well and good, but you can add meat to almost any story - and improve chances of landing on Page One - by plugging a dozen records into a spreadsheet.\n\n3. Don't be discouraged if you have to do it the hard way.\nSure, it's great when there is a ready-made database waiting to be analyzed for investigative stories and a cooperative public official willing to share it. That's not always the case. Besides, if the agency keeps records on a database, the target is already ahead of you. Chances are, if you're the first person who ever took a look at the numbers, there's a good story to tell. If the agency can't analyze its own data, it has no idea what's really going on.\n\n4. Think about the best way to get data before you go and get it.\nA low profile works best when you're taking on a new target. You don't want to give them time to circle the wagons and take action that would kill your story. So, find out if they release the data to the general public in some fashion and then get those reports acting as Joe Citizen. It's more work, but no one will know what you are up to.\n\n5. Organize your data before you analyze it.\nThink about the questions you want your data to answer before you start working on your spreadsheet, and then customize the columns to fit your needs. Think in terms of yes/no questions. Find ways to create numbers that will allow you to rank your data.\n\n6. The \"sort function\" is your friend.\nThe sort function may sound boring, but it isn't. It is the most powerful key on the computer when it comes to CAR. Do you want to find out who made the biggest campaign contributions? Or which school had the largest test-score swings? By sorting the data, you'll often find your most powerful anecdotes.\n\n7. Keep your data consistent.\nIf you're doing a column of people's names, always put the last name first. Don't use 9 and nine. Don't do anything that will make it harder to rank or sort data or to find data that matches.\n\n8. Double-check the data.\nYou need to be bullet proof. Mistakes are deadly. They give your target a chance to discredit your research.\n\n9. Do it yourself whenever possible.\nSometimes you have no choice about who inputs the data: there is simply too much to handle by yourself or with another reporter. But whenever possible, type in the data yourself. Two advantages: you see stuff you wouldn't have found otherwise, and you eliminate the errors that other people with much less invested in the story are going to make.\n\n10. Buy yourself enough time.\nEditors think CAR is easy. It's your job to make sure they know you're going to spend two weeks doing nothing but punching numbers into a spreadsheet. And then maybe another week checking your work and playing with the data before you're ready to make a single phone call. Tell them up front. You need to sell them on WHY there's no other way to do it.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A guide to building databases for investigative journalism, emphasizing that reporters can use readily available public records and even small datasets to uncover compelling stories by organizing, analyzing, and carefully verifying the data.",
+      "keywords": [
+        "database",
+        "investigation",
+        "records"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "spreadsheet",
+        "database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -224,12 +338,22 @@
       "kicker": "HANDOUTS OF THE MONTH",
       "author_name": "Diane Renzulli",
       "author_title": "",
-      "affiliation": "Center for Public Integrity",
+      "affiliation": "Public Integrity",
       "full_text": "Tips for Creating Campaign Databases from Paper Records\n\nStart small\n\nDon't take on the whole state legislature on the first try. State legislators in leadership positions, committee chairs, or candidates from local races are much more manageable subsets.\n\nStaffing\n\nMore people does not mean better data quality.\nIf you can, avoid in-house data entry for major projects.\nIf you can't, test potential data-entry personnel for attention to detail before hiring them.\n\nGathering the data\n\nMake friends with the staff at the local elections board.\nCreate an index of the candidates you want to include in your database.\nKeep copies of the records on site.\n\nData entry\n\nUse a double-entry system.\nGive each contribution a unique identification number that allows you to quickly retrieve it in paper form.\nEnter the name of the contributor exactly as it was written on the campaign records, even if it is incorrect.\n\nEditing the data\n\nKeep both an \"edited contributor\" and an \"original contributor\" field in your database.\nTo identify which acronym belongs to which organization, sort your database by address.\nNever guess. If a contributor has two different addresses, confirm that it is the same person or organization.\nIf family members give from the same address, you can combine them by using an \"and/or\" notation in the \"edited contributor\" field.\n\nCoding contributions\n\nCode contributions AFTER the database has been edited.\nUse the Center for Responsive Politics coding system.\nAvoid identifying organizations by name only.\nCreate a field on the database that lists your source for the coding.\nAfter coding, sort by industry code and check for mistakes.\n\nIdentifying individuals\n\nPrioritize. Identify top donors first.\nAlways confirm that an individual at two different addresses is the same person. Call them directly if you need to.\nIf your state or locality doesn't require employer or occupation information, you can match the following with your database:\n- lists of professionals regulated by state agencies\n- information from a CD-ROM telephone directory (for example, ProCD)\n- local companies' board of directors and officers\n- local companies' contributors to state and federal PACs\n- your newspaper's press files\nSort your database by address to find individuals who work at a particular organization.\nCreate a field in the database for the initials of the staff person who identified the individual.\nIf you're in a state or locality that mandates employer or occupation information by law, contact the campaign for more information on unidentified donors.\n\nFact checking\n\nCheck your database with the candidates' cover pages. If the totals for a candidate don't match your database, check each contribution individually.\nTreat your database suspiciously before writing your story: sort, sort, and sort some more.\nIf you are using a campaign database provided by the state, first check it with paper records to ensure its accuracy.\n\nFinal note\n\nWhile you should do everything you can to ensure your database's accuracy, don't let the idea of the \"flawless\" database control you or your project.\nDiane Renzulli can be reached at (202) 783-3900 or by email at drenzulli@publicintegriy.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This article provides comprehensive guidance on creating accurate campaign databases from paper records, covering essential steps from data gathering and entry through editing, coding, and fact-checking to ensure data quality and integrity.",
+      "keywords": [
+        "database",
+        "campaigns",
+        "records"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -241,12 +365,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Indiana CAR Audio Tapes\n\nAudio tapes from the sessions at Indiana CAR are now available for ordering. For more information or an order form, point your browser to www.ire.org/recource/ricari conferences/indianalaudio.html Audio tapes from the IRE National Conference in New Orleans are also available from Sound Images, which can be reached at (303) 649-1811 or by email at sitapes@aol.com\n\nCampaign Finance Information Center\n\nCampaign finance data from thirteen states is freely downloadable from the CFIC at www.campaignfinance.org. We also have links to twelve online search engines hosted by other non-profits and state boards of election. We will soon release our \"universal\" online search engine so you can type in a contributor from your state and see where else they are giving.\n\nThe more inclusive this database, the better for everyone. So, if you have state or local campaign data you want included, contact CFIC Coordinator Jack Dolan at jack@nicar.org or (573) 884-1802. The CFIC credits everyone who contributes data.\n\nSubscribe Online\n\nYou can now subscribe to Uplink online. Point your browser to www.ire.org/resources/nicarluplink\n\nMoving On\n\nBill Loving recently moved from the Minneapolis Star Tribune to the Los Angeles Times. He can be reached by email at bill.loving@latimes.com. If you have switched locales, please let us know. Contact Brent Johnson at bjohnson@nicar.org.\n\nNew Deputy Director at IRE\n\nLen Bruzzese has joined IRE as its new deputy director. Bruzzese comes to IRE after serving as the editor of The Olympian, an award-winning state capital daily in Olympia, Wash. Bruzzese will oversee IRE's publications, its World Wide Web site, its resource center and the Campaign Finance Information Center. He also will assist in the administration of IRE and its conferences.\n\nInternational Investigative Reporting\n\nA new $20,000 award recognizing the best international investigative reporting in the world has been announced by the Center for Public Integrity. The award, part of the Center's new International Consortium of Investigative Journalists (ICIJ), will go to a journalist or team of journalists who have demonstrated excellence in transnational investigative reporting during the previous year.\n\nENTRIES MUST BE POSTMARKED BY AUG. 15. For more information on the award, including how to apply, visit the ICIJ Web site at www.icij.org or call (202) 783-3900.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A journalism newsletter covering resource availability for investigative reporters, including audio tapes from conferences, campaign finance databases, staff announcements, and a new international investigative reporting award.",
+      "keywords": [
+        "conferences",
+        "database",
+        "award"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "World Wide Web",
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

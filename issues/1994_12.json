@@ -10,9 +10,16 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Many journalists still think of computer-assisted reporting as long-term, tree-eating (at least for newspapers) projects. But this month's Uplink highlights how computer-assisted reporting can be used for beat and deadline reporting.\n\nRalph Frammolino of the Los Angeles Times shows how quickly a database manager can help a reporter get the scoop and beat the competiton on a story everyone else is covering.\n\nPaul D'Ambrosio writes about the non-stop CAR stories the Asbury Park Press produces, while Bill Dedman of AP and Richard Mullins of NICAR recount the tribulations and triumphs of supplying AP bureaus nationwide with federal campaign finances.\n\nAnd, for the beat, Gwen Carleton offers a review of some of the year's best CAR crime stories.\n\nSee you on the net at nicar@muccmail.missouri.edu or on our listserv located at nicar-.missouri.edu.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "This Uplink newsletter highlights how computer-assisted reporting (CAR) can be used effectively for beat and deadline journalism, featuring examples from reporters at major news organizations who use databases to break stories quickly and cover ongoing beats.",
+      "keywords": [
+        "reporting",
+        "databases",
+        "journalism"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -52,11 +59,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "Coming Events\n\nJanuary 8-13, 1995 NICAR Seminar Columbia, Missouri\n\nMarch 12-17, 1995 NICAR Seminar Columbia, Missouri",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "This is a schedule of upcoming NICAR (National Institute for Computer-Assisted Reporting) seminars being held in Columbia, Missouri during January and March 1995.",
+      "keywords": [
+        "NICAR",
+        "seminars",
+        "Columbia"
+      ],
+      "topics": [
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -136,10 +149,23 @@
       "author_title": "",
       "affiliation": "compuserv.com",
       "full_text": "Social stats on the Net\n\nInterested in degrees of freedom? What about range values? Is multivariate data analysis your cup of tea? Let's be serious: How about a novice's questions about reliabilities?\n\nYou can find these topics and hundreds of other statistical bran muffins on an active newsgroup at the following e-mail address:\n\nsci.stat.consult. It's full of serious statisticians as well as us novices who need a helping hand now and then.\n\nHere's several other valuable resources on statistical conundra:\n1. CUSSNET, short for Computer Users in the Social Sciences. It's a discussion list devoted to social workers, counselors, human service workers and others interested in computer applications and research. To get on the list, send a message to LISTSERV@stat.com and in the body of the message type, SUBSCRIBE CUSSNET. To contribute an article, send it to CUSSNET@stat.com.\n\n2. STAT-L is an unlisted mailing list. It appeals to anyone interested in statistics. To subscribe, send e-mail to LISTSERV@MCGILLI.BITNET (or LISTSERV@VM1.MCGILL.CA). Digests of the contributions can be found in the newsgroup sci.stat.consul\n\n3. EVALTEN, short for Evaluation Center's Topical Evaluation Network on Methodology and Statistics, is another mailing list. This one primarily works with statistics and mental health. To subscribe, send e-mail to Majordomo@world.std.com. In the body of the message, type SUBSCRIBE EVALTEN. To contribute articles, send them to EVALTEN@world.std.com\n\nI am 95 percent certain that the average computer-assisted reporter out there will find something useful the online resources mentioned above. -Dan Browning (70343.2713@compuserv.com).",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A guide to online newsgroups and mailing lists focused on statistics and social science research, including resources like sci.stat.consult, CUSSNET, STAT-L, and EVALTEN where journalists and professionals can find statistical expertise and discuss methodology.",
+      "keywords": [
+        "statistics",
+        "newsgroups",
+        "resources"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "newsgroup",
+        "e-mail",
+        "mailing list"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -153,8 +179,12 @@
       "author_title": "",
       "affiliation": "University of Missouri",
       "full_text": "There really is something useful that a DOS command can do for you, even if you use Windows all the time because you hate typing DOS commands.\n\nComputer hard drives can quickly become like attics or neglected closets. They fill up with so much stuff that we forget what's there and waste a lot of space with stuff we don't need any more or files that are duplicated unknown times in subdirectories all over the place.\n\nWhat if we could inventory all the files on a hard drive into one sorted text file that could be viewed with a text editor or printed? The DIR command, plus a few options, will do it. Many DOS users are familiar with the use of /p or /w after a DIR command. These switches, as they're called, pause the output of the DIR list every screenful or arrange the output horizontally. The following disk inventory command will use three options you may not have used before. Here's the command. Change to the root directory first (cd/), then type: dir /on /s /a-d > disklist.txt\n\nIt may take a minute to finish, and you won't see anything on your screen while it's working, but that's it. Here's the explanation: The first option /on - orders the directory output by name. Use /oe if you want to order files by extension, /od by date, /os by size. The second option /s - gets the directory output for all subdirectories. That's why you have to do the command from the root directory of the drive.\n\nThe third option /a-d - means show only files, not directory names, which you normally see in a DIR output. We exclude them here because they would be redundant. Every subdirectory in the output will have a full path heading.\n\nTo understand this one, remember that DOS considers directories as a special kind of file. Translated more exactly, this option means: include files that don't have the directory attribute. \"Slash A\" (/a) introduces the attribute option; \"Minus d\" (-d) means \"not directory.\"\n\nThe greater-than sign (>) is the redirect sign. If you leave this part off, you'd see the directory output rush by on the screen without stopping. Redirecting the output from the screen to a file (here called disklist.txt) gives you something a little more permanent you can view or print.\n\nOne more tip: If you want a quick reminder on any DOS command, don't fumble for your manual; the answer is already on your computer if you have DOS 5.0 or higher. You can find the short documentation on any DOS command by typing the command word, followed by /?\n\nFor example: copy /?\n\n- Richard Mullins can be reached at (314) 882-2127.",
-      "summary": "There really is something useful that a DOS command can do for you, even if you use Windows all the time because you hate typing DOS commands. Computer hard drives can quickly become like attics or neglected closets.",
-      "keywords": [],
+      "summary": "A DOS command technique using DIR with specific options can create a comprehensive, sortable inventory of all files on a hard drive and save it to a text file for easy viewing or printing.",
+      "keywords": [
+        "DOS",
+        "directory",
+        "files"
+      ],
       "topics": [
         "Technology"
       ],
@@ -172,12 +202,20 @@
       "headline": "Milliron joins Gannett",
       "kicker": "",
       "author_name": "",
-      "author_title": "",
-      "affiliation": "",
+      "author_title": "Special Projects Editor for Computer-Assisted Reporting",
+      "affiliation": "Gannett News Services",
       "full_text": "David Milliron has joined Gannett News Services as its Special Projects Editor for Computer-Assisted Reporting.\n\nMilliron - who comes from the Fort Myers (Fla) News-Press, where he was police/database reporter - will coordinate database reporting efforts for GNS and assist USA TODAY and Gannett journalists in their computer and data-gathering efforts. Milliron is available to conduct training at Gannett newspapers, and can be reached at (703) 276-5805. He is a graduate of the University of Florida, Gainesville.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "David Milliron joins Gannett News Services as Special Projects Editor for Computer-Assisted Reporting, where he will coordinate database reporting efforts and provide training to USA TODAY and Gannett journalists.",
+      "keywords": [
+        "journalism",
+        "database",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -219,12 +257,21 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR now has 1994 FBI records, available either for the whole nation or individual states. The database is divided into five tables: Return A, listing numbers of crimes committed in a number of categories; Supplement to Return A, listing more details about the crimes (especially types and dollar amounts of property crimes); Supplemental Homicide Report, listing the victims and offenders in homicides (this also includes victim/offender data on other crimes); Police, listing assaults and homicides of police officers; and Arson, listing reported and proven instances of arson.\n\nNICAR also has Federal Death records from the Social Security Administration and data from the Federal Bureau of Alcohol, Tobacco and Firearms. SSA Death Records comprise almost 50 million deaths dating from 1937. The SSA collected the records from Social Security rolls, states, funeral homes and other sources. Data included are SSN, name, dates of birth and death, state code and zip code,\n\nThe ATF database contains the business and mailing addresses of firearms dealers across the United States. Please contact NICAR for more information and prices.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR provides access to comprehensive FBI crime statistics from 1994 organized across five detailed databases, along with Federal Death records from the Social Security Administration and ATF firearms dealer information for investigative journalism purposes.",
+      "keywords": [
+        "FBI",
+        "databases",
+        "records"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "dBase"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -238,10 +285,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "The National Criminal Justice Reference Service (NCJRS) recently announced its new online service. The new gopher provides users with an overview of the NCJRS and Office of Justice agencies including: The Office of Juvenile Justice and Delinquency Prevention; the Office of Victims of Crime; the Bureau of Justice Statistics Clearinghouse; and the Drugs and Crime Data Center Clearinghouse. The URL is: gopher://ncjrs.aspensys.com:77",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The National Criminal Justice Reference Service (NCJRS) launched a new online gopher service providing access to information from multiple Office of Justice agencies including juvenile justice, victim services, and crime statistics resources.",
+      "keywords": [
+        "NCJRS",
+        "justice",
+        "gopher"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "gopher"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -255,8 +312,12 @@
       "author_title": "Computer-assisted reporting developer",
       "affiliation": "The Hartford Courant",
       "full_text": "As computer-assisted programs in newsrooms mature, there's an inevitable problem: How to distribute the wealth of computer resources to the masses of reporters who have little or no high-tech training.\n\nAt The Hartford Courant, where I began work earlier this year, we were bursting with information, but could not always easily pass it on to those who needed it.\n\nAs one of the first papers to aggressively use computers in news gathering, the Courant had filled several large hard drives and nine-track tape racks with data of all descriptions.\n\nLiterally hundreds of databases had been stored away as a resource during Brant Houston's tenure at the paper (which ended January 1994 when he became managing director at NICAR).\n\nThe data files were available for inspection on the old computer-assisted war horse, XDB, an SQL database program. But those files were inaccessible to many reporters and editors without a computer-trained guide. Though more than 30 reporters and editors had received training, the training did not stick unless they continued to work on computer-assisted stories.\n\nThe solution we chose was to create a customized application program in FoxPro for Windows that took advantage of the searching power of SQL, but allowed any reporter who could use a mouse and a pull-down menu the opportunity to search through dozens of files.\n\nOur customized application program in FoxPro for Windows grants access to selected criminal records, professional listings of lawyers and accountants, a simple state payroll, an ever-growing list of contributors to several gubernatorial candidates, some basic census information, a listing of all persons registered to own handguns in the state and a Hartford voters' list - among other files.\n\nWithout going into details of FoxPro programming language, a user enters the system by clicking on a special icon in the Windows Program Manager.\n\nOnce it starts, the program allows users to choose a database from a Windows-style, pull-down menu. After the database is selected, a simple search screen appears prompting a reporter to type in a name or some other search criteria. Clicking the mouse on a box starts the search. All the SQL language is embedded in the program and activated without any work by the searcher.\n\nThe menus also give access to a simple help file designed to guide a reporter through a search and include text files describing each of the databases.\n\nThe system is by no means perfect. Any real programmer who examined my crude code would probably drop dead of fright. Though most people who use it seem to navigate the system without problems, it could be further simplified.\n\nWe are also working to expand the types of data on the system with an eye toward adding to its functionality.\n\nOur next hurdle is to figure out a way to give reporters located in our extensive bureau system access to such a program without lugging hundreds of floppies out to each bureau (not to mention the cost of buying all those copies of FoxPro).\n\nBut what we found was that almost anyone with a spare computer and a little knowledge of FoxPro programming language (or a willingness to beg and cajole the wonderful technical support staff at Microsoft) can put together a similar system.",
-      "summary": "As computer-assisted programs in newsrooms mature, there's an inevitable problem: How to distribute the wealth of computer resources to the masses of reporters who have little or no high-tech training.",
-      "keywords": [],
+      "summary": "The Hartford Courant created a customized FoxPro application to make computer-assisted reporting resources accessible to non-technical reporters by simplifying database searching through user-friendly menus and point-and-click interfaces.",
+      "keywords": [
+        "databases",
+        "interface",
+        "accessibility"
+      ],
       "topics": [
         "Investigative Methods",
         "Journalism & Newsroom",

@@ -38,8 +38,12 @@
       "author_title": "",
       "affiliation": "St. Louis Post-Dispatch",
       "full_text": "What this newsletter needs is a little more technical shop talk. Because beyond the hassles of getting data and the thrills of analyzing it, there's the matter of making efficient use of the PC.\n\nIn hope of getting a dialogue going, I'll go first. Here, with the emphasis on software, is how we do it at the Post-Dispatch:\n\nPersonnel: One guy so far (me).\n\nSoftware that I rely on:\n\nXDB: a database manager that uses Structured Query Language (SQL), a very powerful and relatively easy to learn language for analyzing and maintaining tables of data. On my PC, XDB gets annoyingly slow working with tables of more than about 50,000 records.\n\nFoxPro: a database manager compatible with the popular dBASE standard. FoxPro is four times faster than XDB at manipulating data, but dBASE language requires actual programming to do anything fancy.\n\nNine Track Express: this Elliot Jaspin production, buggy in its earlier versions, has become an indispensable tool for getting data off a tape.\n\nPCanywhere: this very handy program gives me full remote control, by modem, of the office PC. With a laptop at home, I can cook dinner while working the bugs out of long complicated queries.\n\nDESQview: for efficient multitasking, this beats Windows 3.0. DESQview allows me to run several full-size DOS applications at once. I can edit an XDB batch file in XyWrite and then, in a single keystroke, jump to XDB to run what I've just written.\n\nVarious Utilities: If you don't already use PC Tools, buy it. Its disk cache, to which I grant one megabyte of RAM, can double the effective speed of your hard disk drive without putting your data at the slightest risk.\n\nI use The Norton Utilities to recover files that I or my colleagues have mistakenly erased. I've used its Disk Doctor to diagnose and repair the occasional bad floppy.\n\nPKZIP: a shareware program available on many PC bulletin boards, saves disk space by compressing files you don't use regularly. PKZIP compresses most database tables by 80 to 90 percent; PKUNZIP, a companion to PKZIP, decompresses even large tables for use in less than a minute.\n\nQuestions or comments? Call (314) 622-7205 or write to George Landau, St. Louis Post-Dispatch, 900 North Tucker Blvd., St. Louis, MO 63105.",
-      "summary": "What this newsletter needs is a little more technical shop talk. Because beyond the hassles of getting data and the thrills of analyzing it, there's the matter of making efficient use of the PC.",
-      "keywords": [],
+      "summary": "A journalist at the St. Louis Post-Dispatch shares his technical toolkit and software recommendations for efficiently managing and analyzing data on personal computers, including database managers, remote access tools, and utility programs.",
+      "keywords": [
+        "software",
+        "database",
+        "tools"
+      ],
       "topics": [
         "Journalism & Newsroom",
         "Technology",
@@ -72,8 +76,12 @@
       "author_title": "",
       "affiliation": "The New York Times",
       "full_text": "Computer-assisted reporting is still relatively new at The New York Times, but after less than six months in the works, the staff has generated two major stories that would have been otherwise impossible - one on the state's campaign contributions and the other on the proposed expansion of the New York City police force.\n\nNew York Times Database Editor John C. Freed describes computer-assisted reporting as having 10,000 monkeys sorting information for a reporter. \"The human then has to look through (the information) and say this is good and this is not,\" he says. \"It's almost an art rather than a science. You have to think about what might be a link.\"\n\nFreed's first major project involved an examination of more than $20 million in campaign contributions over the past eight years collected by New York Gov. Mario M. Cuomo. Freed updated information that had already been compiled on computer disks by a private company for the State Government Integrity Commission. To this, Freed said, he only needed to add the contributions that had been made since the commission did its report. Then his analysis began.\n\n\"Wells, Rich, Greene, the advertising agency, has a $30 million state contract for the 'I Love New York' campaign and hopes to renew the contract next March. The agency has contributed at least $42,000 to (Gov. Cuomo's) campaigns over the last eight years, including $20,000 this year,\" read the lead in the Times' Nov. 1 story written by reporter Frank Lynn.\n\nThe story also reported that \"64 of 68 engineering firms on a Cuomo list of prospects to be solicited ended up contributing to the campaign and that all but 11 of the 64 had contracts with (the State).\"\n\nAnother Times story concerning the proposed expansion of the New York police force became the newspaper's second major investigative project using computer-assisted reporting.\n\nFreed used two hard-copy reports released by the city. One report, which detailed the precincts to which the additional officers would be assigned, was scanned into the computer. The other reported types and numbers of arrests in each area and was typed-in by staff within a week.\n\nThe reports were then cross-referenced to see whether the areas with higher crime rates and more violent crimes were getting increases in officers. This was not always the case, as the computer analysis showed.\n\nThe report required six weeks' work - about three for Freed's analysis and three for interviews by Times' reporter Ralph Blumenthal. The story ran Dec. 15, the day after the State Legislature postponed approving the expansion plan at its last session because members didn't know exactly where the 9,700 additional patrol officers were to be placed.\n\n\"One Staten Island precinct, the 123d, which already enjoys the city's best police coverage for violent crime - about 85 officers for every 100 reported violent crimes - would move to an even higher ratio.\"\n\n\"At the same time, the Brooklyn North command, with some of the city's highest-crime precincts, would wind up with the lowest percentage increase of officers,\" the story read.\n\nAlthough the number of ideas for future computer-assisted investigative stories at the Times are increasing, Freed said the major projects don't go unless there's evidence that something is there. \"Computer analyses are not good for fishing expeditions.\"\n\nBut if reporters are handed a pile of documents, they need to know to ask for the tapes instead, Freed said.",
-      "summary": "Computer-assisted reporting is still relatively new at The New York Times, but after less than six months in the works, the staff has generated two major stories that would have been otherwise impossible - one on the state's campaign contributions and the other on the proposed expansion of the New York City police force.",
-      "keywords": [],
+      "summary": "The New York Times uses computer-assisted reporting to analyze large datasets, producing two major investigative stories: one examining campaign contributions to Gov. Cuomo and another analyzing the proposed NYPD expansion to determine if resources were being allocated based on crime rates.",
+      "keywords": [
+        "computer",
+        "reporting",
+        "analysis"
+      ],
       "topics": [
         "Investigative Methods",
         "Government & Politics",
@@ -93,8 +101,12 @@
       "author_title": "Professor of Communications Law",
       "affiliation": "The Missouri School of Journalism",
       "full_text": "Chain link fences and cement barricades surrounded the stadium at Tampa. Metal detectors stood ready at the gates. It was the Super Bowl! Missing were the familiar radios held by fans in the stands. Why? Because some terrorist might have stuffed his or her radio with a bomb.\n\nThere is an analog to this rush for security caused by the Persian Gulf war - the clamor to restrict information caused by unfortunate uses of the information. All it takes is one lunatic, or even the threat of one, to result in barriers for us all.\n\nThe murder of 21-year-old actress Rebecca Schaeffer, costar of the television series \"My Sister Sam,\" is a case in point. She lost her life in Los Angeles on July 18, 1989, when she answered a knock at her apartment door. She opened her security door, and a deranged, jealous admirer, 19-year-old Robert Bardo, shot her in the chest. Bardo, who lived in Tucson, Arizona, had paid $250 to a Tucson private investigating firm, Anthony Agency, to get Schaeffer's address.\n\nSchaeffer was an old friend, Bardo had told the firm, and he wanted her current address. He carried a picture of Schaeffer which bore her signature and a personal, handwritten message.\n\nThe firm got her address from driver's license records in California public records available at the time to anyone virtually on demand. The requestor did have to fill out a form that asked the reason for the request, but only addresses of judges and peace officers were automatically restricted.\n\nA furor followed Schaeffer's death.\n\nThe clampdown on records held by the California Department of Motor Vehicles became almost as inevitable as war in the Persian Gulf.\n\nThe Los Angeles Times quoted California legislator Mike Roos as saying, \"Tragically, government records have become the personal research archives of thieves, kooks and killers. The fact is we are all sitting ducks for any criminal or kook who wants to track us down.\"\n\n\"Kooks and killers\" - and most sane persons, for that matter - can no longer use California driver's license records to learn residential addresses. On October 1, 1989, California's governor approved legislation sponsored by Roos. The law says, in part:\n\nIn order for individuals to be able to exercise their right to privacy, they must be able to choose when to release personal information, and to whom, and reasonable laws requiring the individual to surrender control should be enacted only when it is deemed absolutely necessary for society's welfare.\n\nThe personal privacy and security of one's home is fundamental to this right of privacy. Now California law says that residential addresses maintained by Department of Motor Vehicle records are \"confidential and shall not be disclosed to any person,\" with basically four exceptions: (1) a court; (2) a law enforcement agency; (3) a financial institution licensed by California or the federal government to do business in California and which has a written waiver signed by the person whose address the institution requests; and (4) an insurance company with a California license which is seeking the address of a motorist involved in an accident with someone insured by the company.\n\nNote that journalists have no right to gain residential addresses through California's Department of Motor Vehicles. Anyone who smuggles the information to a journalist (or any other unauthorized person) faces a fine of up to $5,000, imprisonment in a county jail for up to a year, or both.\n\nUnfortunately, the California law is placing a roadblock in the path of a journalist who would like to do a story, say, on school bus safety. If the journalist can get traffic violation records through the Department of Motor Vehicles but has no residential addresses, the journalist may well have difficulty trying to determine if the \"Bob Smith\" with 20 violations is the same Bob Smith in whose hands school children's lives are placed.\n\nSurely \"society's welfare\" is improved by aiding journalists in writing such stories, not in placing a roadblock with no exceptions in their way.\n\nAnd so the erosion continues, chipping away here and there at what we can do as society creates a padded cell for us all - because some are \"kooks and killers.\"",
-      "summary": "Chain link fences and cement barricades surrounded the stadium at Tampa. Metal detectors stood ready at the gates. It was the Super Bowl! Missing were the familiar radios held by fans in the stands.",
-      "keywords": [],
+      "summary": "Following actress Rebecca Schaeffer's murder by a stalker who obtained her address through public records, California restricted access to driver's license information, exemplifying how security fears can lead to barriers on information access for everyone.",
+      "keywords": [
+        "privacy",
+        "security",
+        "records"
+      ],
       "topics": [
         "Government & Politics",
         "Investigative Methods",
@@ -112,12 +124,23 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "Missouri Institute for Computer-Assisted Reporting",
       "full_text": "TRI/DART Seminar News\n\nMICAR will hold its next week-long seminar on computer-assisted reporting on May 5.\n\nThese seminars, which are held every three months, train people with little or no experience with computers how to negotiate for computer tapes, download the data on those tapes to a personal computer using a nine-track tape drive, verify that the information has not been tampered with, and analyze it using database software. The seminar also discusses how to administer a computer-assisted reporting program and the legal implications of using government computer tapes.\n\nLast year, MICAR trained 41 people representing 25 newspapers, the Associated Press and 2 Universities.\n\nTuition for the print media is based on circulation size and on market share for broadcasters.\n\nFor more information, call the Missouri Institute for Computer-Assisted Reporting at (314) 882-0684",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "MICAR is offering a week-long computer-assisted reporting seminar on May 5 that trains journalists with minimal computer experience how to obtain, transfer, verify, and analyze government data using database software. The seminar covers practical skills and legal considerations, with tuition based on media outlet size.",
+      "keywords": [
+        "training",
+        "journalism",
+        "data"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "9-track tape",
+        "database software"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

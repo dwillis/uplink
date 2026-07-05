@@ -7,7 +7,7 @@
       "headline": "A bumpy ride",
       "kicker": "LATIN AMERICAN CAR",
       "author_name": "Alejandra Fern\u00e1ndez Morera",
-      "author_title": "Missouri School of Journalism",
+      "author_title": "",
       "affiliation": "Missouri School of Journalism",
       "full_text": "Cars travel on highways, but in Latin America, CAR travels on unpaved roads. While computer-assisted reporting has gained popularity in Mexico and Brazil, it is still terra incognita in Central America, and few can point out more than one journalist who excels in the genre's many techniques in South American countries such as Chile, Venezuela and Peru.\n\n\"Few practice and master [CAR],\" said Pedro Armendares, executive director of the Mexican Investigative Reporting Center, or CPI, a partner organization of Investigative Reporters and Editors, Inc., based at the Missouri School of Journalism. \"There are countries where it isn't practiced at all.\"\n\nIn the countries where CAR is practiced, the success has been clear. In one case, a Mexican reporter discovered that taxpayers' money was used to pay for $400 towels for the president's residence. The reporter used data from a government asked me 'How do you practice CAR without Excel or a computer?' Well,",
       "summary": "Investigative journalists in Latin America are increasingly adopting computer-assisted reporting (CAR) to expose corruption, although challenges like limited technology and varying open-records laws persist.",
@@ -16,8 +16,14 @@
         "CAR",
         "investigative reporting"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Business & Economy",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -28,8 +34,8 @@
       "headline": "Program for disabled misses the mark",
       "kicker": "SPOTLIGHT: ON THE JOB",
       "author_name": "Tom Detzel",
-      "author_title": "Investigations Editor, The Oregonian",
-      "affiliation": "",
+      "author_title": "Investigations Editor",
+      "affiliation": "The Oregonian",
       "full_text": "Our stories on nonprofits that employ severely disabled workers sparked an FBI investigation and calls for reform of a little-known federal contracting program that spent $2.25 billion last year, much of it on military goods and services. For these stories, simple databases produced profound results. The Javits-Wagner-O'Day program sets aside government business for charities that mainly employ workers who are blind or severely disabled. But our reporting found that nonprofits were increasingly using workers with mild or questionable disabilities. The biggest contractor, the National Center for the Employment of the Disabled in El Paso, Texas, repeatedly failed to document that it was using enough disabled labor. And it had paid the management firm run by its president a stunning $8.7 million over two years. Although much of our information came from sources inside the charities themselves, reporters Jeff Kosseff, Bryan Denson and Les Zaitz used the federal Freedom of Information Act and Internal Revenue Service charity disclosure forms (Form 990) to get a grasp of overall trends in the program and target specific charities for investigation. Kosseff used FOIA to obtain five years of annual reports from the 627 charities. The reports, kept by a tiny federal agency (Committee for Purchase from People Who are Blind or Severely Disabled) that oversees the program, contained data on annual sales, wages paid to the disabled, and the hours worked on federal contracts. When he received the data in a Microsoft Excel spreadsheet, it was immediately clear that the bulk of the contracts went to the 50 largest charities. We decided to focus our reporting on this group, which the data showed had tremendous revenue growth since 9/11. Denson wanted to know the impact of the wars in Afghanistan and Iraq. He looked up the Dun & Bradstreet D-U-N-S nine-digit identification numbers of each of the 50 contractors, punched them into a spreadsheet and sent them to the Defense Department, asking for a list of their military contracts. The Pentagon can find contracting records quickly if you provide a contractor's D-U-N-S. You can find these numbers online on Nexis, Hoover's and other sites. The Pentagon turned the request around in two days. We then had a list of every defense contract for each charity over five years, detailing contract amounts and the type of goods or services provided. The bulk of the growth had indeed come from a burst in military spending. Defense business was only part of the picture. What about other sources of income \u2013 contracts from local governments and private firms \u2013 for the charities? And how could we measure whether workers or charities managers were benefiting? To get aggregate numbers, Denson turned to the charities' tax forms. Gail Hulden, the newsroom's head researcher, used Guidestar Premium to acquire 990s from the top 50 charities for 2000 and 2003. We built a data entry form in Microsoft Access, and Denson and two copy aides began the painstaking process of building and proofing a database. The information they punched into the database included the 9-digit employee identification number (EIN); the tax return year; the name of the nonprofit; the total amount of government contributions; total revenue; total expenses; net assets; officer compensation; total salaries and wages; other wages; related income; and four-year income. This data allowed us to measure growth in all categories. In a access form, they focused on payments to charity officials, entering total compensation for up to five officers, five employees and five contractors paid $50,000 or more. In all, they entered and verified the names, compensation totals and deferred compensation totals for 1,165 officers, employees and subcontractors. Denson also flagged any insider or related-party transactions noted on the forms for follow-up reporting. In the case of the National Center for the Employment of the Disabled, they were numerous enough to lead us to add a reporter to the project and look hard at the charity's president. We later added 2004 data when it became available. It allowed us to report that average compensation for top executives at the 50 biggest charities grew three times faster than hourly wages for their disabled workers. At least a dozen execs pulled in $350,000 a year or more in pay and benefits, while many workers were paid less than minimum wage. The management firm run by Bob Jones, who ran the El Paso nonprofit, had received $14 million in charity payments over five years and loaned millions more to other businesses in which Jones had an interest. Records we requested under FOIA, plus documents from internal charity sources, showed that the charity had repeatedly been unable to document its workers' disabilities. Many were counted as disabled because they spoke little or no English. Jones resigned the day our story about him appeared under the headline: \"Texas charity a launchpad for entrepreneur's empire.\" He is now under investigation by the FBI, the IRS and the Texas attorney general's office. Our first-day story about weak oversight of the contracting program, \"Charity leaders prosper as 'disabled' is redefined,\" prompted calls on Capitol Hill for an overhaul of the Javits-Wagner-O'Day program. It also sparked an intense and ongoing debate within the community of nonprofits that serve the disabled. The stories and accompanying slide shows can be found online at www.oregonlive.com/special/disability.",
       "summary": "The Oregonian investigated the Javits-Wagner-O'Day program, uncovering that charities were redefining disability and overpaying executives while mismanaging federal contracts.",
       "keywords": [
@@ -37,8 +43,18 @@
         "federal contracts",
         "nonprofits"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Business & Economy"
+      ],
+      "technologies": [
+        "Excel",
+        "Access",
+        "Nexis",
+        "Dun & Bradstreet",
+        "Guidestar Premium"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -49,8 +65,8 @@
       "headline": "Poor conditions plague medical helicopters",
       "kicker": "AIR SAFETY",
       "author_name": "Alan Levin",
-      "author_title": "Aviation safety reporter, USA Today",
-      "affiliation": "",
+      "author_title": "Aviation safety reporter",
+      "affiliation": "USA Today",
       "full_text": "There's no substitute for precision on a big project. USA Today set out more than a year ago to learn more about why air ambulance flights were crashing at an alarming rate. A quick review of the clips revealed several fatal crashes that had killed patients. The numbers of crashes were climbing. Our guts told us we had a good story. But you can't attribute major findings to gut instinct. That started several months of searching for hard data that eventually led us to create our own database of crashes from scratch. Along the way, we occasionally cursed the sometimes archaic ways of aviation regulation and recordkeeping, which can make data retrieval very awkward. But, in the end, we had a roadmap laying out the worst crashes and the major safety shortfalls. Our data was more complete than anything the government had compiled. Since the Vietnam War, air ambulances have gradually become commonplace. Every major metro area has a steady stream of helicopters landing on the roofs of major trauma centers, bringing the most severely injured and gravely ill patients to the best facilities. In recent years, air ambulances have helped rural areas cope with major changes in the health care system. As more and more small rural hospitals shut down, helicopters have become increasingly important. For millions of Americans, the only quick way to an emergency room is by air. During the 1980s, the number of air ambulance flights surged. But in the race to provide more service, safety standards suffered. In the years 1985 through 1988, there were 15 fatal air ambulance helicopter crashes, compared to only seven in the previous four-year period. The National Transportation Safety Board (NTSB) attributed the spike in crashes and deaths to carelessness that had crept into overstressed operations and to inadequate federal oversight. The crashes fell rapidly under the glare of attention from investigators and federal aviation regulators. As we began our reporting last November, we suspected that many of the same dynamics had crept into the industry over the past few years, but the NTSB was just beginning its own review of the crashes and had not issued any findings. So we started our own data collection. As a general rule, the NTSB keeps one of the cleanest databases in government. Because the agency has no regulatory power and relies solely on the bully pulpit, it is also unusually generous with its public records. But when it comes to niches such as the air ambulance world, the database can be difficult to work with. In order to be included in the NTSB's database, an accident must meet a test that requires factors such as fatalities, serious injuries or significant damage to the aircraft. All air ambulance accidents that met the NTSB's statutory requirements were in its database, but there is nothing in the data to flag these flights. They are simply listed under a broad category of charter flights. We did our best to collect lists of the accidents from a variety of sources. NTSB provided us with a spreadsheet of accidents after 1995 and we combed reports and other sources. Paul Overberg, a USA Today database editor, helped design the database and created a data entry form in Microsoft Access. We set our able intern, Marie Skelton, loose on the NTSB's database. The web version of the database includes a fairly robust search function that allows broad text searches. She began plugging in words like \"nurse,\" \"ambulance,\" and \"hospital\" to look for any cases we might have missed. To be as thorough as possible, we also entered into our database the accidents involving medical flights on planes, not just helicopters. Working one or two days a week, Marie finished in about two months. I don't recall the exact number, but by using this crude-but-effective manual search, she found a handful of accidents that others had missed. At our conclusion, we had 279 accidents from 1978 to the early months of 2005. It turned out that finding the crashes was the relatively easy part of the job. Next, I had to audit Marie's work (which was extremely clean) and to categorize all of the accidents. The NTSB provides detailed information about the cause of each accident. But that information comes in the form of a fairly lengthy string of text, and over the years, the agency has used different formats. We needed to boil this down to key components, namely the pilot's error, in order to know what patterns were behind the crashes. How important were errors by pilots versus mechanical failures? Were crashes occurring in bad weather? At night? The only way to identify whether these broad types of issues were leading to crashes was to read over every single NTSB cause finding. I then added a bunch of additional fields to our database for every conceivable type of accident, from pilot error and mechanical failure to factors such as the time of day. I went through each record twice to ensure consistency and accuracy. Later on, I met with a statistician at the Federal Aviation Administration to compare our database with one they had compiled to make certain we had not missed any accidents or included cases that didn't belong. I also went through the data and made sure we had accurate counts of the dead. In particular, we needed to know how many patients had died on flights. It wasn't pretty, but I hand-entered crash totals and various pieces of information into a Microsoft Excel spreadsheet. That allowed us to help visualize some of the trends. For example, it became obvious very quickly that poor visibility from bad weather and flying at night was frequently a contributing factor to crashes. We were far from the first news organization to notice that air ambulance flights were crashing at alarming rates. But the painstaking collection of data (and my editors' patience while I completed the work) allowed us to write about the problem with authority. Even though the NTSB had not yet issued its own findings about the growing number of air ambulance accidents, we were able to reach strong findings on our own. Here are two of our main conclusions: \"Industry safeguards are so lax that pilots have repeatedly caused accidents by knowingly flying into bad weather, failing to check weather conditions or otherwise violating federal or company regulations.\" \"About two-thirds of fatal air ambulance crashes occur in poor visibility, the newspaper's analysis shows. Even so, pilots are not required to have special training about what to do when they encounter fog, snow or darkness.\" The information on these crashes was available for anyone to see, but no one had bothered to compile it in one place. The raw number of crashes was the highest in history, but the industry had grown considerably in the past decade. Of course, the data was only one of the elements we relied on to report the story. But without our computer analysis, the story would not have been half as good.",
       "summary": "A USA Today investigation using a custom database discovered that lax industry safeguards and poor visibility lead to a high rate of fatal air ambulance helicopter crashes.",
       "keywords": [
@@ -58,8 +74,15 @@
         "air ambulance",
         "NTSB"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Public Safety",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "spreadsheet"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -73,10 +96,23 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "More than 800 journalists, educators and students attended the 30th Annual IRE Conference, June 15-18 in Fort Worth, Texas.\n\nThe conference offered more than 130 panels and workshops on covering beats, writing, editing, producing and hands-on classes in data analysis.\n\nAbout 300 people showed up for Thursday's optional CAR day, which included panels on issues as far-ranging as introducing newsroom intranets and diagnosing medical and care data.\n\nThe conference also featured two rooms exclusively geared towards CAR: a hands-on room teaching the basics of Microsoft Excel spreadsheets and Access database manager, and a demo room where journalists showed off some of the newest and most advanced technology with presentations on CrimeStat, satellite imagery, Web scraping, social network analysis and more.\n\nFederal Contracts Update\n\nThe IRE and NICAR Database Library recently updated its Federal Contracts database, making the latest additions available to journalists faster.\n\nThe database contains data about contracts between about 70 federal agencies and thousands of contractors. Those contractors include large corporations, local businesses, universities, nonprofits, and local, state and foreign governments. The database lists \u2013 among other things \u2013 the agency and office, the amount of money, date, contractor, purpose of the contract and where the work is performed.\n\nJournalists can use the data to examine the local economic impact of a federal project. Combine it with campaign finance information to look into the relationships between the government awarding the contract and the contractor who earns the business.\n\nPreviously, the data was updated annually, but for the first time, the Database Library is making new data available as soon as the agency's contractor releases updates.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Over 800 journalism professionals attended IRE's 30th annual conference in Fort Worth featuring 130+ panels on reporting and data analysis, including specialized computer-assisted reporting workshops. The IRE and NICAR Database Library also updated its Federal Contracts database to provide more timely access to information about contracts between federal agencies and contractors.",
+      "keywords": [
+        "conference",
+        "journalism",
+        "data"
+      ],
+      "topics": [
+        "Journalism & Newsroom",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "Access",
+        "CrimeStat",
+        "Web scraping"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -87,8 +123,8 @@
       "headline": "Tune in to CAR tips",
       "kicker": "INSIDE NICAR",
       "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism",
-      "affiliation": "",
+      "author_title": "NICAR instructor",
+      "affiliation": "NICAR and Missouri School of Journalism",
       "full_text": "Check out this incredible resource for helping you learn more about computer-assisted reporting from the top practitioners in the business. For the first time, IRE and NICAR offer direct access to digital audio recordings from panels and speeches at the 2006 IRE Conference in Fort Worth, Texas. In the past, journalists who wanted recordings had to order tapes or CDs from a vendor. IRE members who attended the 2006 Conference can simply visit the conference Web page at www.ire.org/training/dallasfortworth06 and follow the links to find .mp3 (MPEG-3) files. Listen to them online or download for playback on a computer or portable digital audio player. Conference attendees also may order a CD containing audio from all of the panels, paying only for shipping. IRE members who did not attend the conference can purchase the CD for $20 plus shipping. Order online from the conference Web page or contact the Resource Center at 573-882-3364. So, if you want to learn more about mapping data, social network analysis, using CAR to report on campaign finance \u2013 you name it \u2013 you can revisit Fort Worth and get an earful of what you missed.",
       "summary": "IRE and NICAR are now offering digital audio recordings of sessions from the 2006 IRE Conference, providing members with accessible training on computer-assisted reporting.",
       "keywords": [
@@ -96,8 +132,14 @@
         "audio recordings",
         "IRE conference"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "MPEG-3"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -108,8 +150,8 @@
       "headline": "Mapping finds holes in siren coverage",
       "kicker": "FIRST VENTURE",
       "author_name": "Gerry Lanosga",
-      "author_title": "Investigative producer, WTHR-Indianapolis",
-      "affiliation": "",
+      "author_title": "Investigative producer",
+      "affiliation": "WTHR-Indianapolis",
       "full_text": "Taking my first crack at ArcView 9.1 reminded me of the first time my dad let me use a chainsaw \u2013 a little bit scary (probably more for him than me) \u2013 but a hell of a lot of fun. I had tinkered around with ESRI's geographic information system (GIS) program for a couple of small maps after attending IRE and NICAR's Mapping Boot Camp last summer, but in March we decided to get serious with mapping by taking a look at tornado sirens in central Indiana. It's certainly ground that has been tread before, but not in any in-depth way in our viewing area. With tornado season approaching, we figured it would be a high-interest story for our audience that would also give us a good initiation with ArcMap. From start to finish, the project took just about every bit of three months for reporter Bob Segall, photojournalist Bill Ditton and me. First we made calls to get siren locations in Marion and the eight surrounding counties in the Indianapolis metropolitan area. Most of the counties either lacked GIS files on the sirens or had files that didn't fit our needs. So we decided to begin from the beginning, building our own database of sirens from which to create maps. Getting the lists of locations was an adventure in itself. Some counties were extremely well-organized; others not so much. In Hancock County, just east of Indianapolis, it took several phone calls and interviews just to get to the person who reportedly knew where all the sirens were. When we found her at the sheriff's department, she jotted out a list of locations from memory. And, when we went to verify the locations, we found some of them didn't exist. The problems in Hancock, characteristic of the smaller counties in our area, would end up being central to one story in our series. With the locations in hand, I built a database in Microsoft Access and then pulled the data into ArcView for geocoding to create a point map of the sirens. I was able to match only about half of the 350 sirens. The rest we plotted the hard way. Bill, Bob and I fanned out with handheld GPS units and gathered coordinates (in UTM, or Universal Transverse Mercator, projection) at each of the remaining siren locations. This proved to be more painful than geocoding. In fact, it was the most time-consuming aspect of the project. We logged hundreds of miles searching for sirens, and the locations we were given weren't always as accurate as we'd hoped. Once we had the data, I made the first of many novice mistakes on this project by hand-keying the data captured in the GPS units into the database. In any event, after the database was complete, it was a snap to add the data to the map, as X,Y points. After adding geographic features such as townships, populated places, and census tract data, I created buffers around each siren. We had our maps \u2013 the first comprehensive picture of tornado siren coverage in central Indiana. I should note that we didn't get to this point without some epic battles with ArcMap. I struggled with everything from projections to buffers. At one point, the program simply crashed repeatedly, sometimes without warning and other times with cryptic error messages. After scouring technical papers, talking to technical support and re-installing the software, the problem persisted on a couple of county files. Our initial stories looked at the overall picture of tornado sirens in the area, from how well they work to how much area they cover. Using census block data, we were able to report roughly how many people live in dead zones where there are no tornado sirens. On the WTHR Web site, we posted our own maps of the siren coverage for each county and hired a consultant who created an interactive Google Maps application that allowed users to look up sirens near their homes. I learned a few lessons and would do things differently if starting over. Initially, we had decided to use a generous 1.5-mile siren coverage radius, even though only the best sirens under ideal conditions operate at that range. In retrospect, I wished I had handled those buffers differently, creating multiple rings rather than one radius. In fact, for a second take on our stories, we did that, showing graduated half-mile distances from the sirens and explaining the variance in siren range in a legend. For this second go-around, we were able to report how many schools and parks are outside the practical range of the sirens. Another thing I'd change relates to the display. If I had to do it again, I would create one master data table that includes a county field. While ArcMap is exhilarating to use in terms of its analytical power, I also discovered that it's just plain fun to create these visuals that can add so much to our storytelling. (And I didn't even saw off my foot.)",
       "summary": "A WTHR-Indianapolis team used GIS mapping software to identify significant coverage gaps in central Indiana's tornado siren network, helping residents find dead zones near their homes.",
       "keywords": [
@@ -117,8 +159,18 @@
         "tornado sirens",
         "ArcView"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Public Safety",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "ArcView",
+        "ArcMap",
+        "Access",
+        "GPS",
+        "Google Maps"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -129,8 +181,8 @@
       "headline": "Making sense of OSHA data",
       "kicker": "SPOTLIGHT: ON THE JOB",
       "author_name": "Mike Casey",
-      "author_title": "Projects reporter, The Kansas City Star",
-      "affiliation": "",
+      "author_title": "Projects reporter",
+      "affiliation": "The Kansas City Star",
       "full_text": "How much is a worker's life worth? What are the most deadly workplaces in your town? Are there factories in your town that are exposing workers to toxic chemicals? The Occupational Safety and Health Administration database has the answers. OSHA is the federal agency responsible for worker safety, and its database details millions of inspections of factories, steel mills and construction sites since 1972. Don't let the size of the database or its complexity intimidate you. For a recent project about worker safety around Kansas City, The Star purchased the data from the IRE and NICAR Database Library. To tailor the analysis for our circulation area, I extracted data for a dozen area counties. I used Microsoft Access database manager for my analysis of nearly 30,000 records. One way to approach the database is to think of it as a news story. The main table is like the lead of a story that gives you a little about the most important aspects of each inspection. The accompanying tables are like the rest of story; they provide more detail and context. The main table has more than 50 fields that give the name of the company, its address, the reason for the inspection, the number of OSHA violations, penalties the company paid and a number of other items. Other tables describe the inspection in more detail. If the inspection concerns a fatality, the database tells you the name of the accident victims as well as the accident's causes. Another table explains the violations in more detail and references the specific regulations that the company violated. Yet another table provides details about hazardous chemicals found in the workplace. What connects all of these tables is the unique inspection number, which OSHA calls the activity number. It's just a matter of using your database manager to connect the tables using that field. I was interested in looking at fatalities. In OSHA's codes, a fatality is classified as an 'A' in the inspection-type field. I selected all 'A' inspection types from the main table and joined that to the others using the inspection number. Here are some of the things I learned: Low fines for workplace deaths or injuries are common even when OSHA cites employers for a serious violation. In 80 such fatal and injury accidents, half of the fines Kansas City area employers paid were $3,000 or less. A table detailing the citations showed that the agency sometimes downgraded its most serious willful violations to unclassified and then substantially cut its penalties in these fatal accidents. To find the change, look in the section that details the types of violations. 'W' stands for willful and 'U' stands for unclassified. The table that details fatalities gave the names of workers and I noticed that more workers with Hispanic names were dying on the job. After checking death records, I learned that indeed more Hispanics \u2013 particularly immigrants \u2013 were killed at local worksites. The data also showed that falls and electrocutions often caused workplace fatalities in the Kansas City area. Like all databases, OSHA's has strengths and weaknesses. I've found the database information nearly always matched the information in the written reports. However, some of the OSHA fields contain dirty data. For example, Ford Motor Co. can be called Ford Motor, Ford or Ford Motor Co \u2013 no period. That creates a challenge in finding the companies with the highest number of violations. Start by selecting and grouping the company names. Once you get the top five or 10, check their addresses to see if the name of the facility is connected to the same address. Using the address, city and ZIP code fields can help you come up totals for each worksite. For construction inspections, the worksite is listed as the location, so a construction company may have a number of different sites listed. That makes coming up with a top violator among construction companies very difficult, if not impossible. Still, if the data shows a company with a high number of violations you can probably say the company was among the top violators. Another area to look at is the industries with the most violations. You can do that by using the Standard Industrial Classification (SIC) codes in the inspections table. Picking the industries with the most violations and then looking for companies in those industries with a number of violations will give your story an immediate focus. The OSHA database goes back to the days of Richard Nixon's presidency. I focused on a 10-year span from 1994 to 2004. These people are eager to tell their stories, which help make for a dramatic project.",
       "summary": "A reporter from The Kansas City Star describes how to use federal OSHA inspection data to investigate workplace safety, identify high-violation industries, and track workplace fatalities.",
       "keywords": [
@@ -138,8 +190,14 @@
         "workplace safety",
         "database analysis"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Public Safety",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -151,12 +209,22 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE and NICAR",
       "full_text": "Check out the stories below for examples of journalists using computer-assisted reporting to report about the workplace. These stories and others can be found at Extra! Extra! on the IRE Web site (www.ire.org/extraextra).\n\nKeith Rogers of the Las Vegas Review-Journal used Department of Labor statistics to review compensation applications made by sick employees who once worked at six radioactive and toxic materials sites. Rogers found that the Nevada Test Site had a compensation approval rate of 6 percent, the lowest of the sites. Yet only at the Nevada site did employees work in areas that had been detonated by nuclear devices. Nearly 900 cases were denied because former employees couldn't prove beyond a 49 percent likelihood that radioactive materials contributed to their illnesses.\n\nRandy Ludlow of The Columbus Dispatch reports on respiratory illnesses contracted by more than a quarter of the employees working in a TRW brake plant in Mt. Vernon, Ohio. He also reviews the lack of Occupational Safety and Health Administration standards to regulate practices that caused these respiratory problems. As he describes in the July-August issue of The IRE Journal, Ludlow found illness trends by using a database of TRW employee complaints from the Ohio Bureau of Workers' Compensation. He incorporated that data with OSHA's inspection data and anecdotes gathered from dozens of interviews.\n\nIn Time magazine, Donald L. Bartlett and James B. Steele review how employees lost their retirement benefits when 401(k) plans tanked and pension plans were pulled out from under them. Company-sponsored pension plans are under-funded by $450 billion in the private sector and are quick to vanish when companies hit financial troubles. While 2004 reports claimed the average 401(k) is worth $61,000, the authors say that the median value was only $18,000.\n\nResources for workplace reporting\n\nIRE and NICAR offer resources for journalists who are interested in using computer-assisted reporting to cover workplace issues.\n\nThe Occupational Safety and Health Administration inspections database, available from the IRE and NICAR database library, contains more than 3 million records of OSHA inspections in all states and U.S. territories from 1972 to February 2006. The OSHA database contains a variety of information on workplace conditions and accidents, including hazardous substance accidents. Journalists can use the database to identify companies that have dangerous working conditions for employees and to examine the safety record of companies involved in breaking news.\n\nThe Database Library also offers the Wage and Hour Enforcement database kept by the U.S. Department of Labor. It shows violations and penalties related to labor laws, including the Fair Labor Standards Act, Family and Medical Leave Act, and the Migrant and Seasonal Agricultural Worker Protection Act. It contains records regarding more than 700,000 cases that have been closed between the 1980s and 2004. Journalists can investigate the fairness of compensation paid by employers, identify industries with frequent offenders, and check adherence to child labor laws.\n\nIn addition, IRE resources can provide guidance in using the databases to for stories. Chapter 12 of The Investigative Reporter's Handbook has a section specifically about safety and health in workplace.\n\nIn the March-April 2002 issue of Uplink, Ron Nixon explains pitfalls of OSHA data and offers some measures to overcome them. In the same issue, Stephanie Armour lists workplace data resources, along with some specific story ideas.\n\nTipsheets contributed by journalists are also good resources to refer to in covering workplace issues.\n\nBarbara Clements and Daniel Wickert of The (Tacoma, Wash.) News Tribune offer advice about analyzing OSHA data and suggestions for making the data more manageable. They also provide a list on web resources regarding an OSHA project. (Tipsheet No. 2458)\n\nJustin Pritchard of The Associated Press explains where to get information about death in the workplace and how to handle that information. (Tipsheet No. 2062)\n\nJournalists have written a number of stories about the workplace and available from the IRE Resource Center:\n\nDavid Barstow of The New York Times revealed that OSHA declined to seek prosecution in 93 percent of the cases in which it determined an employer's \"willful safety violations\" caused a death. The report also finds that \"OSHA's reluctance to seek prosecution persisted\" even when the violations caused multiple deaths, or when the victims were teenagers. (Story No. 20850)\n\nAn investigation by The (Fredericksburg, Va.) Free Lance-Star disclosed that state government agencies are among the most common violators of worker safety standards, but they never get fined. The story identifies the area's top violators in the past 25 years, including the City of Fredericksburg and the County of Stafford. (Story No. 18656)\n\nContact the Database Library at 573-884-7711 to order workplace data. More information about the databases is available online at www.ire.org/datalibrary/databases.\n\nContact the Resource Center at rescntr@ire.org or 573-882-3364 to order copies of the stories or tipsheets.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists use computer-assisted reporting and government databases to investigate workplace issues including employee compensation, occupational safety violations, and retirement benefits. Resources like OSHA inspection records and wage enforcement databases enable reporters to identify dangerous working conditions and uncover trends affecting workers.",
+      "keywords": [
+        "workplace",
+        "databases",
+        "safety"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Business & Economy",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "Database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -167,8 +235,8 @@
       "headline": "Wrestling useful data from PDFs",
       "kicker": "CAR TOOL",
       "author_name": "Neil Reisner",
-      "author_title": "Associate professor of journalism, Florida International University",
-      "affiliation": "",
+      "author_title": "Associate professor of journalism",
+      "affiliation": "Florida International University",
       "full_text": "Let's start with the obvious: PDFs are devils masquerading in angelic garb. They emerged in the early '90s as a purportedly benevolent effort by developer Adobe Systems Inc. to create 'a universal way to communicate documents across a wide variety of machine configurations, operating systems, and communication networks.' Translation: Let's create software that, with a mouse click, can change any file \u2013 including data tables \u2013 into an image that cannot be imported into a spreadsheet or database manager. But PDFs have been driving geeks crazy ever since. Fortunately, there are a number of free or inexpensive programs that extract data from PDFs and turn it into text that imports easily into CAR software. The format resolved an important dilemma because they can be created from the output of any software and can be viewed on any computer. Moreover, because PDFs are hard to edit, there was a reasonable assurance that a PDF version was the same as the original. Today all it takes is any of the widely available PDF print drivers distributed for free. Which means it's even easier for records custodians to make our lives harder. So, how do we deal with them? The key is to know the public records law for your state. In Florida, for example, the law requires agencies to provide copies in the medium requested if they maintain it that way. If a PDF is all you can get, it's time to turn to several free or low-cost programs. For the last few years, XPDF/PDFTOTEXT has been the way to go. It's command-line driven and available at no cost. Foxit Software offers PDF Text Viewer ($39) with a simple Windows interface and Foxit PDF to Text Converter ($59) which includes batch conversion tools. Cogniview PDF2XL ($95) converts PDF tables directly into Excel and handles scanned PDFs with some success. Investintech Able2Extract Pro ($119.95) also extracts text and imports into Excel, Word, or HTML using OCR. These programs add more bullets to our gun belts and maybe a wooden stake and some wolf's bane potion as well.",
       "summary": "This article reviews software tools like XPDF, Foxit, and PDF2XL that allow journalists to extract structured data from PDF files for analysis in spreadsheets and databases.",
       "keywords": [
@@ -176,8 +244,25 @@
         "data extraction",
         "software reviews"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "PDF",
+        "XPDF",
+        "PDFTOTEXT",
+        "Foxit Software",
+        "PDF Text Viewer",
+        "Foxit PDF to Text Converter",
+        "Cogniview PDF2XL",
+        "Excel",
+        "Investintech Able2Extract Pro",
+        "OCR",
+        "Word",
+        "HTML"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -188,8 +273,8 @@
       "headline": "Finding diamonds in the rough",
       "kicker": "SCHOOL DATA",
       "author_name": "MaryJo Sylwester",
-      "author_title": "Database editor, St. Paul Pioneer Press",
-      "affiliation": "",
+      "author_title": "Database editor",
+      "affiliation": "St. Paul Pioneer Press",
       "full_text": "The results from Minnesota's standardized test \u2013 used to measure progress for No Child Left Behind \u2013 yields a predictable list when sorted best to worst. At the top are schools from the wealthy neighborhoods and suburbs. At the bottom are schools from poor neighborhoods. This didn't seem like a fair way to assess how schools are performing. In June, the Pioneer Press published a series called 'Schools that Work,' stemming from a statistical analysis of test scores that revealed which elementary schools were doing better than expected, considering demographic factors. We found 13 schools serving predominantly low-income students that had consistently done better than expected. Then we visited those schools and came up with five things they were doing that experts said were keys to success. The bulk of the work was traditional street reporting, but data analysis pointed us in the right direction. Test score data is available in Minnesota from the state department of education. Numerous studies have shown that family income is the most significant predictor of test performance. The statistical procedure we used \u2013 regression \u2013 estimates the impact of income and uses that to 'predict' what each school's average should be. We used multiple regression with free/reduced-price lunch, English proficiency, and special education as independent variables. We used SPSS statistical software to run separate regressions on each set of scores and checked the 'residual,' which shows the difference between the predicted score and the actual score. We averaged the residuals to ensure schools labeled 'above predicted' were consistently better than expected. We decided to focus on schools with 60 percent or more low-income students to create a roadmap for success. We tapped other data sources like student demographics and teacher experience. Instead of publishing residuals, we identified schools as above, within, or below predicted to avoid confusion. I convinced my editors to put a good story in the paper; the analysis was just the path to get there.",
       "summary": "The St. Paul Pioneer Press used multiple regression analysis to identify schools in low-income areas that were outperforming their predicted standardized test scores.",
       "keywords": [
@@ -197,8 +282,14 @@
         "regression analysis",
         "test scores"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Education",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "SPSS"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",

@@ -7,8 +7,8 @@
       "headline": "Census preparation",
       "kicker": "UNITED STATS OF AMERICA",
       "author_name": "Paul Overberg",
-      "author_title": "USA Today",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "USA Today",
       "full_text": "Almost six months ago, I spoke on a panel at the IRE national conference about the wisdom of starting Census 2000 preparations immediately. Remarkably, the shape of Census 2000 is even less clear now. That's why it's even more important to start planning now. Much of the uncertainty stems from a battle that's erupted over the Census Bureau's plan to use sampling to help count the nation. Republicans oppose it, and they control Congress. Democrats favor it, and they control the White House...\n\nIn Washington shorthand, sampling has been reduced to 'like polling.' It is, but what's planned would be much more sophisticated and complicated. There are actually two forms of sampling planned in the Census 2000 count, further complicating the task of explaining it to our editors and readers. At this writing, two appellate courts have ruled that sampling can't be used in lieu of a count-to-the-last-person approach to produce the state totals that will reapportion the House of Representatives. Neither court, however, has forbidden the use of sampling to produce totals for other purposes, such as distributing federal funds or redistricting state legislatures. The Supreme Court's final word is due by spring. Congress and the White House have agreed to make peace by mid-June or shut down a big chunk of the government. The Census Bureau hasn't decided whether or how it would use sampling if it can't use it for everything. The bureau's overseers in the Commerce Department and the White House won't even discuss this prospect because they're still fighting to conduct just one census with built-in sampling...\n\nJust like in 1990, it's quite possible the bureau will produce two sets of numbers: one from the count, the other from the sampling-adjusted count. If this happens, President Clinton could order federal agencies to use adjusted numbers to dole out $100 billion a year...\n\nMuch of the publicity over sampling focuses on how it corrects for the undercount, those missed by the mail survey and door-knockers - most frequently racial minorities, the young, the poor and illegal immigrants...",
       "summary": "This article discusses the uncertainty and political battles surrounding the preparation for Census 2000, focusing on the controversy over using sampling in the census count. It highlights the potential impact on reapportionment and federal fund distribution.",
       "keywords": [
@@ -16,7 +16,11 @@
         "sampling",
         "reapportionment"
       ],
-      "topics": [],
+      "topics": [
+        "Demographics & Census",
+        "Government & Politics",
+        "Data & Databases"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -31,10 +35,20 @@
       "author_title": "",
       "affiliation": "Arizona State University",
       "full_text": "The first release of data from the 2000 Decennial Census is more than two years away, but it's none too soon to start preparing. Here's a checklist from someone who wrestled a lot with the 1990 Census, covering what you need to know and what you should do to get ready.\n\nThe basics\n\nMaster your spreadsheet skills: The majority of census analysis can be done using a spreadsheet program such as Excel. Make sure you know how to import a text file, build a spreadsheet, write and copy formulas, sort and filter, export your results into a table that can be published, and other such tasks.\n\nMaster your math skills: The census is numbers, lots of 'em. Memorize my formula for percentage change: NEW divided by OLD, minus one. (You don't believe it's that easy? Try it.) Make sure can be made to work with census data, too.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A preparatory guide for journalists to get ready for analyzing data from the 2000 Decennial Census, emphasizing the need to develop spreadsheet and mathematical skills before the data's release.",
+      "keywords": [
+        "Census",
+        "spreadsheet",
+        "preparation"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -48,10 +62,22 @@
       "author_title": "",
       "affiliation": "San Antonio Express-News",
       "full_text": "Why would a reporter want to access the Census on the Web? Easy. You can find data to add depth and context to your daily reporting or download large data sets for projects. You can keep yourself updated on developments at the Census Bureau and generate story ideas. It's a great resource, a site with statistical information ranging from population and housing to minority-owned businesses and international fertility rates.\n\nConsisting of more than 40,000 pages, the Census Web site can be hard to navigate. Familiarize yourself with some of the tools mentioned below and you will be well on your way to utilizing its full potential.\n\nPress releases, alerts and experts\n\nFollow the News link off the main page to access tools the Bureau offers reporters. The Census Bureau posts all news releases in both chronological and subject order. News releases can also be sent directly to your e-mail. See www.census.gov/pubinfo/www/subscriptions.html. Each news release links to appropriate data sets, tables and reports. The press can also view embargoed news releases. Contact the Public Information Office.\n\nIf you need the names and phone numbers of Census Bureau employees who specialize in various areas of the Census, link to Ask the Experts at http://www.census.gov/contacts/www/contacts.html. Use State Data Centers to find more specifics for your state.\n\nUnderstanding the data\n\nFinding the information you need on deadline can be a challenge. If you are looking for demographic data, be aware of the two major summary data files: STF1 and STF3. The STF1 data are generated form responses to the more general Census short form. This form is sent to everyone and represents the 100 percent count of the population. The STF3 data are generated from the Census long form, which is sent to a sample of the population. The numbers provided are estimates, but the information tends to be more detailed.\n\nThe 1990 Census Lookup Tool http://venus.census.gov/cdrom/lookup provides quick access to every variable in the 1990 Census. From the Lookup, choose the appropriate data set \u2013 STF3A provides the greatest level of geographic detail.\n\nSome of the most up-to-date yet overlooked data can be found in Census surveys. (See a complete listing at http://www.census.gov/main/www/surveys.html. Survey topics range from American Housing, Minority-Owned Business and Wildlife Recreation to Business Owners and Nationwide Truck Activity. The Current Population Survey (CPS) at http://www.bls.census.gov/cps/cpsmain.htm is one of the site's most useful surveys. However, because surveys occur more frequently, they tend to lack the geographic specificity of the census. Numbers are typically generated for the nation, states and, sometimes, metropolitan areas.\n\nQuick hits\n\nIf you are on deadline, take advantage of the many lookup tools. In addition to the 1990 Census Lookup, tools are available for the Economic Census at http://www.census.gov/epcd/econ/www/lookups.html. Search County Business Patterns, the Census of Agriculture and U.S. Imports and Exports History.\n\nAs a member of the media, you have access to the great lookup tools in CenStats, located at http://www.census.gov/apsd/www/censtats.html. Call the PIO office for a user name and password. My personal favorite is the Census Tract Street Locator. Type in a street address and determine its census tract. Take that tract number back to the 1990 Census Lookup and get more information on a smaller corner of your city.\n\nUse MapStats at http://www.census.gov/datamap/www/index.html to access county population data, county business pattern data, and Congressional district information.\n\nThe Census tries to provide quick access to the most popular Census variables (population, health insurance, marital status) at Hot Sites for the Media at http://www.census.gov/pubinfo/www/hot_frm.htm. Although you have to navigate through an unwieldy frames interface, this may be the fastest way to view comparative data broken down by race and ethnicity.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "This guide helps journalists use the Census Bureau's website to find statistical data for reporting, explaining key resources like news releases, expert contacts, and major data files (STF1 and STF3) while providing tips for accessing information quickly on deadline.",
+      "keywords": [
+        "census",
+        "journalists",
+        "data"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -65,10 +91,21 @@
       "author_title": "",
       "affiliation": "Virginia Commonwealth University",
       "full_text": "Quick hits and the long term\nBy Jeff South\nVirginia Commonwealth University\n\nFrom quick-hit dailies to long-term projects, census data can be used in various ways:\n\n\u2022 Every year, the bureau updates population estimates for states, counties and metropolitan areas. These updates are fodder for breaking news and trend pieces.\n\n\u2022 The 1990 census and updated estimates are especially valuable when combined with other data, such as the number of crimes, gun permits, pawn shops, supermarkets, public swimming pools, billboards \u2013 you name it. Use census data to compute rates, like zoning violations per 1,000 people in different parts of your city. Then use the census to see if the rates are different between low-income and high-income areas or between predominantly minority and predominantly white areas.\n\n\u2022 The bureau produces such reference materials as the Statistical Abstract of the United States, the County and City Data Book and USA Counties. These materials include data ranging from health care to the cost of living.\n\n\u2022 The bureau continually cranks out studies and statistical briefs that spotlight trends.\n\n\u2022 Beyond demographics, the Census Bureau tracks rental housing vacancies, government spending, business development and other trends.\n\nOther demographic data\n\nThe Census Bureau is by no means the only source of demographic data on the Internet. The bureau's page has links to other sites, like the University of Missouri http://www.oseda.missouri.edu, census data at the Lawrence Berkeley National Laboratory http://www.lib.berkeley.edu.GSSI/uc_cdrom.html and the Consortium for International Earth Science Information Network http://www.ciesin.org. Also, check you state government's Web page, as well as sites operated by publications like American Demographics http://www.demographics.com, which often posts the data used in its articles.\n\nDevelop human sources, too \u2013 not just at the Census Bureau but at its regional office nearest you, and at your state data center. The centers, usually affiliated with a state government agency or university, help distribute and analyze census information.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Census data can be leveraged for both quick news stories and long-term investigative projects by combining population estimates with other datasets to reveal trends and disparities across communities. Beyond the Census Bureau, journalists should explore alternative demographic sources and develop relationships with human sources at regional offices and state data centers.",
+      "keywords": [
+        "census",
+        "demographics",
+        "trends"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -79,13 +116,25 @@
       "headline": "Quick hits and the long term",
       "kicker": "",
       "author_name": "Jeff South",
-      "author_title": "",
-      "affiliation": "Virginia Commonwealth University",
+      "author_title": "reporter",
+      "affiliation": "Austin American-Statesman",
       "full_text": "From quick-hit dailies to long-term projects, census data can be used in various ways:\n\n\u2022 Every year, the bureau updates population estimates for states, counties and metropolitan areas. These updates are fodder for breaking news and trend pieces.\n\n\u2022 The 1990 census and updated estimates are especially valuable when combined with other data, such as the number of crimes, gun permits, pawn shops, supermarkets, public swimming pools, billboards \u2013 you name it. Use census data to compute rates, like zoning violations per 1,000 people in different parts of your city. Then use the census to see if the rates are different between low-income and high-income areas or between predominantly minority and predominantly white areas.\n\n\u2022 The bureau produces such reference materials as the Statistical Abstract of the United States, the County and City Data Book and USA Counties. These materials include data ranging from health care to the cost of living.\n\n\u2022 The bureau continually cranks out studies and statistical briefs that spotlight trends.\n\n\u2022 Beyond demographics, the Census Bureau tracks rental housing vacancies, government spending, business development and other trends.\n\nOther demographic data\n\nThe Census Bureau is by no means the only source of demographic data on the Internet. The bureau's page has links to other sites, like the University of Missouri http://www.oseda.missouri.edu, census data at the Lawrence Berkeley National Laboratory http://www.lib.berkeley.edu.GSSI/uc_cdrom.html and the Consortium for International Earth Science Information Network http://www.ciesin.org. Also, check you state government's Web page, as well as sites operated by publications like American Demographics http://www.demographics.com, which often posts the data used in its articles.\n\nDevelop human sources, too \u2013 not just at the Census Bureau but at its regional office nearest you, and at your state data center. The centers, usually affiliated with a state government agency or university, help distribute and analyze census information. You can find a list of the centers at http://www.census.gov/ftp/pub/sdc/www/\n\nIf you need inspiration for census stories, read Who We Are: A portrait of America based on the latest U.S. Census. This 1993 book, by Sam Roberts of The New York Times, shows how to put a face on census data.\n\nSouth's handout, #495 in the Resource Center, was provided when he was with the Austin American-Statesman.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Census data offers journalists multiple storytelling angles, from annual population updates to trend analysis comparing demographic patterns across geographic and socioeconomic lines. Beyond the Census Bureau, numerous public sources and human contacts can provide demographic data for investigations.",
+      "keywords": [
+        "census",
+        "demographics",
+        "data"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -99,10 +148,20 @@
       "author_title": "",
       "affiliation": "The Washington Post",
       "full_text": "What makes county population estimates useful is not just the population totals, but the underpinnings of those estimates. Included in the \"components of change\" are the bureau's year-by-year estimates of the number of people over 65, people under 65, births, deaths, immigrants and domestic migrants (which means people who moved to any county from any other county in the U.S.). This is good fodder for stories about the growth of the elderly and immigration populations, ups or downs in births (best to double-check those with actual birth figures, usually compiled by health departments), and the appeal of your region to people from other parts of the country.\n\nCensus has recently published 1996 estimates by county of the age, race and Hispanic origin population. Slap them into a spreadsheet and track change since 1990.\n\nThe numbers are not as accurate as the Census, because they are estimates from administrative records rather than results of a door-to-door survey. You should be cautious about using them for very small counties. But they sure beat figures that are nearly a decade old.\n\nAnother useful data set \u2013 and about to get somewhat more useful \u2013 is the International Revenue Service County Migration files. These records count the number of taxpayers and dependents who moved from one county to another in any given year and include their total and median income.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "County population estimates provide valuable demographic breakdowns including age groups, births, deaths, and migration patterns that can fuel reporting on aging populations, immigration, and regional migration trends. The Census Bureau's recently published 1996 estimates by county offer journalists a way to track demographic changes since 1990, though they are less accurate than full census data and should be used cautiously for small counties.",
+      "keywords": [
+        "demographics",
+        "migration",
+        "estimates"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Demographics & Census",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "spreadsheet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -116,10 +175,20 @@
       "author_title": "",
       "affiliation": "Asbury Park (NJ) Press",
       "full_text": "Note to the next Constitutional Convention: Please make the census an annual event. The Founding Fathers sure didn't have journalists in mind when they came up with the count-everyone-once-a-decade concept, confounding our obsessive need for total accuracy.\n\nTry answering these questions on a municipal (or lower) level: How many immigrants live in town? How many toddlers are there (whose parents may not even have met before the last census)? What is the richest neighborhood in the county?\n\nThe 1990 census is almost a decade out of date, making such microdata as age woefully inadequate \u2013 if not downright paradoxical \u2013 to use: If there were 200 toddlers in town in 1989, does that mean there are none now, but there are lots of 10- to 15-year-olds? There are only two solutions. Ignore the 1990 census data by taking a sabbatical until 2000 or buy census updates from commercial vendors.\n\nEducated guesses\n\nCommercial updates have been the lifeblood of census information at the Press for the last five years. But keep in mind that the methodology for calculating estimates differs from one company to another. Most use algorithms based on death and birth lists, change-of-address data from the post office, and even mini-surveys.\n\nIn short, what you get with an estimate is a big ol' guess. Maybe a pretty good educated guess, but a guess nonetheless. Given the choice between using the 1990 census or an update, I would choose the update every time, with a note to readers that the information is based on estimates.\n\nI use Claritas, which packages data mainly for businesses and marketers. Claritas comes with a mapping program and is",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The author argues for annual census counts instead of the current decade-long gap, highlighting how outdated census data makes local demographic reporting inaccurate and forces journalists to rely on commercial vendor estimates that use varying methodologies.",
+      "keywords": [
+        "census",
+        "demographics",
+        "estimates"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Claritas"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

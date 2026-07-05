@@ -7,8 +7,8 @@
       "headline": "Firestone and Explorers",
       "kicker": "TRANSPORTATION",
       "author_name": "Josh Barbanel",
-      "author_title": "The New York Times",
-      "affiliation": "",
+      "author_title": "Reporter",
+      "affiliation": "The New York Times",
       "full_text": "It was late in the day. We were up to our ears in other projects when a business editor interrupted with one of those vexing requests. It was a nuisance - hardly worth the attention of one, not to mention two, highly significant reporters in the new Investigative Cluster of The New York Times. \"Can you help us open up this spreadsheet,\" the editor asked. Sigh. The spreadsheet turned out to be a messy table with the first release of government complaints about deaths attributed to Firestone tires on Ford Explorers. We clicked on the table icon in the email, counted the cases and were done. Back to our very important work. But the next day, as my colleague Ford Fessenden likes to say, serendipity happened. We were discussing what we would have said, if the editors had seen us as something more than keyboard jockeys - and actually asked for help in thinking about and dealing with the rapidly developing story of the recall of more than 14 million Firestone ATX and Wilderness tires. Well, we both had worked with government accident data files. We knew that Ford Motor Company was using warranty claims data to monitor the problem (and make its case that the problem was all the fault of Bridgestone/Firestone). We knew the federal government was relying on complaints called in by survivors, lawyers and the auto companies. If these complaints involved real people killed in real fatal accidents, shouldn't we be able to track at least some of the same cases in the rich federal database of fatal accidents? The editors never actually assigned us to look into the Ford Explorers. But we poked around, and they were fascinated when we told them we were able to clearly trace a significant surge in tire-related fatal accidents in Ford Explorers, not found in other sport utility vehicles. This was remarkable (some may say debatable) because reports of tire-related deaths were rare events. At the time, the federal government had complaints of 88 deaths in tire-related accidents in the Ford Explorer, including some going back many years.",
       "summary": "Investigates issues with Firestone tires on Ford Explorers, identifying a surge in tire-related fatal accidents and highlighting potential oversight by government and manufacturers.",
       "keywords": [
@@ -16,8 +16,14 @@
         "Explorer",
         "accidents"
       ],
-      "topics": [],
-      "technologies": [],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Business & Economy"
+      ],
+      "technologies": [
+        "spreadsheet"
+      ],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -31,9 +37,17 @@
       "author_title": "",
       "affiliation": "Los Angeles Times",
       "full_text": "The first wave of data from Census 2000 has washed ashore, providing some with an exhilarating ride surfing the leading edge of computer-assisted reporting It may have been more terrifying than thrilling for others, however.\n\nWhichever situation you identify with, upcoming data releases will be much, much more challenging.\n\nThe data dictionary for PL94-171's four tables of race and race and Latino/Hispanic ethnicity was 10 pages long. For Summary File 1 coming this summer, the preliminary description runs 110 pages, and the final detailed listing will be many times that length.\n\nPL94-171 had a total of 288 population count variables, plus the 80 geography variables.\n\nSummary File 1 will have the same 80 geography variables plus 8,132 population and housing count variables. That includes 3,078 variables down to the block level plus another",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "The Census 2000 data release presents increasing complexity for journalists using computer-assisted reporting, with upcoming Summary File 1 containing vastly more variables and detailed information than the initial PL94-171 data.",
+      "keywords": [
+        "Census",
+        "data",
+        "journalism"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -48,10 +62,20 @@
       "author_title": "",
       "affiliation": "FLORIDA TODAY",
       "full_text": "Fatal-crash stories along Interstate 95 were almost becoming routine. During a six-month period last year, 12 people were killed in 11 separate accidents on Brevard County's 73-mile stretch of Interstate 95. One New York family, who lost their parents in a March crash, wrote FLORIDA TODAY and pleaded with reporters and editors to take the coverage beyond spot-news stories. They wanted to know the reasons why their parents and many others were dying on I-95. They wanted the newspaper to illustrate the human toll. We, too, saw the potential of the story. But first we had to determine just how dangerous the interstate, one of two main arteries in Florida, really is. A team of reporters and editors began culling and analyzing state data from nearly 30,000 crashes over five years along Florida's 382 miles of I-95. In an initial 10-page report on Dec. 3, 2000, we delivered the news that the number of people killed on the Florida highway had doubled over five years.\n\nGathering data for I-95 required working with four state transportation districts and compiling data from each district into one database.\n\nThe data were startling enough, but the process also was revealing and newsworthy. We learned that money was the biggest culprit impeding enhancements to the road. But we also learned that while state transportation officials collect crash data, an aging computer system does not allow those officials to thoroughly analyze the information to identify the causes of crashes.\n\nIn the 10-page report (called \"I-95, More Dangerous Than Ever\") and the dozens of stories, editorials, reader letters and a public forum that followed, enough urgency was raised to compel state and local officials to take action. It was impossible to ignore the findings of the report, including:\n\nIn 1996, there was a sudden and dramatic increase in the number of fatal crashes on I-95. That was the year the speed limit was raised to 70 mph from 65 mph.\n\nThe death rate per I-95 mile driven in Brevard County, home to FLORIDA TODAY, is more than twice the national average for interstate highways.\n\nAlmost a third of the fatal crashes in Brevard County occur when vehicles veer out of control across grass medians and into oncoming traffic. Those \"crossovers\" lead to more multiple-death crashes than any other type of accident. They could be prevented by erecting median barriers in high-accident locations - a fairly simple, low-cost solution.\n\nComparisons\n\nOne thing the project did not do was compare I-95 to another road. We did gather fatality rates for U.S. interstates and Florida interstates and we compared those to I-95. But we did not, for example, look specifically at Interstate 75 in Florida.\n\nWe chose to compare I-95 to itself because it is Florida's eastern gateway and the most heavily traveled road in the state. However, taking the time to compare it to I-75, Florida's other major highway, would have added depth and perspective to our report.\n\nGathering data for I-95 required working with four state transportation districts and compiling data from each district into one database. Because each district is independent of the other, no one at the state level can effortlessly answer basic questions - such as the number of people killed in any given year - about I-95, I-75 or any other road that runs through multiple transportation districts.\n\nState transportation officials said a new central computer system, expected to be in place by July, would give them a better and quicker understanding of state-maintained roads.\n\nWhile the National Highway Traffic Safety Administration tracks all fatal wrecks in its Fatal Accident Reporting System database, the agency essentially relies on police reports for the information. Those reports often list multiple names of one road and NHTSA's database does not take that into account. In other words, you would have to know every possible name that law enforcement might use for a road in order to properly crunch the numbers.\n\nAnalysis\n\nAnthony DeBarros, a database editor for USA TODAY, cleaned up the data, compiled it into one database and assisted with the number crunching. We used Microsoft Access. The database was 13 megabytes. We also used Microsoft Excel for some import work. The data was supplied to us at no cost.\n\nState transportation officials said a new central computer system, expected to be in place by July, would give them a better and quicker understanding of state-maintained roads.\n\n\"The data was in fixed-width text files, but we discovered that one of the state zones was missing a couple of years of data, so we had to get that data and add it to our database\" DeBarros said.\n\n\"In terms of cleaning, all the data was presented in code, and I spent considerable hours going through and converting those codes into meaningful text that the reporter could understand. Also, we had to figure out how to piece together (separate data from four districts) so we could get a picture from end to end.\"\n\nThe CAR work took about two months to complete as a side job. The project took about four months to complete.\n\nDeBarros mentioned that while we did compile traffic data for I-95, using it to determine fatality rates, reporters who do similar projects should keep in mind that traffic volume must be figured into the equation before a stretch of road can be labeled the \"deadliest.\"\n\nReaction\n\nReaction to the coverage has been swift and substantive. Here's what has resulted so far:\n\nBrevard County legislators pledged that I-95 safety would be their top priority during the 2001 legislative session. They backed that pledge by setting a meeting in January with the state secretary of transportation to push for median barriers along I-95 in Brevard County.\nThe transportation secretary hired a traffic engineering company to analyze Brevard County's 73-mile stretch of I-95. The company is expected to examine 10 years of crash records.\nThe Metropolitan Planning Organization, the chief transportation planning agency in Brevard, said it would use our report to build a public awareness campaign to improve safety on Brevard's stretch of I-95.\nIn South Florida, Broward County officials initiated a public awareness campaign to alert drivers to the dangers of I-95 in that county. Transportation officials in Broward are continuing to study I-95 crash records in an area the newspaper identified as the stretch with the most fatal wrecks and the most traffic.\nAnd state highway patrol officials are using the newspaper's finding to lobby vigorously for more high-visibility enforcement along the entire interstate, including more marked and unmarked cars, increased DUI enforcement and aircraft speed-enforcement details.\n\nTony Manolatos can be reached by e-mail at tmanolat@flatoday.net\n\nTHE FLORIDA TODAY story, \"I-95: More Dangerous Than Ever,\" is available from the IRE Resource Center, story 17007. To order, call (573) 882-3364.\n\nData: Accident reports from four Florida transportation districts\nSoftware: Microsoft Access and Excel",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A Florida newspaper's investigation into deadly crashes on Interstate 95 revealed that fatalities had doubled over five years, prompting state and local officials to take action after the publication of a comprehensive 10-page report analyzing nearly 30,000 crashes.",
+      "keywords": [
+        "safety",
+        "investigation",
+        "highways"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Public Safety"
+      ],
+      "technologies": [
+        "database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -62,13 +86,24 @@
       "headline": "Truck safety",
       "kicker": "TRANSPORTATION",
       "author_name": "Andy Lehren",
-      "author_title": "",
+      "author_title": "Reporter",
       "affiliation": "Dateline NBC",
       "full_text": "During a lull at a truck inspection station in rural Florida, I took a drive a few miles up the road. It wouldn't take much guesswork to figure out what I saw. Trucks. Lots of trucks. Some pulled over the side of the road. Others getting off at exits that had little discernible lure for commercial traffic.\n\nThey were doing whatever they could to avoid inspections. They were driving down tiny main streets, past scattered homes. They trundled by schools and farms. You could hear them speaking on CB radio about the best way to navigate the back roads so they could pop back on the interstate, past the inspectors. Some would play possum by pulling into a parking lot, waiting for the inspection station to close.\n\nWelcome to one of the things you won't see when you look at truck inspection data. When trucks are inspected, one of five is pulled out of service. A lot of the time it's for brakes that won't work right when there's an emergency; stuff that leads to accidents. When you see trucks pulling off the road to avoid inspections, you know there are a lot of inspections that never happen. That one-out-of-five figure is only a baseline.\n\nDateline NBC obtained more than a dozen databases to examine the problems with trucking safety. These included federal and state databases on accidents, inspections, truck carrier profiles, safety ratings and enforcement actions. The sources included the U.S. Office of Motor Carriers (now called the Federal Motor Carrier Safety Administration), the National Transportation Safety Board, the U.S. Bureau of Transportation Statistics, and transportation and public safety agencies in several states, including Florida, Missouri, Texas and California.\n\nThe reason we undertook such a thorough approach was to overcome some of the incompleteness and unreliability that happen if you relied solely on one of these databases. The result allowed the news magazine to more fully document the problems in trucking safety, in a story produced by Lynn Keller with correspondent Steve Daniels. It documented how many trucking companies systematically ignored safety rules and put bad trucks on the road, and how regulators fall short monitoring them.\n\nStudies and reports\n\nA starting point for our work was collecting various reports and studies that had been done on trucking safety, to establish sound methodologies. It also helped us gauge how well different states handle truck safety. California, for instance, is much better than Arkansas.\n\nThe simplest analysis was tracking which companies had unusually high out of service rates when their trucks were inspected. This is where having state data becomes important. Federal truck inspection data is only required to include interstate carriers. One in ten trucks on the road are intrastate truckers. They aren't licensed to go into other states. So their inspection records are not included in federal databases even if they are part of a subsidiary that's an interstate carrier. These trucks tend to face less scrutiny. It's also one of the things you won't see when you check a company's history off the U.S. Department of Transportation's web site (www.safersys.org).\n\nSome states offer far more details in their inspection and accident data. Those additional columns of data may tell you more about the driver or more easily identify a particular truck. The federal Fatality Analysis Reporting System is also good for double-checking truck accident data.\n\nSafety scores\n\nSeveral of these databases were obtained under the Freedom of Information Act and state open records laws. The most significant victory was a FOIA request that Dateline NBC won, on appeal, with the U.S. Office of Motor Carriers. We were the first news organization to obtain a recently developed database known as SafeStat, short for the Motor Carrier Safety Status Measurement System. It's worth getting, and should be easy to obtain for any news organization seeking it these days.\n\nSafeStat includes numerical grades on the safety of trucking companies. The scores are on a sliding scale, and allow you to compare different companies with scores for four areas: driver, vehicle, accident and safety management.\n\nDateline NBC used the FOIA to also obtain the safety classifications kept by federal regulators in a separate, older system, as part of the federal motor carrier census. These are three letter grades - satisfactory, conditional and unsatisfactory. Just like the statistics books tell you, there's a lot of subtlety that's lost when data is categorical. Out of service rates, accident rates and SafeStat scores give you a much better sense of how much safer one trucking company is versus another. That sense of proportion is lost when information is telescoped into three grades.\n\nBut the older three-grade system is still worth a look. The grades are one more way to cross-check the different rates. It also gives you a sense of a company's history. Very few are unsatisfactory. But experts say that in this somewhat lenient system, keep your eye on trends. If a company is unable to maintain a satisfactory grade consistently over the years - say, it goes from unsatisfactory to satisfactory to conditional and then again conditional - it's worth checking out.\n\nOne way we used SPSS was to run a linear regression comparing the size of truck companies versus their serious accident rate, then comparing companies against like competitors. Reporters should look for outliers - which companies have higher than expected accident rates. (There is much in the literature on using numbers of trucks versus miles traveled, generally a less reliable number. Reporters should be aware of these factors, run the data both ways, and compare results).\n\nMapping\n\nWe used mapping software several ways. Perhaps the most interesting was plotting accident and inspection data to figure out which inspection stations we wanted to visit, to see how regulators handled their workload and dealt with companies that had a pattern of problems. That meant we were there when a military munitions truck was pulled out of service for not being safe to drive.\n\nMapping also helped us analyze whether a trucking company was inspected more in certain states, and whether those states had lax or stringent inspections. One large trucking carrier, for instance, scored well in its home state, and usually scored much worse elsewhere in the country.\n\nHaving all this data allowed us to challenge trucking industry claims about safety. We knew which companies' paper records for on-site inspections we wanted to obtain. Enforcement data helped underscore the contrast between the problems on the roadways and the declining actions taken by regulators.\n\nThe data also helped us make sure we had a strong reason for highlighting the different companies and accidents that were profiled in the story.\n\nAndy Lehren can be reached by e-mail at alehren@nbc.com\n\nThe Dateline NBC story, \"Truck Stop,\" is available on videocassette, story #16152.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "An investigation into trucking safety reveals that many trucks avoid inspections by using back roads, and analysis of multiple federal and state databases shows that the official one-in-five out-of-service rate significantly underestimates actual safety problems in the industry.",
+      "keywords": [
+        "trucking",
+        "inspections",
+        "safety"
+      ],
+      "topics": [
+        "Public Safety",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -79,13 +114,25 @@
       "headline": "Bus driver",
       "kicker": "FIRST VENTURE",
       "author_name": "Dan Feldstein",
-      "author_title": "",
+      "author_title": "Projects Desk Reporter",
       "affiliation": "Houston Chronicle",
       "full_text": "William \"Bones\" Pierson is a legend among bus drivers at Houston's Metropolitan Transit Authority.\n\nHe routinely drives 19-hour days and seven-day weeks. He didn't take a day off between Aug. 21 and Nov. 4.\n\nHe earned $109,000 last year, more than tripling his base salary through overtime. Dozens of other drivers were close behind.\n\nI hadn't known about Bones or the others until the computer tipped me off. Fresh out of NICAR's January boot camp, I wanted something simple and comfortable for my first venture.\n\nI ranked them in descending order and found my first real problem: The top guy drove 26 hours in one day. Good trick.\n\nI covered transportation before I went to the Chronicle's projects desk, so I picked on Metro - the Metropolitan Transit Authority. I'd heard that some of its drivers were racking up big bucks driving overtime.\n\nI had four questions: How much were they earning? How much were they driving? Was this legal? Was this safe?\n\nI requested the record layout of any database that contained time records, pay records or accident records. Neatly, they had all three. Each was separate, but each had a field for driver ID and a field for date. I requested them all for the calendar year 2000, plus a week on either end.\n\nThey came in Excel worksheets and I carefully put them into Access. The pay was trickier than I had expected. There were nearly a million records for only about 1,500 drivers because each type of pay was listed in a different record. On any one day, a driver could have one record for regular pay, one for overtime pay, one for a monthly bonus, etc. Some simple SQL gave me a list of the top earners.\n\nList of adjustments\n\nThe time records were next. They came by driver, by day. These were \"platform minutes,\" the actual time the driver was on the street, behind the wheel. I ranked them in descending order and found my first real problem: The top guy drove 26 hours in one day. Good trick.\n\nOh yeah, said the Metro computer guy. You need the \"list of adjustments.\" Every bus route has a set time. But if you get stuck in traffic, time can be tacked on. And if you get ill and leave early, time can be deducted. Plus other errors are corrected.\n\nIt turned out there were roughly 50,000 adjustments for about 350,000 records, which is when I learned about \"outer joins.\" Using driver ID and date, I tacked the adjustments onto my time table in a new field. Then I summed that field with the original time field in a query to create a new master table.\n\nIt turns out the top shift was 21 hours behind the wheel, not 26 - so much more reasonable.\n\nChecking the law\n\nWas all this driving legal? The feds allow interstate commercial drivers no more than 10 hours behind the wheel each day, or 60 hours in seven days. Texas allows intrastate drivers 12 hours a day or 70 in seven days. But both governments exempt government drivers.\n\nStill, 16 percent of all shifts driven by Metro last year would have violated the federal safety standard, and 5 percent would have violated the state standard.\n\nFor the single-day standard, it was easy to calculate. How many records were over 10 hours, over 12 hours?\n\nThe seven-day rolling total was wicked, however. It didn't exist, and I would have to create it. On every given day, how many hours had the driver been driving in the previous seven?\n\nHelp from NICAR-L\n\nI turned to the NICAR listserv. Three people offered suggestions. Tim Henderson of The Miami Herald offered this:\n\nSELECT a.driver_id, .work_date, sum(b.minutes) as rollingminutes FROM Platform as a, Platform as b WHERE ((([b].[driver_ID])=[a].[driver_ID]) and ((b.work_date) between ([a].[work_date]-7) and ([a].[work_date]-1))) GROUP BY a.driver_id, a.work_date\n\nIt worked! I also tweaked it slightly to get the last six days plus the current day. Finally came the question of whether the excessive driving was more dangerous than regular shifts. Experts said yes, but was there statistical evidence? Actually, it didn't show up in my crude analysis. I joined the time and accident tables, using driver ID and date. I found that, generally, the percentage of accidents attributed to drivers who had exceeded drive-time standards was the same as the percentage of shifts that were driven in excess of those standards.\n\nJumping into a project immediately after boot camp really solidified SQL in my mind. It would have escaped otherwise.\n\nAnd frankly, it took me as long to refine that statement into a single sentence as it did to make the calculations.\n\nLessons learned\n\nThis story could be replicated in a lot of cities. Transit systems have a tough time making new hires because of drug tests and a good economy. They are as happy with overtime as the drivers are.\n\nI learned several lessons in this project. While the data looked nice and neat, there were certainly some individual entries that had errors. Some of the accidents simply didn't join with the time table, for instance. The buses weren't being driven by phantom drivers - people had entered wrong dates, wrong driver IDs, etc., into the database.\n\nI kept my analysis broad because of that. And when I generated a list of the top 10 longest shifts that I was going to print, I gave it to Metro to check. Sure enough, they found a couple that were in error - a guy got sick, someone else hopped on his bus and their times were merged, etc. But most were correct.\n\nSQL solidified\n\nOther important things: Jumping into a project immediately after boot camp really solidified SQL in my mind. It would have escaped otherwise.\n\nAlso, what little I know about databases puts me one step ahead of most flaks. I made my best progress by suggesting a conference call among the flak, Metro's computer guy and me. It helped enormously for the flak to hear the computer guy say, \"Oh that's easy.\" It took two or three weeks to get the data, free of charge.\n\n\"Bones\" owns a nightclub and a Lexus that he doesn't get to drive much. Sadly, his wife told him to choose between marriage and driving so much overtime.\n\nThe new bachelor still has his pedal to the metal.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A journalist used database analysis to investigate overtime practices at Houston's Metropolitan Transit Authority, discovering drivers were working excessive hours and earning over $100,000 annually, raising questions about the legality and safety of the practice.",
+      "keywords": [
+        "overtime",
+        "database",
+        "safety"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Excel",
+        "Access",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -99,10 +146,21 @@
       "author_title": "",
       "affiliation": "IRE and NICAR",
       "full_text": "If you are seeking out a topic for an in-depth investigative piece, or if you just need that nugget of information to follow up on the most recent plane crash, transportation data has you covered.\n\nStory ideas abound in data such as hazardous materials, boating accidents, truck accidents or any of numerous aviation datasets.\n\nReaders of the Fort Worth Star-Telegram learned where some of the most dangerous routes in Texas were thanks to one reporter's use of data.\n\nJeff Claassen used Microsoft FoxPro and Excel to examine the dangers of driving on Texas highways and interstates. The paper specifically wanted to find where drivers in north Texas and statewide were most likely to encounter a bad accident.\n\nWith help from transportation experts, Claassen devised a method to use average daily traffic figures to calculate a rate of serious wrecks per volume of traffic.\n\nOne thing to keep in mind when working on any story that relies on statistics is that it is necessary to normalize the data. To normalize his data, Claassen took into consideration the number of vehicles travelling on a specific roadway.\n\n\"Other newspapers had analyzed Texas accident data, but focused on the total number of fatalities or fatal wrecks for each segment of a freeway or highway, called a 'control section,'\" Claassen said. \"That seemed incomplete because the fact that one roadway had more fatalities or fatal wrecks than another could just be the result of having more traffic. Also, the control sections varied in length from as short as a mile to more than 30 miles, making them difficult to compare to each other.\"\n\nWith help from transportation experts, Claasen devised a method to use average daily traffic figures to calculate a rate of serious wrecks per volume of traffic. He also broadened the story by including serious injury accidents.\n\nThe paper used accident report data from the Department of Public Safety, which consisted of about 1.9 million records from 1993 to October 1999 (the most recent available). The Fort Worth Star-Telegram also obtained the Road Inventory file from the Texas Department of Transportation, which provided average daily traffic figures for the roadway \"control sections.\"\n\nBut this is where some problems began. \"Our first roadblock was incomplete data. The DPS data notes the location of some accidents using 'control sections,' and others using city accident-location codes. That omitted important places like Houston and San Antonio from the mix, so we requested more data to fill in the holes,\" he said.\n\nClaassen then focused the investigation by analyzing wrecks from January 1997 to October 1997 to give the study more accuracy. Transportation analysts told him that time frame was an accurate look at the average number of accidents. State officials warned Claassen that the distance of control sections sometimes change. So, with help from the transportation institute, he was able to develop a method to calculate the rate of serious injury and fatal wrecks.\n\nCable cars\n\nEven if a story doesn't start from the data, transportation stories can be found anywhere in the city. For example, Dan Noyes of KGO-TV in San Francisco took an in-depth look at cable car safety. The story found that the cable cars are not as safe as many people might think.\n\n\"I decided to look into the cable car story after seeing several accidents over the months,\" Noyes said. \"I wondered how this piece of San Francisco history compared to other forms of transportation.\"\n\nUsing accident reports from the California Highway Patrol, Noyes was able to put together a spreadsheet in Excel. With that spreadsheet, he analyzed how many accidents occur per million passenger miles traveled for the different modes of transportation -- car, light rail, bus and cable car. The biggest problem KGO-TV had was getting authorities to realize that his station had a right to the information.\n\nBoating accidents\n\nKarl Ebert of The Northwestern in Oshkosh, Wis., used the federal Recreational Boating Accidents Database to look at the number of boating accidents on Wisconsin waters. He found several instances of accidents that were attributed to alcohol and the boater's inexperience in maneuvering the vessel.\n\n\"People up here love three things: booze, boats and speed. Each summer we report stories about boat accidents, most of them brought on by bad behavior of one sort or another, and decided that we needed to look into the issue to see just how big a problem there actually is out on the water,\" he said.\n\nThe data did help give the story more accuracy, but Ebert ran into a few problems along the way.\n\n\"The biggest problems were the inability and in some cases unwillingness of county officials and local wardens to provide information about tickets that had been written on the water. Because of time and publication scheduling constraints we decided to go with more anecdotal information. That was frustrating, but I don't think it hurt the main thrust of the story,\" Ebert said.\n\nThere were also instances in which he found some problems in the data itself. There was a change in the data's format from several years ago, and because of that, not all of the fields matched up. He also found that a field indicating alcohol involvement was unreliable in historical data because it hadn't been consistently reported.\n\nDevon Hammes can be reached by e-mail at devon@ire.org",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A Fort Worth Star-Telegram reporter used transportation datasets to identify the most dangerous driving routes in Texas by normalizing accident data against traffic volume, demonstrating how data journalism can uncover meaningful safety insights.",
+      "keywords": [
+        "transportation",
+        "data",
+        "accidents"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FoxPro",
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -114,12 +172,22 @@
       "kicker": "TRANSPORTATION",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "NICAR offers numerous helpful transportation datasets to generate story ideas, add depth and authority to daily stories, and to develop enterprise stories.\n\nPrices are based on the size of your news organization. Journalism professors and students fall into the smallest category.\n\nMore information about these datasets, including sample slices and record layouts, is available at www.ire.org/datalibrary/datasets\n\nAir\n\nFAA Enforcements: Actions against airlines, pilots, mechanics and their designees, including all types of planes. Data are available from 1962 through August 2000 for $25, $50 or $75, depending on circulation or market size of your news organization.\n\nFAA Service Difficulty Reports: Contains information on mechanical difficulties collected by the FAA for the purpose of tracking repair problems with commercial, private and military aircraft and aircraft components. Reporting is voluntary, so the database is considered incomplete. Data is available from 1974 through December 2000 for $65, $130 or $155.\n\nFAA Accidents and Incidents: Contains information mainly about U.S. flights where there was an accident or an incident, such as crashes, collisions, deaths, injuries, major mechanical problems or costly damage. Data is available from 1973 through about April 2000. Cost for the most recent data, 1990 through 2000 is $40, $80 or $105.\n\nFAA Aircraft Registry: Contains a listing of all aircraft and aircraft owners registered in the United States. This dataset also includes tables on registered aircraft dealers and individuals or companies that reserved the N-number for their plane. The registration table in this dataset can be used to identify the registered owner of an aircraft by searching on the registration number (commonly called the N-number). NICAR updates its data every three months. The most current version, February 2001, is available for a one-time purchase for $25, $50 or $70 or an annual subscription, which includes four updates, for $50, $100 or $125.\n\nFAA Airmen Directory: A listing of pilots and other airmen, including the type of certificate(s) they hold and their ratings. As a result of a new law that allows airmen to have their information withheld from the public, this listing is incomplete. This data, current as of October 2000, includes about 65 percent of the total. NICAR updates its data every six months. The most current, November 2000, is available for $30, $60 or $80.\n\nNASA Air Safety Reporting System: Anonymous reports of airplane safety submitted by pilots, flight attendants, air traffic controllers and passengers. Anyone is eligible to file an ASRA report, and pilots appear to be the most frequent filers. Reports might include month, year and day of the week, but it will not include the exact date. Data is available from 1988 through 1999 for $65, $130 or $155.\n\nNTSB Investigations of Aircraft Accidents: Contains information on civil aviation accidents and incidents, including pilot, crew and airplane descriptions and environment conditions within the U.S. its territories and in international waters. Data is available from 1984 through October 2000 for $75, $150 and $175.\n\nRoads\n\nDOT Fatality Analysis Reporting System: A good tool to analyze the number of fatal accidents on a specific roadway, in your state or in the nation. FARS is a nationwide database of fatal road-vehicle accidents, truck and trailer accidents are included. The data files cover 1975, when the DOT first began tracking fatal accidents, through 1999. It is available from NICAR for the entire U.S., most recent year at $40, $80 or $105. A file containing 1994-1999 data merged together by NICAR is available for $45, $90 or $115. Earlier years are also available separately.\n\nNHTSA Vehicle Recalls and Complaints: A database of vehicle complaints, recalls, service bulletins and inspections. This data is available for the entire U.S., all years and costs for $40, $80 or $105.\n\nDOT Truck Accidents: A database of accidents on U.S. roads involving a commercial vehicle weighing more than 10,000 pounds, including semi-tractor trailers, buses and hazardous material carriers. This data is available for the entire U.S., all years or by each state, all years and costs $90, $180 or $205 for the entire U.S. or $30, $60 or $85 for one state.\n\nTruck Census: This U.S. Department of Transportation database contains records on each company that has commercial interstate vehicles weighing more than 10,000 pounds. The data is available for the entire U.S. for $95, $190 or $215 or for one state for $30, $60 or $85.\n\nHazardous Materials Incident Report Subsystem: The database contains the incident reports of unintentional releases of hazardous materials for all modes of transportation (air, highway, railway, water). Among other things, the data allows reporters to determine which hazardous material carriers are having the most accidents and in which states. Chemicals most often released and exact accident details are also recorded. The report number column has unique case numbers, making it possible to join different databases for more in-depth investigations. NICAR has this data from 1971 through May 2000. This data is available for the entire U.S., all years, for $50, $100 or $125.\n\nWaterways\n\nBoating Accidents: The database contains information on recreational boating accidents in the United States. The data is available for the entire U.S., all years for $25, $50 or $75.\n\nBoat Registration: The database contains information on registered recreational and commercial boats.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR offers transportation datasets including FAA and NTSB aviation records that journalists can use to develop stories, with pricing tiers based on news organization size.",
+      "keywords": [
+        "aviation",
+        "datasets",
+        "journalism"
+      ],
+      "topics": [
+        "Public Safety",
+        "Data & Databases",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -131,12 +199,23 @@
       "kicker": "FIRST VENTURE",
       "author_name": "Brian D. Crecente",
       "author_title": "Reporter",
-      "affiliation": "Rocky Mountain News",
+      "affiliation": "The Palm Beach Post",
       "full_text": "A year of investigation, database entry and query building boiled down to just two numbers: 1,067 and 99.3. But those numbers made the story. The Palm Beach Post found that in 1997 and 1998, the tiny gated city of Atlantis quietly took control of three major roads framing its boundaries and began churning out tickets to nearly everyone but its own residents. In one year's time, 99.3 percent of all tickets written by city police went to out-of-town drivers. In the past five years, Atlantis fine collections jumped from about $5,400 to more than $63,000 - a 1,067 percent increase.\n\nDespite Florida's wonderful sunshine laws, getting to those numbers wasn't as easy as it could have been. The story began as we followed a tip from a disgruntled ex-Atlantis cop who alleged tickets were being issued on racial lines. We later found that not to be the case.\n\nMy colleague, Matt Mossman, made dozens of requests for traffic ticket data from the city, but officials said tickets weren't tracked and that there weren't any electronic records. Finally we went to the source, the Atlantis police chief, and requested copies of all traffic citations and warnings issued by the department from July 1998 to June 1999. The result of the request came in four large boxes, 1,506 tickets sorted by date and several hundred warnings.\n\nConstruction\n\nDatabase editor Christine Stapleton constructed a database in Access which included fields for everything from the officer's badge number to the specifics of the citation and when and where it was issued.\n\nMossman spent the next few months entering the data and then as his data entry drew to a close, left the paper.\n\nI was left with the enviable task of sorting through a well-organized database, filled with the sort of numbers investigative reporters dream about. There were about 2,000 records between Access and Excel tables.\n\nI knew we were on to something, but I had no idea how dramatic the numbers were going to be until I ran my first query.\n\nDigging in\n\nAfter a little fiddling around, I typed a query that would show how many of the tickets issued were to people whose driver's license showed them living anywhere but Atlantis.\n\nOf the 1,506 tickets analyzed, only 11 went to residents. The other 99.3 percent went to non-residents.\n\nWe had our story. The database also showed that the city's police seemed to spend a majority of their time outside the walls of their city, with all but 60 of the tickets written being for traffic stops on the three main roads framing the city's walls.\n\nAtlantis residents were also more likely to receive warnings than tickets when pulled over. About 78 percent of the Atlantis residents who where pulled over received warnings, while only 16 percent of the out-of-towners pulled over received warnings.\n\nIt was important not to stop with just the data we collected on speeding tickets. I also needed to understand how the city was able to annex the three roads that framed the city's walls.\n\nAfter nearly a month of talking to city, county and state officials, I discovered that the county and the state either didn't officially allow the annexations or didn't fully understand what the annexations meant. According to city records, Atlantis didn't have to do anything on the three newly-annexed streets, but write tickets. The county commissioner, after hearing this, quickly launched an investigation into the annexation and the city's policy of writing tickets outside of their city but not working crashes on those same streets.\n\nCrashes\n\nNext I went to the Palm Beach County traffic division to collect data on the number of crashes that occurred on the streets annexed by Atlantis.\n\nAgain, while I found the officials all too willing to comply with the sunshine law, the data was not in an electronic form. I found myself thumbing through oversized notebooks copying the data into my notepad, which I later transferred to Excel.\n\nThe spreadsheet showed that while Atlantis police spent a lot of time patrolling the streets for speeders, they hardly ever worked crashes that occurred there. Of the 733 crashes that occurred on those three roadways from 1996 to March 2000, Atlantis police worked three, but none of the five fatal ones.\n\nIn an interview, the police chief didn't admit to the over-enforcement, but simply said his residents didn't speed. He added that the department's written policy stated officers are supposed to spend only 30 minutes per eight-hour shift parked outside the city walls. He also said that the reason for the city's enforcement was because they wanted to reduce crashes and that cars passing his city were not only speeding they were going well over the limit. After getting back to the office, I ran a few quick queries to check out the chief's answers.\n\nChief's answers\n\nI found that despite the increased traffic enforcement in the area, crashes along the three roads went up about 15 percent while the amount of traffic in that area went up by only 9 percent.\n\nI also found at least four officers who broke the 30-minute rule, showing up in the database for writing tickets over as much as a five-hour period.\n\nI set up another interview with the chief. When I told him what I found he said that his officers had gotten so over-zealous in their pursuit of traffic tickets he had to issue a moratorium on writing tickets.\n\nHe also said that inside the city's limits police follow a policy that allows officers to ticket someone going only 5 to 9 mph over the limit, if they have received a prior warning.\n\nLuckily, we had created a separate Access database of all of the warnings issued over the year, so when I got back to the office I ran a query for all tickets issued inside the city to people traveling less then 10 mph over the limit and then ran that list against our database of warnings.\n\nI found 14 occasions where officers ticketed drivers who were traveling 9 mph over the speed limit but had no prior warning.\n\nAgain I met with the chief. He said that 11 of the 14 tickets were written by two officers who are no longer with the department and that the problems were anomalies.\n\nThe end result of the data entry, queries, spreadsheets, and back-and-forth interviews was a two-story package.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "The Palm Beach Post's investigation found that the gated city of Atlantis issued traffic tickets almost exclusively to non-residents (99.3 percent) after taking control of three boundary roads, with fine collections jumping 1,067 percent in five years. The story required extensive data collection and database analysis from court records and police files to uncover the discriminatory ticketing pattern.",
+      "keywords": [
+        "tickets",
+        "investigation",
+        "database"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Access",
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -150,10 +229,20 @@
       "author_title": "",
       "affiliation": "KHOU-TV, Houston",
       "full_text": "The story began with a simple conversation: a lawyer told us of a fatal accident involving something called \"tread separation.\" In this case, he claimed a woman was driving her Ford Explorer down a Texas highway when suddenly one of the car's tires, a Firestone Radial ATX, simply lost its tread. At that point, it was just a tip, but we decided to look into it further. Additional contacts with attorneys and others revealed more cases involving the same tire and car combination: Firestone ATX tires and Ford Explorers.\n\nObviously, our curiosity was piqued: How big was the problem? We found that some traditional resources didn't provide the answer. For example, the government's Fatality Analysis Reporting System database did not list tire brands or makes. And the tire manufacturers, who collected tire return and failure claim data considered that information to be \"proprietary.\" (Although such information was often turned over to plaintiffs' attorneys during lawsuits, it might be protected by court order.)\n\nPaper trail\n\nSo we gathered our own data by using, among other documents, court records and accident reports. We also interviewed a number of experts who were in a hands-on position to know what the industry's data on these tires might be like.\n\nWe knew the limits of our approach and our data wouldn't allow for any kind of statistical analysis, but we decided that that was not our goal in any event. In the first place, any real \"answers\" about the allegations would only be obtained through an objective and scientific analysis of both a full body of the industry's data along with a mechanical investigation of both the tire types and perhaps even the SUV model.\n\nTherefore, the point of our story was that there clearly seemed to be enough allegations to warrant an in-depth investigative broadcast asking whether or not there was a problem and to bring it to the attention of Firestone, Ford, the appropriate government officials, and the public itself. If that happened, then perhaps it would lead to an open and scientific look at the issue.\n\nWe went to work and soon sat down to discuss the cases we had accumulated - at the time, more than two dozen deaths that victims' families claimed allegedly resulted from tread separations on Firestone ATX tires mounted on Ford Explorers.\n\nA spokesperson for The National Highway Traffic Safety Administration told us agency officials were unaware of any pattern of accidents involving the tire and SUV, despite the dozens of complaints from Ford Explorer owners we had found on the agency's own Web site. (Although many of those complaints did not identify a specific model or even make of tire, by this time we knew that the Radial ATX had been original equipment on thousands of Explorers and many of the complaints appeared to be about tread separations.)\n\nOur findings were further supported in the first story, Feb. 7, 2000, by a former employee of Firestone's North Carolina tire plant, who told us about what he felt were quality control problems at the plant.\n\nResults\n\nThree nights later, as we were about to air a follow-up report, the president of our corporation received a multi-page letter from Firestone disputing our story. The letter called our report \"misleading.\"\n\nThe letter also called our story unbalanced and stated \"the broadcast may be grounds for finding of actual malice.\" We included the company's response in our February 10 story, reporting their most damaging allegations in the interests of fairness. We also posted the full letter on our Web site for viewers to read.\n\nHowever, we continued to investigate, eventually learning that NHTSA was doing its own internal investigation of complaints reported by our viewers to the agency. By May, the agency announced it was beginning a defect investigation into the Firestone ATX, ATX2, and Wilderness AT tires.\n\nAs we monitored the investigation, there was another break in the story. On July 30, a source called to let us know that since late May, Ford had been recalling ATX and Wilderness tires from Ford Explorers in Venezuela because of accidents similar to ones in the U.S. We even found out that Ford was planning to include similar recalls in Ecuador and Columbia. Within days, the national media jumped on board and coverage of the issue became widespread. Finally, just weeks later Firestone made the announcement it would voluntarily recall more than six million ATX, ATX II, and Wilderness AT tires.\n\nObviously the story didn't stop there. We also broke the story that Venezuela was considering criminal charges against both Ford and Firestone. And, of course, events here eventually led to congressional hearings, and the recent passage of a new law that among other things sets criminal penalties for manufacturers who don't address defects and forces them to tell the federal government when they recall products in other countries.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists investigate a pattern of fatal accidents involving Firestone Radial ATX tire tread separations on Ford Explorers, compiling court records and accident reports after discovering government databases and manufacturer data were unavailable or proprietary.",
+      "keywords": [
+        "tires",
+        "accidents",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Business & Economy"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -165,12 +254,22 @@
       "kicker": "IRE AWARDS",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "IRE",
       "full_text": "Several winners and finalists in this year's IRE Awards used computer-assisted reporting as a key part of their investigations. Two of those stories that won certificates, \"The Body Brokers\" by The Orange County Register, and \"Treading on Danger?\" by KHOU-TV in Houston, are featured in this issue [see pages twelve and eighteen].\n\nOther certificate winners: MEDIUM NEWSPAPERS: \"Detroit Fire Department: Out of service,\" The Detroit News, by Melvin Claxton and Charles Hurt. The reporters documented irresponsibility and incompetence in the Detroit Fire Department, outlining myriad flaws - malfunctioning fire trucks, broken hydrants, closed stations - that contributed to deaths. They built databases off paper records that included dispatch tickets, run books, maintenance sheets, out-of-service reports and daily attendance records from each firehouse. IRE Resource Center story #16983.\n\nNETWORK TELEVISION: \"The Paper Chase,\" Dateline NBC, by John Larson, Lynne Dale, Allan Maraynes, Neal Shapiro, Andy Lehren and Mable Chan. Dateline's investigation documented how insurance companies used people with no medical training to write up reports that routinely denied patient claims after accidents. Data work included creating databases of internal company documents and medical reports, obtained from confidential sources. They used ArcView to analyze maps of State Farm district and regional offices. A free-text base was used to look for patterns in paper documents. IRE Story #17394.\n\nONLINE: \"Our Private Legislatures - Public Service, Personal Gain,\" Center for Public Integrity, by Diane Renzulli, Meleah Rush, John Dunbar, Alex Knott, Robert Moore and Ken Vogel. The Center for Public Integrity investigated conflicts of interest involving legislatures in all 50 states. It found more than 20 percent of state legislators sat on committees charged with regulating the legislators' professional or business interests. They built a database from financial disclosure statements for more than 7,000 lawmakers, and another database of employers of state-registered lobbyists. IRE #17325.\n\nSTUDENT: \"Cycle of Influence: How Campaign Contributions, Lobbyist Spending and Personal Financial Interests Affect the WV Legislature,\" Charleston Gazette/University of Missouri, by Scott M. Finn. The report showed through many different windows how personal and business conflicts affect legislation in West Virginia. For the data work, he used databases of personal financial interests of state legislators, West Virginia lobbyist spending, state lobbyists and their employers, and campaign contributions to state legislators. IRE story #17208.\n\nThe full list of winners and videostreamed excerpts of television category winners are available at www.ire.org/history/pr/2000winners.html",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Several IRE Award winners used computer-assisted reporting techniques including databases, mapping software, and data analysis to investigate stories ranging from insurance company practices to legislative conflicts of interest across multiple news organizations.",
+      "keywords": [
+        "databases",
+        "investigations",
+        "journalism"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "ArcView"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -181,13 +280,24 @@
       "headline": "More Resources",
       "kicker": "TRANSPORTATION",
       "author_name": "Dawn Fallik",
-      "author_title": "",
+      "author_title": "Reporter",
       "affiliation": "St. Louis Post-Dispatch",
       "full_text": "Dawn Fallik of the St. Louis Post-Dispatch compiled a tipsheet of useful transportation Web sites for the 2000 Lexington CAR Conference. Below are some of the links she included. For a complete version of this tipsheet, call the IRE Resource Center, (573) 882-3364 and ask for tipsheet#1290. Or, download it from www.ire.org/reourrecenterl.\n\nGeneral Crash/Explosion/Accident data\n\nNational Transportation Data Archive (NTDA). www.bts.gov/ntdal\nUniversity of Michigan Transportation Research Institute: The institute has a lot of projects, data and research. wrwww.research.umich.edulresearchl proposals/proposal_deul UM_Resources/UMTRL.html\nVolpe Center: Part of the U.S. Department of Transportation's Research and Special Programs Administration. This Web site includes links to many government transportation Web sites. www.volpe.dot.gov/resrefllinksdir.html\n\nTrucking\n\nMotor Vehicle Carrier Association. Has statistics for commercial trucking. www.safersys.org\nBureau of Transportation Statistics: Provides North American merchandise trade data by commodity type and surface mode of transportation with geographic detail for the U.S. www.bts.gou/transborderl\nTanker advisory center (oil spills): 212-628-7686",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A tipsheet compiled by a St. Louis Post-Dispatch journalist providing useful transportation research websites and resources for journalists covering vehicle crashes, accidents, and trucking industry data.",
+      "keywords": [
+        "transportation",
+        "data",
+        "resources"
+      ],
+      "topics": [
+        "Public Safety",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web",
+        "Internet"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -198,13 +308,23 @@
       "headline": "Crash scams",
       "kicker": "AUTO ACCIDENTS",
       "author_name": "Fred Schulte and Jenni Bergal",
-      "author_title": "Fred Schulte is the South Florida Sun-Sentinel's investigative editor. Jenni Bergal is a senior writer at the paper.",
+      "author_title": "Investigative Editor and Senior Writer",
       "affiliation": "South Florida Sun-Sentinel",
       "full_text": "Just about everybody in the auto insurance business in Florida has a story about fraud, from rings that stage fake accidents to crash-care clinics that bill huge sums for needless treatments.\n\nUnfortunately, most insurance companies are wary of talking to the media. They don't want to discuss fraud schemes for fear of drawing a slander suit from those involved, or out of concern that doing so would reveal how vulnerable they are to cheaters. But a number of public records exist to help reporters get an inside look at this multibillion dollar criminal enterprise that investigators say operates in some form in nearly every state.\n\nOur seven-month investigation identified more than 4,000 Florida residents who played roles in at least 1,400 suspicious auto accidents statewide during the 1990s.\n\nIn \"Crashing For Cash,\" a four-part series published in December, we exposed an underworld of traffic accident stagers, corrupt chiropractors and pain clinic owners, ambulance chasing lawyers, patient solicitors and medical testing brokers who band together to cheat insurance companies and consumers.\n\nUnder Florida law, a doctor or clinic can bill up to $10,000 for every crash patient treated. Lawyers can tap insurers for thousands of dollars more in personal injury settlements. This fast money drives the industry. Our seven-month investigation identified more than 4,000 Florida residents who played roles in at least 1,400 suspicious auto accidents statewide during the 1990s.\n\nHundreds of them were chiropractors or lay owners of crash clinics who had been reported to state fraud investigators for padding bills or running needless medical tests on uninjured accident victims.\n\nOthers belonged to crash rings, whose members often were related by blood, ethnicity or neighborhood ties. We entered each name we encountered into one of seven Microsoft Access databases that allowed us to keep a running total of crash-for-cash participants.\n\nData sources\n\nHere are some of the primary sources we used:\n\nState Department of Insurance files. To our surprise, the Florida Division of Insurance Fraud allowed us to visit five of their offices around the state, where we inspected more than 500 closed cases, dating to 1995. Most had been closed without an arrest.\n\nPatterns quickly emerged.\n\nDozens of chiropractors and clinics allegedly were paying \"runners\" to recruit patients, sometimes offering them $300 to $600 apiece, for instance.\n\nIn other cases, solicitors obtained the names of people in minor accidents by purchasing crash reports in bulk at local police stations and calling them at home with promises that they could make thousands of dollars by claiming injuries in a lawsuit.\n\nIn addition, some people had obtained drivers licenses under several aliases. We decided to check their driving backgrounds.\n\nDepartment of Highway Safety & Motor Vehicles. We accessed driving histories and accident records for people investigated for insurance fraud, accident staging or possessing a phony drivers license, the criminal charge that often gets filed against accident stagers.\n\nWe entered this information into a database, which included the name of the driver and passengers in the accident, the speed at impact, damage amount and age of the other driver.\n\nThe data showed us that the same drivers were involved in questionable crashes over and over. Some were members of the same family. Some targeted elderly drivers as victims. One man with six aliases was in three dozen crashes. Eight people living in Palm Beach County wracked up 139 crashes. One family-based ring showed up in 68 suspicious crashes.\n\nWe used standard industry criteria for determining whether a crash was suspicious. For instance, often the accident was little more than a fender bender and the estimated damage to the vehicles was under $500. Yet the accident stager and his passengers would immediately go to a chiropractor's office and begin a series of expensive treatments.\n\nMany other crashes in our sample occurred in parking lots at about 5 miles per hour.\n\nCivil court files. Increasingly, auto insurers are refusing to pay bills they believe are inflated or bogus and are pressing their cases in court. Records of these civil lawsuits, especially depositions of doctors and clinic owners, are invaluable, both for locating patients and establishing questionable billing practices and medical testing abuses.\n\nOther court cases can be helpful as well. Insurers in some states, for instance, have filed class action suits against chiropractors and clinics, claiming they have deliberately inflated costs or billed for services that weren't rendered. Some of the biggest cases have been filed in Chicago and New Jersey.\n\nDisciplinary and criminal case files. We obtained a list of all Florida Board of Chiropractic Medicine disciplinary cases in the last five years and requested hard copies of cases that involved insurance fraud or patient solicitation, including penalties imposed.\n\nMore work\n\nWe combined those named in disciplinary cases with other chiropractors, doctors and clinics whose names surfaced in state insurance fraud complaints, arrest records or civil court cases for suspected accident fraud.\n\nThis list grew to more than 60 medical clinics in Miami-Dade County alone and more than 400 chiropractors, many of them reported to the state repeatedly for accident fraud.\n\nWe also examined the applications of chiropractors with criminal histories and found that the board had granted licenses to dozens of chiropractors from other states with criminal convictions including insurance fraud and cocaine trafficking.\n\nChecking the criminal histories of accident clinic operators, we also found a number of owners with felony convictions, including ex-drug dealers who had migrated to the crash treatment racket.\n\nIn reaction to the series, Florida lawmakers are expected to take up a number of legislative fixes, including one that would regulate auto accident clinics and limit their ownership to medical professionals.\n\nOther proposals include increasing criminal penalties for insurance fraud and accident staging and cracking down on runners who exploit crash victims on behalf of doctors and lawyers.\n\nJudging from the early reaction among state officials, we're glad we told this story.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A seven-month investigation into Florida's auto insurance fraud revealed over 4,000 residents involved in at least 1,400 suspicious accidents during the 1990s, exposing a network of accident staggers, corrupt medical professionals, and lawyers exploiting high billing limits to cheat insurers and consumers.",
+      "keywords": [
+        "fraud",
+        "insurance",
+        "accidents"
+      ],
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -218,10 +338,22 @@
       "author_title": "",
       "affiliation": "The Orange County Register",
       "full_text": "When a team of reporters began work in October 1999 on the story that became \"The Body Brokers,\" we started with a vague idea: People were buying and selling body parts donated at death. CAR played an important role in uncovering the dimensions and practices of the $500 million body parts industry.\n\nAmong the findings of the five-part series: Nonprofit tissue banks work hand-in-glove with for-profit processors, often through exclusive contracts; the pressure to get more bodies is so strong that tissue bank employees and researchers occasionally take body parts without asking; and although the Food and Drug Administration and the industry claim a near-perfect safety record for tissue products, they aren't looking very hard.\n\nAlthough we explored many issues in our story - legal, political, even moral and religious issues - The Body Brokers was at heart a business story. Like any business, tissue banks and processors had to find raw material, win financial backing, develop technology, deal with pesky bureaucrats and market their products. Those universal business needs created paper and online trails.\n\nNonprofits\n\nWe were dealing with the intersection of nonprofit groups and for-profit, often public corporations. As a result, we often could get information from corporate documents that was unavailable from the nonprofits, and vice-versa. For example, we learned early in our investigation that the American Red Cross was among the nation's largest tissue suppliers. We knew it had a relationship with Osteotech, a New Jersey-based public company. The Red Cross wouldn't give us a copy of its contract with Osteotech. But Osteotech had included the contract in a filing with the Securities and Exchange Commission. It took just a few minutes to find the contract on EDGAR, the SEC's irreplaceable online database of corporate documents (www.sec.gov).\n\n(A hint for those seeking obscure corporate documents: Read the footnotes at the end of a company's 10-K or 10-Q. These will list not only documents attached to the current filing but citations to documents that were filed years ago, including the name and date of the relevant filing. A recent Osteotech filing pointed us to a 2- or 3-year-old filing that contained the American Red Cross contract.)\n\nWhen we began our research, Guidestar (www.guidestar.org) - a wonderful source for reporters on the nonprofit beat - had just begun posting Form 990's for hundreds of thousands of nonprofits. We had to get our 990s the old fashioned way, through a massive request to the Internal Revenue Service.\n\nCAR played an important role in uncovering the dimensions and practices of the $500 million body parts industry.\n\nOnce we got sufficient 990s and 10-K's, we assembled them into a series of spreadsheets. Although this information was a year to 18 months out of date, it gave us an excellent idea of the industries' finances and of the nonprofit/for-profit relationships that made everything work. This put us in a strong position when we interviewed industry executives; we knew too much to be given the standard industry spin on the \"gift of life.\"\n\nFederal regulation\n\nThe Food and Drug Administration was an indifferent regulator of the industry. But its Web site (www.fda.gov) still provided many valuable clues. I strongly recommend the agency's weekly online bulletin, which lists every FDA-sanctioned recall. Its online list of warning letters also is valuable. After discovering that a simple search on \"human tissue\" or \"bone\" missed many relevant recalls, I settled down to spend a day and a half reading every FDA bulletin from the beginning of 1994 (shortly after FDA began regulating tissue banks) through the end of 1999. This provided the starting point for our story on FDA's half-hearted enforcement.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Reporters investigated the $500 million body parts industry, uncovering unethical practices between nonprofit tissue banks and for-profit processors through business records analysis. By examining SEC filings, corporate contracts, and nonprofit financial forms, they revealed that tissue banks sometimes harvested body parts without consent and made misleading safety claims.",
+      "keywords": [
+        "investigation",
+        "nonprofit",
+        "tissue"
+      ],
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "Excel",
+        "EDGAR",
+        "Guidestar"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -232,13 +364,27 @@
       "headline": "Medical conflicts",
       "kicker": "HEALTH CARE",
       "author_name": "David Heath",
-      "author_title": "",
-      "affiliation": "The Seattle Times",
+      "author_title": "Reporter",
+      "affiliation": "Seattle Times",
       "full_text": "Once officials at the Fred Hutchinson Cancer Research Center figured out that we were working on a story that might not be flattering, they became quite secretive.\n\nWe wanted to know more about financial conflicts of interest in experimental trials, yet they flatly refused to give us any information about the financial holdings of top researchers or even the center itself. The fact that some of these doctors had financial entanglements with the treatments they were researching - or that patients died from these treatments - didn't sway them at all.\n\nThe state open records act was useless because the Hutch is a private institution, even though nearly 70 percent of its funding comes from federal grants. And an intriguing amendment to the federal Freedom of Information Act - one intended to open records on projects funded with government grants - was rendered worthless as well when research lobbyists prevailed in getting new regulations that severely undercut the law.\n\nWe seemed to be stuck.\n\nUnfortunately, there are no off-the-shelf databases on physicians' financial holdings. We knew that there was a lot of information to be gleaned from Securities and Exchange Commission records, patent records and the like, but we faced the nightmare scenario of reading through thousands - perhaps hundreds of thousands - of pages looking for names.\n\nThen it hit us. With a little bit of computer programming, reading through those documents could be automated.\n\nIt wouldn't be as easy as joining the sex-offender database to the day-care worker database. But with the wealth of data easily accessible on the Internet and the sophisticated tools we have available today, it was clearly doable.\n\nThe results appear as part of our five-part series, \"Uninformed Consent: What patients at the Hutch weren't told about the experiments in which they died.\" The series, written by Duff Wilson and myself and edited by David Boardman, documents two failed clinical trials in which doctors had financial interests and in which patients died from risky treatments without being properly informed of the risks.\n\nTo get information about financial conflicts, first we needed researchers' names. Then we would search for those names in a slew of financial documents from the SEC, an insider-trading database and the U.S. patents full-text database. We'd finally add our results to the few financial disclosure forms that we were able to obtain.\n\nHow we did it:\n\nFirst we headed to the library to gather up every biennial scientific report the Hutch has ever published. These included the names of their entire faculty, including post-doctoral fellows. We sent photocopies to a vendor to be keyed into a database. That was the easy part.\n\nNext we tackled SEC documents. Those are free through the Edgar database at www.sec.gov. But we had two problems: How do we download all documents for companies involved in the health-care industry? And how do we search those documents for names?\n\nThe answer to the download problem was to write a program in Visual Basic. If I ever doubted the value of learning a bit of programming to do CAR work, this experience resolved those doubts. VB includes functions that allow you to go out onto the Web and grab files. Other languages do too.\n\nIt took me two solid days to write the program in one of those work binges where you forget if it's almost dawn. But the payoff was running the thing and actually seeing it work. I annoyed my wife and plenty of friends by showing off the finished product.\n\nThe list of all health-care companies came from Edgar's own documentation pages. Using my program, I grabbed every annual report and proxy statement for all years and put them into one massive text file.\n\nThe next problem was what to do with this massive file. I could have written another Visual Basic program to search for each researcher's name in the file, but that would have been deadly slow. What I really needed was a text-indexing tool to make the search speedy. My first thought was to use Lotus Notes but I was lucky to have a tool called Texis, a document retrieval database that we use at the Seattle Times for our own electronic clips library.\n\nI won't bore you with the details here. I'll just say that Texis is extremely powerful and fast. Best of all it's a relational SQL database that can do joins. So once I got the text file loaded, parsed by company name, document type, year and the full text of each document, I could run a fairly simple join with the researchers' names. The query would search each document's full text looking for name matches, like an automated clip search. We searched for 1,800 names.\n\nI had a big assist on this from research editor Tom Boyer, who developed our electronic library. For more information on Texis, go to www.thunderstone.com.\n\nThe result of the query was a new file with a large chunk of text on either side of a name match. I loaded that dataset into SQL Server and then started the manual process of verifying each match. With a few exceptions, this was easier than it sounds because typically the Hutch would be mentioned somewhere in the text.\n\nPatents\n\nThe next challenge was to get all patents by these researchers. The data are available for free at www.uspto.gov/patft/index.html Again, a modification of the Visual Basic program allowed me to grab off the Web all patents in which Hutch researchers were listed as inventors. I limited this search to inventors from the state of Washington, which helped to produce more clean matches.\n\nAgain, I had to weed out false hits manually. If the person invented a new type of typewriter ribbon or garden tool, I automatically eliminated that patent. However, a patent for radiation delivery to lymphoid and marrow tissues was a good candidate for a true hit. Finding true matches wasn't terribly difficult.\n\nWe searched an insider-trading database with the help of a company called First Call, www.firstcall.com One last piece came from investigative reporter Deborah Nelson, who unearthed these stories but left for The Washington Post before she could complete the project. She had requested all financial disclosure forms for medical faculty at the University of Washington who also had positions at the Hutch. That information - useful but incomplete - was then keyed into a database. All of these data were loaded into SQL Server. I developed an interface in Access to pull all the data we had on each researcher together on one page. We created an 'A' list of the researchers that we wanted to focus on. As we learned of other financial connections, we were able to key these in manually through the Access interface.\n\nA quick note: to add researchers to the 'A' list later, I used an incredible tool in SQL Server called triggers. FoxPro has the same capability. The trigger would automatically launch a stored procedure to create a unique ID for any name we added to the 'A' list and then automatically search all datasets and add that unique ID to other tables to allow for joins. In short, you type in a name and suddenly all the data about that person magically appears.\n\nTriggers may be routine for database developers, but I'd never heard of them being used by CAR folks. I was awestruck by them and encourage you to investigate.\n\nMedline\n\nIn the course of our reporting, we also downloaded abstracts of medical journal articles written by Hutch researchers in the past decade. These data are available through a National Institutes of Health site called Medline, www.ncbi.nlm.nih.gov/pubmed/\n\nDownloading them involved a total of about 18,000 searches. My original program ran as fast as possible, and I hadn't really thought about the demand that this would put on NIH servers until the annoyed database administrator blocked our access. I called to let him know what we were doing and he gave us access again providing we spaced our searches five seconds apart and ran the program after 9 p.m.\n\nWe pulled full copies of articles for researchers with financial interests the old-fashioned way, photocopying them at a medical library. This effort produced a mere paragraph in our series about how researchers don't disclose their interests in medical journals, even when the articles are about their patents.\n\nWe also made heavy use of our death certificate database in tracking down patients. Other data included all grants from the NIH and all clinical trials ever advertised by the Hutch on the National Cancer Institutes' Web site.\n\nAfter doing the CAR work, I assumed a more traditional role of a shoe-leather reporter on the series. This project is a good example of the seamless blending of CAR work with investigative reporting. Even though the series was aided by the most sophisticated data work I've ever done, the focus was not on data but on the compelling stories of the patients, their families, a whistleblower, a financier, a Nobel Prize winner and the Hutch's doctors.\n\nDavid Heath can be reached by e-mail at dheath@seattletimes.com",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists used computer programming and automated data searches through SEC records, patent databases, and other public sources to uncover financial conflicts of interest among researchers at the Fred Hutchinson Cancer Research Center when traditional public records requests were denied.",
+      "keywords": [
+        "conflicts",
+        "databases",
+        "research"
+      ],
+      "topics": [
+        "Health & Environment",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Visual Basic",
+        "Edgar",
+        "Internet",
+        "SEC database",
+        "patents database"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -249,13 +395,27 @@
       "headline": "Preparation pays off",
       "kicker": "CENSUS 2000",
       "author_name": "Robert Gebeloff",
-      "author_title": "",
+      "author_title": "Database Editor",
       "affiliation": "The Star-Ledger",
       "full_text": "Preparation pays off\n\nBy Robert Gebeloff\nThe Star-Ledger\n\nLet's be frank - the 2000 Census is a four-alarm headache.\n\nThere's a mountain of data to climb, and at the summit sits some of the most nondescript field names in the history of data processing.\n\nQuick - how many P0010005s did you have in your state? And what did they call P001005 in 1990 and 1980? Then there's the matter of mapping. Learning how to use the canned maps that come with ArcView is no easy feat. But learning how to convert Tiger maps and tie them to the Census data - that's an entirely new skill.\n\nAnd then there's the none-too-small matter of journalism - You've conquered the data, now what's the story? Can you transform this mountain of information into news, news that would qualify as left(news,3), rather than a rehash of trends you already reported to death?\n\nBe prepared\n\nAll of this requires preparation - the Census is just too big to do well on deadline. At The Star-Ledger, we took all the standard measures. We sent people to IRE Census seminars, we acquired and processed historical data, we did battle with the Tiger Maps, and we devised and revised our list of stories, graphics and maps throughout the weeks leading up to C-Day. But we also made a major investment in what I'll call logistical preparation. We cover the state and compete in eight local markets as well. On Census release day, we would need to get data that was cleaned and analyzed to our bureaus in Washington and Trenton, not to mention Woodbridge, West Caldwell, and Morristown - on deadline. What we came up with was a somewhat Rube Goldberg-esque system of Access tables, SQL Server Views and intranet Active Server Pages. The idea was that the data would arrive on Census day, a button would be pushed, and poof the 2000 numbers would flow into place, fuel for thousands of preprogrammed calculations.\n\nSmooth sailing\n\nI expected, of course, that the system would cough and wheeze a few times along the way, but to my amazement, it worked without a hitch, and enabled us to execute our coverage plan pretty much to the letter. The New Jersey files arrived on my hard drive at about 3:15 p.m. on a Thursday afternoon. By the time the last edition was hitting the presses, we had managed to get seven stories in the paper, illustrated by four photos, five maps, and 15 charts. The stuff was flowing through production so fast that in one early edition, a map got printed twice, but otherwise, the paper came out looking like it was the result of a month-long project. And then we were well positioned to come back Sunday with more.\n\nAll of this requires preparation - the Census is just too big to do well on deadline.\n\nI mention quantity, but having prepared was a matter of quality too. For example, we got the 1990 PL 94-171 data and went to the voting precinct level to generate demographics for the current state legislative districts. Then we coded each district based on the make-up of the three-member delegation. This enabled us to do precision reporting on political shifts.\n\nWhile the competition noted generally that population growth appeared to be greater in Republican-controlled districts, we reported precisely that 422,000 of the state's 684,000 population increase occurred in districts with all-Republican representation.\n\nShowing growth\n\nSame idea with sprawl. It was obvious by looking at county numbers that the growth in New Jersey was occurring in places that were mostly rural and suburban. But why approximate? We got a list of Urban/Rural/Suburban town classifications as labeled by the state planning department. We simply tied that list to the Census data and voila we were able to say precisely that the population growth... \n\nCensus Lessons:\n\nWe'd like to hear from those of you who had interesting experiences in working with the PL94 Census Data that was released in March.\n\nAre there lessons you learned that would be beneficial to others?\n\nIf this was your first experience with Census data, was there something you wished you had known earlier?\n\nDid your news organization come up with a unique story based on the data?\n\nWe'd like you to share your experiences in an upcoming issue of Uplink, preferably by writing a piece yourself. We could also arrange for a NICAR staff member to interview you for a story.\n\nThe stories can be anything from a few paragraphs to a few pages - whatever it takes to share what you learned.\n\nPlease contact us as soon as possible if you're interested.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A journalist describes how extensive preparation, including data processing systems and pre-planned story angles, enabled his newsroom to execute comprehensive 2000 Census coverage efficiently on deadline.",
+      "keywords": [
+        "preparation",
+        "Census",
+        "deadline"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "ArcView",
+        "Tiger Maps",
+        "Access",
+        "SQL Server",
+        "Active Server Pages"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -267,11 +427,17 @@
       "kicker": "",
       "author_name": "",
       "author_title": "",
-      "affiliation": "",
+      "affiliation": "NICAR",
       "full_text": "Census Lessons:\n\nWe'd like to hear from those of you who had interesting experiences in working with the PL94 Census Data that was released in March.\n\nAre there lessons you learned that would be beneficial to others?\n\nIf this was your first experience with Census data, was there something you wished you had known earlier?\n\nDid your news organization come up with a unique story based on the data?\n\nWe'd like you to share your experiences in an upcoming issue of Uplink, preferably by writing a piece yourself. We could also arrange for a NICAR staff member to interview you for a story.\n\nThe stories can be anything from a few paragraphs to a few pages - whatever it takes to share what you learned.\n\nPlease contact us as soon as possible if you're interested. Contact Mike Sherry at mikes@nicar.org or (573) 884-7332.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
+      "summary": "NICAR invites journalists to share their experiences and lessons learned from working with PL94 Census Data released in March, either through written submissions or staff interviews for an upcoming Uplink issue.",
+      "keywords": [
+        "Census",
+        "journalism",
+        "data"
+      ],
+      "topics": [
+        "Demographics & Census"
+      ],
       "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -286,10 +452,19 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "CENSUS STORIES ONLINE\n\nThe Los Angeles Times: www.latimes.com/news/nation/reports/census/\n\nDaily Camera (Boulder, CO) www.thedailycamera.com/census\n\nTribune-Review (Western Pennsylvania) www.triblive.com/census/\n\nNewsday (Long Island, NY) www.newsday.com/census\n\nJournal News (Northern New York City suburbs) www.thejournalnews.com/census\n\nThe Post and Courier (Charleston, SC) www.charleston.net/census2000/\n\nThe Roanoke Times (Virginia) www.roanoke.com/roatimes/census",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A collection of online census coverage from major regional newspapers across the United States, providing local reporting and analysis on census data and its impact on communities.",
+      "keywords": [
+        "census",
+        "newspapers",
+        "coverage"
+      ],
+      "topics": [
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -303,10 +478,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Lots of kids\n\nThe following is a recent discussion on CENSUS-L concerning a sliver of the PL94 data that could produce an interesting story:\n\nI'm just starting to tackle a back-burner story from the PL94 data: Neighborhoods with lots of kids. I found one census tract in my area that had more kids than adults. Then I ran the numbers for the entire state, and found that this is the only census tract in all of Virginia with more kids than adults. My question: Has anyone else run across tracts in their area that have more kids than adults? That would be tracts with more than 50% people age 17 and under. I'm guessing this would be found in inner-city, public housing neighborhoods, which is where my special tract was.\n\nA word of caution: make sure there aren't group homes in that tract. You might want to contact social service agencies (state and local) to find out for sure.\n\nI'm working on a version of the where's the kids story, and two trends have come up. First, we're seeing significant flight away from our growing cities. Second, the kid concentrations are turning up in the same block groups where the Mormon temples or Indian reservation towns are.\n\nThe SF (short form) data that starts coming out this summer will be released to news media on an embargo basis (about 3-5 days).\n\nStarting in early May, the Census Bureau planned to start releasing summary information from this short form data. These will be in one-page Excel spreadsheets or PDF images. Samples are available through Steve Doig's Reporting Census 2000 Web site, http://cronkite.pp.asu.edu/censusi (check under \"What's New)",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Journalists discuss using PL94 census data to identify neighborhoods with unusually high concentrations of children, with tips on verifying findings and where to expect such demographics.",
+      "keywords": [
+        "census",
+        "children",
+        "neighborhoods"
+      ],
+      "topics": [
+        "Demographics & Census",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Excel"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -320,10 +505,20 @@
       "author_title": "",
       "affiliation": "NICAR",
       "full_text": "Bits, Bytes and Barks\n\nData updates at NICAR\n\nThe following datasets have recently been updated at the NICAR Database Library: The 1999 FBI Uniform Crime Reports: Includes summary information from law enforcement agencies throughout the country on index crimes. There are six tables to the database, including one on homicides and another on arsons. Cost for the entire U.S., all databases: $160, $320, $345 depending on size of news organization. State slices are available for: $55, $110, $135. You can also purchase just one of the six databases. More information is available at www.nicar.org/data/fbil\n\nThe 2000 National Bridge Inventory: Includes the most recent inspection for all bridges in the United States. Bridges include those for highways, railroads, pedestrian-bicycle, overpasses, and those designated as historically significant. The data has been used by many news organizations to document problems with bridges in local areas. It is also useful to have available in case of a breaking news story involving a bridge. Cost for entire U.S.: $40, $80, $105. A single state is: $15, $30, $55. More information is available at www.nicar.org/data/bridges/\n\nFAA Accidents and Incidents: Includes all accidents and incidents in the United States involving all types of aircraft. The most recent incidents included in the data are from early 2001, however not all incidents from 2000 were entered into the database by the FAA by the time NICAR received the data. The most current data, 1990 through 2000, costs: $40, $80, $105. NICAR also has data going back to 1973 that is available separately. More information is available at www.nicar.org/datalfaaailindex.htm\n\nReporting Conference Tipsheets\n\nTipsheets from the IRE Reporting Conference, held March 31 in Columbia, Mo., are available online at www.ire.org/training/2001studentconfltipsheets.html The one-day conference featured a variety of topics geared toward students and young journalists. Panels included:\n\nFinding out about licensed professionals\nUsing property records\nUsing FOIA and local sunshine laws\nCovering cops and courts\nProducing the story for television\n\nAlso available, is a transcript of the keynote speech by Diana B. Henriques of The New York Times. Her speech discussed, \"What every reporter should know about business.\"",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "NICAR has updated several journalism databases including FBI crime reports, bridge inspection data, and FAA accident records, with pricing tiered by organization size. Resources from an IRE reporting conference for student journalists are also now available online, covering topics like property records, FOIA laws, and business reporting.",
+      "keywords": [
+        "databases",
+        "reporting",
+        "journalism"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Journalism & Newsroom",
+        "Public Safety"
+      ],
+      "technologies": [
+        "CD-ROM"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

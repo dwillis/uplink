@@ -104,7 +104,12 @@ def build_schema(taxonomy):
 
 
 def needs_metadata(article):
-    return not article.get("topics") or "technologies" not in article or not article.get("affiliation")
+    # "technologies" is always added by enrichment (possibly as an empty
+    # list) and "topics" always has >=1 entry per the schema, so presence
+    # of both is a reliable completion marker. affiliation is legitimately
+    # empty for many unsigned/listing items, so it can't be used here --
+    # checking truthiness would reprocess those forever.
+    return "technologies" not in article or not article.get("topics")
 
 
 UNKNOWN_PLACEHOLDERS = {"unknown", "<unknown>", "n/a", "none", "null", "unavailable"}

@@ -7,13 +7,28 @@
       "headline": "FoxPro, Paradox or XDB",
       "kicker": "",
       "author_name": "Bob Jackson",
-      "author_title": "",
+      "author_title": "Director",
       "affiliation": "MICAR",
       "full_text": "FoxPro, Paradox or XDB\n\nby Bob Jackson MICAR\n\nWhich should you choose?\n\nWhen you're in the middle of indexing more than 250,000 records you need to be using a database software that can accomplish the task in a quick, efficient and easy manner.\n\nMore importantly, if you're sorting the same 250,000 records, you need software you can trust.\n\nIn the world of computer-assisted reporting, there are plenty of database management programs to choose from. Foxpro, XDB and Paradox are the most widely used by CAR programs. Other programs like PC SAS and DataEase are also popular in some newsrooms.\n\nWhich is the best?\n\nThat depends on who you talk to.\n\nIf you were to ask Brant Houston, who manages the computer-assisted reporting program for the Hartford (Conn.) Courant, the answer would be simple:\n\n\"You make the software you have work for you.\"\n\n\"A lot of it has to do with personal taste, and what works best for you,\" Houston said. \"And part of it has to do with the task you are trying to accomplish.\"\n\nHouston primarily utilizes XDB, but also depends on Paradox and PC SAS to analyze data. He is also in the process of taking a look at Foxpro's capabilities, and may make the switch from XDB in the future.\n\nCurrently, he explained, XDB's performance is getting the job done.\n\n\"We're using the new version of XDB (version 2.41) and although we are still encountering bugs, the software is very much improved over earlier versions.\" Houston said that XDB is easy for reporters to learn, and is also great for smaller databases.\n\n\"But the larger the database the slower XDB runs,\" he explained.\n\nMany reporters started their programs with XDB, but have since made the switch to other products because of different software problems (see April, 1992 Uplink). Reporters have cited problems indexing and sorting, but according to XDB management, those problems have been ironed out.\n\nIndexing with the earlier versions of XDB, for instance, became a problem when the software encountered more than 31,000 unique indexes.\n\nAlthough XDB has taken a bad rap because of past software problems, Elliot Jaspin, director of the Missouri Institute for Computer-Assisted Reporting, still stands by the software.\n\nJaspin lists speed, flexibility and ease of use as some of the product's stronger points. He also says that XDB has a simple interface and has good implementation of structured query language. Jaspin uses XDB in MICAR's quarterly seminars, which attract reporters from across the country.\n\nGeorge Landau, of the St. Louis Post-Dispatch, was one of the computer-assisted reporting project managers to dump XDB.\n\n\"I started with XDB for a year and found that my tables were getting too large for the software to handle quickly, and I began having problems,\" Landau said. \"Other bugs in the software made me lose confidence in the product and I was forced to switch to something I could trust.\"\n\nLandau now uses Foxpro version 2.0 and is extremely pleased with the product, calling it \"fast, full featured and bug free.\"\n\n\"Foxpro is very fast and I've found that it does a better job of chewing through large volumes of data,\" he said. \"It has the analytical power of SQL but runs much faster.\"\n\nLandau is also impressed with its report writing function. \"It's wonderful to work with. It provides you with easy to read reports quickly.\"\n\n\"I've found that Foxpro can analyze greater amounts of data quicker and it has greater analytical power than XDB,\" Landau added. \"It is the nicest, easiest software I have found.\"\n\nBob Paynter, of the Akron Beacon-Journal, switched from XDB to Paradox because of major problems encountered with the software. He made the switch, he explained, after consulting some colleagues.\n\n\"I said 'I just can't trust this (XDB),'\" Paynter said. \"And I talked to other database managers, and nobody had ever heard of XDB.\"\n\nParadox is a menu driven program that doesn't require the user to know procedural language (such as SQL), making it easier to use. The drawback to using Paradox is that, like XDB, the program has a hard time managing large volumes of data.\n\nPat Stith, who manages the CAR program at the Raleigh (N.C.) News and Observer, is one of a growing number of Foxpro users. \"We stumbled into Foxpro and are extremely happy with it,\" he said.\n\n\"Foxpro is excellent because it is much faster than XDB,\" Stith said. \"We can go through 1 million records in a very short period of time. You just don't sit around with Foxpro.\"\n\nStith explained that Foxpro is simple to use, which makes it easy to teach to reporters. For Stith that's important because he is responsible for conducting the News and Observer's two-week training seminars for reporters. The seminars, which are run periodically, have trained about 30 of the newspaper's reporters.\n\n\"I like Foxpro for three reasons,\" Stith said. \"It's easy to understand; I believe it is the fastest database handler on the market; and I have had zero problems with accuracy.\"\n\nThe Boston Herald's Dave Armstrong agrees. \"Queries that would take overnight with XDB are taking a matter of minutes with FoxPro,\" Armstrong said. \"We will never go back to XDB.\"",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A comparison of three popular database management programs\u2014FoxPro, Paradox, and XDB\u2014used in computer-assisted reporting, examining their strengths and weaknesses based on journalists' real-world experiences.",
+      "keywords": [
+        "database",
+        "software",
+        "reporting"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FoxPro",
+        "Paradox",
+        "XDB",
+        "PC SAS",
+        "DataEase",
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -27,10 +42,20 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "SUBJECT: building ranges in SQL\n\nPROBLEM: CBS Evening News obtained a database of approximately 15,000 children who took a test to measure the lead levels in their bodies. While the database had individual scores ranging from 0 to 45, CBS wanted a report showing the number of children with lead levels of:\n\n10 to 15\n16 to 20\n21 to 25\nover 25\n\nThere was also the possibility that the producer would want further analysis of the children within one or several of the ranges.\n\nSOLUTION: One approach would be to do a count based on the values in the test field:\n\nselect count (*) from leadtest where test >= 10 and test < 16\n\nThis approach requires running the same query, with the test ranges modified, again and again for any further analysis. Also, there would be several pages of reports to sift through. Not a major problem, but not a very elegant solution either.\n\nA better approach is to create a new field called \"range.\" This is a character field 8 bytes long. The next step is to run the following update command:\n\nupdate lead test set range = \"10 to 15\" where test >= 10 and test < 16\n\nAfter this command is run four times for each range, the following query will produce a one page report with all the necessary information.\n\nselect range, count (range) from leadtest group by 1\n\nAny subsequent analysis would use the range field to group the children presumably saving a substantial amount of time. If the table were larger, space could be saved by making the range field a one byte code and using a second table called \"Ranges\" with a code field and the text such as \"10 to 15.\" A join of the two tables would then produce the same results.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "A tutorial on using SQL to categorize continuous data into ranges, demonstrating how creating a range field and grouping by it is more efficient than repeatedly running queries with different WHERE clauses.",
+      "keywords": [
+        "SQL",
+        "database",
+        "ranges"
+      ],
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "SQL"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -74,10 +99,20 @@
       "author_title": "",
       "affiliation": "MICAR",
       "full_text": "Some CAR programs and their reporters have moved into the new information age with relative ease. What have been the keys to these successful transitions?\n\n\"Persistence,\" said St. Louis Post Dispatch reporter George Landau. \"You run into so many problems working with government data. You need patience and determination to solve them.\"\n\nLandau said the Post's program began when \"they'd had some stories that could have benefitted from data analysis.\" A senior editor, Richard Weil, initiated the program in 1989. \"I'd been working GA for a couple of years, and was pretty well versed in computers, so I was tapped for it.\"\n\nGreg Reeves, reporter for the Kansas City Star who did the data analysis for the Pulitzer winning \"Failing The Grade\" series, said that helping other reporters with ongoing stories has been one of the successful qualities of the Star's program. \"I've started some stories, but the peripheral stories are the most important.\"\n\nBrant Houston, of the Hartford Courant, agrees that helping other reporters is essential. \"You've got to have a willingness to spend a lot of time with people answering questions. If you think you're the only one who should be doing this, you're going to choke your program to death.\"\n\nHouston also attributes some of his success to a willingness to stick with it, despite the initial hours. \"You have to realize that 'full time' means anything from eight to 16 hours a day. It's as though for 10 hours you're a journalist, for four hours you're a technician, and for two hours you're a database administrator.\n\n\"There's no question that success is a two-edged sword.\"\n\nPat Stith, of the Raleigh News and Observer, credits \"the newspaper's patience\" with determining the success of their program.\n\nHe added that an open mind is helpful. \"I learn something new every day. You never learn it all, you just get a little better as you go along.\n\n\"I've loaded 40 databases, more or less, and each one presents a different problem.\"\n\nImplementing a computer-assisted reporting program is not cheap, and financial support from the publication is essential.\n\n\"We were able to wrangle about $12,000 for equipment when we started,\" said Landau. \"The biggest investment was my salary, letting me do this full time.\"\n\nLandau said that they were able to sell the idea to the Post's management as a \"secret weapon\" to gain a competitive edge over the now-defunct St. Louis Sun. Most agree that to ensure success, a program should include more than one reporter. In-house training of reporters is essential to computer-assisted reporting. \"This should be a routine tool in the newsroom used by a wide range of reporters,\" Stith said. \"This is exactly where we want to go.\"\n\nStith has gone a long way to train his colleagues at the News and Observer and familiarize them with the technology, holding classes for reporters, editors and news researchers. \"The class was successful in destroying the mystery of the computer. That's progress. You can't teach people computer-assisted reporting in 20 hours. It requires a lot of practice.\" Stith said that about 15 reporters have produced one or more computer-assisted stories for the News and Observer in the last year. However, he said, \"We don't have a situation where those reporters can do all their own work independent of anyone else.\" It is important that computers be used for a broad spectrum of stories, Stith said. \"We've used databases in reporting business stories and features,\" he said. \"If we can get a database, load it in and crank out the data, why not use it for features?\" The Courant's Houston said being able to \"crank\" out the data is vital to a program. \"The challenge now is to continue to integrate it into the newsroom\u2014without creating a lot of bottlenecks,\" Houston said. \"We have to figure out how to make it more accessible to people on the fly.\" Although Landau said he has been doing most of the Post's data analysis by himself, \"I would like every reporter to be able to do their own analysis when they need to. They would need training and periodic refreshers.\" Houston said it is vital to have more than one person possessing the skills. \"You need a couple of people who are up on things,\" he said. \"Otherwise, if you're sick or go on vacation, everything comes to a grinding halt.\"",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Computer-assisted reporting (CAR) programs at major newspapers have succeeded through reporter persistence, collaborative support, adequate funding, and newsroom-wide training that demystifies data analysis technology. Key pioneers from outlets like the St. Louis Post-Dispatch, Kansas City Star, and Raleigh News and Observer emphasize the importance of patience, multi-reporter involvement, and organizational commitment to make CAR a standard newsroom tool.",
+      "keywords": [
+        "persistence",
+        "training",
+        "collaboration"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "databases"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -91,10 +126,21 @@
       "author_title": "",
       "affiliation": "",
       "full_text": "Last month, Uplink reported on the Kansas City Star's investigation of the USDA which won the Pulitzer. However we incorrectly reported that the same series won this year's IRE award. We were also in error in stating that reporter Greg Reeves used the software Ninetrack Express to download the USDA's records into his mainframe precessor. Finally, the dirty grain' series which helped spark the Star's main investigation was written by then reporter Mark Zieman and not \"Failing the Grade\" reporters Mike McGraw and Jeff Taylor. Uplink regrets the errors.",
-      "summary": "",
-      "keywords": [],
-      "topics": [],
-      "technologies": [],
+      "summary": "Uplink issues a correction regarding its previous coverage of the Kansas City Star's Pulitzer Prize-winning USDA investigation, clarifying errors about IRE award wins, technical details, and reporter attribution.",
+      "keywords": [
+        "correction",
+        "journalism",
+        "investigation"
+      ],
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "9-track tape",
+        "mainframe"
+      ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

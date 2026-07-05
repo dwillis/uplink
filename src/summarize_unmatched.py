@@ -60,6 +60,8 @@ def main():
     to_process = []
     total = 0
     for f in sorted(ISSUES_DIR.glob("*.json")):
+        if f.stem == "cleaned_stories":
+            continue
         data = json.loads(f.read_text())
         for i, article in enumerate(data.get("articles", [])):
             total += 1
