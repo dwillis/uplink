@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staying afloat with boating data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Staying afloat with boating data</h1>
+    <div class="article-byline">
+      <span class="author">John Ferro</span>
+      <span class="author-title">City Editor</span>
+      <span class="date">September-October 2006</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>The projects editor at the Poughkeepsie Journal recounts his first venture into computer-assisted reporting using U.S. Coast Guard boat accident data to find local trends.</p></div>
+
+  <div class="article-body">
+    <p>A couple of years ago, when I was city editor, we sent our political reporter to the IRE and NICAR Computer-Assisted Reporting Boot Camp at the Missouri School of Journalism. When he returned, I asked him how it went. &quot;I can&#39;t wait to use this stuff,&quot; he said. I recalled that comment when I jetted off to Columbia in late March. I was sure I would be coming back flushed with a &quot;CAR high.&quot; Instead, I returned CAR-petrified.</p>
+<p>I had skills, but what to do with them? And the warning from IRE Executive Director Brant Houston&#39;s was ringing in my head – &quot;Use it, or lose it.&quot; So I started casting about. We purchased the Environmental Protection Agency&#39;s Comprehensive Environmental Response, Compensation and Liability Information System (CERCLIS) from the IRE and NICAR Database Library. Too many tables. Too many joins. No clear trends.</p>
+<p>I was in over my head. I sent a Freedom of Information request to the state education department for special-education data, but it took several months until the department and I worked out our differences over the request. The clock was ticking. My bosses were tapping their feet, waiting for results. I could feel my little bitty CAR muscles atrophying each day. I went back to the Database Library&#39;s Web site at www.ire.org/datalibrary.</p>
+<p>And there it was, after a few clicks: The Recreational Boat Accident database allows reporters to find information about the vessels, people and conditions involved in the accident. Because of the simplicity of this database, it is a good one for beginning CAR reporters to use. Perfect. A database on training wheels. I purchased the U.S. Coast Guard files, downloaded them from NICAR&#39;s FTP server and imported them into Microsoft Access database manager.</p>
+<p>Before I started running queries, I searched Nexis for stories that reported not only individual accidents, but also trends and recent legislation. I limited my searches to New York. (I kept hearing that line from the Jodie Foster film &quot;Contact&quot; – &quot;Small steps, Ellie. Small, steps.&quot;) In 2004, New York had completed its phase-in of a law that requires operators of personal watercraft to take an eight-hour safety course and pass a test before they revved up their JetSkis.</p>
+<p>My first queries examined accident trends involving personal watercraft. The database has just four tables, and they are easily joined. I used Access to do counts and filter. Then I pasted the results into Microsoft Excel spreadsheets to create pivot tables and do percent-change calculations. I am the kind of guy who spends a little too much time making sure his stack of Poughkeepsie Journal copies is piled neatly on his desk and reference books are organized by size.</p>
+<p>So, as the number of my Access queries increased, my efforts to name them became more, shall we say, compulsively obsessive. I found it useful to name each query starting with its type: Filter, Count, MakeTable or Sum. So my list of queries looked something like this: CountAllPWCByState, CountBoatTypesForHudsonRiver, CountEducationForPWCForNY, FilterForDutchessUlsterInjuries, FilterForHudsonRiverDeaths, MakeTableForDutchessUlsterAccidents.</p>
+<p>This saved time when I went back to my query list. All the counts were in one place, all the filters in another. (I got a little obsessive-compulsive rush every time I opened up the query window.) My first analysis counted the number of boating accidents for each boat type – pontoon, personal watercraft, powerboat, etc. I did totals by year for New York and for the United States. I took each of those counts and pasted them into Excel.</p>
+<p>I used a pivot table to line up the totals for each boat type and each year. This allowed me to calculate the percentage of accidents for each boat type for any year. I noticed the percentage of accidents involving personal watercraft in New York had dropped significantly during the 1995-2004 period I was examining. The rate of decline was faster than any of the more commonly used vessels.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2001-julyaugust-bits-bytes-and-barks.html">Bits, Bytes and Barks</a>
+  <span class="similar-meta">July/August 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-november-december-boating-data.html">Boating data</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-novemberdecember-boating-resources.html">Boating resources</a>
+  <span class="similar-meta">November/December 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-may-june-boat-accident-data-sheds-light-on-dangers.html">Boat accident data sheds light on dangers</a>
+  <span class="similar-meta">May-June 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-mayjune-bits-and-bytes.html">Bits &amp; Bytes</a>
+  <span class="similar-meta">May/June 2002</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2006-september-october-time-for-meyer-awards.html" class="article-nav__prev">← Time for Meyer awards</a>
+  <a href="/uplink/article/2006-september-october-federal-contracts.html" class="article-nav__next">Federal contracts →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

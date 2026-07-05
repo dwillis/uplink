@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Getting Back to Basics — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Getting Back to Basics</h1>
+    <div class="article-byline">
+      <span class="author">Neill A. Borowski</span>
+      
+      <span class="date">April 1997</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>This guide explains how to properly analyze population data in computer-assisted reporting, emphasizing the importance of visualizing data through plots and calculating basic descriptive statistics like mean, median, mode, and range rather than over-applying complex statistical tests.</p></div>
+
+  <div class="article-body">
+    <p>At the outset, we have to agree on something: Much of the time we really aren&#39;t using &quot;statistics.&quot; We&#39;re mostly in the business of measuring populations. This distinction is important. Many statistical tools are designed to help the researcher use samples to make inferences about the population. In computer-assisted reporting and analysis, we usually have the population in front of us. There&#39;s no guessing what the full universe of data looks like. We have it all: Every teacher&#39;s salary in our state, every fatal traffic accident in the nation, or every sentence imposed by a judge. By over-testing our data, we may be complicating and confusing our analysis. Avoid using statistical tools &quot;because they&#39;re there.&quot; Always keep it simple. With that said, here are some fundamental steps to measure your data. Let&#39;s say our database is all of the teacher salaries in a state:</p>
+<p>Always, always plot your data</p>
+<p>This probably should be your first step after making sure the database is clean. Plot a histogram (for a description of a histogram, see the page margin to the right). It will show how your data are distributed. A normal distribution will be mound-shaped. Look for oddities in your data. Are there a large number of salaries far off to the right of your histogram? This could be a highly paid district.</p>
+<p>Calculate the &#39;basics&#39;</p>
+<p>These are the range, arithmetic mean, the median and the mode (remember &quot;ramm&quot;). Lets say we&#39;re looking at salaries. The mean — often called the average — is the sum of the salaries divided by their count. The median is the salary in the middle after the salaries are ranked (when there is an even count of salaries, there will be two salaries in the middle; the mean of these two salaries is the median). The mode is the salary that appears most often. The range is the highest salary minus the lowest salary.</p>
+<p>Rank, rank and compare</p>
+<p>Who gets the most? Group the districts and calculate their averages and medians. Which districts pay the most? How do these compare with the state average?</p>
+<p>Use the total experience (in years) of each teacher to calculate the salary per experience year. Rank these. Do you have the salary from five years ago? Calculate the percentage change and rank the change. What district salaries changed the most? The least? For me, one of the handiest tools in software is the =rank function in MS Excel. It will tell you where things stand in a flash.</p>
+<p>Look at the spread</p>
+<p>Two sets of data could have the same means, but would look far different when they are plotted. The average may be $45,000 for two sets of salaries. However, one may have a low salary of $30,000 and a high salary of $65,000. The other data set may have a low of $8,000 and a high of $90,000.</p>
+<p>The range will help. But the standard deviation is a better tool to help with this. Keep in mind that there are two standard deviations — the sample and the population standard deviations. (In Excel, the sample standard deviation function is =stdev and the population standard deviation function is =stdevp).</p>
+<p>The standard deviation offers a quick view of how the data are distributed around the mean. Rule of thumb: The mean plus and minus one standard deviation includes about 68% of the data and the mean plus and minus two standard deviation includes about 95% of the data. What are the extreme values or outliers? Check out how many salaries are beyond three standard deviations. How many go beyond two standard deviation? These may be newsworthy.</p>
+<p>Study the scatterplot</p>
+<p>We&#39;re not explaining regression analysis in this article (regression looks at the impact one variable, such as experience level, has on another variable, such as salaries). However, you can quickly look at the &quot;big picture&quot; through a scatterplot.</p>
+<p>The &quot;x&quot; (horizontal) axis is the independent variable — in this case, total years of experience for each teacher. The &quot;y&quot; (vertical) axis is the dependent variable — the salary of each teacher. A scatterplot will show you the regression line and the data points scattered about the line. The points farthest from the line are outliers.</p>
+<p>A regression line in a scatterplot of teacher salaries would be upward sloping — it would go from the lower left (low experience/low salary) to the upper right (high experience/high salary). If there are points in the upper-left quadrant of your plot far from the line, it might indicate teachers who are paid a lot with very little experience. And if there are points in the lower-right quadrant, it might indicate teachers with a lot of experience but at low pay.</p>
+<p>Neill Borowski can be reached at (609) 779-3884, or send email to neill.borowski@phillynews.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-april-statistics-resources-online.html">Statistics resources online</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-november-playing-with-statistics.html">Playing with Statistics</a>
+  <span class="similar-meta">November 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-december-on-the-internet.html">ON THE INTERNET</a>
+  <span class="similar-meta">December 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-september-returning-to-regress.html">Returning to regress</a>
+  <span class="similar-meta">September 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-october-calculating-medians-in-paradox.html">Calculating medians in Paradox</a>
+  <span class="similar-meta">October 1994</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1997-april-lonely-hearts.html" class="article-nav__prev">← Lonely Hearts</a>
+  <a href="/uplink/article/1997-april-statistics-resources.html" class="article-nav__next">Statistics Resources →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

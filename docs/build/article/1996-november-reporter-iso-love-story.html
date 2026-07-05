@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporter ISO love story — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Reporter ISO love story</h1>
+    <div class="article-byline">
+      <span class="author">Dave Sheingold</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">November 1996</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>A Gannett Newspapers analysis of 2,175 personal ads from northern New York City suburbs reveals that men and women continue to approach dating with fundamentally different priorities: men emphasize physical appearance and interests while women prioritize personality and emotional qualities, despite both listing long-term commitment as their top goal.</p></div>
+
+  <div class="article-body">
+    <p>In the 1990s, age of enlightened thinking, it has been suggested that men and women are full of new insight into the ways of love and what makes each other tick.</p>
+<p>Enter the computer to make Cupid&#39;s arrow land in the dirt.</p>
+<p>Veering off course from the usual heavy duty CAR story, Gannett Newspapers in New York recently looked at an issue we knew everyone would read about - the personal ads - and put a new twist on it. We ran three month&#39;s worth of personal ads that appeared in our papers, which cover the northern New York City suburbs, to see what men and women said about themselves in the ads, what they said about their ideal mate and what it all meant, if anything.</p>
+<p>The results? Not too encouraging. Contrary to what we would like to believe, men and women remain on opposite sides of love&#39;s Grand Canyon. Neither side, it appears, is doing a whole lot of clear thinking about how to find love everlasting.</p>
+<p>According to the most common words they use in their personal ads, men remain in search of Eve. The woman of their dreams can be a blast at parties and quick with a joke, but she better have a sweet smile and body to match or else she might get passed over. When it comes to luring a partner, men highlight a mix of their looks and their eclectic tastes, be they a love of fine food, good movies or the sporting life. Their inner self somehow gets second billing. Women, meanwhile, were different. They saw the ideal male more for his personality than his looks. While a handsome gent is pretty cool, they said they&#39;d prefer someone caring, romantic, witty and secure. But to bait him, they switched gears and played into the old stereotypes. They talked most about their looks before they mentioned that they were worldly, bright, eclectic and successful.</p>
+<p>About the only hope that the differences may be narrowing was that both sexes listed long-term commitment as the No. 1 or 2 thing they were looking for.</p>
+<p>As one social planning consultant who gives seminars on dating put it: &quot;Men are still judging with their eyes, women with their hearts.&quot; The bottom line, according to the experts, was that personals can work, but require patience, kind of like any other mating ritual.</p>
+<p>Love match</p>
+<p>This also could have been said for the computer process of getting from the raw text of the ads to the final results.</p>
+<p>First, we got a list 2,175 personals as ASCII text from the company that runs them in our papers. Three months was as far back as they kept them, so that&#39;s what we took.</p>
+<p>The information imported into the Paradox database manager as one text field, so the next thing we needed to do was create a second field and retype the acronym for each ad placed (SWM for single white male, GWM for gay white male, SBPF for single black professional female, etc.) This sounds time consuming, but only took a few hours. We needed to do this so we could run queries on how many of the ad-placers were men or women, Jewish or Christian, gay or straight, professional or nonprofessional.</p>
+<p>Then we separated the ads into different databases for males and females.</p>
+<p>At that point, we needed to split the text of the male- and the female-placed ads into two fields one with the section of the ad describing what the ad-placer was like and the second describing what he or she was seeking in a mate.</p>
+<p>There was no clear way of doing this. But we knew that almost all the ads began with the person&#39;s self-analysis while the second part was about their potential mate. That second part almost always began with ISO (in search of) or with words like &#39;desires,&#39; &#39;seeks,&#39; &#39;wants,&#39; &#39;looking for&#39; and similar types of verbs indicating a longing for that special person. This was where we wanted to split the text into two fields.</p>
+<p>So, we separately exported the new male and female databases out as text and reopened them in Word Perfect. Using the search-and-replace function, we stuck an @ sign in front of every word we could think of that would split the ads into self-descriptions and desires.</p>
+<p>Converting the edited text back to ASCIIDOS, we re-imported each database into Paradox using the @ sign as a delimiter. Now we had our two fields.</p>
+<p>From there, we began running queries to count the number of times key words appeared in the ads. We figured out what words to look for simply by perusing a few dozen ads in the paper. We essentially divided up the results into categories of physical features, personality traits and other characteristics. Key words involving looks included handsome, pretty, fit, tall, blond, and attractive. Personality traits included honest, loving, caring and sincere. Other characteristics were most often things like athletic, intelligent, financially secure and an interest in movies, sports, dining and travel. You might think that these words were just stock, superficial things people would say or that they were exaggerated. But that didn&#39;t matter. We were most interested in the types of things people highlighted. That really told the story of what people think will attract a mate and the kinds of partners they seek. Note that the results were not exact because not every single ad had the same format. A handful had to be discarded, so the results are somewhat general, open to a bit of interpretation. But, hey, that&#39;s love, isn&#39;t it? Dave Sheingold can be reached at or send e-mail to 102503.520@CompuServe.COM</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-october-look-who-gets-city-hall-jobs.html">Look who gets City Hall jobs</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-september-healthcare-by-color.html">Healthcare by color</a>
+  <span class="similar-meta">September 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-flying-high.html">Flying High</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-april-eeoc-data-offers-another-nugget.html">EEOC data offers another nugget</a>
+  <span class="similar-meta">April 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-july-tax-problems-in-new-york-city-again.html">Tax Problems in New York City, Again</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1996-november-weve-just-made-it-easier-to-become-an-ire-member.html" class="article-nav__prev">← We&#39;ve just made it easier to become an IRE member</a>
+  <a href="/uplink/article/1996-november-trucking-trucking-trucked.html" class="article-nav__next">Trucking, trucking, trucked →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

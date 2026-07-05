@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Making sense of OSHA data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Making sense of OSHA data</h1>
+    <div class="article-byline">
+      <span class="author">Mike Casey</span>
+      <span class="author-title">Projects reporter</span>
+      <span class="date">July-August 2006</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/public-safety.html" class="badge">Public Safety</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A reporter from The Kansas City Star describes how to use federal OSHA inspection data to investigate workplace safety, identify high-violation industries, and track workplace fatalities.</p></div>
+
+  <div class="article-body">
+    <p>How much is a worker&#39;s life worth? What are the most deadly workplaces in your town? Are there factories in your town that are exposing workers to toxic chemicals? The Occupational Safety and Health Administration database has the answers. OSHA is the federal agency responsible for worker safety, and its database details millions of inspections of factories, steel mills and construction sites since 1972.</p>
+<p>Don&#39;t let the size of the database or its complexity intimidate you. For a recent project about worker safety around Kansas City, The Star purchased the data from the IRE and NICAR Database Library. To tailor the analysis for our circulation area, I extracted data for a dozen area counties. I used Microsoft Access database manager for my analysis of nearly 30,000 records. One way to approach the database is to think of it as a news story.</p>
+<p>The main table is like the lead of a story that gives you a little about the most important aspects of each inspection. The accompanying tables are like the rest of story; they provide more detail and context. The main table has more than 50 fields that give the name of the company, its address, the reason for the inspection, the number of OSHA violations, penalties the company paid and a number of other items.</p>
+<p>Other tables describe the inspection in more detail. If the inspection concerns a fatality, the database tells you the name of the accident victims as well as the accident&#39;s causes. Another table explains the violations in more detail and references the specific regulations that the company violated. Yet another table provides details about hazardous chemicals found in the workplace. What connects all of these tables is the unique inspection number, which OSHA calls the activity number.</p>
+<p>It&#39;s just a matter of using your database manager to connect the tables using that field. I was interested in looking at fatalities. In OSHA&#39;s codes, a fatality is classified as an &#39;A&#39; in the inspection-type field. I selected all &#39;A&#39; inspection types from the main table and joined that to the others using the inspection number. Here are some of the things I learned: Low fines for workplace deaths or injuries are common even when OSHA cites employers for a serious violation.</p>
+<p>In 80 such fatal and injury accidents, half of the fines Kansas City area employers paid were $3,000 or less. A table detailing the citations showed that the agency sometimes downgraded its most serious willful violations to unclassified and then substantially cut its penalties in these fatal accidents. To find the change, look in the section that details the types of violations. &#39;W&#39; stands for willful and &#39;U&#39; stands for unclassified.</p>
+<p>The table that details fatalities gave the names of workers and I noticed that more workers with Hispanic names were dying on the job. After checking death records, I learned that indeed more Hispanics – particularly immigrants – were killed at local worksites. The data also showed that falls and electrocutions often caused workplace fatalities in the Kansas City area. Like all databases, OSHA&#39;s has strengths and weaknesses.</p>
+<p>I&#39;ve found the database information nearly always matched the information in the written reports. However, some of the OSHA fields contain dirty data. For example, Ford Motor Co. can be called Ford Motor, Ford or Ford Motor Co – no period. That creates a challenge in finding the companies with the highest number of violations. Start by selecting and grouping the company names. Once you get the top five or 10, check their addresses to see if the name of the facility is connected to the same address.</p>
+<p>Using the address, city and ZIP code fields can help you come up totals for each worksite. For construction inspections, the worksite is listed as the location, so a construction company may have a number of different sites listed. That makes coming up with a top violator among construction companies very difficult, if not impossible. Still, if the data shows a company with a high number of violations you can probably say the company was among the top violators.</p>
+<p>Another area to look at is the industries with the most violations. You can do that by using the Standard Industrial Classification (SIC) codes in the inspections table. Picking the industries with the most violations and then looking for companies in those industries with a number of violations will give your story an immediate focus. The OSHA database goes back to the days of Richard Nixon&#39;s presidency.</p>
+<p>I focused on a 10-year span from 1994 to 2004. These people are eager to tell their stories, which help make for a dramatic project.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-november-beyond-osha.html">Beyond OSHA</a>
+  <span class="similar-meta">November 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-march-april-mining-workplace-data.html">Mining workplace data</a>
+  <span class="similar-meta">March-April 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-highlights-from-the-database-library.html">Highlights from the Database Library</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-june-the-safe-and-the-sorry-working-in-ohio.html">The Safe and the Sorry, Working in Ohio</a>
+  <span class="similar-meta">June 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-november-tips.html">Tips</a>
+  <span class="similar-meta">November 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2006-july-august-mapping-finds-holes-in-siren-coverage.html" class="article-nav__prev">← Mapping finds holes in siren coverage</a>
+  <a href="/uplink/article/2006-july-august-extra-extra-your-guide-to-the-latest-investigative-work.html" class="article-nav__next">EXTRA! EXTRA! YOUR GUIDE TO THE LATEST INVESTIGATIVE WORK →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

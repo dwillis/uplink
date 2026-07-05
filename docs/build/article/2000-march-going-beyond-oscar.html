@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Going beyond OSCAR — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Going beyond OSCAR</h1>
+    <div class="article-byline">
+      <span class="author">Dave Gulliver</span>
+      <span class="author-title">Database Editor</span>
+      <span class="date">March 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a></div>
+  </header>
+
+  <div class="article-summary"><p>An investigation into Ohio&#39;s nursing home system reveals systemic failures in care quality and regulatory enforcement, particularly affecting elderly residents without adequate financial resources, using inspection data and demographics analysis to expose widespread problems.</p></div>
+
+  <div class="article-body">
+    <p>Grace Blankenship was getting some of the best care money could buy, making friends, talking about her favorite players on the Cincinnati Reds. Then her money ran out and everything changed. She was moved from a facility&#39;s assisted living wing to a standard nursing home unit. There, a younger, demented male resident attacked her, threw her against a wall and broke three of her ribs. Two weeks later, late one night, she began vomiting and went into shock from severe dehydration. By dawn, she died, with her doctor and family not notified until the last hour of her life. Mrs. Blankenship&#39;s story exemplified two main flaws in Ohio&#39;s system of caring for its elderly: If you don&#39;t have the money, or if it runs out, your only choice is nursing homes that regularly violate standards, with virtually nothing to fear from the state. But you need data, not anecdotes, to prove system-wide problems exist, and even more data to explain why.</p>
+<p>Starting out</p>
+<p>In early 1999, the Dayton Daily News decided to look at how Ohio was prepared to handle the booming elderly population. That eventually focused on the available choices for long-term care, and nursing homes are by far the biggest player.</p>
+<p>Inspections, demographics and enforcement were our workhorses, but several other databases chipped in to the project.</p>
+<p>Nursing home projects typically use federal OSCAR data, the findings of health and safety inspections, to search for problem nursing homes. For us, that was just the start.</p>
+<p>We used the state&#39;s own inspection data, which is used to create OSCAR. We wanted to undercut any &quot;one-bad-year&quot; arguments, so we used all the existing data.</p>
+<p>Inspection data lets you look at types of problems- from dirty silverware to resident abuse-and whether they&#39;re widespread or rare, dangerous or mostly harmless. By tallying the citations, you can develop a crude ranking.</p>
+<p>But that alone can be deceptive. For example, a home with one of the highest citations totals was solely for Alzheimer&#39;s patients. Advocates argue that such homes should have more staff and better training to ensure better care.</p>
+<p>In the end, you need to know more to make valid comparisons. Demographics data was the answer. We used another Health Department data set, the annual survey of long-term care facilities. That allowed us to link citations totals with other key fields. The most important was a nine-category breakdown of ownership type, such as for-profit partnership or church-related non-profit. We also used variables such as age, race and gender breakdowns, dedicated Alzheimer&#39;s units, nursing staff per resident, owner and operator, and so on.</p>
+<p>We linked the tables in FoxPro, then imported the result into SPSS for the serious number-crunching. We filtered the data for &quot;apples-to-apples&quot; comparisons of similar types of facilities, and used medians and trimmed means where appropriate to account for skewed data. SPSS&#39;s crosstabs and nifty scatterplots and histograms made the job infinitely easier, but (as we learned the hard way on a redlining story years ago) you could get to the same results with database and spreadsheet software.</p>
+<p>Follow the process</p>
+<p>The inspections data - the beginning and end for many projects - was just half the picture. The most surprising findings came from the state&#39;s enforcement database.</p>
+<p>We found that even when state inspectors found problems, they gave homes little reason to clean up their acts.</p>
+<p>The enforcement data was far more complicated to use than the inspections data. It was drawn from a system designed for quick lookups and case management, not aggregate analysis. That later became apparent when I asked the enforcement chief if the basic numbers were correct: 1,261 enforcement cases, 334 penalties imposed. &quot;I have no idea,&quot; he replied. The state couldn&#39;t readily compile its results, so it just didn&#39;t. (They later did their own analysis and confirmed the numbers.)</p>
+<p>Because of the database design, the enforcement data had even more pitfalls than the inspections data. There were multiple records for each case, one for each type of penalty proposed, and most homes had multiple cases. Typically a few penalties stuck but most were dropped.</p>
+<p>The key was to break the table down and rebuild it several ways. For example, to see how the state handled &quot;repeat offenders&quot;:</p>
+<p>Add a field to the original table to flag when a penalty stuck. Group the facilities by ID and case number to identify how many cases the state launched against a particular home, and order them by date of case. Copy the result to a new table. Add and fill an &quot;action number&quot; field. We used a FoxPro SQL program. Then join to the original table to add the flag field. Result: How many &quot;strikes&quot; a home received before the state would call it &quot;out.&quot;</p>
+<p>Dealing with dirt</p>
+<p>Like the enforcement data, most of what we used wasn&#39;t meant to be used that way.</p>
+<p>The Health Department assigns each nursing home an ID number, which is supposed to be the standard way of identifying a home. But the inspections data is tailored for inclusion in OSCAR data, so the quality assurance bureau uses the home&#39;s Medicare number as the unique-and-only-identifier. Meanwhile, another bureau maintains the demographics table. It uses the department ID field as the identifier. It also has the Medicare ID number, but frequently fills it with a dummy number. We eventually decided to capture as many homes as possible, and to play it safe: We recoded ID numbers by hand.</p>
+<p>But simple dirt in the data wasn&#39;t the biggest problem. We had to understand how the system had changed over time. For example, in mid-1995, the feds and the state changed what counts as a serious health or safety violation, &quot;substandard care&quot; in health-speak.</p>
+<p>If we didn&#39;t account for the differences, our analysis would have been garbage. We wrote another SQL program to recode the citations in different ways - to grade them by their respective rulebooks and to grade them by current and former standards.</p>
+<p>Use &quot;golden&quot; databases</p>
+<p>Inspections, demographics and enforcement were our workhorses, but several other databases chipped in to the project.</p>
+<p>Perhaps the best was a little in-house Excel worksheet from the Attorney General&#39;s office that summed up abuse prosecutions.</p>
+<p>The state&#39;s deaths database essentially identified seven cases of nursing home fatalities. Victims&#39; names are redacted from incident reports, but provide dates, locations, and sometimes gender and age - enough to find the death certificate and the name.</p>
+<p>We also drew on the state&#39;s complaints hotline database; inspections data for assisted living facilities and group homes; and demographic data for home health agencies. Late in the process, when we&#39;d almost given up, the state provided Medicaid Cost Reports data, which we used to check other findings.</p>
+<p>In short, getting the data was relatively simple - but understanding it well enough to run the numbers took months. By the end, we could talk Medicaid-speak with the best of the bureaucrats.</p>
+<p>So what did we learn?</p>
+<p>Search for data where you don&#39;t expect it.</p>
+<p>The project started with a Health Department flak saying they didn&#39;t keep an inspections database, but could provide paper summaries (sound familiar, anyone?). We went straight to inspectors to see what really existed. We never expected the Attorney General to have abuse cases in electronic form, but there they were. We didn&#39;t expect to get complaints data, but after agreeing to redact names, there it was.</p>
+<p>But know when to stop searching. We probably gathered more than we need. Several databases made only a cameo appearance in the final project. When you have enough to answer your questions, stop there and dig in.</p>
+<p>Learn everything about the data. CAR 101: Know the definitions of every field in the database, and every code in the fields. One relatively rare code in the inspections data meant a home&#39;s fire code violation actually wasn&#39;t a violation. Miss it, and your numbers for total citations would be off.</p>
+<p>But learning the data isn&#39;t enough.</p>
+<p>For the numbers to mean anything, we also had to learn federal law on inspections and enforcement, and how it evolved over time. We consumed hundreds of pages of manuals and studies to know what to ask, what data mattered and what had changed.</p>
+<p>Keep your data organized. We&#39;ve lost count of how many data tables we&#39;ve built, but it&#39;s got to be around 1,000. But most were one-time knockoffs to test a particular question. The base tables and the key ones for analysis number about two dozen, all in one folder, and listed on paper and in Excel, with the name, location, and a description of how we built them. All the queries are saved by date and name so we can retrace any steps.</p>
+<p>Ask why. Don&#39;t just settle for a list of the worst homes. See what they have in common. Are they for-profits, cutting corners on quality to save a buck? Are they non-profits that lack trained staff and modern facilities? Do they have a problem population? Why are some problem homes around? And find a new question to ask.</p>
+<p>In Chicago, Mike Berens unearthed the warehousing of the mentally ill in nursing homes. In Tampa, Doug Stanley looked at how the profit motive affects care. We looked at the big picture: What types of care are out there, who has access, and how well the state watches over those in the system.</p>
+<p>Use data to narrow your paper chase.</p>
+<p>Once we had identified the problem homes, we requested the detailed, paper reports. That painted pictures on top of the numbers, unearthed more people and stories, and confirmed another tip: Homes routinely appeal inspections, getting some citations dropped from the report-often enough to drop below a penalty threshold.</p>
+<p>But forget the data. It&#39;s about people. A bit of an exaggeration, but it will keep you focused on your readers. Even with all our findings, with the directors of Health and Aging saying they&#39;ll make changes based on our reporting, what people will remember is Grace Blankenship.</p>
+<p>Dave Gulliver can be reached by e-mail at dgulliver@coxohio.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1999-march-elderly-evictions.html">Elderly evictions</a>
+  <span class="similar-meta">March 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-march-money-or-mercy.html">Money or mercy?</a>
+  <span class="similar-meta">March 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-march-other-stories-in-the-ire-resource-center-on-nursing-homes.html">Other stories in the IRE Resource Center on nursing homes</a>
+  <span class="similar-meta">March 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-march-revisiting-hours.html">Revisiting hours</a>
+  <span class="similar-meta">March 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-july-nursing-home-neglect-unraveled-care.html">NURSING HOME NEGLECT Unraveled care</a>
+  <span class="similar-meta">July 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-march-more-international-data-sources.html" class="article-nav__prev">← More international data sources</a>
+  <a href="/uplink/article/2000-march-other-stories-in-the-ire-resource-center-on-nursing-homes.html" class="article-nav__next">Other stories in the IRE Resource Center on nursing homes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

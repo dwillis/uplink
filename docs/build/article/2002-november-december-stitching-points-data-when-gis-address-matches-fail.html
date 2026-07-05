@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stitching points, data when GIS address matches fail — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Stitching points, data when GIS address matches fail</h1>
+    <div class="article-byline">
+      <span class="author">James E. Wilkerson</span>
+      <span class="author-title">GIS specialist</span>
+      <span class="date">November December 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/crime-justice.html" class="badge">Crime &amp; Justice</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist used ArcView GIS software to manually map shooting incidents around housing projects in Allentown by creating a point shapefile and joining it to crime data, since inconsistent location data made automated geocoding impossible.</p></div>
+
+  <div class="article-body">
+    <p>One of our reporters recently wanted to get a visual picture of shootings around housing projects over a few months and came to me, because he know that I am using ArcView for mapping. What sounded like a simple project - plotting a list of shooting locations onto a street map of Allentown - turned out much more difficult than imagined, mostly because the location data was inconsistent.</p>
+<p>Instead of having an exact street address, the shooting location field often contained an intersection or general block on which the shooting occurred. Geocoding didn&#39;t seem to be an option, at least not for the precise placement wanted. But because we were looking at only a couple dozen incidents, I decided to map them by hand.</p>
+<p>First, I added a map shapefile of city streets that the city&#39;s GIS department provided. This street map - like many created by municipal agencies - is more often updated and corrected than the TIGER mapping files provided by the U.S. Census Bureau. The data did not include housing project boundaries, so reporter Keith Herbert and I drove to them and jotted down the streets around the perimeter of the projects. Later, in ArcView 8, we created a new layer for the polygon boundary.</p>
+<p>Using computerized crime data provided by the city police department, I created a spreadsheet containing the incidents to map as points. Each record had basic information about the shooting and a unique identifier that I created, something needed to create a point map. I saved that to a dBASE file and added it as a table to the project.</p>
+<p>Then I got stuck trying to figure out how to join the crimes to points on the city map. After posting a query on the NICAR and ESRI listservs, several people suggested that I create a new point file with no data and join it to the list of shootings.</p>
+<p>Here are the steps:</p>
+<p>With streets and project layers in a view, I created a new, separate shapefile. In ArcView 8, you do that in the ArcCatalog application. Right click on the drive location where you want to store it and choose New/Shapefile. Name the file and make sure that it is a point file.</p>
+<p>After adding the point shapefile to a view in ArcMap, open its attribute table and you will see that it is empty, except for three fields.</p>
+<p>Second, I opened the dBASE file of shooting incidents and arranged the table window and map window so I could see both. With the new shapefile opened for editing, I used the Create New Feature pointer tool. For each shooting location listed in the dBASE file, I created a point on the map that was as close as possible to the location described. Each time I clicked on the map to add a new point, ArcMap created a new record in the shapefile.</p>
+<p>To avoid confusion, I worked with one point at a time. I copied the unique ID number of the shooting into the ID field of my new point shapefile, periodically saving the file.</p>
+<p>In a couple of hours, I had a new map of about two dozen shooting locations, which I then joined to the file of shooting data on the common ID field for further analysis. The dBASE file and new shapefile could also be merged into one file, if you prefer, but I kept mine separate.</p>
+<p>Unfortunately, the story never made it to print as we originally envisioned it, but the map gave us the ability to add new analysis to the subject, which was essential in deciding whether the story was worth pursuing.</p>
+<p>Contact James E. Wilkerson by e-mail at james.wilkerson@mcall.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-pick-a-mapping-program.html">Pick a mapping program</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-mapping-bootcamp.html">Mapping Bootcamp:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-for-more-information.html">For more information:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-may-june-bits-and-bytes.html">Bits &amp; Bytes</a>
+  <span class="similar-meta">May • June 2003</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-november-december-elder-care-homes-ripe-for-probes.html" class="article-nav__prev">← Elder care homes ripe for probes</a>
+  <a href="/uplink/article/2003-february-get-set-for-2003-car-conference.html" class="article-nav__next">Get set for 2003 CAR conference →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

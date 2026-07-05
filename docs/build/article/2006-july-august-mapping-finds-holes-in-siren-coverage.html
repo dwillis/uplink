@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapping finds holes in siren coverage — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Mapping finds holes in siren coverage</h1>
+    <div class="article-byline">
+      <span class="author">Gerry Lanosga</span>
+      <span class="author-title">Investigative producer</span>
+      <span class="date">July-August 2006</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/public-safety.html" class="badge">Public Safety</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A WTHR-Indianapolis team used GIS mapping software to identify significant coverage gaps in central Indiana&#39;s tornado siren network, helping residents find dead zones near their homes.</p></div>
+
+  <div class="article-body">
+    <p>Taking my first crack at ArcView 9.1 reminded me of the first time my dad let me use a chainsaw – a little bit scary (probably more for him than me) – but a hell of a lot of fun. I had tinkered around with ESRI&#39;s geographic information system (GIS) program for a couple of small maps after attending IRE and NICAR&#39;s Mapping Boot Camp last summer, but in March we decided to get serious with mapping by taking a look at tornado sirens in central Indiana.</p>
+<p>It&#39;s certainly ground that has been tread before, but not in any in-depth way in our viewing area. With tornado season approaching, we figured it would be a high-interest story for our audience that would also give us a good initiation with ArcMap. From start to finish, the project took just about every bit of three months for reporter Bob Segall, photojournalist Bill Ditton and me. First we made calls to get siren locations in Marion and the eight surrounding counties in the Indianapolis metropolitan area.</p>
+<p>Most of the counties either lacked GIS files on the sirens or had files that didn&#39;t fit our needs. So we decided to begin from the beginning, building our own database of sirens from which to create maps. Getting the lists of locations was an adventure in itself. Some counties were extremely well-organized; others not so much. In Hancock County, just east of Indianapolis, it took several phone calls and interviews just to get to the person who reportedly knew where all the sirens were.</p>
+<p>When we found her at the sheriff&#39;s department, she jotted out a list of locations from memory. And, when we went to verify the locations, we found some of them didn&#39;t exist. The problems in Hancock, characteristic of the smaller counties in our area, would end up being central to one story in our series. With the locations in hand, I built a database in Microsoft Access and then pulled the data into ArcView for geocoding to create a point map of the sirens.</p>
+<p>I was able to match only about half of the 350 sirens. The rest we plotted the hard way. Bill, Bob and I fanned out with handheld GPS units and gathered coordinates (in UTM, or Universal Transverse Mercator, projection) at each of the remaining siren locations. This proved to be more painful than geocoding. In fact, it was the most time-consuming aspect of the project. We logged hundreds of miles searching for sirens, and the locations we were given weren&#39;t always as accurate as we&#39;d hoped.</p>
+<p>Once we had the data, I made the first of many novice mistakes on this project by hand-keying the data captured in the GPS units into the database. In any event, after the database was complete, it was a snap to add the data to the map, as X,Y points. After adding geographic features such as townships, populated places, and census tract data, I created buffers around each siren. We had our maps – the first comprehensive picture of tornado siren coverage in central Indiana.</p>
+<p>I should note that we didn&#39;t get to this point without some epic battles with ArcMap. I struggled with everything from projections to buffers. At one point, the program simply crashed repeatedly, sometimes without warning and other times with cryptic error messages. After scouring technical papers, talking to technical support and re-installing the software, the problem persisted on a couple of county files.</p>
+<p>Our initial stories looked at the overall picture of tornado sirens in the area, from how well they work to how much area they cover. Using census block data, we were able to report roughly how many people live in dead zones where there are no tornado sirens. On the WTHR Web site, we posted our own maps of the siren coverage for each county and hired a consultant who created an interactive Google Maps application that allowed users to look up sirens near their homes.</p>
+<p>I learned a few lessons and would do things differently if starting over. Initially, we had decided to use a generous 1.5-mile siren coverage radius, even though only the best sirens under ideal conditions operate at that range. In retrospect, I wished I had handled those buffers differently, creating multiple rings rather than one radius. In fact, for a second take on our stories, we did that, showing graduated half-mile distances from the sirens and explaining the variance in siren range in a legend.</p>
+<p>For this second go-around, we were able to report how many schools and parks are outside the practical range of the sirens. Another thing I&#39;d change relates to the display. If I had to do it again, I would create one master data table that includes a county field. While ArcMap is exhilarating to use in terms of its analytical power, I also discovered that it&#39;s just plain fun to create these visuals that can add so much to our storytelling.</p>
+<p>(And I didn&#39;t even saw off my foot.)</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-february-pick-a-mapping-program.html">Pick a mapping program</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-for-more-information.html">For more information:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-mapping-bootcamp.html">Mapping Bootcamp:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-november-december-prep-for-election-mapping.html">Prep for election mapping</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-mapping-out-the-web.html">Mapping out the Web</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2006-july-august-tune-in-to-car-tips.html" class="article-nav__prev">← Tune in to CAR tips</a>
+  <a href="/uplink/article/2006-july-august-making-sense-of-osha-data.html" class="article-nav__next">Making sense of OSHA data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

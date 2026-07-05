@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEDERAL SPENDING Getting a handle on shuttle contractors — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>FEDERAL SPENDING Getting a handle on shuttle contractors</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Porter</span>
+      
+      <span class="date">March/April 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Following the Space Shuttle Columbia disaster, journalists used the Federal Procurement Data System to analyze NASA contractor spending, with the IRE and NICAR Database Library quickly providing federal contract data from 1992 onward to help news organizations identify local connections to the space program. The article explains how to effectively use this database, including its structure, limitations, and how contract modifications are recorded.</p></div>
+
+  <div class="article-body">
+    <p>Space shuttle Columbia crashed in pieces Feb. 1, and all the NASA shuttle program money going to contractors quickly became part of the story.</p>
+<p>Journalists covering that angle of the story found that a database of federal contracts of $25,000 or more -called the Federal Procurement Data System - is a great source of information for looking at program spending.</p>
+<p>The IRE and NICAR Database Library maintains copies of the data from the General Services Administration back to 1992, covering about a half-million federal contracts each fiscal year. The day of the shuttle disaster, the Database Library culled all of the NASA contracts for each of those years, then posted the data and documentation on its FTP server for a quick download.</p>
+<p>Two dozen news organizations obtained the data. In some instances, it allowed journalists to show a local connection to the space program, because the data could show exactly how much money NASA gave to specific contractors in a given state, city or county.</p>
+<p>The database is fairly straightforward with a few wrinkles.</p>
+<p>There&#39;s just one data table, although IRE and NICAR provide a few lookup tables with geographic information and details about the contractors. The primary data table includes the agency, name and address of the company, the amount of the contract, the type of work and where the work was performed.</p>
+<p>The type of work listed is not specific enough for certain news reporting. For example, it doesn&#39;t say the company worked on the left wing of the space shuttle Columbia. Instead, it might say the company&#39;s product or service involved &quot;space vehicles&quot; or &quot;space vehicle components.&quot;</p>
+<p>Next, contracts can be modified over time, and it&#39;s important to understand how the changes are reflected in the data. The GSA data system has a separate record for each of these modifications with each record bearing the same contract number. Take, for instance, contract NAS850000 (with the Boeing Co. for space vehicles), modified 104 times from fiscal year 1992 through 2001.</p>
+<p>The records show modification No 135 in 2001 and an additional obligation of $16.7 million. The next modification resulted in a reduction of the obligation by $1.2 million. So if you add all the numbers together (sometimes over several fiscal years), you can find the total.</p>
+<p>Complicating matters further, the GSA has added some fields over time. For fiscal year 2001, the IRE and NICAR Database Library created a program that processes the data, which will smooth some consistency with field names and how dollar amounts are handled over the long run. All those are reflected in the documentation the Database Library provides. Those documents should be examined carefully to account for any of those changes.</p>
+<p>It&#39;s possible to turn the 10 yearly data files into one. The Database Library kept them separate so it could deliver the data more quickly to journalists the day of the shuttle disaster.</p>
+<p>Now, let&#39;s turn to the data. We&#39;ll go over a basic series of Visual FoxPro commands to choose the fields we&#39;re interested in and string the years together, then make some basic queries of the data. Any number of other database managers - Access, SQL Server, example-could do the trick, too.</p>
+<p>First, we studied the documentation and, for our purposes, decided to go with 18 fields, chosen because of their consistency year to year and their importance. They include the contracting agency, the number identifying the contract and any modification, the amount of money, the four fields describing the type of work, the three different fields that could list the company name, plus the locating information on where the company is based and where the work was performed. (See the record layout at www.ire.org/datalibrary/databases/fedcontacts/layout.txt).</p>
+<p>The complete Visual FoxPro program can be found at www.nicar.org/techtips.html. Here are some key parts of the program.</p>
+<p>use nasa01</p>
+<p>select contractor, ; connum, ; modnum, ; entrytype, ; contaction, ; dollaramt, ; proded, prodnomen, naicscd, naics, contnmicar, ; contnmcif1 ; contnmcif2 contcity, contsted, contzip, stateperf, ; perfcity from nasa01; into table m:\dataprob\nasa</p>
+<p>We continued to make separate tables of each year. If a field was named differently in a previous year, we told the program to change the name, simply like this:</p>
+<p>... siccd naicscd, sicnomen naics,</p>
+<p>The GSA had changed its reference from the SIC (Standard Industrial Classification) to NAICS (North American Industry Classification System) from one year to the next. The language simply tells Fox to select the fields refer to SIC and call them the same field names as the 2001 data calls them.</p>
+<p>Before 2001, the data implies three zeroes after the dollar amount. So to make it consistent, we multiplied all the dollar amount fields by 1,000 like this:</p>
+<p>.dollars*1000 dollaramt,</p>
+<p>That line simply does the math and names the field the same as the 2001 data. The 1999 data had a slight variation for the dollar amounts. Instead of indicating a negative number, the data included a field, called NEGATIVE, showing whether the number is negative or positive. So for the 1999 data file, before we ran our main program (although we could have incorporated it into that program), we created a new dollar amount field, then ran a couple of replacements:</p>
+<p>Replace all dollar2 with dollar Replace all dollar2 with 0-dollar for negative = &#39;-&#39;</p>
+<p>Before we stitched all those years together, we needed a way to tell which year is which, so we added a field to each table and told Fox to fill that in with the appropriate year:</p>
+<p>use nasa98 alter table nasa98; add column year C (4) replace all year with &#39;1998&#39; close databases</p>
+<p>Finally, we reopened the 2001 table we simply called NASA, then appended all the years together.</p>
+<p>There are other ways around this. For example, one could have added the years, then run a UNION ALL query to string the tables together.</p>
+<p>With the data file covering 1992-2001, containing 114,126 records, a few queries could trigger some potential thoughts. Here&#39;s a very simple one:</p>
+<p>select year, sum (dollaramt) total; from nasa; where prodcd like &#39;18%&#39;; group by 1; order by 1</p>
+<p>It shows a 10-year timeline of the money related to space vehicles. Interested in a particular state?</p>
+<p>select year, sum (dollaramt) total; from nasa; where prodcd like &#39;18%&#39; and (contsted = &#39;TX&#39; or stateperf = &#39;TX&#39;) group by 1; order by 1</p>
+<p>That includes the same timeline, but limiting it to contracts where the company is located in Texas or the work was performed in Texas. Locate the biggest contractors for Texas, on space vehicles work?</p>
+<p>select contested, contnmicar, contnmcif1, (dollaramt) total; from nasa; where prodcd like &#39;18%&#39; and (contsted = &#39;TX&#39; or stateperf = &#39;TX&#39;) ; group by 1; order by 4 desc</p>
+<p>This query groups by the Dun and Bradstreet number for the company, the field called CONTESTCD. That&#39;s often useful because the data is somewhat inconsistent in how the company is named. It&#39;s important to note, though, that some companies have multiple Dun and Bradstreet numbers, so you might need to do a little data checking and cleaning for accuracy and consistency.</p>
+<p>Nancy Amons of WSMV-Nashville, was able to localize the shuttle disaster with federal contract data from IRE and NICAR, reporting &quot;NASA pumps millions into our local economy,&quot; identifying companies and finding people to interview, guided by the data.</p>
+<p>&quot;In all,&quot; Amons reported, &quot;NASA awarded nearly $21 million in contracts to Tennessee companies in 2001. Saturday&#39;s disaster could mean even more.&quot;</p>
+<p>Contact Jeff Porter by e-mail at jeff@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2006-september-october-federal-contracts.html">Federal contracts</a>
+  <span class="similar-meta">September-October 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-julyaugust-historical-spending-data.html">Historical spending data</a>
+  <span class="similar-meta">July/August 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-julyaugust-gis-shows-close-call-for-dallas.html">GIS shows close call for Dallas</a>
+  <span class="similar-meta">July/August 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-may-june-finding-backyard-military-contractors.html">Finding backyard military contractors</a>
+  <span class="similar-meta">May • June 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-february-war-windfall.html">War windfall</a>
+  <span class="similar-meta">February 2002</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-marchapril-kbs-boot-camp.html" class="article-nav__prev">← KBS boot camp</a>
+  <a href="/uplink/article/2003-marchapril-the-business-of-war.html" class="article-nav__next">The Business of War →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

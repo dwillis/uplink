@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property data analysis finds extra tax credits — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Property data analysis finds extra tax credits</h1>
+    <div class="article-byline">
+      <span class="author">Kevin Corcoran</span>
+      
+      <span class="date">July-August 2004</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>An Indianapolis Star investigation found that over 9,300 taxpayers illegally claimed multiple homestead property tax credits on properties they didn&#39;t live in, costing Marion County over $6 million in fraudulent tax breaks.</p></div>
+
+  <div class="article-body">
+    <p>Thousands of Indianapolis taxpayers cashed in last year on multiple homestead property tax credits even though this valuable break was intended to reduce taxes only on a homeowner&#39;s primary residence.</p>
+<p>After analyzing computer records for nearly 210,000 properties that received the break for owner-occupied homes we reported that more than 9,300 people benefited from as many as 11,465 homestead tax credits they weren&#39;t entitled to.</p>
+<p>These credits cut taxes on homes taxpayers no longer lived in - or had never lived in. Some taxpayers got five, 10 - even 20 - credits at once.</p>
+<p>Indiana&#39;s credit is a line-item reduction in each homeowner&#39;s tax bill. The state subsidizes the tax cut by writing checks to local governments that depend on property taxes.</p>
+<p>The Star calculated the cost of the credit and deduction errors uncovered in Marion County at more than $6 million. No one in state government could say how widespread the problem was, but, after checking the newspaper&#39;s findings, budget and tax officials said they were concerned it could be occurring elsewhere in Indiana.</p>
+<p>The news story ran March 28 and highlighted the 10 county taxpayers who had received the most credits. James E. Chalfant, who received unwarranted credits worth $3,512 on 19 of his residential properties, topped the list. He received related homeowner deductions worth another $1,000 or so.</p>
+<p>The idea for the story emerged while I was cleaning a larger database of nearly 400,000 county property records. I wanted to evaluate the effects of a wrenching court-ordered overhaul of Indiana&#39;s system of valuing property for tax purposes. The Indiana Supreme Court had declared the old system unconstitutional and ruled that taxes on homes must be more closely tied to market prices.</p>
+<p>The General Assembly, fearing hordes of angry homeowners at the ballot box, had passed a tax-relief package in mid-2002 that raised Indiana&#39;s sales tax to 6 percent from 5 percent to cover tax revenue losses that resulted from an increase in the homestead credit and a related deduction.</p>
+<p>But in early 2003 legislators found a 17-year-old mistake in how the homestead credit was calculated. They chose to correct the error, which had favored homeowners. The action diminished the value of the credit and generated hundreds of millions of dollars for a state budget that was running in the red. Months later, in the summer of 2003, thousands of Indianapolis homeowners learned their property tax bills would be double or more as a result of the court-ordered reassessment.</p>
+<p>I had originally sought the tax data so I could recalculate Marion County&#39;s tax bills and figure out how much of the relief taxpayers had been promised had been taken back. (The Star had previously reported they had paid an extra $30.2 million.)</p>
+<p>The county&#39;s computer vendor burned a copy of the data onto CD-ROM in delimited text format for me at no cost, at the request of a township assessor. The data had some inconsistent owner names and I spent a lot of time cleaning the data to create uniform names. In addition, some townships had combined a number of parcels into one, making it impossible to compare the tax bills over the years. So I created a field called &quot;combo&quot; that indicated whether the parcel was created by combining other parcels.</p>
+<p>In the course of cleaning the tax data in Microsoft Excel, I noticed during sorts on taxpayer names that many had more than the single homestead credit allowed by law.</p>
+<p>We already knew about owners getting more than one credit. Earlier in the year, two reporters for the Star, Vic Ryckaert and Matthew Tully, had disclosed that Marion County&#39;s prosecutor had more than one homestead credit in 2003.</p>
+<p>My data analysis showed the extent of the problem in Marion County and put a price tag on it. Inside the newsroom, Neill Borowski, the Star&#39;s assistant managing editor for news, championed the story. I largely credit him for the Sunday A1 play the story received.</p>
+<p>Going into the story, I had assumed the multiple homestead credits were a result of homeowners applying for more than their fair share of tax breaks. (You can read the story and search a database of property records at www.indystar.com/news/politics).</p>
+<p>But I began to question that assumption after taxpayers with the most homestead credits began calling me back and vehemently denying they had applied for them. I reached six of the top 10 before the stories ran. I reached two others by sending them letters via Federal Express at their tax-bill addresses. One contacted me after the story ran and I never did hear from one. They all told the same story, and upon checking paper land records, I found they were telling the truth. They had not applied for the breaks; they had inherited them.</p>
+<p>The errors had turned out to be a result of poor record keeping by the county auditor, the local official responsible for administering this state-funded program. Problem No. 1: State officials were relying on local officials to make sure tax relief went to the right people, but local officials had no reason to care about the data&#39;s accuracy, because money to pay the credit was coming from the state&#39;s bank account.</p>
+<p>County officials told me that it would be difficult, if not impossible, to pull data off the county&#39;s old mainframe computer and put it into a format that I could use. Problem No. 2: State and local officials usually have no idea how computers work.</p>
+<p>The data was made available at no cost after I persisted and found a township official who asked the contractor to provide it as an ASCII text file on CD-ROM.</p>
+<p>The Star used a snapshot of property tax data taken Aug. 18, 2003, to determine which taxpayers had received more than one homestead tax credit. The database was narrowed to include just the 209,767 land parcels with these credits. I knew I had the correct parcels because the sum spent on homestead credits in my database matched, to the penny, the amount of the tax relief check the state had to write Marion County last year.</p>
+<p>Using Microsoft Access, I analyzed the data to determine which taxpayers with the same first and last names received more than one credit by grouping and counting them. Because the county&#39;s data does not include unique identifiers such as Social Security numbers, I eliminated people with common first and last names from the analysis. Admittedly, that required making some judgment calls.</p>
+<p>I assumed the most valuable homestead credit for each taxpayer with more than one credit was valid. I also assumed credits on properties near those with the largest credit each taxpayer had received were legitimate, because in Indiana the homestead credit applies to a primary residence and up to an acre of adjacent land. Any additional credits the remaining property owners received were totaled to determine the cost to taxpayers of paying for undeserved credits.</p>
+<p>This analysis found 9,315 taxpayers with 20,780 credits; the 11,465 extra credits cost taxpayers an additional $1.11 million.</p>
+<p>In addition, a homestead credit comes with a related property tax deduction of up to $35,000 per home.</p>
+<p>To determine the effect of giving county taxpayers extra homestead deductions, I assumed that the largest deduction for each property owner with more than one deduction was the valid one.</p>
+<p>For each invalid homestead deduction, property value was removed from Marion County&#39;s tax rolls, effectively increasing tax rates. I did not attempt to re-compute county tax rates for the county&#39;s 60 taxing districts, which would have left room for error and added weeks to the project.</p>
+<p>Instead, after talking to property tax experts, I used a proxy measure of the likely effect of property owners getting more than the one homestead deduction they were entitled to by law.</p>
+<p>To calculate this effect, the property value these undeserved deductions had eliminated from tax rolls was totaled ($171 million), divided by 100, and multiplied by $2.9421, the weighted average tax rate per $100 for homes in Marion County last year. This proxy measure indicated the extra deductions had shifted the burden of paying $5.03 million of property taxes, mostly onto businesses and homeowners with just one homestead credit.</p>
+<p>I queried Access for a list, grouped by name, of each taxpayer with more than one deduction. In addition, I asked the program to create fields totaling the values of these deductions for each taxpayer and listing the highest-valued deduction for each taxpayer. Then I exported the data to Excel, where I subtracted the highest deduction from the deduction total to get the invalid amount of deductions. I added the 6,146 undeserved deductions to arrive at the $171 million total.</p>
+<p>I found the unwarranted homeowner tax credits and deductions cost state and local taxpayers least $6.14 million.</p>
+<p>Several months before the story ran, I provided a list of property owners with duplicate credits to the county auditor so she could review them. She told me her own study, performed after the prosecutor&#39;s homestead credits had drawn scrutiny, found 9,000 more duplicate credits than the Star&#39;s conservative estimate had.</p>
+<p>In addition, the auditor&#39;s aides double-checked the list of the two dozen people with the most credits and removed more than 210 homestead credits from their properties. This list became the basis for the Top 10 list the paper published.</p>
+<p>I also walked through my methods and results with state property tax analysts at the State Budget Agency, Department of Local Government Finance and nonpartisan Legislative Services Agency. They reviewed my methodology and did not dispute my findings. After the story ran, the budget agency assigned an analyst to check some other counties. During a cigarette break outside the Statehouse he told me that he&#39;d found a public school district in suburban Hamilton County with six homestead credits.</p>
+<p>When I contacted property owners with the most homestead credits, one local real estate agent getting too many credits asked, &quot;How much are you going to cost me?&quot;</p>
+<p>The answer: At least $3,000 a year after the auditor canceled his credits.</p>
+<p>Not everyone was so upset. Chance L. Felling, No. 8 on the Star&#39;s list, wrote a check to pay the $1,691 owed for 11 invalid credits.</p>
+<p>&quot;Regardless of who made the mistake,&quot; Felling said, &quot;if I owe money, then I should pay.&quot;</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-october-analyzing-property-tax.html">Analyzing property tax</a>
+  <span class="similar-meta">October 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-july-tax-problems-in-new-york-city-again.html">Tax Problems in New York City, Again</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-julyaugust-taxes-finding-the-biggest-deadbeats.html">TAXES Finding the biggest deadbeats</a>
+  <span class="similar-meta">July/August 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-june-covering-tax-assessments.html">Covering tax assessments:</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-february-property-tax-records-disclose-wealth-of-stories.html">Property tax records disclose wealth of stories</a>
+  <span class="similar-meta">February 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2004-july-august-examining-evacuation-during-nightclub-fire.html" class="article-nav__prev">← Examining evacuation during nightclub fire</a>
+  <a href="/uplink/article/2004-july-august-bits-and-bytes.html" class="article-nav__next">Bits &amp; Bytes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

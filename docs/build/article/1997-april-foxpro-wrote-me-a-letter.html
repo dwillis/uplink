@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoxPro wrote me a letter — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>FoxPro wrote me a letter</h1>
+    <div class="article-byline">
+      <span class="author">Jo Craven</span>
+      <span class="author-title">NICAR staff</span>
+      <span class="date">April 1997</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist demonstrates how to use FoxPro database software to automate the creation of 133 personalized form letters with different addresses, saving hours of manual typing by using a scanloop program with the TEXT/ENDTEXT function.</p></div>
+
+  <div class="article-body">
+    <p>Why work if you can get a computer to do the job for you?</p>
+<p>Recently, when I needed to send a form letter to 133 different businesses, I thought of NICAR data guru Richard Mullins, who teaches this ethic. I could sit and type 133 different addresses on top of 133 different copies of the same form letter - or I could get a computer to do it for me. I decided to let the computer do the job.</p>
+<p>Here&#39;s what I had available: a FoxPro database that included, among other things, the names and addresses of the businesses that I wanted to contact.</p>
+<p>I knew I could write a scanloop in FoxPro to pull out the addresses. And I found out that I could use the TEXT/ENDTEXT function to insert a text block - in this case, my form letter - after each scanned address. Later, I found I could get FoxPro to use the same database to print out mailing labels. What would have taken me a couple of hours, FoxPro did in minutes. (Incidentally, you could accomplish this same task with Microsoft Word&#39;s Mail Merge without writing a FoxPro program).</p>
+<p>To create the FoxPro program, which I called &quot;letters,&quot; in the command window, I typed:</p>
+<p>modify command letters</p>
+<p>In the .prg, or program, window that appeared, I wrote the following program (an explanation follows):</p>
+<p>CLEAR CLEAR ALL CLOSE ALL SET CENTURY ON SET TALK OFF SET STATUS BAR OFF USE C:\business. files = VI &quot; SCAN files = alltrim (str (business.id)) SET ALTERNATE TO &quot;c:\&#39; + files SET ALTERNATE ON ?alltrim (cmonth (date + + alltrim (str (day (date + + alltrim (str (year (date )</p>
+<p>?name ?address ?alltrim &quot;+state +&quot; &quot;+zip ?&quot; &quot;</p>
+<p>TEXT</p>
+<p>To Whom It May Concern:</p>
+<p>This is where I typed my letter.</p>
+<p>ENDTEXT CLOSE ALTERNATE ENDSCAN SET TALK ON SET STATUS BAR ON</p>
+<p>Sincerely, Jo Craven</p>
+<p>My database, business.dbf, had 133 records. This program uses an alias called &quot;files&quot; to create 133 different text files, each containing the form letter topped with the different business addresses.</p>
+<p>To make this work, I needed each record to have a unique ID of no more than eight characters. My data did not have such a field, so I created one using the recno() function: I modified the database by adding a field called &quot;id&quot; and told FoxPro to:</p>
+<p>replace all id with recno</p>
+<p>This numbered each record, providing the necessary unique ID. Here is the program again, including explanations of its components:</p>
+<p>CLEAR CLEAR ALL CLOSE ALL These three lines clear the slate, making sure that no other files are open when the program starts. They are standard in any FoxPro program. SET CENTURY ON This sets the dateline that starts each letter. SET TALK OFF SET STATUS BAR OFF These turn off FoxPro&#39;s bells and whistles in order to make the program run faster.</p>
+<p>USE C:\business.dbf</p>
+<p>This tells the computer which database to use - the one with the business names and addresses files =</p>
+<p>This reveals that an alias called &quot;files&quot; will be used. It is defined and plugged into the program later. This line can be omitted; including it is a matter of form. SCAN This begins the scanloop. In FoxPro, a scanloop tells the computer to look at every record in a database and perform whatever functions are specified within the scanloop - in this case, setting up separate text files, typing in the various names and addresses from the database, and inserting the text block written within the scanloop. files = alltrim (business.id) This defines the alias &quot;files.&quot; It says that, for this program, &quot;files&quot; equals &quot;id,&quot; which is the field in business.dbf containing the unique IDs. &quot;Alltrim&quot; makes sure blank spaces don&#39;t confuse the machine. And &quot;str&quot; tells the computer to consider the numeric, unique IDs as character data. SET ALTERNATE TO &quot;c:\&quot; + files SET ALTERNATE ON This is where the individual text files are created. &quot;Set Alternate To&quot; tells the computer that everything it does within this scanloop should be copied to another file on the c:\ drive. &quot;Files&quot; has already been defined as &quot;id,&quot; so for every unique ID, a new text file will be created on the c:\ drive. &quot;Set Alternate On&quot; tells the computer to act on the &quot;Set Alternate To&quot; command. &quot;Set Alternate To&quot; won&#39;t work without &quot;Set Alternate On.&quot; ?alltrim (cmonth (date + + alltrim (str (day (date ( ) ) + + alltrim (str (year (date This makes the date. If your computer&#39;s date and time are set correctly, this command will produce the current date. The question mark (?) tells FoxPro to type the information. ?&quot; &quot; This produces a blank line between the date and the address. ?name ?address ?alltrim (city) &quot;+state &quot;+zip ?&quot; &quot; This tells FoxPro to pull out the information in the fields &quot;name,&quot; &quot;address,&quot; &quot;city,&quot; &quot;state,&quot; and &quot;zip,&quot; inserting the comma where appropriate, and spacing between the state and ZIP code.</p>
+<p>(Remember, we already told the computer which database to use - business.dbf) The last line leaves a blank space between the address and the letter below.</p>
+<p>TEXT To Whom It May Concern:</p>
+<p>This is where I typed my letter. Your letter can be as long, or short, as you like.</p>
+<p>Sincerely, Jo Craven</p>
+<p>ENDTEXT</p>
+<p>TEXT tells FoxPro a text block is coming and should be inserted in the scanloop after the address. Anything can be typed into the text block. A tip: Use carriage returns after each line to ensure proper line breaks. ENDTEXT must be typed at the end of the text block.</p>
+<p>CLOSE ALTERNATE</p>
+<p>Remember, FoxPro was typing everything from the scanloop into a text file named after the unique ID. This closes that file, so that when the scanloop begins again, FoxPro will name the next alternate file after the next unique ID and thus create the different text files. (When I ran this program, I ended up with 133 text files with names called 1.txt, 2.txt, on through 133.txt)</p>
+<p>ENDSCAN</p>
+<p>This tells FoxPro the scan is done, and should be started anew on the next record in the database, until there are no more records left. SET TALK ON SET STATUS BAR ON These turn the bells and whistles back on. (Remember, I turned them off in the beginning to make the program run faster.)</p>
+<p>After typing this program into the .prg window, to save and exit, type ctrl W. To run the program, in the FoxPro command window, type:</p>
+<p>do letters</p>
+<p>Making mailing labels for envelopes is even easier because FoxPro offers a wizard that will draw the addresses from the same database. From the Run pulldown menu, choose Wizard and then &quot;labels&quot; and follow the steps. Tip: Standard mailing labels are size 5160.</p>
+<p>Jo Craven can be reached at (573) 882-0684, or send e-mail to jo@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-may-cheating-at-foxpro.html">Cheating at FoxPro</a>
+  <span class="similar-meta">May 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-september-setting-the-data-free.html">Setting the data free</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-april-foxpro-to-access-and-back-again.html">FoxPro to Access and back again</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-augustseptember-programming-as-easy-as-sql.html">Programming? As easy as SQL</a>
+  <span class="similar-meta">August/September 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-october-means-to-appends.html">Means to appends</a>
+  <span class="similar-meta">October 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1997-april-stats-from-the-road.html" class="article-nav__prev">← Stats from the road</a>
+  <a href="/uplink/article/1997-april-surfing-for-stats.html" class="article-nav__next">Surfing for stats →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

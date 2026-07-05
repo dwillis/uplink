@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Today&#39;s Top 10 list — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Today&#39;s Top 10 list</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      
+      <span class="date">September 1996</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Richard Mullins provides technical instructions on how to use SQL keywords and functions in Microsoft Access and FoxPro to retrieve top-ranked data results.</p></div>
+
+  <div class="article-body">
+    <p>Is there a way to write a query that just gives you the top 10 (or 20 or 101) rows? I&#39;ll cover Access first, then FoxPro. In Access, this query, which orders candidates according to their fundraising, doesn&#39;t limit the result to any rank: SELECT DISTINCTROW CandName, Receipts FROM CandRept ORDER BY Receipts DESC. Adding one keyword and a number gives the same results, but with a specified cutoff in rank: SELECT TOP 10 CandName, Receipts FROM CandRept ORDER BY Receipts DESC.</p>
+<p>There is no opposite keyword for TOP to get the bottom of the list. Instead, you do that by specifying whether the ranked columns should be ordered ascending or descending. You can also add the keyword PERCENT to make the query return only a certain portion of the ranked data: SELECT TOP 10 PERCENT CandName, Receipts FROM CandRept ORDER BY Receipts DESC. In FoxPro, this SQL will return the top 10 fund-raisers: SELECT CandName, Receipts FROM CandRept ; WHERE RECNO () &lt; 11 ; ORDER BY Receipts DESC.</p>
+<p>The trick here is in the WHERE clause and the built-in function, RECNO(). For every table and query result, FoxPro can figure out the total record count and the record number of every row. Changing the expression in the WHERE clause lets you limit the results to a certain percent of the full set of rows: SELECT CandName, Receipts ; FROM CandRept ; WHERE RECNO () &lt; 20 * (RECCOUNT () / 100) ; ORDER BY Receipts DESC.</p>
+<p>The built-in function RECCOUNT() determines how many rows are in the complete query result.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-october-foxpro-adds-a-new-dimension-to-sql.html">FoxPro adds a new dimension to SQL</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-april-foxpro-to-access-and-back-again.html">FoxPro to Access and back again</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-may-cheating-at-foxpro.html">Cheating at FoxPro</a>
+  <span class="similar-meta">May 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-october-getting-access-for-stories.html">Getting Access for stories</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1996-september-irenicar-student-regional-conference-notice.html" class="article-nav__prev">← IRE/NICAR Student Regional Conference notice</a>
+  <a href="/uplink/article/1996-september-advanced-bootcamp-notice.html" class="article-nav__next">Advanced Bootcamp notice →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

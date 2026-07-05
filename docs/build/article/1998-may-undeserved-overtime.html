@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undeserved overtime — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Undeserved overtime</h1>
+    <div class="article-byline">
+      <span class="author">Dan Keating</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">May 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/crime-justice.html" class="badge">Crime &amp; Justice</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Miami Herald&#39;s 1997 investigation into Miami police officers fraudulently adding their names to arrest reports to collect court overtime led to the largest disciplinary action in Metro Dade Police history, with the Pulitzer finalist project demonstrating how data analysis of court records combined with investigative reporting exposed the widespread scam.</p></div>
+
+  <div class="article-body">
+    <p>In late April, Metro Dade Police - the largest agency in south Florida - punished 36 officers, the largest disciplinary effort in its history. Supervisors were demoted and officers were suspended without pay for a widespread scam in which officers, even if they had not performed any police work, added their names to arrest reports in order to collect court overtime.</p>
+<p>The department&#39;s nine-month internal investigation was prompted by The Miami Herald&#39;s 1997 investigation, &quot;Collars for Dollars.&quot; In April, the project was named a Pulitzer finalist in the investigative category.</p>
+<p>The story pulsed with rich anecdotes produced by the shoe-leather effort of three reporters on The Herald&#39;s investigative team. Its foundation lay in ironclad assertions drawn from data analysis, which involved nine different criminal justice datasets from a variety of sources.</p>
+<p>The key ingredient was the court&#39;s electronic docket that lists officers subpoenaed to court. We obtained records of 704,077 officers subpoenaed in 143,055 felony, misdemeanor, juvenile and traffic cases in Dade County from 1994 through 1996. Our main goal was to tally how many officers were coming to court and then calculate by case, agency, officer and charge.</p>
+<p>The hard work wasn&#39;t analyzing the data - it was organizing it.</p>
+<p>Unfortunately, the raw data was structured in a format that couldn&#39;t be used for effective analysis. The database arrived in two tables. One table listed the case number, charge and disposition. With separate records for every charge, each case could have a dozen records or more. The second table had one record for each subpoena, listing the case number, agency, officer and hearing date. It, too, could have a dozen records per case.</p>
+<p>Although the tables were related by case number, any attempt to join them produced a mishmash of up to 100 records for an individual case.</p>
+<p>The multiplicity challenge</p>
+<p>Before we could do anything, we had the tricky chore of reshaping the data. We needed a single record to summarize each case, but we couldn&#39;t lose the ability to pinpoint specific officers or charges.</p>
+<p>For the charges, we made a single summary record for each case. The record included the first eight charges (if that many were included), a count of the total number of charges, and dispositions.</p>
+<p>To be able to quickly find particular kinds of cases, we created yes/no flags for several types of charges: from murder and robbery to prostitution and drunk driving. If a case involved any of those charges, its flag was set to &quot;yes.&quot; Since the project concentrated on misdemeanors, the flags let us quickly run statistics on those cases.</p>
+<p>We also created a single record for each case in the subpoena database. It included the total number of officers subpoenaed, the names of up to three departments and how many officers were subpoenaed from each. It also noted the officer and department that initiated the case. That showed us how groups of officers piled onto cases.</p>
+<p>It&#39;s usually hard to turn multiple records into individual summaries with such a wide variety of information. We used SAS because it can manipulate a group of records to produce a single summary record.</p>
+<p>To be able to find specific officers, we kept a dataset listing one subpoena per record. A name search would draw up all the case numbers for a given officer. The case numbers could then be linked to the charge summary or subpoena summary to pull statistics for that officer. Once we had the SAS program to reshape the felony/misdemeanor data, we could change file names to run the same operation on the juvenile data and then the traffic data. That ability to recycle SAS code and repeat a lengthy series of steps came in handy since we ended up getting four sets of the traffic data before the court folks finally produced a database including all police witnesses on a case.</p>
+<p>Gone fishin&#39;</p>
+<p>With the data reshaped, it was time to actually analyze it. First, we cast a sweeping net through the data to catch tips (cases and officers) for the reporters to track down.</p>
+<p>We specified a kind of case using the yes/no flags and then grabbed the cases with the most witnesses. We also pulled the officers whose cases averaged the highest number of witnesses.</p>
+<p>To see who was in the habit of joining with a friend, we checked how many times any two officers appeared together on a case. To do that, we made a temporary duplicate of the subpoena dataset in order to compare it with itself.</p>
+<p>With help from my predecessor and mentor, Professor Steve Doig of the Cronkite School of Journalism at Arizona State University, we used the following code. It&#39;s SQL code, but for this story run under SAS. You might find it useful anytime you&#39;re trying to match a dataset against itself to pull out pairs.</p>
+<p>The original dataset was named subp1 and the duplicate subp2. In the duplicate, the officer identification was renamed copid2 and the case number was renamed casenum2.</p>
+<p>The code uses a &quot;less than&quot; on the officer identification number so that each pair can be listed only one way (you won&#39;t have both &quot;Keating-Doig&quot; and &quot;Doig-Keating&quot;):</p>
+<p>create table witness.subp3 as select subp1.copid, subp1.casenum, subp2.copid2, subp2.casenum2 from subp1, subp2 where subp1.casenum = subp2.casenum2 and copid lt copid2 order by 1, 2;</p>
+<p>The code produced a table of matched pairs with case numbers. We then grouped by the pairs and counted to find which officers appeared together the most. We could also see all the cases of any given pair.</p>
+<p>Using those techniques, we found plenty of cases worth checking out. At least six police witnesses appeared in 128 misdemeanor prostitution cases. Two officers (close friends) were listed 238 times as witnesses in each other&#39;s drunken-driving cases, even though they worked for different departments in different jurisdictions.</p>
+<p>Publication precision</p>
+<p>To produce statistics for publication, our analysis had to be more precise. We considered other complicating factors, such as officers subpoenaed only to testify about the calibration of the breathalyzer, the tiny proportion of cases with guilty pleas at arraignment, or cases with multiple defendants.</p>
+<p>In any analysis, a baseline for comparison is the most important part: What can we use to define what&#39;s normal or abnormal? In our case, we had four major police departments, three that pay for court overtime and one that does not.</p>
+<p>That made it easy to draw comparisons. For instance, the department that doesn&#39;t pay for overtime was 100 times less likely to have at least five officers on a DUI case. The three departments that paid overtime had 6,445 routine DUI cases with at least five officers in three years. Experts said three officers would be the maximum needed to prosecute a case.</p>
+<p>One piece of telling evidence: the conviction rate for a DUI declined as the number of officers involved increased. That finding made it impossible for police to claim that extra officers ensured a conviction.</p>
+<p>We created another database from the logs of the breathalyzer machines. We punched in the names of defendants whose breath-alcohol readings were below the legal limit, then merged the defendant names against the DUI court cases. More than half of those cases had been dismissed outright, meaning that hundreds of people were being charged with DUI even though tests showed they were not legally intoxicated. Although it&#39;s hard to prove that police are intentionally arresting innocent people to drum up court overtime, our finding from the data certainly hinted that drivers were being unfairly victimized.</p>
+<p>Matching payments</p>
+<p>Only one of the departments we examined kept electronic payroll records that matched pay with specific cases. For the other departments, reporters pulled paper files and read time slips.</p>
+<p>I-team reporter Lisa Getter, using Microsoft Access, did much of the matching of the overtime database with databases of arrests and off-duty police overtime jobs. We found officers in multiple places at the same time. One year, there were 85 cases of officers who were in court for less than 10 minutes but still received the union-specified minimum of three hours overtime pay.</p>
+<p>To detail how officers &quot;piggybacked&quot; onto cases, we built a supplemental database for one subset of cases. Using paper records, the reporters identified exactly which officers performed which tasks on each case. Using an Access front end, reporters entered the case number or defendant name. The data-entry form then automatically put the officers&#39; names into drop-down boxes to fill in each task on a case. That way reporters could point-and-click very quickly and avoid typos.</p>
+<p>The computer analysis was lengthy and challenging. But it was rewarding. The largest local police union, which was placing blame elsewhere and claiming officers were being victimized, never even attempted to deny or contradict our findings. In police memos before our series, the problem was downplayed as isolated or exaggerated. The data proved them wrong.</p>
+<p>Dan Keating can be reached at (305) 376-3476 or by e-mail at dkeating@herald.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2003-julyaugust-simple-sorts-reveal-cops-overtime-jackpot.html">Simple sorts reveal cops&#39; overtime jackpot</a>
+  <span class="similar-meta">July/August 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-march-doing-time-in-miami.html">Doing Time In Miami</a>
+  <span class="similar-meta">March 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-november-web-links-people-and-records.html">WEB LINKS People and records</a>
+  <span class="similar-meta">November 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-april-voter-fraud.html">VOTER FRAUD</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-mayjune-bus-driver.html">Bus driver</a>
+  <span class="similar-meta">May/June 2001</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-may-system-protecting-military-malpractice.html" class="article-nav__prev">← System protecting military malpractice</a>
+  <a href="/uplink/article/1998-may-car-with-microdata.html" class="article-nav__next">CAR with microdata →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

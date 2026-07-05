@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding questions — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Coding questions</h1>
+    <div class="article-byline">
+      <span class="author">Cindy Eberting</span>
+      
+      <span class="date">January/February 1999</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>Journalists can use database classification and occupation coding to identify trends in campaign contributions, but must carefully consider how to categorize donors, especially large corporations with diverse business interests. Proper database structure using a master table with unique identifiers allows news organizations to flexibly track and analyze contributions across multiple races and offices.</p></div>
+
+  <div class="article-body">
+    <p>ing a database, but also the most enlightening.</p>
+<p>&quot;Some of the best stories that have been done are those where classification has been done,&quot; Raymond says. &quot;You can see trends and patterns, such as how much gambling has influenced a particular area.&quot;</p>
+<p>The Post&#39;s project tried to identify employer and occupation for every donor who gave $1,000 or more. To make the matches, they ran names against other databases, looked up names in newspaper archives, and phoned several people just to ask who they were and what they did for a living. Public Disclosure did most of the work, identifying 78 percent of major donors to the governor&#39;s race.</p>
+<p>But it&#39;s important to point out the caveats of occupation coding to editors and readers. Raymond uses the example of General Electric, which also owns a television network, makes commercial and defense jet engines, and constructs refrigerator parts.</p>
+<p>&quot;So what do you code GE as?&quot; Raymond asks. &quot;Is it a defense contractor, a home appliance company or jet crafter?&quot;</p>
+<p>When dealing with large companies, reporters need to be aware of the large players involved. When Raymond&#39;s company works with newspapers to code contributions, many coding decisions are left to the newspaper and reporters themselves, who are more familiar with area industries.</p>
+<p>In the Seattle series, the reporters considered a couple as one entity when both were significant donors. They also included corporate contributions of companies known to be controlled by one individual. Brown warns that reporters looking at contributions over a long period must beware of contributors who have died. Four of their original Top 50 had died during the seven years of contributions the newspaper considered.</p>
+<p>Structuring the database</p>
+<p>Raymond suggests having a master table that lists details on all contributors. This serves as a look-up table for all the names. Raymond builds databases using Microsoft Access. Each contributor name is given a unique identifier. Then each office or race—such as the gubernatorial or state legislative races—becomes its own separate table.</p>
+<p>&quot;You&#39;re going to get information in the gubernatorial race that will be different than the legislature,&quot; he says. &quot;But you want to keep all that information. The most flexible thing you have going is that master table. It&#39;s really the key to it.&quot; With this structure, every time a media outlet wants to add another level of campaign contributions, they don&#39;t have to change the database—just add a related table for that office and add the contributor names to the master table. The database structures for the New York and Virginia projects differ. In the Virginia database, every contributor and candidate has a unique identifying number in a relational database with 10 tables that relate to the main contributions table. They also code contributors for occupations. In New York, for competitive reasons within the consortium, the database only assigns a unique number to candidates. Each newspaper then decides whether they want to standardize names or code for occupation. &quot;The papers there have a much higher level of distrust,&quot; Poole says. &quot;They were all happy to have the base data, and each of them just wanted to take it from there.&quot;</p>
+<p>Verifying the data</p>
+<p>Raymond reminds reporters that the database is only as good as the data you obtain. The reporter has to be able to verify the database information. &quot;The data you&#39;re going to get needs to be scrubbed up so it&#39;s garbage in and garbage out,&quot; Raymond says. In Seattle, reporters ran an explanatory note with the tables pointing out potential problems with the data. The note mentioned data-entry error by public agencies and that paper records were examined selectively. The note also stated that the contribution totals reported were mostly like the minimum anyone actually gave.</p>
+<p>Making the data available</p>
+<p>After the database is built, it&#39;s important to get the information to key people in the newsroom and make sure they understand how to use it—otherwise you render the system worthless. Raymond&#39;s company sets up the database on an Intranet in which reporters use their Web browser to query the database and sort the data in various ways. An Intranet also gives data access to a reporter working from home or on the road.</p>
+<p>Maintaining the database</p>
+<p>The campaign finance database increases in value when it&#39;s maintained and contribution data is continuously collected as candidates file their reports.</p>
+<p>&quot;Campaign finance databases are living and breathing things,&quot; Raymond says. &quot;They don&#39;t end at the end of an election cycle. Right after the election you have a whole other set. What happens in a newsroom is that they look at these things like a project with a beginning and end date.&quot; Raymond&#39;s company offers to maintain databases for newspapers and suggests, though from an obviously biased point of view, contracting out that duty to an outside party. &quot;It&#39;s almost inviting a waste of money if you try to do it in-house,&quot; Raymond says. &quot;That&#39;s when they set it up as a project as a one-time shot. Then the next election comes and it&#39;s going to be: &#39;We&#39;ll pitch it to somebody again. Dig it out and start from ground zero.&quot;</p>
+<p>Cindy Eberting can be reached by e-mail at cindy@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1999-januaryfebruary-build-your-own-tables.html">Build-your-own tables</a>
+  <span class="similar-meta">January/February 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-january-public-interest-contributions-and-the-candidates.html">Public-interest contributions and the candidates</a>
+  <span class="similar-meta">January 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-july-how-to-check-campaign-coffers.html">How to check campaign coffers</a>
+  <span class="similar-meta">July 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-januaryfebruary-charting-campaign-cash.html">Charting campaign cash</a>
+  <span class="similar-meta">January/February 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-july-uplink-update.html">Uplink update</a>
+  <span class="similar-meta">July 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1999-januaryfebruary-build-your-own-tables.html" class="article-nav__prev">← Build-your-own tables</a>
+  <a href="/uplink/article/1999-januaryfebruary-let-the-buyer-know-fares.html" class="article-nav__next">Let the buyer know fares →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

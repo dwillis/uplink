@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>War windfall — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>War windfall</h1>
+    <div class="article-byline">
+      <span class="author">David Wethe &amp; Michael Whiteley</span>
+      
+      <span class="date">February 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>After 9/11, a Dallas-Fort Worth newsroom used NICAR&#39;s federal contractor database to identify local defense companies that might benefit from increased military spending, finding over 6,500 contracts worth $7.7 billion in the region.</p></div>
+
+  <div class="article-body">
+    <p>Within hours of the Sept. 11 terrorist attacks, many started to wonder what - if anything - the nation would do to respond.</p>
+<p>Texans wondered if their loved ones would get the call to go to war. And the tech companies, machine shops and aviation subcontractors of the Dallas-Fort Worth area - businesses that had accounted for a dime of every dollar spent on Desert Storm - wondered if they could balance the losses to the airline industry with some profit from a new war.</p>
+<p>We decided to use NICAR&#39;s database of federal contractors to identify and interview some of the companies on the early call lists for the Department of Defense or the Defense Logistics Agency.</p>
+<p>We slated the story for a quick turnaround - to appear in next week&#39;s issue while the idea was still fresh on our readers&#39; minds.</p>
+<p>On Sept. 14, we ordered the Texas share of the database, which covered companies and their federal contract obligations for 2000. It arrived the following Monday morning, giving us time to write a story for the Sept. 21 paper.</p>
+<p>Defense contracts</p>
+<p>Using Visual FoxPro 6.0, we ran a series of relatively simple queries that split out the defense contracts, finding contractors based in the Dallas-Fort Worth area, summing their contract obligations and sorting in descending order.</p>
+<p>We queried NICAR&#39;s data into successive tables, culminating with &quot;metrodef.dbf.&quot; The values &quot;DD&quot; and &quot;DT&quot; in the field &quot;prtagncy&quot; identified contracts issued by defense agencies, including the DOD, the DLA, the Air Force and the Army.</p>
+<p>We queried the table &quot;Fedprc.dbf&quot; with: SELECT FROM fedprc; WHERE Fedprc.prtagncy = &quot;DD&quot;; OR (Fedprc.prtagncy = &quot;DT&quot;) ORDER BY Fedprc.contractor; INTO TABLE :\defense\defquery.dbf</p>
+<p>We renamed defquery.db to &quot;Texdef.dbf&quot; and queried it to isolate contractors&#39; home cities using the query: SELECT DISTINCT Texdef.contcity; FROM texdef; ORDER BY Texdef.contcity; INTO TABLE city.dbf</p>
+<p>We edited the results to include only cities in Dallas County, Tarrant County and the surrounding counties in the Dallas-Fort Worth area.</p>
+<p>We then ran the new table, &quot;city.dbf&quot; against our &quot;Texdef&quot; table using: SELECT FROM texdef INNER JOIN city ; ON Texdef.contcity = City.contcity; INTO TABLE metrodef.dbf</p>
+<p>Big dollar amounts</p>
+<p>The query yielded a table of Dallas-Fort Worth area defense contractors - or at least contractors who did defense work in the Dallas-Fort Worth area last year - with a total of 6,507 contracts worth $7.7 billion. By comparison, our crunch of Texdef produced 19,614 contracts worth $12.8 billion for 2000. That meant the Dallas-Fort Worth area companies handled contracts accounting for 60 cents of every dollar spent in Texas.</p>
+<p>The next step was to identify the major players, such as Lockheed Martin Corp., and to sort out the smaller shops that might depend on a DOD call for survival and might add a human element to our story.</p>
+<p>We isolated the names of the contractors and the dollar amount of each of their contracts using: SELECT Metrodef.contnmif1, Metrodef.dollaramt; FROM metrodef; ORDER BY Metrodef.dollaramt; INTO TABLE companytot.dbf</p>
+<p>And we tallied their combined contract values, in descending order, with: SELECT companytot.contnmcif1, SUM (dollaramt) FROM companytot; GROUP BY companytot.contnmcif1; ORDER BY 2 desc; INTO TABLE Metrosum.dbf</p>
+<p>With the help of staff writers Hala Habal and Margaret Allen, we divided the companies and called a healthy mix of those who&#39;d done a brisk business with DOD and DLA in 2000 and those who&#39;d handled smaller contracts.</p>
+<p>Early on, we found some irony. Luminator Holding L.L.C. of Plano was expecting heavy losses from a division that makes instrument lights for jet airliners. But those losses were somewhat offset by an emergency order for search lights phoned in from a military base overseas within days of the attack.</p>
+<p>In Garland, we found beefed-up security at a company identified as the sole manufacturer of U.S.-certified bombs. In Fort Worth, a company that makes bomb fuses and parts for the Bradley fighting vehicles had received the call to speed up orders.</p>
+<p>Also in Garland, a startup quickly received word from the Pentagon to be ready for delivery of its new Thermal Angel, a device that can be used for warming IV fluids in the battlefield.</p>
+<p>Quick, easy story</p>
+<p>This story was done in a hurry. It was a quick and easy CAR story that can be done in just about any newsroom that has a database manager.</p>
+<p>Although no one really knew what kind of war we were talking about, we felt confident many companies in our database would get the call. And one of them offered some news - the possibility that the nation might not be ready for another war.</p>
+<p>&quot;I don&#39;t think their inventory was that great,&quot; said Kyle Blake, vice president of AGH in Fort Worth. &quot;After Desert Storm, the Department of Defense pretty much turned the spigot off. It got behind and never caught up again.&quot;</p>
+<p>Michael Whiteley can be reached by e-mail at mwhiteley@bizjournals.com</p>
+<p>David Wethe can be reached by e-mail at dwethe@bizjournals.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2003-may-june-finding-backyard-military-contractors.html">Finding backyard military contractors</a>
+  <span class="similar-meta">May • June 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-july-august-bits-and-bytes.html">Bits &amp; Bytes</a>
+  <span class="similar-meta">July-August 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-may-june-finding-overlap-in-public-private-interests.html">Finding overlap in public-private interests</a>
+  <span class="similar-meta">May-June 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-marchapril-federal-spending-getting-a-handle-on-shuttle-contractors.html">FEDERAL SPENDING Getting a handle on shuttle contractors</a>
+  <span class="similar-meta">March/April 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-marchapril-key-data-resources-for-covering-conflict.html">Key data, resources for covering conflict</a>
+  <span class="similar-meta">March/April 2003</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-february-storytipsheet-available-from-the-ire-resource-center.html" class="article-nav__prev">← Story/Tipsheet Available from the IRE Resource Center:</a>
+  <a href="/uplink/article/2002-february-data.html" class="article-nav__next">Data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculating medians in Paradox — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Calculating medians in Paradox</h1>
+    <div class="article-byline">
+      <span class="author">Ray Robinson</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">October 1994</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>When average values are skewed by outliers, the median provides a more representative number. This article explains a seven-step process for calculating medians in Paradox 4.0 database software, using mortgage income data as an example.</p></div>
+
+  <div class="article-body">
+    <p>Any database software can easily calculate the average of a numeric field. But sometimes a few extremely high values skew the average.</p>
+<p>We ran into that with the income field of the Home Mortgage Disclosure Act data for New Jersey. Our MSA, due to some extremely high incomes, was showing the average loan applicant with an income of more than $84,000 per year.</p>
+<p>When the average is skewed, you can often get a more representative number by calculating the median. That&#39;s a little more difficult than calculating an average. Here&#39;s how it&#39;s done in Paradox 4.0:</p>
+<p>1) Query your table, marking the following fields: the field you want to group by; the field you want to calculate as a median (be sure to mark this field with Alt-F6, rather than just F6, so it will include duplicate values in the answer). Rename the answer table to save it. 2) Sort the table in ascending order, making the median field the last sort field. 3) Restructure the table, adding a numeric field called RECNO. 4) Insert the record number Paradox has assigned to each record into the new field. Here&#39;s the code:</p>
+<p>EDIT &quot;Tablename&quot; MOVETO [RECNO] SCAN = RECNO() ENDSCAN DO_IT!</p>
+<p>5) Query the resulting table to mark the grouping field and do a CALCAVERAGE on the RECNO field. Rename the answer table to save it.</p>
+<p>6) The resulting table will have each value in the grouping field with an average in the RECNO field. Now you need to strip the decimal places off the averages in RECNO. Here&#39;s the code:</p>
+<p>EDIT &quot;Tablename&quot; SCAN IF ([Average of Recno] Int([Average of Recno])) &gt; 0 THEN [Average of Recno] = t([Average of Recno]) COPYTOARRAY arecord DOWN INS COPYFROMARRAY arecord [Average of Recno] = [Average of Recno] + 1 ENDIF ENDSCAN DO_IT!</p>
+<p>7) Now set up a multi-line query as follows: In the new table, put an example element in the Average of Recno field. In the earlier table, put the same example element in the Recno field. Mark the grouping field in that table. And in the field you want to calculate as a median, type CALC AVERAGE AS MEDIAN.</p>
+<p>The resulting table should display each value in the grouping field with a median value.</p>
+<p>Yes, it&#39;s a headache. And if you only have one median to figure, it&#39;s obviously easier to sort the original table and scroll down to the record number that falls in the middle. But if you want to calculate the median for a number of different groups, it&#39;s worth it.</p>
+<p>Ray Robinson, (609) 272-7273; Primary: 73203.3644@compuserve.com; Secondary: acpress@acy.digex.net</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1993-aprilmay-an-invitation-for-paradox-users.html">An invitation for Paradox users</a>
+  <span class="similar-meta">April/May 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-foxpro-paradox-or-xdb.html">FoxPro, Paradox or XDB</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-weighting-data.html">Weighting data</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-april-getting-back-to-basics.html">Getting Back to Basics</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-october-getting-access-for-stories.html">Getting Access for stories</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1994-october-covering-the-computer-beat.html" class="article-nav__prev">← Covering the computer beat</a>
+  <a href="/uplink/article/1994-october-dambrosio-hill-win-njpa-award.html" class="article-nav__next">D&#39;Ambrosio, Hill win NJPA Award →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

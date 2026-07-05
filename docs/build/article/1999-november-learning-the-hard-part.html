@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning the hard part — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Learning the hard part</h1>
+    <div class="article-byline">
+      <span class="author">Jodi Nirode</span>
+      
+      <span class="date">November 1999</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/crime-justice.html" class="badge">Crime &amp; Justice</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist describes the challenges of obtaining and analyzing 911 dispatch records for a Columbus police response time investigation, including data formatting issues and missing arrival time logs that complicated the analysis.</p></div>
+
+  <div class="article-body">
+    <p>I was so idealistic. After finishing IRE and NICAR boot camp this summer I thought the hardest part about doing my first solo computer-assisted reporting project would be writing Access queries. How quickly I learned how many pitfalls there can be along the way.</p>
+<p>The project was looking at the response times of Columbus police.</p>
+<p>On Mother&#39;s Day, a 48-year-old man was shot and killed in front of his children and grandchildren – 30 minutes after a neighbor warned a police dispatcher that a drunk man was firing shots from his front stoop.</p>
+<p>Police called the delay a fluke – that rare case when more important calls bogged them down from getting to a run that should have been the division&#39;s second highest priority.</p>
+<p>The Dispatch wanted to know for sure.</p>
+<p>I requested a year&#39;s worth of the 911 dispatch records. In my request, I stated I wanted nothing omitted and I wanted them in a comma-delimited text format. Simple, right?</p>
+<p>However, the woman placed in charge of my request gave me separate files for each day – 366 in all. So I&#39;d have to input and link each file for every Access query.</p>
+<p>The dispatchers comments weren&#39;t included, I later learned, because they are stored separately.</p>
+<p>So, I had to make the request again.</p>
+<p>And again, the files came back in separate databases.</p>
+<p>The head of the department gave me a technical argument about the information being too large to store in one text file; if I wanted it in one file, he could do it, but in Access only.</p>
+<p>God, did I feel dumb.</p>
+<p>I should have asked for them to give it to me in Access originally. I just never dreamed they had it. It taught me the first of many valuable lessons that would resurface later – never assume.</p>
+<p>The data work</p>
+<p>Alas, finally after about a month of waiting and re-requesting, I had my data. I was so excited. I signed out a new IBM Winbook and examined the 897,870 records or calls that Columbus police took that year. (By the way, I was defining response time as the time it took between the time the call was dispatched to when the first police cruiser arrived on the scene.)</p>
+<p>I queried the data every which way. Average response times for gun runs, domestic calls, dead bodies, burglaries, stabbings – you name it.</p>
+<p>I looked at medians. Then I looked at response times by shift and precinct using Excel&#39;s pivot table. (What a marvelous invention.)</p>
+<p>I knew going into the project that nearly 50 percent of police in Columbus weren&#39;t logging their arrival times. It was disappointing, but we planned to use the data anyway and note the problem.</p>
+<p>As I saw it, the information I had to use was the only information the division had to make important decisions such as staff allocations, requests for more manpower and citizen complaints. The response times might not be dead on, but I thought they would still show disparities in response times between the larger and smaller precincts. (Of course, with the help of data processing I did some more sophisticated queries first to see if the lack of reporting was similar across the city&#39;s 19 precincts and it remained fairly constant for all types of calls.)</p>
+<p>What I didn&#39;t anticipate was a programming quirk that plugs in the same time for when the call was received, dispatched and when the officer arrived.</p>
+<p>The self-initiated run, as Columbus police call it, is supposed to be used when an officer witnesses a crime or calls the run into a dispatcher shortly after it happens.</p>
+<p>Those runs, though, comprised 28.9 percent of calls and couldn&#39;t be used. Factoring those out, we had about 21 percent of the total calls to use.</p>
+<p>Three independent statisticians assured us the data would still be fine to use if we stipulated that the averages were averages of the data available – and not averages of the division as a whole.</p>
+<p>A new direction</p>
+<p>As controversial as it might have been, the thought of using it didn&#39;t last long. Doing queries on the data without the self-initiated runs showed how skewed the data can get when you start slicing it too much.</p>
+<p>Response times for officer in trouble – a call officers use when their life or well-being is in danger – jumped to 8 minutes. (Without self-initiated runs, the average was about 3 minutes.) I knew the 8 minute-average was not only absurd, it was false.</p>
+<p>Though a young reporter, I&#39;ve covered police on and off for six years and knew that was the call that police likely responded to the quickest.</p>
+<p>Going back to police communications I got the answer I dreaded. The 911 system plugs in arrival times for the first car on scene who logs his arrival time.</p>
+<p>So for example, if an officer shows up an hour later to handle traffic and is the first on scene to hit a button on his cruiser console signifying his arrival, that&#39;s the time the 911 system records. I knew then, the project as planned was dead.</p>
+<p>Of course, there was still a very important story: that the division has no idea how long they take to get to crime scenes. They can&#39;t.</p>
+<p>Of course, in retrospect I felt dumb for assuming the arrival time listed in the database was for the same officer listed on the department&#39;s run. Next time, I&#39;ll be very thorough in finding out how information gets plugged into each column.</p>
+<p>In the end, the story prompted outrage by the City Safety Director and others, but no change.</p>
+<p>The director ordered the officers be forced to record their arrival times, but the police contract has a provision that the city can&#39;t alter any past practices, unless changed in the contract.</p>
+<p>And the Fraternal Order of Police didn&#39;t see the lack of response times as a problem, so the director&#39;s order was moot.</p>
+<p>The division is caught up in a battle too with the U.S. Department of Justice over claims that they abuse citizen&#39;s rights, so even with follow-ups, the issue is still likely going to be lost in the shuffle. It was a lot of work to uncover a record-keeping problem, but I sure learned a lot along the way.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2004-march-sprawl-outpaces-private-ambulances.html">Sprawl outpaces private ambulances</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-response-times-fall-short.html">Response times fall short</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-december-whats-the-911.html">What&#39;s the 911?</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-may-june-911-data-shows-systems-shortcomings.html">911 data shows system&#39;s shortcomings</a>
+  <span class="similar-meta">May-June 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-julyaugust-ambulance-response-times-cardiac-crapshoot.html">AMBULANCE RESPONSE TIMES: Cardiac crapshoot</a>
+  <span class="similar-meta">July/August 1999</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1999-november-school-violence-resources.html" class="article-nav__prev">← School violence resources</a>
+  <a href="/uplink/article/1999-november-tipsheets-available-from-the-ire-resource-center.html" class="article-nav__next">Tipsheets available from the IRE Resource Center →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

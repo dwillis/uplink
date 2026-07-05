@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office package needs more work — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Office package needs more work</h1>
+    <div class="article-byline">
+      <span class="author">Aron Pilhofer</span>
+      
+      <span class="date">February 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Sun&#39;s StarOffice and the free OpenOffice.org are impressive Microsoft Office alternatives with strong word processing capabilities, but they have limitations in spreadsheet functionality and database features that make them unsuitable for serious computer-assisted reporting work.</p></div>
+
+  <div class="article-body">
+    <p>Office package needs more work</p>
+<p>Last spring, Sun Microsystems released a new version of its StarOffice suite for PC, promising it would deliver the same functions as Microsoft Office at about one-tenth the price.</p>
+<p>About the same time, an open-source version of the StarOffice suite OpenOffice.org - emerged from beta testing, with nearly the same features, but at no cost.</p>
+<p>After putting both to the test, I can say that they are very impressive and deliver many of the same features as MS Office. But there are enough small shortcomings - and one critical limit to the spreadsheet - that I&#39;m not quite ready to recommend giving up on MS Office just yet.</p>
+<p>For serious computer-assisted reporting (minimal word processing, heavy spreadsheet and database work), stick with MS Office for now.</p>
+<p>A bit of history</p>
+<p>A few years ago, Sun Microsystems bought StarOffice, then a commercial product, and later decided to release it under open-source rules. Under these rules, anyone may download, view or alter the programming source code behind the application, while the copyright owner maintains its rights.</p>
+<p>The StarOffice code was placed in the hands of an organization of largely volunteer programmers and was renamed OpenOffice.org. Meanwhile, Sun continued to develop StarOffice internally and released it in May.</p>
+<p>The OpenOffice project and the Sun developers worked very closely, so it&#39;s no surprise that StarOffice and OpenOffice are almost identical. Unlike OpenOffice, StarOffice includes printed documentation and technical support.</p>
+<p>Installation</p>
+<p>I have installed OpenOffice and StarOffice on Windows ME, Windows XP Home and Professional editions, and Mandrake, Gentoo and Red Hat Linux. All went smooth as silk.</p>
+<p>But there&#39;s one huge warning for Windows/MS Office users: During installation you must change a default setting that makes Open/StarOffice the default program for MS Office files. Otherwise, Windows will specify Open/StarOffice as the startup program for these files.</p>
+<p>Windows users may also have to download and install the free Java Runtime Environment from Sun Microsystems (www.sun.com).</p>
+<p>What&#39;s inside?</p>
+<p>Both products include a word processor, spreadsheet, presentation program, a database front-end and a drawing program. Of these, I have used the first three extensively, the database front-end somewhat and the drawing program not at all. StarOffice includes a database manager, a stripped-down version of Adabas. But it is limited to databases of 300 MB and allows no more than three concurrent users. These make the program largely useless for CAR. Otherwise the two office suites are nearly identical.</p>
+<p>Word processor</p>
+<p>The people at Sun probably realized that a good word processing application is a must for an office suite. So they obviously spent most of the development on this part of the Star/Open office suite, and it shows.</p>
+<p>This is the one application that rivals its MS Office equivalent. I edited large and small files in OpenOffice, including a 100-page book filled with odd formatting, embedding comments and change tracking codes - and OpenOffice handled that flawlessly.</p>
+<p>Everything imported from MS Word perfectly, with some tiny exceptions. Images were slightly larger that before, and sometimes just a hair off their correct position. MS Word users will find it easy to switch to the OpenOffice word processor because almost every feature in Word can be found in OpenOffice. There are some nice extras in the OpenOffice package that makes working in that environment easier.</p>
+<p>Spreadsheet</p>
+<p>This application, called Calc, is slightly less polished, and has one huge shortcoming: It only accepts 32,000 rows of data, compared to 65,500 or so in Excel. This is bad for journalists doing CAR, but not necessarily fatal. If you import a spreadsheet that is too long, it will simply lop off all rows past number 32,000 and tell you so.</p>
+<p>Beyond that, there is a lot good about Calc. Excel users will feel right at home. You&#39;ll find similar features used in CAR: string functions, pivot tables (called &quot;datapilots&quot;) and charts.</p>
+<p>It also has some nice extras. For example, you can do a three-level filter in Calc, compared to two levels in Excel. You also can insert graphics, form elements and other automation tools right into the sheet.</p>
+<p>Connecting the spreadsheet to an existing data source (such as an external Excel spreadsheet or .dbf table) is also very easy. Like the word processor, Calc imports data seamlessly from any version of MS Office, right through version XP.</p>
+<p>One annoyance: Unlike Excel, Calc does not allow you to select non-adjoining cells using the control key.</p>
+<p>Database manager</p>
+<p>Good news and bad news here. The good news: Connecting OpenOffice to an external data source is an easy, wizard-driven process. Once you connect you can manipulate the data through a number of means. You can use the database to create a merge file with your word processor. You can manipulate the numbers in Calc. Or you can send SQL commands directly to the data source.</p>
+<p>OpenOffice also offers a nice front-end that looks and works very much like the Access query by example grid, though this feature is buried. You can link tables and send queries, just like you do in Access.</p>
+<p>Now the bad news: You can&#39;t connect to an Access database directly. You can connect via ODBC, but that is slower and somewhat limits what you can do.</p>
+<p>In addition, it seems you are restricted to select queries via the OpenOffice grid, which limits how much crunching you can do without writing SQL. And if you&#39;re going to write SQL, you might as well use a database application with some power, such as MySQL or Postgres.</p>
+<p>Recommendation:</p>
+<p>This is the one part of the OpenOffice suite that has changed very little since Sun&#39;s purchase of StarOffice. Unfortunately, it is the one program in the suite that journalists doing CAR would care about most.</p>
+<p>Those who aren&#39;t able to afford any office suite software would do well to download OpenOffice at www.openoffice.org. It does just about everything as well as MS Office - with a few exceptions.</p>
+<p>For users stuck with an older version of MS Office (Office 95 or earlier), the OpenOffice programs would provide significant improvements, except for the database manager.</p>
+<p>Even older versions of Access are superior to the database manager in StarOffice. But, for CAR power users, there are plenty of other excellent open source database applications that run on Windows, Mac or Linux. MySQL rivals Oracle in terms of power and speed. The typical journalist doing CAR will find that the simplicity of Access cannot be beat, and users of Office 97, 2000 and XP should probably stick with what they have, at least for now.</p>
+<p>Contact Aron Pilhofer by e-mail at apilhofer@publicintegrity.org.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-october-office-of-economic-conversion-and-information.html">Office of Economic Conversion and Information</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-september-setting-the-data-free.html">Setting the data free</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-october-us-patent-and-trademark-office-announcement.html">U.S. Patent and Trademark Office announcement</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-analytical-software-elbows-in.html">Analytical software elbows in</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-september-handouts-of-the-month-software-hardline.html">Handouts of the Month / Software hardline</a>
+  <span class="similar-meta">September 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-february-using-sas-code-in-other-programs.html" class="article-nav__prev">← Using SAS code in other programs</a>
+  <a href="/uplink/article/2003-february-data-library-tackles-specialty-data-jobs.html" class="article-nav__next">Data Library tackles specialty data jobs →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

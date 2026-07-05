@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech tip Making XML useful — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tech tip Making XML useful</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Porter</span>
+      
+      <span class="date">September/October 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article explains XML (Extensible Markup Language) and its practical challenges for database users, particularly in government agencies, demonstrating how XML&#39;s flexible structure differs from traditional flat files and can be imported into tools like Excel and Access.</p></div>
+
+  <div class="article-body">
+    <p>If you have not had to import XML data into a database manager, you&#39;re lucky so far - more and more government agencies use XML to store and transmit information. If the data is relatively small, that&#39;s good. But XML files can easily become bloated monsters, frustrating a user of off-the-shelf database software.</p>
+<p>What is XML? Several definitions are floating around the Web.</p>
+<p>Extensible Markup Language is a simple, very flexible text format Originally designed to meet the challenges of large-scale electronic publishing, XML is also playing an increasingly important role in the exchange of a wide variety of data on the Web and elsewhere. (www.advancinginsights.com/mybiz/)</p>
+<p>A widely used system for defining data formats. XML provides a very rich system to define complex documents and data structures such as invoices, molecular data, news feeds, glossaries, inventory descriptions, real estate properties, etc. As long as a programmer has the XML definition for a collection of data (often called a &quot;schema&quot;) then they can create a program to reliably process any data formatted according to those rules. (www.unitedyellowpages.com/internet/terminology.html)</p>
+<p>Capable of describing many different kinds of data. Its primary purpose is to facilitate the sharing of structured text and information across the Internet. Languages based on XML (for example, RDF, RSS, MathML, XSIL and SVG) are themselves described in a formal way, allowing programs to modify and validate documents in these languages (http://n.wikipedia.org/wiki/XML)</p>
+<p>If those definitions leave your head spinning (as they did mine), we will focus on the practicality of dissecting XML files - making them useful for data analysis in your software of choice. An XML data file does not have the usual feel of a flat file, such as ASCII and the like. There are no headers, no fixed fields, no columns. Instead, each element is defined line by line, as in this example from the Microsoft support Web site (http://support.microsoft.com).</p>
+<p>&lt;ROOT&gt; &lt;Customers&gt; &lt;CustomerId&gt;1111&lt;CustomerId&gt; &lt;CompanyName&gt;Sean Chai&lt;/CompanyName&gt; &lt;City&gt;NY&lt;/City&gt; &lt;/Customers&gt; &lt;Customers&gt; &lt;CustomerId&gt;1112&lt;/CustomerId&gt; &lt;CompanyName&gt;Tom Johnston&lt;/CompanyName&gt; &lt;City&gt;LA&lt;/City&gt; &lt;/Customers&gt; &lt;Customers&gt; &lt;CustomerId&gt;1113&lt;/CustomerId&gt; &lt;CompanyName&gt;Institute of Art&lt;/CompanyName&gt; &lt;/Customers&gt; &lt;/ROOT&gt;</p>
+<p>A bit of translation is in order here.</p>
+<p>The tag &lt;Customers&gt; (and its counterpart, &lt;/Customers&gt;) identifies each record that pertains to a given customer. It&#39;s repeated for each new record. You can trace the same syntax for CustomerId, CompanyName and City fields. The ROOT tags surround it all. The design can be simple, but in some ways, it&#39;s reminiscent of hierarchical data - bringing back the term &quot;variable length&quot; - in that each field does not necessarily have to show up in each record.</p>
+<p>Microsoft Excel or Access can import and use many of the XML online files. For practice, download U.S. House roll call voting data that you can get from http://clerk.house.gov/evs/2005/index.asp. For this example, we chose to save this page: http://clerk.house.gov/evs/2005/roll464.xml.</p>
+<p>Excel 2003&#39;s File &gt; Open menu item has an option to choose XML as file type. After you choose this, it will say &quot;The file you are opening contains stylesheet(s). What would you like to do:&quot; Your options are to use an existing stylesheet, ending with the suffix &quot;xsl&quot; - in essence, a technical record layout - or opening the file without applying a stylesheet - in other words, relying on the general structure of tags in the file.</p>
+<p>Where does the stylesheet come from? In this instance, it&#39;s on the House Web site. Online, the XML file looks nice and pretty. But viewing it with a text editor or using your browser&#39;s View Source function, you can easily find a reference for the stylesheet:</p>
+<p>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;!DOCTYPE rollcall-vote PUBLIC &quot;-//US Congress//DTDs/vote v1.0 20031119 EN&quot; &quot;http://clerk.house.gov/evs/vote.dtd&quot;&gt;</p>
+<p>&lt;?xml-stylesheet type=&quot;text/xsl&quot; href=&quot;http://clerk.house.gov/evs/vote.xsl&quot;?&gt;</p>
+<p>If you go to http://clerk.house.gov/evs/vote.xsl, you can view the entire document - a mixture of record layout, code sheet, and tips about the internal data the House uses to create the XML pages.</p>
+<p>That brings us back to the question about whether to use the stylesheet or the file&#39;s tags. Which is better? It varies from case to case, so it is a good idea to try both during your first attempt at importing the data.</p>
+<p>In this particular instance, using the stylesheet generates an Excel file that looks suspiciously like the Web page. Go with the other option, pick as an XML list or a read-only workbook and you get what I believe is a better-looking spreadsheet. You actually gain a bit more information, too: party affiliation. Using the stylesheet, parties are identified only by font: Roman type is Republican, italic, Democrat. Independents are underlined. Without stylesheet, the parties are identified with a column containing D for Democrat, R for Republican and I for Independent. And as an added bonus, you get the unique House ID number for each legislator - helpful in joining tables later.</p>
+<p>The loser in this test was Access 2003. You can import the XML using the Import Wizard. Just open or create a database, go to File &gt; Get External Data &gt; Import and choose XML as file type.</p>
+<p>But in this case, the results are disappointing. Like many dataset examples, the XML is structured into several separate &quot;tables,&quot; so our results include five tables. The most vital one lists names of legislators and individual votes. Party affiliation and the House IDs are missing.</p>
+<p>Other applications are available for working with XML:</p>
+<p>XMLSpy from Altova. This program was suggested by several people in and out of journalism. You can download a 30-day evaluation copy from the company Web site at www.altova.com.</p>
+<p>Navicat from PremiumSoft. Navicat is a popular graphical interface for MySQL relational database manager that provides a high level of control during importing. A 30-day evaluation copy is available at www.navicat.com.</p>
+<p>SAS. This powerhouse stats and data management program (www.sas.com) includes the SAS XML Mapper tool that, in a point-and-click interface, lets the user create a text file of instructions for field names, format and location. You can also edit the file for more control.</p>
+<p>Perl. Users of this programming language can download modules to translate XML files.</p>
+<p>XML was never designed (in my humble opinion) as a format to store mammoth amounts of data, but increasingly it is being used for large and complex sets of information. Chances are that journalists doing computer-assisted reporting will probably run into a database in this format. Whether it&#39;s a huge file, or a small one, there are plenty of tools for CAR practitioners to try.</p>
+<p>Contact Jeff Porter by e-mail at jeff@ire.org.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-march-tech-tip.html">Tech Tip</a>
+  <span class="similar-meta">March 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-september-fun-fed-sites.html">Fun fed sites</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-december-tech-tip.html">TECH TIP</a>
+  <span class="similar-meta">December 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-may-getting-your-program-to-talk-back.html">Getting your program to talk back</a>
+  <span class="similar-meta">May 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-april-parsing-is-the-answer.html">Parsing is the answer</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-septemberoctober-resources-for-covering-business.html" class="article-nav__prev">← Resources for covering business</a>
+  <a href="/uplink/article/2005-septemberoctober-home-mortgage-resources.html" class="article-nav__next">Home mortgage resources →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

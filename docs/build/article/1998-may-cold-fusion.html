@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cold Fusion — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Cold Fusion</h1>
+    <div class="article-byline">
+      <span class="author">Ray Robinson and Tom Boyer</span>
+      
+      <span class="date">May 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>Cold Fusion is middleware software that allows journalists to query databases through web browsers instead of specialized database software, making data more accessible to newsroom staff on deadline.</p></div>
+
+  <div class="article-body">
+    <p>Not long ago, we all dreamed of the day when everyone in our newsrooms would be able to fire up Access or FoxPro, craft a simple query and retrieve a vital nugget of information on deadline.</p>
+<p>Cold Fusion is one of a growing class of software products known as &quot;middleware.&quot; On a computer that&#39;s been set up as a Web server, it takes queries submitted from a user&#39;s Web browser, submits them to a database, places the results in HTML and sends them back to the browser.</p>
+<p>Well, it&#39;s not going to happen, is it? It&#39;s not that journalists can&#39;t learn these skills. But unless they&#39;re using them every day, the skills won&#39;t be there when they need them. If we&#39;re really going to make the data easily accessible to them, we need another solution.</p>
+<p>Cold Fusion is one of a growing class of software products known as &quot;middleware.&quot; On a computer that&#39;s been set up as a Web server, it takes queries submitted from a user&#39;s Web browser, submits them to a database, places the results in HTML and sends them back to the browser.</p>
+<p>The technical advantages of such a setup are too numerous to list here, but a few are worth mentioning:</p>
+<p>Reporters on deadline use Netscape or Internet Explorer instead Access or FoxPro to retrieve data.</p>
+<p>All the heavy lifting is done on the Web server, not the user&#39;s computer. So the person using a 486 with 8 megs of RAM can query a 500,000 record database. All they need is a browser. Even Mac users can query the database as long as they have a browser.</p>
+<p>If you&#39;re comfortable with databases and have a passing knowledge of HTML, you can use Cold Fusion.</p>
+<p>The software operates from &quot;templates,&quot; which are HTML-like pages with bits and pieces of CFML (Cold Fusion Markup Language) embedded in them. To put it simply, the HTML controls the formatting and style of the page the user sees. The CFML dictates what is retrieved from the database and how it&#39;s displayed.</p>
+<p>Script studies</p>
+<p>As an example, let&#39;s say you have a database of names and addresses you want to put on the Web. And rather than putting each record into HTML and displaying it, you want to let users query the database for individual names.</p>
+<p>The following code would create a text box where the user could enter a person&#39;s last name:</p>
+<p>&lt;FORM 1ACTION=&quot;RESULTS.CFM&quot; METHOD=&quot;POST&quot;&gt; &lt;b&gt;Enter last name here:&lt;/b&gt; &lt;INPUT TYPE=&quot;text&quot; NAME-&quot;Last name&quot; SIZE=&quot;50&quot; MAXLENGTH=&quot; &lt;INPUT TYPE=&quot; submit&quot; value=&quot;submit&quot;&gt;&lt;/CENTER&gt;&lt;/FORM</p>
+<p>That&#39;s where Cold Fusion comes in.</p>
+<p>When the user submits a last name, the Web server kicks off the Cold Fusion script (&quot;RESULTS.CFM&quot;), which processes the query and returns the information.</p>
+<p>Cold Fusion takes the information off the form and runs the query, with the following code from &quot;RESULTS.CFM&quot; &lt;CFQUERY NAME= GetResults&quot; DATASOURCE=&quot; MYDATABASE&quot;&gt; SELECT * FROM NAMELIST WHERE NAME = Last Name order by Name &lt;/CFQUERY&gt;</p>
+<p>Enhanced access</p>
+<p>The query is actually processed by a snippet of computer code called the ODBC (Open Database Connectivity) driver. The results are passed back to Cold Fusion, which sticks them into HTML pages that the server sends back over the network to the user.</p>
+<p>That part of the script looks like this: &lt;CFTABLE =&quot;GetResults&quot;&gt; &lt;CFCOL HEADER=&quot;Name&quot; WIDTH=&quot; 20&quot; TEXT= #Name#&quot;&gt; &lt;CFCOL HEADER=&quot; Address&quot; WIDTH=&quot; TEXT=&quot; #Address#&quot; &quot;&gt;&lt;/CFTABLE&gt;</p>
+<p>&quot;GetResults&quot; is the name of the query that has just run. The Name and Address inside the pound signs are references to fields in the database table. Users, viewing the results with a browser, would see something like this:</p>
+<p>Name Address BOYER 3022 NW 66th ROBINSON P.O. Box 449</p>
+<p>Like many other Web middleware products, Cold Fusion talks to databases through ODBC, a database query standard. That&#39;s good. ODBC drivers can access a variety of data formats on a local machine, including Access, dBase/FoxPro, Excel and Paradox. ODBC drivers can also access higher end client-server databases such as Microsoft SQL Server, Oracle or IBM&#39;s DB2.</p>
+<p>The bad news is that the speed and quality of the drivers varies greatly. Older Access &quot;Jet&quot; drivers can be slow and prone to crash, for example. The Visual FoxPro driver you can download from Microsoft is much faster than the FoxPro driver that generally comes with ODBC packages.</p>
+<p>Enabling middleware</p>
+<p>So what do you need in the way of hardware to put Cold Fusion to work?</p>
+<p>You need a Web server. But that doesn&#39;t necessarily mean a monster machine with 128 megs of RAM and an 8-gigabyte drive.</p>
+<p>In fact, a Web server is nothing more than a PC with Web server software - such as Website or Microsoft Internet Information Server - installed on it.</p>
+<p>If you want to start out small, you can probably get away with setting up one of the better PCs on your network as a Web server.</p>
+<p>At The Virginian-Pilot, we test Web database applications on a Pentium 200 with 32 megs of RAM. The setup has so far worked fine, even with more than one user accessing the data at the same time.</p>
+<p>After testing, we move the applications to a bigger server maintained by our online edition for two reasons: (1) It gets them outside the corporate fire wall where our bureaus, which still access the Web through dial-up connections, can get to the data; and (2) It allows us to offer the general public access to some of the data.</p>
+<p>But for those considerations, we could probably get by just fine running them on a makeshift Web server in our newsroom.</p>
+<p>Keep in mind, though, that more RAM is always better. And with 32 megs of RAM now selling for about $50, don&#39;t short your machine on memory unless you have to. Extra RAM also saves wear and tear on more expensive hard drives.</p>
+<p>And give your server the best hard drive you can afford. It will dramatically increase performance. Look into an Ultra Wide SCSI hard drive running at a high RPM (7,200 to 10,000). Probably the best available for Web servers right now is the Seagate Cheetah series.</p>
+<p>When you begin to develop Web database applications, you&#39;ll find yourself confronted with a lot of products with exotic - and baffling - names like Active Server Pages, Visual Interdev, Cold Fusion and countless others.</p>
+<p>Some Web site building software, such as Microsoft Front Page 98, comes with tools for building dynamic applications via ODBC connections to databases. The growing list of products makes for a pretty confusing picture. We can&#39;t say that Cold Fusion is the best solution, but we can say that it has worked well for us at The Virginian-Pilot and The Seattle Times. You can waste a lot of time searching for the perfect product. Or you can pick one that you&#39;re comfortable with, learn it, stick with it - and get your data on the Web. That&#39;s what we did with Cold Fusion.</p>
+<p>Ray Robinson can be reached by e-mail at rsquared@pilotonline.com Tom Boyer can be reached by e-mail at tboy-new@seatimes.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-april-newsroom-boost.html">Newsroom boost</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-june-digging-up-submarines.html">Digging up submarines</a>
+  <span class="similar-meta">June 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-january-software-success.html">Software Success</a>
+  <span class="similar-meta">January 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-september-heres-a-look-at-our-hardware-and-software.html">Here&#39;s a look at our hardware &amp; software</a>
+  <span class="similar-meta">September 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-november-changes-for-the-database-library.html">Changes for the Database Library</a>
+  <span class="similar-meta">November 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-may-steps-to-data-freedom.html" class="article-nav__prev">← Steps to data freedom</a>
+  <a href="/uplink/article/1998-may-bits-bytes-and-barks.html" class="article-nav__next">Bits, Bytes and Barks →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

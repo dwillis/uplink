@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rigging the Results — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Rigging the Results</h1>
+    <div class="article-byline">
+      <span class="author">Bob Sullivan</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">June 1997</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>MSNBC investigated potential bid-rigging in FCC spectrum auctions by analyzing massive datasets to uncover whether telecommunications companies used coded bid amounts to signal competitors and suppress competition. The investigation combined long-term computer-assisted reporting with spot news coverage after a public complaint between two companies sparked a Department of Justice inquiry.</p></div>
+
+  <div class="article-body">
+    <p>MSNBC&#39;s investigation into bid-rigging in FCC spectrum auctions was an interesting mix of a long-term CAR project and spot CAR reporting.</p>
+<p>My editor, Mark Pawlosky, had charged me with finding databases regarding the FCC&#39;s auctioning of spectrum bands to telecommunications companies.</p>
+<p>There is so much money changing hands in these auctions - $23 billion has been raised since the auctions started three years ago that the process was worth taking a look at.</p>
+<p>With our telecommunications reporter, David Bowermaster, I had been in touch with Andy Lehren at NICAR regarding what data could be found or FOIA&#39;ed.</p>
+<p>We had asked for some pretty thorough data, not knowing what we were looking for, and NICAR was assembling it in Missouri.</p>
+<p>A public fight</p>
+<p>Then on May 1, Reuters reported that two small companies involved in the January auction for Personal Communications Services licenses (PCS devices) were in a public squabble. High Plains Wireless filed a complaint with the FCC accusing Mercury PCS of &quot;bid-signaling&quot; in January&#39;s DEF block auctions. The complaint spurred an investigation by the Justice Department, and reports said the last three digits of bid amounts were somehow involved. That was the burst of sunlight which we needed. Now we had something to look for. Companies issued bids that ended in unexpected numbers, like $1,100,136, as a signal to competitors. The signal might tell others to stop bidding on that market, or it might contain a message about bidding in another of the 1,479 licenses available in that auction. In any case, the hypothesis was that companies used this signaling to limit competition for licenses and by mutual unspoken agreements, keep prices down.</p>
+<p>Now, NICAR was able to point me to the enormous and unruly data the FCC had posted on its Web site regarding the PCS license auctions. In the DEF blocks, there were 276 rounds of bidding. Sure, all the data was on the Web site- in over 1,000 different .dbf files. There were six files for round one with all the round&#39;s bids, one with the high bid before the round, one with the high bid after the round, one with that round&#39;s withdrawn bids, etc.</p>
+<p>A sample test</p>
+<p>At first, we agreed it might be futile to download all of it. But we figured there might be a way to test a sample of the data to see if it might bear fruit.</p>
+<p>First, we looked at the winning bids for the 1,479 licenses, to see if anything about the last three digits of the winning bids stuck out. Not really.</p>
+<p>So then we cherry-picked every 20th round, and ran some tests on a mini-version of the data. We had some notion that bidders were allowed to lower their bids as the process progressed if they weren&#39;t challenged in a market.</p>
+<p>That seemed odd, so we went hunting for markets where the winning bid was less than a bid made during the rounds. We found a few, but that was also basically a dead end.</p>
+<p>It did point to a few markets, though, and when examined, the bidding in those markets exhibited what seemed to be odd bidding behavior - and about half of them involved a company named Western Wireless.</p>
+<p>There seemed to be multiple instances of the same dollar amount being bid by the same company for the same license. That didn&#39;t make any sense why would they have to make redundant bids?</p>
+<p>Expanding the search</p>
+<p>We now figured it was worth our while to get a picture of what happened in all 276 rounds of bidding.</p>
+<p>It took most of a weekend, but we grabbed all the bids made in all 276 rounds. We then imported the tables into Microsoft Access.</p>
+<p>Had I more experience, I would have written some kind of script to bundle them all into one table.</p>
+<p>But not knowing any other way, I used one append query at a time to compile into one table all the bids made in all the rounds on the DEF block.</p>
+<p>Fortunately, each round had a field with the round number, so we could assemble them into one table without losing data or being forced to add markers.</p>
+<p>The results were now quite good - I built a quick front end which allowed me to query one market at a time and showed the bidders and bids as they marched from first round to winning bid.</p>
+<p>The results and more work</p>
+<p>What emerged? The most noticeable was Western, which seemed to have a habit of making the same bid over and over - in fact, it won 10 licenses in the 136th round with that kind of redundant bid.</p>
+<p>There were plenty of other signals, too like Comcast&#39;s bid for a Philadelphia license that ended in 346, when that was also the city code for Philadelphia - or Western&#39;s three round 83 winning bids, which ended in 083.</p>
+<p>But we only had half the picture, and Bowermaster&#39;s reporting here pointed us to the other half.</p>
+<p>Consultants told him that a frequent method for signaling was to make a bid, withdraw it quickly (sometimes in the same round), then make the same bid again.</p>
+<p>So, it was back to the Web site for the 276 .dbf files of withdrawals.</p>
+<p>I then had to merge the withdrawals and the bids into one table - because my goal was to follow all relevant activity in a market as bids progressed.</p>
+<p>To do this I had to add a field, because the data didn&#39;t indicate whether a bid was a withdrawn.</p>
+<p>I just added a withdrawal field to my combined table, then pasted in the withdrawal tables, with &quot;default for new records&quot; set at &quot;yes.&quot;</p>
+<p>The 552 tables assembled into one, I now had a complete picture of the competitive bidding for a market.</p>
+<p>Sure enough, those 10 licenses Western had won in Round 136? In round 135, they had withdrawn a bid for the same amount in every case.</p>
+<p>When we called Western to comment on our findings, they refused, but did say they had been contacted by the Justice Department.</p>
+<p>But there was no reason to pick on Western dozens of other companies had done similar things.</p>
+<p>Omnipoint Corp., bidding as OPCSE-Galloway Consortium, made and then withdrew bids on 171 occasions - 65 times Omnipoint entered bids and then withdrew them in the same round.</p>
+<p>On our Web site, we were able to post round-by-round bids for about 20 communities which showed this kind of bid-signaling.</p>
+<p>Bowermaster&#39;s reporting, combined with work from Brock Meeks, revealed that this behavior actually had its roots in &quot;game theory,&quot; which was applied in the design of the auctions.</p>
+<p>Game theory is elaborate, but suggests temporary alliances (as you might do in the board game &quot;Risk&quot;) and poker tactics to succeed in battle.</p>
+<p>Surprise - some of the consultants who designed the auctions actually consulted with companies doing the bidding.</p>
+<p>Several say the bid-signaling was fairly well-known and accepted as part of the process but not by all.</p>
+<p>The Justice Department is currently trying to determine if bid-signaling was in fact bid rigging if it was fair game or collusion.</p>
+<p>Mercury PCS has replied to the FCC saying they did use these tactics but argued that they were not illegal, and used our story extensively in their request for dismissal of High Plains&#39; complaint.</p>
+<p>The debate on legality continues-as does the debate on whether &quot;everybody was doing it.&quot;</p>
+<p>After all, even if it wasn&#39;t illegal, and most companies knew about it, those who didn&#39;t were disadvantaged.</p>
+<p>And the FCC did issue a warning after round 135 complaining that withdrawals were being misused. The Justice Department investigation is ongoing.</p>
+<p>The good news is, this is a CAR story that broke off a beat, and because we were already doing some homework in the area, we pulled together a pretty exhaustive story five days after the initial story broke.</p>
+<p>Bob Sullivan can be reached at (202) 936-7751, or send e-mail to Bob.Sullivan@MSNBC.COM</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-june-uplink-update.html">Uplink Update</a>
+  <span class="similar-meta">June 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-septemberoctober-database-reporting-shows-no-bid-deals.html">Database reporting shows no-bid deals</a>
+  <span class="similar-meta">September/October 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-septemberoctober-dissecting-biggest-public-companies.html">Dissecting biggest public companies</a>
+  <span class="similar-meta">September/October 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-july-the-greensboro-news-and-record-has-north-carolina-dairies-crying-over-spilt-milk.html">The Greensboro News &amp; Record has North Carolina dairies crying over spilt milk.</a>
+  <span class="similar-meta">July 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-may-june-finding-overlap-in-public-private-interests.html">Finding overlap in public-private interests</a>
+  <span class="similar-meta">May-June 2005</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1997-june-more-databases-volunteers.html" class="article-nav__prev">← More databases; Volunteers</a>
+  <a href="/uplink/article/1997-june-whats-your-function.html" class="article-nav__next">What&#39;s Your Function? →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

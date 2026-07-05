@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECH TIP: Importing PDF tables — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>TECH TIP: Importing PDF tables</h1>
+    <div class="article-byline">
+      <span class="author">Tom McGinty</span>
+      <span class="author-title">NICAR Training Director</span>
+      <span class="date">July/August 1999</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Reporters struggling to extract data from FBI crime statistics published in Adobe Acrobat format can use Aerial software to convert Acrobat documents into editable text for spreadsheets and databases.</p></div>
+
+  <div class="article-body">
+    <p>There they are, staring you right in the face: the preliminary figures for the 1998 FBI Uniform Crime Report. It&#39;s all there on your screen city-by-city tallies of murders, aggravated assaults, robberies, you name it - and all of the figures appeared with the click of a hyperlink on the FBI Web site. You&#39;re salivating. Images of spreadsheets are dancing in your head. Your editor is going to love this!</p>
+<p>But wait a minute. Something looks funny. What&#39;s up with the strange menu bar that suddenly appeared at the top of your Web browser? Why does the whole Web page look so odd, as if it&#39;s a picture of a document? Oh no! Could it be? Aaarghhh! It&#39;s true: The FBI has published the statistics using Adobe Acrobat, a format that Web publishers love but computer-assisted reporters loath.</p>
+<p>The bad news is, it&#39;s a pain to get data tables out of Acrobat documents and into a crunchable format. The good news is, it&#39;s not impossible. And that&#39;s true because of Aerial, a piece of software developed by Ambia Corporation that turns Acrobat documents into text. This tech tip will go over the nuts and bolts of using Aerial. But first, here&#39;s a little background.</p>
+<p>The way it was</p>
+<p>In the good old days of the Web - say, four or five years ago - most tabular data on the Internet were published in plain text that could be quickly imported into spreadsheet programs or database managers and manipulated at will.</p>
+<p>Then along came those pesky HTML tables, which had pretty raised borders that gave them a 3-D look but were kludged up with HTML coding that made them nearly impossible to import. Microsoft&#39;s programmers solved that problem with Excel &#39;97, which easily imports HTML tables.</p>
+<p>But Acrobat also was on the scene and only growing in popularity with government agencies that put data-rich reports on the Web. It&#39;s an understandable, if annoying, phenomenon. With Acrobat software, bureaucrats can transform huge, typed reports and graphics into Acrobat Web documents with the click of a button. But unlike text or HTML tables, Acrobat tables cannot be imported into other programs. That&#39;s where Aerial comes in. And as the following directions will show, it&#39;s not too tough to install or use.</p>
+<p>The bad news is, it&#39;s a pain to get data tables out of Acrobat documents and into a crunchable format. The good news is, it&#39;s not impossible. And that&#39;s true because of Aerial</p>
+<p>First, you have to be sure that you have Adobe Acrobat Reader 3.x installed on your computer. If you have a different version (either an earlier version or 4.0) the current version of Aerial will not work. Check your version of Acrobat and then:</p>
+<p>New software</p>
+<p>Go to www.ambia.com, and click on the &quot;Products&quot; link, then click on the &quot;Adobe Acrobat Tools&quot; link. Next, click on the &quot;Aerial&quot; link. If you found that you didn&#39;t have Acrobat Reader 3.x, you can click on the yellow and red &quot;Get Acrobat Reader&quot; link on the bottom left of this page and download a free version of Reader 3.x. Install that software and then go back to the Ambia Web. Once you get to the Aerial page, you can either download the &quot;demonstration&quot; copy, which is free and good for just 30 days, or you can buy the software for $149 (unfortunately, Ambia recently increased the price from $49).</p>
+<p>It&#39;s probably a good idea to try the demonstration version to determine if you will really want to use the software. Once you get the file downloaded, go to the folder where you stored it and double click on the file you downloaded to begin the installation.</p>
+<p>Once the installation software starts up, one of the first steps is to set the path where it will be installed. Aerial fills in a default path that probably won&#39;t work, so you should hit the &quot;browse&quot; button and find the folder where Acrobat Reader 3.x is located.</p>
+<p>Open that folder, then open the &quot;Reader&quot; folder and then open the &quot;plug-ins&quot; folder. Your path probably will look something like this: c:\acrobat3\reader\plug_ins. Then just click on the Okay button and complete the installation.</p>
+<p>Grab the table</p>
+<p>Now that the program is installed, the fun part starts. Use the FBI Uniform Crime Report as your first test. Go to http://www.fbi.gov/ucr.htm and locate the link that reads &quot;1998 Preliminary Crime Statistics (.pdf).&quot; Instead of clicking on the link and opening the file in your Web browser, put your pointer over the link, click on your right mouse button and a drop-down menu will appear. Choose the option to &quot;Save link as&quot; (To get the same drop-down menu on a Macintosh computer, hold the control button down and then click on the link.) This will bring up a &quot;Save&quot; dialogue box. Choose the folder where you want to save the file and click on &quot;Save.&quot; Instead of opening the .pdf file in your browser, you have saved it to your hard drive.</p>
+<p>Now start up Acrobat Reader (you can find it by going through the &quot;Start&quot; button and &quot;Programs&quot;). Under the &quot;File&quot; menu, choose &quot;Open&quot; and then open the file you just saved. Now go to the page that has the table you want to move into a spreadsheet or database manager. You need to highlight the table first, so on the Acrobat Reader menu bar, click on the icon with the letters &quot;abc&quot; inside it. That will give you the text cursor. Starting at the top left corner of the table, hold your mouse button down and drag to the bottom of the page. The text of the table should become highlighted as you go. (Even if a table spans several pages, you can only highlight one page at a time, so you&#39;ll have to repeat these steps.)</p>
+<p>Converting tables</p>
+<p>Once you have the entire page highlighted, go to the &quot;Plug-Ins&quot; pull-down menu, choose the &quot;Aerial&quot; option and then choose &quot;Copy table to Clipboard.&quot; A new window titled &quot;Select Clipboard Format&quot; will pop up. As you probably already know, the best choice is the default choice: &quot;Tab Delimited ASCII.&quot; Make sure that selection is chosen and then click &quot;OK.&quot;</p>
+<p>Using Aerial, you have turned the mirage-like data of an Acrobat document into real numbers that will slake your thirst for crunching.</p>
+<p>You have just converted the once-unusable Acrobat table into a tab-delimited ASCII table that can be used any way you see fit. You can either paste it into a word processor, save it as text and later import it into Excel, or paste it directly into Excel. Give both methods a shot and see which one works best for you. Now go back to the UCR Acrobat document and get the second page of the table, etc.</p>
+<p>Be cautious</p>
+<p>Using Aerial, you have turned the mirage-like data of an Acrobat document into real numbers that will slake your thirst for crunching.</p>
+<p>A note of caution: Although Aerial has worked flawlessly for me every time I have used it, I have heard other reporters say that they encountered dropped characters in the translation. Of course, it&#39;s always a good idea to check the integrity of your data once it&#39;s imported.</p>
+<p>Tom McGinty can be reached by e-mail at tmcginty@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2006-july-august-wrestling-useful-data-from-pdfs.html">Wrestling useful data from PDFs</a>
+  <span class="similar-meta">July-August 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-july-august-pdf-to-text-using-xpdf.html">PDF to text using XPDF</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-march-plug-in-to-the-net.html">Plug in to the &#39;Net</a>
+  <span class="similar-meta">March 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-november-the-bush-files.html">The Bush files</a>
+  <span class="similar-meta">November 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-november-weve-just-made-it-easier-to-become-an-ire-member.html">We&#39;ve just made it easier to become an IRE member</a>
+  <span class="similar-meta">November 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1999-julyaugust-on-the-internet-backgrounding-by-web.html" class="article-nav__prev">← ON THE INTERNET: Backgrounding by Web</a>
+  <a href="/uplink/article/1999-julyaugust-stats-and-such-raging-to-regress.html" class="article-nav__next">STATS AND SUCH: Raging to regress →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

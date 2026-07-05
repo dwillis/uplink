@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checking for duplicates in Excel — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Checking for duplicates in Excel</h1>
+    <div class="article-byline">
+      
+      
+      <span class="date">November December 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A spreadsheet technique using IF formulas to identify duplicate jury duty summons by comparing last names, first names, and street addresses, allowing manual review to remove true duplicates while preserving legitimate multiple records.</p></div>
+
+  <div class="article-body">
+    <p>To find duplicates in the list of people called to jury duty, I sorted the list by last name, first name, and street name. Then I ran an &quot;=IF&quot; test on all three to see if the value in one cell was the same as in the cell below it.</p>
+<p>This statement shows you if the last name is duplicated in the cell below for the spreadsheet pictured here:</p>
+<p>(A2=B2, dup&quot;,</p>
+<p>If there is a duplication, Excel inserts the word &quot;dup&quot; the cell. I calculated a similar formula for first names and streets. Then by filtering I could find the triple &quot;dups&quot; and delete them, leaving only one record for the person. I checked double &quot;dups&quot; and if they appeared to be true duplicates, I deleted them.</p>
+<p>In this example Carolyn Messenger is a triple &quot;dup.&quot; She was initially summoned in March 2002 and then summoned again two months later. That means she postponed her first jury duty summons, because you can&#39;t serve twice in a year. I deleted that row.</p>
+<p>Lynda Smith has two addresses. I can&#39;t know if she&#39;s a duplicate from this list, or if there are two Lynda Smiths, so I let both records stay.</p>
+<p>Robert Sommer shows that it&#39;s important to use first names too. There are two Sommers from Galway Drive, but one&#39;s Robert and one&#39;s Roselyn. Both stayed.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-december-getting-rid-of-those-pesky-duplicate-records.html">Getting rid of those pesky duplicate records</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-march-how-to-keep-data-straight-by-adding-an-id.html">How to keep data straight by adding an ID</a>
+  <span class="similar-meta">March 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-september-october-tech-tip-foxpro-program-cleans-standardizes-names.html">Tech tip.. FoxPro program cleans, standardizes names</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-february-tricks-with-the-delete-marker.html">Tricks with the delete marker</a>
+  <span class="similar-meta">February 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-may-june-excel-and-vb-help-crack-school-finances.html">Excel &amp; VB help crack school finances</a>
+  <span class="similar-meta">May-June 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-november-december-analysis-finds-juries-lack-color.html" class="article-nav__prev">← Analysis finds juries lack color</a>
+  <a href="/uplink/article/2002-november-december-elder-care-homes-ripe-for-probes.html" class="article-nav__next">Elder care homes ripe for probes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

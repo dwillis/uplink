@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using subqueries — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Using subqueries</h1>
+    <div class="article-byline">
+      <span class="author">MaryJo Sylwester</span>
+      <span class="author-title">Staff</span>
+      <span class="date">November 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article explains how to use subqueries in database management to solve complex data problems, such as finding the most recent inspection for each facility or determining an officer&#39;s rank at the time of discipline.</p></div>
+
+  <div class="article-body">
+    <p>Using subqueries</p>
+<p>Follow along:</p>
+<p>There are fake data tables that accompany this article available to download off the NICAR Web site. Go to www.nicar.org and click on &quot;Uplink Tech Tip Downloads.&quot; Inside there you&#39;ll find a self-extracting file called &quot;mjtricks&quot; that can be downloaded. Inside are a Microsoft Access database (1997 version) and Dbase IV files of the same data in case you are using FoxPro.</p>
+<p>When working in a database manager, subqueries can prove immensely useful once you master the slightly complex syntax. Essentially subqueries allow you to come up with an answer based on another query that is imbedded within your main query.</p>
+<p>That probably sounds confusing, but keep reading. It makes more sense when you see them in action. So I&#39;ve got a couple examples of how you could use a subquery for you to follow along.</p>
+<p>The first is fairly straightforward: I&#39;ve got a list of inspections, where there could be multiple records for the same facility. But I want to find the last (or most recent) inspection for each facility. So my result would have one record for each facility with the date of the most recent inspection.</p>
+<p>The second example has a couple levels to get to the final answer: I&#39;ve got a list of discipline actions (in this case against police officers) and I also have a list of promotion dates that includes the person&#39;s rank. I want to find out what rank each officer was at the time they were disciplined. My result would have one record for each discipline action and include the date of the action and their rank at the time.</p>
+<p>I&#39;ve created some fake data tables for this demonstration that can be downloaded off the NICAR Web site. Go to www.nicar.org and click on &quot;Uplink Tech Tip Downloads.&quot; Inside there you&#39;ll find a self-extracting file called &quot;mjtricks&quot; that can be downloaded. Inside are a Microsoft Access database (1997 version) and Dbase IV files of the same data in case you are using FoxPro.</p>
+<p>As you will quickly see, these are very basic tables with bare-bones information just to show how this works. If you were working with real data, it would likely have many more fields and other details you might want to include.</p>
+<p>Inspections</p>
+<p>Let&#39;s start with the inspections data. The table is called &quot;inspect.&quot; There you will find the site number (unique ID for each facility), the date of inspection and type of inspection. Notice there are multiple records for some facilities, but not all.</p>
+<p>In this case we want to find the most recent inspection date for each facility. To do this, we&#39;ll use the MAX() function imbedded within a subquery in our select line. Here&#39;s what the SQL looks like, then I&#39;ll explain:</p>
+<p>SELECT sitenum, (select max(b.inspdate) from inspect b where a.sitenum=b.sitenum) as lastinspect FROM inspect a GROUP BY sitenum</p>
+<p>The select line within the parentheses will look for the largest (or in this case most recent) inspection date and the &quot;where&quot; clause specifies that it will compare only those records that have the same site number. If you were to leave that off, the query will run but it will give you the exact same date for all records (the most recent date that exists within the whole table). You need to GROUP BY in order for your results to yield just one record for each facility.</p>
+<p>In this case I&#39;ve named the field where my subquery results will show up as &quot;lastinspect,&quot; and I used aliases for each of the table names simply to have less typing. (&quot;a&quot; and &quot;b&quot; are the aliases). I&#39;ll use this type of naming in the next example as well.</p>
+<p>Discipline</p>
+<p>This one involves a couple steps. There are two tables, &quot;discipline&quot; and &quot;promotions.&quot; The promotions table lists the badge number, the rank and date of promotion; there might be multiple records for the same person if they were promoted more than once. The discipline table, which also might have multiple records, lists the badge number, the discipline action and date it occurred.</p>
+<p>The first thing we need to do is to create a new table that lists start and end dates for each rank the person held. So for each badge number that shows up in the database, this query will look at the rank and list the promotion date as the &quot;start date&quot; and then look for the next rank (chronologically by date) and subtract one day to come up with the &quot;end date.&quot; Then it goes on to that second rank and does the same. In cases where there isn&#39;t another rank, it will leave the &quot;end date&quot; blank.</p>
+<p>Here&#39;s the SQL:</p>
+<p>SELECT a.badge, rank, a.promodate as start, (select min(b.promodate)-1 FROM promotions b where b.badge=a.badge and b.promodate&gt;a.promodate) as end FROM promotions a</p>
+<p>Create this into a new table. Here I&#39;m going to call it &quot;dates.&quot; The next step then is to match this new &quot;dates&quot; table with the discipline table to put the correct rank with the date the officer was disciplined. This uses an inner join, which is easily accomplished in Access by drawing the line between the two tables in the grid view. Join it between the badge field on each table. Then when you open the SQL view, you can add in a few pieces of information to come up with the following:</p>
+<p>SELECT discipline.badge, start, end, rank, actdate, action FROM DISCIPLINE INNER JOIN dates ON DISCIPLINE.BADGE = dates.badge WHERE (actdate&gt;start) and (actdate&lt;end or end is null)</p>
+<p>In addition to joining on the badge number, the WHERE criteria also specifies that we want to match up the discipline action date where it falls after the &quot;start&quot; date and before the &quot;end&quot; date in the dates table.</p>
+<p>The resulting query yields the answer to our original question.</p>
+<p>Other uses</p>
+<p>Another use for subqueries is to find any records from one table that do not show up in another table. Conversely you could also use it to find those records that match.</p>
+<p>For example, if you slice records out of one table and create a new table. Then you want to go back and find those records from the original that did not end up in the new table. It works best if you have a unique ID that shows up in both tables. Here&#39;s the syntax:</p>
+<p>SELECT * FROM table1 WHERE uniqueid not in (SELECT uniqueid from newtable)</p>
+<p>To find the records that match you would simply remove the &quot;not&quot; from the where clause.</p>
+<p>There is more information about subqueries in the Microsoft Access help file and in the Microsoft Knowledge Base at http://support.microsoft.com/directory/. There you can also find details on how to run these queries in the grid view.</p>
+<p>MaryJo Sylwester can be reached by e-mail at maryjo@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-june-data-update.html">Data update</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-december-crime-without-punishment.html">CRIME WITHOUT PUNISHMENT</a>
+  <span class="similar-meta">December 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-october-how-long-did-that-take.html">How long did that take?</a>
+  <span class="similar-meta">October 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-october-foxpro-adds-a-new-dimension-to-sql.html">FoxPro adds a new dimension to SQL</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-november-beat-books.html" class="article-nav__prev">← Beat Books</a>
+  <a href="/uplink/article/2000-november-mark-your-calendars.html" class="article-nav__next">Mark your calendars →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

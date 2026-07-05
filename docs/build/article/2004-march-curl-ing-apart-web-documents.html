@@ -26,20 +26,21 @@
     <h1>Curl-ing apart Web documents</h1>
     <div class="article-byline">
       <span class="author">Derek Willis</span>
-      <span class="author-title">Center for Public Integrity</span>
+      <span class="author-title">Database Editor</span>
       <span class="date">March 2004</span>
     </div>
-    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
   </header>
 
   <div class="article-summary"><p>Curl is a free command-line utility that helps journalists efficiently download large datasets from websites by automating batch downloads of pages with consistent URL patterns, eliminating the need for manual clicking through multiple pages.</p></div>
 
   <div class="article-body">
-    <p>Here&#39;s a pet peeve you might rec- ognize: you find a database you need on the Web, but can&#39;t down- load it with a single click. Instead, the records are contained on sepa- rate pages, sometimes behind a search form that lets you see only a few entries at a time. Hitting Con- trol-S several hundred times isn&#39;t my idea of a great day. But there&#39;s good news: there are tools that can pry loose all that data without much trouble or effort on your part.</p>
-<p>My favorite is curl, a com- mand-line utility for Windows, Unix, Linux and Mac OS X. With curl, I can download batches of files with a con- sistent naming pattern, such as those pesky ASP or CGI files that contain numbers in the URL string. Curl is a free command-line utility, meaning that you run it from the ter- minal in Linux, Unix or Mac os X, or from the DOS prompt in Win- dows. If your system doesn&#39;t have curl installed, you can get it from http://curl.haxx.se.</p>
-<p>Be sure to book- mark curl&#39;s basic documentation (http://curl.sourceforge.net/docs/ manpage.html); it comes in handy. Here&#39;s an example of using curl: a few months ago, Jeff South, a Vir- ginia Commonwealth University professor and former database editor at the Austin American- Statesman, posted to the NICAR- L listserv asking if anyone had an easier way to put together a list of California lobbyists.</p>
-<p>The official state Web site (http://cal- access.ss.ca.gov/Lobbying/Lob- byists/list.aspx) has a list of current lobbyists but only shows one page for each letter of the alphabet, meaning that you&#39;d have to save each one and then put them together before beginning the task of separating the records from the HTML around them. Curl was built for just this kind of task, since it offers powerful ways to automate downloads based on a consistent pattern.</p>
-<p>The URL for lobbyists with a last name begin- ning with &quot;A&quot; is http://cal- access.ss.ca.gov/Lobbying/ Lobbyists/list.aspx?letter=A, and the only character that changes from one file to the next is the final capi- tal letter. Curl has the ability to iterate through a range of letters or numbers, so I wrote the following command: Curl &quot;http://cal- access.ss.ca.gov/Lobbying/ Lobbyists/list.aspx?letter=[A- 2 ] &quot; -0 &quot;lobby_#1.txt&quot; This command tells curl to begin with the initial URL ending in A, download each one, and save it to</p>
+    <p>Here&#39;s a pet peeve you might recognize: you find a database you need on the Web, but can&#39;t download it with a single click. Instead, the records are contained on separate pages, sometimes behind a search form that lets you see only a few entries at a time. Hitting Control-S several hundred times isn&#39;t my idea of a great day.</p>
+<p>But there&#39;s good news: there are tools that can pry loose all that data without much trouble or effort on your part. My favorite is curl, a command-line utility for Windows, Unix, Linux and Mac OS X. With curl, I can download batches of files with a consistent naming pattern, such as those pesky ASP or CGI files that contain numbers in the URL string.</p>
+<p>Curl is a free command-line utility, meaning that you run it from the terminal in Linux, Unix or Mac OS X, or from the DOS prompt in Windows. If your system doesn&#39;t have curl installed, you can get it from http://curl.haxx.se. Be sure to bookmark curl&#39;s basic documentation (http://curl.sourceforge.net/docs/manpage.html); it comes in handy.</p>
+<p>Here&#39;s an example of using curl: a few months ago, Jeff South, a Virginia Commonwealth University professor and former database editor at the Austin American-Statesman, posted to the NICAR-L listserv asking if anyone had an easier way to put together a list of California lobbyists.</p>
+<p>The official state Web site (http://calaccess.ss.ca.gov/Lobbying) has a list of current lobbyists but only shows one page for each letter of the alphabet, meaning that you&#39;d have to save each one and then put them together before beginning the task of separating the records from the HTML around them.</p>
+<p>Curl was built for just this kind of task, since it offers powerful ways to automate downloads based on a consistent naming pattern. The URL for lobbyists with a last name beginning with</p>
   </div>
 </article>
 
@@ -47,24 +48,24 @@
   <h3>Similar Articles</h3>
   <ul class="similar-list">
     <li class="similar-item">
+  <a href="/uplink/article/2001-julyaugust-information-manager.html">Information manager</a>
+  <span class="similar-meta">July/August 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-july-august-pdf-to-text-using-xpdf.html">PDF to text using XPDF</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
   <a href="/uplink/article/1995-september-nicar-web-site-expands.html">NICAR web site expands</a>
   <span class="similar-meta">September 1995</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/2004-july-august-tech-tip-pdf-to-text-using-xpdf.html">Tech tip PDF to text using XPDF</a>
-  <span class="similar-meta">July-August 2004</span>
+  <a href="/uplink/article/1996-september-on-the-internet.html">On the Internet</a>
+  <span class="similar-meta">September 1996</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/2004-march-news-resources.html">News resources</a>
-  <span class="similar-meta">March 2004</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/1994-december-fun-with-the-dir-command.html">Fun with the dir command</a>
-  <span class="similar-meta">December 1994</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/2004-july-august-car-tool-vigilant-program-tracks-web-changes.html">CAR TOOL Vigilant program tracks Web changes</a>
-  <span class="similar-meta">July-August 2004</span>
+  <a href="/uplink/article/2000-julyaugust-sql-server-pays-off.html">SQL Server pays off</a>
+  <span class="similar-meta">July/August 2000</span>
 </li>
   </ul>
 </aside>

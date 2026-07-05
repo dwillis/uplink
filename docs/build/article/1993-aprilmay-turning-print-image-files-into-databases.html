@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turning print-image files into databases — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Turning print-image files into databases</h1>
+    <div class="article-byline">
+      <span class="author">Brant Houston</span>
+      
+      <span class="date">April/May 1993</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Journalists can convert messy print-image files from government agencies into usable databases by using word processing programs or specialized software to automatically remove headers and formatting rather than manually deleting them.</p></div>
+
+  <div class="article-body">
+    <p>Turning print-image files into databases</p>
+<p>In the land of data garbage one of the most painful files to get from a government agency is a print file.</p>
+<p>This file looks just like the information you get on a printout and contains header information that looks like &quot;page one, judicial files of america, section 203AB, the office of Eddie Haskell, 10/20/92&quot; and so forth for each &quot;page&quot; of information.</p>
+<p>If you can&#39;t convince the agency to give you a nice, flat file then it&#39;s laundry time.</p>
+<p>You can clean these files, if they are small, by throwing them into a word processing program like XYWrite III Plus and manually defining the offending headers and deleting them.</p>
+<p>This won&#39;t work very effectively for a 10 megabyte file, however, and that is where, whether you are a programmer or not, you should head for a program.</p>
+<p>At The Courant, I discovered that a good person in our publishing systems had a handy XYWrite III Plus program that with a little modification would go in and destroy headers until it reached the bottom of the file.</p>
+<p>All you have to do is identify a mark or string of characters that establishes the beginning of the header - &quot;page&quot; for example - and the end of the header - &quot;92&quot; perhaps and run it through its loops. Sometimes you might have to make other pass through the data, but the job gets done. I know the same kind of program can be written more gracefully in other word-processing programs or database programs, but the message of this tip is not to waste time on manual deletion when a little programming can help. Also, I have been told that a database program - Monarch - takes care of this problem during importing and look forward to reading about it while trying to find money to buy it.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-december-the-database-files-tracks-and-reviews-valuable-but-obscure-databases.html">The Database Files tracks and reviews valuable but obscure databases</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-aprilmay-monarch.html">Monarch</a>
+  <span class="similar-meta">April/May 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-september-fun-fed-sites.html">Fun fed sites</a>
+  <span class="similar-meta">September 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-marchapril-data-access-obtaining-restricted-files.html">DATA ACCESS Obtaining restricted files</a>
+  <span class="similar-meta">March/April 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-november-the-bush-files.html">The Bush files</a>
+  <span class="similar-meta">November 1999</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1993-aprilmay-the-national-law-journal-uncovers-injustice-in-environmental-cleanup.html" class="article-nav__prev">← The National Law Journal uncovers injustice in environmental cleanup</a>
+  <a href="/uplink/article/1993-aprilmay-monarch.html" class="article-nav__next">Monarch →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

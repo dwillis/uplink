@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trimming spaces — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Trimming spaces</h1>
+    <div class="article-byline">
+      <span class="author">Tom McGinty</span>
+      <span class="author-title">Training Director</span>
+      <span class="date">April 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>A tutorial on creating and using a Microsoft Access module that removes leading, trailing, and extra spaces between words in database fields.</p></div>
+
+  <div class="article-body">
+    <p>This module will trim leading and trailing spaces in a field, as well as extra spaces between words. For example, it will turn &quot;(space) Tom (space)(space)(space)McGinty(space).&quot; into &quot;Tom(space)McGinty&quot;.</p>
+<p>To find the Microsoft article about this module, go to www.microsoft.com/directory and click on &quot;Searchable Knowledge Database.&quot; Search for story number Q148396. From there you can copy and paste this module directly into Access.</p>
+<p>Here&#39;s how the module works: Go to the module tab on your database window and click on the &quot;new&quot; button. The window that pops up should have the following two lines at the top: Option Compare Database Option Explicit If it does not, add them. Next, type the following syntax below those two lines:</p>
+<p>Function StripExtraChars (PassedStr, RemoveExtraChar$) On Local Error GoTo stripExtraChars_Em Dim i As Integer, GotChar As Integer Dim HoldStr As String, HoldChar As String , Exit if passed value is Null. If IsNull (PassedStr) Then Exit Function Trim extra characters from passed , string. PassedStr = Trim$(PassedStr) , Cycle through string and remove , extra string characters specified in , the RemoveExtraChar value. For i = 1 To Len(PassedStr) HoldChar = Mid$(PassedStr, i, 1) If HoldChar = RemoveExtraChar</p>
+<p>Then If GotChar = False Then GotChar = True HoldStr = HoldStr &amp; HoldChar End If Else GotChar = False End If If Not GotChar Then HoldStr = HoldStr &amp; HoldChar End If Next i StripExtraChars HoldStr StripExtraChars_End: Exit Function StripExtraChars_Err MsgBox Error$ Resume StripExtraChars_End End Function</p>
+<p>Next, under the &quot;Debug&quot; menu, choose &quot;Compile and save all modules.&quot; It will prompt you to name the module. Name it &quot;TrimSpaces&quot; and then close the module.</p>
+<p>Now, let&#39;s say you have a field called NAME that has extra spaces between first and last names, and unwanted spaces at the beginning and end of some of the names First, create a new field in your table called &quot;NEWNAME&quot;(NEVER change your original data).</p>
+<p>Then start a new query, add your table to the query and then, under the &quot;Query&quot; menu, choose &quot;Update Query.&quot; Pull the &quot;NEWNAME&quot; field down into the &quot;Field&quot; row of the update query. Then type this in the &quot;Update To:&quot; row of the query:</p>
+<p>StripExtraChars([NAME],Chr$(32))</p>
+<p>That applies the new module you just created to the NAME field and puts the results into the NEWNAME field. The second argument of the function, Chr$(32)), is the ASCII code for spaces. The SQL for the same update query would look like this: update TABLENAME set NEWNAME = StripExtraChars([NAME],Chr$(32)) Tom McGinty can be reached by e-mail at tmcginty@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2002-february-updating-with-access.html">Updating with Access</a>
+  <span class="similar-meta">February 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-november-sociology-101.html">Sociology 101</a>
+  <span class="similar-meta">November 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-november-extra-extra.html">Extra! Extra!</a>
+  <span class="similar-meta">November 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-marchapril-extra-extra.html">Extra! Extra!</a>
+  <span class="similar-meta">March/April 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-june-fronts-for-forms.html">Fronts for forms</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-april-text-to-date.html" class="article-nav__prev">← Text to date</a>
+  <a href="/uplink/article/2000-april-uplink-story-ideas.html" class="article-nav__next">Uplink story ideas →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working around a software bug — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Working around a software bug</h1>
+    <div class="article-byline">
+      <span class="author">Elliot Jaspin</span>
+      
+      <span class="date">January 1993</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>The article explains a software bug in XDB versions prior to 2.41 that incorrectly parses delimited files containing commas within quoted fields, and provides a practical workaround using alternative delimiter characters.</p></div>
+
+  <div class="article-body">
+    <p>Working around a software bug</p>
+<p>Solving some problems with delimited files in XDB</p>
+<p>By ELLIOT JASPIN Cox Newspapers</p>
+<p>Anyone who has worked with software for any length of time will soon encounter a bug. It may be large or small, but once you hit the enter key and watch a program sail off into cyberspace, it can be awfully irritating.</p>
+<p>My personal favorite involved software for aircraft navigation. The software worked perfectly until the plane flew across the equator. Then the onboard computer commanded the plane to fly upside down. Hmmmmm.</p>
+<p>While every programmer will try to produce software with as few bugs as possible, the chances of producing a perfect piece of code seems remote. The trick for the user is to find an acceptable &quot;workaround&quot; when a problem is encountered.</p>
+<p>A particularly irritating bug in some versions of XDB involves importing delimited files. Each field in a delimited file is separated by a character, usually a comma, and text fields are enclosed within quotation marks. Thus, a record might appear as:</p>
+<p>&quot;Doe, John&quot;, &quot;123 Maple St.&quot;, &quot;Bristow, VT&quot;</p>
+<p>Although there are four commas in our example, software should be able to see this as a record with only three fields, because two commas are within quotation marks. When the software encounters the first set of quotation marks, it should know that anything that follows is data. If it encounters a comma it should not treat it as a delimiter. Once it reaches the terminating set of quotation marks, the software should consider the comma that follows as the end of one field and the beginning of another.</p>
+<p>Alas, versions of XDB prior to release 2.41 see the quotation marks but keep on looking for the comma as a delimiter. The results are usually commastrophic (ouch).</p>
+<p>While the problem is potentially fatal, the workaround is simple. XDB allows the user to specify what the field delimiter is when importing a delimited file. By the same token NineTrack Express allows the user to pick any character that can be entered at a keyboard as a delimiter. Instead of using a comma, transfer a file in NineTrack Express using a &quot;^&quot; or a &quot;|&quot;, both characters rarely or ever are found in a file. Once you have transferred the file from tape, specify the character in XDB, and the file should import perfectly.</p>
+<p>A few closing notes, this particular bug in XDB was corrected in version 2.41. But a similar bug has popped up in the database program from Microsoft: Access. The software gets confused when it encounters a record such as:</p>
+<p>&quot;Bartowski, &quot;Buddy&quot;&quot;, &quot;123 Maple St.&quot;, &quot;Bristow, VT&quot;</p>
+<p>As I said at the start, software bugs are everywhere, like</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-may-letters.html">Letters</a>
+  <span class="similar-meta">May 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-february-blaming-the-bug-computer-negligence.html">Blaming the Bug, Computer Negligence</a>
+  <span class="similar-meta">February 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-april-will-early-version-woes-hurt-xdb.html">Will early version woes hurt XDB?</a>
+  <span class="similar-meta">April 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-february-bits-bytes-and-barks.html">Bits, Bytes and Barks</a>
+  <span class="similar-meta">February 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-september-tech-tips-eliminating-happy-faces-and-other-garbage-characters.html">Tech tips: Eliminating happy faces and other garbage characters</a>
+  <span class="similar-meta">September 1992</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1993-january-read-this-before-scanning-text.html" class="article-nav__prev">← Read this before scanning text</a>
+  <a href="/uplink/article/1993-january-series-leaves-politicians-with-no-one-blame-for-recession-but-themselves.html" class="article-nav__next">Series leaves politicians with no one blame for recession but themselves →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

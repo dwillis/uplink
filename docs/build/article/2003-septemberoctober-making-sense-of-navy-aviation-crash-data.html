@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Making sense of Navy aviation crash data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Making sense of Navy aviation crash data</h1>
+    <div class="article-byline">
+      <span class="author">Richard O&#39;Reilly</span>
+      
+      <span class="date">September/October 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/public-safety.html" class="badge">Public Safety</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Los Angeles Times used the Naval Aviation Safety Database to investigate U.S. Marine Corps Harrier jet crashes, but encountered significant FOIA restrictions that excluded narrative fields and conclusionary information while providing only basic coded data.</p></div>
+
+  <div class="article-body">
+    <p>Making sense of Navy aviation crash data</p>
+<p>The Naval Aviation Safety Database was one of the research sources for the Los Angeles Times&#39; Pulitzer Prize-winning series on the U.S. Marine Corps Harrier attack fighter jet. The four-part series, published Dec. 15-2002, also won an IRE Certificate.</p>
+<p>Reporters Alan C. Miller and Kevin Sack found the bulk of their material through numerous interviews and nearly 90 Judge Advocate General accident reports obtained under Freedom of Information Act requests. But an analysis of the Harrier through the Naval Aviation Safety data provided scope, context and nuance to the project.</p>
+<p>Brief summaries from the database are available on the Navy Safety Center Web site, www.safetycenter.navy.mil The full database must be requested via FOIA from Josie Bowden, 757-444-3520, ext. 7045 (JBowden@safety.center.navy.mil).</p>
+<p>It took us months to get the database after filing the request. And when we received it, we found that data from 218 fields, about 27 percent of the 807 fields then in the database, were omitted on privacy and national security grounds. An appeal failed. What we got instead was the brief public summary of recent Harrier accidents supplied by e-mail. It was exactly the same data we could have copied from their Web site, which was useless for analytical purposes.</p>
+<p>Virtually all of the extensive narrative fields contained in the database were excluded. That had the effect of removing all conclusionary information. Personnel data on injuries, causes and even the severity of injuries was withheld. Gender, date of birth, rank and unit were provided. But the field containing first and last initials was omitted.</p>
+<p>Also missing were fields that identified recurring problems, identified instances in which planes were not in compliance with Marine standards and in which problem parts had been cannibalized from other aircraft. A field that provided a detailed identification of the component damage or failure was omitted. However, a field that identified materials or components involved in the incident was provided.</p>
+<p>Data on Marine aircraft are contained in the Navy database because Marine funding is routed through the Navy, and the Navy is responsible for maintaining safety data for the Marines.</p>
+<p>What the Navy eventually provided was a complex, well-documented, clean set of related data tables in tab-delimited format. There is a mix of data tables and code tables. Many of the fields in the data tables are coded. Code translation tables were provided for each of the coded fields we received. However, the translation tables for coded fields that were omitted also were omitted.</p>
+<p>A large-format table relationship sheet was provided, as was a table list text file and a data dictionary text file. The table list (with the file name av_tablist.rtf) gave a simple list of table names, field names, types and sizes and whether the field was omitted or not. The dictionary file (av_dicty.txt) gave an English translation of field names plus an explanation. For example, the field &quot;bank_degs_left&quot; in the table &quot;av_actt_at_esc&quot; was described as follows: &quot;LEFT BANK DEGREES-The left bank of the event aircraft in degrees at the time of escape.&quot;</p>
+<p>Where fields were omitted in tables, the field place was held by a null value (hex 00) between the tab characters. That caused problems for me when reading the data into SAS. Therefore, I copied the original tables and then, using UltraEdit, did a search and replace across all the file copies in one operation to translate a tab-null-tab string into a tab-space-tab string.</p>
+<p>Some of the code fields proved to contain hierarchical codes, which were not explicitly documented. An example is &quot;incdt_phase_ops_c&quot; in the table &quot;av_incdt_occurn.&quot; It is described in the dictionary as &quot;Significant Incident Phase Operation~The phase of operation in which the event aircraft was engaged, at the time the coded subject significant incident occurred, in the evolution of the reportable event.&quot;</p>
+<p>An example entry in the three-character field is &quot;33Z.&quot; The code translation table renders that as &quot;No further breakdown,&quot; which is meaningless. In the same code translation table, however, you find that &quot;3&quot; translates as &quot;Takeoff forward motion on run/catapult until attaining climb schedule.&quot; And &quot;33&quot; translates into &quot;Aircraft breaks ground climb schedule not yet attained.&quot; In other words, that single three-character field can be decoded into three separate, related meanings.</p>
+<p>There are other examples. The five-character field &quot;imc_c&quot; in the table &quot;av_eng_cmpnt&quot; is described in the dictionary as &quot;Involved Material Component~Identifies the Naval Safety Center code relating to the category of the event aircraft&#39;s component or engine (power plant).&quot;</p>
+<p>One such entry is &quot;T1007&quot;, which is translated in the field code table as &quot;Compressor pressure limiter section.&quot; The &quot;T&quot; alone translates into &quot;Turbo-jet engine,&quot; and the first three characters, &quot;T10,&quot; mean &quot;Regulator-not detailed.&quot; Thus the code must be parsed to gain its full meaning.</p>
+<p>My solution for all of the hierarchical codes (which were identified by inspecting the code table translations for partial string definitions) was to create new fields in the table to contain just the partial strings that had separate meanings. Thus I created an &quot;imc_a&quot; field that was only the first character of &quot;imc_c,&quot; and an &quot;imc_b&quot; field containing the first three characters of &quot;imc_c.&quot; This was easily done because all of the hierarchical fields contained the full complement of characters specified in the table list and dictionary files.</p>
+<p>The Naval Aviation Safety Database contains records (more than 48,000 in the mid-2002 version we received) of &quot;events&quot; from Jan. 1, 1980, to within the last several months. An event can range from a no-damage, no-injury maintenance or operational problem that could have a safety impact and thus meets the criteria for reporting, to loss of an aircraft and its crew. The most dramatic events are those known as &quot;Class A,&quot; with at least $1 million in damage or fatal injury.</p>
+<p>There are three primary trajectories for analyzing the data - events, persons or aircraft - each of which utilizes its own key field for table joins. Within those trajectories there are subsidiary keys that join more detailed tables. As a result, you can end up with a lot of tables joined together, which can lead to a lot of rows being added as details embellish what started out as a single row for a single event. Much of the data will be constant and repeated on those rows, such as the total cost of the event, or the event category, or even the tail number of the aircraft. Other fields on the rows will contain unique data, as when several different components are involved, causing several rows from the component table to be joined to the aircraft table.</p>
+<p>Ultimately, it is necessary to recode and collapse data to analyze it accurately. There is a lot of missing data, beyond what was withheld. The data collected has undergone a number of revisions since 1980. Later events have more complete data than earlier events. Sometimes data is missing because it is not relevant to a particular event.</p>
+<p>To compute accurate percents for occurrences, the denominator has to be just the events for which the data exists. For instance, some reports for Class A events involving the Harrier did not have any data on the components involved. I created a new logical field called Parts, with &quot;Yes&quot; meaning there was parts data and &quot;No&quot; when it was missing. Then when calculating the percentage of jet engine problems, for instance, I divided by the count of Parts = Yes.</p>
+<p>In some cases I forced empty records to sort at the bottom of a list instead of the top by recoding a blank field to &quot;zzz.&quot;</p>
+<p>If the summary being created involves a number of fields, it probably will be necessary to make several intermediate tables by doing record-by-record inspections and editing. That&#39;s because it probably will not be possible to sort across several fields and end up with the data desired from each field rising to the top of the sort.</p>
+<p>The most important advice I can give is to be skeptical of every result you derive and try to figure out an alternate way to get it. If you come up with the same result two different ways, it is probably reliable. But if you get different results, you&#39;ll need to figure out why and fix it.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-june-crash-course-on-plane-crashes.html">Crash course on plane crashes</a>
+  <span class="similar-meta">June 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-december-successful-e-foia.html">Successful E-FOIA</a>
+  <span class="similar-meta">December 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-marchapril-peace-accidents.html">Peace Accidents</a>
+  <span class="similar-meta">March/April 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-november-december-on-the-foia-front.html">On the FOIA front</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-uncovering-secrets.html">Uncovering secrets</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-septemberoctober-squeezing-trends-from-air-emissions-data.html" class="article-nav__prev">← Squeezing trends from air emissions data</a>
+  <a href="/uplink/article/2003-septemberoctober-using-parserat-to-carve-up-names.html" class="article-nav__next">Using ParseRat to carve up names →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

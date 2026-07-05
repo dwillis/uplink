@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untangling problem layouts — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Untangling problem layouts</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      <span class="author-title">NICAR staff</span>
+      <span class="date">July 1996</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>The article provides practical tips for efficiently loading tape data into a PC database program, emphasizing the importance of thorough testing to catch formatting errors before processing. It recommends using CSV format for testing and Nine Track Express&#39;s Preview feature to verify record lengths and field descriptions.</p></div>
+
+  <div class="article-body">
+    <p>Getting new data is like getting a present. You want to get the data loaded into your PC database program as quickly as possible so you can start playing with it.</p>
+<p>But this unwrapping process can be delayed by simple typing mistakes on our part, or, what&#39;s worse, there can be small or frustratingly substantial differences between the record layout we have on paper and the data we were given on tape.</p>
+<p>Just like alarm clocks going off at 6:15 a.m., this kind of thing happens more often than we&#39;d like. Here are some of the procedures I&#39;ve come up with to deal with the problems that sometimes hold us up from the fun part: getting to interview data.</p>
+<p>For the tape processing, I&#39;m using Nine Track Express and assuming familiarity with its Create File Parameters and Create Field Descriptions steps. Additionally, these tips take advantage of Microsoft Excel&#39;s marvelous Text Import Wizard; a graphical word processor such as Microsoft Word; and a file viewer called List, a shareware program I find indispensable.</p>
+<p>Testing format</p>
+<p>Use .CSV as the output format while tesing. The Preview feature in Nine Track Express can save you a lot of time. I never process any tape without using it. While the Transfer File procedure is counting off the records moved from the tape to the PC, pressing the &quot;P&quot; key pauses the process and shows you exactly what Nine Track is reading as a single record. If the data at the beginning and at the end looks OK, then you know the record length you are using is correct. I always use the Preview several times to make sure the one record I saw wasn&#39;t coincidentally correct and most of the others were wrong.</p>
+<p>Mistakes in field lengths are more frustrating. If you are outputting the data to the FoxPro or Paradox format, the preview will not show you how the data is being split fields. To find out if right, you have to quit Nine Track and look at the results in the database program. If it&#39;s wrong, that means quitting FoxPro or Paradox and going back to Nine Track. And if you&#39;re using the Windows version of these database managers, then you have the extra step of loading and unloading Windows.</p>
+<p>Time saver</p>
+<p>Save yourself some time and use .CSV as the output format until you know that the data fields are being split in the right places. Then, when the field description is right, change the output format to the database format you want.</p>
+<p>The commas and quotes will reveal simple field length problems such as: every ZIP code field beginning with a letter (some column before the ZIP is one byte too long. Of course, this example is too easy. Finding mistakes in data layouts when most of the information is readily recognizable stuff such as names, addresses, amounts and dates is easy compared to data sets that are hundreds of bytes long, with nothing but key fields, and lots of small fields with codes like &quot;EA&quot; and &quot;J1.&quot; When scanning the preview output, go to the end of the line, and work back to the beginning. Load a small sample of the file (1,000 records or less) in fixed-position format.</p>
+<p>Saving samples</p>
+<p>I often do this step first with a dataset I haven&#39;t processed before. I save the sample file on the floppy I keep for every data project. All finished and tested Nine Track profile (PR2) files go here too. (I know I wouldn&#39;t want to have to do all that typing and testing all over again.) I also save small .dbf samples of all the tables in the data set. I often print a small portion of this file, especially if it&#39;s obvious that some record layout debugging is going to be needed. Most data records are longer than 80 characters, so this is where a graphical word processor comes in handy. First, for the printout to be useful, you have to set the text to a monospace font such as Courier or Courier New. Proportional fonts such as Times Roman will display the text with less width for the i&#39;s and l&#39;s and more space for M&#39;s and W&#39;s. The result is text that doesn&#39;t look like a fixed-position file. If necessary, I set the point size to eight, use Print Setup to shrink the left and right margins to the minimum and print sideways on the paper (landscape mode), or even choose legal size paper over letter.</p>
+<p>Displaying this file with the List program also helps, since one of the features of this program displays a ruler or counter line at the top of the screen to make it easy to see, for example, what characters occur in positions 149 through 156.</p>
+<p>Since fixed-position output only divides the data records, but doesn&#39;t split the fields, you can quickly fill out the Field Description part of the PR2 file by making a single field with a length equal to the data record length. Use character as the data type.</p>
+<p>Nine Track Express has a limit on how big a single field can be, so if the record length is greater than 500 bytes, you have to enter descriptions for 500-byte fields until what&#39;s left is less than 500 bytes. Then you make the final field length equal to the remainder. For example, if the record length is 1637 bytes, add field descriptions for three fields of 500 bytes, and then one field of 137 bytes.</p>
+<p>Other tools</p>
+<p>Use Excel on the sample fixed position file. I think everyone who sees and uses the Excel 5 Text Import Wizard immediately likes it because it&#39;s so easy. I used it recently on a non-problem data set I had just received because it was the fastest way to get the data imported without a lot of typing of field lengths.</p>
+<p>I also like the Text Import Wizard because it&#39;s a great teaching tool for the concept of importing data. It presents the perfect picture of what has to occur when fixed-position files are imported into any spreadsheet or database, regardless of the software method.</p>
+<p>This picture is also a great help in figuring out problem record layouts. You can use Excel&#39;s wizard to scan the records (as with a file viewer) and at the same time, designate where the fields should be split. When the wizard asks for the data type for each column, choose &quot;Text&quot; for every column. By default, the Excel Wizard designates every column as &quot;General,&quot; but in the program&#39;s intent to be all-purpose and helpful, data such as Social Security numbers or other ID data composed of all numerals and no alphabetic or punctuation characters will be converted to scientific notation like 2.35E7, which is my Social Security number with the confidential parts rounded off.</p>
+<p>Spreadsheet limits</p>
+<p>Spreadsheets have a limit of about 16,000 rows, but you only need to test a few hundred rows. This is another reason for doing that fixed-position sample output of the data.</p>
+<p>After you figure out the correct layout, you have several options. You can import the spreadsheet into FoxPro or Paradox and print out the table structure for reference in correcting the Nine Track field description. It temporarily takes up more disk space, but you could also load the entire tape file as a fixed-position file; empty all the sample rows from the FoxPro or Paradox table and then import the fixed-position file into the empty table.</p>
+<p>Because of the difference in how Excel and FoxPro or Paradox store data, there is a limitation to this method. If the data has long character fields that are filled with just spaces, instead of data, those fields will show up in the database file with much smaller widths. The only way around this problem that I can suggest is to replace all spaces in the fixed-position file with some distinct character that is not used in the data. The caret character (^ or Shift+6) is a good choice.</p>
+<p>Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2002-february-ranking-with-excel.html">Ranking with Excel</a>
+  <span class="similar-meta">February 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-june-nicar-on-the-web.html">NICAR on the Web</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-junejuly-nine-track-tape-drive-provides-easy-and-dependable-backup.html">Nine-track tape drive provides easy and dependable backup</a>
+  <span class="similar-meta">June/July 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-julyaugust-handouts-of-the-month-editing-car-work.html">HANDOUTS OF THE MONTH: Editing CAR work</a>
+  <span class="similar-meta">July/August 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-july-stats-from-the-road-sampling-not-a-dirty-word.html">STATS FROM THE ROAD Sampling: Not a dirty word</a>
+  <span class="similar-meta">July 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1996-july-ire-l-and-nicar-l-list-archives-notice.html" class="article-nav__prev">← IRE-L and NICAR-L list archives notice</a>
+  <a href="/uplink/article/1996-july-namebase-research-tool-notice.html" class="article-nav__next">NameBase research tool notice →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

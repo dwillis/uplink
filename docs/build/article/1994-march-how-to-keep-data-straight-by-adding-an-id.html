@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to keep data straight by adding an ID — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>How to keep data straight by adding an ID</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      
+      <span class="date">March 1994</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>A guide to eliminating duplicate rows in databases by creating a unique identifier field using the REPLACE ALL command with RECNO() function in FoxPro or dBase.</p></div>
+
+  <div class="article-body">
+    <p>Every data table you work with should have rows that are unique. Duplicates can be confusing, for one thing, because you never know if the duplicate row belongs there. (Did Richard Mullins bounce a check twice, or did a data clerk just type it in twice?)</p>
+<p>This uniqueness rule is not just a good idea, it&#39;s the law, at least according to relational theory. Most often this is a number, in a column called ID, (or Casenum, Case# or CaseNo).</p>
+<p>But we all know that there are lots of databases and data creators that overlook this. You may have done it too, in your young and foolish days.</p>
+<p>Here&#39;s how to right the wrong and be sure every row in a table is uniquely identified. The commands are for FoxPro or dBase.</p>
+<p>After you&#39;ve created a new field to hold the number (make sure it&#39;s NUMERIC and big enough to hold the largest number that might be put there), type this command in the Command Window: (The field or column name here is ID)</p>
+<p>REPLACE ALL id WITH RECNO( )</p>
+<p>That&#39;s it. This one-line command works because Fox stores internally a number for every row, or record, in the table. The REPLACE. WITH command puts that number (supplied by RECNO( ), a built-in function) in a field where you can see it. The command word ALL makes the replacement on every row.</p>
+<p>Here&#39;s one more twist on this command, if you want to start the ID numbers with a larger number. You can add another number, say 1000, to the internal record number. Then your ID numbers would start at 1000, instead of one. Here&#39;s the command:</p>
+<p>REPLACE ALL id WITH RECNO( ) + 1000</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-december-getting-rid-of-those-pesky-duplicate-records.html">Getting rid of those pesky duplicate records</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-november-december-checking-for-duplicates-in-excel.html">Checking for duplicates in Excel</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-january-use-foxpro-to-document-a-table.html">Use FoxPro to document a table</a>
+  <span class="similar-meta">January 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-june-fixing-data-in-foxpro.html">Fixing data in FoxPro</a>
+  <span class="similar-meta">June 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1994-march-eeoc-data-is-goldmine-for-job-stories.html" class="article-nav__prev">← EEOC data is goldmine for job stories</a>
+  <a href="/uplink/article/1994-march-akron-completes-yearlong-car-series.html" class="article-nav__next">Akron completes yearlong CAR series →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

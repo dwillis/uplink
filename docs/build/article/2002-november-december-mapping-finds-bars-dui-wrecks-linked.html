@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapping finds bars, DUI wrecks linked — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Mapping finds bars, DUI wrecks linked</h1>
+    <div class="article-byline">
+      <span class="author">Rose Ciotta and Karl Stark</span>
+      
+      <span class="date">November December 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/public-safety.html" class="badge">Public Safety</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>An investigation into drunken driving deaths in the Philadelphia region used mapping and data analysis to identify dangerous road segments, overcoming Pennsylvania&#39;s restrictions on accident data by obtaining information through alternative sources and appeals.</p></div>
+
+  <div class="article-body">
+    <p>Drunken driving was old news. It had been written about and rallied against for years. Yet, this year, for the first time in nearly a decade, drunken driving became a more deadly crime than murder. After years of decline, drunken driving&#39;s death toll was inching up nationally and in New Jersey, and holding steady in Pennsylvania.</p>
+<p>Those facts gave us ample reason to investigate drunken driving in the Philadelphia region. But, we faced the challenge of finding a fresh approach. Mapping and density analysis gave us the tools to dig deeper and come up with new information for our series, &quot;Loaded for Trouble,&quot; which ran in June.</p>
+<p>From researchers we learned of cutting-edge work that found a link between the concentrations of liquor licenses and the locations of alcohol-related accidents.</p>
+<p>We set out to test the connection in the Philadelphia region. Our first problem was getting the data. In Pennsylvania, accident locations are a secret. Attorneys for the state cite a law that protects the state from liability claims. In addition, Pennsylvania&#39;s Department of Transportation several years ago removed from its public data on accidents just about every field of interest, including the date of the accident, whether alcohol was involved and whether there were any injuries. State lawyers cited another law that requires the to withhold the identities of accident victims.</p>
+<p>In appealing these rulings, The Inquirer succeeded in getting PennDOT to release data at the town level, which allowed an analysis of trends in accidents by town and county over a five-year period. That data, however, did not identify any roads. We still did not know the worst areas in the region for alcohol-related crashes.</p>
+<p>For that, we had to rely on backdoor methods. Working through sources within the department, we were able to work around PennDOT&#39;s secrecy policy. We obtained data that located accidents on state roads in five-mile road segments. The table also included the total for a five-year period of alcohol-related accidents and fatalities. With that information, we were able to calculate the road segments with the highest per mile rate of alcohol-related accidents. That analysis gave us our first look at the worst roads for alcohol-related accidents. Once we had this data, we appealed to the state to release the latest year&#39;s data. By publication, we had road specific accident data for the most recent five-year period.</p>
+<p>Creating &#39;hot spots&#39;</p>
+<p>Using ArcView 8.1, we mapped the accident data and revealed for the first time roads with above-average accident rates. We focused the story on state Route 3, a 25-mile stretch that extends from Philadelphia into its western suburbs that included a segment with the highest accident rate at 22 per mile.</p>
+<p>Working from paper records that we had accumulated from police and other sources, we found alcohol-related accidents that had occurred on Route 3 in which people had been killed. Through our reporting, we also located other accidents that had occurred on the very roads that police knew had high alcohol-related crash rates and where bars were concentrated. In some cases, they were located in towns where police made relatively few arrests for drunken driving. The tragedy of drunken driving was told through the stories of the victims who had been killed and injured.</p>
+<p>Next, we obtained liquor license data from the state&#39;s Liquor Control Board. In this case, using ArcView&#39;s Spatial Analyst extension worked much better than producing an ArcView map. Mapping the 4,000 establishments by plotting each location produced a map of little value. Likewise, a shade map of license counts by town was also misleading since it would have incorrectly given the impression that licenses were evenly distributed across a town when in reality they were generally clumped in older, established neighborhoods.</p>
+<p>We wanted to generate a map showing the liquor license &quot;hot spots.&quot; The best tool turned out to be Spatial Analyst, using the actual locations of the point data to generate the &quot;hot spots&quot; in just the area of the map where the liquor licenses were concentrated, giving a much more accurate rendition.</p>
+<p>The result was a map that displayed concentrations of liquor establishments from two to six or more per square mile. The more liquor establishments, the darker the ring.</p>
+<p>When layered with the accident data, we were able to identify the same link between crashes and liquor establishments that researchers had come up with in California. While crashes have many causes - road design, weather, speed - those involving alcohol happened most where bars and restaurants are concentrated.</p>
+<p>This link was especially important in Pennsylvania. A new law makes it possible to sell liquor licenses within counties. Previously, a population-based quota had restricted licenses to the towns in which they were already located, resulting in a concentration of drinking establishments in older, more densely populated neighborhoods.</p>
+<p>Our analysis accounted for traffic volume. We found that some of the busiest roads did not have the highest accident rates. Parts of Interstate 95 had the most traffic in the region - but not nearly the highest rates of alcohol-related crashes. We also learned that using traffic count data was flawed because traffic counts are usually taken during the daytime, while alcohol-related crashes were more likely to occur between 8 p.m. and 4 a.m.</p>
+<p>Because we were new to density analysis, we also consulted several experts including Paul J. Gruenewald of the Pacific Institute for Research and Evaluation (www.pire.org) who had done research in California studies.</p>
+<p>For those of you who want to know more about how Spatial Analyst works, here&#39;s a brief summary from ESRI&#39;s &quot;Using ArcGIS Spatial Analyst:&quot; Spatial Analyst calculates density by spreading point values over a surface. A density value is calculated for each cell in the output raster. Points that fall within the search area are summed and then divided by the search area size to get each cell&#39;s density value. We elected to calculate density using the kernel calculations because points at the center of the raster cell&#39;s search area are weighted more heavily than those near the edge. The result is a smoother distribution of values.</p>
+<p>Mapping put online</p>
+<p>For online, Matthew Ericson, senior editor for Web technology, designed an interactive map using ESRI&#39;s ArcIMS Internet map server, which allowed readers to zoom in on the most dangerous roads in the region and see the total number of alcohol-related crashes, the number of alcohol-related fatalities and the per mile crash rate.</p>
+<p>The Web site (www.philly.com/mld/inquirer/news/special_packages/dui) included a number of interactive tools that allowed our readers to go beyond what we printed in the newspaper and see how DUI affects their lives. A blood alcohol calculator lets readers enter their weight and gender to see how many drinks it takes to reach various levels of impairment.</p>
+<p>In addition to the accident/liquor license analysis, the project included an analysis of police arrest data by town. Calculating a per 10,000 arrest rate and dividing the results into quintiles allowed us to compare police department performance. Readers could also look up their town in a searchable database to find detailed information on the number of alcohol-related crashes by town and by county, and arrests by town, by county, by arrest rate and per police officer. The project included the analysis of other data from courts in two states and Philadelphia and campaign contributions.</p>
+<p>Contact Rose Ciotta by e-mail at ricotta@phillynews.com Contact Karl Stark by e-mail at kstark@phillynews.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2001-novemberdecember-dangerous-drivers.html">Dangerous drivers</a>
+  <span class="similar-meta">November/December 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-mayjune-water-roads-and-more.html">Water, roads and more</a>
+  <span class="similar-meta">May/June 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-sprawl-outpaces-private-ambulances.html">Sprawl outpaces private ambulances</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-januaryfebruary-valuable-accident-data.html">Valuable accident data</a>
+  <span class="similar-meta">January/February 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-mapping-out-the-web.html">Mapping out the Web</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-november-december-gis-data-carries-high-cost.html" class="article-nav__prev">← GIS data carries high cost</a>
+  <a href="/uplink/article/2002-november-december-spotlight.html" class="article-nav__next">SPOTLIGHT: →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

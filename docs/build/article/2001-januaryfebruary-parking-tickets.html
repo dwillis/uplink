@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking tickets — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Parking tickets</h1>
+    <div class="article-byline">
+      <span class="author">Jason Callicoat</span>
+      
+      <span class="date">January/February 2001</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist describes using data journalism techniques learned at NICAR Boot Camp to investigate whether bad weather correlates with increased parking tickets by combining weather data from the National Weather Service with parking ticket records from a city&#39;s Ordinance Violations Department.</p></div>
+
+  <div class="article-body">
+    <p>One of the first stories I wanted to do after returning from a NICAR Boot Camp last spring involved linking a database of local parking tickets with a database of weather and climate information. I wanted to see whether there was a correlation between bad-weather days and the number of parking tickets handed out.</p>
+<p>This was a story idea that was mentioned as an example during one of the boot camp presentations.</p>
+<p>I decided to look at data from Jan. 1, 1998, to as close to the present as I could get.</p>
+<p>Weather data</p>
+<p>The weather database was fairly easy to get. The National Weather Service already had a table of each month&#39;s weather data saved as a text file. They maintained it this way so they could print it each month in a weather newsletter.</p>
+<p>The weather service had about 18 months&#39; worth of weather data saved on a disk, which they let me borrow - for free - if I promised to mail it back to them.</p>
+<p>There was some prohibition on them giving away data (they were supposed to charge for it), but the person I was dealing with was very accommodating. I couldn&#39;t copy the disk, or have the disk, but I could &quot;borrow&quot; it if I mailed him back the original.</p>
+<p>For the months before the weather service began storing the data electronically, he gave me the newsletters in which they published the final data. Again, I couldn&#39;t have copies of these, but I could take them all back to the office with me if I mailed him back the originals.</p>
+<p>I copied the text files for each month that they had saved on disk, transferring them into an Access database. Then I typed in about 12 months&#39; worth of daily data from the weather service&#39;s paper newsletters. I only had about 10 fields, so it didn&#39;t take that long.</p>
+<p>Parking tickets</p>
+<p>The parking tickets database was a little harder to get, but I used some of the tricks I learned at boot camp.</p>
+<p>The clerks in the city&#39;s Ordinance Violations Department said their software was 15 years old and not compatible with Microsoft.</p>
+<p>They offered to make me a printout of all the parking tickets from the past two and a half years (roughly 50,000 of them), but it would take several days of print time for their dot-matrix printer to finish with that job.</p>
+<p>I asked who was in charge of backing up their data every night, and they gave me the name of the information technology director.</p>
+<p>I got in to see him fairly easily, and he looked through the backup files and found one for parking tickets. He had no problem with burning me a CD of the file for free. It was stored in DBase format, which is easily converted into Access.</p>
+<p>But when I got it converted and reorganized the data, I found it was a couple years old and didn&#39;t have the tickets that matched up with my weather data. When I went back that afternoon, the IT director found the right backup file and burned another CD. It had about three years&#39; worth of tickets, up through the tickets that were given the previous day.</p>
+<p>On to analysis</p>
+<p>I linked the tables by date and found that the 10 percent of the days with the most tickets were generally nice-weather days, and the 10 percent of the days with the fewest tickets were generally bad-weather days. The story ended up taking about six or seven weeks to complete, although I was pulled away from it several times to do daily stories. The CAR portion of it took about two-thirds of that time. The parking tickets database also proved useful, beyond the original story, because it listed license-plate numbers and registered owners of all the cars (tens of thousands of them) that had gotten a parking ticket in South Bend in the past several years. I ended up doing a few searches for another reporter who had a group of license plates he wanted to trace. Also, while working with the parking tickets database, I found quite a few government cars listed. I ran a query to pull them all out, and I found that almost none of the tickets on these government cars had been paid. The cars belonged to a group of armed forces recruiters who had offices down the street from our building.</p>
+<p>Together, they owed more than $4,000 in tickets and late fees. I did some checking, and it turned out that the city had issued a legal opinion that was preventing Ordinance Violations from collecting on these tickets.</p>
+<p>The weather service had about 18 months&#39; worth of weather data saved on a disk, which they let me borrow - for free - if I promised to mail it back to them.</p>
+<p>The opinion said that armed forces recruiters could not be taken to small claims court for unpaid parking tickets the way anyone else would be. That&#39;s because it would involve one branch of the government suing a larger branch of the government, which is prohibited by the Supremacy Clause of the U.S. Constitution.</p>
+<p>Eventually, these recruiters had figured out nothing ever happened if they failed to pay their parking tickets. (They preferred to park on the street outside their offices, even though the government rented parking spaces for them in a garage right across the street. But the spaces were on the 6th floor, and the recruiters didn&#39;t like driving all the way up there.)</p>
+<p>After a couple years of unsuccessful attempts, the city stopped trying to collect the money for the recruiters&#39; tickets.</p>
+<p>I wrote a story about it, and the recruiters were all very contrite when I talked to them. The Marines sent a colonel up from Indianapolis to pay $1,000 worth of their tickets a day or so after I interviewed the recruiters. Some of the other recruiters paid smaller amounts of their tickets, as well.</p>
+<p>Tips for others</p>
+<p>I&#39;d say the parking tickets/weather story is a good one to do as a &quot;first venture.&quot; The National Weather Service was not at all possessive with its data, and the people I dealt with there actually seemed pleased that someone was taking interest in their work. They went out of their way to make their data available.</p>
+<p>In South Bend, the records of our parking tickets are maintained by the Ordinance Violations Department. It&#39;s not a city department we report on very regularly, which seemed to work to my advantage.</p>
+<p>They hadn&#39;t been burned and didn&#39;t seem suspicious at all, just a little curious. They didn&#39;t react badly when I gave somewhat vague answers to their questions of what I wanted the data for. The only hurdles with this department were technical: working around their 15-year-old software and identifying the correct back-up file.</p>
+<p>After returning from NICAR&#39;s Boot Camp, I found these stories were a good way to get my feet wet with CAR. I&#39;d recommend similar stories to anyone as a &quot;first venture.&quot;</p>
+<p>Jason Callicoat can be reached by e-mail at jcallicoat@sbtinfo.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-january-parking-tickets-offer-wealth-of-stories.html">Parking tickets offer wealth of stories</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1990-december-national-weather-dis-service.html">National Weather Dis-Service</a>
+  <span class="similar-meta">December 1990</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-lessons-from-parking-database-never-expire-repaying-tickets-in-boston.html">Lessons from parking database never expire Repaying tickets in Boston</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-septemberoctober-uneven-hand-in-enforcement.html">Uneven hand in enforcement</a>
+  <span class="similar-meta">September/October 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-overview-of-1994-car-stories.html">Overview of 1994 CAR stories</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2001-januaryfebruary-maps-to-go.html" class="article-nav__prev">← Maps to go</a>
+  <a href="/uplink/article/2001-januaryfebruary-census-listserv.html" class="article-nav__next">Census listserv →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

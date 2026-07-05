@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Means to appends — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Means to appends</h1>
+    <div class="article-byline">
+      <span class="author">Justin Mayo</span>
+      <span class="author-title">Data Manager</span>
+      <span class="date">October 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>NICAR journalists developed a FoxPro solution using the ADIR() function to efficiently append hundreds of identically structured database tables into a single dataset, avoiding repetitive manual work and demonstrated this approach with USDA meat-packing inspection data split across nearly 800 regional files.</p></div>
+
+  <div class="article-body">
+    <p>Have you ever had to append hundreds of tables together? At NICAR we were faced with such a repetitive task often enough that we came up with a programming solution. Rather than permanently disfiguring ourselves with carpal tunnel syndrome, we turned to one favorite data-processing FoxPro functions-ADIR().</p>
+<p>The ADIR() function makes use of arrays. An array can be thought of as a temporary table. In the case of ADIR(), a temporary array is made up of the contents of a specified directory on your computer. Five pieces of file information are included in an ADIR() array: names, sizes, dates, times and attributes. This information makes up the columns in the array, but the most important for our purposes is the file name. Here&#39;s an example of how ADIR() can save your sanity.</p>
+<p>When we processed the USDA meat-packing inspections database, ADIR() was indispensable. The meat-packing data arrived on a CD-ROM in dBase format but were separated into nearly 800 identically structured tables, broken down by the region. What we wanted, however, was one table for the entire country. Here&#39;s what the basic code that appended the USDA tables looked like:</p>
+<p>gcOutputDir = &#39;c:\usda\outgoing\&#39; gcSourceDir = &#39;c:\usda\incoming\&#39; USE (gcOutputDir) + &#39;all_usda.dbf&#39; in 1 =ADIR(temparray, (gcSourceDir) + &#39;*.dbf&#39;) SELECT 1 FOR i = 1 to ALEN(temparray, 1) APPEND FROM (gcSourceDir) + (temparray(i,1)) ENDFOR</p>
+<p>Explaining the code</p>
+<p>The first two lines of the above code simply set our working directories. The source tables are in the incoming directory. The outgoing directory contains an empty table structure - all_usda.dbf - that will become the USDA database for the entire country. (NOTE: This code assumes that the structures of your individual source tables are the same. If not, you could lose data when you append them.)</p>
+<p>The third line opens the table structure (all_usda.dbf) into which we will be appending.</p>
+<p>The fourth line is where ADIR() comes into play. The function can handle up to three arguments, though in this case we only use two: temparray and gcSourceDir + &#39;*.dbf&#39;</p>
+<p>The first argument (temparray) is simply the name of the array that will contain the file names, sizes, dates, times and attributes. In this example, the array did not exist, so FoxPro created one that we named temparray. If the array did exist, FoxPro would have modified the size of the array so that the information would fit.</p>
+<p>The second argument (gcSourceDir + &#39;*.dbf&#39;) tells FoxPro to look in the source directory and put all the files with a .dbf extension into our array. With all of the file names and attributes stored in this temporary array, we are ready to append the source tables into the outgoing table.</p>
+<p>In the fifth line, we select the outgoing table (all_usda.dbf). Next, we need to tell the program to go through the array one row (or one file name) at a time. This is why the FOR ENDFOR loop is used. In the loop, the &#39;i&#39; is the counter variable that keeps the loop going. So that it begins with the first file name in the array, we set it to 1. (ALEN(temparray, 1)) tells FoxPro to continue the loop until it hits the end of the array. The &#39;1&#39; in the ALEN function makes sure that we are counting the number of rows in the array (which will be the same as the number of file names).</p>
+<p>Finally, in the seventh line, we append the source tables into the outgoing table (all_usda.dbf). The last part of that line - (temparray(i,1)) - is important. The (i,1) singles out the first column in temparray, which, in the case of an ADIR() array, will always be the name of the file. As we loop through the array, we are telling FoxPro to keep appending the source tables until it reaches the end of the array.</p>
+<p>Justin Mayo can be reached by email at justin@nicar.org.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-may-cheating-at-foxpro.html">Cheating at FoxPro</a>
+  <span class="similar-meta">May 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-april-foxpro-wrote-me-a-letter.html">FoxPro wrote me a letter</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-april-foxpro-to-access-and-back-again.html">FoxPro to Access and back again</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-march-cleaning-tables.html">Cleaning tables</a>
+  <span class="similar-meta">March 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-january-use-foxpro-to-document-a-table.html">Use FoxPro to document a table</a>
+  <span class="similar-meta">January 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-october-gleaning-cleanliness.html" class="article-nav__prev">← Gleaning cleanliness</a>
+  <a href="/uplink/article/1998-october-database-library-additions.html" class="article-nav__next">Database Library additions →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

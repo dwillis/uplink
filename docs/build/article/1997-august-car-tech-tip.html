@@ -26,16 +26,44 @@
     <h1>CAR Tech Tip</h1>
     <div class="article-byline">
       <span class="author">Richard Mullins</span>
-      <span class="author-title">NICAR</span>
+      
       <span class="date">August 1997</span>
     </div>
-    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
   </header>
 
   <div class="article-summary"><p>This column demonstrates how to use string functions in Access to split fields, building on similar techniques previously covered for FoxPro, a practical skill for anyone working with databases.</p></div>
 
   <div class="article-body">
-    <p>This column will go over the same ground as an earlier column - how to use string functions to split a field - but with the functions and commands used in Access instead of FoxPro, If you work with databases for very long, you will face the question,</p>
+    <p>CAR Tech Tip</p>
+<p>Splitting up isn&#39;t hard to do</p>
+<p>By Richard Mullins NICAR</p>
+<p>This column will go over the same ground as an earlier column - how to use string functions to split a field - but with the functions and commands used in Access instead of FoxPro.</p>
+<p>If you work with databases for very long, you will face the question, &quot;How do I split apart a field?&quot;</p>
+<p>If your search for help leaves you with a half-dozen offers of &quot;I don&#39;t know Access. I like FoxPro better. I can show you how to do it FoxPro,&quot; then there&#39;s this month&#39;s column. It&#39;s not person-to-person, but you can tape it to your monitor.</p>
+<p>Little difference</p>
+<p>The differences between FoxPro and Access are not all that great, especially if you think about it right. You probably don&#39;t need anyone else telling you how to think, but that&#39;s OK because I might not do a very good job and so no harm will be done.</p>
+<p>Here is one way to state what&#39;s needed to solve the problem: You need to understand the three FoxPro functions, left (), at (), and substr ()</p>
+<p>Here is a better way to state what you need to know. You need to understand that all database programs have a way to look at strings and:</p>
+<p>1) Pluck out a certain number of characters starting from the left, or from anywhere in the string.</p>
+<p>2) Locate the position of a certain character.</p>
+<p>To illustrate the solutions, I&#39;ll assume a table called Contribs with the original field called name, which contains a last name, then a comma, then the rest of the name: the first name, and perhaps middle name or initial. There are two new columns called last and rest.</p>
+<p>The examples will be in SQL, which you can type into the SQL view of an Access query.</p>
+<p>One of the benefits of SQL being the lingua franca of databases is you can pass along plain text of a query and not have to describe the specific screen of a specific database program. Last month&#39;s column presented the FoxPro/Access-SQL versions of updating columns and deleting rows.</p>
+<p>Following the usual typographic convention, the SQL words are all caps. The string function words are in italic, a departure from the usual convention.</p>
+<p>To split off the last name into the field called last.</p>
+<p>UPDATE Contribs SET last = Left (name, InStr (name, &quot;,&quot;)-1) WHERE (Len (name) &gt;0 AND name IS NOT NULL AND InStr (name, &quot;,&quot;) &gt; 0 )</p>
+<p>Now for the explanations: The function, instr (), which you can remember as being short for in-string, is the Access equivalent of the FoxPro function at (). These functions give the position of the comma within the field called name.</p>
+<p>To avoid taking the comma trailing the name, you subtract 1 from the number that indicates the comma position.</p>
+<p>Where conditions</p>
+<p>In SQL update queries, all rows are changed unless you include a WHERE condition. In this case, the WHERE statement tells Access to split all the name fields apart, but only if three conditions are true: 1) the field is not empty, 2) the field is not NULL, and 3) the comma can be found in the field.</p>
+<p>This is necessary in Access to avoid error messages that FoxPro would never trouble you with.</p>
+<p>I know that conditions one and two seem to be saying the same thing, but in Access, which is more precise than FoxPro in the way it deals with nothing, a field can be NULL or it can contain a string whose length is zero.</p>
+<p>To split off the rest of the name into the field called rest.</p>
+<p>UPDATE Contribs SET rest = Mid (name, InStr (name, &quot;,&quot;) +1) WHERE (Len (name) &gt; 0 AND name IS NOT NULL AND InStr (name, &quot;,&quot;) &gt; 0 )</p>
+<p>The Access function for going to any position within a string is mid. The FoxPro equivalent is substr().</p>
+<p>Again, we have to find the comma, but not put it in the destination field. So for the right split, we add 1 to the position of the comma.</p>
+<p>Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org</p>
   </div>
 </article>
 
@@ -47,20 +75,20 @@
   <span class="similar-meta">November 1992</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1992-october-tech-tips-foxpro-adds-a-new-dimension-to-sql.html">Tech Tips: FoxPro adds a new dimension to SQL</a>
-  <span class="similar-meta">October 1992</span>
+  <a href="/uplink/article/1996-december-lets-split.html">Let&#39;s split</a>
+  <span class="similar-meta">December 1996</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1992-january-news-and-observer-challenges-nc-for-access-to-public-information.html">News &amp; Observer challenges N.C. for access to public information</a>
-  <span class="similar-meta">January 1992</span>
+  <a href="/uplink/article/1997-march-tech-tip.html">Tech Tip</a>
+  <span class="similar-meta">March 1997</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1992-may-bytes-bits-and-nibbles.html">Bytes, bits and nibbles.</a>
-  <span class="similar-meta">May 1992</span>
+  <a href="/uplink/article/1998-february-converting-dates-in-access.html">Converting dates in Access</a>
+  <span class="similar-meta">February 1998</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/2001-novemberdecember-airport-insecurity.html">Airport Insecurity</a>
-  <span class="similar-meta">November/December 2001</span>
+  <a href="/uplink/article/1998-august-tech-tip.html">TECH TIP</a>
+  <span class="similar-meta">August 1998</span>
 </li>
   </ul>
 </aside>

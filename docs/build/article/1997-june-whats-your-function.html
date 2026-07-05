@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What&#39;s Your Function? — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>What&#39;s Your Function?</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      
+      <span class="date">June 1997</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article explains how to create User Defined Functions (UDFs) in FoxPro programming language, demonstrating the process with simple examples like noDot() and rSplit() functions that simplify common operations.</p></div>
+
+  <div class="article-body">
+    <p>The FoxPro programming language is composed of command and function words. You use these for simple interactive commands and for programs, simple and complex. It&#39;s also possible to combine the existing functions and command words, package and label them as a new function, then use that new function just like the built-in functions.</p>
+<p>This make-your-own-tool capability is a fundamental feature of most programming languages. I&#39;ll come back to the uses and advantages of making functions. First, let&#39;s make a really simple one.</p>
+<p>The first function we&#39;ll write doesn&#39;t really add anything new to FoxPro, though that&#39;s the usual reason for writing one. The function noDot() returns a string with all the periods stripped out. It&#39;s equivalent to, but shorter than the second command.</p>
+<p>*The function we&#39;ll write will be used like this: ? noDot (address)</p>
+<p>It is equivalent to: ? strtran (address, ) Example code FUNCTION noDot Parameters cString RETURN strtran ( cString, )</p>
+<p>That&#39;s it. Type three lines, save it, and you have a new function for FoxPro. The manual calls them UDFs, or User Defined Functions. The next function we&#39;ll write doesn&#39;t add anything new to FoxPro either, but a handy substitute for its hard-to-memorize-and-type equivalent.</p>
+<p>The function rSplit() returns the part of a string that&#39;s on the right side of a separating character.</p>
+<p>The function we&#39;ll write will be used like this: ? rsplit (name) It is equivalent to: ? substr (name, at name) )</p>
+<p>This one is a bit more complicated. Also, we&#39;ll write it in several passes, adding and explaining features, improvements along the way.</p>
+<p>First version FUNCTION rSplit</p>
+<p>parameters cString nSplitPos = at (&#39;,&#39; , cString) RETURN alltrim (substr (cString, nSplitPos + 1</p>
+<p>Most of the time, the comma is the separating character in the string we want to split. Our function, as written, assumes that. However, if we want to use this function to split apart a string based on another character, we&#39;d have to edit the code to change the quoted character in the second line, where the at() function finds its location.</p>
+<p>When we were done with that odd, special case, we&#39;d have to remember to change the code back to the original version, which assumed a comma as the separator.</p>
+<p>Our second revision makes a better way of doing this: When calling the function, we specify the string to split and the separating character.</p>
+<p>Second version: add a parameter for separator FUNCTION rSplit *usage: rSplit (name, ) parameters cString, cSeparator jnsplitPos = at (cSeparator, cString) RETURN alltrim (substr (cString, nSplitPos + 1</p>
+<p>But this still isn&#39;t as smart as it should be. We know that most of the time, the comma is the separating character; our function should reflect that. So we&#39;ll make the comma the default choice, unless another separating character is supplied to the function.</p>
+<p>We can handle this default-or-optional feature if we can tell the function to find out how many parameters were passed to it. That&#39;s what the parameters() function does: counts how many parameters were supplied to the current function. If rSplit() has two parameters supplied to it, then a separating character has been explicitly defined. If it has one parameter, that means the function has to explicitly fill in what we let the user imply: the separator is a comma.</p>
+<p>Third version: make separator DEFAULT to a comma FUNCTION rSplit usage: rSplit (name) rSplit (offenses, parameters cString, cSeparator if parameters ( ) = 1 cSeparator = &#39;i&#39; endIF</p>
+<p>nSplitPos = at ( cSeparator, cString) RETURN alltrim (substr ( cString, nSplitPos + 1 * end of rSplit ( )</p>
+<p>The function seems perfect now: It&#39;s as smart and simple as it can be. Still, we&#39;re going to make one more improvement.</p>
+<p>It may not even seem like a real improvement or a necessary one. It probably seems a bit arcane an attempt to guard against the improbable.</p>
+<p>I&#39;m assuming three things about programs: 1) Nothing is improbable. 2) If the improbable happens, make sure that either there is no damage or there is a graceful way out. 3) The last improvement involves a significant programming concept.</p>
+<p>Inside this function we are creating a new variable, nSplitPos, by assigning a value to it. We want to be able to use this new function in any new or old FoxPro script we create and we have to ensure that there are no surprises.</p>
+<p>We may think that it is not very likely that there is a variable with the name nSplitPos already alive and working somewhere else in the currently running FoxPro script.</p>
+<p>But if there were already such a variable, the assignment statement in our function would overwrite the current value held by nSplitPos.</p>
+<p>Anytime your code does something you didn&#39;t intend or, worse, weren&#39;t even aware of, that&#39;s bad. While it may not be immoral, it can cause you real grief trying to find and fix the damage.</p>
+<p>To make sure our function couldn&#39;t possibly interfere with any other variables, we&#39;ll add the statement:</p>
+<p>private inSplitPos</p>
+<p>This hides any other variables outside the function so it can&#39;t interfere with them.</p>
+<p>Fourth version: make sure variables created by the function do not clash with any others.</p>
+<p>FUNCTION rSplit parameters cString, cSeparator private nSplitPos if parameters ( ) = cSeparator = &#39;,&#39; endIF nSplitPos = at (cSeparator, cString) RETURN alltrim (substr (cString, nSplitPos + 1 * end of rSplit ( ) Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-november-unraveling-those-mysterious-string-functions.html">Unraveling those mysterious string functions</a>
+  <span class="similar-meta">November 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-december-lets-split.html">Let&#39;s split</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-march-tech-tip.html">Tech Tip</a>
+  <span class="similar-meta">March 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-june-a-more-perfect-union.html">A more perfect union</a>
+  <span class="similar-meta">June 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-augustseptember-programming-as-easy-as-sql.html">Programming? As easy as SQL</a>
+  <span class="similar-meta">August/September 1993</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1997-june-rigging-the-results.html" class="article-nav__prev">← Rigging the Results</a>
+  <a href="/uplink/article/1997-june-must-have-sites.html" class="article-nav__next">Must-have sites →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

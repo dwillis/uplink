@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapping conversions — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Mapping conversions</h1>
+    <div class="article-byline">
+      <span class="author">Andy Lehren</span>
+      <span class="author-title">Technology reporter</span>
+      <span class="date">December 1999</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>A tech guide explaining how to properly convert latitude and longitude data from degrees/minutes/seconds format to decimal degrees for use in mapping programs, with practical examples and SQL formulas.</p></div>
+
+  <div class="article-body">
+    <p>Earlier this year I was on the phone with a government official, asking about some of the undocumented features that came with one of his agency&#39;s databases. What came next was right out of the &#39;Blues Brothers&#39; movie. It&#39;s the scene where Elwood asks a waitress, &quot;What kind of music do you usually have here?&quot; She replies, &quot;Oh, we&#39;ve got both kinds we&#39;ve got country and western.&quot; I asked him how the agency recorded latitude and longitude. He replied, &quot;We keep it in latitude and longitude.&quot; OK, so maybe that&#39;s funny only if you&#39;re nerdy. But you are reading Uplink. And a Tech Tip at that. I took another stab at my question: do you keep latitude and longitude in degrees or decimal degrees? The wrong answer could put a town like Halifax Estates, Fla., about 25 miles into the Atlantic Ocean. And we wouldn&#39;t want to do that to Halifax Estates. There are lots of government databases that come with latitude and longitude fields. That means there&#39;s an opportunity to map your data, and find trends you could not catch without a GIS program like MapInfo or ArcView.</p>
+<p>Questions to ask</p>
+<p>When you get a database like this, there are a few questions you should ask. With national databases, it should be pretty obvious whether the data is in degrees or decimal degrees. But it may be harder to tell with certain local data just by looking at it. So ask. Here&#39;s the difference: We&#39;re all used to seeing globes, where zero degrees longitude goes through Greenwich, England, making it Y2K party central. And zero degrees latitude is also known as the equator, a belt running around the middle of our planet. Every time you move a degree along the equator, you&#39;re moving about 111,320 meters. Move about 74 degrees from Greenwich, England, and you&#39;re in line with New York.</p>
+<p>The tricky part is what happens when you&#39;re dealing with fractions of a degree. Degrees are divided into minutes and seconds. Sixty seconds makes a minute. Then sixty minutes makes a degree. Just like an hour on your watch.</p>
+<p>But mapping programs want latitude and longitude stored in decimal degrees. That&#39;s just like it sounds.</p>
+<p>Halifax Estates, Fla., is 80.98 decimal degrees from Greenwich, England. Go a couple hundredths more, and you&#39;re 81 decimal degrees away.</p>
+<p>Conversions</p>
+<p>Let&#39;s assume you have three columns of data: degrees, minutes and seconds. You want to keep degrees the same. Divide minutes by 60. That&#39;s dividing the minutes by the number needed to make a degree. Divide seconds by 3,600. That&#39;s dividing the seconds by the number needed to make a degree. In FoxPro, assuming all the fields are numeric, and longitude field is called x_long, the result would almost be a line like this: Replace all X_long with degrees + (minutes/60) + (seconds/3600). In Access, the update query would almost look like: Update MyTable set MyTable.x_long = degrees + (minutes/60) + (seconds/3600) We&#39;re almost done, but not quite. There&#39;s one more thing to do. In decimal degrees, a longitude west of Greenwich, England, in our hemisphere, is a negative number. A latitude above the equator is positive. Sometimes these are marked with a W or an N in databases. So make sure you multiply your North American longitudes by -1.</p>
+<p>Some mapping programs come with functions that allow you to do conversions before you attempt to map a database. But running data conversions in mapping programs can be painfully slow. Here&#39;s a quick way to let your database manager do the hard work fast.</p>
+<p>Andy Lehren works at -74.3833 longitude and 41.55 latitude and can be reached by e-mail at alehren@nbc.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-september-for-more-information.html">For more information:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-mapping-out-the-web.html">Mapping out the Web</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-november-december-mapping-the-census.html">Mapping the census</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-january-february-finding-files-for-mapping.html">Finding files for mapping</a>
+  <span class="similar-meta">January • February 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-may-slice-percents-right.html">Slice percents right</a>
+  <span class="similar-meta">May 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1999-december-drivers-records-access.html" class="article-nav__prev">← Drivers&#39; records access</a>
+  <a href="/uplink/article/1999-december-arcview-themes.html" class="article-nav__next">ArcView themes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

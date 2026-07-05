@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The dividing line — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>The dividing line</h1>
+    <div class="article-byline">
+      <span class="author">Matt Williams</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">May-June 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/demographics-census.html" class="badge">Demographics &amp; Census</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist uses GIS mapping and Census data to quantify racial segregation in Greensboro, North Carolina, revealing that the city is divided almost perfectly in half by race, with dramatically different retail and business presence on each side.</p></div>
+
+  <div class="article-body">
+    <p>Not long after moving to Greensboro more than a year ago, I realized that to buy groceries or clothes or see a movie, I always drove in the same direction: west. This, even though I lived right in the middle of downtown.</p>
+<p>Decades after the end of legal segregation, thousands of residents still did most of their shopping on the &quot;white&quot; side of town.</p>
+<p>It&#39;s the same problem I&#39;d hear often from minority residents of the east side of town: There just aren&#39;t as many places to shop in our part of town as there are in yours. The places we used to shop steadily closed and have been abandoned, while all the new stores open up on your side of town.</p>
+<p>But community leaders were never really able to quantify the sense shared by many that there was an inequity. Faced with this, I started to piece together the News &amp; Record&#39;s attempt to do that.</p>
+<p>Putting together the numbers was the easy part. Finding out the &quot;why&quot; was the challenge.</p>
+<p>I began by creating the base for my comparison, in this case block-level data from the 2000 Census. Using the smallest geographic level of Census data allowed us to see with ESRI ArcView 8.3 geographic information system (GIS) the patterns of racial distribution. We got the demographic and map data through the Census Bureau&#39;s Maps and Cartographic Resources Web site at http://tiger.census.gov.</p>
+<p>In ArcView, I joined the demographic data file, which includes population by race, to the Census blocks map. I then set the symbology properties to show the percentage of whites living in each block.</p>
+<p>Right away, the racial segregation was clear to the eye, with two major streets in the Census TIGER street file running diagonally through downtown delineating the two sides of Greensboro. We selected those roads as our &quot;dividing line.&quot;</p>
+<p>The western half of the city was home to a little less than two-thirds of the city&#39;s population and was 80 percent white. The eastern half was home to a little more than one-third of the total population and was 77 percent black - a virtual mirror image. Within those two there were large areas where the dominant ethnic group made up more than 95 percent of the residents.</p>
+<p>Before we even started, we had numbers that would surprise most of our readers. Like me, they might have assumed that the city was somewhat segregated but had no way of quantifying how much it is segregated. From there, I gathered names and addresses to place businesses of all types throughout the city. Some of the data was publicly available, such as the location of bank branches insured by the Federal Deposit Insurance Corporation. Those files can be found at http://www2.fdic.gov/idasp/main.asp. The rest were simply copied into Microsoft Excel spreadsheets one-by-one out of online phone directories. Those were then exported to comma-delimited text fields that were imported to ArcView.</p>
+<p>ArcView&#39;s geocoding function takes a table containing street address data and turns it into a point map using a street file, such as a Census TIGER street file, as a reference. We displayed each type of business with a different color, and we could display only banks or just grocery stores.</p>
+<p>After those businesses were geocoded, we created a simple tally of the number of locations on either side of the dividing line. Once we took population into consideration, it was easy to see the disparities. We obtained the population of each side of the city by selecting the Census blocks for each and using ArcView&#39;s summarize function to calculate a total.</p>
+<p>Per capita, there were half as many banks on the &quot;black&quot; side of town and a third fewer grocery stores. In other categories there was no contest: all of the 60 movie screens, eight urgent care centers and all but one major retailer were on the &quot;white&quot; side of town. If the movie screens were distributed evenly based on the population, there should be 40 on the west and 20 on the east.</p>
+<p>Fast-food restaurants and dry cleaners, which were also included in our analysis, showed roughly equal distributions. Pawn shops, check cashers and payday loans were skewed the opposite way. They were twice as common in minority neighborhoods as white ones.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2001-novemberdecember-deciding-boundaries.html">Deciding boundaries</a>
+  <span class="similar-meta">November/December 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-may-june-segregation-in-black-white-shades-of-gray.html">Segregation in black white, shades of gray</a>
+  <span class="similar-meta">May • June 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-november-december-mapping-the-census.html">Mapping the census</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-july-mapping-a-new-future-for-reporting.html">Mapping a New Future for Reporting</a>
+  <span class="similar-meta">July 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-april-power-to-the-people.html">Power to the people</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-may-june-readmetxt-2.html" class="article-nav__prev">← readme.txt</a>
+  <a href="/uplink/article/2005-may-june-tracking-hurricanes-path-to-the-coast.html" class="article-nav__next">Tracking hurricanes path to the coast →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

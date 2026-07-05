@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Perl-y gates — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>The Perl-y gates</h1>
+    <div class="article-byline">
+      <span class="author">Matthew Ericson</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">June 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>A programming competition demonstrates Perl&#39;s superior speed and efficiency for data parsing compared to VBScript, highlighting why Perl has become an essential tool for computer-assisted reporting and web development.</p></div>
+
+  <div class="article-body">
+    <p>Ok, it wasn&#39;t as thrilling as the chariot race in Ben Hur, but we found it exciting anyway. Tom Torok, then The Inquirer&#39;s Visual Basic guru, and I, a Perl fanatic, squared off to see whose programming language could most quickly parse a report into a tab-delimited format. The results, as reported by Torok to the NICAR mailing list: &quot;Matt Ericson and I just had a Perl vs. VBScript race on parsing a 130 meg report-form file into a tab-delimited file suitable for import into SQL Server.</p>
+<p>The outcome: Matt (and Perl) beat the pants off Torok (and VBScript). His Perl script parsed nearly 750,000 records in less than half the time (with less than half the code.)</p>
+<p>Programmers discovered Perl was a great language to use when creating dynamic web pages - it&#39;s also a great tool for cleaning up data in computer-assisted reporting.</p>
+<p>I&#39;m not only sold, but I also have to dress like a chicken for a week.&quot;</p>
+<p>Perl - &quot;Practical Extraction and Report Language&quot; or &quot;Pathologically Eclectic Rubbish Lister&quot; - is a programming language foreign to most users of Microsoft Windows. It started as a utility to read text files and produce reports on Unix-based computer systems. With the growth of the World Wide Web, programmers discovered it was a great language to use when creating dynamic Web pages.</p>
+<p>Here&#39;s a few reasons it works so well:</p>
+<p>It&#39;s also a great tool for cleaning up data in the computer-assisted reporting world.</p>
+<p>Quick, free and competent</p>
+<p>Perl has a wide range of built-in functions for dealing with data in many formats-fixed-width text files, delimited text files, queries from databases - and then dealing efficiently with the data. You don&#39;t have to worry about whether you&#39;ve defined your variables as the right types - all variables are the same type in Perl - so you can use the same variable once as a number and later as a string. Perl doesn&#39;t care - it converts it transparently. A string that grows longer than 255 characters? Perl will expand it on the fly. The same goes for arrays - they can grow as big as needed. And while it&#39;s not as fast a language as C, it more than holds its own with Visual Basic. And, unlike C, you can write useful, short programs quickly and easily. Plus, it&#39;s free. How can you beat that? (Download it from www.perl.com.)</p>
+<p>Data in many ways</p>
+<p>Perl has myriad ways to read data in text files. By default, it reads line-by-line. But if a record spans multiple lines, you can change the end-of-record delimiter. Or, read the whole file in one fell swoop.</p>
+<p>Is the data tab-delimited? Then use Perl&#39;s split function to break a record into its respective fields.</p>
+<p>Delimited by something other than tabs? The split will handle that, too. Just tell it what character (or characters) is the delimiter.</p>
+<p>Is the data fixed-width? Use the unpack function to pull it apart.</p>
+<p>Perl has drivers to access most types of databases. There are drivers for Microsoft SQL Server, Oracle, Sybase and others.</p>
+<p>Plus, if you&#39;re using Perl on Microsoft Windows, you can use ODBC and ADO just like you can in Visual Basic (with a few slight syntax changes). And, with SQL Server, Perl is an option for writing Data Transformation Services scripts.</p>
+<p>Powerful search and replace</p>
+<p>Perl&#39;s strongest feature is its use of &quot;regular expressions,&quot; a fancy Unix term for an extremely powerful search-and-replace mechanism.</p>
+<p>Unlike most programs, where search-and-replace means searching for a word and replacing with another word, regular expressions let you search for patterns of characters.</p>
+<p>It can, for example, find a pattern of 2 digits followed by a letter and then use pieces of that search in the replacement - taking that letter and putting it before the 2 digits, for example.</p>
+<p>Powerful associative arrays</p>
+<p>Another unusual Perl feature is its associative arrays - arrays that are indexed off of a string, rather than a number.</p>
+<p>Most programming languages let you store data in arrays: you put one piece of data in the first element of the array, another piece of data in the second element, and so on. Associative arrays, also called &quot;hashes,&quot; are arrays that are indexed not on integers, but on arbitrary string values.</p>
+<p>Associative arrays: For example, the array here is what you might store in an array named &quot;color:&quot; $color{&quot;apple&quot;} = &quot;Red&quot;; $color{&quot;banana&quot;} = &quot;Yellow&quot;; $color{&quot;grape&quot;} = &quot;Purple&quot;; If you are accessing a database of fruit, you can find the color of the fruit by looking in the associative array. If the current record in the database is for an apple, and has a field named name_of_fruit, then $color{$name_of_fruit} will return &quot;Red.&quot;</p>
+<p>Associative arrays let you build lookup tables on the fly, and you can also use associative arrays to count things. If you are parsing a text file containing street addresses, you can keep track of how often a street appears in the file by adding 1 to the array for each street name:</p>
+<p>($count{$street} = $count{$street} + 1) When you&#39;re done with the file, to find out how often Broad Street appeared, print out $count{&#39;BROAD STREET&#39;}. Sure, it&#39;s not going to replace Group By queries in SQL, but for quick-and-dirty counting, it can&#39;t be beat.</p>
+<p>It flies on the Web</p>
+<p>Many of the same functions that make Perl superb for data manipulation also make it a great language for generating dynamic Web pages. On Microsoft Windows computers, Perl can be embedded in Active Server Pages just like VBScript. Plus, you get access to all of the ASP objects - the Request objects to let you process data from an HTML form, the Server objects to open connections to ODBC and ADO databases, and so forth.</p>
+<p>The bad news</p>
+<p>What&#39;s the catch? The most intimidating thing to Perl newcomers is its cryptic syntax. If you&#39;ve grown up with C and Unix utilities, Perl will seem right at home. However, if you&#39;re coming from a DOS and Visual Basic background, the abundance of strange characters - all those tildes, curly braces, carets, slashes, backslashes and so forth be downright befuddling. You end up with commands such as: foreach $a @data ) { $a s/^ +//; This makes perfect sense to Perl programmers, but resembles nothing you ever saw in Visual Basic. (FYI: that command removes any extra spaces from the start of each element in an array.) It&#39;s worth it, though. Take the time to learn Perl and soon you&#39;ll find yourself cringing when someone suggests you write a script or Web page in Visual Basic. (Especially when you find that one-line Perl script can sometimes do more than 20 lines of VB.)</p>
+<p>More resources:</p>
+<p>For beginners using Microsoft Windows systems, Learning Perl on Win32 Systems, by Randal L. Schwartz, offers a good place to start. It&#39;s published by O&#39;Reilly and Associates. The bible of the language, Programming Perl, was written by Larry Wall, the language&#39;s creator, and is probably the most complete guide to the language. Also published by O&#39;Reilly, it&#39;s commonly known as &quot;the camel book&quot; because of the picture of the camel on the cover. Compared to Learning Perl, it&#39;s less of a tutorial and more of a reference manual. While it assumes some Unix familiarity, it&#39;s still excellent for users who haven&#39;t used Unix.</p>
+<p>Matthew Ericson can be reached by e-mail at mericson@phillynews.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2004-september-october-scaping-for-data-the-perl-way.html">Scaping for data the Perl way</a>
+  <span class="similar-meta">September • October 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-parsing-nightmare.html">Parsing nightmare</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-julyaugust-more-on-perl.html">More on Perl</a>
+  <span class="similar-meta">July/August 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-september-october-scraping-away-for-useful-data.html">Scraping away for useful data</a>
+  <span class="similar-meta">September • October 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-october-programs-for-parsing.html">Programs for parsing</a>
+  <span class="similar-meta">October 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-june-exposing-flaws.html" class="article-nav__prev">← Exposing flaws</a>
+  <a href="/uplink/article/2000-june-fronts-for-forms.html" class="article-nav__next">Fronts for forms →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

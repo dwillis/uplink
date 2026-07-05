@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL Server pays off — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>SQL Server pays off</h1>
+    <div class="article-byline">
+      <span class="author">David Heath</span>
+      
+      <span class="date">July/August 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>SQL Server is a powerful database solution for journalists and computer-assisted reporters that can handle large datasets and networked data access far better than Access, eliminating the need for tedious data transfers and enabling efficient remote querying.</p></div>
+
+  <div class="article-body">
+    <p>SQL Server pays off</p>
+<p>Here&#39;s a data nightmare. You&#39;re on deadline and you need to do an analysis of on-the-job deaths. You&#39;ve got OSHA&#39;s workplace safety data - so that&#39;s good - but the data&#39;s kept on four CD&#39;s. It takes you an hour just to copy the data to your hard drive. Then you discover that if you combine all the data into a single two-gigabyte table, Access chokes. You have no choice but to break it up. What you thought would be a simple question - how many deaths has OSHA investigated in the past 25 years? - takes you all day to answer. And that&#39;s just the start. There&#39;s a simple way to avoid situations like this: Use SQL Server.</p>
+<p>SQL Server is high-powered database software from Microsoft that, as the name suggests, works on a server over a network. You can use the software without a server, but you lose many of the benefits that way. While I don&#39;t have personal experience with this, I assume that you could get the same benefits from other server-client software such as Oracle or Informix.</p>
+<p>SQL Server has gained a reputation in newsrooms as a great tool for putting databases on an Intranet. In fact, it&#39;s also great for the kind of slicing and dicing of data that CAR folks do all the time. I have hardly touched Access or FoxPro in the last three years. There are many reasons for this, the chief one being that I haven&#39;t needed to.</p>
+<p>Here&#39;s why:</p>
+<p>SQL Server can handle a terabyte of data, so I&#39;ve never come close to seeing it choke. Access cannot handle anything exceeding a gigabyte, which is not a lot these days and can be quite frustrating.</p>
+<p>Your data is always warm. By keeping it on a server, you no longer have to waste time copying from a CD or restoring from a backup tape. As I was writing this, a reporter asked me to search for a name in several different databases. I was able to do it in less than five minutes because the data was ready to go.</p>
+<p>Because the server is doing most of the work, my computer isn&#39;t tied up when I&#39;m doing queries. In fact, I can run several queries at once and still be free to do other things on my computer while I&#39;m waiting for the results.</p>
+<p>SQL Server doesn&#39;t have as many point-and-click features for doing queries, which means you have to master SQL. But one advantage is that you can easily connect to a SQL Server database with Access or FoxPro and use their mouse-friendly querying tools. You can also easily import data directly into SPSS through what&#39;s called an ODBC connection. They are easy to create.</p>
+<p>That means that you can set up any reporter on the network to do queries directly from SQL Server in Access. And you can do analysis from any PC on the network. You don&#39;t have to worry about copying data from one machine to another.</p>
+<p>If your server is on the Internet, you can do queries from any computer on the Internet. You could go home, log onto America Online, open up Access and, with an ODBC connection, do queries on data kept in the office. The data is password protected, so it&#39;s secure.</p>
+<p>Intranets</p>
+<p>On top of all that, SQL Server is in fact a great tool for putting databases on the Intranet. Here&#39;s my routine:</p>
+<p>When I get any data, I automatically &quot;upsize&quot; it to SQL Server, which is no more difficult than importing the same data into Access. As always, I index the fields I&#39;m going to be querying. Then I&#39;m ready to go.</p>
+<p>If the data have people&#39;s names in it or may be of interest to others, I create a view and put it on our Intranet. The view simply creates a facade that converts field names and codes into plain English. To create search pages on the Web, I&#39;ve used Uniquery and Cold Fusion. Both work great because they require no programming. Who has time to become a Web developer?</p>
+<p>(This could be the subject of a separate article, but the big advantage of Uniquery is that it allows you to search all databases at once or individually. The big advantage of Cold Fusion is that you can easily customize the search page.)</p>
+<p>If you are especially ambitious, a la Tom Torok at The New York Times, you can use SQL Server 7.0&#39;s advanced features, such as English query. This allows users to ask questions in plain English, such as &quot;How many firefighters were paid overtime last year?&quot; SQL Server converts that to an SQL statement, such as &quot;select count(occupation) from payroll where overtime &gt; 0 and year = &#39;1999&#39; and occupation = &#39;Firefighter&#39;&quot;.</p>
+<p>SQL Server 7.0 also allows for full-text indexing, which means that you can search for a word or words in a field of text. That&#39;s much faster than using a simple LIKE query.</p>
+<p>What you need</p>
+<p>SQL Server is insatiable when it comes to memory and space. You also need to learn how to create an ODBC connection. With your mouse, click Start Settings Control Panel ODBC Data Sources Add SQL Server. Then type in a name, type in the name of the server, click on Next, choose either NT authentication or a password, click on Next, change the default database, click on Next and then on Finish.</p>
+<p>What do you need to make SQL Server work? You can install it on your personal computer. But to get all the benefits I&#39;ve mentioned, you really need a nice Windows NT server - one with at least 500 megabytes of memory and 96 gigabytes of disk space.</p>
+<p>The biggest downside to using SQL Server is that to get full benefit from it, you really need to master SQL. The good news is that there&#39;s not a steep learning curve. Once you&#39;ve gotten SELECT, UPDATE, CREATE TABLE, and INSERT down, you will be able to do almost any query with it. Also, you can use the SQL you learn in Access or FoxPro. The challenge of learning SQL Server pays off, because you can use it for any database need you have. You can slice and dice. You can query data that&#39;s ready to go. You can connect data savvy reporters with Access. And you can make the data available to everyone via the Intranet. The software is specifically designed to work efficiently with multiple users. So why bother with anything else?</p>
+<p>David Heath can be reached by e-mail at dheath@seattletimes.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-october-foxpro-adds-a-new-dimension-to-sql.html">FoxPro adds a new dimension to SQL</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-clientserver-solutions.html">Client/server solutions</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-june-what-does-it-take-to-run-a-successful-computer-assisted-reporting-program.html">What does it take to run a successful computer-assisted reporting program?</a>
+  <span class="similar-meta">June 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2007-marchapril-tracking-cotton-subsidies-and-learning-sql-server-on-the-fly.html">TRACKING COTTON SUBSIDIES AND LEARNING SQL SERVER ON THE FLY</a>
+  <span class="similar-meta">March/April 2007</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-julyaugust-eliciting-change.html" class="article-nav__prev">← Eliciting change</a>
+  <a href="/uplink/article/2000-julyaugust-hidden-costs.html" class="article-nav__next">Hidden costs →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

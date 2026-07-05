@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning to play the Access numbers game — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Learning to play the Access numbers game</h1>
+    <div class="article-byline">
+      <span class="author">MaryJo Sylwester</span>
+      
+      <span class="date">January • February 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>This technical tip explains how to choose and configure numeric field types in Microsoft Access to ensure data like decimals and percentages are stored accurately.</p></div>
+
+  <div class="article-body">
+    <p>You&#39;ve created a table in Microsoft Access, and you set the data type as number. But every time you type &quot;1.6,&quot; it puts &quot;2&quot; in the field. This happens because the field properties need to be configured correctly. When you create a field for numeric values, you need to set the Data Type (Text, numeric, date/time, etc.) and Field Properties (Field size and decimal places). If you need whole numbers, choose between Byte (1-255), Integer (-32,768 to 32,768), or Long Integer (up to 2 billion).</p>
+<p>For numbers with decimals, use Single (up to three decimal places) or Double (more than three). Unless you are a rocket scientist, you&#39;ll be fine with Single. Specifying the number of decimal places is important because reducing the display also rounds the stored value. If you have numbers like ZIP codes where you don&#39;t want to do calculations, set the Data Type to Text. Access also has pre-set types for Currency and Percentage.</p>
+<p>Setting as Percentage: If you have a field with percentages in decimal format (such as 0.50 for 50 percent), you can set the Data Type as Number and the Format to Percent.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-february-converting-dates-in-access.html">Converting dates in Access</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-april-foxpro-to-access-and-back-again.html">FoxPro to Access and back again</a>
+  <span class="similar-meta">April 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-september-todays-top-10-list.html">Today&#39;s Top 10 list</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-october-getting-access-for-stories.html">Getting Access for stories</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-january-february-setting-up-stocking-your-data-warehouse.html" class="article-nav__prev">← Setting up, stocking your data warehouse</a>
+  <a href="/uplink/article/2005-january-february-readmetxt.html" class="article-nav__next">readme.txt →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

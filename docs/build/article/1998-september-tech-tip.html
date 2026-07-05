@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECH TIP — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>TECH TIP</h1>
+    <div class="article-byline">
+      <span class="author">Carl Neiburger</span>
+      
+      <span class="date">September 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article provides a detailed technical guide for converting GIS maps created in ArcView into publishable formats using Freehand and the shareware program epsConverter.</p></div>
+
+  <div class="article-body">
+    <p>It&#39;s great to be able to use a GIS program to turn data into a map that you can display on your computer but it&#39;s much nicer to be able to share the results with your readers.</p>
+<p>Unfortunately, the process of turning a viewable GIS map into a publishable map is anything but easy. It is possible, though, using View 3.0 and Freehand version 7.0 or 8.0, plus a small Mac shareware program called epsConverter.</p>
+<p>Before exporting</p>
+<p>Before I export ArcView maps, I make sure that:</p>
+<p>Only the themes I need are turned on. Otherwise, ArcView will export unnecessary - and possibly confusing - data. I&#39;ll have to spend a lot of time later deleting it. Every feature is a unique color or color blend - either line color or fill color. It doesn&#39;t matter which color is which as long as it is unique. After I export the file, I can change the colors to whatever I want. Objects shown as lines, such as rivers and roads, are simple (single) lines, not filled lines, dotted lines or patterned lines. If the map uses symbols, they are made with simple geographic shapes, such as circles or squares. All text labels are deleted. If they are not, ArcView will convert them on export to *paths* that will have to be deleted.</p>
+<p>A suitable map projection is chosen. To do this, I pull down View Properties and select the Projection button. I can select from at least one projection for every state or from several projections of the continental United States.</p>
+<p>After this, I use File Export and select NEW EPS to save the view. (While ArcView has an option to export to Adobe Illustrator format, it has a bug that renders it useless.) I use a network drive to move it to a Mac, but I could also export it by copying the file to a PC diskette and then inserting the diskette into a Macintosh.</p>
+<p>After exporting</p>
+<p>Neither Freehand nor Illustrator can directly open the EPS file created by ArcView.</p>
+<p>But epsConverter, a $25 Macintosh shareware program, will convert it into a form that both programs can use. epsConverter is available from http://users.aol.com/AvtAge or ftp://users.aol.com/ArtAge.</p>
+<p>To use epsConverter, I drag the EPS file onto the epsConverter icon. If my original file was called MYMAP.EPS, epsConverter creates a new file in the same directory called MYMAP.EPS.art.</p>
+<p>Freehand requires lots of memory to handle an EPS file from ArcView, so I generally quit all other Mac applications, select the Freehand program icon and hit Control-I. I then boost the memory up as far as I can - to about 50 megs. (If you can&#39;t do this, and if Freehand gives you out-of-memory errors when opening the file, try opening it first in Adobe Illustrator and saving it in Illustrator 5.0 format. Freehand should be able to open the Illustrator file.)</p>
+<p>Once I open the file in Freehand, I have to alternately ungroup the map and cut its contents twice before all the pieces are free. Then I go to the Xtras menu and Colors Name All Colors. Naming all the colors lets me do two things:</p>
+<p>I can use the graphic search function to select groups of items by color. If I made all the roads red before exporting them from ArcView, I can search for every red line to find all the roads. I can change colors en masse. If I want all the oceans and lakes to be our approved map water color, I just drag the official water color to the right place on the Colors information box.</p>
+<p>Too much information</p>
+<p>Once I&#39;ve done this, I still have a lot of work to do turn the map into a publishable product. ArcView EPS files typically have thousands of extra data points that could choke an EPS printer. I use the Extras Path operations Union and Extras Cleanup Simplify functions to join lines and polygons together and to eliminate as much garble as possible.</p>
+<p>Sometimes, I simply draw new roads by retracing ArcView&#39;s lines. It&#39;s the fastest thing to do.</p>
+<p>When it comes to map symbols, the job is easy: I copy whatever symbols are on the map (remember, I only used simple ones, like squares and circles) and paste them into the &quot;From&quot; side of Freehand&#39;s find-replace-shape tool. I then paste a replacement shape into the &quot;To&quot; side and press the &quot;Change&quot; button.</p>
+<p>Working with polygons is harder. Sometimes, ArcView exports what should be a single polygon as a group of splinters. I have to use the join function to reunite them. It often takes Freehand a lot of time to do this. When adjacent census tracts are the same color, I&#39;ll frequently join them.</p>
+<p>Depending on how complex the map is, the process can take anywhere from an hour to several days. I recently worked three days on a series of five U.S. maps showing health data derived from the 1998 Dartmouth Atlas of Health Care.</p>
+<p>But the result was well worth it: Our readers were able to look at the maps, see for themselves what the story was talking about, and draw their own conclusions.</p>
+<p>Carl Neiburger can be reached at (408) 920-5874 or by email at cneiburger@sjmercury.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-april-safety-through-gis.html">SAFETY THROUGH GIS</a>
+  <span class="similar-meta">April 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-atlas-gis-has-site.html">Atlas GIS has site</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-pick-a-mapping-program.html">Pick a mapping program</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-january-february-finding-files-for-mapping.html">Finding files for mapping</a>
+  <span class="similar-meta">January • February 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-september-crimes-of-the-week.html" class="article-nav__prev">← CRIMES OF THE WEEK</a>
+  <a href="/uplink/article/1998-september-on-the-internet.html" class="article-nav__next">ON THE INTERNET →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

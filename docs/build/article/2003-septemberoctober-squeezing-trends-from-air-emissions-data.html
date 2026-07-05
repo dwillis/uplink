@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squeezing trends from air emissions data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Squeezing trends from air emissions data</h1>
+    <div class="article-byline">
+      <span class="author">Russell Clemings</span>
+      
+      <span class="date">September/October 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Journalists investigating air pollution trends in California&#39;s Central Valley discovered that standard statistical methods like linear regression fail with seasonal data, so they adopted a 365-day moving average to reveal long-term patterns that would be understandable to readers.</p></div>
+
+  <div class="article-body">
+    <p>Even the experts can&#39;t agree on the best way to find long-term trends in air pollution data. But we had to figure something out for our &quot;Last Gasp&quot; project, which made the point that air pollution was worsening in parts of California&#39;s Central Valley even as it improved in Los Angeles.</p>
+<p>Here&#39;s what we did. Our data came from California&#39;s Air Resources Board, which offers a free CD with data, maps and a nifty interactive program for displaying both. The board has a Web site (www.arb.ca.gov/aqd/aqdcd/aqdcd.htm) with downloadable hourly monitoring data back to 1980.</p>
+<p>Most of the data is in dBASE files that can be imported into Microsoft Access with a couple of keystrokes. From there, you can construct queries to extract data for a single monitoring station (station ID numbers and locations are in a separate file) and export the resulting data to Excel.</p>
+<p>The files have readings for a dozen pollutants, presented more than 20 different ways. Unfortunately, the raw data is just a jumble of numbers. Even if you scanned the entire file from top to bottom, it would be impossible to figure out the trend.</p>
+<p>You can use the Excel Chart Wizard to create, for example, a line graph for the date and one-hour ozone levels, but even that doesn&#39;t help much.</p>
+<p>Because ozone is a summertime pollutant, the levels are high in the summer and approach zero in the winter. If you eyeball the graph, it looks as if the summertime peaks are edging upward, but it&#39;s hard to say for sure.</p>
+<p>What we needed was a way to boil down these peaks and valleys to a long-term trend.</p>
+<p>One of the ways that statisticians find patterns in data is to do a linear regression, and Excel fortunately has a built-in way to add a regression line to the chart we built. After you&#39;ve finished the chart, just right-click on the data line and click Add Trendline, and you can lay down a nice, clean regression line over the data.</p>
+<p>Doing that may show what appears to be a long-term rising trend in the data. There&#39;s just one thing wrong: As any competent statistician will tell you (and lucky for us, one did), a simple linear regression doesn&#39;t work with data that involves a time series like this one. The seasonal pattern in this data is so strong that it overwhelms any other pattern that a regression analysis might show you.</p>
+<p>This problem is not unique to air pollution data. Economists run into it when they&#39;re studying things like retail sales, which rise and fall with the calendar. And there are tools available for dealing with it, such as the Census Bureau&#39;s X-ARIMA model. But even if you have the intellectual capacity to use something like that, you&#39;re still left with a significant problem - explaining it to your readers. Just saying, &quot;Trust me, my computer says there&#39;s a trend here&quot; probably isn&#39;t the best approach.</p>
+<p>Here&#39;s another alternative: A 365-day (or annual) moving average. It&#39;s not too hard to explain: for each day, it&#39;s just the average of the past year&#39;s daily values. That&#39;s why it&#39;s called a &quot;moving&quot; average. If today is June 5, 2003, then the 365-day moving average for today is the average of all daily values from June 6, 2002 through today. Tomorrow&#39;s 365-day moving average, in turn, would be the average of daily values from June 7, 2002 through June 6, 2003.</p>
+<p>Here&#39;s how you write a formula to get that from Excel. Suppose you have date labels in column A and data for several years in column B. Calculate the first annual average in cell C366 with this formula: =average(b2:b366</p>
+<p>Copy that formula down and graph the result, and you can say with some confidence that the 1990s saw one-hour daily ozone peaks decline edge upward or downward, or remain about the same, depending on the data. The above chart shows contrasting trends (using the 365-day moving average) at two stations - one in southern California that is declining and one in the San Joaquin Valley near Fresno that is rising somewhat.</p>
+<p>At this point in our reporting, we are ready for quality control. When we did this in real life, we showed our graphs to various experts at the state and local air pollution control agencies. We also explained how we did the analysis and asked for their comments on it.</p>
+<p>All agreed that the 365-day moving average was a valid way to show the long-term trend. But one expert went a step further. He encouraged us to throw out the winter values and look only at the summer data. His reasoning: Although no one knows for sure, it&#39;s considered likely that very low levels of ozone are not a health threat. The state&#39;s one-hour ozone standard of 0.09 parts per million is exceeded regularly in the summer. But in winter, typical levels are far less than that. And an increase from 0.02 to 0.03 is clearly not as important as an increase from 0.12 to 0.13. Yet our 365-day moving average would regard them both as important.</p>
+<p>The expert suggested a number of alternative approaches. We finally chose one that was doubly elegant, being both easy to calculate and easy to explain. For each year, we calculated and plotted just one value - the average daily peak for the summer smog season, May 1 through Oct. 31.</p>
+<p>You can read the &quot;Last Gasp&quot; project on the Web at www.valleyairquality.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-march-tracking-the-trends.html">Tracking the trends</a>
+  <span class="similar-meta">March 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-october-what-toxins-are-wafting-your-way.html">What toxins are wafting your way?</a>
+  <span class="similar-meta">October 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-april-stats-add-muscle-to-computer-assisted-reporting.html">Stats add muscle to computer-assisted reporting</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-november-census-resources.html">Census resources</a>
+  <span class="similar-meta">November 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-june-homes-for-sale.html">Homes for sale</a>
+  <span class="similar-meta">June 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-septemberoctober-showing-sources-effects-of-emmissions.html" class="article-nav__prev">← Showing sources, effects of emmissions</a>
+  <a href="/uplink/article/2003-septemberoctober-making-sense-of-navy-aviation-crash-data.html" class="article-nav__next">Making sense of Navy aviation crash data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

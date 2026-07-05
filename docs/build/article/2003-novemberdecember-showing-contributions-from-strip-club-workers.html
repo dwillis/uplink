@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showing contributions from strip-club workers — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Showing contributions from strip-club workers</h1>
+    <div class="article-byline">
+      <span class="author">David Washburn</span>
+      <span class="author-title">database editor</span>
+      <span class="date">November/December 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>A Union-Tribune reporter used a campaign finance database to uncover connections between San Diego city councilmen and a Las Vegas strip club owner suspected of bribery, revealing suspicious donation patterns from the adult entertainment industry.</p></div>
+
+  <div class="article-body">
+    <p>At first blush it sounds like the premise for an episode of a TV drama chronicling the adventures of a hard-nosed newspaper reporter:</p>
+<p>The reporter hears rumors that a strip club owner from Las Vegas bribed a few city councilmen, hoping that they will push through legislation that would allow more touching between strippers and their customers. The FBI gets wind of it and plans an afternoon raid at city hall.</p>
+<p>The reporter gets a tip about the raid from her sources at city hall. The raid goes off as planned and the reporter has a blockbuster story.</p>
+<p>That&#39;s what happened in San Diego. FBI agents in May visited the offices of city council members Ralph Inzunza, Charles Lewis and Michael Zucchet and seized their files, telephone records and computer hard drives. Federal agents suspected the three had solicited bribes from Michael Galardi, the owner of two strip clubs in San Diego and several more in Las Vegas.</p>
+<p>That was where the similarities between a TV script and reality ended.</p>
+<p>In TV-land, the strip club kingpin hires a couple of goons to whack the city councilmen. The reporter walks in on the goons getting ready to do the dirty deed. Using her martial arts skills, she knocks out the goons and the grateful councilmen confess.</p>
+<p>But in real life everybody hired lawyers, the FBI stayed quiet and all the journalists in town hounded their frazzled city hall sources. Following the money and establishing a link between the councilmen and the strip club owner through traditional reporting was far easier said than done.</p>
+<p>This is the spot Union-Tribune reporter Caitlin Rother found herself in during the days after the raid. She heard lots of rumors about Galardi and the councilmen but little in the way of hard facts.</p>
+<p>She later got some of the hard facts from a database of campaign contributions that we built on the fly using Microsoft Access.</p>
+<p>An analysis of the database showed that people involved in the adult entertainment industry had given more than $20,000 to the three councilmen and two other council members whose offices were not searched by the FBI.</p>
+<p>We were able to show that strippers and bouncers were giving to the campaigns of the three councilmen. Also, we found thousands of dollars in contributions coming from Nevada, especially from Las Vegas &quot;homemakers.&quot;</p>
+<p>Here is what else we found:</p>
+<p>Campaign finance reports varied in the way they listed people associated with the adult entertainment industry and their occupations, employers and home addresses. For example, someone listed as an entertainer or waitress on one report would be listed on another as a student, homemaker or some other less obvious affiliation. Some donors had unlisted occupations. Several people who were listed as giving the maximum $250 contribution to more than one candidate listed apartment addresses in less-than-affluent neighborhoods that usually are not home to political donors. Many contributions from people in the industry were given on the same day. This fact helped Rother confirm low-profile fund-raisers held by lobbyists for the industry.</p>
+<p>I was thrilled with the final results, but wish that the database had been built prior to the raid. The newsroom had not realized before how important it is to have a database of local campaign contributions on hand.</p>
+<p>Building the database</p>
+<p>Rother needed to do a thorough analysis of years worth of campaign contributions, and she needed to do it fast. The problem was that San Diego, like the vast majority of municipalities, does not require candidates to file their contribution reports electronically. So she ended up with a box filled with dozens of reports containing thousands of contributions.</p>
+<p>I uttered a swear word and began pounding my head on my desk. I had been pushing for a few years to have the newsroom create a database of local contributions. These databases are great for seeing who candidates may be indebted to politically.</p>
+<p>The editors had agreed and made creating the database a newsroom priority. But, as is so often happens in newsrooms, the news of the day trumped preparing for the future. The database never got built, so we were caught unprepared when the city&#39;s biggest political scandals in a decade hit.</p>
+<p>Nonetheless, we decided that a database of contributions to the three councilmen and two other council members who we knew had received money from Galardi was crucial for our reporting.</p>
+<p>I created a table for the contributions and then built a data-entry form using Access&#39; form wizard. Whenever possible, I used tools on the form to speed the data entry. For instance, someone could pick the name of a city council member from a list to enter that name into the recipient field of the table.</p>
+<p>After that, we rounded up some news assistants, brought in a temp with data-entry skills and went to work entering details such as the name, address, occupation and employer of the contributor. We also entered the amount given and to which council member.</p>
+<p>After more than a week of grueling data entry we had three years of contributions for the five council members.</p>
+<p>Not long after that I caught a mistake. Some contributions had been entered twice because of addendum reports filed by the candidates. When candidates need to make a correction or addition to a report, they file the entire report over again, which means that, in some cases, the same contribution is reported twice.</p>
+<p>It is easy to spot an addendum if you are looking for it. But a few slipped through. So I spent another day typing the data from the addendums into a table and then joining that table to the main table to identify the duplicates and remove them using a delete records query. We ended up with 7,500 records.</p>
+<p>While the news assistants and I built the database, Rother mined her sources for names of people associated with Galardi. She compiled more than two dozen names with suspected ties. We queried the database to see whether they had contributed and found that almost everyone on the list had given to the candidates. And we found that a vast majority of those people worked for Galardi. In addition, we noticed that their occupations had been listed differently.</p>
+<p>A federal grand jury indicted the three councilmen, Galardi and two lobbyists in August. All of them were charged with wire fraud and five of the six with extortion.</p>
+<p>The time and the effort that went into the database were worth it and bolstered the story. Our earlier stories about the federal probe would have been much stronger if we had built the database sooner and used it.</p>
+<p>Contact David Washburn by e-mail at david.washburrn@uniontrib.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1995-july-how-to-check-campaign-coffers.html">How to check campaign coffers</a>
+  <span class="similar-meta">July 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-september-tipsheets-on-campaign-finance.html">Tipsheets on campaign finance</a>
+  <span class="similar-meta">September 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-januaryfebruary-charting-campaign-cash.html">Charting campaign cash</a>
+  <span class="similar-meta">January/February 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-the-money-trail-tracking-campaign-cash.html">The Money Trail: Tracking Campaign Cash</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-november-the-politics-of-reform.html">The politics of reform</a>
+  <span class="similar-meta">November 1992</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-novemberdecember-finding-a-snow-job-after-storm.html" class="article-nav__prev">← Finding a snow job after storm</a>
+  <a href="/uplink/article/2003-novemberdecember-spreadsheet-good-eye-help-find-missing-money.html" class="article-nav__next">Spreadsheet, good eye help find missing money →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

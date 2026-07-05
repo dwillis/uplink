@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weighting data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Weighting data</h1>
+    <div class="article-byline">
+      <span class="author">Griff Palmer</span>
+      
+      <span class="date">January/February 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/education.html" class="badge">Education</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Daily Oklahoman used geocoding and census data to assign demographic indicators like median income and educational attainment to Oklahoma City students by linking their addresses to census block groups. The staff discussed how to properly weight block group data when calculating school-level medians, discovering that weighting occurs naturally when ranking individual cases rather than grouped summaries.</p></div>
+
+  <div class="article-body">
+    <p>In pursuing a recent education project, The Daily Oklahoman staff writer Bobby Ross persuaded Oklahoma City schools administrators to give us an electronic file containing all students&#39; addresses and school assignments.</p>
+<p>We wanted to come up with demographic indicators for the students. We explored linking student addresses to county assessor data, using home values as an indicator of economic status. We gave up that idea, though, after realizing that dealing with students living in apartments and rental properties would be impossible, given the limitations of the Oklahoma County assessor&#39;s data.</p>
+<p>We settled on using 1999 block group-level median income estimates and 1990 educational attainment data from Claritas as indicators for students. The question of how to properly weight the data generated lots of interesting discussion on NICAR-L, NICAR&#39;s electronic mailing list for CAR practitioners.</p>
+<p>How we did it</p>
+<p>To link students up to census block groups, we first geocoded students&#39; addresses with MapMarker software. We used Atlas GIS to assign each geocoded address to its appropriate block group. It was then a simple matter with FoxPro to write the median income and educational attainment data for the corresponding block group to each student&#39;s record.</p>
+<p>Once we had assigned a block group level median income to each student, we wanted to calculate a median for each school in the district, and here, the question of weighting came into play. At most schools, most students live in one or two block groups. Those block groups should carry more weight when calculating a school-level median than do block groups in which just a few students live.</p>
+<p>Using a program like SPSS, it&#39;s simple to apply a weighting factor to a variable.</p>
+<p>As the statisticians in The Oklahoman&#39;s marketing department explained to us, though, it&#39;s not necessary to apply a weighting factor to determine a weighted median if you have a dataset with every case in it and not grouped summaries. The weighting occurs naturally as medians are calculated. When ranking a set of values to determine the central value, a category (in this instance, a block group) encompassing a large number of cases (students, in this instance) automatically carry more weight in the rankings.</p>
+<p>To give a simple example, say you have three cases with block group level medians assigned, and you want to calculate a median from those three cases:</p>
+<p>1 24,586 2 29,483 3 32,771</p>
+<p>The median of the three values is 29,483. But say you have five students, three of whom live in the same block group and therefore have been assigned the same representative median income. If you rank the cases, the value that occurs more than once weights the median:</p>
+<p>1 24,586 2 24,586 3 24,586 4 29,483 5 32,771</p>
+<p>To double-check, I threw all 40,200 cases into SPSS and ran case summaries, calculating the median of median incomes, grouped by schools. Then, I used FoxPro to group the 40,200 cases by school and block group. The query created a table listing, for each school, all block groups from which the school was drawing students and the number of students it was drawing. I opened the resulting table into SPSS, weighted the data by number of students in each block group, and then calculated the grouped median for each school.</p>
+<p>The results were the same both ways.</p>
+<p>SPSS&#39;s ability to weight grouped data by frequency is one of the many features of this program that make it a powerful tool for data analysis. Calculating weighted medians of grouped data in Excel can be done, but that&#39;s another article.</p>
+<p>Commercial vendors</p>
+<p>As we worked with our schools project, and discussed the nuances of weighting data, we also found ourselves grappling with the question of whether and how to use marketing data from a commercial vendor.</p>
+<p>Experienced CAR practitioners approach commercial data with cautious skepticism. After deciding to use census block group median household income as an indicator of students&#39; economic status, we were faced with a choice: use the by-now-badly-outdated 1990 census data, or use updated estimates from a commercial data vendor. After giving it a good bit of thought, and weighing comments offered up on NICAR-L, we opted to use 1999 estimates from Claritas. Whenever the subject comes up on NICAR-L, the comments offered are thought-provoking. The Miami Herald&#39;s Tim Henderson views commercial data with a jaundiced eye. Tim points out that annual estimates put out by commercial marketing data firms are just that: estimates. He further points out that the commercial firms, for competitive reasons, don&#39;t like to share a lot of information about how they arrive at their estimates.</p>
+<p>The fact that estimates are being drawn using vague methods should be enough to give sober journalists pause. But then, so should using 1990 census data to try to talk about the characteristics of our community in 1999.</p>
+<p>On one point there is strong agreement among most who have weighed in on the topic on NICAR-L: it would be risky, indeed, to use annual estimates, whether from the U.S. Census Bureau&#39;s Current Population Survey or from commercial vendors, to try to measure changes over time at the local level and more dangerous still to try to use such data to measure year-to-year changes at the tract level.</p>
+<p>Using small-area data to compare different parts of your community within the same year is a different matter than using the data to try to measure changes over time (though the rationale for using 1999 Claritas estimates - the assumption that it is more up-to-date - presumes that the commercial source has made some sort of reasonably accurate assessment of changes over time).</p>
+<p>Use with caution</p>
+<p>A consensus emerges among many NICARians as to how to handle the use of commercial data (and these principles apply more broadly, to data other than commercial products): tell your readers/viewers as completely as possible what data you&#39;re using, how you&#39;re using it, and what its limitations are. Look for other sources of data to either corroborate or question the commercial data.</p>
+<p>This is the approach we&#39;re following at The Oklahoman as we use this data. We&#39;ve cross-referenced Claritas&#39; block group household income data, aggregated to the school level, with school-level free and reduced-price lunch figures, and we&#39;ve found a rough, if imperfect correlation. As the median income figure for a school goes down, the percentage of students receiving free and reduced-price lunches tends to go up.</p>
+<p>In instances where the techniques we&#39;re using show obvious weakness, we&#39;re pointing out those weaknesses to our readers.</p>
+<p>Overall, we believe the data we&#39;re using is allowing us to measure what we set out to measure. Even though it&#39;s imperfect, it&#39;s allowed us to take a deeper, more meaningful look at the story than we could without the data.</p>
+<p>As Steve Doig, Knight Chair in Journalism at Arizona State University points out, before too long we&#39;ll have a solid benchmark against which to compare the data we&#39;re now using: the 2000 census.</p>
+<p>&quot;I think a really interesting story to be done shortly after the 2000 data is released will be a comparison of how closely the various vendors were to reality,&quot; Doig says.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1994-october-calculating-medians-in-paradox.html">Calculating medians in Paradox</a>
+  <span class="similar-meta">October 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-june-making-a-point-with-geocoding.html">Making a point with geocoding</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-mayjune-using-census-data-for-non-census-stories.html">Using census data for non-census stories</a>
+  <span class="similar-meta">May/June 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-april-getting-back-to-basics.html">Getting Back to Basics</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-school-test-scores.html">School test scores</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-januaryfebruary-online-tax-calculator.html" class="article-nav__prev">← Online tax calculator</a>
+  <a href="/uplink/article/2000-januaryfebruary-the-future-of-car.html" class="article-nav__next">The future of CAR →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updating with Access — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Updating with Access</h1>
+    <div class="article-byline">
+      
+      
+      <span class="date">February 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>A NICAR-L discussion post explains how to use the Trim function in an Access update query to remove leading and trailing spaces from database fields.</p></div>
+
+  <div class="article-body">
+    <p>Updating with Access</p>
+<p>Q: Is there a way to trim leading and trailing spaces from an Access field by doing an update query or some other function? I tried updating NewField with the expression: Trim([OldField]) and all it does is remove the equal sign and insert the text &quot;trim([OldField])&quot; in the field I&#39;m updating.</p>
+<p>A: I just used this one and it worked fine, trimming excess spaces at the beginning or end but not in the middle:</p>
+<p>UPDATE [Text] SET [Text].newtext=Trim([oldtext]);</p>
+<p>Text is the table. Oldtext and Newtext are the two fields.</p>
+<p>To subscribe the NICAR-L discussion list, follow the instructions at www.ire.org/membership/subscribe/nicar-l.html.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-april-trimming-spaces.html">Trimming spaces</a>
+  <span class="similar-meta">April 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-october-getting-access-for-stories.html">Getting Access for stories</a>
+  <span class="similar-meta">October 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-converting-dates-in-access.html">Converting dates in Access</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-september-october-data-access-year-after-attacks-files-still-guarded.html">DATA ACCESS Year after attacks files still guarded</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-february-ranking-with-excel.html" class="article-nav__prev">← Ranking with Excel</a>
+  <a href="/uplink/article/2002-february-detailing-identities.html" class="article-nav__next">Detailing identities →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

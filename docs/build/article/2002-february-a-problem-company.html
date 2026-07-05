@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A problem company — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>A problem company</h1>
+    <div class="article-byline">
+      <span class="author">R.G. Dunlop and Mark Schaver</span>
+      
+      <span class="date">February 2002</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Courier-Journal used computer-assisted reporting and traditional journalism to investigate code enforcement in Jefferson County, Kentucky, uncovering how a sprawling apartment company operated with minimal regulatory oversight due to inadequate inspector resources and incomplete government databases.</p></div>
+
+  <div class="article-body">
+    <p>Code enforcement seems like a ripe subject for computer-assisted reporting, and that is where reporters and editors at The Courier-Journal (Louisville, Ky.) turned when they first considered a housing project in mid-2001.</p>
+<p>What they found, however, was a government database that contained potentially key information but needed lots of legwork before it could be unlocked.</p>
+<p>What followed was an example of how traditional reporting and database analysis supported and strengthened each other.</p>
+<p>Based on preliminary, anecdotal evidence, the newspaper decided to focus on a controversial apartment-management company, River City Properties, Inc., whose sprawling, low-rent complexes were located mostly in Jefferson County, outside the city limits of Louisville.</p>
+<p>The county was of particular interest because it contained nearly as many rental-housing units as did the city, but had less than one third as many housing code-enforcement inspectors. And the Jefferson County Health Department, which is responsible for code enforcement in the county, was reportedly strapped for resources.</p>
+<p>Rental units in the county were spread across 323 square miles, an area more than five times larger than the city itself and a logistical challenge for a mere handful of inspectors to navigate. And housing stock in the county, while generally much newer than that in the city, was aging to the point that decline was beginning to surface in some neighborhoods. Without inspectors&#39; vigilance, we thought, landlords could take liberties.</p>
+<p>The first hurdle was obtaining the database, which was maintained not by the local health department, but by the state Cabinet for Health Services, of which local health departments are a part.</p>
+<p>Sketchy database</p>
+<p>After a series of telephone calls, and written requests under Kentucky&#39;s Open-Records law, we got the database in Access format, making it easy to work with. Unfortunately, however, it provided only sketchy information for four years&#39; worth of code-enforcement inspections about 7,000 total - that were available.</p>
+<p>Each complaint had a unique control number and was logged by date and by address. But, landlords&#39; names and corporate affiliations, if any, were listed only occasionally.</p>
+<p>Because of the missing ownership information, the health department couldn&#39;t assemble an overall inspection history for a particular property owner or manager, or even for a specific address. So how could we? And unless we knew the history of enforcement and the results attained, how could we judge the effectiveness of the health department&#39;s code-enforcement program?</p>
+<p>If there was a solution, we decided, it lay in the street addresses contained in the database. By assembling the addresses of every property managed by River City Properties, we could begin to unlock its code-violation history as shown in the database.</p>
+<p>To determine River City&#39;s apartment holdings, a reporter searched tax records and reviewed about 60 personal-injury and other lawsuits filed over a 20-year period against the company, its president, Garey Higdon, or the individual apartment complexes managed by River City Properties and owned at least partially by Higdon. Interviews with code-enforcement officials, attorneys, realtors and representatives of various advocacy groups revealed still more about River City&#39;s real-estate empire.</p>
+<p>Missing information</p>
+<p>But neither the lawsuits, the local tax records, nor the sources disclosed the crucial piece of information necessary to link the properties to the health department&#39;s database. That missing link was a comprehensive, up-to-date list of addresses for all the apartments in a particular complex.</p>
+<p>Without those, complaints in the database couldn&#39;t be tied to a common source - in this case, a single property manager. We would not be able to determine River City&#39;s violation history or the health department&#39;s handling of it.</p>
+<p>Finding the addresses was time consuming. River City wouldn&#39;t help - Higdon refused to be interviewed and his attorney declined to provide the names or locations of properties managed by River City. The telephone book and the city directory provided only the address of an apartment complex&#39;s main address as determined by local planning and zoning officials, and did not account for addresses among the various buildings in a complex.</p>
+<p>Some of the company&#39;s complexes were crisscrossed by as many as eight or 10 streets. To determine conclusively how many complaints each complex generated would require knowing the street names and numbers for each building in each complex. To get this, a reporter went to each apartment complex associated with River City Properties - more than 40 in all.</p>
+<p>Some streets, and some buildings, were unmarked or incompletely identified with names or numerals. The sketchy and often outdated public records that were available sometimes conflicted with visual observations. But eventually, by checking and rechecking, the newspaper was able to compile an address list with which reporters and editors felt comfortable.</p>
+<p>Cleaning the data</p>
+<p>Ultimately, the decision was made to focus on 17 complexes managed by River City Properties, Inc., and owned at least in part by Higdon. Other properties owned by Higdon but sold long ago were eliminated, as was another set of apartments currently or formerly owned by one of his brothers.</p>
+<p>The newspaper constructed its own Access database of River City-managed properties, including tables for owners, street addresses, lawsuits and tax assessments. The addresses in that database were then matched against the county health department&#39;s database to determine how many housing-code complaints River City Properties&#39; complexes had generated.</p>
+<p>This couldn&#39;t be done with a simple query, however.</p>
+<p>The county health department&#39;s database was dirty, with many streets misspelled or misnamed. So we created a new column in the database to put corrected street names, while preserving the uncorrected ones in case there were questions later. This made it easier to pull out the right properties and enabled us to calculate counts on complaints for each complex.</p>
+<p>Because there were so many addresses, we decided that the simplest and surest approach for finding River City&#39;s properties would be to go through the database record by record, looking for the ones that matched the addresses the reporter had compiled.</p>
+<p>We created a separate table of just River City complaints by deleting non-River City complaints from a database copy. That gave us two tables: one for all complaints, and one for just River City&#39;s.</p>
+<p>Although this was a crude way to do it, it was the surest and most straightforward. Having a separate table of just River City properties made it easier to work with. We were confident these were the right properties, because we had examined each record individually, leaving out any that didn&#39;t clearly belong to River City.</p>
+<p>The results were still striking: more than 1,200 complaints filed with the health department during the four-year period were tied to River City&#39;s complexes. And, the vast majority of complaints were anything but frivolous. Nearly 70 percent resulted in either a violation or an inspector taking some other sort of action, including a follow-up visit to the site of the problem.</p>
+<p>Herculean task</p>
+<p>The newspaper also devoted many hours to pursuing a database maintained by the City of Louisville, which has a separate housing inspection office. Although only a few River City properties were in the city, we also wanted to look at the company&#39;s violation history within the city. Obtaining city&#39;s records was complicated by the fact that the city&#39;s database was on a mainframe using decades-old CA Datacom/DB software that no one still employed by the city fully understood.</p>
+<p>The city&#39;s computer staff ran previously created programs to generate reports from the database, but no one understood how the dozens of tables that made up the database were linked together and nobody was skilled at programming it. When the city had questions it couldn&#39;t answer, it called on a former city employee who now worked as a contractor.</p>
+<p>Under Kentucky&#39;s Open Records law, agencies are required to provide electronic records only in their native format or as ASCII text. The city initially told us that the database would cost us $100,000 to obtain, because we would have to have purchase the original software to use it.</p>
+<p>We knew this was nonsense, but we were afraid that even if we pursued a long records battle and obtained the database for a minimal cost, there was the chance we wouldn&#39;t be able to make sense of it once it was in our hands. Even if we had all the data, we had no idea of the relationships between all the tables, and it could have been a Herculean task to figure it out.</p>
+<p>The Courier-Journal decided the best solution would be to pay the $600 the city said it would cost to hire the former employee to write a program that would pull from the database just the records and fields we wanted in a single, flat file. As an added bonus, we got the records in Access format, which wasn&#39;t a requirement of the law.</p>
+<p>This database showed River City Properties had a large number of complaints at its city complexes as well, although that finding ultimately played only a small part in our series.</p>
+<p>Stories and results</p>
+<p>River City officials had long argued that complaints were not a fair barometer by which to judge the condition of its properties. Large and numerous apartment complexes naturally generate more complaints, company officials contended.</p>
+<p>The newspaper found, however, that River City&#39;s 25 percent share of all complaints filed with the county health department during the period far exceeded the company&#39;s share of the rental housing market in the county, as determined by census data. The company&#39;s share was less than 4 percent.</p>
+<p>After the newspaper published a three-part series about River City Properties and the health department in October, the company publicly pledged to do a better job and the health department admitted that it was underfunded and understaffed. Officials said the issues may be addressed when city and county governments merge in 2003.</p>
+<p>R.G. Dunlop can be reached by e-mail at rdunlop@courier-journal.com</p>
+<p>Mark Schaver can be reached by e-mail at mschaver@courier-journal.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2002-february-stories.html">Stories</a>
+  <span class="similar-meta">February 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-december-new-company-reaches-epic-proportions.html">New company reaches E.P.I.C. proportions</a>
+  <span class="similar-meta">December 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-november-hunting-for-data.html">Hunting for data</a>
+  <span class="similar-meta">November 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-mayjune-ire-awards-car-winners.html">IRE AWARDS CAR winners</a>
+  <span class="similar-meta">May/June 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-march-some-recent-car-stories.html">Some recent CAR stories</a>
+  <span class="similar-meta">March 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2002-february-doing-cross-tabs-can-create-quick-comparisons.html" class="article-nav__prev">← Doing cross tabs can create quick comparisons</a>
+  <a href="/uplink/article/2002-february-stories-3.html" class="article-nav__next">Stories →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

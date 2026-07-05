@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Look Before Touching — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Look Before Touching</h1>
+    <div class="article-byline">
+      <span class="author">Neill A. Borowski</span>
+      
+      <span class="date">June 1999</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Before diving into data analysis, journalists should visualize their data through histograms and other visual methods to understand its distribution and identify patterns or anomalies, much like how surgeons examine x-rays before operating.</p></div>
+
+  <div class="article-body">
+    <p>You&#39;ve arm-wrestled with the government agency for weeks. After haggling, they agree to make the data available to you. Finally, the shiny CD-ROM arrives in the mail.</p>
+<p>Quickly, you pour the file into a database. Like a surgeon, you wiggle your fingers, crack your knuckles and prepare to plunge your hands deep into the body of data.</p>
+<p>Wait a moment. Drop the scalpel. Remove the gloves. No surgeon worth his license would operate without x-rays. The surgeon needs to look inside the patient and see before cutting.</p>
+<p>And the data analyst also should visualize the data before poking around. The best applied statisticians are the ones who, for example, run clinical trials for pharmaceutical companies, advise analysts to study pictures of their data before they begin any calculations.</p>
+<p>Too often, we start analyzing the data before sitting back and taking in the whole view. Taking in the view doesn&#39;t have to be time-consuming. And it can be even more revealing than any measurement you make.</p>
+<p>The first step in visualization should be the histogram. The histogram is a bar chart, but the values are the frequencies of the key variable rather than the variable itself. Also, unlike the conventional bar chart, the histogram has no spaces between the bars. Here is a histogram showing full-time teachers by their salaries in the Philadelphia suburbs:</p>
+<p>The data in the teacher-salary histogram are somewhat mound-shaped, but don&#39;t exactly follow the normal curve superimposed on the histogram. Many teachers are paid around $52,250. However, the bars to either side of this middle bar are shorter than they would be if the data approximated the normal curve. There&#39;s a sharp fall-off to the left of the $28,250 bar, but not as sharp a fall-off at the corresponding bar on the right side of the histogram. The $84,250 bar sticks out and might warrant some attention.</p>
+<p>Overall, the teacher salary data doesn&#39;t look too odd. You could design your histogram to exaggerate the oddities by adding more bars. And, conversely, by taking away bars, you mute the oddities. Generally, it makes little sense to have more than 15 bars in your histogram.</p>
+<p>The data don&#39;t appear to skew heavily to the right or left. A right skew, for example, would suggest there is a disproportionate number of teachers earning high salaries. In fact, when we run the usual statistics on the data, we find the mean is $52,120 and the median is $51,610 - not a very large difference. If the mean were much higher than the median, the data would be right-skewed.</p>
+<p>Now take a look at another variable in the teacher salary database: total years of experience. These data aren&#39;t mound-shaped. They look almost bimodal (having two equally sized peaks). The two groups would be teachers with little experience (left mound) and teachers with a great deal of experience (right mound).</p>
+<p>Usually the near-bimodal distribution would indicate the need for more research and possibly a great story. Why would experience level plunge around year 14 and rise sharply in either direction?</p>
+<p>The answer can be found in public-school enrollment totals. The data in this example are from 1997. Public school enrollment since the early 1960s bottomed out in 1984, according to U.S. Education Department data. A teacher starting work in 1984 would have had about 13 years of experience by 1997. That corresponds with the valley in the histogram. Enrollment peaked in 1971. A teacher starting in 1971 would have had 26 years of experience in 1997 - again agreeing with our histogram. Finally, there has been a steady increase in enrollments since 1984 (the peak is forecasted for 2006). Again, the growth in student numbers in the late 1980s and early 1990s is reflected in the left side of the experience histogram.</p>
+<p>Building the histogram</p>
+<p>If you have SPSS or SAS, building a histogram can be relatively painless. In SPSS (v. 9.0), from the pull-down menu: &quot;Graphs&quot; &quot;Histogram...&quot; Set your variable (teacher salaries or experience, for example) Click on &quot;Display normal curve&quot; Click OK and SPSS will produce the histogram. To modify your histogram, double-click on it in the SPSS output window. This will open the chart in the SPSS chart editor. The histogram can be edited for color, line width, etc. You also can tell SPSS to increase or reduce the number of bars. To do this, click on the value labels under the X-axis (horizontal). This opens up the Interval Axis box. The default in this box is &quot;Automatic&quot; intervals. Click on &quot;Custom&quot; to change this and to make the &quot;Define&quot; button available. Click on this button and the &quot;Define Custom Interval&quot; box will open. In &quot;Definition,&quot; SPSS asks for the &quot;# of intervals.&quot; Try 10 to begin with. If too wide, try 6 or 7. If too narrow, try 11 or 12.</p>
+<p>If your CAR shop doesn&#39;t have SPSS, you can build a histogram in Microsoft Excel. But it&#39;s much more cumbersome than statistical programs.</p>
+<p>In Microsoft Excel (97), from the pull-down menu:</p>
+<p>Your data is on one worksheet (record limit is 65,536, based on the number of rows in the spreadsheet).</p>
+<p>Sort the data and, after looking at it, determine how many bars you want in the histogram. Excel can automatically set the number of bars, but the program sometimes uses too many bars. Try to keep the number under 15. In the data, look at the smallest and largest records. Without sorting, you could use =min(range) and =max(range). Subtract the smallest from the largest and divide by one less than the number of bars desired. In the teacher salary example, the smallest is 18,500 and the largest is 86,828. The difference is 68,328. If we want 10 bars, each bar would be 7,592 wide.</p>
+<p>If we start the first bin at 18,500, Excel will set this as the midpoint of the bar. We don&#39;t want this. We want the lowest number (18,500) to be at the extreme left of the histogram. The midpoint of the first bar, then, would be 18,500 + (7,592/2) or 22,296. The second bin would be 22,296 + 7,592 or 29,888 and so on. Go to another part of the worksheet. Fill in the midpoints of the bins for Excel.</p>
+<p>From the pull-down menu, click on &quot;Tools&quot; and then &quot;Data Analysis.&quot; This opens the Data Analysis box. Scroll down to &quot;Histogram&quot; and click OK.</p>
+<p>Set the &quot;Input Range,&quot; which is the spreadsheet range of the variable of interest, such as teacher salaries. Set the &quot;Bin Range,&quot; which is the spreadsheet range of the bins. Then select the &quot;Labels&quot; option and click OK. (Do not click the &quot;Labels&quot; box unless you&#39;ve included column headers in the spreadsheet ranges you&#39;ve highlighted).</p>
+<p>Excel will insert another worksheet, which will include the bin midpoints in the A column and the frequency in the B column. Use the frequency count to order a column chart from Excel. The A column (labeled &quot;Bin&quot;) will be the X-axis labels.</p>
+<p>After building the column chart, notice that the bars are not touching. If you&#39;re simply trying to visualize the data, you don&#39;t have to make it a true histogram with the bars touching. If you&#39;re publishing the histogram, you&#39;ll want the bars to touch. To do so, click on the bars in the chart. Go to the Excel pull-down menu and click &quot;Format&quot; and &quot;Selected Data Series.&quot; This opens the &quot;Format Data Series&quot; box. Click on the &quot;Options&quot; tab. Set the &quot;Gap Width&quot; to &quot;0.&quot; The result will be no space between the bars.</p>
+<p>Other chart options will help to visualize the data. A good choice when comparing one variable between two groups is the box plot or &quot;box and whisker&quot; chart.</p>
+<p>In the example, the variable on the X axis is whether the teacher is male or female. The Y axis is the salary level. The whiskers of the box plot show the end, or extreme, values.</p>
+<p>Other chart options also will help to visualize the data. A good choice when comparing one variable between two groups is the box plot or &quot;box and whisker&quot; chart.</p>
+<p>In this case, they&#39;re nearly equal for each sex. The shaded box is the interquartile range - the range between the 25th and 75th percentiles. The line through the box is the median.</p>
+<p>At a glance, the median for males clearly is higher than for females ($55,944 versus $49,616). In fact, the male median is just under the top of the female interquartile range, suggesting relatively sharp pay differences. The difference between the sexes might be explained in part by the experience levels (median 22 years for males versus 13 years for females). In SPSS, go to &quot;Graphs&quot; and &quot;Boxplot&quot; from the pull-down menu. The process is much more complicated in MS Excel. There is an explanation of how to do a box plot at the Microsoft site (http://support.microsoft.com/support/kbarticles/q155/1/30.asp) or search for &quot;whisker&quot; in the Microsoft Personal Support Center. For visualizing relationships between two variables before running a regression analysis, try the scatterplot. If we wanted to see a relationship between years of experience and salary, a scatterplot would look like this:</p>
+<p>The data points suggest a linear relationship. The dark line is the fitted line (the line derived from the regression analysis), which you can order up as an option on the chart. In SPSS (9.0) you also can point to a datapoint on the scatterplot and click on it. It will embed the record number in the plot (that&#39;s what the 11,505 is above). The SPSS Data Editor also will automatically go to each record in question as you point.</p>
+<p>The scatterplot in MS Excel can be ordered from the Chart Wizard as an XY (Scatter) chart. When the chart is complete, from the pulldown menu click on &quot;Chart&quot; and &quot;Add Trendline&quot; and a line will be fitted to the data.</p>
+<p>Neill Borowski can be reached by e-mail at nborowski@phillynews.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-september-for-a-list-of-local-arcview-users-groups.html">FOR A LIST OF LOCAL ARCVIEW USERS GROUPS</a>
+  <span class="similar-meta">September 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-may-mapping-reveals-data-trends.html">Mapping reveals data trends</a>
+  <span class="similar-meta">May 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-no-boundaries.html">No boundaries</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-for-more-information.html">For more information:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-lost-your-way-in-car-maybe-a-map-would-help.html">Lost your way in CAR? Maybe a map would help.</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1999-june-digging-up-submarines.html" class="article-nav__prev">← Digging up submarines</a>
+  <a href="/uplink/article/1999-june-fips-fixes.html" class="article-nav__next">FIPS fixes →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

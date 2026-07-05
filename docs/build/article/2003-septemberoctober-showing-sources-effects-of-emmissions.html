@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showing sources, effects of emmissions — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Showing sources, effects of emmissions</h1>
+    <div class="article-byline">
+      <span class="author">James Bruggers and Mark Schaver</span>
+      <span class="author-title">Environmental Reporter and Data Analyst</span>
+      <span class="date">September/October 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>Data analysis revealed that Louisville&#39;s air quality poses significant health risks, with toxic chemical concentrations hundreds of times higher than EPA safety standards, identified through the use of databases and geographic mapping tools.</p></div>
+
+  <div class="article-body">
+    <p>Data analysis played a major role in two recent projects that showed the severity of dirty air in Louisville and identified the area&#39;s biggest polluters.</p>
+<p>Stories published in May showed how the city&#39;s dirty air could cause a significant number of additional cancers and other health problems, and that the concentrations of certain chemicals were hundreds of times higher than levels considered safe by pollution regulators.</p>
+<p>In June the newspaper followed up with a six-page special section that contained graphics pinpointing the sources of pollution and looked at emissions trends.</p>
+<p>We used Microsoft Access, Excel, ArcView 8.3 geographic information system and Perl to wrestle with large quantities of data from local and federal air pollution regulators.</p>
+<p>For the first project, environmental reporter James Bruggers, under the Kentucky open records law, obtained air-sampling results in an Excel spreadsheet from the Louisville Metro Air Pollution Control District. The district enforces the federal Clean Air Act in Louisville.</p>
+<p>The spreadsheet contained, among other things, the average, median and 95-percent upper confidence limit values for 13 monitoring stations spread over the Louisville area, as well as the number of times an individual chemical had been detected over a 12-month period in 2000 and 2001. Roughly 100 of about 160 chemicals that were sampled had been detected at least once during that period.</p>
+<p>To see which of those chemicals might be of concern, we wanted to compare the monitoring results with health-risk benchmarks developed by two regional offices (San Francisco and Philadelphia) of the U.S. Environmental Protection Agency. We downloaded them from the Web. The EPA lacks national benchmarks. These thresholds are sometimes called risk-based concentrations or preliminary remediation goals and were developed for screening potential toxic dumps.</p>
+<p>We decided that we would focus on chemicals whose concentrations exceeded both benchmarks. We used Access to join the air sampling results table with the threshold tables. We joined the tables using the unique Chemical Abstracts Service number that identified each chemical.</p>
+<p>Then we calculated a ratio showing which chemicals exceeded the thresholds. We exported the results into Excel and used conditional formatting to highlight in red the sites that exceeded the thresholds.</p>
+<p>A week before we published the stories, the Philadelphia regional office posted a revised set of screening levels, which required us to perform our analysis again. Fortunately, there were only a few changes.</p>
+<p>Our results were striking: Concentrations of at least 18 toxic chemicals and compounds measured in the air exceeded EPA benchmarks. Some were at levels hundreds of times higher than what the government considers acceptable. Concentrations of one chemical, the human carcinogen 1,3-butadiene, were 2,400 times higher than the EPA health threshold at one sampling site. With ArcView, we produced a map showing where the air samples were taken and used proportional symbols to show the relative quantity of butadiene emissions measured at each.</p>
+<p>The number crunching was fairly straightforward; the real difficulty was making sure, through interviews with a variety of experts, that the newspaper&#39;s analysis was legitimate. So we talked to university-based toxicologists, environmental statisticians, former environmental regulators and physicians. We also relied heavily on federal government Web sites for information about the chemicals and compounds that we found in high concentrations.</p>
+<p>After the stories ran, the newspaper obtained a just-completed environmental consulting firm&#39;s draft analysis of the air sampling results that confirmed our findings of a significant air quality problem.</p>
+<p>Finding polluters</p>
+<p>Next we wanted to analyze data to find pollution sources and examine trends. This is where it got a little complicated: There&#39;s more than one database with emissions information, and some of the data overlap. Some databases track emissions for which there are no national air standards, while others track emissions for which there are standards. And, because reporting rules have changed over the years, it can be difficult to identify yearly trends.</p>
+<p>We started by analyzing the granddaddy of all pollution inventories: the EPA&#39;s Toxics Release Inventory, which tracks emissions of some 650 different chemicals. This data is available on the Web at www.epa.gov/tri, and can be easily sorted and manipulated using the EPA&#39;s Web-based interface; it can also be downloaded and put into Excel for additional analysis. We did both.</p>
+<p>When we examined countywide trends, we limited our analysis to what the EPA calls its &quot;1995 core chemicals,&quot; and &quot;original industries.&quot; This gave us most of the chemicals and most of the industries, excluding power plants, which we analyzed separately. By slicing the data this way, we found that overall TRI emissions in Louisville-Jefferson County had declined 39 percent between 1988 and 2001.</p>
+<p>We had a spreadsheet for each year and combined the data into a single worksheet to make it easier to look at year-to-year trends. We used Excel pivot tables to quickly summarize data for each company.</p>
+<p>When we examined the emissions trends from the top 25 TRI sources, we used the EPA&#39;s Envirofacts Warehouse, a very useful online resource, at www.epa.gov/enviro. Its emissions data is more current, and includes yearly releases for each facility on one screen. After a few points and clicks, a color-coded trend chart popped up on our computer screen.</p>
+<p>TRI, however, fails to account for all emissions. Other categories of pollutants are reported by industry and compiled into different databases that can be obtained from the EPA, and sometimes, state and local environmental agencies. We obtained ours from the local air pollution control district.</p>
+<p>The agency at first told us that it didn&#39;t keep the records in a form that our computers could understand. But they agreed to extract the data we were requested and gave it to us electronically. Some came in an Excel spreadsheet; others in text tables.</p>
+<p>To get the data in a useful form, we used a Perl script to loop through the text files, pulling out the name of each plant and the pollutants associated with it.</p>
+<p>With this data, we used Excel to rank each source of industrial pollution for each category of pollutant, and determined yearly trends. Some of what we found we expected, such as the major emissions from power plants. But we also found that a bourbon distillery was the largest source of volatile organic compounds, a contributor to summer smog. The alcohol vapors that escape from aging casks of Old Forester and Early Times are called &quot;the angel&#39;s share&quot; by industry insiders and are unregulated.</p>
+<p>We ran our results by the local air pollution officials as well as some of the companies that came out on top. We then realized that one of the databases we had was faulty. The computer program that local air officials had used to extract the data on hazardous air pollutants had left some industries out. The local officials fixed the problem, and we ran our analysis again.</p>
+<p>With stories, maps and charts, we presented a complete picture of industrial air pollution sources in Louisville. While much attention over the years had been focused on an area with 11 chemical plants, our analysis identified major sources far from there. We found that a single power plant in Indiana just across the Ohio River from Louisville produced more TRI emissions than two Louisville based power plants combined. We found that particulates, which can damage lungs and cause cancer, had increased by 76 percent since 1988, and that the hazardous air pollutants were on the rise since 1998.</p>
+<p>At the same time, we showed that industrial emissions of volatile organic compounds had declined by 60 percent since 1988.</p>
+<p>We used graphics and maps to help tell the story and keep most of the numbers there. Readers could identify the plants nearest them, and then see whether air emissions were going up or down at those facilities.</p>
+<p>In ArcView, we made a map showing the location of the 50 counties in the U.S. with the highest air emissions based on the TRI data. We used ArcView&#39;s graduated symbols feature to show the relative size of each of those counties&#39; emissions. We wanted to compare our county to others in the nation, and found Louisville-Jefferson County ranked 23rd.</p>
+<p>We told the story through the people who work in these plants and those who live nearby. We also followed up the special section with a package on how University of Louisville medical experts had identified certain &quot;asthma clusters&quot; in Louisville, and that many people with asthma in Louisville blame poor air quality on making their medical condition worse.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1994-october-some-databases-produced-by-the-federal-government.html">Some databases produced by the federal government</a>
+  <span class="similar-meta">October 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-epa-sources.html">EPA sources</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-october-tri-working-guide-available-at-micar.html">TRI working guide available at MICAR</a>
+  <span class="similar-meta">October 1991</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-septemberoctober-pollution-data.html">Pollution data</a>
+  <span class="similar-meta">September/October 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1994-march-dining-on-eatery-data.html">Dining on eatery data</a>
+  <span class="similar-meta">March 1994</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-septemberoctober-mapping-soil-tests-shows-legacy-of-lead.html" class="article-nav__prev">← Mapping soil tests shows legacy of lead</a>
+  <a href="/uplink/article/2003-septemberoctober-squeezing-trends-from-air-emissions-data.html" class="article-nav__next">Squeezing trends from air emissions data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

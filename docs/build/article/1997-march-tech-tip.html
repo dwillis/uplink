@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Tip — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Tech Tip</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      <span class="author-title">Computer-Assisted Reporting Instructor</span>
+      <span class="date">March 1997</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>This tech tip explains how to use database functions in Access and FoxPro to determine the day of the week from date fields, allowing journalists to analyze patterns like which weekdays have the most arrests or traffic accidents without manually checking calendars.</p></div>
+
+  <div class="article-body">
+    <p>Tech Tip What day is it?</p>
+<p>By Richard Mullins NICAR/Missouri School of Journalism</p>
+<p>If you wanted to find out what day of the week you were born, you could find a calendar for that year and look it up.</p>
+<p>But if you wanted to find out which weekday had the most arrests or traffic accidents, the calendar lookup strategy would be too time-consuming for 50 records, let alone 150,000.</p>
+<p>Access and FoxPro have functions that look at a date and determine the day of the week for that date. I&#39;ll explain both and show examples, starting with the FoxPro functions. For illustration, I&#39;ll assume a table called Arrests, with date-type field called BookDate.</p>
+<p>You can see how this works with a query like this:</p>
+<p>SELECT bookdate, dow (bookdate) ; FROM arrests</p>
+<p>The dow() function returns the day-of-the-week as number, with Sunday being 1. If you want the name of the weekday, use cdow(). Here&#39;s how to remember the function names: DOW stands for DayOfWeek and CDOW stands for CharacterDayOfWeek.</p>
+<p>SELECT bookdate, dow (bookdate), cdow (bookdate) ; FROM arrests</p>
+<p>Since you can always retrieve this day-of-week information with the function, you don&#39;t need to store the weekday in a new field in order to use it for a query. To find the arrest counts by weekday, in descending order, you would write this group-by query:</p>
+<p>SELECT cdow (bookdate) count (bookdate) FROM arrests ; GROUP BY 1 ; ORDER BY 2 DESC</p>
+<p>In Access, you can get this same information with the format() function. The help file on this function is quite long, since the function is used for more than just dates.</p>
+<p>Here is a general tip for help files: If you think that the help file on a particular topic is too confusing or too long, then look through the examples for the stuff that seems to fit what you want to do. Paste the example into your query and try it out.</p>
+<p>Here is the general syntax for the Access format function as it applies to dates. You specify two parameters, or instructions. These go inside the parentheses after the function name and are separated by commas.</p>
+<p>The first parameter is some date expression, like a literal date or a column containing a date. The second is format specifier, which is a quoted string of characters specifying how you want the day of the week to be expressed. Here is the syntax:</p>
+<p>Format DateExpression, FormatTemplate</p>
+<p>You have three choices for FormatTemplate:</p>
+<p>W day of week as a number ddd as abbreviation (Sun-Sat) dddd as full name (Sunday-Saturday)</p>
+<p>Applying this to the example table, here are the queries in Access:</p>
+<p>To get the day of the week as a number:</p>
+<p>SELECT bookdate, format (bookdate, &quot;w&quot;) FROM arrests ;</p>
+<p>To get the day of the week as an abbreviation:</p>
+<p>SELECT bookdate, format (bookdate, &quot;ddd&quot;) FROM arrests ;</p>
+<p>To get the day of the week as a full name:</p>
+<p>SELECT bookdate, format (bookdate, &quot;dddd&quot;) FROM arrests ;</p>
+<p>The Access query to show arrests by weekday, in descending order of the arrest count:</p>
+<p>SELECT format (bookdate, &quot;dddd&quot;), count (bookdate) FROM arrests GROUP BY format (bookdate, &quot;dddd&quot;), ORDER BY count (bookdate) DESC ;</p>
+<p>Can&#39;t turn your text file into a table? This question and more were answered in Tech Tip columns in 1996. The bound edition of 1996 Uplinks is now available for $20 plus shipping. To order, call Wendy Charron at (573) 882-0684.</p>
+<p>Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1992-november-unraveling-those-mysterious-string-functions.html">Unraveling those mysterious string functions</a>
+  <span class="similar-meta">November 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-august-car-tech-tip.html">CAR Tech Tip</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-june-whats-your-function.html">What&#39;s Your Function?</a>
+  <span class="similar-meta">June 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-converting-dates-in-access.html">Converting dates in Access</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-july-tech-tip-tell-me-y2k-you-cry.html">TECH TIP Tell me Y2K you cry</a>
+  <span class="similar-meta">July 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1997-march-on-the-internet.html" class="article-nav__prev">← On the Internet</a>
+  <a href="/uplink/article/1997-march-car-trips-first-ventures.html" class="article-nav__next">CAR Trips: First ventures →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

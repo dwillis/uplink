@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School test scores — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>School test scores</h1>
+    <div class="article-byline">
+      <span class="author">Seth Hemmelgarn</span>
+      
+      <span class="date">September 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/education.html" class="badge">Education</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A California journalist mapped school performance rankings across a county using GIS tools, discovering that highest-ranked schools clustered in wealthy areas while lowest-ranked schools appeared in lower-income neighborhoods, a pattern made clearer by overlaying median income data from Census tracts.</p></div>
+
+  <div class="article-body">
+    <p>In California, school funding is tied to schools&#39; performance on standardized tests. Starting with the 1999 scores, each school is given a 1 to 10 ranking. Schools with a 1 are in the bottom 10 percent of the state, and schools with a 10 are in the top 10 percent.</p>
+<p>The state released the data in January. We wanted to map where schools with the highest and lowest ranks were in our county. The only problem was, we had the score for each school, but we didn&#39;t have the address. So we got the addresses from the state, and created a dbaseIV file with all of the information we needed.</p>
+<p>After I geocoded the file in ArcView, I used the query wizard to pinpoint the schools with ones and tens. Not surprisingly, most of the highest-ranked schools formed a blob running along the county&#39;s western foothills, where millionaires are commonplace. The lowest-ranked schools showed up in a patch on the city&#39;s eastside, where incomes are generally lower.</p>
+<p>This was my first official mapping assignment after I attended NICAR&#39;s incredibly worthwhile mapping bootcamp, so I wanted to have somebody else review my work. That&#39;s where Carl Neiburger, mapping guru and Mercury News cohort, came in.</p>
+<p>I&#39;d used two different queries to show the highest and lowest ranking schools, which resulted in two different shape (shp) files. Carl suggested selecting all of the ranks – from 1 to 10 – into one shp file. Then, I just eliminated the ranks we didn&#39;t need. This meant one less shp file to keep track of.</p>
+<p>Carl also enlisted the help of Nadine Selden, from the paper&#39;s marketing research department. Nadine pulled the median income for each of our county&#39;s Census tracts from Claritas, and Carl included this in the map. The result was a map that not only showed where the high and low-scoring schools were, but what the income ranges in those areas were.</p>
+<p>Seth Hemmelgarn can be reached by e-mail at SHemmelgarn@sjmercury.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-august-report-cards-revisal.html">REPORT CARDS REVISAL</a>
+  <span class="similar-meta">August 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-august-separate-and-unequal.html">Separate &amp; Unequal</a>
+  <span class="similar-meta">August 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-august-car-cooking-raw-numbers.html">CAR-COOKING RAW NUMBERS</a>
+  <span class="similar-meta">August 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-july-august-finding-diamonds-in-the-rough.html">Finding diamonds in the rough</a>
+  <span class="similar-meta">July-August 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-november-behind-school-walls.html">Behind school walls</a>
+  <span class="similar-meta">November 1999</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-september-for-more-information.html" class="article-nav__prev">← For more information:</a>
+  <a href="/uplink/article/2000-september-mapping-listservs.html" class="article-nav__next">Mapping Listservs: →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

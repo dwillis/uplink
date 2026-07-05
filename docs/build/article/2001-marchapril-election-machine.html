@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Election machine — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Election machine</h1>
+    <div class="article-byline">
+      <span class="author">Neil Reisner</span>
+      
+      <span class="date">March/April 2001</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article provides a step-by-step guide for election reporters on how to use spreadsheets, databases, and mapping software to analyze election results by precinct, revealing voting patterns across different demographic groups and communities.</p></div>
+
+  <div class="article-body">
+    <p>Now that Chad-Fest 2000, otherwise known as the presidential election is over – I suppose I could call it a Chad Row, but awful puns like that are just so tacky – it might be a good time to come back to earth and think about the kinds of elections we normally cover.</p>
+<p>Small stuff: town council, school board, county commissioner, maybe governor.</p>
+<p>And lots of computer savvy reporters figured out a long time ago that a spreadsheet is an election reporter&#39;s best friend, ideal for tabulating votes, percentages and winners and able to produce neat little graphs lickety-split.</p>
+<p>But as soon as results are in, the questions start coming:</p>
+<p>What happened? How&#39;d she win? or How&#39;d the Black community/Hispanic neighborhoods/the rich/the poor/home owners/condo residents/gays/swing precincts vote?</p>
+<p>Usually that means making a quick checklist of key precincts, scanning the spreadsheet and tweaking out whatever patterns may be visible. It&#39;s not easy and there&#39;s a better way. A map of the election will often let the patterns jump out at you and your colleagues whose eyes may glaze over when they look at a table of numbers. It&#39;s not hard, but to make it happen requires some front-end work before the election. I call it the &quot;Election Machine.&quot;</p>
+<p>You&#39;ll need:</p>
+<p>• Excel, Access and ArcView or some other spreadsheet, database manager and mapping program.</p>
+<p>• Precinct-by-precinct voter registration data, in the spreadsheet.</p>
+<p>• Tables of key voting precincts, in the database manager.</p>
+<p>• A map layer showing election precincts.</p>
+<p>• Election results in the spreadsheet.</p>
+<p>Here&#39;s a step-by-step guide to how it all fits together using Excel, Access and ArcView. Looking at real examples will make it a little easier to follow; if you want to try it for yourself, download a PowerPoint demonstration and sample data in Excel, Access and ArcView from the NICAR Web site: www.nicar.org/electmach/index.html.</p>
+<p>Step 1: Voter Registration</p>
+<p>Build a one-page workbook showing the number of Democrats, Republicans, etc. in each precinct or election district, as well as the number of blacks, whites, Hispanics and any other ethnic or demographic information you can obtain. The best source for this usually is the county supervisor of elections, who should keep this information on each precinct; other sources might be local political consultants or university political scientists or demographers. Figure the percentages of each political or demographic group: Democrat, Republican, black, white, etc.</p>
+<p>Step 2: Key Precincts</p>
+<p>Create a database and build a table identifying key precincts, bellwether precincts that are predominantly Democratic, Republican, Black, white and the like.</p>
+<p>Step 3: Election Results</p>
+<p>Build a spreadsheet workbook with one page for overall returns, precinct-by-precinct and a separate page for each election that you want to analyze. Why? If you&#39;re lucky, you can get results in some electronic format, through e-mail, a download or on a floppy disk.</p>
+<p>Ask the election folks for a dummy file before – the same layout you&#39;ll see on Election Day, but without numbers – and build a dummy page mimicking that layout. Then it becomes a (reasonably) simple matter to paste the results onto the page. Try this in advance to make sure it works. Worst-comes-to-worst, build the page in advance and type results into it.</p>
+<p>If you&#39;re dealing with multiple elections – several municipalities or commission seats, etc. – copy results for each election in which you&#39;re interested to separate pages, one page per election. Paste the results from the results page as a live link by clicking on &quot;Edit,&quot; &quot;Paste Special,&quot; &quot;Paste Link.&quot; When you do it this way, the results of each individual election will flow automatically from the results page to the election pages.</p>
+<p>Build formulas, calculating what you want to know about the election: the turnout, the winner, etc.</p>
+<p>How Come...</p>
+<p>• ...it&#39;s important to keep registration numbers in a separate workbook? Registration data will change election-to-election and you&#39;ll sometimes have to re-calculate percentages. Keeping it separate lets you build a registration template, updating it for each election as the numbers change</p>
+<p>• ...I should keep overall election results on one page and each election on others? Because it lets you paste/type all the results on one page instead of having to do it on multiple pages. Because it lets you type all results on one page.</p>
+<p>• ...I should keep key precincts in a database? Because key precincts are not likely to change and you can use the same base data for each election.</p>
+<p>Step 4: Name Spreadsheet Election Pages</p>
+<p>On each individual election&#39;s page, select the range containing the results, including headings. Give it a name – City Council, for example – by clicking &quot;Insert, Name,&quot; &quot;Define&quot; and &quot;Add.&quot; Do the same for the voter registration page. You&#39;ll see that the name of the range will appear in a small window left of Excel&#39;s formula bar.</p>
+<p>Open Access and click &quot;File,&quot; Get External Data,&quot; and &quot;Link Tables.&quot; Select the election results workbook. When the Wizard opens, click on &quot;Show Named Ranges.&quot; You&#39;ll see that the ranges you just named in Excel show up as items you can link to Access. Follow the wizard&#39;s instructions and link each Excel range to Access as a table.</p>
+<p>Do the same in the registration workbook: Name the range containing the demographic percentages in which you&#39;re interested and link it to Access as a table.</p>
+<p>Step 5: Build and Run Queries</p>
+<p>Build queries to look at winners, losers, ethnic votes or anything else of interest. Link to swing precincts winner, Black vote or anything else of interest. Link precinct-by-precinct registration numbers to precinct-by-precinct results table or swing precinct table to determine voting patterns. You can build the queries in advance, linking to your dummy data. That makes things faster on deadline.</p>
+<p>Step 6: Export Queries</p>
+<p>Export the results of each relevant query in dBase IV (*.dbf) format by clicking on &quot;File,&quot; and &quot;Save As/Export.&quot; Choose &quot;To an External File or Database&quot; and follow the wizard. This will let you import the results into ArcView.</p>
+<p>Step 7: Build Maps</p>
+<p>Open ArcView, where you&#39;ve already built a precinct map. You may be able to get a precinct map from your local election supervisor, city or county planning department, the state legislative staff responsible for redistricting, political consultant or political scientist may have one.</p>
+<p>Join the *.dbf tables you exported from Access to the map.</p>
+<p>The example here joins a &quot;Winner&quot; table to the precinct map. It shows that Rubble didn&#39;t get beyond his political base, while Flintstone took his base in Central Bedrock and more.</p>
+<p>Summing up</p>
+<p>Using a spreadsheet, database manager and mapping software you can quickly create a picture of what happened in an election. Just gather the basic data that you&#39;ll need in advance and build spreadsheets, tables and queries.</p>
+<p>Build dummy spreadsheets for the election results you won&#39;t get until Election Day. When results</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2006-november-december-prep-for-election-mapping.html">Prep for election mapping</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-a-beginners-lessons.html">A beginner&#39;s lessons</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-mapping-a-new-look-at-presidential-results.html">Mapping a new look at presidential results</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-june-using-car-to-cover-the-vote.html">Using CAR to cover the vote</a>
+  <span class="similar-meta">June 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-januaryfebruary-maps-to-go.html">Maps to go</a>
+  <span class="similar-meta">January/February 2001</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2001-marchapril-four-day-success.html" class="article-nav__prev">← Four-day success</a>
+  <a href="/uplink/article/2001-marchapril-car-in-election-2000.html" class="article-nav__next">CAR in Election 2000 →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

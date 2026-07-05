@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAR with microdata — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>CAR with microdata</h1>
+    <div class="article-byline">
+      <span class="author">Paul Overberg</span>
+      
+      <span class="date">May 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>Microdata refers to individual-level records from surveys that allow journalists to perform unique cross-tabulations and uncover news stories, though working with it requires proper understanding of statistical weights and file structures. The article explains why microdata is valuable compared to summary data and provides guidance on how to properly handle hierarchical survey data like that from the Current Population Survey.</p></div>
+
+  <div class="article-body">
+    <p>CAR with microdata</p>
+<p>By Paul Overberg USA Today</p>
+<p>Microdata is a word from the social sciences. Loosely, it means data at the level at which it&#39;s collected. More specifically, it often means the individual records that result from a carefully designed survey where the unit is often a single person, household, incident or something similar. Microdata is usually contrasted with macrodata, a generic term for various levels of summarization and cross-tabulation.</p>
+<p>Why bother?</p>
+<p>If you&#39;re thinking, &quot;Microdata! Fancy word for something I already do!&quot; you&#39;re wrong. True microdata can be much more rewarding. You can do cross-tabulations that no one else has ever done - and find news. But it&#39;s also trickier. It&#39;s often produced by a survey or statistically random selection, so each record represents a larger number of its type in the entire population. But we have to preserve and use each record&#39;s weight correctly. Depending on the survey&#39;s precision, weights can vary a little or a lot from record to record. It&#39;s often collected in a hierarchical file, something akin to interleaving the tables of a relational database. For instance, the Current Population Survey, done monthly by the Census Bureau for the Bureau of Labor Statistics, collects information about 50,000 households into one big file with three record types for their personal, family and household characteristics. Often, a researcher will pull data from the people and household records into a new working file. This is called rectangularizing.</p>
+<p>Household 1 - all data Family 1 - all data Person 1 - all data Person 2 - all data Person 3 - all data</p>
+<p>becomes in a working file</p>
+<p>Person 1 - some data and Household 1 - some data Person 2 - some data and Household 1 - some data Person 3 - some data and Household 1 - some data</p>
+<p>This turns the hierarchical file into a flat (rectangular) file that&#39;s smaller and easier to analyze. If you&#39;ve ever analyzed the Fatal Accident Reporting System (FARS) data from the National Highway Traffic Safety Administration, you&#39;ve faced this. For each fatal accident record, there&#39;s one or two or more related vehicle records, each of which has one, two or more related person records.</p>
+<p>Before using microdata</p>
+<p>Don&#39;t - if you don&#39;t have to. Often, summary data is all you need. Start there. Read the standard reports published by the keeper of the data. Look in the back for detailed cross-tabulations if the standard summaries aren&#39;t enough. For instance, median household income appears right up front in the Census Bureau&#39;s annual report on income. Dig a little and you can find median income by race (all whites). Dig deeper and you can find median income by race by age group (whites 45-54). Dig deeper and you can find median income by race by age by education (whites 45-54 with a bachelor&#39;s degree), deeper still for median income by race by age by education by work status (whites 45-54, bachelor&#39;s degree, work full-time) and even deeper still for median income by race by age by education by work status by region (whites 45-54, bachelor&#39;s degree, work full-time, Midwest).</p>
+<p>Talk to whoever keeps the data before you spend a week plowing into a microdata maze. They may have done what you&#39;re attempting or have good advice on how to do it (or why not to).</p>
+<p>Learn the data thoroughly. This is especially true for microdata based on surveys or hierarchical files. Read the appendix on the sampling design. Read the file list and values. Try to duplicate published calculations. Learn SPSS or SAS. Either will do, but knowing neither leaves you fumbling with spreadsheets and database managers. They may work, but they&#39;re sort of like using a regular screwdriver on a Phillips head screw: You have to work harder and still may get inferior results.</p>
+<p>Paul Overberg can be reached at (703) 276-5427 or by e-mail at poverberg@usatoday.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2002-september-october-census-workshops-scheduled-for-reporters-editors.html">Census workshops scheduled for reporters, editors</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-october-uplink-survey.html">Uplink survey</a>
+  <span class="similar-meta">October 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-january-february-readmetxt.html">readme.txt</a>
+  <span class="similar-meta">January • February 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-march-the-survey-says.html">The survey says</a>
+  <span class="similar-meta">March 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-january-february-measuring-migration-with-pums-data.html">Measuring migration with PUMS data</a>
+  <span class="similar-meta">January • February 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-may-undeserved-overtime.html" class="article-nav__prev">← Undeserved overtime</a>
+  <a href="/uplink/article/1998-may-pulitzer-profiles.html" class="article-nav__next">Pulitzer profiles →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

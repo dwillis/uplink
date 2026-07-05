@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Google Maps API / mapping hacks] — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>[Google Maps API / mapping hacks]</h1>
+    <div class="article-byline">
+      <span class="author">Chase Davis</span>
+      
+      <span class="date">November/December 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>Google Maps API offers journalists a powerful tool for visualizing spatial data and creating interactive maps, though reporters must be aware of its limitations including precision issues, performance constraints with large datasets, and geocoding challenges. The technology can enhance news coverage by revealing story ideas and making data more accessible, despite requiring creative problem-solving for some technical obstacles.</p></div>
+
+  <div class="article-body">
+    <p>this meaning on their own. But as with any other source, journalists must be skeptical.</p>
+<p>Reporters should beware never to take points plotted on a Google Map as precise locations, especially in cases where a measurement of a few yards is likely to matter. The maps are great for eyeballing clusters and showing trends in areas, but more precise measurements should be left to GIS packages.</p>
+<p>The API also does not handle multiple points plotted at exactly the same coordinates well. No matter how many points are plotted there, only one will appear. In those cases, I usually alter the coordinates by an infinitesimal amount so the points appear offset at higher zoom levels.</p>
+<p>Finally, Google does not want corporations using their maps exclusively on local intranets. Under the API&#39;s terms of use, all maps have to be displayed on the open Internet and must be universally accessible. I got around this by placing mine on my personal Web site, and it seems Google is willing to compromise on other solutions.</p>
+<p>There are technical issues as well. Microsoft Internet Explorer sometimes chokes trying to map more than a few hundred points. Although performance is quickly improving, Google Maps was not designed to handle thousands of events at a time.</p>
+<p>Because no function exists for it in the API, geocoding – assigning latitude and longitude coordinates to addresses – requires some creative programming. Many programmers scrape the coordinates from www.geocoder.us, which condones the practice, or set up a large Census TIGER database on their servers and draw from it using Perl.</p>
+<p>Solutions for these problems and others are often discussed by the extensive community that has coalesced around the API since Adrian Holovaty, a 2001 graduate of the Missouri School of Journalism recently hired by The Washington Post, helped popularize maps hacking with chicagocrime.org earlier this year.</p>
+<p>Google&#39;s message boards are loaded with information, and Google representatives often log in to answer questions. It seems that Google continues to supports the innovation born from tinkering with their technology, and the potential is clear.</p>
+<p>Although it is not without hiccups, the Google Maps API has already been used to create gorgeous online graphics. Within the newsroom, it can also be turned into a useful reporting tool that could help relieve some of the deadline dependence reporters have on CAR gurus.</p>
+<p>But more importantly, it can make spatial data display a more prominent and accessible component of news coverage, revealing new story ideas and helping create a better-informed newsroom.</p>
+<p>Contact Chase Davis by e-mail at chase.davis@gmail.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2006-january-february-creating-data-points-with-google-maps.html">Creating data points with Google Maps</a>
+  <span class="similar-meta">January February 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-november-web-links.html">Web links</a>
+  <span class="similar-meta">November 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-september-tech-tip.html">TECH TIP</a>
+  <span class="similar-meta">September 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-april-uplink-story-ideas.html">Uplink story ideas</a>
+  <span class="similar-meta">April 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-november-december-prep-for-election-mapping.html">Prep for election mapping</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-novemberdecember-covering-coastlines-with-ire-resources.html" class="article-nav__prev">← Covering coastlines with IRE Resources</a>
+  <a href="/uplink/article/2005-novemberdecember-car-workshops.html" class="article-nav__next">CAR Workshops →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

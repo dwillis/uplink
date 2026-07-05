@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOMING OR BUSTING? Rising bankruptcies — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>BOOMING OR BUSTING? Rising bankruptcies</h1>
+    <div class="article-byline">
+      <span class="author">Valerie Lilley</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">July 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalism investigation into bankruptcy filings in the Tri-County area revealed that most filers were low-income individuals burdened primarily by credit card debt, not the wealthy as commonly assumed. The reporters built their own database from court records since complete public data wasn&#39;t available, uncovering surprising creditor patterns like Fingerhut and department store charges.</p></div>
+
+  <div class="article-body">
+    <p>The economy is booming and so are bankruptcy filings. What gives?</p>
+<p>In a week-long series, we told readers everything about the Tri-County area&#39;s bankruptcy filings. Through computer-assisted reporting, we used numbers to show who the filers were, as well as the causes, losers and winners in the surge of filings.</p>
+<p>Surprisingly, we found that most people who filed had been living below or near the poverty level. They weren&#39;t the rich - a popular misconception.</p>
+<p>The oddest fact we found was that many filers listed the mail-order company Fingerhut, which made it to the top of the list of creditors. Bills were run up using cellular phones and charge cards at Bergners, a local, upscale department store.</p>
+<p>Credit cards were the main cause of the bankruptcies. Medical debt trailed far behind.</p>
+<p>Incomplete data</p>
+<p>To gather these statistics, we had to build our own database because we couldn&#39;t find an existing database with complete information.</p>
+<p>The U.S. Bankruptcy courthouse had PACER (Public Access to Court Electronic Records), but it didn&#39;t list all creditors. The Administrator of the Courts in Washington, D.C., didn&#39;t have a complete listing of case contents, either. The courthouse clerks and office manager didn&#39;t know of anything else.</p>
+<p>We decided to collect the data ourselves. This was our first big dive into computer-assisted reporting, and naiveté drove it from a mini-project of a few months to a year-long study. Collecting the data took the most time in preparing the project.</p>
+<p>The first lesson we learned is that mining data is not as easy as it looks. From 2,906 cases, we gleaned data such as: filers&#39; names; ZIP codes; residential market value and money owed on it; car market value and money owed; attorneys; assets and liabilities; government support type and income; child support income and expense; income figures from the two years prior to filing up to the present; monthly expenses; and creditors and amounts owed them. (Some cases listed more than 200 creditors.)</p>
+<p>Initially, another reporter and I went to the court house armed with laptops. For a week, case by case, we inputted the data in comma-delimited format. Both of us made multiple mistakes. By the end of the week, we only had 90 cases in our database. We ended up hiring someone to input for us.</p>
+<p>Because of the time cases can take to close, we ended up using cases opened and closed between January, 1996, and February 1997.</p>
+<p>To check for errors, we ranked by case number and by the minimum and maximum amounts in each column. The cleanliness of the database was also double-checked by a professor at Illinois Central College.</p>
+<p>We used Excel to find the averages, sums, minimums, maximums, and the time each case took from open to close. To find how many filers owned a house, we ranked the database by the &quot;residence market value&quot; field and found where the cells dropped off to zero. Only 753 people owned a home. Its average value was $41,701.</p>
+<p>Tagging along</p>
+<p>We also used Visual FoxPro to find the top creditors, total credit card debt, total unsecured debt and total medical debt. To differentiate between credit cards and regular bank loans, identifiable credit cards were tagged with a &quot;-C.&quot; We put a &quot;-M&quot; after doctor&#39;s names, physician offices, clinics, hospitals and other medicine-related creditors. We also wanted to know how much wasn&#39;t going to get paid back - total unsecured debt, which we clearly listed on a separate schedule in the files and tagged with &quot;-U.&quot;</p>
+<p>To find the top creditors, I cut and pasted the creditor columns and the amounts into one super-long, two-column spreadsheet. To double check that I had gotten all of the creditors and amounts in the cut and paste process, I compared the sum to the sum in the original Excel spreadsheet. I imported the two-column spreadsheet into FoxPro and then used the &quot;order by&quot; and &quot;group by&quot; commands.</p>
+<p>I used the same table to select the creditors and the amounts where the creditor had the &quot;-C&quot; for credit card. The &quot;order by&quot; and &quot;group by&quot; gave the top ten. I repeated this to find top unsecured creditors and medical debt. The hardest part was finding out the average credit card debts per case because the &quot;-C&quot; tags were included with any &quot;-U&quot; and &quot;-M&quot; tags. I didn&#39;t know how to write a loop or what a scan/endscan was. Justin Mayo of NICAR worked out a program for us using a table with the creditors in the original block form.</p>
+<p>Handle results with care</p>
+<p>We approached the data results in the same manner as a press release. I put the results in sentence format - it was as if we were reading the traditional government and commercial studies we were used to. During weekly meetings, people threw out questions like &quot;How many filers live with the city limits?&quot; and &quot;What&#39;s the median debt per case?&quot; We made cheat sheets and used them as a starting point for reporting.</p>
+<p>For example, Sears and CEFCU, a local credit union, were owed the most money - $2.9 million and $2.7 million respectively. Central Illinois Light Co. and Ameritech were also up there. I interviewed company executives and other spokespeople. They provided the story behind the numbers.</p>
+<p>Finding real voices</p>
+<p>We talked to the people who filed. They were hard to find because most led transient lifestyles. We used the Journal Star&#39;s electronic library to get their personal information - we publish bankruptcies in &quot;Matter of Record&quot;, along with divorces, marriages, births. Getting people to talk about their filing was our biggest problem. Some didn&#39;t want to rehash old, sour memories. Others didn&#39;t want their names published in the newspaper again. So we ended up with a mix of full names and first names only. Organizing everything for our readers also challenged us. We had so much data that we could have easily bombarded them with stat-packed stories, covering a broad range. In our numerous weekly meetings, however, we had isolated specific elements of the bankruptcy phenomenon. These elements became the stories and sidebars of our week-long series.</p>
+<p>Valerie Lilley can be reached by e-mail at vlilley@pjstar.com or by phone at (309) 686-3260.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-july-the-week-long-bankruptcy-series-focused-on-the-following-questions.html">THE WEEK-LONG BANKRUPTCY SERIES FOCUSED ON THE FOLLOWING QUESTIONS</a>
+  <span class="similar-meta">July 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-septemberoctober-database-answers-bankruptcy-questions.html">Database answers bankruptcy questions</a>
+  <span class="similar-meta">September/October 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-december-giving-credit-where-credit-is-due.html">Giving credit where credit is due</a>
+  <span class="similar-meta">December 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-october-busted-tracking-bankruptcy.html">Busted Tracking bankruptcy</a>
+  <span class="similar-meta">October 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-january-february-giving-proper-credit.html">Giving proper credit</a>
+  <span class="similar-meta">January February 2006</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-july-wilson-writes.html" class="article-nav__prev">← WILSON WRITES</a>
+  <a href="/uplink/article/1998-july-the-week-long-bankruptcy-series-focused-on-the-following-questions.html" class="article-nav__next">THE WEEK-LONG BANKRUPTCY SERIES FOCUSED ON THE FOLLOWING QUESTIONS →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

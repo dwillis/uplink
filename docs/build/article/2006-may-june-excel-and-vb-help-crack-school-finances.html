@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excel &amp; VB help crack school finances — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Excel &amp; VB help crack school finances</h1>
+    <div class="article-byline">
+      <span class="author">Duane Schrag</span>
+      
+      <span class="date">May-June 2006</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/education.html" class="badge">Education</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>A Kansas journalist investigated the true cost of implementing school finance reforms by analyzing state enrollment data and formulas using Excel and programming, challenging conflicting estimates ranging from $236 million to $1 billion. The story demonstrates how data analysis and mathematical formulas can verify complex policy claims that state education officials initially dismissed.</p></div>
+
+  <div class="article-body">
+    <p>All across the United States lawsuits have been filed in recent years accusing state governments of failing to provide a suitable education for their citizens. Many - perhaps most - of the cases turn on the question of adequate financing: Are schools being given enough money to educate students most at risk?</p>
+<p>Kansas is one of those states. More than two years ago, a county district judge ruled that too little money was being spent to educate low-income, bilingual and special education students. During the litigation the State Board of Education - the principal defendant - commissioned a study to find out whether the Kansas school finance formula was appropriate and, if not, how much it would cost to implement one that was.</p>
+<p>The study by consultants Augenblick &amp; Myers proposed a new formula for school spending. The study&#39;s findings were presented as evidence in the case, along with the state&#39;s estimate of the financial impact of the formula. In ruling for the plaintiffs, the judge repeatedly said the cost of fixing school finance in Kansas would be at least $1 billion. However, the state had submitted a figure of $853 million. And the study estimated it at $236 million.</p>
+<p>My story set out to answer the question: How much would it really cost to implement the findings? And how would it affect the 75 school districts in our readership area? I used Microsoft Excel, Access and Visual Basic programming to answer the questions.</p>
+<p>Earlier, when I had asked the gurus at the state education department about that, they were dismissive. &quot;Augenblick &amp; Myers got it wrong,&quot; they said. I have worked with these people for years, and I took their word for it. If I had listened more closely to my instincts, we would have had this story earlier.</p>
+<p>The Kansas Supreme Court later upheld the lower court&#39;s ruling, so the funding was in the news again. I requested figures on how the ruling would affect the 302 school districts in Kansas. The Kansas Department of Education sent me the information, with the stipulation that I not attribute it. &quot;Even the school districts haven&#39;t seen this,&quot; I was told. That was a red flag.</p>
+<p>Initially, the thought of calculating the cost on my own was too intimidating. But after looking closely at the formulas, I realized it was not out of the question. It required algebra, not rocket science. Calculating the cost involved:</p>
+<p>formulas to compute weighting factors for district size, low-income, bilingual, and special education. These factors assign more &quot;weight&quot; to low-income students, for instance, which increases state aid for them. enrollment figures for each school district, and the subgroups within each district.</p>
+<p>The enrollment information was relatively easy to get. The state does a fairly good job of posting it and many other key tables online. Most importantly, the data is usually available as Microsoft Excel spreadsheets, so rekeying is not necessary. If possible, get this data in electronic, not paper, format. Transcription errors are too easy to make.</p>
+<p>In my calculations, I had to make sure I was using full-time equivalents when those were required, headcounts when headcounts were required. I had to re-run the data after learning the special education figures posted online were incomplete - they excluded children in gifted programs.</p>
+<p>The formulas themselves are straightforward - a series of If/Then statements, with assorted multiplication and division operations. Excel has a built-in If() function that I found too limited for my purposes. Instead, I wrote custom functions in Visual Basic.</p>
+<p>Example 1 examines the adjustment for school size. This is how the consultant presented the formula for a base budget per pupil of $4,550.</p>
+<p>Example 2 is the equivalent in Visual Basic. I named the function size_weight(), which takes as arguments the base budget per pupil (b) and the district&#39;s enrollment (e).</p>
+<p>You may notice the base budget per pupil is a variable, not a constant - this made it possible to compute the cost for any base figure. For our story, we used $5,000, which was the study&#39;s original figure adjusted for inflation.</p>
+<p>With the formulas in hand, and the raw numbers in spreadsheet format, it was a breeze to compute the weightings, and thereby create the exact budget figure for each school district. At this point, I knew how much the proposal would cost, but that was only half the problem.</p>
+<p>The other half of the problem was comparing the proposal to the status quo. Again, finding the raw data was not difficult - every school district&#39;s budget is posted online, in sufficient detail to extract the information needed for the story.</p>
+<p>Extracting the correct figures required some work. In order to compare apples and apples, I needed to deduct expenses for transportation, capital outlay, food service and adult education. The budget is a massive spreadsheet - it consists of 14 separate sheets, each with 302 rows (one for each school district) and as many as 20 columns of figures. Spending for the services in question were scattered across those sheets.</p>
+<p>First, I sought help from the local school district. I sat down with the business manager and made certain I knew which columns had to be deducted to account for the necessary change. There were dozens.</p>
+<p>Once again, I wrote a Visual Basic function to systematically extract the necessary information. While it is possible to do this by hand, the number of operations (about 10,000) makes it highly likely a mistake will be made.</p>
+<p>Now I could make the proper comparison. I had the true cost of applying the proposal, district by district. And I had the actual comparable cost under the existing formula. I used Microsoft&#39;s Excel and Access to manage the data, although relying solely on Excel would be possible.</p>
+<p>A&amp;M&#39;s model was never adopted, so it is impossible to say what it would have ended up costing. But in January 2006, an exhaustive study by the Kansas Legislative Division of Post Audit on the &quot;true&quot; cost of providing an education said an additional $400 million is required; this comes on top of an extra $143 million added last year. That put the additional spending right where we said A&amp;M would have put it.</p>
+<p>Perhaps the most important lesson this story reinforced for me is that journalists must do a tricky balancing act - know when to ask for information, know when to do the work yourself.</p>
+<p>Sources for this story gave wildly different interpretations of what the A&amp;M study said. Some who should have known it backwards and forwards were dead wrong. Only by reading it, re-reading it, discussing it, and re-reading it further was I able to offer the story&#39;s conclusions with confidence.</p>
+<p>Contact Duane Schrag by e-mail at dschrag@saljournal.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2002-september-october-plotting-school-data.html">Plotting school data</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-may-slice-percents-right.html">Slice percents right</a>
+  <span class="similar-meta">May 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-september-october-tech-tip-foxpro-program-cleans-standardizes-names.html">Tech tip.. FoxPro program cleans, standardizes names</a>
+  <span class="similar-meta">September - October 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-julyaugust-education-tipsheets.html">Education tipsheets</a>
+  <span class="similar-meta">July/August 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-october-back-to-school.html">Back to school</a>
+  <span class="similar-meta">October 1999</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2006-may-june-endangered-data-helps-find-deadly-mercury.html" class="article-nav__prev">← Endangered data helps find deadly mercury</a>
+  <a href="/uplink/article/2006-july-august-a-bumpy-ride.html" class="article-nav__next">A bumpy ride →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

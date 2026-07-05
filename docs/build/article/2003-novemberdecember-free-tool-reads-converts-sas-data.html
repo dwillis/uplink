@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free tool reads, converts SAS data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Free tool reads, converts SAS data</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Porter</span>
+      
+      <span class="date">November/December 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>A free SAS System Viewer tool available from SAS&#39;s website allows journalists to read and convert SAS data files into formats compatible with spreadsheets and database managers. The article provides step-by-step instructions for downloading, installing, and using the viewer with sample USDA nutrition data.</p></div>
+
+  <div class="article-body">
+    <p>Free tool reads, converts SAS data</p>
+<p>By Jeff Porter, IRE and NICAR</p>
+<p>SAS, the expensive statistical software used widely in government and academic circles, might be out of reach of many newsroom budgets. But there&#39;s still a way - for free, no less - to read SAS data files and translate them into a format your spreadsheet or database manager can use.</p>
+<p>From the company&#39;s Web site, you can download the SAS System Viewer at no cost. To find it, go to http://support.sas.com and click on the link to the left called &quot;Software Downloads.&quot; That takes you to a page of downloads, categorized by product type. Click on the link called &quot;Base SAS Software.&quot; You should see a short list of items available for download, including the SAS System Viewer. Click away, and follow the screen instructions. You&#39;ll have to create a login, including your e-mail address.</p>
+<p>Installation should be a snap. Download the executable file and just double-click on it to start the installation.</p>
+<p>After the program installs, it&#39;s time for some practice. Go to the Web page v.usda.gov/cnpp healthyeating.html There you can download data on the USDA Healthy Eating Index, a summary measure of overall diet quality. It provides a picture of the type and quantity of food people eat and the degree to which diets comply with specific recommendations in the Dietary Guidelines and the Food Guide Pyramid.</p>
+<p>Choose to download the 1999-2000 Healthy Eating Index data in compressed, self-extracting SAS 6.12 format. Also download the 1999-2000 Food Guide Pyramid Servings database. The files are relational, creating a summary of food intake by respondent.</p>
+<p>This will not be the most exciting database you&#39;ve ever worked with. It does, however, give you some practice in using SAS System Viewer.</p>
+<p>You&#39;ll need to extract two files: hei9900.sd2 and pyraserv9900.sd2. Start the SAS System Viewer, then go to File &gt; Open. Keep the default setting under Files of Type as All SAS Datasets, then navigate to the appropriate folder and open the hei9900.sd2 file. It should look something like Figure 1.</p>
+<p>Now, let&#39;s check out a few features of SAS System Viewer. First, notice that the column headers are somewhat cryptic. So go to the View menu item and choose Headers and Names. Now, you&#39;ll see something a little nicer-looking in Figure 2. Prefer just the shorter version? Toggle back to headers.</p>
+<p>You can also view the variables, too, under the same View menu, and you&#39;ll see a list of all the variables (also known as columns) in the SAS dataset. To go back to viewing the data, just go back to the View menu and choose Formatted.</p>
+<p>Now, some final few steps to make the data useful in different formats. Choose how you prefer to view the data - with headers or the lengthier names. Typically, if I&#39;m going to use a file in Microsoft Excel, I like longer names. If I&#39;m going to throw something into a database manager, shorter field names are my preference. So consider how you&#39;re going to use your SAS file, then simply go to File &gt; Save As and choose your File of Type.</p>
+<p>Now, you&#39;ve saved the file as a text file of your choice, ready to be opened in a spreadsheet or database manager.</p>
+<p>Of course, the viewer doesn&#39;t offer many of the features of the full-blown version SAS. You can download, review, even edit SAS program files with the extension .sas, but you can&#39;t run those programs with the viewer alone. There&#39;s a long list of SAS-type files you can just open in read-only mode, including the data files such as .sd2.</p>
+<p>Of course, you can then save those as text, reopen them with different software then edit data tables. Text files opened with the SAS viewer - such as .CSV, txt, prn, .dat - can be edited, although there are better applications for that.</p>
+<p>SAS isn&#39;t the most common data type that government agencies post on their Web sites, so you probably won&#39;t use the SAS System Viewer every day. Even government agencies that process data with SAS have the ability to provide the data in almost any way you request - text, Excel, Access, dBASE so theoretically, all you have to do is call or e-mail with a request and they&#39;ll send it right out to you.</p>
+<p>But if you&#39;re on deadline, sometimes you don&#39;t have that luxury of time, so you can at least view and convert SAS data files with a free addition to your CAR toolbox.</p>
+<p>Contact Jeff Porter by e-mail at jeff@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2003-february-using-sas-code-in-other-programs.html">Using SAS code in other programs</a>
+  <span class="similar-meta">February 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-september-sas-vs-spss.html">SAS vs. SPSS</a>
+  <span class="similar-meta">September 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-april-sas-vs-spss.html">SAS vs. SPSS</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-april-suggested-books-on-statistics.html">Suggested books on statistics</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-february-atlas-gis-has-site.html">Atlas GIS has site</a>
+  <span class="similar-meta">February 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-novemberdecember-readmetxt-ire-tipsheets-on-campaign-finance.html" class="article-nav__prev">← readme.txt (IRE tipsheets on campaign finance)</a>
+  <a href="/uplink/article/2003-novemberdecember-geometry-scripting-find-nearby-points.html" class="article-nav__next">Geometry, scripting find nearby points →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

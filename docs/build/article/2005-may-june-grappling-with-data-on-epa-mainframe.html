@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grappling with data on EPA mainframe — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Grappling with data on EPA mainframe</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Claassen</span>
+      
+      <span class="date">May-June 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a></div>
+  </header>
+
+  <div class="article-summary"><p>Journalists investigating EPA enforcement of air pollution laws at oil refineries obtained enforcement data from the EPA&#39;s IDEA database system after struggling with initial records requests, requiring technical knowledge of the agency&#39;s custom programming language and remote access through a terminal emulator.</p></div>
+
+  <div class="article-body">
+    <p>We were struggling to verify a tip: the U.S. Environmental Protection Agency had dramatically slowed its enforcement air pollution laws at oil refineries.</p>
+<p>The clues would come from the agency&#39;s administrative records - the ones listing the dates and results of inspections, enforcement actions, court settlements and administrative fines.</p>
+<p>We asked the Dallas regional EPA office for the records, but the requests were taking months to fulfill, and the information they eventually provided was woefully inadequate.</p>
+<p>Those EPA record-keepers were trying to pull information from the agency&#39;s enforcement-tracking databases. That piece of information gave us our first break - we needed to get copies of those databases to work with ourselves.</p>
+<p>One database, the AFS (Air Facility Subsystem), covered enforcement of the Clean Air Act. Another, the PCS (Permit Compliance System), stored enforcement records for the Clean Water Act. A third, ICIS (Integrated Compliance Information System), held all the court and administrative settlement records.</p>
+<p>The agency has good descriptions of these databases and others at www.epa.gov/compliance/planning/data.</p>
+<p>The EPA&#39;s enforcement managers in Washington, D.C., were willing to help. But they thought it would be impossible to use the massive databases. Those databases contain terabytes, or thousands of gigabytes, of data.</p>
+<p>Included are the enforcement history and all of the pollution-output records for every emissions point in every factory, refinery and other facility in the country that has a pollution permit.</p>
+<p>Next, we went to the people who know that material the best - the agency&#39;s programmers, who run search services on the EPA&#39;s Web site. Those search engines include ECHO, an enforcement history search, which environmental reporters use often. (See www.epa.gov/echo/compliancereport.html)</p>
+<p>The programmers told us the agency has much smaller versions of the databases we wanted, updated every month for public use. Those databases included administrative actions, such as inspections, but not the massive list of individual emissions reports.</p>
+<p>Graduate students, environmental activists, and the people who run the EPA Web site searches used that trimmed-down data the most. The agency&#39;s Web-site searches pull from these smaller databases.</p>
+<p>The only hitch: public access was through an old, awkward Web page connection, at https://trex.rtpnc.epa.gov. The core of this Web site is a terminal emulator that wires you into a supercomputer at the agency&#39;s computer center in North Carolina. Our company firewall blocked it, so all the programming and downloading had to happen from home.</p>
+<p>It took weeks to learn the system and download the data. The system, called IDEA (Integrated Data for Enforcement Analysis), uses a programming language created entirely by EPA computer technicians. Everything you want to do requires terminology you won&#39;t see anywhere else.</p>
+<p>The EPA gave us several technical guidance documents, including one that is more than 200 pages long. Programmers also gave us some sample programs, and worked diligently with us to get the syntax right so it would create the data sets that we wanted.</p>
+<p>To show how idiosyncratic the syntax is, here is one program we used. This script pulls specific fields from the AFS dataset, (&quot;FS.AFSID,&quot; etc.), copies the unique identifier field to each record (&quot;DEC 100&quot;) and designates enough server processing time and hard drive space for our new file:</p>
+<p>INPUT NONLINKED SELECT FS.AFSID NE OUTPUT JOB TIME 40 REPORT AFS1 DATASET AFSNX SHR SPACE LENGTH 190 PRIMARY 2350 SECONDARY 1175 RELEASE /* DIR TITLE &quot;AFS PULL 1&quot; DETAIL AFS. AFSID DEC 100 AFS CNTY AFS. STAB AFS. PLNT AFS. APC1 AFS. REGN AFS. AQCA AFS. PNME AFS. STRT AFS. CYNM AFS. SICI AFS SIC2 AFS. INSPDAY AFS. FEDREP AFS ZIPC AFS. DTAI AFS ACSEQ AFS ANT1 AFS. PAMI AFS INFE AFS YIFE AFS. INFO AFS YIFO AFS RDTA1 AFS. RANT1 AFS RATP1 AFS. RPAM1 AFS DDTAI AFS. DANT1 AFS DATP1 AFS. DPAM1 PARM BACKYEARS_16 PARM MINHEAD PARM DELIMIT A</p>
+<p>There&#39;s one note of caution hidden in the mostly unreadable program. If you download data from IDEA, use the shift-6 (^) as your delimiter, as specified in the last line of code. Fields contain commas, making those unusable and IDEA is unable to use tabs or other field delimiters other than alphabetic characters.</p>
+<p>Downloading also took a while because we needed to sign onto IDEA in the evenings and weekends, because of costs. During weekday hours, the EPA charges 2,100 per CPU hour (hour of computer processing time. For example, time to run queries and save data sets). Night hours cost half that, and weekend hours are one-quarter of the regular cost.</p>
+<p>Once IDEA created the data sets for us, downloading a single file took hours, even though I was using a DSL connection at home. The EPA&#39;s FTP server in North Carolina is slow. Downloading was complicated, but worth it. We finally had three very comprehensive tables containing:</p>
+<p>more than 2 million records for 175,000 air-permit facilities more than 1.3 million records for 330,000 water-permit facilities about 230,000 entries for 59,000 court and administrative settlement cases</p>
+<p>The EPA supercomputers store the data in old-fashioned hierarchical format. That means that different types of information for a facility (address and location, inspections, violation notices etc.) are contained on different lines of data, one after the other, with no common ID number to link them together.</p>
+<p>Fortunately, the EPA programmers had come up with a way to generate repeat ID numbers in the output data, so they were attached to each record. We were able to thread this information back together using the common ID. I used FoxPro, more out of habit than for any other reason. Access would have handled these files as well.</p>
+<p>Another note for anyone who uses this data: to count inspections, enforcement actions, and other agency activities, you must use what EPA record-keepers call &quot;rolled-up&quot; data. For reasons the agency could not clearly explain, records are often duplicated in its &quot;detail&quot; data. To check that, we downloaded each type of record - &quot;rolled up&quot; and &quot;detail&quot; - and did see the repetition in the detail records.</p>
+<p>The data went back to the 1970s and created a broad picture of enforcement patterns over the decades. The number of inspections, violation notices and other actions spiked upward under the first President Bush, after flattening under Reagan, then crested during the Clinton years, and finally dropped sharply after 2001. The data showed that our tip was right.</p>
+<p>Since 2001, inspections have gone down 52 percent for oil refineries and 4 percent for all industries, including refineries. Violation notices decreased 68 percent for refineries, and 24 percent for all industries. The number of court and administrative settlements dropped by 77 percent for refineries and 7 percent for all industries. Stack tests, examinations done by private contractors and turned over to the EPA, were down 9 percent for refineries and up 43 percent for all industries.</p>
+<p>We also used other data - the EPA&#39;s Toxics Release Inventory and Texas&#39; Point Source Air Emissions Inventory, among others - to flesh out our description of the pollutants that refineries have released to the air, water and land.</p>
+<p>Our reporting found that the EPA had in recent years turned increasingly to legal agreements called consent decrees, and was not inspecting refineries during the negotiations or even after them. Experts said that the lack of comprehensive inspections had a cascading effect, driving down the number of violation notices, administrative penalties and other actions.</p>
+<p>The two-day series got responses from around the country, including neighboring Louisiana, which also has a large number of oil refineries.</p>
+<p>Contact Jeff Claassen by e-mail at claassen@star-telegram.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1994-june-epa-improving-online-access.html">EPA improving online access</a>
+  <span class="similar-meta">June 1994</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-epa-sources.html">EPA sources</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-how-to-deal-with-epa-data.html">How to deal with EPA data</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-october-polluters-online.html">Polluters online</a>
+  <span class="similar-meta">October 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-october-tri-working-guide-available-at-micar.html">TRI working guide available at MICAR</a>
+  <span class="similar-meta">October 1991</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-may-june-extra-extra-your-guide-to-the-latest-investigative-work.html" class="article-nav__prev">← EXTRA! EXTRA! YOUR GUIDE TO THE LATEST INVESTIGATIVE WORK</a>
+  <a href="/uplink/article/2005-may-june-cleaning-your-files-with-textpipe.html" class="article-nav__next">Cleaning your files With TextPipe →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

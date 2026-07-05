@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More on Perl — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>More on Perl</h1>
+    <div class="article-byline">
+      <span class="author">Matthew Ericson</span>
+      
+      <span class="date">July/August 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Inquirer used Perl regular expressions to standardize 700,000 crime records with inconsistently formatted Philadelphia addresses, cleaning up about 70,000 malformed entries by identifying patterns and rearranging address components into a standard format.</p></div>
+
+  <div class="article-body">
+    <p>One of the best examples of how regular expressions can be used to clean up data came when The Inquirer obtained a 700,000-record database of every reported crime in Philadelphia since the early 1990s. Unfortunately, police had been sloppy in entering addresses in a standard format. Here&#39;s just a few of the ways that a crime at 400 N. Broad St could have been recorded:</p>
+<p>BROAD 400 N N BROAD 400 400 N BROAD BROAD 400N N400 BROAD</p>
+<p>After looking at the data, we found that about 90 percent of the addresses fell into the first category - &quot;BROAD 400 N.&quot; However, with a data set of 700,000 records, that still left about 70,000 records with bad addresses. After a little more playing with the data, we found about a dozen different styles for addresses.</p>
+<p>The data gave the story real backbone, but the actual writing was filled with anecdotes and discussion of the issues.</p>
+<p>To standardize the addresses, I wrote a Perl program that went through the database record-by-record-as part of a SQL Server DTS script - and used regular expressions to pick out the various parts of the street address.</p>
+<p>For each record, the program checked to see if the address field matched this pattern: a word, a space, a number, another space, and a direction. The syntax Perl uses to express this is:</p>
+<p>(\w+) (\d+) ([NSEW])</p>
+<p>How this worked with an address of BROAD 400 N:</p>
+<p>The \w indicates an alphanumeric character. The + says look for one or more of them. So \w+ means look for one or more alphanumeric characters in a row. So BROAD meets this condition. It&#39;s five alphanumeric characters in a row.</p>
+<p>The \d+ tells Perl to look for one or more digits in a row; 400 meets this condition.</p>
+<p>The brackets tell Perl to look for a single character. The letters in the brackets are the acceptable values. In this case, a street direction of N, S, E or W.</p>
+<p>But where Perl outshines most other search-and-replace utilities is in taking pieces of the search term and rearranging them into the replacement. By placing parentheses around groups in the search term, the script remembered what it found. The value matched by the first set of parentheses was saved in the variable $1. The value matched by the second set was saved in the variable $2, and so on. So to turn BROAD 400 N into 400 N BROAD, the script looked for (\w+) (\d+) ([NSEW]) and replaced the address with $2 $3 $1.</p>
+<p>Since the block number needed to be first, then the street direction, and then the street name, the program took the block numbers from the second set of parentheses - the (\d+), stored in $2 - and put it back as the first item in the replacement.</p>
+<p>The street direction - stored in $3 - was the next item, and the street name - the first item searched for - became the last item in the replacement.</p>
+<p>What if a particular record didn&#39;t match the pattern (\w+) (\d+) ([NSEW])? The program moved on to the next possible pattern - out of the dozen or so we were trying - and checked to see if it matched. If it did, it took the pieces, rearranged them in the proper order, and moved to the next record.</p>
+<p>If it didn&#39;t, it tried yet another pattern. And if it exhausted all possible patterns, it flagged that record as an error and moved on to the next record.</p>
+<p>Matthew Ericson can be reached by e-mail at mericson@phillynews.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-june-the-perl-y-gates.html">The Perl-y gates</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-september-october-scaping-for-data-the-perl-way.html">Scaping for data the Perl way</a>
+  <span class="similar-meta">September • October 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-june-counting-crime-right.html">Counting crime right</a>
+  <span class="similar-meta">June 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-september-october-scraping-away-for-useful-data.html">Scraping away for useful data</a>
+  <span class="similar-meta">September • October 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-august-new-ire-l-and-nicar-l-addresses.html">New IRE-L and NICAR-L addresses</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-julyaugust-keep-an-eye-on-ferrett.html" class="article-nav__prev">← Keep an eye on Ferrett</a>
+  <a href="/uplink/article/2000-julyaugust-newsroom-training.html" class="article-nav__next">Newsroom training →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

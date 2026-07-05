@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRACKING COTTON SUBSIDIES AND LEARNING SQL SERVER ON THE FLY — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>TRACKING COTTON SUBSIDIES AND LEARNING SQL SERVER ON THE FLY</h1>
+    <div class="article-byline">
+      <span class="author">Megan Clarke</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">March/April 2007</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>An Atlanta Journal-Constitution reporter describes how she used SQL Server to analyze 180 million records of U.S. farm subsidy data spanning over a decade to investigate cotton subsidies in Georgia, which received $317 million in 2005.</p></div>
+
+  <div class="article-body">
+    <p>Cotton is still king in Georgia. In 2005, the federal government pumped $317 million in subsidies into the state for cotton alone, making it Georgia&#39;s top subsidized crop.</p>
+<p>Georgia&#39;s take was a piece of $23 billion in subsidies paid nationwide that year. American farm subsidies are criticized around the world for artificially depressing crop prices, and The Atlanta Journal-Constitution decided to see how those payments help or harm farmers in the United States.</p>
+<p>To tell the story, we chose cotton subsidies because of the amount of money involved and the crop&#39;s historical importance in Georgia. My collaborators were reporters Ken Foskett and Dan Chapman, and projects editor Jim Walls.</p>
+<p>The U.S. Department of Agriculture&#39;s Farm Service Agency is responsible for distributing subsidy money. I requested payment data for the entire country dating back to 1994. FSA initially assured me the data included all subsidy payments. But after some research and checking with a fellow CAR person, I discovered I needed databases for three more programs with nearly $4 billion a year in subsidies: tobacco transition payments, commodity certificate payments and cotton cooperative certificate payments.</p>
+<p>By requesting a fee waiver because the information was of &quot;public interest,&quot; I avoided paying for any of the data. The payment database took about a month to receive, but the others, which are not requested as often, took a little longer. I would recommend requesting expedited action in your FOIA request. Most federal agencies do not recognize such a request, but FSA did.</p>
+<p>Once I received 70 GB of data – 180 million records – it was clear that my usual software, Microsoft Access and FoxPro, were not going to cut it.</p>
+<p>With trouble-shooting help from our then-CAR editor David Milliron and the book &quot;Sams Teach Yourself Microsoft SQL Server 2000 in 21 Days&quot; by Richard Waymire and Rick Sawtell, I took a crash course in SQL Server.</p>
+<p>The capabilities of SQL Server were overwhelming at first. It can handle 1 million terabytes of data, versus 2 gigabytes in Access. (The drawback to SQL Server&#39;s power is that it comes with a hefty price tag.)</p>
+<p>I learned the organization and the differences in SQL statements on deadline. SQL Server syntax slightly differs from SQL commands in FoxPro (wildcards, for example and excluding the semi-colon after each line in a query). One handy feature with SQL Server is the color-coded command text. SELECT, DELETE, INSERT all turn blue when used properly and values turn red when your syntax is correct.</p>
+<p>If you&#39;re transitioning from Access or FoxPro, stick with what you know (e.g. familiar queries) in the beginning. Once you get used to the software, it&#39;s easier to transition to advanced features. I continue to use Access and FoxPro for quick-hit analyses or daily CAR, but SQL Server has offered more advanced options for more organized, efficient analysis.</p>
+<p>SQL Server also provides more advanced security and a great feature called transaction logs, which documents almost every change made to the database. Like most database management software, SQL Server provides advanced processing tools.</p>
+<p>For the subsidy story, I used summarizing queries to produce aggregates by several different categories. My biggest interest was finding oddities and outliers. (When you see a person with a Beverly Hills address collecting cotton subsidies in Georgia, it piques your interest.) Through geographic and time-ordered slices of the data, I was able to spot trends. Besides calculating the typical</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2007-marchapril-cotton.html">COTTON</a>
+  <span class="similar-meta">March/April 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2007-marchapril-subsidies-spread-cash-far-from-struggling-farms.html">SUBSIDIES SPREAD CASH FAR FROM STRUGGLING FARMS</a>
+  <span class="similar-meta">March/April 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2007-marchapril-farmsubsidyorg-opens-access-to-eu-farm-payments.html">FARMSUBSIDY.ORG OPENS ACCESS TO EU FARM PAYMENTS</a>
+  <span class="similar-meta">March/April 2007</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-julyaugust-sql-server-pays-off.html">SQL Server pays off</a>
+  <span class="similar-meta">July/August 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-clientserver-solutions.html">Client/server solutions</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2007-marchapril-ire-spring-training.html" class="article-nav__prev">← IRE spring training</a>
+  <a href="/uplink/article/2007-marchapril-cotton.html" class="article-nav__next">COTTON →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

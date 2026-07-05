@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checking the grades — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Checking the grades</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Thomas</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">July/August 2001</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/education.html" class="badge">Education</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A Colorado reporter obtained the state&#39;s school grading formula and used Excel and statistical software to calculate what grades schools would receive under a proposed law, revealing results the governor&#39;s office had kept secret during legislative debate.</p></div>
+
+  <div class="article-body">
+    <p>It took some computer power to pull this one off, but the crucial ingredient was a reporter refusing to let her sources control the story. Colorado, like other states, has placed academic standards into statute. And like many states, Colorado uses a test to determine if schools are meeting those standards. Last year, lawmakers wanted to go a step further and translate the sometimes-murky test results into terms that millions of taxpayers statewide could rapidly understand. They agreed to issue each school an annual report card, complete with letter grades, A through F, based primarily on test scores. Colorado drew up a formula that, for each school, blended the scores of the separate reading, writing, math and other tests taken by kids in the various grades. The result was a single number for the school that, in turn, would be translated into a letter grade. Inside the statehouse committee rooms, debate revolved around the very concept of handing out As or Fs to schools. Outside the Capitol, the question was more visceral: What grade would my school get?</p>
+<p>Inside the statehouse committee rooms, debate revolved around the very concept of handing out</p>
+<p>The governor&#39;s office wasn&#39;t saying. It had drawn up the formula and had tried it out on some test results, but wasn&#39;t sharing the results. Here was a proposed law whose precise effects could be determined, yet those effects were closely guarded, even as the legislation moved toward a vote.</p>
+<p>One of The Gazette&#39;s Denver bureau reporters, Michele Ames (now with the Denver Rocky Mountain News), took matters into her own hands. She obtained a copy of the formula and reviewed it with the authors. Test scores were readily available from the state education department. She cracked open Excel, and began pouring test results into spreadsheets.</p>
+<p>I&#39;ll spare you the specifics of the formula, but here were the basic steps:</p>
+<p>1. Assemble test scores for each school in the state. Also for each school, assemble the number of pupils enrolled and the number taking each test. The raw data were available in flat files and were assembled in Excel.</p>
+<p>2. The formula required adjusting each test score using the percentage of pupils taking the test. This also was done in Excel.</p>
+<p>3. At this point, the formula wandered into statistics. Michele brought her disk to The Gazette newsroom in Colorado Springs, where we fed the numbers to SPSS, which is statistical software. The basic idea was to determine the z-score of each test score in each academic subject, in each grade level, at each school. A z-score tells you whether a test score falls within the average amount of variance around the mean test score, or if it falls somewhere above or below that average amount of variance.</p>
+<p>4. Having produced a series of z-scores for each school, one for each of the tests, the formula blended the z-scores in such a way that produced a single numeric value for each school. These values themselves were compared to produce yet another set of z-scores, one for each school. This was done in SPSS.</p>
+<p>5. Under the proposed legislation, schools with the top 8 percent of the z-scores would receive A&#39;s. The bottom 2 percent would receive F&#39;s. B&#39;s, C&#39;s and D&#39;s would be distributed to the 90 percent of schools in between. We moved the final z-scores from SPSS back to Excel. We created a new column, into which we deposited a nested &quot;IF&quot; statement that read the z-score and issued the proper letter grade for each school.</p>
+<p>Local schools</p>
+<p>For our own story, we extracted the schools and grades in the school districts within our readership area, and published those in the paper. Meanwhile, we put the entire list of schools statewide on our Web site and asked the Associated Press bureau in Denver to send an alert to Colorado members, directing them to our Web site to find schools in their area. Newspapers across the state published portions of the list, along with localized stories of their own making. We also posted a nerd box that other papers were welcome to use. A sidebar to Michele&#39;s story noted that 75 percent of the As would go to schools in just five affluent school districts. Most of the Fs, meanwhile, would go to urban schools in low-income parts of Denver. Judging by the solid week of phone calls and e-mails that rained down upon Michele, and by the legislators who brought her story to the floor during debate, this could be called impact journalism. Computers made it possible, but a reporter&#39;s instincts made it happen.</p>
+<p>Jeff Thomas can be reached by e-mail at jeff@gazette.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1997-april-correction.html">Correction</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-november-behind-school-walls.html">Behind school walls</a>
+  <span class="similar-meta">November 1999</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-may-you-may-have-a-friend-in-pa.html">You may have a friend in Pa.</a>
+  <span class="similar-meta">May 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-novemberdecember-assault-data-riddled-with-holes.html">Assault data riddled with holes</a>
+  <span class="similar-meta">November/December 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-septemberoctober-calculating-bills.html">Calculating bills</a>
+  <span class="similar-meta">September/October 2001</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2001-julyaugust-funding-schools.html" class="article-nav__prev">← Funding schools</a>
+  <a href="/uplink/article/2001-julyaugust-legislator-gifts.html" class="article-nav__next">Legislator gifts →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

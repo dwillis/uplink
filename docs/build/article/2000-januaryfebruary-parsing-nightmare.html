@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parsing nightmare — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Parsing nightmare</h1>
+    <div class="article-byline">
+      <span class="author">MaryJo Sylwester</span>
+      <span class="author-title">Managing Editor</span>
+      <span class="date">January/February 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Robert Gebeloff sought solutions for parsing a semicolon-delimited ASCII data file lacking record separators, receiving eight different approaches ranging from Perl scripts to Word macros to custom programming code.</p></div>
+
+  <div class="article-body">
+    <p>Many times there is more than one solution to a problem - as Robert Gebeloff discovered in late November when faced with an unusual parsing dilemma. His post to the NICAR-L thread elicited about eight different solutions. Here&#39;s the problem: a state agency had grudgingly turned over some data in ASCII, delimited with semicolons, with each record ending in the person&#39;s name. The big problem, though, was that there wasn&#39;t a delimiter between records. Here&#39;s a sample: GRADY,SELMA ;8M MIGLIORE MANOR ;ELIZABETH;NJ;07206-64; NB00010500; Z;99;19340127;SELMA GRADY Gebeloff wanted to know if there was a way to construct a search/replace that would recognize the name reversal at the end of the record and insert some kind of delimiter. Here&#39;s a few of the suggestions, including the ultimate solution Gebeloff used:</p>
+<p>Suggestion one:</p>
+<p>Matthew Ericson, of The Philadelphia Inquirer, suggested using Perl to construct a search-and-replace expression that will put a line break after each record: perl -p-e&#39;s/((.+?),(.+?)\s*;+?)\3 \2\s*/\1\n/g;&quot;datafile.txt More information about Perl is available www.perl.com</p>
+<p>Suggestion two:</p>
+<p>Paul Skolnick, of Thunder &amp; Lightning News Service in Belleair Bluffs, Fla., suggested this solution: run the text file through a macro in a (newer version) word-processing program to parse the name fields. Since the first and last words in the records are the same, you would insert a carriage return-line feed after the second appearance and set that off as one distinct record. The macro recorder in Word 2000 is in the Tools menu. It has a Record function in it, but you would have to doctor the recorded macro some.</p>
+<p>Suggestion three:</p>
+<p>Offered by David Heath, of The Seattle Times, this solution preserves the original data, so commas before first and middle names are kept. This program takes bits of the file to work with at a time, which requires more code, but ultimately makes the program run faster.</p>
+<p>Declare variables, including an array for the nine fields. Dim intReadFile, intWriteFile As Integer Dim strLine, strTempLine As String Dim strField(1 To 9) As String Dim X, ctr As Integer Dim lngCheckName, lngLengthOffields As Long</p>
+<p>Open the text file and the output file intReadFile = FreeFile Open &quot;d:\data\parse\newhha1.txt&quot; For Input As #intReadFile intWriteFile = FreeFile Open &quot;d:\data\parse\output.txt&quot; For Output As #intWriteFile</p>
+<p>Print the field names in the first line of the output file Print #intWriteFile, &quot;Name&quot; + &quot;Address&quot; + + &quot;State&quot; &quot;,&quot; + &quot;ZipCode&quot; + &quot;LicenseNo&quot; &quot;Code&quot; + + &quot;Expires&quot; Start a loop to read the text file. In actuality, it will loop only once. Do While Not EOF(intReadFile) Stuff the whole file into a variable &quot;strLine&quot; Line Input #intReadFile, strLine</p>
+<p>Start a second loop to read smaller chunks of the file This program is made more complicated by efforts to speed up the processing. It obviates the need to resave the whole file into memory after parsing each field. Do While Len(strLine) &gt; 0 Initialize the counters 1 ctr = ctr + 1 lngLengthOffields = 0</p>
+<p>Cut a chunk of 5000 bytes off the file and manipulate it. This makes the program run much faster. strTempLine = Mid(strLine, 1, 5000)</p>
+<p>Feed the nine fields into an array, using semi-colons as the delimiter For X = 1 To 9</p>
+<p>If PositionOfSemiColon(strTempLine) = 0 Then Exit Do strField(x) = Mid(strTempLine, 1, PositionOfSemiColon(strTempLine) - 1) strTempLine = TruncateLine(strTempLine) lngLengthOffields = lngLengthOffields + Len(strField(x)) + 1 Next X</p>
+<p>Cut off the start of the file already fed into the array strLine = LTrim(Mid(strLine, lngLengthOffields + 1))</p>
+<p>Measure the length of the extraneous data and cut it out of the next record If ctr = 1 Then lngCheckName = Len(strField(1)) If ctr &gt; 1 Then strField(1) = LTrim(Mid(strField(1), lngCheckName)) lngCheckName = Len(strField(1)) End If</p>
+<p>Write the data to a comma-delimited file Write #intWriteFile, LTrim(strField(1)), LTrim(strField(2)), strField(3), strField(4), strField(5), strField(6), strField(7), strField(8) Loop Loop</p>
+<p>Close the input and output files Close Notify the user when the program is done retval = MsgBox(&quot;All Done&quot;, vbOKOnly, &quot;Go Home&quot;) End End Sub</p>
+<p>Create a function to locate semi-colons Private Function PositionOfSemiColon(String1 As String) PositionOfSemiColon = InStr(1, String1, &quot;;&quot;, vbTextCompare) End Function</p>
+<p>Create a function to cut data from the file once read Private Function TruncateLine(String1 As String) TruncateLine = Mid(String1, PositionOfSemiColon(String1)) End Function</p>
+<p>Solution:</p>
+<p>A Visual Basic script, drafted by Tim Henderson, of The Miami Herald, and modified slightly by Gebeloff, creates a text file and nine variables.</p>
+<p>It then creates a loop that goes through the data looking for field delimiters. The contents of the first nine fields are assigned to the variables, and then it stacks the next nine records underneath, and so on until it runs out of data. The result is theoretically a tab-delimited text file that has line breaks after each record.</p>
+<p>Gebeloff discovered, however, that his software didn&#39;t recognize tabs, so he changed the script to insert a comma between fields in the new table.</p>
+<p>He also had to swap in commas for semicolons, which meant getting rid of extraneous commas in the original data. The script (run from Word&#39;s VB Editor):</p>
+<p>Sub ParseDelimited() variables for the two text files we need Dim outfile As Integer Dim infile As Integer</p>
+<p>variables for the fields we create Dim add As String, city As String, st As String, zip As String, licno As String, code As String, expires As String, dob As String, name As String</p>
+<p>Open the file to receive the parsed fields outfile = FreeFile Open &quot;c:\temp\hhc2.txt&quot; For Output As outfile Open the original datafile infile = FreeFile Open &quot;c:\temp\healthaides\hhc2.txt&quot; For Input As infile</p>
+<p>Loop through the file inputting the variables Do While Not EOF(infile) Input #infile, add, city, st, zip, licno, code, expires, dob, name Each time you get all 9 fields put them in the new file separated by commas Print #outfile, add &amp; &quot;,&quot; &amp; city &amp; &quot;,&quot; &amp; st &amp; &quot;,&quot; &amp; zip &amp; &quot;,&quot; &amp; licno &amp; &quot;,&quot; &amp; code &amp; &quot;,&quot; &amp; expires &amp; &quot;,&quot; &amp; dob &amp; &quot;,&quot; &amp; name Loop Clean up Close #infile Close #outfile End Sub</p>
+<p>MaryJo Sylwester can be reached by e-mail at maryjo@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-june-the-perl-y-gates.html">The Perl-y gates</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-march-april-automating-parsing.html">Automating parsing</a>
+  <span class="similar-meta">March-April 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-october-programs-for-parsing.html">Programs for parsing</a>
+  <span class="similar-meta">October 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-april-parsing-is-the-answer.html">Parsing is the answer</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-september-october-scaping-for-data-the-perl-way.html">Scaping for data the Perl way</a>
+  <span class="similar-meta">September • October 2004</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-januaryfebruary-troubled-bridges.html" class="article-nav__prev">← Troubled bridges</a>
+  <a href="/uplink/article/2000-januaryfebruary-census-glossary.html" class="article-nav__next">Census glossary →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

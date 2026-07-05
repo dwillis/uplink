@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A more perfect union — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>A more perfect union</h1>
+    <div class="article-byline">
+      <span class="author">Andrew Lehren</span>
+      
+      <span class="date">June 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Visual FoxPro 2.6 users can benefit from upgrading to Visual Fox to access a dedicated datetime data type with built-in functions for easier time and date handling. The article demonstrates how to convert character data to datetime format using the ctot() function and explains how to handle missing or invalid entries.</p></div>
+
+  <div class="article-body">
+    <p>For FoxPr 2.6 fans wondering whether to jump to Visual Fox, here&#39;s one reason: you can handle time without any fancy programming.</p>
+<p>That&#39;s because Visual Fox includes a date time data type. It&#39;s separate from the old date data type, which remains in the newer versions. And along with the new category come some handy functions. Here&#39;s an overview with tips to get things done faster and avoid mistakes.</p>
+<p>Converting your data</p>
+<p>Let&#39;s assume you want to convert data stored as character. You can create a new date time field by taking your mouse to Table Properties and modifying the structure. After inserting a new column, go to data type and pick date time. That&#39;s a choice you didn&#39;t have in earlier versions of Fox. Now go back to your command window. To bring in data from a character column, you&#39;ll need to use the character-to-time function ctot(). Let&#39;s look at how it works.</p>
+<p>Let&#39;s say you&#39;re starting with three separate character columns, one with dates, another with times, and a third designating a.m. or p.m. Pretend this is part of a database showing the times that city officials made telephone calls:</p>
+<p>CALLDATE	CALLTIME	AMorPM 12/31/95	12:45	AM 09/14/60	7:35	PM 01/10/60	7:40	AM 10/8/96	11:35	AM</p>
+<p>(Notice the data is a little inconsistent. Sometimes you&#39;ve got a leading zero in your day or time. Sometimes you don&#39;t. It doesn&#39;t matter - Fox will cut you slack. You also won&#39;t need to trim any leading spaces.) In this example, we&#39;ll pretend you&#39;ve created a new date time column called CALLTIME.</p>
+<p>Now we&#39;re ready to use the ctot function. Have no fear. It should be familiar territory to anyone who&#39;s messed with Fox functions. To fill in the times in the new column, run this command:</p>
+<p>Replace all CALLTIME with ; ctot(CALLDATE + CALLTIME + AMorPM)</p>
+<p>The result should look something like this:</p>
+<p>12/31/95 12:45:00 AM 09/14/96 07:35:00 PM 01/10/97 07:40:00 AM 10/08/96 11:35:00 PM</p>
+<p>And you&#39;re done converting your data.</p>
+<p>Missing or bizarre entries</p>
+<p>If, for some reason your data includes a time that cannot exist, like 25:00, the replacement for that record won&#39;t work. Nothing will be inserted. The same goes for an invalid date, even if you have a valid time. Nothing will be inserted. However, if you have a valid date and nothing in your time field, Fox will insert the date plus 00:00:00, which is midnight. And, if you have a valid time but no date, Fox will insert 12/30/1899. (If you forgot how to see what century it is, simply type in your command window: SET CENTURY ON.) If these seem like boring details, keep in mind that this can mean the difference between a query that gets a right or wrong answer.</p>
+<p>How do I look?</p>
+<p>The default setting shows time with seconds. If you don&#39;t like this - your data doesn&#39;t have seconds and you don&#39;t like looking at all those zeros - type SET SECONDS OFF in your command window. Away go all those pesky :00s.</p>
+<p>In addition, you may find it easier to ask some questions by using military time. That&#39;s where the clock goes all the way to 24:00 and you no longer need a.m. or p.m. To do that, type SET HOURS TO 24. Now everything will be in military time. Then again, if you hate seeing things in military time, the opposite command is SET HOURS TO 12.</p>
+<p>A query sampler</p>
+<p>Let&#39;s say you want to find all calls after 2 p.m. on Sept. 12, 1996, when a big piece of legislation was introduced:</p>
+<p>Select * ; From PhoneCalls ; Where CALLTIME &gt; { 9/14/96 14:00}</p>
+<p>Here you need to use the curly braces, the same way you needed them for the original date data type. Let&#39;s say you want to find all calls between p.m. on Sept. 12, 1996, and 10 a.m. on Jan. 15, 1997, when the big piece of legislation finally came up for a vote:</p>
+<p>Select * ; From PhoneCalls ; Where between (CALLTIME, {9/12/96 14:00}, {1/15/97 10:00}</p>
+<p>Again, you need to use the curly braces. Now let&#39;s say you want to find out who&#39;s so important that the mayor is calling after 10:00 at night. If you have things set to military time, the query is simply:</p>
+<p>Select * ; From PhoneCalls ; Where hour(CALLTIME) &gt; 22</p>
+<p>Notice that when you use the hour() function, the criteria is numeric. You don&#39;t need any punctuation, like quotes or curly braces.</p>
+<p>Time differences</p>
+<p>Let&#39;s say you have the starting time of a phone call and the ending time, and you want to know how long a city council member called that 900 number. Remember that the date time data type answers with the number of seconds - even if you&#39;ve set seconds off. So if you want your answer in seconds, don&#39;t do a thing. If you want it in minutes, divide by 60. In hours, by 3600. And so on. For example:</p>
+<p>Select , (ENDCALL - BEGINCALL) / 60 as CallLength ; From PhoneCalls</p>
+<p>This will tell you the call&#39;s length, in minutes. Notice that you need to put the EndCall - BeginCall in parentheses. The reason that must be done is to first generate the difference a result that will be numeric and can then be divided by 60.</p>
+<p>Let&#39;s say that, for some reason, you have one column as a date field, and another as a date time field and you want to find the difference between them. Let&#39;s say it&#39;s an arrest database. The date field is Birthday, and the date time field is Arrested, noting when someone was busted. For this mixing and matching, you can use the ttod() function. Here&#39;s an example. (This time, dividing converts our answer into years, to see how old they were when arrested):</p>
+<p>Select (ttod(Arrested) - Birthday) /365.25 as ArrestAge ; From Crimes</p>
+<p>Catching nulls</p>
+<p>Remember in the section on missing and bizarre entries? Let&#39;s say you want to find an instance when no data is in the field. There are two ways to do that: with the isblank or empty() functions. The isnull() function will not work because Fox has yet to allow true null designations for these cases. So here&#39;s an example to catch them:</p>
+<p>Select * ; From PhoneCalls; Where empty(EndCall)</p>
+<p>And, since you know what Fox inserts when you have a valid time but no date, or vice versa, you can run filters to catch or ignore those entries.</p>
+<p>Watch out! A caution about averages</p>
+<p>Remember how Fox will convert proper days with no time (by adding midnight) or no days with proper time (by assuming the day is 12/30/1899)? Well, don&#39;t forget that can screw up any summary calculations. For some reason, Fox will consider empty entries when running averages unless you tell it otherwise. Regardless, be careful to filter for these kinds of values if you don&#39;t want to include them.</p>
+<p>Andy Lehren can be reached by e-mail at alehren@nbc.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-october-how-long-did-that-take.html">How long did that take?</a>
+  <span class="similar-meta">October 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-february-converting-dates-in-access.html">Converting dates in Access</a>
+  <span class="similar-meta">February 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-june-whats-your-function.html">What&#39;s Your Function?</a>
+  <span class="similar-meta">June 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-november-unraveling-those-mysterious-string-functions.html">Unraveling those mysterious string functions</a>
+  <span class="similar-meta">November 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-march-tech-tip.html">Tech Tip</a>
+  <span class="similar-meta">March 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-june-tales-from-the-vault.html" class="article-nav__prev">← Tales from the vault</a>
+  <a href="/uplink/article/1998-june-battling-for-access.html" class="article-nav__next">Battling for access →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

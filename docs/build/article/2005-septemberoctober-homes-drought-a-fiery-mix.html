@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homes, drought a fiery mix — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Homes, drought a fiery mix</h1>
+    <div class="article-byline">
+      <span class="author">Scott North</span>
+      
+      <span class="date">September/October 2005</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalism team in Washington state used GIS data analysis to investigate wildfire risks in their rapidly growing county, discovering that 5,500 residents live in high-risk fire zones with about 100 new homes being built there annually.</p></div>
+
+  <div class="article-body">
+    <p>It was a moment of potentially dangerous convergence.</p>
+<p>My editors looked at their story budget and saw a hole on the front page a few days hence. At that moment, I didn&#39;t have anything pressing on my schedule.</p>
+<p>Tag. I was it.</p>
+<p>The assignment - find out how an unusual winter drought had affected this normally soggy place - could have been just another weather yarn. Instead, some quick data analysis using geographic information system (GIS) software highlighted a developing hazard that had been taking shape for years in the forestland outside area cities and towns.</p>
+<p>The Herald serves a community of more than 630,000 people in rapidly growing Snohomish County. The county, roughly a half-hour drive north of Seattle, is about the size of Connecticut. Most of the population is concentrated not far from the tideland shores of Puget Sound. To the east are rugged foothills, evergreen forests and thousands of acres of Cascade Mountain Range wilderness, including a slumbering volcano.</p>
+<p>Lots of rain and snow usually keep this place green. Not this year. The driest winter in 110 years led the governor to declare a drought emergency. Officials forecast what could be the worst wildfire season in years.</p>
+<p>If the fires got going, where would they likely appear, and who would be at greatest risk?</p>
+<p>Using mostly free data arrayed in a GIS, we were able to report that 5,500 people in our county appear to be living in the areas most at risk for wildfires. We found planners have been approving about 100 new homes in those fire-prone areas each year, many outside fire-protection districts.</p>
+<p>My partner on the story, Diana Hefley, knew the state Department of Natural Resources had identified portions of the county as particularly at risk for wildfires. The determinations were based on a number of factors: fire history, presence of brushy fuel, terrain, ease of access, a low level of organized fire protection.</p>
+<p>A quick check showed the department had created mapping shapefiles of these fire zones and had posted them on the Web. The state also had 30 years&#39; of wildfire incidents, their locations mapped using X,Y coordinates.</p>
+<p>After consulting the metadata for these records, we opened the files in ESRI ArcView 9. It is at moments like this that I love Washington&#39;s strong public records laws. In addition to the free data on wildfire threats, past and future, my GIS data cache already contained shapefiles of property parcel lines, a decade of building and construction permits already geocoded into points for use in another project, fire district and city boundaries, major roads and rivers, population estimates at the Census block level, plus a fat database containing property tax assessment records.</p>
+<p>After making sure all the GIS data was in the same projection, I set ArcView to the task of clipping information that would form the core of our analysis.</p>
+<p>Clipping has become one of my most-used GIS tools. The process is simple. First, decide what data you want to clip, and place that into an ArcView map. Next, overlay the shapefile that contains the area you want to use as a cookie cutter to punch out the relevant records. If you have your GIS ducks in a row, clipping works equally well to extract a section of points (say wildfire locations, or building permits) or to snip out relevant polygons, such as census blocks, or property parcels.</p>
+<p>We clipped data using the state&#39;s shapefiles of fire hazard zones. ArcView automatically creates a new shapefile of the data it clips, complete with its own underlying database table in dBASE format.</p>
+<p>ArcView has SQL query capability, but I still like to export data tables to Microsoft Access database manager for analysis. In short order, I knew how many people lived in the fire zones (by analyzing clipped Census block data), how many new homes on average had received construction permits each year (by analyzing clipped building permits) and the parcel numbers of each piece of property within the hazard areas.</p>
+<p>It was then time to help the data start talking.</p>
+<p>Parcel numbers are the key to making joins to property data. Using Access, I joined the data table of clipped parcels to property assessment records. Because assessors record the year of construction for each home they record, I was able to track the development history in the clipped area, year by year.</p>
+<p>After tabulating the home construction data, I dropped the results into a Microsoft Excel spreadsheet and prepared a chart. The resulting trend line, and some quick math, showed that more than three-fourths of the homes in the fire-prone areas had been built in the past 40 years.</p>
+<p>By increasing the transparency of the fire-zone shapefiles, we were able to see clearly the building permit locations, spread across the land like so many freckles. Adding fire-protection district boundaries to the map demonstrated that significant construction had occurred in places not only at risk of burning, but also outside fire protection districts, and rapid assistance from fire crews.</p>
+<p>I knew many of the fire-prone areas were in forested mountain foothills. Some quick Web browsing led to digital images that I could open in my ArcView mapping project to accurately demonstrate topography. These images brought some on-the-ground reality to our analysis.</p>
+<p>I then turned to the 30 years of fire data at my fingertips. It showed that people had sparked most of the fires, primarily by burning trash and other debris around their homes. I used a land survey shapefile of townships, with its big, uniform-sized blocks, to section off the county. I calculated the number of fires in each section and prepared a graduated color map that showed how many fires had occurred in each part of the community over the years. The map showed the state had been accurate in its concerns about the fire-prone areas.</p>
+<p>Hefley and I reached out to the experts, sharing Adobe PDF copies of our data maps. We found fire officials and county planners not only aware of the problem, but in some cases, frustrated with their inability to spark attention. There is no law in Washington against building a home in a place that is prone to fire. One former fire marshal told us she feared that Washington - damp, green and growing in population - is just an ill-fated spark away from the devastation and loss of life that has hit other places in the west, especially California.</p>
+<p>Her fears seem founded. One of the people we talked with is a state expert on wildfire. The land shows scars from devastating fires that have swept through the forests in these parts every 150 to 300 years, he said. People now call those areas home. We are in the midst of one of the worst dry spells in more than a century. Do the math. You may find a similar story developing in your neck of the woods.</p>
+<p>Contact Scott North by e-mail at snorth@heraldnet.com</p>
+<p>in the past 40 years.</p>
+<p>By increasing the transparency of the fire-zone shapefiles, we were able to see clearly the building permit locations, spread across the land like so many freckles. Adding fire-protection district boundaries to the map demonstrated that significant construction had occurred in places not only at risk of burning, but also outside fire protection districts, and rapid assistance from fire crews.</p>
+<p>I knew many of the fire-prone areas were in forested mountain foothills. Some quick Web browsing led to digital images that I could open in my ArcView mapping project to accurately demonstrate topography. These images brought some on-the-ground reality to our analysis.</p>
+<p>I then turned to the 30 years of fire data at my fingertips. It showed that people had sparked most of the fires, primarily by burning trash and other debris around their homes. I used a land survey shapefile of townships, with its big, uniform-sized blocks, to section off the county. I calculated the number of fires in each section and prepared a graduated color map that showed how many fires had occurred in each part of the community over the years. The map showed the state had been accurate in its concerns about the fire-prone areas.</p>
+<p>Hefley and I reached out to the experts, sharing Adobe PDF copies of our data maps. We found fire officials and county planners not only aware of the problem, but in some cases, frustrated with their inability to spark attention. There is no law in Washington against building a home in a place that is prone to fire. One former fire marshal told us she feared that Washington - damp, green and growing in population - is just an ill-fated spark away from the devastation and loss of life that has hit other places in the west, especially California.</p>
+<p>Her fears seem founded. One of the people we talked with is a state expert on wildfire. The land shows scars from devastating fires that have swept through the forests in these parts every 150 to 300 years, he said. People now call those areas home. We are in the midst of one of the worst dry spells in more than a century. Do the math. You may find a similar story developing in your neck of the woods.</p>
+<p>Contact Scott North by e-mail at snorth@heraldnet.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2004-july-august-finding-faults-in-new-homes.html">Finding faults in new homes</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-july-august-mapping-finds-holes-in-siren-coverage.html">Mapping finds holes in siren coverage</a>
+  <span class="similar-meta">July-August 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-november-december-elder-care-homes-ripe-for-probes.html">Elder care homes ripe for probes</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2002-november-december-gis-data-carries-high-cost.html">GIS data carries high cost</a>
+  <span class="similar-meta">November December 2002</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-census-and-gis.html">Census and GIS</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2005-septemberoctober-gis-software-discount-for-ire-members-only.html" class="article-nav__prev">← GIS software discount for IRE members only</a>
+  <a href="/uplink/article/2005-septemberoctober-database-answers-bankruptcy-questions.html" class="article-nav__next">Database answers bankruptcy questions →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

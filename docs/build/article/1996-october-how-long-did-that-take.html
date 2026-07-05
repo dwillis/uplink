@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How long did that take? — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>How long did that take?</h1>
+    <div class="article-byline">
+      <span class="author">Richard Mullins</span>
+      
+      <span class="date">October 1996</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a></div>
+  </header>
+
+  <div class="article-summary"><p>This article explains how to use custom FoxPro functions (DateTime, DateTimeDiff, and Hours) to calculate elapsed time between two date-time combinations, which is useful for analyzing database records like court cases, inspections, and emergency response times.</p></div>
+
+  <div class="article-body">
+    <p>Many databases include dates that define significant periods of time and deserve analysis. Court data can have arrest date, trial date and sentence date, for example. Inspection data can have date reported, date inspected and date enforcement action was taken.</p>
+<p>Database software has the capability to do calendar arithmetic to answer questions such as, &quot;Which case went the longest between arrest and trial?&quot; or &quot;Which inspection cases took the longest to get around to?&quot;</p>
+<p>Sometimes, however, hours and minutes count. For example, you might want to calculate response times for emergency calls, phone call duration, or how long someone was in jail. Comparing the elapsed time with this information is a little more involved, since the beginning time may start at 2:03 p.m. on one day and the ending time may be at 5 a.m. the next morning or the next week.</p>
+<p>This month&#39;s tip is a custom FoxPro function that you can use to do these time calculations. You can download the file TimeDat.zip from http://www.reporter.org</p>
+<p>The file contains the source code for the functions, a sample table to test with, instructions on how to use the file and the functions.</p>
+<p>The functions are: DateTime(), DateTimeDiff(), and Hours(). You can use these functions as you would the regular built-in FoxPro functions: in a query, or in a FoxPro command such as REPLACE ALL. Copy the file TimeDat.prg to your FoxPro directory and then in the command window, type:</p>
+<p>set procedure to TimeDat.prg</p>
+<p>This makes the functions available. If you exit FoxPro or issue the CLOSE ALL command, you will have to type the command again to use the functions. For more information, see the documentation file included in TimeDat.zip</p>
+<p>For illustration, I&#39;ll assume a table called TEST (included in TimeDat.zip) with five columns: ID, BeginDate, BeginTime, EndDate and EndTime. The question we&#39;re trying to answer is how much time passed between one starting date and time and the ending date and time.</p>
+<p>The function DateTime takes two arguments: a date and a clock time. The clock time must be in the 24-hour format and indicated in hh:mm:ss or in hh:mm. The function converts the date and clock time to a single unit to define a point in time: the Julian day and the decimal proportion of the time of that day. If you want to think of Julian date as &quot;star date,&quot; that&#39;s OK, since it is used in astronomy to sidestep the quirks of our calendar.</p>
+<p>The function DateTimeDiff compares two DateTime results and returns the time interval, expressed in days. To convert the interval to hours, divide the result by 24.</p>
+<p>Here are some query examples. This one uses DateTime: SELECT id, ; DateTime (begindate, begintime) ; DateTime (enddate, endtime) ; FROM test</p>
+<p>This next query adds one more output column, using to calculate the days elapsed between beginning time/date and the ending time/date. Note that the functions are nested: the values returned from DateTime are passed to DateTimeDiff:</p>
+<p>SELECT id, ; DateTime (begindate, begintime) ; DateTime (enddate, endtime) ; DateTimeDiff (DateTime (begindate, begintime) ; DateTime (enddate, endtime) ) ; FROM test</p>
+<p>Here is how the DateTime function works, applying it to June 16, 1996, at 15:46:31.</p>
+<p>The Julian date for 06/16/96 is 2450251. A Julian date is just a really big number: 2,450,251. It doesn&#39;t break down into anything else. At 15:46:31 on the clock, the day is 15.7753 hours old. Dividing that by 24 shows what proportion of the day has passed: 0.6573. Adding the Julian day and the proportion of the incomplete day gives the absolute reference we need to measure time periods that span a calendar day. With this kind of measure we can do time/date arithmetic on the mayor&#39;s cell phone calls. Here is what the FoxPro command window would look like to get these answers. The SYS(11) function is a built-in FoxPro function that converts a calendar date to a Julian date. FoxPro has more than 50 different SYS() functions (In the commands below, the lines in bold would show up on the screen, not in the command window).</p>
+<p>Richard Mullins can be reached at (573) 882-2127, or send e-mail to richard@nicar.org</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-june-a-more-perfect-union.html">A more perfect union</a>
+  <span class="similar-meta">June 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-march-how-to-get-a-date.html">How to get a date</a>
+  <span class="similar-meta">March 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-september-setting-the-data-free.html">Setting the data free</a>
+  <span class="similar-meta">September 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-june-whats-your-function.html">What&#39;s Your Function?</a>
+  <span class="similar-meta">June 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-march-tech-tip.html">Tech Tip</a>
+  <span class="similar-meta">March 1997</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1996-october-ire-committees-seeking-volunteers.html" class="article-nav__prev">← IRE committees seeking volunteers</a>
+  <a href="/uplink/article/1996-october-excel-tip-flipping-data.html" class="article-nav__next">Excel tip: flipping data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

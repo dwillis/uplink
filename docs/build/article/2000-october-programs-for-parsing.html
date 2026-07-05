@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs for parsing — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Programs for parsing</h1>
+    <div class="article-byline">
+      <span class="author">David Heath</span>
+      
+      <span class="date">October 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>The article explains how to handle difficult-to-import data files using programming, specifically Visual Basic, when traditional tools like Excel&#39;s import wizard fall short. It outlines five key programming concepts needed to parse loosely structured data and recommends learning resources for getting started.</p></div>
+
+  <div class="article-body">
+    <p>If you work with data much, at some point you&#39;re going to deal with files that defy easy import.</p>
+<p>Knowing a few tricks can sometimes save you lots of work. For example, if a text file is missing carriage returns at the end of each line — a common dilemma — you can open it in Word and save it into a new text file. Voilà. You now have carriage returns.</p>
+<p>You can also do a lot with search and replace tools, Excel&#39;s import wizard and Monarch, a terrific software package that converts reports back into databases. But there are times when even Monarch falls short. That&#39;s especially true if columns don&#39;t line up or the structure of each record is not consistent.</p>
+<p>When the going gets rough, the tough write a program.</p>
+<p>Writing your own program is the only solution I know if you&#39;re trying to parse data that&#39;s loosely structured. Say that you want to take a collection of Web pages and put all the links into a database. The links aren&#39;t hard to find; they always begin with &quot;&lt;a href=&quot; But otherwise, the pages may lack any consistent format.</p>
+<p>There is a way to do this, but you have to learn a smidgen of programming. If you already write simple programs to clean data, you probably already have most of the skills needed. If you are a novice or have never tried programming, the good news is that you don&#39;t have to learn that much. You&#39;ll be working with a limited set of functions and statements.</p>
+<p>I&#39;m going to show you how to deal with problems using Visual Basic. You could do the same type of thing with FoxPro or, for those fearless of its steep learning curve, Perl. The latter is especially powerful at pattern matching, making it an ideal tool for finding HTML tags.</p>
+<p>VB&#39;s chief advantages are that it&#39;s already built in to Access, Excel and Word — so you don&#39;t have to buy any new software — and it was especially created to be an easy-to-learn programming language. (Although you&#39;ve already got a version of VB, if you buy the full version you&#39;ll get a lot of debugging tools that can be a life saver.)</p>
+<p>To manipulate text in VB, you need to learn five things:</p>
+<p>1. How to declare variables, which simply means defining them as either characters or numbers.</p>
+<p>2. How to open and close files.</p>
+<p>3. How to read from files and write to files.</p>
+<p>4. How to use text functions, such as MID, INSTR, LEFT, TRIM and LEN</p>
+<p>5. How to create loops.</p>
+<p>When you&#39;re first learning Visual Basic, it&#39;s easy to get distracted making pretty pictures: forms, buttons, labels, etc. But your program doesn&#39;t have to look good; it just needs to get the job done. In fact, all the tools you need can be found in the old QBasic, that free program that comes with DOS. A great book for learning Basic programming is &quot;QBasic by Example,&quot; written by Greg M. Perry.</p>
+<p>There&#39;s no way to teach you everything you&#39;ll need to start programming in a brief article, so I highly recommend getting a book. However, I can walk you through a fairly simple program that parses data, and that should give you a pretty good idea of what to expect.</p>
+<p>Let&#39;s take the U.S. Census home page, at www.census.gov, and parse all the links into a comma-delimited file that we can easily import into a database. Save the page to your hard drive and note the location, because you&#39;ll need it for later. The file is tricky because the page is very loosely structured and the HTML tags are not always consistent. Sometimes they are followed by quotation marks and sometimes they aren&#39;t. So we have to include some conditional statements in our programs.</p>
+<p>Of course, it&#39;s not efficient to write a program to parse a single page, but this program could parse scores of Web pages all at once. You&#39;ll find plenty of situations where such a program can do wonders.</p>
+<p>To run this, go to Tools | Macro | Visual Basic Editor in Excel and type in the following code. Then simply click on the Run button.</p>
+<p>Private Sub Command1_Click()</p>
+<p>Start by declaring the data type of all the variables you&#39;ll use.</p>
+<p>I&#39;ve just made up the variable names on the left, starting some with &quot;str&quot; to signify string, int to signify integer or lng to signify Long Integer.</p>
+<p>Dim strLine As String Dim intRead, intWrite As Integer Dim lngFindAHREF, lngEndHere, lngFindAlt As Long Dim lngStartHere, lngFindEndTag, lngFindName As Long Dim lngFindGreaterThan, lngFindLessThan As Long Dim strHref, strAlt, strName As String Dim strNextLine As String</p>
+<p>FreeFile() is a useful function that assigns an unused number to a file. Basic requires files to be numbered for opening, closing, reading and writing. intRead = FreeFile()</p>
+<p>In this case, intRead is now equal to 1. We can now open our Web page to read from as file No. 1. Open &quot;c:\census\www_census_gov.html&quot; For Input As #intRead</p>
+<p>Next we want to create a second file, No. 2, that we are going to write the data to. intWrite = FreeFile() Open &quot;c:\census\filetoimport.txt&quot; For Output As #intWrite</p>
+<p>So all we&#39;ve done is opened the Web page, which was previously saved to your computer. Your path may differ from that above. Then we created a file called &quot;filetoimport.txt&quot; that we will write to.</p>
+<p>We&#39;re now ready to look through the Web page for patterns. The statement for that is Do while NOT EOF(intRead) Meaning read until you get to the End Of File #1, followed by Line Input #intRead, strLine, meaning Go to the next line and put it into my variable &quot;strLine.&quot; Do While Not EOF(intRead) Line Input #intRead, strLine</p>
+<p>Time to start looking for the pattern &quot;a href&quot;. The function InStr gives the number of the characters from the left that a pattern appears.</p>
+<p>vbTextCompare _ ignores upper and lower cases. lngFindAHREF = InStr(1, strLine, &quot;A HREF&quot;, vbTextCompare)</p>
+<p>If we find &quot;a href&quot; in a line, we want to grab that line eight characters to the right of the start of the tag. If lngFindAHREF &gt; 0 Then strLine = Mid(strLine, lngFindAHREF + 8)</p>
+<p>Some of the lines wrap, so we have to make them one long line using a loop. Do While Not InStr(1, strLine, &quot;&lt;/A&quot;, vbTextCompare) &gt; 0 Line Input #intRead, strNextLine strLine = LTrim(strLine) + &quot; &quot; + LTrim(strNextLine) Loop</p>
+<p>We&#39;re looking for the end of the first tag and will put the text in between into a variable called strHref. lngEndHere = InStr(1, strLine, &quot;&gt;&quot;, vbTextCompare) strHref = Mid(strLine, 1, lngEndHere - 1)</p>
+<p>Now we&#39;re looking for the ALT tag, which is what shows up if an image can&#39;t be displayed on the Web page. If we find it, we&#39;ll put the text in that tag into the variable &quot;strAlt.&quot; To help find the end of the tag, we&#39;re searching for quotation marks. I&#39;ve used the Chr() function because we can&#39;t put quotations within quotations. lngFindAlt = InStr(1, strLine, &quot;ALT&quot;, vbTextCompare) If lngFindAlt &gt; 0 Then lngStartHere = InStr(lngFindAlt, strLine, Chr(34)) + 1 lngEndHere = InStr(lngStartHere, strLine, Chr(34)) strAlt = Mid(strLine, lngStartHere, lngEndHere - lngStartHere) End If</p>
+<p>Finally, we&#39;re looking for the last tag, which sometimes will include text that you see on the Web page as a hyperlink. lngFindEndTag = InStr(1, strLine, &quot;&lt;/a&quot;, vbTextCompare) strLine = Mid(strLine, 1, lngFindEndTag 1)</p>
+<p>lngFindGreaterThan = InStr(1, strLine, &quot;&gt;&quot;) lngFindLessThan = InStr(1, strLine, &quot;&lt;&quot;) If lngFindLessThan &gt; 0 Then strLine = Mid(strLine, lngFindGreaterThan + 1) End If lngFindName = InStr(strLine, Chr(62)) strName = Mid(strLine, lngFindName + 1)</p>
+<p>We have a little bit of clean up work to do. There are extraneous quotation marks to remove and pieces of unwanted text. Also, some of the links begin with &quot;http://&quot; and some don&#39;t. If Left(strHref, 1) = Chr(34) Then strHref = Mid(strHref, 2) If InStr(1, strHref, &quot; &quot;) &gt; 0 Then strHref = Mid(strHref, 1, InStr(1, strHref, &quot; &quot;) - 2) Select Case Left(strHref, 1) Case &quot;h&quot; strHref = strHref Case &quot;/&quot; strHref = &quot;http://www.census.gov&quot; + strHref Case Else strHref = &quot;http://www.census.gov/&quot; + strHref End Select If Right(strHref, 1) = Chr(34) Then strHref = Mid(strHref, 1, Len(strHref) - 1)</p>
+<p>We&#39;re combing the ALT tags with the hyperlinks because they do essentially the same thing. If strAlt = &quot;&quot; Then strAlt = strName</p>
+<p>Now we&#39;ll write the variables to a comma-delimited file. Write #intWrite, strHref, strAlt</p>
+<p>It&#39;s time to clean out the variables and run through the loop again. strHref = &quot;&quot; strAlt = &quot;&quot; strName = &quot;&quot; End If Loop</p>
+<p>You always have to close files that you&#39;ve opened. The command for that is simple. Close End End Sub</p>
+<p>David Heath can be reached by e-mail at dheath@seattletimes.com.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-april-parsing-is-the-answer.html">Parsing is the answer</a>
+  <span class="similar-meta">April 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-augustseptember-programming-as-easy-as-sql.html">Programming? As easy as SQL</a>
+  <span class="similar-meta">August/September 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-october-vbasic-resources.html">VBasic resources</a>
+  <span class="similar-meta">October 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-parsing-nightmare.html">Parsing nightmare</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-june-the-perl-y-gates.html">The Perl-y gates</a>
+  <span class="similar-meta">June 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-october-doctors-and-damages.html" class="article-nav__prev">← Doctors and damages</a>
+  <a href="/uplink/article/2000-october-vbasic-resources.html" class="article-nav__next">VBasic resources →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

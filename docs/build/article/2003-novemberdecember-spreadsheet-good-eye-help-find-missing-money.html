@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spreadsheet, good eye help find missing money — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Spreadsheet, good eye help find missing money</h1>
+    <div class="article-byline">
+      <span class="author">Paul Egan</span>
+      
+      <span class="date">November/December 2003</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>The Detroit News used Excel spreadsheets to compare PAC-reported contributions with candidate-reported receipts, uncovering that Detroit Mayor Kwame Kilpatrick failed to report $16,650 in campaign contributions from 30 PACs during 1999-2000.</p></div>
+
+  <div class="article-body">
+    <p>When political candidates fail to report receiving campaign contributions, the money has essentially disappeared.</p>
+<p>Unless the contributor reports the candidate&#39;s failure to publicly report the money, which is unlikely, there is almost no way of knowing the candidate ever received it.</p>
+<p>The exception is with contributions from political action committees. Unlike individuals, whose contributions are only reported by the candidates who receive them, PACs must file public reports that detail their political contributions.</p>
+<p>Using a spreadsheet or database manager to compare the contributions that PACs report making to a candidate with those the candidate reported receiving from the same PACs is an excellent way of testing the accuracy and integrity of a candidate&#39;s campaign-finance reporting.</p>
+<p>In July, The Detroit News used Microsoft Excel to conduct such an examination of Detroit Mayor Kwame Kilpatrick, a former Democratic minority leader in the Michigan House of Representatives. Over the two-year period studied, 1999-2000, The News found that PACs reported writing 30 checks totaling $16,650 to Kilpatrick&#39;s state House campaign fund that Kilpatrick never reported receiving. Journalists could use a database manager, such as Microsoft Access, to match the data, especially where there are many contributions.</p>
+<p>Raising questions</p>
+<p>Three factors prompted the News to take a look.</p>
+<p>First, the PAC money Kilpatrick&#39;s state House fund reported receiving - a little over $120,000 over the two-year period - appeared low relative to other state legislators in leadership positions.</p>
+<p>Second, Kilpatrick had a history of noncompliance with state campaign finance laws, accumulating more than $13,000 in fines over five years for late filing of reports to the state and county.</p>
+<p>Third, the state had recently refused Kilpatrick&#39;s request to dissolve his state House committee, because of reporting discrepancies of between $1,400 and $2,900 - much smaller discrepancies than those uncovered by the News.</p>
+<p>Without a computer the analysis would have been next to impossible. Even with one, it required considerable drudgework.</p>
+<p>In Michigan, where some committees file electronically and others still file paper reports, data on candidate receipts and PAC contributions is supposed to be easily accessible in electronic format. Data filed electronically is added to the Michigan Secretary of State campaign finance database that can be queried on the Web (see http://miboecfr.nicusa.com/cgi-bin/cfr/contrib_anis.cgi.) State workers manually enter information filed on the paper reports into the same database.</p>
+<p>Getting a file of Kilpatrick&#39;s reported contributions was simple: I punched in the candidate&#39;s name, set the date parameters for 1999 and 2000, and downloaded an Excel file with all the reported receipts. Then I deleted the records of contributions from individual contributors, leaving only 109 PAC contributions.</p>
+<p>Getting a file of contributions that PACs reported making to Kilpatrick in 1999 and 2000 was much more difficult. Most PACs file on paper. The state uses the candidate reports as its source of PAC contribution data. So Kirkpatrick&#39;s unreported PAC contributions would be missing.</p>
+<p>The only way to get the data was to examine scanned reports from all 1,000 or so Michigan PACs during 1999 and 2000 and manually create a spreadsheet of contributions they reported making to Kilpatrick. Using a similar format to the first spreadsheet, my new table included a column for the name of the contributor, one for the amount of the contribution, and one for the reported contribution date.</p>
+<p>Contributions reported to Kilpatrick by the PACs had 145 records. Since the databases were relatively small, I sorted each spreadsheet alphabetically by contributor and used my eyes to do the matching, striking out pairs of contributions and receipts until I was left with a list of what appeared to be unreported contributions. If I were to try a similar analysis again, I&#39;d clean up the files, load them into Access and try joining them by contributor name and amount.</p>
+<p>Checking on the PACs</p>
+<p>Looking at the unmatched contributions, I saw that I still had plenty of work ahead.</p>
+<p>PACs are sometimes known by more than one name, and it&#39;s important to check for inconsistencies between the name used by the contributor and the one used by the recipient when recording the contribution.</p>
+<p>We found instances with matching contributors but differing contribution amounts. Because there was no easy way to determine which table contained the correct amount, the News did not include these contributions in its results and focused solely on contributions that were not reported at all by Kilpatrick&#39;s committee.</p>
+<p>It&#39;s also possible that a contributor reported making the contribution within the time period covered by the analysis, but the candidate did not report receiving it until a later time period. For that reason, we searched all reports filed by the candidate after the time period covered by the analysis.</p>
+<p>Contributions can go astray in other ways. For example, the News found instances in which a PAC reported contributing to Kilpatrick&#39;s campaign committee, but Kilpatrick reported depositing the money into his own political action committee, called Generations. Since he reported the contributions as received somewhere, these were not included as missing.</p>
+<p>Interestingly, among the missing contributions the News found were two totaling $3,150 that Kilpatrick&#39;s PAC reported making to his campaign committee but his campaign committee never reported receiving.</p>
+<p>Lost in the mail?</p>
+<p>Another problem to be aware of is contribution checks that get lost in the mail or become outdated because they are not cashed quickly enough. In those cases, Michigan law requires the PAC to adjust the balance by reporting the amount of the lost or uncashed checks as &quot;other income&quot; in a subsequent report.</p>
+<p>It makes sense, then, that the time period chosen for the analysis should be far enough in the past so such anomalies can be discovered and accounted for in the reports. That was one of the reasons the News examined the final two years when Kilpatrick was in the state House, rather than the period during his more recent job as mayor of Detroit.</p>
+<p>As a further check, the News contacted a sample of the PACs that reported making contributions to Kilpatrick that Kilpatrick never reported receiving. Contributors confirmed that at least eight of the unreported checks, totaling $5,150, had cleared the bank.</p>
+<p>After the News published its report, a spokesman for Kilpatrick acknowledged that there appeared to be a reporting problem and said Kilpatrick&#39;s committee had hired an attorney who specialized in financial matters to try to resolve the issues.</p>
+<p>Paul Egan is a former staff writer for The Detroit News and can be contacted by e-mail at paulegan@sympatico.ca.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-january-public-interest-contributions-and-the-candidates.html">Public-interest contributions and the candidates</a>
+  <span class="similar-meta">January 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-july-theyre-in-the-money.html">They&#39;re in the money</a>
+  <span class="similar-meta">July 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-october-the-national-library-on-money-and-politics-searches-databases-for-you.html">The National Library on Money &amp; Politics searches databases for you</a>
+  <span class="similar-meta">October 1992</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-july-uplink-update.html">Uplink update</a>
+  <span class="similar-meta">July 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1999-januaryfebruary-charting-campaign-cash.html">Charting campaign cash</a>
+  <span class="similar-meta">January/February 1999</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2003-novemberdecember-showing-contributions-from-strip-club-workers.html" class="article-nav__prev">← Showing contributions from strip-club workers</a>
+  <a href="/uplink/article/2003-novemberdecember-readmetxt-ire-tipsheets-on-campaign-finance.html" class="article-nav__next">readme.txt (IRE tipsheets on campaign finance) →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

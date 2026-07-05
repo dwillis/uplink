@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing homes — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Pricing homes</h1>
+    <div class="article-byline">
+      <span class="author">Steve Orr</span>
+      
+      <span class="date">November/December 2001</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>Journalists built a custom database from scratch to track mortgage fraud by compiling public property records manually, highlighting both the control and risks of creating data systems independently rather than relying on pre-compiled datasets.</p></div>
+
+  <div class="article-body">
+    <p>The data we work with usually are already compiled when we get it. With luck, everything is in nice, neat columns, and is seemingly perfect. We check carefully for outliers and other anomalies, but if everything seems to add up, we&#39;ll accept it as accurate and go from there. It&#39;s a whole different story when you build a database from the ground up, by accumulating and keypunching your own data. On the one hand, it&#39;s reassuring to know you have total control over quality. On the other hand, though, it&#39;s disconcerting to realize that one misread digit or misdirected keystroke can turn your data into garbage.</p>
+<p>We can track individual buyers or sellers, specific lenders, particular subdivisions - pretty much everything we need to.</p>
+<p>The database in question was created to help with our ongoing coverage of an apparent mortgage-fraud ring led by Robert A. Amico and several family members, all of them homebuilders. New suburban homes were being sold and mortgaged for prices that seemed far too high, and many of them were quickly falling into foreclosure.</p>
+<p>Jumbled piles</p>
+<p>After initial investigation yielded huge, jumbled piles of deeds and mortgages, it became clear we had to systematically track every facet of the process - acquisition, construction financing, initial sale and subsequent resales, purchase-price mortgages, second mortgages, foreclosures and so on.</p>
+<p>First we created an Excel spreadsheet, which was fine for basic information, but we needed a database to look for relationships and play with the numbers, so we made one.</p>
+<p>The hardest part, as noted above, was acquiring the data. We knew the names of the builders, their companies and their associates, so we were able to identify properties they had built or purchased. Some information was obtained online from the unusually robust Web site of the local county clerk (www.clerk.co.monroe.ny.us), but because of the way the Web operation stores its records, we could not use it for most of our work. That later was accomplished the old-fashioned way - by standing at the counter in the clerk&#39;s office, wading through records on public-access computers and on paper, writing down the key information and later typing it into the database. Among the data we compiled were record-accession numbers used in the clerk&#39;s office; once we had these in hand, we could call up most of the records online from our office and print out copies of deeds and mortgages. (We found this feature particularly helpful as our lawyers asked for documentation as they vetted stories.)</p>
+<p>Not recommended</p>
+<p>Finding and comprehending all the data was not easy, and we would not recommend this approach to any reporter who does not possess a thorough understanding of how local property records are prepared and stored. Even though our team included someone with that knowledge, we found our data acquisition was a nightmare of shifting addresses and tax parcel numbers, of sales back and forth between interlocking companies and family members, of building loans for houses that were never built, and so on. Even though it became easier to find data after we had the first few subdivisions under our belt, the process took several months to complete. Truth be told, a few of those errors of transcription or entry were made and have subsequently been found, and there are a few data gaps that no degree of digging has been able to fill.</p>
+<p>The Access database itself was relatively straightforward in its construction. For ease of use, it was broken into three tables, and each suspect property was given a unique ID number. That number and the address and subdivision became the basis of the first table. By the time we finished, this one had 237 records - one for each home the accused folks had been involved with.</p>
+<p>A second table was created that included a record for each property sale involving one of the homes. The key information here was the buyer and seller names and the sale price, along with a code to note what type of sale it was. (These codes, and similar ones in the mortgages table, proved the most confusing part of the database, as so many permutations were possible.) After the land purchase and the various resales and intra-family transfers were tracked down and entered, this one reached 581 records.</p>
+<p>Mortgages</p>
+<p>The third table tracks mortgages plus second mortgages that were taken out by some home-buyers/co-conspirators. Fields were created to record what happened to each loan - whether they were paid off or, as has happened at least 131 times so far, the borrower defaulted, prompting foreclosure proceedings. This table, which is still being amended as new foreclosures are filed, tracks 626 loans.</p>
+<p>Tracking made easy</p>
+<p>This arrangement allowed us to track the amount spent to build the homes in question, the amount for which they were sold (in many cases to straw buyers or family members), the amount borrowed, the number of foreclosures. We can track individual buyers or sellers, specific lenders, particular subdivisions - pretty much everything we need to. The database proved invaluable in many stories, including those done after three family members and a handful of associates were indicted by a federal grand jury. Nine months after the indictment, we continue to check the database for tidbits to lard our follow-up stories, and continue to update it with new foreclosures.</p>
+<p>Steve Orr can by reached by e-mail at sorr@DemocratandChronicle.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2005-septemberoctober-home-mortgage-resources.html">Home mortgage resources</a>
+  <span class="similar-meta">September/October 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-july-august-finding-faults-in-new-homes.html">Finding faults in new homes</a>
+  <span class="similar-meta">July-August 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-october-database-library-additions.html">Database Library additions</a>
+  <span class="similar-meta">October 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-january-database-library-keeps-growing.html">Database library keeps growing</a>
+  <span class="similar-meta">January 1995</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-february-from-the-nicar-library.html">From the NICAR library</a>
+  <span class="similar-meta">February 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2001-novemberdecember-deciding-boundaries.html" class="article-nav__prev">← Deciding boundaries</a>
+  <a href="/uplink/article/2001-novemberdecember-family-offense.html" class="article-nav__next">Family offense →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Measuring migration with PUMS data — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Measuring migration with PUMS data</h1>
+    <div class="article-byline">
+      <span class="author">Ron Shawgo</span>
+      <span class="author-title">Census coordinator</span>
+      <span class="date">January • February 2004</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/demographics-census.html" class="badge">Demographics &amp; Census</a></div>
+  </header>
+
+  <div class="article-summary"><p>Ron Shawgo explains how to use Public Use Microdata Sample (PUMS) data and the IPUMS website to analyze population migration and education trends.</p></div>
+
+  <div class="article-body">
+    <p>If someone would have asked me a year ago what PUMS stood for I might have said a &quot;Pretty Ugly Mess of Statistics,&quot; with the meaning of the &quot;s-word&quot; negotiable. I&#39;ve known for some time that the U.S. Census Bureau&#39;s Public Use Microdata Sample allowed users to dive deeper into the seemingly bottomless pit of Census data. But after three years as my newspaper&#39;s Census coordinator and writing numerous Census stories, I was ready to relegate PUMS to the &quot;Isn&#39;t That Nice&quot; pile.</p>
+<p>What more could be written? That changed when journalists like Robert Gebeloff of The (Newark N.J.) Star Ledger, Mark Houser of Pittsburgh&#39;s Tribune-Review and The Charleston Daily Mail&#39;s Brian Bowling mentioned stories using PUMS on the IRE and NICAR listservs. All three wrote about population migration, in particular about the loss of people to other states. Borrowing from their ideas, I later told our readers that Indiana had the largest estimated net loss of college-educated 25- to 34-year-olds of any state between 1995 and 2000.</p>
+<p>It would have been difficult to do the story without the Integrated Public Use Microdata Series (IPUMS) maintained on a user-friendly Web site by the University of Minnesota. More on that later. In barest terms, PUMS data contains responses from individual Census returns with identifying information such as names and addresses removed. The results are weighted so the data from a single return might represent 100 people.</p>
+<p>Journalists and other researchers unsatisfied with the tabulations the Census Bureau routinely releases can pick and choose the information they want for their own tabulations. Simply sum the number of people in the weighted column and you&#39;re on your way. PUMS comes in two flavors: 1 percent and 5 percent samples of the population. The 5 percent files are much larger and were just being released as I began my research.</p>
+<p>I chose the 1 percent sample for that reason and because it was available on the IPUMS Web site. Mindful of sampling error in the data I went no smaller than the state level for my analysis. The Web site, www.ipums.org, allows users to download extracts containing just the information they need, including figures for all states. This ability to compare states is important. Otherwise, journalists looking at state trends would have to download large files for all 50 states (51 including Washington D.C.) from the Census Bureau Web site.</p>
+<p>I don&#39;t have that kind of computer storage space. One caveat: IPUMS data file options are SPSS, SAS and Stata, all statistical programs. Anyone using the site should read the online documentation. IPUMS is a free service, but registration is required. After registering, you start the IPUMS download at the &quot;Create New Extract&quot; link. The page asks for your e-mail address and lets you chose the type of file you want (regular density for the 1 percent sample).</p>
+<p>Selecting &quot;Only the most commonly requested samples,&quot; will serve up the 2000 PUMS data as an option. Click &quot;Continue to Sample Selection.&quot; On this page I chose a rectangular file in SPSS format and checked the box for &quot;2000 1% Census PUMS.&quot; Click &quot;Continue to Variable Selection.&quot; This is where you&#39;ll choose the information in which you are interested. For my statewide migration story I chose STATEFIP (state FIPS code), PERWT (the weighted number of people for a given variable), AGE (I also checked the &quot;case selection&quot; box to the right), BPL (birthplace – general), EDUC99 (educational attainment), MIGRATE5 general (migration status five years ago) and MIGPLAC5 (State or country FIPS code of residence five years ago).</p>
+<p>I also was interested in income so I chose INCTOT (total personal income) and INCWAGE (wage and salary income). Click &quot;Continue to Case &amp; Flag Selection.&quot; Here I chose &quot;Include only those persons meeting case selection criteria.&quot; Because I marked the case selection box for AGE on the previous screen, the Web site now gave me the option of selecting the ages I wanted. I chose 25 through 34. Click &quot;Continue to Extract Request Summary.&quot; Users are given the chance to make changes and write a brief description of the data before clicking &quot;Submit Extract Request.&quot; The data will be delivered to your e-mail account.</p>
+<p>It&#39;s been my experience that the data usually is delivered within 10 minutes. The e-mail includes a link to where the data can be downloaded. The files come zipped, so you&#39;ll need a program to expand them. I easily opened my data in SPSS. Because I&#39;m not yet proficient in that program I then saved the data as dBASE file, which I imported into Microsoft Access. I ran a query to extract from the EDUC99 field those with at least a bachelor&#39;s degree.</p>
+<p>To find how many college-educated 25- to 34-year-olds left Indiana between 1995 and 2000, I filtered out Indiana in the STATEFIPS column but used it as the criterion in the MIGPLAC5 column. Summing the PERWT column gave me 58,887. To find how many entered the state, I did just the opposite. I used Indiana as the criterion in the STATEFIPS column but filtered it out of the MIGPLAC5 column. MIGPLAC5 assigns &quot;0&quot; to those not applicable folks.</p>
+<p>After filtering them out, summing the PERWT column gave me 41,782. I did this for every state, placed the results in Microsoft Excel and sorted on the difference. Indiana&#39;s estimated net loss of 17,105 was the largest. I used STATEFIPS (where people lived in 2000) and MIGPLAC5 (where they lived in 1995) and BPL (birthplace) to track the migration of native Hoosiers for a sidebar. I was able to compare education and income levels of native Hoosiers who still lived in Indiana with those who left the state.</p>
+<p>With the numbers crunched I was able to find native Hoosiers living in other states by tapping into alumni clubs listed online.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2004-january-february-readmetxt.html">readme.txt</a>
+  <span class="similar-meta">January • February 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2003-septemberoctober-fresh-migration-aircraft-data.html">Fresh migration, aircraft data</a>
+  <span class="similar-meta">September/October 2003</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-april-census-profiles-communities.html">Census profiles communities</a>
+  <span class="similar-meta">April 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-november-county-population-estimates.html">County population estimates</a>
+  <span class="similar-meta">November 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-may-car-with-microdata.html">CAR with microdata</a>
+  <span class="similar-meta">May 1998</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2004-january-february-showing-deadly-crashes.html" class="article-nav__prev">← Showing deadly crashes</a>
+  <a href="/uplink/article/2004-january-february-readmetxt.html" class="article-nav__next">readme.txt →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

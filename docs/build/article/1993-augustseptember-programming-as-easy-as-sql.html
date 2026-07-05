@@ -26,13 +26,13 @@
     <h1>Programming? As easy as SQL</h1>
     <div class="article-byline">
       <span class="author">Richard Mullins</span>
-      <span class="author-title">National Library on Money &amp; Politics</span>
+      
       <span class="date">August/September 1993</span>
     </div>
-    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
   </header>
 
-  <div class="article-summary"><p>OK, this one&#39;s about programming, a word that may clash with the usual job description of a reporter. Just like the ideas of data and computers and SQL once did.</p></div>
+  <div class="article-summary"><p>Journalists already have foundational programming knowledge through SQL and database queries, and can now learn FoxPro programming to automate repetitive data tasks that go beyond what query languages can accomplish.</p></div>
 
   <div class="article-body">
     <p>OK, this one&#39;s about programming, a word that may clash with the usual job description of a reporter. Just like the ideas of data and computers and SQL once did.</p>
@@ -49,8 +49,8 @@
 <p>To satisfy the condition for getting copied to the target database, the number that we set as the skip interval (that&#39;s &#39;SkipInt&#39; in the program) should divide evenly into the record number (&#39;recno()&#39; in the program). The &quot;MOD&quot; function does the division and reports what the remainder is; if it&#39;s ZERO, that record is extracted to the target database. (This method is not the only way this could be done. It&#39;s the one I thought of when I wrote the program, ad hoc, two years ago.)</p>
 <p>Use the built-in text editor in Fox to type in this program. To create or edit a program file: In the command window, type &#39;modify command xtract&#39;. If the file XTRACT.PRG doesn&#39;t already exist, it is created.</p>
 <p>To run the program, type &#39;DO xtract&#39; in the command window.</p>
-<p>PROGRAM LISTING:</p>
-<p>XTRACT.PRG In this simple version, you have to fill in these three variables each time you use the program: SkipInt = 500 &amp;&amp; This number sets the extraction interval SourceDB = &#39;&#39; &amp;&amp; Name of DB to extract from TargetDB = &#39;&#39; &amp;&amp; Name of DB to copy extracted records use (SourceDB) in 1 alias source make an empty copy of the source DB copy structure to trim(TargetDB) now put the extracted records in it copy to (TargetDB) for mod( recno(), SkipInt ) = 0</p>
+<p>PROGRAM LISTING: XTRACT.PRG</p>
+<p>In this simple version, you have to fill in these three variables each time you use the program: Skiplnt = 500 &amp;&amp; This number sets the extraction interval SourceDB = u 29 &amp;&amp; Name of DB to extract from TargetDB = u 29 &amp;&amp; Name of DB to copy extracted records use (SourceDB) in 1 alias source make an empty copy of the source DB copy structure to trim (TargetDB) now put the extracted records in it copy to (TargetDB) for mod( recno(), Skiplnt ) = 0</p>
   </div>
 </article>
 
@@ -58,30 +58,30 @@
   <h3>Similar Articles</h3>
   <ul class="similar-list">
     <li class="similar-item">
-  <a href="/uplink/article/1992-october-tech-tips-foxpro-adds-a-new-dimension-to-sql.html">Tech Tips: FoxPro adds a new dimension to SQL</a>
+  <a href="/uplink/article/1997-may-cheating-at-foxpro.html">Cheating at FoxPro</a>
+  <span class="similar-meta">May 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1992-october-foxpro-adds-a-new-dimension-to-sql.html">FoxPro adds a new dimension to SQL</a>
   <span class="similar-meta">October 1992</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1992-june-what-does-it-take-to-run-a-successful-computer-assisted-reporting-program.html">What does it take to run a successful computer-assisted reporting program?</a>
-  <span class="similar-meta">June 1992</span>
+  <a href="/uplink/article/2000-october-programs-for-parsing.html">Programs for parsing</a>
+  <span class="similar-meta">October 2000</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1992-june-tech-tips-building-ranges-in-sql.html">Tech Tips: Building Ranges in SQL</a>
-  <span class="similar-meta">June 1992</span>
+  <a href="/uplink/article/1992-december-getting-rid-of-those-pesky-duplicate-records.html">Getting rid of those pesky duplicate records</a>
+  <span class="similar-meta">December 1992</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1996-january-many-happy-returns.html">Many happy returns</a>
-  <span class="similar-meta">January 1996</span>
-</li>
-<li class="similar-item">
-  <a href="/uplink/article/1996-january-money-go-round.html">Money-go-round</a>
-  <span class="similar-meta">January 1996</span>
+  <a href="/uplink/article/1997-november-one-to-many-how-to.html">One-to-many how-to</a>
+  <span class="similar-meta">November 1997</span>
 </li>
   </ul>
 </aside>
 <nav class="article-nav">
   <a href="/uplink/article/1993-augustseptember-plugging-in-the-morning-call-allentown-pa.html" class="article-nav__prev">← Plugging in. The Morning Call, Allentown, Pa.</a>
-  <a href="/uplink/article/1994-march-dining-on-eatery-data.html" class="article-nav__next">Dining on eatery data →</a>
+  <a href="/uplink/article/1994-march-uplink-update.html" class="article-nav__next">Uplink update →</a>
 </nav>
   </main>
   <footer class="site-footer">

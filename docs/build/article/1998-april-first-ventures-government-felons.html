@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIRST VENTURES Government felons — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>FIRST VENTURES Government felons</h1>
+    <div class="article-byline">
+      <span class="author">Jeff Harris</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">April 1998</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/crime-justice.html" class="badge">Crime &amp; Justice</a><a href="/uplink/topics/government-politics.html" class="badge">Government &amp; Politics</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+  </header>
+
+  <div class="article-summary"><p>A three-month investigation by WEWS-TV reporter Ted Hart uncovered hundreds of convicted felons employed in local government positions, including 375 in Cleveland and 151 in Cuyahoga County, raising questions about hiring practices and background check policies.</p></div>
+
+  <div class="article-body">
+    <p>After a three-month investigation that combined a massive CAR project with old-fashioned, pen-in-hand research, reporter Ted Hart and WEWS-TV aired a two-part report in March that uncovered hundreds of convicted felons working in local government. Briefly, we reported:</p>
+<p>There were 375 convicted felons working as City of Cleveland employees. Another 90 individuals had been charged with felonies but eventually pled guilty to first-degree misdemeanors. One in every 20 city employees, we learned, was a felon. Of the 375 felons, 99 were convicted of violent felonies. Of the 28 city employees that served hard time in an Ohio prison, seven had claimed on their job application that they had never been convicted of a crime. Cuyahoga County has hired 151 convicted felons - 20 for violent crimes. An additional 17 were charged with felonies but pled guilty to misdemeanors. We also explored the quandary convicted felons face filling out job applications. We found that many are eager to find good, steady work but fear they won&#39;t be hired if they reveal their criminal background. We included interviews with the director of Community Re-Entry, a nonprofit group in Cleveland that assists convicted felons with finding jobs, and an ex-con who had found work through the group and put his life back together. Many local and state government entities have developed policy initiatives that encourage the hiring of convicted felons and work with groups like Community Re-Entry. This was not the case with the hiring practices in Cleveland. No initiatives were in place to recruit or hire ex-offenders.</p>
+<p>Brainstorming</p>
+<p>Ohio&#39;s prison system, we learned, maintained a database on every individual incarcerated in an Ohio reformatory. It included the name, date of birth, date of admission, term of sentencing, name of prison, county of conviction, description of crime(s) and projected release date of the prisoner. After $200 and a few days of tinkering and retooling by the brilliant NICARians in Columbia, we had our grubby hands on the database.</p>
+<p>As we began to hash out our story, we addressed a number of issues and research strategy questions. For those felons on the workforce, is there a correlation between their crime and their position? Did these ex-offenders lie on their applications? What are the total numbers and how do they compare from city to city? Is there a pattern? What is a felon to do? Are there instances of convicted felons committing crimes after having been hired? Are there policies in place regarding the hiring of felons? What are the application policies on criminal background checks.</p>
+<p>Hunting and gathering</p>
+<p>We decided to broaden the scope of our investigation beyond Cleveland employees. In late 1997, WEWS began submitting public record requests for names of employees, job titles, departments, dates of hire, and dates of birth from a broad range of local government agencies. For the most part, the cities turned the FOIA requests around within reason and at reasonable costs. I did encounter the common line of defense employed by bureaucrats: &quot;That&#39;s not public record. We can&#39;t do that. Well, we may have to do it, but we don&#39;t have to do it on disk. You&#39;ll have it by 5 o&#39;clock.&quot;</p>
+<p>Realizing the vast majority of convicted felons never see the inside of a prison, we concluded our developing story would be most thorough and accurate if we were able to cross employee databases with county clerk of court records - in which we would pick up those sentenced to county jail time and probation.</p>
+<p>Thus began the tale of two county court databases. WEWS submitted written requests to the clerks of Cuyahoga County, Ohio&#39;s largest, and Summit County, nearly one third the size. We sought the name, date of birth, case number, criminal charge and disposition of every criminal defendant in their courts. Within three days, Summit County e-mailed a database containing the exact information we asked for for a total of $86.</p>
+<p>Cuyahoga County handled the FOIA much differently. A month after our FOIA request, we were informed it could be fulfilled for $10,000. News director Jim LeMay pounced on the phone and called a county commissioner. In his tactical tirade, he used words such as &quot;gouge&quot; and &quot;outrageous&quot; and &quot;lawyers&quot; and &quot;court costs&quot; and &quot;in the public interest.&quot; The next day the price dropped to $4,000. And if we would settle for just name, date of birth and case number, the database would be free. We settled for the free one. Three months after our initial request, the county delivered the database to WEWS on CD-ROM.</p>
+<p>Confounding fields</p>
+<p>The major stumbling block in getting the information into one database was that every city recorded employee names differently in their tables. Most complicated were tables that included middle initials and Jr./Sr. designations. I used Excel&#39;s Text to Column command to parse the confounding fields, often pasting only the last name column back into the original employee spreadsheet. I knew my Access cross match of the court and prison databases would entail last names and dates of birth, so the last name column would be all that I needed.</p>
+<p>Last names and dates of birth are constants. First name matches leave out a large chunk of true matches because nicknames or initials may appear in one table while an &quot;official&quot; name appears in another. They may appear in a first name field or a field of their own. And first names are misspelled more often than last names.</p>
+<p>Matching first names by eye allows for the perfect integrity check and for the opportunity to truly examine the results of the query record by record.</p>
+<p>Weeding through several hours of queries and the resulting tables, we found more than 700 separate last name/date birth matches, with first name &quot;eyeball matches&quot; totaling more than 1,000 separate cases.</p>
+<p>Reality check</p>
+<p>Our remaining task was confirming that the employee and the ex-con were one. The county tables contained 700 individuals who had been indicted in felony court over the past 30 years, but we had no idea whether these people had felony convictions, and if so, when, and for what crimes.</p>
+<p>To confirm convictions, we took our list to the public computer terminal at the clerk of court and punched in case numbers. Initially, we selected the case numbers of employees who worked in positions with a high rate of contact with either the public or money, or who were involved in safety. Our goal was to find potential subjects to highlight for our story. Our first sweep yielded a host of compelling cases: a deputy treasurer convicted for sexual battery; a recreation center director with drug trafficking convictions; and a park maintenance supervisor convicted of involuntary manslaughter for his part in a drug store robbery and murder.</p>
+<p>Unfortunately, it took us weeks to narrow our list of subjects, find them, and then get interviews and pictures. One week before airing the story, we didn&#39;t have final numbers. We should have completed confirming charges on the entire list and compiled our final numbers before finding the subjects for our story.</p>
+<p>Our news desk received dozens of calls after our story led the 11 p.m. newscast on March 2. All were negative. Viewers thought we were picking on people who had paid their debt to society. Many complained that we had needlessly ruined the lives of people who had reformed. After part two ran the next night - discussing the difficult employment problems faced by ex-offenders - we received calls asking just which side we were on.</p>
+<p>The three employees we highlighted as having lied about their felony convictions were suspended by the city pending termination. After requesting our list of 375 felons, the city has opened its own investigation. They will review the job application and convictions in each case to determine whether disciplinary action is warranted. Cuyahoga County has also opened an investigation and fired the deputy treasurer convicted of sexual battery.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-april-hunting-felons.html">Hunting felons</a>
+  <span class="similar-meta">April 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1993-february-taking-bytes-out-of-the-education-apple.html">Taking bytes out of the education apple</a>
+  <span class="similar-meta">February 1993</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-januaryfebruary-felons-and-nurses.html">Felons and nurses</a>
+  <span class="similar-meta">January/February 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2005-january-february-felon-hunters.html">Felon hunters</a>
+  <span class="similar-meta">January • February 2005</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1995-march-doing-time-in-miami.html">Doing Time In Miami</a>
+  <span class="similar-meta">March 1995</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1998-april-on-the-internet-search-for-news-not-noise.html" class="article-nav__prev">← ON THE INTERNET Search for news - not noise</a>
+  <a href="/uplink/article/1998-april-bits-bytes-and-barks.html" class="article-nav__next">Bits, Bytes and Barks →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

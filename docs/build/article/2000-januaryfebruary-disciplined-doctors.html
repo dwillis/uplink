@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disciplined doctors — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Disciplined doctors</h1>
+    <div class="article-byline">
+      <span class="author">Richard J. Dalton, Jr.</span>
+      <span class="author-title">computer analyst</span>
+      <span class="date">January/February 2000</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/health-environment.html" class="badge">Health &amp; Environment</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
+  </header>
+
+  <div class="article-summary"><p>Newsday&#39;s investigative series revealed that managed-care companies employ doctors who have faced serious disciplinary action, despite promising quality care to patients. The investigation required a landmark lawsuit to access state health databases and systematic searching of multiple websites to uncover 132 disciplined doctors working in HMO networks.</p></div>
+
+  <div class="article-body">
+    <p>A landmark lawsuit, a monstrous database and rigorous searching using healthcare Web site search engines lie behind a recent Newsday series on disciplined doctors working in managed care.</p>
+<p>Newsday&#39;s series, reported over a 10-month period, revealed that doctors who have been punished for serious or even fatal wrongdoing often continue to work for managed-care companies despite the healthcare industry&#39;s promise to screen their doctors and offer the best care to patients.</p>
+<p>While many papers have examined HMOs&#39; denial of treatment, this series broke ground by demonstrating that managed-care companies employ disciplined doctors, effectively breaking their promise of quality care.</p>
+<p>Staff writer Thomas Maier reported and wrote the series, with computer analysis by this reporter and Dave Ewalt and assistance by Bob Fresco.</p>
+<p>The Health Department regularly releases information from the database to researchers and reporters but removes data identifying doctors to preserve their privacy.</p>
+<p>Before starting on the series, Newsday and The New York Times put its lawyers to work, suing the New York State Department of Health to obtain a database of information about the performance of doctors in treating patients in New York hospitals.</p>
+<p>The Health Department regularly releases information from the database to researchers and reporters but removes data identifying doctors to preserve their privacy. That meant key information remained secret, including the license numbers of attending and operating physicians working on the patient, the admission date, payor identification number and the hospital name.</p>
+<p>The omission of such information made it impossible to determine the quality of care by individual doctors and hospitals.</p>
+<p>The newspapers argued that physicians had no such right to privacy but agreed that the data about individual patients should remain private. In June 1998, a state appeals court agreed with a lower-court ruling siding with the media, allowing access to the database of millions of hospital admissions.</p>
+<p>Web sites</p>
+<p>When the legal battles subsided, the scene of action turned to the World Wide Web for a Health Department Web site listing disciplined doctors, managed-care company sites listing doctors in the networks and the American Board of Medical Specialties&#39; site revealing doctors with board certification.</p>
+<p>The healthcare companies and agencies probably never envisioned their Web sites being scrutinized in the manner Maier examined them. From the board-certification site, he found doctors who erroneously claimed board certification in managed-care listings.</p>
+<p>From the HMO sites, he didn&#39;t find a new doctor, he uncovered disciplined doctors-132 of them disciplined in New York state in the 1990s.</p>
+<p>Using brief descriptions of the disciplinary actions from the Health Department Web site, we created a database of disciplined doctors, including their names, license numbers, addresses, discipline dates and whether the doctors were board certified. We also noted the doctors&#39; offenses, such as patient mistreatment, sexual misconduct or billing errors, and the disciplinary actions, such as suspension, probation or license revocation.</p>
+<p>Next, we began to quantify how many procedures these doctors oversaw after they were disciplined, and how much money patients or insurers paid for care overseen by these disciplined doctors.</p>
+<p>Data work</p>
+<p>The hospital admission data contained millions of procedures performed from 1990 through 1998. Using SPSS, we extracted the procedures overseen by doctors disciplined anytime in the 1990s.</p>
+<p>That database contained 130,000 records, but only some procedures were performed after the attending or operating physicians were disciplined. We then matched the database with the list of disciplined doctors to uncover procedures performed after the discipline date.</p>
+<p>The discipline date field was straightforward. But, as is common with most government data, the database of hospital procedures from the Statewide Planning and Research Cooperative System, which contained the hospital admission date, was quite quirky.</p>
+<p>The admission date in the database was divided into three fields: a year, a month, and a day - not a day of the month, but a day of the week.</p>
+<p>We wanted to ensure that we only counted patient visits and hospital charges that occurred after the doctor was punished to demonstrate that taxpayer money was being spent on medical care overseen by disciplined doctors. But the unusual format of the admission date presented a problem when a patient visited a doctor in the same month the doctor was disciplined.</p>
+<p>So we decided to turn every admission date into the first of the month. If a patient was admitted in November 1998, we turned that into Nov. 1, 1998, using a module written in Microsoft Access and an update query.</p>
+<p>Suppose the patient had been treated in November 1998 and the attending physician was disciplined on Nov. 20 of that month. Using Nov. 1, the visit would have preceded the discipline date and wouldn&#39;t be counted. We gave the doctor the benefit of the doubt because it was impossible to be more specific about the admission date.</p>
+<p>Once we cleared up the date dilemma, we began to calculate the amount of money that the state had spent on managed-care doctors through Medicare and Medicaid.</p>
+<p>Furthermore, Maier discovered the actual charges to Medicare and Medicaid turned out to be about 60 percent of the total cost.</p>
+<p>At first, the task seemed easy - a field indicated the charges. Then came the caveats. The field represented the total cost of the hospital visit, including the room, surgery and payments to the attending and operating physicians and others.</p>
+<p>So we discounted the figures by 40 percent, and could only say that the disciplined doctors &quot;oversaw&quot; the hospital visit, explaining why the data prevented us from determining how much each doctor actually received.</p>
+<p>License problem</p>
+<p>Each procedure record also contained three licenses of doctors associated with the treatment, listing the licenses for the attending, operating and &quot;other&quot; physician.</p>
+<p>We chose to use only the attending and operating physicians. Still, multiple licenses for each record presented a quandary.</p>
+<p>It&#39;s impossible to link the two licenses one from the attending physician and one from the operating physician - to the one license field in the doctor table.</p>
+<p>To explain why, here&#39;s an analogy. Suppose I have a lookup table named States that translates U.S. Postal state abbreviations (e.g., State.c contains &quot;NY,&quot; &quot;NJ,&quot; etc. into state names, and State.nam contains &quot;New York,&quot; &quot;New Jersey,&quot; etc.).</p>
+<p>Suppose I have an address book that lists someone&#39;s work address and home address, and I want to link that to the lookup table of state names. Suppose further that a friend lives in New Jersey and works in New York.</p>
+<p>That state code for the work address, &quot;NY,&quot; and home address, &quot;NJ,&quot; cannot simultaneously point to the state code in the lookup table for state names. If I did, then what would the field State.name represent: New York or New Jersey?</p>
+<p>To resolve that dilemma, add the doctor table to the query twice by clicking twice on the &quot;add&quot; option in the query/show table window. That adds another table called State_2.</p>
+<p>To use it, link the home address to the state table and the work address to the State_2 table. Now State.name is &quot;New York&quot; and State_2.1 is &quot;New Jersey.&quot;</p>
+<p>By the way, Access doesn&#39;t really create another table. It merely creates another pointer to the same table.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2000-october-doctors-and-damages.html">Doctors and damages</a>
+  <span class="similar-meta">October 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-januaryfebruary-where-to-look-for-data.html">Where to look for data</a>
+  <span class="similar-meta">January/February 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1998-december-correctional-care.html">CORRECTIONAL CARE</a>
+  <span class="similar-meta">December 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-making-the-connection-between-doctors-ods.html">Making the connection between doctors, ODs</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-december-check-out-the-ama-web-site.html">Check out the AMA Web site</a>
+  <span class="similar-meta">December 1996</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2000-januaryfebruary-cost-of-living.html" class="article-nav__prev">← Cost of living</a>
+  <a href="/uplink/article/2000-januaryfebruary-where-to-look-for-data.html" class="article-nav__next">Where to look for data →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

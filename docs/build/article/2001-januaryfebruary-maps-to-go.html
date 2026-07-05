@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maps to go — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Maps to go</h1>
+    <div class="article-byline">
+      <span class="author">John Maines</span>
+      
+      <span class="date">January/February 2001</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist describes building an inexpensive GIS mapping system for under $300 using free public domain data and off-the-shelf software, which was successfully deployed to analyze the 2000 Florida presidential election and voter precinct data.</p></div>
+
+  <div class="article-body">
+    <p>There are two truths about buying good computerized mapping software:</p>
+<p>1. Single-user versions are expensive. 2. Internet or Intranet versions are very expensive.</p>
+<p>Three years ago, I decided to see if there was a way around the high cost of commercial mapping programs. The idea seemed to make sense: Build an inexpensive, simple mapping system and pack it with census stats and anything else we could get our hands on, especially free public domain data from federal, state and local government agencies. We&#39;ve done it. So can you. For less than $300, it&#39;s possible to build a fairly powerful program that can be installed on a PC, a laptop, or launched on the Internet or company Intranet. At the South Florida Sun-Sentinel we have test versions running now. We should have the bugs in time for the March release of Census 2000 data on race and Hispanic origin. To do this, we combined our own software know-how with some off-the-shelf mapping software designed for people who want to build their own Geographic Information Systems (GIS) software. We created a program that can be tailored any way we want it and launched on the Internet or re-deployed as a stand-alone application for installation a PC or laptop.</p>
+<p>The acid test</p>
+<p>The 2000 presidential election provided a great acid test.</p>
+<p>One of the map prototypes was a precinct map of South Florida, which displays a color-coded map and spreadsheet-like data grids. When a user clicks on a precinct, the map pulls up demographics and voter registration data for election precincts in the Sun-Sentinel&#39;s circulation area: Broward, Miami-Dade and Palm Beach counties.</p>
+<p>The precinct borders were drawn from files that we downloaded - for free - from a Web page run by a state research agency.</p>
+<p>So it was pure luck that, when the election went to hell, we had a fully-functional computerized precinct map armed and ready. We changed the map constantly in the days following the election, each time reloading an updated version into our company Intranet, Sunspot, for use by reporters and editors.</p>
+<p>The first maps we created were simple showing who won each precinct. Red for George W. Bush, blue for Al Gore. When reports came in that voters in Palm Beach County had accidentally voted for Pat Buchanan instead of Al Gore because they misunderstood the &quot;butterfly ballot,&quot; we mapped out where Buchanan got the most votes. When we found out that most of the disqualified votes were in black precincts, we mapped that out as well, adding new map layers on top of the old. Our art department polished up our graphics for use in the newspaper. Len De Groot, a senior editorial artist at the Sun-Sentinel, made a terrific map that showed undervote rates in all 1,754 election precincts in the three South Florida Counties. It ran the entire length of a newspaper page, and covered about one-third the width. (See for yourself at www.electricalfire.com/sprecincts.htm).</p>
+<p>Pros and Cons</p>
+<p>I&#39;m not saying that newsrooms should toss the programs that they&#39;ve already bought and build a Frankenstein. Arcview, MapInfo, Maptitude or some other powerful program will still be the best way to analyze Census 2000. But a simple custom-made system provides a terrific secondary mapping system for the newsroom, because it does something that the big bruisers don&#39;t do very well: Create dynamic maps on the Intranet that can be used by even the most non-technical people.</p>
+<p>Consider two popular brands of high-quality Geographic Information System (GIS) software. Arcview 3.2a ($1,195) and MapInfo Professional ($1,495) are built for use by one person per copy of software. That person builds the maps and distributes them to others. Both companies have viewers that can be used on any PC and are available for free. But the viewers can&#39;t do much more than zoom in or out of a map and identify what&#39;s on it.</p>
+<p>The viewers also require some effort by the end user. They need to read the instructions. That&#39;s minimal, but still enough to send many people running. A good general-use mapping program needs to be &quot;Web page simple,&quot; allowing the user to learn by pushing buttons and generally messing around.</p>
+<p>Internet mapping software can be incredibly expensive. One of the best deals on Internet-based mapping software is $2,995 for Caliper&#39;s Maptitude for the Web license, MapInfo&#39;s MapX product line starts at about $5,000 and ESRI&#39;s ArcIMS comes in at $7,500. Yikes.</p>
+<p>Those costs are probably far beyond what most newspapers are willing to spend. So very low cost was one of five requirements in developing our software. Here are the other four:</p>
+<p>It had to be extremely easy to use. The maps would come with no little or no instructions, allowing users to wing it. It had to read many kinds of commercial software, such as Arcview shapefiles or MapInfo&#39;s MIF files. It also had to be able to read data from programs used in most newsrooms, such as an Excel spreadsheet or an Access database. It had to be available in a desktop version, or on the Internet. It had to be of &quot;rapid-deployment&quot; nature, producing maps for deadline stories.</p>
+<p>Creating a hybrid</p>
+<p>Early on, it became clear that the system would be some sort of hybrid - parts of the software would be designed by us, and part would be purchased off-the-shelf. I thought it would be best for me to build the control panel that surrounded the map; the components that would allow reporters to push buttons and insert all the parameters for data analysis.</p>
+<p>But I really didn&#39;t want to build the part of the program that would actually draw the map&#39;s lines, points and polygons. For that I needed some sort of &quot;engine.&quot;</p>
+<p>Several companies make such software. There&#39;s ESRI&#39;s MapObjects, MapInfo&#39;s MapX. But these cost thousands of dollars to buy and maintain and are really built for someone who builds high-quality maps for a living. Newsrooms don&#39;t need that degree of complexity. One product that looked very good - at first - was ESRI&#39;s MapObjects LT, a trimmed-down version of MapObjects. Three years ago, the software only cost $295 and produced some great-looking maps. But it lacked one very important feature. There was no easy way to put the names on roads in your map. It was a critical flaw in an otherwise good, inexpensive product. (The newest version of MapObjects LT has nice labeling capabilities. But it now costs $1,000).</p>
+<p>After abandoning MapObjects LT, we tried about a half-dozen inexpensive GIS programs found on the Web. They all bombed for one reason or another. Some were too slow. Others couldn&#39;t handle geocoding. Some were just plain junk. Finally, in a late-night search of the Internet last February, I discovered a great little program called SylvanMaps.</p>
+<p>A solution at last</p>
+<p>SylvanMaps is sold by Sylvan Accent (www.sylvanmaps.com), a small company based in Taos, New Mexico. If you call Sylvan, there&#39;s a pretty good chance that the guy answering the telephone is Roger Bedell, the company president. The software is easy to use and comes with clearly-written user manuals. There are three versions. The first format, SylvanMap: Net, is a $249 design-time control for Active Server Pages (ASP), the popular Web page program. Users build the map in Microsoft Frontpage or Visual Interdev and launch the finished product on the Internet. For another $496 you can buy the second version, which has more features than the first.</p>
+<p>The third version, SylvanMaps OCX, creates maps in Visual Basic, Microsoft Access, C++ or Delphi, and you can install the program on the Internet or build a desktop program. Version three is the most expensive, $795. But that price allows you to build unlimited applications, which can be resold or distributed to co-workers and sister companies without fooling around with annoying royalties or redistribution fees. All three versions are easy to use.</p>
+<p>A beginner can put together a simple map, and work upward from there. The better your programming skills, the more sophisticated the maps you&#39;ll make. A very nice feature is that an entire map - including the roads, census tracts, and other features - is built from data stored in any standard relational database, including Microsoft Access, SQL Server, or Oracle. There&#39;s no &quot;hidden&quot; proprietary software.</p>
+<p>SylvanMaps can also read or translate Arcview shapefiles, MapInfo MIF files, or the Census Bureau&#39;s TIGER line files. If translated, the map data can easily be installed in a database on your company&#39;s web server.</p>
+<p>Such versatility is great, because it means you can use maps already created by other people - the Census Bureau, the state department of transportation, your local planning department, or whatever. The street maps we use at the Sun-Sentinel are Broward County&#39;s 911 maps, used for dispatching fire trucks and ambulances to emergencies. The maps are constantly updated, and much more up-to-date than anything that you can buy. And they&#39;re free. Mapping software is changing rapidly. Chances are that everything on the market now will be considered junk in a few years. We&#39;re going to continue to refine SylvanMaps for now, but at the same time testing other software that comes along as we search for the best product around.</p>
+<p>Meantime, the data that goes into the maps keeps getting better and cheaper. For $20, we recently bought a CD-Rom from the University of Florida with all kinds of interesting public domain maps on it. These include hiking trails, bike routes, the paths of Florida hurricanes over the last 75 years and the locations of dozens of shipwrecks in the Atlantic Ocean and the Gulf of Mexico.</p>
+<p>We plan to put those on our Intranet. Shipwrecks aren&#39;t as important as elections or Census 2000. But they&#39;re fun. And hey, that&#39;s Florida.</p>
+<p>John Maines can be reached by e-mail at jmaines@sun-sentinel.com</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/2006-november-december-prep-for-election-mapping.html">Prep for election mapping</a>
+  <span class="similar-meta">November • December 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-march-mapping-a-new-look-at-presidential-results.html">Mapping a new look at presidential results</a>
+  <span class="similar-meta">March 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-marchapril-election-machine.html">Election machine</a>
+  <span class="similar-meta">March/April 2001</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-a-beginners-lessons.html">A beginner&#39;s lessons</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2001-marchapril-floridas-dead-heat.html">Florida&#39;s dead heat</a>
+  <span class="similar-meta">March/April 2001</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/2001-januaryfebruary-tribes-and-casinos.html" class="article-nav__prev">← Tribes and casinos</a>
+  <a href="/uplink/article/2001-januaryfebruary-parking-tickets.html" class="article-nav__next">Parking tickets →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

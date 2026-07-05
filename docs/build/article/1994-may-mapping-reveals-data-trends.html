@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapping reveals data trends — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>Mapping reveals data trends</h1>
+    <div class="article-byline">
+      <span class="author">Ronald Campbell</span>
+      
+      <span class="date">May 1994</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a></div>
+  </header>
+
+  <div class="article-summary"><p>A journalist uses computer mapping and database analysis to investigate whether banks are underserved in poor neighborhoods, discovering that statistical data initially contradicted their intuition until they employed geocoding techniques to visualize the distribution patterns.</p></div>
+
+  <div class="article-body">
+    <p>Databases are wonderful tools, but sometimes you&#39;ve got to have a picture to tell the story. When The Register out to document whether bankers were serving poor neighborhoods, the raw numbers told us they were. Intuition told us they weren&#39;t. A mapping program proved our intuition correct.</p>
+<p>For years my editor and I have speculated about the paucity of banks in Santa Ana, a heavily Hispanic city of 300,000. Orange County has hundreds of banks; in some neighborhoods they are clustered as thickly as gas stations once were. But not in Santa Ana.</p>
+<p>We both thought a computer mapping program could help us document the pattern. But then we ran into a barrier, and it stopped us cold. The problem was data entry. It wouldn&#39;t be enough to locate all the branches in Santa Ana; to make a valid comparison, we had to find all the branches in neighboring cities. Finding the raw data was easy enough: The state banking and savings-and-loan associations each printed annual directories. But some poor schmuck (most likely me) would have had to type all those names and addresses into a database. Then I (no alternatives this time) would have had to plot the branches on a computer map, a process known as geocoding.</p>
+<p>The idea of geocoding several hundred banks was so terrifying that I stopped thinking about it for a year.</p>
+<p>But late in 1993, banking writer Dawn Yoshitake discovered a database maintained by Sheshunoff Information Services. It also let us look beyond Orange County to examine statewide patterns. Finally, and maybe most importantly, it sidestepped geocoding.</p>
+<p>With Sheshunoff, I did not have to worry about geocoding. I could locate banks by their census tract or zip code.</p>
+<p>Geocoding is a messy business. Most databases that I have used contain a cacophony of conflicting address styles. Is it &quot;625 N Grand Ave&quot; or &quot;625 North Grand Avenue&quot; or maybe &quot;625 N. Grand Ave.&quot;? To the database user, it hardly matters. But in mapping software, the distinction between &quot;N&quot; and &quot;North&quot; or &quot;Ave&quot; and &quot;Avenue&quot; is a vital one; every address must match the internal style of the computer map. And since computer maps often omit valid addresses, even a correctly styled address may not geocode.</p>
+<p>My first step was to look for statistical patterns. I loaded the Sheshunoff database into FoxPro. After hand-eliminating hundreds of credit unions (listed only once in the database, regardless of the number of branches), I used FoxPro to count the number of bank branches in each of Orange County&#39;s 484 census tracts. Then I compared that with income data. I assigned each tract to an income range (low, low-moderate, upper-moderate and upper), based on that tract&#39;s median family income. Finally I compared the number of bank branches serving neighborhoods of a given income range with the number of people living in those tracts.</p>
+<p>Surprise! It appeared that bankers were about as likely to set up shop in a lower-middle class barrio as in a glitzy neighborhood overrun with BMWs. The numbers in Orange County looked especially strange after I reviewed the statewide numbers. The statewide analysis, done by zipcode instead of census tract, showed that bankers avoided lower-middle-class areas.</p>
+<p>Then I dumped the data into my mapping program, MapInfo, and the county pattern suddenly became clear. Bankers willingly put branches in poor or minority neighborhoods - but only if those neighborhoods bordered wealthier, whiter neighborhoods. When MapInfo shaded census tracts by the number of bank branches, the resulting map had a gaping hole in the middle. The hole corresponded with Orange County&#39;s largest and poorest barrio.</p>
+<p>The map told a lot. Graphic artist Danny Sullivan found a way to make it tell even more. MapInfo census tables contain population and housing data; draw a line around several census tracts, and MapInfo will add the numbers together to produce statistics for the region. Danny joined the basic MapInfo table with a database table I had created, which included the median income, ethnicity and population for every census tract. Then he circled five areas on the county map. MapInfo calculated the average income (actually, the average of median family income for each tract in the selected area), as well as population and the number of bank branches for each of those areas.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1998-september-discovering-intersections.html">DISCOVERING INTERSECTIONS</a>
+  <span class="similar-meta">September 1998</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-september-for-more-information.html">For more information:</a>
+  <span class="similar-meta">September 2000</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2006-january-february-tracking-home-foreclosures.html">Tracking home foreclosures</a>
+  <span class="similar-meta">January February 2006</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2004-november-unmasking-murder-myths.html">Unmasking murder myths</a>
+  <span class="similar-meta">November 2004</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1991-april-new-york-times-audits-us-banks.html">New York Times Audits U.S. Banks</a>
+  <span class="similar-meta">April 1991</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1994-may-hmda-data-pitfalls.html" class="article-nav__prev">← HMDA data pitfalls</a>
+  <a href="/uplink/article/1994-may-where-to-find-banking-info.html" class="article-nav__next">Where to find banking info →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>

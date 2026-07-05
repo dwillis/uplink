@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roll Out the Barrel — Uplink Archive</title>
+  <title>Roll out the barrel — Uplink Archive</title>
   <link rel="stylesheet" href="/uplink/css/style.css">
   <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
 </head>
@@ -23,19 +23,40 @@
     
 <article class="article-detail">
   <header class="article-header">
-    <h1>Roll Out the Barrel</h1>
+    <h1>Roll out the barrel</h1>
     <div class="article-byline">
       <span class="author">Mike Fabey</span>
-      <span class="author-title">The Journal of Commerce</span>
+      
       <span class="date">August 1996</span>
     </div>
-    <div class="article-topics"><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a></div>
+    <div class="article-topics"><a href="/uplink/topics/business-economy.html" class="badge">Business &amp; Economy</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/data-databases.html" class="badge">Data &amp; Databases</a></div>
   </header>
 
-  <div class="article-summary"><p>An investigation into ocean shipping lines&#39; overcharging practices claimed a $65 million rate rollback would result, but financial analysis revealed the actual savings were significantly lower than claimed. The reporting demonstrates the importance of independently verifying regulatory claims through data verification.</p></div>
+  <div class="article-summary"><p>A journalist investigates the Federal Maritime Commission&#39;s claim that a shipping cartel agreement would save importers and exporters $65 million, discovering the agency based this figure on unverified verbal information from the cartel rather than documented data.</p></div>
 
   <div class="article-body">
-    <p>The Federal Maritime Commission was investigating major ocean shipping lines for overcharging because importers and exporters had few alternatives. The FMC claimed a rate rollback would save $65 million based on data from the shipping lines. I used databases and spreadsheets to verify the claim, finding discrepancies. The rollback did not save companies as much as told, showing the need for financial scrutiny.</p>
+    <p>It&#39;s never easy to check a government agency&#39;s claim that it&#39;s saving money for its constituents. It gets even trickier when the agency&#39;s the Federal Maritime Commission, and it talking about saving money on shipping contracts from exporters and importers all around the world, which vary according to the cargo, the ports and the carrier.</p>
+<p>The commission, or FMC, was investigating the Trans-Atlantic Conference Agreement, the cartel of major ocean shipping lines that carry goods between North America and Europe.</p>
+<p>Importers and exporters said the cartel was forcing the shippers to pay too much money for the service because the ocean liners knew the shippers had few alternatives.</p>
+<p>The FMC agreed to drop its investigation when the cartel said it would roll back its rates to the previous year&#39;s prices. The agency and the lines said the rollback would save importers and exporters about $65 million, a nice chunk of change.</p>
+<p>The Journal of Commerce, a daily business newspaper in New York, likes nothing better than financial breakdowns. They make for nice graphics. I asked the agency and cartel for a breakdown of the $65 million. They were unable or unwilling to do so. I asked both to quantify where the $65 million would come from. The agency admitted it got its number from the cartel - verbally, with no written documentation to back it up. The cartel would only say that it had based its figures on numbers of containers moving across the Atlantic multiplied by $100, which, it said, was the average increase for each container before the rollback.</p>
+<p>The executives in the cartel probably figured no one would check. The shipping lines transport about 1.4 million containers across the Atlantic each year, carrying beer, furniture and just about anything anyone can think of. The lines file more than 400 contracts each year for all the different commodities, and each contract can have any number of different rates, depending on all kinds of shipping variables, such as whether the cargo needs to be refrigerated.</p>
+<p>The contracts themselves are mostly written documents, with separate rates, surcharges and other costs scattered throughout. As most of the folks at NICAR told me, there was no way to write a program to capture all the relevant data easily to format it for a spreadsheet or database manager.</p>
+<p>So, I opted for a small piece of the pie. I figured I&#39;d pinpoint the largest shippers in the trade and find out the rollback those companies got. They controlled most of the cargo, and their prices would serve as a good barometer for the rest of the bunch.</p>
+<p>I use an Epson ActionNote 650 laptop for most of my computer work. To find the biggest shippers in the trade, I used my Epson and my Motorola Lifestyle 14.4 Data/Fax modem to hook into a special database offered by Port Import/Export Reporting Service, or PIERS, which tracks these kinds of things. PIERS provides FOCUS software to search its data.</p>
+<p>Tapping the beer trade</p>
+<p>Beer is the biggest commodity shipped in the trade. Heineken is the biggest shipper, followed by Becks and Guiness.</p>
+<p>Now came the hard part. I had to get the shipping contracts for these beer barons. Shipping line cartels have to file their contracts with the FMC, but the deals don&#39;t name the shippers. You have to look for things like port of origin to look for specific companies. For example, Heineken comes from Holland, so Rotterdam would be the biggest close port.</p>
+<p>In times B.C. - before computers - reporters would have to check through the thousands of contracts at the FMC in Washington by hand. I never left my office in the New York World Trade Center.</p>
+<p>I used ProComm Plus for Windows to dial into another commercial database provider called Transax Systems. The database includes all shipping contracts filed with the FMC. You can search them by line, by type of cargo, by port, by date and other parameters. I retrieved the beer contracts and saved them.</p>
+<p>Then, using Claris Works for windows, I put together a spreadsheet that compared the rates for the two years. Heineken&#39;s rollback was about $12 per container - a little lower than the $100 per container the cartel said had been saved.</p>
+<p>The cartel complained that the Heineken accounts did not truly represent the amounts and savings of the contracts on the Atlantic. Of course, they said, the biggest shipper would have the best deal, the lowest increase, and thus the lowest rollback, especially an importer whose goods, beer, was one of the cheapest goods to ship. To sketch a fairer picture of the contracts and rollbacks, they said, I would have to compare contracts for goods that cost more to ship, which would have a greater rollback.</p>
+<p>Using PIERS data, I picked three of the top commodities being shipped in the trade - all the beer contracts and those for other alcoholic beverages and chemicals. Some contracts included rates for all three in the same deal.</p>
+<p>I used ProComm Plus to retrieve the contracts. But, because of the limitations of my equipment, I had to copy the information from the contracts by hand. I filled two notebooks with the columns. But I needed time to transfer the information into a spreadsheet, time my daily beat did not allow me.</p>
+<p>Until, that is, the paper sent me on a cargo ship to Brazil. The three weeks on the ship gave me enough time to put together an Excel spreadsheet of more than 400 contract variations. There was little else to do at night aboard a ship off the coast of South America.</p>
+<p>When I finished the spreadsheet, I made a copy and saved it into a dbf file, which I opened with FoxPro. I queried the database on the average rollback costs for the commodities.</p>
+<p>I found that the average rollback was about $50 for each box. More than what was offered in the Heineken deal. But still only half of what the cartel said was the average rollback discount. I wrote a column about how the $65 million discount just didn&#39;t add up.</p>
+<p>Mike Fabey can be reached by sent e-mail to MJF625775@aol.com</p>
   </div>
 </article>
 
@@ -43,30 +64,30 @@
   <h3>Similar Articles</h3>
   <ul class="similar-list">
     <li class="similar-item">
-  <a href="/uplink/article/1990-december-plugging-in.html">Plugging In</a>
-  <span class="similar-meta">December 1990</span>
+  <a href="/uplink/article/1996-july-get-them-while-they-last.html">Get them while they last</a>
+  <span class="similar-meta">July 1996</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1996-august-like-money-in-the-bank.html">Like Money in the Bank</a>
-  <span class="similar-meta">August 1996</span>
+  <a href="/uplink/article/2000-januaryfebruary-nicar-data-library.html">NICAR data library</a>
+  <span class="similar-meta">January/February 2000</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1994-march-eeoc-data-is-goldmine-for-job-stories.html">EEOC data is goldmine for job stories</a>
-  <span class="similar-meta">March 1994</span>
+  <a href="/uplink/article/1991-november-data-entry-problems-how-do-newspapers-protect-the-integrity-of-information.html">Data entry problems: How do newspapers protect the integrity of information</a>
+  <span class="similar-meta">November 1991</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/1993-february-deadly-cure-analysis-of-nuclear-regulatory-data-reveals-realities-of-radiation-treatment.html">Deadly Cure: Analysis of Nuclear Regulatory Data Reveals Realities of Radiation Treatment</a>
-  <span class="similar-meta">February 1993</span>
+  <a href="/uplink/article/1996-september-dont-get-burned.html">Don&#39;t get burned</a>
+  <span class="similar-meta">September 1996</span>
 </li>
 <li class="similar-item">
-  <a href="/uplink/article/2007-januaryfebruary-plug-into-data-to-investigate-utilities.html">PLUG INTO DATA TO INVESTIGATE UTILITIES</a>
-  <span class="similar-meta">January/February 2007</span>
+  <a href="/uplink/article/2000-march-nicar-databases-as-of-feb-1-2000.html">NICAR databases (as of Feb. 1, 2000)</a>
+  <span class="similar-meta">March 2000</span>
 </li>
   </ul>
 </aside>
 <nav class="article-nav">
-  <a href="/uplink/article/1996-august-like-money-in-the-bank.html" class="article-nav__prev">← Like Money in the Bank</a>
-  <a href="/uplink/article/1996-september-we-did-it-our-way.html" class="article-nav__next">We did it our way →</a>
+  <a href="/uplink/article/1996-august-like-money-in-the-bank.html" class="article-nav__prev">← Like money in the bank</a>
+  <a href="/uplink/article/1996-august-power-lunches.html" class="article-nav__next">Power lunches →</a>
 </nav>
   </main>
   <footer class="site-footer">

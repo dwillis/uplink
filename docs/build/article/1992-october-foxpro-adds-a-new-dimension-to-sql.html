@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoxPro adds a new dimension to SQL — Uplink Archive</title>
+  <link rel="stylesheet" href="/uplink/css/style.css">
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+</head>
+<body class="article-page">
+  <header class="site-header">
+    <div class="container">
+      <a href="/uplink/" class="site-title">Uplink</a>
+      <p class="site-tagline">Computer-Assisted Reporting Newsletter, 1990–2007</p>
+      <nav class="site-nav">
+        <a href="/uplink/">Browse</a>
+        <a href="/uplink/topics/">Topics</a>
+        <a href="/uplink/search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="article-detail">
+  <header class="article-header">
+    <h1>FoxPro adds a new dimension to SQL</h1>
+    <div class="article-byline">
+      <span class="author">Dan Woods</span>
+      <span class="author-title">Reporter</span>
+      <span class="date">October 1992</span>
+    </div>
+    <div class="article-topics"><a href="/uplink/topics/technology.html" class="badge">Technology</a><a href="/uplink/topics/investigative-methods.html" class="badge">Investigative Methods</a><a href="/uplink/topics/journalism-newsroom.html" class="badge">Journalism &amp; Newsroom</a></div>
+  </header>
+
+  <div class="article-summary"><p>FoxPro&#39;s SQL point-and-click interface makes database querying accessible to journalists of all skill levels, from beginners to experienced users, enabling more reporters to engage in computer-assisted reporting. The tool simplifies SQL use and automates coding tasks, democratizing technical skills across newsrooms.</p></div>
+
+  <div class="article-body">
+    <p>FoxPro&#39;s Point and Shoot SQL Interface can smooth the way for beginners.</p>
+<p>The great thing about Structured Query Language is that it is simple, powerful and for the most part, easy. Beginners can get started quickly, and pros can go as fast as they need to. It&#39;s no surprise that SQL has been adopted by reporters enthusiastically.</p>
+<p>For the first stage of a program of computer-assisted reporting, SQL releases the power of the highly-motivated individuals who are driving the effort. But after a small cadre of reporters has hit a few home runs, knowledge must spread throughout the newsroom in order to avoid a bottleneck. That&#39;s why training eventually becomes one of the top, if not the top priority to ensure the success of a program of computer-assisted reporting.</p>
+<p>For those news organizations using FoxPro Version 2.0, the Relational Query By Example interface provides a tremendous tool for teaching SQL to beginners. No matter how easy SQL may seem to the initiated, beginners need, and should have, as much help as possible.</p>
+<p>What the Relational Query By Example interface does is provide a point and shoot menu interface for SQL. For each portion of the SQL statement, the user chooses from a menu instead of typing the command. For the seasoned SQL programmer, this may seem awkward at first. I know it did for me, but now I write almost all of my SQL statements using RQBE.</p>
+<p>The benefit for beginners is that they don&#39;t have to sit there facing a SELECT statement, wondering what to type next. With the RQBE interface, they can play around and use menus to build the statement they want as follows.</p>
+<p>To enter the RQBE interface, a FoxPro user creates a new query file by choosing New from the file menu and specifying the file type as Query. This displays the interface screen.</p>
+<p>When FoxPro creates the query, it assumes that whichever database is open will be the subject of the query. If this isn&#39;t the correct database, then it can be cleared from the screen, and another database can be added from a menu of all available databases. If a database named &quot;DB1&quot; were open, then that database would be used for the query and its fields would be displayed in the Select Fields window.</p>
+<p>The user can change which fields appear in the query, or to choose various functions, such as SUM, AVG, COUNT, etc.</p>
+<p>When a user adds a second database to the query, say &quot;DB2&quot;, FoxPro pops up a menu-driven interface to the WHERE clause. Instead of typing in WHERE DB2.IDNUM = DB1.IDNUM, the WHERE interface allows a user to point and shoot. First a menu of all the fields in the DB2 database is presented so the user can select the appropriate field to join the databases together. Then the user selects the comparison operator, (LIKE or =, EXACTLY LIKE, etc.), and finally a menu of fields from the DB1 database appears.</p>
+<p>After the WHERE menu has been filled out, the where clause will appear in the large box at the bottom left of the screen. Also, all of the fields in the DB2 database will appear when the Select Fields menu is chosen. The same style interface is available for the ORDER BY, GROUP BY and HAVING clauses.</p>
+<p>The menus are nice for queries that use several databases, because the job of placing the alias tags that identify which field belongs to which database is handled automatically.</p>
+<p>When I first started to use this interface, I balked because I thought that it was a replacement for SQL, not a way to learn it. As soon as I clicked on the See SQL box, I realized I was wrong. Clicking on this box displays the SQL query built by the interface. A beginner can point and shoot for a while, then look at the SQL that he or she has created.</p>
+<p>Once the query has been completed, then it can be executed. The output can be directed to a temporary database for browsing, a permanent database for later use, or a report for printing.</p>
+  </div>
+</article>
+
+<aside class="similar-articles">
+  <h3>Similar Articles</h3>
+  <ul class="similar-list">
+    <li class="similar-item">
+  <a href="/uplink/article/1996-august-switching-from-foxpro-to-access.html">Switching from FoxPro to Access</a>
+  <span class="similar-meta">August 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-may-cheating-at-foxpro.html">Cheating at FoxPro</a>
+  <span class="similar-meta">May 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1996-september-todays-top-10-list.html">Today&#39;s Top 10 list</a>
+  <span class="similar-meta">September 1996</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/1997-july-the-data-they-are-a-changin.html">The data, they are a changin&#39;</a>
+  <span class="similar-meta">July 1997</span>
+</li>
+<li class="similar-item">
+  <a href="/uplink/article/2000-julyaugust-sql-server-pays-off.html">SQL Server pays off</a>
+  <span class="similar-meta">July/August 2000</span>
+</li>
+  </ul>
+</aside>
+<nav class="article-nav">
+  <a href="/uplink/article/1992-october-the-national-library-on-money-and-politics-searches-databases-for-you.html" class="article-nav__prev">← The National Library on Money &amp; Politics searches databases for you</a>
+  <a href="/uplink/article/1992-october-an-electronic-forum-on-computers-in-journalism-debuts.html" class="article-nav__next">An electronic forum on computers in journalism debuts →</a>
+</nav>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Uplink newsletter archive · <a href="https://github.com/dwillis/uplink">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
