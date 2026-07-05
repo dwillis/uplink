@@ -186,29 +186,54 @@ def run_inventory(stem, model, force=False):
     return inventory
 
 
+CONTINUATION_JUMP_RE = re.compile(r"continued on page|see .*page \d|cont'?d", re.IGNORECASE)
+
+
+def _find_in_original(text, norm_text, anchor_norm, search_from_orig=0):
+    """Find a normalized anchor's approximate position in the ORIGINAL text.
+
+    normalize() collapses whitespace, so an index into norm_text drifts from
+    the true offset in `text` -- by hundreds of characters in a long OCR'd
+    issue. Searching the original text directly (allowing free whitespace
+    between words) avoids that drift instead of just adding a fixed buffer.
+    """
+    if not anchor_norm:
+        return -1
+    words = anchor_norm.split()
+    if not words:
+        return -1
+    pattern = r"\s+".join(re.escape(w) for w in words[:8])
+    m = re.search(pattern, text[search_from_orig:], re.IGNORECASE)
+    if m:
+        return search_from_orig + m.start()
+    return -1
+
+
 def slice_around_anchors(text, first_words, last_words):
     """Return a bounded slice of the issue text likely to contain one article.
 
     Falls back to the whole text if anchors can't be located -- Stage B still
     benefits from the first/last-word instructions even without a tight slice.
     """
-    norm_text = normalize(text)
     start_anchor = normalize(first_words)
     end_anchor = normalize(last_words)
 
-    start_idx = norm_text.find(start_anchor[:60]) if start_anchor else -1
-    end_idx = norm_text.find(end_anchor[:60], start_idx if start_idx >= 0 else 0) if end_anchor else -1
-
+    start_idx = _find_in_original(text, None, start_anchor)
     if start_idx == -1:
         return text  # let the model search the whole issue
 
-    # Map back to the original text length proportionally (normalize() only
-    # collapses whitespace, so offsets are close enough for a generous slice).
     char_start = max(0, start_idx - 200)
+
+    # A short or "continued on page N" anchor means Stage A likely didn't
+    # capture the true ending -- give the model the rest of the issue
+    # instead of a tight window it might get cut off within.
+    unreliable_anchor = len(end_anchor.split()) <= 4 or CONTINUATION_JUMP_RE.search(last_words or "")
+
+    end_idx = -1 if unreliable_anchor else _find_in_original(text, None, end_anchor, start_idx)
     if end_idx != -1 and end_idx > start_idx:
-        char_end = min(len(text), end_idx + len(end_anchor) + 2000)
+        char_end = min(len(text), end_idx + len(last_words or "") + 500)
     else:
-        char_end = min(len(text), start_idx + 12000)
+        char_end = min(len(text), start_idx + 16000)
     return text[char_start:char_end]
 
 
@@ -216,16 +241,20 @@ MIN_GOOD_LENGTH = 400  # matches report.py's "very short" truncation threshold
 
 
 def existing_good_articles(stem):
-    """Articles already in issues/{stem}.json with substantial full_text,
-    keyed by normalized headline -- used to skip re-extracting content
-    that's already good rather than reprocessing every issue from scratch."""
+    """Articles already in issues/{stem}.json with substantial, non-truncated
+    full_text, keyed by normalized headline -- used to skip re-extracting
+    content that's already good rather than reprocessing every issue from
+    scratch."""
+    from report import looks_truncated
+
     issue_path = ISSUES_DIR / f"{stem}.json"
     if not issue_path.exists():
         return {}
     old_articles = json.loads(issue_path.read_text()).get("articles", [])
     good = {}
     for a in old_articles:
-        if len(a.get("full_text", "")) >= MIN_GOOD_LENGTH:
+        full_text = a.get("full_text", "")
+        if len(full_text) >= MIN_GOOD_LENGTH and not looks_truncated(full_text):
             norm = re.sub(r"[^a-z0-9 ]", "", a.get("headline", "").lower()).strip()
             good[norm] = a
     return good
@@ -272,11 +301,21 @@ def run_extract(stem, model, force=False):
             continue
 
         slice_text = slice_around_anchors(text, item["first_words"], item["last_words"])
+        last_words = item.get("last_words", "")
+        unreliable_end = len(normalize(last_words).split()) <= 4 or CONTINUATION_JUMP_RE.search(last_words or "")
+        end_hint = (
+            f"Article ends: \"{last_words}\" -- this hint may be incomplete or approximate. "
+            f"If the article's content clearly continues past that point on the same topic, "
+            f"keep going until you reach a natural conclusion, a byline/headline for a "
+            f"different article, or the end of the provided text."
+            if unreliable_end else
+            f"Article ends: \"{last_words}\""
+        )
         prompt = (
             f"Headline: {item['headline']}\n"
             f"Byline: {item.get('byline', '')}\n"
             f"Article begins: \"{item['first_words']}\"\n"
-            f"Article ends: \"{item['last_words']}\"\n\n"
+            f"{end_hint}\n\n"
             f"--- ISSUE TEXT (may include other articles; extract only this one) ---\n\n"
             f"{slice_text}"
         )
@@ -289,7 +328,13 @@ def run_extract(stem, model, force=False):
             continue
 
         full_text = result.get("full_text", "")
-        ends_ok = anchor_found(item["last_words"], full_text[-300:]) if item.get("last_words") else True
+        # An unreliable end anchor means the model was told to use its own
+        # judgment on where to stop, so requiring the (bad) anchor to appear
+        # at the end would just penalize a correct, longer extraction.
+        ends_ok = (
+            True if unreliable_end or not last_words
+            else anchor_found(last_words, full_text[-300:])
+        )
         result["headline"] = item["headline"]
         result["kicker"] = item.get("kicker", "")
         result["unverified"] = not ends_ok
@@ -297,6 +342,21 @@ def run_extract(stem, model, force=False):
         out_path.write_text(json.dumps(result, indent=2) + "\n")
         print(f"OK ({len(full_text)} chars{'' if ends_ok else ', UNVERIFIED ending'})")
         time.sleep(0.3)
+
+
+FROM_PAGE_RE = re.compile(r"^from page \w+", re.IGNORECASE)
+
+
+def is_continuation_fragment(item):
+    """True if this inventory item is the tail of an article that jumped to
+    a later page, rather than a distinct article -- e.g. headline "Foo
+    (continued)"/"(continued from page eight)" or kicker "From page four:"
+    (page numbers are often spelled out, not digits). These get merged into
+    the preceding article in assemble() instead of kept as separate entries,
+    since their content is often out of reach of a single extraction slice."""
+    headline = item.get("headline", "")
+    kicker = item.get("kicker", "")
+    return "continued" in headline.lower() or "continued" in kicker.lower() or bool(FROM_PAGE_RE.match(kicker))
 
 
 def assemble(stem):
@@ -330,6 +390,32 @@ def assemble(stem):
         norm = re.sub(r"[^a-z0-9 ]", "", item["headline"].lower()).strip()
         match = difflib.get_close_matches(norm, old_norm_headlines, n=1, cutoff=0.85)
         old_article = old_by_norm_headline[match[0]] if match else {}
+
+        if is_continuation_fragment(item) and new_articles:
+            # Tail of an earlier article that jumped to a later page --
+            # append its text to that article instead of listing it
+            # separately. The parent isn't always the immediately preceding
+            # entry (other short items can be interleaved and may have
+            # scrolled far back), so search the whole issue: prefer a
+            # quoted title shared between the fragment and a candidate
+            # headline (e.g. "From page four: 'Foo' (continued)" -> "...
+            # 'Foo'"), falling back to word overlap, then the most recent
+            # article if nothing matches at all.
+            fragment_text = item["headline"] + " " + item.get("kicker", "")
+            quoted = re.findall(r"'([^']{4,})'", fragment_text)
+            best, best_score = new_articles[-1], 0
+            for candidate in new_articles:
+                score = 0
+                if any(q.lower() in candidate["headline"].lower() for q in quoted):
+                    score += 100
+                fragment_words = set(re.findall(r"[a-z0-9]{4,}", fragment_text.lower()))
+                candidate_words = set(re.findall(r"[a-z0-9]{4,}", candidate["headline"].lower()))
+                score += len(fragment_words & candidate_words)
+                if score > best_score:
+                    best, best_score = candidate, score
+            best["full_text"] = best["full_text"].rstrip() + "\n\n" + extracted.get("full_text", "").lstrip()
+            best["provenance"]["verified"] = best["provenance"]["verified"] and not extracted.get("unverified", False)
+            continue
 
         reused = extracted.get("reused", False)
         new_articles.append({
