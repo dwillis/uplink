@@ -12,7 +12,18 @@
         "data analysis"
       ],
       "author_name": "Neil Reisner",
-      "author_title": "The Miami Herald"
+      "author_title": "Reporter",
+      "affiliation": "The Miami Herald",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Access",
+        "World Wide Web",
+        "FOIA"
+      ]
     },
     {
       "headline": "Who's teaching our kids?",
@@ -24,7 +35,16 @@
         "background checks"
       ],
       "author_name": "Chris Cantergiani",
-      "author_title": "WSB-TV Channel 2/Atlanta"
+      "author_title": "Reporter",
+      "affiliation": "WSB-TV Channel 2",
+      "topics": [
+        "Education",
+        "Crime & Justice",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Open Records Act"
+      ]
     },
     {
       "headline": "Railroad safety",
@@ -36,7 +56,17 @@
         "public records"
       ],
       "author_name": "Trebor Banstetter",
-      "author_title": "The Palm Beach Post"
+      "author_title": "Reporter",
+      "affiliation": "The Palm Beach Post",
+      "topics": [
+        "Public Safety",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Access",
+        "Excel"
+      ]
     },
     {
       "headline": "Intranet start-up",
@@ -48,7 +78,22 @@
         "data management"
       ],
       "author_name": "Robert Gebeloff",
-      "author_title": "The Record"
+      "author_title": "Database Editor",
+      "affiliation": "The Record",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Intranet",
+        "Web server",
+        "Access",
+        "Microsoft Back Office",
+        "Pentium",
+        "Unix",
+        "Internet"
+      ]
     },
     {
       "headline": "Intranet essentials",
@@ -60,7 +105,19 @@
         "public records"
       ],
       "author_name": "Noemi Ramirez",
-      "author_title": "IRE and NICAR"
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Intranet",
+        "Internet",
+        "World Wide Web",
+        "CD-ROM"
+      ]
     },
     {
       "headline": "Realistic goals",
@@ -72,7 +129,22 @@
         "research"
       ],
       "author_name": "Heather Newman",
-      "author_title": "Detroit Free Press"
+      "author_title": "Reporter",
+      "affiliation": "Detroit Free Press",
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Excel",
+        "Lexis/Nexis",
+        "Internet",
+        "World Wide Web",
+        "Google",
+        "Deja",
+        "MapQuest"
+      ]
     }
   ]
 }

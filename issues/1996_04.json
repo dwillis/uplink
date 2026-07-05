@@ -12,7 +12,19 @@
         "regression"
       ],
       "author_name": "Stan Dorsey",
-      "author_title": "NICAR Staff"
+      "author_title": "NICAR Staff",
+      "affiliation": "NICAR",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Technology"
+      ],
+      "technologies": [
+        "FoxPro",
+        "Paradox",
+        "Access",
+        "Excel"
+      ]
     },
     {
       "headline": "SAS vs. SPSS: Playing with the big guns",
@@ -24,7 +36,21 @@
         "statistical software"
       ],
       "author_name": "Steve Doig",
-      "author_title": "The Miami Herald"
+      "author_title": "CAR specialist",
+      "affiliation": "The Miami Herald",
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "SAS",
+        "SPSS",
+        "SQL",
+        "Excel",
+        "FoxPro",
+        "Access"
+      ]
     },
     {
       "headline": "Looking at police stats: It ought to be a crime",
@@ -36,7 +62,18 @@
         "police records"
       ],
       "author_name": "Bill Bell",
-      "author_title": "Missouri School of Journalism"
+      "author_title": "",
+      "affiliation": "Missouri School of Journalism",
+      "topics": [
+        "Crime & Justice",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "IBM laptop",
+        "Excel 5.0",
+        "FoxPro 2.6"
+      ]
     },
     {
       "headline": "Economic analysis on the fly",
@@ -48,7 +85,18 @@
         "employment data"
       ],
       "author_name": "Neill A. Borowski",
-      "author_title": "The Philadelphia Inquirer"
+      "author_title": "reporter",
+      "affiliation": "The Philadelphia Inquirer",
+      "topics": [
+        "Data & Databases",
+        "Business & Economy",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "spreadsheet",
+        "database manager",
+        "County Business Patterns"
+      ]
     },
     {
       "headline": "Exposing 'Little White Lies'",
@@ -60,7 +108,16 @@
         "FoxPro"
       ],
       "author_name": "Aaron Elstein",
-      "author_title": "Illinois Times"
+      "author_title": "",
+      "affiliation": "Illinois Times",
+      "topics": [
+        "Government & Politics",
+        "Demographics & Census",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "FoxPro"
+      ]
     },
     {
       "headline": "Riding the A-train",
@@ -72,7 +129,17 @@
         "data cleaning"
       ],
       "author_name": "Jim Morris",
-      "author_title": "CNN"
+      "author_title": "",
+      "affiliation": "CNN",
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FTP",
+        "Internet"
+      ]
     },
     {
       "headline": "Two years at Pentium speed: We've come a long way, Baby",
@@ -84,7 +151,16 @@
         "journalism resources"
       ],
       "author_name": "Brant Houston",
-      "author_title": "NICAR Managing Director"
+      "author_title": "Managing Director",
+      "affiliation": "NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web"
+      ]
     },
     {
       "headline": "New books for online journalism",
@@ -96,7 +172,17 @@
         "internet"
       ],
       "author_name": "Brant Houston",
-      "author_title": "NICAR Managing Director"
+      "author_title": "Managing Director",
+      "affiliation": "NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ]
     },
     {
       "headline": "Tech tips: Parsing is the answer",
@@ -108,7 +194,17 @@
         "FoxPro"
       ],
       "author_name": "Natalya Shulyakovskaya",
-      "author_title": "NICAR Staff"
+      "author_title": "NICAR Staff",
+      "affiliation": "NICAR",
+      "topics": [
+        "Technology",
+        "Data & Databases",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Excel",
+        "Netscape"
+      ]
     },
     {
       "headline": "On the Internet: That's stats",
@@ -120,7 +216,25 @@
         "resources"
       ],
       "author_name": "Andy Lehren",
-      "author_title": "NICAR staff"
+      "author_title": "NICAR staff",
+      "affiliation": "NICAR",
+      "topics": [
+        "Data & Databases",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "SPSS",
+        "SAS",
+        "SYSTAT",
+        "Statistica",
+        "Resampling Stats",
+        "KwikStat",
+        "Xlisp-Stat",
+        "StatView",
+        "Internet",
+        "World Wide Web"
+      ]
     },
     {
       "headline": "Hate crimes",
@@ -132,7 +246,14 @@
         "police records"
       ],
       "author_name": "John Sullivan",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "The Chicago Reporter",
+      "topics": [
+        "Crime & Justice",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": []
     }
   ]
 }

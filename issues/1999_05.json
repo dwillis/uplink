@@ -12,7 +12,18 @@
         "MapInfo"
       ],
       "author_name": "Chris Williams",
-      "author_title": "San Antonio Express-News"
+      "author_title": "Reporter",
+      "affiliation": "San Antonio Express-News",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "Access",
+        "MapInfo",
+        "GIS"
+      ]
     },
     {
       "headline": "Mexico and beyond",
@@ -24,7 +35,18 @@
         "investigative journalism"
       ],
       "author_name": "Pedro Enrique Armendares",
-      "author_title": "Periodistas de Investigaci\u00f3n"
+      "author_title": "Co-Founder",
+      "affiliation": "Periodistas de Investigaci\u00f3n",
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "spreadsheets",
+        "database managers"
+      ]
     },
     {
       "headline": "In Memorium",
@@ -36,7 +58,12 @@
         "scholarship"
       ],
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom"
+      ],
+      "technologies": []
     },
     {
       "headline": "CAR's advantages",
@@ -48,7 +75,17 @@
         "data analysis"
       ],
       "author_name": "Paul Overberg",
-      "author_title": "USA Today"
+      "author_title": "",
+      "affiliation": "USA Today",
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Journalism & Newsroom"
+      ],
+      "technologies": [
+        "Lexis-Nexis",
+        "MapInfo"
+      ]
     },
     {
       "headline": "Calculating Aids",
@@ -60,7 +97,18 @@
         "calculators"
       ],
       "author_name": "Stephanie Reitz",
-      "author_title": "The Hartford Courant"
+      "author_title": "",
+      "affiliation": "The Hartford Courant",
+      "topics": [
+        "Data & Databases",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "spreadsheet programs"
+      ]
     },
     {
       "headline": "Title IX undermined",
@@ -72,7 +120,17 @@
         "high school sports"
       ],
       "author_name": "Jim Hopkins",
-      "author_title": "The Courier-Journal"
+      "author_title": "Reporter",
+      "affiliation": "The Courier-Journal",
+      "topics": [
+        "Education",
+        "Investigative Methods",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "Paradox",
+        "Excel"
+      ]
     },
     {
       "headline": "Discovering data",
@@ -84,7 +142,18 @@
         "freedom of information"
       ],
       "author_name": "Flemming Svith and Nils Mulvad",
-      "author_title": "Morgenavisen Jyllands-Posten"
+      "author_title": "",
+      "affiliation": "Morgenavisen Jyllands-Posten",
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "PCs"
+      ]
     },
     {
       "headline": "CAR on the map",
@@ -96,7 +165,18 @@
         "elections"
       ],
       "author_name": "Dick van Eijk",
-      "author_title": "NRC Handelsblad"
+      "author_title": "Reporter",
+      "affiliation": "NRC Handelsblad",
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "dBase",
+        "Lotus Approach",
+        "MapInfo"
+      ]
     }
   ]
 }

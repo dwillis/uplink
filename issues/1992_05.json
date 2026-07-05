@@ -5,13 +5,26 @@
     {
       "headline": "Star reporter dodges USDA obstacles",
       "author_name": "David Raziq",
-      "author_title": "MICAR",
+      "author_title": "",
       "full_text": "Star reporter dodges USDA obstacles By David Raziq MICAR \"From the standpoint of computer-assisted reporting. this was a techno-nightmare.` said Kansas City Star reporter Greg Reeves. \"It took three gigabites of space. the tapes blew up my Qualstar 1260 taped- rive and the number of records overwhelmed XDB.\" But Reeves isn't complaining. because the \"nightmare he's describing is \"Failing the Grade a comprehe- sive and critical look at the United States Department of Agriculture that this April won his paper a Pulitzer Prize for national reporting. The effort of reporters Mike McGraw. Jeff Taylor. Reeves and editor Mark Ziemann, the seven-par series also won an Investiga tive Reporters and Editors Award earlier this year. The Star's investigation began nearly two years ago as the result of previous stories by reporters McGraw and Taylor. One such story included the problem of dirty grain farmers and grain producers adding dirt to grain export to increase the weight and therefore the price of shipments. That and other chronic problems. savs Reeves. convinced the Star that the USDA's troubles \"went much deeper\" than any- one realized and SO the project began. Eleven months later. Reeves joined the investigation. \"For my part of it. he says. \"I asked the USDA for the last five years in farm subsidy pay- ments. The U'SDA pays out over ten billion dollars in subsidies and Reeves suspected he might find some ir- regularities to those payments. But Reeves effort soon hit a snag when the government denied his request. We started throwing lawyers at each other. Reeves said. but \"unlike other agencies that ultimately agree to give you the records. the USDA said go ahead and sue us. I think they denied us access simply because they had never given them to anybody before and because bureaucrats tend to believe its their infromation and not the public's. Greg Reeves spent months trying to access USDA farm subsidy tapes. But getting the tapes was the easy part. Three months later a compromise was finally reached: The USDA would provide 8.2 million com- puter records of only 1990's payments. Those tapes included the check's serial number the date, county, and state the check was issued for, and even an identi- fying number for the intended farmer but excluded the reiver's name and address. However that was just the beginning of Reeve's problems, because with the tapes in hand. he now experienced difficulties in down-loading the information into his computer. \"Our tapedrive could not read these tapes. The tape quality was marginal and the Qualstar 1260 is a piece of trash when it comes to reading marginal tapes.\" Reeves says that although a recent upgrade has solved most of the Qualstar's reading problems. he felt discouraged at the time. Starting in July 1991. Reeves says he \"worked nearly around the clock seven days a week to load these tapes to my PC... We failed.\" So Reeves decided to install the nine tapes on the Star's Vax Mainframe processer using Nine Track Express for the download and then Datatrieve, the mainframe's database software. for the analysis. \"I wrote hundreds of programs to extract this data,\" says Reeves. and in some cases ran each of them dozens of times\" for a two-month period. Finally he created an analysis based on those farmers who got , most payments along with their county and state. the investigation was still missing one thing: the names of the farmers or producers receiving the money. So using the check's serial number, the date of issue, and purpose, Reeves began calling various county USDA offices to match the checks with their receivers. As a result, one of the investigation's findings included the unchecked growth of what Reeves calls `Mississippi Christmas Trees.\" \"We've found that in ten states.\" he says. \"there are more farmers getting farm subsidy pay- ments than there are farms. What's happened is the farmer's have split up their farms under SO many different ownerships in order to skirt the USDA's fifty-thousand dollar per farmer limitation.\" Asa result. the Star's team found wives. children, cousins, uncles, and even family doctors and lawyers all listed as producers with the USDA and thus receiving subsidy checks. Although Reeves depended on a mainframe for \"Failing the Grade,\" he says he still primarily believes in PC-oriented research methods and has some recommendations for those organizations just starting their own computer-assisted programs. Go for a PC-based set up that takes care of your needs at least two years out: namely a 486 33 megahertz with a minimum two giga-byte harddrive,\" he says. In addition, Reeves recommends Foxpro. Paradox, or SAS database software for the analysis, Nine Track Express for downloading tapes, and a Pertech. Cipher. or Storagtech tape drive. \"The whole set-up\" says Reeves. would be around twenty thousand dollars.",
       "summary": "Greg Reeves of the Kansas City Star navigates complex challenges in accessing USDA farm subsidy data, which contributed to the Pulitzer Prize-winning series 'Failing the Grade.' His investigation uncovered manipulation in farm subsidy claims involving multiple fake ownerships to bypass payment limits.",
       "keywords": [
         "USDA",
         "subsidy",
         "investigation"
+      ],
+      "affiliation": "MICAR",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Agriculture & Land"
+      ],
+      "technologies": [
+        "XDB",
+        "Qualstar 1260",
+        "Vax",
+        "Nine Track Express",
+        "Datatrieve"
       ]
     },
     {
@@ -24,18 +37,38 @@
         "computers",
         "reporting",
         "databases"
+      ],
+      "affiliation": "",
+      "topics": [
+        "Investigative Methods",
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "9-track tape",
+        "mainframe"
       ]
     },
     {
       "headline": "Easing the fear of a financial collapse",
       "author_name": "Trebor Banstetter",
-      "author_title": "MICAR",
+      "author_title": "",
       "full_text": "Easing the fear of a financial collapse by Trebor Banstetter MICAR The bank of New England failed in early January of 1991. It was the biggest bank failure in the history of the United States, and the financial catastrophe caused great concern among New Jersey residents who kept their money in local banks and thrifts. \"The people of New Jersey were very nervous about the safety of their banks,\" said Dan Woods, business writer for the Record of Hackensack, N.J. The fear was SO pervasive, Woods said, that a thrift in Patterson, N.J., had a \"run de- positors withdrawing all of their savings because of a takeover by United Savings Bank, \"There was poor communication, and people thought their money was going to disappear, he said. \"We wanted to give them some information on how safe their bank was. Woods wanted to create a ranking of banks and thrifts that would assist consumers in choos- ing what financial institution was safest. He decided to use a pub- licly available database provided by Ferguson and Co. The people of New Jersey were very nervous about the safety of their banks. We wanted to give the information on how safe their bank was. -Dan Woods The data was based on Federal Deposit Insur- ance Corp. call reports, which are detailed financial reports banks have to file each quarter. and are avail- able on a CD-ROM disk. Obtaining the information from the disk and downloading it into it database program is very similar to using nine-track magnetic tapes. The best way to determine a rating for a bank or thrift. Woods decided. was to use a formula compar- ing an institution's capital and its problem loans. \"In il failed bank, the losses from the problem loans keep piling up and eating away the capital. he said. Each bank's capital and problem loans was divided by the bank's assets to produce a percentage. The capital percentage gave an indicator of how much the bank had saved over the years to act as w-a cushion of last resort. The problem loans indicated how good the bank was at making loans. The capital percentage and the problem loan percentage were given equal weight in the ranking. and were converted into the standard deviation to equalize the numbers. Then, each bank had a ranking between one and five. \"After the story ran. consumers were wildly enthusiastic, Woods said. \"This gave them a way to judge the basic safety of their bank. One of the biggest concerns Woods had was making sure the story presented the data accurately and fairly. \"We were very con- scious of the fact that people would use these ratings to move their money, SO we checked the data and methodology to the extreme. he said. He also pointed out banks and thrifts that had low rankings but good recovery pro- grams. Woods made sure to include in- formation on deposit insurance. SO readers understood their savings were insured by the federal government if under $100.000. \"We didn't want to cause hysteria.\" he said. In 1992 Woods did a second ranking. this time including several significant out-of-state banks. \"Again. the response was overwhelming. The stories have won several awards, including a third prize in the enterprise category from the New Jersey Press Association. They also won a C.T. Rutgers award for business reporting. Woods encourages others to try similar rank ings of financial institutions in their areas. but warns that extreme caution and care must be used. - If you print the wrong data. it can be devastating. he said. But. he added. \"It's definitely worth the effort. I have received calls from senior citizens who told me they would sleep a little easier.\"",
       "summary": "A New Jersey journalist created a bank safety ranking system using federal deposit insurance data to ease consumer fears following the 1991 Bank of New England collapse, helping residents evaluate the security of their local financial institutions.",
       "keywords": [
         "banks",
         "safety",
         "ranking"
+      ],
+      "affiliation": "MICAR",
+      "topics": [
+        "Business & Economy",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "CD-ROM",
+        "database program"
       ]
     }
   ]

@@ -6,7 +6,7 @@
 - Articles: 678
 - Coverage bands: 58 green, 5 yellow, 82 red, 0 overridden
 - Articles flagged as possibly truncated: 52
-- TOC cross-check ran on 1 issue(s), 0 headline(s) enumerated but not extracted
+- TOC cross-check ran on 65 issue(s), 475 headline(s) enumerated but not extracted
 - Unexplained schedule gaps: 9
 
 ## File coverage
@@ -22,9 +22,9 @@
 - Missing author_name: 72 (10.6%)
 - Missing summary: 16 (2.4%)
 - Missing keywords: 98 (14.5%)
-- Missing topics: 678 (100.0%)
-- Missing technologies: 678 (100.0%)
-- author_title values that look like an affiliation (should move to `affiliation`): 320
+- Missing topics: 304 (44.8%)
+- Missing technologies: 357 (52.7%)
+- author_title values that look like an affiliation (should move to `affiliation`): 172
 
 ## Unexplained schedule gaps
 

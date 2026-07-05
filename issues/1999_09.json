@@ -5,49 +5,88 @@
     {
       "headline": "Catch and release",
       "author_name": "James Walsh",
-      "author_title": "",
+      "author_title": "public safety reporter",
       "full_text": "Commit a felony in Minnesota and, chances are, you won't go to prison. Commit a crime while on probation and, chances are, you won't go to prison. We had heard it for years: that repeat offenders and even convicted offenders on probation can and often do re-offend with few consequences. In 1999, we decided to put it to the test. I applied for a newsroom fellowship that would allow me to temporarily jump from our public safety team to the projects team to work with Dan Browning, computer-assisted reporting editor. The move freed me from the daily grind of the police and courts beats to dig into the anecdotes and see if there were data to support them. Capturing crime data The first stop was Minnesota's Data Practices Act, the complex state statute that details which information collected and kept by public agencies is public - and which is not. We reviewed sections on arrest data, jail data and court services data regarding offenders on probation. The next step was to fire off letters to several metropolitan area counties, requesting the data we understood to be public. We wanted to first identify the people on probation in the Twin Cities area over the previous five years, then compare those data to jail bookings and court data to see if offenders on probation were being arrested and, if so, what happened afterwards. Getting the data took about three months. The state's two largest counties - Hennepin and Ramsey - refused to give us dates of birth of probationers, insisting the data were private under state law. The Hennepin County Sheriff's Office refused to give us dates of birth for offenders in the jail, again arguing that the data were private. Birth dates were critical information. The state has no standardized, unique identifier to track criminal suspects among counties or as they pass through the justice system. The tracking devices follow cases, not individuals. But by converting birth dates to strings and combining them with names to create key fields, we believed we could link several different criminal justice databases. Thus, birth dates were critical to ensuring that we were finding offenders who crossed county lines and to following individuals from arrest to court to prison and back into the community. The Star Tribune sued Hennepin and Ramsey counties for the data, but the lawsuit would take months. We decided to proceed the hard way, but were forced to change focus from probationers to repeat offenders. We wanted to examine who was booked most often, and what was happening to their cases after arrest. We had dates of birth for jail inmates in every Minnesota county but Hennepin. We figured we could match the Hennepin County data to other criminal records to capture dates of birth. We obtained millions of criminal justice records from the Minnesota Sentencing Guidelines Commission (results of every sentencing statewide, 1993-1997), the Minnesota Supreme Court (felony and gross misdemeanor court dockets statewide, 1993-1997), Department of Corrections data on adult offenders (1994-1998) and work release inmates (1994-1998), and Bureau of Criminal Apprehension conviction data (felonies and gross misdemeanors, 1984-1999). Recognizing repeaters We became the only organization in Minnesota to attempt to link these various databases to find comprehensive criminal histories of repeat offenders. Neither the state nor the counties had constructed anything to answer the questions we would be asking. By matching district court case numbers from the Hennepin County jail database to Hennepin County cases in the state Supreme Court database, we were able to fill in thousands of dates of birth from the court data. Doing individual court record searches on others allowed us to fill in more dates of birth for the most frequent offenders. And finally, using FoxPro, we created unique key fields using three different combinations of name (first-middle-last; first-middle initial-last; last) and date of birth for each table in our criminal justice archive. These matches enabled us to extract birth dates for thousands of other Hennepin County offenders. In the end, we filled in dates of birth for one-third of all people booked in Hennepin County over the five-year period we studied and, more importantly, the top 1,300 most frequent offenders. Those offenders accounted for the bulk of the bookings. One of our key findings was that the top 3.5 percent of the offenders accounted for 22 percent of the bookings in Hennepin County. We became the only organization in Minnesota to attempt to link these various databases to find comprehensive criminal histories of repeat offenders. Neither the state nor the counties had constructed anything to answer the questions we would be asking. To define \"chronic offender,\" we settled on a standard of more than 11 bookings in the five-year study period. Under that definition, we found at least 8,700 offenders getting booked over and over and over again. And we also found that the impact of chronic offenders was felt not only in the inner cities, but also in the suburbs and rural areas. The data backed up our hypothesis. But our work was just beginning. As with all good CAR projects, the data simply gave us a starting place. After about six weeks of data cleaning and writing string functions to query the various tables against each other, we flagged the top offenders in the seven-county metropolitan area of the Twin Cities. We then checked them against court and sentencing databases and began the task of finding the offenders and the victims to tell their stories. Meanwhile, my colleague Paul Gustafson worked on a separate but related project examining the work-release program run by the Minnesota Department of Corrections. Gustafson analyzed five years of data and found that the program was releasing more hardened criminals into the program, some of whom served as little as one-third of their sentence behind bars. We decided to publish this project together with the repeat offenders project because they are two ends of the same spectrum: a cheap, lenient corrections philosophy that has saved money but set criminals essentially free in the community. Many of these criminals escaped from supervision and some committed new crimes. Readers respond We published our series on July 18, 19 and 20. In the end, it was the very human stories of victims and repeat offenders that gripped many readers. But we also finally gave them a sense of the scope of the problem. Local television, local talk radio and National Public Radio picked up parts of our project. We've heard from dozens of readers, including some legislators and other elected officials who are calling for ways to monitor repeat offenders. And after publishing our series, Ramsey and Hennepin counties agreed to provide the dates of birth for probationers (and in Hennepin's case, for those booked into jail) for the five-year study period, thereby settling our lawsuit. James Walsh can be reached by e-mail jwalsh@startribune.com",
       "summary": "Explores the issue of repeat offenders in Minnesota, focusing on the lack of prison sentences for felonies and crimes committed on probation. Uses data analysis to link multiple criminal justice databases.",
       "keywords": [
         "crime",
         "probation",
         "Minnesota"
+      ],
+      "affiliation": "Star Tribune",
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FoxPro"
       ]
     },
     {
       "headline": "School sports as big business",
       "author_name": "Mike Fish",
-      "author_title": "",
+      "author_title": "Reporter",
       "full_text": "In the small towns and one-school communities across Georgia, life has historically revolved around the fate of the high school football team. I was already kicking around the idea of a season-long package that would reveal just how important the game is to these communities - the role of parent-run touchdown clubs; the level of local and state tax monies spent on football, particularly for coaching salaries; and the status enjoyed by high school football coaches. Then, the letter came across my desk. It was an invitation from the pastor of a congregation in Macon, writing in his capacity as secretary/treasurer of the Westside High School football booster club. The club, he explained, wanted to show off its new football complex. And if The Atlanta Journal-Constitution newspapers were so inclined, the boosters would gladly take a reporter up in a helicopter for a birds-eye view of the complex. The thought of parents raising almost $2 million to build a football complex - not on school property but rather on land owned by its football booster club - was enough to convince the newspaper's editors that this was a story worth pursuing. The idea behind \"Pay Dirt! The Big Business of High School Football\" was to explore what separates the winners from the losers, the box-office successes from the failures. To do so, I teamed up with David Milliron, the newspaper's director of computer-assisted reporting. We built a comprehensive database of the nearly 2,400 high school football coaches and assistant coaches in the state. Forming a game plan Since teacher salary and personnel information is kept at the local school district level, the newspaper compiled an electronic database from information obtained from each of the state's 180 school districts - including payroll records, teaching certificates and teaching assignments. The AJC also obtained the state's annual school report card data, (in electronic form), which contained such information as school enrollments and average district salary data for teachers, administrators and support personnel. The database was built in Microsoft Excel and the analysis performed in Microsoft Access. The data were collected using the state's Open Records Act, which mandates the release of such information. Once each school district responded, the data were entered into the computer, and a \"proof sheet\" was then printed out for each of the state's 180 school districts. The \"proof sheets\" were then mailed back to the school district for verification of the information. The AJC sent out a third round of mailings and made numerous telephone calls to obtain 100 percent compliance. The last survey was faxed to the newspaper by a secretary just prior to leaving her office to attend her mother's funeral on the day before publication. While Milliron handled the survey and data collection, I spent my time interviewing coaches, administrators and booster club members. Many schools and administrators thought we were prying and refused to cooperate, but some expressed pride in their accomplishments. I eventually narrowed my reporting down to three schools to illustrate how the big business of high school football has evolved in Georgia. What the newspaper found was a startlingly well-financed support system for the game, one rivaling the model found on big-time college football campuses. Statistics suggest that interest in high school football is waning nationwide, but that certainly isn't true in Georgia. The established programs in southern Georgia continue to drum up huge financial and fan support. But increasingly, the Friday night fever has spread to the wealthier Atlanta suburbs, evidenced by the fancy stadiums - some with their own lounge boxes, spiffy weight rooms and well-appointed booster club headquarters. The final score Georgia may still struggle to shore up a comparatively weak public school academic record, but schools and taxpayers spare little expense to field competitive football teams. Our package questioned whether education is being compromised for playing games. Consider: $79.6 million in state tax dollars went to pay coaches' teaching contracts last year, although nearly a third have minimal or no teaching workload. Georgia taxpayers contribute through local school taxes another $9.6 million annually in supplemental pay for football coaches. Head football coaches make an average salary of nearly 55 percent more than the average for the state's teachers - $55,686 compared with $36,042. The earnings of 10 individual coaches each exceed the $75,724 annual pay for the state's lieutenant governor. Two coaches were found to earn higher salaries than their school principals, putting the schools at odds with certification standards of the Southern Association of Colleges and Schools. (It's likely both principals will be getting raises.) Seven percent of all state coaches are either ineligible to teach or hold conditional or probationary teaching certificates. Many parent-run booster clubs provide cash bonuses to coaches. The more successful coaches are rewarded with vacation trips and the keys to leased vehicles. These football booster clubs routinely operate as non-profits outside the jurisdictions of the schools, and at least one dub was found to have run a foul of IRS guidelines. The investigative package brought a huge readership response, both from the daily publication and the newspaper's Internet site. Some 300 e-mail messages, phone calls and letters showed up in the newsroom. And the newspaper's Internet site / which put up a searchable database of all the football coaches salaries and data - received an average of 1,300 hits an hour during the week of publication. Still today the database gets an average of 800 hits a day, with nearly 1 million searches conducted since the package was published last December. The package is accessible online at www.ajc.com/reportspagedirt Two coaches were foundto earn higher salaries than their school principals As a result of the AJC inquiry, the touchdown club at a suburban Atlanta high school which has an annual budget in excess of a quarter million dollars and which has raised $2.5 million for its new football complex retained an attorney and accountant to get the organization in compliance with state and federal tax laws. The Secretary of State previously dissolved the non-profit organization for failing to file annual reports and the AJC found the touchdown club hadn't filed tax returns with the IRS for at least three years. The package also alerted the IRS to the many taxable perks afforded some coaches from cash bonuses to vehicles to vacation trips. Stumbling blocks Gathering salary and teaching assignment information from all 312 public high schools proved to be a daily battle. Initially, some districts refused to comply or said it would cost hundreds of dollars for them to produce the information. We gathered information right up to the last hour. A lot of data were returned incomplete- either they didn't list coaches' names, omitted their teaching responsibilities or failed to differentiate football earnings from base teaching salaries. We constantly faxed and mailed requests to the districts. Finally, we shipped our data to the individual school districts and had them sign off on the accuracy of what we planned to publish regarding their coaches. The booster or touchdown clubs posed a different problem because they are set up outside the school as private non-profits. We got a grasp on budgets and annual income from reviewing IRS Form 990 tax records. But in almost all cases, it came down to piecing together information from a variety of current and past club officers, coaches and athletic directors. In the end, trying to get reactions from educators and public officials proved a surprisingly daunting chore. Outgoing Gov. Zell Miller, who championed education and promoted the state lottery to fund the state Hope Scholarship Program, said it was too hot a subject to take on in his last days. Lt. Gov. Pierre Howard didn't respond to interview requests. And Linda Schrenko, head of the state Education Department, turned down repeated interview requests on the subject, including a personal visit to her office two days before the articles were published. Tips for new players Next time, we'd allow more lead-time to gather and obtain the relevant documents and records requests. It requires a great deal of diligent follow-up to get a 100 percent response when requesting information from 312 schools. It's also important to clearly define early on what you're seeking in the open records request. We'd probably have been better served to start with a small school sample to get a better idea of what kind of information we could expect to get back. Then we could perfect our request for data relatively easily. Mike Fish can be reached by e-mail at mfish@ajc.com",
       "summary": "Examines the significant role of high school football in Georgia communities, highlighted by financial investments and social status, with data collection revealing the economic impact of football programs.",
       "keywords": [
         "football",
         "schools",
         "Georgia"
+      ],
+      "affiliation": "The Atlanta Journal-Constitution",
+      "topics": [
+        "Business & Economy",
+        "Education",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "Access"
       ]
     },
     {
       "headline": "'Out to the ball game'",
       "author_name": "Kit Wagar",
-      "author_title": "",
+      "author_title": "database reporter",
       "full_text": "Missouri lawmakers are an avaricious lot. Many states prohibit or severely limit gifts from lobbyists on the premise that no one gives you something for nothing. But Missouri is one of 19 states that put no restrictions on lobbyists' gifts. As a result, a spending spree surrounds every legislative session, feeding a culture that sees no conflict in conducting the public's business while on a corporate tab. The one nod the law makes to public interest is a requirement that lobbyists report their spending on individual lawmakers to the state Ethics Commission. Though filled with loopholes, the monthly reports offer a glimpse at the gifts used to appease lawmakers: Cases of wine and beer. Tickets to see pop singer Alanis Morissette and tenor Luciano Pavarotti. Season passes to the St. Louis Cardinals. One lawmaker took $780 in tickets to the St. Louis Blues. Build a database To get a handle on the extent of the spending, the Star built a database of all 3,438 gifts given to lawmakers during this year's 4 1/2-month session. The conclusion: A lobbying technique that began as a bit of clubby salesmanship has evolved into a legislature on the dole. The Starput the master database on its Web site so readers could call up the gifts each lawmaker received. The analysis determined that lobbyists gave individual lawmakers gifts worth $139,219. That includes only one-on-one gifts and does not include the money spent on the constant stream of receptions, parties and meals for groups of legislators. The top recipient personally received gifts worth $5,843, or nearly $1,300 a month. Only once during the entire session did he go a week without taking something. The analysis also showed that: House Democrats took 63 percent of the gifts; 30 percent of the gifts involved tickets, lodging or transportation; One in four lawmakers took more than $1,000 in gifts; Three lawmakers received more than $1,000 in freebies from a single lobbyist. The analysis was done using Excel 5.0 and FoxPro 2.6. The first problem was the volume of the gifts, which are listed only on handwritten reports. The newspaper hired two people to enter the early data, but interns and reporters had to finish it. Start with Excel The resulting spreadsheet listed the lawmaker, his or her title and party, the lobbyist, the date of the transaction and a description of the gift and its value. The biggest weakness in the data was the way lobbyists described their gifts. While some lobbyists listed \"beverages,\" other lobbyists listed the same gift as \"food and/or beverages.\" Others combined freebies, describing them as \"tickets/parking/meal.\" Move to FoxPro I used Excel's Filter command - the Extract command in earlier versions to divide the gifts into different categories, and pasted them into other spreadsheets in the same workbook. I eventually combined them into five general categories: food & drink; tickets; lodging, transportation and entertainment; gifts; and all other. I then went through each category to eliminate redundancies. Gifts described as two things were picked up twice, others three times. To eliminate those, I sorted the spreadsheets by lawmaker, date and amount so the same records would be in adjacent rows. I then used a logical function to find rows that exactly matched the row next to it. After eliminating the redundant records, I saved each of those spreadsheets and the master list in Excel 4.0. Then I imported them into FoxPro databases. That allowed me to total all the gifts by lawmaker, lobbyist, party, chamber or date. The biggest expenditures were on the first day of the session; many of the other big days came in the last three weeks of the session. One thorny problem was revisions in the records. State law allows lawmakers to have the record of the gift expunged if they dispute the expenditure or repay the lobbyist. The paper began building the database in March. By May, a few dozen gifts were no longer listed in the records. We decided to base the articles on the final versions. One representative, for example, had taken his family on a lobbyist-paid, four-day vacation to Branson, Mo., in March. After he was interviewed about the trip in June, he repaid the lobbyist, so the trip was not listed on the final reports. The entire project took a little more than three weeks - a week of data entry, three days to crunch the numbers and about eight days to report and write. The Star put the master database on its Web site so readers could call up the gifts each lawmaker received. Three lawmakers received more than $1,000 in freebies from a single lobbyist. All the lobbyists and the recipients of large amounts insisted that the gifts had no effect on legislation. Then why, the biggest recipient was asked, do lobbyists spend all that money? \"What kind of stupid question is that?\" he replied. \"I'm not going to answer that. How would I know?\" Kit Wagar can be reached by e-mail at kwagar@kcstar.com",
       "summary": "Investigates lobbyist gifts to Missouri legislators, highlighting the state's lack of restrictions on such gifts and the resulting influence on lawmakers.",
       "keywords": [
         "lobbyists",
         "gifts",
         "Missouri"
+      ],
+      "affiliation": "Kansas City Star",
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "FoxPro"
       ]
     },
     {
       "headline": "PAC Power",
       "author_name": "Jeff Porter",
-      "author_title": "",
+      "author_title": "Staff Writer",
       "full_text": "Most political action committees are lit- erally - big business. In our case, the best way to make use of PAC data is \"joining\" - that is, using a computer to match up material in separate data files. Staff Writer Noel Oman alerted us that for the first time, the Arkansas secretary of state's office could provide electronic data for PAC contributions. The General Assembly was in session - perfect timing for a story. The result was a fairly quick-hit story, written by Oman and accompanied by graphics, for Arkansas Democrat-Gazette readers with more details than ever reported about PAC contributions to Arkansas lawmakers. Free data But we needed more information. We obtained data kept by legislative staff, including information on lawmakers and their committee assignments. To their credit, both arms of state government - the secretary of state's office with PAC data and the Arkansas Bureau of Legislative Research with lawmaker information - had no problem handing over the data tables on diskettes. Cost: nothing. Getting the files was just the beginning. We had to put things together, wanting to accomplish several things. First, we wanted to identify the biggest PAC contributors, so we asked Visual FoxPro to show a total of contributions from each PAC. Instantly, we saw the biggest players. We also examined the top recipients. Thanks to Oman's experience and an electronic file from the secretary of state's office, we could identify PACs related to one another, representing the same companies or business interests. Now the fun began: trying to match up lawmakers who got PAC money and their committee assignments. This year's legislative session had issues including electric utility deregulation, telemarketing restrictions and highway spending and tax plans. So we wanted to look at both contributors and recipients on key committees. Matching PACS to committees Here's a list of things we did: First, in both PAC data and legislative membership data, we broke the files in two, creating separate files for each legislative chamber. Why? Because we planned later to match PAC contributions with committee membership tables, using two factors to make the match: the lawmaker's last name and the district number the lawmaker represents. In just a few cases, Senate and House members might have the same district number and the same last name. Say, Rep. Brown and Sen. Brown with identical district numbers, even though they serve in different chambers. We obtained data kept by legislative staff, including information on lawmakers and their committee assignments .both arms of state government ... had no problem handing over the data tables on diskettes. That gave us a list showing how much PAC money legislative committee members received. With those files, we could easily pull up, examine and analyze contributions from various PACs to specific committee members. One caveat for this file that we had to observe: the contributions were repeated, because lawmakers had more than one committee assignment. But since for this file we wanted to break contributions down by committee, it's exactly what we needed. We used the previous files for looking at lawmaker PAC contributions overall. The results We found the usual \"suspects\" and no hidden skeletons. However, Oman's reporting, accompanied by graphics, did inform and educate readers. Here's a clip: Bob Balhorn sat in the audience last Wednesday when the House Insurance and Commerce Committee took up a bill to enable Arkansans to ban telemarketing calls to their homes. His was not just another face in the crowd. Balhorn, 63, of Little Rock is executive vice president of the Arkansas Realtors Association, the state affiliate of the National Association of Realtors. It is a post he has held since 1985, a tenure that covers eight regular sessions of the Arkansas General Assembly. Before that, the native Texan held a similar post in South Dakota, where he also sold real estate. His association, 6,000 members strong, does not immediately come to mind when the most powerful special interests at the state Capitol are assessed. But in the 1998 elections, no other single trade organization or corporation gave more to candidates for state office in Arkansas, according to an Arkansas Democrat-Gazette review of political action committee reports at the Secretary of State's office. The two committees registered to the association gave $78,800 to candidates for state offices in 1998. Of the total, $72,800 went to legislative candidates, the given to legislative office-seekers by any state-registered political action committee. The association's generosity in 1998 was no anomaly. In the 1996 election, the Realtors' association gave $63,350 to sitting lawmakers, second only to the nursing home industry, which reported giving $84,450. The nursing home industry's state umbrella organization, the Arkansas Health Care Association, reported giving $57,000 in 1998. And for a plus, we placed the PAC contribution file on our intranet, The Source, so all our editors and reporters could easily look up contributions for state candidates from the 1998 campaign season. Jeff Porter can be reached by e-mail at jporter@ardemgaz.com",
       "summary": "Looks into how high school football programs are financially maintained in Georgia, involving taxpayer money, booster clubs, and coaching salaries.",
       "keywords": [
         "finances",
         "taxpayer",
         "football"
+      ],
+      "affiliation": "Arkansas Democrat-Gazette",
+      "topics": [
+        "Government & Politics",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Visual FoxPro",
+        "diskettes"
       ]
     },
     {
@@ -60,6 +99,16 @@
         "SPSS",
         "SAS",
         "statistics"
+      ],
+      "affiliation": "NICAR",
+      "topics": [
+        "Technology",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "SAS",
+        "SPSS"
       ]
     },
     {
@@ -72,6 +121,14 @@
         "regression",
         "outliers",
         "analysis"
+      ],
+      "affiliation": "",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Excel"
       ]
     },
     {
@@ -84,7 +141,14 @@
         "absenteeism",
         "investigation",
         "data"
-      ]
+      ],
+      "affiliation": "",
+      "topics": [
+        "Investigative Methods",
+        "Education",
+        "Data & Databases"
+      ],
+      "technologies": []
     },
     {
       "headline": "Healthcare by color",
@@ -96,6 +160,15 @@
         "mortality",
         "disparities",
         "healthcare"
+      ],
+      "affiliation": "The Plain Dealer",
+      "topics": [
+        "Health & Environment",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "CDC Wonder system"
       ]
     }
   ]

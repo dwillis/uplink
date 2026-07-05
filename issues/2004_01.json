@@ -12,7 +12,16 @@
         "Databases"
       ],
       "author_name": "Jaimi Dowdell",
-      "author_title": "IRE and NICAR"
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Technology",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "GIS",
+        "World Wide Web"
+      ]
     },
     {
       "headline": "Data shows woes for middle-class blacks",
@@ -24,7 +33,15 @@
         "Reporting"
       ],
       "author_name": "David Mendell and Darnell Little",
-      "author_title": "Chicago Tribune"
+      "author_title": "demographics reporter",
+      "affiliation": "Chicago Tribune",
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "spreadsheet"
+      ]
     },
     {
       "headline": "White-collar convicts get lighter sentences",
@@ -36,7 +53,13 @@
         "Courts"
       ],
       "author_name": "John Archibald",
-      "author_title": "The Birmingham News"
+      "author_title": "",
+      "affiliation": "The Birmingham News",
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods"
+      ],
+      "technologies": []
     },
     {
       "headline": "Bits & Bytes",
@@ -48,7 +71,17 @@
         "Mortgages"
       ],
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web"
+      ]
     },
     {
       "headline": "Getting ready for the big show",
@@ -60,7 +93,17 @@
         "Training"
       ],
       "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "author_title": "NICAR and Missouri School of Journalism",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "database managers"
+      ]
     },
     {
       "headline": "Hands-on CAR training",
@@ -72,7 +115,17 @@
         "CAR"
       ],
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "database manager"
+      ]
     },
     {
       "headline": "Delving into ancestry with SF4 data",
@@ -84,7 +137,16 @@
         "Demographics"
       ],
       "author_name": "Paul Overberg",
-      "author_title": "USA Today"
+      "author_title": "",
+      "affiliation": "USA Today",
+      "topics": [
+        "Demographics & Census",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "American FactFinder"
+      ]
     },
     {
       "headline": "Recent Uplink Census stories",
@@ -96,7 +158,16 @@
         "Reporting"
       ],
       "author_name": "Megan Clarke",
-      "author_title": "IRE and NICAR Database Library"
+      "author_title": "Database Library staff",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Demographics & Census",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "GIS"
+      ]
     },
     {
       "headline": "Showing deadly crashes",
@@ -108,7 +179,18 @@
         "Trucking"
       ],
       "author_name": "Garry Lenton",
-      "author_title": "The (Harrisburg, Pa.) Patriot-News"
+      "author_title": "Reporter",
+      "affiliation": "Patriot-News",
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Technology"
+      ],
+      "technologies": [
+        "FARS database",
+        "Access",
+        "ArcView 3.2"
+      ]
     },
     {
       "headline": "Measuring migration with PUMS data",
@@ -120,7 +202,20 @@
         "Census"
       ],
       "author_name": "Ron Shawgo",
-      "author_title": "The (Fort Wayne) Journal Gazette"
+      "author_title": "Census coordinator",
+      "affiliation": "The (Fort Wayne) Journal Gazette",
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Demographics & Census"
+      ],
+      "technologies": [
+        "SPSS",
+        "SAS",
+        "Stata",
+        "Internet",
+        "World Wide Web"
+      ]
     }
   ]
 }

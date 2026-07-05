@@ -12,7 +12,18 @@
         "Washington D.C."
       ],
       "author_name": "Jo Craven",
-      "author_title": "The Washington Post"
+      "author_title": "",
+      "affiliation": "The Washington Post",
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FBI's Supplementary Homicide Report",
+        "Uniform Crime Reports",
+        "nine-track tape"
+      ]
     },
     {
       "headline": "THE PRICE OF CONCENTRATED COMPETITION - Investor burden",
@@ -24,7 +35,19 @@
         "market competition"
       ],
       "author_name": "Christopher H. Schmitt",
-      "author_title": "Investigative Group International"
+      "author_title": "Investigative Reporter",
+      "affiliation": "Investigative Group International",
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Quattro Pro",
+        "Paradox",
+        "SPSS",
+        "CD-ROM"
+      ]
     },
     {
       "headline": "IGNORED RESTRICTIONS - Flirting with disaster",
@@ -36,7 +59,19 @@
         "campaign finance"
       ],
       "author_name": "T. Christian Miller",
-      "author_title": "Los Angeles Times"
+      "author_title": "Reporter",
+      "affiliation": "Los Angeles Times",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "Maptitude",
+        "Excel",
+        "SPSS",
+        "mainframe"
+      ]
     },
     {
       "headline": "HANDOUT OF THE MONTH - Write the flipping story!",
@@ -48,7 +83,14 @@
         "mortgage fraud"
       ],
       "author_name": "Dan Browning",
-      "author_title": "Star Tribune"
+      "author_title": "Reporter",
+      "affiliation": "Star Tribune",
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": []
     },
     {
       "headline": "LOCAL ECONOMIC PORTRAIT - \"Booming\" claim busted",
@@ -60,7 +102,17 @@
         "economic data"
       ],
       "author_name": "Paige St. John",
-      "author_title": "Tallahassee Democrat"
+      "author_title": "Reporter",
+      "affiliation": "Tallahassee Democrat",
+      "topics": [
+        "Business & Economy",
+        "Data & Databases",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Excel",
+        "spreadsheet"
+      ]
     },
     {
       "headline": "SAFETY THROUGH GIS",
@@ -72,7 +124,16 @@
         "public safety"
       ],
       "author_name": "Jennifer LaFleur and John Woolfolk",
-      "author_title": "San Jose Mercury News"
+      "author_title": "",
+      "affiliation": "San Jose Mercury News",
+      "topics": [
+        "Public Safety",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "GIS"
+      ]
     }
   ]
 }

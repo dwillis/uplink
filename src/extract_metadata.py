@@ -107,6 +107,16 @@ def needs_metadata(article):
     return not article.get("topics") or "technologies" not in article or not article.get("affiliation")
 
 
+UNKNOWN_PLACEHOLDERS = {"unknown", "<unknown>", "n/a", "none", "null", "unavailable"}
+
+
+def clean_field(value):
+    """Treat literal placeholder text (some models emit '<UNKNOWN>' instead
+    of an empty string) the same as genuinely empty."""
+    value = (value or "").strip()
+    return "" if value.lower() in UNKNOWN_PLACEHOLDERS else value
+
+
 def normalize_technology(tech):
     canonical = TECHNOLOGY_ALIASES.get(tech.strip().lower())
     return canonical or tech.strip()
@@ -121,6 +131,9 @@ def enrich_article(model, schema, system_prompt, article):
     )
     response = model.prompt(prompt, system=system_prompt, schema=schema)
     result = json.loads(response.text())
+    result["author_name"] = clean_field(result.get("author_name"))
+    result["author_title"] = clean_field(result.get("author_title"))
+    result["affiliation"] = clean_field(result.get("affiliation"))
     seen = set()
     technologies = []
     for tech in result.get("technologies", []):

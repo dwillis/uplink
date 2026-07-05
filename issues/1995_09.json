@@ -12,42 +12,87 @@
         "justice",
         "database",
         "corruption"
+      ],
+      "affiliation": "",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "Windows 95"
       ]
     },
     {
       "headline": "Data tracks secretive justice system Courting the poor",
       "author_name": "Michael J. Berens",
-      "author_title": "The Columbus Dispatch",
+      "author_title": "",
       "full_text": "There is journalistic justice in using a court database to ferret out the illegal jailing of thousands of poor people, secret cash deals to avoid convictions by drunken drivers, fabricated caseloads, and dozens of other deceptions. Our series, \"Cash-Register Justice.\" last year exposed a secretive justice system where money weighs heavier than guilt. The Columbus Dispatch had its own trial by fire - beginning with a three-year fight to buy municipal court data. Originally, the court wanted $15,000 for a year of data containing one million-plus records and filling a dozen nine-track tapes. Stunned by the initial estimate, we asked for a breakdown of costs. It included $80 an hour pay for some city employees - supposedly to write custom software and so on. These same employees made less than $15 hour in city wages. We argued that the city cannot charge a rate higher than normal pay. We threatened legal action. The price was reduced to $500. Using xBase by Microsoft and our newest toy - a Macintosh Power PC (64 meg RAM) with a gig drive - we crafted relational sorts, such as how many homeless people served jail time before being found guilty of crimes that are not legally punishable by jail. We paid a heavy price in time, too, as we struggled with misplaced and variable length fields, inaccurate entries and case information spread among 12 related databases. Hard lesson: Court data was typed by clerks who adopted personalized codes. The 30 -character charge disposition field became a stream-of-consciousness exercise for some clerks. A defendant sentenced to three years in jail with 30 days jail time credit, a year of probation and $500 fine plus court costs might look like: XRPNC-BOFTS,500 -CC or 1YRPROBPYR/30C/500+C. There was no consistency. Sweet success: Those pesky codes broke the biggest stories. Clerks entered \"NO PW\" for no prosecuting witness - a euphemism for cops who failed to appear in court. Another field code showed when drunken drivers - some testing more than double the legal limit with three prior convictions paid $1,000 to the city to avoid convictions. No kidding. The court never thought outsiders would look at this data- or understand it, if they did. Hard lesson: To em is human - and court clerks are very human. Thousands of cases were not updated accurately on the computer. We pulled paper files to verify results. This was cumbersome but deflected criticism of our findings. The court inflated caseload totals, such as doubling the number of drunken driving cases from 6,000 to 12,000 defendants. The inaccurate numbers hid a bigger secret: caseloads had decreased each of the last three years. One trick used by the court: If a defendant was charged with 32 counts of burglary, the court counted them as 32 cases. Counting is not the only thing courts do badly. Conviction rates are suspect, too. Prosecutors claimed a 70 percent conviction rate involving domestic violence cases. That figure fell to 7 percent when we crunched the data. Prosecutors claimed many victims dropped charges. While true, the data showed that some judges dismissed cases if the victim did not show up at the first hearing - sometimes held 10 hours after the victim was severely beaten. The series ran Sept. 25-28, 1994. Here are some angles that can make for good court projects: Time served: Defendants too poor to make bond often serve jail sentences before being found guilty, then are released at the hearing because they' already served the sentence-sometimes longer than the maximum allowed by law. How many homeless people are jailed and why? We found that homeless people were repeatedly jailed for failing to pay jaywalking tickets - an offense not punishable by jail. In many courts, failure to pay a ticket is treated more harshly than the crime. Are mandatory fines collected? In Ohio, 100 percent of the fines from seat belt violations (among other charges) helped support state programs. Rebellious judges who saw no profit to the local system, routinely dismissed those charges That meant less money to educate children about safety and less training for emergency crews. One lifesaving practice is to provide you statistical analysis to the subjects of the stories before publication. There is nothing more satisfying than watching the stunned faces of prosecutors as you hand them your spreadsheets. From alternative sentencing to campaign financing, we adopted journalism's most basic axiom: Follow the money. In court projects, also follow those who don't have money.",
       "summary": "The Columbus Dispatch's investigation into municipal court data exposed widespread injustices including illegal jailing of poor people and secret cash deals for drunk drivers, requiring a three-year battle to obtain court records and sophisticated data analysis to decode inconsistent clerk entries that revealed systematic deceptions.",
       "keywords": [
         "justice",
         "data",
         "corruption"
+      ],
+      "affiliation": "The Columbus Dispatch",
+      "topics": [
+        "Crime & Justice",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "xBase",
+        "Macintosh Power PC",
+        "9-track tape"
       ]
     },
     {
       "headline": "injuries Merry-go-round",
       "author_name": "Rick Linsk",
-      "author_title": "Asbury Park Press",
+      "author_title": "",
       "full_text": "Every year, millions of people ride and walk away happy from the Jersey Shore's boardwalk amusement rides and traveling carnivals. But hundreds limp away - or are carried away - with injuries. The Asbury Park (N.J.) Press reported its share of piecemeal injury stories. This summer, for the first time, we used computers to take a hard look at the injuries and at state oversight of the ride industry. Hoping to produce a story for the start of summer, I asked the state Department of Labor in April for its database of amusement park injuries. The department first said records were not computerized. A month later, after officials sent us computer printouts, we pressed the issue. They admitted the records were indeed in a database, but said they could not make a copy. After another month of requests and delays, they finally delivered a set of disks. There was a snag: the disks were 8.5 inches square, from a now-ancient IBM System 36 computer. For $123, a data-conversion service recommended by NICAR copied the data to 3.5-inch diskettes for us in fixed ASCII format. The data files included a master table of all licensed rides, a table of all companies licensed to operate rides, and a table of their insurance companies. The mother lode was the table on accidents, containing 784 injuries from 1992 through the first week of June 1995. Details included injury dates, ride names, ride type, riders' names and age ranges, and what caused the injury. The database was limited, though. For one thing, it did not specifically describe riders' injuries. There were fields identifying which part of the body was injured (head, neck, trunk, upper, lower, and multi). But that made a muscle strain indistinguishable from a broken neck. It did not explain how the accident happened, or tell what if any regulatory action was taken against the ride owner. There was also a statistical limitation. Because parks do not report ridership figures to any agency, and many guard the figures jealously, it was impossible to calculate how many people were injured for every 1,000 who went on a ride. That left us unable to definitively compare big and small amusement parks or carnivals. The data needed to be augmented and cleaned up a great deal. With a notebook PC, I spent 10 hours during two days in state offices reviewing paper records on each accident and typing in the actinjuries, what happened, and whether state inspectors took any action. Back in the newsroom, I added new fields and standardized the wildly varying ride names (such as Go Karts, Go-Karts, Go Carts, Go-Carts) in order to get meaningful queries. Icould not anticipate all the names that a park might give go carts or certain other rides, though, so our injury totals for them were probably low. I analyzed the data in FoxPro for Windows. Ifleshed out the data by interviewing injured riders, ride owners, lawyers for riders and for parks, engineering professors, state regulators, and insurance underwriters. That included an incident where one hospital worker dubbed the popular Action Park as \"Traction Park.\" To find accidents that had not been reported to the state, I checked court records. I used corporate and court records to background a water slide designer whose creations are in theme parks all over the United States, and who has been sued repeatedly. The fight with state officials and the work needed to clean the database meant the story was not finished until the end of summer. Among the conclusions: State officials for years have minimized injuries as minor bumps and bruises. Their database classified 774 of 784 injuries over three years \"not serious.\" But a closer look at accident records showed the \"not serious\" injuries included broken bones, concussions, and serious cuts. There may have been more than the 1,000 accidents reported since 1991, since some ride owners, especially traveling carnivals, don't report everything to the state. Asked about accidents, ride owners routinely whine about rider horseplay. But state investigators attributed only 6 percent of injuries to riders' misbehavior. An understaffed, underfunded team of state inspectors cut from 17 to nine over five years shrugged or struck out again and again trying to figure out why certain accidents happened. They rarely fined parks, and when they did, the fines were minimal.",
       "summary": "An Asbury Park Press investigation used computerized data analysis of New Jersey's amusement ride injury database to examine safety trends and regulatory oversight, revealing hundreds of injuries annually despite initial government resistance to releasing the records.",
       "keywords": [
         "injuries",
         "database",
         "amusement"
+      ],
+      "affiliation": "Asbury Park Press",
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "FoxPro",
+        "9-track tape",
+        "notebook PC"
       ]
     },
     {
       "headline": "Cracking Windows 95",
       "author_name": "Dan Keating",
-      "author_title": "The Miami Herald",
+      "author_title": "",
       "full_text": "Windows 95 is a huge step up from Windows 3.1. Unfortunately, that's not much of a compliment. Windows 3.1 is so unstable, so clumsy and so limited that it's no surprise the world is awaiting its successor. My advice? Wait! Unless you already have a high-horsepower machine, you have absolutely no reason to rush. Let's look piece-by-piece at what Windows 95 offers: Interface and cosmetic changes: An \"A.\" It's worlds better than old Windows. It's fast and easy to get a database manager, word processor or spreadsheet open, and you can quickly flip between them with the new task bar along the bottom. The \"Explorer\" utility for scanning directories, however, seems crippled by the troubled legacy of the old File Manager. The new look should be an easy switch for experienced Windows 3.1 users. Taking advantage of the new advanced features, however, is going to require training. The desktop is simple and uncluttered, but offers a more powerful configuration than the old Windows Program Manager. If there is a program you want to use all the time, you can drag the icon right to the desktop. There is also a shortcut wizard for just about everything. They work smoothly and easily. Another \"A.\" Another cosmetic change is long file names. They are nice, but Microsoft is only catching up to what Macintosh and OS/2 have had for years. Stability: The bane of old Windows is the GPF (General Protection Fault) error message, which trashes everything you have not saved and triggers the three-finger reboot salute. The next worse nightmare is the Out of Memory allegation, even when you know there is plenty left, but Windows does not know where to look to find it. Windows 95 is a big improvement. It uses a better memory management system to keep programs from tripping over each other and crashing the system. But, and it's a big but, the big improvement in stability only kicks in with new 32-bit software programs, which are just now being written. If you use Windows 95 to run your old 16-bit software, you will still be susceptible to the rogue GPF demon. While it's better than Windows 3.1, Windows 95 still did not adopt the level of crash protection in the Windows NT or OS/2. Both run sessions in the entirely separate \"virtual machines,\" so if one goes down, the others are protected. Windows 95 can still collapse altogether because of one errant program. Windows 95 can break a program into multiple \"threads\" that can be handled separately. So while a thread handles printing or dialing the phone, you can keep working on something else. Fast promises await. But, as with stability, these improvements will only emerge in full strength when new software is written to take advantage of multiple threads. Running old 16-bit software just drags the system down to the old level. To explain, a 32-bit pathway is simply twice as big as a 16-bit pathway used by Windows 3.1. If the processor can handle twice as much information at once, the system gets a spectacular improvement in performance. So Windows 95 should be twice as fast as old Windows. And someday it probably will be. But not right away. The reason is that all the software programs have to be rewritten in 32-bit form. When 16-bit software runs through the 32-bit Windows 95, the extra space is just wasted. In fact, it often slows things down. Rewriting won't be as easy as you might guess. Software can do with one big 32-bit word than it otherwise might have done with a few little 16-bit words. It's similar to spoken language: A witty speaker can elegantly use one big word to replace lots of little words. But a lot of people only sound silly when they try to show off with big words. Past history has shown that the first version of 32-bit software can be very clunky. The first 32-bit programs will be appearing this fall. The next generation may emerge by spring of summer of 1996. Plug and play: The new system can automatically recognize hardware such as sound cards, CD-ROM players, printers, scanners and modems. That means a lot less hassle setting them up. Great thing. Don't be surprised if it does not work with old hardware, but I had good success on the test machines I used. Internet and online: Windows 95 comes with a connection to Microsoft Network built right in. Patterned after commercial services like prodigy and America Online, it will offer a basket full of attractions. It's a for-pay service. System requirements: The downside of all the wonderful things Windows 95 offers is that you need more machine to make them happen. Windows 95 will run with four megabytes, but you won't like it. There's no point having a Ferrari that only runs in first gear. You will need eight megabytes to be happy and 12 to 16 to really see what Windows 95 can do. Adding eight meg of RAM will cost you about $370. You will also need more disk space to hold the bigger operating system and the fatter 32-bit programs that you will want to run on it. A 540-megabyte hard drive is enough to skimp by. Think about a gigabyte or more if you like to run lots of different software. You can run Windows 95 with any 386 processor or better. Once again, however, the real advantages do not emerge until you are pumped into the stronger 486 and Pentium machines. If you are thinking about upgrading and you need to kick up the RAM, storage and processor, you are almost definitely better off thinking about a new machine. Also, a CD-ROM (at least double-speed) and sound card with speakers allow you to take advantage of improved multimedia features. Microsoft should have a Windows 95 upgrade with bug fixes by winter. By then, there will be more 32-bit software available, anyway, so you will not have lost much by holding off.",
       "summary": "A detailed review of Windows 95 that praises its interface improvements and stability enhancements over Windows 3.1, while cautioning that full benefits require new 32-bit software and recommending users without powerful machines wait before upgrading.",
       "keywords": [
         "Windows",
         "stability",
         "software"
+      ],
+      "affiliation": "The Miami Herald",
+      "topics": [
+        "Technology"
+      ],
+      "technologies": [
+        "Windows 95",
+        "Windows 3.1",
+        "Windows NT",
+        "OS/2",
+        "Macintosh",
+        "CD-ROM"
       ]
     },
     {
@@ -60,6 +105,14 @@
         "website",
         "journalists",
         "resources"
+      ],
+      "affiliation": "NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology"
+      ],
+      "technologies": [
+        "World Wide Web"
       ]
     },
     {
@@ -72,7 +125,14 @@
         "databases",
         "journalism",
         "federal"
-      ]
+      ],
+      "affiliation": "NICAR",
+      "topics": [
+        "Data & Databases",
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": []
     },
     {
       "headline": "NICAR expands minority programs",
@@ -84,19 +144,36 @@
         "training",
         "journalists",
         "seminars"
+      ],
+      "affiliation": "NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "database managers",
+        "World Wide Web"
       ]
     },
     {
       "headline": "New public reord law passes Indiana goes electric",
       "author_name": "Carol Napolitano",
-      "author_title": "The (Munster, Ind.) Times",
+      "author_title": "",
       "full_text": "The second time is a charm. After trying last year and failing, the Hoosier State Press Association (HSPA) and supporters succeeded this year in getting the Indiana General Assembly to approve a new public records law that specifically addresses electronic records. The new law, signed by Gov. Evan Bayh, takes effect Jan. 1. Current law hardly mentions electronic records, except to say agencies are not required to provide them. The new law redefines the term \"public record\" to include all forms of electronic information. It requires public agencies to \"make reasonable efforts\" to provide public records in an electronic format, if the medium requested is compatible with the data storage system. The new law also makes it illegal to store public records in such a manner that it requires the public to pay license fees or copyright royalties that \"unreasonably impairs the right of the public to inspect and copy the records.\" Journalists hope this clause will prevent public agencies from storing records in proprietary systems where steep license fees and other charges are made for access to the information. The law also permits state or local governments to enact laws that would deny electronic records to those wishing to use them for commercial reasons. News organizations, nonprofits and academics are not considered commercial entities under the law. Agencies cannot charge more than direct cost for the electronic records. The law defines direct cost as 105 percent of the cost of \"initial development of a (computer) program, if any, the labor required to retrieve electronically stored data and any medium used for the electronic output.\" Compromises necessary to get the bill through the legislature meant some of the language was softened and certain clauses were added that were not part of the original HSPA proposal. As a result, Indiana courts may be called upon to interpret some of the language or rule on the legality of portions of the statute.",
       "summary": "Indiana passed a new public records law that expands access to electronic records held by government agencies, requiring them to provide records in electronic format when feasible and prohibiting storage methods that impose unreasonable fees or license requirements. The law, which takes effect January 1, represents a second legislative attempt by the Hoosier State Press Association and marks a victory for journalists seeking better access to government information.",
       "keywords": [
         "records",
         "transparency",
         "legislation"
-      ]
+      ],
+      "affiliation": "The (Munster, Ind.) Times",
+      "topics": [
+        "Government & Politics",
+        "Journalism & Newsroom",
+        "Data & Databases"
+      ],
+      "technologies": []
     },
     {
       "headline": "Fun fed sites",
@@ -108,6 +185,19 @@
         "government",
         "internet",
         "journalists"
+      ],
+      "affiliation": "NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "Internet",
+        "World Wide Web",
+        "FTP",
+        "gopher",
+        "spreadsheet"
       ]
     },
     {
@@ -120,6 +210,15 @@
         "bridges",
         "infrastructure",
         "Iowa"
+      ],
+      "affiliation": "St. Louis Post-Dispatch",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Public Safety"
+      ],
+      "technologies": [
+        "National Bridge Inventory data"
       ]
     }
   ]

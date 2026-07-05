@@ -12,7 +12,16 @@
         "databases"
       ],
       "author_name": "Trebor Banstetter",
-      "author_title": "Fort Worth Star-Telegram"
+      "author_title": "airline and travel reporter",
+      "affiliation": "Fort Worth Star-Telegram",
+      "topics": [
+        "Business & Economy",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "U.S. Department of Transportation databases"
+      ]
     },
     {
       "headline": "Databases show vets get uneven treatment",
@@ -24,7 +33,16 @@
         "disability"
       ],
       "author_name": "Chris Adams",
-      "author_title": "McClatchy Washington Bureau"
+      "author_title": "",
+      "affiliation": "McClatchy Washington Bureau",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Government & Politics"
+      ],
+      "technologies": [
+        "databases"
+      ]
     },
     {
       "headline": "Tired truckers endanger Tenn. drivers",
@@ -36,7 +54,17 @@
         "road safety"
       ],
       "author_name": "Nancy Amons",
-      "author_title": "WSMV-Nashville"
+      "author_title": "I-Team Investigator",
+      "affiliation": "WSMV-Nashville",
+      "topics": [
+        "Investigative Methods",
+        "Public Safety",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Access",
+        "CD-ROM"
+      ]
     },
     {
       "headline": "Bits & Bytes",
@@ -48,7 +76,19 @@
         "NICAR"
       ],
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "spreadsheets",
+        "database managers",
+        "mapping",
+        "statistics"
+      ]
     },
     {
       "headline": "Time for Meyer awards",
@@ -60,7 +100,13 @@
         "awards"
       ],
       "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "author_title": "",
+      "affiliation": "NICAR and Missouri School of Journalism",
+      "topics": [
+        "Investigative Methods",
+        "Journalism & Newsroom"
+      ],
+      "technologies": []
     },
     {
       "headline": "Staying afloat with boating data",
@@ -72,7 +118,20 @@
         "data analysis"
       ],
       "author_name": "John Ferro",
-      "author_title": "Poughkeepsie (N.Y.) Journal"
+      "author_title": "City Editor",
+      "affiliation": "Poughkeepsie Journal",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Technology"
+      ],
+      "technologies": [
+        "Access",
+        "Excel",
+        "Nexis",
+        "FTP",
+        "IRE and NICAR Database Library"
+      ]
     },
     {
       "headline": "Tracking problems with U.S. sky spies",
@@ -84,7 +143,17 @@
         "federal contracts"
       ],
       "author_name": "Mike Fabey",
-      "author_title": "Aviation Week/Aerospace Daily"
+      "author_title": "Reporter",
+      "affiliation": "Aviation Week/Aerospace Daily",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Public Safety"
+      ],
+      "technologies": [
+        "Federal Contracts Database",
+        "Internet"
+      ]
     },
     {
       "headline": "Diagnosing troop mental-health ills",
@@ -96,7 +165,17 @@
         "data analysis"
       ],
       "author_name": "Matthew Kauffman",
-      "author_title": "The Hartford Courant"
+      "author_title": "reporter",
+      "affiliation": "The Hartford Courant",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases",
+        "Health & Environment"
+      ],
+      "technologies": [
+        "SQL",
+        "Defense Medical Surveillance System"
+      ]
     }
   ]
 }

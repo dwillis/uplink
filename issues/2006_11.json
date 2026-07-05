@@ -12,7 +12,16 @@
         "public records"
       ],
       "author_name": "Eugene Mulero",
-      "author_title": "The Arizona Republic"
+      "author_title": "",
+      "affiliation": "The Arizona Republic",
+      "topics": [
+        "Government & Politics",
+        "Investigative Methods",
+        "Business & Economy"
+      ],
+      "technologies": [
+        "Web site"
+      ]
     },
     {
       "headline": "Records reveal ties behind charity scam",
@@ -24,7 +33,14 @@
         "fundraising"
       ],
       "author_name": "Ronald Campbell",
-      "author_title": "The Orange County Register"
+      "author_title": "",
+      "affiliation": "The Orange County Register",
+      "topics": [
+        "Investigative Methods",
+        "Business & Economy",
+        "Data & Databases"
+      ],
+      "technologies": []
     },
     {
       "headline": "Hard lessons in first big data wave",
@@ -36,7 +52,14 @@
         "data analysis"
       ],
       "author_name": "Paul Overberg",
-      "author_title": "USA Today"
+      "author_title": "",
+      "affiliation": "USA Today",
+      "topics": [
+        "Data & Databases",
+        "Journalism & Newsroom",
+        "Demographics & Census"
+      ],
+      "technologies": []
     },
     {
       "headline": "Bits & Bytes",
@@ -48,7 +71,18 @@
         "journalism training"
       ],
       "author_name": "",
-      "author_title": ""
+      "author_title": "",
+      "affiliation": "IRE and NICAR",
+      "topics": [
+        "Journalism & Newsroom",
+        "Investigative Methods",
+        "Technology"
+      ],
+      "technologies": [
+        "Excel",
+        "Access",
+        "Mapping"
+      ]
     },
     {
       "headline": "On the FOIA front",
@@ -60,7 +94,14 @@
         "federal government"
       ],
       "author_name": "David Herzog",
-      "author_title": "NICAR and Missouri School of Journalism"
+      "author_title": "",
+      "affiliation": "NICAR and Missouri School of Journalism",
+      "topics": [
+        "Investigative Methods",
+        "Government & Politics",
+        "Journalism & Newsroom"
+      ],
+      "technologies": []
     },
     {
       "headline": "These sources speak when subjects won't",
@@ -72,7 +113,23 @@
         "investigative tools"
       ],
       "author_name": "Duff Wilson",
-      "author_title": "The New York Times"
+      "author_title": "",
+      "affiliation": "The New York Times",
+      "topics": [
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Google",
+        "LexisNexis",
+        "Nexis",
+        "Accurint",
+        "AutoTrackXP",
+        "VitalChek",
+        "PACER",
+        "Internet",
+        "World Wide Web"
+      ]
     },
     {
       "headline": "Capitol aide's two jobs leave money trail",
@@ -84,7 +141,16 @@
         "public records"
       ],
       "author_name": "Thomas Peele",
-      "author_title": "Contra Costa (Calif.) Times"
+      "author_title": "Reporter",
+      "affiliation": "Contra Costa Times",
+      "topics": [
+        "Government & Politics",
+        "Investigative Methods",
+        "Data & Databases"
+      ],
+      "technologies": [
+        "Excel"
+      ]
     },
     {
       "headline": "Prep for election mapping",
@@ -96,7 +162,19 @@
         "precincts"
       ],
       "author_name": "Jacob Jost",
-      "author_title": "WBIR-Knoxville, Tenn."
+      "author_title": "Journalist",
+      "affiliation": "WBIR-Knoxville, Tenn.",
+      "topics": [
+        "Government & Politics",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "ArcView",
+        "Access",
+        "XPDF",
+        "Excel"
+      ]
     },
     {
       "headline": "Tame unruly notes with a wiki",
@@ -108,7 +186,21 @@
         "investigative reporting"
       ],
       "author_name": "Matthew Waite",
-      "author_title": "St. Petersburg (Fla.) Times"
+      "author_title": "reporter",
+      "affiliation": "St. Petersburg Times",
+      "topics": [
+        "Journalism & Newsroom",
+        "Technology",
+        "Investigative Methods"
+      ],
+      "technologies": [
+        "Wiki",
+        "MediaWiki",
+        "PHP",
+        "MySQL",
+        "Apache",
+        "Web server"
+      ]
     }
   ]
 }
