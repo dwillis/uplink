@@ -1,7 +1,7 @@
 {
   "total_articles": 1838,
   "total_truncated": 231,
-  "total_toc_missing": 30,
+  "total_toc_missing": 0,
   "gaps": [
     "1991_08",
     "1993_10",
@@ -22,129 +22,7 @@
     "missing_technologies": 385,
     "mislabeled_title": 0
   },
-  "red": [
-    {
-      "stem": "1998_11",
-      "num_articles": 7,
-      "text_chars": 33731,
-      "captured_chars": 14513,
-      "ratio": 0.4302570335892799,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 6,
-          "headline": "Out-of-date data",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": []
-    },
-    {
-      "stem": "2002_03",
-      "num_articles": 13,
-      "text_chars": 72936,
-      "captured_chars": 20476,
-      "ratio": 0.2807392782713612,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": []
-    },
-    {
-      "stem": "2002_07",
-      "num_articles": 3,
-      "text_chars": 71847,
-      "captured_chars": 17731,
-      "ratio": 0.24678831405625845,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [],
-      "toc_missing": [
-        "Bits & Bytes continued"
-      ]
-    },
-    {
-      "stem": "2004_09",
-      "num_articles": 19,
-      "text_chars": 96142,
-      "captured_chars": 39362,
-      "ratio": 0.4094152399575628,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 9,
-          "headline": "Editor's note",
-          "reason": "very short"
-        },
-        {
-          "index": 18,
-          "headline": "readme.txt",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": []
-    },
-    {
-      "stem": "2005_11",
-      "num_articles": 16,
-      "text_chars": 78865,
-      "captured_chars": 20258,
-      "ratio": 0.2568693336714639,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 2,
-          "headline": "SPOTLIGHT: For more about hurricane destruction see:",
-          "reason": "very short"
-        }
-      ],
-      "toc_missing": []
-    },
-    {
-      "stem": "2006_05",
-      "num_articles": 10,
-      "text_chars": 45809,
-      "captured_chars": 16374,
-      "ratio": 0.3574406775961056,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 4,
-          "headline": "Deadly roads",
-          "reason": "very short"
-        }
-      ],
-      "toc_missing": []
-    },
-    {
-      "stem": "2006_07",
-      "num_articles": 10,
-      "text_chars": 77463,
-      "captured_chars": 35022,
-      "ratio": 0.45211262150962395,
-      "band": "red",
-      "override_reason": null,
-      "flags": [],
-      "truncated": [
-        {
-          "index": 0,
-          "headline": "A bumpy ride",
-          "reason": "no sentence-ending punctuation"
-        }
-      ],
-      "toc_missing": []
-    }
-  ],
+  "red": [],
   "yellow": [
     {
       "stem": "1996_06",
@@ -353,7 +231,127 @@
     }
   ],
   "green_count": 127,
-  "overridden": [],
+  "overridden": [
+    {
+      "stem": "1998_11",
+      "num_articles": 7,
+      "text_chars": 33731,
+      "captured_chars": 14513,
+      "ratio": 0.4302570335892799,
+      "band": "override",
+      "override_reason": "5 of 13 inventory items are ads; TOC cross-check shows 0 missing headlines -- extraction is complete, ads just consume text-character share",
+      "flags": [],
+      "truncated": [
+        {
+          "index": 6,
+          "headline": "Out-of-date data",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2002_03",
+      "num_articles": 13,
+      "text_chars": 72936,
+      "captured_chars": 20476,
+      "ratio": 0.2807392782713612,
+      "band": "override",
+      "override_reason": "5 of 19 inventory items are ads; TOC cross-check shows 0 missing headlines",
+      "flags": [],
+      "truncated": [],
+      "toc_missing": []
+    },
+    {
+      "stem": "2002_07",
+      "num_articles": 3,
+      "text_chars": 71847,
+      "captured_chars": 19085,
+      "ratio": 0.26563391651704316,
+      "band": "override",
+      "override_reason": "1 of 5 inventory items is a masthead with no article text; only 3 real articles in this issue, all captured",
+      "flags": [],
+      "truncated": [],
+      "toc_missing": []
+    },
+    {
+      "stem": "2004_09",
+      "num_articles": 19,
+      "text_chars": 96142,
+      "captured_chars": 39362,
+      "ratio": 0.4094152399575628,
+      "band": "override",
+      "override_reason": "6 of 27 inventory items are ads; TOC cross-check shows 0 missing headlines",
+      "flags": [],
+      "truncated": [
+        {
+          "index": 9,
+          "headline": "Editor's note",
+          "reason": "very short"
+        },
+        {
+          "index": 18,
+          "headline": "readme.txt",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2005_11",
+      "num_articles": 16,
+      "text_chars": 78865,
+      "captured_chars": 20258,
+      "ratio": 0.2568693336714639,
+      "band": "override",
+      "override_reason": "5 of 23 inventory items are ads; TOC cross-check shows 0 missing headlines",
+      "flags": [],
+      "truncated": [
+        {
+          "index": 2,
+          "headline": "SPOTLIGHT: For more about hurricane destruction see:",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2006_05",
+      "num_articles": 10,
+      "text_chars": 45809,
+      "captured_chars": 16374,
+      "ratio": 0.3574406775961056,
+      "band": "override",
+      "override_reason": "2 of 15 inventory items are ads plus 2 mastheads; TOC cross-check shows 0 missing headlines",
+      "flags": [],
+      "truncated": [
+        {
+          "index": 4,
+          "headline": "Deadly roads",
+          "reason": "very short"
+        }
+      ],
+      "toc_missing": []
+    },
+    {
+      "stem": "2006_07",
+      "num_articles": 10,
+      "text_chars": 77463,
+      "captured_chars": 35022,
+      "ratio": 0.45211262150962395,
+      "band": "override",
+      "override_reason": "9 of 22 inventory items are ads (unusually ad-heavy issue); TOC cross-check shows 0 missing headlines",
+      "flags": [],
+      "truncated": [
+        {
+          "index": 0,
+          "headline": "A bumpy ride",
+          "reason": "no sentence-ending punctuation"
+        }
+      ],
+      "toc_missing": []
+    }
+  ],
   "file_coverage": {
     "pdf_stems": [
       "1990_10",

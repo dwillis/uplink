@@ -35,7 +35,7 @@ from datetime import date
 
 import llm
 
-from pipeline_common import ISSUES_DIR, WORK_DIR, parse_text_pages
+from pipeline_common import ISSUES_DIR, WORK_DIR, is_continuation_fragment, parse_text_pages
 
 INVENTORY_DIR = WORK_DIR / "inventory"
 ARTICLES_DIR = WORK_DIR / "articles"
@@ -344,21 +344,6 @@ def run_extract(stem, model, force=False):
         out_path.write_text(json.dumps(result, indent=2) + "\n")
         print(f"OK ({len(full_text)} chars{'' if ends_ok else ', UNVERIFIED ending'})")
         time.sleep(0.3)
-
-
-FROM_PAGE_RE = re.compile(r"^from page \w+", re.IGNORECASE)
-
-
-def is_continuation_fragment(item):
-    """True if this inventory item is the tail of an article that jumped to
-    a later page, rather than a distinct article -- e.g. headline "Foo
-    (continued)"/"(continued from page eight)" or kicker "From page four:"
-    (page numbers are often spelled out, not digits). These get merged into
-    the preceding article in assemble() instead of kept as separate entries,
-    since their content is often out of reach of a single extraction slice."""
-    headline = item.get("headline", "")
-    kicker = item.get("kicker", "")
-    return "continued" in headline.lower() or "continued" in kicker.lower() or bool(FROM_PAGE_RE.match(kicker))
 
 
 def assemble(stem):

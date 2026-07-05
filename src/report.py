@@ -26,6 +26,7 @@ from pipeline_common import (
     TEXT_DIR,
     WORK_DIR,
     effective_text_chars,
+    is_continuation_fragment,
     parse_months_field,
     parse_text_pages,
 )
@@ -203,6 +204,7 @@ def toc_diff(stem, articles):
     inv_headlines = [
         item["headline"] for item in inventory
         if item.get("kind", "article") in ("article", "column", "listing")
+        and not is_continuation_fragment(item)
     ]
     issue_headlines = [normalize_headline(a.get("headline", "")) for a in articles]
 

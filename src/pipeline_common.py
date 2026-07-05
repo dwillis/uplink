@@ -46,6 +46,22 @@ MONTH_NAMES = {
 }
 
 
+FROM_PAGE_RE = re.compile(r"^from page \w+", re.IGNORECASE)
+
+
+def is_continuation_fragment(item):
+    """True if this inventory item is the tail of an article that jumped to
+    a later page, rather than a distinct article -- e.g. headline "Foo
+    (continued)"/"(continued from page eight)" or kicker "From page four:"
+    (page numbers are often spelled out, not digits). extract_articles.py
+    merges these into the preceding article rather than keeping them as
+    separate entries, so report.py's TOC cross-check should also treat
+    them as already accounted for rather than flagging them as missing."""
+    headline = item.get("headline", "")
+    kicker = item.get("kicker", "")
+    return "continued" in headline.lower() or "continued" in kicker.lower() or bool(FROM_PAGE_RE.match(kicker))
+
+
 def parse_months_field(data):
     """Best-effort parse of an issue's `month` string into a set of month ints."""
     month_field = data.get("month", "")

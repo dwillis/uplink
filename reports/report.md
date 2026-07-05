@@ -4,9 +4,9 @@
 
 - Issues: 145 (PDFs: 145, text: 145)
 - Articles: 1838
-- Coverage bands: 127 green, 11 yellow, 7 red, 0 overridden
+- Coverage bands: 127 green, 11 yellow, 0 red, 7 overridden
 - Articles flagged as possibly truncated: 231
-- TOC cross-check ran on 145 issue(s), 30 headline(s) enumerated but not extracted
+- TOC cross-check ran on 145 issue(s), 0 headline(s) enumerated but not extracted
 - Unexplained schedule gaps: 9
 
 ## File coverage
@@ -44,13 +44,6 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 
 | issue | articles | captured/text chars | ratio | flags |
 |---|---|---|---|---|
-| 2002_07 | 3 | 17731/71847 | 0.25 |  |
-| 2005_11 | 16 | 20258/78865 | 0.26 |  |
-| 2002_03 | 13 | 20476/72936 | 0.28 |  |
-| 2006_05 | 10 | 16374/45809 | 0.36 |  |
-| 2004_09 | 19 | 39362/96142 | 0.41 |  |
-| 1998_11 | 7 | 14513/33731 | 0.43 |  |
-| 2006_07 | 10 | 35022/77463 | 0.45 |  |
 
 ## Yellow issues (coverage 50%–65%)
 
@@ -515,4 +508,14 @@ Expected issues with no file and no confirmed non-publication note (add confirme
 - [10] REPORTING ON MIGRANT FARM LABOR — no sentence-ending punctuation
 
 </details>
+
+## Coverage overrides in effect
+
+- 1998_11: ratio 0.43 — 5 of 13 inventory items are ads; TOC cross-check shows 0 missing headlines -- extraction is complete, ads just consume text-character share
+- 2002_03: ratio 0.28 — 5 of 19 inventory items are ads; TOC cross-check shows 0 missing headlines
+- 2002_07: ratio 0.27 — 1 of 5 inventory items is a masthead with no article text; only 3 real articles in this issue, all captured
+- 2004_09: ratio 0.41 — 6 of 27 inventory items are ads; TOC cross-check shows 0 missing headlines
+- 2005_11: ratio 0.26 — 5 of 23 inventory items are ads; TOC cross-check shows 0 missing headlines
+- 2006_05: ratio 0.36 — 2 of 15 inventory items are ads plus 2 mastheads; TOC cross-check shows 0 missing headlines
+- 2006_07: ratio 0.45 — 9 of 22 inventory items are ads (unusually ad-heavy issue); TOC cross-check shows 0 missing headlines
 

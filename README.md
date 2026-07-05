@@ -1,6 +1,6 @@
 # Uplink
 
-An archive of **Uplink**, the newsletter of the National Institute for Computer-Assisted Reporting (NICAR), published from October 1990 through March 2007. The archive covers 145 issues; run `uv run python src/report.py` for the current article count and extraction coverage (early single-call extraction silently truncated many issues -- see "Data quality" below).
+An archive of **Uplink**, the newsletter of the National Institute for Computer-Assisted Reporting (NICAR), published from October 1990 through March 2007: 145 issues and roughly 1,838 articles, each with headline, full text, byline, affiliation, summary, keywords, topics, and technologies mentioned. Run `uv run python src/report.py` for current, exact numbers and any outstanding data-quality issues (`reports/report.md` is checked in and updated on each run).
 
 ## Repository structure
 
@@ -42,7 +42,7 @@ Each file in `issues/` follows this format:
 }
 ```
 
-`author_title` is a job title only; `affiliation` is the publication or organization. Older issues not yet re-extracted still use the v1 schema (no `schema_version`, `author_title` sometimes holds an affiliation, no `topics`/`technologies`) -- `src/report.py` and the site build both tolerate either.
+`author_title` is a job title only; `affiliation` is the publication or organization. All 145 issues are on schema v2 as of this pipeline rework; `src/report.py` and the site build also tolerate the older v1 shape (no `schema_version`, `author_title` sometimes holding an affiliation, no `topics`/`technologies`) in case of future partial re-extraction.
 
 ## Pipeline
 
@@ -50,7 +50,7 @@ All scripts use the [llm](https://llm.datasette.io/) Python library. Anthropic m
 
 1. **Extract text from PDFs** (`src/extract_pdf_pages.py`): Splits each PDF into individual pages and extracts text page-by-page to avoid LLM output truncation.
 
-2. **Re-extract articles per issue** (`src/extract_articles.py`): Two-stage extraction that replaces the old single-call approach (`convert_to_json.py`, removed -- see below), which silently truncated output on long issues:
+2. **Re-extract articles per issue** (`src/extract_articles.py`): Two-stage extraction that replaces the old single-call approach, which silently truncated output on long issues:
    - **Stage A (inventory)**: one small-output call per issue enumerates every article, its byline, and first/last words -- the response is a manifest, not full text, so it can't truncate.
    - **Stage B (extract)**: one call per article reconstructs that article's complete text from its own slice of the issue, verified against the inventory's first/last-word anchors.
    - **Assemble**: merges Stage A + B output into `issues/{stem}.json`, preserving existing `summary`/`keywords` for articles matched by headline.
