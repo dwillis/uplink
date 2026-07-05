@@ -116,6 +116,21 @@ EXTRACT_SCHEMA = {
 }
 
 
+def call_with_retry(fn, retries=5, base_delay=5):
+    """Retry on transient API errors (rate limits, overload) with exponential backoff."""
+    for attempt in range(retries):
+        try:
+            return fn()
+        except Exception as e:
+            msg = str(e)
+            transient = "429" in msg or "rate_limit" in msg or "overloaded" in msg.lower() or "529" in msg
+            if not transient or attempt == retries - 1:
+                raise
+            delay = base_delay * (2 ** attempt)
+            print(f"[retry in {delay}s: {msg[:80]}]", end=" ", flush=True)
+            time.sleep(delay)
+
+
 def normalize(text):
     return re.sub(r"\s+", " ", text.lower()).strip()
 
@@ -155,7 +170,7 @@ def run_inventory(stem, model, force=False):
         print(f"  [SKIP] {stem}: no text")
         return None
 
-    response = model.prompt(text, system=INVENTORY_SYSTEM_PROMPT, schema=INVENTORY_SCHEMA)
+    response = call_with_retry(lambda: model.prompt(text, system=INVENTORY_SYSTEM_PROMPT, schema=INVENTORY_SCHEMA))
     inventory = json.loads(response.text())
 
     for item in inventory.get("articles", []):
@@ -267,7 +282,7 @@ def run_extract(stem, model, force=False):
         )
         print(f"  [{idx + 1}/{len(items)}] {item['headline'][:60]}...", end=" ", flush=True)
         try:
-            response = model.prompt(prompt, system=EXTRACT_SYSTEM_PROMPT, schema=EXTRACT_SCHEMA)
+            response = call_with_retry(lambda: model.prompt(prompt, system=EXTRACT_SYSTEM_PROMPT, schema=EXTRACT_SCHEMA))
             result = json.loads(response.text())
         except Exception as e:
             print(f"ERROR: {e}")
