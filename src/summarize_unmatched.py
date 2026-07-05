@@ -8,7 +8,7 @@ the files in place.
 Usage:
     uv run python src/summarize_unmatched.py              # run
     uv run python src/summarize_unmatched.py --dry-run    # preview
-    uv run python src/summarize_unmatched.py --model claude-sonnet-4-6
+    uv run python src/summarize_unmatched.py --model anthropic/claude-sonnet-4-6
 """
 
 import argparse
@@ -53,7 +53,7 @@ def generate_summary(model, article):
 def main():
     parser = argparse.ArgumentParser(description="Generate summaries for articles missing them")
     parser.add_argument("--dry-run", action="store_true", help="Just show articles needing summaries")
-    parser.add_argument("--model", default="claude-haiku-4-5", help="LLM model to use")
+    parser.add_argument("--model", default="claude-haiku-4.5", help="LLM model to use")
     args = parser.parse_args()
 
     # Find articles needing summaries

@@ -443,11 +443,74 @@ def print_issue_detail(stem):
     print(json.dumps({k: v for k, v in r.items() if k != "data"}, indent=2))
 
 
+def vision_spotcheck(n, model_name):
+    """Re-OCR N random PDF pages with a (typically local) vision model and
+    report how much the result drifts from the stored text/*.txt.
+
+    A free second opinion on the foundation OCR layer -- optional, and not
+    run by default since it needs a vision-capable model (e.g. an Ollama
+    model via `uv sync --group local`).
+    """
+    import random
+
+    import llm
+    import pypdfium2 as pdfium
+
+    from pipeline_common import PDF_DIR
+
+    model = llm.get_model(model_name)
+    pdf_paths = sorted(PDF_DIR.glob("*.pdf"))
+    sample = random.sample(pdf_paths, min(n, len(pdf_paths)))
+
+    print(f"Spot-checking {len(sample)} page(s) with {model_name}...\n")
+    for pdf_path in sample:
+        stem = pdf_path.stem
+        pdf = pdfium.PdfDocument(str(pdf_path))
+        page_num = random.randrange(len(pdf))
+        bitmap = pdf[page_num].render(scale=200 / 72)
+        image = bitmap.to_pil()
+
+        import tempfile
+        with tempfile.NamedTemporaryFile(suffix=".png") as tmp:
+            image.save(tmp.name)
+            attachment = llm.Attachment(path=tmp.name)
+            response = model.prompt(
+                "Extract all readable textual content from this page. "
+                "Preserve paragraph breaks. Do not summarize or add commentary.",
+                attachments=[attachment],
+            )
+            fresh_text = response.text().strip()
+
+        stored_text = "\n\n".join(parse_text_pages(stem))
+        ratio = difflib.SequenceMatcher(None, normalize_for_compare(fresh_text),
+                                         normalize_for_compare(stored_text)).quick_ratio()
+        # quick_ratio against the whole issue is noisy (page markers are rare);
+        # report it as a rough signal plus whether the fresh text's own
+        # sentences show up in the stored text at all.
+        found = sum(1 for line in fresh_text.split("\n") if len(line) > 20 and line.strip() in stored_text)
+        total_lines = sum(1 for line in fresh_text.split("\n") if len(line) > 20)
+        print(f"{stem} (page {page_num + 1}): {len(fresh_text)} chars re-OCR'd, "
+              f"{found}/{total_lines or 1} long lines found verbatim in stored text "
+              f"(quick_ratio vs whole issue: {ratio:.2f})")
+
+
+def normalize_for_compare(text):
+    return re.sub(r"\s+", " ", text.lower()).strip()
+
+
 def main():
     parser = argparse.ArgumentParser(description="Validate the Uplink archive and report problems")
     parser.add_argument("--check", action="store_true", help="Exit 1 if any issue is red-flagged")
     parser.add_argument("--issue", help="Print detail for a single issue stem, e.g. 2001_07")
+    parser.add_argument("--vision-spotcheck", type=int, metavar="N",
+                         help="Re-OCR N random pages with --vision-model and report drift vs stored text")
+    parser.add_argument("--vision-model", default="qwen2.5vl",
+                         help="Vision model for --vision-spotcheck (default: qwen2.5vl, via Ollama)")
     args = parser.parse_args()
+
+    if args.vision_spotcheck:
+        vision_spotcheck(args.vision_spotcheck, args.vision_model)
+        return
 
     if args.issue:
         print_issue_detail(args.issue)

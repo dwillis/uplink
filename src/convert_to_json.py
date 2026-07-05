@@ -22,10 +22,10 @@ Each output file follows the unified schema:
 }
 
 Usage:
-    uv run python src/convert_to_json.py claude-sonnet-4-6
-    uv run python src/convert_to_json.py claude-sonnet-4-6 --skip-existing
+    uv run python src/convert_to_json.py anthropic/claude-sonnet-4-6
+    uv run python src/convert_to_json.py anthropic/claude-sonnet-4-6 --skip-existing
     uv run python src/convert_to_json.py --list-models
-    uv run python src/convert_to_json.py claude-sonnet-4-6 --test 3
+    uv run python src/convert_to_json.py anthropic/claude-sonnet-4-6 --test 3
 """
 
 import argparse
@@ -99,7 +99,7 @@ def process_file(filename, model_name):
 
 def main():
     parser = argparse.ArgumentParser(description="Process text files into issue JSON using LLM")
-    parser.add_argument("model", nargs="?", help="Model to use (e.g., claude-sonnet-4-6)")
+    parser.add_argument("model", nargs="?", help="Model to use (e.g., anthropic/claude-sonnet-4-6)")
     parser.add_argument("--list-models", action="store_true", help="List available models and exit")
     parser.add_argument("--test", type=int, default=0, help="Process only the first N files")
     parser.add_argument("--output-dir", default=OUTPUT_DIR, help=f"Output directory (default: {OUTPUT_DIR})")

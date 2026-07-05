@@ -10,3 +10,13 @@ dependencies = [
     "pypdf>=5.9.0",
     "python-slugify>=8.0.4",
 ]
+
+[dependency-groups]
+# Optional: run any pipeline script against local Ollama models instead of
+# Anthropic's API by passing --model <ollama-model-name>. Install with
+# `uv sync --group local`. See README for recommended models.
+local = [
+    "llm-ollama>=0.13",
+    "pypdfium2>=4.30",
+    "pillow>=10.0",
+]

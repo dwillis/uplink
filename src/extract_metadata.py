@@ -24,7 +24,7 @@ import llm
 
 from pipeline_common import DATA_DIR, ISSUES_DIR
 
-DEFAULT_MODEL = "anthropic/claude-haiku-4-5"
+DEFAULT_MODEL = "claude-haiku-4.5"
 
 TAXONOMY_PATH = DATA_DIR / "taxonomy.json"
 TECHNOLOGIES_PATH = DATA_DIR / "technologies.json"
@@ -39,6 +39,7 @@ DEFAULT_TECHNOLOGIES = [
 
 TECHNOLOGY_ALIASES = {
     "dbase iv": "dBase", "dbase": "dBase", "msaccess": "Access", "ms access": "Access",
+    "microsoft access": "Access", "microsoft excel": "Excel", "ms excel": "Excel",
     "excel spreadsheet": "Excel", "spss/pc": "SPSS", "the internet": "Internet",
     "world wide web": "World Wide Web", "www": "World Wide Web", "the web": "World Wide Web",
     "bbs": "modem/BBS", "bulletin board": "modem/BBS", "modem": "modem/BBS",
