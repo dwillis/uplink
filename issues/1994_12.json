@@ -100,15 +100,15 @@
         "Technology"
       ],
       "technologies": [
-        "NEXIS",
+        "Nexis",
         "CompuServe",
         "Internet",
         "America Online",
-        "486/66",
+        "PC",
         "FoxPro",
         "Excel",
         "Mosaic",
-        "SPSS for Windows",
+        "SPSS",
         "Atlas GIS"
       ],
       "provenance": {
@@ -168,9 +168,9 @@
       ],
       "technologies": [
         "Internet",
-        "newsgroup",
-        "e-mail",
-        "mailing list"
+        "Usenet",
+        "Email",
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

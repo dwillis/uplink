@@ -74,9 +74,7 @@
         "Crime & Justice",
         "Public Safety"
       ],
-      "technologies": [
-        "FBI data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -162,8 +160,7 @@
       ],
       "technologies": [
         "Maptitude",
-        "Pentium",
-        "computerized police records"
+        "Pentium"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -249,7 +246,7 @@
       "technologies": [
         "World Wide Web",
         "Internet",
-        "listserv"
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -334,13 +331,12 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
+        "spreadsheet",
         "Internet",
         "World Wide Web",
-        "mapping software",
+        "GIS",
         "SPSS",
-        "intranets",
+        "Intranet",
         "CD-ROM"
       ],
       "provenance": {
@@ -369,8 +365,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "spreadsheets",
-        "relational database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -399,8 +394,7 @@
       ],
       "technologies": [
         "Internet",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

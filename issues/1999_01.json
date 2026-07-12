@@ -22,9 +22,7 @@
         "Government & Politics",
         "Data & Databases"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -50,9 +48,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "databases"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -82,7 +78,7 @@
         "mainframe",
         "Excel",
         "Access",
-        "Visual FoxPro",
+        "FoxPro",
         "SPSS",
         "ArcView"
       ],
@@ -140,9 +136,7 @@
         "Investigative Methods",
         "Government & Politics"
       ],
-      "technologies": [
-        "Freedom of Information Act"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -169,8 +163,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "Access",
-        "relational database"
+        "Access"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -229,8 +222,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Fatal Accident Reporting System",
-        "vehicle identification numbers"
+        "FARS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -314,10 +306,7 @@
         "Technology"
       ],
       "technologies": [
-        "Database",
-        "NICAR",
-        "World Wide Web",
-        "FOIA"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

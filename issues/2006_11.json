@@ -22,9 +22,7 @@
         "Investigative Methods",
         "Business & Economy"
       ],
-      "technologies": [
-        "Web site"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -101,9 +99,7 @@
         "Data & Databases",
         "Public Safety"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -183,10 +179,9 @@
       ],
       "technologies": [
         "Google",
-        "LexisNexis",
         "Nexis",
         "Accurint",
-        "AutoTrackXP",
+        "AutoTrack",
         "VitalChek",
         "PACER",
         "Internet",
@@ -306,12 +301,10 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Wiki",
         "MediaWiki",
         "PHP",
         "MySQL",
-        "Apache",
-        "Web server"
+        "Apache"
       ],
       "provenance": {
         "extracted_by": "pre-v2",

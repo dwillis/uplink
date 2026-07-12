@@ -27,8 +27,7 @@
         "ToxNet",
         "Internet",
         "World Wide Web",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -83,9 +82,7 @@
         "Health & Environment",
         "Data & Databases"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -145,7 +142,7 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "email"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

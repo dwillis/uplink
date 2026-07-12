@@ -23,8 +23,7 @@
         "Public Safety"
       ],
       "technologies": [
-        "MISTER",
-        "database"
+        "MISTER"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -55,12 +54,12 @@
         "ATEX",
         "Oracle",
         "SQL Forms",
-        "SPSS/PC+",
+        "SPSS",
         "WordPerfect",
         "Lotus 1-2-3",
         "VAX",
         "mainframe",
-        "AST 386SX/20"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -117,7 +116,7 @@
       ],
       "technologies": [
         "XDB",
-        "XYWrite III Plus"
+        "XyWrite"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

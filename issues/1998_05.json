@@ -22,9 +22,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "computer-assisted reporting"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -79,10 +77,8 @@
         "Health & Environment"
       ],
       "technologies": [
-        "Database",
-        "Nine-track tape",
-        "FTP",
-        "NICAR"
+        "9-track tape",
+        "FTP"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -231,7 +227,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "Cold Fusion",
+        "ColdFusion",
         "Access",
         "FoxPro",
         "CFML",

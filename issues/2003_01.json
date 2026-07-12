@@ -160,8 +160,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -271,7 +270,6 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "database",
         "spreadsheet"
       ],
       "provenance": {
@@ -303,7 +301,7 @@
         "SAS",
         "SPSS",
         "FoxPro",
-        "Microsoft SQL Server",
+        "SQL Server",
         "Excel",
         "CD-ROM"
       ],
@@ -398,12 +396,8 @@
         "Microsoft Office",
         "Excel",
         "Java Runtime Environment",
-        "Windows ME",
-        "Windows XP",
+        "Windows",
         "Linux",
-        "Mandrake",
-        "Gentoo",
-        "Red Hat Linux",
         "Adabas"
       ],
       "provenance": {

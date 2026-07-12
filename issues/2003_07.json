@@ -140,7 +140,7 @@
         "Technology"
       ],
       "technologies": [
-        "Geographic Information System"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -168,8 +168,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -369,7 +368,7 @@
         "GPS",
         "ArcView",
         "Maptitude",
-        "mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -399,10 +398,8 @@
         "ArcPad",
         "GIS",
         "Windows Pocket PC",
-        "Trimble GPS",
-        "Magellan GPS 310",
         "Excel",
-        "Acrobat Reader",
+        "Adobe Acrobat",
         "UltraEdit"
       ],
       "provenance": {

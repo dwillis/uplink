@@ -82,7 +82,6 @@
       ],
       "technologies": [
         "CD-ROM",
-        "Web server",
         "Internet"
       ],
       "provenance": {
@@ -140,8 +139,8 @@
       ],
       "technologies": [
         "CD-ROM",
-        "nine-track tape",
-        "diskettes",
+        "9-track tape",
+        "floppy disk",
         "Internet",
         "CompuServe",
         "Dialog",
@@ -202,9 +201,7 @@
         "Journalism & Newsroom",
         "Technology"
       ],
-      "technologies": [
-        "satellite"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -288,9 +285,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Spreadsheets",
-        "Database managers",
-        "Mapping",
+        "spreadsheet",
         "9-track tape",
         "World Wide Web",
         "Internet"
@@ -322,8 +317,7 @@
       ],
       "technologies": [
         "Internet",
-        "database managers",
-        "spreadsheets"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

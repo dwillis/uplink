@@ -51,8 +51,8 @@
         "Data & Databases"
       ],
       "technologies": [
-        "spreadsheets",
-        "e-mail"
+        "spreadsheet",
+        "Email"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -162,7 +162,7 @@
       "technologies": [
         "Excel",
         "Internet",
-        "mailing lists"
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -190,8 +190,7 @@
         "Technology"
       ],
       "technologies": [
-        "FAA's Service Difficulty Reports database",
-        "NASA aviation database"
+        "FAA's Service Difficulty Reports database"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -332,8 +331,7 @@
       ],
       "technologies": [
         "Internet",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

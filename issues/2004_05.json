@@ -82,9 +82,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "spreadsheets",
-        "database",
-        "mapping"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -194,8 +192,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "databases",
+        "spreadsheet",
         "GIS"
       ],
       "provenance": {
@@ -226,8 +223,7 @@
       "technologies": [
         "Internet",
         "FTP",
-        "spreadsheet",
-        "database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -258,7 +254,7 @@
         "Excel",
         "Access",
         "HTML",
-        "ASCII text"
+        "ASCII"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -379,7 +375,7 @@
         "ArcView",
         "CD-ROM",
         "Internet",
-        "Portable Document Format"
+        "PDF"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -406,9 +402,7 @@
         "Data & Databases",
         "Investigative Methods"
       ],
-      "technologies": [
-        "ZIP code analysis"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -436,7 +430,7 @@
       ],
       "technologies": [
         "ArcView",
-        "ESRI shapefile"
+        "shapefile"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -464,9 +458,8 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "databases",
-        "geographic information system software"
+        "spreadsheet",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

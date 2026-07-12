@@ -23,7 +23,7 @@
         "Business & Economy"
       ],
       "technologies": [
-        "ASCII format"
+        "ASCII"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -134,10 +134,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
-        "mapping",
-        "statistics"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

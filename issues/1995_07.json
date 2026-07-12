@@ -105,11 +105,9 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Microsoft",
         "R:BASE",
         "DataPen",
-        "FoxPro",
-        "scanner"
+        "FoxPro"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -164,7 +162,7 @@
       ],
       "technologies": [
         "gopher",
-        "telnet",
+        "Telnet",
         "Internet"
       ],
       "provenance": {
@@ -223,12 +221,10 @@
         "Technology"
       ],
       "technologies": [
-        "Bulletin Board Service",
         "modem/BBS",
         "gopher",
         "FTP",
         "spreadsheet",
-        "database",
         "World Wide Web",
         "Internet"
       ],

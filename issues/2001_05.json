@@ -76,9 +76,7 @@
         "Data & Databases",
         "Public Safety"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -394,10 +392,8 @@
       ],
       "technologies": [
         "Visual Basic",
-        "Edgar",
-        "Internet",
-        "SEC database",
-        "patents database"
+        "EDGAR",
+        "Internet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -426,10 +422,10 @@
       ],
       "technologies": [
         "ArcView",
-        "Tiger Maps",
+        "TIGER",
         "Access",
         "SQL Server",
-        "Active Server Pages"
+        "ASP"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

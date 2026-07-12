@@ -51,9 +51,7 @@
         "Investigative Methods",
         "Government & Politics"
       ],
-      "technologies": [
-        "electronic court data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -108,9 +106,7 @@
         "Data & Databases",
         "Journalism & Newsroom"
       ],
-      "technologies": [
-        "Web sites"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -169,7 +165,7 @@
         "Public Safety"
       ],
       "technologies": [
-        "Excel 6.0",
+        "Excel",
         "Nexis"
       ],
       "provenance": {
@@ -378,7 +374,7 @@
       ],
       "technologies": [
         "Access",
-        "dbf"
+        "DBF"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

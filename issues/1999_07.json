@@ -23,7 +23,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "computer mapping program"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -51,7 +51,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Auto Trak"
+        "AutoTrack"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -78,9 +78,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "FEC records"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -250,9 +248,7 @@
         "Government & Politics",
         "Data & Databases"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -279,7 +275,6 @@
         "Data & Databases"
       ],
       "technologies": [
-        "database",
         "Martindale-Hubbell directory",
         "Internet"
       ],
@@ -311,7 +306,6 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "search engines",
         "AltaVista",
         "InferenceFind",
         "HotBot",

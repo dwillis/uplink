@@ -48,9 +48,7 @@
         "Data & Databases",
         "Investigative Methods"
       ],
-      "technologies": [
-        "Realist Inc."
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -76,10 +74,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "hardware",
-        "software",
-        "databases",
-        "spreadsheets"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -222,8 +217,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Visual Fox",
-        "FoxPro 2.6"
+        "FoxPro"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -336,8 +330,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "spreadsheet",
-        "database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

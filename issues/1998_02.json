@@ -51,7 +51,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Borland Paradox"
+        "Paradox"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -168,8 +168,7 @@
         "Excel",
         "Access",
         "modem/BBS",
-        "ASCII",
-        "NICAR"
+        "ASCII"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -197,9 +196,8 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "Windows NT",
+        "Windows",
         "SQL Server",
-        "Internet Information Server",
         "IIS",
         "Access",
         "Approach",
@@ -295,7 +293,7 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "listserv"
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -459,11 +457,10 @@
         "Technology"
       ],
       "technologies": [
-        "Web",
+        "World Wide Web",
         "Adobe Acrobat",
         "Internet",
-        "World Wide Web",
-        "email"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

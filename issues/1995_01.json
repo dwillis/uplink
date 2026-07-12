@@ -104,8 +104,8 @@
       "technologies": [
         "9-track tape",
         "FoxPro",
-        "Nine-track Express",
-        "Gateway 486"
+        "Nine Track Express",
+        "PC"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -135,8 +135,8 @@
       "technologies": [
         "9-track tape",
         "FoxPro",
-        "Nine-track Express",
-        "Gateway 486 PC"
+        "Nine Track Express",
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -247,8 +247,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "PC-File",
-        "database"
+        "PC-File"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -357,7 +356,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "FBI Uniform Crime Report"
+        "Uniform Crime Reports"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

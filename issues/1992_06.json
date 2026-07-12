@@ -26,7 +26,7 @@
         "FoxPro",
         "Paradox",
         "XDB",
-        "PC SAS",
+        "SAS",
         "DataEase",
         "SQL"
       ],
@@ -85,7 +85,7 @@
       ],
       "technologies": [
         "XDB",
-        "NineTrack Express",
+        "Nine Track Express",
         "UNISYS",
         "PC"
       ],
@@ -114,9 +114,7 @@
         "Journalism & Newsroom",
         "Technology"
       ],
-      "technologies": [
-        "databases"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

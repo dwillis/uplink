@@ -24,8 +24,7 @@
       ],
       "technologies": [
         "Access",
-        "World Wide Web",
-        "FOIA"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -52,9 +51,7 @@
         "Crime & Justice",
         "Investigative Methods"
       ],
-      "technologies": [
-        "Open Records Act"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -111,7 +108,6 @@
       ],
       "technologies": [
         "Intranet",
-        "Web server",
         "Access",
         "Microsoft Back Office",
         "Pentium",
@@ -144,7 +140,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "intranet"
+        "Intranet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -204,7 +200,7 @@
       ],
       "technologies": [
         "Excel",
-        "Lexis/Nexis",
+        "Nexis",
         "Internet",
         "World Wide Web",
         "Google",

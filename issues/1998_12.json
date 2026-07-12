@@ -81,9 +81,7 @@
         "Government & Politics",
         "Crime & Justice"
       ],
-      "technologies": [
-        "computerized data analysis programs"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -202,7 +200,7 @@
         "Monarch",
         "Perl",
         "CD-ROM",
-        "tape"
+        "magnetic tape"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -232,7 +230,7 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "spreadsheets"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -321,8 +319,8 @@
       ],
       "technologies": [
         "SAS",
-        "PERL",
-        "Visual Fox",
+        "Perl",
+        "FoxPro",
         "World Wide Web"
       ],
       "provenance": {

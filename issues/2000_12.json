@@ -22,9 +22,7 @@
         "Investigative Methods",
         "Demographics & Census"
       ],
-      "technologies": [
-        "computer system"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -247,9 +245,7 @@
         "Data & Databases",
         "Investigative Methods"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -278,7 +274,7 @@
       "technologies": [
         "Lotus 1-2-3",
         "NewsEngin",
-        "Lexis-Nexis",
+        "Nexis",
         "Dow Jones"
       ],
       "provenance": {
@@ -390,10 +386,10 @@
       "technologies": [
         "FoxPro",
         "CD-ROM",
-        "Microsoft SQL Server",
+        "SQL Server",
         "Access",
         "NewsEngin UniQuery",
-        "Web"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

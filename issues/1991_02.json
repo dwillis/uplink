@@ -22,9 +22,7 @@
         "Data & Databases",
         "Investigative Methods"
       ],
-      "technologies": [
-        "FAA tape"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -51,7 +49,7 @@
         "Technology"
       ],
       "technologies": [
-        "mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -131,7 +129,7 @@
       ],
       "technologies": [
         "Cendata",
-        "Tiger Mapping System",
+        "TIGER",
         "Strategic Mapping",
         "9-track tape",
         "CD-ROM"

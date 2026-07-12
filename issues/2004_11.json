@@ -23,7 +23,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "Microsoft SQL Server",
+        "SQL Server",
         "Enterprise Manager",
         "Access",
         "World Wide Web"
@@ -167,9 +167,7 @@
       "topics": [
         "Journalism & Newsroom"
       ],
-      "technologies": [
-        "social network analysis software"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -195,9 +193,7 @@
         "Public Safety",
         "Demographics & Census"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -284,7 +280,7 @@
       "technologies": [
         "Excel",
         "dBase",
-        "ArcView 3.2"
+        "ArcView"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -367,7 +363,6 @@
       ],
       "technologies": [
         "FoxPro",
-        "Visual FoxPro",
         "SQL",
         "CD-ROM"
       ],
@@ -403,7 +398,7 @@
         "Subversion",
         "SQL Server",
         "Microsoft Office",
-        "Pentium 4"
+        "Pentium"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -431,7 +426,6 @@
         "Education"
       ],
       "technologies": [
-        "U.S. Census",
         "Adoption and Foster Care Reporting System"
       ],
       "provenance": {

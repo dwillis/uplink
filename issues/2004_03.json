@@ -164,7 +164,7 @@
         "Technology"
       ],
       "technologies": [
-        "Web"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -220,8 +220,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "databases"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -250,7 +249,7 @@
       ],
       "technologies": [
         "Excel",
-        "ESRI ArcView 3.3"
+        "ArcView"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -426,7 +425,7 @@
       ],
       "technologies": [
         "ClusterSeer",
-        "SAS System Viewer",
+        "SAS",
         "ParseRat",
         "OS X",
         "ArcView"
@@ -460,7 +459,7 @@
         "askSam",
         "Access",
         "Excel",
-        "LexisNexis"
+        "Nexis"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -489,7 +488,7 @@
       ],
       "technologies": [
         "ClusterSeer",
-        "SAS System Viewer",
+        "SAS",
         "ParseRat",
         "ArcView",
         "OS X"
@@ -520,18 +519,10 @@
       ],
       "technologies": [
         "Linux",
-        "Windows XP",
-        "Xandros",
-        "Debian",
-        "Red Hat",
-        "Fedora",
-        "Mandrake",
-        "SUSE",
-        "Slackware",
-        "Gentoo",
+        "Windows",
         "Microsoft Outlook",
         "Microsoft Office",
-        "Apple OS X"
+        "OS X"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -566,7 +557,7 @@
         "Windows",
         "Unix",
         "Linux",
-        "Mac OS X"
+        "OS X"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

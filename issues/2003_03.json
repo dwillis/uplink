@@ -23,7 +23,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "ASCH text"
+        "ASCII"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -221,8 +221,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
+        "spreadsheet",
         "Internet"
       ],
       "provenance": {
@@ -252,7 +251,7 @@
       ],
       "technologies": [
         "Federal Procurement Data System",
-        "Visual FoxPro",
+        "FoxPro",
         "Access",
         "SQL Server",
         "FTP"
@@ -315,8 +314,7 @@
         "Technology"
       ],
       "technologies": [
-        "Access",
-        "NICAR"
+        "Access"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -344,8 +342,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "ASCII",
-        "Web site"
+        "ASCII"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -374,11 +371,10 @@
       ],
       "technologies": [
         "SAS",
-        "TIGER/Line",
+        "TIGER",
         "GIS",
         "ASCII",
-        "spreadsheet",
-        "database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

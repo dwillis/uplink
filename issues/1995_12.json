@@ -75,10 +75,7 @@
         "Data & Databases",
         "Government & Politics"
       ],
-      "technologies": [
-        "database",
-        "computer"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -130,8 +127,8 @@
       ],
       "technologies": [
         "modem/BBS",
-        "telnet",
-        "ftp",
+        "Telnet",
+        "FTP",
         "Internet"
       ],
       "provenance": {
@@ -214,8 +211,8 @@
         "Internet",
         "World Wide Web",
         "gopher",
-        "email",
-        "listserv"
+        "Email",
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

@@ -114,8 +114,7 @@
       "technologies": [
         "Excel",
         "Access",
-        "CrimeStat",
-        "Web scraping"
+        "CrimeStat"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -230,9 +229,7 @@
         "Business & Economy",
         "Health & Environment"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

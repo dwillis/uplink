@@ -28,7 +28,7 @@
         "Quattro Pro",
         "Access",
         "Pentium",
-        "86PC",
+        "PC",
         "9-track tape",
         "CD-ROM",
         "Excel",
@@ -150,8 +150,7 @@
       ],
       "technologies": [
         "Internet",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -180,7 +179,7 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "E-mail"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -238,7 +237,7 @@
       "technologies": [
         "Quattro Pro",
         "spreadsheet",
-        "email"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -402,9 +401,7 @@
         "Data & Databases",
         "Public Safety"
       ],
-      "technologies": [
-        "Census tract"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -507,8 +504,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
+        "spreadsheet",
         "Internet"
       ],
       "provenance": {
@@ -565,7 +561,7 @@
       ],
       "technologies": [
         "FoxPro",
-        "mapping program"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

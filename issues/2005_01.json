@@ -51,9 +51,7 @@
         "Investigative Methods",
         "Crime & Justice"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -86,8 +84,7 @@
         "Access",
         "Excel",
         "CD-ROM",
-        "FTP",
-        "Web site"
+        "FTP"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -140,9 +137,7 @@
         "Investigative Methods",
         "Government & Politics"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -168,9 +163,7 @@
         "Technology",
         "Data & Databases"
       ],
-      "technologies": [
-        "social network analysis"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -251,10 +244,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "spreadsheets",
-        "database",
-        "statistics",
-        "mapping",
+        "spreadsheet",
         "Internet"
       ],
       "provenance": {
@@ -369,9 +359,8 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "databases",
-        "geographic information system software"
+        "spreadsheet",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -430,7 +419,7 @@
       "technologies": [
         "MySQL",
         "Access",
-        "Microsoft SQL Server",
+        "SQL Server",
         "FoxPro",
         "Navicat",
         "MySQL Administrator",
@@ -489,7 +478,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Uniform Crime Report",
+        "Uniform Crime Reports",
         "National Crime Victimization Survey"
       ],
       "provenance": {
@@ -544,7 +533,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Uniform Crime Report",
+        "Uniform Crime Reports",
         "National Crime Victimization Survey"
       ],
       "provenance": {
@@ -573,7 +562,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Uniform Crime Report",
+        "Uniform Crime Reports",
         "National Crime Victimization Survey"
       ],
       "provenance": {

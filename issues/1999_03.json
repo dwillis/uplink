@@ -48,9 +48,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "FOIA"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -80,7 +78,7 @@
         "OSCAR database",
         "ASCII",
         "Access",
-        "SEC EDGAR database"
+        "EDGAR"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -135,9 +133,7 @@
         "Investigative Methods",
         "Demographics & Census"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

@@ -136,7 +136,6 @@
         "DOT Truck Accidents database",
         "Aircraft Registration Database",
         "FAA Service Difficulty Reports",
-        "FAA Accidents and incidents database",
         "NASA Air Safety Reporting System"
       ],
       "provenance": {
@@ -163,9 +162,7 @@
         "Public Safety",
         "Data & Databases"
       ],
-      "technologies": [
-        "Database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -193,7 +190,7 @@
       ],
       "technologies": [
         "Python",
-        "Mandrake",
+        "Linux",
         "MySQL",
         "TUTOS",
         "OpenOffice"
@@ -224,8 +221,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -282,8 +278,7 @@
         "Public Safety"
       ],
       "technologies": [
-        "Access 97",
-        "Access 2000"
+        "Access"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

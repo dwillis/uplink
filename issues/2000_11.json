@@ -54,7 +54,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Microsoft Word",
+        "Word",
         "Access",
         "FileMaker Pro"
       ],
@@ -84,7 +84,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -110,9 +110,7 @@
         "Data & Databases",
         "Business & Economy"
       ],
-      "technologies": [
-        "Census Bureau"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -382,12 +380,12 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "FileMaker Pro Unlimited 5",
+        "FileMaker Pro",
         "DBF",
-        "XLS",
+        "Excel",
         "FileMaker Home Page 3.0",
         "FrontPage 2000",
-        "Pentium Pro",
+        "Pentium",
         "Internet",
         "World Wide Web"
       ],
@@ -415,7 +413,7 @@
         "Technology"
       ],
       "technologies": [
-        "FileMaker"
+        "FileMaker Pro"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

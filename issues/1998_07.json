@@ -22,9 +22,7 @@
         "Health & Environment",
         "Government & Politics"
       ],
-      "technologies": [
-        "online searchable database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -54,8 +52,7 @@
         "Microsoft Outlook Express 4.0",
         "World Wide Web",
         "Email",
-        "Spreadsheets",
-        "Database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -113,7 +110,7 @@
       ],
       "technologies": [
         "Excel",
-        "Visual FoxPro",
+        "FoxPro",
         "PACER"
       ],
       "provenance": {
@@ -276,8 +273,7 @@
       "technologies": [
         "9-track tape",
         "spreadsheet",
-        "Internet",
-        "relational database"
+        "Internet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

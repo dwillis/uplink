@@ -259,9 +259,9 @@
         "Data & Databases"
       ],
       "technologies": [
-        "IBM-compatible PC",
+        "PC",
         "Nutshell",
-        "Data Times",
+        "DataTimes",
         "EX IQ"
       ],
       "provenance": {
@@ -289,9 +289,7 @@
         "Data & Databases",
         "Investigative Methods"
       ],
-      "technologies": [
-        "OSHA"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -317,9 +315,7 @@
         "Data & Databases",
         "Public Safety"
       ],
-      "technologies": [
-        "OSHA database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -349,7 +345,7 @@
         "EDGAR",
         "Internet",
         "World Wide Web",
-        "LEXIS-NEXIS"
+        "Nexis"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -433,8 +429,8 @@
         "Internet",
         "World Wide Web",
         "Netscape",
-        "listserv",
-        "e-mail"
+        "Listserv",
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -542,8 +538,8 @@
         "Technology"
       ],
       "technologies": [
-        "listserv",
-        "e-mail"
+        "Listserv",
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

@@ -142,13 +142,13 @@
         "Sparc",
         "Pine",
         "Usenet",
-        "Gopher",
+        "gopher",
         "Veronica",
         "Mosaic",
         "World Wide Web",
         "Unix",
         "Netra",
-        "telnet",
+        "Telnet",
         "Lynx"
       ],
       "provenance": {
@@ -179,9 +179,9 @@
       "technologies": [
         "Unix",
         "Internet",
-        "Gopher",
+        "gopher",
         "Mosaic",
-        "telnet"
+        "Telnet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -235,8 +235,7 @@
       ],
       "technologies": [
         "mainframe",
-        "PC",
-        "minicomputer"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -271,12 +270,12 @@
         "Aldus FreeHand",
         "Crosstalk",
         "PC Tools",
-        "Nine-Track Express",
+        "Nine Track Express",
         "SPSS",
         "SAS",
-        "Xywrite",
+        "XyWrite",
         "DOS",
-        "Windows 3.1",
+        "Windows",
         "OS/2",
         "CD-ROM",
         "modem/BBS"
@@ -335,11 +334,9 @@
       "technologies": [
         "CD-ROM",
         "magneto optical drives",
-        "tape drives",
+        "magnetic tape",
         "Power PC",
-        "Acer",
-        "IBM",
-        "mapping software",
+        "GIS",
         "Internet"
       ],
       "provenance": {
@@ -479,7 +476,7 @@
       ],
       "technologies": [
         "Internet",
-        "E-mail"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -508,8 +505,8 @@
       ],
       "technologies": [
         "Internet",
-        "E-mail",
-        "Bulletin boards"
+        "Email",
+        "modem/BBS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

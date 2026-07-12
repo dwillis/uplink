@@ -80,9 +80,9 @@
       ],
       "technologies": [
         "9-track tape",
-        "diskettes",
-        "PCs",
-        "MacIntosh"
+        "floppy disk",
+        "PC",
+        "Macintosh"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -111,12 +111,11 @@
       ],
       "technologies": [
         "9-track tape",
-        "IBM",
         "Paradox",
         "XDB",
         "Excel",
         "Macintosh",
-        "diskette"
+        "floppy disk"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

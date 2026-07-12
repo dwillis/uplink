@@ -22,9 +22,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "NTSB database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -52,7 +50,7 @@
       ],
       "technologies": [
         "Excel",
-        "Visual FoxPro",
+        "FoxPro",
         "Internet",
         "World Wide Web"
       ],
@@ -109,12 +107,10 @@
         "Excel",
         "Lotus 1-2-3",
         "Access",
-        "Visual FoxPro",
         "FoxPro",
         "Paradox",
         "FileMaker Pro",
-        "mapping software",
-        "statistical software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -142,7 +138,7 @@
         "Technology"
       ],
       "technologies": [
-        "CompuServ",
+        "CompuServe",
         "CD-ROM",
         "World Wide Web"
       ],
@@ -174,9 +170,7 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "Lexis/Nexis",
-        "FAA databases",
-        "NTSB databases",
+        "Nexis",
         "Aviation Safety Reporting System"
       ],
       "provenance": {
@@ -350,9 +344,8 @@
         "Data & Databases"
       ],
       "technologies": [
-        "spreadsheets",
-        "databases",
-        "Web"
+        "spreadsheet",
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -464,7 +457,7 @@
       "technologies": [
         "Access",
         "FoxPro",
-        "mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

@@ -270,9 +270,7 @@
         "Journalism & Newsroom",
         "Government & Politics"
       ],
-      "technologies": [
-        "FOIA"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -437,8 +435,7 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -491,7 +488,7 @@
       ],
       "technologies": [
         "Internet",
-        "e-mail"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -520,7 +517,6 @@
       ],
       "technologies": [
         "spreadsheet",
-        "database",
         "Internet"
       ],
       "provenance": {

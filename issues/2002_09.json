@@ -211,8 +211,7 @@
       ],
       "technologies": [
         "Excel",
-        "ArcView",
-        "ArcView 3.2"
+        "ArcView"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -245,7 +244,7 @@
         "Word",
         "Excel",
         "Internet",
-        "Lexis-Nexis",
+        "Nexis",
         "GuideStar"
       ],
       "provenance": {
@@ -359,7 +358,6 @@
       ],
       "technologies": [
         "FoxPro",
-        "Visual FoxPro",
         "Access",
         "Excel"
       ],

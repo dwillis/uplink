@@ -55,7 +55,7 @@
       ],
       "technologies": [
         "9-track tape",
-        "IBM 486",
+        "PC",
         "FoxPro"
       ],
       "provenance": {
@@ -85,8 +85,8 @@
       ],
       "technologies": [
         "Excel",
-        "Autotrak",
-        "Datatimes"
+        "AutoTrack",
+        "DataTimes"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -457,8 +457,7 @@
       "technologies": [
         "Internet",
         "PC",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -542,8 +541,7 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "Microsoft",
-        "Lotus",
+        "Lotus 1-2-3",
         "Internet"
       ],
       "provenance": {

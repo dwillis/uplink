@@ -23,8 +23,7 @@
         "Health & Environment"
       ],
       "technologies": [
-        "ArcView",
-        "Census 2000"
+        "ArcView"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -53,8 +52,7 @@
       ],
       "technologies": [
         "Excel",
-        "Internet",
-        "Web site"
+        "Internet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -111,8 +109,6 @@
         "Government & Politics"
       ],
       "technologies": [
-        "IRS migration data",
-        "U.S. Census Bureau",
         "FAA Aircraft Registry"
       ],
       "provenance": {
@@ -169,9 +165,7 @@
         "Data & Databases",
         "Journalism & Newsroom"
       ],
-      "technologies": [
-        "Federal Election Commission"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -223,9 +217,8 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
-        "mapping software"
+        "spreadsheet",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -252,9 +245,7 @@
         "Government & Politics",
         "Business & Economy"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "pre-v2",
         "extracted_at": "",
@@ -284,7 +275,7 @@
         "ArcView",
         "Spatial Analyst",
         "dBase",
-        "Visual Fox Pro",
+        "FoxPro",
         "Internet",
         "World Wide Web"
       ],
@@ -409,8 +400,7 @@
       ],
       "technologies": [
         "SAS",
-        "UltraEdit",
-        "tab-delimited format"
+        "UltraEdit"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -475,12 +465,11 @@
       ],
       "technologies": [
         "Linux",
-        "Red Hat",
         "SQL",
         "Access",
         "FoxPro",
-        "Microsoft Windows",
-        "Internet Information Server",
+        "Windows",
+        "IIS",
         "SQL Server",
         "Internet",
         "World Wide Web"

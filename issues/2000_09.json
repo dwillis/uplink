@@ -29,8 +29,8 @@
         "ArcView",
         "ArcInfo",
         "Excel",
-        "TIGER/Line",
-        "shapefiles"
+        "TIGER",
+        "shapefile"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -57,9 +57,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "database"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -90,7 +88,7 @@
         "ArcView",
         "spreadsheet",
         "TIGER",
-        "shapefiles"
+        "shapefile"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -146,8 +144,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "GIS",
-        "digital maps"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -173,9 +170,7 @@
         "Investigative Methods",
         "Technology"
       ],
-      "technologies": [
-        "mapping"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -202,7 +197,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Shapefiles",
+        "shapefile",
         "TIGER",
         "ArcView"
       ],
@@ -233,7 +228,6 @@
       ],
       "technologies": [
         "GIS",
-        "MAPS",
         "MapInfo",
         "Excel",
         "ArcView"

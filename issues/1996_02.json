@@ -293,7 +293,7 @@
         "MapInfo",
         "SPSS",
         "Procomm",
-        "Microsoft Word",
+        "Word",
         "WordPerfect",
         "Lotus 1-2-3",
         "Quattro Pro",
@@ -328,13 +328,11 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "Intel 80486",
-        "Intel Pentium",
+        "PC",
+        "Pentium",
         "Macintosh",
-        "Intel 80386",
         "DOS",
         "Windows",
-        "Windows 95",
         "CD-ROM"
       ],
       "provenance": {
@@ -647,8 +645,7 @@
         "Internet",
         "World Wide Web",
         "CD-ROM",
-        "spreadsheet",
-        "database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -704,7 +701,7 @@
       "technologies": [
         "Internet",
         "CompuServe",
-        "listserve",
+        "Listserv",
         "Email"
       ],
       "provenance": {

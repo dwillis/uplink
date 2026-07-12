@@ -52,9 +52,8 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Garmin eTrex Legend Global Positioning System",
-        "spreadsheet",
-        "Web-based reporting form"
+        "GPS",
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -82,8 +81,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "Excel",
-        "Web-based database"
+        "Excel"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -241,7 +239,7 @@
       ],
       "technologies": [
         "GIS",
-        "shapefiles"
+        "shapefile"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -326,7 +324,7 @@
       "technologies": [
         "ArcView",
         "Excel",
-        "Census TIGER",
+        "TIGER",
         "GIS"
       ],
       "provenance": {
@@ -388,7 +386,7 @@
         "Internet",
         "World Wide Web",
         "GIS",
-        "shapefiles"
+        "shapefile"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -443,8 +441,7 @@
       ],
       "technologies": [
         "mainframe",
-        "World Wide Web",
-        "terminal emulator"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

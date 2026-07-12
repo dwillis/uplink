@@ -57,8 +57,7 @@
         "ProfNet",
         "CompuServe",
         "modem/BBS",
-        "Internet",
-        "electronic archives"
+        "Internet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -86,7 +85,7 @@
         "Technology"
       ],
       "technologies": [
-        "Compuserve"
+        "CompuServe"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -210,9 +209,9 @@
       ],
       "technologies": [
         "World Wide Web",
-        "Gopher",
+        "gopher",
         "FTP",
-        "TELNET",
+        "Telnet",
         "Windows",
         "Macintosh",
         "DOS",
@@ -386,8 +385,8 @@
       ],
       "technologies": [
         "Usenet",
-        "email",
-        "listserv"
+        "Email",
+        "Listserv"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

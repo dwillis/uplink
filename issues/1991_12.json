@@ -52,11 +52,9 @@
       ],
       "technologies": [
         "mainframe",
-        "minicomputer",
         "ASCII",
         "EBCDIC",
-        "magnetic tape",
-        "database software"
+        "magnetic tape"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -144,7 +142,7 @@
         "6250 BPI",
         "Hewlett-Packard 3000",
         "mainframe",
-        "386 PC"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

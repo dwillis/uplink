@@ -165,8 +165,8 @@
       ],
       "technologies": [
         "Internet",
-        "USENET",
-        "Gopher",
+        "Usenet",
+        "gopher",
         "FedWorld",
         "Jughead",
         "Veronica",
@@ -230,7 +230,7 @@
       ],
       "technologies": [
         "9-track tape",
-        "3480/3490 cartridge tapes",
+        "magnetic tape",
         "Trakker 120",
         "Trakker 250",
         "CD-ROM",
@@ -289,7 +289,7 @@
       ],
       "technologies": [
         "Internet",
-        "email"
+        "Email"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -368,7 +368,7 @@
         "Technology"
       ],
       "technologies": [
-        "IBM mainframe",
+        "mainframe",
         "DOS",
         "Windows",
         "OS/2",
@@ -379,8 +379,8 @@
         "Quattro Pro",
         "FoxPro",
         "dBase",
-        "Word for Windows",
-        "Xywrite",
+        "Word",
+        "XyWrite",
         "Atlas GIS",
         "SAS",
         "SPSS",
@@ -411,7 +411,6 @@
         "Technology"
       ],
       "technologies": [
-        "IBM",
         "DOS",
         "Windows",
         "OS/2",
@@ -422,8 +421,8 @@
         "Quattro Pro",
         "FoxPro",
         "dBase",
-        "Word for Windows",
-        "Xywrite",
+        "Word",
+        "XyWrite",
         "Atlas GIS",
         "SAS",
         "SPSS",

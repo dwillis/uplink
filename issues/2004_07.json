@@ -226,10 +226,10 @@
       ],
       "technologies": [
         "Access",
-        "Microsoft SQL Server",
-        "Active Server Pages",
+        "SQL Server",
+        "ASP",
         "VBScript",
-        "Structured Query Language"
+        "SQL"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -466,8 +466,8 @@
       "technologies": [
         "Access",
         "Excel",
-        "Visual FoxPro",
-        "mapping software"
+        "FoxPro",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

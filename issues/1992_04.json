@@ -23,8 +23,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "XDB",
-        "scanner"
+        "XDB"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -111,10 +110,7 @@
         "Crime & Justice",
         "Public Safety"
       ],
-      "technologies": [
-        "OSHA records",
-        "computer analysis"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

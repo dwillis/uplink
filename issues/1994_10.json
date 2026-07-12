@@ -131,7 +131,7 @@
       ],
       "technologies": [
         "9-track tape",
-        "Nine-Track Express",
+        "Nine Track Express",
         "FoxPro"
       ],
       "provenance": {
@@ -162,7 +162,7 @@
       "technologies": [
         "9-track tape",
         "FoxPro",
-        "IBM 486"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -215,7 +215,7 @@
         "Business & Economy"
       ],
       "technologies": [
-        "IBM mainframe"
+        "mainframe"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -270,9 +270,7 @@
         "Investigative Methods",
         "Business & Economy"
       ],
-      "technologies": [
-        "mapping"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

@@ -51,12 +51,8 @@
       "technologies": [
         "9-track tape",
         "CD-ROM",
-        "databases",
-        "spreadsheets",
-        "statistics",
-        "diskettes",
-        "mapping",
-        "programming"
+        "spreadsheet",
+        "floppy disk"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -137,8 +133,7 @@
         "Business & Economy"
       ],
       "technologies": [
-        "spreadsheet",
-        "database"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -224,10 +219,8 @@
       "technologies": [
         "DOS",
         "Windows",
-        "spreadsheet programs",
-        "relational database software",
-        "Internet",
-        "statistical analysis software"
+        "spreadsheet",
+        "Internet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -256,7 +249,7 @@
       ],
       "technologies": [
         "9-track tape",
-        "3480 tape carts",
+        "magnetic tape",
         "Digital Audio Tape",
         "DAT",
         "Magneto-optical",
@@ -317,7 +310,7 @@
         "Government & Politics"
       ],
       "technologies": [
-        "Nine-Track Express"
+        "Nine Track Express"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -347,10 +340,8 @@
       "technologies": [
         "modem/BBS",
         "Internet",
-        "Spreadsheet",
-        "Database",
-        "Mapping software",
-        "Bulletin boards"
+        "spreadsheet",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

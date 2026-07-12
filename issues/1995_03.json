@@ -51,7 +51,7 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "FBI Uniform Crime Reports"
+        "Uniform Crime Reports"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -106,10 +106,10 @@
       ],
       "technologies": [
         "Paradox",
-        "IBM 386",
-        "diskette",
+        "PC",
+        "floppy disk",
         "ProfNet",
-        "electronic bulletin boards"
+        "modem/BBS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -218,9 +218,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "FBI data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -275,17 +273,14 @@
         "Technology"
       ],
       "technologies": [
-        "notebook computers",
-        "hard drives",
-        "floppy disc drives",
-        "RAM",
-        "tape drives",
+        "PC",
+        "floppy disk",
+        "magnetic tape",
         "CD-ROM",
         "PCMCIA",
-        "modems",
+        "modem/BBS",
         "SCSI",
         "Ethernet",
-        "docking stations",
         "Pentium"
       ],
       "provenance": {

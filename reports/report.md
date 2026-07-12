@@ -23,7 +23,7 @@
 - Missing summary: 0 (0.0%)
 - Missing keywords: 0 (0.0%)
 - Missing topics: 0 (0.0%)
-- Missing technologies: 385 (20.9%)
+- Missing technologies: 473 (25.7%)
 - author_title values that look like an affiliation (should move to `affiliation`): 0
 
 ## Unexplained schedule gaps

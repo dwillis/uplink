@@ -114,10 +114,8 @@
       ],
       "technologies": [
         "SQL",
-        "spreadsheets",
-        "database managers",
+        "spreadsheet",
         "Internet",
-        "mapping",
         "World Wide Web"
       ],
       "provenance": {
@@ -171,8 +169,7 @@
       ],
       "technologies": [
         "ArcView",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -200,7 +197,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Microsoft Excel 2003",
+        "Excel",
         "Access"
       ],
       "provenance": {
@@ -229,11 +226,8 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
+        "spreadsheet",
         "Internet",
-        "mapping",
-        "statistics",
         "SQL"
       ],
       "provenance": {
@@ -526,7 +520,7 @@
       "technologies": [
         "Access",
         "FoxPro",
-        "mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

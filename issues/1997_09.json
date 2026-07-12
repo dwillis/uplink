@@ -82,7 +82,7 @@
       ],
       "technologies": [
         "Paradox",
-        "Lexis-Nexis"
+        "Nexis"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -193,7 +193,7 @@
       ],
       "technologies": [
         "FoxPro",
-        "Pentium 133"
+        "Pentium"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -223,8 +223,8 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "listserv",
-        "e-mail"
+        "Listserv",
+        "Email"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -280,7 +280,7 @@
         "Data & Databases"
       ],
       "technologies": [
-        "Windows NT 4.0",
+        "Windows",
         "FoxPro"
       ],
       "provenance": {
@@ -392,7 +392,7 @@
       "technologies": [
         "SQL",
         "Access",
-        "Mapping software"
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

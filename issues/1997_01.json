@@ -23,18 +23,17 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "Lexis/Nexis",
+        "Nexis",
         "Dialog",
-        "Datatimes",
+        "DataTimes",
         "Dow Jones News Service",
         "Internet",
         "World Wide Web",
         "modem/BBS",
         "CompuServe",
         "America Online",
-        "Netscape Navigator",
-        "Microsoft Explorer",
-        "Database Technologies",
+        "Netscape",
+        "Internet Explorer",
         "CDB Infotek",
         "IRSC"
       ],
@@ -295,13 +294,11 @@
         "Technology"
       ],
       "technologies": [
-        "spreadsheets",
-        "database managers",
-        "mapping",
+        "spreadsheet",
         "9-track tape",
         "World Wide Web",
         "Internet",
-        "Intranets"
+        "Intranet"
       ],
       "provenance": {
         "extracted_by": "pre-v2",
@@ -330,8 +327,7 @@
       ],
       "technologies": [
         "Internet",
-        "spreadsheets",
-        "database managers"
+        "spreadsheet"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",

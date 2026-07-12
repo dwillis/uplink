@@ -78,7 +78,7 @@
       ],
       "technologies": [
         "Access",
-        "MapInfo Professional",
+        "MapInfo",
         "Excel"
       ],
       "provenance": {
@@ -245,7 +245,7 @@
       ],
       "technologies": [
         "Access",
-        "ESRI ArcView 3.2",
+        "ArcView",
         "CD-ROM"
       ],
       "provenance": {
@@ -339,7 +339,7 @@
         "Access",
         "Excel",
         "PACER",
-        "Adobe Portable Document Files"
+        "PDF"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -366,9 +366,7 @@
         "Data & Databases",
         "Business & Economy"
       ],
-      "technologies": [
-        "Census data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",

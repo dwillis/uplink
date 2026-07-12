@@ -150,9 +150,7 @@
         "Investigative Methods",
         "Data & Databases"
       ],
-      "technologies": [
-        "FAA enforcement data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -204,9 +202,7 @@
         "Public Safety"
       ],
       "technologies": [
-        "Web sites",
-        "World Wide Web",
-        "databases"
+        "World Wide Web"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -258,9 +254,7 @@
         "Public Safety",
         "Data & Databases"
       ],
-      "technologies": [
-        "Cross tabulation"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -340,9 +334,7 @@
         "Public Safety",
         "Data & Databases"
       ],
-      "technologies": [
-        "FAA data"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -454,8 +446,6 @@
       "technologies": [
         "Windows",
         "Google",
-        "FAA",
-        "NICAR",
         "AutoTrack",
         "IRE-L",
         "anywho.com",
@@ -652,7 +642,7 @@
         "Business & Economy"
       ],
       "technologies": [
-        "Visual FoxPro 6.0"
+        "FoxPro"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -786,7 +776,7 @@
       ],
       "technologies": [
         "Excel",
-        "Visual FoxPro",
+        "FoxPro",
         "SQL"
       ],
       "provenance": {
@@ -922,7 +912,6 @@
         "Journalism & Newsroom"
       ],
       "technologies": [
-        "Web site",
         "Internet"
       ],
       "provenance": {
@@ -951,11 +940,10 @@
         "Investigative Methods"
       ],
       "technologies": [
-        "ColdFusion Express",
+        "ColdFusion",
         "Access",
-        "Web server",
         "HTML",
-        "Microsoft SQL Server",
+        "SQL Server",
         "IIS",
         "ASP",
         "MySQL",

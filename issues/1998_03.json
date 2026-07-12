@@ -137,9 +137,7 @@
         "Data & Databases",
         "Public Safety"
       ],
-      "technologies": [
-        "FOIA"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
@@ -194,9 +192,7 @@
       "technologies": [
         "Nexis",
         "9-track tape",
-        "486",
-        "2-gig hard drive",
-        "400-meg hard drive"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -227,8 +223,7 @@
         "FoxPro",
         "Excel",
         "9-track tape",
-        "CD-ROM",
-        "database"
+        "CD-ROM"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -258,7 +253,7 @@
       "technologies": [
         "CD-ROM",
         "Access",
-        "486 computer"
+        "PC"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -287,9 +282,9 @@
       "technologies": [
         "Internet",
         "World Wide Web",
-        "Netscape Navigator",
-        "Microsoft Internet Explorer",
-        "Adobe Acrobat Reader",
+        "Netscape",
+        "Internet Explorer",
+        "Adobe Acrobat",
         "WinZip",
         "RealAudio",
         "RealVideo",

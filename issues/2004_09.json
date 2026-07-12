@@ -188,9 +188,8 @@
       ],
       "technologies": [
         "ArcView",
-        "spreadsheets",
-        "databases",
-        "geographic information systems"
+        "spreadsheet",
+        "GIS"
       ],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
@@ -222,7 +221,6 @@
         "PHP",
         "Python",
         "spreadsheet",
-        "database",
         "Internet",
         "World Wide Web"
       ],
@@ -332,8 +330,7 @@
         "Public Safety"
       ],
       "technologies": [
-        "ArcView 3.3",
-        "ArcView 8.3",
+        "ArcView",
         "Excel",
         "Adobe Illustrator"
       ],
@@ -362,9 +359,7 @@
         "Data & Databases",
         "Government & Politics"
       ],
-      "technologies": [
-        "mapping"
-      ],
+      "technologies": [],
       "provenance": {
         "extracted_by": "anthropic/claude-sonnet-4-6",
         "extracted_at": "2026-07-05",
