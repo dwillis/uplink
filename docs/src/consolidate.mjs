@@ -1,6 +1,44 @@
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import slugify from 'slugify';
+
+// Defensive re-application of the technology normalization that
+// src/normalize_technologies.py bakes into the corpus: the vocabulary
+// supplies canonical casing, explicit aliases override, "" drops the tag.
+function loadTechLookup(repoRoot) {
+  const lookup = new Map();
+  const vocabPath = join(repoRoot, 'data', 'technologies.json');
+  const aliasesPath = join(repoRoot, 'data', 'technology_aliases.json');
+  if (existsSync(vocabPath)) {
+    for (const v of JSON.parse(readFileSync(vocabPath, 'utf8'))) {
+      lookup.set(v.toLowerCase(), v);
+    }
+  }
+  if (existsSync(aliasesPath)) {
+    for (const [k, v] of Object.entries(JSON.parse(readFileSync(aliasesPath, 'utf8')))) {
+      lookup.set(k, v);
+    }
+  }
+  return lookup;
+}
+
+function normalizeTechnologies(technologies, lookup) {
+  const seen = new Set();
+  const out = [];
+  for (const tech of technologies || []) {
+    const stripped = tech.trim();
+    if (!stripped) continue;
+    const key = stripped.toLowerCase();
+    const canonical = lookup.has(key) ? lookup.get(key) : stripped;
+    if (canonical === '') continue;
+    const dedupeKey = canonical.toLowerCase();
+    if (!seen.has(dedupeKey)) {
+      seen.add(dedupeKey);
+      out.push(canonical);
+    }
+  }
+  return out;
+}
 
 const MONTH_ORDER = {
   january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
@@ -27,6 +65,7 @@ function normalizeMonth(month) {
 
 export function consolidate(repoRoot) {
   const issuesDir = join(repoRoot, 'issues');
+  const techLookup = loadTechLookup(repoRoot);
 
   const consolidated = [];
   const slugCounts = new Map();
@@ -70,7 +109,7 @@ export function consolidate(repoRoot) {
         keywords: a.keywords || [],
         full_text: a.full_text,
         topics: a.topics || [],
-        technologies: a.technologies || [],
+        technologies: normalizeTechnologies(a.technologies, techLookup),
         provenance: a.provenance || null,
         similar: [],
       });

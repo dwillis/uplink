@@ -28,6 +28,7 @@ DEFAULT_MODEL = "claude-haiku-4.5"
 
 TAXONOMY_PATH = DATA_DIR / "taxonomy.json"
 TECHNOLOGIES_PATH = DATA_DIR / "technologies.json"
+ALIASES_PATH = DATA_DIR / "technology_aliases.json"
 
 DEFAULT_TECHNOLOGIES = [
     "SPSS", "SAS", "FoxPro", "Paradox", "dBase", "Access", "Excel",
@@ -37,17 +38,24 @@ DEFAULT_TECHNOLOGIES = [
     "modem/BBS",
 ]
 
-TECHNOLOGY_ALIASES = {
-    "dbase iv": "dBase", "dbase": "dBase", "msaccess": "Access", "ms access": "Access",
-    "microsoft access": "Access", "microsoft excel": "Excel", "ms excel": "Excel",
-    "excel spreadsheet": "Excel", "spss/pc": "SPSS", "the internet": "Internet",
-    "world wide web": "World Wide Web", "www": "World Wide Web", "the web": "World Wide Web",
-    "bbs": "modem/BBS", "bulletin board": "modem/BBS", "modem": "modem/BBS",
-}
-
-
 def load_taxonomy():
     return json.loads(TAXONOMY_PATH.read_text())
+
+
+def load_aliases():
+    """Variant -> canonical map shared with src/normalize_technologies.py
+    and docs/src/consolidate.mjs. A "" target means drop the tag."""
+    if ALIASES_PATH.exists():
+        return json.loads(ALIASES_PATH.read_text())
+    return {}
+
+
+def build_lookup(aliases, vocab):
+    """Lowercase key -> canonical form. The vocabulary supplies canonical
+    casing; explicit aliases override (same as normalize_technologies.py)."""
+    lookup = {v.lower(): v for v in vocab}
+    lookup.update(aliases)
+    return lookup
 
 
 def load_technologies():
@@ -122,12 +130,13 @@ def clean_field(value):
     return "" if value.lower() in UNKNOWN_PLACEHOLDERS else value
 
 
-def normalize_technology(tech):
-    canonical = TECHNOLOGY_ALIASES.get(tech.strip().lower())
-    return canonical or tech.strip()
+def normalize_technology(tech, lookup):
+    stripped = tech.strip()
+    key = stripped.lower()
+    return lookup[key] if key in lookup else stripped
 
 
-def enrich_article(model, schema, system_prompt, article):
+def enrich_article(model, schema, system_prompt, article, lookup):
     prompt = (
         f"Headline: {article.get('headline', '')}\n"
         f"Byline: {article.get('author_name', '')} "
@@ -142,7 +151,9 @@ def enrich_article(model, schema, system_prompt, article):
     seen = set()
     technologies = []
     for tech in result.get("technologies", []):
-        canonical = normalize_technology(tech)
+        canonical = normalize_technology(tech, lookup)
+        if not canonical:
+            continue
         key = canonical.lower()
         if key not in seen:
             seen.add(key)
@@ -161,6 +172,7 @@ def main():
 
     taxonomy = load_taxonomy()
     technologies_vocab = load_technologies()
+    lookup = build_lookup(load_aliases(), technologies_vocab)
     system_prompt = build_system_prompt(taxonomy, technologies_vocab)
     schema = build_schema(taxonomy)
 
@@ -205,7 +217,7 @@ def main():
             label = article.get("headline", "")[:50]
             print(f"[{processed}/{len(to_process)}] {filepath.name}[{idx}] {label}...", end=" ", flush=True)
             try:
-                result = enrich_article(model, schema, system_prompt, article)
+                result = enrich_article(model, schema, system_prompt, article, lookup)
             except Exception as e:
                 print(f"ERROR: {e}")
                 errors += 1
