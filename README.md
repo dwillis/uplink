@@ -85,9 +85,6 @@ uv run llm keys set anthropic
 # Extract text from PDFs (only processes missing files)
 uv run python src/extract_pdf_pages.py --missing
 
-# Generate issue JSON from text (skips existing files with adequate content)
-uv run python src/convert_to_json.py claude-sonnet-4.6 --skip-existing
-
 # Re-extract issues flagged red/yellow in the report (or --all, or explicit stems)
 uv run python src/extract_articles.py --from-report
 
@@ -96,6 +93,9 @@ uv run python src/summarize_unmatched.py
 
 # Enrich with affiliation/topics/technologies
 uv run python src/extract_metadata.py
+
+# Verify technology tags are still normalized (see Utility scripts)
+uv run python src/normalize_technologies.py --check
 
 # Re-check
 uv run python src/report.py --check
@@ -127,6 +127,6 @@ Run `uv run python src/report.py` for current numbers. As of this pipeline rewor
 
 ## Utility scripts
 
-- `src/migrate.py` — One-time migration script used to consolidate the original separate article and summary JSON files into the unified `issues/` format.
-- `src/consolidate_text.py` — One-time script used to fill gaps in `text/` from alternate extraction sources.
+- `src/normalize_technologies.py` — Keeps the `technologies` field normalized against `data/technology_aliases.json`: `--dump` writes `reports/technology_variants.csv` for curation, `--apply` rewrites `issues/*.json`, `--check` exits nonzero on drift.
+- `docs/src/mint-ids.mjs` — Mints the permanent `id` for any article that lacks one (idempotent; existing ids are never touched): `node docs/src/mint-ids.mjs`.
 - `src/clean.py` — Flattens `issues/*.json` into a single-file format (`issues/cleaned_stories.json`, gitignored) for an external "Beat Book" pipeline: `uv run python src/clean.py issues/`.

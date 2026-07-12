@@ -30,10 +30,9 @@ import llm
 import pypdf
 
 sys.path.insert(0, os.path.dirname(__file__))
-from pipeline_common import parse_text_pages  # noqa: E402
+from pipeline_common import PDF_DIR, TEXT_DIR, parse_text_pages  # noqa: E402
 
-PDF_DIR = "pdfs"
-OUT_DIR = "text"
+OUT_DIR = TEXT_DIR
 MODEL = "anthropic/claude-sonnet-4-6"
 PROMPT = (
     "Extract all readable textual content from this PDF page. "
