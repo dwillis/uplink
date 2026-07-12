@@ -405,7 +405,7 @@ def assemble(stem):
             continue
 
         reused = extracted.get("reused", False)
-        new_articles.append({
+        merged = {
             "headline": item["headline"],
             "kicker": item.get("kicker", ""),
             "author_name": extracted.get("author_name") or old_article.get("author_name", ""),
@@ -423,7 +423,12 @@ def assemble(stem):
                                 if reused else date.today().isoformat(),
                 "verified": not extracted.get("unverified", False),
             },
-        })
+        }
+        # Permanent identifiers are minted once (docs/src/mint-ids.mjs) and
+        # must survive re-extraction of the issue.
+        if old_article.get("id"):
+            merged = {"id": old_article["id"], **merged}
+        new_articles.append(merged)
 
     new_data = {
         "schema_version": 2,

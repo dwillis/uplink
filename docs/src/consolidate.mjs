@@ -12,7 +12,7 @@ const MONTH_NAMES = [
   'july','august','september','october','november','december'
 ];
 
-function makeSlug(year, month, headline) {
+export function makeSlug(year, month, headline) {
   const base = `${year}-${month}-${headline}`;
   return slugify(base, { lower: true, strict: true });
 }
@@ -56,11 +56,13 @@ export function consolidate(repoRoot) {
       if (seen > 0) slug = `${slug}-${seen + 1}`;
 
       consolidated.push({
+        id: a.id || slug,
         slug,
         year,
         month,
         monthNum,
         headline: a.headline,
+        kicker: a.kicker || '',
         author_name: a.author_name || '',
         author_title: a.author_title || '',
         affiliation: a.affiliation || '',
@@ -69,6 +71,7 @@ export function consolidate(repoRoot) {
         full_text: a.full_text,
         topics: a.topics || [],
         technologies: a.technologies || [],
+        provenance: a.provenance || null,
         similar: [],
       });
     }
