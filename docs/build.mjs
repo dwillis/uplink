@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync, copyFileSync, existsSync } from 'fs';
+import { writeFileSync, mkdirSync, cpSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -13,8 +13,9 @@ const repoRoot = join(__dirname, '..');
 const buildDir = join(__dirname, 'build');
 
 mkdirSync(join(buildDir, 'data'), { recursive: true });
-mkdirSync(join(buildDir, 'css'), { recursive: true });
-mkdirSync(join(buildDir, 'js'), { recursive: true });
+
+console.log('\n=== Step 0: Copying static assets ===');
+cpSync(join(__dirname, 'static'), buildDir, { recursive: true });
 
 console.log('\n=== Step 1: Consolidating articles ===');
 let articles = consolidate(repoRoot);
