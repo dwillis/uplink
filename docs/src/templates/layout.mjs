@@ -19,6 +19,7 @@ export function layout({ title, content, bodyClass = '' }) {
         <a href="${BASE_PATH}/">Browse</a>
         <a href="${BASE_PATH}/topics/">Topics</a>
         <a href="${BASE_PATH}/search.html">Search</a>
+        <a href="${BASE_PATH}/data.html">Data</a>
       </nav>
     </div>
   </header>

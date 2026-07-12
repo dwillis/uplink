@@ -26,6 +26,7 @@ Each file in `issues/` follows this format:
   "month": "October",
   "articles": [
     {
+      "id": "1990-october-ghostbusting-in-east-st-louis",
       "headline": "Ghostbusting in East St. Louis",
       "kicker": "",
       "author_name": "George Landau",
@@ -42,7 +43,16 @@ Each file in `issues/` follows this format:
 }
 ```
 
-`author_title` is a job title only; `affiliation` is the publication or organization. All 145 issues are on schema v2 as of this pipeline rework; `src/report.py` and the site build also tolerate the older v1 shape (no `schema_version`, `author_title` sometimes holding an affiliation, no `topics`/`technologies`) in case of future partial re-extraction.
+`author_title` is a job title only; `affiliation` is the publication or organization. `id` is the article's permanent identifier: minted once by `node docs/src/mint-ids.mjs` (from the same slug logic the site uses) and never regenerated, so it survives headline corrections and re-extraction. All 145 issues are on schema v2 as of this pipeline rework; `src/report.py` and the site build also tolerate the older v1 shape (no `schema_version`, `author_title` sometimes holding an affiliation, no `topics`/`technologies`) in case of future partial re-extraction.
+
+## Data exports
+
+The site build publishes the corpus as JSON, documented at [dwillis.github.io/uplink/data.html](https://dwillis.github.io/uplink/data.html):
+
+- [`data/uplink-articles.json`](https://dwillis.github.io/uplink/data/uplink-articles.json) — every article in one file (~8 MB), full text included.
+- `article/{slug}.json` — one file per article next to its HTML page, with related-article links; every article page links to its JSON version.
+
+The `technologies` field is normalized against `data/technologies.json` (canonical vocabulary) and `data/technology_aliases.json` (variant → canonical map), which makes it usable for tracing tool adoption across the corpus's sixteen years — 9-track tapes to spreadsheets to the web to scripting.
 
 ## Pipeline
 

@@ -64,6 +64,7 @@ export function renderArticleDetail(article, allArticles) {
       ${article.author_name ? `<span class="author">${escapeHtml(article.author_name)}</span>` : ''}
       ${article.author_title ? `<span class="author-title">${escapeHtml(article.author_title)}</span>` : ''}
       <span class="date">${escapeHtml(article.month)} ${article.year}</span>
+      <a href="${BASE_PATH}/article/${escapeHtml(article.slug)}.json" class="article-json-link">View as JSON</a>
     </div>
     <div class="article-topics">${topicBadges(article.topics)}</div>
   </header>

@@ -6,6 +6,7 @@ import { renderArticleDetail } from './templates/article-detail.mjs';
 import { renderTopicList } from './templates/topic-list.mjs';
 import { renderTopicDetail } from './templates/topic-detail.mjs';
 import { renderSearchPage } from './templates/search-page.mjs';
+import { renderDataPage } from './templates/data-page.mjs';
 
 function write(filePath, content) {
   mkdirSync(filePath.replace(/\/[^/]+$/, ''), { recursive: true });
@@ -45,4 +46,8 @@ export function render(articles, topicIndex, topicNames, buildDir) {
   // search.html
   write(join(buildDir, 'search.html'), renderSearchPage());
   console.log('Written: search.html');
+
+  // data.html
+  write(join(buildDir, 'data.html'), renderDataPage(articles.length));
+  console.log('Written: data.html');
 }

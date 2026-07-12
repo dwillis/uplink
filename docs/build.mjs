@@ -6,6 +6,7 @@ import { consolidate } from './src/consolidate.mjs';
 import { assignAllTopics } from './src/topics.mjs';
 import { computeSimilarity } from './src/similarity.mjs';
 import { buildSearchIndex } from './src/search-index.mjs';
+import { writeExports } from './src/exports.mjs';
 import { render } from './src/render.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -44,6 +45,9 @@ writeFileSync(
   'utf8'
 );
 console.log(`Written: data/articles.json (${articlesLight.length} articles)`);
+
+console.log('\n=== Step 4b: Writing JSON exports ===');
+writeExports(articles, buildDir);
 
 console.log('\n=== Step 5: Rendering HTML ===');
 render(articles, topicIndex, topicNames, buildDir);
